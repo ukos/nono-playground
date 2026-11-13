@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>NONO 遊び方</title>
+<meta name="theme-color" content="#141a2e">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-180.png">
+<style>
+/* layout: one reading column under a night-to-dawn sky band; the game screenshot sits in a pixel frame */
+:root{
+  --night:#141a2e; --night2:#1f2742; --dawn:#f0a24a; --dawn2:#f6d27a; --ink:#ece6da; --dim:#a8a3b8; --line:#39405e; --leaf:#7fc46a;
+  --f-body:"Hiragino Sans","Hiragino Kaku Gothic ProN","Yu Gothic Medium","游ゴシック Medium",YuGothic,Meiryo,sans-serif;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--night);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.85;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-bottom:env(safe-area-inset-bottom,0px)}
+.wrap{max-width:720px;margin:0 auto;padding-block:0 64px;display:flex;flex-direction:column;gap:48px}
+header{padding-block:calc(40px + env(safe-area-inset-top,0px)) 8px;background:linear-gradient(180deg,var(--night) 0%,var(--night2) 55%,#5a3a4a 85%,var(--dawn) 100%);
+  margin-inline:calc(-1*max(16px,env(safe-area-inset-left,0px)));padding-inline:max(16px,env(safe-area-inset-left,0px))}
+header .in{max-width:720px;margin:0 auto;display:flex;flex-direction:column;gap:14px;padding-bottom:40px}
+.eyebrow{color:var(--dawn2);letter-spacing:.2em;font-size:13px}
+h1{font-weight:700;font-size:clamp(34px,8vw,56px);line-height:1.15;margin:0;text-wrap:balance;letter-spacing:.02em}
+h1 small{display:block;font-size:.4em;color:var(--dawn2);margin-top:8px;letter-spacing:.08em;font-weight:500}
+.lead{margin:0;max-width:34em;color:#f2ead8}
+.play{align-self:flex-start;display:inline-flex;align-items:center;gap:10px;font-size:18px;font-weight:700;color:#2a1608;background:var(--dawn2);
+  border:3px solid #2a1608;box-shadow:4px 4px 0 #2a1608;padding:10px 22px;text-decoration:none}
+.play:hover{background:#fff0b8}.play:focus-visible{outline:3px solid var(--leaf);outline-offset:3px}
+.toc{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:14px}
+.toc a{color:var(--dawn2);text-decoration:none;border-bottom:1px dotted var(--dawn2)}
+.shot{margin:0;border:4px solid #0a0d18;box-shadow:0 0 0 2px var(--dawn),8px 8px 0 #0a0d18;max-width:100%}
+.shot img{display:block;width:100%;height:auto;image-rendering:pixelated}
+.shot figcaption{font-size:13px;color:var(--dim);background:#0a0d18;padding:6px 10px}
+h2{font-weight:700;font-size:23px;margin:0 0 12px;color:var(--dawn2);display:flex;align-items:center;gap:10px;scroll-margin-top:16px}
+h2::before{content:"";width:12px;height:12px;background:var(--dawn);box-shadow:3px 3px 0 #6a3a1a;flex:none}
+h3{margin:0;font-size:16px;color:var(--dawn2)}
+section p{margin:0 0 12px}
+.note{font-size:14px;color:var(--dim)}
+.tbl{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:15px}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-weight:700;color:var(--dim);font-size:13px;letter-spacing:.05em}
+kbd{font-family:inherit;font-size:13px;background:var(--night2);border:1px solid var(--line);border-bottom-width:3px;padding:1px 6px;color:var(--ink);white-space:nowrap}
+ul,ol{margin:0;padding-left:1.3em}li{margin-bottom:6px}
+.swords{display:flex;flex-wrap:wrap;gap:6px 0;align-items:center;font-size:14px}
+.swords span{padding:2px 8px;background:var(--night2);border:1px solid var(--line)}
+.swords i{color:var(--dawn);font-style:normal;padding:0 4px}
+.swords .last{background:var(--dawn2);color:#2a1608;border-color:#2a1608}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:14px}
+.box{background:var(--night2);border:1px solid var(--line);padding:14px 16px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.box p{margin:0;font-size:14px;color:var(--ink)}
+.box .how{font-size:13px;color:var(--dim)}
+.credits{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr);gap:6px 18px;font-size:15px;margin:0}
+.credits dt{color:var(--dim);font-size:13px;padding-top:2px}
+.credits dd{margin:0}
+.share{display:flex;flex-direction:column;gap:16px}
+textarea{width:100%;min-height:120px;background:var(--night);color:var(--ink);border:1px solid var(--line);font:14px/1.7 var(--f-body);padding:10px;resize:vertical}
+.copy{align-self:flex-start;font:14px var(--f-body);background:transparent;color:var(--dawn2);border:2px solid var(--dawn2);padding:4px 14px;cursor:pointer}
+.copy:hover{background:#2c2a3a}.copy:focus-visible{outline:2px solid var(--leaf);outline-offset:2px}
+footer{font-size:13px;color:var(--dim);text-align:center}
+@media (max-width:480px){.credits{grid-template-columns:1fr}.credits dd{margin-bottom:8px}}
+@media (prefers-reduced-motion:no-preference){.play{transition:transform .1s}.play:active{transform:translate(2px,2px);box-shadow:2px 2px 0 #2a1608}}
+</style>
+</head>
+<body>
+<header><div class="in">
+  <div class="eyebrow">2D ACTION ADVENTURE</div>
+  <h1>NONO<small>Blade of the Dawn</small></h1>
+  <p class="lead">黄昏に呑まれかけた大地を、少年nonoが旅する見下ろし型のアクションアドベンチャー。剣は旅のなかで育ち、最後に「暁の聖剣」になる。</p>
+  <a class="play" href="./">▶ ゲームをはじめる</a>
+  <nav class="toc" aria-label="もくじ">
+    <a href="#start">遊びはじめ方</a><a href="#story">物語</a><a href="#keys">操作</a><a href="#tips">旅のこつ</a><a href="#world">冒険の広がり</a><a href="#after">クリアのあとで</a><a href="#staff">スタッフ</a>
+  </nav>
+</div></header>
+
+<div class="wrap">
+  <figure class="shot"><img alt="はじまりの野。nonoのそばにユイとレイ、宝箱とスライムが見える" src="howto-shot.png" width="512" height="449"><figcaption>はじまりの野。近くの宝箱を開けるところから旅がはじまる。</figcaption></figure>
+
+  <section>
+    <h2 id="start">遊びはじめ方（iPhone）</h2>
+    <ol>
+      <li>Safari でゲームのページを開く。</li>
+      <li>共有ボタンを押して「ホーム画面に追加」を選ぶ。</li>
+      <li>ホーム画面のアイコンから起動する。ブラウザのバーが出ない全画面で遊べる。</li>
+    </ol>
+    <p class="note" style="margin-top:12px">セーブはその端末の中に自動で保存される。Safari で開いた場合とホーム画面のアイコンから開いた場合ではセーブが別々になるので、遊ぶ場所はどちらか一方に決めておく。ブラウザの閲覧データを消すとセーブも消える。新しい版は、ネットにつながっているときに開けば自動で届く。</p>
+  </section>
+
+  <section>
+    <h2 id="story">物語</h2>
+    <p>古い伝説の大悪魔・蚩尤がよみがえり、世界の端から黄昏の霧が広がりはじめた。はじまりの野で目を覚ましたnonoは、戦うヒロインのユイと、その影に潜む女忍者レイに出会い、各地の神殿に眠る封印の宝を集める旅に出る。</p>
+    <p>道中では、十二支の獣たちをはじめ15人のライバルが立ちはだかる。勝つたびに剣が鍛えられ、ライバルたちは最終決戦に駆けつけてくれる。封印の宝を4つそろえたら、黄昏の城で蚩尤と向き合うことになる。</p>
+  </section>
+
+  <section>
+    <h2 id="keys">操作</h2>
+    <div class="tbl"><table>
+      <thead><tr><th>動き</th><th>キーボード</th><th>スマホ</th></tr></thead>
+      <tbody>
+        <tr><td>移動</td><td><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> または矢印</td><td>左の十字パッド</td></tr>
+        <tr><td>攻撃</td><td><kbd>J</kbd> または <kbd>Space</kbd></td><td>攻撃ボタン</td></tr>
+        <tr><td>必殺技</td><td>攻撃を長押しして離す</td><td>攻撃ボタンを長押し</td></tr>
+        <tr><td>走る／回避</td><td><kbd>K</kbd> 長押しで走る、短く押すと回避（<kbd>Shift</kbd> でも走る）</td><td>走るボタン</td></tr>
+        <tr><td>魔法</td><td><kbd>L</kbd></td><td>魔法ボタン</td></tr>
+        <tr><td>道具</td><td><kbd>U</kbd></td><td>道具ボタン</td></tr>
+        <tr><td>持ち替え</td><td><kbd>1</kbd> 武器　<kbd>2</kbd> 魔法　<kbd>3</kbd> 道具</td><td>画面上の枠をタップ</td></tr>
+        <tr><td>地図</td><td><kbd>M</kbd></td><td>右上の「地図」</td></tr>
+        <tr><td>話す</td><td>人に向かって少し押し続ける</td><td>同じ</td></tr>
+      </tbody>
+    </table></div>
+    <p class="note" style="margin-top:12px">スマホは横向きにすると、ゲーム画面が大きくなり、操作ボタンが左右に分かれる。音は最初にタップかキーを押したときから鳴る。</p>
+  </section>
+
+  <section>
+    <h2 id="tips">旅のこつ</h2>
+    <ul>
+      <li>地図を開くと、いちばん上に「次の目的」が出る。迷ったらまずここを見る。</li>
+      <li>まず、はじまりの野の隠し洞窟（入口は茂み）で「無名の剣」を見つける。この剣を持ってライバルに勝つたびに剣が育ち、姿ごとに固有の必殺技を持つ。</li>
+      <li>段差は端から飛び降りられる。高い崖は壁に向かって押し続けると登れる。</li>
+      <li>崖の端から進むと、グライダーで滑空できる。グライダーは、はじまりの野の北の丘の「押しの祠」で手に入る。</li>
+      <li>火の魔法で燭台をともし、草を燃やす。氷の魔法で水や溶岩を固めて渡る。ひびの入った岩は爆弾で、杭にはフックで飛び移る。</li>
+      <li>ライバルは構えたあとに斬りかかってくる。構えを見たら横へよけ、すきに斬る。</li>
+      <li>体力が減ったら、きのこや木の実を道具として使う。各地方の温泉に入ると、体力がすべて回復する。地図の ♨ が目印で、一度行った温泉や町にはワープできる。</li>
+      <li>寒い山や熱い火山では、ハートが少しずつ減る。町の料理や、その地方の宝の道具・防具で防ぐ。</li>
+      <li>夜はコウモリや提灯お化けが出て、受けるダメージも少し増える。村人は家に帰るので、夜に会いたい人は家の中を訪ねよう。宿屋に泊まると、20ルピーで体力がすべて回復し、次の朝になる。</li>
+      <li>どの地方にも、隠し洞窟・小さな祠・挑戦・頼みごとがある。初めてやりとげるとハートのかけらがもらえ、4つでハートが1つ増える。</li>
+      <li>セーブは自動。</li>
+    </ul>
+    <p style="margin-top:14px">剣の育ち方（15段階）</p>
+    <div class="swords"><span>無名の剣</span><i>→</i><span>偃月刀</span><i>→</i><span>ロングソード</span><i>→</i><span>…</span><i>→</i><span class="last">暁の聖剣</span></div>
+  </section>
+
+  <section>
+    <h2 id="world">冒険の広がり</h2>
+    <p>本筋のほかにも、寄り道がたくさんある。どれもいつ始めてもよい。</p>
+    <div class="cards">
+      <div class="box"><h3>15の防具と光の防具</h3><p>各地方の小さな祠の奥に防具が眠っている。寒さや熱さを防ぐもの、泳ぎが速くなるもの、暗い部屋でも見えるものなど。15がそろうと1つに溶け合い「光の防具」になる。</p><p class="how">集めた防具は地図の「装備」欄で見られる。</p></div>
+      <div class="box"><h3>ユイとレイ</h3><p>旅の途中で、ふいに2人が現れる。ハートを回復し、しばらくいっしょに戦ってくれる。3回会うと「箱庭の試練箱」を託される。</p></div>
+      <div class="box"><h3>馬と風の龍</h3><p>はじまりの村の馬小屋で馬に乗れる。天嶺の霊峰に住む風の龍を鎮めると「龍笛」がもらえ、龍の背に乗って山も海も越えて空を飛べる。</p></div>
+      <div class="box"><h3>大迷宮</h3><p>はじまりの村の西の石のアーチの奥。入るたびに形が変わる地下迷宮で、最奥は地下11〜20階。罠や拾い物、階段の番人をくぐり抜けた先に、聖剣15本と星座の宝物が眠る。</p><p class="how">持ち込めるのは武器1本・料理3個・弓と矢10本まで。</p></div>
+      <div class="box"><h3>六つの空の島</h3><p>龍に乗って、空に浮かぶ島へ。歌う石、謎かけ、夜だけの封、供物、灯り、巡り。島ごとの試練を解くと星座の宝物がもらえる。</p></div>
+      <div class="box"><h3>釣りと料理</h3><p>町の行商人で釣竿を買うと、水辺で魚が釣れる。海・川・湖・沼・深海に48種。宿屋や温泉でユイに料理してもらうか、野営セットでキャンプの火をたいて料理すると、持ち歩ける回復になる。釣った種類が増えると、ペットの鳥もなつく。なついた犬は宝物庫の番犬になる。</p></div>
+      <div class="box"><h3>大陸鉄道</h3><p>大溪谷の坑道で「黄金のつるはし」を手に入れると、14の町の駅の技師が線路を引いてくれる。町どうしをつなぐと、魔導列車で行き来でき、毎朝特産品の交易で収入が入る。</p></div>
+      <div class="box"><h3>星座の宝物89種</h3><p>大迷宮の最奥、交易、空の島、夜の流れ星、星の行商人、偉業の証。集めた像は宝物庫に並び、89種そろうと「星の加護」でハートが増える。</p></div>
+      <div class="box"><h3>箱庭の試練箱</h3><p>道具ボタンで開く小さな庭。ユイとレイ、そしてnonoが主役の11のミニゲームで遊べる。夜の球場でライバルを三振に取る投球や、レバーで道を作る大灯籠の組み上げもある。ライバルとの連戦もある。クリアするとユイとレイの武器が強くなり、2人の衣装、nonoの衣装・魔術書・ペットの猫と犬・グライダーの見た目がもらえる。</p><p class="how">難しさは3段階。ランクは銅・銀・金・星。</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2 id="after">クリアのあとで</h2>
+    <ul>
+      <li><b>冒険の続き</b>：蚩尤を倒したあとも旅を続けられる。終末の大地の空も晴れる。</li>
+      <li><b>図鑑</b>：倒した敵・ボス・ライバル100種が絵と名前で記録される。地図の画面の「図鑑を見る」から開く。</li>
+      <li><b>強敵モード</b>：蚩尤を倒すと設定画面に現れる。敵の体力が1.6倍、受けるダメージが1.5倍になる。</li>
+      <li><b>エンディング</b>：設定画面の「エンディングを見る」で、いつでも見直せる。</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2 id="staff">スタッフ</h2>
+    <dl class="credits">
+      <dt>Game Design</dt><dd>uko, Claude</dd>
+      <dt>World Design</dt><dd>uko, Claude</dd>
+      <dt>Scenario Writer</dt><dd>uko</dd>
+      <dt>Programming</dt><dd>Claude (Claude Code)</dd>
+      <dt>Mini-Game Concept</dt><dd>Claude</dd>
+      <dt>Background Art</dt><dd>Claude</dd>
+      <dt>Character Concept</dt><dd>uko, Claude</dd>
+      <dt>Character Design Brief</dt><dd>Claude</dd>
+      <dt>Character Illustration</dt><dd>Gemini, Grok, ChatGPT, Leonardo.AI</dd>
+      <dt>Title Logo Design</dt><dd>Leonardo.AI</dd>
+      <dt>Music &amp; Sound</dt><dd>Claude</dd>
+      <dt>Testing</dt><dd>uko, Claude</dd>
+      <dt>Special Thanks</dt><dd>遊んでくれたあなた</dd>
+    </dl>
+  </section>
+
+  <section class="share">
+    <h2>紹介文</h2>
+    <div class="box">
+      <h3>短い紹介（SNS向け）</h3>
+      <textarea id="s1" readonly>少年nonoが黄昏に呑まれかけた大地を旅する、見下ろし型2Dアクションアドベンチャー「NONO: Blade of the Dawn」をつくりました。剣は旅のなかで育ち、最後は暁の聖剣に。iPhoneのホーム画面に追加して遊べます。 #NONO暁の剣 #インディーゲーム</textarea>
+      <button class="copy" type="button" data-t="s1">コピー</button>
+    </div>
+    <div class="box">
+      <h3>長い紹介（ゲームの説明欄向け）</h3>
+      <textarea id="s2" readonly style="min-height:240px">NONO: Blade of the Dawn
+
+古い伝説の大悪魔・蚩尤がよみがえり、世界の端から黄昏の霧が広がりはじめた。少年nonoは、ユイとレイとともに各地の神殿に眠る封印の宝を集める旅に出る。
+
+・つながった16の地方を、自由な順で巡る
+・15人のライバルに勝つたびに剣が育ち、15の姿と必殺技を経て「暁の聖剣」へ
+・各地の小さな祠に眠る15の防具。そろえると光の防具に
+・馬に乗り、風の龍の背で空を飛ぶ
+・入るたびに形が変わる大迷宮、六つの空の島、14の町を結ぶ大陸鉄道
+・星座の宝物89種を集めて宝物庫に飾る
+・水辺で釣り（48種）、宿屋や温泉で料理（15品）
+・ユイとレイ、nonoが主役の11のミニゲーム「箱庭の試練箱」。衣装やペット、グライダーの見た目ももらえる
+・昼と夜、天気と風、温泉と宿屋。スーパーファミコン風の多重音のBGMと効果音
+・クリア後は図鑑100種と強敵モード
+
+ブラウザだけで遊べます（キーボード／スマホ両対応、横向き画面対応）。</textarea>
+      <button class="copy" type="button" data-t="s2">コピー</button>
+    </div>
+  </section>
+
+  <footer>NONO: Blade of the Dawn ／ 2026　·　<a href="./" style="color:var(--dawn2)">ゲームへ</a></footer>
+</div>
+<script>
+document.querySelectorAll('.copy').forEach(b=>b.addEventListener('click',()=>{const t=document.getElementById(b.dataset.t);
+  const done=()=>{b.textContent='コピーしました';setTimeout(()=>b.textContent='コピー',1600)};
+  try{navigator.clipboard.writeText(t.value).then(done,()=>{t.focus();t.select()})}catch(e){t.focus();t.select()}}));
+</script>
+</body>
+</html>
