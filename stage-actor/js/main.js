@@ -11,8 +11,17 @@ const $ = (s) => document.querySelector(s);
 const el = {
   title: $('#title'), list: $('#work-list'), stage: $('#stage'), bg: $('#bg'), actors: $('#actors'),
   bubble: $('#bubble'), win: $('#window'), choices: $('#choices'), curtain: $('#curtain'),
-  playbill: $('#curtain .playbill'), toTitle: $('#to-title'), error: $('#error'),
+  playbill: $('#curtain .playbill'), curtainArt: $('#curtain .art'), toTitle: $('#to-title'), error: $('#error'),
 };
+const THEATER = ['theater/curtain.png', 'theater/frame.png'];
+
+/** 幕と額縁は画面の高さに合わせて中央に置く（飾り幕と床が必ず見える。横長の画面では左右が暗く、縦向きでは左右が切れる） */
+function layoutCurtain() {
+  const vw = el.stage.clientWidth;
+  const vh = el.stage.clientHeight;
+  const s = vh / STAGE_H;
+  el.curtainArt.style.transform = `translate(${(vw - STAGE_W * s) / 2}px, ${(vh - STAGE_H * s) / 2}px) scale(${s})`;
+}
 
 let actorsDb = null;
 let works = [];
@@ -83,12 +92,13 @@ async function openWork(id) {
   const costumes = {};
   for (const c of script.cast || []) (costumes[c.actor] ||= new Set(['default'])).add(c.costume || 'default');
   for (const s of script.steps) if (s.op === 'show' && s.costume) (costumes[s.actor] ||= new Set(['default'])).add(s.costume);
-  const urls = Object.values(script.backgrounds || {}).map((p) => base + p);
+  const urls = [...THEATER, ...Object.values(script.backgrounds || {}).map((p) => base + p)];
   for (const [a, set] of Object.entries(costumes)) urls.push(...allLayersFor(actorsDb, a, [...set]));
 
   el.title.hidden = true;
   el.stage.hidden = false;
   el.curtain.classList.remove('open');
+  layoutCurtain();
   el.playbill.textContent = script.meta?.title || id;
   busy = true;
   actorEls.clear();
@@ -96,7 +106,7 @@ async function openWork(id) {
   await Promise.all([preload(urls), new Promise((r) => setTimeout(r, 900))]);
   render();
   el.curtain.classList.add('open');
-  setTimeout(() => { busy = false; }, 1400);
+  setTimeout(() => { busy = false; }, 1600);
 }
 
 /* ---------- 描画 ---------- */
@@ -252,7 +262,7 @@ window.addEventListener('keydown', (e) => {
   else if (['ArrowRight', 'Backspace'].includes(e.key)) { e.preventDefault(); back(); }
   else if (e.key === 'Escape') goTitle();
 });
-window.addEventListener('resize', () => render());
+window.addEventListener('resize', () => { layoutCurtain(); render(); });
 
 /* ---------- 起動 ---------- */
 
