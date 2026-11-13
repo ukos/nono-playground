@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "canvas": { "bust": [768, 1024], "full": [768, 1152], "dot": 4 },
+  "eyes": ["normal", "joy", "anger", "sorrow", "fun", "surprise", "crying", "closed"],
+  "mouths": ["normal", "open", "clenched", "sulky"],
+  "actors": [
+    {
+      "id": "nono",
+      "name": "nono",
+      "faceMode": "layered",
+      "hasMouth": true,
+      "costumes": { "default": { "full": true } },
+      "parts": {
+        "eyes": ["normal", "joy", "anger", "sorrow", "fun", "surprise", "crying", "closed"],
+        "mouth": ["normal", "open", "clenched", "sulky"]
+      },
+      "sources": [
+        { "files": "*", "from": "dummy", "method": "tools/make_dummy_assets.py", "date": "2026-11-14", "note": "仮素材。表情テスト合格後に差し替え" }
+      ]
+    },
+    {
+      "id": "rei",
+      "name": "レイ",
+      "faceMode": "layered",
+      "hasMouth": false,
+      "costumes": { "default": { "full": false } },
+      "parts": {
+        "eyes": ["normal", "joy", "anger", "sorrow", "fun", "surprise", "crying", "closed"],
+        "mouth": []
+      },
+      "sources": [
+        { "files": "*", "from": "dummy", "method": "tools/make_dummy_assets.py", "date": "2026-11-14", "note": "仮素材" }
+      ]
+    },
+    {
+      "id": "yoru",
+      "name": "ヨル",
+      "faceMode": "layered",
+      "hasMouth": true,
+      "costumes": { "default": { "full": false }, "travel": { "full": false } },
+      "parts": {
+        "eyes": ["normal", "joy", "anger", "sorrow", "fun", "surprise", "crying", "closed"],
+        "mouth": ["normal", "open", "clenched", "sulky"]
+      },
+      "sources": [
+        { "files": "*", "from": "dummy", "method": "tools/make_dummy_assets.py", "date": "2026-11-14", "note": "仮素材。travel は衣装切り替えの検証用" }
+      ]
+    }
+  ]
+}

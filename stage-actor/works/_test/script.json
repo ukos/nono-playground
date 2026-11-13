@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "id": "_test",
+    "title": "テスト公演",
+    "original": "基盤の動作確認用（オリジナル）",
+    "adaptation": "free",
+    "minutes": 3,
+    "synopsis": "全コマンド・表情・衣装・分岐・全画面表示を一通り通す検証用の脚本。"
+  },
+  "cast": [
+    { "role": "案内役", "actor": "nono", "costume": "default" },
+    { "role": "影の者", "actor": "rei", "costume": "default" },
+    { "role": "旅の猫", "actor": "yoru", "costume": "default" }
+  ],
+  "backgrounds": {
+    "grove": "bg/grove.png",
+    "hall": "bg/hall.png",
+    "vista": "bg/vista.png"
+  },
+  "steps": [
+    { "op": "bg", "name": "vista", "mode": "full" },
+    { "op": "nar", "text": "【全画面の風景】遠くに山並みが見える。左タップで進み、右タップで戻る。" },
+    { "op": "bg", "name": "grove" },
+    { "op": "show", "actor": "nono", "pos": "left" },
+    { "op": "say", "actor": "nono", "text": "通常の顔です。目元と口元は省略すると normal。" },
+    { "op": "say", "actor": "nono", "eyes": "joy", "mouth": "open", "text": "喜びの目と、開いた口。" },
+    { "op": "say", "actor": "nono", "eyes": "anger", "mouth": "clenched", "text": "怒りの目と、噛み締めた口。" },
+    { "op": "say", "actor": "nono", "eyes": "sorrow", "mouth": "sulky", "text": "哀しみの目と、いじけた口。" },
+    { "op": "show", "actor": "rei", "pos": "right" },
+    { "op": "say", "actor": "rei", "eyes": "fun", "text": "口元の無い役者です。ウインクは向かって右の目。" },
+    { "op": "say", "actor": "rei", "eyes": "crying", "mouth": "open", "text": "口元の指定は無視されます。号泣の涙は顔布の上へ。" },
+    { "op": "show", "actor": "yoru", "pos": "center" },
+    { "op": "say", "actor": "yoru", "eyes": "surprise", "mouth": "open", "text": "驚きの目。三人並ぶと、後から出た者が手前。" },
+    { "op": "choice", "text": "どちらへ進む？", "options": [
+      { "text": "広間へ（衣装替えを見る）", "jump": "hall", "set": "visited_hall" },
+      { "text": "森に残る（全身表示を見る）", "jump": "stay" }
+    ] },
+
+    { "op": "label", "name": "hall" },
+    { "op": "bg", "name": "hall" },
+    { "op": "hide", "actor": "rei" },
+    { "op": "show", "actor": "yoru", "pos": "right", "costume": "travel" },
+    { "op": "say", "actor": "yoru", "eyes": "closed", "text": "旅装束に着替えた。目元・口元のパーツは共通。" },
+    { "op": "jump", "to": "join" },
+
+    { "op": "label", "name": "stay" },
+    { "op": "hide" },
+    { "op": "show", "actor": "nono", "pos": "center", "view": "full" },
+    { "op": "say", "actor": "nono", "text": "全身表示。全身の絵がある衣装だけ有効です。" },
+    { "op": "show", "actor": "yoru", "pos": "right", "view": "full" },
+    { "op": "say", "actor": "yoru", "eyes": "joy", "text": "全身の絵が無いので、腰から上に戻ります。" },
+
+    { "op": "label", "name": "join" },
+    { "op": "if", "flag": "visited_hall", "to": "after_hall" },
+    { "op": "nar", "text": "広間には行かなかった。（フラグ未設定の経路）" },
+    { "op": "jump", "to": "finale" },
+    { "op": "label", "name": "after_hall" },
+    { "op": "nar", "text": "広間を見てきた。（フラグ設定済みの経路）" },
+
+    { "op": "label", "name": "finale" },
+    { "op": "set", "flag": "finished" },
+    { "op": "end", "text": "終演。左タップでタイトルへ。" }
+  ]
+}

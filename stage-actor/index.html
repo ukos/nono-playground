@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+  <meta name="theme-color" content="#120c10">
+  <title>NONO Stage Actor</title>
+  <link rel="stylesheet" href="css/stage.css">
+</head>
+<body>
+  <div id="app">
+    <section id="title" class="screen">
+      <h1 class="logo"><span>NONO</span> Stage Actor</h1>
+      <p class="sub">演目を選んでください</p>
+      <ul id="work-list"></ul>
+    </section>
+
+    <section id="stage" class="screen" hidden>
+      <div id="world">
+        <img id="bg" alt="">
+        <div id="actors"></div>
+      </div>
+      <div id="textlayer">
+        <div id="bubble" class="bubble" hidden><div class="name"></div><div class="text"></div></div>
+        <div id="window" class="window" hidden><div class="name"></div><div class="text"></div></div>
+      </div>
+      <div id="choices" hidden><p class="prompt"></p><div class="options"></div></div>
+      <div id="curtain"><div class="panel l"></div><div class="panel r"></div><div class="playbill"></div></div>
+      <button id="to-title" type="button" aria-label="タイトルへ戻る">×</button>
+    </section>
+
+    <div id="error" hidden></div>
+  </div>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
