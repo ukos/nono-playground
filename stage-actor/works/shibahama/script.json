@@ -1,0 +1,511 @@
+{
+ "meta": {
+  "id": "shibahama",
+  "title": "芝浜 ―夢と真実の財布―",
+  "original": "古典落語『芝浜』（伝統演目・著作権消滅）",
+  "adaptation": "free",
+  "format": "v3",
+  "minutes": 9,
+  "synopsis": "酒好きの魚屋・熊五郎は、浜で五十両の財布を拾う。女房お咲は夫を思って財布を隠し「夢だった」と告げる。夢を糧に改心した熊五郎は三年で一人前になり、大晦日、お咲は真実を明かす。古典落語の人情噺を、筋準拠で丁寧に描く中改変。",
+  "note": "本脚本は翻案であり、落語の口演の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
+  },
+  {
+   "role": "熊五郎（魚屋）",
+   "actor": "extra_craftsman",
+   "costume": "default"
+  },
+  {
+   "role": "お咲（熊五郎の女房）",
+   "actor": "extra_elf",
+   "costume": "default"
+  },
+  {
+   "role": "市場の仲間",
+   "actor": "extra_villager",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "room": "bg/room-2048x1152.png",
+  "shore": "bg/shore-2048x1152.png",
+  "market": "bg/market-2048x1152.png",
+  "street": "bg/street-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ようこそ、NONO座へ。本日の演目は、人情噺の王道『芝浜』。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "酒好きで腕のいい魚屋・熊五郎と、それを支える女房お咲の物語。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "拾った財布が、夫婦の人生を変えていきます。どうぞ、最後まで。",
+   "eyes": "normal"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "room",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "room"
+  },
+  {
+   "op": "nar",
+   "text": "長屋の一室、朝。熊五郎は昨夜の酒で、まだ布団の中。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_craftsman",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elf",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "熊さん、もう朝だよ。市場の競りが始まっちまう。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "うう……頭が割れるようだ。お咲、水をくれ……",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "毎度のことだね。あんた、腕は一流なんだから、酒さえほどほどにすれば。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "わかってる。わかってるんだが、どうにも酒が俺を呼ぶんでな。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "今日は大家さんが家賃の催促に来るよ。……ねえ、少しは真面目に働いておくれ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "すまねえ、お咲。よし、今日は競りに行って、いい魚を仕入れてくる。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_craftsman"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elf"
+  },
+  {
+   "op": "bg",
+   "src": "shore",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "shore"
+  },
+  {
+   "op": "nar",
+   "text": "芝の浜。熊五郎が、朝の浜辺を歩いていると――"
+  },
+  {
+   "op": "show",
+   "actor": "extra_craftsman",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "ん？　なんだ、ありゃ。革の財布じゃねえか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "中は……小判が、ぎっしり……！　五十両はあるぞ！",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "こ、これは……拾ったもんは、俺のもんだ。神様がくれたんだ！",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "熊五郎は財布を懐に、そそくさと長屋へ取って返した。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_craftsman"
+  },
+  {
+   "op": "bg",
+   "src": "room"
+  },
+  {
+   "op": "show",
+   "actor": "extra_craftsman",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elf",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "お咲！　見ろ、五十両だ！　これで長屋ともおさらばだ！",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "ご、五十両……！　熊さん、それ、どこで……",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "浜で拾ったのさ！　今夜は仲間を呼んで、大盤振る舞いだ！",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "（このお金は、きっと誰かの大事なお金。熊さんがこのまま使えば、人の道を外れる……）",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "（……そうだ。しまっておこう。この人が真人間になるまで、私が預かる）",
+   "eyes": "normal"
+  },
+  {
+   "op": "nar",
+   "text": "宴の騒ぎの中、お咲はそっと、財布を箪笥の奥に隠した。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_craftsman"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elf"
+  },
+  {
+   "op": "bg",
+   "src": "room"
+  },
+  {
+   "op": "nar",
+   "text": "翌朝。熊五郎が目を覚ますと、財布がない。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_craftsman",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elf",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "お咲！　財布がない！　五十両が、消えた！",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "財布？　……熊さん、あんた、夢を見たんだよ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "夢！？　あんなにはっきり、覚えてるのに！",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "昨夜はひどく酔ってたからね。魚も仕入れずに帰ってきて、そのまま寝ちまったんだよ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "そ、そんな……。俺の、五十両が……夢……",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "夢は夢。でも熊さん、夢の中であんなに喜べたんだ。本当のお金だって、働けばきっと掴めるよ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "……お咲の言うとおりだ。夢にすがってちゃ、いけねえ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "今日から酒は断つ。真面目に働く。見ててくれ、お咲。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_craftsman"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elf"
+  },
+  {
+   "op": "bg",
+   "src": "market",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "market"
+  },
+  {
+   "op": "nar",
+   "text": "それからの熊五郎は、人が変わったように働いた。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_craftsman",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_villager",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "熊さん、今日の魚は最高だね！　最近あんたの店は評判だよ。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "ありがてえ。酒を断つと、魚の目利きまで冴えてきてな。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "奥さんも喜んでるだろう。三年前のあんたとは別人だ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "へへ。全部、お咲のおかげだ。あの「夢」がなかったら、今の俺はねえ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "nar",
+   "text": "三年。熊五郎は小さな店を構えるまでになり、夫婦の暮らしは穏やかに満ちていった。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_craftsman"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_villager"
+  },
+  {
+   "op": "bg",
+   "src": "room"
+  },
+  {
+   "op": "nar",
+   "text": "大晦日の夜。ささやかな年越しの膳を前に、お咲が改まって座った。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_craftsman",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elf",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "熊さん。今日は、話しておきたいことがあるんだ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "なんだ、改まって。言ってみな。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "三年前の、あの財布。……夢じゃ、なかったんだよ。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "……え？",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "私が隠したの。あのまま使えば、あんたはきっとダメになると思って。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "嘘をついて、ごめんね。でも、あんたは自分の力で、本当のお金を掴んだ。",
+   "eyes": "crying",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "お咲……お前、そんな思いを、一人で抱えて……",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "ありがとう。お前がいなけりゃ、俺は今ごろ、どうなってたか。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "お咲は箪笥の奥から、あの財布を取り出した。金は、持ち主を探して返す手はずが、すでに整っていた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "さあ熊さん、三年ぶりだよ。一杯、やっとくれ。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "お咲が注ごうとすると、熊五郎は杯をそっと押さえた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "よそう。……また、夢になるといけねえから。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_craftsman"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elf"
+  },
+  {
+   "op": "bg",
+   "src": "street"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "「よそう、また夢になるといけねえから」。落語『芝浜』の、あまりに有名なオチでございます。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "嘘が愛で、愛が真実を育てた一席。これにてお開き。ありがとうございました。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
+}

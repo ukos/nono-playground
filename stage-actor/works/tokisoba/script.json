@@ -1,0 +1,263 @@
+{
+ "meta": {
+  "id": "tokisoba",
+  "title": "時そば ―一文の知恵―",
+  "original": "古典落語『時そば』（伝統演目・著作権消滅）",
+  "adaptation": "free",
+  "format": "v3",
+  "minutes": 5,
+  "synopsis": "夜の蕎麦屋台。賢い客は小銭を数える途中で時刻を聞き、勘定をごまかして一文浮かせる。それを見ていた男が真似をすると、時刻が合わず大失敗。古典落語の短い笑いを、そのまま小品に仕立てた書き下ろし。",
+  "note": "本脚本は翻案であり、落語の口演の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
+  },
+  {
+   "role": "賢い客",
+   "actor": "extra_porter",
+   "costume": "default"
+  },
+  {
+   "role": "屋台の店主",
+   "actor": "extra_craftsman",
+   "costume": "default"
+  },
+  {
+   "role": "真似する男",
+   "actor": "extra_lumberjack",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "yatai": "bg/yatai-2048x1152.png",
+  "street": "bg/street-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ようこそ、NONO座へ。本日の演目は、短い笑いの一席『時そば』。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "舞台は夜の蕎麦屋台。お代は十六文。さて、どうやって払うのでしょう。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "yatai",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "yatai"
+  },
+  {
+   "op": "nar",
+   "text": "夜更けの屋台。湯気の向こうに、店主と一人の客。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_craftsman",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "へい、温かい蕎麦一杯、お待ちどうさま。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "うん、いい出汁だ。……親父、お代は十六文だったね。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "小銭で払うよ。ほれ、一文、二文、三文、四文、五文、六文、七文、八文……",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "おっと親父、今、何時だい？",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "へえ、今は九つでございます。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "九つ。……十文、十一文、十二文、十三文、十四文、十五文。はい、十六文、ごちそうさま。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "客は颯爽と夜の町へ消えた。店主は、首をひねる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "……ん？　なんだか、勘定が合わないような……まあ、いいか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_craftsman"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "bg",
+   "src": "street"
+  },
+  {
+   "op": "nar",
+   "text": "その様子を、隣で一部始終見ていた男がいた。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_lumberjack",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "うまいことやるもんだ。俺もあの手で、一文浮かせてやろう。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_lumberjack"
+  },
+  {
+   "op": "bg",
+   "src": "yatai"
+  },
+  {
+   "op": "show",
+   "actor": "extra_craftsman",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_lumberjack",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "いらっしゃい。蕎麦一杯、十六文でございます。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "親父、俺も小銭で払うぜ。よく見てろよ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "一文、二文、三文、四文、五文、六文、七文、八文、九文、十文、十一文……",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "おっと親父、今、何時だい？",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "へえ、四つでございます。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "四つ……？　……五文、六文、七文……あれ？　足りねえ……",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "男は慌てて懐を探り、結局、余分に払う羽目になった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "へへ、毎度ありがとうございます。お客さん、時を聞くのも、時と場合によりまさあ。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_craftsman"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_lumberjack"
+  },
+  {
+   "op": "bg",
+   "src": "street"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "小賢しい真似は、するもんじゃありませんね。『時そば』、これにてお開き。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
+}
