@@ -1,0 +1,815 @@
+{
+  "meta": {
+    "id": "wrong-background",
+    "number": 163,
+    "title": "背景が来ない！ ―別の物語が映っている―",
+    "original": "NONO座オリジナル",
+    "category": "Stage Actorオリジナル",
+    "adaptation": "free",
+    "format": "v3",
+    "minutes": 36,
+    "synopsis": "城の悲劇が始まったのに、背景は海底、宇宙船、江戸長屋へ次々切り替わる。役者は背景に合わせて即興しながら原因を探る。",
+    "theme": "舞台は正しい背景ではなく、目の前の出来事を受け止めて成立する",
+    "chapters": [
+      {
+        "id": "main",
+        "title": "本編",
+        "scenes": [
+          "castle_error",
+          "space_shift",
+          "tenement_mix",
+          "background_voice",
+          "shared_stage"
+        ]
+      }
+    ],
+    "note": "既存翻訳・上演台本・特定演者の口演は転用せず、台詞は本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "主演",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "案内役",
+      "actor": "shiro",
+      "costume": "default"
+    },
+    {
+      "role": "記録係",
+      "actor": "rei_casual",
+      "costume": "default"
+    },
+    {
+      "role": "背景管理役",
+      "actor": "kurogane",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "castle_error": "bg/wrong-background-castle_error-2048x1152.png",
+    "space_shift": "bg/wrong-background-space_shift-2048x1152.png",
+    "tenement_mix": "bg/wrong-background-tenement_mix-2048x1152.png",
+    "background_voice": "bg/wrong-background-background_voice-2048x1152.png",
+    "shared_stage": "bg/wrong-background-shared_stage-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『背景が来ない！―別の物語が映っている―』。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "StageActorオリジナルの舞台を、全5景でお届けします。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "この舞台の核は「舞台は正しい背景ではなく、目の前の出来事を受け止めて成立する」。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "既存の台詞を写さず、今夜のために新しく構成しました。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "それでは、幕を開けましょう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "castle_error",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "castle_error"
+    },
+    {
+      "op": "nar",
+      "text": "第1景「城に海底が来る」。王城の第一声と同時に珊瑚の海底が映り、戴冠式が竜宮の歓迎会になる。"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "ここは「城に海底が来る」。王城の第一声と同時に珊瑚の海底が映り、戴冠式が竜宮の歓迎会になる。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "今の選択は、次の場面だけでなく結末まで動かす。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "城に海底が来るの空気が変わり、言葉の裏にある選択が見える。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "私は「舞台は正しい背景ではなく、目の前の出来事を受け止めて成立する」という問いから逃げたくない。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "王城の第一声と同時に珊瑚の海底が映り、戴冠式が竜宮の歓迎会になる。ならば、今できる一手を選ぶ。",
+      "eyes": "fun",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "舞台の奥で音が止み、王城の第一声と同時に珊瑚の海底が映り、戴冠式が竜宮の歓迎会になる。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "「城に海底が来る」を通り過ぎず、この場で必要な言葉を残す。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "答えは一つでなくても、選んだ責任は分け合える。",
+      "eyes": "surprise",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "よし。次の場面へ持って行ける答えになった。",
+      "eyes": "closed"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "bg",
+      "src": "space_shift",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "space_shift"
+    },
+    {
+      "op": "nar",
+      "text": "第2景「宇宙船への転換」。悲劇の決闘中に宇宙船へ切り替わり、剣を操縦桿として危機を切り抜ける。"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "ここは「宇宙船への転換」。悲劇の決闘中に宇宙船へ切り替わり、剣を操縦桿として危機を切り抜ける。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "今の選択は、次の場面だけでなく結末まで動かす。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "宇宙船への転換の空気が変わり、言葉の裏にある選択が見える。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "私は「舞台は正しい背景ではなく、目の前の出来事を受け止めて成立する」という問いから逃げたくない。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+      "eyes": "closed",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "悲劇の決闘中に宇宙船へ切り替わり、剣を操縦桿として危機を切り抜ける。ならば、今できる一手を選ぶ。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "舞台の奥で音が止み、悲劇の決闘中に宇宙船へ切り替わり、剣を操縦桿として危機を切り抜ける。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "「宇宙船への転換」を通り過ぎず、この場で必要な言葉を残す。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "答えは一つでなくても、選んだ責任は分け合える。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "よし。次の場面へ持って行ける答えになった。",
+      "eyes": "closed"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "bg",
+      "src": "tenement_mix",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "tenement_mix"
+    },
+    {
+      "op": "nar",
+      "text": "第3景「江戸長屋の王国」。玉座が長屋のちゃぶ台に見え、王位継承争いが家賃相談へ変質する。"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "ここは「江戸長屋の王国」。玉座が長屋のちゃぶ台に見え、王位継承争いが家賃相談へ変質する。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "今の選択は、次の場面だけでなく結末まで動かす。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。"
+    },
+    {
+      "op": "nar",
+      "text": "江戸長屋の王国の空気が変わり、言葉の裏にある選択が見える。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "私は「舞台は正しい背景ではなく、目の前の出来事を受け止めて成立する」という問いから逃げたくない。",
+      "eyes": "surprise",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "玉座が長屋のちゃぶ台に見え、王位継承争いが家賃相談へ変質する。ならば、今できる一手を選ぶ。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "その一手で得るものと、失うものを同じ明るさで見よう。"
+    },
+    {
+      "op": "nar",
+      "text": "舞台の奥で音が止み、玉座が長屋のちゃぶ台に見え、王位継承争いが家賃相談へ変質する。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "「江戸長屋の王国」を通り過ぎず、この場で必要な言葉を残す。",
+      "eyes": "anger",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。"
+    },
+    {
+      "op": "nar",
+      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "答えは一つでなくても、選んだ責任は分け合える。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "よし。次の場面へ持って行ける答えになった。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "bg",
+      "src": "background_voice",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "background_voice"
+    },
+    {
+      "op": "nar",
+      "text": "第4景「背景たちの要求」。故障ではなく、使われなかった背景が自分の物語を演じてほしいと主張していた。"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "ここは「背景たちの要求」。故障ではなく、使われなかった背景が自分の物語を演じてほしいと主張していた。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "今の選択は、次の場面だけでなく結末まで動かす。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "背景たちの要求の空気が変わり、言葉の裏にある選択が見える。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "私は「舞台は正しい背景ではなく、目の前の出来事を受け止めて成立する」という問いから逃げたくない。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "故障ではなく、使われなかった背景が自分の物語を演じてほしいと主張していた。ならば、今できる一手を選ぶ。",
+      "eyes": "fun",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "舞台の奥で音が止み、故障ではなく、使われなかった背景が自分の物語を演じてほしいと主張していた。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "「背景たちの要求」を通り過ぎず、この場で必要な言葉を残す。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "答えは一つでなくても、選んだ責任は分け合える。",
+      "eyes": "surprise",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "よし。次の場面へ持って行ける答えになった。",
+      "eyes": "closed"
+    },
+    {
+      "op": "choice",
+      "options": [
+        {
+          "text": "今すぐ行動する",
+          "jump": "wrong-background_direct"
+        },
+        {
+          "text": "もう一人の声を最後まで聞く",
+          "jump": "wrong-background_listen"
+        }
+      ]
+    },
+    {
+      "op": "label",
+      "id": "wrong-background_direct"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "私は今すぐ動く。遅れた分は、行動の後で説明する。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "jump",
+      "to": "wrong-background_merge"
+    },
+    {
+      "op": "label",
+      "id": "wrong-background_listen"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "私は最後まで聞く。沈黙も答えの一部として受け止める。",
+      "eyes": "anger"
+    },
+    {
+      "op": "label",
+      "id": "wrong-background_merge"
+    },
+    {
+      "op": "nar",
+      "text": "選び方は違っても、二人は同じ核心を次の景へ運ぶ。"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "bg",
+      "src": "shared_stage",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "shared_stage"
+    },
+    {
+      "op": "nar",
+      "text": "第5景「全部の背景で一つの幕」。各世界の小道具を一つずつ残し、混線そのものを新作の結末に変える。"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "ここは「全部の背景で一つの幕」。各世界の小道具を一つずつ残し、混線そのものを新作の結末に変える。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "今の選択は、次の場面だけでなく結末まで動かす。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "全部の背景で一つの幕の空気が変わり、言葉の裏にある選択が見える。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "私は「舞台は正しい背景ではなく、目の前の出来事を受け止めて成立する」という問いから逃げたくない。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+      "eyes": "closed",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "各世界の小道具を一つずつ残し、混線そのものを新作の結末に変える。ならば、今できる一手を選ぶ。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "舞台の奥で音が止み、各世界の小道具を一つずつ残し、混線そのものを新作の結末に変える。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "「全部の背景で一つの幕」を通り過ぎず、この場で必要な言葉を残す。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "答えは一つでなくても、選んだ責任は分け合える。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "よし。次の場面へ持って行ける答えになった。",
+      "eyes": "closed"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "『背景が来ない！―別の物語が映っている―』、これにて終演です。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "残った問いは「舞台は正しい背景ではなく、目の前の出来事を受け止めて成立する」。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "選んだ結末を、次の物語まで覚えていてください。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

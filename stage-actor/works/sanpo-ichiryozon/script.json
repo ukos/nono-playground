@@ -1,0 +1,792 @@
+{
+ "meta": {
+  "id": "sanpo-ichiryozon",
+  "number": 172,
+  "title": "大岡政談・三方一両損 ―譲らぬ正直―",
+  "original": "大岡政談の伝統的説話から新規脚色",
+  "category": "裁判・評定もの",
+  "adaptation": "moderate",
+  "format": "v3",
+  "minutes": 30,
+  "synopsis": "落とした三両を受け取らぬ左官、届けた金を戻せぬ大工。大岡越前は自ら一両を足し、三者が一両ずつ損をする裁きを示す。",
+  "theme": "正しさ同士がぶつかるとき、裁きは面子を守る出口も作らねばならない",
+  "chapters": [
+   {
+    "id": "main",
+    "title": "本編",
+    "scenes": [
+     "wallet_found",
+     "refusal",
+     "honesty_fight",
+     "ooka_coin",
+     "three_losses"
+    ]
+   }
+  ],
+  "note": "既存翻訳・上演台本・特定演者の口演は転用せず、台詞は本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "大岡越前",
+   "actor": "iwao",
+   "costume": "default"
+  },
+  {
+   "role": "拾い主・左官金太郎",
+   "actor": "gou",
+   "costume": "default"
+  },
+  {
+   "role": "落とし主・大工吉五郎",
+   "actor": "tanurio",
+   "costume": "default"
+  },
+  {
+   "role": "同心",
+   "actor": "sasuke",
+   "costume": "default"
+  },
+  {
+   "role": "語り手",
+   "actor": "nono",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "wallet_found": "bg/sanpo-ichiryozon-wallet_found-2048x1152.png",
+  "refusal": "bg/sanpo-ichiryozon-refusal-2048x1152.png",
+  "honesty_fight": "bg/sanpo-ichiryozon-honesty_fight-2048x1152.png",
+  "ooka_coin": "bg/sanpo-ichiryozon-ooka_coin-2048x1152.png",
+  "three_losses": "bg/sanpo-ichiryozon-three_losses-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ようこそ、NONO座へ。本日の演目は『大岡政談・三方一両損―譲らぬ正直―』。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "裁判・評定ものの舞台を、全5景でお届けします。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "この舞台の核は「正しさ同士がぶつかるとき、裁きは面子を守る出口も作らねばならない」。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "既存の台詞を写さず、今夜のために新しく構成しました。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "それでは、幕を開けましょう。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "wallet_found",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "wallet_found"
+  },
+  {
+   "op": "nar",
+   "text": "第1景「三両の財布」。金太郎は道で財布を拾い、書付から吉五郎を探して届けに行く。"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "ここは「三両の財布」。金太郎は道で財布を拾い、書付から吉五郎を探して届けに行く。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。"
+  },
+  {
+   "op": "nar",
+   "text": "三両の財布の空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "私は「正しさ同士がぶつかるとき、裁きは面子を守る出口も作らねばならない」という問いから逃げたくない。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "金太郎は道で財布を拾い、書付から吉五郎を探して届けに行く。ならば、今できる一手を選ぶ。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、金太郎は道で財布を拾い、書付から吉五郎を探して届けに行く。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "「三両の財布」を通り過ぎず、この場で必要な言葉を残す。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "よし。次の場面へ持って行ける答えになった。"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "bg",
+   "src": "refusal",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "refusal"
+  },
+  {
+   "op": "nar",
+   "text": "第2景「受け取れない金」。吉五郎は一度手を離れた金は自分のものではないと受領を拒む。"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "ここは「受け取れない金」。吉五郎は一度手を離れた金は自分のものではないと受領を拒む。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "受け取れない金の空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "私は「正しさ同士がぶつかるとき、裁きは面子を守る出口も作らねばならない」という問いから逃げたくない。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+   "eyes": "closed",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "吉五郎は一度手を離れた金は自分のものではないと受領を拒む。ならば、今できる一手を選ぶ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、吉五郎は一度手を離れた金は自分のものではないと受領を拒む。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "「受け取れない金」を通り過ぎず、この場で必要な言葉を残す。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "よし。次の場面へ持って行ける答えになった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "bg",
+   "src": "honesty_fight",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "honesty_fight"
+  },
+  {
+   "op": "nar",
+   "text": "第3景「正直者の喧嘩」。返したい者と受け取らぬ者が互いを意地っ張りと罵り評定所へ出る。"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "ここは「正直者の喧嘩」。返したい者と受け取らぬ者が互いを意地っ張りと罵り評定所へ出る。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。"
+  },
+  {
+   "op": "nar",
+   "text": "正直者の喧嘩の空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "私は「正しさ同士がぶつかるとき、裁きは面子を守る出口も作らねばならない」という問いから逃げたくない。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "返したい者と受け取らぬ者が互いを意地っ張りと罵り評定所へ出る。ならば、今できる一手を選ぶ。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、返したい者と受け取らぬ者が互いを意地っ張りと罵り評定所へ出る。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "「正直者の喧嘩」を通り過ぎず、この場で必要な言葉を残す。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "よし。次の場面へ持って行ける答えになった。"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "bg",
+   "src": "ooka_coin",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "ooka_coin"
+  },
+  {
+   "op": "nar",
+   "text": "第4景「越前の一両」。大岡は自分の一両を足して四両とし、二人へ二両ずつ渡す。"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "ここは「越前の一両」。大岡は自分の一両を足して四両とし、二人へ二両ずつ渡す。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "越前の一両の空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "私は「正しさ同士がぶつかるとき、裁きは面子を守る出口も作らねばならない」という問いから逃げたくない。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "大岡は自分の一両を足して四両とし、二人へ二両ずつ渡す。ならば、今できる一手を選ぶ。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、大岡は自分の一両を足して四両とし、二人へ二両ずつ渡す。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "「越前の一両」を通り過ぎず、この場で必要な言葉を残す。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "よし。次の場面へ持って行ける答えになった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "今すぐ行動する",
+     "jump": "sanpo-ichiryozon_direct"
+    },
+    {
+     "text": "もう一人の声を最後まで聞く",
+     "jump": "sanpo-ichiryozon_listen"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "sanpo-ichiryozon_direct"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "私は今すぐ動く。遅れた分は、行動の後で説明する。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "jump",
+   "to": "sanpo-ichiryozon_merge"
+  },
+  {
+   "op": "label",
+   "id": "sanpo-ichiryozon_listen"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "私は最後まで聞く。沈黙も答えの一部として受け止める。",
+   "eyes": "anger"
+  },
+  {
+   "op": "label",
+   "id": "sanpo-ichiryozon_merge"
+  },
+  {
+   "op": "nar",
+   "text": "選び方は違っても、二人は同じ核心を次の景へ運ぶ。"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "bg",
+   "src": "three_losses",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "three_losses"
+  },
+  {
+   "op": "nar",
+   "text": "第5景「三方一両損」。拾い主、落とし主、大岡が一両ずつ損をした形で双方の面子を立てる。"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "ここは「三方一両損」。拾い主、落とし主、大岡が一両ずつ損をした形で双方の面子を立てる。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。"
+  },
+  {
+   "op": "nar",
+   "text": "三方一両損の空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "私は「正しさ同士がぶつかるとき、裁きは面子を守る出口も作らねばならない」という問いから逃げたくない。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "拾い主、落とし主、大岡が一両ずつ損をした形で双方の面子を立てる。ならば、今できる一手を選ぶ。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、拾い主、落とし主、大岡が一両ずつ損をした形で双方の面子を立てる。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "「三方一両損」を通り過ぎず、この場で必要な言葉を残す。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "よし。次の場面へ持って行ける答えになった。"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "『大岡政談・三方一両損―譲らぬ正直―』、これにて終演です。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "残った問いは「正しさ同士がぶつかるとき、裁きは面子を守る出口も作らねばならない」。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "選んだ結末を、次の物語まで覚えていてください。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
+}

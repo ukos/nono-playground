@@ -1,0 +1,1443 @@
+{
+ "meta": {
+  "id": "around-world-80-days",
+  "number": 177,
+  "title": "八十日間世界一周 ―時刻表との競走―",
+  "original": "ジュール・ヴェルヌ『八十日間世界一周』から新規脚色",
+  "category": "冒険航海もの",
+  "adaptation": "moderate",
+  "format": "v3",
+  "minutes": 84,
+  "synopsis": "フォッグとパスパルトゥーが八十日で世界を一周。刑事フィックスの追跡、アウダ救出、交通の断絶、日付変更の逆転までを前後編で描く。",
+  "theme": "時間に勝つ旅は、予定外の人を置き去りにしないとき初めて価値を持つ",
+  "chapters": [
+   {
+    "id": "part-1",
+    "title": "前編",
+    "scenes": [
+     "reform_club",
+     "suez_shadow",
+     "india_rescue",
+     "hongkong_delay",
+     "pacific_crossing"
+    ]
+   },
+   {
+    "id": "part-2",
+    "title": "後編",
+    "scenes": [
+     "chapter_rail",
+     "broken_rail",
+     "rescue_train",
+     "london_late",
+     "date_line"
+    ]
+   }
+  ],
+  "note": "既存翻訳・上演台本・特定演者の口演は転用せず、台詞は本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "フィリアス・フォッグ",
+   "actor": "iwao",
+   "costume": "default"
+  },
+  {
+   "role": "パスパルトゥー",
+   "actor": "tanurio",
+   "costume": "default"
+  },
+  {
+   "role": "アウダ",
+   "actor": "yui",
+   "costume": "default"
+  },
+  {
+   "role": "刑事フィックス",
+   "actor": "kurogane",
+   "costume": "default"
+  },
+  {
+   "role": "旅の語り手",
+   "actor": "nono",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "reform_club": "bg/around-world-80-days-reform_club-2048x1152.png",
+  "suez_shadow": "bg/around-world-80-days-suez_shadow-2048x1152.png",
+  "india_rescue": "bg/around-world-80-days-india_rescue-2048x1152.png",
+  "hongkong_delay": "bg/around-world-80-days-hongkong_delay-2048x1152.png",
+  "pacific_crossing": "bg/around-world-80-days-pacific_crossing-2048x1152.png",
+  "chapter_rail": "bg/around-world-80-days-chapter_rail-2048x1152.png",
+  "broken_rail": "bg/around-world-80-days-broken_rail-2048x1152.png",
+  "rescue_train": "bg/around-world-80-days-rescue_train-2048x1152.png",
+  "london_late": "bg/around-world-80-days-london_late-2048x1152.png",
+  "date_line": "bg/around-world-80-days-date_line-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ようこそ、NONO座へ。本日の演目は『八十日間世界一周―時刻表との競走―』。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "冒険航海ものの舞台を、全10景でお届けします。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "この舞台の核は「時間に勝つ旅は、予定外の人を置き去りにしないとき初めて価値を持つ」。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "既存の台詞を写さず、今夜のために新しく構成しました。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "それでは、幕を開けましょう。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "reform_club",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "reform_club"
+  },
+  {
+   "op": "nar",
+   "text": "第1景「八十日の賭け」。フォッグは新聞記事と時刻表だけを根拠に、財産を賭けて世界一周へ出る。"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "ここは「八十日の賭け」。フォッグは新聞記事と時刻表だけを根拠に、財産を賭けて世界一周へ出る。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "八十日の賭けの空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "私は「時間に勝つ旅は、予定外の人を置き去りにしないとき初めて価値を持つ」という問いから逃げたくない。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "フォッグは新聞記事と時刻表だけを根拠に、財産を賭けて世界一周へ出る。ならば、今できる一手を選ぶ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、フォッグは新聞記事と時刻表だけを根拠に、財産を賭けて世界一周へ出る。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "「八十日の賭け」を通り過ぎず、この場で必要な言葉を残す。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "よし。次の場面へ持って行ける答えになった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "bg",
+   "src": "suez_shadow",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "suez_shadow"
+  },
+  {
+   "op": "nar",
+   "text": "第2景「スエズの疑い」。強盗犯と誤認したフィックスが追跡し、旅の遅延を待ちながら同行する。"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "ここは「スエズの疑い」。強盗犯と誤認したフィックスが追跡し、旅の遅延を待ちながら同行する。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。"
+  },
+  {
+   "op": "nar",
+   "text": "スエズの疑いの空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "私は「時間に勝つ旅は、予定外の人を置き去りにしないとき初めて価値を持つ」という問いから逃げたくない。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "強盗犯と誤認したフィックスが追跡し、旅の遅延を待ちながら同行する。ならば、今できる一手を選ぶ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、強盗犯と誤認したフィックスが追跡し、旅の遅延を待ちながら同行する。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "「スエズの疑い」を通り過ぎず、この場で必要な言葉を残す。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "よし。次の場面へ持って行ける答えになった。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "bg",
+   "src": "india_rescue",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "india_rescue"
+  },
+  {
+   "op": "nar",
+   "text": "第3景「予定外の救出」。時刻表を守る男が列車を降り、危機にあるアウダを救うため一日を使う。"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "ここは「予定外の救出」。時刻表を守る男が列車を降り、危機にあるアウダを救うため一日を使う。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "予定外の救出の空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "私は「時間に勝つ旅は、予定外の人を置き去りにしないとき初めて価値を持つ」という問いから逃げたくない。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "時刻表を守る男が列車を降り、危機にあるアウダを救うため一日を使う。ならば、今できる一手を選ぶ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
+   "eyes": "crying",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、時刻表を守る男が列車を降り、危機にあるアウダを救うため一日を使う。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "「予定外の救出」を通り過ぎず、この場で必要な言葉を残す。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "よし。次の場面へ持って行ける答えになった。",
+   "eyes": "closed",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "bg",
+   "src": "hongkong_delay",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "hongkong_delay"
+  },
+  {
+   "op": "nar",
+   "text": "第4景「香港のすれ違い」。船の出航変更とフィックスの妨害で仲間が分断され、予定表が初めて役に立たなくなる。"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "ここは「香港のすれ違い」。船の出航変更とフィックスの妨害で仲間が分断され、予定表が初めて役に立たなくなる。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。"
+  },
+  {
+   "op": "nar",
+   "text": "香港のすれ違いの空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "私は「時間に勝つ旅は、予定外の人を置き去りにしないとき初めて価値を持つ」という問いから逃げたくない。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "船の出航変更とフィックスの妨害で仲間が分断され、予定表が初めて役に立たなくなる。ならば、今できる一手を選ぶ。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、船の出航変更とフィックスの妨害で仲間が分断され、予定表が初めて役に立たなくなる。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "「香港のすれ違い」を通り過ぎず、この場で必要な言葉を残す。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "よし。次の場面へ持って行ける答えになった。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "bg",
+   "src": "pacific_crossing",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "pacific_crossing"
+  },
+  {
+   "op": "nar",
+   "text": "第5景「太平洋の嵐」。船上で燃料不足と嵐に直面し、所有する物まで燃やして東へ進む。"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "ここは「太平洋の嵐」。船上で燃料不足と嵐に直面し、所有する物まで燃やして東へ進む。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "太平洋の嵐の空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "私は「時間に勝つ旅は、予定外の人を置き去りにしないとき初めて価値を持つ」という問いから逃げたくない。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+   "eyes": "closed",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "船上で燃料不足と嵐に直面し、所有する物まで燃やして東へ進む。ならば、今できる一手を選ぶ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、船上で燃料不足と嵐に直面し、所有する物まで燃やして東へ進む。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "「太平洋の嵐」を通り過ぎず、この場で必要な言葉を残す。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "よし。次の場面へ持って行ける答えになった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ここから後編。前編の選択を抱えたまま、物語の続きを始めます。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "chapter_rail",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "chapter_rail"
+  },
+  {
+   "op": "nar",
+   "text": "第6景「前編終幕・大陸横断へ」。横浜から海を越えた一行は、残り日数を数えながらアメリカ大陸へ入る。"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "ここは「前編終幕・大陸横断へ」。横浜から海を越えた一行は、残り日数を数えながらアメリカ大陸へ入る。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。"
+  },
+  {
+   "op": "nar",
+   "text": "前編終幕・大陸横断への空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "私は「時間に勝つ旅は、予定外の人を置き去りにしないとき初めて価値を持つ」という問いから逃げたくない。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "横浜から海を越えた一行は、残り日数を数えながらアメリカ大陸へ入る。ならば、今できる一手を選ぶ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、横浜から海を越えた一行は、残り日数を数えながらアメリカ大陸へ入る。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "「前編終幕・大陸横断へ」を通り過ぎず、この場で必要な言葉を残す。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "よし。次の場面へ持って行ける答えになった。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "bg",
+   "src": "broken_rail",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "broken_rail"
+  },
+  {
+   "op": "nar",
+   "text": "第7景「線路の終わり」。橋も線路も途切れ、帆走そりや徒歩で移動して機械の予定を人力でつなぐ。"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "ここは「線路の終わり」。橋も線路も途切れ、帆走そりや徒歩で移動して機械の予定を人力でつなぐ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "線路の終わりの空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "私は「時間に勝つ旅は、予定外の人を置き去りにしないとき初めて価値を持つ」という問いから逃げたくない。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "橋も線路も途切れ、帆走そりや徒歩で移動して機械の予定を人力でつなぐ。ならば、今できる一手を選ぶ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、橋も線路も途切れ、帆走そりや徒歩で移動して機械の予定を人力でつなぐ。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "「線路の終わり」を通り過ぎず、この場で必要な言葉を残す。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "よし。次の場面へ持って行ける答えになった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "bg",
+   "src": "rescue_train",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "rescue_train"
+  },
+  {
+   "op": "nar",
+   "text": "第8景「奪われた仲間」。襲撃でパスパルトゥーが連れ去られ、フォッグは賭けより仲間を選んで追う。"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "ここは「奪われた仲間」。襲撃でパスパルトゥーが連れ去られ、フォッグは賭けより仲間を選んで追う。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。"
+  },
+  {
+   "op": "nar",
+   "text": "奪われた仲間の空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "私は「時間に勝つ旅は、予定外の人を置き去りにしないとき初めて価値を持つ」という問いから逃げたくない。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "襲撃でパスパルトゥーが連れ去られ、フォッグは賭けより仲間を選んで追う。ならば、今できる一手を選ぶ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、襲撃でパスパルトゥーが連れ去られ、フォッグは賭けより仲間を選んで追う。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "「奪われた仲間」を通り過ぎず、この場で必要な言葉を残す。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "よし。次の場面へ持って行ける答えになった。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "bg",
+   "src": "london_late",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "london_late"
+  },
+  {
+   "op": "nar",
+   "text": "第9景「五分遅れの帰還」。ロンドンへ戻った瞬間に逮捕され、釈放後は期限を五分過ぎたと思い込む。"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "ここは「五分遅れの帰還」。ロンドンへ戻った瞬間に逮捕され、釈放後は期限を五分過ぎたと思い込む。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "五分遅れの帰還の空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "私は「時間に勝つ旅は、予定外の人を置き去りにしないとき初めて価値を持つ」という問いから逃げたくない。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "ロンドンへ戻った瞬間に逮捕され、釈放後は期限を五分過ぎたと思い込む。ならば、今できる一手を選ぶ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
+   "eyes": "crying",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、ロンドンへ戻った瞬間に逮捕され、釈放後は期限を五分過ぎたと思い込む。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "「五分遅れの帰還」を通り過ぎず、この場で必要な言葉を残す。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "よし。次の場面へ持って行ける答えになった。",
+   "eyes": "closed",
+   "mouth": "open"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "今すぐ行動する",
+     "jump": "around-world-80-days_direct"
+    },
+    {
+     "text": "もう一人の声を最後まで聞く",
+     "jump": "around-world-80-days_listen"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "around-world-80-days_direct"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "私は今すぐ動く。遅れた分は、行動の後で説明する。"
+  },
+  {
+   "op": "jump",
+   "to": "around-world-80-days_merge"
+  },
+  {
+   "op": "label",
+   "id": "around-world-80-days_listen"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "私は最後まで聞く。沈黙も答えの一部として受け止める。",
+   "eyes": "anger"
+  },
+  {
+   "op": "label",
+   "id": "around-world-80-days_merge"
+  },
+  {
+   "op": "nar",
+   "text": "選び方は違っても、二人は同じ核心を次の景へ運ぶ。"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "bg",
+   "src": "date_line",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "date_line"
+  },
+  {
+   "op": "nar",
+   "text": "第10景「失った一日を得る」。東回りで日付を一日得ていたと判明し、最後の疾走で賭けと新しい人生を手にする。"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "ここは「失った一日を得る」。東回りで日付を一日得ていたと判明し、最後の疾走で賭けと新しい人生を手にする。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。"
+  },
+  {
+   "op": "nar",
+   "text": "失った一日を得るの空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "私は「時間に勝つ旅は、予定外の人を置き去りにしないとき初めて価値を持つ」という問いから逃げたくない。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "東回りで日付を一日得ていたと判明し、最後の疾走で賭けと新しい人生を手にする。ならば、今できる一手を選ぶ。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、東回りで日付を一日得ていたと判明し、最後の疾走で賭けと新しい人生を手にする。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "「失った一日を得る」を通り過ぎず、この場で必要な言葉を残す。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "よし。次の場面へ持って行ける答えになった。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "『八十日間世界一周―時刻表との競走―』、これにて終演です。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "残った問いは「時間に勝つ旅は、予定外の人を置き去りにしないとき初めて価値を持つ」。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "選んだ結末を、次の物語まで覚えていてください。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
+}

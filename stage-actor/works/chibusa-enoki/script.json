@@ -1,0 +1,832 @@
+{
+ "meta": {
+  "id": "chibusa-enoki",
+  "number": 169,
+  "title": "怪談乳房榎 ―絵師の怨みと忠義―",
+  "original": "三遊亭圓朝『怪談乳房榎』の古典的筋立てから新規脚色",
+  "category": "怪談・幻想",
+  "adaptation": "moderate",
+  "format": "v3",
+  "minutes": 40,
+  "synopsis": "絵師重信を陥れる浪江、榎の霊、赤子を守る正助を中心に、血なまぐさい筋を舞台向けに再構成する。",
+  "theme": "忠義は復讐の刃だけでなく、遺された命を守る手でもある",
+  "chapters": [
+   {
+    "id": "main",
+    "title": "本編",
+    "scenes": [
+     "painting_room",
+     "waterfall_plot",
+     "milk_enoki",
+     "ghost_painting",
+     "loyal_choice"
+    ]
+   }
+  ],
+  "note": "既存翻訳・上演台本・特定演者の口演は転用せず、台詞は本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
+  },
+  {
+   "role": "菱川重信",
+   "actor": "rei_kimono",
+   "costume": "default"
+  },
+  {
+   "role": "磯貝浪江",
+   "actor": "kurogane",
+   "costume": "default"
+  },
+  {
+   "role": "お関",
+   "actor": "yui",
+   "costume": "default"
+  },
+  {
+   "role": "正助",
+   "actor": "sasuke",
+   "costume": "default"
+  },
+  {
+   "role": "榎の霊",
+   "actor": "yoru",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "painting_room": "bg/chibusa-enoki-painting_room-2048x1152.png",
+  "waterfall_plot": "bg/chibusa-enoki-waterfall_plot-2048x1152.png",
+  "milk_enoki": "bg/chibusa-enoki-milk_enoki-2048x1152.png",
+  "ghost_painting": "bg/chibusa-enoki-ghost_painting-2048x1152.png",
+  "loyal_choice": "bg/chibusa-enoki-loyal_choice-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ようこそ、NONO座へ。本日の演目は『怪談乳房榎―絵師の怨みと忠義―』。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "怪談・幻想の舞台を、全5景でお届けします。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "この舞台の核は「忠義は復讐の刃だけでなく、遺された命を守る手でもある」。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "既存の台詞を写さず、今夜のために新しく構成しました。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "それでは、幕を開けましょう。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "painting_room",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "painting_room"
+  },
+  {
+   "op": "nar",
+   "text": "第1景「絵師の家」。重信の留守に浪江が入り込み、尊敬を装いながら家と妻へ欲を向ける。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "ここは「絵師の家」。重信の留守に浪江が入り込み、尊敬を装いながら家と妻へ欲を向ける。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。"
+  },
+  {
+   "op": "nar",
+   "text": "絵師の家の空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "私は「忠義は復讐の刃だけでなく、遺された命を守る手でもある」という問いから逃げたくない。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "重信の留守に浪江が入り込み、尊敬を装いながら家と妻へ欲を向ける。ならば、今できる一手を選ぶ。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、重信の留守に浪江が入り込み、尊敬を装いながら家と妻へ欲を向ける。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "「絵師の家」を通り過ぎず、この場で必要な言葉を残す。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "よし。次の場面へ持って行ける答えになった。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "bg",
+   "src": "waterfall_plot",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "waterfall_plot"
+  },
+  {
+   "op": "nar",
+   "text": "第2景「十二社の滝」。浪江は重信を滝へ誘い、暗がりで師を裏切って秘密を水底へ沈める。"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "ここは「十二社の滝」。浪江は重信を滝へ誘い、暗がりで師を裏切って秘密を水底へ沈める。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "十二社の滝の空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "私は「忠義は復讐の刃だけでなく、遺された命を守る手でもある」という問いから逃げたくない。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+   "eyes": "closed",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "浪江は重信を滝へ誘い、暗がりで師を裏切って秘密を水底へ沈める。ならば、今できる一手を選ぶ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、浪江は重信を滝へ誘い、暗がりで師を裏切って秘密を水底へ沈める。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "「十二社の滝」を通り過ぎず、この場で必要な言葉を残す。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "よし。次の場面へ持って行ける答えになった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "bg",
+   "src": "milk_enoki",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "milk_enoki"
+  },
+  {
+   "op": "nar",
+   "text": "第3景「乳房榎の奇跡」。飢えた赤子の前で榎から白い雫が落ち、正助は主の霊の願いを悟る。"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "ここは「乳房榎の奇跡」。飢えた赤子の前で榎から白い雫が落ち、正助は主の霊の願いを悟る。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "乳房榎の奇跡の空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "私は「忠義は復讐の刃だけでなく、遺された命を守る手でもある」という問いから逃げたくない。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "飢えた赤子の前で榎から白い雫が落ち、正助は主の霊の願いを悟る。ならば、今できる一手を選ぶ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
+   "eyes": "crying",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、飢えた赤子の前で榎から白い雫が落ち、正助は主の霊の願いを悟る。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "「乳房榎の奇跡」を通り過ぎず、この場で必要な言葉を残す。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "よし。次の場面へ持って行ける答えになった。",
+   "eyes": "closed",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "bg",
+   "src": "ghost_painting",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "ghost_painting"
+  },
+  {
+   "op": "nar",
+   "text": "第4景「絵に宿る告発」。完成しない龍の絵へ重信の霊が現れ、浪江の嘘を一筆ずつ暴く。"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "ここは「絵に宿る告発」。完成しない龍の絵へ重信の霊が現れ、浪江の嘘を一筆ずつ暴く。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "絵に宿る告発の空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "私は「忠義は復讐の刃だけでなく、遺された命を守る手でもある」という問いから逃げたくない。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "完成しない龍の絵へ重信の霊が現れ、浪江の嘘を一筆ずつ暴く。ならば、今できる一手を選ぶ。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、完成しない龍の絵へ重信の霊が現れ、浪江の嘘を一筆ずつ暴く。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "「絵に宿る告発」を通り過ぎず、この場で必要な言葉を残す。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "よし。次の場面へ持って行ける答えになった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "今すぐ行動する",
+     "jump": "chibusa-enoki_direct"
+    },
+    {
+     "text": "もう一人の声を最後まで聞く",
+     "jump": "chibusa-enoki_listen"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "chibusa-enoki_direct"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "私は今すぐ動く。遅れた分は、行動の後で説明する。"
+  },
+  {
+   "op": "jump",
+   "to": "chibusa-enoki_merge"
+  },
+  {
+   "op": "label",
+   "id": "chibusa-enoki_listen"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "私は最後まで聞く。沈黙も答えの一部として受け止める。",
+   "eyes": "anger"
+  },
+  {
+   "op": "label",
+   "id": "chibusa-enoki_merge"
+  },
+  {
+   "op": "nar",
+   "text": "選び方は違っても、二人は同じ核心を次の景へ運ぶ。"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "bg",
+   "src": "loyal_choice",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "loyal_choice"
+  },
+  {
+   "op": "nar",
+   "text": "第5景「正助の裁き」。正助は復讐だけに走らず赤子を守り、真相を公へ出して主の無念を晴らす。"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "ここは「正助の裁き」。正助は復讐だけに走らず赤子を守り、真相を公へ出して主の無念を晴らす。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "正助の裁きの空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "私は「忠義は復讐の刃だけでなく、遺された命を守る手でもある」という問いから逃げたくない。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+   "eyes": "closed",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "正助は復讐だけに走らず赤子を守り、真相を公へ出して主の無念を晴らす。ならば、今できる一手を選ぶ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、正助は復讐だけに走らず赤子を守り、真相を公へ出して主の無念を晴らす。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "「正助の裁き」を通り過ぎず、この場で必要な言葉を残す。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "よし。次の場面へ持って行ける答えになった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "『怪談乳房榎―絵師の怨みと忠義―』、これにて終演です。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "残った問いは「忠義は復讐の刃だけでなく、遺された命を守る手でもある」。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "選んだ結末を、次の物語まで覚えていてください。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
+}

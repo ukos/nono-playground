@@ -1,0 +1,1469 @@
+{
+ "meta": {
+  "id": "gullivers-travels",
+  "number": 176,
+  "title": "ガリヴァー旅行記 ―大きさの国、理性の国―",
+  "original": "ジョナサン・スウィフト『ガリヴァー旅行記』から新規脚色",
+  "category": "冒険航海もの",
+  "adaptation": "moderate",
+  "format": "v3",
+  "minutes": 86,
+  "synopsis": "リリパット、ブロブディンナグ、ラピュータ、学士院、フウイヌム国を巡り、政治・学問・人間観を風刺する二部構成。",
+  "theme": "自分を標準だと思う傲慢は、尺度が変わるたび滑稽に露出する",
+  "chapters": [
+   {
+    "id": "part-1",
+    "title": "前編",
+    "scenes": [
+     "lilliput_tied",
+     "egg_war",
+     "fire_and_escape",
+     "brobdingnag",
+     "king_mirror"
+    ]
+   },
+   {
+    "id": "part-2",
+    "title": "後編",
+    "scenes": [
+     "chapter_flight",
+     "laputa",
+     "academy",
+     "houyhnhnms",
+     "return_mirror"
+    ]
+   }
+  ],
+  "note": "既存翻訳・上演台本・特定演者の口演は転用せず、台詞は本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "ガリヴァー",
+   "actor": "gou",
+   "costume": "default"
+  },
+  {
+   "role": "旅の記録者",
+   "actor": "nono",
+   "costume": "default"
+  },
+  {
+   "role": "小人国の官吏",
+   "actor": "tanurio",
+   "costume": "default"
+  },
+  {
+   "role": "巨人国の少女",
+   "actor": "mei",
+   "costume": "default"
+  },
+  {
+   "role": "空島の学者",
+   "actor": "nibulus",
+   "costume": "default"
+  },
+  {
+   "role": "理性的な馬の声",
+   "actor": "mizuchi",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "lilliput_tied": "bg/gullivers-travels-lilliput_tied-2048x1152.png",
+  "egg_war": "bg/gullivers-travels-egg_war-2048x1152.png",
+  "fire_and_escape": "bg/gullivers-travels-fire_and_escape-2048x1152.png",
+  "brobdingnag": "bg/gullivers-travels-brobdingnag-2048x1152.png",
+  "king_mirror": "bg/gullivers-travels-king_mirror-2048x1152.png",
+  "chapter_flight": "bg/gullivers-travels-chapter_flight-2048x1152.png",
+  "laputa": "bg/gullivers-travels-laputa-2048x1152.png",
+  "academy": "bg/gullivers-travels-academy-2048x1152.png",
+  "houyhnhnms": "bg/gullivers-travels-houyhnhnms-2048x1152.png",
+  "return_mirror": "bg/gullivers-travels-return_mirror-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ようこそ、NONO座へ。本日の演目は『ガリヴァー旅行記―大きさの国、理性の国―』。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "冒険航海ものの舞台を、全10景でお届けします。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "この舞台の核は「自分を標準だと思う傲慢は、尺度が変わるたび滑稽に露出する」。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "既存の台詞を写さず、今夜のために新しく構成しました。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "それでは、幕を開けましょう。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "lilliput_tied",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "lilliput_tied"
+  },
+  {
+   "op": "nar",
+   "text": "第1景「小人国で縛られる」。浜で目覚めたガリヴァーは無数の細糸に縛られ、小さな国家の巨大兵器になる。"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "ここは「小人国で縛られる」。浜で目覚めたガリヴァーは無数の細糸に縛られ、小さな国家の巨大兵器になる。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "小人国で縛られるの空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "私は「自分を標準だと思う傲慢は、尺度が変わるたび滑稽に露出する」という問いから逃げたくない。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "浜で目覚めたガリヴァーは無数の細糸に縛られ、小さな国家の巨大兵器になる。ならば、今できる一手を選ぶ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、浜で目覚めたガリヴァーは無数の細糸に縛られ、小さな国家の巨大兵器になる。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "「小人国で縛られる」を通り過ぎず、この場で必要な言葉を残す。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "よし。次の場面へ持って行ける答えになった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "bg",
+   "src": "egg_war",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "egg_war"
+  },
+  {
+   "op": "nar",
+   "text": "第2景「卵の割り方戦争」。卵を大端から割るか小端から割るかで亡命と戦争が続く理由を聞く。"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "nibulus",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "ここは「卵の割り方戦争」。卵を大端から割るか小端から割るかで亡命と戦争が続く理由を聞く。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "卵の割り方戦争の空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "私は「自分を標準だと思う傲慢は、尺度が変わるたび滑稽に露出する」という問いから逃げたくない。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+   "eyes": "closed",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "卵を大端から割るか小端から割るかで亡命と戦争が続く理由を聞く。ならば、今できる一手を選ぶ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、卵を大端から割るか小端から割るかで亡命と戦争が続く理由を聞く。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "「卵の割り方戦争」を通り過ぎず、この場で必要な言葉を残す。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "よし。次の場面へ持って行ける答えになった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "hide",
+   "actor": "nibulus"
+  },
+  {
+   "op": "bg",
+   "src": "fire_and_escape",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "fire_and_escape"
+  },
+  {
+   "op": "nar",
+   "text": "第3景「宮殿の火事と逃亡」。宮殿火災を救う方法が礼法違反とされ、英雄から犯罪者へ変わる。"
+  },
+  {
+   "op": "show",
+   "actor": "mizuchi",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "ここは「宮殿の火事と逃亡」。宮殿火災を救う方法が礼法違反とされ、英雄から犯罪者へ変わる。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。"
+  },
+  {
+   "op": "nar",
+   "text": "宮殿の火事と逃亡の空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "私は「自分を標準だと思う傲慢は、尺度が変わるたび滑稽に露出する」という問いから逃げたくない。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "宮殿火災を救う方法が礼法違反とされ、英雄から犯罪者へ変わる。ならば、今できる一手を選ぶ。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、宮殿火災を救う方法が礼法違反とされ、英雄から犯罪者へ変わる。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "「宮殿の火事と逃亡」を通り過ぎず、この場で必要な言葉を残す。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "よし。次の場面へ持って行ける答えになった。"
+  },
+  {
+   "op": "hide",
+   "actor": "mizuchi"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "bg",
+   "src": "brobdingnag",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "brobdingnag"
+  },
+  {
+   "op": "nar",
+   "text": "第4景「巨人国の見世物」。今度は自分が掌の上の小人となり、少女に守られながら見世物にされる。"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "ここは「巨人国の見世物」。今度は自分が掌の上の小人となり、少女に守られながら見世物にされる。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "巨人国の見世物の空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "私は「自分を標準だと思う傲慢は、尺度が変わるたび滑稽に露出する」という問いから逃げたくない。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "今度は自分が掌の上の小人となり、少女に守られながら見世物にされる。ならば、今できる一手を選ぶ。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、今度は自分が掌の上の小人となり、少女に守られながら見世物にされる。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "「巨人国の見世物」を通り過ぎず、この場で必要な言葉を残す。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "よし。次の場面へ持って行ける答えになった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "bg",
+   "src": "king_mirror",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "king_mirror"
+  },
+  {
+   "op": "nar",
+   "text": "第5景「巨人王の鏡」。自国の政治を誇るほど王から残酷さを指摘され、尺度の逆転を味わう。"
+  },
+  {
+   "op": "show",
+   "actor": "nibulus",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "mizuchi",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "ここは「巨人王の鏡」。自国の政治を誇るほど王から残酷さを指摘され、尺度の逆転を味わう。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。"
+  },
+  {
+   "op": "nar",
+   "text": "巨人王の鏡の空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "私は「自分を標準だと思う傲慢は、尺度が変わるたび滑稽に露出する」という問いから逃げたくない。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "自国の政治を誇るほど王から残酷さを指摘され、尺度の逆転を味わう。ならば、今できる一手を選ぶ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、自国の政治を誇るほど王から残酷さを指摘され、尺度の逆転を味わう。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "「巨人王の鏡」を通り過ぎず、この場で必要な言葉を残す。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "よし。次の場面へ持って行ける答えになった。"
+  },
+  {
+   "op": "hide",
+   "actor": "nibulus"
+  },
+  {
+   "op": "hide",
+   "actor": "mizuchi"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ここから後編。前編の選択を抱えたまま、物語の続きを始めます。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "chapter_flight",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "chapter_flight"
+  },
+  {
+   "op": "nar",
+   "text": "第6景「前編終幕・空への箱」。鷲に運ばれた箱から海へ落ち、旅はさらに現実離れした国へ続く。"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "ここは「前編終幕・空への箱」。鷲に運ばれた箱から海へ落ち、旅はさらに現実離れした国へ続く。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "前編終幕・空への箱の空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "私は「自分を標準だと思う傲慢は、尺度が変わるたび滑稽に露出する」という問いから逃げたくない。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "鷲に運ばれた箱から海へ落ち、旅はさらに現実離れした国へ続く。ならば、今できる一手を選ぶ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
+   "eyes": "crying",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、鷲に運ばれた箱から海へ落ち、旅はさらに現実離れした国へ続く。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "「前編終幕・空への箱」を通り過ぎず、この場で必要な言葉を残す。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "よし。次の場面へ持って行ける答えになった。",
+   "eyes": "closed",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "bg",
+   "src": "laputa",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "laputa"
+  },
+  {
+   "op": "nar",
+   "text": "第7景「空飛ぶ島ラピュータ」。音楽と数学に夢中な支配者が、地上の暮らしを見ず島の影で脅す。"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "nibulus",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "ここは「空飛ぶ島ラピュータ」。音楽と数学に夢中な支配者が、地上の暮らしを見ず島の影で脅す。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "空飛ぶ島ラピュータの空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "私は「自分を標準だと思う傲慢は、尺度が変わるたび滑稽に露出する」という問いから逃げたくない。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "音楽と数学に夢中な支配者が、地上の暮らしを見ず島の影で脅す。ならば、今できる一手を選ぶ。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、音楽と数学に夢中な支配者が、地上の暮らしを見ず島の影で脅す。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "「空飛ぶ島ラピュータ」を通り過ぎず、この場で必要な言葉を残す。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "よし。次の場面へ持って行ける答えになった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "hide",
+   "actor": "nibulus"
+  },
+  {
+   "op": "bg",
+   "src": "academy",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "academy"
+  },
+  {
+   "op": "nar",
+   "text": "第8景「役に立たない学士院」。胡瓜から光を取り出すなど成果のない研究が、貧しい国土をさらに疲弊させる。"
+  },
+  {
+   "op": "show",
+   "actor": "mizuchi",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "ここは「役に立たない学士院」。胡瓜から光を取り出すなど成果のない研究が、貧しい国土をさらに疲弊させる。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。"
+  },
+  {
+   "op": "nar",
+   "text": "役に立たない学士院の空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "私は「自分を標準だと思う傲慢は、尺度が変わるたび滑稽に露出する」という問いから逃げたくない。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "胡瓜から光を取り出すなど成果のない研究が、貧しい国土をさらに疲弊させる。ならば、今できる一手を選ぶ。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、胡瓜から光を取り出すなど成果のない研究が、貧しい国土をさらに疲弊させる。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "「役に立たない学士院」を通り過ぎず、この場で必要な言葉を残す。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "よし。次の場面へ持って行ける答えになった。"
+  },
+  {
+   "op": "hide",
+   "actor": "mizuchi"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "bg",
+   "src": "houyhnhnms",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "houyhnhnms"
+  },
+  {
+   "op": "nar",
+   "text": "第9景「理性の馬とヤフー」。理性的な馬を崇めるあまり、ガリヴァーは人間を汚れた獣とだけ見るようになる。"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "ここは「理性の馬とヤフー」。理性的な馬を崇めるあまり、ガリヴァーは人間を汚れた獣とだけ見るようになる。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "理性の馬とヤフーの空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "私は「自分を標準だと思う傲慢は、尺度が変わるたび滑稽に露出する」という問いから逃げたくない。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "理性的な馬を崇めるあまり、ガリヴァーは人間を汚れた獣とだけ見るようになる。ならば、今できる一手を選ぶ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
+   "eyes": "crying",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、理性的な馬を崇めるあまり、ガリヴァーは人間を汚れた獣とだけ見るようになる。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "「理性の馬とヤフー」を通り過ぎず、この場で必要な言葉を残す。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "よし。次の場面へ持って行ける答えになった。",
+   "eyes": "closed",
+   "mouth": "open"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "今すぐ行動する",
+     "jump": "gullivers-travels_direct"
+    },
+    {
+     "text": "もう一人の声を最後まで聞く",
+     "jump": "gullivers-travels_listen"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "gullivers-travels_direct"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "私は今すぐ動く。遅れた分は、行動の後で説明する。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "jump",
+   "to": "gullivers-travels_merge"
+  },
+  {
+   "op": "label",
+   "id": "gullivers-travels_listen"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "私は最後まで聞く。沈黙も答えの一部として受け止める。",
+   "eyes": "anger"
+  },
+  {
+   "op": "label",
+   "id": "gullivers-travels_merge"
+  },
+  {
+   "op": "nar",
+   "text": "選び方は違っても、二人は同じ核心を次の景へ運ぶ。"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "bg",
+   "src": "return_mirror",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "return_mirror"
+  },
+  {
+   "op": "nar",
+   "text": "第10景「帰国した異邦人」。家族のもとへ戻っても人の匂いを拒み、自分の風刺が自分へ向く。"
+  },
+  {
+   "op": "show",
+   "actor": "nibulus",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "mizuchi",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "ここは「帰国した異邦人」。家族のもとへ戻っても人の匂いを拒み、自分の風刺が自分へ向く。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。"
+  },
+  {
+   "op": "nar",
+   "text": "帰国した異邦人の空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "私は「自分を標準だと思う傲慢は、尺度が変わるたび滑稽に露出する」という問いから逃げたくない。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "家族のもとへ戻っても人の匂いを拒み、自分の風刺が自分へ向く。ならば、今できる一手を選ぶ。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、家族のもとへ戻っても人の匂いを拒み、自分の風刺が自分へ向く。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "「帰国した異邦人」を通り過ぎず、この場で必要な言葉を残す。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "よし。次の場面へ持って行ける答えになった。"
+  },
+  {
+   "op": "hide",
+   "actor": "nibulus"
+  },
+  {
+   "op": "hide",
+   "actor": "mizuchi"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "『ガリヴァー旅行記―大きさの国、理性の国―』、これにて終演です。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "残った問いは「自分を標準だと思う傲慢は、尺度が変わるたび滑稽に露出する」。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "選んだ結末を、次の物語まで覚えていてください。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
+}

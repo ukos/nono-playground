@@ -1,0 +1,808 @@
+{
+  "meta": {
+    "id": "five-minutes-to-curtain",
+    "number": 161,
+    "title": "本番五分前 ―一人欠けた三役芝居―",
+    "original": "NONO座オリジナル",
+    "category": "Stage Actorオリジナル",
+    "adaptation": "free",
+    "format": "v3",
+    "minutes": 34,
+    "synopsis": "開演五分前、主役・王・門番を兼ねる役者が来ない。残った一座は役札と小道具を回し、三役ずつ演じながら公演そのものを救う。",
+    "theme": "欠員は穴ではなく、仲間の工夫が見える窓になる",
+    "chapters": [
+      {
+        "id": "main",
+        "title": "本編",
+        "scenes": [
+          "missing_call",
+          "triple_cast",
+          "prop_relay",
+          "role_collision",
+          "curtain_answer"
+        ]
+      }
+    ],
+    "note": "既存翻訳・上演台本・特定演者の口演は転用せず、台詞は本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "座長兼主人公",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "舞台監督兼王女",
+      "actor": "shiro",
+      "costume": "default"
+    },
+    {
+      "role": "衣裳係兼騎士",
+      "actor": "rei_casual",
+      "costume": "default"
+    },
+    {
+      "role": "悪役兼門番",
+      "actor": "kurogane",
+      "costume": "default"
+    },
+    {
+      "role": "音響係兼伝令",
+      "actor": "kotetsu",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "missing_call": "bg/five-minutes-to-curtain-missing_call-2048x1152.png",
+    "triple_cast": "bg/five-minutes-to-curtain-triple_cast-2048x1152.png",
+    "prop_relay": "bg/five-minutes-to-curtain-prop_relay-2048x1152.png",
+    "role_collision": "bg/five-minutes-to-curtain-role_collision-2048x1152.png",
+    "curtain_answer": "bg/five-minutes-to-curtain-curtain_answer-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『本番五分前―一人欠けた三役芝居―』。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "StageActorオリジナルの舞台を、全5景でお届けします。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "この舞台の核は「欠員は穴ではなく、仲間の工夫が見える窓になる」。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "既存の台詞を写さず、今夜のために新しく構成しました。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "それでは、幕を開けましょう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "missing_call",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "missing_call"
+    },
+    {
+      "op": "nar",
+      "text": "第1景「欠けた配役表」。開演五分前、三役を担う役者の欠席が判明し、配役表に大きな空白が生まれる。"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "ここは「欠けた配役表」。開演五分前、三役を担う役者の欠席が判明し、配役表に大きな空白が生まれる。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "今の選択は、次の場面だけでなく結末まで動かす。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "欠けた配役表の空気が変わり、言葉の裏にある選択が見える。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "私は「欠員は穴ではなく、仲間の工夫が見える窓になる」という問いから逃げたくない。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "開演五分前、三役を担う役者の欠席が判明し、配役表に大きな空白が生まれる。ならば、今できる一手を選ぶ。",
+      "eyes": "fun",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "舞台の奥で音が止み、開演五分前、三役を担う役者の欠席が判明し、配役表に大きな空白が生まれる。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "「欠けた配役表」を通り過ぎず、この場で必要な言葉を残す。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "答えは一つでなくても、選んだ責任は分け合える。",
+      "eyes": "surprise",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "よし。次の場面へ持って行ける答えになった。",
+      "eyes": "closed"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "bg",
+      "src": "triple_cast",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "triple_cast"
+    },
+    {
+      "op": "nar",
+      "text": "第2景「一人三役会議」。中止を避けるため全員が主人公、王、門番を交代で演じる危険な案を採用する。"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kotetsu",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "ここは「一人三役会議」。中止を避けるため全員が主人公、王、門番を交代で演じる危険な案を採用する。"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "今の選択は、次の場面だけでなく結末まで動かす。"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。"
+    },
+    {
+      "op": "nar",
+      "text": "一人三役会議の空気が変わり、言葉の裏にある選択が見える。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "私は「欠員は穴ではなく、仲間の工夫が見える窓になる」という問いから逃げたくない。"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "中止を避けるため全員が主人公、王、門番を交代で演じる危険な案を採用する。ならば、今できる一手を選ぶ。"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "その一手で得るものと、失うものを同じ明るさで見よう。"
+    },
+    {
+      "op": "nar",
+      "text": "舞台の奥で音が止み、中止を避けるため全員が主人公、王、門番を交代で演じる危険な案を採用する。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "「一人三役会議」を通り過ぎず、この場で必要な言葉を残す。"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。"
+    },
+    {
+      "op": "nar",
+      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "答えは一つでなくても、選んだ責任は分け合える。"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "よし。次の場面へ持って行ける答えになった。"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "hide",
+      "actor": "kotetsu"
+    },
+    {
+      "op": "bg",
+      "src": "prop_relay",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "prop_relay"
+    },
+    {
+      "op": "nar",
+      "text": "第3景「小道具リレー」。冠、剣、鍵束を持った者がその役になる規則で、物語を止めずにつなぐ。"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "ここは「小道具リレー」。冠、剣、鍵束を持った者がその役になる規則で、物語を止めずにつなぐ。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "今の選択は、次の場面だけでなく結末まで動かす。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "小道具リレーの空気が変わり、言葉の裏にある選択が見える。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "私は「欠員は穴ではなく、仲間の工夫が見える窓になる」という問いから逃げたくない。",
+      "eyes": "surprise",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "冠、剣、鍵束を持った者がその役になる規則で、物語を止めずにつなぐ。ならば、今できる一手を選ぶ。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
+      "eyes": "crying",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "舞台の奥で音が止み、冠、剣、鍵束を持った者がその役になる規則で、物語を止めずにつなぐ。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "「小道具リレー」を通り過ぎず、この場で必要な言葉を残す。",
+      "eyes": "anger",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "答えは一つでなくても、選んだ責任は分け合える。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "よし。次の場面へ持って行ける答えになった。",
+      "eyes": "closed",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "bg",
+      "src": "role_collision",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "role_collision"
+    },
+    {
+      "op": "nar",
+      "text": "第4景「役がぶつかる」。同じ役札を二人が取り、悪役が姫を助け、門番が自分を通せんぼする混乱が起きる。"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kotetsu",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "ここは「役がぶつかる」。同じ役札を二人が取り、悪役が姫を助け、門番が自分を通せんぼする混乱が起きる。"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "今の選択は、次の場面だけでなく結末まで動かす。"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。"
+    },
+    {
+      "op": "nar",
+      "text": "役がぶつかるの空気が変わり、言葉の裏にある選択が見える。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "私は「欠員は穴ではなく、仲間の工夫が見える窓になる」という問いから逃げたくない。"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "同じ役札を二人が取り、悪役が姫を助け、門番が自分を通せんぼする混乱が起きる。ならば、今できる一手を選ぶ。"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "その一手で得るものと、失うものを同じ明るさで見よう。"
+    },
+    {
+      "op": "nar",
+      "text": "舞台の奥で音が止み、同じ役札を二人が取り、悪役が姫を助け、門番が自分を通せんぼする混乱が起きる。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "「役がぶつかる」を通り過ぎず、この場で必要な言葉を残す。"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。"
+    },
+    {
+      "op": "nar",
+      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "答えは一つでなくても、選んだ責任は分け合える。"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "よし。次の場面へ持って行ける答えになった。"
+    },
+    {
+      "op": "choice",
+      "options": [
+        {
+          "text": "今すぐ行動する",
+          "jump": "five-minutes-to-curtain_direct"
+        },
+        {
+          "text": "もう一人の声を最後まで聞く",
+          "jump": "five-minutes-to-curtain_listen"
+        }
+      ]
+    },
+    {
+      "op": "label",
+      "id": "five-minutes-to-curtain_direct"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "私は今すぐ動く。遅れた分は、行動の後で説明する。"
+    },
+    {
+      "op": "jump",
+      "to": "five-minutes-to-curtain_merge"
+    },
+    {
+      "op": "label",
+      "id": "five-minutes-to-curtain_listen"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "私は最後まで聞く。沈黙も答えの一部として受け止める。"
+    },
+    {
+      "op": "label",
+      "id": "five-minutes-to-curtain_merge"
+    },
+    {
+      "op": "nar",
+      "text": "選び方は違っても、二人は同じ核心を次の景へ運ぶ。"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "hide",
+      "actor": "kotetsu"
+    },
+    {
+      "op": "bg",
+      "src": "curtain_answer",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "curtain_answer"
+    },
+    {
+      "op": "nar",
+      "text": "第5景「五分後の拍手」。欠席者の台詞を皆で分け、失敗も舞台の一部として最後の幕を下ろす。"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "ここは「五分後の拍手」。欠席者の台詞を皆で分け、失敗も舞台の一部として最後の幕を下ろす。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "今の選択は、次の場面だけでなく結末まで動かす。",
+      "eyes": "anger",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "五分後の拍手の空気が変わり、言葉の裏にある選択が見える。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "私は「欠員は穴ではなく、仲間の工夫が見える窓になる」という問いから逃げたくない。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+      "eyes": "closed",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "欠席者の台詞を皆で分け、失敗も舞台の一部として最後の幕を下ろす。ならば、今できる一手を選ぶ。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "舞台の奥で音が止み、欠席者の台詞を皆で分け、失敗も舞台の一部として最後の幕を下ろす。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "「五分後の拍手」を通り過ぎず、この場で必要な言葉を残す。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "答えは一つでなくても、選んだ責任は分け合える。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "よし。次の場面へ持って行ける答えになった。",
+      "eyes": "closed"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "『本番五分前―一人欠けた三役芝居―』、これにて終演です。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "残った問いは「欠員は穴ではなく、仲間の工夫が見える窓になる」。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "選んだ結末を、次の物語まで覚えていてください。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

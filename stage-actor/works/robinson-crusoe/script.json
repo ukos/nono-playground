@@ -1,0 +1,1445 @@
+{
+ "meta": {
+  "id": "robinson-crusoe",
+  "number": 175,
+  "title": "ロビンソン・クルーソー ―孤島二十八年―",
+  "original": "ダニエル・デフォー『ロビンソン・クルーソー』から新規脚色",
+  "category": "冒険航海もの",
+  "adaptation": "moderate",
+  "format": "v3",
+  "minutes": 82,
+  "synopsis": "難破、住居作り、病、足跡、フライデーとの出会い、反乱船の奪還、帰郷までを前後編で描く。植民地主義的視点は批判的に再構成する。",
+  "theme": "生き延びる技術は所有ではなく、孤独と他者への態度によって試される",
+  "chapters": [
+   {
+    "id": "part-1",
+    "title": "前編",
+    "scenes": [
+     "shipwreck",
+     "salvage",
+     "fortress",
+     "calendar_grain",
+     "fever_dream"
+    ]
+   },
+   {
+    "id": "part-2",
+    "title": "後編",
+    "scenes": [
+     "chapter_return",
+     "footprint_fear",
+     "friday_meeting",
+     "mutineers",
+     "homecoming"
+    ]
+   }
+  ],
+  "note": "既存翻訳・上演台本・特定演者の口演は転用せず、台詞は本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "ロビンソン",
+   "actor": "tanurio",
+   "costume": "default"
+  },
+  {
+   "role": "フライデー",
+   "actor": "sasuke",
+   "costume": "default"
+  },
+  {
+   "role": "漂着船の船長",
+   "actor": "gou",
+   "costume": "default"
+  },
+  {
+   "role": "島の声",
+   "actor": "mizuchi",
+   "costume": "default"
+  },
+  {
+   "role": "語り手",
+   "actor": "nono",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "shipwreck": "bg/robinson-crusoe-shipwreck-2048x1152.png",
+  "salvage": "bg/robinson-crusoe-salvage-2048x1152.png",
+  "fortress": "bg/robinson-crusoe-fortress-2048x1152.png",
+  "calendar_grain": "bg/robinson-crusoe-calendar_grain-2048x1152.png",
+  "fever_dream": "bg/robinson-crusoe-fever_dream-2048x1152.png",
+  "chapter_return": "bg/robinson-crusoe-chapter_return-2048x1152.png",
+  "footprint_fear": "bg/robinson-crusoe-footprint_fear-2048x1152.png",
+  "friday_meeting": "bg/robinson-crusoe-friday_meeting-2048x1152.png",
+  "mutineers": "bg/robinson-crusoe-mutineers-2048x1152.png",
+  "homecoming": "bg/robinson-crusoe-homecoming-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ようこそ、NONO座へ。本日の演目は『ロビンソン・クルーソー―孤島二十八年―』。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "冒険航海ものの舞台を、全10景でお届けします。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "この舞台の核は「生き延びる技術は所有ではなく、孤独と他者への態度によって試される」。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "既存の台詞を写さず、今夜のために新しく構成しました。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "それでは、幕を開けましょう。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "shipwreck",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "shipwreck"
+  },
+  {
+   "op": "nar",
+   "text": "第1景「難破と浜辺」。嵐で船を失ったロビンソンは、ただ一人で浜へ打ち上げられる。"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "ここは「難破と浜辺」。嵐で船を失ったロビンソンは、ただ一人で浜へ打ち上げられる。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "難破と浜辺の空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "私は「生き延びる技術は所有ではなく、孤独と他者への態度によって試される」という問いから逃げたくない。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "嵐で船を失ったロビンソンは、ただ一人で浜へ打ち上げられる。ならば、今できる一手を選ぶ。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、嵐で船を失ったロビンソンは、ただ一人で浜へ打ち上げられる。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "「難破と浜辺」を通り過ぎず、この場で必要な言葉を残す。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "よし。次の場面へ持って行ける答えになった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "bg",
+   "src": "salvage",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "salvage"
+  },
+  {
+   "op": "nar",
+   "text": "第2景「沈みかけた船」。潮が引くたび船へ戻り、道具、火薬、帆布を筏で運んで生存の基盤を作る。"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "mizuchi",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "ここは「沈みかけた船」。潮が引くたび船へ戻り、道具、火薬、帆布を筏で運んで生存の基盤を作る。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。"
+  },
+  {
+   "op": "nar",
+   "text": "沈みかけた船の空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "私は「生き延びる技術は所有ではなく、孤独と他者への態度によって試される」という問いから逃げたくない。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "潮が引くたび船へ戻り、道具、火薬、帆布を筏で運んで生存の基盤を作る。ならば、今できる一手を選ぶ。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、潮が引くたび船へ戻り、道具、火薬、帆布を筏で運んで生存の基盤を作る。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "「沈みかけた船」を通り過ぎず、この場で必要な言葉を残す。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "よし。次の場面へ持って行ける答えになった。"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "mizuchi"
+  },
+  {
+   "op": "bg",
+   "src": "fortress",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "fortress"
+  },
+  {
+   "op": "nar",
+   "text": "第3景「柵と洞穴」。丘の洞穴と柵で住居を作るが、安全を求めるほど島を所有物のように呼び始める。"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "ここは「柵と洞穴」。丘の洞穴と柵で住居を作るが、安全を求めるほど島を所有物のように呼び始める。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "柵と洞穴の空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "私は「生き延びる技術は所有ではなく、孤独と他者への態度によって試される」という問いから逃げたくない。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "丘の洞穴と柵で住居を作るが、安全を求めるほど島を所有物のように呼び始める。ならば、今できる一手を選ぶ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
+   "eyes": "crying",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、丘の洞穴と柵で住居を作るが、安全を求めるほど島を所有物のように呼び始める。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "「柵と洞穴」を通り過ぎず、この場で必要な言葉を残す。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "よし。次の場面へ持って行ける答えになった。",
+   "eyes": "closed",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "bg",
+   "src": "calendar_grain",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "calendar_grain"
+  },
+  {
+   "op": "nar",
+   "text": "第4景「暦と一粒の麦」。柱へ日を刻み、偶然芽吹いた穀物を何年もかけてパンへ変える。"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "mizuchi",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "ここは「暦と一粒の麦」。柱へ日を刻み、偶然芽吹いた穀物を何年もかけてパンへ変える。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。"
+  },
+  {
+   "op": "nar",
+   "text": "暦と一粒の麦の空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "私は「生き延びる技術は所有ではなく、孤独と他者への態度によって試される」という問いから逃げたくない。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "柱へ日を刻み、偶然芽吹いた穀物を何年もかけてパンへ変える。ならば、今できる一手を選ぶ。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、柱へ日を刻み、偶然芽吹いた穀物を何年もかけてパンへ変える。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "「暦と一粒の麦」を通り過ぎず、この場で必要な言葉を残す。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "よし。次の場面へ持って行ける答えになった。"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "mizuchi"
+  },
+  {
+   "op": "bg",
+   "src": "fever_dream",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "fever_dream"
+  },
+  {
+   "op": "nar",
+   "text": "第5景「病と孤独」。高熱の夜、自分が支配者ではなく島に許されているだけだと悟る。"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "ここは「病と孤独」。高熱の夜、自分が支配者ではなく島に許されているだけだと悟る。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "病と孤独の空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "私は「生き延びる技術は所有ではなく、孤独と他者への態度によって試される」という問いから逃げたくない。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+   "eyes": "closed",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "高熱の夜、自分が支配者ではなく島に許されているだけだと悟る。ならば、今できる一手を選ぶ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、高熱の夜、自分が支配者ではなく島に許されているだけだと悟る。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "「病と孤独」を通り過ぎず、この場で必要な言葉を残す。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "よし。次の場面へ持って行ける答えになった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ここから後編。前編の選択を抱えたまま、物語の続きを始めます。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "chapter_return",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "chapter_return"
+  },
+  {
+   "op": "nar",
+   "text": "第6景「前編終幕・浜の足跡」。自分以外の裸足の跡を一つ見つけ、築いた安心が一瞬で崩れる。"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "mizuchi",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "ここは「前編終幕・浜の足跡」。自分以外の裸足の跡を一つ見つけ、築いた安心が一瞬で崩れる。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。"
+  },
+  {
+   "op": "nar",
+   "text": "前編終幕・浜の足跡の空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "私は「生き延びる技術は所有ではなく、孤独と他者への態度によって試される」という問いから逃げたくない。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "自分以外の裸足の跡を一つ見つけ、築いた安心が一瞬で崩れる。ならば、今できる一手を選ぶ。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、自分以外の裸足の跡を一つ見つけ、築いた安心が一瞬で崩れる。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "「前編終幕・浜の足跡」を通り過ぎず、この場で必要な言葉を残す。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "よし。次の場面へ持って行ける答えになった。"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "mizuchi"
+  },
+  {
+   "op": "bg",
+   "src": "footprint_fear",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "footprint_fear"
+  },
+  {
+   "op": "nar",
+   "text": "第7景「恐怖が作る敵」。見えない相手を恐れて武器と罠を増やすが、島のすべてが敵に見え始める。"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "ここは「恐怖が作る敵」。見えない相手を恐れて武器と罠を増やすが、島のすべてが敵に見え始める。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "恐怖が作る敵の空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "私は「生き延びる技術は所有ではなく、孤独と他者への態度によって試される」という問いから逃げたくない。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "見えない相手を恐れて武器と罠を増やすが、島のすべてが敵に見え始める。ならば、今できる一手を選ぶ。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、見えない相手を恐れて武器と罠を増やすが、島のすべてが敵に見え始める。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "「恐怖が作る敵」を通り過ぎず、この場で必要な言葉を残す。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "よし。次の場面へ持って行ける答えになった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "bg",
+   "src": "friday_meeting",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "friday_meeting"
+  },
+  {
+   "op": "nar",
+   "text": "第8景「フライデーとの出会い」。救った男へ勝手に名を与えたことを問い直し、互いの言葉と名前を交換する。"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "mizuchi",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "ここは「フライデーとの出会い」。救った男へ勝手に名を与えたことを問い直し、互いの言葉と名前を交換する。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。"
+  },
+  {
+   "op": "nar",
+   "text": "フライデーとの出会いの空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "私は「生き延びる技術は所有ではなく、孤独と他者への態度によって試される」という問いから逃げたくない。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "救った男へ勝手に名を与えたことを問い直し、互いの言葉と名前を交換する。ならば、今できる一手を選ぶ。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、救った男へ勝手に名を与えたことを問い直し、互いの言葉と名前を交換する。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "「フライデーとの出会い」を通り過ぎず、この場で必要な言葉を残す。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "よし。次の場面へ持って行ける答えになった。"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "mizuchi"
+  },
+  {
+   "op": "bg",
+   "src": "mutineers",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "mutineers"
+  },
+  {
+   "op": "nar",
+   "text": "第9景「反乱船の浜」。反乱者に追われた船長を助け、島の地形と少人数の知恵で船を取り戻す。"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "ここは「反乱船の浜」。反乱者に追われた船長を助け、島の地形と少人数の知恵で船を取り戻す。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "反乱船の浜の空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "私は「生き延びる技術は所有ではなく、孤独と他者への態度によって試される」という問いから逃げたくない。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "反乱者に追われた船長を助け、島の地形と少人数の知恵で船を取り戻す。ならば、今できる一手を選ぶ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
+   "eyes": "crying",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、反乱者に追われた船長を助け、島の地形と少人数の知恵で船を取り戻す。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "「反乱船の浜」を通り過ぎず、この場で必要な言葉を残す。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "よし。次の場面へ持って行ける答えになった。",
+   "eyes": "closed",
+   "mouth": "open"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "今すぐ行動する",
+     "jump": "robinson-crusoe_direct"
+    },
+    {
+     "text": "もう一人の声を最後まで聞く",
+     "jump": "robinson-crusoe_listen"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "robinson-crusoe_direct"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "私は今すぐ動く。遅れた分は、行動の後で説明する。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "jump",
+   "to": "robinson-crusoe_merge"
+  },
+  {
+   "op": "label",
+   "id": "robinson-crusoe_listen"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "私は最後まで聞く。沈黙も答えの一部として受け止める。",
+   "eyes": "anger"
+  },
+  {
+   "op": "label",
+   "id": "robinson-crusoe_merge"
+  },
+  {
+   "op": "nar",
+   "text": "選び方は違っても、二人は同じ核心を次の景へ運ぶ。"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "bg",
+   "src": "homecoming",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "homecoming"
+  },
+  {
+   "op": "nar",
+   "text": "第10景「帰郷と残る島」。二十八年後に帰る船上で、島を所有せず記憶と負債を持ち帰ると決める。"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "mizuchi",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "ここは「帰郷と残る島」。二十八年後に帰る船上で、島を所有せず記憶と負債を持ち帰ると決める。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。"
+  },
+  {
+   "op": "nar",
+   "text": "帰郷と残る島の空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "私は「生き延びる技術は所有ではなく、孤独と他者への態度によって試される」という問いから逃げたくない。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "二十八年後に帰る船上で、島を所有せず記憶と負債を持ち帰ると決める。ならば、今できる一手を選ぶ。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、二十八年後に帰る船上で、島を所有せず記憶と負債を持ち帰ると決める。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "「帰郷と残る島」を通り過ぎず、この場で必要な言葉を残す。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "よし。次の場面へ持って行ける答えになった。"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "mizuchi"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "『ロビンソン・クルーソー―孤島二十八年―』、これにて終演です。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "残った問いは「生き延びる技術は所有ではなく、孤独と他者への態度によって試される」。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "選んだ結末を、次の物語まで覚えていてください。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
+}

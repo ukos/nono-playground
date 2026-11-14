@@ -1,0 +1,1506 @@
+{
+ "meta": {
+  "id": "botan-doro",
+  "number": 168,
+  "title": "牡丹灯籠 ―露と新三郎―",
+  "original": "三遊亭圓朝『怪談牡丹燈籠』の古典的筋立てから新規脚色",
+  "category": "怪談・幻想",
+  "adaptation": "moderate",
+  "format": "v3",
+  "minutes": 78,
+  "synopsis": "新三郎とお露の逢瀬、伴蔵夫婦の欲、護符をめぐる取引、真相と供養までを前後編で描く長編怪談。",
+  "theme": "恋慕が死を越えるとき、愛と執着の境は誰にも一度では裁けない",
+  "chapters": [
+   {
+    "id": "part-1",
+    "title": "前編",
+    "scenes": [
+     "summer_meeting",
+     "peony_lantern",
+     "seven_nights",
+     "temple_truth",
+     "banzo_listens"
+    ]
+   },
+   {
+    "id": "part-2",
+    "title": "後編",
+    "scenes": [
+     "chapter_bridge",
+     "bribe_and_charm",
+     "fatal_reunion",
+     "banzo_fall",
+     "memorial_light"
+    ]
+   }
+  ],
+  "note": "既存翻訳・上演台本・特定演者の口演は転用せず、台詞は本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
+  },
+  {
+   "role": "萩原新三郎",
+   "actor": "rei_kimono",
+   "costume": "default"
+  },
+  {
+   "role": "お露",
+   "actor": "yui",
+   "costume": "default"
+  },
+  {
+   "role": "お米",
+   "actor": "yoru",
+   "costume": "default"
+  },
+  {
+   "role": "伴蔵",
+   "actor": "kurogane",
+   "costume": "default"
+  },
+  {
+   "role": "お峰",
+   "actor": "akane",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "summer_meeting": "bg/botan-doro-summer_meeting-2048x1152.png",
+  "peony_lantern": "bg/botan-doro-peony_lantern-2048x1152.png",
+  "seven_nights": "bg/botan-doro-seven_nights-2048x1152.png",
+  "temple_truth": "bg/botan-doro-temple_truth-2048x1152.png",
+  "banzo_listens": "bg/botan-doro-banzo_listens-2048x1152.png",
+  "chapter_bridge": "bg/botan-doro-chapter_bridge-2048x1152.png",
+  "bribe_and_charm": "bg/botan-doro-bribe_and_charm-2048x1152.png",
+  "fatal_reunion": "bg/botan-doro-fatal_reunion-2048x1152.png",
+  "banzo_fall": "bg/botan-doro-banzo_fall-2048x1152.png",
+  "memorial_light": "bg/botan-doro-memorial_light-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ようこそ、NONO座へ。本日の演目は『牡丹灯籠―露と新三郎―』。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "怪談・幻想の舞台を、全10景でお届けします。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "この舞台の核は「恋慕が死を越えるとき、愛と執着の境は誰にも一度では裁けない」。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "既存の台詞を写さず、今夜のために新しく構成しました。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "それでは、幕を開けましょう。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "summer_meeting",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "summer_meeting"
+  },
+  {
+   "op": "nar",
+   "text": "第1景「飯島家の出会い」。新三郎は病床のお露と心を通わせるが、身分と家の都合で再会を阻まれる。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "ここは「飯島家の出会い」。新三郎は病床のお露と心を通わせるが、身分と家の都合で再会を阻まれる。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "飯島家の出会いの空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "私は「恋慕が死を越えるとき、愛と執着の境は誰にも一度では裁けない」という問いから逃げたくない。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "新三郎は病床のお露と心を通わせるが、身分と家の都合で再会を阻まれる。ならば、今できる一手を選ぶ。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、新三郎は病床のお露と心を通わせるが、身分と家の都合で再会を阻まれる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "「飯島家の出会い」を通り過ぎず、この場で必要な言葉を残す。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "よし。次の場面へ持って行ける答えになった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "bg",
+   "src": "peony_lantern",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "peony_lantern"
+  },
+  {
+   "op": "nar",
+   "text": "第2景「牡丹灯籠の夜」。盆の夜、牡丹灯籠を下げたお米とお露が新三郎の長屋を訪ねる。"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "ここは「牡丹灯籠の夜」。盆の夜、牡丹灯籠を下げたお米とお露が新三郎の長屋を訪ねる。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。"
+  },
+  {
+   "op": "nar",
+   "text": "牡丹灯籠の夜の空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "私は「恋慕が死を越えるとき、愛と執着の境は誰にも一度では裁けない」という問いから逃げたくない。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "盆の夜、牡丹灯籠を下げたお米とお露が新三郎の長屋を訪ねる。ならば、今できる一手を選ぶ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、盆の夜、牡丹灯籠を下げたお米とお露が新三郎の長屋を訪ねる。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "「牡丹灯籠の夜」を通り過ぎず、この場で必要な言葉を残す。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "よし。次の場面へ持って行ける答えになった。"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "bg",
+   "src": "seven_nights",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "seven_nights"
+  },
+  {
+   "op": "nar",
+   "text": "第3景「七夜の逢瀬」。新三郎は夜ごとの逢瀬に溺れ、友は衰弱と墓土の匂いから異変を悟る。"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "ここは「七夜の逢瀬」。新三郎は夜ごとの逢瀬に溺れ、友は衰弱と墓土の匂いから異変を悟る。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "七夜の逢瀬の空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "私は「恋慕が死を越えるとき、愛と執着の境は誰にも一度では裁けない」という問いから逃げたくない。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "新三郎は夜ごとの逢瀬に溺れ、友は衰弱と墓土の匂いから異変を悟る。ならば、今できる一手を選ぶ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
+   "eyes": "crying",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、新三郎は夜ごとの逢瀬に溺れ、友は衰弱と墓土の匂いから異変を悟る。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "「七夜の逢瀬」を通り過ぎず、この場で必要な言葉を残す。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "よし。次の場面へ持って行ける答えになった。",
+   "eyes": "closed",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "bg",
+   "src": "temple_truth",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "temple_truth"
+  },
+  {
+   "op": "nar",
+   "text": "第4景「寺で知る死」。寺の墓標からお露がすでに亡いと知り、新三郎は護符で戸を封じる。"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "ここは「寺で知る死」。寺の墓標からお露がすでに亡いと知り、新三郎は護符で戸を封じる。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "寺で知る死の空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "私は「恋慕が死を越えるとき、愛と執着の境は誰にも一度では裁けない」という問いから逃げたくない。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "寺の墓標からお露がすでに亡いと知り、新三郎は護符で戸を封じる。ならば、今できる一手を選ぶ。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、寺の墓標からお露がすでに亡いと知り、新三郎は護符で戸を封じる。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "「寺で知る死」を通り過ぎず、この場で必要な言葉を残す。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "よし。次の場面へ持って行ける答えになった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "bg",
+   "src": "banzo_listens",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "banzo_listens"
+  },
+  {
+   "op": "nar",
+   "text": "第5景「伴蔵の覗き見」。隣人の伴蔵は幽霊の願いを聞き、恐怖より先に謝礼の額を計る。"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "ここは「伴蔵の覗き見」。隣人の伴蔵は幽霊の願いを聞き、恐怖より先に謝礼の額を計る。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "伴蔵の覗き見の空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "私は「恋慕が死を越えるとき、愛と執着の境は誰にも一度では裁けない」という問いから逃げたくない。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+   "eyes": "closed",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "隣人の伴蔵は幽霊の願いを聞き、恐怖より先に謝礼の額を計る。ならば、今できる一手を選ぶ。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、隣人の伴蔵は幽霊の願いを聞き、恐怖より先に謝礼の額を計る。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "「伴蔵の覗き見」を通り過ぎず、この場で必要な言葉を残す。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "よし。次の場面へ持って行ける答えになった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ここから後編。前編の選択を抱えたまま、物語の続きを始めます。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "chapter_bridge",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "chapter_bridge"
+  },
+  {
+   "op": "nar",
+   "text": "第6景「前編終幕・閉ざす戸」。護符に守られた戸の外で灯籠が揺れ、内と外の双方が朝を待つ。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "ここは「前編終幕・閉ざす戸」。護符に守られた戸の外で灯籠が揺れ、内と外の双方が朝を待つ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "前編終幕・閉ざす戸の空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "私は「恋慕が死を越えるとき、愛と執着の境は誰にも一度では裁けない」という問いから逃げたくない。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "護符に守られた戸の外で灯籠が揺れ、内と外の双方が朝を待つ。ならば、今できる一手を選ぶ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
+   "eyes": "crying",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、護符に守られた戸の外で灯籠が揺れ、内と外の双方が朝を待つ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "「前編終幕・閉ざす戸」を通り過ぎず、この場で必要な言葉を残す。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "よし。次の場面へ持って行ける答えになった。",
+   "eyes": "closed",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "bg",
+   "src": "bribe_and_charm",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "bribe_and_charm"
+  },
+  {
+   "op": "nar",
+   "text": "第7景「護符を剥がす取引」。伴蔵夫婦は幽霊の金と暮らしの不安に負け、護符を一枚ずつ剥がす。"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "ここは「護符を剥がす取引」。伴蔵夫婦は幽霊の金と暮らしの不安に負け、護符を一枚ずつ剥がす。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。"
+  },
+  {
+   "op": "nar",
+   "text": "護符を剥がす取引の空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "私は「恋慕が死を越えるとき、愛と執着の境は誰にも一度では裁けない」という問いから逃げたくない。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "伴蔵夫婦は幽霊の金と暮らしの不安に負け、護符を一枚ずつ剥がす。ならば、今できる一手を選ぶ。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、伴蔵夫婦は幽霊の金と暮らしの不安に負け、護符を一枚ずつ剥がす。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "「護符を剥がす取引」を通り過ぎず、この場で必要な言葉を残す。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "よし。次の場面へ持って行ける答えになった。"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "bg",
+   "src": "fatal_reunion",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "fatal_reunion"
+  },
+  {
+   "op": "nar",
+   "text": "第8景「死者との再会」。新三郎は恐れながらもお露を迎え、朝には冷たい骸を抱いて見つかる。"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "ここは「死者との再会」。新三郎は恐れながらもお露を迎え、朝には冷たい骸を抱いて見つかる。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "死者との再会の空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "私は「恋慕が死を越えるとき、愛と執着の境は誰にも一度では裁けない」という問いから逃げたくない。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+   "eyes": "closed",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "新三郎は恐れながらもお露を迎え、朝には冷たい骸を抱いて見つかる。ならば、今できる一手を選ぶ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、新三郎は恐れながらもお露を迎え、朝には冷たい骸を抱いて見つかる。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "「死者との再会」を通り過ぎず、この場で必要な言葉を残す。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "よし。次の場面へ持って行ける答えになった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "bg",
+   "src": "banzo_fall",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "banzo_fall"
+  },
+  {
+   "op": "nar",
+   "text": "第9景「欲の行き先」。得た金は伴蔵夫婦を救わず、疑いと暴力を増やして二人を破滅へ導く。"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "ここは「欲の行き先」。得た金は伴蔵夫婦を救わず、疑いと暴力を増やして二人を破滅へ導く。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "欲の行き先の空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "私は「恋慕が死を越えるとき、愛と執着の境は誰にも一度では裁けない」という問いから逃げたくない。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "得た金は伴蔵夫婦を救わず、疑いと暴力を増やして二人を破滅へ導く。ならば、今できる一手を選ぶ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
+   "eyes": "crying",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、得た金は伴蔵夫婦を救わず、疑いと暴力を増やして二人を破滅へ導く。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "「欲の行き先」を通り過ぎず、この場で必要な言葉を残す。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "よし。次の場面へ持って行ける答えになった。",
+   "eyes": "closed",
+   "mouth": "open"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "今すぐ行動する",
+     "jump": "botan-doro_direct"
+    },
+    {
+     "text": "もう一人の声を最後まで聞く",
+     "jump": "botan-doro_listen"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "botan-doro_direct"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "私は今すぐ動く。遅れた分は、行動の後で説明する。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "jump",
+   "to": "botan-doro_merge"
+  },
+  {
+   "op": "label",
+   "id": "botan-doro_listen"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "私は最後まで聞く。沈黙も答えの一部として受け止める。",
+   "eyes": "anger"
+  },
+  {
+   "op": "label",
+   "id": "botan-doro_merge"
+  },
+  {
+   "op": "nar",
+   "text": "選び方は違っても、二人は同じ核心を次の景へ運ぶ。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "bg",
+   "src": "memorial_light",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "memorial_light"
+  },
+  {
+   "op": "nar",
+   "text": "第10景「供養の灯」。残された者は恋を罪だけにせず、執着をほどくため牡丹灯籠へ火をともす。"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "ここは「供養の灯」。残された者は恋を罪だけにせず、執着をほどくため牡丹灯籠へ火をともす。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "供養の灯の空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "私は「恋慕が死を越えるとき、愛と執着の境は誰にも一度では裁けない」という問いから逃げたくない。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "残された者は恋を罪だけにせず、執着をほどくため牡丹灯籠へ火をともす。ならば、今できる一手を選ぶ。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、残された者は恋を罪だけにせず、執着をほどくため牡丹灯籠へ火をともす。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "「供養の灯」を通り過ぎず、この場で必要な言葉を残す。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "よし。次の場面へ持って行ける答えになった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "『牡丹灯籠―露と新三郎―』、これにて終演です。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "残った問いは「恋慕が死を越えるとき、愛と執着の境は誰にも一度では裁けない」。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "選んだ結末を、次の物語まで覚えていてください。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
+}

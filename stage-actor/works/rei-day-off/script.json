@@ -1,0 +1,815 @@
+{
+  "meta": {
+    "id": "rei-day-off",
+    "number": 164,
+    "title": "レイの休日 ―今日は忍者ではありません―",
+    "original": "NONO座オリジナル",
+    "category": "Stage Actorオリジナル",
+    "adaptation": "free",
+    "format": "v3",
+    "minutes": 31,
+    "synopsis": "普段着のレイは忍者役を断固拒否して休日へ出る。しかし静かな歩き方も買い物も昼寝も、仲間には忍術に見えてしまう。",
+    "theme": "得意な役から離れる日にも、その人らしさは残る",
+    "chapters": [
+      {
+        "id": "main",
+        "title": "本編",
+        "scenes": [
+          "declaration",
+          "quiet_cafe",
+          "shopping_bag",
+          "park_nap",
+          "ordinary_step"
+        ]
+      }
+    ],
+    "note": "既存翻訳・上演台本・特定演者の口演は転用せず、台詞は本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "休日のレイ",
+      "actor": "rei_casual",
+      "costume": "default"
+    },
+    {
+      "role": "同行者",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "観察役",
+      "actor": "shiro",
+      "costume": "default"
+    },
+    {
+      "role": "疑い深い店主",
+      "actor": "kurogane",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "declaration": "bg/rei-day-off-declaration-2048x1152.png",
+    "quiet_cafe": "bg/rei-day-off-quiet_cafe-2048x1152.png",
+    "shopping_bag": "bg/rei-day-off-shopping_bag-2048x1152.png",
+    "park_nap": "bg/rei-day-off-park_nap-2048x1152.png",
+    "ordinary_step": "bg/rei-day-off-ordinary_step-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『レイの休日―今日は忍者ではありません―』。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "StageActorオリジナルの舞台を、全5景でお届けします。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "この舞台の核は「得意な役から離れる日にも、その人らしさは残る」。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "既存の台詞を写さず、今夜のために新しく構成しました。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "それでは、幕を開けましょう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "declaration",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "declaration"
+    },
+    {
+      "op": "nar",
+      "text": "第1景「忍者休業宣言」。レイは普段着で現れ、今日は隠れない、跳ばない、手裏剣を持たないと宣言する。"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "ここは「忍者休業宣言」。レイは普段着で現れ、今日は隠れない、跳ばない、手裏剣を持たないと宣言する。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "今の選択は、次の場面だけでなく結末まで動かす。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "忍者休業宣言の空気が変わり、言葉の裏にある選択が見える。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "私は「得意な役から離れる日にも、その人らしさは残る」という問いから逃げたくない。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "レイは普段着で現れ、今日は隠れない、跳ばない、手裏剣を持たないと宣言する。ならば、今できる一手を選ぶ。",
+      "eyes": "fun",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "舞台の奥で音が止み、レイは普段着で現れ、今日は隠れない、跳ばない、手裏剣を持たないと宣言する。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "「忍者休業宣言」を通り過ぎず、この場で必要な言葉を残す。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "答えは一つでなくても、選んだ責任は分け合える。",
+      "eyes": "surprise",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "よし。次の場面へ持って行ける答えになった。",
+      "eyes": "closed"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "bg",
+      "src": "quiet_cafe",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "quiet_cafe"
+    },
+    {
+      "op": "nar",
+      "text": "第2景「静かすぎる喫茶店」。音を立てず椅子へ座っただけで、全員が消身の術だと騒ぎ始める。"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "ここは「静かすぎる喫茶店」。音を立てず椅子へ座っただけで、全員が消身の術だと騒ぎ始める。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "今の選択は、次の場面だけでなく結末まで動かす。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "静かすぎる喫茶店の空気が変わり、言葉の裏にある選択が見える。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "私は「得意な役から離れる日にも、その人らしさは残る」という問いから逃げたくない。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+      "eyes": "closed",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "音を立てず椅子へ座っただけで、全員が消身の術だと騒ぎ始める。ならば、今できる一手を選ぶ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "舞台の奥で音が止み、音を立てず椅子へ座っただけで、全員が消身の術だと騒ぎ始める。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "「静かすぎる喫茶店」を通り過ぎず、この場で必要な言葉を残す。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "答えは一つでなくても、選んだ責任は分け合える。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "よし。次の場面へ持って行ける答えになった。",
+      "eyes": "closed"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "bg",
+      "src": "shopping_bag",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "shopping_bag"
+    },
+    {
+      "op": "nar",
+      "text": "第3景「買い物袋の誤解」。投げ売りの札と丸いコースターが忍具に見え、店主が勝手に警戒する。"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "ここは「買い物袋の誤解」。投げ売りの札と丸いコースターが忍具に見え、店主が勝手に警戒する。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "今の選択は、次の場面だけでなく結末まで動かす。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。"
+    },
+    {
+      "op": "nar",
+      "text": "買い物袋の誤解の空気が変わり、言葉の裏にある選択が見える。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "私は「得意な役から離れる日にも、その人らしさは残る」という問いから逃げたくない。",
+      "eyes": "surprise",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "投げ売りの札と丸いコースターが忍具に見え、店主が勝手に警戒する。ならば、今できる一手を選ぶ。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "その一手で得るものと、失うものを同じ明るさで見よう。"
+    },
+    {
+      "op": "nar",
+      "text": "舞台の奥で音が止み、投げ売りの札と丸いコースターが忍具に見え、店主が勝手に警戒する。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "「買い物袋の誤解」を通り過ぎず、この場で必要な言葉を残す。",
+      "eyes": "anger",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。"
+    },
+    {
+      "op": "nar",
+      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "答えは一つでなくても、選んだ責任は分け合える。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "よし。次の場面へ持って行ける答えになった。"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "bg",
+      "src": "park_nap",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "park_nap"
+    },
+    {
+      "op": "nar",
+      "text": "第4景「木陰の昼寝」。普通に眠りたいレイの周囲で仲間が護衛陣形を作り、休日が任務になる。"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "ここは「木陰の昼寝」。普通に眠りたいレイの周囲で仲間が護衛陣形を作り、休日が任務になる。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "今の選択は、次の場面だけでなく結末まで動かす。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "木陰の昼寝の空気が変わり、言葉の裏にある選択が見える。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "私は「得意な役から離れる日にも、その人らしさは残る」という問いから逃げたくない。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "普通に眠りたいレイの周囲で仲間が護衛陣形を作り、休日が任務になる。ならば、今できる一手を選ぶ。",
+      "eyes": "fun",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "舞台の奥で音が止み、普通に眠りたいレイの周囲で仲間が護衛陣形を作り、休日が任務になる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "「木陰の昼寝」を通り過ぎず、この場で必要な言葉を残す。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "答えは一つでなくても、選んだ責任は分け合える。",
+      "eyes": "surprise",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "よし。次の場面へ持って行ける答えになった。",
+      "eyes": "closed"
+    },
+    {
+      "op": "choice",
+      "options": [
+        {
+          "text": "今すぐ行動する",
+          "jump": "rei-day-off_direct"
+        },
+        {
+          "text": "もう一人の声を最後まで聞く",
+          "jump": "rei-day-off_listen"
+        }
+      ]
+    },
+    {
+      "op": "label",
+      "id": "rei-day-off_direct"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "私は今すぐ動く。遅れた分は、行動の後で説明する。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "jump",
+      "to": "rei-day-off_merge"
+    },
+    {
+      "op": "label",
+      "id": "rei-day-off_listen"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "私は最後まで聞く。沈黙も答えの一部として受け止める。",
+      "eyes": "anger"
+    },
+    {
+      "op": "label",
+      "id": "rei-day-off_merge"
+    },
+    {
+      "op": "nar",
+      "text": "選び方は違っても、二人は同じ核心を次の景へ運ぶ。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "bg",
+      "src": "ordinary_step",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "ordinary_step"
+    },
+    {
+      "op": "nar",
+      "text": "第5景「ただ歩いて帰る」。レイは忍者らしさを否定せず、役ではない自分の歩幅で劇場へ戻る。"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "ここは「ただ歩いて帰る」。レイは忍者らしさを否定せず、役ではない自分の歩幅で劇場へ戻る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "今の選択は、次の場面だけでなく結末まで動かす。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "ただ歩いて帰るの空気が変わり、言葉の裏にある選択が見える。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "私は「得意な役から離れる日にも、その人らしさは残る」という問いから逃げたくない。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+      "eyes": "closed",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "レイは忍者らしさを否定せず、役ではない自分の歩幅で劇場へ戻る。ならば、今できる一手を選ぶ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "舞台の奥で音が止み、レイは忍者らしさを否定せず、役ではない自分の歩幅で劇場へ戻る。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "「ただ歩いて帰る」を通り過ぎず、この場で必要な言葉を残す。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "答えは一つでなくても、選んだ責任は分け合える。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "よし。次の場面へ持って行ける答えになった。",
+      "eyes": "closed"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "『レイの休日―今日は忍者ではありません―』、これにて終演です。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "残った問いは「得意な役から離れる日にも、その人らしさは残る」。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "選んだ結末を、次の物語まで覚えていてください。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

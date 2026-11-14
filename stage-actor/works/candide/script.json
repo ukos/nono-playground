@@ -1,0 +1,817 @@
+{
+ "meta": {
+  "id": "candide",
+  "number": 178,
+  "title": "カンディード ―それでも庭を耕す―",
+  "original": "ヴォルテール『カンディード』から新規脚色",
+  "category": "寓話・風刺",
+  "adaptation": "moderate",
+  "format": "v3",
+  "minutes": 42,
+  "synopsis": "楽天主義を教えられた青年が戦争、震災、宗教裁判、黄金郷、富の喪失を経て、小さな庭を耕す結論へ至る。",
+  "theme": "最善だと言い張る思想より、目の前の仕事と他者への責任が世界を少し良くする",
+  "chapters": [
+   {
+    "id": "main",
+    "title": "本編",
+    "scenes": [
+     "best_castle",
+     "war_quake",
+     "eldorado",
+     "lost_riches",
+     "cultivate_garden"
+    ]
+   }
+  ],
+  "note": "既存翻訳・上演台本・特定演者の口演は転用せず、台詞は本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "カンディード",
+   "actor": "tanurio",
+   "costume": "default"
+  },
+  {
+   "role": "パングロス",
+   "actor": "nibulus",
+   "costume": "default"
+  },
+  {
+   "role": "キュネゴンド",
+   "actor": "yui",
+   "costume": "default"
+  },
+  {
+   "role": "マルタン",
+   "actor": "kurogane",
+   "costume": "default"
+  },
+  {
+   "role": "老農夫",
+   "actor": "iwao",
+   "costume": "default"
+  },
+  {
+   "role": "語り手",
+   "actor": "nono",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "best_castle": "bg/candide-best_castle-2048x1152.png",
+  "war_quake": "bg/candide-war_quake-2048x1152.png",
+  "eldorado": "bg/candide-eldorado-2048x1152.png",
+  "lost_riches": "bg/candide-lost_riches-2048x1152.png",
+  "cultivate_garden": "bg/candide-cultivate_garden-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ようこそ、NONO座へ。本日の演目は『カンディード―それでも庭を耕す―』。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "寓話・風刺の舞台を、全5景でお届けします。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "この舞台の核は「最善だと言い張る思想より、目の前の仕事と他者への責任が世界を少し良くする」。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "既存の台詞を写さず、今夜のために新しく構成しました。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "それでは、幕を開けましょう。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "best_castle",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "best_castle"
+  },
+  {
+   "op": "nar",
+   "text": "第1景「最善の城」。パングロスはこの城も鼻の形も最善だと説くが、カンディードは恋を理由に追放される。"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "nibulus",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "ここは「最善の城」。パングロスはこの城も鼻の形も最善だと説くが、カンディードは恋を理由に追放される。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "最善の城の空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "私は「最善だと言い張る思想より、目の前の仕事と他者への責任が世界を少し良くする」という問いから逃げたくない。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "パングロスはこの城も鼻の形も最善だと説くが、カンディードは恋を理由に追放される。ならば、今できる一手を選ぶ。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、パングロスはこの城も鼻の形も最善だと説くが、カンディードは恋を理由に追放される。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "「最善の城」を通り過ぎず、この場で必要な言葉を残す。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "よし。次の場面へ持って行ける答えになった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "nibulus"
+  },
+  {
+   "op": "bg",
+   "src": "war_quake",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "war_quake"
+  },
+  {
+   "op": "nar",
+   "text": "第2景「戦争と震災」。軍隊の栄光と都市の惨禍を続けて見て、最善説の言葉が現実に追いつかなくなる。"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "ここは「戦争と震災」。軍隊の栄光と都市の惨禍を続けて見て、最善説の言葉が現実に追いつかなくなる。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。"
+  },
+  {
+   "op": "nar",
+   "text": "戦争と震災の空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "私は「最善だと言い張る思想より、目の前の仕事と他者への責任が世界を少し良くする」という問いから逃げたくない。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "軍隊の栄光と都市の惨禍を続けて見て、最善説の言葉が現実に追いつかなくなる。ならば、今できる一手を選ぶ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、軍隊の栄光と都市の惨禍を続けて見て、最善説の言葉が現実に追いつかなくなる。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "「戦争と震災」を通り過ぎず、この場で必要な言葉を残す。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "よし。次の場面へ持って行ける答えになった。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "bg",
+   "src": "eldorado",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "eldorado"
+  },
+  {
+   "op": "nar",
+   "text": "第3景「黄金郷を出る」。争いも貧困もない黄金郷に着くが、富と再会を求めて自ら外へ出る。"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "ここは「黄金郷を出る」。争いも貧困もない黄金郷に着くが、富と再会を求めて自ら外へ出る。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "黄金郷を出るの空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "私は「最善だと言い張る思想より、目の前の仕事と他者への責任が世界を少し良くする」という問いから逃げたくない。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "争いも貧困もない黄金郷に着くが、富と再会を求めて自ら外へ出る。ならば、今できる一手を選ぶ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
+   "eyes": "crying",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、争いも貧困もない黄金郷に着くが、富と再会を求めて自ら外へ出る。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "「黄金郷を出る」を通り過ぎず、この場で必要な言葉を残す。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "よし。次の場面へ持って行ける答えになった。",
+   "eyes": "closed",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "bg",
+   "src": "lost_riches",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "lost_riches"
+  },
+  {
+   "op": "nar",
+   "text": "第4景「富が減る旅」。持ち出した財宝は詐欺と事故で失われ、悲観者マルタンとの議論だけが残る。"
+  },
+  {
+   "op": "show",
+   "actor": "nibulus",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "ここは「富が減る旅」。持ち出した財宝は詐欺と事故で失われ、悲観者マルタンとの議論だけが残る。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "富が減る旅の空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "私は「最善だと言い張る思想より、目の前の仕事と他者への責任が世界を少し良くする」という問いから逃げたくない。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "持ち出した財宝は詐欺と事故で失われ、悲観者マルタンとの議論だけが残る。ならば、今できる一手を選ぶ。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、持ち出した財宝は詐欺と事故で失われ、悲観者マルタンとの議論だけが残る。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "「富が減る旅」を通り過ぎず、この場で必要な言葉を残す。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "よし。次の場面へ持って行ける答えになった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "今すぐ行動する",
+     "jump": "candide_direct"
+    },
+    {
+     "text": "もう一人の声を最後まで聞く",
+     "jump": "candide_listen"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "candide_direct"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "私は今すぐ動く。遅れた分は、行動の後で説明する。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "jump",
+   "to": "candide_merge"
+  },
+  {
+   "op": "label",
+   "id": "candide_listen"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "私は最後まで聞く。沈黙も答えの一部として受け止める。",
+   "eyes": "anger"
+  },
+  {
+   "op": "label",
+   "id": "candide_merge"
+  },
+  {
+   "op": "nar",
+   "text": "選び方は違っても、二人は同じ核心を次の景へ運ぶ。"
+  },
+  {
+   "op": "hide",
+   "actor": "nibulus"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "bg",
+   "src": "cultivate_garden",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "cultivate_garden"
+  },
+  {
+   "op": "nar",
+   "text": "第5景「私たちの庭」。答えを語り続ける代わりに、食べ、働き、助け合える小さな庭を耕す。"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "ここは「私たちの庭」。答えを語り続ける代わりに、食べ、働き、助け合える小さな庭を耕す。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。"
+  },
+  {
+   "op": "nar",
+   "text": "私たちの庭の空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "私は「最善だと言い張る思想より、目の前の仕事と他者への責任が世界を少し良くする」という問いから逃げたくない。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "答えを語り続ける代わりに、食べ、働き、助け合える小さな庭を耕す。ならば、今できる一手を選ぶ。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、答えを語り続ける代わりに、食べ、働き、助け合える小さな庭を耕す。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "「私たちの庭」を通り過ぎず、この場で必要な言葉を残す。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "よし。次の場面へ持って行ける答えになった。"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "『カンディード―それでも庭を耕す―』、これにて終演です。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "残った問いは「最善だと言い張る思想より、目の前の仕事と他者への責任が世界を少し良くする」。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "選んだ結末を、次の物語まで覚えていてください。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
+}

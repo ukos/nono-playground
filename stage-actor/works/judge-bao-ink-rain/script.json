@@ -1,0 +1,814 @@
+{
+  "meta": {
+    "id": "judge-bao-ink-rain",
+    "number": 174,
+    "title": "包公・墨雨の印判 ―二つの契約書―",
+    "original": "中国の包公説話を着想源とするNONO座オリジナル公案劇",
+    "category": "裁判・評定もの",
+    "adaptation": "free",
+    "format": "v3",
+    "minutes": 36,
+    "synopsis": "同じ印と文面を持つ二通の契約書。包拯は雨、墨、紙の折り目、証人の沈黙から、後で作られた偽書を見抜く。",
+    "theme": "文字が同じでも、書かれた順序と恐れの跡は隠せない",
+    "chapters": [
+      {
+        "id": "main",
+        "title": "本編",
+        "scenes": [
+          "two_contracts",
+          "ink_test",
+          "fold_memory",
+          "silent_witness",
+          "black_face_judgment"
+        ]
+      }
+    ],
+    "note": "既存翻訳・上演台本・特定演者の口演は転用せず、台詞は本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "包拯・包公",
+      "actor": "iwao",
+      "costume": "default"
+    },
+    {
+      "role": "書記官",
+      "actor": "rei_kimono",
+      "costume": "default"
+    },
+    {
+      "role": "商人・陳",
+      "actor": "kurogane",
+      "costume": "default"
+    },
+    {
+      "role": "農夫・李",
+      "actor": "tanurio",
+      "costume": "default"
+    },
+    {
+      "role": "証人の娘",
+      "actor": "mei",
+      "costume": "default"
+    },
+    {
+      "role": "語り手",
+      "actor": "nono",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "two_contracts": "bg/judge-bao-ink-rain-two_contracts-2048x1152.png",
+    "ink_test": "bg/judge-bao-ink-rain-ink_test-2048x1152.png",
+    "fold_memory": "bg/judge-bao-ink-rain-fold_memory-2048x1152.png",
+    "silent_witness": "bg/judge-bao-ink-rain-silent_witness-2048x1152.png",
+    "black_face_judgment": "bg/judge-bao-ink-rain-black_face_judgment-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『包公・墨雨の印判―二つの契約書―』。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "裁判・評定ものの舞台を、全5景でお届けします。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "この舞台の核は「文字が同じでも、書かれた順序と恐れの跡は隠せない」。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "既存の台詞を写さず、今夜のために新しく構成しました。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "それでは、幕を開けましょう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "two_contracts",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "two_contracts"
+    },
+    {
+      "op": "nar",
+      "text": "第1景「二通の同文書」。畑の所有を争う二人が、同じ印判と同じ文面の契約書を差し出す。"
+    },
+    {
+      "op": "show",
+      "actor": "iwao",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_kimono",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "ここは「二通の同文書」。畑の所有を争う二人が、同じ印判と同じ文面の契約書を差し出す。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "今の選択は、次の場面だけでなく結末まで動かす。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "二通の同文書の空気が変わり、言葉の裏にある選択が見える。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "私は「文字が同じでも、書かれた順序と恐れの跡は隠せない」という問いから逃げたくない。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "畑の所有を争う二人が、同じ印判と同じ文面の契約書を差し出す。ならば、今できる一手を選ぶ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "舞台の奥で音が止み、畑の所有を争う二人が、同じ印判と同じ文面の契約書を差し出す。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "「二通の同文書」を通り過ぎず、この場で必要な言葉を残す。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "答えは一つでなくても、選んだ責任は分け合える。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "よし。次の場面へ持って行ける答えになった。",
+      "eyes": "closed"
+    },
+    {
+      "op": "hide",
+      "actor": "iwao"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_kimono"
+    },
+    {
+      "op": "bg",
+      "src": "ink_test",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "ink_test"
+    },
+    {
+      "op": "nar",
+      "text": "第2景「墨を濡らす雨」。包公は文書の端だけを湿らせ、古い墨と新しい墨のにじみ方の違いを見る。"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "tanurio",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "ここは「墨を濡らす雨」。包公は文書の端だけを湿らせ、古い墨と新しい墨のにじみ方の違いを見る。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "今の選択は、次の場面だけでなく結末まで動かす。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "墨を濡らす雨の空気が変わり、言葉の裏にある選択が見える。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "私は「文字が同じでも、書かれた順序と恐れの跡は隠せない」という問いから逃げたくない。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+      "eyes": "closed",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "包公は文書の端だけを湿らせ、古い墨と新しい墨のにじみ方の違いを見る。ならば、今できる一手を選ぶ。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "舞台の奥で音が止み、包公は文書の端だけを湿らせ、古い墨と新しい墨のにじみ方の違いを見る。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "「墨を濡らす雨」を通り過ぎず、この場で必要な言葉を残す。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "答えは一つでなくても、選んだ責任は分け合える。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "よし。次の場面へ持って行ける答えになった。",
+      "eyes": "closed"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "hide",
+      "actor": "tanurio"
+    },
+    {
+      "op": "bg",
+      "src": "fold_memory",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "fold_memory"
+    },
+    {
+      "op": "nar",
+      "text": "第3景「折り目の記憶」。署名の線が折り目をまたぐ順序から、紙を先に折った偽書の作り方が判明する。"
+    },
+    {
+      "op": "show",
+      "actor": "mei",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "iwao",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "ここは「折り目の記憶」。署名の線が折り目をまたぐ順序から、紙を先に折った偽書の作り方が判明する。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "今の選択は、次の場面だけでなく結末まで動かす。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。"
+    },
+    {
+      "op": "nar",
+      "text": "折り目の記憶の空気が変わり、言葉の裏にある選択が見える。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "私は「文字が同じでも、書かれた順序と恐れの跡は隠せない」という問いから逃げたくない。",
+      "eyes": "surprise",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "署名の線が折り目をまたぐ順序から、紙を先に折った偽書の作り方が判明する。ならば、今できる一手を選ぶ。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "その一手で得るものと、失うものを同じ明るさで見よう。"
+    },
+    {
+      "op": "nar",
+      "text": "舞台の奥で音が止み、署名の線が折り目をまたぐ順序から、紙を先に折った偽書の作り方が判明する。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "「折り目の記憶」を通り過ぎず、この場で必要な言葉を残す。",
+      "eyes": "anger",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。"
+    },
+    {
+      "op": "nar",
+      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "答えは一つでなくても、選んだ責任は分け合える。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "よし。次の場面へ持って行ける答えになった。"
+    },
+    {
+      "op": "hide",
+      "actor": "mei"
+    },
+    {
+      "op": "hide",
+      "actor": "iwao"
+    },
+    {
+      "op": "bg",
+      "src": "silent_witness",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "silent_witness"
+    },
+    {
+      "op": "nar",
+      "text": "第4景「黙る証人」。脅されていた娘は、判決ではなく安全を約束されて初めて見た順序を語る。"
+    },
+    {
+      "op": "show",
+      "actor": "rei_kimono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "ここは「黙る証人」。脅されていた娘は、判決ではなく安全を約束されて初めて見た順序を語る。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "今の選択は、次の場面だけでなく結末まで動かす。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。"
+    },
+    {
+      "op": "nar",
+      "text": "黙る証人の空気が変わり、言葉の裏にある選択が見える。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "私は「文字が同じでも、書かれた順序と恐れの跡は隠せない」という問いから逃げたくない。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "脅されていた娘は、判決ではなく安全を約束されて初めて見た順序を語る。ならば、今できる一手を選ぶ。",
+      "eyes": "fun",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "その一手で得るものと、失うものを同じ明るさで見よう。"
+    },
+    {
+      "op": "nar",
+      "text": "舞台の奥で音が止み、脅されていた娘は、判決ではなく安全を約束されて初めて見た順序を語る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "「黙る証人」を通り過ぎず、この場で必要な言葉を残す。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。"
+    },
+    {
+      "op": "nar",
+      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "答えは一つでなくても、選んだ責任は分け合える。",
+      "eyes": "surprise",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "よし。次の場面へ持って行ける答えになった。"
+    },
+    {
+      "op": "choice",
+      "options": [
+        {
+          "text": "今すぐ行動する",
+          "jump": "judge-bao-ink-rain_direct"
+        },
+        {
+          "text": "もう一人の声を最後まで聞く",
+          "jump": "judge-bao-ink-rain_listen"
+        }
+      ]
+    },
+    {
+      "op": "label",
+      "id": "judge-bao-ink-rain_direct"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "私は今すぐ動く。遅れた分は、行動の後で説明する。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "jump",
+      "to": "judge-bao-ink-rain_merge"
+    },
+    {
+      "op": "label",
+      "id": "judge-bao-ink-rain_listen"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "私は最後まで聞く。沈黙も答えの一部として受け止める。"
+    },
+    {
+      "op": "label",
+      "id": "judge-bao-ink-rain_merge"
+    },
+    {
+      "op": "nar",
+      "text": "選び方は違っても、二人は同じ核心を次の景へ運ぶ。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_kimono"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "bg",
+      "src": "black_face_judgment",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "black_face_judgment"
+    },
+    {
+      "op": "nar",
+      "text": "第5景「黒面の判決」。包公は偽書を罰し、本物の契約にも不当な利息があるとして双方へ是正を命じる。"
+    },
+    {
+      "op": "show",
+      "actor": "tanurio",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "mei",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "ここは「黒面の判決」。包公は偽書を罰し、本物の契約にも不当な利息があるとして双方へ是正を命じる。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "今の選択は、次の場面だけでなく結末まで動かす。",
+      "eyes": "anger",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "黒面の判決の空気が変わり、言葉の裏にある選択が見える。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "私は「文字が同じでも、書かれた順序と恐れの跡は隠せない」という問いから逃げたくない。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+      "eyes": "closed",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "包公は偽書を罰し、本物の契約にも不当な利息があるとして双方へ是正を命じる。ならば、今できる一手を選ぶ。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "舞台の奥で音が止み、包公は偽書を罰し、本物の契約にも不当な利息があるとして双方へ是正を命じる。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "「黒面の判決」を通り過ぎず、この場で必要な言葉を残す。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "答えは一つでなくても、選んだ責任は分け合える。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "よし。次の場面へ持って行ける答えになった。",
+      "eyes": "closed"
+    },
+    {
+      "op": "hide",
+      "actor": "tanurio"
+    },
+    {
+      "op": "hide",
+      "actor": "mei"
+    },
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "『包公・墨雨の印判―二つの契約書―』、これにて終演です。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "残った問いは「文字が同じでも、書かれた順序と恐れの跡は隠せない」。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "選んだ結末を、次の物語まで覚えていてください。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

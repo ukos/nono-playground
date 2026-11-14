@@ -1,0 +1,820 @@
+{
+ "meta": {
+  "id": "shibarare-jizo",
+  "number": 173,
+  "title": "大岡政談・縛られ地蔵 ―縄がほどく盗難―",
+  "original": "大岡政談「縛られ地蔵」の伝統的説話から新規脚色",
+  "category": "裁判・評定もの",
+  "adaptation": "moderate",
+  "format": "v3",
+  "minutes": 32,
+  "synopsis": "反物盗難の証人として地蔵を縄で縛り評定所へ連行。見物人から科料として反物を集め、盗品の印を見つける。",
+  "theme": "奇抜な裁きは見世物ではなく、人の習慣を証拠へ変える仕掛けである",
+  "chapters": [
+   {
+    "id": "main",
+    "title": "本編",
+    "scenes": [
+     "missing_bales",
+     "arrest_jizo",
+     "crowd_laughs",
+     "cloth_mark",
+     "rope_removed"
+    ]
+   }
+  ],
+  "note": "既存翻訳・上演台本・特定演者の口演は転用せず、台詞は本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "大岡越前",
+   "actor": "iwao",
+   "costume": "default"
+  },
+  {
+   "role": "反物商",
+   "actor": "mei",
+   "costume": "default"
+  },
+  {
+   "role": "同心",
+   "actor": "sasuke",
+   "costume": "default"
+  },
+  {
+   "role": "荷車引き",
+   "actor": "extra_porter",
+   "costume": "default"
+  },
+  {
+   "role": "語り手",
+   "actor": "nono",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "missing_bales": "bg/shibarare-jizo-missing_bales-2048x1152.png",
+  "arrest_jizo": "bg/shibarare-jizo-arrest_jizo-2048x1152.png",
+  "crowd_laughs": "bg/shibarare-jizo-crowd_laughs-2048x1152.png",
+  "cloth_mark": "bg/shibarare-jizo-cloth_mark-2048x1152.png",
+  "rope_removed": "bg/shibarare-jizo-rope_removed-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ようこそ、NONO座へ。本日の演目は『大岡政談・縛られ地蔵―縄がほどく盗難―』。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "裁判・評定ものの舞台を、全5景でお届けします。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "この舞台の核は「奇抜な裁きは見世物ではなく、人の習慣を証拠へ変える仕掛けである」。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "既存の台詞を写さず、今夜のために新しく構成しました。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "それでは、幕を開けましょう。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "missing_bales",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "missing_bales"
+  },
+  {
+   "op": "nar",
+   "text": "第1景「消えた反物」。荷車の番人が地蔵のそばで居眠りし、目覚めると反物が消えている。"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "ここは「消えた反物」。荷車の番人が地蔵のそばで居眠りし、目覚めると反物が消えている。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "消えた反物の空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "私は「奇抜な裁きは見世物ではなく、人の習慣を証拠へ変える仕掛けである」という問いから逃げたくない。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "荷車の番人が地蔵のそばで居眠りし、目覚めると反物が消えている。ならば、今できる一手を選ぶ。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、荷車の番人が地蔵のそばで居眠りし、目覚めると反物が消えている。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "「消えた反物」を通り過ぎず、この場で必要な言葉を残す。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "よし。次の場面へ持って行ける答えになった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "bg",
+   "src": "arrest_jizo",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "arrest_jizo"
+  },
+  {
+   "op": "nar",
+   "text": "第2景「地蔵を召し捕れ」。大岡は黙って見ていた地蔵を共犯として縛り、評定所へ連れて来させる。"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "ここは「地蔵を召し捕れ」。大岡は黙って見ていた地蔵を共犯として縛り、評定所へ連れて来させる。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "地蔵を召し捕れの空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "私は「奇抜な裁きは見世物ではなく、人の習慣を証拠へ変える仕掛けである」という問いから逃げたくない。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+   "eyes": "closed",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "大岡は黙って見ていた地蔵を共犯として縛り、評定所へ連れて来させる。ならば、今できる一手を選ぶ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、大岡は黙って見ていた地蔵を共犯として縛り、評定所へ連れて来させる。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "「地蔵を召し捕れ」を通り過ぎず、この場で必要な言葉を残す。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "よし。次の場面へ持って行ける答えになった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "bg",
+   "src": "crowd_laughs",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "crowd_laughs"
+  },
+  {
+   "op": "nar",
+   "text": "第3景「笑った者の科料」。裁判を笑いに来た町人へ、法廷侮辱の科料として反物一反を命じる。"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "ここは「笑った者の科料」。裁判を笑いに来た町人へ、法廷侮辱の科料として反物一反を命じる。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "笑った者の科料の空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "私は「奇抜な裁きは見世物ではなく、人の習慣を証拠へ変える仕掛けである」という問いから逃げたくない。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "裁判を笑いに来た町人へ、法廷侮辱の科料として反物一反を命じる。ならば、今できる一手を選ぶ。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
+   "eyes": "crying",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、裁判を笑いに来た町人へ、法廷侮辱の科料として反物一反を命じる。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "「笑った者の科料」を通り過ぎず、この場で必要な言葉を残す。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "よし。次の場面へ持って行ける答えになった。",
+   "eyes": "closed",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "bg",
+   "src": "cloth_mark",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "cloth_mark"
+  },
+  {
+   "op": "nar",
+   "text": "第4景「盗品の印」。集まった反物の中に商人だけが知る印が見つかり、仕入れ先から盗人へたどる。"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "ここは「盗品の印」。集まった反物の中に商人だけが知る印が見つかり、仕入れ先から盗人へたどる。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "盗品の印の空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "私は「奇抜な裁きは見世物ではなく、人の習慣を証拠へ変える仕掛けである」という問いから逃げたくない。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "集まった反物の中に商人だけが知る印が見つかり、仕入れ先から盗人へたどる。ならば、今できる一手を選ぶ。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、集まった反物の中に商人だけが知る印が見つかり、仕入れ先から盗人へたどる。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "「盗品の印」を通り過ぎず、この場で必要な言葉を残す。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "よし。次の場面へ持って行ける答えになった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "今すぐ行動する",
+     "jump": "shibarare-jizo_direct"
+    },
+    {
+     "text": "もう一人の声を最後まで聞く",
+     "jump": "shibarare-jizo_listen"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "shibarare-jizo_direct"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "私は今すぐ動く。遅れた分は、行動の後で説明する。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "jump",
+   "to": "shibarare-jizo_merge"
+  },
+  {
+   "op": "label",
+   "id": "shibarare-jizo_listen"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "私は最後まで聞く。沈黙も答えの一部として受け止める。",
+   "eyes": "anger"
+  },
+  {
+   "op": "label",
+   "id": "shibarare-jizo_merge"
+  },
+  {
+   "op": "nar",
+   "text": "選び方は違っても、二人は同じ核心を次の景へ運ぶ。"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "bg",
+   "src": "rope_removed",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "rope_removed"
+  },
+  {
+   "op": "nar",
+   "text": "第5景「ほどかれた縄」。盗人を捕えた後、大岡は地蔵の縄を解き、町の油断にも戒めを残す。"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "ここは「ほどかれた縄」。盗人を捕えた後、大岡は地蔵の縄を解き、町の油断にも戒めを残す。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "今の選択は、次の場面だけでなく結末まで動かす。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "ほどかれた縄の空気が変わり、言葉の裏にある選択が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "私は「奇抜な裁きは見世物ではなく、人の習慣を証拠へ変える仕掛けである」という問いから逃げたくない。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+   "eyes": "closed",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "盗人を捕えた後、大岡は地蔵の縄を解き、町の油断にも戒めを残す。ならば、今できる一手を選ぶ。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "舞台の奥で音が止み、盗人を捕えた後、大岡は地蔵の縄を解き、町の油断にも戒めを残す。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "「ほどかれた縄」を通り過ぎず、この場で必要な言葉を残す。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "答えは一つでなくても、選んだ責任は分け合える。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "よし。次の場面へ持って行ける答えになった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "『大岡政談・縛られ地蔵―縄がほどく盗難―』、これにて終演です。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "残った問いは「奇抜な裁きは見世物ではなく、人の習慣を証拠へ変える仕掛けである」。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "選んだ結末を、次の物語まで覚えていてください。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
+}
