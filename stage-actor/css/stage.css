@@ -19,10 +19,15 @@ img { image-rendering: pixelated; image-rendering: crisp-edges; }
 #app, .screen { position: fixed; inset: 0; }
 
 /* タイトル */
-#title { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1rem; padding: 2rem;
+/* 収まるときは中央、収まらないときはスクロール */
+#title { display: flex; flex-direction: column; align-items: center; justify-content: flex-start; gap: 1rem; padding: 2rem;
+  overflow-y: auto; -webkit-overflow-scrolling: touch; touch-action: pan-y;
   background: radial-gradient(ellipse at 50% 20%, #3a1a22 0%, var(--night) 70%); }
 .logo { margin: 0; font-size: clamp(1.8rem, 6vw, 3rem); letter-spacing: 0.08em; color: var(--gold); text-align: center; }
 .logo span { display: block; font-size: 0.6em; letter-spacing: 0.4em; color: var(--ink); }
+.logo { margin-top: auto !important; }
+#work-list { margin-bottom: auto; }
+.logo img { display: block; width: min(72vw, 46vh, 340px); height: auto; }
 .sub { margin: 0; opacity: 0.7; }
 #work-list { list-style: none; margin: 0; padding: 0; width: min(28rem, 100%); display: grid; gap: 0.6rem; }
 #work-list button { width: 100%; padding: 0.9rem 1rem; font: inherit; font-size: 1.05rem; color: var(--ink); text-align: left;
@@ -80,7 +85,7 @@ img { image-rendering: pixelated; image-rendering: crisp-edges; }
 /* 幕と額縁は 2048×1152 の舞台座標で描き、画面を覆う倍率で拡大する（js の layoutCurtain） */
 #curtain .art { position: absolute; left: 0; top: 0; width: 2048px; height: 1152px; transform-origin: 0 0; }
 #curtain .panel { position: absolute; top: 0; width: 1024px; height: 1152px; image-rendering: pixelated;
-  background: url(../theater/curtain.png?v=fca71d7) no-repeat; background-size: 2048px 1152px;
+  background: url(../theater/curtain.png?v=ebe8d8d) no-repeat; background-size: 2048px 1152px;
   transition: transform 1.8s cubic-bezier(.6, .05, .3, 1); }
 #curtain .l { left: 0; background-position: 0 0; }
 #curtain .r { left: 1024px; background-position: -1024px 0; }
