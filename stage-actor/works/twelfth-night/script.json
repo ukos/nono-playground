@@ -1,0 +1,1229 @@
+{
+  "meta": {
+    "id": "twelfth-night",
+    "title": "十二夜 ―名を隠した海辺―",
+    "original": "William Shakespeare, Twelfth Night（原作著作権消滅）",
+    "adaptation": "moderate",
+    "format": "v3",
+    "minutes": 38,
+    "synopsis": "ヴァイオラはシザーリオと名乗り、オーシーノ公爵に仕える。公爵の求愛を伝えるうち、オリヴィアは使者へ恋し、本人は公爵を愛する。生きていた双子セバスチャンが現れ、取り違えが頂点に達する。",
+    "note": "本脚本は翻案であり、原作・現代訳の文章の転載ではない。セリフはすべて本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "ヴァイオラ／シザーリオ",
+      "actor": "rei_casual",
+      "costume": "default"
+    },
+    {
+      "role": "セバスチャン",
+      "actor": "yui",
+      "costume": "default"
+    },
+    {
+      "role": "オーシーノ公爵",
+      "actor": "hayate",
+      "costume": "default"
+    },
+    {
+      "role": "オリヴィア",
+      "actor": "akane",
+      "costume": "default"
+    },
+    {
+      "role": "マルヴォーリオ",
+      "actor": "extra_craftsman",
+      "costume": "default"
+    },
+    {
+      "role": "道化フェステ",
+      "actor": "tanurio",
+      "costume": "default"
+    },
+    {
+      "role": "アントーニオ",
+      "actor": "kurogane",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "wreck": "bg/illyria-wreck-shore-2048x1152.png",
+    "court": "bg/orsino-court-2048x1152.png",
+    "olivia": "bg/olivia-garden-2048x1152.png",
+    "street": "bg/illyria-confusion-street-2048x1152.png",
+    "reunion": "bg/twins-reunion-hall-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『十二夜 ―名を隠した海辺―』。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "難破で兄を失ったと思ったヴァイオラは男装し、恋の使者になったことで三角関係の中心へ入ります。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "今夜の核は「変装の中で自分の望みを知り、双子の再会で名を取り戻すこと」。急がず、長い物語としてお届けします。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "それでは開幕。役者たちの声と、場面の移ろいをお楽しみください。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "wreck",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "wreck"
+    },
+    {
+      "op": "nar",
+      "text": "難破船の残骸があるイリリアの浜"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "嵐で離れた双子は、互いが死んだと思いながら別々の岸へ流れ着く。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "兄さんが生きている証はない。でも、死んだと決める証もない。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "妹の声が波に残っている気がする。私は探すために生きよう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "舞台の上では、沈黙も台詞だ。今の間を聞き逃すな。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "ならば次の一言は慎重に。剣より深く届くことがある。",
+      "eyes": "joy"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「変装の中で自分の望みを知り、双子の再会で名を取り戻すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "恐れに台詞を渡さない。私自身の声で答える。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "よし。その答えが、次の幕の扉を開く。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "嵐で離れた双子は、互いが死んだと思いながら別々の岸へ流れ着く。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "hayate",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "ヴァイオラは男装してシザーリオと名乗り、公爵へ仕える。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "この名なら、知らない国でも働けます。今は生きる足場が必要です。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "若いのに言葉がよい。私の恋心をオリヴィアへ届けてくれ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "誰もが役を演じている。だが、本心までは衣装で隠せない。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "本心を語るなら、代償も受け取らなくてはならない。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「変装の中で自分の望みを知り、双子の再会で名を取り戻すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "代償から逃げずに語る。今は、それだけが誠実だ。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "では聞こう。飾らない言葉が、どこまで届くか。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "ヴァイオラは男装してシザーリオと名乗り、公爵へ仕える。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "hayate"
+    },
+    {
+      "op": "show",
+      "actor": "hayate",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "公爵はオリヴィアへの情熱を語り、使者として信頼を寄せる。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "彼女へ、私の心は海より深いと伝えてほしい。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "深さだけでなく、彼女が何を望むかも聞いて参ります。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "舞台の上では、沈黙も台詞だ。今の間を聞き逃すな。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "ならば次の一言は慎重に。剣より深く届くことがある。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「変装の中で自分の望みを知り、双子の再会で名を取り戻すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "恐れに台詞を渡さない。私自身の声で答える。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "よし。その答えが、次の幕の扉を開く。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "公爵はオリヴィアへの情熱を語り、使者として信頼を寄せる。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "hayate"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "bg",
+      "src": "court",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "court"
+    },
+    {
+      "op": "nar",
+      "text": "音楽が流れる公爵の館"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "akane",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "オリヴィアは公爵を拒むが、率直なシザーリオに興味を抱く。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "用意された口説き文句なら帰って。あなた自身の言葉はある？",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "私自身なら、閉じた門の前で無理に歌い続けたりはしません。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "誰もが役を演じている。だが、本心までは衣装で隠せない。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "本心を語るなら、代償も受け取らなくてはならない。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「変装の中で自分の望みを知り、双子の再会で名を取り戻すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "代償から逃げずに語る。今は、それだけが誠実だ。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "では聞こう。飾らない言葉が、どこまで届くか。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "オリヴィアは公爵を拒むが、率直なシザーリオに興味を抱く。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "akane"
+    },
+    {
+      "op": "show",
+      "actor": "akane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "オリヴィアは使者へ指輪を返すふりをして、再訪の口実を作る。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "あなたが落とした指輪よ。次は返事を聞きに来て。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "私の物ではない。まさか、彼女がシザーリオを愛したの？"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "舞台の上では、沈黙も台詞だ。今の間を聞き逃すな。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "ならば次の一言は慎重に。剣より深く届くことがある。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「変装の中で自分の望みを知り、双子の再会で名を取り戻すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "恐れに台詞を渡さない。私自身の声で答える。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "よし。その答えが、次の幕の扉を開く。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "オリヴィアは使者へ指輪を返すふりをして、再訪の口実を作る。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "akane"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "hayate",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "ヴァイオラは公爵への思いを隠し、別の女性の話として語る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "ある娘は、言えない恋を胸に、笑顔で人の恋を運んでいます。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "その娘はなぜ黙る。愛は告げなければ届かない。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "誰もが役を演じている。だが、本心までは衣装で隠せない。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "本心を語るなら、代償も受け取らなくてはならない。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「変装の中で自分の望みを知り、双子の再会で名を取り戻すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "代償から逃げずに語る。今は、それだけが誠実だ。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "では聞こう。飾らない言葉が、どこまで届くか。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "ヴァイオラは公爵への思いを隠し、別の女性の話として語る。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "hayate"
+    },
+    {
+      "op": "bg",
+      "src": "olivia",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "olivia"
+    },
+    {
+      "op": "nar",
+      "text": "オリヴィア邸の庭と回廊"
+    },
+    {
+      "op": "show",
+      "actor": "tanurio",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_craftsman",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "フェステたちは気位の高いマルヴォーリオへ偽の恋文を仕掛ける。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "黄色い靴下で笑えば、奥方の心を射止める、と書いておこう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "私の威厳にふさわしい暗号だ。奥方は私を選んだのだな。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "舞台の上では、沈黙も台詞だ。今の間を聞き逃すな。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "ならば次の一言は慎重に。剣より深く届くことがある。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「変装の中で自分の望みを知り、双子の再会で名を取り戻すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "恐れに台詞を渡さない。私自身の声で答える。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "よし。その答えが、次の幕の扉を開く。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "フェステたちは気位の高いマルヴォーリオへ偽の恋文を仕掛ける。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "surprise",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "tanurio"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_craftsman"
+    },
+    {
+      "op": "show",
+      "actor": "akane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_craftsman",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "奇妙な装いで現れたマルヴォーリオを、皆は狂気と誤解する。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "なぜその格好で笑っているの。今は喪に服しているのよ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "秘密の指示どおりです。奥方、私たちの未来は分かっています。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "誰もが役を演じている。だが、本心までは衣装で隠せない。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "本心を語るなら、代償も受け取らなくてはならない。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「変装の中で自分の望みを知り、双子の再会で名を取り戻すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "代償から逃げずに語る。今は、それだけが誠実だ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "では聞こう。飾らない言葉が、どこまで届くか。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "奇妙な装いで現れたマルヴォーリオを、皆は狂気と誤解する。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "anger",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "akane"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_craftsman"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "生きていたセバスチャンは、救ってくれたアントーニオと街へ入る。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "妹を失ったと思えば、どの通りも空っぽに見える。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "一人で歩くな。この街で私には敵が多いが、君を守る。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "舞台の上では、沈黙も台詞だ。今の間を聞き逃すな。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "ならば次の一言は慎重に。剣より深く届くことがある。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「変装の中で自分の望みを知り、双子の再会で名を取り戻すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "恐れに台詞を渡さない。私自身の声で答える。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "よし。その答えが、次の幕の扉を開く。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "生きていたセバスチャンは、救ってくれたアントーニオと街へ入る。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "bg",
+      "src": "street",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "street"
+    },
+    {
+      "op": "nar",
+      "text": "決闘と取り違えが起こる街路"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "アントーニオはヴァイオラをセバスチャンと誤認し、助けを求める。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "セバスチャン、私を知らないのか。財布も心も君へ預けた。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "私はシザーリオです。でも、兄の名を知るあなたから離れません。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "誰もが役を演じている。だが、本心までは衣装で隠せない。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "本心を語るなら、代償も受け取らなくてはならない。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「変装の中で自分の望みを知り、双子の再会で名を取り戻すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "代償から逃げずに語る。今は、それだけが誠実だ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "では聞こう。飾らない言葉が、どこまで届くか。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "アントーニオはヴァイオラをセバスチャンと誤認し、助けを求める。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "街の人々は双子を同一人物と思い、決闘や求婚の約束を重ねる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "私がしていない約束が、次々に私を追いかけてくる。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "私には見知らぬ人が親切すぎる。妹と同じ顔が原因なのか。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "舞台の上では、沈黙も台詞だ。今の間を聞き逃すな。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "ならば次の一言は慎重に。剣より深く届くことがある。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「変装の中で自分の望みを知り、双子の再会で名を取り戻すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "恐れに台詞を渡さない。私自身の声で答える。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "よし。その答えが、次の幕の扉を開く。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "街の人々は双子を同一人物と思い、決闘や求婚の約束を重ねる。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "show",
+      "actor": "akane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "オリヴィアはセバスチャンをシザーリオと思い、結婚を申し込む。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "もう逃げないで。あなたの返事を今ここで聞かせて。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "会ったばかりですが、あなたは私を誰かと取り違えている。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "誰もが役を演じている。だが、本心までは衣装で隠せない。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "本心を語るなら、代償も受け取らなくてはならない。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「変装の中で自分の望みを知り、双子の再会で名を取り戻すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "代償から逃げずに語る。今は、それだけが誠実だ。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "では聞こう。飾らない言葉が、どこまで届くか。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "オリヴィアはセバスチャンをシザーリオと思い、結婚を申し込む。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "akane"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "bg",
+      "src": "reunion",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "reunion"
+    },
+    {
+      "op": "nar",
+      "text": "双子が向かい合う明るい広間"
+    },
+    {
+      "op": "show",
+      "actor": "hayate",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "公爵はオリヴィアの求愛を知り、シザーリオへ裏切られたと感じる。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "私の使者として通いながら、自分の恋を得たのか。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "違います。私はあなたを欺くためでなく、生きるために名を隠した。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "舞台の上では、沈黙も台詞だ。今の間を聞き逃すな。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "ならば次の一言は慎重に。剣より深く届くことがある。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「変装の中で自分の望みを知り、双子の再会で名を取り戻すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "恐れに台詞を渡さない。私自身の声で答える。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "よし。その答えが、次の幕の扉を開く。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "公爵はオリヴィアの求愛を知り、シザーリオへ裏切られたと感じる。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "hayate"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "双子が同じ場へ現れ、互いの傷と記憶を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "兄さんなら、幼い日に額を切った傷があるはず。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "そして妹なら、父の指輪を首に下げている。ヴァイオラ！",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "誰もが役を演じている。だが、本心までは衣装で隠せない。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "本心を語るなら、代償も受け取らなくてはならない。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「変装の中で自分の望みを知り、双子の再会で名を取り戻すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "代償から逃げずに語る。今は、それだけが誠実だ。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "では聞こう。飾らない言葉が、どこまで届くか。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "双子が同じ場へ現れ、互いの傷と記憶を確かめる。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "hayate",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "正体を明かしたヴァイオラは、公爵へ自分の言葉で愛を告げる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "私はヴァイオラです。使者ではなく、私自身としてあなたを愛します。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "ようやく君の声を聞いた。私も役ではなく、君を見て答える。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "舞台の上では、沈黙も台詞だ。今の間を聞き逃すな。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "ならば次の一言は慎重に。剣より深く届くことがある。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「変装の中で自分の望みを知り、双子の再会で名を取り戻すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "恐れに台詞を渡さない。私自身の声で答える。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "よし。その答えが、次の幕の扉を開く。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "正体を明かしたヴァイオラは、公爵へ自分の言葉で愛を告げる。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "hayate"
+    },
+    {
+      "op": "bg",
+      "src": "reunion"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "双子は再会し、ヴァイオラは名と姿を取り戻す。それぞれが他人の台本ではなく、自分の言葉で愛を選んだ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "長い旅の果てに残ったのは、「変装の中で自分の望みを知り、双子の再会で名を取り戻すこと」という問いでした。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "答えは一つではありません。けれど、登場人物たちの選択は消えません。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "『十二夜 ―名を隠した海辺―』、これにて終幕。ありがとうございました。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

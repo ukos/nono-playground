@@ -1,0 +1,1232 @@
+{
+  "meta": {
+    "id": "theseus-minotaur",
+    "title": "テセウスとミノタウロス ―糸の帰路―",
+    "original": "ギリシャ神話「テセウスとミノタウロス」（古典）",
+    "adaptation": "moderate",
+    "format": "v3",
+    "minutes": 36,
+    "synopsis": "アテナイの若者テセウスは、供犠の一行に加わりクレタへ渡る。アリアドネから糸玉を受け、迷宮でミノタウロスを倒し、仲間を連れて脱出する。しかし帰路で白い帆へ替える約束を忘れる。",
+    "note": "本脚本は翻案であり、原作・現代訳の文章の転載ではない。セリフはすべて本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "アリアドネ",
+      "actor": "rei_casual",
+      "costume": "default"
+    },
+    {
+      "role": "テセウス",
+      "actor": "yui",
+      "costume": "default"
+    },
+    {
+      "role": "ミノス王",
+      "actor": "iwao",
+      "costume": "default"
+    },
+    {
+      "role": "ミノタウロス",
+      "actor": "gou",
+      "costume": "default"
+    },
+    {
+      "role": "アイゲウス王",
+      "actor": "extra_elder",
+      "costume": "default"
+    },
+    {
+      "role": "若者",
+      "actor": "shiro",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "athens": "bg/tribute-athens-2048x1152.png",
+    "crete": "bg/minos-palace-2048x1152.png",
+    "labyrinth": "bg/labyrinth-thread-2048x1152.png",
+    "center": "bg/minotaur-center-2048x1152.png",
+    "cape": "bg/aegeus-cape-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『テセウスとミノタウロス ―糸の帰路―』。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "迷宮へ入る者に必要なのは剣だけでなく、出口へつながる一本の糸です。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "今夜の核は「怪物を倒す勇気と、帰る道を忘れない慎重さ」。急がず、長い物語としてお届けします。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "それでは開幕。役者たちの声と、場面の移ろいをお楽しみください。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "athens",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "athens"
+    },
+    {
+      "op": "nar",
+      "text": "黒い帆の船を見送るアテナイ港"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "アイゲウスがクレタへ若者を送る苦しみを語る。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "私はこの出来事を見届けた。アイゲウスがクレタへ若者を送る苦しみを語る。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "神々の言葉にも影がある。力が強いほど、責任も重くなる。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "運命を知ることと、運命に従うことは同じではない。",
+      "eyes": "joy"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「怪物を倒す勇気と、帰る道を忘れない慎重さ」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "選べる一歩が残る限り、私はその一歩を自分で決める。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "ならば進め。代償まで見届けてこそ、選択は完成する。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "アイゲウスがクレタへ若者を送る苦しみを語る。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "テセウスが供犠の一人として迷宮へ行くと決める。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "私はこの出来事を見届けた。テセウスが供犠の一人として迷宮へ行くと決める。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "怪物の姿だけを見て、善悪を決めてはいけない。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "だが、恐れは理屈より速い。心を整える時間が必要だ。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「怪物を倒す勇気と、帰る道を忘れない慎重さ」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "恐れを消せなくても、知恵と約束を手放さずに進める。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "知恵は弱さの言い訳ではない。命を守るための力だ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "テセウスが供犠の一人として迷宮へ行くと決める。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "生還時は黒い帆を白へ替える約束を結ぶ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "私はこの出来事を見届けた。生還時は黒い帆を白へ替える約束を結ぶ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "神々の言葉にも影がある。力が強いほど、責任も重くなる。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "運命を知ることと、運命に従うことは同じではない。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「怪物を倒す勇気と、帰る道を忘れない慎重さ」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "選べる一歩が残る限り、私はその一歩を自分で決める。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "ならば進め。代償まで見届けてこそ、選択は完成する。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "生還時は黒い帆を白へ替える約束を結ぶ。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "bg",
+      "src": "crete",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "crete"
+    },
+    {
+      "op": "nar",
+      "text": "クレタ王宮の石柱と中庭"
+    },
+    {
+      "op": "show",
+      "actor": "iwao",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "ミノス王が迷宮へ入れば誰も戻れないと告げる。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "私はこの出来事を見届けた。ミノス王が迷宮へ入れば誰も戻れないと告げる。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "怪物の姿だけを見て、善悪を決めてはいけない。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "だが、恐れは理屈より速い。心を整える時間が必要だ。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「怪物を倒す勇気と、帰る道を忘れない慎重さ」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "恐れを消せなくても、知恵と約束を手放さずに進める。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "知恵は弱さの言い訳ではない。命を守るための力だ。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "ミノス王が迷宮へ入れば誰も戻れないと告げる。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "hide",
+      "actor": "iwao"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "アリアドネがテセウスへ糸玉と剣を渡す。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "私はこの出来事を見届けた。アリアドネがテセウスへ糸玉と剣を渡す。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "神々の言葉にも影がある。力が強いほど、責任も重くなる。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "運命を知ることと、運命に従うことは同じではない。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「怪物を倒す勇気と、帰る道を忘れない慎重さ」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "選べる一歩が残る限り、私はその一歩を自分で決める。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "ならば進め。代償まで見届けてこそ、選択は完成する。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "アリアドネがテセウスへ糸玉と剣を渡す。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "テセウスが勝利だけでなく仲間全員を連れ帰ると約束する。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "私はこの出来事を見届けた。テセウスが勝利だけでなく仲間全員を連れ帰ると約束する。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "怪物の姿だけを見て、善悪を決めてはいけない。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "だが、恐れは理屈より速い。心を整える時間が必要だ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「怪物を倒す勇気と、帰る道を忘れない慎重さ」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "恐れを消せなくても、知恵と約束を手放さずに進める。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "知恵は弱さの言い訳ではない。命を守るための力だ。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "テセウスが勝利だけでなく仲間全員を連れ帰ると約束する。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "bg",
+      "src": "labyrinth",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "labyrinth"
+    },
+    {
+      "op": "nar",
+      "text": "糸が伸びる巨大迷宮"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "迷宮入口へ糸を結び、曲がり角ごとに確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "私はこの出来事を見届けた。迷宮入口へ糸を結び、曲がり角ごとに確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "神々の言葉にも影がある。力が強いほど、責任も重くなる。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "運命を知ることと、運命に従うことは同じではない。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「怪物を倒す勇気と、帰る道を忘れない慎重さ」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "選べる一歩が残る限り、私はその一歩を自分で決める。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "ならば進め。代償まで見届けてこそ、選択は完成する。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "迷宮入口へ糸を結び、曲がり角ごとに確かめる。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "surprise",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "show",
+      "actor": "gou",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの足音と咆哮が、怪物の近さを知らせる。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "私はこの出来事を見届けた。遠くの足音と咆哮が、怪物の近さを知らせる。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "怪物の姿だけを見て、善悪を決めてはいけない。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "だが、恐れは理屈より速い。心を整える時間が必要だ。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「怪物を倒す勇気と、帰る道を忘れない慎重さ」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "恐れを消せなくても、知恵と約束を手放さずに進める。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "知恵は弱さの言い訳ではない。命を守るための力だ。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "遠くの足音と咆哮が、怪物の近さを知らせる。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "gou"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "gou",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "テセウスがミノタウロスと中央で対峙する。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "私はこの出来事を見届けた。テセウスがミノタウロスと中央で対峙する。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "神々の言葉にも影がある。力が強いほど、責任も重くなる。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "運命を知ることと、運命に従うことは同じではない。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「怪物を倒す勇気と、帰る道を忘れない慎重さ」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "選べる一歩が残る限り、私はその一歩を自分で決める。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "ならば進め。代償まで見届けてこそ、選択は完成する。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "テセウスがミノタウロスと中央で対峙する。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "gou"
+    },
+    {
+      "op": "bg",
+      "src": "center",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "center"
+    },
+    {
+      "op": "nar",
+      "text": "迷宮中央の闘技空間"
+    },
+    {
+      "op": "show",
+      "actor": "gou",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "怪物にも閉じ込められた長い年月があると知る。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "私はこの出来事を見届けた。怪物にも閉じ込められた長い年月があると知る。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "怪物の姿だけを見て、善悪を決めてはいけない。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "だが、恐れは理屈より速い。心を整える時間が必要だ。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「怪物を倒す勇気と、帰る道を忘れない慎重さ」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "恐れを消せなくても、知恵と約束を手放さずに進める。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "知恵は弱さの言い訳ではない。命を守るための力だ。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "怪物にも閉じ込められた長い年月があると知る。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "hide",
+      "actor": "gou"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "戦いの後、糸をたどって仲間と出口へ戻る。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "私はこの出来事を見届けた。戦いの後、糸をたどって仲間と出口へ戻る。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "神々の言葉にも影がある。力が強いほど、責任も重くなる。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "運命を知ることと、運命に従うことは同じではない。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「怪物を倒す勇気と、帰る道を忘れない慎重さ」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "選べる一歩が残る限り、私はその一歩を自分で決める。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "ならば進め。代償まで見届けてこそ、選択は完成する。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "戦いの後、糸をたどって仲間と出口へ戻る。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "アリアドネが船出を助け、自分の未来も選び直す。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "私はこの出来事を見届けた。アリアドネが船出を助け、自分の未来も選び直す。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "怪物の姿だけを見て、善悪を決めてはいけない。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "だが、恐れは理屈より速い。心を整える時間が必要だ。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「怪物を倒す勇気と、帰る道を忘れない慎重さ」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "恐れを消せなくても、知恵と約束を手放さずに進める。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "知恵は弱さの言い訳ではない。命を守るための力だ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "アリアドネが船出を助け、自分の未来も選び直す。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "bg",
+      "src": "cape",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "cape"
+    },
+    {
+      "op": "nar",
+      "text": "黒い帆を望む岬"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "嵐と疲労の中で、白い帆へ替える役目が後回しになる。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "私はこの出来事を見届けた。嵐と疲労の中で、白い帆へ替える役目が後回しになる。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "神々の言葉にも影がある。力が強いほど、責任も重くなる。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "運命を知ることと、運命に従うことは同じではない。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「怪物を倒す勇気と、帰る道を忘れない慎重さ」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "選べる一歩が残る限り、私はその一歩を自分で決める。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "ならば進め。代償まで見届けてこそ、選択は完成する。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "嵐と疲労の中で、白い帆へ替える役目が後回しになる。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "岬の父が黒い帆を見て、息子の死を信じる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "私はこの出来事を見届けた。岬の父が黒い帆を見て、息子の死を信じる。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "怪物の姿だけを見て、善悪を決めてはいけない。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "だが、恐れは理屈より速い。心を整える時間が必要だ。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「怪物を倒す勇気と、帰る道を忘れない慎重さ」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "恐れを消せなくても、知恵と約束を手放さずに進める。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "知恵は弱さの言い訳ではない。命を守るための力だ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "岬の父が黒い帆を見て、息子の死を信じる。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "帰還した英雄が父の死を知り、勝利と責任を同時に受け取る。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "私はこの出来事を見届けた。帰還した英雄が父の死を知り、勝利と責任を同時に受け取る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "神々の言葉にも影がある。力が強いほど、責任も重くなる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "運命を知ることと、運命に従うことは同じではない。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「怪物を倒す勇気と、帰る道を忘れない慎重さ」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "選べる一歩が残る限り、私はその一歩を自分で決める。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "ならば進め。代償まで見届けてこそ、選択は完成する。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "帰還した英雄が父の死を知り、勝利と責任を同時に受け取る。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "bg",
+      "src": "cape"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "黒い帆を見た父アイゲウスは海へ身を投げる。英雄の勝利は、帰還の合図を忘れた喪失と共に残る。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "長い旅の果てに残ったのは、「怪物を倒す勇気と、帰る道を忘れない慎重さ」という問いでした。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "答えは一つではありません。けれど、登場人物たちの選択は消えません。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "『テセウスとミノタウロス ―糸の帰路―』、これにて終幕。ありがとうございました。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

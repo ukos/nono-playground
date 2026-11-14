@@ -1,0 +1,1235 @@
+{
+  "meta": {
+    "id": "silver-blaze",
+    "title": "銀星号事件 ―吠えなかった犬―",
+    "original": "Arthur Conan Doyle, Silver Blaze（原作著作権消滅）",
+    "adaptation": "moderate",
+    "format": "v3",
+    "minutes": 35,
+    "synopsis": "競走馬・銀星号が失踪し、調教師ストレイカーが荒野で死ぬ。ホームズは犬が吠えなかったこと、羊の不自然な跛行、香辛料入りの料理、特殊な刃物から、内部犯行と失敗した不正を見抜く。",
+    "note": "本脚本は翻案であり、原作・現代訳の文章の転載ではない。セリフはすべて本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "調教師夫人",
+      "actor": "rei_casual",
+      "costume": "default"
+    },
+    {
+      "role": "ホームズ",
+      "actor": "shiro",
+      "costume": "default"
+    },
+    {
+      "role": "ワトソン",
+      "actor": "nono_whitecat",
+      "costume": "default"
+    },
+    {
+      "role": "銀星号",
+      "actor": "hayate",
+      "costume": "default"
+    },
+    {
+      "role": "番犬",
+      "actor": "kurogane",
+      "costume": "default"
+    },
+    {
+      "role": "厩務員",
+      "actor": "extra_villager",
+      "costume": "default"
+    },
+    {
+      "role": "ストレイカー",
+      "actor": "extra_craftsman",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "stable": "bg/kings-pyland-stable-2048x1152.png",
+    "moor": "bg/dartmoor-crime-scene-2048x1152.png",
+    "farm": "bg/sheep-farm-2048x1152.png",
+    "rival": "bg/mapleton-yard-2048x1152.png",
+    "race": "bg/racecourse-reveal-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『銀星号事件 ―吠えなかった犬―』。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "消えた名馬、死んだ調教師、夜に吠えなかった犬。静かな事実が事件を逆さにします。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "今夜の核は「存在しない反応も証拠になること」。急がず、長い物語としてお届けします。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "それでは開幕。役者たちの声と、場面の移ろいをお楽しみください。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "stable",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "stable"
+    },
+    {
+      "op": "nar",
+      "text": "雨上がりの競走馬厩舎"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "夫人が銀星号の失踪と夫ストレイカーの死を依頼する。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "この手掛かりを軽く扱えない。夫人が銀星号の失踪と夫ストレイカーの死を依頼する。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "印象を捨てよう。残った事実だけを、順番に並べる。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "事実は小さいほど見落とされる。位置と時刻を確かめよう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「存在しない反応も証拠になること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "説明できない一点こそ、事件の中心かもしれない。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "仮説は証拠に従わせる。証拠を仮説へ曲げてはならない。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "夫人が銀星号の失踪と夫ストレイカーの死を依頼する。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "nono_whitecat",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "厩務員が香辛料の強い羊肉料理で眠らされた経緯を聞く。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "この手掛かりを軽く扱えない。厩務員が香辛料の強い羊肉料理で眠らされた経緯を聞く。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "奇妙さには目的がある。誰が、何から目をそらしたかった？",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "利益だけでなく、時間を稼ぐ必要があった者も考えよう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「存在しない反応も証拠になること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "沈黙したもの、動かなかったものも証言になる。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "その消極的な証拠を、ほかの事実と結び直してみよう。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "厩務員が香辛料の強い羊肉料理で眠らされた経緯を聞く。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "hide",
+      "actor": "nono_whitecat"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "番犬が夜に一度も吠えなかった事実へ注目する。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "この手掛かりを軽く扱えない。番犬が夜に一度も吠えなかった事実へ注目する。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "印象を捨てよう。残った事実だけを、順番に並べる。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "事実は小さいほど見落とされる。位置と時刻を確かめよう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「存在しない反応も証拠になること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "説明できない一点こそ、事件の中心かもしれない。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "仮説は証拠に従わせる。証拠を仮説へ曲げてはならない。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "番犬が夜に一度も吠えなかった事実へ注目する。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "bg",
+      "src": "moor",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "moor"
+    },
+    {
+      "op": "nar",
+      "text": "泥と低木のダートムーア"
+    },
+    {
+      "op": "show",
+      "actor": "hayate",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_villager",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "銀星号が慣れた者に連れ出された可能性を考える。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "この手掛かりを軽く扱えない。銀星号が慣れた者に連れ出された可能性を考える。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "奇妙さには目的がある。誰が、何から目をそらしたかった？"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "利益だけでなく、時間を稼ぐ必要があった者も考えよう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「存在しない反応も証拠になること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "沈黙したもの、動かなかったものも証言になる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "その消極的な証拠を、ほかの事実と結び直してみよう。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "銀星号が慣れた者に連れ出された可能性を考える。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "hide",
+      "actor": "hayate"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_villager"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "nono_whitecat",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "荒野の泥から馬の蹄跡と人の足跡を追う。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "この手掛かりを軽く扱えない。荒野の泥から馬の蹄跡と人の足跡を追う。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "印象を捨てよう。残った事実だけを、順番に並べる。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "事実は小さいほど見落とされる。位置と時刻を確かめよう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「存在しない反応も証拠になること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "説明できない一点こそ、事件の中心かもしれない。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "仮説は証拠に従わせる。証拠を仮説へ曲げてはならない。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "荒野の泥から馬の蹄跡と人の足跡を追う。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "hide",
+      "actor": "nono_whitecat"
+    },
+    {
+      "op": "show",
+      "actor": "extra_craftsman",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "遺体のそばにあった繊細な外科用ナイフの用途を疑う。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "この手掛かりを軽く扱えない。遺体のそばにあった繊細な外科用ナイフの用途を疑う。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "奇妙さには目的がある。誰が、何から目をそらしたかった？"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "利益だけでなく、時間を稼ぐ必要があった者も考えよう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「存在しない反応も証拠になること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "沈黙したもの、動かなかったものも証言になる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "その消極的な証拠を、ほかの事実と結び直してみよう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "遺体のそばにあった繊細な外科用ナイフの用途を疑う。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_craftsman"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "bg",
+      "src": "farm",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "farm"
+    },
+    {
+      "op": "nar",
+      "text": "跛行する羊がいる牧場"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_villager",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "厩舎の羊が数頭だけ跛行していると聞き出す。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "この手掛かりを軽く扱えない。厩舎の羊が数頭だけ跛行していると聞き出す。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "印象を捨てよう。残った事実だけを、順番に並べる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "事実は小さいほど見落とされる。位置と時刻を確かめよう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「存在しない反応も証拠になること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "説明できない一点こそ、事件の中心かもしれない。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "仮説は証拠に従わせる。証拠を仮説へ曲げてはならない。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "厩舎の羊が数頭だけ跛行していると聞き出す。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "surprise",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_villager"
+    },
+    {
+      "op": "show",
+      "actor": "nono_whitecat",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "調教師が羊で腱を傷つける練習をした仮説を組み立てる。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "この手掛かりを軽く扱えない。調教師が羊で腱を傷つける練習をした仮説を組み立てる。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "奇妙さには目的がある。誰が、何から目をそらしたかった？"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "利益だけでなく、時間を稼ぐ必要があった者も考えよう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「存在しない反応も証拠になること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "沈黙したもの、動かなかったものも証言になる。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "その消極的な証拠を、ほかの事実と結び直してみよう。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "調教師が羊で腱を傷つける練習をした仮説を組み立てる。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "anger",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono_whitecat"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "夫の高価な婦人服の請求書から隠れた借金が明らかになる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "この手掛かりを軽く扱えない。夫の高価な婦人服の請求書から隠れた借金が明らかになる。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "印象を捨てよう。残った事実だけを、順番に並べる。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "事実は小さいほど見落とされる。位置と時刻を確かめよう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「存在しない反応も証拠になること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "説明できない一点こそ、事件の中心かもしれない。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "仮説は証拠に従わせる。証拠を仮説へ曲げてはならない。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "夫の高価な婦人服の請求書から隠れた借金が明らかになる。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "bg",
+      "src": "rival",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "rival"
+    },
+    {
+      "op": "nar",
+      "text": "ライバル厩舎の囲い"
+    },
+    {
+      "op": "show",
+      "actor": "hayate",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_craftsman",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "銀星号が刃物と白いマントに驚き、調教師を蹴ったと推定する。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "この手掛かりを軽く扱えない。銀星号が刃物と白いマントに驚き、調教師を蹴ったと推定する。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "奇妙さには目的がある。誰が、何から目をそらしたかった？"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "利益だけでなく、時間を稼ぐ必要があった者も考えよう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「存在しない反応も証拠になること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "沈黙したもの、動かなかったものも証言になる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "その消極的な証拠を、ほかの事実と結び直してみよう。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "銀星号が刃物と白いマントに驚き、調教師を蹴ったと推定する。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "hide",
+      "actor": "hayate"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_craftsman"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "nono_whitecat",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "馬が故意に人を殺したのではなく、危険から逃れたと確認する。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "この手掛かりを軽く扱えない。馬が故意に人を殺したのではなく、危険から逃れたと確認する。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "印象を捨てよう。残った事実だけを、順番に並べる。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "事実は小さいほど見落とされる。位置と時刻を確かめよう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「存在しない反応も証拠になること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "説明できない一点こそ、事件の中心かもしれない。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "仮説は証拠に従わせる。証拠を仮説へ曲げてはならない。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "馬が故意に人を殺したのではなく、危険から逃れたと確認する。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "hide",
+      "actor": "nono_whitecat"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_villager",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "ライバル厩舎に隠された馬の顔が染料で変えられていると見抜く。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "この手掛かりを軽く扱えない。ライバル厩舎に隠された馬の顔が染料で変えられていると見抜く。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "奇妙さには目的がある。誰が、何から目をそらしたかった？"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "利益だけでなく、時間を稼ぐ必要があった者も考えよう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「存在しない反応も証拠になること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "沈黙したもの、動かなかったものも証言になる。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "その消極的な証拠を、ほかの事実と結び直してみよう。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "ライバル厩舎に隠された馬の顔が染料で変えられていると見抜く。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_villager"
+    },
+    {
+      "op": "bg",
+      "src": "race",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "race"
+    },
+    {
+      "op": "nar",
+      "text": "観客を描かない競馬場の発走前"
+    },
+    {
+      "op": "show",
+      "actor": "hayate",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "銀星号を安全に戻し、夫人へ事件の筋を説明する。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "この手掛かりを軽く扱えない。銀星号を安全に戻し、夫人へ事件の筋を説明する。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "印象を捨てよう。残った事実だけを、順番に並べる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "事実は小さいほど見落とされる。位置と時刻を確かめよう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「存在しない反応も証拠になること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "説明できない一点こそ、事件の中心かもしれない。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "仮説は証拠に従わせる。証拠を仮説へ曲げてはならない。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "銀星号を安全に戻し、夫人へ事件の筋を説明する。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "hayate"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "nono_whitecat",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "吠えなかった犬が犯人を知る者と示した論理を言葉にする。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "この手掛かりを軽く扱えない。吠えなかった犬が犯人を知る者と示した論理を言葉にする。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "奇妙さには目的がある。誰が、何から目をそらしたかった？"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "利益だけでなく、時間を稼ぐ必要があった者も考えよう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「存在しない反応も証拠になること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "沈黙したもの、動かなかったものも証言になる。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "その消極的な証拠を、ほかの事実と結び直してみよう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "吠えなかった犬が犯人を知る者と示した論理を言葉にする。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "hide",
+      "actor": "nono_whitecat"
+    },
+    {
+      "op": "show",
+      "actor": "hayate",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "競走当日、染料を落とした銀星号が正体を現して勝利する。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "この手掛かりを軽く扱えない。競走当日、染料を落とした銀星号が正体を現して勝利する。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "印象を捨てよう。残った事実だけを、順番に並べる。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "事実は小さいほど見落とされる。位置と時刻を確かめよう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「存在しない反応も証拠になること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "説明できない一点こそ、事件の中心かもしれない。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "仮説は証拠に従わせる。証拠を仮説へ曲げてはならない。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "競走当日、染料を落とした銀星号が正体を現して勝利する。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "hide",
+      "actor": "hayate"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "bg",
+      "src": "race"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "銀星号は顔の白斑を染められて隠されていた。競走に勝ち、事件は沈黙していた証拠によって解決する。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "長い旅の果てに残ったのは、「存在しない反応も証拠になること」という問いでした。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "答えは一つではありません。けれど、登場人物たちの選択は消えません。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "『銀星号事件 ―吠えなかった犬―』、これにて終幕。ありがとうございました。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

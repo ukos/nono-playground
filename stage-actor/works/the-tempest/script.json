@@ -1,0 +1,1318 @@
+{
+ "meta": {
+  "id": "the-tempest",
+  "title": "テンペスト ―嵐をほどく島―",
+  "original": "William Shakespeare, The Tempest（原作著作権消滅）",
+  "adaptation": "free",
+  "format": "v3",
+  "minutes": 40,
+  "synopsis": "弟に国を奪われたプロスペローは、精霊エアリエルに命じて敵船を島へ導く。娘ミランダと王子ファーディナンドの愛、貴族たちの陰謀、キャリバンたちの反乱を見届け、最後に復讐ではなく赦しを選ぶ。",
+  "note": "本脚本は翻案であり、原作・現代訳の文章の転載ではない。セリフはすべて本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
+  },
+  {
+   "role": "ミランダ",
+   "actor": "rei_casual",
+   "costume": "default"
+  },
+  {
+   "role": "プロスペロー",
+   "actor": "extra_wizard",
+   "costume": "default"
+  },
+  {
+   "role": "エアリエル",
+   "actor": "shiro",
+   "costume": "default"
+  },
+  {
+   "role": "キャリバン",
+   "actor": "gou",
+   "costume": "default"
+  },
+  {
+   "role": "ファーディナンド",
+   "actor": "yui",
+   "costume": "default"
+  },
+  {
+   "role": "アントーニオ",
+   "actor": "nibulus",
+   "costume": "default"
+  },
+  {
+   "role": "アロンゾー",
+   "actor": "iwao",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "storm": "bg/tempest-sea-2048x1152.png",
+  "cell": "bg/prospero-cell-2048x1152.png",
+  "grove": "bg/enchanted-grove-2048x1152.png",
+  "banquet": "bg/vanishing-banquet-2048x1152.png",
+  "circle": "bg/forgiveness-circle-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ようこそ、NONO座へ。本日の演目は『テンペスト ―嵐をほどく島―』。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "魔法で起こされた嵐の島で、追放された公爵は敵を裁くか、自らの怒りを手放すかを問われます。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "今夜の核は「復讐する力を持ちながら赦しを選ぶこと」。急がず、長い物語としてお届けします。",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "それでは開幕。役者たちの声と、場面の移ろいをお楽しみください。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "storm",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "storm"
+  },
+  {
+   "op": "nar",
+   "text": "魔法の嵐に裂かれる帆船と暗い海"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "プロスペローは敵を乗せた船へ嵐を起こすようエアリエルに命じる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "船を壊しても命は奪うな。一人ずつ、私の計画の場所へ導け。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "命を守る約束なら従います。けれど私の自由もお忘れなく。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "舞台の上では、沈黙も台詞だ。今の間を聞き逃すな。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "ならば次の一言は慎重に。剣より深く届くことがある。",
+   "eyes": "joy"
+  },
+  {
+   "op": "nar",
+   "text": "言葉の余韻が残る。二人は「復讐する力を持ちながら赦しを選ぶこと」を胸に、次の局面へ進んだ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "恐れに台詞を渡さない。私自身の声で答える。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "よし。その答えが、次の幕の扉を開く。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "プロスペローは敵を乗せた船へ嵐を起こすようエアリエルに命じる。――この出来事を忘れず、次の判断へつなげよう。",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "ミランダは難破する人々を見て、父に嵐を止めてほしいと懇願する。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "あの船には、名前も知らない人の恐怖があります。どうか止めて。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "誰も死なせていない。だが、お前には私たちの過去を話す時だ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "誰もが役を演じている。だが、本心までは衣装で隠せない。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "本心を語るなら、代償も受け取らなくてはならない。"
+  },
+  {
+   "op": "nar",
+   "text": "言葉の余韻が残る。二人は「復讐する力を持ちながら赦しを選ぶこと」を胸に、次の局面へ進んだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "代償から逃げずに語る。今は、それだけが誠実だ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "では聞こう。飾らない言葉が、どこまで届くか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "ミランダは難破する人々を見て、父に嵐を止めてほしいと懇願する。――この出来事を忘れず、次の判断へつなげよう。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "父は弟アントーニオに国を奪われ、島へ追放された経緯を語る。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "私は学問へ逃げ、政を弟へ預けすぎた。その隙を裏切りが満たした。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "裏切りは許せない。でも、今の嵐で同じ苦しみを返すのですか。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "舞台の上では、沈黙も台詞だ。今の間を聞き逃すな。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "ならば次の一言は慎重に。剣より深く届くことがある。"
+  },
+  {
+   "op": "nar",
+   "text": "言葉の余韻が残る。二人は「復讐する力を持ちながら赦しを選ぶこと」を胸に、次の局面へ進んだ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "恐れに台詞を渡さない。私自身の声で答える。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "よし。その答えが、次の幕の扉を開く。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "父は弟アントーニオに国を奪われ、島へ追放された経緯を語る。――この出来事を忘れず、次の判断へつなげよう。",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "bg",
+   "src": "cell",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "cell"
+  },
+  {
+   "op": "nar",
+   "text": "書物と杖のある島の岩窟"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "エアリエルは全員を無事に上陸させたと報告し、自由を求める。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "船員も王も無事です。約束の仕事を果たしました。自由をください。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "まだ一日、力を貸してくれ。終われば、風より自由にする。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "誰もが役を演じている。だが、本心までは衣装で隠せない。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "本心を語るなら、代償も受け取らなくてはならない。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "言葉の余韻が残る。二人は「復讐する力を持ちながら赦しを選ぶこと」を胸に、次の局面へ進んだ。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "代償から逃げずに語る。今は、それだけが誠実だ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "では聞こう。飾らない言葉が、どこまで届くか。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "エアリエルは全員を無事に上陸させたと報告し、自由を求める。――この出来事を忘れず、次の判断へつなげよう。",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+   "eyes": "normal"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "ミランダとファーディナンドは島で出会い、互いを敵と知らず惹かれる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "あなたも嵐で家族を失ったのですか。ここでは私が道を案内します。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "あなたの声を聞くと、この島が牢ではなく、新しい岸に思える。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "舞台の上では、沈黙も台詞だ。今の間を聞き逃すな。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "ならば次の一言は慎重に。剣より深く届くことがある。"
+  },
+  {
+   "op": "nar",
+   "text": "言葉の余韻が残る。二人は「復讐する力を持ちながら赦しを選ぶこと」を胸に、次の局面へ進んだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "恐れに台詞を渡さない。私自身の声で答える。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "よし。その答えが、次の幕の扉を開く。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "ミランダとファーディナンドは島で出会い、互いを敵と知らず惹かれる。――この出来事を忘れず、次の判断へつなげよう。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "プロスペローは王子の愛を試すため、丸太運びの労働を課す。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "言葉だけの愛なら重さに負ける。この丸太を日暮れまで運べ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "喜んで。彼女を得るためでなく、約束を軽くしないために運びます。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "誰もが役を演じている。だが、本心までは衣装で隠せない。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "本心を語るなら、代償も受け取らなくてはならない。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "言葉の余韻が残る。二人は「復讐する力を持ちながら赦しを選ぶこと」を胸に、次の局面へ進んだ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "代償から逃げずに語る。今は、それだけが誠実だ。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "では聞こう。飾らない言葉が、どこまで届くか。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "プロスペローは王子の愛を試すため、丸太運びの労働を課す。――この出来事を忘れず、次の判断へつなげよう。",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "bg",
+   "src": "grove",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "grove"
+  },
+  {
+   "op": "nar",
+   "text": "精霊の声が巡る島の森"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "キャリバンは島を奪われた怒りをミランダへぶつける。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "この泉も岩も、先に名を知っていたのは俺だ。なぜ俺が僕なのだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "あなたの怒りには理由がある。でも、傷つけてよい理由にはならない。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "舞台の上では、沈黙も台詞だ。今の間を聞き逃すな。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "ならば次の一言は慎重に。剣より深く届くことがある。"
+  },
+  {
+   "op": "nar",
+   "text": "言葉の余韻が残る。二人は「復讐する力を持ちながら赦しを選ぶこと」を胸に、次の局面へ進んだ。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "恐れに台詞を渡さない。私自身の声で答える。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "よし。その答えが、次の幕の扉を開く。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "キャリバンは島を奪われた怒りをミランダへぶつける。――この出来事を忘れず、次の判断へつなげよう。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "show",
+   "actor": "nibulus",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "アントーニオは眠る王を倒し、再び権力を奪おうと誘う。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "一度王座が空けば、座った者が王だ。剣を抜く好機だぞ。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "嵐の直後にまた裏切りか。だが、疑いが私の手を止める。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "誰もが役を演じている。だが、本心までは衣装で隠せない。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "本心を語るなら、代償も受け取らなくてはならない。"
+  },
+  {
+   "op": "nar",
+   "text": "言葉の余韻が残る。二人は「復讐する力を持ちながら赦しを選ぶこと」を胸に、次の局面へ進んだ。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "代償から逃げずに語る。今は、それだけが誠実だ。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "では聞こう。飾らない言葉が、どこまで届くか。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "アントーニオは眠る王を倒し、再び権力を奪おうと誘う。――この出来事を忘れず、次の判断へつなげよう。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+  },
+  {
+   "op": "hide",
+   "actor": "nibulus"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "エアリエルは歌で王を目覚めさせ、暗殺を未然に防ぐ。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "眠りの底に刃が近づいています。目を開け、隣の影を見て。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "今の歌は警告か。アントーニオ、その抜いた剣を説明せよ。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "舞台の上では、沈黙も台詞だ。今の間を聞き逃すな。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "ならば次の一言は慎重に。剣より深く届くことがある。"
+  },
+  {
+   "op": "nar",
+   "text": "言葉の余韻が残る。二人は「復讐する力を持ちながら赦しを選ぶこと」を胸に、次の局面へ進んだ。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "恐れに台詞を渡さない。私自身の声で答える。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "よし。その答えが、次の幕の扉を開く。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "エアリエルは歌で王を目覚めさせ、暗殺を未然に防ぐ。――この出来事を忘れず、次の判断へつなげよう。",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "bg",
+   "src": "banquet",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "banquet"
+  },
+  {
+   "op": "nar",
+   "text": "罪を映す幻の宴席"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "nibulus",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "キャリバンは漂着した道化たちを新たな主人と誤認し、反乱を企てる。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "酒をくれるなら、魔法使いを倒す道を教える。島は俺たちのものだ。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "王になる話は気に入った。まずは派手な衣装から選ぼう。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "誰もが役を演じている。だが、本心までは衣装で隠せない。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "本心を語るなら、代償も受け取らなくてはならない。"
+  },
+  {
+   "op": "nar",
+   "text": "言葉の余韻が残る。二人は「復讐する力を持ちながら赦しを選ぶこと」を胸に、次の局面へ進んだ。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "代償から逃げずに語る。今は、それだけが誠実だ。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "では聞こう。飾らない言葉が、どこまで届くか。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "キャリバンは漂着した道化たちを新たな主人と誤認し、反乱を企てる。――この出来事を忘れず、次の判断へつなげよう。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "nibulus"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "プロスペローは敵へ幻の宴を見せ、罪を告発する。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "食卓を前に空腹だけでなく、奪った国と捨てた者を思い出せ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "皆の顔に恐れが戻っています。ここから先は罰ですか、気づきですか。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "舞台の上では、沈黙も台詞だ。今の間を聞き逃すな。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "ならば次の一言は慎重に。剣より深く届くことがある。"
+  },
+  {
+   "op": "nar",
+   "text": "言葉の余韻が残る。二人は「復讐する力を持ちながら赦しを選ぶこと」を胸に、次の局面へ進んだ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "恐れに台詞を渡さない。私自身の声で答える。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "よし。その答えが、次の幕の扉を開く。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "プロスペローは敵へ幻の宴を見せ、罪を告発する。――この出来事を忘れず、次の判断へつなげよう。",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "ミランダは父へ、苦しむ敵を見てなお復讐を続けるのかと問う。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "彼らが悪くても、苦しみを眺め続ける父上の顔は悲しいです。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "お前の憐れみは、私の魔法より強い。怒りの輪を断つ時かもしれぬ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "誰もが役を演じている。だが、本心までは衣装で隠せない。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "本心を語るなら、代償も受け取らなくてはならない。"
+  },
+  {
+   "op": "nar",
+   "text": "言葉の余韻が残る。二人は「復讐する力を持ちながら赦しを選ぶこと」を胸に、次の局面へ進んだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "代償から逃げずに語る。今は、それだけが誠実だ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "では聞こう。飾らない言葉が、どこまで届くか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "ミランダは父へ、苦しむ敵を見てなお復讐を続けるのかと問う。――この出来事を忘れず、次の判断へつなげよう。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
+   "op": "bg",
+   "src": "circle",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "circle"
+  },
+  {
+   "op": "nar",
+   "text": "魔法陣が消えて朝を迎える浜"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "nibulus",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "プロスペローは正体を現し、アントーニオへ国を返すよう迫る。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "私は生きている。お前の罪を知り、今は罰する力も持っている。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "ならば罰せよ。赦しという言葉で、私の罪を軽くするな。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "舞台の上では、沈黙も台詞だ。今の間を聞き逃すな。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "ならば次の一言は慎重に。剣より深く届くことがある。"
+  },
+  {
+   "op": "nar",
+   "text": "言葉の余韻が残る。二人は「復讐する力を持ちながら赦しを選ぶこと」を胸に、次の局面へ進んだ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "恐れに台詞を渡さない。私自身の声で答える。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "よし。その答えが、次の幕の扉を開く。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "プロスペローは正体を現し、アントーニオへ国を返すよう迫る。――この出来事を忘れず、次の判断へつなげよう。",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
+   "op": "hide",
+   "actor": "nibulus"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "プロスペローは杖を折り、魔法の書を閉じてエアリエルを解放する。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "復讐ではなく、責任を求める。私自身は魔法の支配を終える。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "約束は果たされました。私は自由な風として、帰る船を送ります。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "誰もが役を演じている。だが、本心までは衣装で隠せない。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "本心を語るなら、代償も受け取らなくてはならない。"
+  },
+  {
+   "op": "nar",
+   "text": "言葉の余韻が残る。二人は「復讐する力を持ちながら赦しを選ぶこと」を胸に、次の局面へ進んだ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "代償から逃げずに語る。今は、それだけが誠実だ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "では聞こう。飾らない言葉が、どこまで届くか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "プロスペローは杖を折り、魔法の書を閉じてエアリエルを解放する。――この出来事を忘れず、次の判断へつなげよう。",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "和解した一行は、結婚と帰国を前に新しい関係を選ぶ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "過去を忘れず、過去だけで明日を決めない国を作りましょう。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "その約束を、嵐の後の最初の航路にしよう。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "舞台の上では、沈黙も台詞だ。今の間を聞き逃すな。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "ならば次の一言は慎重に。剣より深く届くことがある。",
+   "eyes": "normal"
+  },
+  {
+   "op": "nar",
+   "text": "言葉の余韻が残る。二人は「復讐する力を持ちながら赦しを選ぶこと」を胸に、次の局面へ進んだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "恐れに台詞を渡さない。私自身の声で答える。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "よし。その答えが、次の幕の扉を開く。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "和解した一行は、結婚と帰国を前に新しい関係を選ぶ。――この出来事を忘れず、次の判断へつなげよう。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+   "eyes": "anger"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "プロスペローの前に、罰と赦しの二つの道が開く。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "魔法で罪を見せ続ける",
+     "jump": "route_a"
+    },
+    {
+     "text": "魔法を捨て責任を求める",
+     "jump": "route_b"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "route_a"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "恐怖で理解させる道もある。だが、それは私を島へ縛る。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "罰が長すぎれば、正しさも支配へ変わります。"
+  },
+  {
+   "op": "jump",
+   "to": "route_join"
+  },
+  {
+   "op": "label",
+   "id": "route_b"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "赦しは忘却ではない。償いを求め、復讐を終える。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "その選択なら、私たちも未来へ帰れます。"
+  },
+  {
+   "op": "jump",
+   "to": "route_join"
+  },
+  {
+   "op": "label",
+   "id": "route_join"
+  },
+  {
+   "op": "nar",
+   "text": "どちらの思案も経て、プロスペローは魔法を捨て、責任を問う赦しを選んだ。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
+   "op": "bg",
+   "src": "circle"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "プロスペローは魔法を捨て、エアリエルを自由にし、敵と共に人の世界へ帰った。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "長い旅の果てに残ったのは、「復讐する力を持ちながら赦しを選ぶこと」という問いでした。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "答えは一つではありません。けれど、登場人物たちの選択は消えません。",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "『テンペスト ―嵐をほどく島―』、これにて終幕。ありがとうございました。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
+}

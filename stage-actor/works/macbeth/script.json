@@ -1,0 +1,1220 @@
+{
+  "meta": {
+    "id": "macbeth",
+    "title": "マクベス ―予言の影―",
+    "original": "William Shakespeare, Macbeth（原作著作権消滅）",
+    "adaptation": "moderate",
+    "format": "v3",
+    "minutes": 42,
+    "synopsis": "将軍マクベスは魔女から王になると予言され、妻と共にダンカン王を殺す。王位を得ても恐怖は消えず、友バンクォーやマクダフ一家へ暴力を広げる。森が動き、予言の言葉の隙間が閉じる。",
+    "note": "本脚本は翻案であり、原作・現代訳の文章の転載ではない。セリフはすべて本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "マクベス夫人",
+      "actor": "rei_rider_red",
+      "costume": "default"
+    },
+    {
+      "role": "マクベス",
+      "actor": "kotetsu",
+      "costume": "default"
+    },
+    {
+      "role": "バンクォー",
+      "actor": "kurogane",
+      "costume": "default"
+    },
+    {
+      "role": "ダンカン王",
+      "actor": "extra_elder",
+      "costume": "default"
+    },
+    {
+      "role": "マクダフ",
+      "actor": "yui",
+      "costume": "default"
+    },
+    {
+      "role": "魔女",
+      "actor": "extra_wizard",
+      "costume": "default"
+    },
+    {
+      "role": "マルカム",
+      "actor": "shiro",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "heath": "bg/witches-heath-2048x1152.png",
+    "castle": "bg/macbeth-castle-night-2048x1152.png",
+    "banquet": "bg/banquo-ghost-banquet-2048x1152.png",
+    "cavern": "bg/prophecy-cavern-2048x1152.png",
+    "birnam": "bg/birnam-battle-dawn-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『マクベス ―予言の影―』。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "予言は未来を告げたのか、それとも聞いた者の心に未来を作らせたのか。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "今夜の核は「野心が恐怖と罪悪感を増殖させる構造」。急がず、長い物語としてお届けします。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "それでは開幕。役者たちの声と、場面の移ろいをお楽しみください。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "heath",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "heath"
+    },
+    {
+      "op": "nar",
+      "text": "雷雲の荒野と三つの立石"
+    },
+    {
+      "op": "show",
+      "actor": "kotetsu",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "戦勝の帰路、マクベスとバンクォーは荒野で魔女に出会う。"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "今の称号だけでなく、王になると告げた。なぜ私の胸が騒ぐ。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "予言は種だ。育てるか捨てるかは、聞いた者の手にある。"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "舞台の上では、沈黙も台詞だ。今の間を聞き逃すな。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "ならば次の一言は慎重に。剣より深く届くことがある。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「野心が恐怖と罪悪感を増殖させる構造」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "恐れに台詞を渡さない。私自身の声で答える。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "よし。その答えが、次の幕の扉を開く。"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "戦勝の帰路、マクベスとバンクォーは荒野で魔女に出会う。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "kotetsu"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "show",
+      "actor": "extra_wizard",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kotetsu",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "魔女はマクベスへ王位を、バンクォーへ王の父となる未来を語る。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "お前は王となる。友は王にならず、王たちの祖となる。"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "言葉の半分だけを残して消えるな。道筋を示せ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "誰もが役を演じている。だが、本心までは衣装で隠せない。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "本心を語るなら、代償も受け取らなくてはならない。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「野心が恐怖と罪悪感を増殖させる構造」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "代償から逃げずに語る。今は、それだけが誠実だ。"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "では聞こう。飾らない言葉が、どこまで届くか。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "魔女はマクベスへ王位を、バンクォーへ王の父となる未来を語る。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_wizard"
+    },
+    {
+      "op": "hide",
+      "actor": "kotetsu"
+    },
+    {
+      "op": "show",
+      "actor": "rei_rider_red",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kotetsu",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "手紙で予言を知った夫人は、夫の迷いを弱さと見なす。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider_red",
+      "text": "機会が扉を叩いている。あなたは名誉を欲しながら手を汚せない。"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "欲しいと望むことと、殺して奪うことの間には深い溝がある。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider_red",
+      "text": "舞台の上では、沈黙も台詞だ。今の間を聞き逃すな。"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "ならば次の一言は慎重に。剣より深く届くことがある。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「野心が恐怖と罪悪感を増殖させる構造」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider_red",
+      "text": "恐れに台詞を渡さない。私自身の声で答える。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "よし。その答えが、次の幕の扉を開く。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider_red",
+      "text": "手紙で予言を知った夫人は、夫の迷いを弱さと見なす。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_rider_red"
+    },
+    {
+      "op": "hide",
+      "actor": "kotetsu"
+    },
+    {
+      "op": "bg",
+      "src": "castle",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "castle"
+    },
+    {
+      "op": "nar",
+      "text": "ダンカンを迎える城の夜"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kotetsu",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "ダンカン王はマクベスの城を訪れ、忠誠を信じて夜を過ごす。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "勇敢な将よ、この城の空気は穏やかだ。お前の忠義を信じる。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "その信頼が、剣より重く胸にのしかかります。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "誰もが役を演じている。だが、本心までは衣装で隠せない。"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "本心を語るなら、代償も受け取らなくてはならない。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「野心が恐怖と罪悪感を増殖させる構造」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "代償から逃げずに語る。今は、それだけが誠実だ。"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "では聞こう。飾らない言葉が、どこまで届くか。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "ダンカン王はマクベスの城を訪れ、忠誠を信じて夜を過ごす。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "hide",
+      "actor": "kotetsu"
+    },
+    {
+      "op": "show",
+      "actor": "rei_rider_red",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kotetsu",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "夫人は衛兵を眠らせ、短剣を置く計画で夫を追い詰める。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider_red",
+      "text": "今退けば、望みを口にした自分から一生逃げることになる。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "進めば、人として戻れなくなる。それでも王冠を選ぶのか。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider_red",
+      "text": "舞台の上では、沈黙も台詞だ。今の間を聞き逃すな。"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "ならば次の一言は慎重に。剣より深く届くことがある。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「野心が恐怖と罪悪感を増殖させる構造」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider_red",
+      "text": "恐れに台詞を渡さない。私自身の声で答える。"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "よし。その答えが、次の幕の扉を開く。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider_red",
+      "text": "夫人は衛兵を眠らせ、短剣を置く計画で夫を追い詰める。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_rider_red"
+    },
+    {
+      "op": "hide",
+      "actor": "kotetsu"
+    },
+    {
+      "op": "show",
+      "actor": "kotetsu",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_rider_red",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "マクベスは幻の短剣を追い、眠る王を殺害する。"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "刃が宙に浮かび、私を寝室へ導く。これは運命の道標か。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider_red",
+      "text": "道標ではない。あなたの欲望が見せる影よ。決めるのはあなた。"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "誰もが役を演じている。だが、本心までは衣装で隠せない。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider_red",
+      "text": "本心を語るなら、代償も受け取らなくてはならない。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「野心が恐怖と罪悪感を増殖させる構造」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "代償から逃げずに語る。今は、それだけが誠実だ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider_red",
+      "text": "では聞こう。飾らない言葉が、どこまで届くか。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "マクベスは幻の短剣を追い、眠る王を殺害する。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider_red",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "kotetsu"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_rider_red"
+    },
+    {
+      "op": "bg",
+      "src": "banquet",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "banquet"
+    },
+    {
+      "op": "nar",
+      "text": "空席が恐怖を映す宴会場"
+    },
+    {
+      "op": "show",
+      "actor": "rei_rider_red",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kotetsu",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "血の付いた短剣を持ち帰った夫を、夫人が叱咤して証拠を戻す。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider_red",
+      "text": "水で洗えば手はきれいになる。短剣を衛兵のそばへ戻して。"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "この手は海を赤くする。水で消えるのは血だけだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider_red",
+      "text": "舞台の上では、沈黙も台詞だ。今の間を聞き逃すな。"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "ならば次の一言は慎重に。剣より深く届くことがある。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「野心が恐怖と罪悪感を増殖させる構造」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider_red",
+      "text": "恐れに台詞を渡さない。私自身の声で答える。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "よし。その答えが、次の幕の扉を開く。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider_red",
+      "text": "血の付いた短剣を持ち帰った夫を、夫人が叱咤して証拠を戻す。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_rider_red"
+    },
+    {
+      "op": "hide",
+      "actor": "kotetsu"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "王の死が発見され、マクダフとマルカムは城の言葉を疑う。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "悲しみを叫ぶ声が大きすぎる者ほど、行動を確かめる必要がある。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "私は逃げる。臆病と呼ばれても、生きて真相を問う。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "誰もが役を演じている。だが、本心までは衣装で隠せない。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "本心を語るなら、代償も受け取らなくてはならない。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「野心が恐怖と罪悪感を増殖させる構造」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "代償から逃げずに語る。今は、それだけが誠実だ。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "では聞こう。飾らない言葉が、どこまで届くか。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "王の死が発見され、マクダフとマルカムは城の言葉を疑う。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "anger",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "show",
+      "actor": "kotetsu",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "王となったマクベスは、バンクォーの子孫の予言を恐れる。"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "私が罪を犯し、王冠だけが友の子へ渡るなど耐えられない。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "恐れに王冠をかぶせても、恐れは臣下にはならない。"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "舞台の上では、沈黙も台詞だ。今の間を聞き逃すな。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "ならば次の一言は慎重に。剣より深く届くことがある。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「野心が恐怖と罪悪感を増殖させる構造」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "恐れに台詞を渡さない。私自身の声で答える。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "よし。その答えが、次の幕の扉を開く。"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "王となったマクベスは、バンクォーの子孫の予言を恐れる。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "kotetsu"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "bg",
+      "src": "cavern",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "cavern"
+    },
+    {
+      "op": "nar",
+      "text": "幻が現れる魔女の洞窟"
+    },
+    {
+      "op": "show",
+      "actor": "kotetsu",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "刺客はバンクォーを殺すが、息子フリーアンスは逃げる。"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "友よ、予言がなければ、お前を恐れずに済んだのか。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "私を斬るのは予言ではない。お前が恐れに渡した手だ。"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "誰もが役を演じている。だが、本心までは衣装で隠せない。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "本心を語るなら、代償も受け取らなくてはならない。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「野心が恐怖と罪悪感を増殖させる構造」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "代償から逃げずに語る。今は、それだけが誠実だ。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "では聞こう。飾らない言葉が、どこまで届くか。"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "刺客はバンクォーを殺すが、息子フリーアンスは逃げる。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "kotetsu"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "show",
+      "actor": "kotetsu",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_rider_red",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "宴でバンクォーの亡霊を見たマクベスは、客前で取り乱す。"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "その席に座るな。血に濡れた顔で、私を見つめるな！"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider_red",
+      "text": "空席に叫んでいるのはあなただけ。皆が恐れ始めている。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "舞台の上では、沈黙も台詞だ。今の間を聞き逃すな。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider_red",
+      "text": "ならば次の一言は慎重に。剣より深く届くことがある。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「野心が恐怖と罪悪感を増殖させる構造」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "恐れに台詞を渡さない。私自身の声で答える。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider_red",
+      "text": "よし。その答えが、次の幕の扉を開く。"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "宴でバンクォーの亡霊を見たマクベスは、客前で取り乱す。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider_red",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "kotetsu"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_rider_red"
+    },
+    {
+      "op": "show",
+      "actor": "rei_rider_red",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kotetsu",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "夫人は眠りながら手を洗い続け、隠した罪に崩れていく。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider_red",
+      "text": "まだ落ちない。小さな染みなのに、夜じゅう手に残る。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "私たちは強くなるために始めたのに、互いから遠ざかった。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider_red",
+      "text": "誰もが役を演じている。だが、本心までは衣装で隠せない。"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "本心を語るなら、代償も受け取らなくてはならない。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「野心が恐怖と罪悪感を増殖させる構造」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider_red",
+      "text": "代償から逃げずに語る。今は、それだけが誠実だ。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "では聞こう。飾らない言葉が、どこまで届くか。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider_red",
+      "text": "夫人は眠りながら手を洗い続け、隠した罪に崩れていく。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_rider_red"
+    },
+    {
+      "op": "hide",
+      "actor": "kotetsu"
+    },
+    {
+      "op": "bg",
+      "src": "birnam",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "birnam"
+    },
+    {
+      "op": "nar",
+      "text": "枝を掲げた軍が進む夜明けの城外"
+    },
+    {
+      "op": "show",
+      "actor": "extra_wizard",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kotetsu",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "魔女は女から生まれた者には倒されず、森が動くまで安全と告げる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "女から生まれた者を恐れるな。森が城へ来るまで敗れない。"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "ならば私は無敵だ。あり得ぬ条件が私を守る。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "舞台の上では、沈黙も台詞だ。今の間を聞き逃すな。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "ならば次の一言は慎重に。剣より深く届くことがある。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「野心が恐怖と罪悪感を増殖させる構造」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "恐れに台詞を渡さない。私自身の声で答える。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "よし。その答えが、次の幕の扉を開く。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "魔女は女から生まれた者には倒されず、森が動くまで安全と告げる。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_wizard"
+    },
+    {
+      "op": "hide",
+      "actor": "kotetsu"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "マクダフとマルカムの軍は木の枝を掲げ、城へ近づく。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "兵の数を隠すため、各自がバーナムの枝を持て。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "遠くから見れば森が動く。予言の言葉が現実になる。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "誰もが役を演じている。だが、本心までは衣装で隠せない。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "本心を語るなら、代償も受け取らなくてはならない。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「野心が恐怖と罪悪感を増殖させる構造」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "代償から逃げずに語る。今は、それだけが誠実だ。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "では聞こう。飾らない言葉が、どこまで届くか。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "マクダフとマルカムの軍は木の枝を掲げ、城へ近づく。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kotetsu",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "帝王切開で生まれたマクダフが、予言の抜け道を示して対決する。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "私は母の腹から時を待たず取り出された。言葉の隙間は閉じた。"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "予言ではなく、私の選択がここへ運んだのだ。ならば剣で答える。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "舞台の上では、沈黙も台詞だ。今の間を聞き逃すな。"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "ならば次の一言は慎重に。剣より深く届くことがある。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「野心が恐怖と罪悪感を増殖させる構造」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "恐れに台詞を渡さない。私自身の声で答える。"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "よし。その答えが、次の幕の扉を開く。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "帝王切開で生まれたマクダフが、予言の抜け道を示して対決する。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "kotetsu"
+    },
+    {
+      "op": "bg",
+      "src": "birnam"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "マクベスはマクダフに敗れ、予言へ責任を預けた生き方の代償を払う。国には朝が戻るが、失われた命は戻らない。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "長い旅の果てに残ったのは、「野心が恐怖と罪悪感を増殖させる構造」という問いでした。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "答えは一つではありません。けれど、登場人物たちの選択は消えません。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "『マクベス ―予言の影―』、これにて終幕。ありがとうございました。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

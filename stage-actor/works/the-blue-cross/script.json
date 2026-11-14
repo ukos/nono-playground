@@ -1,0 +1,1224 @@
+{
+  "meta": {
+    "id": "the-blue-cross",
+    "title": "青い十字架 ―小さな違和感の道―",
+    "original": "G. K. Chesterton, The Blue Cross（原作著作権消滅）",
+    "adaptation": "moderate",
+    "format": "v3",
+    "minutes": 32,
+    "synopsis": "刑事ヴァランタンは怪盗フランボウを追い、ブラウン神父が意図的に残した奇妙な痕跡をたどる。司祭に化けた怪盗は青い十字架を狙うが、神父はすでに包みを入れ替え、警察へ道を示していた。",
+    "note": "本脚本は翻案であり、原作・現代訳の文章の転載ではない。セリフはすべて本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "ブラウン神父",
+      "actor": "rei_casual",
+      "costume": "default"
+    },
+    {
+      "role": "ヴァランタン",
+      "actor": "kurogane",
+      "costume": "default"
+    },
+    {
+      "role": "フランボウ",
+      "actor": "tanurio",
+      "costume": "default"
+    },
+    {
+      "role": "給仕",
+      "actor": "extra_villager",
+      "costume": "default"
+    },
+    {
+      "role": "菓子店主",
+      "actor": "extra_elf",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "station": "bg/london-station-2048x1152.png",
+    "cafe": "bg/salt-sugar-cafe-2048x1152.png",
+    "shops": "bg/clue-trail-shops-2048x1152.png",
+    "heath": "bg/hampstead-heath-2048x1152.png",
+    "bench": "bg/cross-reveal-bench-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『青い十字架 ―小さな違和感の道―』。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "塩と砂糖、割れた窓、飛び散るスープ。司祭が残した小さな異変を、名刑事と変装した怪盗が追います。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "今夜の核は「物証と人間心理を結び、悪人の中の良心まで読むこと」。急がず、長い物語としてお届けします。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "それでは開幕。役者たちの声と、場面の移ろいをお楽しみください。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "station",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "station"
+    },
+    {
+      "op": "nar",
+      "text": "蒸気と時計のあるロンドン駅"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "tanurio",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "ヴァランタンが長身の怪盗フランボウの変装を警戒する。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "この手掛かりを軽く扱えない。ヴァランタンが長身の怪盗フランボウの変装を警戒する。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "印象を捨てよう。残った事実だけを、順番に並べる。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "事実は小さいほど見落とされる。位置と時刻を確かめよう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「物証と人間心理を結び、悪人の中の良心まで読むこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "説明できない一点こそ、事件の中心かもしれない。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "仮説は証拠に従わせる。証拠を仮説へ曲げてはならない。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "ヴァランタンが長身の怪盗フランボウの変装を警戒する。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "hide",
+      "actor": "tanurio"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "tanurio",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "ブラウン神父が司祭姿の旅人と青い十字架を運ぶ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "この手掛かりを軽く扱えない。ブラウン神父が司祭姿の旅人と青い十字架を運ぶ。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "奇妙さには目的がある。誰が、何から目をそらしたかった？",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "利益だけでなく、時間を稼ぐ必要があった者も考えよう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「物証と人間心理を結び、悪人の中の良心まで読むこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "沈黙したもの、動かなかったものも証言になる。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "その消極的な証拠を、ほかの事実と結び直してみよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "ブラウン神父が司祭姿の旅人と青い十字架を運ぶ。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "tanurio"
+    },
+    {
+      "op": "show",
+      "actor": "extra_villager",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "食堂で塩と砂糖が入れ替えられた騒ぎを刑事が聞く。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "この手掛かりを軽く扱えない。食堂で塩と砂糖が入れ替えられた騒ぎを刑事が聞く。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "印象を捨てよう。残った事実だけを、順番に並べる。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "事実は小さいほど見落とされる。位置と時刻を確かめよう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「物証と人間心理を結び、悪人の中の良心まで読むこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "説明できない一点こそ、事件の中心かもしれない。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "仮説は証拠に従わせる。証拠を仮説へ曲げてはならない。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "食堂で塩と砂糖が入れ替えられた騒ぎを刑事が聞く。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_villager"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "bg",
+      "src": "cafe",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "cafe"
+    },
+    {
+      "op": "nar",
+      "text": "塩と砂糖が入れ替わった小食堂"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "tanurio",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "神父が怪盗の正体を疑い、追跡者へ合図を残し始める。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "この手掛かりを軽く扱えない。神父が怪盗の正体を疑い、追跡者へ合図を残し始める。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "奇妙さには目的がある。誰が、何から目をそらしたかった？"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "利益だけでなく、時間を稼ぐ必要があった者も考えよう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「物証と人間心理を結び、悪人の中の良心まで読むこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "沈黙したもの、動かなかったものも証言になる。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "その消極的な証拠を、ほかの事実と結び直してみよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "神父が怪盗の正体を疑い、追跡者へ合図を残し始める。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "tanurio"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elf",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "菓子店で値札が入れ替わり、店主が道順を覚えている。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elf",
+      "text": "この手掛かりを軽く扱えない。菓子店で値札が入れ替わり、店主が道順を覚えている。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elf",
+      "text": "印象を捨てよう。残った事実だけを、順番に並べる。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "事実は小さいほど見落とされる。位置と時刻を確かめよう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「物証と人間心理を結び、悪人の中の良心まで読むこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elf",
+      "text": "説明できない一点こそ、事件の中心かもしれない。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "仮説は証拠に従わせる。証拠を仮説へ曲げてはならない。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elf",
+      "text": "菓子店で値札が入れ替わり、店主が道順を覚えている。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elf"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "show",
+      "actor": "tanurio",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "怪盗が奇妙な行動の理由を問い、神父が無邪気にかわす。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "この手掛かりを軽く扱えない。怪盗が奇妙な行動の理由を問い、神父が無邪気にかわす。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "奇妙さには目的がある。誰が、何から目をそらしたかった？"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "利益だけでなく、時間を稼ぐ必要があった者も考えよう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「物証と人間心理を結び、悪人の中の良心まで読むこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "沈黙したもの、動かなかったものも証言になる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "その消極的な証拠を、ほかの事実と結び直してみよう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "怪盗が奇妙な行動の理由を問い、神父が無邪気にかわす。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "tanurio"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "bg",
+      "src": "shops",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "shops"
+    },
+    {
+      "op": "nar",
+      "text": "割れ窓と果物籠が続く商店街"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_villager",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "割れた窓と飛び散ったスープを一本の進路に結ぶ。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "この手掛かりを軽く扱えない。割れた窓と飛び散ったスープを一本の進路に結ぶ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "印象を捨てよう。残った事実だけを、順番に並べる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "事実は小さいほど見落とされる。位置と時刻を確かめよう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「物証と人間心理を結び、悪人の中の良心まで読むこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "説明できない一点こそ、事件の中心かもしれない。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "仮説は証拠に従わせる。証拠を仮説へ曲げてはならない。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "割れた窓と飛び散ったスープを一本の進路に結ぶ。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_villager"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "tanurio",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "神父が十字架の包みを別の小包とすでに交換したと匂わせる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "この手掛かりを軽く扱えない。神父が十字架の包みを別の小包とすでに交換したと匂わせる。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "奇妙さには目的がある。誰が、何から目をそらしたかった？"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "利益だけでなく、時間を稼ぐ必要があった者も考えよう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「物証と人間心理を結び、悪人の中の良心まで読むこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "沈黙したもの、動かなかったものも証言になる。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "その消極的な証拠を、ほかの事実と結び直してみよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "神父が十字架の包みを別の小包とすでに交換したと匂わせる。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "tanurio"
+    },
+    {
+      "op": "show",
+      "actor": "tanurio",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "荒野で怪盗が正体を現し、宝を渡すよう迫る。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "この手掛かりを軽く扱えない。荒野で怪盗が正体を現し、宝を渡すよう迫る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "印象を捨てよう。残った事実だけを、順番に並べる。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "事実は小さいほど見落とされる。位置と時刻を確かめよう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「物証と人間心理を結び、悪人の中の良心まで読むこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "説明できない一点こそ、事件の中心かもしれない。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "仮説は証拠に従わせる。証拠を仮説へ曲げてはならない。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "荒野で怪盗が正体を現し、宝を渡すよう迫る。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "hide",
+      "actor": "tanurio"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "bg",
+      "src": "heath",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "heath"
+    },
+    {
+      "op": "nar",
+      "text": "夕暮れのハムステッド荒野"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "tanurio",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "神父が罪の告白を長く聞いた経験から偽司祭を見抜いたと話す。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "この手掛かりを軽く扱えない。神父が罪の告白を長く聞いた経験から偽司祭を見抜いたと話す。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "奇妙さには目的がある。誰が、何から目をそらしたかった？"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "利益だけでなく、時間を稼ぐ必要があった者も考えよう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「物証と人間心理を結び、悪人の中の良心まで読むこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "沈黙したもの、動かなかったものも証言になる。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "その消極的な証拠を、ほかの事実と結び直してみよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "神父が罪の告白を長く聞いた経験から偽司祭を見抜いたと話す。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "tanurio"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_villager",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "刑事たちが残された痕跡をたどって木立へ迫る。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "この手掛かりを軽く扱えない。刑事たちが残された痕跡をたどって木立へ迫る。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "印象を捨てよう。残った事実だけを、順番に並べる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "事実は小さいほど見落とされる。位置と時刻を確かめよう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「物証と人間心理を結び、悪人の中の良心まで読むこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "説明できない一点こそ、事件の中心かもしれない。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "仮説は証拠に従わせる。証拠を仮説へ曲げてはならない。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "刑事たちが残された痕跡をたどって木立へ迫る。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_villager"
+    },
+    {
+      "op": "show",
+      "actor": "tanurio",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "怪盗が包みを開け、中身がただの紙だと知る。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "この手掛かりを軽く扱えない。怪盗が包みを開け、中身がただの紙だと知る。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "奇妙さには目的がある。誰が、何から目をそらしたかった？"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "利益だけでなく、時間を稼ぐ必要があった者も考えよう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「物証と人間心理を結び、悪人の中の良心まで読むこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "沈黙したもの、動かなかったものも証言になる。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "その消極的な証拠を、ほかの事実と結び直してみよう。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "怪盗が包みを開け、中身がただの紙だと知る。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "tanurio"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "bg",
+      "src": "bench",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "bench"
+    },
+    {
+      "op": "nar",
+      "text": "木立の奥の静かなベンチ"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "tanurio",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "神父が勝ち誇らず、盗みをやめる道はまだあると告げる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "この手掛かりを軽く扱えない。神父が勝ち誇らず、盗みをやめる道はまだあると告げる。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "印象を捨てよう。残った事実だけを、順番に並べる。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "事実は小さいほど見落とされる。位置と時刻を確かめよう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「物証と人間心理を結び、悪人の中の良心まで読むこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "説明できない一点こそ、事件の中心かもしれない。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "仮説は証拠に従わせる。証拠を仮説へ曲げてはならない。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "神父が勝ち誇らず、盗みをやめる道はまだあると告げる。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "tanurio"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "tanurio",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "ヴァランタンが怪盗を逮捕し、神父の推理へ敬意を示す。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "この手掛かりを軽く扱えない。ヴァランタンが怪盗を逮捕し、神父の推理へ敬意を示す。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "奇妙さには目的がある。誰が、何から目をそらしたかった？"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "利益だけでなく、時間を稼ぐ必要があった者も考えよう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「物証と人間心理を結び、悪人の中の良心まで読むこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "沈黙したもの、動かなかったものも証言になる。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "その消極的な証拠を、ほかの事実と結び直してみよう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "ヴァランタンが怪盗を逮捕し、神父の推理へ敬意を示す。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "hide",
+      "actor": "tanurio"
+    },
+    {
+      "op": "show",
+      "actor": "tanurio",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "フランボウが自分の良心を読まれたことに初めて言葉を失う。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "この手掛かりを軽く扱えない。フランボウが自分の良心を読まれたことに初めて言葉を失う。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "印象を捨てよう。残った事実だけを、順番に並べる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "事実は小さいほど見落とされる。位置と時刻を確かめよう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「物証と人間心理を結び、悪人の中の良心まで読むこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "説明できない一点こそ、事件の中心かもしれない。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "仮説は証拠に従わせる。証拠を仮説へ曲げてはならない。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "フランボウが自分の良心を読まれたことに初めて言葉を失う。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "hide",
+      "actor": "tanurio"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "bg",
+      "src": "bench"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "フランボウは捕らえられるが、ブラウン神父は彼の良心へ語りかける。推理は勝利でなく、戻る道を残した。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "長い旅の果てに残ったのは、「物証と人間心理を結び、悪人の中の良心まで読むこと」という問いでした。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "答えは一つではありません。けれど、登場人物たちの選択は消えません。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "『青い十字架 ―小さな違和感の道―』、これにて終幕。ありがとうございました。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

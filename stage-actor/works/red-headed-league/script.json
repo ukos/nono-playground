@@ -1,0 +1,1235 @@
+{
+  "meta": {
+    "id": "red-headed-league",
+    "title": "赤毛組合 ―奇妙な求人―",
+    "original": "Arthur Conan Doyle, The Red-Headed League（原作著作権消滅）",
+    "adaptation": "moderate",
+    "format": "v3",
+    "minutes": 32,
+    "synopsis": "質屋の主人ウィルソンは、助手に勧められ赤毛組合で百科事典を書き写す。突然組合が解散し、ホームズが調べると、助手は店主を留守にして地下から銀行へ抜けるため奇妙な職を仕組んでいた。",
+    "note": "本脚本は翻案であり、原作・現代訳の文章の転載ではない。セリフはすべて本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "ウィルソン",
+      "actor": "rei_casual",
+      "costume": "default"
+    },
+    {
+      "role": "ホームズ",
+      "actor": "shiro",
+      "costume": "default"
+    },
+    {
+      "role": "ワトソン",
+      "actor": "nono_whitecat",
+      "costume": "default"
+    },
+    {
+      "role": "助手スポールディング／クレイ",
+      "actor": "nibulus",
+      "costume": "default"
+    },
+    {
+      "role": "銀行支配人",
+      "actor": "extra_elder",
+      "costume": "default"
+    },
+    {
+      "role": "警部",
+      "actor": "kurogane",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "shop": "bg/pawnshop-2048x1152.png",
+    "league": "bg/league-office-2048x1152.png",
+    "street": "bg/saxe-coburg-street-2048x1152.png",
+    "cellar": "bg/pawnshop-cellar-2048x1152.png",
+    "vault": "bg/bank-vault-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『赤毛組合 ―奇妙な求人―』。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "赤毛だけを雇う高給の写字仕事。笑い話のような求人は、銀行へ掘るトンネルの煙幕でした。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "今夜の核は「目立つ奇事の裏で、誰が時間と場所を得たかを見ること」。急がず、長い物語としてお届けします。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "それでは開幕。役者たちの声と、場面の移ろいをお楽しみください。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "shop",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "shop"
+    },
+    {
+      "op": "nar",
+      "text": "ロンドンの小さな質屋"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "ウィルソンが赤毛組合の高給求人と採用試験を語る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "この手掛かりを軽く扱えない。ウィルソンが赤毛組合の高給求人と採用試験を語る。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "印象を捨てよう。残った事実だけを、順番に並べる。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "事実は小さいほど見落とされる。位置と時刻を確かめよう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「目立つ奇事の裏で、誰が時間と場所を得たかを見ること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "説明できない一点こそ、事件の中心かもしれない。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "仮説は証拠に従わせる。証拠を仮説へ曲げてはならない。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "ウィルソンが赤毛組合の高給求人と採用試験を語る。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "show",
+      "actor": "nibulus",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "助手が店を任せられるから応募すべきだと強く勧める。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "この手掛かりを軽く扱えない。助手が店を任せられるから応募すべきだと強く勧める。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "奇妙さには目的がある。誰が、何から目をそらしたかった？",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "利益だけでなく、時間を稼ぐ必要があった者も考えよう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「目立つ奇事の裏で、誰が時間と場所を得たかを見ること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "沈黙したもの、動かなかったものも証言になる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "その消極的な証拠を、ほかの事実と結び直してみよう。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "助手が店を任せられるから応募すべきだと強く勧める。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "nibulus"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "nono_whitecat",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "毎日四時間、事務所で百科事典を書き写したと説明する。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "この手掛かりを軽く扱えない。毎日四時間、事務所で百科事典を書き写したと説明する。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "印象を捨てよう。残った事実だけを、順番に並べる。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "事実は小さいほど見落とされる。位置と時刻を確かめよう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「目立つ奇事の裏で、誰が時間と場所を得たかを見ること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "説明できない一点こそ、事件の中心かもしれない。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "仮説は証拠に従わせる。証拠を仮説へ曲げてはならない。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "毎日四時間、事務所で百科事典を書き写したと説明する。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "nono_whitecat"
+    },
+    {
+      "op": "bg",
+      "src": "league",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "league"
+    },
+    {
+      "op": "nar",
+      "text": "机と辞書だけの赤毛組合事務所"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "ある朝に組合が突然解散し、事務所が空になったと聞く。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "この手掛かりを軽く扱えない。ある朝に組合が突然解散し、事務所が空になったと聞く。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "奇妙さには目的がある。誰が、何から目をそらしたかった？"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "利益だけでなく、時間を稼ぐ必要があった者も考えよう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「目立つ奇事の裏で、誰が時間と場所を得たかを見ること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "沈黙したもの、動かなかったものも証言になる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "その消極的な証拠を、ほかの事実と結び直してみよう。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "ある朝に組合が突然解散し、事務所が空になったと聞く。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "nibulus",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "助手の膝が汚れ、写真現像を口実に地下へ降りる癖を見る。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "この手掛かりを軽く扱えない。助手の膝が汚れ、写真現像を口実に地下へ降りる癖を見る。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "印象を捨てよう。残った事実だけを、順番に並べる。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "事実は小さいほど見落とされる。位置と時刻を確かめよう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「目立つ奇事の裏で、誰が時間と場所を得たかを見ること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "説明できない一点こそ、事件の中心かもしれない。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "仮説は証拠に従わせる。証拠を仮説へ曲げてはならない。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "助手の膝が汚れ、写真現像を口実に地下へ降りる癖を見る。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "hide",
+      "actor": "nibulus"
+    },
+    {
+      "op": "show",
+      "actor": "nono_whitecat",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "舗道を杖で叩き、地下空間の方向を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "この手掛かりを軽く扱えない。舗道を杖で叩き、地下空間の方向を確かめる。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "奇妙さには目的がある。誰が、何から目をそらしたかった？"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "利益だけでなく、時間を稼ぐ必要があった者も考えよう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「目立つ奇事の裏で、誰が時間と場所を得たかを見ること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "沈黙したもの、動かなかったものも証言になる。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "その消極的な証拠を、ほかの事実と結び直してみよう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "舗道を杖で叩き、地下空間の方向を確かめる。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono_whitecat"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "bg",
+      "src": "street",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "street"
+    },
+    {
+      "op": "nar",
+      "text": "舗道と店舗が並ぶ街路"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "質屋の裏手が大銀行へ接している地理を確認する。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "この手掛かりを軽く扱えない。質屋の裏手が大銀行へ接している地理を確認する。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "印象を捨てよう。残った事実だけを、順番に並べる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "事実は小さいほど見落とされる。位置と時刻を確かめよう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「目立つ奇事の裏で、誰が時間と場所を得たかを見ること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "説明できない一点こそ、事件の中心かもしれない。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "仮説は証拠に従わせる。証拠を仮説へ曲げてはならない。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "質屋の裏手が大銀行へ接している地理を確認する。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "surprise",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "銀行にフランス金貨が保管される週末だと判明する。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "この手掛かりを軽く扱えない。銀行にフランス金貨が保管される週末だと判明する。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "奇妙さには目的がある。誰が、何から目をそらしたかった？"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "利益だけでなく、時間を稼ぐ必要があった者も考えよう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「目立つ奇事の裏で、誰が時間と場所を得たかを見ること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "沈黙したもの、動かなかったものも証言になる。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "その消極的な証拠を、ほかの事実と結び直してみよう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "銀行にフランス金貨が保管される週末だと判明する。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "nono_whitecat",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "奇妙な求人は店主を定時に追い出す装置だったと整理する。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "この手掛かりを軽く扱えない。奇妙な求人は店主を定時に追い出す装置だったと整理する。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "印象を捨てよう。残った事実だけを、順番に並べる。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "事実は小さいほど見落とされる。位置と時刻を確かめよう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「目立つ奇事の裏で、誰が時間と場所を得たかを見ること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "説明できない一点こそ、事件の中心かもしれない。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "仮説は証拠に従わせる。証拠を仮説へ曲げてはならない。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "奇妙な求人は店主を定時に追い出す装置だったと整理する。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "hide",
+      "actor": "nono_whitecat"
+    },
+    {
+      "op": "bg",
+      "src": "cellar",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "cellar"
+    },
+    {
+      "op": "nar",
+      "text": "掘り跡のある暗い地下室"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "警部と銀行支配人を集め、地下金庫で待ち伏せる。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "この手掛かりを軽く扱えない。警部と銀行支配人を集め、地下金庫で待ち伏せる。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "奇妙さには目的がある。誰が、何から目をそらしたかった？"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "利益だけでなく、時間を稼ぐ必要があった者も考えよう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「目立つ奇事の裏で、誰が時間と場所を得たかを見ること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "沈黙したもの、動かなかったものも証言になる。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "その消極的な証拠を、ほかの事実と結び直してみよう。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "警部と銀行支配人を集め、地下金庫で待ち伏せる。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "show",
+      "actor": "nibulus",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "クレイが店主不在の時間に壁を掘り続けた経緯が示される。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "この手掛かりを軽く扱えない。クレイが店主不在の時間に壁を掘り続けた経緯が示される。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "印象を捨てよう。残った事実だけを、順番に並べる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "事実は小さいほど見落とされる。位置と時刻を確かめよう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「目立つ奇事の裏で、誰が時間と場所を得たかを見ること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "説明できない一点こそ、事件の中心かもしれない。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "仮説は証拠に従わせる。証拠を仮説へ曲げてはならない。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "クレイが店主不在の時間に壁を掘り続けた経緯が示される。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "nibulus"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "show",
+      "actor": "nibulus",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "トンネルから現れた犯人へ探偵が退路を塞ぐ。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "この手掛かりを軽く扱えない。トンネルから現れた犯人へ探偵が退路を塞ぐ。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "奇妙さには目的がある。誰が、何から目をそらしたかった？"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "利益だけでなく、時間を稼ぐ必要があった者も考えよう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「目立つ奇事の裏で、誰が時間と場所を得たかを見ること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "沈黙したもの、動かなかったものも証言になる。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "その消極的な証拠を、ほかの事実と結び直してみよう。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "トンネルから現れた犯人へ探偵が退路を塞ぐ。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "nibulus"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "bg",
+      "src": "vault",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "vault"
+    },
+    {
+      "op": "nar",
+      "text": "金貨箱を積んだ銀行地下金庫"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "nibulus",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "身分を誇るクレイへ、犯罪の事実で逮捕を告げる。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "この手掛かりを軽く扱えない。身分を誇るクレイへ、犯罪の事実で逮捕を告げる。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "印象を捨てよう。残った事実だけを、順番に並べる。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "事実は小さいほど見落とされる。位置と時刻を確かめよう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「目立つ奇事の裏で、誰が時間と場所を得たかを見ること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "説明できない一点こそ、事件の中心かもしれない。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "仮説は証拠に従わせる。証拠を仮説へ曲げてはならない。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "身分を誇るクレイへ、犯罪の事実で逮捕を告げる。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "hide",
+      "actor": "nibulus"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "ウィルソンが自分の赤毛まで犯罪計画へ使われたと知る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "この手掛かりを軽く扱えない。ウィルソンが自分の赤毛まで犯罪計画へ使われたと知る。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "奇妙さには目的がある。誰が、何から目をそらしたかった？"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "利益だけでなく、時間を稼ぐ必要があった者も考えよう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「目立つ奇事の裏で、誰が時間と場所を得たかを見ること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "沈黙したもの、動かなかったものも証言になる。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "その消極的な証拠を、ほかの事実と結び直してみよう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "ウィルソンが自分の赤毛まで犯罪計画へ使われたと知る。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "nono_whitecat",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "派手な謎ほど、犯人が隠したい地味な目的へ目を向ける。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "この手掛かりを軽く扱えない。派手な謎ほど、犯人が隠したい地味な目的へ目を向ける。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "印象を捨てよう。残った事実だけを、順番に並べる。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "事実は小さいほど見落とされる。位置と時刻を確かめよう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「目立つ奇事の裏で、誰が時間と場所を得たかを見ること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "説明できない一点こそ、事件の中心かもしれない。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "仮説は証拠に従わせる。証拠を仮説へ曲げてはならない。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "派手な謎ほど、犯人が隠したい地味な目的へ目を向ける。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "hide",
+      "actor": "nono_whitecat"
+    },
+    {
+      "op": "bg",
+      "src": "vault"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "地下金庫で待ち伏せた探偵は、犯罪者ジョン・クレイを捕らえる。奇妙さは目的から逆算され、喜劇が犯罪劇へ反転した。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "長い旅の果てに残ったのは、「目立つ奇事の裏で、誰が時間と場所を得たかを見ること」という問いでした。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "答えは一つではありません。けれど、登場人物たちの選択は消えません。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "『赤毛組合 ―奇妙な求人―』、これにて終幕。ありがとうございました。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

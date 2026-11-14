@@ -1,0 +1,1193 @@
+{
+  "meta": {
+    "id": "ainu-sea-god",
+    "title": "海の神「アトイカ トマトマキ クントテアシ フム フム！」",
+    "original": "知里幸惠編訳『アイヌ神謡集』所収（古典神謡）",
+    "adaptation": "faithful",
+    "format": "v3",
+    "minutes": 38,
+    "synopsis": "海の神は兄姉の不漁を見て、親子鯨を一矢で射る。一頭半を飢えるオタシュツ村へ打ち上げる。海のごめが人間を悪く告げるが、村人は神剣で肉を分け、礼の酒とイナウを送る。",
+    "note": "知里幸惠編訳『アイヌ神謡集』（1923年、著作権消滅）所収神謡の出来事・順序・語り手・結末を改変していない。台詞は制作ガイドに従い本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "海の神",
+      "actor": "mizuchi",
+      "costume": "default"
+    },
+    {
+      "role": "長い兄",
+      "actor": "hayate",
+      "costume": "default"
+    },
+    {
+      "role": "長い姉",
+      "actor": "rei_casual",
+      "costume": "default"
+    },
+    {
+      "role": "海のごめ",
+      "actor": "kogane",
+      "costume": "default"
+    },
+    {
+      "role": "オタシュツ村長",
+      "actor": "extra_elder",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "house": "bg/ainu-sea-god-house-2048x1152.png",
+    "hunt": "bg/whale-hunt-sea-2048x1152.png",
+    "village": "bg/otashut-whale-shore-2048x1152.png",
+    "offering": "bg/ainu-sake-offering-window-2048x1152.png",
+    "banquet": "bg/ainu-gods-banquet-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『海の神「アトイカ トマトマキ クントテアシ フム フム！」』。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "兄姉たちが何日も得られない鯨を、海の神は一矢で射て飢えた村へ届けます。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "今夜の核は「海幸を人へ分ける慈悲と、感謝を正しく見届けること」。急がず、長い物語としてお届けします。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "それでは開幕。役者たちの声と、場面の移ろいをお楽しみください。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "house",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "house"
+    },
+    {
+      "op": "nar",
+      "text": "宝物と彫刻道具のある海神の家"
+    },
+    {
+      "op": "show",
+      "actor": "mizuchi",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "hayate",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "海の神が家で鞘を彫り、兄姉たちが毎朝狩りへ出る。"
+    },
+    {
+      "op": "say",
+      "actor": "mizuchi",
+      "text": "私はこの出来事を見届けた。海の神が家で鞘を彫り、兄姉たちが毎朝狩りへ出る。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "mizuchi",
+      "text": "見えたことを、そのまま順に語ろう。歌の道を変えないために。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "出来事の姿を飾らず、聞いた響きを次の言葉へ渡そう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「海幸を人へ分ける慈悲と、感謝を正しく見届けること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "mizuchi",
+      "text": "人とカムイと大地の間に起きたことを、丁寧にたどる。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "急がずに進もう。同じ響きが戻るたび、意味も深くなる。"
+    },
+    {
+      "op": "say",
+      "actor": "mizuchi",
+      "text": "海の神が家で鞘を彫り、兄姉たちが毎朝狩りへ出る。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "mizuchi"
+    },
+    {
+      "op": "hide",
+      "actor": "hayate"
+    },
+    {
+      "op": "show",
+      "actor": "hayate",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "兄姉たちが夕方に何も得ず疲れて帰り、翌日も出る。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "私はこの出来事を見届けた。兄姉たちが夕方に何も得ず疲れて帰り、翌日も出る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "水の音、風の向き、火の明るさまで、この物語の一部だ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "誰が語っているのかを忘れず、その目から世界を見よう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「海幸を人へ分ける慈悲と、感謝を正しく見届けること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "喜びも怒りも、語り手が経験した順序のまま受け取る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "そして結末を変えずに届ける。それが今夜の務めだ。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "兄姉たちが夕方に何も得ず疲れて帰り、翌日も出る。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "hayate"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "show",
+      "actor": "mizuchi",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "海の神が外へ出て、兄姉が鯨を囲んでも矢を外すのを見る。"
+    },
+    {
+      "op": "say",
+      "actor": "mizuchi",
+      "text": "私はこの出来事を見届けた。海の神が外へ出て、兄姉が鯨を囲んでも矢を外すのを見る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "mizuchi",
+      "text": "見えたことを、そのまま順に語ろう。歌の道を変えないために。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "出来事の姿を飾らず、聞いた響きを次の言葉へ渡そう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「海幸を人へ分ける慈悲と、感謝を正しく見届けること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "mizuchi",
+      "text": "人とカムイと大地の間に起きたことを、丁寧にたどる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "急がずに進もう。同じ響きが戻るたび、意味も深くなる。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "mizuchi",
+      "text": "海の神が外へ出て、兄姉が鯨を囲んでも矢を外すのを見る。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "mizuchi"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "bg",
+      "src": "hunt",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "hunt"
+    },
+    {
+      "op": "nar",
+      "text": "兄姉が輪を作る広い海"
+    },
+    {
+      "op": "show",
+      "actor": "mizuchi",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "hayate",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "海の神が親子鯨を金の小弓の一矢で射抜く。"
+    },
+    {
+      "op": "say",
+      "actor": "mizuchi",
+      "text": "私はこの出来事を見届けた。海の神が親子鯨を金の小弓の一矢で射抜く。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "mizuchi",
+      "text": "水の音、風の向き、火の明るさまで、この物語の一部だ。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "誰が語っているのかを忘れず、その目から世界を見よう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「海幸を人へ分ける慈悲と、感謝を正しく見届けること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "mizuchi",
+      "text": "喜びも怒りも、語り手が経験した順序のまま受け取る。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "そして結末を変えずに届ける。それが今夜の務めだ。"
+    },
+    {
+      "op": "say",
+      "actor": "mizuchi",
+      "text": "海の神が親子鯨を金の小弓の一矢で射抜く。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "mizuchi"
+    },
+    {
+      "op": "hide",
+      "actor": "hayate"
+    },
+    {
+      "op": "show",
+      "actor": "mizuchi",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "鯨の半分を兄姉の輪へ、一頭半を尾の下へ入れる。"
+    },
+    {
+      "op": "say",
+      "actor": "mizuchi",
+      "text": "私はこの出来事を見届けた。鯨の半分を兄姉の輪へ、一頭半を尾の下へ入れる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "mizuchi",
+      "text": "見えたことを、そのまま順に語ろう。歌の道を変えないために。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "出来事の姿を飾らず、聞いた響きを次の言葉へ渡そう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「海幸を人へ分ける慈悲と、感謝を正しく見届けること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "mizuchi",
+      "text": "人とカムイと大地の間に起きたことを、丁寧にたどる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "急がずに進もう。同じ響きが戻るたび、意味も深くなる。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "mizuchi",
+      "text": "鯨の半分を兄姉の輪へ、一頭半を尾の下へ入れる。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "mizuchi"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "show",
+      "actor": "mizuchi",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "一頭半を飢えたオタシュツ村の浜へ押し上げる。"
+    },
+    {
+      "op": "say",
+      "actor": "mizuchi",
+      "text": "私はこの出来事を見届けた。一頭半を飢えたオタシュツ村の浜へ押し上げる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "mizuchi",
+      "text": "水の音、風の向き、火の明るさまで、この物語の一部だ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "誰が語っているのかを忘れず、その目から世界を見よう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「海幸を人へ分ける慈悲と、感謝を正しく見届けること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "mizuchi",
+      "text": "喜びも怒りも、語り手が経験した順序のまま受け取る。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "そして結末を変えずに届ける。それが今夜の務めだ。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "mizuchi",
+      "text": "一頭半を飢えたオタシュツ村の浜へ押し上げる。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "mizuchi"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "bg",
+      "src": "village",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "village"
+    },
+    {
+      "op": "nar",
+      "text": "鯨が打ち上がるオタシュツの浜"
+    },
+    {
+      "op": "show",
+      "actor": "kogane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "mizuchi",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "海のごめが人間は斧や鎌で鯨を傷つけると中傷する。"
+    },
+    {
+      "op": "say",
+      "actor": "kogane",
+      "text": "私はこの出来事を見届けた。海のごめが人間は斧や鎌で鯨を傷つけると中傷する。"
+    },
+    {
+      "op": "say",
+      "actor": "mizuchi",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "kogane",
+      "text": "見えたことを、そのまま順に語ろう。歌の道を変えないために。"
+    },
+    {
+      "op": "say",
+      "actor": "mizuchi",
+      "text": "出来事の姿を飾らず、聞いた響きを次の言葉へ渡そう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「海幸を人へ分ける慈悲と、感謝を正しく見届けること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "kogane",
+      "text": "人とカムイと大地の間に起きたことを、丁寧にたどる。"
+    },
+    {
+      "op": "say",
+      "actor": "mizuchi",
+      "text": "急がずに進もう。同じ響きが戻るたび、意味も深くなる。"
+    },
+    {
+      "op": "say",
+      "actor": "kogane",
+      "text": "海のごめが人間は斧や鎌で鯨を傷つけると中傷する。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "mizuchi",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "kogane"
+    },
+    {
+      "op": "hide",
+      "actor": "mizuchi"
+    },
+    {
+      "op": "show",
+      "actor": "mizuchi",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kogane",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "海の神が贈った物は人間の物で、自由に食べてよいと答える。"
+    },
+    {
+      "op": "say",
+      "actor": "mizuchi",
+      "text": "私はこの出来事を見届けた。海の神が贈った物は人間の物で、自由に食べてよいと答える。"
+    },
+    {
+      "op": "say",
+      "actor": "kogane",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "mizuchi",
+      "text": "水の音、風の向き、火の明るさまで、この物語の一部だ。"
+    },
+    {
+      "op": "say",
+      "actor": "kogane",
+      "text": "誰が語っているのかを忘れず、その目から世界を見よう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「海幸を人へ分ける慈悲と、感謝を正しく見届けること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "mizuchi",
+      "text": "喜びも怒りも、語り手が経験した順序のまま受け取る。"
+    },
+    {
+      "op": "say",
+      "actor": "kogane",
+      "text": "そして結末を変えずに届ける。それが今夜の務めだ。"
+    },
+    {
+      "op": "say",
+      "actor": "mizuchi",
+      "text": "海の神が贈った物は人間の物で、自由に食べてよいと答える。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "kogane",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "mizuchi"
+    },
+    {
+      "op": "hide",
+      "actor": "kogane"
+    },
+    {
+      "op": "show",
+      "actor": "mizuchi",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "村人が盛装して喜び、村長が神剣で肉を分ける姿を見る。"
+    },
+    {
+      "op": "say",
+      "actor": "mizuchi",
+      "text": "私はこの出来事を見届けた。村人が盛装して喜び、村長が神剣で肉を分ける姿を見る。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "mizuchi",
+      "text": "見えたことを、そのまま順に語ろう。歌の道を変えないために。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "出来事の姿を飾らず、聞いた響きを次の言葉へ渡そう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「海幸を人へ分ける慈悲と、感謝を正しく見届けること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "mizuchi",
+      "text": "人とカムイと大地の間に起きたことを、丁寧にたどる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "急がずに進もう。同じ響きが戻るたび、意味も深くなる。"
+    },
+    {
+      "op": "say",
+      "actor": "mizuchi",
+      "text": "村人が盛装して喜び、村長が神剣で肉を分ける姿を見る。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "hide",
+      "actor": "mizuchi"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "bg",
+      "src": "offering",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "offering"
+    },
+    {
+      "op": "nar",
+      "text": "酒杯と幣つき酒箸が来る東窓"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "mizuchi",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "村長が礼の酒、イナウ、幣つき酒箸を海の神へ送る。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "私はこの出来事を見届けた。村長が礼の酒、イナウ、幣つき酒箸を海の神へ送る。"
+    },
+    {
+      "op": "say",
+      "actor": "mizuchi",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "水の音、風の向き、火の明るさまで、この物語の一部だ。"
+    },
+    {
+      "op": "say",
+      "actor": "mizuchi",
+      "text": "誰が語っているのかを忘れず、その目から世界を見よう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「海幸を人へ分ける慈悲と、感謝を正しく見届けること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "喜びも怒りも、語り手が経験した順序のまま受け取る。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "mizuchi",
+      "text": "そして結末を変えずに届ける。それが今夜の務めだ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "村長が礼の酒、イナウ、幣つき酒箸を海の神へ送る。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "mizuchi",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "hide",
+      "actor": "mizuchi"
+    },
+    {
+      "op": "show",
+      "actor": "mizuchi",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "海の神が酒杯を押しいただき、酒樽へ分けて返礼する。"
+    },
+    {
+      "op": "say",
+      "actor": "mizuchi",
+      "text": "私はこの出来事を見届けた。海の神が酒杯を押しいただき、酒樽へ分けて返礼する。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "mizuchi",
+      "text": "見えたことを、そのまま順に語ろう。歌の道を変えないために。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "出来事の姿を飾らず、聞いた響きを次の言葉へ渡そう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「海幸を人へ分ける慈悲と、感謝を正しく見届けること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "mizuchi",
+      "text": "人とカムイと大地の間に起きたことを、丁寧にたどる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "急がずに進もう。同じ響きが戻るたび、意味も深くなる。"
+    },
+    {
+      "op": "say",
+      "actor": "mizuchi",
+      "text": "海の神が酒杯を押しいただき、酒樽へ分けて返礼する。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "mizuchi"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "show",
+      "actor": "mizuchi",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "家が美しいイナウと白い光で満たされる。"
+    },
+    {
+      "op": "say",
+      "actor": "mizuchi",
+      "text": "私はこの出来事を見届けた。家が美しいイナウと白い光で満たされる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "mizuchi",
+      "text": "水の音、風の向き、火の明るさまで、この物語の一部だ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "誰が語っているのかを忘れず、その目から世界を見よう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「海幸を人へ分ける慈悲と、感謝を正しく見届けること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "mizuchi",
+      "text": "喜びも怒りも、語り手が経験した順序のまま受け取る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "そして結末を変えずに届ける。それが今夜の務めだ。"
+    },
+    {
+      "op": "say",
+      "actor": "mizuchi",
+      "text": "家が美しいイナウと白い光で満たされる。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "mizuchi"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "bg",
+      "src": "banquet",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "banquet"
+    },
+    {
+      "op": "nar",
+      "text": "イナウと酒樽に満ちた神々の宴"
+    },
+    {
+      "op": "show",
+      "actor": "hayate",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "兄姉たちが半頭の鯨をようやく運び帰り、イナウへ驚く。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "私はこの出来事を見届けた。兄姉たちが半頭の鯨をようやく運び帰り、イナウへ驚く。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "見えたことを、そのまま順に語ろう。歌の道を変えないために。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "出来事の姿を飾らず、聞いた響きを次の言葉へ渡そう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「海幸を人へ分ける慈悲と、感謝を正しく見届けること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "人とカムイと大地の間に起きたことを、丁寧にたどる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "急がずに進もう。同じ響きが戻るたび、意味も深くなる。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "兄姉たちが半頭の鯨をようやく運び帰り、イナウへ驚く。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "hayate"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "show",
+      "actor": "mizuchi",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "hayate",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "海の神が遠近の神々を招き、鯨を煮て宴を開く。"
+    },
+    {
+      "op": "say",
+      "actor": "mizuchi",
+      "text": "私はこの出来事を見届けた。海の神が遠近の神々を招き、鯨を煮て宴を開く。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "mizuchi",
+      "text": "水の音、風の向き、火の明るさまで、この物語の一部だ。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "誰が語っているのかを忘れず、その目から世界を見よう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「海幸を人へ分ける慈悲と、感謝を正しく見届けること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "mizuchi",
+      "text": "喜びも怒りも、語り手が経験した順序のまま受け取る。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "そして結末を変えずに届ける。それが今夜の務めだ。"
+    },
+    {
+      "op": "say",
+      "actor": "mizuchi",
+      "text": "海の神が遠近の神々を招き、鯨を煮て宴を開く。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "mizuchi"
+    },
+    {
+      "op": "hide",
+      "actor": "hayate"
+    },
+    {
+      "op": "show",
+      "actor": "mizuchi",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kogane",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "人間の飢饉、贈与、ごめの中傷、村の感謝を神々へ語る。"
+    },
+    {
+      "op": "say",
+      "actor": "mizuchi",
+      "text": "私はこの出来事を見届けた。人間の飢饉、贈与、ごめの中傷、村の感謝を神々へ語る。"
+    },
+    {
+      "op": "say",
+      "actor": "kogane",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "mizuchi",
+      "text": "見えたことを、そのまま順に語ろう。歌の道を変えないために。"
+    },
+    {
+      "op": "say",
+      "actor": "kogane",
+      "text": "出来事の姿を飾らず、聞いた響きを次の言葉へ渡そう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「海幸を人へ分ける慈悲と、感謝を正しく見届けること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "mizuchi",
+      "text": "人とカムイと大地の間に起きたことを、丁寧にたどる。"
+    },
+    {
+      "op": "say",
+      "actor": "kogane",
+      "text": "急がずに進もう。同じ響きが戻るたび、意味も深くなる。"
+    },
+    {
+      "op": "say",
+      "actor": "mizuchi",
+      "text": "人間の飢饉、贈与、ごめの中傷、村の感謝を神々へ語る。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "kogane",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "mizuchi"
+    },
+    {
+      "op": "hide",
+      "actor": "kogane"
+    },
+    {
+      "op": "bg",
+      "src": "banquet"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "海の神は人間の感謝を受け、神々を宴へ招いて経緯を語る。兄姉たちと共に暮らし続けた。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "長い旅の果てに残ったのは、「海幸を人へ分ける慈悲と、感謝を正しく見届けること」という問いでした。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "答えは一つではありません。けれど、登場人物たちの選択は消えません。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "『海の神「アトイカ トマトマキ クントテアシ フム フム！」』、これにて終幕。ありがとうございました。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

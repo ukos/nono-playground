@@ -1,0 +1,1220 @@
+{
+  "meta": {
+    "id": "island-doctor-moreau",
+    "title": "モロー博士の島 ―法を唱える獣たち―",
+    "original": "H. G. Wells, The Island of Doctor Moreau（原典著作権消滅）",
+    "adaptation": "moderate",
+    "format": "v3",
+    "minutes": 44,
+    "synopsis": "プレンディックは漂流後、モンゴメリーと動物を積む船で島へ渡る。モローは手術で獣を人に近づけ、法の唱和で本能を抑えていた。脱走した豹人間、モローの死、法の崩壊を経て、プレンディックは筏で逃れる。",
+    "note": "H. G. Wellsの1896年英語原典から新規脚本化。Project Gutenberg掲載原典を確認し、現代訳・映像版は使用していない。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "プレンディック",
+      "actor": "rei_casual",
+      "costume": "default"
+    },
+    {
+      "role": "モロー博士",
+      "actor": "extra_wizard",
+      "costume": "default"
+    },
+    {
+      "role": "モンゴメリー",
+      "actor": "yui",
+      "costume": "default"
+    },
+    {
+      "role": "獣人の語り手",
+      "actor": "gou",
+      "costume": "default"
+    },
+    {
+      "role": "ムリング",
+      "actor": "kurogane",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "raft": "bg/moreau-raft-2048x1152.png",
+    "compound": "bg/moreau-compound-2048x1152.png",
+    "house": "bg/house-of-pain-2048x1152.png",
+    "law": "bg/beast-people-law-2048x1152.png",
+    "collapse": "bg/moreau-island-collapse-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『モロー博士の島 ―法を唱える獣たち―』。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "遭難者は孤島で、人の言葉を唱える獣たちと、彼らを作った科学者に出会います。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "今夜の核は「知識に倫理が伴わない時、進歩が他者の尊厳を壊すこと」。急がず、長い物語としてお届けします。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "それでは開幕。役者たちの声と、場面の移ろいをお楽しみください。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "raft",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "raft"
+    },
+    {
+      "op": "nar",
+      "text": "漂流者の小さな筏と熱い海"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "漂流したプレンディックがモンゴメリーの船に救われる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "この出来事から目をそらさない。漂流したプレンディックがモンゴメリーの船に救われる。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "その選び方に、その人が何を大切にするかが現れる。",
+      "eyes": "joy"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「知識に倫理が伴わない時、進歩が他者の尊厳を壊すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "ならば、言葉と行いが離れないように見届けよう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "漂流したプレンディックがモンゴメリーの船に救われる。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "檻の動物と奇妙なムリングを連れて孤島へ向かう。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "この出来事から目をそらさない。檻の動物と奇妙なムリングを連れて孤島へ向かう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「知識に倫理が伴わない時、進歩が他者の尊厳を壊すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "その一歩が、失われたものを無駄にしない道になる。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "檻の動物と奇妙なムリングを連れて孤島へ向かう。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "show",
+      "actor": "extra_wizard",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "モローが島への滞在を許しつつ実験棟を閉ざす。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "この出来事から目をそらさない。モローが島への滞在を許しつつ実験棟を閉ざす。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "その選び方に、その人が何を大切にするかが現れる。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「知識に倫理が伴わない時、進歩が他者の尊厳を壊すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "ならば、言葉と行いが離れないように見届けよう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "モローが島への滞在を許しつつ実験棟を閉ざす。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_wizard"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "bg",
+      "src": "compound",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "compound"
+    },
+    {
+      "op": "nar",
+      "text": "柵と実験棟のある孤島の施設"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "gou",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "森で人のように歩く獣を見て、島の秘密を疑う。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "この出来事から目をそらさない。森で人のように歩く獣を見て、島の秘密を疑う。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「知識に倫理が伴わない時、進歩が他者の尊厳を壊すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "その一歩が、失われたものを無駄にしない道になる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "森で人のように歩く獣を見て、島の秘密を疑う。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "gou"
+    },
+    {
+      "op": "show",
+      "actor": "extra_wizard",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "手術で動物を人に近づける研究目的を平然と語る。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "この出来事から目をそらさない。手術で動物を人に近づける研究目的を平然と語る。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "その選び方に、その人が何を大切にするかが現れる。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「知識に倫理が伴わない時、進歩が他者の尊厳を壊すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "ならば、言葉と行いが離れないように見届けよう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "手術で動物を人に近づける研究目的を平然と語る。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_wizard"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "show",
+      "actor": "gou",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "獣人たちが二足歩行や肉食禁止の法を唱える。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "この出来事から目をそらさない。獣人たちが二足歩行や肉食禁止の法を唱える。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「知識に倫理が伴わない時、進歩が他者の尊厳を壊すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "その一歩が、失われたものを無駄にしない道になる。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "獣人たちが二足歩行や肉食禁止の法を唱える。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "gou"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "bg",
+      "src": "house",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "house"
+    },
+    {
+      "op": "nar",
+      "text": "扉の奥から声が響く実験室"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_wizard",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "苦痛を知識のためと正当化するモローを拒絶する。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "この出来事から目をそらさない。苦痛を知識のためと正当化するモローを拒絶する。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "その選び方に、その人が何を大切にするかが現れる。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「知識に倫理が伴わない時、進歩が他者の尊厳を壊すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "ならば、言葉と行いが離れないように見届けよう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "苦痛を知識のためと正当化するモローを拒絶する。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_wizard"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "gou",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "豹人間が法を破り、森へ逃げる。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "この出来事から目をそらさない。豹人間が法を破り、森へ逃げる。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「知識に倫理が伴わない時、進歩が他者の尊厳を壊すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "その一歩が、失われたものを無駄にしない道になる。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "豹人間が法を破り、森へ逃げる。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "hide",
+      "actor": "gou"
+    },
+    {
+      "op": "show",
+      "actor": "extra_wizard",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "モローが追跡し、獣人の反抗で命を落とす。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "この出来事から目をそらさない。モローが追跡し、獣人の反抗で命を落とす。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "その選び方に、その人が何を大切にするかが現れる。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「知識に倫理が伴わない時、進歩が他者の尊厳を壊すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "ならば、言葉と行いが離れないように見届けよう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "モローが追跡し、獣人の反抗で命を落とす。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_wizard"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "bg",
+      "src": "law",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "law"
+    },
+    {
+      "op": "nar",
+      "text": "獣人が法を唱える谷"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "モンゴメリーが酒に逃げ、獣人との境界を失う。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "この出来事から目をそらさない。モンゴメリーが酒に逃げ、獣人との境界を失う。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「知識に倫理が伴わない時、進歩が他者の尊厳を壊すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "その一歩が、失われたものを無駄にしない道になる。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "モンゴメリーが酒に逃げ、獣人との境界を失う。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "show",
+      "actor": "gou",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "法の権威が消え、獣人たちが徐々に動物へ戻る。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "この出来事から目をそらさない。法の権威が消え、獣人たちが徐々に動物へ戻る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "その選び方に、その人が何を大切にするかが現れる。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「知識に倫理が伴わない時、進歩が他者の尊厳を壊すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "ならば、言葉と行いが離れないように見届けよう。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "法の権威が消え、獣人たちが徐々に動物へ戻る。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "gou"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "プレンディックが恐怖だけでなく共に暮らす方法を探す。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "この出来事から目をそらさない。プレンディックが恐怖だけでなく共に暮らす方法を探す。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「知識に倫理が伴わない時、進歩が他者の尊厳を壊すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "その一歩が、失われたものを無駄にしない道になる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "プレンディックが恐怖だけでなく共に暮らす方法を探す。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "bg",
+      "src": "collapse",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "collapse"
+    },
+    {
+      "op": "nar",
+      "text": "火と密林に戻る研究施設"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "gou",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "争いで船が失われ、モンゴメリーも倒れる。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "この出来事から目をそらさない。争いで船が失われ、モンゴメリーも倒れる。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "その選び方に、その人が何を大切にするかが現れる。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「知識に倫理が伴わない時、進歩が他者の尊厳を壊すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "ならば、言葉と行いが離れないように見届けよう。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "争いで船が失われ、モンゴメリーも倒れる。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "gou"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "gou",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "筏を作って島を離れ、残る獣人へ別れを告げる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "この出来事から目をそらさない。筏を作って島を離れ、残る獣人へ別れを告げる。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「知識に倫理が伴わない時、進歩が他者の尊厳を壊すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "その一歩が、失われたものを無駄にしない道になる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "筏を作って島を離れ、残る獣人へ別れを告げる。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "gou"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_wizard",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "文明社会へ戻っても人の中の獣性に怯える。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "この出来事から目をそらさない。文明社会へ戻っても人の中の獣性に怯える。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "その選び方に、その人が何を大切にするかが現れる。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「知識に倫理が伴わない時、進歩が他者の尊厳を壊すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "ならば、言葉と行いが離れないように見届けよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "文明社会へ戻っても人の中の獣性に怯える。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_wizard"
+    },
+    {
+      "op": "bg",
+      "src": "collapse"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "文明へ戻っても人々の顔に獣性を見て孤立する。星空と書物の中に静けさを求める。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "長い旅の果てに残ったのは、「知識に倫理が伴わない時、進歩が他者の尊厳を壊すこと」という問いでした。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "答えは一つではありません。けれど、登場人物たちの選択は消えません。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "『モロー博士の島 ―法を唱える獣たち―』、これにて終幕。ありがとうございました。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

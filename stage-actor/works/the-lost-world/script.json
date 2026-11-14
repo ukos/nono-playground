@@ -1,0 +1,1206 @@
+{
+  "meta": {
+    "id": "the-lost-world",
+    "title": "失われた世界 ―台地の生存者―",
+    "original": "Arthur Conan Doyle, The Lost World（原典著作権消滅）",
+    "adaptation": "moderate",
+    "format": "v3",
+    "minutes": 46,
+    "synopsis": "記者マローンはチャレンジャー教授の探検に参加し、サマリー、ロクストンと台地へ渡る。橋を失って孤立し、恐竜、猿人、先住民の争いに遭う。帰国後、証拠として翼竜が公開される。",
+    "note": "Arthur Conan Doyleの1912年英語原典から新規脚本化。Project Gutenberg掲載原典を確認し、現代訳・映像版は使用していない。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "マローン",
+      "actor": "rei_trackcape",
+      "costume": "default"
+    },
+    {
+      "role": "チャレンジャー教授",
+      "actor": "iwao",
+      "costume": "default"
+    },
+    {
+      "role": "サマリー教授",
+      "actor": "extra_elder",
+      "costume": "default"
+    },
+    {
+      "role": "ロクストン卿",
+      "actor": "kurogane",
+      "costume": "default"
+    },
+    {
+      "role": "台地の若者",
+      "actor": "yui",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "lecture": "bg/challenger-lecture-2048x1152.png",
+    "jungle": "bg/amazon-expedition-2048x1152.png",
+    "plateau": "bg/lost-world-plateau-2048x1152.png",
+    "camp": "bg/plateau-night-camp-2048x1152.png",
+    "museum": "bg/pterosaur-reveal-hall-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『失われた世界 ―台地の生存者―』。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "南米の孤立台地で、探検隊は太古の生物と、人知れず続く争いを目撃します。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "今夜の核は「発見の名誉より、生きた世界への責任を優先すること」。急がず、長い物語としてお届けします。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "それでは開幕。役者たちの声と、場面の移ろいをお楽しみください。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "lecture",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "lecture"
+    },
+    {
+      "op": "nar",
+      "text": "ロンドンの科学講演会"
+    },
+    {
+      "op": "show",
+      "actor": "rei_trackcape",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "iwao",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "記者マローンがチャレンジャーの失われた世界説を取材する。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "この出来事から目をそらさない。記者マローンがチャレンジャーの失われた世界説を取材する。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "その選び方に、その人が何を大切にするかが現れる。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「発見の名誉より、生きた世界への責任を優先すること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "ならば、言葉と行いが離れないように見届けよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "記者マローンがチャレンジャーの失われた世界説を取材する。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_trackcape"
+    },
+    {
+      "op": "hide",
+      "actor": "iwao"
+    },
+    {
+      "op": "show",
+      "actor": "iwao",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "チャレンジャーとサマリーが証拠と名誉を巡って衝突する。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "この出来事から目をそらさない。チャレンジャーとサマリーが証拠と名誉を巡って衝突する。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「発見の名誉より、生きた世界への責任を優先すること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "その一歩が、失われたものを無駄にしない道になる。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "チャレンジャーとサマリーが証拠と名誉を巡って衝突する。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "iwao"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_trackcape",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "ロクストンを加えた探検隊が南米の密林へ入る。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "この出来事から目をそらさない。ロクストンを加えた探検隊が南米の密林へ入る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "その選び方に、その人が何を大切にするかが現れる。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「発見の名誉より、生きた世界への責任を優先すること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "ならば、言葉と行いが離れないように見届けよう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "ロクストンを加えた探検隊が南米の密林へ入る。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_trackcape"
+    },
+    {
+      "op": "bg",
+      "src": "jungle",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "jungle"
+    },
+    {
+      "op": "nar",
+      "text": "南米の密林と巨大な崖"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_trackcape",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "案内の若者が台地を恐れつつ古い道を示す。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "この出来事から目をそらさない。案内の若者が台地を恐れつつ古い道を示す。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「発見の名誉より、生きた世界への責任を優先すること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "その一歩が、失われたものを無駄にしない道になる。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "案内の若者が台地を恐れつつ古い道を示す。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_trackcape"
+    },
+    {
+      "op": "show",
+      "actor": "iwao",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "倒木を橋にして孤立台地へ渡る。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "この出来事から目をそらさない。倒木を橋にして孤立台地へ渡る。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "その選び方に、その人が何を大切にするかが現れる。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「発見の名誉より、生きた世界への責任を優先すること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "ならば、言葉と行いが離れないように見届けよう。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "倒木を橋にして孤立台地へ渡る。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "iwao"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_trackcape",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "裏切りで橋が落とされ、帰路を失う。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "この出来事から目をそらさない。裏切りで橋が落とされ、帰路を失う。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「発見の名誉より、生きた世界への責任を優先すること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "その一歩が、失われたものを無駄にしない道になる。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "裏切りで橋が落とされ、帰路を失う。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_trackcape"
+    },
+    {
+      "op": "bg",
+      "src": "plateau",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "plateau"
+    },
+    {
+      "op": "nar",
+      "text": "恐竜の足跡がある台地"
+    },
+    {
+      "op": "show",
+      "actor": "rei_trackcape",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "巨大な足跡と生きた恐竜を観察する。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "この出来事から目をそらさない。巨大な足跡と生きた恐竜を観察する。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "その選び方に、その人が何を大切にするかが現れる。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「発見の名誉より、生きた世界への責任を優先すること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "ならば、言葉と行いが離れないように見届けよう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "巨大な足跡と生きた恐竜を観察する。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_trackcape"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "show",
+      "actor": "iwao",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "二人の教授が見た事実を前に争いを一時やめる。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "この出来事から目をそらさない。二人の教授が見た事実を前に争いを一時やめる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「発見の名誉より、生きた世界への責任を優先すること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "その一歩が、失われたものを無駄にしない道になる。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "二人の教授が見た事実を前に争いを一時やめる。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "iwao"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_trackcape",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "夜の野営地を肉食恐竜が襲い、防火線で守る。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "この出来事から目をそらさない。夜の野営地を肉食恐竜が襲い、防火線で守る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "その選び方に、その人が何を大切にするかが現れる。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「発見の名誉より、生きた世界への責任を優先すること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "ならば、言葉と行いが離れないように見届けよう。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "夜の野営地を肉食恐竜が襲い、防火線で守る。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_trackcape"
+    },
+    {
+      "op": "bg",
+      "src": "camp",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "camp"
+    },
+    {
+      "op": "nar",
+      "text": "太古の森に囲まれた夜営地"
+    },
+    {
+      "op": "show",
+      "actor": "rei_trackcape",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "台地の人々と猿人の争いを知る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "この出来事から目をそらさない。台地の人々と猿人の争いを知る。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「発見の名誉より、生きた世界への責任を優先すること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "その一歩が、失われたものを無駄にしない道になる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "台地の人々と猿人の争いを知る。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_trackcape"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "囚われた仲間と住民を救うため峡谷で戦う。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "この出来事から目をそらさない。囚われた仲間と住民を救うため峡谷で戦う。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "その選び方に、その人が何を大切にするかが現れる。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「発見の名誉より、生きた世界への責任を優先すること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "ならば、言葉と行いが離れないように見届けよう。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "囚われた仲間と住民を救うため峡谷で戦う。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "show",
+      "actor": "iwao",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_trackcape",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "洞窟の裏道から台地下へ戻る経路を見つける。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "この出来事から目をそらさない。洞窟の裏道から台地下へ戻る経路を見つける。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「発見の名誉より、生きた世界への責任を優先すること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "その一歩が、失われたものを無駄にしない道になる。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "洞窟の裏道から台地下へ戻る経路を見つける。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "iwao"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_trackcape"
+    },
+    {
+      "op": "bg",
+      "src": "museum",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "museum"
+    },
+    {
+      "op": "nar",
+      "text": "箱が開く公開講演会場"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "iwao",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "標本と記録だけで証明できるかを議論する。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "この出来事から目をそらさない。標本と記録だけで証明できるかを議論する。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "その選び方に、その人が何を大切にするかが現れる。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「発見の名誉より、生きた世界への責任を優先すること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "ならば、言葉と行いが離れないように見届けよう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "標本と記録だけで証明できるかを議論する。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "hide",
+      "actor": "iwao"
+    },
+    {
+      "op": "show",
+      "actor": "iwao",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_trackcape",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "公開講演で箱から翼竜が飛び出し、会場が騒然とする。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "この出来事から目をそらさない。公開講演で箱から翼竜が飛び出し、会場が騒然とする。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「発見の名誉より、生きた世界への責任を優先すること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "その一歩が、失われたものを無駄にしない道になる。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "公開講演で箱から翼竜が飛び出し、会場が騒然とする。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "iwao"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_trackcape"
+    },
+    {
+      "op": "show",
+      "actor": "rei_trackcape",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "名声の後も台地を搾取せず、記録の責任を考える。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "この出来事から目をそらさない。名声の後も台地を搾取せず、記録の責任を考える。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "その選び方に、その人が何を大切にするかが現れる。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「発見の名誉より、生きた世界への責任を優先すること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "ならば、言葉と行いが離れないように見届けよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "名声の後も台地を搾取せず、記録の責任を考える。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_trackcape"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "bg",
+      "src": "museum"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "名声は得られるが、マローンは発見を所有物にせず、再び未知へ向かう意志を持つ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "長い旅の果てに残ったのは、「発見の名誉より、生きた世界への責任を優先すること」という問いでした。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "答えは一つではありません。けれど、登場人物たちの選択は消えません。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "『失われた世界 ―台地の生存者―』、これにて終幕。ありがとうございました。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

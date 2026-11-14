@@ -1,0 +1,1150 @@
+{
+  "meta": {
+    "id": "ainu-little-wolf",
+    "title": "小狼の神「ホテナオ」",
+    "original": "知里幸惠編訳『アイヌ神謡集』所収（古典神謡）",
+    "adaptation": "faithful",
+    "format": "v3",
+    "minutes": 30,
+    "synopsis": "浜で遊ぶ小狼の神は小男の道を十二度さえぎる。怒った小男は岬と川の昔の名・今の名を問う。小狼は答え、さらに小男がオキキリムイの炉縁から生まれた魚だと素性を明かす。",
+    "note": "知里幸惠編訳『アイヌ神謡集』（1923年、著作権消滅）所収神謡の出来事・順序・語り手・結末を改変していない。台詞は制作ガイドに従い本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "小狼の神",
+      "actor": "kurogane",
+      "costume": "default"
+    },
+    {
+      "role": "小男／炉縁魚",
+      "actor": "rei_casual",
+      "costume": "default"
+    },
+    {
+      "role": "オキキリムイ（回想）",
+      "actor": "yui",
+      "costume": "default"
+    },
+    {
+      "role": "神々（回想）",
+      "actor": "extra_elder",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "beach": "bg/ainu-wolf-beach-2048x1152.png",
+    "cape": "bg/ainu-sacred-cape-2048x1152.png",
+    "river": "bg/ainu-named-river-2048x1152.png",
+    "memory": "bg/okikirmui-hearth-memory-2048x1152.png",
+    "sea": "bg/red-fish-sea-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『小狼の神「ホテナオ」』。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "小狼の神と小男が、岬、川、互いの素性を歌と言葉で解き合います。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "今夜の核は「土地の古い名と由来を知り、自分の素性を忘れないこと」。急がず、長い物語としてお届けします。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "それでは開幕。役者たちの声と、場面の移ろいをお楽しみください。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "beach",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "beach"
+    },
+    {
+      "op": "nar",
+      "text": "小狼が遊ぶ浜辺"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "小狼の神が退屈して浜辺へ出て遊ぶ。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "私はこの出来事を見届けた。小狼の神が退屈して浜辺へ出て遊ぶ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "見えたことを、そのまま順に語ろう。歌の道を変えないために。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "出来事の姿を飾らず、聞いた響きを次の言葉へ渡そう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「土地の古い名と由来を知り、自分の素性を忘れないこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "人とカムイと大地の間に起きたことを、丁寧にたどる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "急がずに進もう。同じ響きが戻るたび、意味も深くなる。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "小狼の神が退屈して浜辺へ出て遊ぶ。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "小男が川下へ行くたび、小狼も下って道をさえぎる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "私はこの出来事を見届けた。小男が川下へ行くたび、小狼も下って道をさえぎる。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "水の音、風の向き、火の明るさまで、この物語の一部だ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "誰が語っているのかを忘れず、その目から世界を見よう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「土地の古い名と由来を知り、自分の素性を忘れないこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "喜びも怒りも、語り手が経験した順序のまま受け取る。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "そして結末を変えずに届ける。それが今夜の務めだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "小男が川下へ行くたび、小狼も下って道をさえぎる。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "nar",
+      "text": "小男が川上へ来るたび、小狼も上って道をさえぎる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "私はこの出来事を見届けた。小男が川上へ来るたび、小狼も上って道をさえぎる。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "見えたことを、そのまま順に語ろう。歌の道を変えないために。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "出来事の姿を飾らず、聞いた響きを次の言葉へ渡そう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「土地の古い名と由来を知り、自分の素性を忘れないこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "人とカムイと大地の間に起きたことを、丁寧にたどる。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "急がずに進もう。同じ響きが戻るたび、意味も深くなる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "小男が川上へ来るたび、小狼も上って道をさえぎる。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "bg",
+      "src": "cape",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "cape"
+    },
+    {
+      "op": "nar",
+      "text": "昔と今の名を持つ岬"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "川下六回、川上六回の後、小男が怒る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "私はこの出来事を見届けた。川下六回、川上六回の後、小男が怒る。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "水の音、風の向き、火の明るさまで、この物語の一部だ。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "誰が語っているのかを忘れず、その目から世界を見よう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「土地の古い名と由来を知り、自分の素性を忘れないこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "喜びも怒りも、語り手が経験した順序のまま受け取る。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "そして結末を変えずに届ける。それが今夜の務めだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "川下六回、川上六回の後、小男が怒る。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "nar",
+      "text": "小男が岬の昔の名と今の名を問う。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "私はこの出来事を見届けた。小男が岬の昔の名と今の名を問う。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "見えたことを、そのまま順に語ろう。歌の道を変えないために。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "出来事の姿を飾らず、聞いた響きを次の言葉へ渡そう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「土地の古い名と由来を知り、自分の素性を忘れないこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "人とカムイと大地の間に起きたことを、丁寧にたどる。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "急がずに進もう。同じ響きが戻るたび、意味も深くなる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "小男が岬の昔の名と今の名を問う。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "小狼が神の岬から御幣の岬へ変わった名を答える。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "私はこの出来事を見届けた。小狼が神の岬から御幣の岬へ変わった名を答える。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "水の音、風の向き、火の明るさまで、この物語の一部だ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "誰が語っているのかを忘れず、その目から世界を見よう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「土地の古い名と由来を知り、自分の素性を忘れないこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "喜びも怒りも、語り手が経験した順序のまま受け取る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "そして結末を変えずに届ける。それが今夜の務めだ。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "小狼が神の岬から御幣の岬へ変わった名を答える。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "bg",
+      "src": "river",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "river"
+    },
+    {
+      "op": "nar",
+      "text": "流れの名を問う川口"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "小男が川の昔の名と今の名を問う。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "私はこの出来事を見届けた。小男が川の昔の名と今の名を問う。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "見えたことを、そのまま順に語ろう。歌の道を変えないために。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "出来事の姿を飾らず、聞いた響きを次の言葉へ渡そう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「土地の古い名と由来を知り、自分の素性を忘れないこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "人とカムイと大地の間に起きたことを、丁寧にたどる。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "急がずに進もう。同じ響きが戻るたび、意味も深くなる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "小男が川の昔の名と今の名を問う。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "小狼が流れの早い川から遅い川へ変わった名を答える。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "私はこの出来事を見届けた。小狼が流れの早い川から遅い川へ変わった名を答える。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "水の音、風の向き、火の明るさまで、この物語の一部だ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "誰が語っているのかを忘れず、その目から世界を見よう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「土地の古い名と由来を知り、自分の素性を忘れないこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "喜びも怒りも、語り手が経験した順序のまま受け取る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "そして結末を変えずに届ける。それが今夜の務めだ。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "小狼が流れの早い川から遅い川へ変わった名を答える。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "小男が互いの素性を解き合おうと挑む。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "私はこの出来事を見届けた。小男が互いの素性を解き合おうと挑む。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "見えたことを、そのまま順に語ろう。歌の道を変えないために。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "出来事の姿を飾らず、聞いた響きを次の言葉へ渡そう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「土地の古い名と由来を知り、自分の素性を忘れないこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "人とカムイと大地の間に起きたことを、丁寧にたどる。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "急がずに進もう。同じ響きが戻るたび、意味も深くなる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "小男が互いの素性を解き合おうと挑む。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "bg",
+      "src": "memory",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "memory"
+    },
+    {
+      "op": "nar",
+      "text": "榛の炉縁を作る狩小屋の回想"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "小狼がオキキリムイの狩小屋と榛の炉縁の由来を語る。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "私はこの出来事を見届けた。小狼がオキキリムイの狩小屋と榛の炉縁の由来を語る。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "水の音、風の向き、火の明るさまで、この物語の一部だ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "誰が語っているのかを忘れず、その目から世界を見よう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「土地の古い名と由来を知り、自分の素性を忘れないこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "喜びも怒りも、語り手が経験した順序のまま受け取る。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "そして結末を変えずに届ける。それが今夜の務めだ。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "小狼がオキキリムイの狩小屋と榛の炉縁の由来を語る。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "乾いた炉縁が踏むたび跳ね、怒ったオキキリムイに川へ捨てられる。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "私はこの出来事を見届けた。乾いた炉縁が踏むたび跳ね、怒ったオキキリムイに川へ捨てられる。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "見えたことを、そのまま順に語ろう。歌の道を変えないために。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "出来事の姿を飾らず、聞いた響きを次の言葉へ渡そう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「土地の古い名と由来を知り、自分の素性を忘れないこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "人とカムイと大地の間に起きたことを、丁寧にたどる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "急がずに進もう。同じ響きが戻るたび、意味も深くなる。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "乾いた炉縁が踏むたび跳ね、怒ったオキキリムイに川へ捨てられる。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "海で漂い腐るのを惜しんだ神々が炉縁を魚へ変える。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "私はこの出来事を見届けた。海で漂い腐るのを惜しんだ神々が炉縁を魚へ変える。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "水の音、風の向き、火の明るさまで、この物語の一部だ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "誰が語っているのかを忘れず、その目から世界を見よう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「土地の古い名と由来を知り、自分の素性を忘れないこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "喜びも怒りも、語り手が経験した順序のまま受け取る。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "そして結末を変えずに届ける。それが今夜の務めだ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "海で漂い腐るのを惜しんだ神々が炉縁を魚へ変える。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "bg",
+      "src": "sea",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "sea"
+    },
+    {
+      "op": "nar",
+      "text": "赤い魚が沖へ去る海"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "小狼が小男こそ素性を忘れた炉縁魚だと言い当てる。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "私はこの出来事を見届けた。小狼が小男こそ素性を忘れた炉縁魚だと言い当てる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "見えたことを、そのまま順に語ろう。歌の道を変えないために。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "出来事の姿を飾らず、聞いた響きを次の言葉へ渡そう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「土地の古い名と由来を知り、自分の素性を忘れないこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "人とカムイと大地の間に起きたことを、丁寧にたどる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "急がずに進もう。同じ響きが戻るたび、意味も深くなる。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "小狼が小男こそ素性を忘れた炉縁魚だと言い当てる。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "小男が相手は小さい狼の子だと言い当てる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "私はこの出来事を見届けた。小男が相手は小さい狼の子だと言い当てる。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "水の音、風の向き、火の明るさまで、この物語の一部だ。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "誰が語っているのかを忘れず、その目から世界を見よう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「土地の古い名と由来を知り、自分の素性を忘れないこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "喜びも怒りも、語り手が経験した順序のまま受け取る。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "そして結末を変えずに届ける。それが今夜の務めだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "小男が相手は小さい狼の子だと言い当てる。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "nar",
+      "text": "小男が海へ飛び込み、赤い魚となって沖へ泳ぎ去る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "私はこの出来事を見届けた。小男が海へ飛び込み、赤い魚となって沖へ泳ぎ去る。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "見えたことを、そのまま順に語ろう。歌の道を変えないために。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "出来事の姿を飾らず、聞いた響きを次の言葉へ渡そう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「土地の古い名と由来を知り、自分の素性を忘れないこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "人とカムイと大地の間に起きたことを、丁寧にたどる。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "急がずに進もう。同じ響きが戻るたび、意味も深くなる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "小男が海へ飛び込み、赤い魚となって沖へ泳ぎ去る。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "bg",
+      "src": "sea"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "小男は小狼の正体を言い当てて海へ飛び込み、赤い魚となって沖へ去る。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "長い旅の果てに残ったのは、「土地の古い名と由来を知り、自分の素性を忘れないこと」という問いでした。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "答えは一つではありません。けれど、登場人物たちの選択は消えません。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "『小狼の神「ホテナオ」』、これにて終幕。ありがとうございました。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

@@ -1,0 +1,1219 @@
+{
+  "meta": {
+    "id": "the-purloined-letter",
+    "title": "盗まれた手紙 ―見える場所の秘密―",
+    "original": "Edgar Allan Poe, The Purloined Letter（原作著作権消滅）",
+    "adaptation": "moderate",
+    "format": "v3",
+    "minutes": 30,
+    "synopsis": "王族の秘密を握る手紙が大臣Dに盗まれる。警視総監は徹底捜索しても発見できず、デュパンは相手が警察の方法を予測すると考える。訪問先で、わざと汚して置かれた手紙を見抜き交換する。",
+    "note": "本脚本は翻案であり、原作・現代訳の文章の転載ではない。セリフはすべて本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "デュパン",
+      "actor": "rei_trackcape",
+      "costume": "default"
+    },
+    {
+      "role": "語り手",
+      "actor": "nono_whitecat",
+      "costume": "default"
+    },
+    {
+      "role": "警視総監",
+      "actor": "kurogane",
+      "costume": "default"
+    },
+    {
+      "role": "大臣D",
+      "actor": "nibulus",
+      "costume": "default"
+    },
+    {
+      "role": "王妃",
+      "actor": "mei",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "study": "bg/dupin-study-2048x1152.png",
+    "palace": "bg/royal-chamber-2048x1152.png",
+    "search": "bg/minister-search-plan-2048x1152.png",
+    "minister": "bg/minister-apartment-2048x1152.png",
+    "exchange": "bg/letter-exchange-window-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『盗まれた手紙 ―見える場所の秘密―』。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "警察が壁も家具も分解して見つけられなかった手紙は、目の前の粗末な紙差しにありました。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "今夜の核は「相手の知性と習慣を想像し、見えすぎるものを疑うこと」。急がず、長い物語としてお届けします。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "それでは開幕。役者たちの声と、場面の移ろいをお楽しみください。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "study",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "study"
+    },
+    {
+      "op": "nar",
+      "text": "暗い書斎と暖炉"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_trackcape",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "警視総監が王妃の手紙を大臣に奪われた事情を相談する。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "この手掛かりを軽く扱えない。警視総監が王妃の手紙を大臣に奪われた事情を相談する。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "印象を捨てよう。残った事実だけを、順番に並べる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "事実は小さいほど見落とされる。位置と時刻を確かめよう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「相手の知性と習慣を想像し、見えすぎるものを疑うこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "説明できない一点こそ、事件の中心かもしれない。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "仮説は証拠に従わせる。証拠を仮説へ曲げてはならない。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "警視総監が王妃の手紙を大臣に奪われた事情を相談する。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_trackcape"
+    },
+    {
+      "op": "show",
+      "actor": "mei",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "nibulus",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "王妃の目前で大臣が手紙の重要性を見抜き、別紙と交換する。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "この手掛かりを軽く扱えない。王妃の目前で大臣が手紙の重要性を見抜き、別紙と交換する。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "奇妙さには目的がある。誰が、何から目をそらしたかった？",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "利益だけでなく、時間を稼ぐ必要があった者も考えよう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「相手の知性と習慣を想像し、見えすぎるものを疑うこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "沈黙したもの、動かなかったものも証言になる。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "その消極的な証拠を、ほかの事実と結び直してみよう。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "王妃の目前で大臣が手紙の重要性を見抜き、別紙と交換する。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "mei"
+    },
+    {
+      "op": "hide",
+      "actor": "nibulus"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "nono_whitecat",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "警察が鍵、壁、家具、床板まで秘密裏に調べたと説明する。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "この手掛かりを軽く扱えない。警察が鍵、壁、家具、床板まで秘密裏に調べたと説明する。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "印象を捨てよう。残った事実だけを、順番に並べる。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "事実は小さいほど見落とされる。位置と時刻を確かめよう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「相手の知性と習慣を想像し、見えすぎるものを疑うこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "説明できない一点こそ、事件の中心かもしれない。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "仮説は証拠に従わせる。証拠を仮説へ曲げてはならない。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "警察が鍵、壁、家具、床板まで秘密裏に調べたと説明する。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "hide",
+      "actor": "nono_whitecat"
+    },
+    {
+      "op": "bg",
+      "src": "palace",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "palace"
+    },
+    {
+      "op": "nar",
+      "text": "手紙が奪われた宮廷の私室"
+    },
+    {
+      "op": "show",
+      "actor": "rei_trackcape",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "徹底捜索の尺度が小さすぎ、方法が予測されていると指摘する。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "この手掛かりを軽く扱えない。徹底捜索の尺度が小さすぎ、方法が予測されていると指摘する。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "奇妙さには目的がある。誰が、何から目をそらしたかった？"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "利益だけでなく、時間を稼ぐ必要があった者も考えよう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「相手の知性と習慣を想像し、見えすぎるものを疑うこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "沈黙したもの、動かなかったものも証言になる。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "その消極的な証拠を、ほかの事実と結び直してみよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "徹底捜索の尺度が小さすぎ、方法が予測されていると指摘する。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_trackcape"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "show",
+      "actor": "nono_whitecat",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_trackcape",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "単純すぎる場所ほど専門家の視野から外れる可能性を考える。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "この手掛かりを軽く扱えない。単純すぎる場所ほど専門家の視野から外れる可能性を考える。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "印象を捨てよう。残った事実だけを、順番に並べる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "事実は小さいほど見落とされる。位置と時刻を確かめよう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「相手の知性と習慣を想像し、見えすぎるものを疑うこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "説明できない一点こそ、事件の中心かもしれない。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "仮説は証拠に従わせる。証拠を仮説へ曲げてはならない。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "単純すぎる場所ほど専門家の視野から外れる可能性を考える。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono_whitecat"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_trackcape"
+    },
+    {
+      "op": "show",
+      "actor": "rei_trackcape",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "nibulus",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "デュパンが色眼鏡をかけ、大臣の客間を観察する。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "この手掛かりを軽く扱えない。デュパンが色眼鏡をかけ、大臣の客間を観察する。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "奇妙さには目的がある。誰が、何から目をそらしたかった？"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "利益だけでなく、時間を稼ぐ必要があった者も考えよう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「相手の知性と習慣を想像し、見えすぎるものを疑うこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "沈黙したもの、動かなかったものも証言になる。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "その消極的な証拠を、ほかの事実と結び直してみよう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "デュパンが色眼鏡をかけ、大臣の客間を観察する。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_trackcape"
+    },
+    {
+      "op": "hide",
+      "actor": "nibulus"
+    },
+    {
+      "op": "bg",
+      "src": "search",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "search"
+    },
+    {
+      "op": "nar",
+      "text": "捜索図と分解道具の並ぶ警察室"
+    },
+    {
+      "op": "show",
+      "actor": "nibulus",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_trackcape",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "大臣が政治談義を続け、部屋に秘密はないよう振る舞う。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "この手掛かりを軽く扱えない。大臣が政治談義を続け、部屋に秘密はないよう振る舞う。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "印象を捨てよう。残った事実だけを、順番に並べる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "事実は小さいほど見落とされる。位置と時刻を確かめよう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「相手の知性と習慣を想像し、見えすぎるものを疑うこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "説明できない一点こそ、事件の中心かもしれない。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "仮説は証拠に従わせる。証拠を仮説へ曲げてはならない。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "大臣が政治談義を続け、部屋に秘密はないよう振る舞う。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "surprise",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "nibulus"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_trackcape"
+    },
+    {
+      "op": "show",
+      "actor": "rei_trackcape",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "nono_whitecat",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "紙差しの破れた封筒が不自然に汚され、宛名を裏返していると見る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "この手掛かりを軽く扱えない。紙差しの破れた封筒が不自然に汚され、宛名を裏返していると見る。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "奇妙さには目的がある。誰が、何から目をそらしたかった？"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "利益だけでなく、時間を稼ぐ必要があった者も考えよう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「相手の知性と習慣を想像し、見えすぎるものを疑うこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "沈黙したもの、動かなかったものも証言になる。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "その消極的な証拠を、ほかの事実と結び直してみよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "紙差しの破れた封筒が不自然に汚され、宛名を裏返していると見る。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_trackcape"
+    },
+    {
+      "op": "hide",
+      "actor": "nono_whitecat"
+    },
+    {
+      "op": "show",
+      "actor": "rei_trackcape",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "警察の詳細な特徴と、目の前の封筒の加工跡を照合する。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "この手掛かりを軽く扱えない。警察の詳細な特徴と、目の前の封筒の加工跡を照合する。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "印象を捨てよう。残った事実だけを、順番に並べる。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "事実は小さいほど見落とされる。位置と時刻を確かめよう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「相手の知性と習慣を想像し、見えすぎるものを疑うこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "説明できない一点こそ、事件の中心かもしれない。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "仮説は証拠に従わせる。証拠を仮説へ曲げてはならない。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "警察の詳細な特徴と、目の前の封筒の加工跡を照合する。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_trackcape"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "bg",
+      "src": "minister",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "minister"
+    },
+    {
+      "op": "nar",
+      "text": "豪華だが散らかった大臣の客間"
+    },
+    {
+      "op": "show",
+      "actor": "rei_trackcape",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "nibulus",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "翌日、街の銃声騒ぎに大臣が窓へ向く隙を作る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "この手掛かりを軽く扱えない。翌日、街の銃声騒ぎに大臣が窓へ向く隙を作る。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "奇妙さには目的がある。誰が、何から目をそらしたかった？"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "利益だけでなく、時間を稼ぐ必要があった者も考えよう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「相手の知性と習慣を想像し、見えすぎるものを疑うこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "沈黙したもの、動かなかったものも証言になる。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "その消極的な証拠を、ほかの事実と結び直してみよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "翌日、街の銃声騒ぎに大臣が窓へ向く隙を作る。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_trackcape"
+    },
+    {
+      "op": "hide",
+      "actor": "nibulus"
+    },
+    {
+      "op": "show",
+      "actor": "rei_trackcape",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "nono_whitecat",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "本物とよく似た偽手紙を紙差しへ残して交換する。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "この手掛かりを軽く扱えない。本物とよく似た偽手紙を紙差しへ残して交換する。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "印象を捨てよう。残った事実だけを、順番に並べる。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "事実は小さいほど見落とされる。位置と時刻を確かめよう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「相手の知性と習慣を想像し、見えすぎるものを疑うこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "説明できない一点こそ、事件の中心かもしれない。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "仮説は証拠に従わせる。証拠を仮説へ曲げてはならない。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "本物とよく似た偽手紙を紙差しへ残して交換する。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_trackcape"
+    },
+    {
+      "op": "hide",
+      "actor": "nono_whitecat"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_trackcape",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "総監へ手紙を渡し、捜索ではなく観察で得たと説明する。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "この手掛かりを軽く扱えない。総監へ手紙を渡し、捜索ではなく観察で得たと説明する。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "奇妙さには目的がある。誰が、何から目をそらしたかった？"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "利益だけでなく、時間を稼ぐ必要があった者も考えよう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「相手の知性と習慣を想像し、見えすぎるものを疑うこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "沈黙したもの、動かなかったものも証言になる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "その消極的な証拠を、ほかの事実と結び直してみよう。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "総監へ手紙を渡し、捜索ではなく観察で得たと説明する。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_trackcape"
+    },
+    {
+      "op": "bg",
+      "src": "exchange",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "exchange"
+    },
+    {
+      "op": "nar",
+      "text": "騒ぎが起こる窓辺と紙差し"
+    },
+    {
+      "op": "show",
+      "actor": "nono_whitecat",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_trackcape",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "大臣の知性を利用した一方、私怨も動機にあったと問う。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "この手掛かりを軽く扱えない。大臣の知性を利用した一方、私怨も動機にあったと問う。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "印象を捨てよう。残った事実だけを、順番に並べる。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "事実は小さいほど見落とされる。位置と時刻を確かめよう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「相手の知性と習慣を想像し、見えすぎるものを疑うこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "説明できない一点こそ、事件の中心かもしれない。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "仮説は証拠に従わせる。証拠を仮説へ曲げてはならない。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "大臣の知性を利用した一方、私怨も動機にあったと問う。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono_whitecat"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_trackcape"
+    },
+    {
+      "op": "show",
+      "actor": "rei_trackcape",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "nibulus",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "偽手紙へ過去の侮辱を示す一文を残したことを認める。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "この手掛かりを軽く扱えない。偽手紙へ過去の侮辱を示す一文を残したことを認める。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "奇妙さには目的がある。誰が、何から目をそらしたかった？"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "利益だけでなく、時間を稼ぐ必要があった者も考えよう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「相手の知性と習慣を想像し、見えすぎるものを疑うこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "沈黙したもの、動かなかったものも証言になる。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "その消極的な証拠を、ほかの事実と結び直してみよう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "偽手紙へ過去の侮辱を示す一文を残したことを認める。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_trackcape"
+    },
+    {
+      "op": "hide",
+      "actor": "nibulus"
+    },
+    {
+      "op": "show",
+      "actor": "rei_trackcape",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "優れた推理にも感情が混じるため、自分の動機も点検すると結ぶ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "この手掛かりを軽く扱えない。優れた推理にも感情が混じるため、自分の動機も点検すると結ぶ。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "印象を捨てよう。残った事実だけを、順番に並べる。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "事実は小さいほど見落とされる。位置と時刻を確かめよう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「相手の知性と習慣を想像し、見えすぎるものを疑うこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "説明できない一点こそ、事件の中心かもしれない。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "仮説は証拠に従わせる。証拠を仮説へ曲げてはならない。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "優れた推理にも感情が混じるため、自分の動機も点検すると結ぶ。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_trackcape"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "bg",
+      "src": "exchange"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "デュパンは手紙を取り戻す。隠蔽は深さではなく、捜す者の思い込みを利用していた。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "長い旅の果てに残ったのは、「相手の知性と習慣を想像し、見えすぎるものを疑うこと」という問いでした。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "答えは一つではありません。けれど、登場人物たちの選択は消えません。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "『盗まれた手紙 ―見える場所の秘密―』、これにて終幕。ありがとうございました。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

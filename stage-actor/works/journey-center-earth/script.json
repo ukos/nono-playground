@@ -1,0 +1,1216 @@
+{
+  "meta": {
+    "id": "journey-center-earth",
+    "title": "地底旅行 ―スネッフェルスの入口―",
+    "original": "Jules Verne, Voyage au centre de la Terre（原典著作権消滅）",
+    "adaptation": "moderate",
+    "format": "v3",
+    "minutes": 46,
+    "synopsis": "リーデンブロック教授はサクヌッセンムの暗号を解き、甥アクセル、案内人ハンスとアイスランドの火口へ入る。水不足、迷子、地下海、嵐、古代生物を越え、火山噴火で地上へ押し戻される。",
+    "note": "Jules Verneの1864年フランス語原典を基礎に新規脚本化。Project Gutenberg掲載原典を確認し、現代日本語訳は使用していない。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "アクセル",
+      "actor": "rei_trackcape",
+      "costume": "default"
+    },
+    {
+      "role": "リーデンブロック教授",
+      "actor": "extra_wizard",
+      "costume": "default"
+    },
+    {
+      "role": "ハンス",
+      "actor": "kurogane",
+      "costume": "default"
+    },
+    {
+      "role": "グラウベン",
+      "actor": "mei",
+      "costume": "default"
+    },
+    {
+      "role": "サクヌッセンムの幻",
+      "actor": "extra_elder",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "study": "bg/lidenbrock-study-2048x1152.png",
+    "crater": "bg/snaefells-crater-2048x1152.png",
+    "tunnel": "bg/center-earth-tunnel-2048x1152.png",
+    "sea": "bg/lidenbrock-sea-2048x1152.png",
+    "eruption": "bg/stromboli-eruption-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『地底旅行 ―スネッフェルスの入口―』。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "暗号文が示す火口から、教授たちは地下の海と古代生物の世界へ進みます。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "今夜の核は「知識への情熱と、仲間の命を守る慎重さを両立すること」。急がず、長い物語としてお届けします。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "それでは開幕。役者たちの声と、場面の移ろいをお楽しみください。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "study",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "study"
+    },
+    {
+      "op": "nar",
+      "text": "ルーン文字と古書のある書斎"
+    },
+    {
+      "op": "show",
+      "actor": "extra_wizard",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_trackcape",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "古書からルーン暗号を見つけ、食事も忘れて解読する。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "この出来事から目をそらさない。古書からルーン暗号を見つけ、食事も忘れて解読する。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "その選び方に、その人が何を大切にするかが現れる。",
+      "eyes": "joy"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「知識への情熱と、仲間の命を守る慎重さを両立すること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "ならば、言葉と行いが離れないように見届けよう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "古書からルーン暗号を見つけ、食事も忘れて解読する。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_wizard"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_trackcape"
+    },
+    {
+      "op": "show",
+      "actor": "rei_trackcape",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "mei",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "アクセルが暗号を解きながら旅の危険を恐れる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "この出来事から目をそらさない。アクセルが暗号を解きながら旅の危険を恐れる。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「知識への情熱と、仲間の命を守る慎重さを両立すること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "その一歩が、失われたものを無駄にしない道になる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "アクセルが暗号を解きながら旅の危険を恐れる。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_trackcape"
+    },
+    {
+      "op": "hide",
+      "actor": "mei"
+    },
+    {
+      "op": "show",
+      "actor": "extra_wizard",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_trackcape",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "サクヌッセンムが火口から地球中心へ行った文を読む。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "この出来事から目をそらさない。サクヌッセンムが火口から地球中心へ行った文を読む。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "その選び方に、その人が何を大切にするかが現れる。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「知識への情熱と、仲間の命を守る慎重さを両立すること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "ならば、言葉と行いが離れないように見届けよう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "サクヌッセンムが火口から地球中心へ行った文を読む。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_wizard"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_trackcape"
+    },
+    {
+      "op": "bg",
+      "src": "crater",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "crater"
+    },
+    {
+      "op": "nar",
+      "text": "アイスランドの火口と三本の坑道"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_trackcape",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "アイスランドでハンスを雇い、装備を整える。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "この出来事から目をそらさない。アイスランドでハンスを雇い、装備を整える。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「知識への情熱と、仲間の命を守る慎重さを両立すること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "その一歩が、失われたものを無駄にしない道になる。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "アイスランドでハンスを雇い、装備を整える。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_trackcape"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_wizard",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "火口の影が示す正しい坑道へ入る。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "この出来事から目をそらさない。火口の影が示す正しい坑道へ入る。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "その選び方に、その人が何を大切にするかが現れる。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「知識への情熱と、仲間の命を守る慎重さを両立すること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "ならば、言葉と行いが離れないように見届けよう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "火口の影が示す正しい坑道へ入る。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_wizard"
+    },
+    {
+      "op": "show",
+      "actor": "rei_trackcape",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "水が尽き、ハンスが岩壁の奥の水音を探す。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "この出来事から目をそらさない。水が尽き、ハンスが岩壁の奥の水音を探す。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「知識への情熱と、仲間の命を守る慎重さを両立すること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "その一歩が、失われたものを無駄にしない道になる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "水が尽き、ハンスが岩壁の奥の水音を探す。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_trackcape"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "bg",
+      "src": "tunnel",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "tunnel"
+    },
+    {
+      "op": "nar",
+      "text": "結晶と地下水の洞窟"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_wizard",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "岩を割って地下水を得て、流れへハンスの名を残す。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "この出来事から目をそらさない。岩を割って地下水を得て、流れへハンスの名を残す。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "その選び方に、その人が何を大切にするかが現れる。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「知識への情熱と、仲間の命を守る慎重さを両立すること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "ならば、言葉と行いが離れないように見届けよう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "岩を割って地下水を得て、流れへハンスの名を残す。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_wizard"
+    },
+    {
+      "op": "show",
+      "actor": "rei_trackcape",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_wizard",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "分岐で迷子になったアクセルが音の伝わりで仲間と話す。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "この出来事から目をそらさない。分岐で迷子になったアクセルが音の伝わりで仲間と話す。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「知識への情熱と、仲間の命を守る慎重さを両立すること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "その一歩が、失われたものを無駄にしない道になる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "分岐で迷子になったアクセルが音の伝わりで仲間と話す。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_trackcape"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_wizard"
+    },
+    {
+      "op": "show",
+      "actor": "rei_trackcape",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "落下の後に地下海へ着き、巨大な空間に驚く。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "この出来事から目をそらさない。落下の後に地下海へ着き、巨大な空間に驚く。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "その選び方に、その人が何を大切にするかが現れる。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「知識への情熱と、仲間の命を守る慎重さを両立すること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "ならば、言葉と行いが離れないように見届けよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "落下の後に地下海へ着き、巨大な空間に驚く。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_trackcape"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "bg",
+      "src": "sea",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "sea"
+    },
+    {
+      "op": "nar",
+      "text": "巨大きのこと地下海"
+    },
+    {
+      "op": "show",
+      "actor": "extra_wizard",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "筏を作り、海上で古代爬虫類の戦いを見る。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "この出来事から目をそらさない。筏を作り、海上で古代爬虫類の戦いを見る。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「知識への情熱と、仲間の命を守る慎重さを両立すること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "その一歩が、失われたものを無駄にしない道になる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "筏を作り、海上で古代爬虫類の戦いを見る。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_wizard"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "show",
+      "actor": "rei_trackcape",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_wizard",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "嵐で流され、出発岸に似た場所へ戻る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "この出来事から目をそらさない。嵐で流され、出発岸に似た場所へ戻る。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "その選び方に、その人が何を大切にするかが現れる。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「知識への情熱と、仲間の命を守る慎重さを両立すること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "ならば、言葉と行いが離れないように見届けよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "嵐で流され、出発岸に似た場所へ戻る。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_trackcape"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_wizard"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_trackcape",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "巨大な人影と古代動物の群れを遠くに見る。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "この出来事から目をそらさない。巨大な人影と古代動物の群れを遠くに見る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「知識への情熱と、仲間の命を守る慎重さを両立すること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "その一歩が、失われたものを無駄にしない道になる。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "巨大な人影と古代動物の群れを遠くに見る。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_trackcape"
+    },
+    {
+      "op": "bg",
+      "src": "eruption",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "eruption"
+    },
+    {
+      "op": "nar",
+      "text": "筏を押し上げる火山噴火"
+    },
+    {
+      "op": "show",
+      "actor": "extra_wizard",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_trackcape",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "爆薬で岩壁を破り、海水と共に深い縦穴へ流される。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "この出来事から目をそらさない。爆薬で岩壁を破り、海水と共に深い縦穴へ流される。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "その選び方に、その人が何を大切にするかが現れる。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「知識への情熱と、仲間の命を守る慎重さを両立すること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "ならば、言葉と行いが離れないように見届けよう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "爆薬で岩壁を破り、海水と共に深い縦穴へ流される。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_wizard"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_trackcape"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_wizard",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "熱と圧力が増し、地下水が蒸気となって筏を押し上げる。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "この出来事から目をそらさない。熱と圧力が増し、地下水が蒸気となって筏を押し上げる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「知識への情熱と、仲間の命を守る慎重さを両立すること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "その一歩が、失われたものを無駄にしない道になる。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "熱と圧力が増し、地下水が蒸気となって筏を押し上げる。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_wizard"
+    },
+    {
+      "op": "show",
+      "actor": "rei_trackcape",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "mei",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "ストロンボリ火山から噴き出され、地上で再会を誓う。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "この出来事から目をそらさない。ストロンボリ火山から噴き出され、地上で再会を誓う。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "その選び方に、その人が何を大切にするかが現れる。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「知識への情熱と、仲間の命を守る慎重さを両立すること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "ならば、言葉と行いが離れないように見届けよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "ストロンボリ火山から噴き出され、地上で再会を誓う。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_trackcape"
+    },
+    {
+      "op": "hide",
+      "actor": "mei"
+    },
+    {
+      "op": "bg",
+      "src": "eruption"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "三人はイタリアで生還する。成功は教授一人の執念でなく、ハンスの冷静さとアクセルの成長によって成った。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "長い旅の果てに残ったのは、「知識への情熱と、仲間の命を守る慎重さを両立すること」という問いでした。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "答えは一つではありません。けれど、登場人物たちの選択は消えません。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "『地底旅行 ―スネッフェルスの入口―』、これにて終幕。ありがとうございました。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

@@ -1,0 +1,1218 @@
+{
+  "meta": {
+    "id": "lin-chong-snow-temple",
+    "title": "水滸伝・林冲風雪山神廟 ―雪夜の決別―",
+    "original": "『水滸伝』林冲風雪山神廟（古典・著作権消滅）",
+    "adaptation": "moderate",
+    "format": "v3",
+    "minutes": 40,
+    "synopsis": "禁軍教頭の林冲は高俅一派に陥れられ、刺配先でも命を狙われる。魯智深に救われながら滄州へ着き、草料場を任される。大雪で小屋が潰れ山神廟へ避難した夜、放火と暗殺の計画を耳にする。",
+    "note": "本脚本は翻案であり、原作・現代訳の文章の転載ではない。セリフはすべて本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "林冲",
+      "actor": "rei_rider",
+      "costume": "default"
+    },
+    {
+      "role": "魯智深",
+      "actor": "gou",
+      "costume": "default"
+    },
+    {
+      "role": "陸謙",
+      "actor": "nibulus",
+      "costume": "default"
+    },
+    {
+      "role": "高俅の使い",
+      "actor": "iwao",
+      "costume": "default"
+    },
+    {
+      "role": "酒屋の主人",
+      "actor": "extra_elder",
+      "costume": "default"
+    },
+    {
+      "role": "役人",
+      "actor": "kurogane",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "capital": "bg/linchong-capital-2048x1152.png",
+    "wildwood": "bg/wild-boar-forest-2048x1152.png",
+    "cangzhou": "bg/cangzhou-tavern-2048x1152.png",
+    "fodder": "bg/fodder-depot-snow-2048x1152.png",
+    "temple": "bg/mountain-god-temple-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『水滸伝・林冲風雪山神廟 ―雪夜の決別―』。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "雪で小屋が潰れた偶然が命を救い、山神廟の扉越しに暗殺計画の全貌を聞かせます。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "今夜の核は「耐えてきた善人が迫害の仕組みと決別する瞬間」。急がず、長い物語としてお届けします。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "それでは開幕。役者たちの声と、場面の移ろいをお楽しみください。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "capital",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "capital"
+    },
+    {
+      "op": "nar",
+      "text": "禁軍の都と武芸場"
+    },
+    {
+      "op": "show",
+      "actor": "rei_rider",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "nibulus",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "林冲が宝刀を見せる罠で軍機の堂へ入り、罪を着せられる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "ここで局面が変わる。林冲が宝刀を見せる罠で軍機の堂へ入り、罪を着せられる。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "勝敗は刃が触れる前に始まっている。人の心を読め。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "威勢だけでは国は動かない。時、地、人の三つを量るのだ。",
+      "eyes": "joy"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「耐えてきた善人が迫害の仕組みと決別する瞬間」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "ならば一歩退いて全体を見る。退くことも策のうちだ。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "策は民を生かしてこそ価値がある。その筋を外すな。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "林冲が宝刀を見せる罠で軍機の堂へ入り、罪を着せられる。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_rider"
+    },
+    {
+      "op": "hide",
+      "actor": "nibulus"
+    },
+    {
+      "op": "show",
+      "actor": "iwao",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_rider",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "高俅一派が死罪を避けつつ遠流で命を奪う計画を立てる。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "ここで局面が変わる。高俅一派が死罪を避けつつ遠流で命を奪う計画を立てる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "忠義とは命令に従うだけではない。誤りを諫める勇気でもある。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "しかし諫める者にも覚悟が要る。言葉の後を引き受けられるか。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「耐えてきた善人が迫害の仕組みと決別する瞬間」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "引き受ける。黙って失うより、語って道を残したい。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "その覚悟なら聞こう。次の手を、具体的に示せ。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "高俅一派が死罪を避けつつ遠流で命を奪う計画を立てる。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "iwao"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_rider"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_rider",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "護送役人が野猪林で林冲を縛り、殺そうとする。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "ここで局面が変わる。護送役人が野猪林で林冲を縛り、殺そうとする。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "勝敗は刃が触れる前に始まっている。人の心を読め。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "威勢だけでは国は動かない。時、地、人の三つを量るのだ。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「耐えてきた善人が迫害の仕組みと決別する瞬間」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "ならば一歩退いて全体を見る。退くことも策のうちだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "策は民を生かしてこそ価値がある。その筋を外すな。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "護送役人が野猪林で林冲を縛り、殺そうとする。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_rider"
+    },
+    {
+      "op": "bg",
+      "src": "wildwood",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "wildwood"
+    },
+    {
+      "op": "nar",
+      "text": "護送路の野猪林"
+    },
+    {
+      "op": "show",
+      "actor": "gou",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "魯智深が禅杖で役人を追い払い、林冲を救う。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "ここで局面が変わる。魯智深が禅杖で役人を追い払い、林冲を救う。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "忠義とは命令に従うだけではない。誤りを諫める勇気でもある。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "しかし諫める者にも覚悟が要る。言葉の後を引き受けられるか。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「耐えてきた善人が迫害の仕組みと決別する瞬間」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "引き受ける。黙って失うより、語って道を残したい。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "その覚悟なら聞こう。次の手を、具体的に示せ。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "魯智深が禅杖で役人を追い払い、林冲を救う。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "gou"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "show",
+      "actor": "rei_rider",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "gou",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "林冲が役人を殺さず、家族へ累が及ばない道を選ぶ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "ここで局面が変わる。林冲が役人を殺さず、家族へ累が及ばない道を選ぶ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "勝敗は刃が触れる前に始まっている。人の心を読め。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "威勢だけでは国は動かない。時、地、人の三つを量るのだ。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「耐えてきた善人が迫害の仕組みと決別する瞬間」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "ならば一歩退いて全体を見る。退くことも策のうちだ。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "策は民を生かしてこそ価値がある。その筋を外すな。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "林冲が役人を殺さず、家族へ累が及ばない道を選ぶ。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_rider"
+    },
+    {
+      "op": "hide",
+      "actor": "gou"
+    },
+    {
+      "op": "show",
+      "actor": "rei_rider",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "滄州の酒屋で旧知の柴進の助けと寒具を得る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "ここで局面が変わる。滄州の酒屋で旧知の柴進の助けと寒具を得る。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "忠義とは命令に従うだけではない。誤りを諫める勇気でもある。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "しかし諫める者にも覚悟が要る。言葉の後を引き受けられるか。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「耐えてきた善人が迫害の仕組みと決別する瞬間」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "引き受ける。黙って失うより、語って道を残したい。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "その覚悟なら聞こう。次の手を、具体的に示せ。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "滄州の酒屋で旧知の柴進の助けと寒具を得る。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_rider"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "bg",
+      "src": "cangzhou",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "cangzhou"
+    },
+    {
+      "op": "nar",
+      "text": "雪前の滄州の酒屋"
+    },
+    {
+      "op": "show",
+      "actor": "nibulus",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "iwao",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "陸謙たちが林冲を草料場へ移し、放火で殺す策を確認する。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "ここで局面が変わる。陸謙たちが林冲を草料場へ移し、放火で殺す策を確認する。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "勝敗は刃が触れる前に始まっている。人の心を読め。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "威勢だけでは国は動かない。時、地、人の三つを量るのだ。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「耐えてきた善人が迫害の仕組みと決別する瞬間」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "ならば一歩退いて全体を見る。退くことも策のうちだ。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "策は民を生かしてこそ価値がある。その筋を外すな。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "陸謙たちが林冲を草料場へ移し、放火で殺す策を確認する。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "surprise",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "nibulus"
+    },
+    {
+      "op": "hide",
+      "actor": "iwao"
+    },
+    {
+      "op": "show",
+      "actor": "rei_rider",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "林冲が危険を知らず、草料場の管理を命じられる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "ここで局面が変わる。林冲が危険を知らず、草料場の管理を命じられる。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "忠義とは命令に従うだけではない。誤りを諫める勇気でもある。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "しかし諫める者にも覚悟が要る。言葉の後を引き受けられるか。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「耐えてきた善人が迫害の仕組みと決別する瞬間」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "引き受ける。黙って失うより、語って道を残したい。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "その覚悟なら聞こう。次の手を、具体的に示せ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "林冲が危険を知らず、草料場の管理を命じられる。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_rider"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "show",
+      "actor": "rei_rider",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "酒を買いに出た間に雪が強まり、小屋の屋根が潰れる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "ここで局面が変わる。酒を買いに出た間に雪が強まり、小屋の屋根が潰れる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "勝敗は刃が触れる前に始まっている。人の心を読め。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "威勢だけでは国は動かない。時、地、人の三つを量るのだ。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「耐えてきた善人が迫害の仕組みと決別する瞬間」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "ならば一歩退いて全体を見る。退くことも策のうちだ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "策は民を生かしてこそ価値がある。その筋を外すな。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "酒を買いに出た間に雪が強まり、小屋の屋根が潰れる。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_rider"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "bg",
+      "src": "fodder",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "fodder"
+    },
+    {
+      "op": "nar",
+      "text": "吹雪の草料場と崩れる小屋"
+    },
+    {
+      "op": "show",
+      "actor": "rei_rider",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "林冲が山神廟へ避難し、扉を大石で押さえる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "ここで局面が変わる。林冲が山神廟へ避難し、扉を大石で押さえる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "忠義とは命令に従うだけではない。誤りを諫める勇気でもある。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "しかし諫める者にも覚悟が要る。言葉の後を引き受けられるか。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「耐えてきた善人が迫害の仕組みと決別する瞬間」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "引き受ける。黙って失うより、語って道を残したい。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "その覚悟なら聞こう。次の手を、具体的に示せ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "林冲が山神廟へ避難し、扉を大石で押さえる。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_rider"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "show",
+      "actor": "nibulus",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "iwao",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "追手が草料場へ火を放ち、林冲の死を確信する。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "ここで局面が変わる。追手が草料場へ火を放ち、林冲の死を確信する。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "勝敗は刃が触れる前に始まっている。人の心を読め。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "威勢だけでは国は動かない。時、地、人の三つを量るのだ。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「耐えてきた善人が迫害の仕組みと決別する瞬間」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "ならば一歩退いて全体を見る。退くことも策のうちだ。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "策は民を生かしてこそ価値がある。その筋を外すな。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "追手が草料場へ火を放ち、林冲の死を確信する。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "nibulus"
+    },
+    {
+      "op": "hide",
+      "actor": "iwao"
+    },
+    {
+      "op": "show",
+      "actor": "rei_rider",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "nibulus",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "扉越しに、自分を都から追った一連の陰謀を聞く。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "ここで局面が変わる。扉越しに、自分を都から追った一連の陰謀を聞く。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "忠義とは命令に従うだけではない。誤りを諫める勇気でもある。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "しかし諫める者にも覚悟が要る。言葉の後を引き受けられるか。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「耐えてきた善人が迫害の仕組みと決別する瞬間」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "引き受ける。黙って失うより、語って道を残したい。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "その覚悟なら聞こう。次の手を、具体的に示せ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "扉越しに、自分を都から追った一連の陰謀を聞く。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_rider"
+    },
+    {
+      "op": "hide",
+      "actor": "nibulus"
+    },
+    {
+      "op": "bg",
+      "src": "temple",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "temple"
+    },
+    {
+      "op": "nar",
+      "text": "火光が差す雪夜の山神廟"
+    },
+    {
+      "op": "show",
+      "actor": "rei_rider",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "林冲が廟から現れ、役人へ公の法が誰を守ったか問う。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "ここで局面が変わる。林冲が廟から現れ、役人へ公の法が誰を守ったか問う。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "勝敗は刃が触れる前に始まっている。人の心を読め。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "威勢だけでは国は動かない。時、地、人の三つを量るのだ。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「耐えてきた善人が迫害の仕組みと決別する瞬間」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "ならば一歩退いて全体を見る。退くことも策のうちだ。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "策は民を生かしてこそ価値がある。その筋を外すな。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "林冲が廟から現れ、役人へ公の法が誰を守ったか問う。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_rider"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "show",
+      "actor": "rei_rider",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "nibulus",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "忍耐を利用した追手を倒し、戻る場所がないと悟る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "ここで局面が変わる。忍耐を利用した追手を倒し、戻る場所がないと悟る。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "忠義とは命令に従うだけではない。誤りを諫める勇気でもある。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "しかし諫める者にも覚悟が要る。言葉の後を引き受けられるか。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「耐えてきた善人が迫害の仕組みと決別する瞬間」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "引き受ける。黙って失うより、語って道を残したい。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "その覚悟なら聞こう。次の手を、具体的に示せ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "忍耐を利用した追手を倒し、戻る場所がないと悟る。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_rider"
+    },
+    {
+      "op": "hide",
+      "actor": "nibulus"
+    },
+    {
+      "op": "show",
+      "actor": "rei_rider",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "gou",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "雪明かりの道で魯智深の言葉を思い出し、梁山泊へ向かう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "ここで局面が変わる。雪明かりの道で魯智深の言葉を思い出し、梁山泊へ向かう。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "勝敗は刃が触れる前に始まっている。人の心を読め。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "威勢だけでは国は動かない。時、地、人の三つを量るのだ。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「耐えてきた善人が迫害の仕組みと決別する瞬間」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "ならば一歩退いて全体を見る。退くことも策のうちだ。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "策は民を生かしてこそ価値がある。その筋を外すな。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "雪明かりの道で魯智深の言葉を思い出し、梁山泊へ向かう。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_rider"
+    },
+    {
+      "op": "hide",
+      "actor": "gou"
+    },
+    {
+      "op": "bg",
+      "src": "temple"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "林冲は追手を倒し、体制へ戻る望みを捨てる。燃える草料場を背に、梁山泊へ続く道を選んだ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "長い旅の果てに残ったのは、「耐えてきた善人が迫害の仕組みと決別する瞬間」という問いでした。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "答えは一つではありません。けれど、登場人物たちの選択は消えません。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "『水滸伝・林冲風雪山神廟 ―雪夜の決別―』、これにて終幕。ありがとうございました。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

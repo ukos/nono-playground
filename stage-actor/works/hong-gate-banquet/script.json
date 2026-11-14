@@ -1,0 +1,1217 @@
+{
+  "meta": {
+    "id": "hong-gate-banquet",
+    "title": "史記・鴻門の会 ―杯の下の剣―",
+    "original": "『史記』項羽本紀「鴻門の会」（古典・著作権消滅）",
+    "adaptation": "moderate",
+    "format": "v3",
+    "minutes": 36,
+    "synopsis": "先に関中へ入った劉邦を項羽が疑い、鴻門の宴へ呼ぶ。范増は暗殺を促すが項羽は決断できず、項荘の剣舞を項伯が遮る。樊噲が乱入して劉邦を弁護し、劉邦は厠を口実に脱出する。",
+    "note": "本脚本は翻案であり、原作・現代訳の文章の転載ではない。セリフはすべて本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "虞美人／宴の侍女",
+      "actor": "rei_kimono",
+      "costume": "default"
+    },
+    {
+      "role": "項羽",
+      "actor": "iwao",
+      "costume": "default"
+    },
+    {
+      "role": "劉邦",
+      "actor": "yui",
+      "costume": "default"
+    },
+    {
+      "role": "范増",
+      "actor": "extra_elder",
+      "costume": "default"
+    },
+    {
+      "role": "張良",
+      "actor": "shiro",
+      "costume": "default"
+    },
+    {
+      "role": "樊噲",
+      "actor": "gou",
+      "costume": "default"
+    },
+    {
+      "role": "項伯",
+      "actor": "kurogane",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "camp": "bg/hongmen-camp-2048x1152.png",
+    "warning": "bg/night-warning-tent-2048x1152.png",
+    "banquet": "bg/hong-gate-banquet-hall-2048x1152.png",
+    "dance": "bg/sword-dance-floor-2048x1152.png",
+    "escape": "bg/hongmen-escape-road-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『史記・鴻門の会 ―杯の下の剣―』。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "宴席の杯、三度の合図、剣舞、乱入。会話の一言ごとに生死が動く密室政治劇です。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "今夜の核は「礼儀の下で進む暗殺計画と瞬時の政治判断」。急がず、長い物語としてお届けします。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "それでは開幕。役者たちの声と、場面の移ろいをお楽しみください。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "camp",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "camp"
+    },
+    {
+      "op": "nar",
+      "text": "楚軍の大陣営"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "iwao",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "范増が劉邦は天下を狙う相があると項羽へ進言する。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "ここで局面が変わる。范増が劉邦は天下を狙う相があると項羽へ進言する。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "勝敗は刃が触れる前に始まっている。人の心を読め。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "威勢だけでは国は動かない。時、地、人の三つを量るのだ。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「礼儀の下で進む暗殺計画と瞬時の政治判断」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "ならば一歩退いて全体を見る。退くことも策のうちだ。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "策は民を生かしてこそ価値がある。その筋を外すな。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "范増が劉邦は天下を狙う相があると項羽へ進言する。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "hide",
+      "actor": "iwao"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "項伯が旧友張良へ翌朝の攻撃を知らせる。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "ここで局面が変わる。項伯が旧友張良へ翌朝の攻撃を知らせる。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "忠義とは命令に従うだけではない。誤りを諫める勇気でもある。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "しかし諫める者にも覚悟が要る。言葉の後を引き受けられるか。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「礼儀の下で進む暗殺計画と瞬時の政治判断」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "引き受ける。黙って失うより、語って道を残したい。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "その覚悟なら聞こう。次の手を、具体的に示せ。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "項伯が旧友張良へ翌朝の攻撃を知らせる。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "張良が劉邦へ逃げずに釈明の宴へ行くよう勧める。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "ここで局面が変わる。張良が劉邦へ逃げずに釈明の宴へ行くよう勧める。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "勝敗は刃が触れる前に始まっている。人の心を読め。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "威勢だけでは国は動かない。時、地、人の三つを量るのだ。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「礼儀の下で進む暗殺計画と瞬時の政治判断」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "ならば一歩退いて全体を見る。退くことも策のうちだ。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "策は民を生かしてこそ価値がある。その筋を外すな。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "張良が劉邦へ逃げずに釈明の宴へ行くよう勧める。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "bg",
+      "src": "warning",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "warning"
+    },
+    {
+      "op": "nar",
+      "text": "項伯が密告する夜の幕舎"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "劉邦が項伯と婚姻の約束を結び、敵意を和らげようとする。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "ここで局面が変わる。劉邦が項伯と婚姻の約束を結び、敵意を和らげようとする。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "忠義とは命令に従うだけではない。誤りを諫める勇気でもある。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "しかし諫める者にも覚悟が要る。言葉の後を引き受けられるか。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「礼儀の下で進む暗殺計画と瞬時の政治判断」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "引き受ける。黙って失うより、語って道を残したい。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "その覚悟なら聞こう。次の手を、具体的に示せ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "劉邦が項伯と婚姻の約束を結び、敵意を和らげようとする。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "iwao",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "劉邦が関中を封鎖したのは項羽を待つためと謝罪する。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "ここで局面が変わる。劉邦が関中を封鎖したのは項羽を待つためと謝罪する。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "勝敗は刃が触れる前に始まっている。人の心を読め。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "威勢だけでは国は動かない。時、地、人の三つを量るのだ。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「礼儀の下で進む暗殺計画と瞬時の政治判断」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "ならば一歩退いて全体を見る。退くことも策のうちだ。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "策は民を生かしてこそ価値がある。その筋を外すな。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "劉邦が関中を封鎖したのは項羽を待つためと謝罪する。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "iwao"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "iwao",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "范増が玉飾りを三度掲げ、暗殺の合図を送る。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "ここで局面が変わる。范増が玉飾りを三度掲げ、暗殺の合図を送る。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "忠義とは命令に従うだけではない。誤りを諫める勇気でもある。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "しかし諫める者にも覚悟が要る。言葉の後を引き受けられるか。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「礼儀の下で進む暗殺計画と瞬時の政治判断」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "引き受ける。黙って失うより、語って道を残したい。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "その覚悟なら聞こう。次の手を、具体的に示せ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "范増が玉飾りを三度掲げ、暗殺の合図を送る。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "hide",
+      "actor": "iwao"
+    },
+    {
+      "op": "bg",
+      "src": "banquet",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "banquet"
+    },
+    {
+      "op": "nar",
+      "text": "席順が緊張を示す宴会場"
+    },
+    {
+      "op": "show",
+      "actor": "iwao",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "項羽が杯を置けず、合図を見ながら決断を先延ばしにする。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "ここで局面が変わる。項羽が杯を置けず、合図を見ながら決断を先延ばしにする。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "勝敗は刃が触れる前に始まっている。人の心を読め。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "威勢だけでは国は動かない。時、地、人の三つを量るのだ。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「礼儀の下で進む暗殺計画と瞬時の政治判断」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "ならば一歩退いて全体を見る。退くことも策のうちだ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "策は民を生かしてこそ価値がある。その筋を外すな。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "項羽が杯を置けず、合図を見ながら決断を先延ばしにする。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "iwao"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "范増が項荘へ剣舞を命じ、劉邦を斬らせようとする。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "ここで局面が変わる。范増が項荘へ剣舞を命じ、劉邦を斬らせようとする。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "忠義とは命令に従うだけではない。誤りを諫める勇気でもある。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "しかし諫める者にも覚悟が要る。言葉の後を引き受けられるか。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「礼儀の下で進む暗殺計画と瞬時の政治判断」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "引き受ける。黙って失うより、語って道を残したい。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "その覚悟なら聞こう。次の手を、具体的に示せ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "范増が項荘へ剣舞を命じ、劉邦を斬らせようとする。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "項伯が共に舞い、身を張って剣先を遮る。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "ここで局面が変わる。項伯が共に舞い、身を張って剣先を遮る。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "勝敗は刃が触れる前に始まっている。人の心を読め。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "威勢だけでは国は動かない。時、地、人の三つを量るのだ。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「礼儀の下で進む暗殺計画と瞬時の政治判断」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "ならば一歩退いて全体を見る。退くことも策のうちだ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "策は民を生かしてこそ価値がある。その筋を外すな。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "項伯が共に舞い、身を張って剣先を遮る。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "bg",
+      "src": "dance",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "dance"
+    },
+    {
+      "op": "nar",
+      "text": "剣舞のため空けた広間"
+    },
+    {
+      "op": "show",
+      "actor": "gou",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "iwao",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "樊噲が盾を持って宴へ乱入し、項羽を正面から見据える。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "ここで局面が変わる。樊噲が盾を持って宴へ乱入し、項羽を正面から見据える。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "忠義とは命令に従うだけではない。誤りを諫める勇気でもある。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "しかし諫める者にも覚悟が要る。言葉の後を引き受けられるか。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「礼儀の下で進む暗殺計画と瞬時の政治判断」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "引き受ける。黙って失うより、語って道を残したい。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "その覚悟なら聞こう。次の手を、具体的に示せ。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "樊噲が盾を持って宴へ乱入し、項羽を正面から見据える。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "gou"
+    },
+    {
+      "op": "hide",
+      "actor": "iwao"
+    },
+    {
+      "op": "show",
+      "actor": "gou",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "樊噲が秦を滅ぼした功を述べ、劉邦を殺す不義を諫める。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "ここで局面が変わる。樊噲が秦を滅ぼした功を述べ、劉邦を殺す不義を諫める。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "勝敗は刃が触れる前に始まっている。人の心を読め。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "威勢だけでは国は動かない。時、地、人の三つを量るのだ。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「礼儀の下で進む暗殺計画と瞬時の政治判断」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "ならば一歩退いて全体を見る。退くことも策のうちだ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "策は民を生かしてこそ価値がある。その筋を外すな。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "樊噲が秦を滅ぼした功を述べ、劉邦を殺す不義を諫める。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "gou"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "show",
+      "actor": "iwao",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "gou",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "項羽が樊噲の胆力を認め、酒と肉を与える。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "ここで局面が変わる。項羽が樊噲の胆力を認め、酒と肉を与える。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "忠義とは命令に従うだけではない。誤りを諫める勇気でもある。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "しかし諫める者にも覚悟が要る。言葉の後を引き受けられるか。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「礼儀の下で進む暗殺計画と瞬時の政治判断」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "引き受ける。黙って失うより、語って道を残したい。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "その覚悟なら聞こう。次の手を、具体的に示せ。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "項羽が樊噲の胆力を認め、酒と肉を与える。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "iwao"
+    },
+    {
+      "op": "hide",
+      "actor": "gou"
+    },
+    {
+      "op": "bg",
+      "src": "escape",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "escape"
+    },
+    {
+      "op": "nar",
+      "text": "馬を待たせた夜明け前の道"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "張良が危機は去っていないと見て、厠を口実に退出させる。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "ここで局面が変わる。張良が危機は去っていないと見て、厠を口実に退出させる。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "勝敗は刃が触れる前に始まっている。人の心を読め。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "威勢だけでは国は動かない。時、地、人の三つを量るのだ。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「礼儀の下で進む暗殺計画と瞬時の政治判断」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "ならば一歩退いて全体を見る。退くことも策のうちだ。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "策は民を生かしてこそ価値がある。その筋を外すな。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "張良が危機は去っていないと見て、厠を口実に退出させる。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "gou",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "劉邦が馬で脱出し、部下へ別路から陣へ戻るよう命じる。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "ここで局面が変わる。劉邦が馬で脱出し、部下へ別路から陣へ戻るよう命じる。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "忠義とは命令に従うだけではない。誤りを諫める勇気でもある。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "しかし諫める者にも覚悟が要る。言葉の後を引き受けられるか。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「礼儀の下で進む暗殺計画と瞬時の政治判断」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "引き受ける。黙って失うより、語って道を残したい。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "その覚悟なら聞こう。次の手を、具体的に示せ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "劉邦が馬で脱出し、部下へ別路から陣へ戻るよう命じる。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "gou"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "張良の贈り物を見た范増が玉斗を砕き、好機の喪失を嘆く。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "ここで局面が変わる。張良の贈り物を見た范増が玉斗を砕き、好機の喪失を嘆く。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "勝敗は刃が触れる前に始まっている。人の心を読め。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "威勢だけでは国は動かない。時、地、人の三つを量るのだ。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「礼儀の下で進む暗殺計画と瞬時の政治判断」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "ならば一歩退いて全体を見る。退くことも策のうちだ。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "策は民を生かしてこそ価値がある。その筋を外すな。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "張良の贈り物を見た范増が玉斗を砕き、好機の喪失を嘆く。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "bg",
+      "src": "escape"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "劉邦は逃れ、張良が贈り物を届ける。范増は玉斗を砕き、決断できない項羽の未来を嘆いた。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "長い旅の果てに残ったのは、「礼儀の下で進む暗殺計画と瞬時の政治判断」という問いでした。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "答えは一つではありません。けれど、登場人物たちの選択は消えません。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "『史記・鴻門の会 ―杯の下の剣―』、これにて終幕。ありがとうございました。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

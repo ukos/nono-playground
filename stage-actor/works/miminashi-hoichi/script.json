@@ -1,0 +1,1201 @@
+{
+  "meta": {
+    "id": "miminashi-hoichi",
+    "title": "耳無芳一の話 ―見えない御殿―",
+    "original": "小泉八雲『怪談』所収「耳無芳一の話」（著作権消滅）",
+    "adaptation": "moderate",
+    "format": "v3",
+    "minutes": 30,
+    "synopsis": "阿弥陀寺の芳一は、武者に招かれ高貴な聴衆へ平家物語を弾く。住職が跡を追うと、芳一は墓地で亡霊に囲まれていた。全身へ経文を書くが耳だけが漏れ、亡霊に両耳を奪われる。",
+    "note": "本脚本は翻案であり、原作・現代訳の文章の転載ではない。セリフはすべて本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "芳一",
+      "actor": "rei_kimono",
+      "costume": "default"
+    },
+    {
+      "role": "住職",
+      "actor": "extra_elder",
+      "costume": "default"
+    },
+    {
+      "role": "武者の亡霊",
+      "actor": "kurogane",
+      "costume": "default"
+    },
+    {
+      "role": "平家の姫君",
+      "actor": "mei",
+      "costume": "default"
+    },
+    {
+      "role": "寺男",
+      "actor": "extra_villager",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "temple": "bg/amidaji-temple-2048x1152.png",
+    "ghost-road": "bg/ghost-procession-road-2048x1152.png",
+    "hall": "bg/phantom-palace-hall-2048x1152.png",
+    "cemetery": "bg/heike-cemetery-2048x1152.png",
+    "sutra-room": "bg/sutra-inscription-room-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『耳無芳一の話 ―見えない御殿―』。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "盲目の琵琶法師・芳一は、毎夜、誰もいないはずの墓地で平家の亡霊へ壇ノ浦を語ります。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "今夜の核は「語りが死者の記憶を呼び戻すこと」。急がず、長い物語としてお届けします。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "それでは開幕。役者たちの声と、場面の移ろいをお楽しみください。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "temple",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "temple"
+    },
+    {
+      "op": "nar",
+      "text": "夜の阿弥陀寺、本堂と縁側"
+    },
+    {
+      "op": "show",
+      "actor": "rei_kimono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "盲目の芳一は阿弥陀寺で平家物語を琵琶にのせて暮らす。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "目に見えなくても、波の音と人の息で壇ノ浦は立ち上がります。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "その力を誇るより、語りを求める者の心をよく見なさい。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "その選び方に、その人が何を大切にするかが現れる。",
+      "eyes": "joy"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「語りが死者の記憶を呼び戻すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "ならば、言葉と行いが離れないように見届けよう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "盲目の芳一は阿弥陀寺で平家物語を琵琶にのせて暮らす。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_kimono"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_kimono",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "深夜、甲冑の武者が現れ、高貴な方の御前へ芳一を招く。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "我が主が、お前の琵琶を望んでいる。支度して参れ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "夜更けの招きでも、物語を待つ方がいるなら参りましょう。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「語りが死者の記憶を呼び戻すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "その一歩が、失われたものを無駄にしない道になる。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "深夜、甲冑の武者が現れ、高貴な方の御前へ芳一を招く。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_kimono"
+    },
+    {
+      "op": "show",
+      "actor": "rei_kimono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "芳一は武者の袖につかまり、長い道を御殿だと感じる場所へ進む。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "石畳の響き、門の軋み、大勢の衣擦れ。立派な御殿なのですね。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "問うな。お前はただ、最も悲しい段を心を尽くして語れ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "その選び方に、その人が何を大切にするかが現れる。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「語りが死者の記憶を呼び戻すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "ならば、言葉と行いが離れないように見届けよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "芳一は武者の袖につかまり、長い道を御殿だと感じる場所へ進む。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_kimono"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "bg",
+      "src": "ghost-road",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "ghost-road"
+    },
+    {
+      "op": "nar",
+      "text": "月下の参道と見えない行列の気配"
+    },
+    {
+      "op": "show",
+      "actor": "mei",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_kimono",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "見えない姫君は、壇ノ浦と幼帝の最期を所望する。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "あの日を、勝者の記録ではなく、沈んだ者の心から語ってください。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "では、波に残った名を一つずつ、琵琶の音へ戻します。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「語りが死者の記憶を呼び戻すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "その一歩が、失われたものを無駄にしない道になる。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "見えない姫君は、壇ノ浦と幼帝の最期を所望する。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "hide",
+      "actor": "mei"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_kimono"
+    },
+    {
+      "op": "show",
+      "actor": "rei_kimono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "mei",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "芳一の演奏に、亡霊たちは声を殺して涙する。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "海は敵も味方も同じように呑みました。その無情を忘れません。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "あなたの音だけが、沈んだ私たちへ今も岸を見せてくれます。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "その選び方に、その人が何を大切にするかが現れる。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「語りが死者の記憶を呼び戻すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "ならば、言葉と行いが離れないように見届けよう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "芳一の演奏に、亡霊たちは声を殺して涙する。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_kimono"
+    },
+    {
+      "op": "hide",
+      "actor": "mei"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_villager",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "芳一の夜ごとの不在に気づいた住職は、寺男へ後を追わせる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "寝床は空だ。芳一は誰かに呼ばれている。足音を見失うな。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "承知しました。けれど境内の外へ、武者の影が続いています。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「語りが死者の記憶を呼び戻すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "その一歩が、失われたものを無駄にしない道になる。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "芳一の夜ごとの不在に気づいた住職は、寺男へ後を追わせる。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_villager"
+    },
+    {
+      "op": "bg",
+      "src": "hall",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "hall"
+    },
+    {
+      "op": "nar",
+      "text": "芳一が感じる平家の御殿"
+    },
+    {
+      "op": "show",
+      "actor": "extra_villager",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_kimono",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "寺男は墓地で、墓石に向かい琵琶を弾く芳一を発見する。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "芳一さん、そこは御殿ではない！ 墓と鬼火に囲まれている！"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "何を言うのです。姫君も武者も、こんなに静かに聴いている。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "その選び方に、その人が何を大切にするかが現れる。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「語りが死者の記憶を呼び戻すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "ならば、言葉と行いが離れないように見届けよう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "寺男は墓地で、墓石に向かい琵琶を弾く芳一を発見する。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "surprise",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_villager"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_kimono"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_kimono",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "寺へ連れ戻された芳一は、亡霊との約束を破れないと訴える。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "あの方々は忘れられる痛みに苦しんでいます。今夜も待っている。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "同情は尊い。だが、生きたお前まで連れて行かれてはならない。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「語りが死者の記憶を呼び戻すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "その一歩が、失われたものを無駄にしない道になる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "寺へ連れ戻された芳一は、亡霊との約束を破れないと訴える。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_kimono"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_villager",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "住職は芳一の全身へ般若心経を書き、亡霊から隠そうとする。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "指の先から足の裏まで、一寸も白い所を残してはいけない。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "灯りを近づけます。肩、背、胸、脚――確かめながら書きます。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "その選び方に、その人が何を大切にするかが現れる。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「語りが死者の記憶を呼び戻すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "ならば、言葉と行いが離れないように見届けよう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "住職は芳一の全身へ般若心経を書き、亡霊から隠そうとする。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_villager"
+    },
+    {
+      "op": "bg",
+      "src": "cemetery",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "cemetery"
+    },
+    {
+      "op": "nar",
+      "text": "安徳天皇陵を含む墓地、青い鬼火"
+    },
+    {
+      "op": "show",
+      "actor": "rei_kimono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "経文をまとった芳一は、物音を立てず縁側で武者を待つ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "語りたい心を抑える方が、琵琶を弾くより難しいのですね。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "今夜だけ耐えなさい。沈黙が、お前の命を守る演奏になる。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「語りが死者の記憶を呼び戻すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "その一歩が、失われたものを無駄にしない道になる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "経文をまとった芳一は、物音を立てず縁側で武者を待つ。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_kimono"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_kimono",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "亡霊の武者には芳一の姿が見えず、宙に二つの耳だけが見える。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "芳一はおらぬ。だが、耳だけがここにあるとはどういうことだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "声を出してはいけない。痛みが来ても、夜明けまで耐える。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "その選び方に、その人が何を大切にするかが現れる。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「語りが死者の記憶を呼び戻すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "ならば、言葉と行いが離れないように見届けよう。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "亡霊の武者には芳一の姿が見えず、宙に二つの耳だけが見える。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "命令の証として、武者は芳一の両耳を引きちぎり持ち去る。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "せめて、この耳を主へ届けよう。使者が怠ったと思われぬために。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "語りを奪わないでください。耳を失っても、私は覚えています。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「語りが死者の記憶を呼び戻すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "その一歩が、失われたものを無駄にしない道になる。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "命令の証として、武者は芳一の両耳を引きちぎり持ち去る。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_kimono"
+    },
+    {
+      "op": "bg",
+      "src": "sutra-room",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "sutra-room"
+    },
+    {
+      "op": "nar",
+      "text": "経文を書く寺の一室、暁前"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_kimono",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "住職は耳を書き忘れたことを悔い、芳一の傷を手当てする。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "私の落ち度だ。守ると言いながら、最も大切な所を残した。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "生きています。ならば、この痛みも物語の一部として抱えます。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "その選び方に、その人が何を大切にするかが現れる。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「語りが死者の記憶を呼び戻すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "ならば、言葉と行いが離れないように見届けよう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "住職は耳を書き忘れたことを悔い、芳一の傷を手当てする。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_kimono"
+    },
+    {
+      "op": "show",
+      "actor": "rei_kimono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "mei",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "芳一は夢の中で姫君へ別れを告げ、語りを続けると誓う。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "毎夜は参れません。でも、皆さんの名を生者へ語り継ぎます。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "それでよいのです。忘却より、正しく思い出される方を望みます。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「語りが死者の記憶を呼び戻すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "その一歩が、失われたものを無駄にしない道になる。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "芳一は夢の中で姫君へ別れを告げ、語りを続けると誓う。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_kimono"
+    },
+    {
+      "op": "hide",
+      "actor": "mei"
+    },
+    {
+      "op": "show",
+      "actor": "rei_kimono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "名声を得た芳一は、見世物ではなく鎮魂として琵琶を弾く。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "人は私の耳を見に来る。でも帰る時には、平家の名を持ち帰る。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "ならば傷は好奇心で終わらない。語りが記憶の橋になる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "その選び方に、その人が何を大切にするかが現れる。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「語りが死者の記憶を呼び戻すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "ならば、言葉と行いが離れないように見届けよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "名声を得た芳一は、見世物ではなく鎮魂として琵琶を弾く。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_kimono"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "bg",
+      "src": "sutra-room"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "芳一は傷を生き延び、耳無芳一と呼ばれながら、死者と生者の双方へ記憶を語り続けた。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "長い旅の果てに残ったのは、「語りが死者の記憶を呼び戻すこと」という問いでした。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "答えは一つではありません。けれど、登場人物たちの選択は消えません。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "『耳無芳一の話 ―見えない御殿―』、これにて終幕。ありがとうございました。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

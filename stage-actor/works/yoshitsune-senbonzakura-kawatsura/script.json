@@ -1,0 +1,1217 @@
+{
+  "meta": {
+    "id": "yoshitsune-senbonzakura-kawatsura",
+    "title": "義経千本桜・河連法眼館 ―狐忠信―",
+    "original": "人形浄瑠璃・歌舞伎『義経千本桜』河連法眼館の段（伝統演目）",
+    "adaptation": "moderate",
+    "format": "v3",
+    "minutes": 33,
+    "synopsis": "吉野の河連法眼館に身を寄せる義経のもとへ、静御前と忠信が到着する。しかし本物の佐藤忠信は同行を否定。偽の忠信は、初音の鼓の皮となった親狐を慕う狐の子だった。",
+    "note": "本脚本は翻案であり、原作・現代訳の文章の転載ではない。セリフはすべて本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "静御前",
+      "actor": "rei_kimono",
+      "costume": "default"
+    },
+    {
+      "role": "源義経",
+      "actor": "yui",
+      "costume": "default"
+    },
+    {
+      "role": "狐忠信",
+      "actor": "akane",
+      "costume": "default"
+    },
+    {
+      "role": "佐藤忠信",
+      "actor": "sasuke",
+      "costume": "default"
+    },
+    {
+      "role": "河連法眼",
+      "actor": "extra_elder",
+      "costume": "default"
+    },
+    {
+      "role": "追手の武者",
+      "actor": "kurogane",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "yoshino": "bg/yoshino-mountain-2048x1152.png",
+    "hall": "bg/kawatsura-hall-2048x1152.png",
+    "garden": "bg/drum-garden-2048x1152.png",
+    "reveal": "bg/fox-reveal-stage-2048x1152.png",
+    "dawn": "bg/yoshino-dawn-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『義経千本桜・河連法眼館 ―狐忠信―』。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "同じ忠信が二人。鼓の音に引かれて現れる狐の正体が、親子の別れを照らします。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "今夜の核は「親を慕う心と、姿を借りても失わない真心」。急がず、長い物語としてお届けします。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "それでは開幕。役者たちの声と、場面の移ろいをお楽しみください。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "yoshino",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "yoshino"
+    },
+    {
+      "op": "nar",
+      "text": "桜の名残と険しい吉野山"
+    },
+    {
+      "op": "show",
+      "actor": "rei_kimono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "akane",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "静御前は義経を追って吉野を進み、供の忠信を頼りにする。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "忠信殿、鼓を打つたび、あなたの足取りが近くなる気がします。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "その音は、私にとって命より懐かしい。どこへでもお供します。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "舞台の上では、沈黙も台詞だ。今の間を聞き逃すな。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "ならば次の一言は慎重に。剣より深く届くことがある。",
+      "eyes": "joy"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「親を慕う心と、姿を借りても失わない真心」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "恐れに台詞を渡さない。私自身の声で答える。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "よし。その答えが、次の幕の扉を開く。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "静御前は義経を追って吉野を進み、供の忠信を頼りにする。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_kimono"
+    },
+    {
+      "op": "hide",
+      "actor": "akane"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "義経は河連法眼館で、都からの追手を警戒している。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "世に背かれた身でも、忠義を尽くす者を疑いたくはない。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "疑いと用心は別です。お心を曇らせず、事実をお確かめください。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "誰もが役を演じている。だが、本心までは衣装で隠せない。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "本心を語るなら、代償も受け取らなくてはならない。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「親を慕う心と、姿を借りても失わない真心」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "代償から逃げずに語る。今は、それだけが誠実だ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "では聞こう。飾らない言葉が、どこまで届くか。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "義経は河連法眼館で、都からの追手を警戒している。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "show",
+      "actor": "rei_kimono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "静御前が忠信の働きを語ると、義経は褒美を与えようとする。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "この方がいなければ、私は山路を越えられませんでした。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "忠信、その働き、まことに見事。望みがあれば申してみよ。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "舞台の上では、沈黙も台詞だ。今の間を聞き逃すな。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "ならば次の一言は慎重に。剣より深く届くことがある。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「親を慕う心と、姿を借りても失わない真心」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "恐れに台詞を渡さない。私自身の声で答える。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "よし。その答えが、次の幕の扉を開く。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "静御前が忠信の働きを語ると、義経は褒美を与えようとする。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_kimono"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "bg",
+      "src": "hall",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "hall"
+    },
+    {
+      "op": "nar",
+      "text": "河連法眼館の広間"
+    },
+    {
+      "op": "show",
+      "actor": "sasuke",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "本物の佐藤忠信が現れ、静御前を護衛した覚えはないと答える。"
+    },
+    {
+      "op": "say",
+      "actor": "sasuke",
+      "text": "お呼びにより参上しました。されど静様へのお供はしておりません。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "ならば、あの忠信は誰だ。同じ名、同じ姿で何を望む。"
+    },
+    {
+      "op": "say",
+      "actor": "sasuke",
+      "text": "誰もが役を演じている。だが、本心までは衣装で隠せない。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "本心を語るなら、代償も受け取らなくてはならない。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「親を慕う心と、姿を借りても失わない真心」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "sasuke",
+      "text": "代償から逃げずに語る。今は、それだけが誠実だ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "では聞こう。飾らない言葉が、どこまで届くか。"
+    },
+    {
+      "op": "say",
+      "actor": "sasuke",
+      "text": "本物の佐藤忠信が現れ、静御前を護衛した覚えはないと答える。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "hide",
+      "actor": "sasuke"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "show",
+      "actor": "rei_kimono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "sasuke",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "静御前は二人の忠信の違いを、鼓への反応から見分けようとする。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "私の供は、この鼓を打つと必ず現れます。音に答えるのです。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "sasuke",
+      "text": "武士の私には、その鼓へ特別な覚えはございません。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "舞台の上では、沈黙も台詞だ。今の間を聞き逃すな。"
+    },
+    {
+      "op": "say",
+      "actor": "sasuke",
+      "text": "ならば次の一言は慎重に。剣より深く届くことがある。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「親を慕う心と、姿を借りても失わない真心」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "恐れに台詞を渡さない。私自身の声で答える。"
+    },
+    {
+      "op": "say",
+      "actor": "sasuke",
+      "text": "よし。その答えが、次の幕の扉を開く。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "静御前は二人の忠信の違いを、鼓への反応から見分けようとする。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "sasuke",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_kimono"
+    },
+    {
+      "op": "hide",
+      "actor": "sasuke"
+    },
+    {
+      "op": "show",
+      "actor": "rei_kimono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "akane",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "静御前が初音の鼓を打つと、狐忠信が庭へ姿を現す。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "忠信殿、隠れずに答えてください。あなたは何者なのです。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "偽るために近づいたのではありません。この音から離れられないのです。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "誰もが役を演じている。だが、本心までは衣装で隠せない。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "本心を語るなら、代償も受け取らなくてはならない。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「親を慕う心と、姿を借りても失わない真心」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "代償から逃げずに語る。今は、それだけが誠実だ。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "では聞こう。飾らない言葉が、どこまで届くか。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "静御前が初音の鼓を打つと、狐忠信が庭へ姿を現す。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_kimono"
+    },
+    {
+      "op": "hide",
+      "actor": "akane"
+    },
+    {
+      "op": "bg",
+      "src": "garden",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "garden"
+    },
+    {
+      "op": "nar",
+      "text": "初音の鼓が響く月夜の庭"
+    },
+    {
+      "op": "show",
+      "actor": "akane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "狐忠信は人の姿を借りたことを詫び、裁きを受ける覚悟を示す。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "姿を盗んだ罪は承知しています。ただ、鼓のそばにいたかった。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "理由を聞かずに斬ることはしない。鼓との縁を語れ。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "舞台の上では、沈黙も台詞だ。今の間を聞き逃すな。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "ならば次の一言は慎重に。剣より深く届くことがある。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「親を慕う心と、姿を借りても失わない真心」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "恐れに台詞を渡さない。私自身の声で答える。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "よし。その答えが、次の幕の扉を開く。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "狐忠信は人の姿を借りたことを詫び、裁きを受ける覚悟を示す。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "surprise",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "akane"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "show",
+      "actor": "akane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_kimono",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "狐忠信は鼓の皮が、自分の父母の狐から作られたと明かす。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "この鼓の表と裏は、私を育てた父と母。その声が鳴るのです。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "だから打つたび、あなたは遠くからでも駆けつけたのですね。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "誰もが役を演じている。だが、本心までは衣装で隠せない。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "本心を語るなら、代償も受け取らなくてはならない。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「親を慕う心と、姿を借りても失わない真心」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "代償から逃げずに語る。今は、それだけが誠実だ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "では聞こう。飾らない言葉が、どこまで届くか。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "狐忠信は鼓の皮が、自分の父母の狐から作られたと明かす。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "anger",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "akane"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_kimono"
+    },
+    {
+      "op": "show",
+      "actor": "akane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "sasuke",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "狐忠信は、本物の忠信の忠義を敬い、その姿を借りたと説明する。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "義経様を守る忠信殿なら、私も鼓を守りながら役に立てると思った。"
+    },
+    {
+      "op": "say",
+      "actor": "sasuke",
+      "text": "姿は借りても、働きまで偽りではなかった。その心は受け取る。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "舞台の上では、沈黙も台詞だ。今の間を聞き逃すな。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "sasuke",
+      "text": "ならば次の一言は慎重に。剣より深く届くことがある。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「親を慕う心と、姿を借りても失わない真心」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "恐れに台詞を渡さない。私自身の声で答える。"
+    },
+    {
+      "op": "say",
+      "actor": "sasuke",
+      "text": "よし。その答えが、次の幕の扉を開く。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "狐忠信は、本物の忠信の忠義を敬い、その姿を借りたと説明する。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "sasuke",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "hide",
+      "actor": "akane"
+    },
+    {
+      "op": "hide",
+      "actor": "sasuke"
+    },
+    {
+      "op": "bg",
+      "src": "reveal",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "reveal"
+    },
+    {
+      "op": "nar",
+      "text": "狐忠信が正体を明かす幻想の舞台"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "akane",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "義経は自らも父を早く失った身として、狐の思いへ心を寄せる。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "親を慕う心に、人と獣の隔てはない。私にも、その痛みは分かる。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "そのお言葉だけで、長く隠してきた心がほどけます。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "誰もが役を演じている。だが、本心までは衣装で隠せない。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "本心を語るなら、代償も受け取らなくてはならない。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「親を慕う心と、姿を借りても失わない真心」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "代償から逃げずに語る。今は、それだけが誠実だ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "では聞こう。飾らない言葉が、どこまで届くか。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "義経は自らも父を早く失った身として、狐の思いへ心を寄せる。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "義経は初音の鼓を狐忠信へ与えると告げる。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "この鼓はお前のものだ。親の声を、もう誰にも奪わせぬ。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "もったいない御慈悲。父母の音と共に、必ず御恩を返します。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "舞台の上では、沈黙も台詞だ。今の間を聞き逃すな。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "ならば次の一言は慎重に。剣より深く届くことがある。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「親を慕う心と、姿を借りても失わない真心」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "恐れに台詞を渡さない。私自身の声で答える。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "よし。その答えが、次の幕の扉を開く。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "義経は初音の鼓を狐忠信へ与えると告げる。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "akane"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "sasuke",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "追手の武者が館を包囲し、本物の忠信が迎え撃つ。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "館を囲んだ。義経を渡せば、ほかの者は見逃そう。"
+    },
+    {
+      "op": "say",
+      "actor": "sasuke",
+      "text": "忠義を値切るな。ここを通るなら、私の覚悟を越えて来い。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "誰もが役を演じている。だが、本心までは衣装で隠せない。"
+    },
+    {
+      "op": "say",
+      "actor": "sasuke",
+      "text": "本心を語るなら、代償も受け取らなくてはならない。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「親を慕う心と、姿を借りても失わない真心」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "代償から逃げずに語る。今は、それだけが誠実だ。"
+    },
+    {
+      "op": "say",
+      "actor": "sasuke",
+      "text": "では聞こう。飾らない言葉が、どこまで届くか。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "追手の武者が館を包囲し、本物の忠信が迎え撃つ。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "sasuke",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "hide",
+      "actor": "sasuke"
+    },
+    {
+      "op": "bg",
+      "src": "dawn",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "dawn"
+    },
+    {
+      "op": "nar",
+      "text": "追手を退けた吉野の暁"
+    },
+    {
+      "op": "show",
+      "actor": "akane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "狐忠信は幻と素早い動きで追手を惑わせ、義経を守る。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "山の影よ、桜の風よ、父母の鼓へ力を貸しておくれ。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "敵が一人にも十人にも見える。陣形を保て、惑わされるな！"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "舞台の上では、沈黙も台詞だ。今の間を聞き逃すな。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "ならば次の一言は慎重に。剣より深く届くことがある。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「親を慕う心と、姿を借りても失わない真心」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "恐れに台詞を渡さない。私自身の声で答える。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "よし。その答えが、次の幕の扉を開く。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "狐忠信は幻と素早い動きで追手を惑わせ、義経を守る。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "akane"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "show",
+      "actor": "rei_kimono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "akane",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "戦いの後、静御前は狐忠信へ別れの鼓を一打する。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "これは呼び戻す音ではなく、旅立ちを送る音です。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "ありがとう。今度は姿を借りず、自分の名でこの音に答えます。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "誰もが役を演じている。だが、本心までは衣装で隠せない。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "本心を語るなら、代償も受け取らなくてはならない。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「親を慕う心と、姿を借りても失わない真心」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "代償から逃げずに語る。今は、それだけが誠実だ。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "では聞こう。飾らない言葉が、どこまで届くか。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "戦いの後、静御前は狐忠信へ別れの鼓を一打する。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_kimono"
+    },
+    {
+      "op": "hide",
+      "actor": "akane"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "akane",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "夜明け、狐忠信は鼓を抱き、親の声と共に山へ消える。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "忠信の名も狐の名も、どちらもお前の真心を伝えるだろう。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "御前の道が開けるまで、見えない所からお守りします。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "舞台の上では、沈黙も台詞だ。今の間を聞き逃すな。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "ならば次の一言は慎重に。剣より深く届くことがある。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「親を慕う心と、姿を借りても失わない真心」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "恐れに台詞を渡さない。私自身の声で答える。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "よし。その答えが、次の幕の扉を開く。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "夜明け、狐忠信は鼓を抱き、親の声と共に山へ消える。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "akane"
+    },
+    {
+      "op": "bg",
+      "src": "dawn"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "義経は狐忠信へ初音の鼓を与える。親の音を胸に、狐は義経を守って姿を消した。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "長い旅の果てに残ったのは、「親を慕う心と、姿を借りても失わない真心」という問いでした。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "答えは一つではありません。けれど、登場人物たちの選択は消えません。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "『義経千本桜・河連法眼館 ―狐忠信―』、これにて終幕。ありがとうございました。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

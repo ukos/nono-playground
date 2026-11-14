@@ -1,0 +1,1223 @@
+{
+  "meta": {
+    "id": "the-mysterious-island",
+    "title": "神秘の島 ―見えない救い手―",
+    "original": "Jules Verne, L'Île mystérieuse（原典著作権消滅）",
+    "adaptation": "moderate",
+    "format": "v3",
+    "minutes": 48,
+    "synopsis": "南北戦争中、サイラス・スミスらは気球で脱出しリンカーン島へ漂着。火、道具、農業、電信を一から作るが、弾丸や道具箱など謎の助けが現れる。やがて瀕死のネモ船長とノーチラス号を発見する。",
+    "note": "Jules Verneの1874-75年フランス語原典を基礎に新規脚本化。Project Gutenberg掲載原典を確認し、現代日本語訳は使用していない。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "サイラス・スミス",
+      "actor": "rei_trackcape",
+      "costume": "default"
+    },
+    {
+      "role": "ギデオン・スピレット",
+      "actor": "nono_whitecat",
+      "costume": "default"
+    },
+    {
+      "role": "ペンクロフ",
+      "actor": "gou",
+      "costume": "default"
+    },
+    {
+      "role": "ハーバート",
+      "actor": "shiro",
+      "costume": "default"
+    },
+    {
+      "role": "エアトン",
+      "actor": "kurogane",
+      "costume": "default"
+    },
+    {
+      "role": "ネモ船長",
+      "actor": "extra_wizard",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "storm": "bg/balloon-storm-2048x1152.png",
+    "granite": "bg/granite-house-2048x1152.png",
+    "island": "bg/lincoln-island-map-2048x1152.png",
+    "nautilus": "bg/nautilus-cavern-2048x1152.png",
+    "eruption": "bg/lincoln-island-eruption-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『神秘の島 ―見えない救い手―』。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "気球で脱出した五人は無人島へ漂着し、科学と協力で新しい暮らしを築きます。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "今夜の核は「知識を共同体の生活へ変え、見えない助けにも依存しすぎないこと」。急がず、長い物語としてお届けします。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "それでは開幕。役者たちの声と、場面の移ろいをお楽しみください。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "storm",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "storm"
+    },
+    {
+      "op": "nar",
+      "text": "暴風に流される気球"
+    },
+    {
+      "op": "show",
+      "actor": "rei_trackcape",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "gou",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "五人が包囲された町から気球で脱出し、嵐へ巻き込まれる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "この出来事から目をそらさない。五人が包囲された町から気球で脱出し、嵐へ巻き込まれる。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "その選び方に、その人が何を大切にするかが現れる。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「知識を共同体の生活へ変え、見えない助けにも依存しすぎないこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "ならば、言葉と行いが離れないように見届けよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "五人が包囲された町から気球で脱出し、嵐へ巻き込まれる。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_trackcape"
+    },
+    {
+      "op": "hide",
+      "actor": "gou"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_trackcape",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "島へ漂着するが、スミスだけが行方不明になる。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "この出来事から目をそらさない。島へ漂着するが、スミスだけが行方不明になる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「知識を共同体の生活へ変え、見えない助けにも依存しすぎないこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "その一歩が、失われたものを無駄にしない道になる。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "島へ漂着するが、スミスだけが行方不明になる。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_trackcape"
+    },
+    {
+      "op": "show",
+      "actor": "nono_whitecat",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_trackcape",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "洞窟で救われたスミスを発見し、見えない助けを疑う。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "この出来事から目をそらさない。洞窟で救われたスミスを発見し、見えない助けを疑う。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "その選び方に、その人が何を大切にするかが現れる。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「知識を共同体の生活へ変え、見えない助けにも依存しすぎないこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "ならば、言葉と行いが離れないように見届けよう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "洞窟で救われたスミスを発見し、見えない助けを疑う。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono_whitecat"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_trackcape"
+    },
+    {
+      "op": "bg",
+      "src": "granite",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "granite"
+    },
+    {
+      "op": "nar",
+      "text": "断崖の花崗岩の家と作業場"
+    },
+    {
+      "op": "show",
+      "actor": "rei_trackcape",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "gou",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "火と陶器、鉄、火薬を島の材料から作る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "この出来事から目をそらさない。火と陶器、鉄、火薬を島の材料から作る。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「知識を共同体の生活へ変え、見えない助けにも依存しすぎないこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "その一歩が、失われたものを無駄にしない道になる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "火と陶器、鉄、火薬を島の材料から作る。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_trackcape"
+    },
+    {
+      "op": "hide",
+      "actor": "gou"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "nono_whitecat",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "植物と動物を記録し、暮らしを計画へ変える。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "この出来事から目をそらさない。植物と動物を記録し、暮らしを計画へ変える。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "その選び方に、その人が何を大切にするかが現れる。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「知識を共同体の生活へ変え、見えない助けにも依存しすぎないこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "ならば、言葉と行いが離れないように見届けよう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "植物と動物を記録し、暮らしを計画へ変える。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "hide",
+      "actor": "nono_whitecat"
+    },
+    {
+      "op": "show",
+      "actor": "gou",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_trackcape",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "花崗岩の家を築き、農地と家畜を整える。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "この出来事から目をそらさない。花崗岩の家を築き、農地と家畜を整える。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「知識を共同体の生活へ変え、見えない助けにも依存しすぎないこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "その一歩が、失われたものを無駄にしない道になる。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "花崗岩の家を築き、農地と家畜を整える。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "gou"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_trackcape"
+    },
+    {
+      "op": "bg",
+      "src": "island",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "island"
+    },
+    {
+      "op": "nar",
+      "text": "山、湖、森、海岸のある島の俯瞰"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "近隣の島で孤立したエアトンを救い、共同体へ迎える。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "この出来事から目をそらさない。近隣の島で孤立したエアトンを救い、共同体へ迎える。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "その選び方に、その人が何を大切にするかが現れる。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「知識を共同体の生活へ変え、見えない助けにも依存しすぎないこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "ならば、言葉と行いが離れないように見届けよう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "近隣の島で孤立したエアトンを救い、共同体へ迎える。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "show",
+      "actor": "rei_trackcape",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "過去の罪を隠さず、働きで信頼を積み直す道を示す。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "この出来事から目をそらさない。過去の罪を隠さず、働きで信頼を積み直す道を示す。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「知識を共同体の生活へ変え、見えない助けにも依存しすぎないこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "その一歩が、失われたものを無駄にしない道になる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "過去の罪を隠さず、働きで信頼を積み直す道を示す。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_trackcape"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "show",
+      "actor": "nono_whitecat",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_trackcape",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "漂着しないはずの道具箱や弾丸から未知の恩人を推理する。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "この出来事から目をそらさない。漂着しないはずの道具箱や弾丸から未知の恩人を推理する。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "その選び方に、その人が何を大切にするかが現れる。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「知識を共同体の生活へ変え、見えない助けにも依存しすぎないこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "ならば、言葉と行いが離れないように見届けよう。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "漂着しないはずの道具箱や弾丸から未知の恩人を推理する。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "hide",
+      "actor": "nono_whitecat"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_trackcape"
+    },
+    {
+      "op": "bg",
+      "src": "nautilus",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "nautilus"
+    },
+    {
+      "op": "nar",
+      "text": "海蝕洞に眠るノーチラス号"
+    },
+    {
+      "op": "show",
+      "actor": "gou",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "海賊船の襲撃を島の地形と電信で防ぐ。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "この出来事から目をそらさない。海賊船の襲撃を島の地形と電信で防ぐ。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「知識を共同体の生活へ変え、見えない助けにも依存しすぎないこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "その一歩が、失われたものを無駄にしない道になる。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "海賊船の襲撃を島の地形と電信で防ぐ。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "gou"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "show",
+      "actor": "extra_wizard",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_trackcape",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "海蝕洞で老いたネモ船長とノーチラス号に出会う。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "この出来事から目をそらさない。海蝕洞で老いたネモ船長とノーチラス号に出会う。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "その選び方に、その人が何を大切にするかが現れる。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「知識を共同体の生活へ変え、見えない助けにも依存しすぎないこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "ならば、言葉と行いが離れないように見届けよう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "海蝕洞で老いたネモ船長とノーチラス号に出会う。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_wizard"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_trackcape"
+    },
+    {
+      "op": "show",
+      "actor": "extra_wizard",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "過去の戦いと孤独、密かな援助の理由を明かす。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "この出来事から目をそらさない。過去の戦いと孤独、密かな援助の理由を明かす。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「知識を共同体の生活へ変え、見えない助けにも依存しすぎないこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "その一歩が、失われたものを無駄にしない道になる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "過去の戦いと孤独、密かな援助の理由を明かす。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_wizard"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "bg",
+      "src": "eruption",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "eruption"
+    },
+    {
+      "op": "nar",
+      "text": "崩れる火山島と避難船"
+    },
+    {
+      "op": "show",
+      "actor": "rei_trackcape",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_wizard",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "知識を支配でなく共同体へ渡すという違いを語り合う。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "この出来事から目をそらさない。知識を支配でなく共同体へ渡すという違いを語り合う。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "その選び方に、その人が何を大切にするかが現れる。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「知識を共同体の生活へ変え、見えない助けにも依存しすぎないこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "ならば、言葉と行いが離れないように見届けよう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "知識を支配でなく共同体へ渡すという違いを語り合う。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_trackcape"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_wizard"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "gou",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "火山活動が激化し、建造中の船へ全員で物資を運ぶ。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "この出来事から目をそらさない。火山活動が激化し、建造中の船へ全員で物資を運ぶ。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「知識を共同体の生活へ変え、見えない助けにも依存しすぎないこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "その一歩が、失われたものを無駄にしない道になる。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "火山活動が激化し、建造中の船へ全員で物資を運ぶ。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "hide",
+      "actor": "gou"
+    },
+    {
+      "op": "show",
+      "actor": "rei_trackcape",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "nono_whitecat",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "島の崩壊から救助され、新天地へリンカーン島の名を残す。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "この出来事から目をそらさない。島の崩壊から救助され、新天地へリンカーン島の名を残す。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "その選び方に、その人が何を大切にするかが現れる。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「知識を共同体の生活へ変え、見えない助けにも依存しすぎないこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "ならば、言葉と行いが離れないように見届けよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "島の崩壊から救助され、新天地へリンカーン島の名を残す。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_trackcape"
+    },
+    {
+      "op": "hide",
+      "actor": "nono_whitecat"
+    },
+    {
+      "op": "bg",
+      "src": "eruption"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "火山噴火で島は沈むが、一行は救助される。新天地で島の名と共同体の経験を受け継ぐ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "長い旅の果てに残ったのは、「知識を共同体の生活へ変え、見えない助けにも依存しすぎないこと」という問いでした。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "答えは一つではありません。けれど、登場人物たちの選択は消えません。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "『神秘の島 ―見えない救い手―』、これにて終幕。ありがとうございました。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

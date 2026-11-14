@@ -1,0 +1,1235 @@
+{
+  "meta": {
+    "id": "death-of-baldr",
+    "title": "バルドルの死 ―ヤドリギの枝―",
+    "original": "『古エッダ』『スノッリのエッダ』バルドルの死（古典）",
+    "adaptation": "moderate",
+    "format": "v3",
+    "minutes": 36,
+    "synopsis": "死の夢に悩むバルドルを守るため、母フリッグは万物から誓いを得る。神々は彼へ物を投げて遊ぶが、ロキは誓いから漏れたヤドリギを知り、盲目のホズを利用する。バルドルは倒れる。",
+    "note": "本脚本は翻案であり、原作・現代訳の文章の転載ではない。セリフはすべて本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "フリッグ",
+      "actor": "rei_casual",
+      "costume": "default"
+    },
+    {
+      "role": "バルドル",
+      "actor": "yui",
+      "costume": "default"
+    },
+    {
+      "role": "ロキ",
+      "actor": "tanurio",
+      "costume": "default"
+    },
+    {
+      "role": "ホズ",
+      "actor": "shiro",
+      "costume": "default"
+    },
+    {
+      "role": "ヘル",
+      "actor": "extra_skeleton",
+      "costume": "default"
+    },
+    {
+      "role": "ヘルモーズ",
+      "actor": "hayate",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "dream": "bg/baldr-dream-hall-2048x1152.png",
+    "oaths": "bg/frigg-oath-journey-2048x1152.png",
+    "game": "bg/baldr-invulnerable-game-2048x1152.png",
+    "hel": "bg/hel-road-2048x1152.png",
+    "funeral": "bg/baldr-funeral-ship-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『バルドルの死 ―ヤドリギの枝―』。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "あらゆる物が傷つけないと誓った光の神へ、見落とされた小さなヤドリギだけが届きます。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "今夜の核は「害のないものという思い込みと、喪失を悼む共同体」。急がず、長い物語としてお届けします。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "それでは開幕。役者たちの声と、場面の移ろいをお楽しみください。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "dream",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "dream"
+    },
+    {
+      "op": "nar",
+      "text": "不吉な夢に沈む神殿"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "バルドルが自分の死を示す夢を母へ語る。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "私はこの出来事を見届けた。バルドルが自分の死を示す夢を母へ語る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "神々の言葉にも影がある。力が強いほど、責任も重くなる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "運命を知ることと、運命に従うことは同じではない。",
+      "eyes": "joy"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「害のないものという思い込みと、喪失を悼む共同体」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "選べる一歩が残る限り、私はその一歩を自分で決める。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "ならば進め。代償まで見届けてこそ、選択は完成する。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "バルドルが自分の死を示す夢を母へ語る。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "フリッグが火、水、石、病、獣から傷つけない誓いを得る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "私はこの出来事を見届けた。フリッグが火、水、石、病、獣から傷つけない誓いを得る。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "怪物の姿だけを見て、善悪を決めてはいけない。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "だが、恐れは理屈より速い。心を整える時間が必要だ。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「害のないものという思い込みと、喪失を悼む共同体」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "恐れを消せなくても、知恵と約束を手放さずに進める。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "知恵は弱さの言い訳ではない。命を守るための力だ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "フリッグが火、水、石、病、獣から傷つけない誓いを得る。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "tanurio",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "ロキが老女へ化け、誓いを求めなかった物を聞き出す。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "私はこの出来事を見届けた。ロキが老女へ化け、誓いを求めなかった物を聞き出す。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "神々の言葉にも影がある。力が強いほど、責任も重くなる。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "運命を知ることと、運命に従うことは同じではない。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「害のないものという思い込みと、喪失を悼む共同体」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "選べる一歩が残る限り、私はその一歩を自分で決める。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "ならば進め。代償まで見届けてこそ、選択は完成する。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "ロキが老女へ化け、誓いを求めなかった物を聞き出す。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "tanurio"
+    },
+    {
+      "op": "bg",
+      "src": "oaths",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "oaths"
+    },
+    {
+      "op": "nar",
+      "text": "万物へ誓いを求める世界樹の道"
+    },
+    {
+      "op": "show",
+      "actor": "tanurio",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "ロキが小さなヤドリギを切り、矢の形へ整える。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "私はこの出来事を見届けた。ロキが小さなヤドリギを切り、矢の形へ整える。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "怪物の姿だけを見て、善悪を決めてはいけない。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "だが、恐れは理屈より速い。心を整える時間が必要だ。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「害のないものという思い込みと、喪失を悼む共同体」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "恐れを消せなくても、知恵と約束を手放さずに進める。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "知恵は弱さの言い訳ではない。命を守るための力だ。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "ロキが小さなヤドリギを切り、矢の形へ整える。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "hide",
+      "actor": "tanurio"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "神々がバルドルへ武器を投げて無傷を喜ぶ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "私はこの出来事を見届けた。神々がバルドルへ武器を投げて無傷を喜ぶ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "神々の言葉にも影がある。力が強いほど、責任も重くなる。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "運命を知ることと、運命に従うことは同じではない。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「害のないものという思い込みと、喪失を悼む共同体」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "選べる一歩が残る限り、私はその一歩を自分で決める。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "ならば進め。代償まで見届けてこそ、選択は完成する。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "神々がバルドルへ武器を投げて無傷を喜ぶ。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "tanurio",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "盲目のホズが遊びに加われない寂しさをロキへ漏らす。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "私はこの出来事を見届けた。盲目のホズが遊びに加われない寂しさをロキへ漏らす。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "怪物の姿だけを見て、善悪を決めてはいけない。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "だが、恐れは理屈より速い。心を整える時間が必要だ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「害のないものという思い込みと、喪失を悼む共同体」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "恐れを消せなくても、知恵と約束を手放さずに進める。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "知恵は弱さの言い訳ではない。命を守るための力だ。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "盲目のホズが遊びに加われない寂しさをロキへ漏らす。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "hide",
+      "actor": "tanurio"
+    },
+    {
+      "op": "bg",
+      "src": "game",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "game"
+    },
+    {
+      "op": "nar",
+      "text": "神々の遊戯場"
+    },
+    {
+      "op": "show",
+      "actor": "tanurio",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "ロキが方向を教えると言い、ヤドリギをホズへ渡す。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "私はこの出来事を見届けた。ロキが方向を教えると言い、ヤドリギをホズへ渡す。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "神々の言葉にも影がある。力が強いほど、責任も重くなる。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "運命を知ることと、運命に従うことは同じではない。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「害のないものという思い込みと、喪失を悼む共同体」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "選べる一歩が残る限り、私はその一歩を自分で決める。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "ならば進め。代償まで見届けてこそ、選択は完成する。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "ロキが方向を教えると言い、ヤドリギをホズへ渡す。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "surprise",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "tanurio"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "投げられた枝がバルドルを貫き、遊戯場が静まる。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "私はこの出来事を見届けた。投げられた枝がバルドルを貫き、遊戯場が静まる。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "怪物の姿だけを見て、善悪を決めてはいけない。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "だが、恐れは理屈より速い。心を整える時間が必要だ。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「害のないものという思い込みと、喪失を悼む共同体」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "恐れを消せなくても、知恵と約束を手放さずに進める。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "知恵は弱さの言い訳ではない。命を守るための力だ。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "投げられた枝がバルドルを貫き、遊戯場が静まる。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "anger",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "フリッグがホズを責める前に、誰が枝を渡したかを問う。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "私はこの出来事を見届けた。フリッグがホズを責める前に、誰が枝を渡したかを問う。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "神々の言葉にも影がある。力が強いほど、責任も重くなる。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "運命を知ることと、運命に従うことは同じではない。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「害のないものという思い込みと、喪失を悼む共同体」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "選べる一歩が残る限り、私はその一歩を自分で決める。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "ならば進め。代償まで見届けてこそ、選択は完成する。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "フリッグがホズを責める前に、誰が枝を渡したかを問う。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "bg",
+      "src": "hel",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "hel"
+    },
+    {
+      "op": "nar",
+      "text": "九夜を走る冥界への道"
+    },
+    {
+      "op": "show",
+      "actor": "hayate",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "ヘルモーズがスレイプニルで九夜走り、冥界へ向かう。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "私はこの出来事を見届けた。ヘルモーズがスレイプニルで九夜走り、冥界へ向かう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "怪物の姿だけを見て、善悪を決めてはいけない。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "だが、恐れは理屈より速い。心を整える時間が必要だ。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「害のないものという思い込みと、喪失を悼む共同体」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "恐れを消せなくても、知恵と約束を手放さずに進める。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "知恵は弱さの言い訳ではない。命を守るための力だ。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "ヘルモーズがスレイプニルで九夜走り、冥界へ向かう。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "hide",
+      "actor": "hayate"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "show",
+      "actor": "extra_skeleton",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "hayate",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "ヘルが万物すべてが泣くならバルドルを返すと条件を出す。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_skeleton",
+      "text": "私はこの出来事を見届けた。ヘルが万物すべてが泣くならバルドルを返すと条件を出す。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_skeleton",
+      "text": "神々の言葉にも影がある。力が強いほど、責任も重くなる。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "運命を知ることと、運命に従うことは同じではない。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「害のないものという思い込みと、喪失を悼む共同体」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_skeleton",
+      "text": "選べる一歩が残る限り、私はその一歩を自分で決める。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "ならば進め。代償まで見届けてこそ、選択は完成する。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_skeleton",
+      "text": "ヘルが万物すべてが泣くならバルドルを返すと条件を出す。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_skeleton"
+    },
+    {
+      "op": "hide",
+      "actor": "hayate"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "tanurio",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "世界中のものが泣く中、女巨人セックだけが拒む。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "私はこの出来事を見届けた。世界中のものが泣く中、女巨人セックだけが拒む。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "怪物の姿だけを見て、善悪を決めてはいけない。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "だが、恐れは理屈より速い。心を整える時間が必要だ。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「害のないものという思い込みと、喪失を悼む共同体」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "恐れを消せなくても、知恵と約束を手放さずに進める。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "知恵は弱さの言い訳ではない。命を守るための力だ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "世界中のものが泣く中、女巨人セックだけが拒む。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "tanurio"
+    },
+    {
+      "op": "bg",
+      "src": "funeral",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "funeral"
+    },
+    {
+      "op": "nar",
+      "text": "夕日の葬送船"
+    },
+    {
+      "op": "show",
+      "actor": "tanurio",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_skeleton",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "セックの正体がロキだと暗示され、帰還の望みが閉じる。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "私はこの出来事を見届けた。セックの正体がロキだと暗示され、帰還の望みが閉じる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_skeleton",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "神々の言葉にも影がある。力が強いほど、責任も重くなる。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "extra_skeleton",
+      "text": "運命を知ることと、運命に従うことは同じではない。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「害のないものという思い込みと、喪失を悼む共同体」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "選べる一歩が残る限り、私はその一歩を自分で決める。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "extra_skeleton",
+      "text": "ならば進め。代償まで見届けてこそ、選択は完成する。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "セックの正体がロキだと暗示され、帰還の望みが閉じる。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "extra_skeleton",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "tanurio"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_skeleton"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "フリッグが息子を葬送船へ送り、喪失を共同体で受け止める。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "私はこの出来事を見届けた。フリッグが息子を葬送船へ送り、喪失を共同体で受け止める。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "怪物の姿だけを見て、善悪を決めてはいけない。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "だが、恐れは理屈より速い。心を整える時間が必要だ。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「害のないものという思い込みと、喪失を悼む共同体」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "恐れを消せなくても、知恵と約束を手放さずに進める。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "知恵は弱さの言い訳ではない。命を守るための力だ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "フリッグが息子を葬送船へ送り、喪失を共同体で受け止める。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "ホズが利用された責任と自分の手で投げた責任を抱える。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "私はこの出来事を見届けた。ホズが利用された責任と自分の手で投げた責任を抱える。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "神々の言葉にも影がある。力が強いほど、責任も重くなる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "運命を知ることと、運命に従うことは同じではない。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「害のないものという思い込みと、喪失を悼む共同体」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "選べる一歩が残る限り、私はその一歩を自分で決める。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "ならば進め。代償まで見届けてこそ、選択は完成する。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "ホズが利用された責任と自分の手で投げた責任を抱える。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "bg",
+      "src": "funeral"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ヘルは万物が泣けば返すと告げるが、ロキの変装した女巨人だけが拒む。葬送の火はラグナロクの前触れとなる。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "長い旅の果てに残ったのは、「害のないものという思い込みと、喪失を悼む共同体」という問いでした。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "答えは一つではありません。けれど、登場人物たちの選択は消えません。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "『バルドルの死 ―ヤドリギの枝―』、これにて終幕。ありがとうございました。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

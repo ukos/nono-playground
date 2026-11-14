@@ -1,0 +1,1229 @@
+{
+  "meta": {
+    "id": "ragnarok",
+    "title": "ラグナロク ―滅びの後の緑―",
+    "original": "『古エッダ』『スノッリのエッダ』ラグナロク（古典）",
+    "adaptation": "moderate",
+    "format": "v3",
+    "minutes": 44,
+    "synopsis": "フィンブルの冬の後、フェンリルとロキが縛めを破り、巨人と死者の船が進む。ヘイムダルが角笛を吹き、神々は最後の会議へ。オーディン、トール、フレイらは敵と相討ちになる。スルトの火が世界を覆う。",
+    "note": "本脚本は翻案であり、原作・現代訳の文章の転載ではない。セリフはすべて本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "生存者リーヴ",
+      "actor": "rei_casual",
+      "costume": "default"
+    },
+    {
+      "role": "オーディン",
+      "actor": "extra_elder",
+      "costume": "default"
+    },
+    {
+      "role": "トール",
+      "actor": "iwao",
+      "costume": "default"
+    },
+    {
+      "role": "ロキ",
+      "actor": "tanurio",
+      "costume": "default"
+    },
+    {
+      "role": "フェンリル",
+      "actor": "kurogane",
+      "costume": "default"
+    },
+    {
+      "role": "ヘイムダル",
+      "actor": "shiro",
+      "costume": "default"
+    },
+    {
+      "role": "スルト",
+      "actor": "homura",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "winter": "bg/fimbulwinter-2048x1152.png",
+    "break": "bg/bonds-breaking-2048x1152.png",
+    "bifrost": "bg/bifrost-last-march-2048x1152.png",
+    "battle": "bg/vigrid-final-battle-2048x1152.png",
+    "renewal": "bg/green-world-renewal-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『ラグナロク ―滅びの後の緑―』。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "冬が三度続き、狼の鎖が切れ、世界樹が震える。それでも神々は最後の持ち場へ向かいます。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "今夜の核は「終末を知っても戦う責任と、滅びの後に再生を残すこと」。急がず、長い物語としてお届けします。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "それでは開幕。役者たちの声と、場面の移ろいをお楽しみください。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "winter",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "winter"
+    },
+    {
+      "op": "nar",
+      "text": "三年続く雪と凍った集落"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "リーヴが長い冬に世界が終わるのかとオーディンへ問う。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "私はこの出来事を見届けた。リーヴが長い冬に世界が終わるのかとオーディンへ問う。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "神々の言葉にも影がある。力が強いほど、責任も重くなる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "運命を知ることと、運命に従うことは同じではない。",
+      "eyes": "joy"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「終末を知っても戦う責任と、滅びの後に再生を残すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "選べる一歩が残る限り、私はその一歩を自分で決める。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "ならば進め。代償まで見届けてこそ、選択は完成する。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "リーヴが長い冬に世界が終わるのかとオーディンへ問う。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "オーディンが最後の知恵を求め、ヘイムダルへ警戒を命じる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "私はこの出来事を見届けた。オーディンが最後の知恵を求め、ヘイムダルへ警戒を命じる。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "怪物の姿だけを見て、善悪を決めてはいけない。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "だが、恐れは理屈より速い。心を整える時間が必要だ。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「終末を知っても戦う責任と、滅びの後に再生を残すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "恐れを消せなくても、知恵と約束を手放さずに進める。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "知恵は弱さの言い訳ではない。命を守るための力だ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "オーディンが最後の知恵を求め、ヘイムダルへ警戒を命じる。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "tanurio",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "フェンリルとロキの縛めが地震で切れる。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "私はこの出来事を見届けた。フェンリルとロキの縛めが地震で切れる。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "神々の言葉にも影がある。力が強いほど、責任も重くなる。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "運命を知ることと、運命に従うことは同じではない。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「終末を知っても戦う責任と、滅びの後に再生を残すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "選べる一歩が残る限り、私はその一歩を自分で決める。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "ならば進め。代償まで見届けてこそ、選択は完成する。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "フェンリルとロキの縛めが地震で切れる。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "hide",
+      "actor": "tanurio"
+    },
+    {
+      "op": "bg",
+      "src": "break",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "break"
+    },
+    {
+      "op": "nar",
+      "text": "鎖と岩が砕け世界樹が揺れる野"
+    },
+    {
+      "op": "show",
+      "actor": "homura",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "tanurio",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "スルトの火の軍勢と死者の船が世界へ向かう。"
+    },
+    {
+      "op": "say",
+      "actor": "homura",
+      "text": "私はこの出来事を見届けた。スルトの火の軍勢と死者の船が世界へ向かう。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "homura",
+      "text": "怪物の姿だけを見て、善悪を決めてはいけない。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "だが、恐れは理屈より速い。心を整える時間が必要だ。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「終末を知っても戦う責任と、滅びの後に再生を残すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "homura",
+      "text": "恐れを消せなくても、知恵と約束を手放さずに進める。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "知恵は弱さの言い訳ではない。命を守るための力だ。"
+    },
+    {
+      "op": "say",
+      "actor": "homura",
+      "text": "スルトの火の軍勢と死者の船が世界へ向かう。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "hide",
+      "actor": "homura"
+    },
+    {
+      "op": "hide",
+      "actor": "tanurio"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "ヘイムダルがギャラルホルンを吹き、九つの世界へ告げる。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "私はこの出来事を見届けた。ヘイムダルがギャラルホルンを吹き、九つの世界へ告げる。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "神々の言葉にも影がある。力が強いほど、責任も重くなる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "運命を知ることと、運命に従うことは同じではない。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「終末を知っても戦う責任と、滅びの後に再生を残すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "選べる一歩が残る限り、私はその一歩を自分で決める。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "ならば進め。代償まで見届けてこそ、選択は完成する。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "ヘイムダルがギャラルホルンを吹き、九つの世界へ告げる。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "iwao",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "神々が最後の会議で、それぞれの敵と持ち場を確認する。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "私はこの出来事を見届けた。神々が最後の会議で、それぞれの敵と持ち場を確認する。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "怪物の姿だけを見て、善悪を決めてはいけない。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "だが、恐れは理屈より速い。心を整える時間が必要だ。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「終末を知っても戦う責任と、滅びの後に再生を残すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "恐れを消せなくても、知恵と約束を手放さずに進める。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "知恵は弱さの言い訳ではない。命を守るための力だ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "神々が最後の会議で、それぞれの敵と持ち場を確認する。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "hide",
+      "actor": "iwao"
+    },
+    {
+      "op": "bg",
+      "src": "bifrost",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "bifrost"
+    },
+    {
+      "op": "nar",
+      "text": "虹の橋へ進む軍勢"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "人間の生存者へ世界樹の森で身を守るよう伝える。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "私はこの出来事を見届けた。人間の生存者へ世界樹の森で身を守るよう伝える。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "神々の言葉にも影がある。力が強いほど、責任も重くなる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "運命を知ることと、運命に従うことは同じではない。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「終末を知っても戦う責任と、滅びの後に再生を残すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "選べる一歩が残る限り、私はその一歩を自分で決める。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "ならば進め。代償まで見届けてこそ、選択は完成する。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "人間の生存者へ世界樹の森で身を守るよう伝える。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "オーディンがフェンリルへ挑み、狼に呑まれる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "私はこの出来事を見届けた。オーディンがフェンリルへ挑み、狼に呑まれる。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "怪物の姿だけを見て、善悪を決めてはいけない。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "だが、恐れは理屈より速い。心を整える時間が必要だ。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「終末を知っても戦う責任と、滅びの後に再生を残すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "恐れを消せなくても、知恵と約束を手放さずに進める。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "知恵は弱さの言い訳ではない。命を守るための力だ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "オーディンがフェンリルへ挑み、狼に呑まれる。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "show",
+      "actor": "iwao",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "homura",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "トールがヨルムンガンドを倒し、毒で九歩後に倒れる。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "私はこの出来事を見届けた。トールがヨルムンガンドを倒し、毒で九歩後に倒れる。"
+    },
+    {
+      "op": "say",
+      "actor": "homura",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "神々の言葉にも影がある。力が強いほど、責任も重くなる。"
+    },
+    {
+      "op": "say",
+      "actor": "homura",
+      "text": "運命を知ることと、運命に従うことは同じではない。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「終末を知っても戦う責任と、滅びの後に再生を残すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "選べる一歩が残る限り、私はその一歩を自分で決める。"
+    },
+    {
+      "op": "say",
+      "actor": "homura",
+      "text": "ならば進め。代償まで見届けてこそ、選択は完成する。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "トールがヨルムンガンドを倒し、毒で九歩後に倒れる。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "homura",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "iwao"
+    },
+    {
+      "op": "hide",
+      "actor": "homura"
+    },
+    {
+      "op": "bg",
+      "src": "battle",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "battle"
+    },
+    {
+      "op": "nar",
+      "text": "ヴィーグリーズの最終戦場"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "tanurio",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "ヘイムダルとロキが互いの長い因縁を終える。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "私はこの出来事を見届けた。ヘイムダルとロキが互いの長い因縁を終える。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "怪物の姿だけを見て、善悪を決めてはいけない。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "だが、恐れは理屈より速い。心を整える時間が必要だ。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「終末を知っても戦う責任と、滅びの後に再生を残すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "恐れを消せなくても、知恵と約束を手放さずに進める。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "知恵は弱さの言い訳ではない。命を守るための力だ。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "ヘイムダルとロキが互いの長い因縁を終える。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "hide",
+      "actor": "tanurio"
+    },
+    {
+      "op": "show",
+      "actor": "homura",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "スルトの剣が空を焼き、世界が炎と海へ沈む。"
+    },
+    {
+      "op": "say",
+      "actor": "homura",
+      "text": "私はこの出来事を見届けた。スルトの剣が空を焼き、世界が炎と海へ沈む。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "homura",
+      "text": "神々の言葉にも影がある。力が強いほど、責任も重くなる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "運命を知ることと、運命に従うことは同じではない。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「終末を知っても戦う責任と、滅びの後に再生を残すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "homura",
+      "text": "選べる一歩が残る限り、私はその一歩を自分で決める。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "ならば進め。代償まで見届けてこそ、選択は完成する。"
+    },
+    {
+      "op": "say",
+      "actor": "homura",
+      "text": "スルトの剣が空を焼き、世界が炎と海へ沈む。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "homura"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "リーヴとリーヴスラシルが森で朝露を食べて生き延びる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "私はこの出来事を見届けた。リーヴとリーヴスラシルが森で朝露を食べて生き延びる。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "怪物の姿だけを見て、善悪を決めてはいけない。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "だが、恐れは理屈より速い。心を整える時間が必要だ。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「終末を知っても戦う責任と、滅びの後に再生を残すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "恐れを消せなくても、知恵と約束を手放さずに進める。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "知恵は弱さの言い訳ではない。命を守るための力だ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "リーヴとリーヴスラシルが森で朝露を食べて生き延びる。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "bg",
+      "src": "renewal",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "renewal"
+    },
+    {
+      "op": "nar",
+      "text": "海から現れる緑の大地"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "炎の後に海が静まり、緑の大地が再び現れる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "私はこの出来事を見届けた。炎の後に海が静まり、緑の大地が再び現れる。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "神々の言葉にも影がある。力が強いほど、責任も重くなる。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "運命を知ることと、運命に従うことは同じではない。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「終末を知っても戦う責任と、滅びの後に再生を残すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "選べる一歩が残る限り、私はその一歩を自分で決める。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "ならば進め。代償まで見届けてこそ、選択は完成する。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "炎の後に海が静まり、緑の大地が再び現れる。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "バルドルとホズが戻り、失われた神々の駒を草原で見つける。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "私はこの出来事を見届けた。バルドルとホズが戻り、失われた神々の駒を草原で見つける。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "怪物の姿だけを見て、善悪を決めてはいけない。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "だが、恐れは理屈より速い。心を整える時間が必要だ。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「終末を知っても戦う責任と、滅びの後に再生を残すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "恐れを消せなくても、知恵と約束を手放さずに進める。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "知恵は弱さの言い訳ではない。命を守るための力だ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "バルドルとホズが戻り、失われた神々の駒を草原で見つける。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "生存者が古い世界の失敗を語り、新しい共同体へ渡す。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "私はこの出来事を見届けた。生存者が古い世界の失敗を語り、新しい共同体へ渡す。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "神々の言葉にも影がある。力が強いほど、責任も重くなる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "運命を知ることと、運命に従うことは同じではない。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「終末を知っても戦う責任と、滅びの後に再生を残すこと」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "選べる一歩が残る限り、私はその一歩を自分で決める。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "ならば進め。代償まで見届けてこそ、選択は完成する。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "生存者が古い世界の失敗を語り、新しい共同体へ渡す。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "bg",
+      "src": "renewal"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "海から緑の大地が再び現れ、リーヴとリーヴスラシル、戻ったバルドルとホズが新しい時代を迎える。終末は終点でなく継承と…",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "長い旅の果てに残ったのは、「終末を知っても戦う責任と、滅びの後に再生を残すこと」という問いでした。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "答えは一つではありません。けれど、登場人物たちの選択は消えません。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "『ラグナロク ―滅びの後の緑―』、これにて終幕。ありがとうございました。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

@@ -1,0 +1,1150 @@
+{
+  "meta": {
+    "id": "ainu-fox-towa",
+    "title": "狐「トワトワト」",
+    "original": "知里幸惠編訳『アイヌ神謡集』所収（古典神謡）",
+    "adaptation": "faithful",
+    "format": "v3",
+    "minutes": 30,
+    "synopsis": "狐は石と木片の音を反復しながら海辺へ行く。遠くの糞の山と烏を鯨と祝う人々に見誤り、自分を罵る。次に岩と二羽の鵜を舟と悔やむ人に、川上では二つの簗を泣き合う女に見誤る。",
+    "note": "知里幸惠編訳『アイヌ神謡集』（1923年、著作権消滅）所収神謡の出来事・順序・語り手・結末を改変していない。台詞は制作ガイドに従い本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "狐",
+      "actor": "akane",
+      "costume": "default"
+    },
+    {
+      "role": "烏の群れ役",
+      "actor": "kogane",
+      "costume": "default"
+    },
+    {
+      "role": "二羽の鵜役",
+      "actor": "shiro",
+      "costume": "default"
+    },
+    {
+      "role": "見誤られた女の影",
+      "actor": "rei_casual",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "shore": "bg/towa-shore-path-2048x1152.png",
+    "false-whale": "bg/towa-false-whale-2048x1152.png",
+    "false-boat": "bg/towa-false-boat-2048x1152.png",
+    "upstream": "bg/towa-upstream-2048x1152.png",
+    "weirs": "bg/towa-two-weirs-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『狐「トワトワト」』。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "食べ物を探す狐は、糞の山を鯨に、岩と鵜を舟と人に、簗を泣く女たちに見間違えます。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "今夜の核は「見たいものに引かれて見誤る自分を、繰り返し省みること」。急がず、長い物語としてお届けします。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "それでは開幕。役者たちの声と、場面の移ろいをお楽しみください。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "shore",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "shore"
+    },
+    {
+      "op": "nar",
+      "text": "石と木片の音がする海辺の道"
+    },
+    {
+      "op": "show",
+      "actor": "akane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kogane",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "狐が食物を拾いに海辺へ出かけ、石と木片の音を歌う。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "私はこの出来事を見届けた。狐が食物を拾いに海辺へ出かけ、石と木片の音を歌う。"
+    },
+    {
+      "op": "say",
+      "actor": "kogane",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "見えたことを、そのまま順に語ろう。歌の道を変えないために。"
+    },
+    {
+      "op": "say",
+      "actor": "kogane",
+      "text": "出来事の姿を飾らず、聞いた響きを次の言葉へ渡そう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「見たいものに引かれて見誤る自分を、繰り返し省みること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "人とカムイと大地の間に起きたことを、丁寧にたどる。"
+    },
+    {
+      "op": "say",
+      "actor": "kogane",
+      "text": "急がずに進もう。同じ響きが戻るたび、意味も深くなる。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "狐が食物を拾いに海辺へ出かけ、石と木片の音を歌う。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "kogane",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "nar",
+      "text": "遠くに鯨と盛装した人々が見えると思い喜ぶ。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "私はこの出来事を見届けた。遠くに鯨と盛装した人々が見えると思い喜ぶ。"
+    },
+    {
+      "op": "say",
+      "actor": "kogane",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "水の音、風の向き、火の明るさまで、この物語の一部だ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "kogane",
+      "text": "誰が語っているのかを忘れず、その目から世界を見よう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「見たいものに引かれて見誤る自分を、繰り返し省みること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "喜びも怒りも、語り手が経験した順序のまま受け取る。"
+    },
+    {
+      "op": "say",
+      "actor": "kogane",
+      "text": "そして結末を変えずに届ける。それが今夜の務めだ。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "遠くに鯨と盛装した人々が見えると思い喜ぶ。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "kogane",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "nar",
+      "text": "少しでも分けてもらおうと万歳を叫び近づく。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "私はこの出来事を見届けた。少しでも分けてもらおうと万歳を叫び近づく。"
+    },
+    {
+      "op": "say",
+      "actor": "kogane",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "見えたことを、そのまま順に語ろう。歌の道を変えないために。"
+    },
+    {
+      "op": "say",
+      "actor": "kogane",
+      "text": "出来事の姿を飾らず、聞いた響きを次の言葉へ渡そう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「見たいものに引かれて見誤る自分を、繰り返し省みること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "人とカムイと大地の間に起きたことを、丁寧にたどる。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "kogane",
+      "text": "急がずに進もう。同じ響きが戻るたび、意味も深くなる。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "少しでも分けてもらおうと万歳を叫び近づく。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "kogane",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "akane"
+    },
+    {
+      "op": "hide",
+      "actor": "kogane"
+    },
+    {
+      "op": "bg",
+      "src": "false-whale",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "false-whale"
+    },
+    {
+      "op": "nar",
+      "text": "糞の山と烏が遠くに見える浜"
+    },
+    {
+      "op": "show",
+      "actor": "kogane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "akane",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "鯨と思った物が犬の便所の大きな糞の山だと分かる。"
+    },
+    {
+      "op": "say",
+      "actor": "kogane",
+      "text": "私はこの出来事を見届けた。鯨と思った物が犬の便所の大きな糞の山だと分かる。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "kogane",
+      "text": "水の音、風の向き、火の明るさまで、この物語の一部だ。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "誰が語っているのかを忘れず、その目から世界を見よう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「見たいものに引かれて見誤る自分を、繰り返し省みること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "kogane",
+      "text": "喜びも怒りも、語り手が経験した順序のまま受け取る。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "そして結末を変えずに届ける。それが今夜の務めだ。"
+    },
+    {
+      "op": "say",
+      "actor": "kogane",
+      "text": "鯨と思った物が犬の便所の大きな糞の山だと分かる。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "祝う人々と思った物が糞を散らす烏だと分かる。"
+    },
+    {
+      "op": "say",
+      "actor": "kogane",
+      "text": "私はこの出来事を見届けた。祝う人々と思った物が糞を散らす烏だと分かる。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "kogane",
+      "text": "見えたことを、そのまま順に語ろう。歌の道を変えないために。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "出来事の姿を飾らず、聞いた響きを次の言葉へ渡そう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「見たいものに引かれて見誤る自分を、繰り返し省みること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "kogane",
+      "text": "人とカムイと大地の間に起きたことを、丁寧にたどる。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "急がずに進もう。同じ響きが戻るたび、意味も深くなる。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "kogane",
+      "text": "祝う人々と思った物が糞を散らす烏だと分かる。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "kogane"
+    },
+    {
+      "op": "hide",
+      "actor": "akane"
+    },
+    {
+      "op": "show",
+      "actor": "akane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kogane",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "狐が自分の曇った眼と物の見方を激しく罵る。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "私はこの出来事を見届けた。狐が自分の曇った眼と物の見方を激しく罵る。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "kogane",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "水の音、風の向き、火の明るさまで、この物語の一部だ。"
+    },
+    {
+      "op": "say",
+      "actor": "kogane",
+      "text": "誰が語っているのかを忘れず、その目から世界を見よう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「見たいものに引かれて見誤る自分を、繰り返し省みること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "喜びも怒りも、語り手が経験した順序のまま受け取る。"
+    },
+    {
+      "op": "say",
+      "actor": "kogane",
+      "text": "そして結末を変えずに届ける。それが今夜の務めだ。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "狐が自分の曇った眼と物の見方を激しく罵る。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "kogane",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "akane"
+    },
+    {
+      "op": "hide",
+      "actor": "kogane"
+    },
+    {
+      "op": "bg",
+      "src": "false-boat",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "false-boat"
+    },
+    {
+      "op": "nar",
+      "text": "岩と二羽の鵜がいる波打際"
+    },
+    {
+      "op": "show",
+      "actor": "akane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "再び走ると、舟で二人が悔やみ合う姿が見えると思う。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "私はこの出来事を見届けた。再び走ると、舟で二人が悔やみ合う姿が見えると思う。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "見えたことを、そのまま順に語ろう。歌の道を変えないために。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "出来事の姿を飾らず、聞いた響きを次の言葉へ渡そう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「見たいものに引かれて見誤る自分を、繰り返し省みること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "人とカムイと大地の間に起きたことを、丁寧にたどる。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "急がずに進もう。同じ響きが戻るたび、意味も深くなる。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "再び走ると、舟で二人が悔やみ合う姿が見えると思う。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "surprise",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "nar",
+      "text": "舟が転覆した人の話を聞こうと高く叫んで近づく。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "私はこの出来事を見届けた。舟が転覆した人の話を聞こうと高く叫んで近づく。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "水の音、風の向き、火の明るさまで、この物語の一部だ。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "誰が語っているのかを忘れず、その目から世界を見よう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「見たいものに引かれて見誤る自分を、繰り返し省みること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "喜びも怒りも、語り手が経験した順序のまま受け取る。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "そして結末を変えずに届ける。それが今夜の務めだ。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "舟が転覆した人の話を聞こうと高く叫んで近づく。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "anger",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "akane"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "akane",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "舟と思った物が岩、人と思った物が二羽の大きな鵜だと分かる。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "私はこの出来事を見届けた。舟と思った物が岩、人と思った物が二羽の大きな鵜だと分かる。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "見えたことを、そのまま順に語ろう。歌の道を変えないために。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "出来事の姿を飾らず、聞いた響きを次の言葉へ渡そう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「見たいものに引かれて見誤る自分を、繰り返し省みること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "人とカムイと大地の間に起きたことを、丁寧にたどる。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "急がずに進もう。同じ響きが戻るたび、意味も深くなる。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "舟と思った物が岩、人と思った物が二羽の大きな鵜だと分かる。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "hide",
+      "actor": "akane"
+    },
+    {
+      "op": "bg",
+      "src": "upstream",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "upstream"
+    },
+    {
+      "op": "nar",
+      "text": "狐が駆け上る川沿い"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "akane",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "鵜が首を伸縮する様子を、悔やみ合う姿に見ていたと知る。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "私はこの出来事を見届けた。鵜が首を伸縮する様子を、悔やみ合う姿に見ていたと知る。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "水の音、風の向き、火の明るさまで、この物語の一部だ。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "誰が語っているのかを忘れず、その目から世界を見よう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「見たいものに引かれて見誤る自分を、繰り返し省みること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "喜びも怒りも、語り手が経験した順序のまま受け取る。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "そして結末を変えずに届ける。それが今夜の務めだ。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "鵜が首を伸縮する様子を、悔やみ合う姿に見ていたと知る。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "hide",
+      "actor": "akane"
+    },
+    {
+      "op": "show",
+      "actor": "akane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "狐が再び自分の曇った眼と物の見方を罵る。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "私はこの出来事を見届けた。狐が再び自分の曇った眼と物の見方を罵る。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "見えたことを、そのまま順に語ろう。歌の道を変えないために。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "出来事の姿を飾らず、聞いた響きを次の言葉へ渡そう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「見たいものに引かれて見誤る自分を、繰り返し省みること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "人とカムイと大地の間に起きたことを、丁寧にたどる。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "急がずに進もう。同じ響きが戻るたび、意味も深くなる。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "狐が再び自分の曇った眼と物の見方を罵る。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "akane"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "show",
+      "actor": "akane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "川を上ると、浅瀬で二人の女が泣き合う姿が見えると思う。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "私はこの出来事を見届けた。川を上ると、浅瀬で二人の女が泣き合う姿が見えると思う。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "水の音、風の向き、火の明るさまで、この物語の一部だ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "誰が語っているのかを忘れず、その目から世界を見よう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「見たいものに引かれて見誤る自分を、繰り返し省みること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "喜びも怒りも、語り手が経験した順序のまま受け取る。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "そして結末を変えずに届ける。それが今夜の務めだ。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "川を上ると、浅瀬で二人の女が泣き合う姿が見えると思う。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "akane"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "bg",
+      "src": "weirs",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "weirs"
+    },
+    {
+      "op": "nar",
+      "text": "流れに揺れる二つの簗"
+    },
+    {
+      "op": "show",
+      "actor": "akane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "凶報があったのかと案じ、話を聞こうと急いで近づく。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "私はこの出来事を見届けた。凶報があったのかと案じ、話を聞こうと急いで近づく。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "見えたことを、そのまま順に語ろう。歌の道を変えないために。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "出来事の姿を飾らず、聞いた響きを次の言葉へ渡そう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「見たいものに引かれて見誤る自分を、繰り返し省みること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "人とカムイと大地の間に起きたことを、丁寧にたどる。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "急がずに進もう。同じ響きが戻るたび、意味も深くなる。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "凶報があったのかと案じ、話を聞こうと急いで近づく。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "akane"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "akane",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "女と思った物が二つの簗の杭で、流れに揺れていると分かる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "私はこの出来事を見届けた。女と思った物が二つの簗の杭で、流れに揺れていると分かる。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "水の音、風の向き、火の明るさまで、この物語の一部だ。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "誰が語っているのかを忘れず、その目から世界を見よう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「見たいものに引かれて見誤る自分を、繰り返し省みること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "喜びも怒りも、語り手が経験した順序のまま受け取る。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "そして結末を変えずに届ける。それが今夜の務めだ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "女と思った物が二つの簗の杭で、流れに揺れていると分かる。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "akane"
+    },
+    {
+      "op": "show",
+      "actor": "akane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "狐が三度目に自分の眼の曇りを罵り、反復句で語りを閉じる。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "私はこの出来事を見届けた。狐が三度目に自分の眼の曇りを罵り、反復句で語りを閉じる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "見えたことを、そのまま順に語ろう。歌の道を変えないために。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "出来事の姿を飾らず、聞いた響きを次の言葉へ渡そう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「見たいものに引かれて見誤る自分を、繰り返し省みること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "人とカムイと大地の間に起きたことを、丁寧にたどる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "急がずに進もう。同じ響きが戻るたび、意味も深くなる。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "狐が三度目に自分の眼の曇りを罵り、反復句で語りを閉じる。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "hide",
+      "actor": "akane"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "bg",
+      "src": "weirs"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "三度の見誤りのたび、狐は自分の眼の曇りを罵り、反復句と共に語りを閉じる。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "長い旅の果てに残ったのは、「見たいものに引かれて見誤る自分を、繰り返し省みること」という問いでした。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "答えは一つではありません。けれど、登場人物たちの選択は消えません。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "『狐「トワトワト」』、これにて終幕。ありがとうございました。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

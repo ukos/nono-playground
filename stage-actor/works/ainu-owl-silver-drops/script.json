@@ -1,0 +1,1234 @@
+{
+  "meta": {
+    "id": "ainu-owl-silver-drops",
+    "title": "梟の神「銀の滴降る降るまわりに」",
+    "original": "知里幸惠編訳『アイヌ神謡集』所収（古典神謡）",
+    "adaptation": "faithful",
+    "format": "v3",
+    "minutes": 34,
+    "synopsis": "銀と金の滴を歌いながら飛ぶ梟の神を、浜で少年たちが射ようとする。貧しい少年の粗末な矢を神は受け、家へ運ばれる。敬意を尽くす家族へ夢で語り、家を富ませ、村の和解へ導く。",
+    "note": "知里幸惠編訳『アイヌ神謡集』（1923年、著作権消滅）所収神謡の出来事・順序・語り手・結末を改変していない。台詞は制作ガイドに従い本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "梟の神",
+      "actor": "yoru",
+      "costume": "default"
+    },
+    {
+      "role": "貧しい少年",
+      "actor": "rei_casual",
+      "costume": "default"
+    },
+    {
+      "role": "少年の父",
+      "actor": "extra_elder",
+      "costume": "default"
+    },
+    {
+      "role": "少年の母",
+      "actor": "extra_elf",
+      "costume": "default"
+    },
+    {
+      "role": "裕福な少年",
+      "actor": "nibulus",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "river": "bg/ainu-owl-river-2048x1152.png",
+    "shore": "bg/ainu-children-shore-2048x1152.png",
+    "poorhouse": "bg/ainu-poor-house-2048x1152.png",
+    "dream": "bg/ainu-owl-dream-2048x1152.png",
+    "feast": "bg/ainu-village-feast-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『梟の神「銀の滴降る降るまわりに」』。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "梟の神が自ら歌い、貧しい少年の慎みと家族の祈りへ恵みを返します。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "今夜の核は「カムイへの敬意、分かち合い、貧富を越えて村が一つになること」。急がず、長い物語としてお届けします。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "それでは開幕。役者たちの声と、場面の移ろいをお楽しみください。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "river",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "river"
+    },
+    {
+      "op": "nar",
+      "text": "川下へ飛ぶ梟の神の空と水辺"
+    },
+    {
+      "op": "show",
+      "actor": "yoru",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "梟の神が銀の滴、金の滴の反復句を歌いながら川下へ飛ぶ。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "私はこの出来事を見届けた。梟の神が銀の滴、金の滴の反復句を歌いながら川下へ飛ぶ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "見えたことを、そのまま順に語ろう。歌の道を変えないために。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "出来事の姿を飾らず、聞いた響きを次の言葉へ渡そう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「カムイへの敬意、分かち合い、貧富を越えて村が一つになること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "人とカムイと大地の間に起きたことを、丁寧にたどる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "急がずに進もう。同じ響きが戻るたび、意味も深くなる。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "梟の神が銀の滴、金の滴の反復句を歌いながら川下へ飛ぶ。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "yoru"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "show",
+      "actor": "yoru",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "nibulus",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "浜の裕福な少年たちが金の小弓と金の小矢で梟を狙う。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "私はこの出来事を見届けた。浜の裕福な少年たちが金の小弓と金の小矢で梟を狙う。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "水の音、風の向き、火の明るさまで、この物語の一部だ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "誰が語っているのかを忘れず、その目から世界を見よう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「カムイへの敬意、分かち合い、貧富を越えて村が一つになること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "喜びも怒りも、語り手が経験した順序のまま受け取る。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "そして結末を変えずに届ける。それが今夜の務めだ。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "浜の裕福な少年たちが金の小弓と金の小矢で梟を狙う。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "yoru"
+    },
+    {
+      "op": "hide",
+      "actor": "nibulus"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "nibulus",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "貧しい少年が粗末な弓矢を持ち、仲間から軽んじられる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "私はこの出来事を見届けた。貧しい少年が粗末な弓矢を持ち、仲間から軽んじられる。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "見えたことを、そのまま順に語ろう。歌の道を変えないために。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "出来事の姿を飾らず、聞いた響きを次の言葉へ渡そう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「カムイへの敬意、分かち合い、貧富を越えて村が一つになること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "人とカムイと大地の間に起きたことを、丁寧にたどる。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "急がずに進もう。同じ響きが戻るたび、意味も深くなる。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "貧しい少年が粗末な弓矢を持ち、仲間から軽んじられる。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "nibulus"
+    },
+    {
+      "op": "bg",
+      "src": "shore",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "shore"
+    },
+    {
+      "op": "nar",
+      "text": "子どもたちが遊ぶ海辺"
+    },
+    {
+      "op": "show",
+      "actor": "yoru",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "梟の神が少年の心を見て、その矢を受けると決める。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "私はこの出来事を見届けた。梟の神が少年の心を見て、その矢を受けると決める。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "水の音、風の向き、火の明るさまで、この物語の一部だ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "誰が語っているのかを忘れず、その目から世界を見よう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「カムイへの敬意、分かち合い、貧富を越えて村が一つになること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "喜びも怒りも、語り手が経験した順序のまま受け取る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "そして結末を変えずに届ける。それが今夜の務めだ。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "梟の神が少年の心を見て、その矢を受けると決める。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "hide",
+      "actor": "yoru"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yoru",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "少年が梟を家へ運び、両親が驚いて迎える。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "私はこの出来事を見届けた。少年が梟を家へ運び、両親が驚いて迎える。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "見えたことを、そのまま順に語ろう。歌の道を変えないために。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "出来事の姿を飾らず、聞いた響きを次の言葉へ渡そう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「カムイへの敬意、分かち合い、貧富を越えて村が一つになること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "人とカムイと大地の間に起きたことを、丁寧にたどる。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "急がずに進もう。同じ響きが戻るたび、意味も深くなる。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "少年が梟を家へ運び、両親が驚いて迎える。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "yoru"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elf",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "両親が神を東の窓辺へ置き、礼を尽くして祈る。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "私はこの出来事を見届けた。両親が神を東の窓辺へ置き、礼を尽くして祈る。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elf",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "水の音、風の向き、火の明るさまで、この物語の一部だ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elf",
+      "text": "誰が語っているのかを忘れず、その目から世界を見よう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「カムイへの敬意、分かち合い、貧富を越えて村が一つになること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "喜びも怒りも、語り手が経験した順序のまま受け取る。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elf",
+      "text": "そして結末を変えずに届ける。それが今夜の務めだ。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "両親が神を東の窓辺へ置き、礼を尽くして祈る。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elf",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elf"
+    },
+    {
+      "op": "bg",
+      "src": "poorhouse",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "poorhouse"
+    },
+    {
+      "op": "nar",
+      "text": "慎ましい家の炉と東の窓"
+    },
+    {
+      "op": "show",
+      "actor": "yoru",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "夜、梟の神が少年の夢へ現れ、自分の身分を明かす。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "私はこの出来事を見届けた。夜、梟の神が少年の夢へ現れ、自分の身分を明かす。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "見えたことを、そのまま順に語ろう。歌の道を変えないために。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "出来事の姿を飾らず、聞いた響きを次の言葉へ渡そう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「カムイへの敬意、分かち合い、貧富を越えて村が一つになること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "人とカムイと大地の間に起きたことを、丁寧にたどる。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "急がずに進もう。同じ響きが戻るたび、意味も深くなる。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "夜、梟の神が少年の夢へ現れ、自分の身分を明かす。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "surprise",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "yoru"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "show",
+      "actor": "yoru",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "昔は豊かだった家が貧しくなっても心を失わなかったと語る。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "私はこの出来事を見届けた。昔は豊かだった家が貧しくなっても心を失わなかったと語る。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "水の音、風の向き、火の明るさまで、この物語の一部だ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "誰が語っているのかを忘れず、その目から世界を見よう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「カムイへの敬意、分かち合い、貧富を越えて村が一つになること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "喜びも怒りも、語り手が経験した順序のまま受け取る。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "そして結末を変えずに届ける。それが今夜の務めだ。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "昔は豊かだった家が貧しくなっても心を失わなかったと語る。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "anger",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "yoru"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "show",
+      "actor": "yoru",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elf",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "家を守る恵みを置き、自分を神の国へ送り返すよう頼む。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "私はこの出来事を見届けた。家を守る恵みを置き、自分を神の国へ送り返すよう頼む。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elf",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "見えたことを、そのまま順に語ろう。歌の道を変えないために。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elf",
+      "text": "出来事の姿を飾らず、聞いた響きを次の言葉へ渡そう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「カムイへの敬意、分かち合い、貧富を越えて村が一つになること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "人とカムイと大地の間に起きたことを、丁寧にたどる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elf",
+      "text": "急がずに進もう。同じ響きが戻るたび、意味も深くなる。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "家を守る恵みを置き、自分を神の国へ送り返すよう頼む。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elf",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "hide",
+      "actor": "yoru"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elf"
+    },
+    {
+      "op": "bg",
+      "src": "dream",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "dream"
+    },
+    {
+      "op": "nar",
+      "text": "家族の夢へ現れる梟の神の光"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "家族が目覚め、夢の言葉どおり神送りを整える。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "私はこの出来事を見届けた。家族が目覚め、夢の言葉どおり神送りを整える。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "水の音、風の向き、火の明るさまで、この物語の一部だ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "誰が語っているのかを忘れず、その目から世界を見よう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「カムイへの敬意、分かち合い、貧富を越えて村が一つになること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "喜びも怒りも、語り手が経験した順序のまま受け取る。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "そして結末を変えずに届ける。それが今夜の務めだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "家族が目覚め、夢の言葉どおり神送りを整える。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "show",
+      "actor": "yoru",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elf",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "梟の神がイナウと土産を伴い、神の国へ帰る。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "私はこの出来事を見届けた。梟の神がイナウと土産を伴い、神の国へ帰る。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elf",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "見えたことを、そのまま順に語ろう。歌の道を変えないために。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elf",
+      "text": "出来事の姿を飾らず、聞いた響きを次の言葉へ渡そう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「カムイへの敬意、分かち合い、貧富を越えて村が一つになること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "人とカムイと大地の間に起きたことを、丁寧にたどる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elf",
+      "text": "急がずに進もう。同じ響きが戻るたび、意味も深くなる。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "梟の神がイナウと土産を伴い、神の国へ帰る。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elf",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "yoru"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elf"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "nibulus",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "家は豊かになり、かつて笑った少年たちを宴へ招く。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "私はこの出来事を見届けた。家は豊かになり、かつて笑った少年たちを宴へ招く。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "水の音、風の向き、火の明るさまで、この物語の一部だ。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "誰が語っているのかを忘れず、その目から世界を見よう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「カムイへの敬意、分かち合い、貧富を越えて村が一つになること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "喜びも怒りも、語り手が経験した順序のまま受け取る。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "そして結末を変えずに届ける。それが今夜の務めだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "家は豊かになり、かつて笑った少年たちを宴へ招く。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "nibulus"
+    },
+    {
+      "op": "bg",
+      "src": "feast",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "feast"
+    },
+    {
+      "op": "nar",
+      "text": "村人を迎える整えられた家と宴"
+    },
+    {
+      "op": "show",
+      "actor": "nibulus",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elf",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "裕福な家の者たちが驚きと恥ずかしさで家へ入りにくくなる。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "私はこの出来事を見届けた。裕福な家の者たちが驚きと恥ずかしさで家へ入りにくくなる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elf",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "見えたことを、そのまま順に語ろう。歌の道を変えないために。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elf",
+      "text": "出来事の姿を飾らず、聞いた響きを次の言葉へ渡そう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「カムイへの敬意、分かち合い、貧富を越えて村が一つになること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "人とカムイと大地の間に起きたことを、丁寧にたどる。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elf",
+      "text": "急がずに進もう。同じ響きが戻るたび、意味も深くなる。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "裕福な家の者たちが驚きと恥ずかしさで家へ入りにくくなる。――この出来事を忘れず、次の判断へつなげよう。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elf",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "nibulus"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elf"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "nibulus",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "父が恵みの経緯を語り、悪い心はなかったから一族だと迎える。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "私はこの出来事を見届けた。父が恵みの経緯を語り、悪い心はなかったから一族だと迎える。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "水の音、風の向き、火の明るさまで、この物語の一部だ。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "誰が語っているのかを忘れず、その目から世界を見よう。"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「カムイへの敬意、分かち合い、貧富を越えて村が一つになること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "喜びも怒りも、語り手が経験した順序のまま受け取る。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "そして結末を変えずに届ける。それが今夜の務めだ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "父が恵みの経緯を語り、悪い心はなかったから一族だと迎える。――この出来事を忘れず、次の判断へつなげよう。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "hide",
+      "actor": "nibulus"
+    },
+    {
+      "op": "show",
+      "actor": "yoru",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "梟の神が神の国から村の和解を見届ける。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "私はこの出来事を見届けた。梟の神が神の国から村の和解を見届ける。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "見えたことを、そのまま順に語ろう。歌の道を変えないために。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "出来事の姿を飾らず、聞いた響きを次の言葉へ渡そう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "言葉の余韻が残る。二人は「カムイへの敬意、分かち合い、貧富を越えて村が一つになること」を胸に、次の局面へ進んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "人とカムイと大地の間に起きたことを、丁寧にたどる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "急がずに進もう。同じ響きが戻るたび、意味も深くなる。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "梟の神が神の国から村の和解を見届ける。――この出来事を忘れず、次の判断へつなげよう。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "hide",
+      "actor": "yoru"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "bg",
+      "src": "feast"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "梟の神は人間の祈りとイナウを携えて神の国へ帰る。恵みを得た家は村人を招き、隔てのない一族として暮らした。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "長い旅の果てに残ったのは、「カムイへの敬意、分かち合い、貧富を越えて村が一つになること」という問いでした。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "答えは一つではありません。けれど、登場人物たちの選択は消えません。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "『梟の神「銀の滴降る降るまわりに」』、これにて終幕。ありがとうございました。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}
