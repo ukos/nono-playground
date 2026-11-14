@@ -1,21 +1,84 @@
 {
   "version": 1,
-  "canvas": { "bust": [768, 1024], "full": [768, 1152], "dot": 4 },
-  "eyes": ["normal", "joy", "anger", "sorrow", "fun", "surprise", "crying", "closed"],
-  "mouths": ["normal", "open", "clenched", "sulky"],
+  "canvas": {
+    "bust": [
+      768,
+      1024
+    ],
+    "full": [
+      768,
+      1152
+    ],
+    "dot": 4
+  },
+  "eyes": [
+    "normal",
+    "joy",
+    "anger",
+    "sorrow",
+    "fun",
+    "surprise",
+    "crying",
+    "closed"
+  ],
+  "mouths": [
+    "normal",
+    "open",
+    "clenched",
+    "sulky"
+  ],
   "actors": [
     {
       "id": "nono",
       "name": "nono",
-      "faceMode": "layered",
+      "faceMode": "sheet",
       "hasMouth": true,
-      "costumes": { "default": { "full": true } },
-      "parts": {
-        "eyes": ["normal", "joy", "anger", "sorrow", "fun", "surprise", "crying", "closed"],
-        "mouth": ["normal", "open", "clenched", "sulky"]
+      "costumes": {
+        "default": {
+          "full": true
+        }
       },
       "sources": [
-        { "files": "*", "from": "dummy", "method": "tools/make_dummy_assets.py", "date": "2026-11-14", "note": "仮素材。表情テスト合格後に差し替え" }
+        {
+          "files": "*",
+          "from": "dummy",
+          "method": "tools/make_dummy_assets.py",
+          "date": "2026-11-14",
+          "note": "仮素材。表情テスト合格後に差し替え"
+        }
+      ],
+      "faces": [
+        "normal_open",
+        "normal_clenched",
+        "normal_sulky",
+        "joy_normal",
+        "joy_open",
+        "joy_clenched",
+        "joy_sulky",
+        "anger_normal",
+        "anger_open",
+        "anger_clenched",
+        "anger_sulky",
+        "sorrow_normal",
+        "sorrow_open",
+        "sorrow_clenched",
+        "sorrow_sulky",
+        "fun_normal",
+        "fun_open",
+        "fun_clenched",
+        "fun_sulky",
+        "surprise_normal",
+        "surprise_open",
+        "surprise_clenched",
+        "surprise_sulky",
+        "crying_normal",
+        "crying_open",
+        "crying_clenched",
+        "crying_sulky",
+        "closed_normal",
+        "closed_open",
+        "closed_clenched",
+        "closed_sulky"
       ]
     },
     {
@@ -23,28 +86,89 @@
       "name": "レイ",
       "faceMode": "layered",
       "hasMouth": false,
-      "costumes": { "default": { "full": false } },
+      "costumes": {
+        "default": {
+          "full": false
+        }
+      },
       "parts": {
-        "eyes": ["normal", "joy", "anger", "sorrow", "fun", "surprise", "crying", "closed"],
+        "eyes": [
+          "joy",
+          "anger",
+          "sorrow",
+          "fun",
+          "surprise",
+          "crying",
+          "closed"
+        ],
         "mouth": []
       },
       "sources": [
-        { "files": "*", "from": "dummy", "method": "tools/make_dummy_assets.py", "date": "2026-11-14", "note": "仮素材" }
+        {
+          "files": "*",
+          "from": "dummy",
+          "method": "tools/make_dummy_assets.py",
+          "date": "2026-11-14",
+          "note": "仮素材"
+        }
       ]
     },
     {
       "id": "yoru",
       "name": "ヨル",
-      "faceMode": "layered",
+      "faceMode": "sheet",
       "hasMouth": true,
-      "costumes": { "default": { "full": false }, "travel": { "full": false } },
-      "parts": {
-        "eyes": ["normal", "joy", "anger", "sorrow", "fun", "surprise", "crying", "closed"],
-        "mouth": ["normal", "open", "clenched", "sulky"]
+      "costumes": {
+        "default": {
+          "full": false
+        },
+        "travel": {
+          "full": false
+        }
       },
       "sources": [
-        { "files": "*", "from": "dummy", "method": "tools/make_dummy_assets.py", "date": "2026-11-14", "note": "仮素材。travel は衣装切り替えの検証用" }
+        {
+          "files": "*",
+          "from": "dummy",
+          "method": "tools/make_dummy_assets.py",
+          "date": "2026-11-14",
+          "note": "仮素材。travel は衣装切り替えの検証用"
+        }
+      ],
+      "faces": [
+        "normal_open",
+        "normal_clenched",
+        "normal_sulky",
+        "joy_normal",
+        "joy_open",
+        "joy_clenched",
+        "joy_sulky",
+        "anger_normal",
+        "anger_open",
+        "anger_clenched",
+        "anger_sulky",
+        "sorrow_normal",
+        "sorrow_open",
+        "sorrow_clenched",
+        "sorrow_sulky",
+        "fun_normal",
+        "fun_open",
+        "fun_clenched",
+        "fun_sulky",
+        "surprise_normal",
+        "surprise_open",
+        "surprise_clenched",
+        "surprise_sulky",
+        "crying_normal",
+        "crying_open",
+        "crying_clenched",
+        "crying_sulky",
+        "closed_normal",
+        "closed_open",
+        "closed_clenched",
+        "closed_sulky"
       ]
     }
-  ]
+  ],
+  "note": "base.png は通常の表情（目元 normal・口元 normal）の完成画像。sheet は合成済み faces/<eyes>_<mouth>.png（口の無い役者は faces/<eyes>.png）、layered は base に不透明な表情レイヤーを重ねる"
 }
