@@ -1,0 +1,716 @@
+{
+  "meta": {
+    "id": "crime_punishment",
+    "title": "罪と罰 ―告白までの距離―",
+    "original": "Fyodor Dostoevsky, Crime and Punishment（原著・著作権消滅）",
+    "adaptation": "free",
+    "format": "v3",
+    "minutes": 30,
+    "synopsis": "全六景で原作の主要な運動をたどりながら、自己正当化が罪悪感によって崩れ、他者との関係から告白へ向かう過程を中心に再構成する。第五景で観客が人物の姿勢を選び、分岐は終幕前に合流する。",
+    "note": "本脚本は著作権の消滅した原作からの翻案であり、既存の翻訳・上演台本は使用していない。セリフは全て本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "ラスコーリニコフ",
+      "actor": "rei",
+      "costume": "default"
+    },
+    {
+      "role": "ソーニャ",
+      "actor": "yui",
+      "costume": "default"
+    },
+    {
+      "role": "ポルフィーリ",
+      "actor": "extra_elder",
+      "costume": "default"
+    },
+    {
+      "role": "ドゥーニャ",
+      "actor": "extra_elf",
+      "costume": "default"
+    },
+    {
+      "role": "スヴィドリガイロフ",
+      "actor": "nibulus",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "garret": "bg/garret-2048x1152.png",
+    "crime": "bg/crime-2048x1152.png",
+    "fever": "bg/fever-2048x1152.png",
+    "sonya": "bg/sonya-2048x1152.png",
+    "interrogation": "bg/interrogation-2048x1152.png",
+    "siberia": "bg/siberia-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『罪と罰』。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "この舞台が見つめるのは、自己正当化が罪悪感によって崩れ、他者との関係から告白へ向かう過程。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "古い物語を借りながら、台詞はすべて今夜のための書き下ろしです。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "それでは、幕を開けましょう。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "garret",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "garret"
+    },
+    {
+      "op": "nar",
+      "text": "第1景「屋根裏部屋」。暑いペテルブルクの屋根裏。低い天井、黄ばんだ壁、机。"
+    },
+    {
+      "op": "show",
+      "actor": "rei",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elf",
+      "pos": "center"
+    },
+    {
+      "op": "nar",
+      "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "選ばれた人間は、未来のために一線を越えてよいのか。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elf",
+      "text": "理屈が人を救うなら、なぜあなたは誰にも会えない顔をするの。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "今の言葉を、聞かなかったことにはできない。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elf",
+      "text": "貧困が私を追い込み、思想が道を開いた。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "道ではなく、崖を道と呼び替えただけではないの。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elf",
+      "text": "なら、次の一歩で確かめよう。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "私は、自己正当化が罪悪感によって崩れ、他者との関係から告白へ向かう過程を忘れずに選ぶ。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elf",
+      "text": "その選択の重さを、次の場面まで持って行こう。",
+      "eyes": "crying"
+    },
+    {
+      "op": "hide",
+      "actor": "rei"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elf"
+    },
+    {
+      "op": "bg",
+      "src": "crime",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "crime"
+    },
+    {
+      "op": "nar",
+      "text": "第2景「閉ざされた部屋」。薄暗い質屋の部屋。時計、鍵束、重い扉。"
+    },
+    {
+      "op": "show",
+      "actor": "rei",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "nibulus",
+      "pos": "center"
+    },
+    {
+      "op": "nar",
+      "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "計画では音も時間も支配できるはずだった。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "人間は計算の外から現れる。偶然が一人増えた。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "答えはまだ一つに決められない。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "大義のためという言葉が、目の前の命で崩れた。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "一線を越えた者は、戻る道にも血の跡を見る。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "迷いを抱えたままでも、進むことはできる。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "私は、自己正当化が罪悪感によって崩れ、他者との関係から告白へ向かう過程を忘れずに選ぶ。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "その選択の重さを、次の場面まで持って行こう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "hide",
+      "actor": "rei"
+    },
+    {
+      "op": "hide",
+      "actor": "nibulus"
+    },
+    {
+      "op": "bg",
+      "src": "fever",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "fever"
+    },
+    {
+      "op": "nar",
+      "text": "第3景「熱の街」。蒸し暑い街路。運河、傾く建物、黄色い夕空。"
+    },
+    {
+      "op": "show",
+      "actor": "rei",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "center"
+    },
+    {
+      "op": "nar",
+      "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "私は平静だ。なのに警察の話だけで身体が震える。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "犯人は証拠より先に、自分の理屈を説明したがる。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "その理屈には、置き去りにされた声がある。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "私を疑っているのですか。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "私は君が自分を疑い始めるのを待っている。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "誰のための決断か、もう一度考えよう。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "私は、自己正当化が罪悪感によって崩れ、他者との関係から告白へ向かう過程を忘れずに選ぶ。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "その選択の重さを、次の場面まで持って行こう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "hide",
+      "actor": "rei"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "bg",
+      "src": "sonya",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "sonya"
+    },
+    {
+      "op": "nar",
+      "text": "第4景「ソーニャの部屋」。質素な部屋。聖書、一本の蝋燭、夜の窓。"
+    },
+    {
+      "op": "show",
+      "actor": "rei",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "center"
+    },
+    {
+      "op": "nar",
+      "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "私は二人を殺した。思想を試し、自分が何者か知るために。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "まず名前を言って。理屈で命を隠さないで。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "恐れを隠しても、状況は変わらない。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "告白すれば、私はすべてを失う。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "隠し続ければ、あなた自身を毎日失う。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "恐れを言葉にした今なら、選び直せる。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "私は、自己正当化が罪悪感によって崩れ、他者との関係から告白へ向かう過程を忘れずに選ぶ。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "その選択の重さを、次の場面まで持って行こう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "hide",
+      "actor": "rei"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "bg",
+      "src": "interrogation",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "interrogation"
+    },
+    {
+      "op": "nar",
+      "text": "第5景「予審判事の部屋」。役所の面談室。丸机、書類、止まった時計。"
+    },
+    {
+      "op": "show",
+      "actor": "rei",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "決定的な証拠がないなら、なぜ私を放さない。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "扉は開いている。君が自分で戻って来る方が大切だ。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "正しさだけでは、人の痛みを量れない。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "罰は牢獄から始まるのではない。もう私の中にある。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "なら告白は罰の終わりでなく、責任の始まりです。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "だから事実と心の両方を見よう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "私は、自己正当化が罪悪感によって崩れ、他者との関係から告白へ向かう過程を忘れずに選ぶ。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "その選択の重さを、次の場面まで持って行こう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "ここで舞台は一瞬静まり、観客の選択が人物の心の向きを変える。"
+    },
+    {
+      "op": "choice",
+      "options": [
+        {
+          "text": "今すぐ自首する",
+          "jump": "route_a"
+        },
+        {
+          "text": "家族へ真実を告げてから自首する",
+          "jump": "route_b"
+        }
+      ]
+    },
+    {
+      "op": "label",
+      "id": "route_a"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "私は『今すぐ自首する』道を選ぶ。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "その決断なら、結果まで自分の言葉で引き受けて。",
+      "eyes": "normal"
+    },
+    {
+      "op": "set",
+      "flag": "f_route_a"
+    },
+    {
+      "op": "jump",
+      "to": "merge_choice"
+    },
+    {
+      "op": "label",
+      "id": "route_b"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "私は『家族へ真実を告げてから自首する』道を選ぶ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "違う道でも、守るべきものを見失わないで。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "set",
+      "flag": "f_route_b"
+    },
+    {
+      "op": "label",
+      "id": "merge_choice"
+    },
+    {
+      "op": "nar",
+      "text": "選択の余韻を抱えたまま、物語は同じ終幕へ向かう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "bg",
+      "src": "siberia",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "siberia"
+    },
+    {
+      "op": "nar",
+      "text": "第6景「流刑地の春」。シベリアの川岸。雪解け、粗末な柵、遠い草原。"
+    },
+    {
+      "op": "show",
+      "actor": "rei",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "center"
+    },
+    {
+      "op": "nar",
+      "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "長い刑期より、自分を特別だと思った傲慢を見る方が苦しい。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "苦しむだけでは償いにならない。隣の人を人として見るの。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "ここで黙れば、同じことが繰り返される。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "奇跡のように変わるのではなく、今日の一つを選び直す。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "その小さな選択から、別の物語が始まります。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "言葉にした責任を、次の場面へ持って行こう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "私は、自己正当化が罪悪感によって崩れ、他者との関係から告白へ向かう過程を忘れずに選ぶ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "その選択の重さを、次の場面まで持って行こう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "hide",
+      "actor": "rei"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "bg",
+      "src": "siberia",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "siberia"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "『罪と罰』、これにて終幕です。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "残った問いは、自己正当化が罪悪感によって崩れ、他者との関係から告白へ向かう過程。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "選ばなかった道も、物語の外で静かに私たちを見ています。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ご観劇、ありがとうございました。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

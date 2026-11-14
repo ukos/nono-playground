@@ -1,0 +1,752 @@
+{
+ "meta": {
+  "id": "jungle_book",
+  "title": "ジャングル・ブック「モーグリの兄弟」―群れの掟―",
+  "original": "Rudyard Kipling, The Jungle Book（原著・著作権消滅）",
+  "adaptation": "moderate",
+  "format": "v3",
+  "minutes": 24,
+  "synopsis": "全六景で原作の主要な運動をたどりながら、所属を血ではなく、互いに守る選択として描くことを中心に再構成する。第五景で観客が人物の姿勢を選び、分岐は終幕前に合流する。",
+  "note": "本脚本は著作権の消滅した原作からの翻案であり、既存の翻訳・上演台本は使用していない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
+  },
+  {
+   "role": "モーグリ",
+   "actor": "sasuke",
+   "costume": "default"
+  },
+  {
+   "role": "アケーラ",
+   "actor": "kurogane",
+   "costume": "default"
+  },
+  {
+   "role": "シア・カーン",
+   "actor": "kotetsu",
+   "costume": "default"
+  },
+  {
+   "role": "バギーラ",
+   "actor": "yoru",
+   "costume": "default"
+  },
+  {
+   "role": "灰色の兄弟",
+   "actor": "shiro",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "councilrock": "bg/councilrock-2048x1152.png",
+  "lessons": "bg/lessons-2048x1152.png",
+  "drought": "bg/drought-2048x1152.png",
+  "villagefire": "bg/villagefire-2048x1152.png",
+  "challenge": "bg/challenge-2048x1152.png",
+  "border": "bg/border-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ようこそ、NONO座へ。本日の演目は『ジャングル・ブック「モーグリの兄弟」―群れの掟―』。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "この舞台が見つめるのは、所属を血ではなく、互いに守る選択として描くこと。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "古い物語を借りながら、台詞はすべて今夜のための書き下ろしです。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "それでは、幕を開けましょう。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "councilrock",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "councilrock"
+  },
+  {
+   "op": "nar",
+   "text": "第1景「会議岩」。月夜のジャングルの会議岩。巨岩、蔓、遠い滝。"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "kotetsu",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "この人間の子を群れに入れるか、月の下で決める。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "人間は火を持つ。育てれば森を焼く。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "今の言葉を、聞かなかったことにはできない。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "僕は牙を持たない。でもここで兄弟と走りたい。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "掟は弱い者を捨てるためでなく、群れを守るためにある。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "なら、次の一歩で確かめよう。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "私は、所属を血ではなく、互いに守る選択として描くことを忘れずに選ぶ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "その選択の重さを、次の場面まで持って行こう。"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "kotetsu"
+  },
+  {
+   "op": "bg",
+   "src": "lessons",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "lessons"
+  },
+  {
+   "op": "nar",
+   "text": "第2景「森の授業」。昼の密林。太い枝、蜂の巣、水場、木漏れ日。"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "蛇への挨拶、蜂への合図、水の休戦。森には言葉が多い。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "言葉を覚えるのは、支配でなく境界を尊ぶためだ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "答えはまだ一つに決められない。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "人の子なのに、僕より木登りがうまい。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "違いは欠点ではない。群れの見える範囲を広げる。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "迷いを抱えたままでも、進むことはできる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "私は、所属を血ではなく、互いに守る選択として描くことを忘れずに選ぶ。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "eyes": "normal"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "bg",
+   "src": "drought",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "drought"
+  },
+  {
+   "op": "nar",
+   "text": "第3景「乾季の水場」。干上がりかけた水場。ひび割れた土、赤い空。"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kotetsu",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "水の休戦中は、狩る者も狩られる者も並んで飲む。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "掟など、腹が満ちた者の飾りだ。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "その理屈には、置き去りにされた声がある。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "掟が必要なのは、飢えている時こそだ。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "破れば今日の獲物は得ても、明日の森を失う。",
+   "eyes": "closed",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "誰のための決断か、もう一度考えよう。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "私は、所属を血ではなく、互いに守る選択として描くことを忘れずに選ぶ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "その選択の重さを、次の場面まで持って行こう。"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "hide",
+   "actor": "kotetsu"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "bg",
+   "src": "villagefire",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "villagefire"
+  },
+  {
+   "op": "nar",
+   "text": "第4景「赤い花」。人間の村外れ。焚火、土壁、夜の畑。"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "人は火を赤い花と呼ばず、道具として囲っている。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "持ち帰れば虎は退く。でも群れも君を恐れる。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "恐れを隠しても、状況は変わらない。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "恐れられて勝つのは、シア・カーンと同じやり方だ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "使い方を選べ。火より難しいのは、力を戻す時だ。",
+   "eyes": "crying",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "恐れを言葉にした今なら、選び直せる。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "私は、所属を血ではなく、互いに守る選択として描くことを忘れずに選ぶ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "bg",
+   "src": "challenge",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "challenge"
+  },
+  {
+   "op": "nar",
+   "text": "第5景「会議岩の対決」。嵐の会議岩。火鉢、揺れる木々、集まる影。"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kotetsu",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "群れは老いた。人の子を渡せば安全になる。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "一人を差し出す安全は、次の一人を必要とする。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "正しさだけでは、人の痛みを量れない。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "火を見せる。でも燃やさない。僕は敵ではない。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "人と狼の間に立つ者だから見える道もある。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "だから事実と心の両方を見よう。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "私は、所属を血ではなく、互いに守る選択として描くことを忘れずに選ぶ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "その選択の重さを、次の場面まで持って行こう。"
+  },
+  {
+   "op": "nar",
+   "text": "ここで舞台は一瞬静まり、観客の選択が人物の心の向きを変える。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "人の村へ戻る",
+     "jump": "route_a"
+    },
+    {
+     "text": "森に残り群れを立て直す",
+     "jump": "route_b"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "route_a"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "私は『人の村へ戻る』道を選ぶ。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "その決断なら、結果まで自分の言葉で引き受けて。"
+  },
+  {
+   "op": "set",
+   "flag": "f_route_a"
+  },
+  {
+   "op": "jump",
+   "to": "merge_choice"
+  },
+  {
+   "op": "label",
+   "id": "route_b"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "私は『森に残り群れを立て直す』道を選ぶ。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "違う道でも、守るべきものを見失わないで。"
+  },
+  {
+   "op": "set",
+   "flag": "f_route_b"
+  },
+  {
+   "op": "label",
+   "id": "merge_choice"
+  },
+  {
+   "op": "nar",
+   "text": "選択の余韻を抱えたまま、物語は同じ終幕へ向かう。"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "hide",
+   "actor": "kotetsu"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "bg",
+   "src": "border",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "border"
+  },
+  {
+   "op": "nar",
+   "text": "第6景「森と村の境」。朝の草原。片側に森、片側に人里、分かれる道。"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "どちらへ行っても、片方から裏切り者と呼ばれるかもしれない。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "所属は、呼ばれ方ではなく誰を守るかで決まる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "ここで黙れば、同じことが繰り返される。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "離れても兄弟であることは変わらない。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "境界に立つ者は、二つの世界をつなぐこともできる。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "言葉にした責任を、次の場面へ持って行こう。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "私は、所属を血ではなく、互いに守る選択として描くことを忘れずに選ぶ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "eyes": "anger"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "bg",
+   "src": "border",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "border"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "『ジャングル・ブック「モーグリの兄弟」―群れの掟―』、これにて終幕です。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "残った問いは、所属を血ではなく、互いに守る選択として描くこと。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "選ばなかった道も、物語の外で静かに私たちを見ています。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ご観劇、ありがとうございました。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
+}

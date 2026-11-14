@@ -1,0 +1,728 @@
+{
+ "meta": {
+  "id": "sonezaki",
+  "title": "曽根崎心中 ―ことばの証文―",
+  "original": "近松門左衛門『曽根崎心中』（著作権消滅）",
+  "adaptation": "moderate",
+  "format": "v3",
+  "minutes": 23,
+  "synopsis": "全六景で原作の主要な運動をたどりながら、愛を美化だけで包まず、信用と社会の圧力が人を追い詰める構造を描くことを中心に再構成する。第五景で観客が人物の姿勢を選び、分岐は終幕前に合流する。",
+  "note": "本脚本は著作権の消滅した原作からの翻案であり、既存の翻訳・上演台本は使用していない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
+  },
+  {
+   "role": "お初",
+   "actor": "yui",
+   "costume": "default"
+  },
+  {
+   "role": "徳兵衛",
+   "actor": "rei_kimono",
+   "costume": "default"
+  },
+  {
+   "role": "九平次",
+   "actor": "nibulus",
+   "costume": "default"
+  },
+  {
+   "role": "主人",
+   "actor": "extra_elder",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "market": "bg/market-2048x1152.png",
+  "loan": "bg/loan-2048x1152.png",
+  "shrine": "bg/shrine-2048x1152.png",
+  "street": "bg/street-2048x1152.png",
+  "forest": "bg/forest-2048x1152.png",
+  "darkstage": "bg/darkstage-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ようこそ、NONO座へ。本日の演目は『曽根崎心中』。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "この舞台が見つめるのは、愛を美化だけで包まず、信用と社会の圧力が人を追い詰める構造を描くこと。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "古い物語を借りながら、台詞はすべて今夜のための書き下ろしです。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "それでは、幕を開けましょう。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "market",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "market"
+  },
+  {
+   "op": "nar",
+   "text": "第1景「堂島の約束」。元禄の大坂、賑やかな市場。米俵、暖簾、夕空。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "叔父は縁談を決めた。断れば店も家も失うと言う。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "私を選ぶなら、勢いではなく明日の暮らしまで考えて。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "今の言葉を、聞かなかったことにはできない。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "金を返して筋を通す。それから迎えに来る。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "その言葉を信じる。でも一人で抱えないで。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "なら、次の一歩で確かめよう。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "私は、愛を美化だけで包まず、信用と社会の圧力が人を追い詰める構造を描くことを忘れずに選ぶ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "eyes": "crying"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "bg",
+   "src": "loan",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "loan"
+  },
+  {
+   "op": "nar",
+   "text": "第2景「金の貸し借り」。醤油屋の帳場。算盤、証文、閉じた格子戸。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "nibulus",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "九平次、預けた銀を返してくれ。返済の日が来た。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "借りた覚えはない。その印は偽物だろう。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "答えはまだ一つに決められない。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "証文と印があっても、声の大きい方が勝つのか。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "商いは信用です。騒ぎを大きくすれば君が損をする。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "迷いを抱えたままでも、進むことはできる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "私は、愛を美化だけで包まず、信用と社会の圧力が人を追い詰める構造を描くことを忘れずに選ぶ。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "eyes": "normal"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "nibulus"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "bg",
+   "src": "shrine",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "shrine"
+  },
+  {
+   "op": "nar",
+   "text": "第3景「天満屋の床下」。夜の茶屋。格子、行灯、床下の暗がり。"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "nibulus",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "徳兵衛さんは床下にいる。声を出せないなら、足先で答えて。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "私はここだ。疑わないでくれ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "その理屈には、置き去りにされた声がある。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "お初さん、あんな男は捨てて私を選べばいい。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "人の信用を奪った口で、愛まで買えると思わないで。",
+   "eyes": "closed",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "誰のための決断か、もう一度考えよう。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "私は、愛を美化だけで包まず、信用と社会の圧力が人を追い詰める構造を描くことを忘れずに選ぶ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "nibulus"
+  },
+  {
+   "op": "bg",
+   "src": "street",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "street"
+  },
+  {
+   "op": "nar",
+   "text": "第4景「名誉の崩壊」。雨の大坂の路地。石畳、消えかけた提灯、閉じる店。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "町中が私を詐欺師と呼ぶ。働く場所も戻る家もない。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "世間の声は大きい。でも私たちの命より正しいわけではない。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "恐れを隠しても、状況は変わらない。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "逃げる道、生きて訴える道、終わらせる道が頭の中で争っている。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "今夜の決断を、美しい物語にしてごまかさないで。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "恐れを言葉にした今なら、選び直せる。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "私は、愛を美化だけで包まず、信用と社会の圧力が人を追い詰める構造を描くことを忘れずに選ぶ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "bg",
+   "src": "forest",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "forest"
+  },
+  {
+   "op": "nar",
+   "text": "第5景「曽根崎の森」。夜明け前の森。露、細い参道、遠い社の灯。"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "この森は静かすぎて、町の苦しみまで夢に見える。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "夢ではない。だから最後まで互いの名を呼ぼう。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "正しさだけでは、人の痛みを量れない。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "恐ろしい。愛しているからこそ、恐ろしい。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "私もだ。勇気ではなく、追い詰められた弱さも抱えている。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "だから事実と心の両方を見よう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "私は、愛を美化だけで包まず、信用と社会の圧力が人を追い詰める構造を描くことを忘れずに選ぶ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "ここで舞台は一瞬静まり、観客の選択が人物の心の向きを変える。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "二人の真実を公に訴える",
+     "jump": "route_a"
+    },
+    {
+     "text": "世間を離れて静かに進む",
+     "jump": "route_b"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "route_a"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "私は『二人の真実を公に訴える』道を選ぶ。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "その決断なら、結果まで自分の言葉で引き受けて。",
+   "eyes": "normal"
+  },
+  {
+   "op": "set",
+   "flag": "f_route_a"
+  },
+  {
+   "op": "jump",
+   "to": "merge_choice"
+  },
+  {
+   "op": "label",
+   "id": "route_b"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "私は『世間を離れて静かに進む』道を選ぶ。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "違う道でも、守るべきものを見失わないで。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "set",
+   "flag": "f_route_b"
+  },
+  {
+   "op": "label",
+   "id": "merge_choice"
+  },
+  {
+   "op": "nar",
+   "text": "選択の余韻を抱えたまま、物語は同じ終幕へ向かう。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "bg",
+   "src": "darkstage",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "darkstage"
+  },
+  {
+   "op": "nar",
+   "text": "第6景「非写実の終幕」。黒い舞台。白い花びらと二筋の光、具体的な刃物や遺体はない。"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "観客の皆さん、これは死を勧める場面ではありません。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "助けを求める道が閉ざされた時代の、痛みの証言です。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "ここで黙れば、同じことが繰り返される。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "私たちを恋の理想にせず、追い詰めた仕組みを覚えてください。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "暗転の先で、生きる人が声を上げられる世を願います。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "言葉にした責任を、次の場面へ持って行こう。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "私は、愛を美化だけで包まず、信用と社会の圧力が人を追い詰める構造を描くことを忘れずに選ぶ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "eyes": "anger"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "bg",
+   "src": "darkstage",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "darkstage"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "『曽根崎心中』、これにて終幕です。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "残った問いは、愛を美化だけで包まず、信用と社会の圧力が人を追い詰める構造を描くこと。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "選ばなかった道も、物語の外で静かに私たちを見ています。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ご観劇、ありがとうございました。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
+}

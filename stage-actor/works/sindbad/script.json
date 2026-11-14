@@ -1,0 +1,721 @@
+{
+  "meta": {
+    "id": "sindbad",
+    "title": "船乗りシンドバッド ―三つの航路―",
+    "original": "『千夜一夜物語』所収「船乗りシンドバッド」（伝承・著作権消滅）",
+    "adaptation": "free",
+    "format": "v3",
+    "minutes": 27,
+    "synopsis": "全六景で原作の主要な運動をたどりながら、冒険の富だけでなく、生還の知恵と語り直す責任を描くことを中心に再構成する。第五景で観客が人物の姿勢を選び、分岐は終幕前に合流する。",
+    "note": "本脚本は著作権の消滅した原作からの翻案であり、既存の翻訳・上演台本は使用していない。セリフは全て本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "シンドバッド",
+      "actor": "rei_rider",
+      "costume": "default"
+    },
+    {
+      "role": "ロック鳥",
+      "actor": "kogane",
+      "costume": "default"
+    },
+    {
+      "role": "島の巨人",
+      "actor": "extra_oni",
+      "costume": "default"
+    },
+    {
+      "role": "海の老人",
+      "actor": "extra_elder",
+      "costume": "default"
+    },
+    {
+      "role": "海の精",
+      "actor": "extra_mermaid",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "baghdad": "bg/baghdad-2048x1152.png",
+    "whaleisland": "bg/whaleisland-2048x1152.png",
+    "rocvalley": "bg/rocvalley-2048x1152.png",
+    "giantisland": "bg/giantisland-2048x1152.png",
+    "oldman": "bg/oldman-2048x1152.png",
+    "homeport": "bg/homeport-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『船乗りシンドバッド』。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "この舞台が見つめるのは、冒険の富だけでなく、生還の知恵と語り直す責任を描くこと。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "古い物語を借りながら、台詞はすべて今夜のための書き下ろしです。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "それでは、幕を開けましょう。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "baghdad",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "baghdad"
+    },
+    {
+      "op": "nar",
+      "text": "第1景「二人のシンドバッド」。バグダッドの中庭。噴水、交易品、夕暮れの絨毯。"
+    },
+    {
+      "op": "show",
+      "actor": "rei_rider",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "center"
+    },
+    {
+      "op": "nar",
+      "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "荷運び人よ、私の富が幸運だけで得られたと思うか。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "豪邸の主人が苦労を語れば、貧しい者は黙るしかない。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "今の言葉を、聞かなかったことにはできない。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "だから食卓を同じ高さにして、失敗も話そう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "富の自慢ではなく、生還の代価を聞かせてください。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "なら、次の一歩で確かめよう。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "私は、冒険の富だけでなく、生還の知恵と語り直す責任を描くことを忘れずに選ぶ。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "その選択の重さを、次の場面まで持って行こう。",
+      "eyes": "crying"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_rider"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "bg",
+      "src": "whaleisland",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "whaleisland"
+    },
+    {
+      "op": "nar",
+      "text": "第2景「動く島」。海上の緑の島。焚火、揺れる椰子、巨大な鱗。"
+    },
+    {
+      "op": "show",
+      "actor": "rei_rider",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_mermaid",
+      "pos": "center"
+    },
+    {
+      "op": "nar",
+      "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "島だと思って火を焚いたら、眠る巨大魚の背だった。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "extra_mermaid",
+      "text": "便利な地面ほど、何の上に立つか確かめなさい。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "答えはまだ一つに決められない。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "extra_mermaid",
+      "text": "海へ投げ出され、樽一つで夜を越えた。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "最初の航海が教えたのは、確信より浮く物を掴むこと。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "extra_mermaid",
+      "text": "迷いを抱えたままでも、進むことはできる。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "私は、冒険の富だけでなく、生還の知恵と語り直す責任を描くことを忘れずに選ぶ。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "extra_mermaid",
+      "text": "その選択の重さを、次の場面まで持って行こう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_rider"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_mermaid"
+    },
+    {
+      "op": "bg",
+      "src": "rocvalley",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "rocvalley"
+    },
+    {
+      "op": "nar",
+      "text": "第3景「ロック鳥と宝石谷」。断崖の谷。巨大な羽根、ダイヤ、蛇の穴。"
+    },
+    {
+      "op": "show",
+      "actor": "rei_rider",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kogane",
+      "pos": "center"
+    },
+    {
+      "op": "nar",
+      "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "巨大鳥の脚に布を結べば、谷から出られる。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "kogane",
+      "text": "宝石を詰め過ぎれば、飛ぶ力まで奪う。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "その理屈には、置き去りにされた声がある。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "kogane",
+      "text": "生きて帰る分だけ持つ。それが難しい。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "欲望は荷物の重さではなく、手放せない心の重さだ。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "kogane",
+      "text": "誰のための決断か、もう一度考えよう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "私は、冒険の富だけでなく、生還の知恵と語り直す責任を描くことを忘れずに選ぶ。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "kogane",
+      "text": "その選択の重さを、次の場面まで持って行こう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_rider"
+    },
+    {
+      "op": "hide",
+      "actor": "kogane"
+    },
+    {
+      "op": "bg",
+      "src": "giantisland",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "giantisland"
+    },
+    {
+      "op": "nar",
+      "text": "第4景「巨人の館」。火山島の石館。巨大な炉、骨、重い扉。"
+    },
+    {
+      "op": "show",
+      "actor": "rei_rider",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_oni",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "extra_mermaid",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "客人は順番に食べる。逃げ道はその後で考えろ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "extra_oni",
+      "text": "恐怖で散れば、一人ずつ捕まる。皆で筏を作る。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "恐れを隠しても、状況は変わらない。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "extra_mermaid",
+      "text": "知恵は弱い者の武器だが、仲間を駒にしてはならない。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "勝つより、全員が海へ出る時刻を合わせよう。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "extra_oni",
+      "text": "恐れを言葉にした今なら、選び直せる。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "私は、冒険の富だけでなく、生還の知恵と語り直す責任を描くことを忘れずに選ぶ。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "extra_oni",
+      "text": "その選択の重さを、次の場面まで持って行こう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_rider"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_oni"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_mermaid"
+    },
+    {
+      "op": "bg",
+      "src": "oldman",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "oldman"
+    },
+    {
+      "op": "nar",
+      "text": "第5景「海の老人」。熱帯の川辺。果樹、蔓、背負われる老人の影。"
+    },
+    {
+      "op": "show",
+      "actor": "rei_rider",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "center"
+    },
+    {
+      "op": "nar",
+      "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "渡してくれと頼まれ背負ったら、首を締めて降りない。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "親切を利用する者から逃げるにも、知恵が要る。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "正しさだけでは、人の痛みを量れない。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "酒で力を緩め、命を奪わず振りほどく。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "自由を取り戻す時、自分が暴君にならない道を選べ。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "だから事実と心の両方を見よう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "私は、冒険の富だけでなく、生還の知恵と語り直す責任を描くことを忘れずに選ぶ。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "その選択の重さを、次の場面まで持って行こう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "ここで舞台は一瞬静まり、観客の選択が人物の心の向きを変える。"
+    },
+    {
+      "op": "choice",
+      "options": [
+        {
+          "text": "危険な近道を選ぶ",
+          "jump": "route_a"
+        },
+        {
+          "text": "遠回りでも仲間と進む",
+          "jump": "route_b"
+        }
+      ]
+    },
+    {
+      "op": "label",
+      "id": "route_a"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "私は『危険な近道を選ぶ』道を選ぶ。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "その決断なら、結果まで自分の言葉で引き受けて。",
+      "eyes": "normal"
+    },
+    {
+      "op": "set",
+      "flag": "f_route_a"
+    },
+    {
+      "op": "jump",
+      "to": "merge_choice"
+    },
+    {
+      "op": "label",
+      "id": "route_b"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "私は『遠回りでも仲間と進む』道を選ぶ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "違う道でも、守るべきものを見失わないで。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "set",
+      "flag": "f_route_b"
+    },
+    {
+      "op": "label",
+      "id": "merge_choice"
+    },
+    {
+      "op": "nar",
+      "text": "選択の余韻を抱えたまま、物語は同じ終幕へ向かう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_rider"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "bg",
+      "src": "homeport",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "homeport"
+    },
+    {
+      "op": "nar",
+      "text": "第6景「帰港と分配」。バグダッドの港。帆船、香辛料、待つ家族、朝日。"
+    },
+    {
+      "op": "show",
+      "actor": "rei_rider",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_mermaid",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "七度の航海で、宝より多く仲間の名を失った。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "extra_mermaid",
+      "text": "物語から彼らを消せば、富は一人の手柄に見える。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "ここで黙れば、同じことが繰り返される。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "得た金を分け、危険な海図も公開しよう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "冒険を語る責任は、次の旅人を生きて帰すことです。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "extra_mermaid",
+      "text": "言葉にした責任を、次の場面へ持って行こう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "私は、冒険の富だけでなく、生還の知恵と語り直す責任を描くことを忘れずに選ぶ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "extra_mermaid",
+      "text": "その選択の重さを、次の場面まで持って行こう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_rider"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_mermaid"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "bg",
+      "src": "homeport",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "homeport"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "『船乗りシンドバッド』、これにて終幕です。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "残った問いは、冒険の富だけでなく、生還の知恵と語り直す責任を描くこと。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "選ばなかった道も、物語の外で静かに私たちを見ています。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ご観劇、ありがとうございました。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

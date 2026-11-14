@@ -1,0 +1,724 @@
+{
+  "meta": {
+    "id": "monte_cristo",
+    "title": "モンテ・クリスト伯 ―復讐の終点―",
+    "original": "Alexandre Dumas, Le Comte de Monte-Cristo（原著・著作権消滅）",
+    "adaptation": "free",
+    "format": "v3",
+    "minutes": 30,
+    "synopsis": "全六景で原作の主要な運動をたどりながら、復讐による正義が無関係な者を傷つける時、どこで止まるかを問うことを中心に再構成する。第五景で観客が人物の姿勢を選び、分岐は終幕前に合流する。",
+    "note": "本脚本は著作権の消滅した原作からの翻案であり、既存の翻訳・上演台本は使用していない。セリフは全て本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "エドモン・ダンテス",
+      "actor": "rei",
+      "costume": "default"
+    },
+    {
+      "role": "メルセデス",
+      "actor": "yui",
+      "costume": "default"
+    },
+    {
+      "role": "ダングラール",
+      "actor": "nibulus",
+      "costume": "default"
+    },
+    {
+      "role": "ファリア司祭",
+      "actor": "extra_elder",
+      "costume": "default"
+    },
+    {
+      "role": "ヴィルフォール",
+      "actor": "iwao",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "harbor": "bg/harbor-2048x1152.png",
+    "prison": "bg/prison-2048x1152.png",
+    "treasure": "bg/treasure-2048x1152.png",
+    "paris": "bg/paris-2048x1152.png",
+    "reckoning": "bg/reckoning-2048x1152.png",
+    "horizon": "bg/horizon-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『モンテ・クリスト伯』。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "この舞台が見つめるのは、復讐による正義が無関係な者を傷つける時、どこで止まるかを問うこと。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "古い物語を借りながら、台詞はすべて今夜のための書き下ろしです。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "それでは、幕を開けましょう。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "harbor",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "harbor"
+    },
+    {
+      "op": "nar",
+      "text": "第1景「帰港と婚約」。マルセイユ港。帆船、荷車、祝福の旗。"
+    },
+    {
+      "op": "show",
+      "actor": "rei",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "nibulus",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "船長代理になり、明日はメルセデスと結婚する。世界が開いている。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "幸福を妬む者は、事実より疑いを上手に書く。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "今の言葉を、聞かなかったことにはできない。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "一通の匿名状で、祝宴が牢獄へ変わるなんて。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "待っています。年月が何を変えても、あなたの無実は変わらない。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "なら、次の一歩で確かめよう。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "私は、復讐による正義が無関係な者を傷つける時、どこで止まるかを問うことを忘れずに選ぶ。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "その選択の重さを、次の場面まで持って行こう。",
+      "eyes": "crying"
+    },
+    {
+      "op": "hide",
+      "actor": "rei"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "nibulus"
+    },
+    {
+      "op": "bg",
+      "src": "prison",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "prison"
+    },
+    {
+      "op": "nar",
+      "text": "第2景「シャトー・ディフ」。海上牢獄の石牢。湿った壁、小さな穴、荒波。"
+    },
+    {
+      "op": "show",
+      "actor": "rei",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "center"
+    },
+    {
+      "op": "nar",
+      "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "十四年、名も裁判も奪われた。怒りだけが日付を数えた。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "怒りは壁を掘る力になる。だが出口の後の主人にするな。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "答えはまだ一つに決められない。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "裏切った者の名を、一人ずつ教えてください。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "知識と財宝は渡す。使い道だけはお前が選べ。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "迷いを抱えたままでも、進むことはできる。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "私は、復讐による正義が無関係な者を傷つける時、どこで止まるかを問うことを忘れずに選ぶ。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "その選択の重さを、次の場面まで持って行こう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "hide",
+      "actor": "rei"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "bg",
+      "src": "treasure",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "treasure"
+    },
+    {
+      "op": "nar",
+      "text": "第3景「島の財宝」。モンテ・クリスト島の洞窟。古い箱、金貨、青い海光。"
+    },
+    {
+      "op": "show",
+      "actor": "rei",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "center"
+    },
+    {
+      "op": "nar",
+      "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "金は自由を買える。そして他人の運命まで動かせる。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "力を得た瞬間、人は自分を裁判官だと誤解する。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "その理屈には、置き去りにされた声がある。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "私は伯爵という仮面で、彼らの罪を本人に返す。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "仮面が顔に変わる前に、止める声を覚えておけ。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "誰のための決断か、もう一度考えよう。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "私は、復讐による正義が無関係な者を傷つける時、どこで止まるかを問うことを忘れずに選ぶ。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "その選択の重さを、次の場面まで持って行こう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "hide",
+      "actor": "rei"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "bg",
+      "src": "paris",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "paris"
+    },
+    {
+      "op": "nar",
+      "text": "第4景「復讐の舞台」。豪華なパリの客間。鏡、新聞、封蝋の手紙。"
+    },
+    {
+      "op": "show",
+      "actor": "rei",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "nibulus",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "iwao",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "投機の噂、隠された裁判記録。私は手を触れず真実を並べる。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "並べ方ひとつで、真実も罠になります。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "恐れを隠しても、状況は変わらない。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "法を守った私が、なぜ昔の判断を裁かれる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "法を自分の地位の盾にしたからだ。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "恐れを言葉にした今なら、選び直せる。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "私は、復讐による正義が無関係な者を傷つける時、どこで止まるかを問うことを忘れずに選ぶ。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "その選択の重さを、次の場面まで持って行こう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "hide",
+      "actor": "rei"
+    },
+    {
+      "op": "hide",
+      "actor": "nibulus"
+    },
+    {
+      "op": "hide",
+      "actor": "iwao"
+    },
+    {
+      "op": "bg",
+      "src": "reckoning",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "reckoning"
+    },
+    {
+      "op": "nar",
+      "text": "第5景「巻き添え」。暗い屋敷の庭。割れた窓、散った手紙、雨。"
+    },
+    {
+      "op": "show",
+      "actor": "rei",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "center"
+    },
+    {
+      "op": "nar",
+      "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "敵の家族まで傷ついた。私の計算には入っていなかった。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "復讐は数字ではない。苦しみは血縁を選ばず広がる。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "正しさだけでは、人の痛みを量れない。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "止めれば、彼らがしたことを許すことになるのか。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "止めることと忘れることは違う。あなた自身を取り戻して。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "だから事実と心の両方を見よう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "私は、復讐による正義が無関係な者を傷つける時、どこで止まるかを問うことを忘れずに選ぶ。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "その選択の重さを、次の場面まで持って行こう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "ここで舞台は一瞬静まり、観客の選択が人物の心の向きを変える。"
+    },
+    {
+      "op": "choice",
+      "options": [
+        {
+          "text": "最後の復讐を遂げる",
+          "jump": "route_a"
+        },
+        {
+          "text": "復讐を止め残りを償いに使う",
+          "jump": "route_b"
+        }
+      ]
+    },
+    {
+      "op": "label",
+      "id": "route_a"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "私は『最後の復讐を遂げる』道を選ぶ。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "その決断なら、結果まで自分の言葉で引き受けて。",
+      "eyes": "normal"
+    },
+    {
+      "op": "set",
+      "flag": "f_route_a"
+    },
+    {
+      "op": "jump",
+      "to": "merge_choice"
+    },
+    {
+      "op": "label",
+      "id": "route_b"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "私は『復讐を止め残りを償いに使う』道を選ぶ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "違う道でも、守るべきものを見失わないで。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "set",
+      "flag": "f_route_b"
+    },
+    {
+      "op": "label",
+      "id": "merge_choice"
+    },
+    {
+      "op": "nar",
+      "text": "選択の余韻を抱えたまま、物語は同じ終幕へ向かう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "bg",
+      "src": "horizon",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "horizon"
+    },
+    {
+      "op": "nar",
+      "text": "第6景「待て、しかして希望せよ」。夜明けの海岸。小舟、開いた宝箱、水平線。"
+    },
+    {
+      "op": "show",
+      "actor": "rei",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "center"
+    },
+    {
+      "op": "nar",
+      "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "財宝の残りを、壊した人生を支えるために使う。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "完全な償いはなくても、次の害を止めることはできる。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "ここで黙れば、同じことが繰り返される。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "私はエドモンに戻れるだろうか。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "戻るのではなく、待ち、希望し、新しく名乗るのです。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "言葉にした責任を、次の場面へ持って行こう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "私は、復讐による正義が無関係な者を傷つける時、どこで止まるかを問うことを忘れずに選ぶ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "その選択の重さを、次の場面まで持って行こう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "hide",
+      "actor": "rei"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "bg",
+      "src": "horizon",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "horizon"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "『モンテ・クリスト伯』、これにて終幕です。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "残った問いは、復讐による正義が無関係な者を傷つける時、どこで止まるかを問うこと。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "選ばなかった道も、物語の外で静かに私たちを見ています。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ご観劇、ありがとうございました。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

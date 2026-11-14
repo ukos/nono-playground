@@ -1,0 +1,701 @@
+{
+ "meta": {
+  "id": "gilgamesh",
+  "title": "ギルガメシュ叙事詩 ―城壁に残すもの―",
+  "original": "『ギルガメシュ叙事詩』（古代叙事詩・著作権消滅）",
+  "adaptation": "moderate",
+  "format": "v3",
+  "minutes": 29,
+  "synopsis": "全六景で原作の主要な運動をたどりながら、友情と死を通じ、永遠の命ではなく有限な生で何を築くかを問うことを中心に再構成する。第五景で観客が人物の姿勢を選び、分岐は終幕前に合流する。",
+  "note": "本脚本は著作権の消滅した原作からの翻案であり、既存の翻訳・上演台本は使用していない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
+  },
+  {
+   "role": "ギルガメシュ",
+   "actor": "homura",
+   "costume": "default"
+  },
+  {
+   "role": "エンキドゥ",
+   "actor": "gou",
+   "costume": "default"
+  },
+  {
+   "role": "シャムハト／イシュタル",
+   "actor": "yui",
+   "costume": "default"
+  },
+  {
+   "role": "ウトナピシュティム",
+   "actor": "extra_elder",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "uruk": "bg/uruk-2048x1152.png",
+  "cedar": "bg/cedar-2048x1152.png",
+  "bull": "bg/bull-2048x1152.png",
+  "deathbed": "bg/deathbed-2048x1152.png",
+  "flood": "bg/flood-2048x1152.png",
+  "returnwall": "bg/returnwall-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ようこそ、NONO座へ。本日の演目は『ギルガメシュ叙事詩』。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "この舞台が見つめるのは、友情と死を通じ、永遠の命ではなく有限な生で何を築くかを問うこと。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "古い物語を借りながら、台詞はすべて今夜のための書き下ろしです。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "それでは、幕を開けましょう。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "uruk",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "uruk"
+  },
+  {
+   "op": "nar",
+   "text": "第1景「ウルクの城壁」。古代ウルクの巨大城壁。日干し煉瓦、神殿、灼熱の空。"
+  },
+  {
+   "op": "show",
+   "actor": "homura",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "私は二分の神。誰も力で私を止められない。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "王の力が民を眠らせないなら、城壁は牢です。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "今の言葉を、聞かなかったことにはできない。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "荒野から来た私が、お前の強さを試す。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "敵として組み合い、初めて対等な友を得た。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "なら、次の一歩で確かめよう。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "私は、友情と死を通じ、永遠の命ではなく有限な生で何を築くかを問うことを忘れずに選ぶ。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "eyes": "crying"
+  },
+  {
+   "op": "hide",
+   "actor": "homura"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "bg",
+   "src": "cedar",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "cedar"
+  },
+  {
+   "op": "nar",
+   "text": "第2景「杉の森」。神聖な杉の森。巨大な幹、霧、遠い山門。"
+  },
+  {
+   "op": "show",
+   "actor": "homura",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "名を永遠にするため、森の番人フンババを倒す。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "恐れを隠すな。二人なら、恐れも半分ずつ持てる。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "答えはまだ一つに決められない。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "勝利の名声は、切られた森の沈黙も背負います。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "英雄の行いは、倒した敵だけでなく残した傷で測られる。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "迷いを抱えたままでも、進むことはできる。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "私は、友情と死を通じ、永遠の命ではなく有限な生で何を築くかを問うことを忘れずに選ぶ。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "その選択の重さを、次の場面まで持って行こう。"
+  },
+  {
+   "op": "hide",
+   "actor": "homura"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "bg",
+   "src": "bull",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "bull"
+  },
+  {
+   "op": "nar",
+   "text": "第3景「天の牡牛」。ウルクの広場。割れた石畳、嵐雲、牡牛の角の影。"
+  },
+  {
+   "op": "show",
+   "actor": "homura",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "女神の求婚を退けた報いに、天の牡牛が町を裂く。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "民を守るためなら、神の獣にも立ち向かう。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "その理屈には、置き去りにされた声がある。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "勝った歓声の裏で、神々は代償を決めた。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "力で越えられない境界が、死という形で来る。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "誰のための決断か、もう一度考えよう。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "私は、友情と死を通じ、永遠の命ではなく有限な生で何を築くかを問うことを忘れずに選ぶ。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "その選択の重さを、次の場面まで持って行こう。"
+  },
+  {
+   "op": "hide",
+   "actor": "homura"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "bg",
+   "src": "deathbed",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "deathbed"
+  },
+  {
+   "op": "nar",
+   "text": "第4景「エンキドゥの死」。静かな王宮寝室。葦の敷物、沈む夕日、太鼓。"
+  },
+  {
+   "op": "show",
+   "actor": "homura",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "友よ、目を開けろ。城壁も王冠も、お前なしでは土だ。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "私が死ぬから、お前は初めて自分の死を見る。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "恐れを隠しても、状況は変わらない。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "死を受け入れられない。世界の果てまで不死を探す。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "私を忘れないことと、死を否定することは違う。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "恐れを言葉にした今なら、選び直せる。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "私は、友情と死を通じ、永遠の命ではなく有限な生で何を築くかを問うことを忘れずに選ぶ。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "その選択の重さを、次の場面まで持って行こう。"
+  },
+  {
+   "op": "hide",
+   "actor": "homura"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "bg",
+   "src": "flood",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "flood"
+  },
+  {
+   "op": "nar",
+   "text": "第5景「洪水を越えた者」。世界の果ての岸。黒い海、古い方舟、星空。"
+  },
+  {
+   "op": "show",
+   "actor": "homura",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "私は眠らず六日七夜を越え、不死に値すると示す。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "語る間にも眠った者が、永遠の命を支配できるか。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "正しさだけでは、人の痛みを量れない。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "なら若返りの草を持ち帰る。せめて死を遅らせたい。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "命は所有物ではない。得た知恵を誰と分けるかが問われる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "だから事実と心の両方を見よう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "私は、友情と死を通じ、永遠の命ではなく有限な生で何を築くかを問うことを忘れずに選ぶ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "ここで舞台は一瞬静まり、観客の選択が人物の心の向きを変える。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "不死の草を自分のために使う",
+     "jump": "route_a"
+    },
+    {
+     "text": "ウルクの長老たちと分かち合う",
+     "jump": "route_b"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "route_a"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "私は『不死の草を自分のために使う』道を選ぶ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "その決断なら、結果まで自分の言葉で引き受けて。",
+   "eyes": "normal"
+  },
+  {
+   "op": "set",
+   "flag": "f_route_a"
+  },
+  {
+   "op": "jump",
+   "to": "merge_choice"
+  },
+  {
+   "op": "label",
+   "id": "route_b"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "私は『ウルクの長老たちと分かち合う』道を選ぶ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "違う道でも、守るべきものを見失わないで。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "set",
+   "flag": "f_route_b"
+  },
+  {
+   "op": "label",
+   "id": "merge_choice"
+  },
+  {
+   "op": "nar",
+   "text": "選択の余韻を抱えたまま、物語は同じ終幕へ向かう。"
+  },
+  {
+   "op": "hide",
+   "actor": "homura"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "bg",
+   "src": "returnwall",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "returnwall"
+  },
+  {
+   "op": "nar",
+   "text": "第6景「城壁への帰還」。朝のウルク城壁。煉瓦に刻まれる文字、流れる川。"
+  },
+  {
+   "op": "show",
+   "actor": "homura",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "草は蛇に奪われた。旅の成果は何も残らない。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "見上げなさい。民と築いた城壁、語り継ぐ友の名がある。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "ここで黙れば、同じことが繰り返される。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "永遠に生きる代わりに、有限の仕事を丁寧に残す。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "王よ、その決意こそ石より長く人の中に続きます。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "言葉にした責任を、次の場面へ持って行こう。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "私は、友情と死を通じ、永遠の命ではなく有限な生で何を築くかを問うことを忘れずに選ぶ。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "eyes": "anger"
+  },
+  {
+   "op": "hide",
+   "actor": "homura"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "bg",
+   "src": "returnwall",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "returnwall"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "『ギルガメシュ叙事詩』、これにて終幕です。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "残った問いは、友情と死を通じ、永遠の命ではなく有限な生で何を築くかを問うこと。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "選ばなかった道も、物語の外で静かに私たちを見ています。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ご観劇、ありがとうございました。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
+}

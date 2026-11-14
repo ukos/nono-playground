@@ -1,0 +1,766 @@
+{
+ "meta": {
+  "id": "beowulf",
+  "title": "ベーオウルフ ―竜のあとに残すもの―",
+  "original": "『ベーオウルフ』（古英語叙事詩・著作権消滅）",
+  "adaptation": "moderate",
+  "format": "v3",
+  "minutes": 29,
+  "synopsis": "全六景で原作の主要な運動をたどりながら、勝つ英雄から、共同体に何を遺す英雄へ主題を深めることを中心に再構成する。第五景で観客が人物の姿勢を選び、分岐は終幕前に合流する。",
+  "note": "本脚本は著作権の消滅した原作からの翻案であり、既存の翻訳・上演台本は使用していない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
+  },
+  {
+   "role": "ベーオウルフ",
+   "actor": "extra_porter",
+   "costume": "default"
+  },
+  {
+   "role": "フロースガール王",
+   "actor": "extra_wizard",
+   "costume": "default"
+  },
+  {
+   "role": "グレンデル",
+   "actor": "extra_oni",
+   "costume": "default"
+  },
+  {
+   "role": "グレンデルの母",
+   "actor": "extra_mummy",
+   "costume": "default"
+  },
+  {
+   "role": "ウィーラーフ",
+   "actor": "yui",
+   "costume": "default"
+  },
+  {
+   "role": "竜",
+   "actor": "homura",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "heorot": "bg/heorot-2048x1152.png",
+  "battlehall": "bg/battlehall-2048x1152.png",
+  "mere": "bg/mere-2048x1152.png",
+  "kingyears": "bg/kingyears-2048x1152.png",
+  "dragonbarrow": "bg/dragonbarrow-2048x1152.png",
+  "legacy": "bg/legacy-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ようこそ、NONO座へ。本日の演目は『ベーオウルフ』。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "この舞台が見つめるのは、勝つ英雄から、共同体に何を遺す英雄へ主題を深めること。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "古い物語を借りながら、台詞はすべて今夜のための書き下ろしです。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "それでは、幕を開けましょう。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "heorot",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "heorot"
+  },
+  {
+   "op": "nar",
+   "text": "第1景「鹿の広間」。巨大な木造宴会場ヘオロット。金の梁、長椅子、夜の沼霧。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "extra_oni",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "十二年、夜ごとグレンデルが歌と命を奪ってきた。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "私は武器を置き、腕だけで怪物と向き合う。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "今の言葉を、聞かなかったことにはできない。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "人の喜びの音が、沼の孤独を刺した。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "敵の痛みを知っても、殺戮を止める責任は消えない。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "なら、次の一歩で確かめよう。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "私は、勝つ英雄から、共同体に何を遺す英雄へ主題を深めることを忘れずに選ぶ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "eyes": "crying"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_oni"
+  },
+  {
+   "op": "bg",
+   "src": "battlehall",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "battlehall"
+  },
+  {
+   "op": "nar",
+   "text": "第2景「夜の組討ち」。壊れた宴会場。倒れた卓、裂けた扉、月光。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_oni",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "剣が効かないなら、逃げ道を塞ぎ力を受け止める。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "腕を失っても、私の母が復讐を継ぐ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "答えはまだ一つに決められない。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "勝利の歌が、新しい敵の悲しみを呼びます。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "英雄は次の夜まで見通して備えねばならない。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "迷いを抱えたままでも、進むことはできる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "私は、勝つ英雄から、共同体に何を遺す英雄へ主題を深めることを忘れずに選ぶ。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "eyes": "normal"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_oni"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "bg",
+   "src": "mere",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "mere"
+  },
+  {
+   "op": "nar",
+   "text": "第3景「沼の底」。暗い沼の水底宮殿。古い剣、骨、緑の光。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_mummy",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "息子を奪った者よ、母の怒りを怪物と呼ぶのか。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_mummy",
+   "text": "あなたの悲しみは分かる。だが広間の子らも母を失った。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "その理屈には、置き去りにされた声がある。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "水底の剣は、力より争いの古さを示している。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "勝って戻るなら、復讐の連鎖を誇りに変えるな。",
+   "eyes": "closed",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_mummy",
+   "text": "誰のための決断か、もう一度考えよう。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "私は、勝つ英雄から、共同体に何を遺す英雄へ主題を深めることを忘れずに選ぶ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "extra_mummy",
+   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_mummy"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
+   "op": "bg",
+   "src": "kingyears",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "kingyears"
+  },
+  {
+   "op": "nar",
+   "text": "第4景「老王の広間」。年月を経た王宮。古い盾、豊かな穀倉、冬の光。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "五十年の平和で、私は戦士より王である時間を長く持った。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "だから民は、昔の怪力でなく今の判断を頼ります。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "恐れを隠しても、状況は変わらない。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "英雄の物語は若い日の勝利ばかりを覚える。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "統治の日々もまた、毎朝選び直す戦いです。",
+   "eyes": "crying",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "恐れを言葉にした今なら、選び直せる。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "私は、勝つ英雄から、共同体に何を遺す英雄へ主題を深めることを忘れずに選ぶ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "bg",
+   "src": "dragonbarrow",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "dragonbarrow"
+  },
+  {
+   "op": "nar",
+   "text": "第5景「竜の塚」。燃える古墳。黄金、黒煙、崩れる石、夕空。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "homura",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "盗まれた杯一つで、竜の火が国を焼く。私は一人で止める。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "王が倒れれば、勝っても国は守り手を失います。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "正しさだけでは、人の痛みを量れない。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "宝を守る年月が、私を宝の囚人にした。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "後継者に任せることも、王の勇気です。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "だから事実と心の両方を見よう。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "私は、勝つ英雄から、共同体に何を遺す英雄へ主題を深めることを忘れずに選ぶ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "その選択の重さを、次の場面まで持って行こう。"
+  },
+  {
+   "op": "nar",
+   "text": "ここで舞台は一瞬静まり、観客の選択が人物の心の向きを変える。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "王が単独で竜へ挑む",
+     "jump": "route_a"
+    },
+    {
+     "text": "後継者と作戦を分かち合う",
+     "jump": "route_b"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "route_a"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "私は『王が単独で竜へ挑む』道を選ぶ。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "その決断なら、結果まで自分の言葉で引き受けて。"
+  },
+  {
+   "op": "set",
+   "flag": "f_route_a"
+  },
+  {
+   "op": "jump",
+   "to": "merge_choice"
+  },
+  {
+   "op": "label",
+   "id": "route_b"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "私は『後継者と作戦を分かち合う』道を選ぶ。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "違う道でも、守るべきものを見失わないで。"
+  },
+  {
+   "op": "set",
+   "flag": "f_route_b"
+  },
+  {
+   "op": "label",
+   "id": "merge_choice"
+  },
+  {
+   "op": "nar",
+   "text": "選択の余韻を抱えたまま、物語は同じ終幕へ向かう。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "hide",
+   "actor": "homura"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "bg",
+   "src": "legacy",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "legacy"
+  },
+  {
+   "op": "nar",
+   "text": "第6景「海辺の火葬塚」。風の強い海岸。石の墓標、灰、遠い船、朝焼け。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "竜は倒れた。だが私の命もここまでだ。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "宝を墓へ閉じ込めず、国の再建に使います。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "ここで黙れば、同じことが繰り返される。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "私の名より、次の冬を越す倉と約束を残してくれ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "英雄の最後の勝利は、自分なしで続く国を作ることです。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "言葉にした責任を、次の場面へ持って行こう。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "私は、勝つ英雄から、共同体に何を遺す英雄へ主題を深めることを忘れずに選ぶ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "eyes": "anger"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
+   "op": "bg",
+   "src": "legacy",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "legacy"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "『ベーオウルフ』、これにて終幕です。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "残った問いは、勝つ英雄から、共同体に何を遺す英雄へ主題を深めること。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "選ばなかった道も、物語の外で静かに私たちを見ています。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ご観劇、ありがとうございました。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
+}

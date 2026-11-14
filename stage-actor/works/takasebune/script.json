@@ -1,0 +1,694 @@
+{
+  "meta": {
+    "id": "takasebune",
+    "title": "高瀬舟 ―裁きの水面―",
+    "original": "森鴎外『高瀬舟』（著作権消滅）",
+    "adaptation": "faithful",
+    "format": "v3",
+    "minutes": 18,
+    "synopsis": "全六景で原作の主要な運動をたどりながら、罪と慈悲の境界を、簡単な答えに閉じないことを中心に再構成する。第五景で観客が人物の姿勢を選び、分岐は終幕前に合流する。",
+    "note": "本脚本は著作権の消滅した原作からの翻案であり、既存の翻訳・上演台本は使用していない。セリフは全て本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "羽田庄兵衛",
+      "actor": "rei_kimono",
+      "costume": "default"
+    },
+    {
+      "role": "喜助",
+      "actor": "extra_porter",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "canal": "bg/canal-2048x1152.png",
+    "moonwater": "bg/moonwater-2048x1152.png",
+    "hut": "bg/hut-2048x1152.png",
+    "magistrate": "bg/magistrate-2048x1152.png",
+    "midstream": "bg/midstream-2048x1152.png",
+    "dawn": "bg/dawn-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『高瀬舟』。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "この舞台が見つめるのは、罪と慈悲の境界を、簡単な答えに閉じないこと。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "古い物語を借りながら、台詞はすべて今夜のための書き下ろしです。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "それでは、幕を開けましょう。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "canal",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "canal"
+    },
+    {
+      "op": "nar",
+      "text": "第1景「夜の舟出」。江戸期の京都、高瀬川。夜の細い水路と小舟、岸の柳。"
+    },
+    {
+      "op": "show",
+      "actor": "rei_kimono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_porter",
+      "pos": "center"
+    },
+    {
+      "op": "nar",
+      "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "罪人は皆うなだれる。だが喜助の顔には、妙な静けさがある。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "遠島は怖いです。でも今夜は、生まれて初めて自分の金を持っています。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "今の言葉を、聞かなかったことにはできない。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "二百文で満ち足りるとは、私の暮らしの方が貧しいのかもしれぬ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "足ることを知ったのではなく、足りないことに慣れただけです。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "なら、次の一歩で確かめよう。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "私は、罪と慈悲の境界を、簡単な答えに閉じないことを忘れずに選ぶ。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "その選択の重さを、次の場面まで持って行こう。",
+      "eyes": "crying"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_kimono"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_porter"
+    },
+    {
+      "op": "bg",
+      "src": "moonwater",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "moonwater"
+    },
+    {
+      "op": "nar",
+      "text": "第2景「水面の問答」。月が映る高瀬川。橋脚、葦、静かな夜霧。"
+    },
+    {
+      "op": "show",
+      "actor": "rei_kimono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_porter",
+      "pos": "center"
+    },
+    {
+      "op": "nar",
+      "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "弟を殺したと記録にはある。お前の口から経緯を聞きたい。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "弟は長く病み、働けぬ自分を責めていました。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "答えはまだ一つに決められない。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "お前は憎んでいたのか。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "いいえ。二人で生きることだけが、私の望みでした。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "迷いを抱えたままでも、進むことはできる。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "私は、罪と慈悲の境界を、簡単な答えに閉じないことを忘れずに選ぶ。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "その選択の重さを、次の場面まで持って行こう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_kimono"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_porter"
+    },
+    {
+      "op": "bg",
+      "src": "hut",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "hut"
+    },
+    {
+      "op": "nar",
+      "text": "第3景「兄弟の小屋」。貧しい町家の一室。薬碗、薄い布団、朝の光。"
+    },
+    {
+      "op": "show",
+      "actor": "extra_porter",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_kimono",
+      "pos": "center"
+    },
+    {
+      "op": "nar",
+      "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "帰ると、弟は剃刀を喉に当て、抜いてくれと頼みました。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "抜けば血が出る。抜かなければ苦しみが続く。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "その理屈には、置き去りにされた声がある。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "私は助けを呼ぼうとしました。でも弟の目が、もう耐えられないと言った。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "手をかけた瞬間の心を、法の言葉だけで量れるだろうか。",
+      "eyes": "closed",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "誰のための決断か、もう一度考えよう。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "私は、罪と慈悲の境界を、簡単な答えに閉じないことを忘れずに選ぶ。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "その選択の重さを、次の場面まで持って行こう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_porter"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_kimono"
+    },
+    {
+      "op": "bg",
+      "src": "magistrate",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "magistrate"
+    },
+    {
+      "op": "nar",
+      "text": "第4景「取調べの記憶」。奉行所の白州。低い机、記録板、冷たい昼光。"
+    },
+    {
+      "op": "show",
+      "actor": "rei_kimono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_porter",
+      "pos": "center"
+    },
+    {
+      "op": "nar",
+      "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "裁きは行いを見る。だが行いだけでは心の形が消える。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "私は罰を逃れたいのではありません。あの時の弟を忘れたくないのです。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "恐れを隠しても、状況は変わらない。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "慈悲が罪になる時、役人は何を守るのだ。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "生きている者が勝手に答えを作らないことも、守りかもしれません。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "恐れを言葉にした今なら、選び直せる。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "私は、罪と慈悲の境界を、簡単な答えに閉じないことを忘れずに選ぶ。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "その選択の重さを、次の場面まで持って行こう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_kimono"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_porter"
+    },
+    {
+      "op": "bg",
+      "src": "midstream",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "midstream"
+    },
+    {
+      "op": "nar",
+      "text": "第5景「舟の中央」。暗い川の中流。両岸の灯が遠く、櫂の波紋が広がる。"
+    },
+    {
+      "op": "show",
+      "actor": "rei_kimono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_porter",
+      "pos": "center"
+    },
+    {
+      "op": "nar",
+      "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "私はお前を許す権利も、断罪し直す権利も持たぬ。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "それで十分です。聞いてくださったことが、今夜の灯です。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "正しさだけでは、人の痛みを量れない。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "聞くことは裁きの外にあるのか、それとも裁きの始まりか。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "答えが出ないままでも、舟は進みます。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "だから事実と心の両方を見よう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "私は、罪と慈悲の境界を、簡単な答えに閉じないことを忘れずに選ぶ。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "その選択の重さを、次の場面まで持って行こう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "ここで舞台は一瞬静まり、観客の選択が人物の心の向きを変える。"
+    },
+    {
+      "op": "choice",
+      "options": [
+        {
+          "text": "役人として問い続ける",
+          "jump": "route_a"
+        },
+        {
+          "text": "一人の人として黙って聴く",
+          "jump": "route_b"
+        }
+      ]
+    },
+    {
+      "op": "label",
+      "id": "route_a"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "私は『役人として問い続ける』道を選ぶ。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "その決断なら、結果まで自分の言葉で引き受けて。",
+      "eyes": "normal"
+    },
+    {
+      "op": "set",
+      "flag": "f_route_a"
+    },
+    {
+      "op": "jump",
+      "to": "merge_choice"
+    },
+    {
+      "op": "label",
+      "id": "route_b"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "私は『一人の人として黙って聴く』道を選ぶ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "違う道でも、守るべきものを見失わないで。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "set",
+      "flag": "f_route_b"
+    },
+    {
+      "op": "label",
+      "id": "merge_choice"
+    },
+    {
+      "op": "nar",
+      "text": "選択の余韻を抱えたまま、物語は同じ終幕へ向かう。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_kimono"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_porter"
+    },
+    {
+      "op": "bg",
+      "src": "dawn",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "dawn"
+    },
+    {
+      "op": "nar",
+      "text": "第6景「島へ向かう朝」。夜明け前の川口。薄桃色の空、遠い山、静かな舟。"
+    },
+    {
+      "op": "show",
+      "actor": "rei_kimono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_porter",
+      "pos": "center"
+    },
+    {
+      "op": "nar",
+      "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "東の空が白む。お前の行く先はまだ遠い。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "遠くても、弟の苦しみよりは歩けます。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "ここで黙れば、同じことが繰り返される。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "私は今夜の話を、役所の記録とは別に胸へ置こう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "人の心を一行に縮めないでください。それが私の願いです。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "言葉にした責任を、次の場面へ持って行こう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "私は、罪と慈悲の境界を、簡単な答えに閉じないことを忘れずに選ぶ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "その選択の重さを、次の場面まで持って行こう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_kimono"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_porter"
+    },
+    {
+      "op": "bg",
+      "src": "dawn",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "dawn"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "『高瀬舟』、これにて終幕です。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "残った問いは、罪と慈悲の境界を、簡単な答えに閉じないこと。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "選ばなかった道も、物語の外で静かに私たちを見ています。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ご観劇、ありがとうございました。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

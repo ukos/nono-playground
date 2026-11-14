@@ -1,0 +1,739 @@
+{
+ "meta": {
+  "id": "cyrano",
+  "title": "シラノ・ド・ベルジュラック ―借りた声―",
+  "original": "Edmond Rostand, Cyrano de Bergerac（原作・著作権消滅）",
+  "adaptation": "moderate",
+  "format": "v3",
+  "minutes": 27,
+  "synopsis": "全六景で原作の主要な運動をたどりながら、顔・声・文章の間で、本当の自己を隠すことの美しさと残酷さを描くことを中心に再構成する。第五景で観客が人物の姿勢を選び、分岐は終幕前に合流する。",
+  "note": "本脚本は著作権の消滅した原作からの翻案であり、既存の翻訳・上演台本は使用していない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
+  },
+  {
+   "role": "シラノ",
+   "actor": "extra_porter",
+   "costume": "default"
+  },
+  {
+   "role": "ロクサーヌ",
+   "actor": "yui",
+   "costume": "default"
+  },
+  {
+   "role": "クリスチャン",
+   "actor": "rei",
+   "costume": "default"
+  },
+  {
+   "role": "ド・ギッシュ伯爵",
+   "actor": "iwao",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "theatre": "bg/theatre-2048x1152.png",
+  "bakery": "bg/bakery-2048x1152.png",
+  "balcony": "bg/balcony-2048x1152.png",
+  "battlefield": "bg/battlefield-2048x1152.png",
+  "convent": "bg/convent-2048x1152.png",
+  "lastleaf": "bg/lastleaf-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ようこそ、NONO座へ。本日の演目は『シラノ・ド・ベルジュラック』。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "この舞台が見つめるのは、顔・声・文章の間で、本当の自己を隠すことの美しさと残酷さを描くこと。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "古い物語を借りながら、台詞はすべて今夜のための書き下ろしです。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "それでは、幕を開けましょう。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "theatre",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "theatre"
+  },
+  {
+   "op": "nar",
+   "text": "第1景「劇場の決闘」。パリの劇場。赤い幕、観客席、決闘の空間。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "私の鼻を笑うなら、比喩を二十は用意してから来い。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "剣と詩を同時に操るとは、見世物としては上等だ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "今の言葉を、聞かなかったことにはできない。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "笑いを先に奪えば、傷つけられる前に自分で守れる。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "でもあなたは、笑われない場所でも本心を隠すのね。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "なら、次の一歩で確かめよう。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "私は、顔・声・文章の間で、本当の自己を隠すことの美しさと残酷さを描くことを忘れずに選ぶ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "その選択の重さを、次の場面まで持って行こう。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "bg",
+   "src": "bakery",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "bakery"
+  },
+  {
+   "op": "nar",
+   "text": "第2景「手紙の代筆」。朝のパン屋。焼き立てのパン、紙、羽根ペン。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "君の顔に私の言葉を貸す。彼女は完全な男を愛せる。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "借りた言葉で得た愛は、誰のものになる。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "答えはまだ一つに決められない。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "問いは後だ。今は彼女を喜ばせたい。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "あなたも同じ願いだから、断れないのでしょう。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "迷いを抱えたままでも、進むことはできる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "私は、顔・声・文章の間で、本当の自己を隠すことの美しさと残酷さを描くことを忘れずに選ぶ。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "eyes": "normal"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "hide",
+   "actor": "rei"
+  },
+  {
+   "op": "bg",
+   "src": "balcony",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "balcony"
+  },
+  {
+   "op": "nar",
+   "text": "第3景「暗闇の告白」。夜のバルコニー。蔓薔薇、月、深い木陰。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "rei",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "暗闇なら、顔の代わりに声だけが届く。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "今夜の言葉は、手紙より震えている。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "その理屈には、置き去りにされた声がある。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "声は私、名は彼。どちらが嘘なのだ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "姿を見せて。いいえ、今はこの声のままでいて。",
+   "eyes": "closed",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "誰のための決断か、もう一度考えよう。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "私は、顔・声・文章の間で、本当の自己を隠すことの美しさと残酷さを描くことを忘れずに選ぶ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "rei"
+  },
+  {
+   "op": "bg",
+   "src": "battlefield",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "battlefield"
+  },
+  {
+   "op": "nar",
+   "text": "第4景「戦地の手紙」。包囲戦の陣地。土嚢、旗、夜明け前の煙。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "私は毎日、君の名で彼女へ手紙を書いた。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "彼女が愛したのが言葉なら、私は身を引く。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "恐れを隠しても、状況は変わらない。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "今さら真実を渡せば、彼女の愛まで戦利品にする。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "敵弾より、告白の方が二人を深く傷つける。",
+   "eyes": "crying",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "恐れを言葉にした今なら、選び直せる。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "私は、顔・声・文章の間で、本当の自己を隠すことの美しさと残酷さを描くことを忘れずに選ぶ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "hide",
+   "actor": "rei"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "bg",
+   "src": "convent",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "convent"
+  },
+  {
+   "op": "nar",
+   "text": "第5景「十五年後の修道院」。秋の修道院庭園。落葉、石のベンチ、夕日。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "毎週の訪問だけが、私に残った祝日です。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "あなたは昔の手紙を読む時、同じ息継ぎをする。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "正しさだけでは、人の痛みを量れない。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "暗くなったのに読めるのは、書いた本人だから。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "長い沈黙が、やっと声の持ち主を返したのね。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "だから事実と心の両方を見よう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "私は、顔・声・文章の間で、本当の自己を隠すことの美しさと残酷さを描くことを忘れずに選ぶ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "ここで舞台は一瞬静まり、観客の選択が人物の心の向きを変える。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "今夜こそ真実を告げる",
+     "jump": "route_a"
+    },
+    {
+     "text": "友の約束を守り沈黙する",
+     "jump": "route_b"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "route_a"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "私は『今夜こそ真実を告げる』道を選ぶ。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "その決断なら、結果まで自分の言葉で引き受けて。",
+   "eyes": "normal"
+  },
+  {
+   "op": "set",
+   "flag": "f_route_a"
+  },
+  {
+   "op": "jump",
+   "to": "merge_choice"
+  },
+  {
+   "op": "label",
+   "id": "route_b"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "私は『友の約束を守り沈黙する』道を選ぶ。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "違う道でも、守るべきものを見失わないで。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "set",
+   "flag": "f_route_b"
+  },
+  {
+   "op": "label",
+   "id": "merge_choice"
+  },
+  {
+   "op": "nar",
+   "text": "選択の余韻を抱えたまま、物語は同じ終幕へ向かう。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "bg",
+   "src": "lastleaf",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "lastleaf"
+  },
+  {
+   "op": "nar",
+   "text": "第6景「最後の羽飾り」。夜の修道院庭園。舞う落葉、月光、一本の剣。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "私は醜さにも貧しさにも負けなかった。沈黙には負けた。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "いいえ。あなたの言葉は届いていた。名だけが遅れたの。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "ここで黙れば、同じことが繰り返される。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "最後まで手放さないものがある。私の羽飾りだ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "それは誇りではなく、愛を言葉にする勇気だったのね。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "言葉にした責任を、次の場面へ持って行こう。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "私は、顔・声・文章の間で、本当の自己を隠すことの美しさと残酷さを描くことを忘れずに選ぶ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "eyes": "anger"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "bg",
+   "src": "lastleaf",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "lastleaf"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "『シラノ・ド・ベルジュラック』、これにて終幕です。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "残った問いは、顔・声・文章の間で、本当の自己を隠すことの美しさと残酷さを描くこと。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "選ばなかった道も、物語の外で静かに私たちを見ています。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ご観劇、ありがとうございました。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
+}

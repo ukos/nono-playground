@@ -1,0 +1,738 @@
+{
+  "meta": {
+    "id": "don_quixote",
+    "title": "ドン・キホーテ ―風車の向こう―",
+    "original": "Miguel de Cervantes, Don Quijote（原著・著作権消滅）",
+    "adaptation": "free",
+    "format": "v3",
+    "minutes": 26,
+    "synopsis": "全六景で原作の主要な運動をたどりながら、現実逃避と理想を演じる力の両面を、笑いと哀しみで描くことを中心に再構成する。第五景で観客が人物の姿勢を選び、分岐は終幕前に合流する。",
+    "note": "本脚本は著作権の消滅した原作からの翻案であり、既存の翻訳・上演台本は使用していない。セリフは全て本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "ドン・キホーテ",
+      "actor": "extra_elder",
+      "costume": "default"
+    },
+    {
+      "role": "サンチョ・パンサ",
+      "actor": "tanurio",
+      "costume": "default"
+    },
+    {
+      "role": "ドゥルシネーア",
+      "actor": "yui",
+      "costume": "default"
+    },
+    {
+      "role": "学士サンソン",
+      "actor": "rei_rider",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "library": "bg/library-2048x1152.png",
+    "inn": "bg/inn-2048x1152.png",
+    "windmills": "bg/windmills-2048x1152.png",
+    "prisoners": "bg/prisoners-2048x1152.png",
+    "duke": "bg/duke-2048x1152.png",
+    "home": "bg/home-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『ドン・キホーテ』。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "この舞台が見つめるのは、現実逃避と理想を演じる力の両面を、笑いと哀しみで描くこと。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "古い物語を借りながら、台詞はすべて今夜のための書き下ろしです。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "それでは、幕を開けましょう。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "library",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "library"
+    },
+    {
+      "op": "nar",
+      "text": "第1景「騎士の誕生」。ラ・マンチャの書斎。騎士物語の山、古い甲冑、朝日。"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "tanurio",
+      "pos": "center"
+    },
+    {
+      "op": "nar",
+      "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "世に正義が足りぬなら、私が遍歴の騎士になろう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "馬も鎧も古いですが、給金は新しいのでしょうね。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "今の言葉を、聞かなかったことにはできない。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "報酬は名誉と島の統治だ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "島より、まず昼飯を約束してください。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "なら、次の一歩で確かめよう。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "私は、現実逃避と理想を演じる力の両面を、笑いと哀しみで描くことを忘れずに選ぶ。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "その選択の重さを、次の場面まで持って行こう。",
+      "eyes": "crying"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "hide",
+      "actor": "tanurio"
+    },
+    {
+      "op": "bg",
+      "src": "inn",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "inn"
+    },
+    {
+      "op": "nar",
+      "text": "第2景「城という宿屋」。街道の宿。水桶、馬小屋、粗末な食卓。"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "tanurio",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "この城の主よ、私を騎士に叙していただきたい。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "宿屋を城と呼べば、宿代まで王様払いになりますか。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "答えはまだ一つに決められない。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "現実を少し違う名で呼ぶと、人は少し親切になれる。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "でも他人に役を押しつけたら、想像は迷惑になります。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "迷いを抱えたままでも、進むことはできる。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "私は、現実逃避と理想を演じる力の両面を、笑いと哀しみで描くことを忘れずに選ぶ。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "その選択の重さを、次の場面まで持って行こう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "hide",
+      "actor": "tanurio"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "bg",
+      "src": "windmills",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "windmills"
+    },
+    {
+      "op": "nar",
+      "text": "第3景「風車への突撃」。広い平原。白い風車、青空、舞う砂。"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "tanurio",
+      "pos": "center"
+    },
+    {
+      "op": "nar",
+      "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "見よ、腕を振るう巨人ども。今こそ弱者の敵を討つ。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "あれは風車です。巨人なら小麦粉を作りません。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "その理屈には、置き去りにされた声がある。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "魔法使いが姿を変えたのだ。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "負けた後で敵の名前を変えるのは、勇気ではありません。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "誰のための決断か、もう一度考えよう。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "私は、現実逃避と理想を演じる力の両面を、笑いと哀しみで描くことを忘れずに選ぶ。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "その選択の重さを、次の場面まで持って行こう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "hide",
+      "actor": "tanurio"
+    },
+    {
+      "op": "bg",
+      "src": "prisoners",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "prisoners"
+    },
+    {
+      "op": "nar",
+      "text": "第4景「囚人の鎖」。乾いた街道。護送列、鎖、低い丘。"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "tanurio",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "rei_rider",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "縛られた者を自由にするのが騎士の務めだ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "事情を聞かず鎖だけ切れば、別の人が傷つく。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "恐れを隠しても、状況は変わらない。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "正義は急ぐ。手続きは弱者を待たせる。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "急いだ正義が弱者を踏む時、誰が止めるのです。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "恐れを言葉にした今なら、選び直せる。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "私は、現実逃避と理想を演じる力の両面を、笑いと哀しみで描くことを忘れずに選ぶ。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "その選択の重さを、次の場面まで持って行こう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "hide",
+      "actor": "tanurio"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_rider"
+    },
+    {
+      "op": "bg",
+      "src": "duke",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "duke"
+    },
+    {
+      "op": "nar",
+      "text": "第5景「作られた冒険」。公爵邸の舞台庭園。偽の城、仕掛け馬、観客席。"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "tanurio",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "皆が私を本物の騎士として迎えている。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "笑うために役を与える者は、風車より残酷です。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "正しさだけでは、人の痛みを量れない。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "旦那様、演じるなら誰かを勇気づける騎士でいて。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "物語は人をからかう道具にも、立たせる杖にもなる。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "だから事実と心の両方を見よう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "私は、現実逃避と理想を演じる力の両面を、笑いと哀しみで描くことを忘れずに選ぶ。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "その選択の重さを、次の場面まで持って行こう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "ここで舞台は一瞬静まり、観客の選択が人物の心の向きを変える。"
+    },
+    {
+      "op": "choice",
+      "options": [
+        {
+          "text": "現実をそのまま受け入れる",
+          "jump": "route_a"
+        },
+        {
+          "text": "害のない範囲で騎士を演じ続ける",
+          "jump": "route_b"
+        }
+      ]
+    },
+    {
+      "op": "label",
+      "id": "route_a"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "私は『現実をそのまま受け入れる』道を選ぶ。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "その決断なら、結果まで自分の言葉で引き受けて。",
+      "eyes": "normal"
+    },
+    {
+      "op": "set",
+      "flag": "f_route_a"
+    },
+    {
+      "op": "jump",
+      "to": "merge_choice"
+    },
+    {
+      "op": "label",
+      "id": "route_b"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "私は『害のない範囲で騎士を演じ続ける』道を選ぶ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "違う道でも、守るべきものを見失わないで。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "set",
+      "flag": "f_route_b"
+    },
+    {
+      "op": "label",
+      "id": "merge_choice"
+    },
+    {
+      "op": "nar",
+      "text": "選択の余韻を抱えたまま、物語は同じ終幕へ向かう。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "hide",
+      "actor": "tanurio"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "bg",
+      "src": "home",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "home"
+    },
+    {
+      "op": "nar",
+      "text": "第6景「帰郷の寝室」。故郷の静かな寝室。閉じた本、窓外の夕暮れ。"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "tanurio",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "私は騎士ではなかった。だが正義を望んだ心まで病だったのか。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "現実を見ることと、理想を捨てることは違います。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "ここで黙れば、同じことが繰り返される。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "あなたに救われた人はいなくても、私の臆病は少し減った。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "なら最後に、友を得た騎士だったとだけ名乗らせてくれ。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "言葉にした責任を、次の場面へ持って行こう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "私は、現実逃避と理想を演じる力の両面を、笑いと哀しみで描くことを忘れずに選ぶ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "その選択の重さを、次の場面まで持って行こう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "hide",
+      "actor": "tanurio"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "bg",
+      "src": "home",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "home"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "『ドン・キホーテ』、これにて終幕です。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "残った問いは、現実逃避と理想を演じる力の両面を、笑いと哀しみで描くこと。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "選ばなかった道も、物語の外で静かに私たちを見ています。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ご観劇、ありがとうございました。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

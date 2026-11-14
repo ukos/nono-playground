@@ -1,0 +1,759 @@
+{
+ "meta": {
+  "id": "baskervilles",
+  "title": "バスカヴィル家の犬 ―霧の足跡―",
+  "original": "Arthur Conan Doyle, The Hound of the Baskervilles（原著・著作権消滅）",
+  "adaptation": "moderate",
+  "format": "v3",
+  "minutes": 27,
+  "synopsis": "全六景で原作の主要な運動をたどりながら、伝説の恐怖を尊重しつつ、観察と検証で人為の仕組みを解くことを中心に再構成する。第五景で観客が人物の姿勢を選び、分岐は終幕前に合流する。",
+  "note": "本脚本は著作権の消滅した原作からの翻案であり、既存の翻訳・上演台本は使用していない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
+  },
+  {
+   "role": "シャーロック・ホームズ",
+   "actor": "yoru",
+   "costume": "default"
+  },
+  {
+   "role": "ワトソン",
+   "actor": "rei",
+   "costume": "default"
+  },
+  {
+   "role": "ヘンリー卿",
+   "actor": "extra_elder",
+   "costume": "default"
+  },
+  {
+   "role": "ステイプルトン",
+   "actor": "nibulus",
+   "costume": "default"
+  },
+  {
+   "role": "魔犬",
+   "actor": "kurogane",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "bakerstreet": "bg/bakerstreet-2048x1152.png",
+  "hall": "bg/hall-2048x1152.png",
+  "moor": "bg/moor-2048x1152.png",
+  "hut": "bg/hut-2048x1152.png",
+  "trap": "bg/trap-2048x1152.png",
+  "reveal": "bg/reveal-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ようこそ、NONO座へ。本日の演目は『バスカヴィル家の犬』。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "この舞台が見つめるのは、伝説の恐怖を尊重しつつ、観察と検証で人為の仕組みを解くこと。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "古い物語を借りながら、台詞はすべて今夜のための書き下ろしです。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "それでは、幕を開けましょう。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "bakerstreet",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "bakerstreet"
+  },
+  {
+   "op": "nar",
+   "text": "第1景「古い杖」。ロンドンの書斎。暖炉、化学器具、忘れられた杖。"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "この杖の傷と泥だけで、持ち主の暮らしが見える。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "依頼は一族を殺す魔犬の伝説だ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "今の言葉を、聞かなかったことにはできない。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "伝説は事実ではないが、人を動かす力は事実です。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "なら足跡と恐怖の両方を調べよう。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "なら、次の一歩で確かめよう。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "私は、伝説の恐怖を尊重しつつ、観察と検証で人為の仕組みを解くことを忘れずに選ぶ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "eyes": "crying"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "rei"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "bg",
+   "src": "hall",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "hall"
+  },
+  {
+   "op": "nar",
+   "text": "第2景「バスカヴィル館」。荒野の石造館。大階段、鹿角、揺れる暖炉。"
+  },
+  {
+   "op": "show",
+   "actor": "rei",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "nibulus",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "夜の荒野から、犬とも風ともつかない声が聞こえる。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "私は相続を恐れて逃げたと思われたくない。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "答えはまだ一つに決められない。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "勇気を証明するため危険へ出る必要はありません。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "この土地では、沼も人も外から来た者を試します。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "迷いを抱えたままでも、進むことはできる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "私は、伝説の恐怖を尊重しつつ、観察と検証で人為の仕組みを解くことを忘れずに選ぶ。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "eyes": "normal"
+  },
+  {
+   "op": "hide",
+   "actor": "rei"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "hide",
+   "actor": "nibulus"
+  },
+  {
+   "op": "bg",
+   "src": "moor",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "moor"
+  },
+  {
+   "op": "nar",
+   "text": "第3景「グリンペン湿原」。濃霧の荒野。黒い沼、石柱、細い安全路。"
+  },
+  {
+   "op": "show",
+   "actor": "rei",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "nibulus",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "沼には一本だけ安全な道がある。知る者は限られる。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "迷えば馬でも沈む。私の後だけを歩いて。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "その理屈には、置き去りにされた声がある。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "親切な案内ほど、帰り道を隠すことがある。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "遠吠えの方向と足跡の大きさが一致しない。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "誰のための決断か、もう一度考えよう。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "私は、伝説の恐怖を尊重しつつ、観察と検証で人為の仕組みを解くことを忘れずに選ぶ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "rei"
+  },
+  {
+   "op": "hide",
+   "actor": "nibulus"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "bg",
+   "src": "hut",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "hut"
+  },
+  {
+   "op": "nar",
+   "text": "第4景「岩小屋の観察者」。荒野の岩小屋。簡素な寝床、望遠鏡、食料缶。"
+  },
+  {
+   "op": "show",
+   "actor": "rei",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "秘密の人物を追ったら、ホームズ、あなたが隠れていた。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "離れて観察すれば、犯人が私の不在を信じる。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "恐れを隠しても、状況は変わらない。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "私にも知らせない作戦は、助手を駒にすることです。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "その非難は正しい。推理の効率が信頼を傷つけた。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "恐れを言葉にした今なら、選び直せる。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "私は、伝説の恐怖を尊重しつつ、観察と検証で人為の仕組みを解くことを忘れずに選ぶ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "rei"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "bg",
+   "src": "trap",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "trap"
+  },
+  {
+   "op": "nar",
+   "text": "第5景「霧の囮」。霧深い館の外道。門灯、白い霧、走る足跡。"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "霧が予定より早い。ヘンリー卿と犬の距離が縮まる。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "燐を塗られた犬なら、伝説の光を人工的に作れる。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "正しさだけでは、人の痛みを量れない。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "推理が正しくても、囮が傷つけば失敗だ。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "証拠より先に人を救う。その後で仕組みを示す。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "だから事実と心の両方を見よう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "私は、伝説の恐怖を尊重しつつ、観察と検証で人為の仕組みを解くことを忘れずに選ぶ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "ここで舞台は一瞬静まり、観客の選択が人物の心の向きを変える。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "囮作戦を続ける",
+     "jump": "route_a"
+    },
+    {
+     "text": "ヘンリー卿を退避させ別の証拠を取る",
+     "jump": "route_b"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "route_a"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "私は『囮作戦を続ける』道を選ぶ。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "その決断なら、結果まで自分の言葉で引き受けて。",
+   "eyes": "normal"
+  },
+  {
+   "op": "set",
+   "flag": "f_route_a"
+  },
+  {
+   "op": "jump",
+   "to": "merge_choice"
+  },
+  {
+   "op": "label",
+   "id": "route_b"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "私は『ヘンリー卿を退避させ別の証拠を取る』道を選ぶ。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "違う道でも、守るべきものを見失わないで。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "set",
+   "flag": "f_route_b"
+  },
+  {
+   "op": "label",
+   "id": "merge_choice"
+  },
+  {
+   "op": "nar",
+   "text": "選択の余韻を抱えたまま、物語は同じ終幕へ向かう。"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "rei"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "bg",
+   "src": "reveal",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "reveal"
+  },
+  {
+   "op": "nar",
+   "text": "第6景「沼地の朝」。朝の湿原。消える霧、犬舎、発見された綱と薬品。"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "nibulus",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "血統と相続の動機、犬舎、燐。超自然は人間の計画だった。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "だが伝説がなければ、同じ犬でもここまで恐れられない。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "ここで黙れば、同じことが繰り返される。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "恐怖は偽物でも、受けた傷は本物です。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "だから解決とは犯人の名だけでなく、恐怖の作り方を明かすことだ。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "言葉にした責任を、次の場面へ持って行こう。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "私は、伝説の恐怖を尊重しつつ、観察と検証で人為の仕組みを解くことを忘れずに選ぶ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "eyes": "anger"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "rei"
+  },
+  {
+   "op": "hide",
+   "actor": "nibulus"
+  },
+  {
+   "op": "bg",
+   "src": "reveal",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "reveal"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "『バスカヴィル家の犬』、これにて終幕です。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "残った問いは、伝説の恐怖を尊重しつつ、観察と検証で人為の仕組みを解くこと。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "選ばなかった道も、物語の外で静かに私たちを見ています。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ご観劇、ありがとうございました。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
+}

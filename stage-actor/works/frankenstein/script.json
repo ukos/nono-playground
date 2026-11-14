@@ -1,0 +1,732 @@
+{
+ "meta": {
+  "id": "frankenstein",
+  "title": "フランケンシュタイン ―創造者の責任―",
+  "original": "Mary Shelley, Frankenstein（原著・著作権消滅）",
+  "adaptation": "moderate",
+  "format": "v3",
+  "minutes": 29,
+  "synopsis": "全六景で原作の主要な運動をたどりながら、怪物の恐怖ではなく、創造した者が関係と責任を拒む恐怖を描くことを中心に再構成する。第五景で観客が人物の姿勢を選び、分岐は終幕前に合流する。",
+  "note": "本脚本は著作権の消滅した原作からの翻案であり、既存の翻訳・上演台本は使用していない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
+  },
+  {
+   "role": "ヴィクター",
+   "actor": "extra_wizard",
+   "costume": "default"
+  },
+  {
+   "role": "創造された者",
+   "actor": "extra_mummy",
+   "costume": "default"
+  },
+  {
+   "role": "エリザベス",
+   "actor": "yui",
+   "costume": "default"
+  },
+  {
+   "role": "ウォルトン",
+   "actor": "extra_porter",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "laboratory": "bg/laboratory-2048x1152.png",
+  "cottage": "bg/cottage-2048x1152.png",
+  "mountain": "bg/mountain-2048x1152.png",
+  "workshop": "bg/workshop-2048x1152.png",
+  "wedding": "bg/wedding-2048x1152.png",
+  "arctic": "bg/arctic-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ようこそ、NONO座へ。本日の演目は『フランケンシュタイン』。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "この舞台が見つめるのは、怪物の恐怖ではなく、創造した者が関係と責任を拒む恐怖を描くこと。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "古い物語を借りながら、台詞はすべて今夜のための書き下ろしです。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "それでは、幕を開けましょう。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "laboratory",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "laboratory"
+  },
+  {
+   "op": "nar",
+   "text": "第1景「生命の夜」。ゴシックな研究室。雷、実験台、コイル、開いた天窓。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_mummy",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "死を越える発見だ。私は人類の恩人になる。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_mummy",
+   "text": "目が開いた瞬間、創造者は私を見て逃げた。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "今の言葉を、聞かなかったことにはできない。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_mummy",
+   "text": "理想の姿と違った。ただそれだけで恐怖した。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "私の最初の罪は、生まれたことではなく、捨てられたことだ。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_mummy",
+   "text": "なら、次の一歩で確かめよう。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "私は、怪物の恐怖ではなく、創造した者が関係と責任を拒む恐怖を描くことを忘れずに選ぶ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_mummy",
+   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "eyes": "crying"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_mummy"
+  },
+  {
+   "op": "bg",
+   "src": "cottage",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "cottage"
+  },
+  {
+   "op": "nar",
+   "text": "第2景「森の学び」。森の小屋を望む隠れ場所。本、薪、雪解けの光。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_mummy",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_mummy",
+   "text": "家族の会話を壁越しに聞き、言葉と優しさを覚えた。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "助けた薪も、見つかった顔一つで恐怖に変わった。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_mummy",
+   "text": "答えはまだ一つに決められない。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "人は姿を見る前に心を知ることができないのか。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_mummy",
+   "text": "知ろうとする時間を、誰もあなたに与えなかった。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "迷いを抱えたままでも、進むことはできる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_mummy",
+   "text": "私は、怪物の恐怖ではなく、創造した者が関係と責任を拒む恐怖を描くことを忘れずに選ぶ。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "eyes": "normal"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_mummy"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "bg",
+   "src": "mountain",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "mountain"
+  },
+  {
+   "op": "nar",
+   "text": "第3景「氷河の対話」。アルプスの氷河。青い氷壁、雲、深い亀裂。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_mummy",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "お前が家族を奪った。怪物め。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_mummy",
+   "text": "私を作り、名も仲間も与えなかった者が、その言葉を使うのか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "その理屈には、置き去りにされた声がある。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_mummy",
+   "text": "望みは何だ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "私と同じ孤独を分ける伴侶を作れ。それなら人から離れる。",
+   "eyes": "closed",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_mummy",
+   "text": "誰のための決断か、もう一度考えよう。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "私は、怪物の恐怖ではなく、創造した者が関係と責任を拒む恐怖を描くことを忘れずに選ぶ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "extra_mummy",
+   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_mummy"
+  },
+  {
+   "op": "bg",
+   "src": "workshop",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "workshop"
+  },
+  {
+   "op": "nar",
+   "text": "第4景「第二の創造」。孤島の作業小屋。未完成の器具、荒海、蝋燭。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_mummy",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "もう一人を作れば、苦しみを二倍にするかもしれない。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_mummy",
+   "text": "約束を破れば、私の怒りが世界へ向かう。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "恐れを隠しても、状況は変わらない。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "extra_mummy",
+   "text": "恐れから作る命は、その命自身の意思を無視している。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "最初の過ちを、二つ目の身体で隠すな。",
+   "eyes": "crying",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_mummy",
+   "text": "恐れを言葉にした今なら、選び直せる。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "私は、怪物の恐怖ではなく、創造した者が関係と責任を拒む恐怖を描くことを忘れずに選ぶ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_mummy",
+   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_mummy"
+  },
+  {
+   "op": "bg",
+   "src": "wedding",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "wedding"
+  },
+  {
+   "op": "nar",
+   "text": "第5景「失われる家」。嵐の屋敷。婚礼の花、割れた窓、消えた灯。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "extra_mummy",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "私たちの未来を、あなたは研究と復讐の両方に奪われた。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "私が守るべきものを敵への罠にした。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "正しさだけでは、人の痛みを量れない。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_mummy",
+   "text": "創造者よ、私はお前と同じ孤独を返した。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "復讐で似た者になった二人が、互いを怪物と呼んでいる。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "だから事実と心の両方を見よう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "私は、怪物の恐怖ではなく、創造した者が関係と責任を拒む恐怖を描くことを忘れずに選ぶ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "ここで舞台は一瞬静まり、観客の選択が人物の心の向きを変える。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "伴侶の創造を続ける",
+     "jump": "route_a"
+    },
+    {
+     "text": "創造を止め対話の責任を負う",
+     "jump": "route_b"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "route_a"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "私は『伴侶の創造を続ける』道を選ぶ。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "その決断なら、結果まで自分の言葉で引き受けて。",
+   "eyes": "normal"
+  },
+  {
+   "op": "set",
+   "flag": "f_route_a"
+  },
+  {
+   "op": "jump",
+   "to": "merge_choice"
+  },
+  {
+   "op": "label",
+   "id": "route_b"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "私は『創造を止め対話の責任を負う』道を選ぶ。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "違う道でも、守るべきものを見失わないで。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "set",
+   "flag": "f_route_b"
+  },
+  {
+   "op": "label",
+   "id": "merge_choice"
+  },
+  {
+   "op": "nar",
+   "text": "選択の余韻を抱えたまま、物語は同じ終幕へ向かう。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_mummy"
+  },
+  {
+   "op": "bg",
+   "src": "arctic",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "arctic"
+  },
+  {
+   "op": "nar",
+   "text": "第6景「北極の終幕」。北極海の船上。氷山、吹雪、遠い犬橇の跡。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_mummy",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "追跡の果てに、私は乗組員まで野心へ巻き込んだ。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_mummy",
+   "text": "探究を止めることは敗北ではない。生きた者への責任です。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "ここで黙れば、同じことが繰り返される。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "創造者が死んでも、私の痛みは正しさにならない。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "私たちの物語を、知識への恐れでなく責任への警告にしてくれ。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_mummy",
+   "text": "言葉にした責任を、次の場面へ持って行こう。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "私は、怪物の恐怖ではなく、創造した者が関係と責任を拒む恐怖を描くことを忘れずに選ぶ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_mummy",
+   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "eyes": "anger"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_mummy"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "bg",
+   "src": "arctic",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "arctic"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "『フランケンシュタイン』、これにて終幕です。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "残った問いは、怪物の恐怖ではなく、創造した者が関係と責任を拒む恐怖を描くこと。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "選ばなかった道も、物語の外で静かに私たちを見ています。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ご観劇、ありがとうございました。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
+}

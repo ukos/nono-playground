@@ -1,0 +1,751 @@
+{
+ "meta": {
+  "id": "pinocchio",
+  "title": "ピノッキオ ―木の心、ほんものの責任―",
+  "original": "Carlo Collodi, Le avventure di Pinocchio（原著・著作権消滅）",
+  "adaptation": "moderate",
+  "format": "v3",
+  "minutes": 27,
+  "synopsis": "全六景で原作の主要な運動をたどりながら、人間らしさを、罰ではなく責任を引き受ける行動として描くことを中心に再構成する。第五景で観客が人物の姿勢を選び、分岐は終幕前に合流する。",
+  "note": "本脚本は著作権の消滅した原作からの翻案であり、既存の翻訳・上演台本は使用していない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
+  },
+  {
+   "role": "ピノッキオ",
+   "actor": "sasuke",
+   "costume": "default"
+  },
+  {
+   "role": "ゼペット",
+   "actor": "extra_craftsman",
+   "costume": "default"
+  },
+  {
+   "role": "こおろぎ",
+   "actor": "kogane",
+   "costume": "default"
+  },
+  {
+   "role": "青い妖精",
+   "actor": "akane",
+   "costume": "default"
+  },
+  {
+   "role": "狐",
+   "actor": "nibulus",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "workshop": "bg/workshop-2048x1152.png",
+  "road": "bg/road-2048x1152.png",
+  "field": "bg/field-2048x1152.png",
+  "playland": "bg/playland-2048x1152.png",
+  "whale": "bg/whale-2048x1152.png",
+  "shore": "bg/shore-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ようこそ、NONO座へ。本日の演目は『ピノッキオ』。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "この舞台が見つめるのは、人間らしさを、罰ではなく責任を引き受ける行動として描くこと。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "古い物語を借りながら、台詞はすべて今夜のための書き下ろしです。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "それでは、幕を開けましょう。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "workshop",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "workshop"
+  },
+  {
+   "op": "nar",
+   "text": "第1景「木の子の誕生」。木工工房。木屑、道具、暖炉、未完成の人形。"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_craftsman",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "kogane",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "脚ができたら歩きたい。口ができたら歌いたい。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "歩く前に、戻って来る約束を覚えておくれ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "今の言葉を、聞かなかったことにはできない。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "kogane",
+   "text": "自由は扉を出ることだけじゃない。帰る責任も含む。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "難しい話は後で。世界が僕を待っている。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "なら、次の一歩で確かめよう。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "私は、人間らしさを、罰ではなく責任を引き受ける行動として描くことを忘れずに選ぶ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "eyes": "crying"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_craftsman"
+  },
+  {
+   "op": "hide",
+   "actor": "kogane"
+  },
+  {
+   "op": "bg",
+   "src": "road",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "road"
+  },
+  {
+   "op": "nar",
+   "text": "第2景「学校への道」。イタリアの町道。学校の塔、人形芝居の看板、朝市。"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "nibulus",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "kogane",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "教科書を売れば、芝居を見てお金も増やせるよ。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "今日だけ楽しめば、明日の勉強は二倍遠くなる。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "答えはまだ一つに決められない。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "kogane",
+   "text": "僕は騙されない。自分で決めて芝居へ行くんだ。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "騙される時ほど、人は自分の決断だと思いたがる。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "迷いを抱えたままでも、進むことはできる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "私は、人間らしさを、罰ではなく責任を引き受ける行動として描くことを忘れずに選ぶ。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "eyes": "normal"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "hide",
+   "actor": "nibulus"
+  },
+  {
+   "op": "hide",
+   "actor": "kogane"
+  },
+  {
+   "op": "bg",
+   "src": "field",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "field"
+  },
+  {
+   "op": "nar",
+   "text": "第3景「金貨の畑」。夜の荒れ地。一本の枯れ木、小さな穴、青い月。"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "nibulus",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "金貨を埋めれば木になる。水をやれば百倍さ。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "働かず増える話は、誰の働きを隠しているの。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "その理屈には、置き去りにされた声がある。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "僕は嘘をついていない。少しだけ話を短くしたんだ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "鼻が伸びるのは罰ではなく、嘘が場所を取るからよ。",
+   "eyes": "closed",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "誰のための決断か、もう一度考えよう。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "私は、人間らしさを、罰ではなく責任を引き受ける行動として描くことを忘れずに選ぶ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "hide",
+   "actor": "nibulus"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "bg",
+   "src": "playland",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "playland"
+  },
+  {
+   "op": "nar",
+   "text": "第4景「遊びの島」。派手な遊園地。回転木馬、菓子の屋台、夕焼け。"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kogane",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "勉強も仕事もない島なら、ずっと子どもでいられる。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "kogane",
+   "text": "責任を捨てた自由は、やがて自分で選ぶ力まで奪う。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "恐れを隠しても、状況は変わらない。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "kogane",
+   "text": "耳が伸びて声まで変わる。楽だったはずなのに。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "戻りたいなら、恥ずかしさを隠さず助けを求めろ。",
+   "eyes": "crying",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "kogane",
+   "text": "恐れを言葉にした今なら、選び直せる。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "私は、人間らしさを、罰ではなく責任を引き受ける行動として描くことを忘れずに選ぶ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "kogane",
+   "text": "その選択の重さを、次の場面まで持って行こう。"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "hide",
+   "actor": "kogane"
+  },
+  {
+   "op": "bg",
+   "src": "whale",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "whale"
+  },
+  {
+   "op": "nar",
+   "text": "第5景「巨大魚の腹」。巨大な海獣の腹の洞窟。難破船、焚火、波の反射。"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_craftsman",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "父さんが僕を探して、こんな所まで来たの。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "約束を破った子でも、探すのをやめれば父ではなくなる。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "正しさだけでは、人の痛みを量れない。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "今度は僕が出口を考える。失敗の後始末をしたい。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "その言葉を行動にすれば、木の身体でも十分に人間だ。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "だから事実と心の両方を見よう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "私は、人間らしさを、罰ではなく責任を引き受ける行動として描くことを忘れずに選ぶ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "ここで舞台は一瞬静まり、観客の選択が人物の心の向きを変える。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "失敗をすぐ告白する",
+     "jump": "route_a"
+    },
+    {
+     "text": "まず自分で埋め合わせる",
+     "jump": "route_b"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "route_a"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "私は『失敗をすぐ告白する』道を選ぶ。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "その決断なら、結果まで自分の言葉で引き受けて。",
+   "eyes": "normal"
+  },
+  {
+   "op": "set",
+   "flag": "f_route_a"
+  },
+  {
+   "op": "jump",
+   "to": "merge_choice"
+  },
+  {
+   "op": "label",
+   "id": "route_b"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "私は『まず自分で埋め合わせる』道を選ぶ。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "違う道でも、守るべきものを見失わないで。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "set",
+   "flag": "f_route_b"
+  },
+  {
+   "op": "label",
+   "id": "merge_choice"
+  },
+  {
+   "op": "nar",
+   "text": "選択の余韻を抱えたまま、物語は同じ終幕へ向かう。"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_craftsman"
+  },
+  {
+   "op": "bg",
+   "src": "shore",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "shore"
+  },
+  {
+   "op": "nar",
+   "text": "第6景「朝の浜辺」。穏やかな浜。濡れた木片、朝日、遠い漁村。"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_craftsman",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "人間になる魔法は、身体を変える光ではなかったのね。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "怖くても父を助けた。嘘を認め、戻って来た。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "ここで黙れば、同じことが繰り返される。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "これからも間違うよ。でも間違いを誰かのせいにしない。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "その約束を毎日選び直すことが、本当の心です。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "言葉にした責任を、次の場面へ持って行こう。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "私は、人間らしさを、罰ではなく責任を引き受ける行動として描くことを忘れずに選ぶ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "eyes": "anger"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_craftsman"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "bg",
+   "src": "shore",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "shore"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "『ピノッキオ』、これにて終幕です。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "残った問いは、人間らしさを、罰ではなく責任を引き受ける行動として描くこと。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "選ばなかった道も、物語の外で静かに私たちを見ています。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ご観劇、ありがとうございました。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
+}

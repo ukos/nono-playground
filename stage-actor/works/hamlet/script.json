@@ -1,0 +1,743 @@
+{
+ "meta": {
+  "id": "hamlet",
+  "title": "ハムレット ―確かでない夜―",
+  "original": "William Shakespeare, Hamlet（原作・著作権消滅）",
+  "adaptation": "moderate",
+  "format": "v3",
+  "minutes": 30,
+  "synopsis": "全六景で原作の主要な運動をたどりながら、確信できないまま行動する恐怖と、遅延が周囲へ及ぼす代償を描くことを中心に再構成する。第五景で観客が人物の姿勢を選び、分岐は終幕前に合流する。",
+  "note": "本脚本は著作権の消滅した原作からの翻案であり、既存の翻訳・上演台本は使用していない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
+  },
+  {
+   "role": "ハムレット",
+   "actor": "rei",
+   "costume": "default"
+  },
+  {
+   "role": "オフィーリア",
+   "actor": "yui",
+   "costume": "default"
+  },
+  {
+   "role": "クローディアス",
+   "actor": "iwao",
+   "costume": "default"
+  },
+  {
+   "role": "父王の亡霊",
+   "actor": "extra_skeleton",
+   "costume": "default"
+  },
+  {
+   "role": "ホレイショー",
+   "actor": "extra_porter",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "battlements": "bg/battlements-2048x1152.png",
+  "court": "bg/court-2048x1152.png",
+  "nunnery": "bg/nunnery-2048x1152.png",
+  "play": "bg/play-2048x1152.png",
+  "graveyard": "bg/graveyard-2048x1152.png",
+  "duel": "bg/duel-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ようこそ、NONO座へ。本日の演目は『ハムレット』。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "この舞台が見つめるのは、確信できないまま行動する恐怖と、遅延が周囲へ及ぼす代償を描くこと。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "古い物語を借りながら、台詞はすべて今夜のための書き下ろしです。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "それでは、幕を開けましょう。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "battlements",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "battlements"
+  },
+  {
+   "op": "nar",
+   "text": "第1景「城壁の亡霊」。真夜中の城壁。霧、松明、黒い海。"
+  },
+  {
+   "op": "show",
+   "actor": "rei",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_skeleton",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "父上の姿でも、その言葉が真実とは限らない。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "弟が私を殺し、王冠と妃を奪った。復讐せよ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "今の言葉を、聞かなかったことにはできない。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "亡霊は証拠か、悲しみが作った声か。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "疑うことは卑怯ではない。だが疑いにも期限がある。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "なら、次の一歩で確かめよう。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "私は、確信できないまま行動する恐怖と、遅延が周囲へ及ぼす代償を描くことを忘れずに選ぶ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "eyes": "crying"
+  },
+  {
+   "op": "hide",
+   "actor": "rei"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_skeleton"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "bg",
+   "src": "court",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "court"
+  },
+  {
+   "op": "nar",
+   "text": "第2景「偽りの宮廷」。エルシノア城の大広間。王座、旗、冷たい日光。"
+  },
+  {
+   "op": "show",
+   "actor": "rei",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "叔父は笑顔で国をまとめ、私だけが喪服を脱げない。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "悲しみは自然だ。だが王子が国を不安にしてはならぬ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "答えはまだ一つに決められない。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "狂気を演じれば、本音を隠して相手を観察できる。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "演技の刃が、味方まで傷つけないようにして。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "迷いを抱えたままでも、進むことはできる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "私は、確信できないまま行動する恐怖と、遅延が周囲へ及ぼす代償を描くことを忘れずに選ぶ。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "その選択の重さを、次の場面まで持って行こう。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "bg",
+   "src": "nunnery",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "nunnery"
+  },
+  {
+   "op": "nar",
+   "text": "第3景「別れの言葉」。城の回廊。修道院へ続く扉、冬の窓。"
+  },
+  {
+   "op": "show",
+   "actor": "rei",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "愛していたと言えば君を危険に巻き込む。否定すれば君を壊す。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "あなたの言葉は私を守るふりをして、選ぶ権利を奪う。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "その理屈には、置き去りにされた声がある。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "私は誰も信じられない。自分の判断さえ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "疑いを私への残酷さに変えないで。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "誰のための決断か、もう一度考えよう。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "私は、確信できないまま行動する恐怖と、遅延が周囲へ及ぼす代償を描くことを忘れずに選ぶ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "rei"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "bg",
+   "src": "play",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "play"
+  },
+  {
+   "op": "nar",
+   "text": "第4景「劇中劇」。宮廷の仮設舞台。幕、毒杯の小道具、並ぶ椅子。"
+  },
+  {
+   "op": "show",
+   "actor": "rei",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "王殺しをそっくり演じれば、叔父の顔が証言する。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "芝居の反応だけで王を裁くのか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "恐れを隠しても、状況は変わらない。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "毒を注ぐ場面で、王が立った。だが恐怖か罪悪感かは読めない。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "証拠を得る劇が、私の望む答えを演じただけかもしれない。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "恐れを言葉にした今なら、選び直せる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "私は、確信できないまま行動する恐怖と、遅延が周囲へ及ぼす代償を描くことを忘れずに選ぶ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "その選択の重さを、次の場面まで持って行こう。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "bg",
+   "src": "graveyard",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "graveyard"
+  },
+  {
+   "op": "nar",
+   "text": "第5景「墓地の問い」。冬の墓地。掘られた土、髑髏、裸木。"
+  },
+  {
+   "op": "show",
+   "actor": "rei",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "この髑髏も、生きていた時は冗談を言った。王も道化も土になる。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "死を考え過ぎて、生きている者の声を聞き逃した。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "正しさだけでは、人の痛みを量れない。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "オフィーリアの墓が、その代償を黙って示している。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "悲しみを復讐の燃料にすれば、また誰かの墓を掘る。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "だから事実と心の両方を見よう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "私は、確信できないまま行動する恐怖と、遅延が周囲へ及ぼす代償を描くことを忘れずに選ぶ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "ここで舞台は一瞬静まり、観客の選択が人物の心の向きを変える。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "劇中劇の証拠を公にする",
+     "jump": "route_a"
+    },
+    {
+     "text": "さらに裏付けを探す",
+     "jump": "route_b"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "route_a"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "私は『劇中劇の証拠を公にする』道を選ぶ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "その決断なら、結果まで自分の言葉で引き受けて。",
+   "eyes": "normal"
+  },
+  {
+   "op": "set",
+   "flag": "f_route_a"
+  },
+  {
+   "op": "jump",
+   "to": "merge_choice"
+  },
+  {
+   "op": "label",
+   "id": "route_b"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "私は『さらに裏付けを探す』道を選ぶ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "違う道でも、守るべきものを見失わないで。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "set",
+   "flag": "f_route_b"
+  },
+  {
+   "op": "label",
+   "id": "merge_choice"
+  },
+  {
+   "op": "nar",
+   "text": "選択の余韻を抱えたまま、物語は同じ終幕へ向かう。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "bg",
+   "src": "duel",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "duel"
+  },
+  {
+   "op": "nar",
+   "text": "第6景「最後の試合」。城の試合場。剣、杯、開いた扉、張り詰めた空気。"
+  },
+  {
+   "op": "show",
+   "actor": "rei",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "剣先と杯、どちらにも罠がある。それでも試合は始まる。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "遅すぎた真実が、全員を同じ舞台へ集めた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "ここで黙れば、同じことが繰り返される。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "私の物語を、復讐の成功だけで語らないでくれ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "残る者の役目は、迷いも過ちも隠さず伝えることだ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "言葉にした責任を、次の場面へ持って行こう。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "私は、確信できないまま行動する恐怖と、遅延が周囲へ及ぼす代償を描くことを忘れずに選ぶ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "その選択の重さを、次の場面まで持って行こう。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "bg",
+   "src": "duel",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "duel"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "『ハムレット』、これにて終幕です。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "残った問いは、確信できないまま行動する恐怖と、遅延が周囲へ及ぼす代償を描くこと。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "選ばなかった道も、物語の外で静かに私たちを見ています。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ご観劇、ありがとうございました。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
+}

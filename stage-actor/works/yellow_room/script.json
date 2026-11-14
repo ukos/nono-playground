@@ -1,0 +1,748 @@
+{
+ "meta": {
+  "id": "yellow_room",
+  "title": "黄色い部屋の謎 ―時刻表の密室―",
+  "original": "Gaston Leroux, Le Mystère de la chambre jaune（原著・著作権消滅）",
+  "adaptation": "moderate",
+  "format": "v3",
+  "minutes": 25,
+  "synopsis": "全六景で原作の主要な運動をたどりながら、見取図・時刻・証言を順序立て、見えている前提を疑うことを中心に再構成する。第五景で観客が人物の姿勢を選び、分岐は終幕前に合流する。",
+  "note": "本脚本は著作権の消滅した原作からの翻案であり、既存の翻訳・上演台本は使用していない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
+  },
+  {
+   "role": "ルールタビーユ",
+   "actor": "rei",
+   "costume": "default"
+  },
+  {
+   "role": "マチルド",
+   "actor": "yui",
+   "costume": "default"
+  },
+  {
+   "role": "ダルザック",
+   "actor": "extra_porter",
+   "costume": "default"
+  },
+  {
+   "role": "ラルサン",
+   "actor": "iwao",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "laboratory": "bg/laboratory-2048x1152.png",
+  "diagram": "bg/diagram-2048x1152.png",
+  "corridor": "bg/corridor-2048x1152.png",
+  "garden": "bg/garden-2048x1152.png",
+  "experiment": "bg/experiment-2048x1152.png",
+  "court": "bg/court-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ようこそ、NONO座へ。本日の演目は『黄色い部屋の謎』。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "この舞台が見つめるのは、見取図・時刻・証言を順序立て、見えている前提を疑うこと。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "古い物語を借りながら、台詞はすべて今夜のための書き下ろしです。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "それでは、幕を開けましょう。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "laboratory",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "laboratory"
+  },
+  {
+   "op": "nar",
+   "text": "第1景「黄色い部屋」。古い研究棟の黄色い寝室。鉄格子窓、頑丈な扉、ランプ。"
+  },
+  {
+   "op": "show",
+   "actor": "rei",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "扉も窓も内側から閉じ、被害者だけが倒れていた。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "助けを求める声のあと、扉を破るまで誰も出ていない。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "今の言葉を、聞かなかったことにはできない。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "犯人が消えたのではなく、犯行時刻の理解が違うのかもしれない。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "部屋の形より、声を聞いた時刻を正確に並べよう。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "なら、次の一歩で確かめよう。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "私は、見取図・時刻・証言を順序立て、見えている前提を疑うことを忘れずに選ぶ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "eyes": "crying"
+  },
+  {
+   "op": "hide",
+   "actor": "rei"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "bg",
+   "src": "diagram",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "diagram"
+  },
+  {
+   "op": "nar",
+   "text": "第2景「見取図」。研究所の食堂。大きな見取図、定規、時計。"
+  },
+  {
+   "op": "show",
+   "actor": "rei",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "寝室、廊下、実験室。距離を測れば証言の不可能が見える。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "私は叫びを聞いてすぐ走った。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "答えはまだ一つに決められない。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "すぐ、という言葉は時計の何秒ですか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "曖昧な時間が、密室の壁を一枚増やす。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "迷いを抱えたままでも、進むことはできる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "私は、見取図・時刻・証言を順序立て、見えている前提を疑うことを忘れずに選ぶ。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "eyes": "normal"
+  },
+  {
+   "op": "hide",
+   "actor": "rei"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "bg",
+   "src": "corridor",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "corridor"
+  },
+  {
+   "op": "nar",
+   "text": "第3景「消える足音」。夜の長い廊下。三つの曲がり角、窓、足跡。"
+  },
+  {
+   "op": "show",
+   "actor": "rei",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "追跡中、犯人は二つの方向から挟まれたのに消えた。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "暗闇と混乱で、見た顔を取り違えた可能性は。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "その理屈には、置き去りにされた声がある。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "捜査官自身を、証言者の列から外してはいけない。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "調べる側の位置を見取図に書けば、空白が埋まる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "誰のための決断か、もう一度考えよう。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "私は、見取図・時刻・証言を順序立て、見えている前提を疑うことを忘れずに選ぶ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "その選択の重さを、次の場面まで持って行こう。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "bg",
+   "src": "garden",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "garden"
+  },
+  {
+   "op": "nar",
+   "text": "第4景「過去の影」。研究所の庭。古井戸、薔薇、夕暮れの温室。"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "rei",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "犯人の名を言えば、私の過去がダルザックを傷つける。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "沈黙が君を守るなら待つ。だが一人で脅しを受けないで。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "恐れを隠しても、状況は変わらない。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "被害者の沈黙にも理由がある。推理はそれを暴力的に剥がせない。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "真実を公にする順番まで、解決の一部です。",
+   "eyes": "crying",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "恐れを言葉にした今なら、選び直せる。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "私は、見取図・時刻・証言を順序立て、見えている前提を疑うことを忘れずに選ぶ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "hide",
+   "actor": "rei"
+  },
+  {
+   "op": "bg",
+   "src": "experiment",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "experiment"
+  },
+  {
+   "op": "nar",
+   "text": "第5景「再現の夜」。黄色い部屋の再現現場。同期した時計、印を付けた床。"
+  },
+  {
+   "op": "show",
+   "actor": "rei",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "叫びは発見時より前に録された記憶だった。二つの事件を一つに見ていた。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "それで最初の密室と廊下の消失が分かれる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "正しさだけでは、人の痛みを量れない。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "ラルサン警部、あなたの移動だけが両方に入れる。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "論理は肩書を恐れない。だからこそ手順を公開する。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "だから事実と心の両方を見よう。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "私は、見取図・時刻・証言を順序立て、見えている前提を疑うことを忘れずに選ぶ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "その選択の重さを、次の場面まで持って行こう。"
+  },
+  {
+   "op": "nar",
+   "text": "ここで舞台は一瞬静まり、観客の選択が人物の心の向きを変える。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "即座に容疑者を名指す",
+     "jump": "route_a"
+    },
+    {
+     "text": "再現実験まで公表を待つ",
+     "jump": "route_b"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "route_a"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "私は『即座に容疑者を名指す』道を選ぶ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "その決断なら、結果まで自分の言葉で引き受けて。"
+  },
+  {
+   "op": "set",
+   "flag": "f_route_a"
+  },
+  {
+   "op": "jump",
+   "to": "merge_choice"
+  },
+  {
+   "op": "label",
+   "id": "route_b"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "私は『再現実験まで公表を待つ』道を選ぶ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "違う道でも、守るべきものを見失わないで。"
+  },
+  {
+   "op": "set",
+   "flag": "f_route_b"
+  },
+  {
+   "op": "label",
+   "id": "merge_choice"
+  },
+  {
+   "op": "nar",
+   "text": "選択の余韻を抱えたまま、物語は同じ終幕へ向かう。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "bg",
+   "src": "court",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "court"
+  },
+  {
+   "op": "nar",
+   "text": "第6景「法廷の解明」。法廷。見取図、時計、満員の傍聴席。"
+  },
+  {
+   "op": "show",
+   "actor": "rei",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "私は犯人を当てたのではない。矛盾しない順番を残した。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "真実が遅れたことで、守れたものと傷ついたものがある。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "ここで黙れば、同じことが繰り返される。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "密室は壁でなく、皆が同じ時刻を信じたことから生まれた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "解決の鍵は、何が見えたかより、いつ見えたかだった。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "言葉にした責任を、次の場面へ持って行こう。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "私は、見取図・時刻・証言を順序立て、見えている前提を疑うことを忘れずに選ぶ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "eyes": "anger"
+  },
+  {
+   "op": "hide",
+   "actor": "rei"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "bg",
+   "src": "court",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "court"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "『黄色い部屋の謎』、これにて終幕です。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "残った問いは、見取図・時刻・証言を順序立て、見えている前提を疑うこと。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "選ばなかった道も、物語の外で静かに私たちを見ています。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ご観劇、ありがとうございました。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
+}
