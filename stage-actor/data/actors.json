@@ -707,15 +707,8 @@
      "full": false
     }
    },
-   "faces": [
-    "joy",
-    "anger",
-    "sorrow",
-    "fun",
-    "surprise",
-    "crying",
-    "closed"
-   ],
+   "faces": [],
+   "fixedFace": true,
    "sources": [
     {
      "files": "*",
@@ -864,23 +857,8 @@
      "full": false
     }
    },
-   "faces": [
-    "normal_open",
-    "joy_normal",
-    "joy_open",
-    "anger_normal",
-    "anger_open",
-    "sorrow_normal",
-    "sorrow_open",
-    "fun_normal",
-    "fun_open",
-    "surprise_normal",
-    "surprise_open",
-    "crying_normal",
-    "crying_open",
-    "closed_normal",
-    "closed_open"
-   ],
+   "faces": [],
+   "fixedFace": true,
    "sources": [
     {
      "files": "*",
@@ -1031,6 +1009,48 @@
      "from": "コンテンツ制作側 stage-actor-assets-2026-11-14.zip（src/actors/）",
      "method": "tools/actors_import.py（plain を base、base＋目元＋口元を faces に合成）",
      "date": "2026-11-14"
+    }
+   ]
+  },
+  {
+   "id": "rei_tracksuit",
+   "name": "レイ",
+   "faceMode": "sheet",
+   "hasMouth": false,
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [],
+   "fixedFace": true,
+   "sources": [
+    {
+     "files": "*",
+     "from": "描き直し src/replacements/rei_tracksuit.png",
+     "method": "tools/rei_fit.py",
+     "date": "2026-11-15"
+    }
+   ]
+  },
+  {
+   "id": "rei_zip",
+   "name": "レイ",
+   "faceMode": "sheet",
+   "hasMouth": false,
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [],
+   "fixedFace": true,
+   "sources": [
+    {
+     "files": "*",
+     "from": "描き直し src/replacements/rei_zip.png",
+     "method": "tools/rei_fit.py",
+     "date": "2026-11-15"
     }
    ]
   }
