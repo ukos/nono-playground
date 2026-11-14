@@ -10,10 +10,14 @@ export const OPS = ['bg', 'show', 'hide', 'say', 'nar', 'choice', 'label', 'jump
 
 const MAX_OPS = 100000;
 
+// 背景名は bg の src（旧名 name も可）。null は背景なし（暗転）。ラベル名は label の id（旧名 name も可）。
+export const bgKey = (s) => ('src' in s ? s.src : s.name) ?? null;
+export const labelName = (s) => s.id ?? s.name;
+
 export function compile(script) {
   const labels = new Map();
   script.steps.forEach((s, i) => {
-    if (s.op === 'label') labels.set(s.name, i);
+    if (s.op === 'label') labels.set(labelName(s), i);
   });
   const roleOf = {};
   const costumeOf = {};
@@ -67,7 +71,7 @@ export function play(compiled, choices = []) {
     const s = steps[pc];
     switch (s.op) {
       case 'bg':
-        st.bg = s.name;
+        st.bg = bgKey(s);
         st.bgMode = s.mode || 'stage';
         pc++;
         break;

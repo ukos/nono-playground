@@ -1,0 +1,1085 @@
+{
+ "meta": {
+  "id": "romeo-and-juliet",
+  "title": "ロミオとジュリエット ―双つの家の恋―",
+  "original": "ウィリアム・シェイクスピア『ロミオとジュリエット』（著作権消滅）",
+  "adaptation": "free",
+  "format": "v3",
+  "minutes": 18,
+  "synopsis": "獣たちの都ヴェローナ。代々争う猪のモンタギュー家と狐のキャピュレット家。その若君ロミオ（ゴウ）と姫ジュリエット（アカネ）が恋に落ちた。決闘、追放、仮死の薬——そして運命は、観客が選ぶ「便りの使者」で、悲劇にも救済にも転ぶ。NONO座の大胆改変、二つの結末を持つ上演版。",
+  "note": "本脚本は翻案であり、原典の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
+  },
+  {
+   "role": "ロミオ（モンタギュー家の若君）",
+   "actor": "gou",
+   "costume": "default"
+  },
+  {
+   "role": "ジュリエット（キャピュレット家の姫）",
+   "actor": "akane",
+   "costume": "default"
+  },
+  {
+   "role": "ティボルト（ジュリエットの従兄）",
+   "actor": "kotetsu",
+   "costume": "default"
+  },
+  {
+   "role": "マキューシオ（ロミオの友）",
+   "actor": "sasuke",
+   "costume": "default"
+  },
+  {
+   "role": "ベンヴォーリオ（ロミオの友）",
+   "actor": "shiro",
+   "costume": "default"
+  },
+  {
+   "role": "ロレンス（庵の魔法使い）",
+   "actor": "extra_wizard",
+   "costume": "default"
+  },
+  {
+   "role": "乳母（ジュリエットの乳母）",
+   "actor": "extra_elf",
+   "costume": "default"
+  },
+  {
+   "role": "パリス（大公の甥、求婚者）",
+   "actor": "hayate",
+   "costume": "default"
+  },
+  {
+   "role": "大公エスカラス",
+   "actor": "extra_elder",
+   "costume": "default"
+  },
+  {
+   "role": "キャピュレット卿（ジュリエットの父）",
+   "actor": "iwao",
+   "costume": "default"
+  },
+  {
+   "role": "衛士長（モンタギュー家の騎士）",
+   "actor": "kurogane",
+   "costume": "default"
+  },
+  {
+   "role": "背負い職人（便りの使者）",
+   "actor": "extra_porter",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "plaza": "bg/plaza-2048x1152.png",
+  "hall": "bg/hall-2048x1152.png",
+  "balcony": "bg/balcony-2048x1152.png",
+  "cell": "bg/cell-2048x1152.png",
+  "vault": "bg/vault-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "eyes": "joy",
+   "text": "ようこそ、NONO座へ。本日の演目は『ロミオとジュリエット』。",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "eyes": "normal",
+   "text": "舞台は、獣たちの都ヴェローナ。猪のモンタギュー家と、狐のキャピュレット家が、代々争う町です。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "eyes": "fun",
+   "text": "その敵同士の家に生まれた二人が、恋をしてしまった。……さて、どうなるか。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "eyes": "fun",
+   "text": "シェイクスピアの悲劇を、NONO座の大胆改変で。結末は、途中の選択で変わります。",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "eyes": "joy",
+   "text": "画面の左を押すと進み、右を押すと戻ります。では——開幕。",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "plaza",
+   "mode": "full"
+  },
+  {
+   "op": "nar",
+   "text": "都の広場。昼下がり、両家の若者たちが鉢合わせた。"
+  },
+  {
+   "op": "bg",
+   "src": "plaza"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "eyes": "sorrow",
+   "text": "おい、やめよう。広場で刃を抜けば、今度こそ追放だぞ。"
+  },
+  {
+   "op": "show",
+   "actor": "kotetsu",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "eyes": "anger",
+   "text": "ほう、猪の子分が。狐の庭先で吠えるのは、そっちの流儀か？",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "eyes": "anger",
+   "text": "吠えてない、止めてるんだ。ティボルト、鞘に収めろ。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "eyes": "fun",
+   "text": "収める？　……この爪はな、猪の皮を裂くためにある。",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "言い合いは掴み合いに、掴み合いは刃傷沙汰になりかけた——その時。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "eyes": "anger",
+   "text": "止まれいッ！　両家とも、剣を引け！",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "hide",
+   "actor": "kotetsu"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "eyes": "anger",
+   "text": "三度目だぞ、この騒ぎ。次に広場で血を流した者は、都から追放する。例外はない。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "eyes": "normal",
+   "text": "若い命を、古い意地の餌にするな。……解散！",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "nar",
+   "text": "その頃、騒ぎの外れで、モンタギュー家の若君は——別の病に浮かされていた。"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "eyes": "sorrow",
+   "text": "はあ……。ロザラインは今日も、俺を見ちゃくれねえ。"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "eyes": "fun",
+   "text": "ロミオ、またか。今夜キャピュレット家で舞踏会だ。潜り込もうぜ。",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "eyes": "surprise",
+   "text": "敵の家に？　正気か、ベンヴォーリオ。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "eyes": "fun",
+   "text": "仮面舞踏会だ、顔は分からねえ。ロザラインも来る。……それに、もっと凄い娘がいるかもな。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "eyes": "sorrow",
+   "text": "……行く。どうせ、失うものなんかねえ。",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "bg",
+   "src": "hall",
+   "mode": "full"
+  },
+  {
+   "op": "nar",
+   "text": "キャピュレット家の舞踏会。仮面の奥で、運命が二人を出会わせる。"
+  },
+  {
+   "op": "bg",
+   "src": "hall"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "eyes": "surprise",
+   "text": "——あれは……。"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "eyes": "surprise",
+   "text": "狐火の、あの娘。提灯の明かりより、目が、光ってやがる。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "eyes": "surprise",
+   "text": "……あら。猪の家の方が、どうしてここに？"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "eyes": "fun",
+   "text": "仮面の夜に、国境はねえ。なあ、一曲だけ。命がけは、こっちの専門だ。",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "eyes": "joy",
+   "text": "ふふ、面白い方。……でも、踊り終わったら、すぐに帰って。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "eyes": "joy",
+   "text": "帰れるかよ。あんたの名前を聞くまでは、足が、動かねえ。",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "eyes": "normal",
+   "text": "ジュリエット。キャピュレットの、ジュリエットよ。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "eyes": "surprise",
+   "text": "キャピュレット……！　俺はロミオ。モンタギューの、ロミオだ。",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "eyes": "sorrow",
+   "text": "——敵の家の、若君……。どうして、よりによって、あなたなの。"
+  },
+  {
+   "op": "nar",
+   "text": "その様子を、宴の隅で、鋭い目が捉えていた。"
+  },
+  {
+   "op": "show",
+   "actor": "kotetsu",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "eyes": "anger",
+   "text": "あの猪の面……間違いない、ロミオだ。当主、この場で——"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "right"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "eyes": "anger",
+   "text": "ならぬ。今夜は宴だ。客に手は出さん。……だが、覚えたぞ、その面は。"
+  },
+  {
+   "op": "hide",
+   "actor": "kotetsu"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "bg",
+   "src": "balcony",
+   "mode": "full"
+  },
+  {
+   "op": "nar",
+   "text": "真夜中。ジュリエットの部屋のバルコニーの下、果樹園の闇に——。"
+  },
+  {
+   "op": "bg",
+   "src": "balcony"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "eyes": "sorrow",
+   "text": "ロミオ……ロミオ。どうしてあなたは、モンタギューなの。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "eyes": "sorrow",
+   "text": "名前さえ捨ててくれたら。いえ、私が捨てる。キャピュレットの名なんて、狐火と一緒に消えてしまえ。",
+   "mouth": "open"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "eyes": "joy",
+   "text": "捨てた！　今この場で捨てた！　俺はもう、モンタギューのロミオじゃねえ！",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "eyes": "surprise",
+   "text": "——きゃっ。いたの、そこに！？　……聞いてたの、全部？",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "eyes": "joy",
+   "text": "全部だ。あんたの言葉で、俺は生まれ変わった。呼んでくれ、恋人と。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "eyes": "joy",
+   "text": "ふふ……。じゃあ、約束して。明日、私の使いを出すから。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "eyes": "joy",
+   "text": "式を挙げましょう。二人だけの、秘密の式を。……それが、私の答え。",
+   "mouth": "open"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elf",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "eyes": "surprise",
+   "text": "お嬢様、もう夜更けです...[truncated 6151 chars]。お部屋へ——あら、誰か、いるのですか？"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "eyes": "surprise",
+   "text": "い、いや……ただの、夜風だ。……行くよ。また、明日。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elf"
+  },
+  {
+   "op": "nar",
+   "text": "翌日、二人はロレンスの庵で、密かに夫婦となった。"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "bg",
+   "src": "plaza"
+  },
+  {
+   "op": "nar",
+   "text": "その日の午後。広場に、祝いの鐘とは違う音が響いた。"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "eyes": "fun",
+   "text": "よお、ティボルトじゃねえか。今日は祝い酒の匂いがするぜ？",
+   "mouth": "open"
+  },
+  {
+   "op": "show",
+   "actor": "kotetsu",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "eyes": "anger",
+   "text": "猿め。ロミオはどこだ。宴に潜り込んだ礼を、まだ受け取っていない。"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "eyes": "sorrow",
+   "text": "ティボルト、やめよう。俺はもう、あんたとは争えねえ。理由は、言えねえが。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "eyes": "anger",
+   "text": "言えねえ？　……腰抜けが。ならば、こいつの血で口を開かせよう！",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "eyes": "crying",
+   "text": "ぐっ……！　ロミオ、俺は……やられた。",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "eyes": "anger",
+   "text": "マキューシオ……！　ティボルトオオオッ！！",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "怒りに我を忘れた一撃。ティボルトは倒れ、広場に血の静寂が落ちた。"
+  },
+  {
+   "op": "hide",
+   "actor": "kotetsu"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "eyes": "normal",
+   "text": "……ロミオ。そなたの事情は聞かぬ。都の法は一つ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "eyes": "anger",
+   "text": "死罪に代えて、追放を命ずる。二度と、この都の土を踏むな。",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "eyes": "crying",
+   "text": "追放……。ジュリエットのいない世界に、出ていけと。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "bg",
+   "src": "balcony"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "eyes": "normal",
+   "text": "決めたぞ、ジュリエット。婿はパリス伯爵。式は三日後だ。",
+   "mouth": "open"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "eyes": "sorrow",
+   "text": "お父様、私には……言えない事情が。どうか、式を延ばして。"
+  },
+  {
+   "op": "show",
+   "actor": "hayate",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "eyes": "normal",
+   "text": "お嬢さん。私の家は名門、私の心は一筋。お疑いなく。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "eyes": "anger",
+   "text": "聞き分けのない娘は、娘ではない！　式は、三日後だ！",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "hayate"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "eyes": "crying",
+   "text": "追放されたロミオ。迫る式。……ロレンス様のところへ。"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "bg",
+   "src": "cell"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "eyes": "normal",
+   "text": "——事情は分かった。ならば、これを飲むがよい。"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "eyes": "surprise",
+   "text": "これは……？"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "eyes": "normal",
+   "text": "四十二時間、死んだように眠る薬じゃ。式の朝、お前は墓所で目覚める。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "eyes": "normal",
+   "text": "ロミオには儂から便りを出す。二人で都を出るのじゃ。",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "eyes": "sorrow",
+   "text": "怖い……。でも、ロミオと生きるためなら。頂きます。",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
+   "op": "bg",
+   "src": "cell"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "eyes": "normal",
+   "text": "さて、この便り。マントヴァのロミオへ、誰に託そうか。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "eyes": "fun",
+   "text": "運命の糸は細い。託す相手で、結末が変わるやもしれん。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "背負い職人に託す（地道で確実）",
+     "jump": "route_porter"
+    },
+    {
+     "text": "馬の使者に託す（とにかく速い）",
+     "jump": "route_hayate"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "route_porter"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "eyes": "normal",
+   "text": "便りだな。重てえ荷より、人の命の方が重てえ。夜通し歩くさ。",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "職人は一歩ずつ、しかし確実に、夜の街道を進んだ。"
+  },
+  {
+   "op": "set",
+   "flag": "f_saved"
+  },
+  {
+   "op": "jump",
+   "to": "vault"
+  },
+  {
+   "op": "label",
+   "id": "route_hayate"
+  },
+  {
+   "op": "show",
+   "actor": "hayate",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "eyes": "fun",
+   "text": "お任せを！　風より速く——む、広場で騒ぎ？　野次馬は性に合わんが、様子だけ……。",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "使者は広場の騒動に足を止め、検分に巻き込まれた。便りは、鞄の中で眠ったまま——。"
+  },
+  {
+   "op": "jump",
+   "to": "vault"
+  },
+  {
+   "op": "label",
+   "id": "vault"
+  },
+  {
+   "op": "bg",
+   "src": "vault",
+   "mode": "full"
+  },
+  {
+   "op": "nar",
+   "text": "キャピュレット家の墓所。冷たい石の闇の底に、ジュリエットが横たわっている。"
+  },
+  {
+   "op": "bg",
+   "src": "vault"
+  },
+  {
+   "op": "if",
+   "flag": "f_saved",
+   "to": "ending_live"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "eyes": "sorrow",
+   "text": "便りは、来なかった。……なら、もう決めた。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "eyes": "crying",
+   "text": "ジュリエット。あんたのいない世界に、未練はねえ。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "eyes": "crying",
+   "text": "この毒で、あんたの隣に寝る。それが、俺の式だ。",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "eyes": "crying",
+   "text": "目覚めるな。目覚めて、こんな俺を見るな——！",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "ロミオは静かに倒れた。その物音に——仮死の眠りが、解けた。"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "eyes": "surprise",
+   "text": "……ここは……。ロミオ？　ロミオ、どうして、そんなに冷たいの。",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "eyes": "crying",
+   "text": "起きて。ねえ、起きてよ……！　約束したのに、二人で生きるって……！",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "eyes": "crying",
+   "text": "……分かった。私も行く。あなたの短剣、まだ温かい。"
+  },
+  {
+   "op": "nar",
+   "text": "狐火が一つ、静かに消えた。"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "jump",
+   "to": "closing"
+  },
+  {
+   "op": "label",
+   "id": "ending_live"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "eyes": "sorrow",
+   "text": "便りは、来なかった。……なら、もう決めた。この毒で——",
+   "mouth": "open"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "eyes": "surprise",
+   "text": "待てえッ！　若君、それを飲むな！　便りだ、ロレンス様の便りだ！",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "eyes": "surprise",
+   "text": "なに……！？　『ジュリエットは仮死の眠り。墓所で目覚める』……！",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "eyes": "surprise",
+   "text": "……ん……。ここは……。ロミオ！？　あなた、生きて——！",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "eyes": "joy",
+   "text": "ジュリエット！　ああ、温かい。生きてる、本当に生きてる！",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "eyes": "joy",
+   "text": "ふふ……泣かないで、大きな猪さん。約束どおり、迎えに来てくれた。"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "eyes": "surprise",
+   "text": "墓所で騒ぎとは何事——……！？　死んだはずの姫が、追放の若君と。",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "eyes": "sorrow",
+   "text": "……なるほど。両家の意地が、二人をここまで追い詰めたか。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "center"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "eyes": "normal",
+   "text": "話は聞いた。……生きておるか、二人とも。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "eyes": "sorrow",
+   "text": "古い意地の代償に、今夜、若い命が消えるところだった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "eyes": "normal",
+   "text": "争いは、今日で終わりだ。二人の婚儀は、この大公が認める。",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "eyes": "joy",
+   "text": "ジュリエット……長かった夜が、明けるな。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "eyes": "joy",
+   "text": "ええ。ここから先は、二人の朝よ。",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "label",
+   "id": "closing"
+  },
+  {
+   "op": "bg",
+   "src": "plaza"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "eyes": "joy",
+   "text": "『ロミオとジュリエット』、これにて閉幕。",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "eyes": "fun",
+   "text": "結末は、あなたの選択で変わりました。原作は悲劇。でも、物語は語り直すたびに、少しずつ救われていくのかもしれません。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "eyes": "joy",
+   "text": "NONO座では、また別の物語でお会いしましょう。ご来場、ありがとうございました。",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
+}

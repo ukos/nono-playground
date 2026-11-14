@@ -1,6 +1,6 @@
 // 画面表示と操作。状態は engine.js の Session が持ち、ここは毎回それを描き直すだけ。
 import { Session } from './engine.js';
-import { indexActors, resolveLayers, allLayersFor } from './faces.js';
+import { indexActors, resolveLayers, layersUsedBy } from './faces.js';
 
 const STAGE_W = 2048;
 const STAGE_H = 1152;
@@ -89,11 +89,8 @@ async function openWork(id) {
   work = { id, script, session, base };
   history.replaceState(null, '', `?work=${encodeURIComponent(id)}`);
 
-  const costumes = {};
-  for (const c of script.cast || []) (costumes[c.actor] ||= new Set(['default'])).add(c.costume || 'default');
-  for (const s of script.steps) if (s.op === 'show' && s.costume) (costumes[s.actor] ||= new Set(['default'])).add(s.costume);
-  const urls = [...THEATER, ...Object.values(script.backgrounds || {}).map((p) => base + p)];
-  for (const [a, set] of Object.entries(costumes)) urls.push(...allLayersFor(actorsDb, a, [...set]));
+  // 脚本が使う表情だけ先読みする（全部だと1作品で数MBになる）
+  const urls = [...THEATER, ...Object.values(script.backgrounds || {}).map((p) => base + p), ...layersUsedBy(actorsDb, script)];
 
   el.title.hidden = true;
   el.stage.hidden = false;

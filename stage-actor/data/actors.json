@@ -1,18 +1,152 @@
 {
-  "version": 1,
-  "canvas": {
-    "bust": [
-      768,
-      1024
-    ],
-    "full": [
-      768,
-      1152
-    ],
-    "dot": 4
+ "version": 1,
+ "note": "tools/actors_import.py が src/actors と actors.json（受け渡し台帳）から作る。手で直さない",
+ "canvas": {
+  "bust": [
+   768,
+   1024
+  ],
+  "full": [
+   768,
+   1152
+  ],
+  "dot": 4,
+  "stored": "dots"
+ },
+ "eyes": [
+  "normal",
+  "joy",
+  "anger",
+  "sorrow",
+  "fun",
+  "surprise",
+  "crying",
+  "closed"
+ ],
+ "mouths": [
+  "normal",
+  "open"
+ ],
+ "actors": [
+  {
+   "id": "akane",
+   "name": "アカネ",
+   "faceMode": "sheet",
+   "hasMouth": true,
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [
+    "normal_open",
+    "joy_normal",
+    "joy_open",
+    "anger_normal",
+    "anger_open",
+    "sorrow_normal",
+    "sorrow_open",
+    "fun_normal",
+    "fun_open",
+    "surprise_normal",
+    "surprise_open",
+    "crying_normal",
+    "crying_open",
+    "closed_normal",
+    "closed_open"
+   ],
+   "sources": [
+    {
+     "files": "*",
+     "from": "コンテンツ制作側 stage-actor-assets-2026-11-14.zip（src/actors/）",
+     "method": "tools/actors_import.py（plain を base、base＋目元＋口元を faces に合成）",
+     "date": "2026-11-14"
+    }
+   ]
   },
-  "eyes": [
-    "normal",
+  {
+   "id": "extra_archer",
+   "name": "extra_archer",
+   "faceMode": "sheet",
+   "hasMouth": true,
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [
+    "normal_open",
+    "joy_normal",
+    "joy_open",
+    "anger_normal",
+    "anger_open",
+    "sorrow_normal",
+    "sorrow_open",
+    "fun_normal",
+    "fun_open",
+    "surprise_normal",
+    "surprise_open",
+    "crying_normal",
+    "crying_open",
+    "closed_normal",
+    "closed_open"
+   ],
+   "sources": [
+    {
+     "files": "*",
+     "from": "コンテンツ制作側 stage-actor-assets-2026-11-14.zip（src/actors/）",
+     "method": "tools/actors_import.py（plain を base、base＋目元＋口元を faces に合成）",
+     "date": "2026-11-14"
+    }
+   ]
+  },
+  {
+   "id": "extra_craftsman",
+   "name": "extra_craftsman",
+   "faceMode": "sheet",
+   "hasMouth": true,
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [
+    "normal_open",
+    "joy_normal",
+    "joy_open",
+    "anger_normal",
+    "anger_open",
+    "sorrow_normal",
+    "sorrow_open",
+    "fun_normal",
+    "fun_open",
+    "surprise_normal",
+    "surprise_open",
+    "crying_normal",
+    "crying_open",
+    "closed_normal",
+    "closed_open"
+   ],
+   "sources": [
+    {
+     "files": "*",
+     "from": "コンテンツ制作側 stage-actor-assets-2026-11-14.zip（src/actors/）",
+     "method": "tools/actors_import.py（plain を base、base＋目元＋口元を faces に合成）",
+     "date": "2026-11-14"
+    }
+   ]
+  },
+  {
+   "id": "extra_elder",
+   "name": "extra_elder",
+   "faceMode": "sheet",
+   "hasMouth": false,
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [
     "joy",
     "anger",
     "sorrow",
@@ -20,121 +154,1163 @@
     "surprise",
     "crying",
     "closed"
-  ],
-  "mouths": [
-    "normal",
-    "open"
-  ],
-  "actors": [
+   ],
+   "sources": [
     {
-      "id": "nono",
-      "name": "nono",
-      "faceMode": "sheet",
-      "hasMouth": true,
-      "costumes": {
-        "default": {
-          "full": true
-        }
-      },
-      "sources": [
-        {
-          "files": "*",
-          "from": "dummy",
-          "method": "tools/make_dummy_assets.py",
-          "date": "2026-11-14",
-          "note": "仮素材。表情テスト合格後に差し替え"
-        }
-      ],
-      "faces": [
-        "normal_open",
-        "joy_normal",
-        "joy_open",
-        "anger_normal",
-        "anger_open",
-        "sorrow_normal",
-        "sorrow_open",
-        "fun_normal",
-        "fun_open",
-        "surprise_normal",
-        "surprise_open",
-        "crying_normal",
-        "crying_open",
-        "closed_normal",
-        "closed_open"
-      ]
-    },
-    {
-      "id": "rei",
-      "name": "レイ",
-      "faceMode": "layered",
-      "hasMouth": false,
-      "costumes": {
-        "default": {
-          "full": false
-        }
-      },
-      "parts": {
-        "eyes": [
-          "joy",
-          "anger",
-          "sorrow",
-          "fun",
-          "surprise",
-          "crying",
-          "closed"
-        ],
-        "mouth": []
-      },
-      "sources": [
-        {
-          "files": "*",
-          "from": "dummy",
-          "method": "tools/make_dummy_assets.py",
-          "date": "2026-11-14",
-          "note": "仮素材"
-        }
-      ]
-    },
-    {
-      "id": "yoru",
-      "name": "ヨル",
-      "faceMode": "sheet",
-      "hasMouth": true,
-      "costumes": {
-        "default": {
-          "full": false
-        },
-        "travel": {
-          "full": false
-        }
-      },
-      "sources": [
-        {
-          "files": "*",
-          "from": "dummy",
-          "method": "tools/make_dummy_assets.py",
-          "date": "2026-11-14",
-          "note": "仮素材。travel は衣装切り替えの検証用"
-        }
-      ],
-      "faces": [
-        "normal_open",
-        "joy_normal",
-        "joy_open",
-        "anger_normal",
-        "anger_open",
-        "sorrow_normal",
-        "sorrow_open",
-        "fun_normal",
-        "fun_open",
-        "surprise_normal",
-        "surprise_open",
-        "crying_normal",
-        "crying_open",
-        "closed_normal",
-        "closed_open"
-      ]
+     "files": "*",
+     "from": "コンテンツ制作側 stage-actor-assets-2026-11-14.zip（src/actors/）",
+     "method": "tools/actors_import.py（plain を base、base＋目元＋口元を faces に合成）",
+     "date": "2026-11-14"
     }
-  ],
-  "note": "base.png は通常の表情（目元 normal・口元 normal）の完成画像。sheet は合成済み faces/<eyes>_<mouth>.png（口の無い役者は faces/<eyes>.png）、layered は base に不透明な表情レイヤーを重ねる"
+   ]
+  },
+  {
+   "id": "extra_elf",
+   "name": "extra_elf",
+   "faceMode": "sheet",
+   "hasMouth": true,
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [
+    "normal_open",
+    "joy_normal",
+    "joy_open",
+    "anger_normal",
+    "anger_open",
+    "sorrow_normal",
+    "sorrow_open",
+    "fun_normal",
+    "fun_open",
+    "surprise_normal",
+    "surprise_open",
+    "crying_normal",
+    "crying_open",
+    "closed_normal",
+    "closed_open"
+   ],
+   "sources": [
+    {
+     "files": "*",
+     "from": "コンテンツ制作側 stage-actor-assets-2026-11-14.zip（src/actors/）",
+     "method": "tools/actors_import.py（plain を base、base＋目元＋口元を faces に合成）",
+     "date": "2026-11-14"
+    }
+   ]
+  },
+  {
+   "id": "extra_kappa",
+   "name": "extra_kappa",
+   "faceMode": "sheet",
+   "hasMouth": false,
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [
+    "joy",
+    "anger",
+    "sorrow",
+    "fun",
+    "surprise",
+    "crying",
+    "closed"
+   ],
+   "sources": [
+    {
+     "files": "*",
+     "from": "コンテンツ制作側 stage-actor-assets-2026-11-14.zip（src/actors/）",
+     "method": "tools/actors_import.py（plain を base、base＋目元＋口元を faces に合成）",
+     "date": "2026-11-14"
+    }
+   ]
+  },
+  {
+   "id": "extra_lumberjack",
+   "name": "extra_lumberjack",
+   "faceMode": "sheet",
+   "hasMouth": true,
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [
+    "normal_open",
+    "joy_normal",
+    "joy_open",
+    "anger_normal",
+    "anger_open",
+    "sorrow_normal",
+    "sorrow_open",
+    "fun_normal",
+    "fun_open",
+    "surprise_normal",
+    "surprise_open",
+    "crying_normal",
+    "crying_open",
+    "closed_normal",
+    "closed_open"
+   ],
+   "sources": [
+    {
+     "files": "*",
+     "from": "コンテンツ制作側 stage-actor-assets-2026-11-14.zip（src/actors/）",
+     "method": "tools/actors_import.py（plain を base、base＋目元＋口元を faces に合成）",
+     "date": "2026-11-14"
+    }
+   ]
+  },
+  {
+   "id": "extra_mermaid",
+   "name": "extra_mermaid",
+   "faceMode": "sheet",
+   "hasMouth": true,
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [
+    "normal_open",
+    "joy_normal",
+    "joy_open",
+    "anger_normal",
+    "anger_open",
+    "sorrow_normal",
+    "sorrow_open",
+    "fun_normal",
+    "fun_open",
+    "surprise_normal",
+    "surprise_open",
+    "crying_normal",
+    "crying_open",
+    "closed_normal",
+    "closed_open"
+   ],
+   "sources": [
+    {
+     "files": "*",
+     "from": "コンテンツ制作側 stage-actor-assets-2026-11-14.zip（src/actors/）",
+     "method": "tools/actors_import.py（plain を base、base＋目元＋口元を faces に合成）",
+     "date": "2026-11-14"
+    }
+   ]
+  },
+  {
+   "id": "extra_mummy",
+   "name": "extra_mummy",
+   "faceMode": "sheet",
+   "hasMouth": false,
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [
+    "joy",
+    "anger",
+    "sorrow",
+    "fun",
+    "surprise",
+    "crying",
+    "closed"
+   ],
+   "sources": [
+    {
+     "files": "*",
+     "from": "コンテンツ制作側 stage-actor-assets-2026-11-14.zip（src/actors/）",
+     "method": "tools/actors_import.py（plain を base、base＋目元＋口元を faces に合成）",
+     "date": "2026-11-14"
+    }
+   ]
+  },
+  {
+   "id": "extra_oni",
+   "name": "extra_oni",
+   "faceMode": "sheet",
+   "hasMouth": true,
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [
+    "normal_open",
+    "joy_normal",
+    "joy_open",
+    "anger_normal",
+    "anger_open",
+    "sorrow_normal",
+    "sorrow_open",
+    "fun_normal",
+    "fun_open",
+    "surprise_normal",
+    "surprise_open",
+    "crying_normal",
+    "crying_open",
+    "closed_normal",
+    "closed_open"
+   ],
+   "sources": [
+    {
+     "files": "*",
+     "from": "コンテンツ制作側 stage-actor-assets-2026-11-14.zip（src/actors/）",
+     "method": "tools/actors_import.py（plain を base、base＋目元＋口元を faces に合成）",
+     "date": "2026-11-14"
+    }
+   ]
+  },
+  {
+   "id": "extra_porter",
+   "name": "extra_porter",
+   "faceMode": "sheet",
+   "hasMouth": true,
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [
+    "normal_open",
+    "joy_normal",
+    "joy_open",
+    "anger_normal",
+    "anger_open",
+    "sorrow_normal",
+    "sorrow_open",
+    "fun_normal",
+    "fun_open",
+    "surprise_normal",
+    "surprise_open",
+    "crying_normal",
+    "crying_open",
+    "closed_normal",
+    "closed_open"
+   ],
+   "sources": [
+    {
+     "files": "*",
+     "from": "コンテンツ制作側 stage-actor-assets-2026-11-14.zip（src/actors/）",
+     "method": "tools/actors_import.py（plain を base、base＋目元＋口元を faces に合成）",
+     "date": "2026-11-14"
+    }
+   ]
+  },
+  {
+   "id": "extra_skeleton",
+   "name": "extra_skeleton",
+   "faceMode": "sheet",
+   "hasMouth": false,
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [
+    "joy",
+    "anger",
+    "sorrow",
+    "fun",
+    "surprise",
+    "crying",
+    "closed"
+   ],
+   "sources": [
+    {
+     "files": "*",
+     "from": "コンテンツ制作側 stage-actor-assets-2026-11-14.zip（src/actors/）",
+     "method": "tools/actors_import.py（plain を base、base＋目元＋口元を faces に合成）",
+     "date": "2026-11-14"
+    }
+   ]
+  },
+  {
+   "id": "extra_villager",
+   "name": "extra_villager",
+   "faceMode": "sheet",
+   "hasMouth": true,
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [
+    "normal_open",
+    "joy_normal",
+    "joy_open",
+    "anger_normal",
+    "anger_open",
+    "sorrow_normal",
+    "sorrow_open",
+    "fun_normal",
+    "fun_open",
+    "surprise_normal",
+    "surprise_open",
+    "crying_normal",
+    "crying_open",
+    "closed_normal",
+    "closed_open"
+   ],
+   "sources": [
+    {
+     "files": "*",
+     "from": "コンテンツ制作側 stage-actor-assets-2026-11-14.zip（src/actors/）",
+     "method": "tools/actors_import.py（plain を base、base＋目元＋口元を faces に合成）",
+     "date": "2026-11-14"
+    }
+   ]
+  },
+  {
+   "id": "extra_wizard",
+   "name": "extra_wizard",
+   "faceMode": "sheet",
+   "hasMouth": true,
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [
+    "normal_open",
+    "joy_normal",
+    "joy_open",
+    "anger_normal",
+    "anger_open",
+    "sorrow_normal",
+    "sorrow_open",
+    "fun_normal",
+    "fun_open",
+    "surprise_normal",
+    "surprise_open",
+    "crying_normal",
+    "crying_open",
+    "closed_normal",
+    "closed_open"
+   ],
+   "sources": [
+    {
+     "files": "*",
+     "from": "コンテンツ制作側 stage-actor-assets-2026-11-14.zip（src/actors/）",
+     "method": "tools/actors_import.py（plain を base、base＋目元＋口元を faces に合成）",
+     "date": "2026-11-14"
+    }
+   ]
+  },
+  {
+   "id": "gou",
+   "name": "gou",
+   "faceMode": "sheet",
+   "hasMouth": true,
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [
+    "normal_open",
+    "joy_normal",
+    "joy_open",
+    "anger_normal",
+    "anger_open",
+    "sorrow_normal",
+    "sorrow_open",
+    "fun_normal",
+    "fun_open",
+    "surprise_normal",
+    "surprise_open",
+    "crying_normal",
+    "crying_open",
+    "closed_normal",
+    "closed_open"
+   ],
+   "sources": [
+    {
+     "files": "*",
+     "from": "コンテンツ制作側 stage-actor-assets-2026-11-14.zip（src/actors/）",
+     "method": "tools/actors_import.py（plain を base、base＋目元＋口元を faces に合成）",
+     "date": "2026-11-14"
+    }
+   ]
+  },
+  {
+   "id": "hayate",
+   "name": "hayate",
+   "faceMode": "sheet",
+   "hasMouth": true,
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [
+    "normal_open",
+    "joy_normal",
+    "joy_open",
+    "anger_normal",
+    "anger_open",
+    "sorrow_normal",
+    "sorrow_open",
+    "fun_normal",
+    "fun_open",
+    "surprise_normal",
+    "surprise_open",
+    "crying_normal",
+    "crying_open",
+    "closed_normal",
+    "closed_open"
+   ],
+   "sources": [
+    {
+     "files": "*",
+     "from": "コンテンツ制作側 stage-actor-assets-2026-11-14.zip（src/actors/）",
+     "method": "tools/actors_import.py（plain を base、base＋目元＋口元を faces に合成）",
+     "date": "2026-11-14"
+    }
+   ]
+  },
+  {
+   "id": "homura",
+   "name": "ホムラ",
+   "faceMode": "sheet",
+   "hasMouth": true,
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [
+    "normal_open",
+    "joy_normal",
+    "joy_open",
+    "anger_normal",
+    "anger_open",
+    "sorrow_normal",
+    "sorrow_open",
+    "fun_normal",
+    "fun_open",
+    "surprise_normal",
+    "surprise_open",
+    "crying_normal",
+    "crying_open",
+    "closed_normal",
+    "closed_open"
+   ],
+   "sources": [
+    {
+     "files": "*",
+     "from": "コンテンツ制作側 stage-actor-assets-2026-11-14.zip（src/actors/）",
+     "method": "tools/actors_import.py（plain を base、base＋目元＋口元を faces に合成）",
+     "date": "2026-11-14"
+    }
+   ]
+  },
+  {
+   "id": "iwao",
+   "name": "イワオ",
+   "faceMode": "sheet",
+   "hasMouth": true,
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [
+    "normal_open",
+    "joy_normal",
+    "joy_open",
+    "anger_normal",
+    "anger_open",
+    "sorrow_normal",
+    "sorrow_open",
+    "fun_normal",
+    "fun_open",
+    "surprise_normal",
+    "surprise_open",
+    "crying_normal",
+    "crying_open",
+    "closed_normal",
+    "closed_open"
+   ],
+   "sources": [
+    {
+     "files": "*",
+     "from": "コンテンツ制作側 stage-actor-assets-2026-11-14.zip（src/actors/）",
+     "method": "tools/actors_import.py（plain を base、base＋目元＋口元を faces に合成）",
+     "date": "2026-11-14"
+    }
+   ]
+  },
+  {
+   "id": "kogane",
+   "name": "kogane",
+   "faceMode": "sheet",
+   "hasMouth": false,
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [
+    "joy",
+    "anger",
+    "sorrow",
+    "fun",
+    "surprise",
+    "crying",
+    "closed"
+   ],
+   "sources": [
+    {
+     "files": "*",
+     "from": "コンテンツ制作側 stage-actor-assets-2026-11-14.zip（src/actors/）",
+     "method": "tools/actors_import.py（plain を base、base＋目元＋口元を faces に合成）",
+     "date": "2026-11-14"
+    }
+   ]
+  },
+  {
+   "id": "kotetsu",
+   "name": "kotetsu",
+   "faceMode": "sheet",
+   "hasMouth": true,
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [
+    "normal_open",
+    "joy_normal",
+    "joy_open",
+    "anger_normal",
+    "anger_open",
+    "sorrow_normal",
+    "sorrow_open",
+    "fun_normal",
+    "fun_open",
+    "surprise_normal",
+    "surprise_open",
+    "crying_normal",
+    "crying_open",
+    "closed_normal",
+    "closed_open"
+   ],
+   "sources": [
+    {
+     "files": "*",
+     "from": "コンテンツ制作側 stage-actor-assets-2026-11-14.zip（src/actors/）",
+     "method": "tools/actors_import.py（plain を base、base＋目元＋口元を faces に合成）",
+     "date": "2026-11-14"
+    }
+   ]
+  },
+  {
+   "id": "kurogane",
+   "name": "クロガネ",
+   "faceMode": "sheet",
+   "hasMouth": true,
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [
+    "normal_open",
+    "joy_normal",
+    "joy_open",
+    "anger_normal",
+    "anger_open",
+    "sorrow_normal",
+    "sorrow_open",
+    "fun_normal",
+    "fun_open",
+    "surprise_normal",
+    "surprise_open",
+    "crying_normal",
+    "crying_open",
+    "closed_normal",
+    "closed_open"
+   ],
+   "sources": [
+    {
+     "files": "*",
+     "from": "コンテンツ制作側 stage-actor-assets-2026-11-14.zip（src/actors/）",
+     "method": "tools/actors_import.py（plain を base、base＋目元＋口元を faces に合成）",
+     "date": "2026-11-14"
+    }
+   ]
+  },
+  {
+   "id": "mei",
+   "name": "メイ",
+   "faceMode": "sheet",
+   "hasMouth": true,
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [
+    "normal_open",
+    "joy_normal",
+    "joy_open",
+    "anger_normal",
+    "anger_open",
+    "sorrow_normal",
+    "sorrow_open",
+    "fun_normal",
+    "fun_open",
+    "surprise_normal",
+    "surprise_open",
+    "crying_normal",
+    "crying_open",
+    "closed_normal",
+    "closed_open"
+   ],
+   "sources": [
+    {
+     "files": "*",
+     "from": "コンテンツ制作側 stage-actor-assets-2026-11-14.zip（src/actors/）",
+     "method": "tools/actors_import.py（plain を base、base＋目元＋口元を faces に合成）",
+     "date": "2026-11-14"
+    }
+   ]
+  },
+  {
+   "id": "mizuchi",
+   "name": "mizuchi",
+   "faceMode": "sheet",
+   "hasMouth": true,
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [
+    "normal_open",
+    "joy_normal",
+    "joy_open",
+    "anger_normal",
+    "anger_open",
+    "sorrow_normal",
+    "sorrow_open",
+    "fun_normal",
+    "fun_open",
+    "surprise_normal",
+    "surprise_open",
+    "crying_normal",
+    "crying_open",
+    "closed_normal",
+    "closed_open"
+   ],
+   "sources": [
+    {
+     "files": "*",
+     "from": "コンテンツ制作側 stage-actor-assets-2026-11-14.zip（src/actors/）",
+     "method": "tools/actors_import.py（plain を base、base＋目元＋口元を faces に合成）",
+     "date": "2026-11-14"
+    }
+   ]
+  },
+  {
+   "id": "nibulus",
+   "name": "ニブルス",
+   "faceMode": "sheet",
+   "hasMouth": true,
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [
+    "normal_open",
+    "joy_normal",
+    "joy_open",
+    "anger_normal",
+    "anger_open",
+    "sorrow_normal",
+    "sorrow_open",
+    "fun_normal",
+    "fun_open",
+    "surprise_normal",
+    "surprise_open",
+    "crying_normal",
+    "crying_open",
+    "closed_normal",
+    "closed_open"
+   ],
+   "sources": [
+    {
+     "files": "*",
+     "from": "コンテンツ制作側 stage-actor-assets-2026-11-14.zip（src/actors/）",
+     "method": "tools/actors_import.py（plain を base、base＋目元＋口元を faces に合成）",
+     "date": "2026-11-14"
+    }
+   ]
+  },
+  {
+   "id": "nono",
+   "name": "nono",
+   "faceMode": "sheet",
+   "hasMouth": true,
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [
+    "normal_open",
+    "joy_normal",
+    "joy_open",
+    "anger_normal",
+    "anger_open",
+    "sorrow_normal",
+    "sorrow_open",
+    "fun_normal",
+    "fun_open",
+    "surprise_normal",
+    "surprise_open",
+    "crying_normal",
+    "crying_open",
+    "closed_normal",
+    "closed_open"
+   ],
+   "sources": [
+    {
+     "files": "*",
+     "from": "コンテンツ制作側 stage-actor-assets-2026-11-14.zip（src/actors/）",
+     "method": "tools/actors_import.py（plain を base、base＋目元＋口元を faces に合成）",
+     "date": "2026-11-14"
+    }
+   ]
+  },
+  {
+   "id": "nono_whitecat",
+   "name": "nono_whitecat",
+   "faceMode": "sheet",
+   "hasMouth": true,
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [
+    "normal_open",
+    "joy_normal",
+    "joy_open",
+    "anger_normal",
+    "anger_open",
+    "sorrow_normal",
+    "sorrow_open",
+    "fun_normal",
+    "fun_open",
+    "surprise_normal",
+    "surprise_open",
+    "crying_normal",
+    "crying_open",
+    "closed_normal",
+    "closed_open"
+   ],
+   "sources": [
+    {
+     "files": "*",
+     "from": "コンテンツ制作側 stage-actor-assets-2026-11-14.zip（src/actors/）",
+     "method": "tools/actors_import.py（plain を base、base＋目元＋口元を faces に合成）",
+     "date": "2026-11-14"
+    }
+   ]
+  },
+  {
+   "id": "rei",
+   "name": "レイ",
+   "faceMode": "sheet",
+   "hasMouth": false,
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [
+    "joy",
+    "anger",
+    "sorrow",
+    "fun",
+    "surprise",
+    "crying",
+    "closed"
+   ],
+   "sources": [
+    {
+     "files": "*",
+     "from": "コンテンツ制作側 stage-actor-assets-2026-11-14.zip（src/actors/）",
+     "method": "tools/actors_import.py（plain を base、base＋目元＋口元を faces に合成）",
+     "date": "2026-11-14"
+    }
+   ]
+  },
+  {
+   "id": "rei_casual",
+   "name": "rei_casual",
+   "faceMode": "sheet",
+   "hasMouth": true,
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [
+    "normal_open",
+    "joy_normal",
+    "joy_open",
+    "anger_normal",
+    "anger_open",
+    "sorrow_normal",
+    "sorrow_open",
+    "fun_normal",
+    "fun_open",
+    "surprise_normal",
+    "surprise_open",
+    "crying_normal",
+    "crying_open",
+    "closed_normal",
+    "closed_open"
+   ],
+   "sources": [
+    {
+     "files": "*",
+     "from": "コンテンツ制作側 stage-actor-assets-2026-11-14.zip（src/actors/）",
+     "method": "tools/actors_import.py（plain を base、base＋目元＋口元を faces に合成）",
+     "date": "2026-11-14"
+    }
+   ]
+  },
+  {
+   "id": "rei_kimono",
+   "name": "rei_kimono",
+   "faceMode": "sheet",
+   "hasMouth": true,
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [
+    "normal_open",
+    "joy_normal",
+    "joy_open",
+    "anger_normal",
+    "anger_open",
+    "sorrow_normal",
+    "sorrow_open",
+    "fun_normal",
+    "fun_open",
+    "surprise_normal",
+    "surprise_open",
+    "crying_normal",
+    "crying_open",
+    "closed_normal",
+    "closed_open"
+   ],
+   "sources": [
+    {
+     "files": "*",
+     "from": "コンテンツ制作側 stage-actor-assets-2026-11-14.zip（src/actors/）",
+     "method": "tools/actors_import.py（plain を base、base＋目元＋口元を faces に合成）",
+     "date": "2026-11-14"
+    }
+   ]
+  },
+  {
+   "id": "rei_rider",
+   "name": "rei_rider",
+   "faceMode": "sheet",
+   "hasMouth": true,
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [
+    "normal_open",
+    "joy_normal",
+    "joy_open",
+    "anger_normal",
+    "anger_open",
+    "sorrow_normal",
+    "sorrow_open",
+    "fun_normal",
+    "fun_open",
+    "surprise_normal",
+    "surprise_open",
+    "crying_normal",
+    "crying_open",
+    "closed_normal",
+    "closed_open"
+   ],
+   "sources": [
+    {
+     "files": "*",
+     "from": "コンテンツ制作側 stage-actor-assets-2026-11-14.zip（src/actors/）",
+     "method": "tools/actors_import.py（plain を base、base＋目元＋口元を faces に合成）",
+     "date": "2026-11-14"
+    }
+   ]
+  },
+  {
+   "id": "rei_rider_red",
+   "name": "rei_rider_red",
+   "faceMode": "sheet",
+   "hasMouth": true,
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [
+    "normal_open",
+    "joy_normal",
+    "joy_open",
+    "anger_normal",
+    "anger_open",
+    "sorrow_normal",
+    "sorrow_open",
+    "fun_normal",
+    "fun_open",
+    "surprise_normal",
+    "surprise_open",
+    "crying_normal",
+    "crying_open",
+    "closed_normal",
+    "closed_open"
+   ],
+   "sources": [
+    {
+     "files": "*",
+     "from": "コンテンツ制作側 stage-actor-assets-2026-11-14.zip（src/actors/）",
+     "method": "tools/actors_import.py（plain を base、base＋目元＋口元を faces に合成）",
+     "date": "2026-11-14"
+    }
+   ]
+  },
+  {
+   "id": "rei_trackcape",
+   "name": "rei_trackcape",
+   "faceMode": "sheet",
+   "hasMouth": true,
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [
+    "normal_open",
+    "joy_normal",
+    "joy_open",
+    "anger_normal",
+    "anger_open",
+    "sorrow_normal",
+    "sorrow_open",
+    "fun_normal",
+    "fun_open",
+    "surprise_normal",
+    "surprise_open",
+    "crying_normal",
+    "crying_open",
+    "closed_normal",
+    "closed_open"
+   ],
+   "sources": [
+    {
+     "files": "*",
+     "from": "コンテンツ制作側 stage-actor-assets-2026-11-14.zip（src/actors/）",
+     "method": "tools/actors_import.py（plain を base、base＋目元＋口元を faces に合成）",
+     "date": "2026-11-14"
+    }
+   ]
+  },
+  {
+   "id": "sasuke",
+   "name": "サスケ",
+   "faceMode": "sheet",
+   "hasMouth": true,
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [
+    "normal_open",
+    "joy_normal",
+    "joy_open",
+    "anger_normal",
+    "anger_open",
+    "sorrow_normal",
+    "sorrow_open",
+    "fun_normal",
+    "fun_open",
+    "surprise_normal",
+    "surprise_open",
+    "crying_normal",
+    "crying_open",
+    "closed_normal",
+    "closed_open"
+   ],
+   "sources": [
+    {
+     "files": "*",
+     "from": "コンテンツ制作側 stage-actor-assets-2026-11-14.zip（src/actors/）",
+     "method": "tools/actors_import.py（plain を base、base＋目元＋口元を faces に合成）",
+     "date": "2026-11-14"
+    }
+   ]
+  },
+  {
+   "id": "shiro",
+   "name": "shiro",
+   "faceMode": "sheet",
+   "hasMouth": true,
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [
+    "normal_open",
+    "joy_normal",
+    "joy_open",
+    "anger_normal",
+    "anger_open",
+    "sorrow_normal",
+    "sorrow_open",
+    "fun_normal",
+    "fun_open",
+    "surprise_normal",
+    "surprise_open",
+    "crying_normal",
+    "crying_open",
+    "closed_normal",
+    "closed_open"
+   ],
+   "sources": [
+    {
+     "files": "*",
+     "from": "コンテンツ制作側 stage-actor-assets-2026-11-14.zip（src/actors/）",
+     "method": "tools/actors_import.py（plain を base、base＋目元＋口元を faces に合成）",
+     "date": "2026-11-14"
+    }
+   ]
+  },
+  {
+   "id": "tanurio",
+   "name": "タヌリオ",
+   "faceMode": "sheet",
+   "hasMouth": true,
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [
+    "normal_open",
+    "joy_normal",
+    "joy_open",
+    "anger_normal",
+    "anger_open",
+    "sorrow_normal",
+    "sorrow_open",
+    "fun_normal",
+    "fun_open",
+    "surprise_normal",
+    "surprise_open",
+    "crying_normal",
+    "crying_open",
+    "closed_normal",
+    "closed_open"
+   ],
+   "sources": [
+    {
+     "files": "*",
+     "from": "コンテンツ制作側 stage-actor-assets-2026-11-14.zip（src/actors/）",
+     "method": "tools/actors_import.py（plain を base、base＋目元＋口元を faces に合成）",
+     "date": "2026-11-14"
+    }
+   ]
+  },
+  {
+   "id": "yoru",
+   "name": "ヨル",
+   "faceMode": "sheet",
+   "hasMouth": true,
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [
+    "normal_open",
+    "joy_normal",
+    "joy_open",
+    "anger_normal",
+    "anger_open",
+    "sorrow_normal",
+    "sorrow_open",
+    "fun_normal",
+    "fun_open",
+    "surprise_normal",
+    "surprise_open",
+    "crying_normal",
+    "crying_open",
+    "closed_normal",
+    "closed_open"
+   ],
+   "sources": [
+    {
+     "files": "*",
+     "from": "コンテンツ制作側 stage-actor-assets-2026-11-14.zip（src/actors/）",
+     "method": "tools/actors_import.py（plain を base、base＋目元＋口元を faces に合成）",
+     "date": "2026-11-14"
+    }
+   ]
+  },
+  {
+   "id": "yui",
+   "name": "ユイ",
+   "faceMode": "sheet",
+   "hasMouth": true,
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [
+    "normal_open",
+    "joy_normal",
+    "joy_open",
+    "anger_normal",
+    "anger_open",
+    "sorrow_normal",
+    "sorrow_open",
+    "fun_normal",
+    "fun_open",
+    "surprise_normal",
+    "surprise_open",
+    "crying_normal",
+    "crying_open",
+    "closed_normal",
+    "closed_open"
+   ],
+   "sources": [
+    {
+     "files": "*",
+     "from": "コンテンツ制作側 stage-actor-assets-2026-11-14.zip（src/actors/）",
+     "method": "tools/actors_import.py（plain を base、base＋目元＋口元を faces に合成）",
+     "date": "2026-11-14"
+    }
+   ]
+  }
+ ]
 }

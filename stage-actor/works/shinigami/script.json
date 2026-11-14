@@ -1,0 +1,885 @@
+{
+ "meta": {
+  "id": "shinigami",
+  "title": "死神 ―命の蝋燭―",
+  "original": "古典落語『死神』（伝統演目・著作権消滅）",
+  "adaptation": "free",
+  "format": "v3",
+  "minutes": 14,
+  "synopsis": "貧しい背負い職人・源助は、死神から「病人を見る医者」の商売を授かる。死神が足元にいれば助かり、枕元にいれば助からない。評判と富を得た源助の前に、千両の礼金と、枕元に死神の立つ大旦那が現れる。運命をねじ曲げた代償は、命の蝋燭の洞窟で待っていた。古典落語の中改変。結末は観客の選択で「余韻」が変わる。",
+  "note": "本脚本は翻案であり、落語の口演の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
+  },
+  {
+   "role": "源助（背負い職人）",
+   "actor": "extra_porter",
+   "costume": "default"
+  },
+  {
+   "role": "お光（源助の女房）",
+   "actor": "extra_elf",
+   "costume": "default"
+  },
+  {
+   "role": "死神",
+   "actor": "extra_skeleton",
+   "costume": "default"
+  },
+  {
+   "role": "大旦那（病人）",
+   "actor": "extra_elder",
+   "costume": "default"
+  },
+  {
+   "role": "使いの者",
+   "actor": "extra_villager",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "hovel": "bg/hovel-2048x1152.png",
+  "street": "bg/street-2048x1152.png",
+  "sickroom": "bg/sickroom-2048x1152.png",
+  "candles": "bg/candles-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ようこそ、NONO座へ。本日の演目は、古典落語『死神』。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "笑い話の顔をして、そっと命の話をする。江戸の名作でございます。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "主人公は源助。腕はいいのに、運の悪い背負い職人でして。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "貧乏が板について、つい、口走ってしまったのです。「いっそ死にてえ」と。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……その声を、聞いてはいけないお人に、聞かれてしまいました。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "hovel",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "hovel"
+  },
+  {
+   "op": "nar",
+   "text": "長屋の一室。夜。薄い布団、空の米櫃、冷えた囲炉裏。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elf",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "源助さん、米櫃、からっぽだよ。明日のおまんま、どうするのさ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……すまねえ、お光。仕事はあるんだが、どうもツキがなくてよ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "あんたの腕は確かなんだから。あとは運だけだよ、運が向いてくれれば。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "運か。運に見放されると、人はどうなるんだろうな。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "いっそ、死神にでも取り憑かれた方が、ましってもんだ。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "その時、行灯の火が、すっと細くなった。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_skeleton",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "呼んだか、源助。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "ひっ……！　お、お前は……骨だけの、その姿は……！",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "きゃああ！　源助さん、この人、影がないよ！",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "騒ぐな。お前が「死にてえ」と言ったから来た。死神は暇ではないが、礼儀はわきまえる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "ま、待ってくれ！　言葉のあやだ！　死にたくなんかねえ！",
+   "eyes": "crying",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "ほう。ならば、生きたくば、わしの言うことを聞け。お前に、一つ商売を授ける。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "しょ、商売……？",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "医者の真似事だ。病人の家へ行き、わしを探せ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "わしの姿は人には見えんが、お前にだけは別だ。見えるようにしておく。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "わしが病人の枕元に立っておれば、その者は助からん。足元に立っておれば、助かる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "足元におれば「助かる」とだけ言え。薬もいらん、腕もいらん。それで礼金が入る。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "そ、そんなうめえ話が……。枕元の時は、どうすりゃいい？",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "その時は、静かに帰れ。命の帳面は、決まっておる。……一つだけ、言っておく。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "運命を、ねじ曲げるな。曲げた分は、必ずどこかで帳尻が合う。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "わ、わかった。ねじ曲げねえ。足元だけだ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "nar",
+   "text": "死神は、煙のように消えた。行灯の火が、元に戻る。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_skeleton"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "源助さん……今の、夢じゃないよね。私たち、とんでもない話を聞いちゃった。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "ああ。だが、これで運が向くかもしれねえ。お光、見てろ。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elf"
+  },
+  {
+   "op": "bg",
+   "src": "street",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "street"
+  },
+  {
+   "op": "nar",
+   "text": "翌日。噂は、思いのほか早く広まった。「源助の旦那は、見ただけで治る」。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_villager",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "源助の旦那！　うちの主人が三日も熱でうなされてまして！　どうか、見に来ておくんなせえ！",
+   "eyes": "crying",
+   "mouth": "open"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "よし、案内しな。……（死神は、足元か、枕元か）",
+   "eyes": "normal"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_villager"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "bg",
+   "src": "sickroom",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "sickroom"
+  },
+  {
+   "op": "nar",
+   "text": "薬屋の主人の病室。分厚い布団に、主人が伏せっている。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……わしは、もうだめか……店のことも、気がかりで……",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "（布団の足元に……いる。骨のあんちくしょうが、腕を組んで立ってやがる）",
+   "eyes": "normal"
+  },
+  {
+   "op": "show",
+   "actor": "extra_skeleton",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "（源助にだけ聞こえる声で）足元だ。約束どおりにしろ。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_skeleton"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "旦那、心配いりませんぜ。この熱は、三日で下がります。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "な、なんと……！　本当か、源助どの……！",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "果たして三日後、主人の熱は下がり、源助には礼金と、確かな評判が入った。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "bg",
+   "src": "hovel"
+  },
+  {
+   "op": "nar",
+   "text": "それからというもの、源助の長屋は、少しずつ明るくなっていった。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elf",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "見て、源助さん。新しい布団。それに、米櫃もいっぱいだよ。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "へへ。お光にも、もう寒い思いはさせねえ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "でも、あの約束だけは忘れちゃだめだよ。枕元の時は、手を出しちゃいけない。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "わかってる。……わかってるさ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elf"
+  },
+  {
+   "op": "bg",
+   "src": "street"
+  },
+  {
+   "op": "show",
+   "actor": "extra_villager",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "源助の旦那、今度は両替商の大旦那だ！　危篤でして、礼金は、望むだけ出すと！",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "望むだけ、だと……。よし、行こう。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_villager"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "bg",
+   "src": "sickroom"
+  },
+  {
+   "op": "nar",
+   "text": "両替商の病室。今までで一番立派な布団。そして――"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……源助どの……わしを、助けてくれ……礼金は、千両でも用意する……",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "（……枕元だ。死神が、枕元に立っている）",
+   "eyes": "surprise"
+  },
+  {
+   "op": "show",
+   "actor": "extra_skeleton",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "源助。見るな、ではない。見たうえで、帰れ。約束だ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "（千両……千両あれば、長屋を出られる。お光に楽をさせてやれる）",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "たのむ……わしは、まだ死にとうない……",
+   "eyes": "crying",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……旦那、今、治してやる。――そこの者、布団を、ぐるりと回せ！　頭と足を、逆にするんだ！",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "布団は回された。枕元だった場所は、足元になった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "……やったな、源助。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "よい。今日のところは、お前の勝ちだ。だが、覚えておけ。帳尻は、合わせに来る。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_skeleton"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "旦那、もう大丈夫ですぜ。……（勝った。俺は、死神に勝ったんだ）",
+   "eyes": "fun"
+  },
+  {
+   "op": "nar",
+   "text": "大旦那は奇跡のように回復し、源助は千両を手にした。その夜のことである。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "bg",
+   "src": "hovel"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "お光、見ろ、千両だ！　もう貧乏とはおさらばだぞ！",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "show",
+   "actor": "extra_skeleton",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "源助。祝いの前に、見せたいものがある。ついてこい。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……あんたに、文句を言われる覚えは……",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "文句ではない。帳面の、確認だ。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_skeleton"
+  },
+  {
+   "op": "bg",
+   "src": "candles",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "candles"
+  },
+  {
+   "op": "nar",
+   "text": "気がつくと、源助は闇の中にいた。無数の蝋燭が、果てしなく灯っている。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_skeleton",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "な、なんだ、ここは……蝋燭だらけじゃねえか……",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "人の命の蝋燭だ。長いもの、短いもの、揺れるもの。今、生まれた者の火も、ここに灯る。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "じゃあ、あの太くて明るいのは……",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "お前が助けた大旦那だ。お前のおかげで、あと十年は燃える。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……俺のは、どれだ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "これだ。"
+  },
+  {
+   "op": "nar",
+   "text": "死神の指の先。燃え残りの短い蝋燭が、小さく揺れていた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "み、短ぇ……！　こんなに短いのか、俺の命は……！",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "もとは、もう少し長かった。だが源助、命の火は、貸し借りができるのだ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "お前が大旦那にやった十年は、お前の分から、差し引かれた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "そ、そんな……！　俺はただ、助けたかっただけで……！",
+   "eyes": "crying",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "知っている。だからこそ、最後に選ばせてやる。この新しい蝋燭に、お前の火を接ぐことも、できなくはない。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "新しい蝋燭に、火を接いでもらう",
+     "jump": "route_plead"
+    },
+    {
+     "text": "もう十分生きた、と受け入れる",
+     "jump": "route_accept"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "route_plead"
+  },
+  {
+   "op": "set",
+   "flag": "f_plead"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "接いでくれ！　頼む、接いでくれ！　俺はまだ死ねねえ！",
+   "eyes": "crying",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "……よい。手は貸さん。自分でやれ。震えるなよ、源助。"
+  },
+  {
+   "op": "nar",
+   "text": "源助は新しい蝋燭を受け取り、震える手で、短い火に近づけた。"
+  },
+  {
+   "op": "nar",
+   "text": "あと少し、というところで――指が、震えた。"
+  },
+  {
+   "op": "nar",
+   "text": "火は、消えた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "……欲は、手を震わせる。さらばだ、源助。楽しかったぞ。"
+  },
+  {
+   "op": "jump",
+   "to": "ending"
+  },
+  {
+   "op": "label",
+   "id": "route_accept"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……いや。もう、いい。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "貧乏で、ろくでもねえ一生だったが、お光と笑った日もあった。十分だ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "……ほう。お前、人間の割に、潔いな。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "ならば、見ていけ。あれが、お前の女房の蝋燭だ。隣の小さいのが、腹の子の分だ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "お光の……！　明るいなあ。長く、燃えるんだな。",
+   "eyes": "crying",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "ああ。お前が稼いだ金もある。あの二人は、食うには困らん。"
+  },
+  {
+   "op": "nar",
+   "text": "源助は笑って、目を閉じた。小さな火が、静かに、消えた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "……さらばだ、源助。楽しかったぞ。"
+  },
+  {
+   "op": "jump",
+   "to": "ending"
+  },
+  {
+   "op": "label",
+   "id": "ending"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_skeleton"
+  },
+  {
+   "op": "bg",
+   "src": "street"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "if",
+   "flag": "f_plead",
+   "to": "close_plead"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "源助は、静かに逝きました。残されたお光と子は、源助の稼ぎで、つつましくも明るく暮らしたそうです。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "命の火は、誰のものか。落語『死神』、これにてお開き。ありがとうございました。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "jump",
+   "to": "fin"
+  },
+  {
+   "op": "label",
+   "id": "close_plead"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "源助の最期は、欲に震えた手のせいでした。けれど、お光と子の蝋燭は、その後も長く燃え続けたそうです。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "命の貸し借りは、お気をつけなすって。落語『死神』、これにてお開き。",
+   "eyes": "normal"
+  },
+  {
+   "op": "label",
+   "id": "fin"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
+}

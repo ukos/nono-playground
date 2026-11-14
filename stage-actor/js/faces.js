@@ -48,7 +48,23 @@ export function resolveLayers(db, actorId, { costume = 'default', view = 'bust',
   return { view: 'bust', layers };
 }
 
-/** 作品で使う可能性のある役者画像をすべて列挙する（先読み用）。 */
+/** 脚本が実際に使う役者画像だけを列挙する（先読み用）。 */
+export function layersUsedBy(db, script) {
+  const costumes = {};
+  const add = (a, c) => (costumes[a] ||= new Set()).add(c || 'default');
+  for (const c of script.cast || []) add(c.actor, c.costume);
+  for (const s of script.steps) if (s.op === 'show') add(s.actor, s.costume);
+  const out = new Set();
+  const push = (r) => r.layers.forEach((u) => out.add(u));
+  for (const s of script.steps) {
+    if (s.op === 'show') push(resolveLayers(db, s.actor, { costume: s.costume, view: s.view }));
+    if (s.op === 'say') for (const c of costumes[s.actor] || ['default']) push(resolveLayers(db, s.actor, { costume: c, eyes: s.eyes, mouth: s.mouth }));
+  }
+  for (const [a, set] of Object.entries(costumes)) for (const c of set) push(resolveLayers(db, a, { costume: c }));
+  return [...out];
+}
+
+/** 作品で使う可能性のある役者画像をすべて列挙する。 */
 export function allLayersFor(db, actorId, costumes) {
   const actor = db.byId[actorId];
   if (!actor) return [];

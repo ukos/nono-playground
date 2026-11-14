@@ -1,0 +1,856 @@
+{
+ "meta": {
+  "id": "yabu-no-naka",
+  "title": "藪の中",
+  "original": "芥川龍之介『藪の中』（1922年、著作権消滅）",
+  "minutes": 10,
+  "synopsis": "山中で見つかった侍の死骸。盗賊、妻、死者自身——三つの告白が食い違い、真実は藪の中へ。NONO座の大胆改変版では、原作が匂わせるだけの「木樵りの秘密」を、観客の選択で暴く追加幕を設けた。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない",
+  "adaptation": "free",
+  "format": "v3"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
+  },
+  {
+   "role": "検非違使",
+   "actor": "kurogane",
+   "costume": "default"
+  },
+  {
+   "role": "木樵り",
+   "actor": "sasuke",
+   "costume": "default"
+  },
+  {
+   "role": "旅法師",
+   "actor": "mei",
+   "costume": "default"
+  },
+  {
+   "role": "放免",
+   "actor": "iwao",
+   "costume": "default"
+  },
+  {
+   "role": "媼",
+   "actor": "tanurio",
+   "costume": "default"
+  },
+  {
+   "role": "多襄丸",
+   "actor": "yoru",
+   "costume": "default"
+  },
+  {
+   "role": "真砂",
+   "actor": "akane",
+   "costume": "default"
+  },
+  {
+   "role": "巫女",
+   "actor": "rei",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "grove": "bg/grove-2048x1152.png",
+  "road": "bg/road-2048x1152.png",
+  "shirasu": "bg/shirasu-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ようこそ、NONO座へ。本日の演目は『藪の中』。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "山の中で、侍が一人、死んで見つかった。ただ、それだけの話——のはずだった。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ところが、聞く人ごとに話が違う。盗賊と、妻と、死んだ本人までが、違うことを言う。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "真実は一つのはずなのに、誰の言葉も、どこか嘘くさい。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "お願いが一つ。この舞台では、画面の左を押すと物語が進み、右を押すと戻ります。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "和書のページをめくる向き、と思ってください。では——開幕。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "nar",
+   "text": "舞台は、検非違使の詰所の白洲。取り調べが始まる。"
+  },
+  {
+   "op": "bg",
+   "src": "shirasu"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "これより、山中にて発見された侍・金沢武弘の死骸について、関係者を糺す。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "武弘、二十六。若狭の侍。妻・真砂と旅の途中、何者かに討たれた。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "まず、死骸の第一発見者を呼べ。木樵り、前に。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "へ、へい。あっしが見つけたんでさ。今朝、山へ柴刈りに行く裏道の藪で……",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "杉の根方に、男が倒れてやした。薄青い水干を着て、胸に一太刀、傷は一つだけ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "凶器は。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "太刀も小刀も、ありゃしませんでした。落ちてたのは、縄が一筋と、女の櫛だけ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "血は杉の落葉にしみて、黒くなってやした。あとは……何も。何もありゃしません。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "下がってよい。次、旅法師を。",
+   "eyes": "normal"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "拙僧は昨日、山科へ向かう道で、そのご夫婦と行き会いました。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "男は太刀を帯び、弓と黒塗りの矢筒。矢は二十本ほどもあったでしょうか。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "妻は栗毛の馬の上。衣被ぎの布で顔は見えませなんだが、健やかなお姿でした。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "あの道の先が藪の山とは……今思えば、痛ましい行き会わせでした。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "ご苦労。下がられよ。——放免、捕らえた男のことを申せ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "おう、俺が縛ったのは多襄丸だ。夜更け、粟田口で馬から落ちて呻いてやがった。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "持ってた弓と矢十七本、それに栗毛の馬。法師の話と寸分違わねえ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "あいつは都じゃ名うての盗人でね。女と見りゃ、命より先に色が立つ野郎だ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "武弘の太刀は。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "捕らえた時には、もう売っ払った後だったみてえだ。へっ、命より金の早え男よ。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "下がれ。次は、真砂の母を。",
+   "eyes": "normal"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "真砂は十九。気の勝った、けれど情の深い娘でございました。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "婿の武弘のほか、男など知らぬ娘でございます。それだけは、この婆がよう存じております。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "お願いでございます。娘の行方と、事の真実を、どうか、どうかお明らかに。",
+   "eyes": "crying",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……必ずや。婆、下がって休まれよ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "nar",
+   "text": "証言は揃った。だが、肝心の三人の言葉が、まだない。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "さて、観客の皆に問う。告白を聞く順番は、そなたらに委ねよう。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "盗賊・多襄丸の告白から聞く",
+     "jump": "conf_router"
+    },
+    {
+     "text": "妻・真砂の告白から聞く",
+     "jump": "conf_router",
+     "set": "order_m"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "conf_router"
+  },
+  {
+   "op": "if",
+   "flag": "heard_t",
+   "to": "chk_m"
+  },
+  {
+   "op": "if",
+   "flag": "heard_m",
+   "to": "do_tajo"
+  },
+  {
+   "op": "if",
+   "flag": "order_m",
+   "to": "do_masago"
+  },
+  {
+   "op": "jump",
+   "to": "do_tajo"
+  },
+  {
+   "op": "label",
+   "id": "chk_m"
+  },
+  {
+   "op": "if",
+   "flag": "heard_m",
+   "to": "miko_intro"
+  },
+  {
+   "op": "jump",
+   "to": "do_masago"
+  },
+  {
+   "op": "label",
+   "id": "do_tajo"
+  },
+  {
+   "op": "set",
+   "flag": "heard_t"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "多襄丸。そなたのしたことを、残らず申せ。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "へへ、隠しはしねえ。殺したのは俺だ。だがな、卑怯な殺しじゃねえぞ。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "発端は風だ。馬上の女の衣被ぎがふわりと上がって、一瞬、顔が見えた。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "その一瞬で決めた。この女を手に入れる。そのためなら、男を殺しても構わねえってな。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "俺は甘い言葉で夫婦を誘った。『裏山に埋めた宝がある。鏡も太刀も、安く譲る』と。",
+   "eyes": "fun"
+  },
+  {
+   "op": "bg",
+   "src": "grove"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "藪の中で男を杉の根に縛り上げ、口には竹の葉を詰めた。あとは女だけだ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "ところが女は小刀を抜いて、まるで鬼のように斬りかかってきやがった。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……惚れたね。だからこそ、後が狂った。女は俺にしがみついて、こう言ったんだ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "『二人の男に姿を見られた。このままでは生きていけない。どちらか死んで』とな。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "俺は男の縄を解いた。正々堂々、太刀で勝負だ。二十三太刀目で、男は倒れた。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "二十太刀以上打ち合った相手は、後にも先にもあの男だけだ。腕は立ったよ。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "振り返ると、女は消えていた。……俺は太刀と弓と馬を持って、山を下りた。それだけだ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "bg",
+   "src": "shirasu"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……下がれ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "jump",
+   "to": "conf_router"
+  },
+  {
+   "op": "label",
+   "id": "do_masago"
+  },
+  {
+   "op": "set",
+   "flag": "heard_m"
+  },
+  {
+   "op": "bg",
+   "src": "shirasu"
+  },
+  {
+   "op": "nar",
+   "text": "真砂は清水の観音の前で、懺悔のように語ったという。その言葉を、ここに再現する。"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "あの男は、私を踏みにじると、夫を見捨てて山を下りて行きました。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "私は縛られた夫のそばに寄りました。……その時の、夫の目の色が忘れられません。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "怒りでも、悲しみでもない。冷たい、冷たい蔑みの色でした。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "ああ、この人と夫婦ではいられない。私は死のう。けれど、あなたも道連れに。",
+   "eyes": "crying",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "私は夫の胸に、私の小刀を突き立てました。一度だけ。……そして気を失ったのです。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "気がつくと、夫は死んでいました。池に身を投げても、私は死にきれませんでした。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "生き残ってしまった私を、観音様、どうかお罰しください。",
+   "eyes": "crying",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……真砂とやら。下がれ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "jump",
+   "to": "conf_router"
+  },
+  {
+   "op": "label",
+   "id": "miko_intro"
+  },
+  {
+   "op": "bg",
+   "src": "shirasu"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "最後に、死者の言葉を聞く。巫女を呼べ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "show",
+   "actor": "rei",
+   "pos": "left"
+  },
+  {
+   "op": "nar",
+   "text": "巫女は目を閉じ、静かに口を開いた。声の色が、変わる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "……俺は、縛られたまま、妻が盗賊に言うのを聞いた。『あの人を殺して』と。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "盗賊は顔色を変え、妻を蹴り倒した。そして俺に聞いた。『この女、殺すか、生かすか』。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "不思議なことに、その一瞬、俺は盗賊に礼を言いたい気持ちだった。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "妻は一人で逃げた。盗賊は無言で俺の縄を斬ると、山を下りて行った。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "足元に、妻の小刀が落ちていた。俺はそれを拾い、自分の胸に突き立てた。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "息が絶える間際、誰かがそっと近づき、胸の小刀を抜いて行った。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "誰だったのか——闇の中で、ついに分からなかった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "rei"
+  },
+  {
+   "op": "nar",
+   "text": "白洲に、長い沈黙が落ちた。"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "三つの告白、どれも決定的に食い違います。誰が夫を殺したのか。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "そして、もう一つ。胸の小刀を持ち去ったのは、誰なのか。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "実は、まだ一度も本当のことを言っていない人が、この舞台にいます。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "木樵りを、もう一度呼ぶ",
+     "jump": "kikori_again",
+     "set": "called_back"
+    },
+    {
+     "text": "呼ばない。このまま結審する",
+     "jump": "final_choice"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "kikori_again"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "木樵り。一つだけ聞く。死骸の胸に、小刀は本当に無かったのか。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……ありやした。最初は、ありやした。",
+   "eyes": "crying",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "あっしが見つけた時、小刀は胸に刺さったままだった。それを抜いたのは、あっしだ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "きれいな小刀でね。……売っちまった。金に困ってたんだ。許しておくんなせえ。",
+   "eyes": "crying",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "では、そなたの最初の証言は——",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "嘘でさ。盗んだことが知れりゃ、殺した疑いまでかけられる。怖くて、怖くて。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "けど、それだけだ。殺したのは、あっしじゃねえ。本当に、それだけなんだ。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "jump",
+   "to": "final_choice"
+  },
+  {
+   "op": "label",
+   "id": "final_choice"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "shirasu"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……全ての言葉を聞いた。観客のそなたらにも、問おう。",
+   "eyes": "normal"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "「真実は、藪の中だ」と結ぶ",
+     "jump": "ending_yabu"
+    },
+    {
+     "text": "「それでも、裁きは下す」と結ぶ",
+     "jump": "ending_sabaki"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "ending_yabu"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "この件、真実は藪の中に消えた。人の数だけ物語があり、物語の数だけ嘘がある。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "裁きは保留とする。……木樵り、そなたの小刀の件だけは、別に糺す。",
+   "eyes": "normal"
+  },
+  {
+   "op": "jump",
+   "to": "closing"
+  },
+  {
+   "op": "label",
+   "id": "ending_sabaki"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "真実は藪の中でも、人は裁かねばならぬ。分かることから、一つずつだ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "まず小刀を抜き、売った罪。木樵り、そなたからだ。真実は、そこから掘る。",
+   "eyes": "normal"
+  },
+  {
+   "op": "jump",
+   "to": "closing"
+  },
+  {
+   "op": "label",
+   "id": "closing"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "『藪の中』、これにて閉幕。真実は見つかりましたか？",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "見つからなかったとしたら、それで正解です。この話は、そういう話ですから。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "NONO座では、また別の物語でお会いしましょう。ご来場、ありがとうございました。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
+}
