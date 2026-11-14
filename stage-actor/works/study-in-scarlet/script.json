@@ -1,0 +1,721 @@
+{
+  "meta": {
+    "id": "study-in-scarlet",
+    "number": 109,
+    "title": "緋色の研究 ―壁の血文字―",
+    "original": "Arthur Conan Doyle, A Study in Scarlet（原典著作権消滅）",
+    "category": "探偵",
+    "adaptation": "faithful",
+    "format": "v3",
+    "minutes": 40,
+    "synopsis": "全五景で「観察は偏見を捨て、遠い原因と現在の証拠を結ぶ」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+    "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "シャーロック・ホームズ",
+      "actor": "yoru",
+      "costume": "default"
+    },
+    {
+      "role": "ワトソン",
+      "actor": "rei_casual",
+      "costume": "default"
+    },
+    {
+      "role": "レストレード",
+      "actor": "kurogane",
+      "costume": "default"
+    },
+    {
+      "role": "ホープ",
+      "actor": "extra_porter",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "baker_street": "bg/study-in-scarlet-baker_street-2048x1152.png",
+    "lauriston_house": "bg/study-in-scarlet-lauriston_house-2048x1152.png",
+    "cab_trail": "bg/study-in-scarlet-cab_trail-2048x1152.png",
+    "hope_capture": "bg/study-in-scarlet-hope_capture-2048x1152.png",
+    "utah_memory": "bg/study-in-scarlet-utah_memory-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『緋色の研究』。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "探偵の一席を、全五景でお届けします。",
+      "mouth": "open",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "この舞台の核は「観察は偏見を捨て、遠い原因と現在の証拠を結ぶ」。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "台詞はすべて今夜のための書き下ろしです。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "それでは、幕を開けましょう。",
+      "mouth": "open",
+      "eyes": "joy"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "baker_street",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "baker_street"
+    },
+    {
+      "op": "nar",
+      "text": "第1景「ベーカー街221B」。ワトソンが奇妙な観察者ホームズと同居を始める。"
+    },
+    {
+      "op": "show",
+      "actor": "yoru",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "現場は「ベーカー街221B」。まず事実だけを並べよう。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "確認できるのは、ワトソンが奇妙な観察者ホームズと同居を始めるという一点だ。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "見えたものと、そう思った理由を分けて書く。",
+      "eyes": "anger"
+    },
+    {
+      "op": "nar",
+      "text": "ベーカー街221Bの空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "証言が一致するほど、同じ思い込みを疑うべきか。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "一致は安心材料だが、真実の保証ではない。",
+      "eyes": "fun",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "鍵は「観察は偏見を捨て、遠い原因と現在の証拠を結ぶ」にある。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。ワトソンが奇妙な観察者ホームズと同居を始める。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "犯人像を先に決めず、痕跡から可能性を削ろう。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "では時刻、入口、道具の順に確かめる。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "ワトソンが奇妙な観察者ホームズと同居を始める。この行動には目的が二つ重なっている。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "表の目的が囮なら、裏の目的は何だ。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "答えはまだ言わない。反証できる形にしよう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "推理を勝利ではなく、検証として終わらせる。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "hide",
+      "actor": "yoru"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "bg",
+      "src": "lauriston_house",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "lauriston_house"
+    },
+    {
+      "op": "nar",
+      "text": "第2景「ローリストン・ガーデン」。空き家の遺体と血文字から証拠を拾う。"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_porter",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "現場は「ローリストン・ガーデン」。まず事実だけを並べよう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "確認できるのは、空き家の遺体と血文字から証拠を拾うという一点だ。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "見えたものと、そう思った理由を分けて書く。"
+    },
+    {
+      "op": "nar",
+      "text": "ローリストン・ガーデンの空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "証言が一致するほど、同じ思い込みを疑うべきか。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "一致は安心材料だが、真実の保証ではない。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "鍵は「観察は偏見を捨て、遠い原因と現在の証拠を結ぶ」にある。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。空き家の遺体と血文字から証拠を拾う。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "犯人像を先に決めず、痕跡から可能性を削ろう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "では時刻、入口、道具の順に確かめる。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "空き家の遺体と血文字から証拠を拾う。この行動には目的が二つ重なっている。"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "表の目的が囮なら、裏の目的は何だ。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "答えはまだ言わない。反証できる形にしよう。"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "推理を勝利ではなく、検証として終わらせる。",
+      "eyes": "fun"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_porter"
+    },
+    {
+      "op": "bg",
+      "src": "cab_trail",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "cab_trail"
+    },
+    {
+      "op": "nar",
+      "text": "第3景「ロンドンの辻馬車」。指輪と轍と薬丸が同じ犯人像へ収束する。"
+    },
+    {
+      "op": "show",
+      "actor": "yoru",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "現場は「ロンドンの辻馬車」。まず事実だけを並べよう。",
+      "eyes": "anger",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "確認できるのは、指輪と轍と薬丸が同じ犯人像へ収束するという一点だ。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "見えたものと、そう思った理由を分けて書く。",
+      "eyes": "fun"
+    },
+    {
+      "op": "nar",
+      "text": "ロンドンの辻馬車の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "証言が一致するほど、同じ思い込みを疑うべきか。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "一致は安心材料だが、真実の保証ではない。",
+      "eyes": "crying",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "鍵は「観察は偏見を捨て、遠い原因と現在の証拠を結ぶ」にある。",
+      "eyes": "closed"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。指輪と轍と薬丸が同じ犯人像へ収束する。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "犯人像を先に決めず、痕跡から可能性を削ろう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "では時刻、入口、道具の順に確かめる。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "指輪と轍と薬丸が同じ犯人像へ収束する。この行動には目的が二つ重なっている。",
+      "eyes": "anger",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "表の目的が囮なら、裏の目的は何だ。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "答えはまだ言わない。反証できる形にしよう。",
+      "eyes": "fun"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "推理を勝利ではなく、検証として終わらせる。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "yoru"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "bg",
+      "src": "hope_capture",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "hope_capture"
+    },
+    {
+      "op": "nar",
+      "text": "第4景「御者の逮捕」。ホームズが御者ホープを部屋へ誘い捕らえる。"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_porter",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "現場は「御者の逮捕」。まず事実だけを並べよう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "確認できるのは、ホームズが御者ホープを部屋へ誘い捕らえるという一点だ。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "見えたものと、そう思った理由を分けて書く。"
+    },
+    {
+      "op": "nar",
+      "text": "御者の逮捕の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "証言が一致するほど、同じ思い込みを疑うべきか。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "一致は安心材料だが、真実の保証ではない。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "鍵は「観察は偏見を捨て、遠い原因と現在の証拠を結ぶ」にある。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。ホームズが御者ホープを部屋へ誘い捕らえる。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "犯人像を先に決めず、痕跡から可能性を削ろう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "では時刻、入口、道具の順に確かめる。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "ホームズが御者ホープを部屋へ誘い捕らえる。この行動には目的が二つ重なっている。"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "表の目的が囮なら、裏の目的は何だ。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "答えはまだ言わない。反証できる形にしよう。"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "推理を勝利ではなく、検証として終わらせる。",
+      "eyes": "crying"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_porter"
+    },
+    {
+      "op": "bg",
+      "src": "utah_memory",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "utah_memory"
+    },
+    {
+      "op": "nar",
+      "text": "第5景「荒野の過去」。復讐の発端と二つの薬丸の意味が語られる。"
+    },
+    {
+      "op": "show",
+      "actor": "yoru",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "現場は「荒野の過去」。まず事実だけを並べよう。",
+      "eyes": "fun",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "確認できるのは、復讐の発端と二つの薬丸の意味が語られるという一点だ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "見えたものと、そう思った理由を分けて書く。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "荒野の過去の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "証言が一致するほど、同じ思い込みを疑うべきか。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "一致は安心材料だが、真実の保証ではない。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "鍵は「観察は偏見を捨て、遠い原因と現在の証拠を結ぶ」にある。",
+      "eyes": "joy"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。復讐の発端と二つの薬丸の意味が語られる。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "犯人像を先に決めず、痕跡から可能性を削ろう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "では時刻、入口、道具の順に確かめる。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "復讐の発端と二つの薬丸の意味が語られる。この行動には目的が二つ重なっている。",
+      "eyes": "fun",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "表の目的が囮なら、裏の目的は何だ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "答えはまだ言わない。反証できる形にしよう。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "推理を勝利ではなく、検証として終わらせる。",
+      "eyes": "closed"
+    },
+    {
+      "op": "hide",
+      "actor": "yoru"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "物語はここまで。残った問いは「観察は偏見を捨て、遠い原因と現在の証拠を結ぶ」。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ご来場、ありがとうございました。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

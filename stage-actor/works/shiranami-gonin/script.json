@@ -1,0 +1,739 @@
+{
+ "meta": {
+  "id": "shiranami-gonin",
+  "number": 108,
+  "title": "青砥稿花紅彩画（白浪五人男）―稲瀬川の名乗り―",
+  "original": "歌舞伎『青砥稿花紅彩画』（伝統演目・著作権消滅）",
+  "category": "能・歌舞伎",
+  "adaptation": "moderate",
+  "format": "v3",
+  "minutes": 38,
+  "synopsis": "全五景で「名乗りは虚勢であると同時に、生き方の告白である」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+  "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
+  },
+  {
+   "role": "弁天小僧菊之助",
+   "actor": "rei_kimono",
+   "costume": "default"
+  },
+  {
+   "role": "日本駄右衛門",
+   "actor": "kurogane",
+   "costume": "default"
+  },
+  {
+   "role": "南郷力丸",
+   "actor": "gou",
+   "costume": "default"
+  },
+  {
+   "role": "忠信利平",
+   "actor": "sasuke",
+   "costume": "default"
+  },
+  {
+   "role": "赤星十三郎",
+   "actor": "hayate",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "hamamatsuya": "bg/shiranami-gonin-hamamatsuya-2048x1152.png",
+  "exposure": "bg/shiranami-gonin-exposure-2048x1152.png",
+  "thieves_hideout": "bg/shiranami-gonin-thieves_hideout-2048x1152.png",
+  "inase_river": "bg/shiranami-gonin-inase_river-2048x1152.png",
+  "chase_bridge": "bg/shiranami-gonin-chase_bridge-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ようこそ、NONO座へ。本日の演目は『青砥稿花紅彩画（白浪五人男）―稲瀬川の名乗り―』。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "能・歌舞伎の一席を、全五景でお届けします。",
+   "mouth": "open",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "この舞台の核は「名乗りは虚勢であると同時に、生き方の告白である」。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "台詞はすべて今夜のための書き下ろしです。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "それでは、幕を開けましょう。",
+   "mouth": "open",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "hamamatsuya",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "hamamatsuya"
+  },
+  {
+   "op": "nar",
+   "text": "第1景「浜松屋の店先」。美しい娘に化けた弁天小僧がゆすりを仕掛ける。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "「浜松屋の店先」へ来た。美しい娘に化けた弁天小僧がゆすりを仕掛ける。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "ここで黙れば、誰かが代わりに意味を決める。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "私が守りたいのは「名乗りは虚勢であると同時に、生き方の告白である」だ。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "浜松屋の店先の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "守るという言葉が、誰かの犠牲を隠していないか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "過去は変えられない。だが次の手は選べる。"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。美しい娘に化けた弁天小僧がゆすりを仕掛ける。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "美しい娘に化けた弁天小僧がゆすりを仕掛ける。その事実から目をそらさない。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "恐れを消すのではなく、恐れたまま進もう。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "私の名ではなく、行いで答えを残す。",
+   "eyes": "normal"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "その答えを、次の場面まで持って行こう。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "ここで決める。逃げず、相手の声を聞く。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "ならば私も、その決断の重さを分け合う。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "bg",
+   "src": "exposure",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "exposure"
+  },
+  {
+   "op": "nar",
+   "text": "第2景「正体露見」。肩の刺青を見抜かれ弁天小僧が啖呵を切る。"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "「正体露見」へ来た。肩の刺青を見抜かれ弁天小僧が啖呵を切る。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "ここで黙れば、誰かが代わりに意味を決める。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "私が守りたいのは「名乗りは虚勢であると同時に、生き方の告白である」だ。"
+  },
+  {
+   "op": "nar",
+   "text": "正体露見の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "ならば勝ち負けだけでなく、支払う代価も見る。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "過去は変えられない。だが次の手は選べる。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。肩の刺青を見抜かれ弁天小僧が啖呵を切る。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "肩の刺青を見抜かれ弁天小僧が啖呵を切る。その事実から目をそらさない。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "恐れを消すのではなく、恐れたまま進もう。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "私の名ではなく、行いで答えを残す。"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "その答えを、次の場面まで持って行こう。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "ここで決める。逃げず、相手の声を聞く。"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "ならば私も、その決断の重さを分け合う。",
+   "eyes": "fun"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "bg",
+   "src": "thieves_hideout",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "thieves_hideout"
+  },
+  {
+   "op": "nar",
+   "text": "第3景「五人の隠れ家」。五人が追手と仲間への思いを確かめる。"
+  },
+  {
+   "op": "show",
+   "actor": "hayate",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "「五人の隠れ家」へ来た。五人が追手と仲間への思いを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "ここで黙れば、誰かが代わりに意味を決める。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "私が守りたいのは「名乗りは虚勢であると同時に、生き方の告白である」だ。"
+  },
+  {
+   "op": "nar",
+   "text": "五人の隠れ家の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "ならば勝ち負けだけでなく、支払う代価も見る。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "過去は変えられない。だが次の手は選べる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。五人が追手と仲間への思いを確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "五人が追手と仲間への思いを確かめる。その事実から目をそらさない。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "恐れを消すのではなく、恐れたまま進もう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "私の名ではなく、行いで答えを残す。"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "その答えを、次の場面まで持って行こう。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "ここで決める。逃げず、相手の声を聞く。"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "ならば私も、その決断の重さを分け合う。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "hide",
+   "actor": "hayate"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "bg",
+   "src": "inase_river",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "inase_river"
+  },
+  {
+   "op": "nar",
+   "text": "第4景「稲瀬川の土手」。揃いの傘の下で五人が一人ずつ名乗る。"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "「稲瀬川の土手」へ来た。揃いの傘の下で五人が一人ずつ名乗る。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "ここで黙れば、誰かが代わりに意味を決める。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "私が守りたいのは「名乗りは虚勢であると同時に、生き方の告白である」だ。"
+  },
+  {
+   "op": "nar",
+   "text": "稲瀬川の土手の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "守るという言葉が、誰かの犠牲を隠していないか。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "ならば勝ち負けだけでなく、支払う代価も見る。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "過去は変えられない。だが次の手は選べる。"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。揃いの傘の下で五人が一人ずつ名乗る。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "揃いの傘の下で五人が一人ずつ名乗る。その事実から目をそらさない。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "恐れを消すのではなく、恐れたまま進もう。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "私の名ではなく、行いで答えを残す。"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "その答えを、次の場面まで持って行こう。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "ここで決める。逃げず、相手の声を聞く。"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "ならば私も、その決断の重さを分け合う。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "正面から問いかける",
+     "jump": "shiranami-gonin_direct"
+    },
+    {
+     "text": "相手の話を最後まで聞く",
+     "jump": "shiranami-gonin_listen"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "shiranami-gonin_direct"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "私は正面から問う。曖昧なまま次へは進まない。"
+  },
+  {
+   "op": "jump",
+   "to": "shiranami-gonin_merge"
+  },
+  {
+   "op": "label",
+   "id": "shiranami-gonin_listen"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "結論を急がず、相手が何を恐れているかまで聞こう。"
+  },
+  {
+   "op": "label",
+   "id": "shiranami-gonin_merge"
+  },
+  {
+   "op": "nar",
+   "text": "選び方は違っても、二人は同じ核心へ戻ってくる。"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "bg",
+   "src": "chase_bridge",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "chase_bridge"
+  },
+  {
+   "op": "nar",
+   "text": "第5景「橋上の追跡」。捕手に囲まれながら各自が選んだ道へ散る。"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "hayate",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "「橋上の追跡」へ来た。捕手に囲まれながら各自が選んだ道へ散る。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "ここで黙れば、誰かが代わりに意味を決める。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "私が守りたいのは「名乗りは虚勢であると同時に、生き方の告白である」だ。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "橋上の追跡の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "守るという言葉が、誰かの犠牲を隠していないか。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "過去は変えられない。だが次の手は選べる。"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。捕手に囲まれながら各自が選んだ道へ散る。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "捕手に囲まれながら各自が選んだ道へ散る。その事実から目をそらさない。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "恐れを消すのではなく、恐れたまま進もう。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "私の名ではなく、行いで答えを残す。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "その答えを、次の場面まで持って行こう。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "ここで決める。逃げず、相手の声を聞く。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "ならば私も、その決断の重さを分け合う。"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "hide",
+   "actor": "hayate"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "物語はここまで。残った問いは「名乗りは虚勢であると同時に、生き方の告白である」。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ご来場、ありがとうございました。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "end"
+  }
+ ]
+}

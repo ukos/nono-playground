@@ -1,0 +1,726 @@
+{
+  "meta": {
+    "id": "terakoya",
+    "number": 107,
+    "title": "菅原伝授手習鑑・寺子屋 ―身替りの首実検―",
+    "original": "歌舞伎『菅原伝授手習鑑』寺子屋の段（伝統演目・著作権消滅）",
+    "category": "能・歌舞伎",
+    "adaptation": "faithful",
+    "format": "v3",
+    "minutes": 42,
+    "synopsis": "全五景で「忠義の名で払う犠牲を、美談だけにしてはならない」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+    "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "武部源蔵",
+      "actor": "rei_kimono",
+      "costume": "default"
+    },
+    {
+      "role": "戸浪",
+      "actor": "mei",
+      "costume": "default"
+    },
+    {
+      "role": "松王丸",
+      "actor": "iwao",
+      "costume": "default"
+    },
+    {
+      "role": "千代",
+      "actor": "yui",
+      "costume": "default"
+    },
+    {
+      "role": "小太郎",
+      "actor": "shiro",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "schoolroom": "bg/terakoya-schoolroom-2048x1152.png",
+    "new_pupil": "bg/terakoya-new_pupil-2048x1152.png",
+    "inspection": "bg/terakoya-inspection-2048x1152.png",
+    "parents_grief": "bg/terakoya-parents_grief-2048x1152.png",
+    "departure_cart": "bg/terakoya-departure_cart-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『菅原伝授手習鑑・寺子屋』。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "能・歌舞伎の一席を、全五景でお届けします。",
+      "mouth": "open",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "この舞台の核は「忠義の名で払う犠牲を、美談だけにしてはならない」。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "台詞はすべて今夜のための書き下ろしです。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "それでは、幕を開けましょう。",
+      "mouth": "open",
+      "eyes": "joy"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "schoolroom",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "schoolroom"
+    },
+    {
+      "op": "nar",
+      "text": "第1景「寺子屋」。源蔵が菅秀才を匿う寺子屋へ追手が迫る。"
+    },
+    {
+      "op": "show",
+      "actor": "rei_kimono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "mei",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "「寺子屋」へ来た。源蔵が菅秀才を匿う寺子屋へ追手が迫る。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "ここで黙れば、誰かが代わりに意味を決める。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "私が守りたいのは「忠義の名で払う犠牲を、美談だけにしてはならない」だ。",
+      "eyes": "anger"
+    },
+    {
+      "op": "nar",
+      "text": "寺子屋の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "過去は変えられない。だが次の手は選べる。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。源蔵が菅秀才を匿う寺子屋へ追手が迫る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "源蔵が菅秀才を匿う寺子屋へ追手が迫る。その事実から目をそらさない。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "恐れを消すのではなく、恐れたまま進もう。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "私の名ではなく、行いで答えを残す。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "その答えを、次の場面まで持って行こう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "ここで決める。逃げず、相手の声を聞く。",
+      "eyes": "anger"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "ならば私も、その決断の重さを分け合う。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_kimono"
+    },
+    {
+      "op": "hide",
+      "actor": "mei"
+    },
+    {
+      "op": "bg",
+      "src": "new_pupil",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "new_pupil"
+    },
+    {
+      "op": "nar",
+      "text": "第2景「新しい寺子」。松王丸の子小太郎が身替りを覚悟して入門する。"
+    },
+    {
+      "op": "show",
+      "actor": "iwao",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "「新しい寺子」へ来た。松王丸の子小太郎が身替りを覚悟して入門する。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "ここで黙れば、誰かが代わりに意味を決める。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "私が守りたいのは「忠義の名で払う犠牲を、美談だけにしてはならない」だ。"
+    },
+    {
+      "op": "nar",
+      "text": "新しい寺子の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "ならば勝ち負けだけでなく、支払う代価も見る。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "過去は変えられない。だが次の手は選べる。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。松王丸の子小太郎が身替りを覚悟して入門する。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "松王丸の子小太郎が身替りを覚悟して入門する。その事実から目をそらさない。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "恐れを消すのではなく、恐れたまま進もう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "私の名ではなく、行いで答えを残す。"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "その答えを、次の場面まで持って行こう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "ここで決める。逃げず、相手の声を聞く。"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "ならば私も、その決断の重さを分け合う。",
+      "eyes": "fun"
+    },
+    {
+      "op": "hide",
+      "actor": "iwao"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "bg",
+      "src": "inspection",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "inspection"
+    },
+    {
+      "op": "nar",
+      "text": "第3景「首実検の座」。差し出された首を松王丸が菅秀才と偽証する。"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_kimono",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "「首実検の座」へ来た。差し出された首を松王丸が菅秀才と偽証する。",
+      "eyes": "anger",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "ここで黙れば、誰かが代わりに意味を決める。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "私が守りたいのは「忠義の名で払う犠牲を、美談だけにしてはならない」だ。",
+      "eyes": "fun"
+    },
+    {
+      "op": "nar",
+      "text": "首実検の座の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+      "eyes": "crying",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "過去は変えられない。だが次の手は選べる。",
+      "eyes": "closed"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。差し出された首を松王丸が菅秀才と偽証する。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "差し出された首を松王丸が菅秀才と偽証する。その事実から目をそらさない。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "恐れを消すのではなく、恐れたまま進もう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "私の名ではなく、行いで答えを残す。",
+      "eyes": "anger",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "その答えを、次の場面まで持って行こう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "ここで決める。逃げず、相手の声を聞く。",
+      "eyes": "fun"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "ならば私も、その決断の重さを分け合う。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_kimono"
+    },
+    {
+      "op": "bg",
+      "src": "parents_grief",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "parents_grief"
+    },
+    {
+      "op": "nar",
+      "text": "第4景「親の嘆き」。松王丸と千代が息子の死を前に本心を明かす。"
+    },
+    {
+      "op": "show",
+      "actor": "mei",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "iwao",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "「親の嘆き」へ来た。松王丸と千代が息子の死を前に本心を明かす。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "ここで黙れば、誰かが代わりに意味を決める。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "私が守りたいのは「忠義の名で払う犠牲を、美談だけにしてはならない」だ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "親の嘆きの空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "守るという言葉が、誰かの犠牲を隠していないか。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+      "eyes": "closed",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "過去は変えられない。だが次の手は選べる。"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。松王丸と千代が息子の死を前に本心を明かす。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "松王丸と千代が息子の死を前に本心を明かす。その事実から目をそらさない。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "恐れを消すのではなく、恐れたまま進もう。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "私の名ではなく、行いで答えを残す。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "その答えを、次の場面まで持って行こう。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "ここで決める。逃げず、相手の声を聞く。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "ならば私も、その決断の重さを分け合う。"
+    },
+    {
+      "op": "hide",
+      "actor": "mei"
+    },
+    {
+      "op": "hide",
+      "actor": "iwao"
+    },
+    {
+      "op": "bg",
+      "src": "departure_cart",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "departure_cart"
+    },
+    {
+      "op": "nar",
+      "text": "第5景「夜明けの車」。救われた子と残された親が犠牲の重さを抱える。"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "「夜明けの車」へ来た。救われた子と残された親が犠牲の重さを抱える。",
+      "eyes": "fun",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "ここで黙れば、誰かが代わりに意味を決める。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "私が守りたいのは「忠義の名で払う犠牲を、美談だけにしてはならない」だ。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "夜明けの車の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "過去は変えられない。だが次の手は選べる。",
+      "eyes": "joy"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。救われた子と残された親が犠牲の重さを抱える。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "救われた子と残された親が犠牲の重さを抱える。その事実から目をそらさない。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "恐れを消すのではなく、恐れたまま進もう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "私の名ではなく、行いで答えを残す。",
+      "eyes": "fun",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "その答えを、次の場面まで持って行こう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "ここで決める。逃げず、相手の声を聞く。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "ならば私も、その決断の重さを分け合う。",
+      "eyes": "closed"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "物語はここまで。残った問いは「忠義の名で払う犠牲を、美談だけにしてはならない」。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ご来場、ありがとうございました。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

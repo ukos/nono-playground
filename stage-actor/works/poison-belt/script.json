@@ -1,0 +1,706 @@
+{
+  "meta": {
+    "id": "poison-belt",
+    "number": 119,
+    "title": "毒ガス帯 ―密閉室の一日―",
+    "original": "Arthur Conan Doyle, The Poison Belt（原典著作権消滅）",
+    "category": "SF",
+    "adaptation": "faithful",
+    "format": "v3",
+    "minutes": 38,
+    "synopsis": "全五景で「終末を前にして初めて見える、日常の価値と人の癖」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+    "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "チャレンジャー教授",
+      "actor": "iwao",
+      "costume": "default"
+    },
+    {
+      "role": "サマリー教授",
+      "actor": "extra_elder",
+      "costume": "default"
+    },
+    {
+      "role": "マローン",
+      "actor": "rei_casual",
+      "costume": "default"
+    },
+    {
+      "role": "チャレンジャー夫人",
+      "actor": "mei",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "telegram_room": "bg/poison-belt-telegram_room-2048x1152.png",
+    "sealed_house": "bg/poison-belt-sealed_house-2048x1152.png",
+    "silent_world": "bg/poison-belt-silent_world-2048x1152.png",
+    "last_cylinder": "bg/poison-belt-last_cylinder-2048x1152.png",
+    "world_restarts": "bg/poison-belt-world_restarts-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『毒ガス帯』。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "SFの一席を、全五景でお届けします。",
+      "mouth": "open",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "この舞台の核は「終末を前にして初めて見える、日常の価値と人の癖」。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "台詞はすべて今夜のための書き下ろしです。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "それでは、幕を開けましょう。",
+      "mouth": "open",
+      "eyes": "joy"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "telegram_room",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "telegram_room"
+    },
+    {
+      "op": "nar",
+      "text": "第1景「奇妙な電報」。酸素ボンベを持って集まれという命令が届く。"
+    },
+    {
+      "op": "show",
+      "actor": "iwao",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "「奇妙な電報」で常識の境界が動き始めた。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "酸素ボンベを持って集まれという命令が届く。観測した事実はそれだけだ。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "可能だから使う、では理由にならない。"
+    },
+    {
+      "op": "nar",
+      "text": "奇妙な電報の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "使わなければ、別の誰かが先に使う。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "だからこそ「終末を前にして初めて見える、日常の価値と人の癖」を問い続ける。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "技術の速さに、判断の速さが追いついていない。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。酸素ボンベを持って集まれという命令が届く。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "未知を敵と決めず、条件を一つずつ調べよう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "だが観察している私たちも観察されている。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "酸素ボンベを持って集まれという命令が届く。ここで未来の分岐が生まれる。"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "選択の結果を、発明のせいだけにはできない。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "記録を残そう。次の者が同じ盲点へ落ちぬように。"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "そして戻れなくても、責任からは逃げない。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "hide",
+      "actor": "iwao"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "bg",
+      "src": "sealed_house",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "sealed_house"
+    },
+    {
+      "op": "nar",
+      "text": "第2景「密閉された書斎」。地球を覆う毒のエーテル帯に備え窓を封じる。"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "mei",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "「密閉された書斎」で常識の境界が動き始めた。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "地球を覆う毒のエーテル帯に備え窓を封じる。観測した事実はそれだけだ。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "可能だから使う、では理由にならない。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "密閉された書斎の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "使わなければ、別の誰かが先に使う。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "だからこそ「終末を前にして初めて見える、日常の価値と人の癖」を問い続ける。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "技術の速さに、判断の速さが追いついていない。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。地球を覆う毒のエーテル帯に備え窓を封じる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "未知を敵と決めず、条件を一つずつ調べよう。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "だが観察している私たちも観察されている。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "地球を覆う毒のエーテル帯に備え窓を封じる。ここで未来の分岐が生まれる。",
+      "eyes": "joy"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "選択の結果を、発明のせいだけにはできない。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "記録を残そう。次の者が同じ盲点へ落ちぬように。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "そして戻れなくても、責任からは逃げない。",
+      "eyes": "fun"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "mei"
+    },
+    {
+      "op": "bg",
+      "src": "silent_world",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "silent_world"
+    },
+    {
+      "op": "nar",
+      "text": "第3景「止まった世界」。窓外の人も動物も倒れ一行だけが酸素で耐える。"
+    },
+    {
+      "op": "show",
+      "actor": "iwao",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "「止まった世界」で常識の境界が動き始めた。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "窓外の人も動物も倒れ一行だけが酸素で耐える。観測した事実はそれだけだ。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "可能だから使う、では理由にならない。"
+    },
+    {
+      "op": "nar",
+      "text": "止まった世界の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "使わなければ、別の誰かが先に使う。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "だからこそ「終末を前にして初めて見える、日常の価値と人の癖」を問い続ける。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "技術の速さに、判断の速さが追いついていない。",
+      "eyes": "closed"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。窓外の人も動物も倒れ一行だけが酸素で耐える。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "未知を敵と決めず、条件を一つずつ調べよう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "だが観察している私たちも観察されている。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "窓外の人も動物も倒れ一行だけが酸素で耐える。ここで未来の分岐が生まれる。"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "選択の結果を、発明のせいだけにはできない。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "記録を残そう。次の者が同じ盲点へ落ちぬように。"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "そして戻れなくても、責任からは逃げない。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "iwao"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "bg",
+      "src": "last_cylinder",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "last_cylinder"
+    },
+    {
+      "op": "nar",
+      "text": "第4景「最後の酸素」。残量が尽きる前に各自が人生を振り返る。"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "mei",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "「最後の酸素」で常識の境界が動き始めた。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "残量が尽きる前に各自が人生を振り返る。観測した事実はそれだけだ。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "可能だから使う、では理由にならない。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "最後の酸素の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "使わなければ、別の誰かが先に使う。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "だからこそ「終末を前にして初めて見える、日常の価値と人の癖」を問い続ける。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "技術の速さに、判断の速さが追いついていない。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。残量が尽きる前に各自が人生を振り返る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "未知を敵と決めず、条件を一つずつ調べよう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "だが観察している私たちも観察されている。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "残量が尽きる前に各自が人生を振り返る。ここで未来の分岐が生まれる。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "選択の結果を、発明のせいだけにはできない。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "記録を残そう。次の者が同じ盲点へ落ちぬように。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "そして戻れなくても、責任からは逃げない。",
+      "eyes": "crying"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "mei"
+    },
+    {
+      "op": "bg",
+      "src": "world_restarts",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "world_restarts"
+    },
+    {
+      "op": "nar",
+      "text": "第5景「再び動く朝」。毒帯が去り眠りから世界が目覚める。"
+    },
+    {
+      "op": "show",
+      "actor": "iwao",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "「再び動く朝」で常識の境界が動き始めた。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "毒帯が去り眠りから世界が目覚める。観測した事実はそれだけだ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "可能だから使う、では理由にならない。"
+    },
+    {
+      "op": "nar",
+      "text": "再び動く朝の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "使わなければ、別の誰かが先に使う。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "だからこそ「終末を前にして初めて見える、日常の価値と人の癖」を問い続ける。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "技術の速さに、判断の速さが追いついていない。",
+      "eyes": "joy"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。毒帯が去り眠りから世界が目覚める。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "未知を敵と決めず、条件を一つずつ調べよう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "だが観察している私たちも観察されている。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "毒帯が去り眠りから世界が目覚める。ここで未来の分岐が生まれる。"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "選択の結果を、発明のせいだけにはできない。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "記録を残そう。次の者が同じ盲点へ落ちぬように。"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "そして戻れなくても、責任からは逃げない。",
+      "eyes": "closed"
+    },
+    {
+      "op": "hide",
+      "actor": "iwao"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "物語はここまで。残った問いは「終末を前にして初めて見える、日常の価値と人の癖」。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ご来場、ありがとうございました。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

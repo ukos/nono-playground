@@ -1,0 +1,771 @@
+{
+ "meta": {
+  "id": "kozu-no-tomi",
+  "number": 132,
+  "title": "高津の富 ―夢の千両―",
+  "original": "古典上方落語『高津の富』（伝統演目）",
+  "category": "古典落語・上方落語",
+  "adaptation": "moderate",
+  "format": "v3",
+  "minutes": 30,
+  "synopsis": "全五景で「一夜の大金は、貧乏より先に心臓を試す」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+  "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
+  },
+  {
+   "role": "宿の客",
+   "actor": "rei_casual",
+   "costume": "default"
+  },
+  {
+   "role": "宿屋の主人",
+   "actor": "tanurio",
+   "costume": "default"
+  },
+  {
+   "role": "富札売り",
+   "actor": "shiro",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "osaka_inn": "bg/kozu-no-tomi-osaka_inn-2048x1152.png",
+  "kozu_shrine": "bg/kozu-no-tomi-kozu_shrine-2048x1152.png",
+  "dream_palace": "bg/kozu-no-tomi-dream_palace-2048x1152.png",
+  "drawing_crowd": "bg/kozu-no-tomi-drawing_crowd-2048x1152.png",
+  "fainting_room": "bg/kozu-no-tomi-fainting_room-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ようこそ、NONO座へ。本日の演目は『高津の富』。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "古典落語・上方落語の一席を、全五景でお届けします。",
+   "mouth": "open",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "この舞台の核は「一夜の大金は、貧乏より先に心臓を試す」。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "台詞はすべて今夜のための書き下ろしです。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "それでは、幕を開けましょう。",
+   "mouth": "open",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "osaka_inn",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "osaka_inn"
+  },
+  {
+   "op": "nar",
+   "text": "第1景「大坂の宿」。無一文の客が大金持ちのふりで宿主を煙に巻く。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "さて「大坂の宿」だ。無一文の客が大金持ちのふりで宿主を煙に巻く。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "その説明だけで、もう話が脇道へ走っている。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "脇道ではない。笑いへ通じる立派な近道だ。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "大坂の宿の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "近道なら、さっきと同じ所へ戻るな。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "肝心なのは、一夜の大金は、貧乏より先に心臓を試すということだ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "急に教訓を置けば片づくと思っているだろう。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。無一文の客が大金持ちのふりで宿主を煙に巻く。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "片づかないから、もう一度やって確かめる。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "やり直すたび道具と登場人物が増えている。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "無一文の客が大金持ちのふりで宿主を煙に巻く。ここまでは筋書き通りだ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "筋書きが困って、こちらを見ているぞ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "なら最後は、自分で落とし前をつけよう。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "落とし前とオチを同じ棚に置くな。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "bg",
+   "src": "kozu_shrine",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "kozu_shrine"
+  },
+  {
+   "op": "nar",
+   "text": "第2景「高津宮の富場」。なけなしの銭で富札を一枚買わされる。"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "さて「高津宮の富場」だ。なけなしの銭で富札を一枚買わされる。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "その説明だけで、もう話が脇道へ走っている。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "脇道ではない。笑いへ通じる立派な近道だ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "高津宮の富場の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "近道なら、さっきと同じ所へ戻るな。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "肝心なのは、一夜の大金は、貧乏より先に心臓を試すということだ。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "急に教訓を置けば片づくと思っているだろう。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。なけなしの銭で富札を一枚買わされる。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "片づかないから、もう一度やって確かめる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "やり直すたび道具と登場人物が増えている。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "なけなしの銭で富札を一枚買わされる。ここまでは筋書き通りだ。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "筋書きが困って、こちらを見ているぞ。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "なら最後は、自分で落とし前をつけよう。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "落とし前とオチを同じ棚に置くな。",
+   "eyes": "fun"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "bg",
+   "src": "dream_palace",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "dream_palace"
+  },
+  {
+   "op": "nar",
+   "text": "第3景「千両の夢」。当選後のぜいたくを想像して眠りながら騒ぐ。"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "さて「千両の夢」だ。当選後のぜいたくを想像して眠りながら騒ぐ。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "その説明だけで、もう話が脇道へ走っている。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "脇道ではない。笑いへ通じる立派な近道だ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "nar",
+   "text": "千両の夢の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "近道なら、さっきと同じ所へ戻るな。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "肝心なのは、一夜の大金は、貧乏より先に心臓を試すということだ。",
+   "eyes": "crying",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "急に教訓を置けば片づくと思っているだろう。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。当選後のぜいたくを想像して眠りながら騒ぐ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "片づかないから、もう一度やって確かめる。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "やり直すたび道具と登場人物が増えている。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "当選後のぜいたくを想像して眠りながら騒ぐ。ここまでは筋書き通りだ。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "筋書きが困って、こちらを見ているぞ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "なら最後は、自分で落とし前をつけよう。",
+   "eyes": "fun"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "落とし前とオチを同じ棚に置くな。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "bg",
+   "src": "drawing_crowd",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "drawing_crowd"
+  },
+  {
+   "op": "nar",
+   "text": "第4景「富くじの抽選」。宿主が番号を聞いて客の当たりに気づく。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "さて「富くじの抽選」だ。宿主が番号を聞いて客の当たりに気づく。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "その説明だけで、もう話が脇道へ走っている。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "脇道ではない。笑いへ通じる立派な近道だ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "富くじの抽選の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "近道なら、さっきと同じ所へ戻るな。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "肝心なのは、一夜の大金は、貧乏より先に心臓を試すということだ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "急に教訓を置けば片づくと思っているだろう。",
+   "eyes": "normal"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。宿主が番号を聞いて客の当たりに気づく。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "片づかないから、もう一度やって確かめる。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "やり直すたび道具と登場人物が増えている。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "宿主が番号を聞いて客の当たりに気づく。ここまでは筋書き通りだ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "筋書きが困って、こちらを見ているぞ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "なら最後は、自分で落とし前をつけよう。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "落とし前とオチを同じ棚に置くな。",
+   "eyes": "crying"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "正面から問いかける",
+     "jump": "kozu-no-tomi_direct"
+    },
+    {
+     "text": "相手の話を最後まで聞く",
+     "jump": "kozu-no-tomi_listen"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "kozu-no-tomi_direct"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "私は正面から問う。曖昧なまま次へは進まない。"
+  },
+  {
+   "op": "jump",
+   "to": "kozu-no-tomi_merge"
+  },
+  {
+   "op": "label",
+   "id": "kozu-no-tomi_listen"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "結論を急がず、相手が何を恐れているかまで聞こう。"
+  },
+  {
+   "op": "label",
+   "id": "kozu-no-tomi_merge"
+  },
+  {
+   "op": "nar",
+   "text": "選び方は違っても、二人は同じ核心へ戻ってくる。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "bg",
+   "src": "fainting_room",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "fainting_room"
+  },
+  {
+   "op": "nar",
+   "text": "第5景「当たり札の部屋」。当人も宿主も喜びすぎて交互に気を失う。"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "さて「当たり札の部屋」だ。当人も宿主も喜びすぎて交互に気を失う。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "その説明だけで、もう話が脇道へ走っている。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "脇道ではない。笑いへ通じる立派な近道だ。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "当たり札の部屋の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "近道なら、さっきと同じ所へ戻るな。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "肝心なのは、一夜の大金は、貧乏より先に心臓を試すということだ。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "急に教訓を置けば片づくと思っているだろう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。当人も宿主も喜びすぎて交互に気を失う。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "片づかないから、もう一度やって確かめる。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "やり直すたび道具と登場人物が増えている。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "当人も宿主も喜びすぎて交互に気を失う。ここまでは筋書き通りだ。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "筋書きが困って、こちらを見ているぞ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "なら最後は、自分で落とし前をつけよう。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "落とし前とオチを同じ棚に置くな。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "物語はここまで。残った問いは「一夜の大金は、貧乏より先に心臓を試す」。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ご来場、ありがとうございました。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "end"
+  }
+ ]
+}

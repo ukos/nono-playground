@@ -1,0 +1,765 @@
+{
+  "meta": {
+    "id": "oshi-no-na",
+    "number": 137,
+    "title": "推しの名は ―覚えられない番頭―",
+    "original": "NONO座オリジナル新作落語",
+    "category": "新作落語",
+    "adaptation": "free",
+    "format": "v3",
+    "minutes": 28,
+    "synopsis": "全五景で「好きの熱量は名前の長さで測れない」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+    "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "番頭",
+      "actor": "rei_casual",
+      "costume": "default"
+    },
+    {
+      "role": "若旦那",
+      "actor": "shiro",
+      "costume": "default"
+    },
+    {
+      "role": "旦那",
+      "actor": "extra_elder",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "shop_fandom": "bg/oshi-no-na-shop_fandom-2048x1152.png",
+    "memory_cards": "bg/oshi-no-na-memory_cards-2048x1152.png",
+    "customer_order": "bg/oshi-no-na-customer_order-2048x1152.png",
+    "fan_event": "bg/oshi-no-na-fan_event-2048x1152.png",
+    "short_nickname": "bg/oshi-no-na-short_nickname-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『推しの名は』。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "新作落語の一席を、全五景でお届けします。",
+      "mouth": "open",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "この舞台の核は「好きの熱量は名前の長さで測れない」。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "台詞はすべて今夜のための書き下ろしです。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "それでは、幕を開けましょう。",
+      "mouth": "open",
+      "eyes": "joy"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "shop_fandom",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "shop_fandom"
+    },
+    {
+      "op": "nar",
+      "text": "第1景「店先の推し語り」。若旦那が長いキャラクター名を番頭へ覚えさせる。"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "さて「店先の推し語り」だ。若旦那が長いキャラクター名を番頭へ覚えさせる。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "その説明だけで、もう話が脇道へ走っている。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
+      "eyes": "anger"
+    },
+    {
+      "op": "nar",
+      "text": "店先の推し語りの空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "近道なら、さっきと同じ所へ戻るな。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "肝心なのは、好きの熱量は名前の長さで測れないということだ。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "急に教訓を置けば片づくと思っているだろう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。若旦那が長いキャラクター名を番頭へ覚えさせる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "片づかないから、もう一度やって確かめる。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "やり直すたび道具と登場人物が増えている。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "若旦那が長いキャラクター名を番頭へ覚えさせる。ここまでは筋書き通りだ。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "筋書きが困って、こちらを見ているぞ。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "なら最後は、自分で落とし前をつけよう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "落とし前とオチを同じ棚に置くな。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "bg",
+      "src": "memory_cards",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "memory_cards"
+    },
+    {
+      "op": "nar",
+      "text": "第2景「暗記札」。番頭が区切り方を変えるたび別人の名になる。"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "さて「暗記札」だ。番頭が区切り方を変えるたび別人の名になる。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "その説明だけで、もう話が脇道へ走っている。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "暗記札の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "近道なら、さっきと同じ所へ戻るな。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "肝心なのは、好きの熱量は名前の長さで測れないということだ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "急に教訓を置けば片づくと思っているだろう。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。番頭が区切り方を変えるたび別人の名になる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "片づかないから、もう一度やって確かめる。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "やり直すたび道具と登場人物が増えている。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "番頭が区切り方を変えるたび別人の名になる。ここまでは筋書き通りだ。",
+      "eyes": "joy"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "筋書きが困って、こちらを見ているぞ。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "なら最後は、自分で落とし前をつけよう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "落とし前とオチを同じ棚に置くな。",
+      "eyes": "fun"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "bg",
+      "src": "customer_order",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "customer_order"
+    },
+    {
+      "op": "nar",
+      "text": "第3景「客前の注文」。限定品の取り置き名を言えず商談が止まる。"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "さて「客前の注文」だ。限定品の取り置き名を言えず商談が止まる。",
+      "eyes": "anger",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "その説明だけで、もう話が脇道へ走っている。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
+      "eyes": "fun"
+    },
+    {
+      "op": "nar",
+      "text": "客前の注文の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "近道なら、さっきと同じ所へ戻るな。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "肝心なのは、好きの熱量は名前の長さで測れないということだ。",
+      "eyes": "crying",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "急に教訓を置けば片づくと思っているだろう。",
+      "eyes": "closed"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。限定品の取り置き名を言えず商談が止まる。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "片づかないから、もう一度やって確かめる。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "やり直すたび道具と登場人物が増えている。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "限定品の取り置き名を言えず商談が止まる。ここまでは筋書き通りだ。",
+      "eyes": "anger",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "筋書きが困って、こちらを見ているぞ。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "なら最後は、自分で落とし前をつけよう。",
+      "eyes": "fun"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "落とし前とオチを同じ棚に置くな。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "bg",
+      "src": "fan_event",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "fan_event"
+    },
+    {
+      "op": "nar",
+      "text": "第4景「推し活の会場」。覚えたはずの名が掛け声でまた伸びる。"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "さて「推し活の会場」だ。覚えたはずの名が掛け声でまた伸びる。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "その説明だけで、もう話が脇道へ走っている。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "推し活の会場の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "近道なら、さっきと同じ所へ戻るな。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "肝心なのは、好きの熱量は名前の長さで測れないということだ。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "急に教訓を置けば片づくと思っているだろう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。覚えたはずの名が掛け声でまた伸びる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "片づかないから、もう一度やって確かめる。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "やり直すたび道具と登場人物が増えている。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "覚えたはずの名が掛け声でまた伸びる。ここまでは筋書き通りだ。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "筋書きが困って、こちらを見ているぞ。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "なら最後は、自分で落とし前をつけよう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "落とし前とオチを同じ棚に置くな。",
+      "eyes": "crying"
+    },
+    {
+      "op": "choice",
+      "options": [
+        {
+          "text": "正面から問いかける",
+          "jump": "oshi-no-na_direct"
+        },
+        {
+          "text": "相手の話を最後まで聞く",
+          "jump": "oshi-no-na_listen"
+        }
+      ]
+    },
+    {
+      "op": "label",
+      "id": "oshi-no-na_direct"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "私は正面から問う。曖昧なまま次へは進まない。"
+    },
+    {
+      "op": "jump",
+      "to": "oshi-no-na_merge"
+    },
+    {
+      "op": "label",
+      "id": "oshi-no-na_listen"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "結論を急がず、相手が何を恐れているかまで聞こう。"
+    },
+    {
+      "op": "label",
+      "id": "oshi-no-na_merge"
+    },
+    {
+      "op": "nar",
+      "text": "選び方は違っても、二人は同じ核心へ戻ってくる。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "bg",
+      "src": "short_nickname",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "short_nickname"
+    },
+    {
+      "op": "nar",
+      "text": "第5景「店への帰路」。最後に短い愛称を聞き番頭が力なく崩れる。"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "さて「店への帰路」だ。最後に短い愛称を聞き番頭が力なく崩れる。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "その説明だけで、もう話が脇道へ走っている。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "店への帰路の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "近道なら、さっきと同じ所へ戻るな。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "肝心なのは、好きの熱量は名前の長さで測れないということだ。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "急に教訓を置けば片づくと思っているだろう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。最後に短い愛称を聞き番頭が力なく崩れる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "片づかないから、もう一度やって確かめる。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "やり直すたび道具と登場人物が増えている。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "最後に短い愛称を聞き番頭が力なく崩れる。ここまでは筋書き通りだ。",
+      "eyes": "fun"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "筋書きが困って、こちらを見ているぞ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "なら最後は、自分で落とし前をつけよう。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "落とし前とオチを同じ棚に置くな。",
+      "eyes": "closed"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "物語はここまで。残った問いは「好きの熱量は名前の長さで測れない」。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ご来場、ありがとうございました。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

@@ -1,0 +1,752 @@
+{
+  "meta": {
+    "id": "sandan-heibei",
+    "number": 130,
+    "title": "算段の平兵衛 ―悪知恵の綱渡り―",
+    "original": "古典上方落語『算段の平兵衛』（伝統演目）",
+    "category": "古典落語・上方落語",
+    "adaptation": "free",
+    "format": "v3",
+    "minutes": 34,
+    "synopsis": "全五景で「巧い算段は問題を解かず、次の問題を大きくする」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+    "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "平兵衛",
+      "actor": "nibulus",
+      "costume": "default"
+    },
+    {
+      "role": "庄屋",
+      "actor": "iwao",
+      "costume": "default"
+    },
+    {
+      "role": "女房",
+      "actor": "mei",
+      "costume": "default"
+    },
+    {
+      "role": "役人",
+      "actor": "kurogane",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "village_scheme": "bg/sandan-heibei-village_scheme-2048x1152.png",
+    "dark_room": "bg/sandan-heibei-dark_room-2048x1152.png",
+    "bridge_drop": "bg/sandan-heibei-bridge_drop-2048x1152.png",
+    "magistrate": "bg/sandan-heibei-magistrate-2048x1152.png",
+    "scheme_collapse": "bg/sandan-heibei-scheme_collapse-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『算段の平兵衛』。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "古典落語・上方落語の一席を、全五景でお届けします。",
+      "mouth": "open",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "この舞台の核は「巧い算段は問題を解かず、次の問題を大きくする」。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "台詞はすべて今夜のための書き下ろしです。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "それでは、幕を開けましょう。",
+      "mouth": "open",
+      "eyes": "joy"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "village_scheme",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "village_scheme"
+    },
+    {
+      "op": "nar",
+      "text": "第1景「村の相談」。平兵衛が揉め事を金に替える算段を思いつく。"
+    },
+    {
+      "op": "show",
+      "actor": "nibulus",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "iwao",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "さて「村の相談」だ。平兵衛が揉め事を金に替える算段を思いつく。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "その説明だけで、もう話が脇道へ走っている。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
+      "eyes": "anger"
+    },
+    {
+      "op": "nar",
+      "text": "村の相談の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "近道なら、さっきと同じ所へ戻るな。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "肝心なのは、巧い算段は問題を解かず、次の問題を大きくするということだ。",
+      "eyes": "fun",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "急に教訓を置けば片づくと思っているだろう。"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。平兵衛が揉め事を金に替える算段を思いつく。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "片づかないから、もう一度やって確かめる。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "やり直すたび道具と登場人物が増えている。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "平兵衛が揉め事を金に替える算段を思いつく。ここまでは筋書き通りだ。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "筋書きが困って、こちらを見ているぞ。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "なら最後は、自分で落とし前をつけよう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "落とし前とオチを同じ棚に置くな。"
+    },
+    {
+      "op": "hide",
+      "actor": "nibulus"
+    },
+    {
+      "op": "hide",
+      "actor": "iwao"
+    },
+    {
+      "op": "bg",
+      "src": "dark_room",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "dark_room"
+    },
+    {
+      "op": "nar",
+      "text": "第2景「暗い納屋」。思わぬ死体を前に別の事件へ見せかける。"
+    },
+    {
+      "op": "show",
+      "actor": "mei",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "さて「暗い納屋」だ。思わぬ死体を前に別の事件へ見せかける。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "その説明だけで、もう話が脇道へ走っている。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "暗い納屋の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "近道なら、さっきと同じ所へ戻るな。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "肝心なのは、巧い算段は問題を解かず、次の問題を大きくするということだ。",
+      "eyes": "surprise",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "急に教訓を置けば片づくと思っているだろう。"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。思わぬ死体を前に別の事件へ見せかける。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "片づかないから、もう一度やって確かめる。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "やり直すたび道具と登場人物が増えている。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "思わぬ死体を前に別の事件へ見せかける。ここまでは筋書き通りだ。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "筋書きが困って、こちらを見ているぞ。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "なら最後は、自分で落とし前をつけよう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "落とし前とオチを同じ棚に置くな。"
+    },
+    {
+      "op": "hide",
+      "actor": "mei"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "bg",
+      "src": "bridge_drop",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "bridge_drop"
+    },
+    {
+      "op": "nar",
+      "text": "第3景「橋の偽装」。証拠を動かすたび関係者が増えていく。"
+    },
+    {
+      "op": "show",
+      "actor": "nibulus",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "iwao",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "さて「橋の偽装」だ。証拠を動かすたび関係者が増えていく。",
+      "eyes": "anger",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "その説明だけで、もう話が脇道へ走っている。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
+      "eyes": "fun"
+    },
+    {
+      "op": "nar",
+      "text": "橋の偽装の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "近道なら、さっきと同じ所へ戻るな。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "肝心なのは、巧い算段は問題を解かず、次の問題を大きくするということだ。",
+      "eyes": "crying",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "急に教訓を置けば片づくと思っているだろう。"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。証拠を動かすたび関係者が増えていく。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "片づかないから、もう一度やって確かめる。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "やり直すたび道具と登場人物が増えている。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "証拠を動かすたび関係者が増えていく。ここまでは筋書き通りだ。",
+      "eyes": "anger",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "筋書きが困って、こちらを見ているぞ。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "なら最後は、自分で落とし前をつけよう。",
+      "eyes": "fun"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "落とし前とオチを同じ棚に置くな。"
+    },
+    {
+      "op": "hide",
+      "actor": "nibulus"
+    },
+    {
+      "op": "hide",
+      "actor": "iwao"
+    },
+    {
+      "op": "bg",
+      "src": "magistrate",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "magistrate"
+    },
+    {
+      "op": "nar",
+      "text": "第4景「役人の取調べ」。平兵衛が矛盾を新しい嘘で塗り固める。"
+    },
+    {
+      "op": "show",
+      "actor": "mei",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "さて「役人の取調べ」だ。平兵衛が矛盾を新しい嘘で塗り固める。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "その説明だけで、もう話が脇道へ走っている。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "役人の取調べの空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "近道なら、さっきと同じ所へ戻るな。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "肝心なのは、巧い算段は問題を解かず、次の問題を大きくするということだ。",
+      "eyes": "closed",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "急に教訓を置けば片づくと思っているだろう。"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。平兵衛が矛盾を新しい嘘で塗り固める。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "片づかないから、もう一度やって確かめる。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "やり直すたび道具と登場人物が増えている。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "平兵衛が矛盾を新しい嘘で塗り固める。ここまでは筋書き通りだ。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "筋書きが困って、こちらを見ているぞ。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "なら最後は、自分で落とし前をつけよう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "落とし前とオチを同じ棚に置くな。"
+    },
+    {
+      "op": "choice",
+      "options": [
+        {
+          "text": "正面から問いかける",
+          "jump": "sandan-heibei_direct"
+        },
+        {
+          "text": "相手の話を最後まで聞く",
+          "jump": "sandan-heibei_listen"
+        }
+      ]
+    },
+    {
+      "op": "label",
+      "id": "sandan-heibei_direct"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "私は正面から問う。曖昧なまま次へは進まない。"
+    },
+    {
+      "op": "jump",
+      "to": "sandan-heibei_merge"
+    },
+    {
+      "op": "label",
+      "id": "sandan-heibei_listen"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "結論を急がず、相手が何を恐れているかまで聞こう。"
+    },
+    {
+      "op": "label",
+      "id": "sandan-heibei_merge"
+    },
+    {
+      "op": "nar",
+      "text": "選び方は違っても、二人は同じ核心へ戻ってくる。"
+    },
+    {
+      "op": "hide",
+      "actor": "mei"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "bg",
+      "src": "scheme_collapse",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "scheme_collapse"
+    },
+    {
+      "op": "nar",
+      "text": "第5景「算段の崩壊」。最後の小さな証言が大掛かりな筋書きを倒す。"
+    },
+    {
+      "op": "show",
+      "actor": "nibulus",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "iwao",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "さて「算段の崩壊」だ。最後の小さな証言が大掛かりな筋書きを倒す。",
+      "eyes": "fun",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "その説明だけで、もう話が脇道へ走っている。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "算段の崩壊の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "近道なら、さっきと同じ所へ戻るな。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "肝心なのは、巧い算段は問題を解かず、次の問題を大きくするということだ。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "急に教訓を置けば片づくと思っているだろう。"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。最後の小さな証言が大掛かりな筋書きを倒す。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "片づかないから、もう一度やって確かめる。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "やり直すたび道具と登場人物が増えている。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "最後の小さな証言が大掛かりな筋書きを倒す。ここまでは筋書き通りだ。",
+      "eyes": "fun",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "筋書きが困って、こちらを見ているぞ。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "なら最後は、自分で落とし前をつけよう。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "落とし前とオチを同じ棚に置くな。"
+    },
+    {
+      "op": "hide",
+      "actor": "nibulus"
+    },
+    {
+      "op": "hide",
+      "actor": "iwao"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "物語はここまで。残った問いは「巧い算段は問題を解かず、次の問題を大きくする」。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ご来場、ありがとうございました。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

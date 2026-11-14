@@ -1,0 +1,764 @@
+{
+  "meta": {
+    "id": "jigoku-bakkei",
+    "number": 124,
+    "title": "地獄八景亡者戯 ―冥土の見物―",
+    "original": "古典上方落語『地獄八景亡者戯』（伝統演目）",
+    "category": "古典落語・上方落語",
+    "adaptation": "free",
+    "format": "v3",
+    "minutes": 42,
+    "synopsis": "全五景で「死後の世界まで商売と見栄が追いかけてくる」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+    "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "喜六",
+      "actor": "tanurio",
+      "costume": "default"
+    },
+    {
+      "role": "閻魔大王",
+      "actor": "extra_oni",
+      "costume": "default"
+    },
+    {
+      "role": "鬼の案内人",
+      "actor": "kurogane",
+      "costume": "default"
+    },
+    {
+      "role": "亡者",
+      "actor": "extra_skeleton",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "funeral_gate": "bg/jigoku-bakkei-funeral_gate-2048x1152.png",
+    "sanzu_market": "bg/jigoku-bakkei-sanzu_market-2048x1152.png",
+    "hell_tour": "bg/jigoku-bakkei-hell_tour-2048x1152.png",
+    "emma_court": "bg/jigoku-bakkei-emma_court-2048x1152.png",
+    "oni_belly": "bg/jigoku-bakkei-oni_belly-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『地獄八景亡者戯』。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "古典落語・上方落語の一席を、全五景でお届けします。",
+      "mouth": "open",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "この舞台の核は「死後の世界まで商売と見栄が追いかけてくる」。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "台詞はすべて今夜のための書き下ろしです。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "それでは、幕を開けましょう。",
+      "mouth": "open",
+      "eyes": "joy"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "funeral_gate",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "funeral_gate"
+    },
+    {
+      "op": "nar",
+      "text": "第1景「冥土の入口」。死んだ喜六が葬式の騒ぎを横目に旅立つ。"
+    },
+    {
+      "op": "show",
+      "actor": "tanurio",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_oni",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "さて「冥土の入口」だ。死んだ喜六が葬式の騒ぎを横目に旅立つ。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "extra_oni",
+      "text": "その説明だけで、もう話が脇道へ走っている。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
+      "eyes": "anger"
+    },
+    {
+      "op": "nar",
+      "text": "冥土の入口の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_oni",
+      "text": "近道なら、さっきと同じ所へ戻るな。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "肝心なのは、死後の世界まで商売と見栄が追いかけてくるということだ。",
+      "eyes": "fun",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "extra_oni",
+      "text": "急に教訓を置けば片づくと思っているだろう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。死んだ喜六が葬式の騒ぎを横目に旅立つ。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "片づかないから、もう一度やって確かめる。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "extra_oni",
+      "text": "やり直すたび道具と登場人物が増えている。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "死んだ喜六が葬式の騒ぎを横目に旅立つ。ここまでは筋書き通りだ。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_oni",
+      "text": "筋書きが困って、こちらを見ているぞ。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "なら最後は、自分で落とし前をつけよう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_oni",
+      "text": "落とし前とオチを同じ棚に置くな。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "hide",
+      "actor": "tanurio"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_oni"
+    },
+    {
+      "op": "bg",
+      "src": "sanzu_market",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "sanzu_market"
+    },
+    {
+      "op": "nar",
+      "text": "第2景「三途川の市場」。渡し賃や土産物を売る冥土の商売に驚く。"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_skeleton",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "さて「三途川の市場」だ。渡し賃や土産物を売る冥土の商売に驚く。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_skeleton",
+      "text": "その説明だけで、もう話が脇道へ走っている。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "脇道ではない。笑いへ通じる立派な近道だ。"
+    },
+    {
+      "op": "nar",
+      "text": "三途川の市場の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_skeleton",
+      "text": "近道なら、さっきと同じ所へ戻るな。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "肝心なのは、死後の世界まで商売と見栄が追いかけてくるということだ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_skeleton",
+      "text": "急に教訓を置けば片づくと思っているだろう。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。渡し賃や土産物を売る冥土の商売に驚く。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "片づかないから、もう一度やって確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_skeleton",
+      "text": "やり直すたび道具と登場人物が増えている。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "渡し賃や土産物を売る冥土の商売に驚く。ここまでは筋書き通りだ。"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_skeleton",
+      "text": "筋書きが困って、こちらを見ているぞ。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "なら最後は、自分で落とし前をつけよう。"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_skeleton",
+      "text": "落とし前とオチを同じ棚に置くな。",
+      "eyes": "fun"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_skeleton"
+    },
+    {
+      "op": "bg",
+      "src": "hell_tour",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "hell_tour"
+    },
+    {
+      "op": "nar",
+      "text": "第3景「地獄名所巡り」。針山や血の池を物見遊山の調子で巡る。"
+    },
+    {
+      "op": "show",
+      "actor": "tanurio",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_oni",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "さて「地獄名所巡り」だ。針山や血の池を物見遊山の調子で巡る。",
+      "eyes": "anger",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "extra_oni",
+      "text": "その説明だけで、もう話が脇道へ走っている。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
+      "eyes": "fun"
+    },
+    {
+      "op": "nar",
+      "text": "地獄名所巡りの空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_oni",
+      "text": "近道なら、さっきと同じ所へ戻るな。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "肝心なのは、死後の世界まで商売と見栄が追いかけてくるということだ。",
+      "eyes": "crying",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "extra_oni",
+      "text": "急に教訓を置けば片づくと思っているだろう。",
+      "eyes": "closed"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。針山や血の池を物見遊山の調子で巡る。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "片づかないから、もう一度やって確かめる。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "extra_oni",
+      "text": "やり直すたび道具と登場人物が増えている。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "針山や血の池を物見遊山の調子で巡る。ここまでは筋書き通りだ。",
+      "eyes": "anger",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_oni",
+      "text": "筋書きが困って、こちらを見ているぞ。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "なら最後は、自分で落とし前をつけよう。",
+      "eyes": "fun"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_oni",
+      "text": "落とし前とオチを同じ棚に置くな。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "tanurio"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_oni"
+    },
+    {
+      "op": "bg",
+      "src": "emma_court",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "emma_court"
+    },
+    {
+      "op": "nar",
+      "text": "第4景「閻魔の裁判」。生前の小さな嘘まで鏡に映され言い訳する。"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_skeleton",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "さて「閻魔の裁判」だ。生前の小さな嘘まで鏡に映され言い訳する。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_skeleton",
+      "text": "その説明だけで、もう話が脇道へ走っている。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "脇道ではない。笑いへ通じる立派な近道だ。"
+    },
+    {
+      "op": "nar",
+      "text": "閻魔の裁判の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_skeleton",
+      "text": "近道なら、さっきと同じ所へ戻るな。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "肝心なのは、死後の世界まで商売と見栄が追いかけてくるということだ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_skeleton",
+      "text": "急に教訓を置けば片づくと思っているだろう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。生前の小さな嘘まで鏡に映され言い訳する。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "片づかないから、もう一度やって確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_skeleton",
+      "text": "やり直すたび道具と登場人物が増えている。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "生前の小さな嘘まで鏡に映され言い訳する。ここまでは筋書き通りだ。"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_skeleton",
+      "text": "筋書きが困って、こちらを見ているぞ。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "なら最後は、自分で落とし前をつけよう。"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_skeleton",
+      "text": "落とし前とオチを同じ棚に置くな。",
+      "eyes": "crying"
+    },
+    {
+      "op": "choice",
+      "options": [
+        {
+          "text": "正面から問いかける",
+          "jump": "jigoku-bakkei_direct"
+        },
+        {
+          "text": "相手の話を最後まで聞く",
+          "jump": "jigoku-bakkei_listen"
+        }
+      ]
+    },
+    {
+      "op": "label",
+      "id": "jigoku-bakkei_direct"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "私は正面から問う。曖昧なまま次へは進まない。"
+    },
+    {
+      "op": "jump",
+      "to": "jigoku-bakkei_merge"
+    },
+    {
+      "op": "label",
+      "id": "jigoku-bakkei_listen"
+    },
+    {
+      "op": "say",
+      "actor": "extra_skeleton",
+      "text": "結論を急がず、相手が何を恐れているかまで聞こう。"
+    },
+    {
+      "op": "label",
+      "id": "jigoku-bakkei_merge"
+    },
+    {
+      "op": "nar",
+      "text": "選び方は違っても、二人は同じ核心へ戻ってくる。"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_skeleton"
+    },
+    {
+      "op": "bg",
+      "src": "oni_belly",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "oni_belly"
+    },
+    {
+      "op": "nar",
+      "text": "第5景「鬼の腹の脱出」。飲み込まれた亡者たちが意外な出口を探す。"
+    },
+    {
+      "op": "show",
+      "actor": "tanurio",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_oni",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "さて「鬼の腹の脱出」だ。飲み込まれた亡者たちが意外な出口を探す。",
+      "eyes": "fun",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "extra_oni",
+      "text": "その説明だけで、もう話が脇道へ走っている。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "鬼の腹の脱出の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_oni",
+      "text": "近道なら、さっきと同じ所へ戻るな。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "肝心なのは、死後の世界まで商売と見栄が追いかけてくるということだ。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "extra_oni",
+      "text": "急に教訓を置けば片づくと思っているだろう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。飲み込まれた亡者たちが意外な出口を探す。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "片づかないから、もう一度やって確かめる。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "extra_oni",
+      "text": "やり直すたび道具と登場人物が増えている。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "飲み込まれた亡者たちが意外な出口を探す。ここまでは筋書き通りだ。",
+      "eyes": "fun",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_oni",
+      "text": "筋書きが困って、こちらを見ているぞ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "なら最後は、自分で落とし前をつけよう。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_oni",
+      "text": "落とし前とオチを同じ棚に置くな。",
+      "eyes": "closed"
+    },
+    {
+      "op": "hide",
+      "actor": "tanurio"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_oni"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "物語はここまで。残った問いは「死後の世界まで商売と見栄が追いかけてくる」。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ご来場、ありがとうございました。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

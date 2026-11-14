@@ -1,0 +1,755 @@
+{
+  "meta": {
+    "id": "kanei-tournament",
+    "number": 146,
+    "title": "寛永御前試合 ―剣豪の間合い―",
+    "original": "古典講談『寛永御前試合』（伝統演目）",
+    "category": "講談",
+    "adaptation": "free",
+    "format": "v3",
+    "minutes": 42,
+    "synopsis": "全五景で「強さは勝った数でなく、刃を止める判断にも現れる」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+    "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "柳生十兵衛",
+      "actor": "rei_kimono",
+      "costume": "default"
+    },
+    {
+      "role": "荒木又右衛門",
+      "actor": "iwao",
+      "costume": "default"
+    },
+    {
+      "role": "宮本武蔵",
+      "actor": "extra_porter",
+      "costume": "default"
+    },
+    {
+      "role": "将軍家光",
+      "actor": "extra_elder",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "castle_arena": "bg/kanei-tournament-castle_arena-2048x1152.png",
+    "waiting_room": "bg/kanei-tournament-waiting_room-2048x1152.png",
+    "first_bout": "bg/kanei-tournament-first_bout-2048x1152.png",
+    "final_bout": "bg/kanei-tournament-final_bout-2048x1152.png",
+    "empty_arena": "bg/kanei-tournament-empty_arena-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『寛永御前試合』。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "講談の一席を、全五景でお届けします。",
+      "mouth": "open",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "この舞台の核は「強さは勝った数でなく、刃を止める判断にも現れる」。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "台詞はすべて今夜のための書き下ろしです。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "それでは、幕を開けましょう。",
+      "mouth": "open",
+      "eyes": "joy"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "castle_arena",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "castle_arena"
+    },
+    {
+      "op": "nar",
+      "text": "第1景「江戸城の試合場」。諸国の剣豪が将軍御前の試合へ集まる。"
+    },
+    {
+      "op": "show",
+      "actor": "rei_kimono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "iwao",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "「江戸城の試合場」へ来た。諸国の剣豪が将軍御前の試合へ集まる。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "ここで黙れば、誰かが代わりに意味を決める。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "私が守りたいのは「強さは勝った数でなく、刃を止める判断にも現れる」だ。",
+      "eyes": "anger"
+    },
+    {
+      "op": "nar",
+      "text": "江戸城の試合場の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "守るという言葉が、誰かの犠牲を隠していないか。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "過去は変えられない。だが次の手は選べる。"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。諸国の剣豪が将軍御前の試合へ集まる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "諸国の剣豪が将軍御前の試合へ集まる。その事実から目をそらさない。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "恐れを消すのではなく、恐れたまま進もう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "私の名ではなく、行いで答えを残す。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "その答えを、次の場面まで持って行こう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "ここで決める。逃げず、相手の声を聞く。",
+      "eyes": "anger"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "ならば私も、その決断の重さを分け合う。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_kimono"
+    },
+    {
+      "op": "hide",
+      "actor": "iwao"
+    },
+    {
+      "op": "bg",
+      "src": "waiting_room",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "waiting_room"
+    },
+    {
+      "op": "nar",
+      "text": "第2景「剣豪の控え」。流派と名声を背負う者たちが互いの間合いを測る。"
+    },
+    {
+      "op": "show",
+      "actor": "extra_porter",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "「剣豪の控え」へ来た。流派と名声を背負う者たちが互いの間合いを測る。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "ここで黙れば、誰かが代わりに意味を決める。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "私が守りたいのは「強さは勝った数でなく、刃を止める判断にも現れる」だ。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "剣豪の控えの空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+      "eyes": "surprise",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "過去は変えられない。だが次の手は選べる。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。流派と名声を背負う者たちが互いの間合いを測る。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "流派と名声を背負う者たちが互いの間合いを測る。その事実から目をそらさない。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "恐れを消すのではなく、恐れたまま進もう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "私の名ではなく、行いで答えを残す。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "その答えを、次の場面まで持って行こう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "ここで決める。逃げず、相手の声を聞く。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "ならば私も、その決断の重さを分け合う。",
+      "eyes": "fun"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_porter"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "bg",
+      "src": "first_bout",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "first_bout"
+    },
+    {
+      "op": "nar",
+      "text": "第3景「第一の立合い」。派手な技より一歩の読み合いが勝負を決める。"
+    },
+    {
+      "op": "show",
+      "actor": "rei_kimono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "iwao",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "「第一の立合い」へ来た。派手な技より一歩の読み合いが勝負を決める。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "ここで黙れば、誰かが代わりに意味を決める。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "私が守りたいのは「強さは勝った数でなく、刃を止める判断にも現れる」だ。",
+      "eyes": "fun"
+    },
+    {
+      "op": "nar",
+      "text": "第一の立合いの空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "守るという言葉が、誰かの犠牲を隠していないか。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "過去は変えられない。だが次の手は選べる。"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。派手な技より一歩の読み合いが勝負を決める。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "派手な技より一歩の読み合いが勝負を決める。その事実から目をそらさない。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "恐れを消すのではなく、恐れたまま進もう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "私の名ではなく、行いで答えを残す。",
+      "eyes": "anger"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "その答えを、次の場面まで持って行こう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "ここで決める。逃げず、相手の声を聞く。",
+      "eyes": "fun"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "ならば私も、その決断の重さを分け合う。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_kimono"
+    },
+    {
+      "op": "hide",
+      "actor": "iwao"
+    },
+    {
+      "op": "bg",
+      "src": "final_bout",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "final_bout"
+    },
+    {
+      "op": "nar",
+      "text": "第4景「最後の立合い」。勝てば相手を傷つける局面で刃を止めるか問われる。"
+    },
+    {
+      "op": "show",
+      "actor": "extra_porter",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "「最後の立合い」へ来た。勝てば相手を傷つける局面で刃を止めるか問われる。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "ここで黙れば、誰かが代わりに意味を決める。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "私が守りたいのは「強さは勝った数でなく、刃を止める判断にも現れる」だ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "最後の立合いの空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+      "eyes": "closed",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "過去は変えられない。だが次の手は選べる。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。勝てば相手を傷つける局面で刃を止めるか問われる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "勝てば相手を傷つける局面で刃を止めるか問われる。その事実から目をそらさない。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "恐れを消すのではなく、恐れたまま進もう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "私の名ではなく、行いで答えを残す。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "その答えを、次の場面まで持って行こう。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "ここで決める。逃げず、相手の声を聞く。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "ならば私も、その決断の重さを分け合う。",
+      "eyes": "crying"
+    },
+    {
+      "op": "choice",
+      "options": [
+        {
+          "text": "正面から問いかける",
+          "jump": "kanei-tournament_direct"
+        },
+        {
+          "text": "相手の話を最後まで聞く",
+          "jump": "kanei-tournament_listen"
+        }
+      ]
+    },
+    {
+      "op": "label",
+      "id": "kanei-tournament_direct"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "私は正面から問う。曖昧なまま次へは進まない。"
+    },
+    {
+      "op": "jump",
+      "to": "kanei-tournament_merge"
+    },
+    {
+      "op": "label",
+      "id": "kanei-tournament_listen"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "結論を急がず、相手が何を恐れているかまで聞こう。"
+    },
+    {
+      "op": "label",
+      "id": "kanei-tournament_merge"
+    },
+    {
+      "op": "nar",
+      "text": "選び方は違っても、二人は同じ核心へ戻ってくる。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_porter"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "bg",
+      "src": "empty_arena",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "empty_arena"
+    },
+    {
+      "op": "nar",
+      "text": "第5景「試合後の白砂」。名声より残った命と学びを数える。"
+    },
+    {
+      "op": "show",
+      "actor": "rei_kimono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "iwao",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "「試合後の白砂」へ来た。名声より残った命と学びを数える。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "ここで黙れば、誰かが代わりに意味を決める。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "私が守りたいのは「強さは勝った数でなく、刃を止める判断にも現れる」だ。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "試合後の白砂の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "守るという言葉が、誰かの犠牲を隠していないか。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "過去は変えられない。だが次の手は選べる。"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。名声より残った命と学びを数える。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "名声より残った命と学びを数える。その事実から目をそらさない。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "恐れを消すのではなく、恐れたまま進もう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "私の名ではなく、行いで答えを残す。",
+      "eyes": "fun"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "その答えを、次の場面まで持って行こう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "ここで決める。逃げず、相手の声を聞く。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "ならば私も、その決断の重さを分け合う。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_kimono"
+    },
+    {
+      "op": "hide",
+      "actor": "iwao"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "物語はここまで。残った問いは「強さは勝った数でなく、刃を止める判断にも現れる」。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ご来場、ありがとうございました。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

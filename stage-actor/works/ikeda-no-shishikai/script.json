@@ -1,0 +1,756 @@
+{
+  "meta": {
+    "id": "ikeda-no-shishikai",
+    "number": 131,
+    "title": "池田の猪買い ―道を尋ねて日が暮れる―",
+    "original": "古典上方落語『池田の猪買い』（伝統演目）",
+    "category": "古典落語・上方落語",
+    "adaptation": "free",
+    "format": "v3",
+    "minutes": 28,
+    "synopsis": "全五景で「目的地より、噛み合わない会話そのものが旅になる」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+    "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "喜六",
+      "actor": "tanurio",
+      "costume": "default"
+    },
+    {
+      "role": "甚兵衛",
+      "actor": "gou",
+      "costume": "default"
+    },
+    {
+      "role": "町人",
+      "actor": "shiro",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "osaka_crossroad": "bg/ikeda-no-shishikai-osaka_crossroad-2048x1152.png",
+    "long_road": "bg/ikeda-no-shishikai-long_road-2048x1152.png",
+    "ikeda_house": "bg/ikeda-no-shishikai-ikeda_house-2048x1152.png",
+    "winter_field": "bg/ikeda-no-shishikai-winter_field-2048x1152.png",
+    "boar_question": "bg/ikeda-no-shishikai-boar_question-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『池田の猪買い』。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "古典落語・上方落語の一席を、全五景でお届けします。",
+      "mouth": "open",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "この舞台の核は「目的地より、噛み合わない会話そのものが旅になる」。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "台詞はすべて今夜のための書き下ろしです。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "それでは、幕を開けましょう。",
+      "mouth": "open",
+      "eyes": "joy"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "osaka_crossroad",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "osaka_crossroad"
+    },
+    {
+      "op": "nar",
+      "text": "第1景「大坂の辻」。喜六が池田への道を尋ねるが説明が脇道へそれる。"
+    },
+    {
+      "op": "show",
+      "actor": "tanurio",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "gou",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "さて「大坂の辻」だ。喜六が池田への道を尋ねるが説明が脇道へそれる。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "その説明だけで、もう話が脇道へ走っている。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
+      "eyes": "anger"
+    },
+    {
+      "op": "nar",
+      "text": "大坂の辻の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "近道なら、さっきと同じ所へ戻るな。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "肝心なのは、目的地より、噛み合わない会話そのものが旅になるということだ。",
+      "eyes": "fun",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "急に教訓を置けば片づくと思っているだろう。"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。喜六が池田への道を尋ねるが説明が脇道へそれる。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "片づかないから、もう一度やって確かめる。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "やり直すたび道具と登場人物が増えている。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "喜六が池田への道を尋ねるが説明が脇道へそれる。ここまでは筋書き通りだ。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "筋書きが困って、こちらを見ているぞ。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "なら最後は、自分で落とし前をつけよう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "落とし前とオチを同じ棚に置くな。"
+    },
+    {
+      "op": "hide",
+      "actor": "tanurio"
+    },
+    {
+      "op": "hide",
+      "actor": "gou"
+    },
+    {
+      "op": "bg",
+      "src": "long_road",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "long_road"
+    },
+    {
+      "op": "nar",
+      "text": "第2景「長い一本道」。目印が曖昧で同じ質問を何度も繰り返す。"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "tanurio",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "さて「長い一本道」だ。目印が曖昧で同じ質問を何度も繰り返す。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "その説明だけで、もう話が脇道へ走っている。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "長い一本道の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "近道なら、さっきと同じ所へ戻るな。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "肝心なのは、目的地より、噛み合わない会話そのものが旅になるということだ。",
+      "eyes": "surprise",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "急に教訓を置けば片づくと思っているだろう。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。目印が曖昧で同じ質問を何度も繰り返す。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "片づかないから、もう一度やって確かめる。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "やり直すたび道具と登場人物が増えている。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "目印が曖昧で同じ質問を何度も繰り返す。ここまでは筋書き通りだ。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "筋書きが困って、こちらを見ているぞ。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "なら最後は、自分で落とし前をつけよう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "落とし前とオチを同じ棚に置くな。",
+      "eyes": "fun"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "hide",
+      "actor": "tanurio"
+    },
+    {
+      "op": "bg",
+      "src": "ikeda_house",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "ikeda_house"
+    },
+    {
+      "op": "nar",
+      "text": "第3景「猟師の家」。ようやく甚兵衛へ猪肉を買いたいと頼む。"
+    },
+    {
+      "op": "show",
+      "actor": "gou",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "さて「猟師の家」だ。ようやく甚兵衛へ猪肉を買いたいと頼む。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "その説明だけで、もう話が脇道へ走っている。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "脇道ではない。笑いへ通じる立派な近道だ。"
+    },
+    {
+      "op": "nar",
+      "text": "猟師の家の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "近道なら、さっきと同じ所へ戻るな。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "肝心なのは、目的地より、噛み合わない会話そのものが旅になるということだ。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "急に教訓を置けば片づくと思っているだろう。",
+      "eyes": "closed"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。ようやく甚兵衛へ猪肉を買いたいと頼む。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "片づかないから、もう一度やって確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "やり直すたび道具と登場人物が増えている。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "ようやく甚兵衛へ猪肉を買いたいと頼む。ここまでは筋書き通りだ。"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "筋書きが困って、こちらを見ているぞ。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "なら最後は、自分で落とし前をつけよう。"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "落とし前とオチを同じ棚に置くな。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "gou"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "bg",
+      "src": "winter_field",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "winter_field"
+    },
+    {
+      "op": "nar",
+      "text": "第4景「冬の猟場」。生きの良い肉を求め二人で猪を探す。"
+    },
+    {
+      "op": "show",
+      "actor": "tanurio",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "gou",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "さて「冬の猟場」だ。生きの良い肉を求め二人で猪を探す。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "その説明だけで、もう話が脇道へ走っている。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "冬の猟場の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "近道なら、さっきと同じ所へ戻るな。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "肝心なのは、目的地より、噛み合わない会話そのものが旅になるということだ。",
+      "eyes": "closed",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "急に教訓を置けば片づくと思っているだろう。"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。生きの良い肉を求め二人で猪を探す。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "片づかないから、もう一度やって確かめる。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "やり直すたび道具と登場人物が増えている。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "生きの良い肉を求め二人で猪を探す。ここまでは筋書き通りだ。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "筋書きが困って、こちらを見ているぞ。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "なら最後は、自分で落とし前をつけよう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "落とし前とオチを同じ棚に置くな。"
+    },
+    {
+      "op": "choice",
+      "options": [
+        {
+          "text": "正面から問いかける",
+          "jump": "ikeda-no-shishikai_direct"
+        },
+        {
+          "text": "相手の話を最後まで聞く",
+          "jump": "ikeda-no-shishikai_listen"
+        }
+      ]
+    },
+    {
+      "op": "label",
+      "id": "ikeda-no-shishikai_direct"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "私は正面から問う。曖昧なまま次へは進まない。"
+    },
+    {
+      "op": "jump",
+      "to": "ikeda-no-shishikai_merge"
+    },
+    {
+      "op": "label",
+      "id": "ikeda-no-shishikai_listen"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "結論を急がず、相手が何を恐れているかまで聞こう。"
+    },
+    {
+      "op": "label",
+      "id": "ikeda-no-shishikai_merge"
+    },
+    {
+      "op": "nar",
+      "text": "選び方は違っても、二人は同じ核心へ戻ってくる。"
+    },
+    {
+      "op": "hide",
+      "actor": "tanurio"
+    },
+    {
+      "op": "hide",
+      "actor": "gou"
+    },
+    {
+      "op": "bg",
+      "src": "boar_question",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "boar_question"
+    },
+    {
+      "op": "nar",
+      "text": "第5景「倒れた猪」。本当に新鮮か確かめる質問が騒動を締める。"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "tanurio",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "さて「倒れた猪」だ。本当に新鮮か確かめる質問が騒動を締める。",
+      "eyes": "fun",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "その説明だけで、もう話が脇道へ走っている。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "倒れた猪の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "近道なら、さっきと同じ所へ戻るな。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "肝心なのは、目的地より、噛み合わない会話そのものが旅になるということだ。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "急に教訓を置けば片づくと思っているだろう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。本当に新鮮か確かめる質問が騒動を締める。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "片づかないから、もう一度やって確かめる。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "やり直すたび道具と登場人物が増えている。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "本当に新鮮か確かめる質問が騒動を締める。ここまでは筋書き通りだ。",
+      "eyes": "fun",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "筋書きが困って、こちらを見ているぞ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "なら最後は、自分で落とし前をつけよう。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "落とし前とオチを同じ棚に置くな。",
+      "eyes": "closed"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "hide",
+      "actor": "tanurio"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "物語はここまで。残った問いは「目的地より、噛み合わない会話そのものが旅になる」。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ご来場、ありがとうございました。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

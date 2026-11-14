@@ -1,0 +1,767 @@
+{
+ "meta": {
+  "id": "popol-vuh-twins",
+  "number": 123,
+  "title": "ポポル・ヴフ・英雄双子の冥界試練 ―球戯の太陽―",
+  "original": "キチェ・マヤ神話『ポポル・ヴフ』（伝統神話）",
+  "category": "神話・叙事詩",
+  "adaptation": "moderate",
+  "format": "v3",
+  "minutes": 44,
+  "synopsis": "全五景で「力ではなく機知と協力で、死を課す規則を反転する」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+  "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
+  },
+  {
+   "role": "フンアフプー",
+   "actor": "rei_casual",
+   "costume": "default"
+  },
+  {
+   "role": "イシュバランケー",
+   "actor": "sasuke",
+   "costume": "default"
+  },
+  {
+   "role": "シバルバーの主",
+   "actor": "extra_skeleton",
+   "costume": "default"
+  },
+  {
+   "role": "祖母シュムカネー",
+   "actor": "extra_elder",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "ball_court": "bg/popol-vuh-twins-ball_court-2048x1152.png",
+  "crossroads": "bg/popol-vuh-twins-crossroads-2048x1152.png",
+  "trial_houses": "bg/popol-vuh-twins-trial_houses-2048x1152.png",
+  "sacrifice_trick": "bg/popol-vuh-twins-sacrifice_trick-2048x1152.png",
+  "sun_moon": "bg/popol-vuh-twins-sun_moon-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ようこそ、NONO座へ。本日の演目は『ポポル・ヴフ・英雄双子の冥界試練』。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "神話・叙事詩の一席を、全五景でお届けします。",
+   "mouth": "open",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "この舞台の核は「力ではなく機知と協力で、死を課す規則を反転する」。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "台詞はすべて今夜のための書き下ろしです。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "それでは、幕を開けましょう。",
+   "mouth": "open",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "ball_court",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "ball_court"
+  },
+  {
+   "op": "nar",
+   "text": "第1景「地上の球戯場」。球音を嫌う冥界の主が双子をシバルバーへ招く。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "「地上の球戯場」へ来た。球音を嫌う冥界の主が双子をシバルバーへ招く。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "ここで黙れば、誰かが代わりに意味を決める。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "私が守りたいのは「力ではなく機知と協力で、死を課す規則を反転する」だ。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "地上の球戯場の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "過去は変えられない。だが次の手は選べる。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。球音を嫌う冥界の主が双子をシバルバーへ招く。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "球音を嫌う冥界の主が双子をシバルバーへ招く。その事実から目をそらさない。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "恐れを消すのではなく、恐れたまま進もう。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "私の名ではなく、行いで答えを残す。",
+   "eyes": "normal"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "その答えを、次の場面まで持って行こう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "ここで決める。逃げず、相手の声を聞く。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "ならば私も、その決断の重さを分け合う。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "bg",
+   "src": "crossroads",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "crossroads"
+  },
+  {
+   "op": "nar",
+   "text": "第2景「冥界の四つ辻」。色と罠を見抜き偽の主たちへの挨拶を避ける。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_skeleton",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "「冥界の四つ辻」へ来た。色と罠を見抜き偽の主たちへの挨拶を避ける。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "ここで黙れば、誰かが代わりに意味を決める。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "私が守りたいのは「力ではなく機知と協力で、死を課す規則を反転する」だ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "冥界の四つ辻の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "過去は変えられない。だが次の手は選べる。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。色と罠を見抜き偽の主たちへの挨拶を避ける。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "色と罠を見抜き偽の主たちへの挨拶を避ける。その事実から目をそらさない。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "恐れを消すのではなく、恐れたまま進もう。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "私の名ではなく、行いで答えを残す。",
+   "eyes": "joy"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "その答えを、次の場面まで持って行こう。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "ここで決める。逃げず、相手の声を聞く。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "ならば私も、その決断の重さを分け合う。",
+   "eyes": "fun"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_skeleton"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "bg",
+   "src": "trial_houses",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "trial_houses"
+  },
+  {
+   "op": "nar",
+   "text": "第3景「試練の家々」。闇と刃と寒さと獣の家を知恵で越える。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "「試練の家々」へ来た。闇と刃と寒さと獣の家を知恵で越える。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "ここで黙れば、誰かが代わりに意味を決める。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "私が守りたいのは「力ではなく機知と協力で、死を課す規則を反転する」だ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "nar",
+   "text": "試練の家々の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "過去は変えられない。だが次の手は選べる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。闇と刃と寒さと獣の家を知恵で越える。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "闇と刃と寒さと獣の家を知恵で越える。その事実から目をそらさない。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "恐れを消すのではなく、恐れたまま進もう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "私の名ではなく、行いで答えを残す。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "その答えを、次の場面まで持って行こう。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "ここで決める。逃げず、相手の声を聞く。",
+   "eyes": "fun"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "ならば私も、その決断の重さを分け合う。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "bg",
+   "src": "sacrifice_trick",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "sacrifice_trick"
+  },
+  {
+   "op": "nar",
+   "text": "第4景「死と再生の計略」。双子が自らを犠牲に見せて蘇りの術を示す。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_skeleton",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "「死と再生の計略」へ来た。双子が自らを犠牲に見せて蘇りの術を示す。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "ここで黙れば、誰かが代わりに意味を決める。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "私が守りたいのは「力ではなく機知と協力で、死を課す規則を反転する」だ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "死と再生の計略の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "過去は変えられない。だが次の手は選べる。",
+   "eyes": "normal"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。双子が自らを犠牲に見せて蘇りの術を示す。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "双子が自らを犠牲に見せて蘇りの術を示す。その事実から目をそらさない。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "恐れを消すのではなく、恐れたまま進もう。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "私の名ではなく、行いで答えを残す。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "その答えを、次の場面まで持って行こう。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "ここで決める。逃げず、相手の声を聞く。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "ならば私も、その決断の重さを分け合う。",
+   "eyes": "crying"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "正面から問いかける",
+     "jump": "popol-vuh-twins_direct"
+    },
+    {
+     "text": "相手の話を最後まで聞く",
+     "jump": "popol-vuh-twins_listen"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "popol-vuh-twins_direct"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "私は正面から問う。曖昧なまま次へは進まない。"
+  },
+  {
+   "op": "jump",
+   "to": "popol-vuh-twins_merge"
+  },
+  {
+   "op": "label",
+   "id": "popol-vuh-twins_listen"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "結論を急がず、相手が何を恐れているかまで聞こう。"
+  },
+  {
+   "op": "label",
+   "id": "popol-vuh-twins_merge"
+  },
+  {
+   "op": "nar",
+   "text": "選び方は違っても、二人は同じ核心へ戻ってくる。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_skeleton"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "bg",
+   "src": "sun_moon",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "sun_moon"
+  },
+  {
+   "op": "nar",
+   "text": "第5景「太陽と月への昇天」。冥界の権威を破り双子が空の光へ変わる。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "「太陽と月への昇天」へ来た。冥界の権威を破り双子が空の光へ変わる。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "ここで黙れば、誰かが代わりに意味を決める。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "私が守りたいのは「力ではなく機知と協力で、死を課す規則を反転する」だ。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "太陽と月への昇天の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "過去は変えられない。だが次の手は選べる。",
+   "eyes": "joy"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。冥界の権威を破り双子が空の光へ変わる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "冥界の権威を破り双子が空の光へ変わる。その事実から目をそらさない。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "恐れを消すのではなく、恐れたまま進もう。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "私の名ではなく、行いで答えを残す。",
+   "eyes": "fun"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "その答えを、次の場面まで持って行こう。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "ここで決める。逃げず、相手の声を聞く。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "ならば私も、その決断の重さを分け合う。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "物語はここまで。残った問いは「力ではなく機知と協力で、死を課す規則を反転する」。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ご来場、ありがとうございました。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "end"
+  }
+ ]
+}

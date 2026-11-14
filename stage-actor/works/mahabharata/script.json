@@ -1,0 +1,739 @@
+{
+ "meta": {
+  "id": "mahabharata",
+  "number": 120,
+  "title": "マハーバーラタ ―骰子からクルクシェートラへ―",
+  "original": "インド叙事詩『マハーバーラタ』（伝統叙事詩）",
+  "category": "神話・叙事詩",
+  "adaptation": "moderate",
+  "format": "v3",
+  "minutes": 50,
+  "synopsis": "全五景で「正義は勝敗だけでなく、選んだ手段の傷を負う」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+  "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
+  },
+  {
+   "role": "ユディシュティラ",
+   "actor": "rei_kimono",
+   "costume": "default"
+  },
+  {
+   "role": "ドラウパディー",
+   "actor": "akane",
+   "costume": "default"
+  },
+  {
+   "role": "アルジュナ",
+   "actor": "hayate",
+   "costume": "default"
+  },
+  {
+   "role": "クリシュナ",
+   "actor": "homura",
+   "costume": "default"
+  },
+  {
+   "role": "ドゥルヨーダナ",
+   "actor": "iwao",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "dice_hall": "bg/mahabharata-dice_hall-2048x1152.png",
+  "forest_exile": "bg/mahabharata-forest_exile-2048x1152.png",
+  "peace_embassy": "bg/mahabharata-peace_embassy-2048x1152.png",
+  "kurukshetra": "bg/mahabharata-kurukshetra-2048x1152.png",
+  "ash_field": "bg/mahabharata-ash_field-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ようこそ、NONO座へ。本日の演目は『マハーバーラタ』。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "神話・叙事詩の一席を、全五景でお届けします。",
+   "mouth": "open",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "この舞台の核は「正義は勝敗だけでなく、選んだ手段の傷を負う」。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "台詞はすべて今夜のための書き下ろしです。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "それでは、幕を開けましょう。",
+   "mouth": "open",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "dice_hall",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "dice_hall"
+  },
+  {
+   "op": "nar",
+   "text": "第1景「骰子の間」。賭けで王国も兄弟もドラウパディーも奪われる。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "「骰子の間」へ来た。賭けで王国も兄弟もドラウパディーも奪われる。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "ここで黙れば、誰かが代わりに意味を決める。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "私が守りたいのは「正義は勝敗だけでなく、選んだ手段の傷を負う」だ。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "骰子の間の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "過去は変えられない。だが次の手は選べる。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。賭けで王国も兄弟もドラウパディーも奪われる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "賭けで王国も兄弟もドラウパディーも奪われる。その事実から目をそらさない。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "恐れを消すのではなく、恐れたまま進もう。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "私の名ではなく、行いで答えを残す。",
+   "eyes": "normal"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "その答えを、次の場面まで持って行こう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "ここで決める。逃げず、相手の声を聞く。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "ならば私も、その決断の重さを分け合う。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "bg",
+   "src": "forest_exile",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "forest_exile"
+  },
+  {
+   "op": "nar",
+   "text": "第2景「森の追放」。十三年の追放で復讐と和解の可能性を測る。"
+  },
+  {
+   "op": "show",
+   "actor": "hayate",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "homura",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "「森の追放」へ来た。十三年の追放で復讐と和解の可能性を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "ここで黙れば、誰かが代わりに意味を決める。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "私が守りたいのは「正義は勝敗だけでなく、選んだ手段の傷を負う」だ。"
+  },
+  {
+   "op": "nar",
+   "text": "森の追放の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "守るという言葉が、誰かの犠牲を隠していないか。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "ならば勝ち負けだけでなく、支払う代価も見る。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "過去は変えられない。だが次の手は選べる。"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。十三年の追放で復讐と和解の可能性を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "十三年の追放で復讐と和解の可能性を測る。その事実から目をそらさない。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "恐れを消すのではなく、恐れたまま進もう。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "私の名ではなく、行いで答えを残す。"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "その答えを、次の場面まで持って行こう。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "ここで決める。逃げず、相手の声を聞く。"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "ならば私も、その決断の重さを分け合う。"
+  },
+  {
+   "op": "hide",
+   "actor": "hayate"
+  },
+  {
+   "op": "hide",
+   "actor": "homura"
+  },
+  {
+   "op": "bg",
+   "src": "peace_embassy",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "peace_embassy"
+  },
+  {
+   "op": "nar",
+   "text": "第3景「和平の使節」。わずかな領地を求める提案さえ退けられる。"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "「和平の使節」へ来た。わずかな領地を求める提案さえ退けられる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "ここで黙れば、誰かが代わりに意味を決める。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "私が守りたいのは「正義は勝敗だけでなく、選んだ手段の傷を負う」だ。"
+  },
+  {
+   "op": "nar",
+   "text": "和平の使節の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "ならば勝ち負けだけでなく、支払う代価も見る。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "過去は変えられない。だが次の手は選べる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。わずかな領地を求める提案さえ退けられる。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "わずかな領地を求める提案さえ退けられる。その事実から目をそらさない。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "恐れを消すのではなく、恐れたまま進もう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "私の名ではなく、行いで答えを残す。"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "その答えを、次の場面まで持って行こう。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "ここで決める。逃げず、相手の声を聞く。"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "ならば私も、その決断の重さを分け合う。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "bg",
+   "src": "kurukshetra",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "kurukshetra"
+  },
+  {
+   "op": "nar",
+   "text": "第4景「クルクシェートラ」。戦うことを拒むアルジュナへクリシュナが語る。"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "hayate",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "「クルクシェートラ」へ来た。戦うことを拒むアルジュナへクリシュナが語る。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "ここで黙れば、誰かが代わりに意味を決める。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "私が守りたいのは「正義は勝敗だけでなく、選んだ手段の傷を負う」だ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "クルクシェートラの空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "守るという言葉が、誰かの犠牲を隠していないか。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+   "eyes": "closed",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "過去は変えられない。だが次の手は選べる。"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。戦うことを拒むアルジュナへクリシュナが語る。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "戦うことを拒むアルジュナへクリシュナが語る。その事実から目をそらさない。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "恐れを消すのではなく、恐れたまま進もう。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "私の名ではなく、行いで答えを残す。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "その答えを、次の場面まで持って行こう。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "ここで決める。逃げず、相手の声を聞く。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "ならば私も、その決断の重さを分け合う。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "正面から問いかける",
+     "jump": "mahabharata_direct"
+    },
+    {
+     "text": "相手の話を最後まで聞く",
+     "jump": "mahabharata_listen"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "mahabharata_direct"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "私は正面から問う。曖昧なまま次へは進まない。"
+  },
+  {
+   "op": "jump",
+   "to": "mahabharata_merge"
+  },
+  {
+   "op": "label",
+   "id": "mahabharata_listen"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "結論を急がず、相手が何を恐れているかまで聞こう。"
+  },
+  {
+   "op": "label",
+   "id": "mahabharata_merge"
+  },
+  {
+   "op": "nar",
+   "text": "選び方は違っても、二人は同じ核心へ戻ってくる。"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "hide",
+   "actor": "hayate"
+  },
+  {
+   "op": "bg",
+   "src": "ash_field",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "ash_field"
+  },
+  {
+   "op": "nar",
+   "text": "第5景「戦後の灰野」。勝者たちが無数の死と王の責任を引き受ける。"
+  },
+  {
+   "op": "show",
+   "actor": "homura",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "「戦後の灰野」へ来た。勝者たちが無数の死と王の責任を引き受ける。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "ここで黙れば、誰かが代わりに意味を決める。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "私が守りたいのは「正義は勝敗だけでなく、選んだ手段の傷を負う」だ。"
+  },
+  {
+   "op": "nar",
+   "text": "戦後の灰野の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "守るという言葉が、誰かの犠牲を隠していないか。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "ならば勝ち負けだけでなく、支払う代価も見る。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "過去は変えられない。だが次の手は選べる。"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。勝者たちが無数の死と王の責任を引き受ける。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "勝者たちが無数の死と王の責任を引き受ける。その事実から目をそらさない。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "恐れを消すのではなく、恐れたまま進もう。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "私の名ではなく、行いで答えを残す。"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "その答えを、次の場面まで持って行こう。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "ここで決める。逃げず、相手の声を聞く。"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "ならば私も、その決断の重さを分け合う。"
+  },
+  {
+   "op": "hide",
+   "actor": "homura"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "物語はここまで。残った問いは「正義は勝敗だけでなく、選んだ手段の傷を負う」。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ご来場、ありがとうございました。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "end"
+  }
+ ]
+}

@@ -1,0 +1,709 @@
+{
+  "meta": {
+    "id": "valley-of-fear",
+    "number": 111,
+    "title": "恐怖の谷 ―暗号と焼印―",
+    "original": "Arthur Conan Doyle, The Valley of Fear（原典著作権消滅）",
+    "category": "探偵",
+    "adaptation": "faithful",
+    "format": "v3",
+    "minutes": 44,
+    "synopsis": "全五景で「恐怖の連鎖を断つには、偽装の奥の事情を見る」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+    "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "シャーロック・ホームズ",
+      "actor": "yoru",
+      "costume": "default"
+    },
+    {
+      "role": "ワトソン",
+      "actor": "rei_casual",
+      "costume": "default"
+    },
+    {
+      "role": "マクドナルド警部",
+      "actor": "kurogane",
+      "costume": "default"
+    },
+    {
+      "role": "バーディ・エドワーズ",
+      "actor": "hayate",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "cipher_room": "bg/valley-of-fear-cipher_room-2048x1152.png",
+    "manor_moat": "bg/valley-of-fear-manor_moat-2048x1152.png",
+    "hidden_man": "bg/valley-of-fear-hidden_man-2048x1152.png",
+    "vermissa_lodge": "bg/valley-of-fear-vermissa_lodge-2048x1152.png",
+    "sea_warning": "bg/valley-of-fear-sea_warning-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『恐怖の谷』。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "探偵の一席を、全五景でお届けします。",
+      "mouth": "open",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "この舞台の核は「恐怖の連鎖を断つには、偽装の奥の事情を見る」。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "台詞はすべて今夜のための書き下ろしです。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "それでは、幕を開けましょう。",
+      "mouth": "open",
+      "eyes": "joy"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "cipher_room",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "cipher_room"
+    },
+    {
+      "op": "nar",
+      "text": "第1景「暗号の書斎」。暗号文がバールストン館の危険を告げる。"
+    },
+    {
+      "op": "show",
+      "actor": "yoru",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "現場は「暗号の書斎」。まず事実だけを並べよう。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "確認できるのは、暗号文がバールストン館の危険を告げるという一点だ。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "見えたものと、そう思った理由を分けて書く。",
+      "eyes": "anger"
+    },
+    {
+      "op": "nar",
+      "text": "暗号の書斎の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "証言が一致するほど、同じ思い込みを疑うべきか。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "一致は安心材料だが、真実の保証ではない。",
+      "eyes": "fun",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "鍵は「恐怖の連鎖を断つには、偽装の奥の事情を見る」にある。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。暗号文がバールストン館の危険を告げる。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "犯人像を先に決めず、痕跡から可能性を削ろう。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "では時刻、入口、道具の順に確かめる。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "暗号文がバールストン館の危険を告げる。この行動には目的が二つ重なっている。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "表の目的が囮なら、裏の目的は何だ。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "答えはまだ言わない。反証できる形にしよう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "推理を勝利ではなく、検証として終わらせる。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "hide",
+      "actor": "yoru"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "bg",
+      "src": "manor_moat",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "manor_moat"
+    },
+    {
+      "op": "nar",
+      "text": "第2景「堀のある館」。顔を撃たれた遺体と消えた婚礼指輪を調べる。"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "hayate",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "現場は「堀のある館」。まず事実だけを並べよう。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "確認できるのは、顔を撃たれた遺体と消えた婚礼指輪を調べるという一点だ。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "見えたものと、そう思った理由を分けて書く。"
+    },
+    {
+      "op": "nar",
+      "text": "堀のある館の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "証言が一致するほど、同じ思い込みを疑うべきか。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "一致は安心材料だが、真実の保証ではない。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "鍵は「恐怖の連鎖を断つには、偽装の奥の事情を見る」にある。"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。顔を撃たれた遺体と消えた婚礼指輪を調べる。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "犯人像を先に決めず、痕跡から可能性を削ろう。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "では時刻、入口、道具の順に確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "顔を撃たれた遺体と消えた婚礼指輪を調べる。この行動には目的が二つ重なっている。"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "表の目的が囮なら、裏の目的は何だ。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "答えはまだ言わない。反証できる形にしよう。"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "推理を勝利ではなく、検証として終わらせる。"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "hide",
+      "actor": "hayate"
+    },
+    {
+      "op": "bg",
+      "src": "hidden_man",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "hidden_man"
+    },
+    {
+      "op": "nar",
+      "text": "第3景「隠れた生存者」。死者と主人が入れ替わった偽装を見抜く。"
+    },
+    {
+      "op": "show",
+      "actor": "yoru",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "現場は「隠れた生存者」。まず事実だけを並べよう。",
+      "eyes": "anger",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "確認できるのは、死者と主人が入れ替わった偽装を見抜くという一点だ。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "見えたものと、そう思った理由を分けて書く。",
+      "eyes": "fun"
+    },
+    {
+      "op": "nar",
+      "text": "隠れた生存者の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "証言が一致するほど、同じ思い込みを疑うべきか。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "一致は安心材料だが、真実の保証ではない。",
+      "eyes": "crying",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "鍵は「恐怖の連鎖を断つには、偽装の奥の事情を見る」にある。",
+      "eyes": "closed"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。死者と主人が入れ替わった偽装を見抜く。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "犯人像を先に決めず、痕跡から可能性を削ろう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "では時刻、入口、道具の順に確かめる。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "死者と主人が入れ替わった偽装を見抜く。この行動には目的が二つ重なっている。",
+      "eyes": "anger",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "表の目的が囮なら、裏の目的は何だ。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "答えはまだ言わない。反証できる形にしよう。",
+      "eyes": "fun"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "推理を勝利ではなく、検証として終わらせる。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "yoru"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "bg",
+      "src": "vermissa_lodge",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "vermissa_lodge"
+    },
+    {
+      "op": "nar",
+      "text": "第4景「ヴァーミッサの支部」。過去の鉱山町で秘密結社へ潜入した日々が語られる。"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "hayate",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "現場は「ヴァーミッサの支部」。まず事実だけを並べよう。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "確認できるのは、過去の鉱山町で秘密結社へ潜入した日々が語られるという一点だ。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "見えたものと、そう思った理由を分けて書く。"
+    },
+    {
+      "op": "nar",
+      "text": "ヴァーミッサの支部の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "証言が一致するほど、同じ思い込みを疑うべきか。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "一致は安心材料だが、真実の保証ではない。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "鍵は「恐怖の連鎖を断つには、偽装の奥の事情を見る」にある。"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。過去の鉱山町で秘密結社へ潜入した日々が語られる。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "犯人像を先に決めず、痕跡から可能性を削ろう。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "では時刻、入口、道具の順に確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "過去の鉱山町で秘密結社へ潜入した日々が語られる。この行動には目的が二つ重なっている。"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "表の目的が囮なら、裏の目的は何だ。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "答えはまだ言わない。反証できる形にしよう。"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "推理を勝利ではなく、検証として終わらせる。"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "hide",
+      "actor": "hayate"
+    },
+    {
+      "op": "bg",
+      "src": "sea_warning",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "sea_warning"
+    },
+    {
+      "op": "nar",
+      "text": "第5景「海からの報せ」。勝ったはずの男へ古い敵の影が再び届く。"
+    },
+    {
+      "op": "show",
+      "actor": "yoru",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "現場は「海からの報せ」。まず事実だけを並べよう。",
+      "eyes": "fun",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "確認できるのは、勝ったはずの男へ古い敵の影が再び届くという一点だ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "見えたものと、そう思った理由を分けて書く。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "海からの報せの空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "証言が一致するほど、同じ思い込みを疑うべきか。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "一致は安心材料だが、真実の保証ではない。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "鍵は「恐怖の連鎖を断つには、偽装の奥の事情を見る」にある。",
+      "eyes": "joy"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。勝ったはずの男へ古い敵の影が再び届く。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "犯人像を先に決めず、痕跡から可能性を削ろう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "では時刻、入口、道具の順に確かめる。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "勝ったはずの男へ古い敵の影が再び届く。この行動には目的が二つ重なっている。",
+      "eyes": "fun",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "表の目的が囮なら、裏の目的は何だ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "答えはまだ言わない。反証できる形にしよう。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "推理を勝利ではなく、検証として終わらせる。",
+      "eyes": "closed"
+    },
+    {
+      "op": "hide",
+      "actor": "yoru"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "物語はここまで。残った問いは「恐怖の連鎖を断つには、偽装の奥の事情を見る」。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ご来場、ありがとうございました。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

@@ -1,0 +1,755 @@
+{
+ "meta": {
+  "id": "yadoya-gataki",
+  "number": 126,
+  "title": "宿屋仇 ―眠れぬ侍―",
+  "original": "古典上方落語『宿屋仇』（伝統演目）",
+  "category": "古典落語・上方落語",
+  "adaptation": "moderate",
+  "format": "v3",
+  "minutes": 34,
+  "synopsis": "全五景で「作り話が壁一枚越しに本物の仇討ちへ変わる」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+  "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
+  },
+  {
+   "role": "万事世話九郎",
+   "actor": "rei_kimono",
+   "costume": "default"
+  },
+  {
+   "role": "伊八",
+   "actor": "tanurio",
+   "costume": "default"
+  },
+  {
+   "role": "兵庫",
+   "actor": "gou",
+   "costume": "default"
+  },
+  {
+   "role": "源兵衛",
+   "actor": "sasuke",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "inn_arrival": "bg/yadoya-gataki-inn_arrival-2048x1152.png",
+  "noisy_room": "bg/yadoya-gataki-noisy_room-2048x1152.png",
+  "wall_story": "bg/yadoya-gataki-wall_story-2048x1152.png",
+  "morning_guard": "bg/yadoya-gataki-morning_guard-2048x1152.png",
+  "sleepy_reveal": "bg/yadoya-gataki-sleepy_reveal-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ようこそ、NONO座へ。本日の演目は『宿屋仇』。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "古典落語・上方落語の一席を、全五景でお届けします。",
+   "mouth": "open",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "この舞台の核は「作り話が壁一枚越しに本物の仇討ちへ変わる」。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "台詞はすべて今夜のための書き下ろしです。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "それでは、幕を開けましょう。",
+   "mouth": "open",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "inn_arrival",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "inn_arrival"
+  },
+  {
+   "op": "nar",
+   "text": "第1景「旅籠の座敷」。静かに眠りたい侍の隣へ陽気な三人組が入る。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "さて「旅籠の座敷」だ。静かに眠りたい侍の隣へ陽気な三人組が入る。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "その説明だけで、もう話が脇道へ走っている。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "脇道ではない。笑いへ通じる立派な近道だ。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "旅籠の座敷の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "近道なら、さっきと同じ所へ戻るな。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "肝心なのは、作り話が壁一枚越しに本物の仇討ちへ変わるということだ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "急に教訓を置けば片づくと思っているだろう。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。静かに眠りたい侍の隣へ陽気な三人組が入る。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "片づかないから、もう一度やって確かめる。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "やり直すたび道具と登場人物が増えている。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "静かに眠りたい侍の隣へ陽気な三人組が入る。ここまでは筋書き通りだ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "筋書きが困って、こちらを見ているぞ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "なら最後は、自分で落とし前をつけよう。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "落とし前とオチを同じ棚に置くな。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "bg",
+   "src": "noisy_room",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "noisy_room"
+  },
+  {
+   "op": "nar",
+   "text": "第2景「隣室の宴会」。騒ぎを注意され三人が小声で仇討ち話を始める。"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "さて「隣室の宴会」だ。騒ぎを注意され三人が小声で仇討ち話を始める。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "その説明だけで、もう話が脇道へ走っている。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "脇道ではない。笑いへ通じる立派な近道だ。"
+  },
+  {
+   "op": "nar",
+   "text": "隣室の宴会の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "近道なら、さっきと同じ所へ戻るな。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "肝心なのは、作り話が壁一枚越しに本物の仇討ちへ変わるということだ。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "急に教訓を置けば片づくと思っているだろう。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。騒ぎを注意され三人が小声で仇討ち話を始める。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "片づかないから、もう一度やって確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "やり直すたび道具と登場人物が増えている。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "騒ぎを注意され三人が小声で仇討ち話を始める。ここまでは筋書き通りだ。"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "筋書きが困って、こちらを見ているぞ。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "なら最後は、自分で落とし前をつけよう。"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "落とし前とオチを同じ棚に置くな。",
+   "eyes": "fun"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "bg",
+   "src": "wall_story",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "wall_story"
+  },
+  {
+   "op": "nar",
+   "text": "第3景「壁越しの告白」。でたらめな殺人話を侍が自分の仇と信じる。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "さて「壁越しの告白」だ。でたらめな殺人話を侍が自分の仇と信じる。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "その説明だけで、もう話が脇道へ走っている。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "脇道ではない。笑いへ通じる立派な近道だ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "nar",
+   "text": "壁越しの告白の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "近道なら、さっきと同じ所へ戻るな。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "肝心なのは、作り話が壁一枚越しに本物の仇討ちへ変わるということだ。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "急に教訓を置けば片づくと思っているだろう。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。でたらめな殺人話を侍が自分の仇と信じる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "片づかないから、もう一度やって確かめる。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "やり直すたび道具と登場人物が増えている。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "でたらめな殺人話を侍が自分の仇と信じる。ここまでは筋書き通りだ。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "筋書きが困って、こちらを見ているぞ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "なら最後は、自分で落とし前をつけよう。",
+   "eyes": "fun"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "落とし前とオチを同じ棚に置くな。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "bg",
+   "src": "morning_guard",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "morning_guard"
+  },
+  {
+   "op": "nar",
+   "text": "第4景「夜明けの見張り」。宿屋の者が三人を逃がさぬよう見張り続ける。"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "さて「夜明けの見張り」だ。宿屋の者が三人を逃がさぬよう見張り続ける。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "その説明だけで、もう話が脇道へ走っている。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "脇道ではない。笑いへ通じる立派な近道だ。"
+  },
+  {
+   "op": "nar",
+   "text": "夜明けの見張りの空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "近道なら、さっきと同じ所へ戻るな。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "肝心なのは、作り話が壁一枚越しに本物の仇討ちへ変わるということだ。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "急に教訓を置けば片づくと思っているだろう。",
+   "eyes": "normal"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。宿屋の者が三人を逃がさぬよう見張り続ける。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "片づかないから、もう一度やって確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "やり直すたび道具と登場人物が増えている。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "宿屋の者が三人を逃がさぬよう見張り続ける。ここまでは筋書き通りだ。"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "筋書きが困って、こちらを見ているぞ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "なら最後は、自分で落とし前をつけよう。"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "落とし前とオチを同じ棚に置くな。",
+   "eyes": "crying"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "正面から問いかける",
+     "jump": "yadoya-gataki_direct"
+    },
+    {
+     "text": "相手の話を最後まで聞く",
+     "jump": "yadoya-gataki_listen"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "yadoya-gataki_direct"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "私は正面から問う。曖昧なまま次へは進まない。"
+  },
+  {
+   "op": "jump",
+   "to": "yadoya-gataki_merge"
+  },
+  {
+   "op": "label",
+   "id": "yadoya-gataki_listen"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "結論を急がず、相手が何を恐れているかまで聞こう。"
+  },
+  {
+   "op": "label",
+   "id": "yadoya-gataki_merge"
+  },
+  {
+   "op": "nar",
+   "text": "選び方は違っても、二人は同じ核心へ戻ってくる。"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "bg",
+   "src": "sleepy_reveal",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "sleepy_reveal"
+  },
+  {
+   "op": "nar",
+   "text": "第5景「寝不足の種明かし」。作り話と分かっても侍の眠れない夜は戻らない。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "さて「寝不足の種明かし」だ。作り話と分かっても侍の眠れない夜は戻らない。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "その説明だけで、もう話が脇道へ走っている。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "脇道ではない。笑いへ通じる立派な近道だ。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "寝不足の種明かしの空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "近道なら、さっきと同じ所へ戻るな。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "肝心なのは、作り話が壁一枚越しに本物の仇討ちへ変わるということだ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "急に教訓を置けば片づくと思っているだろう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。作り話と分かっても侍の眠れない夜は戻らない。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "片づかないから、もう一度やって確かめる。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "やり直すたび道具と登場人物が増えている。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "作り話と分かっても侍の眠れない夜は戻らない。ここまでは筋書き通りだ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "筋書きが困って、こちらを見ているぞ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "なら最後は、自分で落とし前をつけよう。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "落とし前とオチを同じ棚に置くな。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "物語はここまで。残った問いは「作り話が壁一枚越しに本物の仇討ちへ変わる」。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ご来場、ありがとうございました。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "end"
+  }
+ ]
+}

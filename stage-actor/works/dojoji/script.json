@@ -1,0 +1,774 @@
+{
+ "meta": {
+  "id": "dojoji",
+  "number": 101,
+  "title": "道成寺 ―鐘の内の執心―",
+  "original": "能・歌舞伎『道成寺』（伝統演目・著作権消滅）",
+  "category": "能・歌舞伎",
+  "adaptation": "moderate",
+  "format": "v3",
+  "minutes": 34,
+  "synopsis": "全五景で「執着を隠すほど、その影は大きくなる」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+  "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
+  },
+  {
+   "role": "白拍子／清姫の執心",
+   "actor": "akane",
+   "costume": "default"
+  },
+  {
+   "role": "道成寺の僧",
+   "actor": "extra_elder",
+   "costume": "default"
+  },
+  {
+   "role": "能力",
+   "actor": "extra_porter",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "temple_gate": "bg/dojoji-temple_gate-2048x1152.png",
+  "dance_stage": "bg/dojoji-dance_stage-2048x1152.png",
+  "falling_bell": "bg/dojoji-falling_bell-2048x1152.png",
+  "serpent_fire": "bg/dojoji-serpent_fire-2048x1152.png",
+  "dawn_ashes": "bg/dojoji-dawn_ashes-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ようこそ、NONO座へ。本日の演目は『道成寺』。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "能・歌舞伎の一席を、全五景でお届けします。",
+   "mouth": "open",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "この舞台の核は「執着を隠すほど、その影は大きくなる」。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "台詞はすべて今夜のための書き下ろしです。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "それでは、幕を開けましょう。",
+   "mouth": "open",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "temple_gate",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "temple_gate"
+  },
+  {
+   "op": "nar",
+   "text": "第1景「道成寺の門前」。女人禁制の寺へ白拍子が舞を願い出る。"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "「道成寺の門前」へ来た。女人禁制の寺へ白拍子が舞を願い出る。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "ここで黙れば、誰かが代わりに意味を決める。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "私が守りたいのは「執着を隠すほど、その影は大きくなる」だ。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "道成寺の門前の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "過去は変えられない。だが次の手は選べる。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。女人禁制の寺へ白拍子が舞を願い出る。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "女人禁制の寺へ白拍子が舞を願い出る。その事実から目をそらさない。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "恐れを消すのではなく、恐れたまま進もう。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "私の名ではなく、行いで答えを残す。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "その答えを、次の場面まで持って行こう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "ここで決める。逃げず、相手の声を聞く。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "ならば私も、その決断の重さを分け合う。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "bg",
+   "src": "dance_stage",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "dance_stage"
+  },
+  {
+   "op": "nar",
+   "text": "第2景「鐘供養の舞台」。乱拍子の静けさの奥で鐘への執着が燃える。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "「鐘供養の舞台」へ来た。乱拍子の静けさの奥で鐘への執着が燃える。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "ここで黙れば、誰かが代わりに意味を決める。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "私が守りたいのは「執着を隠すほど、その影は大きくなる」だ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "鐘供養の舞台の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "過去は変えられない。だが次の手は選べる。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。乱拍子の静けさの奥で鐘への執着が燃える。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "乱拍子の静けさの奥で鐘への執着が燃える。その事実から目をそらさない。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "恐れを消すのではなく、恐れたまま進もう。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "私の名ではなく、行いで答えを残す。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "その答えを、次の場面まで持って行こう。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "ここで決める。逃げず、相手の声を聞く。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "ならば私も、その決断の重さを分け合う。",
+   "eyes": "fun"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "bg",
+   "src": "falling_bell",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "falling_bell"
+  },
+  {
+   "op": "nar",
+   "text": "第3景「落ちる鐘」。白拍子が鐘へ飛び込み大鐘が轟いて落ちる。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "「落ちる鐘」へ来た。白拍子が鐘へ飛び込み大鐘が轟いて落ちる。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "ここで黙れば、誰かが代わりに意味を決める。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "私が守りたいのは「執着を隠すほど、その影は大きくなる」だ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "nar",
+   "text": "落ちる鐘の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "過去は変えられない。だが次の手は選べる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。白拍子が鐘へ飛び込み大鐘が轟いて落ちる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "白拍子が鐘へ飛び込み大鐘が轟いて落ちる。その事実から目をそらさない。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "恐れを消すのではなく、恐れたまま進もう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "私の名ではなく、行いで答えを残す。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "その答えを、次の場面まで持って行こう。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "ここで決める。逃げず、相手の声を聞く。",
+   "eyes": "fun"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "ならば私も、その決断の重さを分け合う。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "bg",
+   "src": "serpent_fire",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "serpent_fire"
+  },
+  {
+   "op": "nar",
+   "text": "第4景「蛇体の炎」。僧たちの祈りに蛇の執心が姿を現す。"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "「蛇体の炎」へ来た。僧たちの祈りに蛇の執心が姿を現す。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "ここで黙れば、誰かが代わりに意味を決める。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "私が守りたいのは「執着を隠すほど、その影は大きくなる」だ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "蛇体の炎の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+   "eyes": "closed",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "過去は変えられない。だが次の手は選べる。",
+   "eyes": "normal"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。僧たちの祈りに蛇の執心が姿を現す。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "僧たちの祈りに蛇の執心が姿を現す。その事実から目をそらさない。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "恐れを消すのではなく、恐れたまま進もう。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "私の名ではなく、行いで答えを残す。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "その答えを、次の場面まで持って行こう。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "ここで決める。逃げず、相手の声を聞く。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "ならば私も、その決断の重さを分け合う。",
+   "eyes": "crying"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "正面から問いかける",
+     "jump": "dojoji_direct"
+    },
+    {
+     "text": "相手の話を最後まで聞く",
+     "jump": "dojoji_listen"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "dojoji_direct"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "私は正面から問う。曖昧なまま次へは進まない。"
+  },
+  {
+   "op": "jump",
+   "to": "dojoji_merge"
+  },
+  {
+   "op": "label",
+   "id": "dojoji_listen"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "結論を急がず、相手が何を恐れているかまで聞こう。"
+  },
+  {
+   "op": "label",
+   "id": "dojoji_merge"
+  },
+  {
+   "op": "nar",
+   "text": "選び方は違っても、二人は同じ核心へ戻ってくる。"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "bg",
+   "src": "dawn_ashes",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "dawn_ashes"
+  },
+  {
+   "op": "nar",
+   "text": "第5景「夜明けの境内」。焼けた鐘のそばで執着を手放す道を問う。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "「夜明けの境内」へ来た。焼けた鐘のそばで執着を手放す道を問う。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "ここで黙れば、誰かが代わりに意味を決める。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "私が守りたいのは「執着を隠すほど、その影は大きくなる」だ。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "夜明けの境内の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "過去は変えられない。だが次の手は選べる。",
+   "eyes": "joy"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。焼けた鐘のそばで執着を手放す道を問う。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "焼けた鐘のそばで執着を手放す道を問う。その事実から目をそらさない。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "恐れを消すのではなく、恐れたまま進もう。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "私の名ではなく、行いで答えを残す。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "その答えを、次の場面まで持って行こう。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "ここで決める。逃げず、相手の声を聞く。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "ならば私も、その決断の重さを分け合う。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "物語はここまで。残った問いは「執着を隠すほど、その影は大きくなる」。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ご来場、ありがとうございました。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "end"
+  }
+ ]
+}

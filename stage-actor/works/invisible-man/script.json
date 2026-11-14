@@ -1,0 +1,730 @@
+{
+  "meta": {
+    "id": "invisible-man",
+    "number": 115,
+    "title": "透明人間 ―包帯の客―",
+    "original": "H. G. Wells, The Invisible Man（原典著作権消滅）",
+    "category": "SF",
+    "adaptation": "faithful",
+    "format": "v3",
+    "minutes": 42,
+    "synopsis": "全五景で「姿を消す力は、他者への責任まで消してはくれない」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+    "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "グリフィン",
+      "actor": "rei_trackcape",
+      "costume": "default"
+    },
+    {
+      "role": "ケンプ博士",
+      "actor": "extra_wizard",
+      "costume": "default"
+    },
+    {
+      "role": "ホール夫人",
+      "actor": "mei",
+      "costume": "default"
+    },
+    {
+      "role": "マーヴェル",
+      "actor": "tanurio",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "iping_inn": "bg/invisible-man-iping_inn-2048x1152.png",
+    "empty_clothes": "bg/invisible-man-empty_clothes-2048x1152.png",
+    "tramp_road": "bg/invisible-man-tramp_road-2048x1152.png",
+    "kemp_house": "bg/invisible-man-kemp_house-2048x1152.png",
+    "village_hunt": "bg/invisible-man-village_hunt-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『透明人間』。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "SFの一席を、全五景でお届けします。",
+      "mouth": "open",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "この舞台の核は「姿を消す力は、他者への責任まで消してはくれない」。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "台詞はすべて今夜のための書き下ろしです。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "それでは、幕を開けましょう。",
+      "mouth": "open",
+      "eyes": "joy"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "iping_inn",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "iping_inn"
+    },
+    {
+      "op": "nar",
+      "text": "第1景「アイピングの宿」。包帯姿の客が雪の日の宿で秘密実験を続ける。"
+    },
+    {
+      "op": "show",
+      "actor": "rei_trackcape",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_wizard",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "「アイピングの宿」で常識の境界が動き始めた。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "包帯姿の客が雪の日の宿で秘密実験を続ける。観測した事実はそれだけだ。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "可能だから使う、では理由にならない。",
+      "eyes": "anger"
+    },
+    {
+      "op": "nar",
+      "text": "アイピングの宿の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "使わなければ、別の誰かが先に使う。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "だからこそ「姿を消す力は、他者への責任まで消してはくれない」を問い続ける。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "技術の速さに、判断の速さが追いついていない。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。包帯姿の客が雪の日の宿で秘密実験を続ける。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "未知を敵と決めず、条件を一つずつ調べよう。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "だが観察している私たちも観察されている。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "包帯姿の客が雪の日の宿で秘密実験を続ける。ここで未来の分岐が生まれる。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "選択の結果を、発明のせいだけにはできない。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "記録を残そう。次の者が同じ盲点へ落ちぬように。",
+      "eyes": "anger"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "そして戻れなくても、責任からは逃げない。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_trackcape"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_wizard"
+    },
+    {
+      "op": "bg",
+      "src": "empty_clothes",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "empty_clothes"
+    },
+    {
+      "op": "nar",
+      "text": "第2景「空の衣服」。包帯と服だけが動き透明人間の正体が露見する。"
+    },
+    {
+      "op": "show",
+      "actor": "mei",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "tanurio",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "「空の衣服」で常識の境界が動き始めた。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "包帯と服だけが動き透明人間の正体が露見する。観測した事実はそれだけだ。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "可能だから使う、では理由にならない。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "空の衣服の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "使わなければ、別の誰かが先に使う。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "だからこそ「姿を消す力は、他者への責任まで消してはくれない」を問い続ける。",
+      "eyes": "surprise",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "技術の速さに、判断の速さが追いついていない。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。包帯と服だけが動き透明人間の正体が露見する。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "未知を敵と決めず、条件を一つずつ調べよう。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "だが観察している私たちも観察されている。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "包帯と服だけが動き透明人間の正体が露見する。ここで未来の分岐が生まれる。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "選択の結果を、発明のせいだけにはできない。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "記録を残そう。次の者が同じ盲点へ落ちぬように。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "そして戻れなくても、責任からは逃げない。",
+      "eyes": "fun"
+    },
+    {
+      "op": "hide",
+      "actor": "mei"
+    },
+    {
+      "op": "hide",
+      "actor": "tanurio"
+    },
+    {
+      "op": "bg",
+      "src": "tramp_road",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "tramp_road"
+    },
+    {
+      "op": "nar",
+      "text": "第3景「浮浪者との逃走」。グリフィンがマーヴェルを脅し研究ノートを運ばせる。"
+    },
+    {
+      "op": "show",
+      "actor": "rei_trackcape",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_wizard",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "「浮浪者との逃走」で常識の境界が動き始めた。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "グリフィンがマーヴェルを脅し研究ノートを運ばせる。観測した事実はそれだけだ。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "可能だから使う、では理由にならない。",
+      "eyes": "fun"
+    },
+    {
+      "op": "nar",
+      "text": "浮浪者との逃走の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "使わなければ、別の誰かが先に使う。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "だからこそ「姿を消す力は、他者への責任まで消してはくれない」を問い続ける。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "技術の速さに、判断の速さが追いついていない。",
+      "eyes": "closed"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。グリフィンがマーヴェルを脅し研究ノートを運ばせる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "未知を敵と決めず、条件を一つずつ調べよう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "だが観察している私たちも観察されている。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "グリフィンがマーヴェルを脅し研究ノートを運ばせる。ここで未来の分岐が生まれる。",
+      "eyes": "anger"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "選択の結果を、発明のせいだけにはできない。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "記録を残そう。次の者が同じ盲点へ落ちぬように。",
+      "eyes": "fun"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "そして戻れなくても、責任からは逃げない。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_trackcape"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_wizard"
+    },
+    {
+      "op": "bg",
+      "src": "kemp_house",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "kemp_house"
+    },
+    {
+      "op": "nar",
+      "text": "第4景「ケンプ博士の家」。世界を恐怖で支配する計画を旧友へ打ち明ける。"
+    },
+    {
+      "op": "show",
+      "actor": "mei",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "tanurio",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "「ケンプ博士の家」で常識の境界が動き始めた。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "世界を恐怖で支配する計画を旧友へ打ち明ける。観測した事実はそれだけだ。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "可能だから使う、では理由にならない。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "ケンプ博士の家の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "使わなければ、別の誰かが先に使う。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "だからこそ「姿を消す力は、他者への責任まで消してはくれない」を問い続ける。",
+      "eyes": "closed",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "技術の速さに、判断の速さが追いついていない。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。世界を恐怖で支配する計画を旧友へ打ち明ける。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "未知を敵と決めず、条件を一つずつ調べよう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "だが観察している私たちも観察されている。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "世界を恐怖で支配する計画を旧友へ打ち明ける。ここで未来の分岐が生まれる。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "選択の結果を、発明のせいだけにはできない。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "記録を残そう。次の者が同じ盲点へ落ちぬように。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "そして戻れなくても、責任からは逃げない。",
+      "eyes": "crying"
+    },
+    {
+      "op": "hide",
+      "actor": "mei"
+    },
+    {
+      "op": "hide",
+      "actor": "tanurio"
+    },
+    {
+      "op": "bg",
+      "src": "village_hunt",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "village_hunt"
+    },
+    {
+      "op": "nar",
+      "text": "第5景「包囲された村」。見えない追跡者と群衆の恐怖が破局を招く。"
+    },
+    {
+      "op": "show",
+      "actor": "rei_trackcape",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_wizard",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "「包囲された村」で常識の境界が動き始めた。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "見えない追跡者と群衆の恐怖が破局を招く。観測した事実はそれだけだ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "可能だから使う、では理由にならない。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "包囲された村の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "使わなければ、別の誰かが先に使う。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "だからこそ「姿を消す力は、他者への責任まで消してはくれない」を問い続ける。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "技術の速さに、判断の速さが追いついていない。",
+      "eyes": "joy"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。見えない追跡者と群衆の恐怖が破局を招く。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "未知を敵と決めず、条件を一つずつ調べよう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "だが観察している私たちも観察されている。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "見えない追跡者と群衆の恐怖が破局を招く。ここで未来の分岐が生まれる。",
+      "eyes": "fun"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "選択の結果を、発明のせいだけにはできない。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "rei_trackcape",
+      "text": "記録を残そう。次の者が同じ盲点へ落ちぬように。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "そして戻れなくても、責任からは逃げない。",
+      "eyes": "closed"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_trackcape"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_wizard"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "物語はここまで。残った問いは「姿を消す力は、他者への責任まで消してはくれない」。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ご来場、ありがとうございました。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

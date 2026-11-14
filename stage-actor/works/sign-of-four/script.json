@@ -1,0 +1,739 @@
+{
+  "meta": {
+    "id": "sign-of-four",
+    "number": 110,
+    "title": "四つの署名 ―アグラの財宝―",
+    "original": "Arthur Conan Doyle, The Sign of the Four（原典著作権消滅）",
+    "category": "探偵",
+    "adaptation": "faithful",
+    "format": "v3",
+    "minutes": 42,
+    "synopsis": "全五景で「宝への執着より、真相と約束を選べるか」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+    "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "シャーロック・ホームズ",
+      "actor": "yoru",
+      "costume": "default"
+    },
+    {
+      "role": "ワトソン",
+      "actor": "rei_casual",
+      "costume": "default"
+    },
+    {
+      "role": "メアリー・モースタン",
+      "actor": "yui",
+      "costume": "default"
+    },
+    {
+      "role": "ジョナサン・スモール",
+      "actor": "extra_porter",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "baker_letter": "bg/sign-of-four-baker_letter-2048x1152.png",
+    "pondicherry_lodge": "bg/sign-of-four-pondicherry_lodge-2048x1152.png",
+    "thames_chase": "bg/sign-of-four-thames_chase-2048x1152.png",
+    "treasure_box": "bg/sign-of-four-treasure_box-2048x1152.png",
+    "small_story": "bg/sign-of-four-small_story-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『四つの署名』。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "探偵の一席を、全五景でお届けします。",
+      "mouth": "open",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "この舞台の核は「宝への執着より、真相と約束を選べるか」。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "台詞はすべて今夜のための書き下ろしです。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "それでは、幕を開けましょう。",
+      "mouth": "open",
+      "eyes": "joy"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "baker_letter",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "baker_letter"
+    },
+    {
+      "op": "nar",
+      "text": "第1景「謎の手紙」。メアリーが毎年届く真珠と招待状を相談する。"
+    },
+    {
+      "op": "show",
+      "actor": "yoru",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "現場は「謎の手紙」。まず事実だけを並べよう。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "確認できるのは、メアリーが毎年届く真珠と招待状を相談するという一点だ。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "見えたものと、そう思った理由を分けて書く。",
+      "eyes": "anger"
+    },
+    {
+      "op": "nar",
+      "text": "謎の手紙の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "証言が一致するほど、同じ思い込みを疑うべきか。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "一致は安心材料だが、真実の保証ではない。",
+      "eyes": "fun",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "鍵は「宝への執着より、真相と約束を選べるか」にある。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。メアリーが毎年届く真珠と招待状を相談する。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "犯人像を先に決めず、痕跡から可能性を削ろう。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "では時刻、入口、道具の順に確かめる。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "メアリーが毎年届く真珠と招待状を相談する。この行動には目的が二つ重なっている。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "表の目的が囮なら、裏の目的は何だ。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "答えはまだ言わない。反証できる形にしよう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "推理を勝利ではなく、検証として終わらせる。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "hide",
+      "actor": "yoru"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "bg",
+      "src": "pondicherry_lodge",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "pondicherry_lodge"
+    },
+    {
+      "op": "nar",
+      "text": "第2景「ポンディシェリ荘」。密室の死体と四つの署名が財宝へ導く。"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_porter",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "現場は「ポンディシェリ荘」。まず事実だけを並べよう。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "確認できるのは、密室の死体と四つの署名が財宝へ導くという一点だ。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "見えたものと、そう思った理由を分けて書く。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "ポンディシェリ荘の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "証言が一致するほど、同じ思い込みを疑うべきか。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "一致は安心材料だが、真実の保証ではない。",
+      "eyes": "surprise",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "鍵は「宝への執着より、真相と約束を選べるか」にある。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。密室の死体と四つの署名が財宝へ導く。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "犯人像を先に決めず、痕跡から可能性を削ろう。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "では時刻、入口、道具の順に確かめる。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "密室の死体と四つの署名が財宝へ導く。この行動には目的が二つ重なっている。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "表の目的が囮なら、裏の目的は何だ。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "答えはまだ言わない。反証できる形にしよう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "推理を勝利ではなく、検証として終わらせる。",
+      "eyes": "fun"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_porter"
+    },
+    {
+      "op": "bg",
+      "src": "thames_chase",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "thames_chase"
+    },
+    {
+      "op": "nar",
+      "text": "第3景「テムズ川の追跡」。蒸気船オーロラ号を夜の川で追い詰める。"
+    },
+    {
+      "op": "show",
+      "actor": "yoru",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "現場は「テムズ川の追跡」。まず事実だけを並べよう。",
+      "eyes": "anger",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "確認できるのは、蒸気船オーロラ号を夜の川で追い詰めるという一点だ。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "見えたものと、そう思った理由を分けて書く。",
+      "eyes": "fun"
+    },
+    {
+      "op": "nar",
+      "text": "テムズ川の追跡の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "証言が一致するほど、同じ思い込みを疑うべきか。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "一致は安心材料だが、真実の保証ではない。",
+      "eyes": "crying",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "鍵は「宝への執着より、真相と約束を選べるか」にある。",
+      "eyes": "closed"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。蒸気船オーロラ号を夜の川で追い詰める。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "犯人像を先に決めず、痕跡から可能性を削ろう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "では時刻、入口、道具の順に確かめる。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "蒸気船オーロラ号を夜の川で追い詰める。この行動には目的が二つ重なっている。",
+      "eyes": "anger",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "表の目的が囮なら、裏の目的は何だ。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "答えはまだ言わない。反証できる形にしよう。",
+      "eyes": "fun"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "推理を勝利ではなく、検証として終わらせる。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "yoru"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "bg",
+      "src": "treasure_box",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "treasure_box"
+    },
+    {
+      "op": "nar",
+      "text": "第4景「空の宝箱」。長い追跡の果てに財宝が川へ失われる。"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_porter",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "現場は「空の宝箱」。まず事実だけを並べよう。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "確認できるのは、長い追跡の果てに財宝が川へ失われるという一点だ。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "見えたものと、そう思った理由を分けて書く。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "空の宝箱の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "証言が一致するほど、同じ思い込みを疑うべきか。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "一致は安心材料だが、真実の保証ではない。",
+      "eyes": "closed",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "鍵は「宝への執着より、真相と約束を選べるか」にある。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。長い追跡の果てに財宝が川へ失われる。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "犯人像を先に決めず、痕跡から可能性を削ろう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "では時刻、入口、道具の順に確かめる。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "長い追跡の果てに財宝が川へ失われる。この行動には目的が二つ重なっている。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "表の目的が囮なら、裏の目的は何だ。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "答えはまだ言わない。反証できる形にしよう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "推理を勝利ではなく、検証として終わらせる。",
+      "eyes": "crying"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_porter"
+    },
+    {
+      "op": "bg",
+      "src": "small_story",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "small_story"
+    },
+    {
+      "op": "nar",
+      "text": "第5景「島の約束」。スモールが植民地で交わした約束と裏切りを語る。"
+    },
+    {
+      "op": "show",
+      "actor": "yoru",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "現場は「島の約束」。まず事実だけを並べよう。",
+      "eyes": "fun",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "確認できるのは、スモールが植民地で交わした約束と裏切りを語るという一点だ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "見えたものと、そう思った理由を分けて書く。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "島の約束の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "証言が一致するほど、同じ思い込みを疑うべきか。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "一致は安心材料だが、真実の保証ではない。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "鍵は「宝への執着より、真相と約束を選べるか」にある。",
+      "eyes": "joy"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。スモールが植民地で交わした約束と裏切りを語る。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "犯人像を先に決めず、痕跡から可能性を削ろう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "では時刻、入口、道具の順に確かめる。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "スモールが植民地で交わした約束と裏切りを語る。この行動には目的が二つ重なっている。",
+      "eyes": "fun",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "表の目的が囮なら、裏の目的は何だ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "答えはまだ言わない。反証できる形にしよう。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "推理を勝利ではなく、検証として終わらせる。",
+      "eyes": "closed"
+    },
+    {
+      "op": "hide",
+      "actor": "yoru"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "物語はここまで。残った問いは「宝への執着より、真相と約束を選べるか」。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ご来場、ありがとうございました。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

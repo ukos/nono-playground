@@ -1,0 +1,700 @@
+{
+  "meta": {
+    "id": "iga-no-sugetsu",
+    "number": 147,
+    "title": "荒木又右衛門・伊賀の水月 ―鍵屋の辻まで―",
+    "original": "古典講談『荒木又右衛門・伊賀の水月』（伝統演目）",
+    "category": "講談",
+    "adaptation": "faithful",
+    "format": "v3",
+    "minutes": 46,
+    "synopsis": "全五景で「仇討ちの一瞬より、そこへ至る関係と覚悟が人を変える」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+    "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "荒木又右衛門",
+      "actor": "iwao",
+      "costume": "default"
+    },
+    {
+      "role": "渡辺数馬",
+      "actor": "rei_kimono",
+      "costume": "default"
+    },
+    {
+      "role": "河合又五郎",
+      "actor": "yoru",
+      "costume": "default"
+    },
+    {
+      "role": "池田家使者",
+      "actor": "kurogane",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "oath_room": "bg/iga-no-sugetsu-oath_room-2048x1152.png",
+    "training_yard": "bg/iga-no-sugetsu-training_yard-2048x1152.png",
+    "domain_negotiation": "bg/iga-no-sugetsu-domain_negotiation-2048x1152.png",
+    "kagiya_crossroads": "bg/iga-no-sugetsu-kagiya_crossroads-2048x1152.png",
+    "after_duel": "bg/iga-no-sugetsu-after_duel-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『荒木又右衛門・伊賀の水月』。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "講談の一席を、全五景でお届けします。",
+      "mouth": "open",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "この舞台の核は「仇討ちの一瞬より、そこへ至る関係と覚悟が人を変える」。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "台詞はすべて今夜のための書き下ろしです。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "それでは、幕を開けましょう。",
+      "mouth": "open",
+      "eyes": "joy"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "oath_room",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "oath_room"
+    },
+    {
+      "op": "nar",
+      "text": "第1景「仇討ちの誓い」。数馬が姉婿又右衛門へ助太刀を頼む。"
+    },
+    {
+      "op": "show",
+      "actor": "iwao",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_kimono",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "「仇討ちの誓い」へ来た。数馬が姉婿又右衛門へ助太刀を頼む。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "ここで黙れば、誰かが代わりに意味を決める。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "私が守りたいのは「仇討ちの一瞬より、そこへ至る関係と覚悟が人を変える」だ。"
+    },
+    {
+      "op": "nar",
+      "text": "仇討ちの誓いの空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "ならば勝ち負けだけでなく、支払う代価も見る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "過去は変えられない。だが次の手は選べる。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。数馬が姉婿又右衛門へ助太刀を頼む。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "数馬が姉婿又右衛門へ助太刀を頼む。その事実から目をそらさない。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "恐れを消すのではなく、恐れたまま進もう。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "私の名ではなく、行いで答えを残す。"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "その答えを、次の場面まで持って行こう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "ここで決める。逃げず、相手の声を聞く。"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "ならば私も、その決断の重さを分け合う。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "hide",
+      "actor": "iwao"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_kimono"
+    },
+    {
+      "op": "bg",
+      "src": "training_yard",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "training_yard"
+    },
+    {
+      "op": "nar",
+      "text": "第2景「長い稽古」。未熟な数馬が年月をかけ恐怖と向き合う。"
+    },
+    {
+      "op": "show",
+      "actor": "yoru",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "「長い稽古」へ来た。未熟な数馬が年月をかけ恐怖と向き合う。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "ここで黙れば、誰かが代わりに意味を決める。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "私が守りたいのは「仇討ちの一瞬より、そこへ至る関係と覚悟が人を変える」だ。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "長い稽古の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "守るという言葉が、誰かの犠牲を隠していないか。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+      "eyes": "surprise",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "過去は変えられない。だが次の手は選べる。"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。未熟な数馬が年月をかけ恐怖と向き合う。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "未熟な数馬が年月をかけ恐怖と向き合う。その事実から目をそらさない。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "恐れを消すのではなく、恐れたまま進もう。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "私の名ではなく、行いで答えを残す。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "その答えを、次の場面まで持って行こう。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "ここで決める。逃げず、相手の声を聞く。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "ならば私も、その決断の重さを分け合う。"
+    },
+    {
+      "op": "hide",
+      "actor": "yoru"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "bg",
+      "src": "domain_negotiation",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "domain_negotiation"
+    },
+    {
+      "op": "nar",
+      "text": "第3景「大名家の駆引き」。引渡しをめぐり藩の面子と政治が絡む。"
+    },
+    {
+      "op": "show",
+      "actor": "iwao",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_kimono",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "「大名家の駆引き」へ来た。引渡しをめぐり藩の面子と政治が絡む。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "ここで黙れば、誰かが代わりに意味を決める。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "私が守りたいのは「仇討ちの一瞬より、そこへ至る関係と覚悟が人を変える」だ。"
+    },
+    {
+      "op": "nar",
+      "text": "大名家の駆引きの空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "ならば勝ち負けだけでなく、支払う代価も見る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "過去は変えられない。だが次の手は選べる。",
+      "eyes": "closed"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。引渡しをめぐり藩の面子と政治が絡む。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "引渡しをめぐり藩の面子と政治が絡む。その事実から目をそらさない。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "恐れを消すのではなく、恐れたまま進もう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "私の名ではなく、行いで答えを残す。"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "その答えを、次の場面まで持って行こう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "ここで決める。逃げず、相手の声を聞く。"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "ならば私も、その決断の重さを分け合う。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "iwao"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_kimono"
+    },
+    {
+      "op": "bg",
+      "src": "kagiya_crossroads",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "kagiya_crossroads"
+    },
+    {
+      "op": "nar",
+      "text": "第4景「鍵屋の辻」。道を塞ぎ決闘へ至る最後の言葉を交わす。"
+    },
+    {
+      "op": "show",
+      "actor": "yoru",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "「鍵屋の辻」へ来た。道を塞ぎ決闘へ至る最後の言葉を交わす。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "ここで黙れば、誰かが代わりに意味を決める。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "私が守りたいのは「仇討ちの一瞬より、そこへ至る関係と覚悟が人を変える」だ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "鍵屋の辻の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "守るという言葉が、誰かの犠牲を隠していないか。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+      "eyes": "closed",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "過去は変えられない。だが次の手は選べる。"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。道を塞ぎ決闘へ至る最後の言葉を交わす。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "道を塞ぎ決闘へ至る最後の言葉を交わす。その事実から目をそらさない。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "恐れを消すのではなく、恐れたまま進もう。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "私の名ではなく、行いで答えを残す。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "その答えを、次の場面まで持って行こう。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "ここで決める。逃げず、相手の声を聞く。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "ならば私も、その決断の重さを分け合う。"
+    },
+    {
+      "op": "hide",
+      "actor": "yoru"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "bg",
+      "src": "after_duel",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "after_duel"
+    },
+    {
+      "op": "nar",
+      "text": "第5景「水月の静けさ」。勝敗の後に失われた年月と残る者を見つめる。"
+    },
+    {
+      "op": "show",
+      "actor": "iwao",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_kimono",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "「水月の静けさ」へ来た。勝敗の後に失われた年月と残る者を見つめる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "ここで黙れば、誰かが代わりに意味を決める。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "私が守りたいのは「仇討ちの一瞬より、そこへ至る関係と覚悟が人を変える」だ。"
+    },
+    {
+      "op": "nar",
+      "text": "水月の静けさの空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "ならば勝ち負けだけでなく、支払う代価も見る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "過去は変えられない。だが次の手は選べる。",
+      "eyes": "joy"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。勝敗の後に失われた年月と残る者を見つめる。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "勝敗の後に失われた年月と残る者を見つめる。その事実から目をそらさない。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "恐れを消すのではなく、恐れたまま進もう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "私の名ではなく、行いで答えを残す。"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "その答えを、次の場面まで持って行こう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "ここで決める。逃げず、相手の声を聞く。"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "ならば私も、その決断の重さを分け合う。",
+      "eyes": "closed"
+    },
+    {
+      "op": "hide",
+      "actor": "iwao"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_kimono"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "物語はここまで。残った問いは「仇討ちの一瞬より、そこへ至る関係と覚悟が人を変える」。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ご来場、ありがとうございました。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

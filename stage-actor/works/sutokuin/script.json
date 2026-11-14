@@ -1,0 +1,755 @@
+{
+ "meta": {
+  "id": "sutokuin",
+  "number": 134,
+  "title": "崇徳院 ―瀬をはやみの捜索―",
+  "original": "古典落語『崇徳院』（伝統演目）",
+  "category": "古典落語・上方落語",
+  "adaptation": "moderate",
+  "format": "v3",
+  "minutes": 32,
+  "synopsis": "全五景で「恋の手掛かりが和歌半分では、捜索は町中を巻き込む」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+  "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
+  },
+  {
+   "role": "若旦那",
+   "actor": "rei_casual",
+   "costume": "default"
+  },
+  {
+   "role": "熊五郎",
+   "actor": "gou",
+   "costume": "default"
+  },
+  {
+   "role": "お嬢様",
+   "actor": "yui",
+   "costume": "default"
+  },
+  {
+   "role": "床屋",
+   "actor": "tanurio",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "sick_room": "bg/sutokuin-sick_room-2048x1152.png",
+  "shrine_memory": "bg/sutokuin-shrine_memory-2048x1152.png",
+  "city_search": "bg/sutokuin-city_search-2048x1152.png",
+  "barber_shop": "bg/sutokuin-barber_shop-2048x1152.png",
+  "poem_match": "bg/sutokuin-poem_match-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ようこそ、NONO座へ。本日の演目は『崇徳院』。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "古典落語・上方落語の一席を、全五景でお届けします。",
+   "mouth": "open",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "この舞台の核は「恋の手掛かりが和歌半分では、捜索は町中を巻き込む」。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "台詞はすべて今夜のための書き下ろしです。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "それでは、幕を開けましょう。",
+   "mouth": "open",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "sick_room",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "sick_room"
+  },
+  {
+   "op": "nar",
+   "text": "第1景「若旦那の病床」。恋煩いの若旦那が出会いの手掛かりを和歌で語る。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "さて「若旦那の病床」だ。恋煩いの若旦那が出会いの手掛かりを和歌で語る。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "その説明だけで、もう話が脇道へ走っている。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "脇道ではない。笑いへ通じる立派な近道だ。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "若旦那の病床の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "近道なら、さっきと同じ所へ戻るな。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "肝心なのは、恋の手掛かりが和歌半分では、捜索は町中を巻き込むということだ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "急に教訓を置けば片づくと思っているだろう。"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。恋煩いの若旦那が出会いの手掛かりを和歌で語る。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "片づかないから、もう一度やって確かめる。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "やり直すたび道具と登場人物が増えている。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "恋煩いの若旦那が出会いの手掛かりを和歌で語る。ここまでは筋書き通りだ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "筋書きが困って、こちらを見ているぞ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "なら最後は、自分で落とし前をつけよう。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "落とし前とオチを同じ棚に置くな。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "bg",
+   "src": "shrine_memory",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "shrine_memory"
+  },
+  {
+   "op": "nar",
+   "text": "第2景「高津宮の回想」。茶店で会った娘と崇徳院の上の句を交わす。"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "さて「高津宮の回想」だ。茶店で会った娘と崇徳院の上の句を交わす。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "その説明だけで、もう話が脇道へ走っている。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "脇道ではない。笑いへ通じる立派な近道だ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "高津宮の回想の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "近道なら、さっきと同じ所へ戻るな。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "肝心なのは、恋の手掛かりが和歌半分では、捜索は町中を巻き込むということだ。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "急に教訓を置けば片づくと思っているだろう。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。茶店で会った娘と崇徳院の上の句を交わす。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "片づかないから、もう一度やって確かめる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "やり直すたび道具と登場人物が増えている。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "茶店で会った娘と崇徳院の上の句を交わす。ここまでは筋書き通りだ。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "筋書きが困って、こちらを見ているぞ。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "なら最後は、自分で落とし前をつけよう。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "落とし前とオチを同じ棚に置くな。",
+   "eyes": "fun"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "bg",
+   "src": "city_search",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "city_search"
+  },
+  {
+   "op": "nar",
+   "text": "第3景「町中の捜索」。熊五郎が下の句だけを頼りに娘を探し回る。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "さて「町中の捜索」だ。熊五郎が下の句だけを頼りに娘を探し回る。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "その説明だけで、もう話が脇道へ走っている。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "脇道ではない。笑いへ通じる立派な近道だ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "nar",
+   "text": "町中の捜索の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "近道なら、さっきと同じ所へ戻るな。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "肝心なのは、恋の手掛かりが和歌半分では、捜索は町中を巻き込むということだ。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "急に教訓を置けば片づくと思っているだろう。"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。熊五郎が下の句だけを頼りに娘を探し回る。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "片づかないから、もう一度やって確かめる。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "やり直すたび道具と登場人物が増えている。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "熊五郎が下の句だけを頼りに娘を探し回る。ここまでは筋書き通りだ。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "筋書きが困って、こちらを見ているぞ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "なら最後は、自分で落とし前をつけよう。",
+   "eyes": "fun"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "落とし前とオチを同じ棚に置くな。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "bg",
+   "src": "barber_shop",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "barber_shop"
+  },
+  {
+   "op": "nar",
+   "text": "第4景「床屋の衝突」。別の捜索人とぶつかり鏡を割る大騒ぎになる。"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "さて「床屋の衝突」だ。別の捜索人とぶつかり鏡を割る大騒ぎになる。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "その説明だけで、もう話が脇道へ走っている。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "脇道ではない。笑いへ通じる立派な近道だ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "床屋の衝突の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "近道なら、さっきと同じ所へ戻るな。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "肝心なのは、恋の手掛かりが和歌半分では、捜索は町中を巻き込むということだ。",
+   "eyes": "closed",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "急に教訓を置けば片づくと思っているだろう。",
+   "eyes": "normal"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。別の捜索人とぶつかり鏡を割る大騒ぎになる。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "片づかないから、もう一度やって確かめる。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "やり直すたび道具と登場人物が増えている。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "別の捜索人とぶつかり鏡を割る大騒ぎになる。ここまでは筋書き通りだ。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "筋書きが困って、こちらを見ているぞ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "なら最後は、自分で落とし前をつけよう。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "落とし前とオチを同じ棚に置くな。",
+   "eyes": "crying"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "正面から問いかける",
+     "jump": "sutokuin_direct"
+    },
+    {
+     "text": "相手の話を最後まで聞く",
+     "jump": "sutokuin_listen"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "sutokuin_direct"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "私は正面から問う。曖昧なまま次へは進まない。"
+  },
+  {
+   "op": "jump",
+   "to": "sutokuin_merge"
+  },
+  {
+   "op": "label",
+   "id": "sutokuin_listen"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "結論を急がず、相手が何を恐れているかまで聞こう。"
+  },
+  {
+   "op": "label",
+   "id": "sutokuin_merge"
+  },
+  {
+   "op": "nar",
+   "text": "選び方は違っても、二人は同じ核心へ戻ってくる。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "bg",
+   "src": "poem_match",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "poem_match"
+  },
+  {
+   "op": "nar",
+   "text": "第5景「和歌の合流」。割れた鏡より先に二人の恋の相手が結びつく。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "さて「和歌の合流」だ。割れた鏡より先に二人の恋の相手が結びつく。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "その説明だけで、もう話が脇道へ走っている。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "脇道ではない。笑いへ通じる立派な近道だ。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "和歌の合流の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "近道なら、さっきと同じ所へ戻るな。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "肝心なのは、恋の手掛かりが和歌半分では、捜索は町中を巻き込むということだ。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "急に教訓を置けば片づくと思っているだろう。"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。割れた鏡より先に二人の恋の相手が結びつく。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "片づかないから、もう一度やって確かめる。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "やり直すたび道具と登場人物が増えている。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "割れた鏡より先に二人の恋の相手が結びつく。ここまでは筋書き通りだ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "筋書きが困って、こちらを見ているぞ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "なら最後は、自分で落とし前をつけよう。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "落とし前とオチを同じ棚に置くな。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "物語はここまで。残った問いは「恋の手掛かりが和歌半分では、捜索は町中を巻き込む」。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ご来場、ありがとうございました。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "end"
+  }
+ ]
+}

@@ -1,0 +1,730 @@
+{
+  "meta": {
+    "id": "hyakunemme",
+    "number": 127,
+    "title": "百年目 ―桜の番頭―",
+    "original": "古典上方落語『百年目』（伝統演目）",
+    "category": "古典落語・上方落語",
+    "adaptation": "faithful",
+    "format": "v3",
+    "minutes": 38,
+    "synopsis": "全五景で「規律の仮面の奥にある人間らしさを、主人は見ている」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+    "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "番頭",
+      "actor": "rei_kimono",
+      "costume": "default"
+    },
+    {
+      "role": "旦那",
+      "actor": "extra_elder",
+      "costume": "default"
+    },
+    {
+      "role": "若い衆",
+      "actor": "shiro",
+      "costume": "default"
+    },
+    {
+      "role": "芸者",
+      "actor": "akane",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "shop_floor": "bg/hyakunemme-shop_floor-2048x1152.png",
+    "cherry_boat": "bg/hyakunemme-cherry_boat-2048x1152.png",
+    "garden_meeting": "bg/hyakunemme-garden_meeting-2048x1152.png",
+    "night_anxiety": "bg/hyakunemme-night_anxiety-2048x1152.png",
+    "morning_parable": "bg/hyakunemme-morning_parable-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『百年目』。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "古典落語・上方落語の一席を、全五景でお届けします。",
+      "mouth": "open",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "この舞台の核は「規律の仮面の奥にある人間らしさを、主人は見ている」。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "台詞はすべて今夜のための書き下ろしです。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "それでは、幕を開けましょう。",
+      "mouth": "open",
+      "eyes": "joy"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "shop_floor",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "shop_floor"
+    },
+    {
+      "op": "nar",
+      "text": "第1景「堅い店先」。番頭が奉公人へ厳しく倹約を言い渡す。"
+    },
+    {
+      "op": "show",
+      "actor": "rei_kimono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "さて「堅い店先」だ。番頭が奉公人へ厳しく倹約を言い渡す。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "その説明だけで、もう話が脇道へ走っている。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
+      "eyes": "anger"
+    },
+    {
+      "op": "nar",
+      "text": "堅い店先の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "近道なら、さっきと同じ所へ戻るな。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "肝心なのは、規律の仮面の奥にある人間らしさを、主人は見ているということだ。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "急に教訓を置けば片づくと思っているだろう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。番頭が奉公人へ厳しく倹約を言い渡す。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "片づかないから、もう一度やって確かめる。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "やり直すたび道具と登場人物が増えている。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "番頭が奉公人へ厳しく倹約を言い渡す。ここまでは筋書き通りだ。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "筋書きが困って、こちらを見ているぞ。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "なら最後は、自分で落とし前をつけよう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "落とし前とオチを同じ棚に置くな。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_kimono"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "bg",
+      "src": "cherry_boat",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "cherry_boat"
+    },
+    {
+      "op": "nar",
+      "text": "第2景「花見の舟」。休日の番頭が派手な姿で芸者衆と遊ぶ。"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "akane",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "さて「花見の舟」だ。休日の番頭が派手な姿で芸者衆と遊ぶ。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "その説明だけで、もう話が脇道へ走っている。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "花見の舟の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "近道なら、さっきと同じ所へ戻るな。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "肝心なのは、規律の仮面の奥にある人間らしさを、主人は見ているということだ。",
+      "eyes": "surprise",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "急に教訓を置けば片づくと思っているだろう。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。休日の番頭が派手な姿で芸者衆と遊ぶ。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "片づかないから、もう一度やって確かめる。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "やり直すたび道具と登場人物が増えている。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "休日の番頭が派手な姿で芸者衆と遊ぶ。ここまでは筋書き通りだ。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "筋書きが困って、こちらを見ているぞ。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "なら最後は、自分で落とし前をつけよう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "落とし前とオチを同じ棚に置くな。",
+      "eyes": "fun"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "hide",
+      "actor": "akane"
+    },
+    {
+      "op": "bg",
+      "src": "garden_meeting",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "garden_meeting"
+    },
+    {
+      "op": "nar",
+      "text": "第3景「桜の鉢合わせ」。目隠し遊びの番頭が旦那へ抱きついてしまう。"
+    },
+    {
+      "op": "show",
+      "actor": "rei_kimono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "さて「桜の鉢合わせ」だ。目隠し遊びの番頭が旦那へ抱きついてしまう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "その説明だけで、もう話が脇道へ走っている。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
+      "eyes": "fun"
+    },
+    {
+      "op": "nar",
+      "text": "桜の鉢合わせの空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "近道なら、さっきと同じ所へ戻るな。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "肝心なのは、規律の仮面の奥にある人間らしさを、主人は見ているということだ。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "急に教訓を置けば片づくと思っているだろう。",
+      "eyes": "closed"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。目隠し遊びの番頭が旦那へ抱きついてしまう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "片づかないから、もう一度やって確かめる。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "やり直すたび道具と登場人物が増えている。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "目隠し遊びの番頭が旦那へ抱きついてしまう。ここまでは筋書き通りだ。",
+      "eyes": "anger"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "筋書きが困って、こちらを見ているぞ。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "なら最後は、自分で落とし前をつけよう。",
+      "eyes": "fun"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "落とし前とオチを同じ棚に置くな。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_kimono"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "bg",
+      "src": "night_anxiety",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "night_anxiety"
+    },
+    {
+      "op": "nar",
+      "text": "第4景「眠れない番頭部屋」。解雇を覚悟した番頭が一晩中言い訳を考える。"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "akane",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "さて「眠れない番頭部屋」だ。解雇を覚悟した番頭が一晩中言い訳を考える。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "その説明だけで、もう話が脇道へ走っている。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "眠れない番頭部屋の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "近道なら、さっきと同じ所へ戻るな。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "肝心なのは、規律の仮面の奥にある人間らしさを、主人は見ているということだ。",
+      "eyes": "closed",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "急に教訓を置けば片づくと思っているだろう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。解雇を覚悟した番頭が一晩中言い訳を考える。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "片づかないから、もう一度やって確かめる。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "やり直すたび道具と登場人物が増えている。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "解雇を覚悟した番頭が一晩中言い訳を考える。ここまでは筋書き通りだ。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "筋書きが困って、こちらを見ているぞ。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "なら最後は、自分で落とし前をつけよう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "落とし前とオチを同じ棚に置くな。",
+      "eyes": "crying"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "hide",
+      "actor": "akane"
+    },
+    {
+      "op": "bg",
+      "src": "morning_parable",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "morning_parable"
+    },
+    {
+      "op": "nar",
+      "text": "第5景「朝の主人の話」。旦那が大木と土のたとえで信頼を伝える。"
+    },
+    {
+      "op": "show",
+      "actor": "rei_kimono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "さて「朝の主人の話」だ。旦那が大木と土のたとえで信頼を伝える。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "その説明だけで、もう話が脇道へ走っている。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "朝の主人の話の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "近道なら、さっきと同じ所へ戻るな。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "肝心なのは、規律の仮面の奥にある人間らしさを、主人は見ているということだ。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "急に教訓を置けば片づくと思っているだろう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。旦那が大木と土のたとえで信頼を伝える。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "片づかないから、もう一度やって確かめる。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "やり直すたび道具と登場人物が増えている。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "旦那が大木と土のたとえで信頼を伝える。ここまでは筋書き通りだ。",
+      "eyes": "fun"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "筋書きが困って、こちらを見ているぞ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "なら最後は、自分で落とし前をつけよう。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "落とし前とオチを同じ棚に置くな。",
+      "eyes": "closed"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_kimono"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "物語はここまで。残った問いは「規律の仮面の奥にある人間らしさを、主人は見ている」。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ご来場、ありがとうございました。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

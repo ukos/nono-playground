@@ -1,0 +1,728 @@
+{
+  "meta": {
+    "id": "akagaki-tokkuri",
+    "number": 151,
+    "title": "赤穂義士伝・赤垣源蔵 徳利の別れ ―兄の羽織―",
+    "original": "古典講談『赤穂義士伝・赤垣源蔵』（伝統演目）",
+    "category": "講談",
+    "adaptation": "faithful",
+    "format": "v3",
+    "minutes": 36,
+    "synopsis": "全五景で「会えない相手へ語る言葉も、別れを届けることがある」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+    "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "赤垣源蔵",
+      "actor": "rei_casual",
+      "costume": "default"
+    },
+    {
+      "role": "兄の羽織",
+      "actor": "nono_whitecat",
+      "costume": "default"
+    },
+    {
+      "role": "下女",
+      "actor": "mei",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "brother_house": "bg/akagaki-tokkuri-brother_house-2048x1152.png",
+    "empty_room": "bg/akagaki-tokkuri-empty_room-2048x1152.png",
+    "sake_cup": "bg/akagaki-tokkuri-sake_cup-2048x1152.png",
+    "silent_bow": "bg/akagaki-tokkuri-silent_bow-2048x1152.png",
+    "winter_street": "bg/akagaki-tokkuri-winter_street-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『赤穂義士伝・赤垣源蔵徳利の別れ』。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "講談の一席を、全五景でお届けします。",
+      "mouth": "open",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "この舞台の核は「会えない相手へ語る言葉も、別れを届けることがある」。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "台詞はすべて今夜のための書き下ろしです。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "それでは、幕を開けましょう。",
+      "mouth": "open",
+      "eyes": "joy"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "brother_house",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "brother_house"
+    },
+    {
+      "op": "nar",
+      "text": "第1景「兄の留守宅」。討入前の源蔵が兄へ別れを告げに訪れる。"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "nono_whitecat",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "「兄の留守宅」へ来た。討入前の源蔵が兄へ別れを告げに訪れる。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "ここで黙れば、誰かが代わりに意味を決める。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "私が守りたいのは「会えない相手へ語る言葉も、別れを届けることがある」だ。",
+      "eyes": "anger"
+    },
+    {
+      "op": "nar",
+      "text": "兄の留守宅の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "過去は変えられない。だが次の手は選べる。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。討入前の源蔵が兄へ別れを告げに訪れる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "討入前の源蔵が兄へ別れを告げに訪れる。その事実から目をそらさない。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "恐れを消すのではなく、恐れたまま進もう。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "私の名ではなく、行いで答えを残す。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "その答えを、次の場面まで持って行こう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "ここで決める。逃げず、相手の声を聞く。",
+      "eyes": "anger"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "ならば私も、その決断の重さを分け合う。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "nono_whitecat"
+    },
+    {
+      "op": "bg",
+      "src": "empty_room",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "empty_room"
+    },
+    {
+      "op": "nar",
+      "text": "第2景「誰もいない座敷」。不在と知り兄の羽織を座らせて向き合う。"
+    },
+    {
+      "op": "show",
+      "actor": "mei",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "「誰もいない座敷」へ来た。不在と知り兄の羽織を座らせて向き合う。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "ここで黙れば、誰かが代わりに意味を決める。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "私が守りたいのは「会えない相手へ語る言葉も、別れを届けることがある」だ。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "誰もいない座敷の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+      "eyes": "surprise",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "過去は変えられない。だが次の手は選べる。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。不在と知り兄の羽織を座らせて向き合う。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "不在と知り兄の羽織を座らせて向き合う。その事実から目をそらさない。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "恐れを消すのではなく、恐れたまま進もう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "私の名ではなく、行いで答えを残す。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "その答えを、次の場面まで持って行こう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "ここで決める。逃げず、相手の声を聞く。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "ならば私も、その決断の重さを分け合う。",
+      "eyes": "fun"
+    },
+    {
+      "op": "hide",
+      "actor": "mei"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "bg",
+      "src": "sake_cup",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "sake_cup"
+    },
+    {
+      "op": "nar",
+      "text": "第3景「徳利と杯」。一人二役で酒を酌み交わし昔の思い出を語る。"
+    },
+    {
+      "op": "show",
+      "actor": "nono_whitecat",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "mei",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "「徳利と杯」へ来た。一人二役で酒を酌み交わし昔の思い出を語る。",
+      "eyes": "anger",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "ここで黙れば、誰かが代わりに意味を決める。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "私が守りたいのは「会えない相手へ語る言葉も、別れを届けることがある」だ。",
+      "eyes": "fun"
+    },
+    {
+      "op": "nar",
+      "text": "徳利と杯の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+      "eyes": "crying",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "過去は変えられない。だが次の手は選べる。",
+      "eyes": "closed"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。一人二役で酒を酌み交わし昔の思い出を語る。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "一人二役で酒を酌み交わし昔の思い出を語る。その事実から目をそらさない。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "恐れを消すのではなく、恐れたまま進もう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "私の名ではなく、行いで答えを残す。",
+      "eyes": "anger",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "その答えを、次の場面まで持って行こう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "ここで決める。逃げず、相手の声を聞く。",
+      "eyes": "fun"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "ならば私も、その決断の重さを分け合う。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "nono_whitecat"
+    },
+    {
+      "op": "hide",
+      "actor": "mei"
+    },
+    {
+      "op": "bg",
+      "src": "silent_bow",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "silent_bow"
+    },
+    {
+      "op": "nar",
+      "text": "第4景「羽織への礼」。真意を紙にも残さず深く頭を下げる。"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "nono_whitecat",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "「羽織への礼」へ来た。真意を紙にも残さず深く頭を下げる。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "ここで黙れば、誰かが代わりに意味を決める。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "私が守りたいのは「会えない相手へ語る言葉も、別れを届けることがある」だ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "羽織への礼の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "過去は変えられない。だが次の手は選べる。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。真意を紙にも残さず深く頭を下げる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "真意を紙にも残さず深く頭を下げる。その事実から目をそらさない。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "恐れを消すのではなく、恐れたまま進もう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "私の名ではなく、行いで答えを残す。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "その答えを、次の場面まで持って行こう。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "ここで決める。逃げず、相手の声を聞く。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "ならば私も、その決断の重さを分け合う。",
+      "eyes": "crying"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "nono_whitecat"
+    },
+    {
+      "op": "bg",
+      "src": "winter_street",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "winter_street"
+    },
+    {
+      "op": "nar",
+      "text": "第5景「冬の帰路」。空の徳利を置き源蔵が静かに討入へ向かう。"
+    },
+    {
+      "op": "show",
+      "actor": "mei",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "「冬の帰路」へ来た。空の徳利を置き源蔵が静かに討入へ向かう。",
+      "eyes": "fun",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "ここで黙れば、誰かが代わりに意味を決める。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "私が守りたいのは「会えない相手へ語る言葉も、別れを届けることがある」だ。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "冬の帰路の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "過去は変えられない。だが次の手は選べる。",
+      "eyes": "joy"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。空の徳利を置き源蔵が静かに討入へ向かう。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "空の徳利を置き源蔵が静かに討入へ向かう。その事実から目をそらさない。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "恐れを消すのではなく、恐れたまま進もう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "私の名ではなく、行いで答えを残す。",
+      "eyes": "fun",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "その答えを、次の場面まで持って行こう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "ここで決める。逃げず、相手の声を聞く。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "ならば私も、その決断の重さを分け合う。",
+      "eyes": "closed"
+    },
+    {
+      "op": "hide",
+      "actor": "mei"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "物語はここまで。残った問いは「会えない相手へ語る言葉も、別れを届けることがある」。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ご来場、ありがとうございました。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

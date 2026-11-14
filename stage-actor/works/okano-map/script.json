@@ -1,0 +1,773 @@
+{
+ "meta": {
+  "id": "okano-map",
+  "number": 152,
+  "title": "赤穂義士伝・岡野金右衛門 恋の絵図面取り ―恋文の裏側―",
+  "original": "古典講談『赤穂義士伝・岡野金右衛門』（伝統演目）",
+  "category": "講談",
+  "adaptation": "moderate",
+  "format": "v3",
+  "minutes": 40,
+  "synopsis": "全五景で「大義のためでも、他人の心を道具にする痛みは残る」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+  "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
+  },
+  {
+   "role": "岡野金右衛門",
+   "actor": "rei_casual",
+   "costume": "default"
+  },
+  {
+   "role": "お艶",
+   "actor": "yui",
+   "costume": "default"
+  },
+  {
+   "role": "父の大工",
+   "actor": "extra_craftsman",
+   "costume": "default"
+  },
+  {
+   "role": "大石内蔵助",
+   "actor": "rei_kimono",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "print_shop": "bg/okano-map-print_shop-2048x1152.png",
+  "bridge_dates": "bg/okano-map-bridge_dates-2048x1152.png",
+  "carpenter_room": "bg/okano-map-carpenter_room-2048x1152.png",
+  "love_letter_map": "bg/okano-map-love_letter_map-2048x1152.png",
+  "farewell_truth": "bg/okano-map-farewell_truth-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ようこそ、NONO座へ。本日の演目は『赤穂義士伝・岡野金右衛門恋の絵図面取り』。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "講談の一席を、全五景でお届けします。",
+   "mouth": "open",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "この舞台の核は「大義のためでも、他人の心を道具にする痛みは残る」。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "台詞はすべて今夜のための書き下ろしです。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "それでは、幕を開けましょう。",
+   "mouth": "open",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "print_shop",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "print_shop"
+  },
+  {
+   "op": "nar",
+   "text": "第1景「町人姿の潜伏」。岡野が大工の娘お艶へ近づき吉良邸の情報を探る。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "「町人姿の潜伏」へ来た。岡野が大工の娘お艶へ近づき吉良邸の情報を探る。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "ここで黙れば、誰かが代わりに意味を決める。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "私が守りたいのは「大義のためでも、他人の心を道具にする痛みは残る」だ。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "町人姿の潜伏の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "過去は変えられない。だが次の手は選べる。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。岡野が大工の娘お艶へ近づき吉良邸の情報を探る。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "岡野が大工の娘お艶へ近づき吉良邸の情報を探る。その事実から目をそらさない。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "恐れを消すのではなく、恐れたまま進もう。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "私の名ではなく、行いで答えを残す。",
+   "eyes": "normal"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "その答えを、次の場面まで持って行こう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "ここで決める。逃げず、相手の声を聞く。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "ならば私も、その決断の重さを分け合う。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "bg",
+   "src": "bridge_dates",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "bridge_dates"
+  },
+  {
+   "op": "nar",
+   "text": "第2景「橋の逢瀬」。本当の情と任務の嘘が同じ会話に混じる。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_craftsman",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "「橋の逢瀬」へ来た。本当の情と任務の嘘が同じ会話に混じる。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "ここで黙れば、誰かが代わりに意味を決める。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "私が守りたいのは「大義のためでも、他人の心を道具にする痛みは残る」だ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "橋の逢瀬の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "過去は変えられない。だが次の手は選べる。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。本当の情と任務の嘘が同じ会話に混じる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "本当の情と任務の嘘が同じ会話に混じる。その事実から目をそらさない。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "恐れを消すのではなく、恐れたまま進もう。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "私の名ではなく、行いで答えを残す。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "その答えを、次の場面まで持って行こう。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "ここで決める。逃げず、相手の声を聞く。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "ならば私も、その決断の重さを分け合う。",
+   "eyes": "fun"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_craftsman"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "bg",
+   "src": "carpenter_room",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "carpenter_room"
+  },
+  {
+   "op": "nar",
+   "text": "第3景「大工の仕事場」。吉良邸絵図面の保管場所を知る。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "「大工の仕事場」へ来た。吉良邸絵図面の保管場所を知る。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "ここで黙れば、誰かが代わりに意味を決める。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "私が守りたいのは「大義のためでも、他人の心を道具にする痛みは残る」だ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "nar",
+   "text": "大工の仕事場の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "過去は変えられない。だが次の手は選べる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。吉良邸絵図面の保管場所を知る。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "吉良邸絵図面の保管場所を知る。その事実から目をそらさない。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "恐れを消すのではなく、恐れたまま進もう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "私の名ではなく、行いで答えを残す。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "その答えを、次の場面まで持って行こう。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "ここで決める。逃げず、相手の声を聞く。",
+   "eyes": "fun"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "ならば私も、その決断の重さを分け合う。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "bg",
+   "src": "love_letter_map",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "love_letter_map"
+  },
+  {
+   "op": "nar",
+   "text": "第4景「恋文と絵図面」。お艶が信頼の証として父の絵図面を持ち出す。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_craftsman",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "「恋文と絵図面」へ来た。お艶が信頼の証として父の絵図面を持ち出す。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "ここで黙れば、誰かが代わりに意味を決める。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "私が守りたいのは「大義のためでも、他人の心を道具にする痛みは残る」だ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "恋文と絵図面の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+   "eyes": "closed",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "過去は変えられない。だが次の手は選べる。",
+   "eyes": "normal"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。お艶が信頼の証として父の絵図面を持ち出す。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "お艶が信頼の証として父の絵図面を持ち出す。その事実から目をそらさない。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "恐れを消すのではなく、恐れたまま進もう。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "私の名ではなく、行いで答えを残す。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "その答えを、次の場面まで持って行こう。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "ここで決める。逃げず、相手の声を聞く。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "ならば私も、その決断の重さを分け合う。",
+   "eyes": "crying"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "正面から問いかける",
+     "jump": "okano-map_direct"
+    },
+    {
+     "text": "相手の話を最後まで聞く",
+     "jump": "okano-map_listen"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "okano-map_direct"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "私は正面から問う。曖昧なまま次へは進まない。"
+  },
+  {
+   "op": "jump",
+   "to": "okano-map_merge"
+  },
+  {
+   "op": "label",
+   "id": "okano-map_listen"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "結論を急がず、相手が何を恐れているかまで聞こう。"
+  },
+  {
+   "op": "label",
+   "id": "okano-map_merge"
+  },
+  {
+   "op": "nar",
+   "text": "選び方は違っても、二人は同じ核心へ戻ってくる。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_craftsman"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "bg",
+   "src": "farewell_truth",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "farewell_truth"
+  },
+  {
+   "op": "nar",
+   "text": "第5景「討入前の告白」。岡野が利用した事実と本心を告げ別れを選ぶ。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "「討入前の告白」へ来た。岡野が利用した事実と本心を告げ別れを選ぶ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "ここで黙れば、誰かが代わりに意味を決める。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "私が守りたいのは「大義のためでも、他人の心を道具にする痛みは残る」だ。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "討入前の告白の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "過去は変えられない。だが次の手は選べる。",
+   "eyes": "joy"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。岡野が利用した事実と本心を告げ別れを選ぶ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "岡野が利用した事実と本心を告げ別れを選ぶ。その事実から目をそらさない。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "恐れを消すのではなく、恐れたまま進もう。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "私の名ではなく、行いで答えを残す。",
+   "eyes": "fun"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "その答えを、次の場面まで持って行こう。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "ここで決める。逃げず、相手の声を聞く。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "ならば私も、その決断の重さを分け合う。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "物語はここまで。残った問いは「大義のためでも、他人の心を道具にする痛みは残る」。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ご来場、ありがとうございました。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "end"
+  }
+ ]
+}

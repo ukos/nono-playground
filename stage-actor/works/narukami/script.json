@@ -1,0 +1,747 @@
+{
+ "meta": {
+  "id": "narukami",
+  "number": 106,
+  "title": "鳴神 ―絶間の雨―",
+  "original": "歌舞伎十八番『鳴神』（伝統演目・著作権消滅）",
+  "category": "能・歌舞伎",
+  "adaptation": "moderate",
+  "format": "v3",
+  "minutes": 32,
+  "synopsis": "全五景で「正しさを独占した怒りは、容易に操られる」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+  "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
+  },
+  {
+   "role": "鳴神上人",
+   "actor": "homura",
+   "costume": "default"
+  },
+  {
+   "role": "雲の絶間姫",
+   "actor": "akane",
+   "costume": "default"
+  },
+  {
+   "role": "寺男",
+   "actor": "extra_craftsman",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "rock_temple": "bg/narukami-rock_temple-2048x1152.png",
+  "false_grief": "bg/narukami-false_grief-2048x1152.png",
+  "wine_vow": "bg/narukami-wine_vow-2048x1152.png",
+  "broken_rope": "bg/narukami-broken_rope-2048x1152.png",
+  "thunder_rage": "bg/narukami-thunder_rage-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ようこそ、NONO座へ。本日の演目は『鳴神』。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "能・歌舞伎の一席を、全五景でお届けします。",
+   "mouth": "open",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "この舞台の核は「正しさを独占した怒りは、容易に操られる」。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "台詞はすべて今夜のための書き下ろしです。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "それでは、幕を開けましょう。",
+   "mouth": "open",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "rock_temple",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "rock_temple"
+  },
+  {
+   "op": "nar",
+   "text": "第1景「岩屋の寺」。鳴神上人が竜神を封じ雨を止めている。"
+  },
+  {
+   "op": "show",
+   "actor": "homura",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "「岩屋の寺」へ来た。鳴神上人が竜神を封じ雨を止めている。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "ここで黙れば、誰かが代わりに意味を決める。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "私が守りたいのは「正しさを独占した怒りは、容易に操られる」だ。"
+  },
+  {
+   "op": "nar",
+   "text": "岩屋の寺の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "ならば勝ち負けだけでなく、支払う代価も見る。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "過去は変えられない。だが次の手は選べる。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。鳴神上人が竜神を封じ雨を止めている。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "鳴神上人が竜神を封じ雨を止めている。その事実から目をそらさない。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "恐れを消すのではなく、恐れたまま進もう。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "私の名ではなく、行いで答えを残す。"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "その答えを、次の場面まで持って行こう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "ここで決める。逃げず、相手の声を聞く。"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "ならば私も、その決断の重さを分け合う。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "homura"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "bg",
+   "src": "false_grief",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "false_grief"
+  },
+  {
+   "op": "nar",
+   "text": "第2景「姫の偽りの嘆き」。絶間姫が夫を失った女を装い上人へ近づく。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_craftsman",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "homura",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "「姫の偽りの嘆き」へ来た。絶間姫が夫を失った女を装い上人へ近づく。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "ここで黙れば、誰かが代わりに意味を決める。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "私が守りたいのは「正しさを独占した怒りは、容易に操られる」だ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "姫の偽りの嘆きの空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "守るという言葉が、誰かの犠牲を隠していないか。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "過去は変えられない。だが次の手は選べる。"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。絶間姫が夫を失った女を装い上人へ近づく。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "絶間姫が夫を失った女を装い上人へ近づく。その事実から目をそらさない。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "恐れを消すのではなく、恐れたまま進もう。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "私の名ではなく、行いで答えを残す。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "その答えを、次の場面まで持って行こう。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "ここで決める。逃げず、相手の声を聞く。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "ならば私も、その決断の重さを分け合う。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_craftsman"
+  },
+  {
+   "op": "hide",
+   "actor": "homura"
+  },
+  {
+   "op": "bg",
+   "src": "wine_vow",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "wine_vow"
+  },
+  {
+   "op": "nar",
+   "text": "第3景「酒と破戒」。酒と恋に心を許した上人が封印の秘密を漏らす。"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_craftsman",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "「酒と破戒」へ来た。酒と恋に心を許した上人が封印の秘密を漏らす。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "ここで黙れば、誰かが代わりに意味を決める。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "私が守りたいのは「正しさを独占した怒りは、容易に操られる」だ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "nar",
+   "text": "酒と破戒の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+   "eyes": "crying",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "過去は変えられない。だが次の手は選べる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。酒と恋に心を許した上人が封印の秘密を漏らす。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "酒と恋に心を許した上人が封印の秘密を漏らす。その事実から目をそらさない。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "恐れを消すのではなく、恐れたまま進もう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "私の名ではなく、行いで答えを残す。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "その答えを、次の場面まで持って行こう。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "ここで決める。逃げず、相手の声を聞く。",
+   "eyes": "fun"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "ならば私も、その決断の重さを分け合う。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_craftsman"
+  },
+  {
+   "op": "bg",
+   "src": "broken_rope",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "broken_rope"
+  },
+  {
+   "op": "nar",
+   "text": "第4景「切られた注連縄」。姫が注連縄を切り竜神と雨を解き放つ。"
+  },
+  {
+   "op": "show",
+   "actor": "homura",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "「切られた注連縄」へ来た。姫が注連縄を切り竜神と雨を解き放つ。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "ここで黙れば、誰かが代わりに意味を決める。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "私が守りたいのは「正しさを独占した怒りは、容易に操られる」だ。"
+  },
+  {
+   "op": "nar",
+   "text": "切られた注連縄の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "ならば勝ち負けだけでなく、支払う代価も見る。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "過去は変えられない。だが次の手は選べる。",
+   "eyes": "normal"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。姫が注連縄を切り竜神と雨を解き放つ。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "姫が注連縄を切り竜神と雨を解き放つ。その事実から目をそらさない。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "恐れを消すのではなく、恐れたまま進もう。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "私の名ではなく、行いで答えを残す。"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "その答えを、次の場面まで持って行こう。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "ここで決める。逃げず、相手の声を聞く。"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "ならば私も、その決断の重さを分け合う。",
+   "eyes": "crying"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "正面から問いかける",
+     "jump": "narukami_direct"
+    },
+    {
+     "text": "相手の話を最後まで聞く",
+     "jump": "narukami_listen"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "narukami_direct"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "私は正面から問う。曖昧なまま次へは進まない。"
+  },
+  {
+   "op": "jump",
+   "to": "narukami_merge"
+  },
+  {
+   "op": "label",
+   "id": "narukami_listen"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "結論を急がず、相手が何を恐れているかまで聞こう。"
+  },
+  {
+   "op": "label",
+   "id": "narukami_merge"
+  },
+  {
+   "op": "nar",
+   "text": "選び方は違っても、二人は同じ核心へ戻ってくる。"
+  },
+  {
+   "op": "hide",
+   "actor": "homura"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "bg",
+   "src": "thunder_rage",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "thunder_rage"
+  },
+  {
+   "op": "nar",
+   "text": "第5景「雷鳴の怒り」。欺かれた上人が荒れ狂い追跡を誓う。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_craftsman",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "homura",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "「雷鳴の怒り」へ来た。欺かれた上人が荒れ狂い追跡を誓う。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "ここで黙れば、誰かが代わりに意味を決める。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "私が守りたいのは「正しさを独占した怒りは、容易に操られる」だ。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "雷鳴の怒りの空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "守るという言葉が、誰かの犠牲を隠していないか。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "過去は変えられない。だが次の手は選べる。"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。欺かれた上人が荒れ狂い追跡を誓う。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "欺かれた上人が荒れ狂い追跡を誓う。その事実から目をそらさない。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "恐れを消すのではなく、恐れたまま進もう。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "私の名ではなく、行いで答えを残す。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "その答えを、次の場面まで持って行こう。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "ここで決める。逃げず、相手の声を聞く。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "ならば私も、その決断の重さを分け合う。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_craftsman"
+  },
+  {
+   "op": "hide",
+   "actor": "homura"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "物語はここまで。残った問いは「正しさを独占した怒りは、容易に操られる」。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ご来場、ありがとうございました。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "end"
+  }
+ ]
+}

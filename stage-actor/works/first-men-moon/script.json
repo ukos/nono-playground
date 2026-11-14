@@ -1,0 +1,722 @@
+{
+  "meta": {
+    "id": "first-men-moon",
+    "number": 116,
+    "title": "月世界最初の人間 ―カヴォライトの球―",
+    "original": "H. G. Wells, The First Men in the Moon（原典著作権消滅）",
+    "category": "SF",
+    "adaptation": "faithful",
+    "format": "v3",
+    "minutes": 44,
+    "synopsis": "全五景で「未知の社会を見る時、人類の常識も観察されている」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+    "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "ベッドフォード",
+      "actor": "rei_rider",
+      "costume": "default"
+    },
+    {
+      "role": "ケイヴァー",
+      "actor": "extra_wizard",
+      "costume": "default"
+    },
+    {
+      "role": "月人の大頭",
+      "actor": "extra_elder",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "cavorite_lab": "bg/first-men-moon-cavorite_lab-2048x1152.png",
+    "moon_plain": "bg/first-men-moon-moon_plain-2048x1152.png",
+    "selenite_caves": "bg/first-men-moon-selenite_caves-2048x1152.png",
+    "grand_lunar": "bg/first-men-moon-grand_lunar-2048x1152.png",
+    "radio_silence": "bg/first-men-moon-radio_silence-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『月世界最初の人間』。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "SFの一席を、全五景でお届けします。",
+      "mouth": "open",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "この舞台の核は「未知の社会を見る時、人類の常識も観察されている」。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "台詞はすべて今夜のための書き下ろしです。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "それでは、幕を開けましょう。",
+      "mouth": "open",
+      "eyes": "joy"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "cavorite_lab",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "cavorite_lab"
+    },
+    {
+      "op": "nar",
+      "text": "第1景「カヴォライト実験室」。重力を遮る新物質と球形宇宙船が完成する。"
+    },
+    {
+      "op": "show",
+      "actor": "rei_rider",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_wizard",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "「カヴォライト実験室」で常識の境界が動き始めた。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "重力を遮る新物質と球形宇宙船が完成する。観測した事実はそれだけだ。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "可能だから使う、では理由にならない。",
+      "eyes": "anger"
+    },
+    {
+      "op": "nar",
+      "text": "カヴォライト実験室の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "使わなければ、別の誰かが先に使う。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "だからこそ「未知の社会を見る時、人類の常識も観察されている」を問い続ける。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "技術の速さに、判断の速さが追いついていない。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。重力を遮る新物質と球形宇宙船が完成する。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "未知を敵と決めず、条件を一つずつ調べよう。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "だが観察している私たちも観察されている。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "重力を遮る新物質と球形宇宙船が完成する。ここで未来の分岐が生まれる。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "選択の結果を、発明のせいだけにはできない。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "記録を残そう。次の者が同じ盲点へ落ちぬように。",
+      "eyes": "anger"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "そして戻れなくても、責任からは逃げない。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_rider"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_wizard"
+    },
+    {
+      "op": "bg",
+      "src": "moon_plain",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "moon_plain"
+    },
+    {
+      "op": "nar",
+      "text": "第2景「月の夜明け」。凍った月面に太陽が昇り巨大植物が伸びる。"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_rider",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "「月の夜明け」で常識の境界が動き始めた。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "凍った月面に太陽が昇り巨大植物が伸びる。観測した事実はそれだけだ。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "可能だから使う、では理由にならない。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "月の夜明けの空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "使わなければ、別の誰かが先に使う。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "だからこそ「未知の社会を見る時、人類の常識も観察されている」を問い続ける。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "技術の速さに、判断の速さが追いついていない。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。凍った月面に太陽が昇り巨大植物が伸びる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "未知を敵と決めず、条件を一つずつ調べよう。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "だが観察している私たちも観察されている。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "凍った月面に太陽が昇り巨大植物が伸びる。ここで未来の分岐が生まれる。",
+      "eyes": "joy"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "選択の結果を、発明のせいだけにはできない。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "記録を残そう。次の者が同じ盲点へ落ちぬように。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "そして戻れなくても、責任からは逃げない。",
+      "eyes": "fun"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_rider"
+    },
+    {
+      "op": "bg",
+      "src": "selenite_caves",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "selenite_caves"
+    },
+    {
+      "op": "nar",
+      "text": "第3景「月人の地下都市」。月人セレナイトの分業社会に捕らえられる。"
+    },
+    {
+      "op": "show",
+      "actor": "extra_wizard",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "「月人の地下都市」で常識の境界が動き始めた。",
+      "eyes": "anger",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "月人セレナイトの分業社会に捕らえられる。観測した事実はそれだけだ。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "可能だから使う、では理由にならない。",
+      "eyes": "fun"
+    },
+    {
+      "op": "nar",
+      "text": "月人の地下都市の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "使わなければ、別の誰かが先に使う。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "だからこそ「未知の社会を見る時、人類の常識も観察されている」を問い続ける。",
+      "eyes": "crying",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "技術の速さに、判断の速さが追いついていない。",
+      "eyes": "closed"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。月人セレナイトの分業社会に捕らえられる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "未知を敵と決めず、条件を一つずつ調べよう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "だが観察している私たちも観察されている。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "月人セレナイトの分業社会に捕らえられる。ここで未来の分岐が生まれる。",
+      "eyes": "anger",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "選択の結果を、発明のせいだけにはできない。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "記録を残そう。次の者が同じ盲点へ落ちぬように。",
+      "eyes": "fun"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "そして戻れなくても、責任からは逃げない。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_wizard"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "bg",
+      "src": "grand_lunar",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "grand_lunar"
+    },
+    {
+      "op": "nar",
+      "text": "第4景「大頭との対話」。ケイヴァーが人類の戦争と競争を説明する。"
+    },
+    {
+      "op": "show",
+      "actor": "rei_rider",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_wizard",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "「大頭との対話」で常識の境界が動き始めた。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "ケイヴァーが人類の戦争と競争を説明する。観測した事実はそれだけだ。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "可能だから使う、では理由にならない。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "大頭との対話の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "使わなければ、別の誰かが先に使う。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "だからこそ「未知の社会を見る時、人類の常識も観察されている」を問い続ける。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "技術の速さに、判断の速さが追いついていない。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。ケイヴァーが人類の戦争と競争を説明する。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "未知を敵と決めず、条件を一つずつ調べよう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "だが観察している私たちも観察されている。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "ケイヴァーが人類の戦争と競争を説明する。ここで未来の分岐が生まれる。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "選択の結果を、発明のせいだけにはできない。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "記録を残そう。次の者が同じ盲点へ落ちぬように。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "そして戻れなくても、責任からは逃げない。",
+      "eyes": "crying"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_rider"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_wizard"
+    },
+    {
+      "op": "bg",
+      "src": "radio_silence",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "radio_silence"
+    },
+    {
+      "op": "nar",
+      "text": "第5景「地球の受信室」。月からの通信が途切れ未知への問いだけが残る。"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_rider",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "「地球の受信室」で常識の境界が動き始めた。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "月からの通信が途切れ未知への問いだけが残る。観測した事実はそれだけだ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "可能だから使う、では理由にならない。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "地球の受信室の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "使わなければ、別の誰かが先に使う。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "だからこそ「未知の社会を見る時、人類の常識も観察されている」を問い続ける。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "技術の速さに、判断の速さが追いついていない。",
+      "eyes": "joy"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。月からの通信が途切れ未知への問いだけが残る。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "未知を敵と決めず、条件を一つずつ調べよう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "だが観察している私たちも観察されている。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "月からの通信が途切れ未知への問いだけが残る。ここで未来の分岐が生まれる。",
+      "eyes": "fun"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "選択の結果を、発明のせいだけにはできない。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "記録を残そう。次の者が同じ盲点へ落ちぬように。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_rider",
+      "text": "そして戻れなくても、責任からは逃げない。",
+      "eyes": "closed"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_rider"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "物語はここまで。残った問いは「未知の社会を見る時、人類の常識も観察されている」。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ご来場、ありがとうございました。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

@@ -1,0 +1,770 @@
+{
+  "meta": {
+    "id": "tenpo-rokkasen",
+    "number": 145,
+    "title": "天保六花撰 ―江戸悪党群像―",
+    "original": "古典講談『天保六花撰』（伝統演目）",
+    "category": "講談",
+    "adaptation": "free",
+    "format": "v3",
+    "minutes": 46,
+    "synopsis": "全五景で「悪名で結ばれた者たちにも、それぞれの義理と弱さがある」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+    "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "河内山宗俊",
+      "actor": "tanurio",
+      "costume": "default"
+    },
+    {
+      "role": "直侍",
+      "actor": "rei_kimono",
+      "costume": "default"
+    },
+    {
+      "role": "三千歳",
+      "actor": "akane",
+      "costume": "default"
+    },
+    {
+      "role": "金子市之丞",
+      "actor": "hayate",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "edo_backstreet": "bg/tenpo-rokkasen-edo_backstreet-2048x1152.png",
+    "palace_disguise": "bg/tenpo-rokkasen-palace_disguise-2048x1152.png",
+    "yoshiwara_rain": "bg/tenpo-rokkasen-yoshiwara_rain-2048x1152.png",
+    "six_paths": "bg/tenpo-rokkasen-six_paths-2048x1152.png",
+    "snow_arrest": "bg/tenpo-rokkasen-snow_arrest-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『天保六花撰』。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "講談の一席を、全五景でお届けします。",
+      "mouth": "open",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "この舞台の核は「悪名で結ばれた者たちにも、それぞれの義理と弱さがある」。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "台詞はすべて今夜のための書き下ろしです。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "それでは、幕を開けましょう。",
+      "mouth": "open",
+      "eyes": "joy"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "edo_backstreet",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "edo_backstreet"
+    },
+    {
+      "op": "nar",
+      "text": "第1景「江戸の裏長屋」。悪党と侠客の噂が一つの金策へ集まり始める。"
+    },
+    {
+      "op": "show",
+      "actor": "tanurio",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_kimono",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "「江戸の裏長屋」へ来た。悪党と侠客の噂が一つの金策へ集まり始める。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "ここで黙れば、誰かが代わりに意味を決める。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "私が守りたいのは「悪名で結ばれた者たちにも、それぞれの義理と弱さがある」だ。",
+      "eyes": "anger"
+    },
+    {
+      "op": "nar",
+      "text": "江戸の裏長屋の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+      "eyes": "fun",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "過去は変えられない。だが次の手は選べる。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。悪党と侠客の噂が一つの金策へ集まり始める。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "悪党と侠客の噂が一つの金策へ集まり始める。その事実から目をそらさない。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "恐れを消すのではなく、恐れたまま進もう。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "私の名ではなく、行いで答えを残す。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "その答えを、次の場面まで持って行こう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "ここで決める。逃げず、相手の声を聞く。",
+      "eyes": "anger"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "ならば私も、その決断の重さを分け合う。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "hide",
+      "actor": "tanurio"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_kimono"
+    },
+    {
+      "op": "bg",
+      "src": "palace_disguise",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "palace_disguise"
+    },
+    {
+      "op": "nar",
+      "text": "第2景「上屋敷の偽上人」。河内山が高僧に化け大名家へ乗り込む。"
+    },
+    {
+      "op": "show",
+      "actor": "akane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "hayate",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "「上屋敷の偽上人」へ来た。河内山が高僧に化け大名家へ乗り込む。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "ここで黙れば、誰かが代わりに意味を決める。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "私が守りたいのは「悪名で結ばれた者たちにも、それぞれの義理と弱さがある」だ。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "上屋敷の偽上人の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "守るという言葉が、誰かの犠牲を隠していないか。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+      "eyes": "surprise",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "過去は変えられない。だが次の手は選べる。"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。河内山が高僧に化け大名家へ乗り込む。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "河内山が高僧に化け大名家へ乗り込む。その事実から目をそらさない。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "恐れを消すのではなく、恐れたまま進もう。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "私の名ではなく、行いで答えを残す。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "その答えを、次の場面まで持って行こう。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "ここで決める。逃げず、相手の声を聞く。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "ならば私も、その決断の重さを分け合う。"
+    },
+    {
+      "op": "hide",
+      "actor": "akane"
+    },
+    {
+      "op": "hide",
+      "actor": "hayate"
+    },
+    {
+      "op": "bg",
+      "src": "yoshiwara_rain",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "yoshiwara_rain"
+    },
+    {
+      "op": "nar",
+      "text": "第3景「吉原の雨」。直侍と三千歳の恋が追手に引き裂かれる。"
+    },
+    {
+      "op": "show",
+      "actor": "tanurio",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_kimono",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "「吉原の雨」へ来た。直侍と三千歳の恋が追手に引き裂かれる。",
+      "eyes": "anger",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "ここで黙れば、誰かが代わりに意味を決める。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "私が守りたいのは「悪名で結ばれた者たちにも、それぞれの義理と弱さがある」だ。",
+      "eyes": "fun"
+    },
+    {
+      "op": "nar",
+      "text": "吉原の雨の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+      "eyes": "crying",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "過去は変えられない。だが次の手は選べる。",
+      "eyes": "closed"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。直侍と三千歳の恋が追手に引き裂かれる。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "直侍と三千歳の恋が追手に引き裂かれる。その事実から目をそらさない。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "恐れを消すのではなく、恐れたまま進もう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "私の名ではなく、行いで答えを残す。",
+      "eyes": "anger",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "その答えを、次の場面まで持って行こう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "ここで決める。逃げず、相手の声を聞く。",
+      "eyes": "fun"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "ならば私も、その決断の重さを分け合う。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "tanurio"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_kimono"
+    },
+    {
+      "op": "bg",
+      "src": "six_paths",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "six_paths"
+    },
+    {
+      "op": "nar",
+      "text": "第4景「六人の分かれ道」。仲間同士の義理が保身と裏切りで揺れる。"
+    },
+    {
+      "op": "show",
+      "actor": "akane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "hayate",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "「六人の分かれ道」へ来た。仲間同士の義理が保身と裏切りで揺れる。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "ここで黙れば、誰かが代わりに意味を決める。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "私が守りたいのは「悪名で結ばれた者たちにも、それぞれの義理と弱さがある」だ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "六人の分かれ道の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "守るという言葉が、誰かの犠牲を隠していないか。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+      "eyes": "closed",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "過去は変えられない。だが次の手は選べる。"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。仲間同士の義理が保身と裏切りで揺れる。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "仲間同士の義理が保身と裏切りで揺れる。その事実から目をそらさない。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "恐れを消すのではなく、恐れたまま進もう。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "私の名ではなく、行いで答えを残す。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "その答えを、次の場面まで持って行こう。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "ここで決める。逃げず、相手の声を聞く。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "ならば私も、その決断の重さを分け合う。"
+    },
+    {
+      "op": "choice",
+      "options": [
+        {
+          "text": "正面から問いかける",
+          "jump": "tenpo-rokkasen_direct"
+        },
+        {
+          "text": "相手の話を最後まで聞く",
+          "jump": "tenpo-rokkasen_listen"
+        }
+      ]
+    },
+    {
+      "op": "label",
+      "id": "tenpo-rokkasen_direct"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "私は正面から問う。曖昧なまま次へは進まない。"
+    },
+    {
+      "op": "jump",
+      "to": "tenpo-rokkasen_merge"
+    },
+    {
+      "op": "label",
+      "id": "tenpo-rokkasen_listen"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "結論を急がず、相手が何を恐れているかまで聞こう。"
+    },
+    {
+      "op": "label",
+      "id": "tenpo-rokkasen_merge"
+    },
+    {
+      "op": "nar",
+      "text": "選び方は違っても、二人は同じ核心へ戻ってくる。"
+    },
+    {
+      "op": "hide",
+      "actor": "akane"
+    },
+    {
+      "op": "hide",
+      "actor": "hayate"
+    },
+    {
+      "op": "bg",
+      "src": "snow_arrest",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "snow_arrest"
+    },
+    {
+      "op": "nar",
+      "text": "第5景「雪の捕物」。華やかな悪名の後に各人の結末が迫る。"
+    },
+    {
+      "op": "show",
+      "actor": "tanurio",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_kimono",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "「雪の捕物」へ来た。華やかな悪名の後に各人の結末が迫る。",
+      "eyes": "fun",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "ここで黙れば、誰かが代わりに意味を決める。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "私が守りたいのは「悪名で結ばれた者たちにも、それぞれの義理と弱さがある」だ。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "雪の捕物の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "過去は変えられない。だが次の手は選べる。",
+      "eyes": "joy"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。華やかな悪名の後に各人の結末が迫る。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "華やかな悪名の後に各人の結末が迫る。その事実から目をそらさない。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "恐れを消すのではなく、恐れたまま進もう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "私の名ではなく、行いで答えを残す。",
+      "eyes": "fun",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "その答えを、次の場面まで持って行こう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "ここで決める。逃げず、相手の声を聞く。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "ならば私も、その決断の重さを分け合う。",
+      "eyes": "closed"
+    },
+    {
+      "op": "hide",
+      "actor": "tanurio"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_kimono"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "物語はここまで。残った問いは「悪名で結ばれた者たちにも、それぞれの義理と弱さがある」。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ご来場、ありがとうございました。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

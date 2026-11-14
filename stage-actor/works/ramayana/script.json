@@ -1,0 +1,754 @@
+{
+ "meta": {
+  "id": "ramayana",
+  "number": 121,
+  "title": "ラーマーヤナ ―森と橋と帰還―",
+  "original": "インド叙事詩『ラーマーヤナ』（伝統叙事詩）",
+  "category": "神話・叙事詩",
+  "adaptation": "moderate",
+  "format": "v3",
+  "minutes": 48,
+  "synopsis": "全五景で「義務を守ることと、身近な人を疑わないことの緊張」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+  "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
+  },
+  {
+   "role": "ラーマ",
+   "actor": "rei_kimono",
+   "costume": "default"
+  },
+  {
+   "role": "シーター",
+   "actor": "yui",
+   "costume": "default"
+  },
+  {
+   "role": "ラクシュマナ",
+   "actor": "sasuke",
+   "costume": "default"
+  },
+  {
+   "role": "ハヌマーン",
+   "actor": "gou",
+   "costume": "default"
+  },
+  {
+   "role": "ラーヴァナ",
+   "actor": "homura",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "ayodhya_gate": "bg/ramayana-ayodhya_gate-2048x1152.png",
+  "golden_deer": "bg/ramayana-golden_deer-2048x1152.png",
+  "ocean_leap": "bg/ramayana-ocean_leap-2048x1152.png",
+  "lanka_bridge": "bg/ramayana-lanka_bridge-2048x1152.png",
+  "return_fire": "bg/ramayana-return_fire-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ようこそ、NONO座へ。本日の演目は『ラーマーヤナ』。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "神話・叙事詩の一席を、全五景でお届けします。",
+   "mouth": "open",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "この舞台の核は「義務を守ることと、身近な人を疑わないことの緊張」。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "台詞はすべて今夜のための書き下ろしです。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "それでは、幕を開けましょう。",
+   "mouth": "open",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "ayodhya_gate",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "ayodhya_gate"
+  },
+  {
+   "op": "nar",
+   "text": "第1景「アヨーディヤの門」。王位を譲りラーマが十四年の森の追放へ出る。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "「アヨーディヤの門」へ来た。王位を譲りラーマが十四年の森の追放へ出る。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "ここで黙れば、誰かが代わりに意味を決める。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "私が守りたいのは「義務を守ることと、身近な人を疑わないことの緊張」だ。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "アヨーディヤの門の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "過去は変えられない。だが次の手は選べる。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。王位を譲りラーマが十四年の森の追放へ出る。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "王位を譲りラーマが十四年の森の追放へ出る。その事実から目をそらさない。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "恐れを消すのではなく、恐れたまま進もう。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "私の名ではなく、行いで答えを残す。",
+   "eyes": "normal"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "その答えを、次の場面まで持って行こう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "ここで決める。逃げず、相手の声を聞く。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "ならば私も、その決断の重さを分け合う。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "bg",
+   "src": "golden_deer",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "golden_deer"
+  },
+  {
+   "op": "nar",
+   "text": "第2景「金の鹿の森」。幻の鹿に誘われた隙にシーターがさらわれる。"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "「金の鹿の森」へ来た。幻の鹿に誘われた隙にシーターがさらわれる。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "ここで黙れば、誰かが代わりに意味を決める。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "私が守りたいのは「義務を守ることと、身近な人を疑わないことの緊張」だ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "金の鹿の森の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "守るという言葉が、誰かの犠牲を隠していないか。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "過去は変えられない。だが次の手は選べる。"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。幻の鹿に誘われた隙にシーターがさらわれる。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "幻の鹿に誘われた隙にシーターがさらわれる。その事実から目をそらさない。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "恐れを消すのではなく、恐れたまま進もう。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "私の名ではなく、行いで答えを残す。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "その答えを、次の場面まで持って行こう。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "ここで決める。逃げず、相手の声を聞く。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "ならば私も、その決断の重さを分け合う。"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "bg",
+   "src": "ocean_leap",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "ocean_leap"
+  },
+  {
+   "op": "nar",
+   "text": "第3景「海を越える跳躍」。ハヌマーンがランカーへ渡りシーターを見つける。"
+  },
+  {
+   "op": "show",
+   "actor": "homura",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "「海を越える跳躍」へ来た。ハヌマーンがランカーへ渡りシーターを見つける。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "ここで黙れば、誰かが代わりに意味を決める。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "私が守りたいのは「義務を守ることと、身近な人を疑わないことの緊張」だ。"
+  },
+  {
+   "op": "nar",
+   "text": "海を越える跳躍の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "ならば勝ち負けだけでなく、支払う代価も見る。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "過去は変えられない。だが次の手は選べる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。ハヌマーンがランカーへ渡りシーターを見つける。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "ハヌマーンがランカーへ渡りシーターを見つける。その事実から目をそらさない。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "恐れを消すのではなく、恐れたまま進もう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "私の名ではなく、行いで答えを残す。"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "その答えを、次の場面まで持って行こう。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "ここで決める。逃げず、相手の声を聞く。"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "ならば私も、その決断の重さを分け合う。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "hide",
+   "actor": "homura"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "bg",
+   "src": "lanka_bridge",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "lanka_bridge"
+  },
+  {
+   "op": "nar",
+   "text": "第4景「ランカーへの橋」。猿軍が海に橋を築きラーヴァナと対決する。"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "「ランカーへの橋」へ来た。猿軍が海に橋を築きラーヴァナと対決する。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "ここで黙れば、誰かが代わりに意味を決める。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "私が守りたいのは「義務を守ることと、身近な人を疑わないことの緊張」だ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "ランカーへの橋の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+   "eyes": "closed",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "過去は変えられない。だが次の手は選べる。",
+   "eyes": "normal"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。猿軍が海に橋を築きラーヴァナと対決する。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "猿軍が海に橋を築きラーヴァナと対決する。その事実から目をそらさない。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "恐れを消すのではなく、恐れたまま進もう。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "私の名ではなく、行いで答えを残す。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "その答えを、次の場面まで持って行こう。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "ここで決める。逃げず、相手の声を聞く。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "ならば私も、その決断の重さを分け合う。",
+   "eyes": "crying"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "正面から問いかける",
+     "jump": "ramayana_direct"
+    },
+    {
+     "text": "相手の話を最後まで聞く",
+     "jump": "ramayana_listen"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "ramayana_direct"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "私は正面から問う。曖昧なまま次へは進まない。"
+  },
+  {
+   "op": "jump",
+   "to": "ramayana_merge"
+  },
+  {
+   "op": "label",
+   "id": "ramayana_listen"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "結論を急がず、相手が何を恐れているかまで聞こう。"
+  },
+  {
+   "op": "label",
+   "id": "ramayana_merge"
+  },
+  {
+   "op": "nar",
+   "text": "選び方は違っても、二人は同じ核心へ戻ってくる。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "bg",
+   "src": "return_fire",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "return_fire"
+  },
+  {
+   "op": "nar",
+   "text": "第5景「帰還の火」。勝利の後に信頼と王の義務が厳しく問われる。"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "homura",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "「帰還の火」へ来た。勝利の後に信頼と王の義務が厳しく問われる。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "ここで黙れば、誰かが代わりに意味を決める。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "私が守りたいのは「義務を守ることと、身近な人を疑わないことの緊張」だ。"
+  },
+  {
+   "op": "nar",
+   "text": "帰還の火の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "守るという言葉が、誰かの犠牲を隠していないか。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "ならば勝ち負けだけでなく、支払う代価も見る。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "過去は変えられない。だが次の手は選べる。"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。勝利の後に信頼と王の義務が厳しく問われる。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "勝利の後に信頼と王の義務が厳しく問われる。その事実から目をそらさない。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "恐れを消すのではなく、恐れたまま進もう。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "私の名ではなく、行いで答えを残す。"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "その答えを、次の場面まで持って行こう。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "ここで決める。逃げず、相手の声を聞く。"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "ならば私も、その決断の重さを分け合う。"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "homura"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "物語はここまで。残った問いは「義務を守ることと、身近な人を疑わないことの緊張」。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ご来場、ありがとうございました。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "end"
+  }
+ ]
+}

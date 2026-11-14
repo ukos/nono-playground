@@ -1,0 +1,712 @@
+{
+  "meta": {
+    "id": "ido-no-chawan",
+    "number": 128,
+    "title": "井戸の茶碗 ―正直者の押し付け合い―",
+    "original": "古典落語『井戸の茶碗』（伝統演目）",
+    "category": "古典落語・上方落語",
+    "adaptation": "faithful",
+    "format": "v3",
+    "minutes": 34,
+    "synopsis": "全五景で「正直さも相手を思わなければ意地の張り合いになる」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+    "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "千代田卜斎",
+      "actor": "extra_elder",
+      "costume": "default"
+    },
+    {
+      "role": "清兵衛",
+      "actor": "rei_casual",
+      "costume": "default"
+    },
+    {
+      "role": "高木佐久左衛門",
+      "actor": "iwao",
+      "costume": "default"
+    },
+    {
+      "role": "娘",
+      "actor": "yui",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "poor_house": "bg/ido-no-chawan-poor_house-2048x1152.png",
+    "samurai_yard": "bg/ido-no-chawan-samurai_yard-2048x1152.png",
+    "money_return": "bg/ido-no-chawan-money_return-2048x1152.png",
+    "tea_bowl": "bg/ido-no-chawan-tea_bowl-2048x1152.png",
+    "marriage_offer": "bg/ido-no-chawan-marriage_offer-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『井戸の茶碗』。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "古典落語・上方落語の一席を、全五景でお届けします。",
+      "mouth": "open",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "この舞台の核は「正直さも相手を思わなければ意地の張り合いになる」。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "台詞はすべて今夜のための書き下ろしです。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "それでは、幕を開けましょう。",
+      "mouth": "open",
+      "eyes": "joy"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "poor_house",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "poor_house"
+    },
+    {
+      "op": "nar",
+      "text": "第1景「浪人の住まい」。卜斎が娘のため仏像を屑屋清兵衛へ売る。"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "さて「浪人の住まい」だ。卜斎が娘のため仏像を屑屋清兵衛へ売る。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "その説明だけで、もう話が脇道へ走っている。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
+      "eyes": "anger"
+    },
+    {
+      "op": "nar",
+      "text": "浪人の住まいの空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "近道なら、さっきと同じ所へ戻るな。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "肝心なのは、正直さも相手を思わなければ意地の張り合いになるということだ。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "急に教訓を置けば片づくと思っているだろう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。卜斎が娘のため仏像を屑屋清兵衛へ売る。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "片づかないから、もう一度やって確かめる。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "やり直すたび道具と登場人物が増えている。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "卜斎が娘のため仏像を屑屋清兵衛へ売る。ここまでは筋書き通りだ。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "筋書きが困って、こちらを見ているぞ。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "なら最後は、自分で落とし前をつけよう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "落とし前とオチを同じ棚に置くな。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "bg",
+      "src": "samurai_yard",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "samurai_yard"
+    },
+    {
+      "op": "nar",
+      "text": "第2景「武家屋敷の庭」。高木が仏像を買い中から五十両を見つける。"
+    },
+    {
+      "op": "show",
+      "actor": "iwao",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "さて「武家屋敷の庭」だ。高木が仏像を買い中から五十両を見つける。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "その説明だけで、もう話が脇道へ走っている。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "脇道ではない。笑いへ通じる立派な近道だ。"
+    },
+    {
+      "op": "nar",
+      "text": "武家屋敷の庭の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "近道なら、さっきと同じ所へ戻るな。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "肝心なのは、正直さも相手を思わなければ意地の張り合いになるということだ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "急に教訓を置けば片づくと思っているだろう。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。高木が仏像を買い中から五十両を見つける。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "片づかないから、もう一度やって確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "やり直すたび道具と登場人物が増えている。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "高木が仏像を買い中から五十両を見つける。ここまでは筋書き通りだ。"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "筋書きが困って、こちらを見ているぞ。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "なら最後は、自分で落とし前をつけよう。"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "落とし前とオチを同じ棚に置くな。",
+      "eyes": "fun"
+    },
+    {
+      "op": "hide",
+      "actor": "iwao"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "bg",
+      "src": "money_return",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "money_return"
+    },
+    {
+      "op": "nar",
+      "text": "第3景「五十両の往復」。受け取れぬ同士の間を清兵衛が何度も走る。"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "さて「五十両の往復」だ。受け取れぬ同士の間を清兵衛が何度も走る。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "その説明だけで、もう話が脇道へ走っている。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
+      "eyes": "fun"
+    },
+    {
+      "op": "nar",
+      "text": "五十両の往復の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "近道なら、さっきと同じ所へ戻るな。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "肝心なのは、正直さも相手を思わなければ意地の張り合いになるということだ。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "急に教訓を置けば片づくと思っているだろう。",
+      "eyes": "closed"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。受け取れぬ同士の間を清兵衛が何度も走る。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "片づかないから、もう一度やって確かめる。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "やり直すたび道具と登場人物が増えている。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "受け取れぬ同士の間を清兵衛が何度も走る。ここまでは筋書き通りだ。",
+      "eyes": "anger"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "筋書きが困って、こちらを見ているぞ。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "なら最後は、自分で落とし前をつけよう。",
+      "eyes": "fun"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "落とし前とオチを同じ棚に置くな。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "bg",
+      "src": "tea_bowl",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "tea_bowl"
+    },
+    {
+      "op": "nar",
+      "text": "第4景「井戸の茶碗」。代わりの品が高価な名器だと判明する。"
+    },
+    {
+      "op": "show",
+      "actor": "iwao",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "さて「井戸の茶碗」だ。代わりの品が高価な名器だと判明する。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "その説明だけで、もう話が脇道へ走っている。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "脇道ではない。笑いへ通じる立派な近道だ。"
+    },
+    {
+      "op": "nar",
+      "text": "井戸の茶碗の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "近道なら、さっきと同じ所へ戻るな。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "肝心なのは、正直さも相手を思わなければ意地の張り合いになるということだ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "急に教訓を置けば片づくと思っているだろう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。代わりの品が高価な名器だと判明する。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "片づかないから、もう一度やって確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "やり直すたび道具と登場人物が増えている。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "代わりの品が高価な名器だと判明する。ここまでは筋書き通りだ。"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "筋書きが困って、こちらを見ているぞ。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "なら最後は、自分で落とし前をつけよう。"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "落とし前とオチを同じ棚に置くな。",
+      "eyes": "crying"
+    },
+    {
+      "op": "hide",
+      "actor": "iwao"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "bg",
+      "src": "marriage_offer",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "marriage_offer"
+    },
+    {
+      "op": "nar",
+      "text": "第5景「正直者の縁」。金ではなく娘との縁で争いを丸く収める。"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "さて「正直者の縁」だ。金ではなく娘との縁で争いを丸く収める。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "その説明だけで、もう話が脇道へ走っている。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "正直者の縁の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "近道なら、さっきと同じ所へ戻るな。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "肝心なのは、正直さも相手を思わなければ意地の張り合いになるということだ。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "急に教訓を置けば片づくと思っているだろう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。金ではなく娘との縁で争いを丸く収める。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "片づかないから、もう一度やって確かめる。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "やり直すたび道具と登場人物が増えている。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "金ではなく娘との縁で争いを丸く収める。ここまでは筋書き通りだ。",
+      "eyes": "fun"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "筋書きが困って、こちらを見ているぞ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "なら最後は、自分で落とし前をつけよう。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "落とし前とオチを同じ棚に置くな。",
+      "eyes": "closed"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "物語はここまで。残った問いは「正直さも相手を思わなければ意地の張り合いになる」。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ご来場、ありがとうございました。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

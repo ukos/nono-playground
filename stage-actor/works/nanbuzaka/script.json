@@ -1,0 +1,728 @@
+{
+  "meta": {
+    "id": "nanbuzaka",
+    "number": 149,
+    "title": "赤穂義士伝・南部坂雪の別れ ―偽りの暇乞い―",
+    "original": "古典講談『赤穂義士伝・南部坂雪の別れ』（伝統演目）",
+    "category": "講談",
+    "adaptation": "faithful",
+    "format": "v3",
+    "minutes": 38,
+    "synopsis": "全五景で「秘密を守るための冷たい言葉が、最深の別れになる」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+    "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "大石内蔵助",
+      "actor": "rei_kimono",
+      "costume": "default"
+    },
+    {
+      "role": "瑤泉院",
+      "actor": "mei",
+      "costume": "default"
+    },
+    {
+      "role": "戸田局",
+      "actor": "yui",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "snow_slope": "bg/nanbuzaka-snow_slope-2048x1152.png",
+    "incense_room": "bg/nanbuzaka-incense_room-2048x1152.png",
+    "false_words": "bg/nanbuzaka-false_words-2048x1152.png",
+    "ledger_hint": "bg/nanbuzaka-ledger_hint-2048x1152.png",
+    "night_departure": "bg/nanbuzaka-night_departure-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『赤穂義士伝・南部坂雪の別れ』。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "講談の一席を、全五景でお届けします。",
+      "mouth": "open",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "この舞台の核は「秘密を守るための冷たい言葉が、最深の別れになる」。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "台詞はすべて今夜のための書き下ろしです。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "それでは、幕を開けましょう。",
+      "mouth": "open",
+      "eyes": "joy"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "snow_slope",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "snow_slope"
+    },
+    {
+      "op": "nar",
+      "text": "第1景「南部坂の雪」。討入前夜の内蔵助が浅野家の屋敷へ向かう。"
+    },
+    {
+      "op": "show",
+      "actor": "rei_kimono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "mei",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "「南部坂の雪」へ来た。討入前夜の内蔵助が浅野家の屋敷へ向かう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "ここで黙れば、誰かが代わりに意味を決める。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "私が守りたいのは「秘密を守るための冷たい言葉が、最深の別れになる」だ。",
+      "eyes": "anger"
+    },
+    {
+      "op": "nar",
+      "text": "南部坂の雪の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "過去は変えられない。だが次の手は選べる。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。討入前夜の内蔵助が浅野家の屋敷へ向かう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "討入前夜の内蔵助が浅野家の屋敷へ向かう。その事実から目をそらさない。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "恐れを消すのではなく、恐れたまま進もう。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "私の名ではなく、行いで答えを残す。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "その答えを、次の場面まで持って行こう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "ここで決める。逃げず、相手の声を聞く。",
+      "eyes": "anger"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "ならば私も、その決断の重さを分け合う。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_kimono"
+    },
+    {
+      "op": "hide",
+      "actor": "mei"
+    },
+    {
+      "op": "bg",
+      "src": "incense_room",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "incense_room"
+    },
+    {
+      "op": "nar",
+      "text": "第2景「瑤泉院の座敷」。真意を告げられぬまま暇乞いを申し出る。"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_kimono",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "「瑤泉院の座敷」へ来た。真意を告げられぬまま暇乞いを申し出る。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "ここで黙れば、誰かが代わりに意味を決める。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "私が守りたいのは「秘密を守るための冷たい言葉が、最深の別れになる」だ。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "瑤泉院の座敷の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+      "eyes": "surprise",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "過去は変えられない。だが次の手は選べる。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。真意を告げられぬまま暇乞いを申し出る。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "真意を告げられぬまま暇乞いを申し出る。その事実から目をそらさない。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "恐れを消すのではなく、恐れたまま進もう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "私の名ではなく、行いで答えを残す。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "その答えを、次の場面まで持って行こう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "ここで決める。逃げず、相手の声を聞く。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "ならば私も、その決断の重さを分け合う。",
+      "eyes": "fun"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_kimono"
+    },
+    {
+      "op": "bg",
+      "src": "false_words",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "false_words"
+    },
+    {
+      "op": "nar",
+      "text": "第3景「偽りの弁明」。遊興にふける腰抜けを装い主君への思いを隠す。"
+    },
+    {
+      "op": "show",
+      "actor": "mei",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "「偽りの弁明」へ来た。遊興にふける腰抜けを装い主君への思いを隠す。",
+      "eyes": "anger",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "ここで黙れば、誰かが代わりに意味を決める。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "私が守りたいのは「秘密を守るための冷たい言葉が、最深の別れになる」だ。",
+      "eyes": "fun"
+    },
+    {
+      "op": "nar",
+      "text": "偽りの弁明の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+      "eyes": "crying",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "過去は変えられない。だが次の手は選べる。",
+      "eyes": "closed"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。遊興にふける腰抜けを装い主君への思いを隠す。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "遊興にふける腰抜けを装い主君への思いを隠す。その事実から目をそらさない。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "恐れを消すのではなく、恐れたまま進もう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "私の名ではなく、行いで答えを残す。",
+      "eyes": "anger",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "その答えを、次の場面まで持って行こう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "ここで決める。逃げず、相手の声を聞く。",
+      "eyes": "fun"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "ならば私も、その決断の重さを分け合う。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "mei"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "bg",
+      "src": "ledger_hint",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "ledger_hint"
+    },
+    {
+      "op": "nar",
+      "text": "第4景「連名帳の気配」。戸田局だけが包みに込めた覚悟を察する。"
+    },
+    {
+      "op": "show",
+      "actor": "rei_kimono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "mei",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "「連名帳の気配」へ来た。戸田局だけが包みに込めた覚悟を察する。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "ここで黙れば、誰かが代わりに意味を決める。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "私が守りたいのは「秘密を守るための冷たい言葉が、最深の別れになる」だ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "連名帳の気配の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "過去は変えられない。だが次の手は選べる。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。戸田局だけが包みに込めた覚悟を察する。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "戸田局だけが包みに込めた覚悟を察する。その事実から目をそらさない。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "恐れを消すのではなく、恐れたまま進もう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "私の名ではなく、行いで答えを残す。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "その答えを、次の場面まで持って行こう。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "ここで決める。逃げず、相手の声を聞く。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "ならば私も、その決断の重さを分け合う。",
+      "eyes": "crying"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_kimono"
+    },
+    {
+      "op": "hide",
+      "actor": "mei"
+    },
+    {
+      "op": "bg",
+      "src": "night_departure",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "night_departure"
+    },
+    {
+      "op": "nar",
+      "text": "第5景「雪の別れ」。互いに本心を言えぬまま最後の礼を交わす。"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_kimono",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "「雪の別れ」へ来た。互いに本心を言えぬまま最後の礼を交わす。",
+      "eyes": "fun",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "ここで黙れば、誰かが代わりに意味を決める。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "私が守りたいのは「秘密を守るための冷たい言葉が、最深の別れになる」だ。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "雪の別れの空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "過去は変えられない。だが次の手は選べる。",
+      "eyes": "joy"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。互いに本心を言えぬまま最後の礼を交わす。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "互いに本心を言えぬまま最後の礼を交わす。その事実から目をそらさない。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "恐れを消すのではなく、恐れたまま進もう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "私の名ではなく、行いで答えを残す。",
+      "eyes": "fun",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "その答えを、次の場面まで持って行こう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "ここで決める。逃げず、相手の声を聞く。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "ならば私も、その決断の重さを分け合う。",
+      "eyes": "closed"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_kimono"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "物語はここまで。残った問いは「秘密を守るための冷たい言葉が、最深の別れになる」。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ご来場、ありがとうございました。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

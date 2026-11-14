@@ -1,0 +1,777 @@
+{
+ "meta": {
+  "id": "tenjinyama",
+  "number": 133,
+  "title": "天神山 ―狐の嫁入り―",
+  "original": "古典上方落語『天神山』（伝統演目）",
+  "category": "古典落語・上方落語",
+  "adaptation": "moderate",
+  "format": "v3",
+  "minutes": 30,
+  "synopsis": "全五景で「親切と身勝手の境目を、狐の恩返しが映す」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+  "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
+  },
+  {
+   "role": "源助",
+   "actor": "extra_lumberjack",
+   "costume": "default"
+  },
+  {
+   "role": "狐の女房",
+   "actor": "akane",
+   "costume": "default"
+  },
+  {
+   "role": "友人",
+   "actor": "tanurio",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "tenjinyama": "bg/tenjinyama-tenjinyama-2048x1152.png",
+  "lonely_house": "bg/tenjinyama-lonely_house-2048x1152.png",
+  "fox_reveal": "bg/tenjinyama-fox_reveal-2048x1152.png",
+  "release_field": "bg/tenjinyama-release_field-2048x1152.png",
+  "new_mound": "bg/tenjinyama-new_mound-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ようこそ、NONO座へ。本日の演目は『天神山』。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "古典落語・上方落語の一席を、全五景でお届けします。",
+   "mouth": "open",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "この舞台の核は「親切と身勝手の境目を、狐の恩返しが映す」。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "台詞はすべて今夜のための書き下ろしです。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "それでは、幕を開けましょう。",
+   "mouth": "open",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "tenjinyama",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "tenjinyama"
+  },
+  {
+   "op": "nar",
+   "text": "第1景「天神山の花見」。源助が墓地で捕らわれた狐を助ける。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_lumberjack",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "さて「天神山の花見」だ。源助が墓地で捕らわれた狐を助ける。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "その説明だけで、もう話が脇道へ走っている。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "脇道ではない。笑いへ通じる立派な近道だ。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "天神山の花見の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "近道なら、さっきと同じ所へ戻るな。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "肝心なのは、親切と身勝手の境目を、狐の恩返しが映すということだ。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "急に教訓を置けば片づくと思っているだろう。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。源助が墓地で捕らわれた狐を助ける。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "片づかないから、もう一度やって確かめる。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "やり直すたび道具と登場人物が増えている。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "源助が墓地で捕らわれた狐を助ける。ここまでは筋書き通りだ。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "筋書きが困って、こちらを見ているぞ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "なら最後は、自分で落とし前をつけよう。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "落とし前とオチを同じ棚に置くな。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_lumberjack"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "bg",
+   "src": "lonely_house",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "lonely_house"
+  },
+  {
+   "op": "nar",
+   "text": "第2景「独り者の家」。美しい女が訪れ女房として暮らし始める。"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_lumberjack",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "さて「独り者の家」だ。美しい女が訪れ女房として暮らし始める。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "その説明だけで、もう話が脇道へ走っている。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "脇道ではない。笑いへ通じる立派な近道だ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "独り者の家の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "近道なら、さっきと同じ所へ戻るな。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "肝心なのは、親切と身勝手の境目を、狐の恩返しが映すということだ。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "急に教訓を置けば片づくと思っているだろう。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。美しい女が訪れ女房として暮らし始める。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "片づかないから、もう一度やって確かめる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "やり直すたび道具と登場人物が増えている。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "美しい女が訪れ女房として暮らし始める。ここまでは筋書き通りだ。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "筋書きが困って、こちらを見ているぞ。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "なら最後は、自分で落とし前をつけよう。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "落とし前とオチを同じ棚に置くな。",
+   "eyes": "fun"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_lumberjack"
+  },
+  {
+   "op": "bg",
+   "src": "fox_reveal",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "fox_reveal"
+  },
+  {
+   "op": "nar",
+   "text": "第3景「狐火の夜」。女房が正体と恩返しの理由を打ち明ける。"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "さて「狐火の夜」だ。女房が正体と恩返しの理由を打ち明ける。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "その説明だけで、もう話が脇道へ走っている。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "脇道ではない。笑いへ通じる立派な近道だ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "nar",
+   "text": "狐火の夜の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "近道なら、さっきと同じ所へ戻るな。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "肝心なのは、親切と身勝手の境目を、狐の恩返しが映すということだ。",
+   "eyes": "crying",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "急に教訓を置けば片づくと思っているだろう。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。女房が正体と恩返しの理由を打ち明ける。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "片づかないから、もう一度やって確かめる。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "やり直すたび道具と登場人物が増えている。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "女房が正体と恩返しの理由を打ち明ける。ここまでは筋書き通りだ。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "筋書きが困って、こちらを見ているぞ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "なら最後は、自分で落とし前をつけよう。",
+   "eyes": "fun"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "落とし前とオチを同じ棚に置くな。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "bg",
+   "src": "release_field",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "release_field"
+  },
+  {
+   "op": "nar",
+   "text": "第4景「野辺の別れ」。源助の無遠慮な望みが二人の暮らしを壊す。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_lumberjack",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "さて「野辺の別れ」だ。源助の無遠慮な望みが二人の暮らしを壊す。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "その説明だけで、もう話が脇道へ走っている。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "脇道ではない。笑いへ通じる立派な近道だ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "野辺の別れの空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "近道なら、さっきと同じ所へ戻るな。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "肝心なのは、親切と身勝手の境目を、狐の恩返しが映すということだ。",
+   "eyes": "closed",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "急に教訓を置けば片づくと思っているだろう。",
+   "eyes": "normal"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。源助の無遠慮な望みが二人の暮らしを壊す。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "片づかないから、もう一度やって確かめる。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "やり直すたび道具と登場人物が増えている。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "源助の無遠慮な望みが二人の暮らしを壊す。ここまでは筋書き通りだ。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "筋書きが困って、こちらを見ているぞ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "なら最後は、自分で落とし前をつけよう。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "落とし前とオチを同じ棚に置くな。",
+   "eyes": "crying"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "正面から問いかける",
+     "jump": "tenjinyama_direct"
+    },
+    {
+     "text": "相手の話を最後まで聞く",
+     "jump": "tenjinyama_listen"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "tenjinyama_direct"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "私は正面から問う。曖昧なまま次へは進まない。"
+  },
+  {
+   "op": "jump",
+   "to": "tenjinyama_merge"
+  },
+  {
+   "op": "label",
+   "id": "tenjinyama_listen"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "結論を急がず、相手が何を恐れているかまで聞こう。"
+  },
+  {
+   "op": "label",
+   "id": "tenjinyama_merge"
+  },
+  {
+   "op": "nar",
+   "text": "選び方は違っても、二人は同じ核心へ戻ってくる。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_lumberjack"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "bg",
+   "src": "new_mound",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "new_mound"
+  },
+  {
+   "op": "nar",
+   "text": "第5景「新しい塚」。別の狐をめぐる真似が思わぬ結末を呼ぶ。"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_lumberjack",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "さて「新しい塚」だ。別の狐をめぐる真似が思わぬ結末を呼ぶ。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "その説明だけで、もう話が脇道へ走っている。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "脇道ではない。笑いへ通じる立派な近道だ。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "新しい塚の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "近道なら、さっきと同じ所へ戻るな。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "肝心なのは、親切と身勝手の境目を、狐の恩返しが映すということだ。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "急に教訓を置けば片づくと思っているだろう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。別の狐をめぐる真似が思わぬ結末を呼ぶ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "片づかないから、もう一度やって確かめる。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "やり直すたび道具と登場人物が増えている。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "別の狐をめぐる真似が思わぬ結末を呼ぶ。ここまでは筋書き通りだ。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "筋書きが困って、こちらを見ているぞ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "なら最後は、自分で落とし前をつけよう。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "落とし前とオチを同じ棚に置くな。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_lumberjack"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "物語はここまで。残った問いは「親切と身勝手の境目を、狐の恩返しが映す」。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ご来場、ありがとうございました。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "end"
+  }
+ ]
+}

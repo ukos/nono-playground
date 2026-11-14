@@ -1,0 +1,739 @@
+{
+  "meta": {
+    "id": "d-saka",
+    "number": 112,
+    "title": "D坂の殺人事件 ―古本屋の盲点―",
+    "original": "江戸川乱歩『D坂の殺人事件』（原作著作権消滅）",
+    "category": "探偵",
+    "adaptation": "faithful",
+    "format": "v3",
+    "minutes": 32,
+    "synopsis": "全五景で「異常に見える事件ほど、視線と時間を正確に置き直す」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+    "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "明智小五郎",
+      "actor": "yoru",
+      "costume": "default"
+    },
+    {
+      "role": "語り手",
+      "actor": "rei_casual",
+      "costume": "default"
+    },
+    {
+      "role": "古本屋の主人",
+      "actor": "tanurio",
+      "costume": "default"
+    },
+    {
+      "role": "そば屋の店員",
+      "actor": "shiro",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "cafe_window": "bg/d-saka-cafe_window-2048x1152.png",
+    "bookshop_room": "bg/d-saka-bookshop_room-2048x1152.png",
+    "street_witness": "bg/d-saka-street_witness-2048x1152.png",
+    "aketchi_room": "bg/d-saka-aketchi_room-2048x1152.png",
+    "blind_spot": "bg/d-saka-blind_spot-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『D坂の殺人事件』。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "探偵の一席を、全五景でお届けします。",
+      "mouth": "open",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "この舞台の核は「異常に見える事件ほど、視線と時間を正確に置き直す」。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "台詞はすべて今夜のための書き下ろしです。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "それでは、幕を開けましょう。",
+      "mouth": "open",
+      "eyes": "joy"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "cafe_window",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "cafe_window"
+    },
+    {
+      "op": "nar",
+      "text": "第1景「D坂の喫茶店」。語り手が向かいの古本屋の異変に気づく。"
+    },
+    {
+      "op": "show",
+      "actor": "yoru",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "現場は「D坂の喫茶店」。まず事実だけを並べよう。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "確認できるのは、語り手が向かいの古本屋の異変に気づくという一点だ。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "見えたものと、そう思った理由を分けて書く。",
+      "eyes": "anger"
+    },
+    {
+      "op": "nar",
+      "text": "D坂の喫茶店の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "証言が一致するほど、同じ思い込みを疑うべきか。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "一致は安心材料だが、真実の保証ではない。",
+      "eyes": "fun",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "鍵は「異常に見える事件ほど、視線と時間を正確に置き直す」にある。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。語り手が向かいの古本屋の異変に気づく。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "犯人像を先に決めず、痕跡から可能性を削ろう。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "では時刻、入口、道具の順に確かめる。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "語り手が向かいの古本屋の異変に気づく。この行動には目的が二つ重なっている。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "表の目的が囮なら、裏の目的は何だ。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "答えはまだ言わない。反証できる形にしよう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "推理を勝利ではなく、検証として終わらせる。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "hide",
+      "actor": "yoru"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "bg",
+      "src": "bookshop_room",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "bookshop_room"
+    },
+    {
+      "op": "nar",
+      "text": "第2景「古本屋の奥」。閉ざされた部屋で店主の妻が死んでいる。"
+    },
+    {
+      "op": "show",
+      "actor": "tanurio",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "現場は「古本屋の奥」。まず事実だけを並べよう。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "確認できるのは、閉ざされた部屋で店主の妻が死んでいるという一点だ。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "見えたものと、そう思った理由を分けて書く。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "古本屋の奥の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "証言が一致するほど、同じ思い込みを疑うべきか。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "一致は安心材料だが、真実の保証ではない。",
+      "eyes": "surprise",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "鍵は「異常に見える事件ほど、視線と時間を正確に置き直す」にある。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。閉ざされた部屋で店主の妻が死んでいる。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "犯人像を先に決めず、痕跡から可能性を削ろう。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "では時刻、入口、道具の順に確かめる。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "閉ざされた部屋で店主の妻が死んでいる。この行動には目的が二つ重なっている。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "表の目的が囮なら、裏の目的は何だ。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "答えはまだ言わない。反証できる形にしよう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "推理を勝利ではなく、検証として終わらせる。",
+      "eyes": "fun"
+    },
+    {
+      "op": "hide",
+      "actor": "tanurio"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "bg",
+      "src": "street_witness",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "street_witness"
+    },
+    {
+      "op": "nar",
+      "text": "第3景「夕暮れの商店街」。目撃時刻と格子戸越しの見え方を組み直す。"
+    },
+    {
+      "op": "show",
+      "actor": "yoru",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "現場は「夕暮れの商店街」。まず事実だけを並べよう。",
+      "eyes": "anger",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "確認できるのは、目撃時刻と格子戸越しの見え方を組み直すという一点だ。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "見えたものと、そう思った理由を分けて書く。",
+      "eyes": "fun"
+    },
+    {
+      "op": "nar",
+      "text": "夕暮れの商店街の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "証言が一致するほど、同じ思い込みを疑うべきか。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "一致は安心材料だが、真実の保証ではない。",
+      "eyes": "crying",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "鍵は「異常に見える事件ほど、視線と時間を正確に置き直す」にある。",
+      "eyes": "closed"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。目撃時刻と格子戸越しの見え方を組み直す。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "犯人像を先に決めず、痕跡から可能性を削ろう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "では時刻、入口、道具の順に確かめる。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "目撃時刻と格子戸越しの見え方を組み直す。この行動には目的が二つ重なっている。",
+      "eyes": "anger",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "表の目的が囮なら、裏の目的は何だ。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "答えはまだ言わない。反証できる形にしよう。",
+      "eyes": "fun"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "推理を勝利ではなく、検証として終わらせる。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "yoru"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "bg",
+      "src": "aketchi_room",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "aketchi_room"
+    },
+    {
+      "op": "nar",
+      "text": "第4景「明智の部屋」。明智が嗜好と証言のずれから犯人像を絞る。"
+    },
+    {
+      "op": "show",
+      "actor": "tanurio",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "現場は「明智の部屋」。まず事実だけを並べよう。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "確認できるのは、明智が嗜好と証言のずれから犯人像を絞るという一点だ。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "見えたものと、そう思った理由を分けて書く。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "明智の部屋の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "証言が一致するほど、同じ思い込みを疑うべきか。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "一致は安心材料だが、真実の保証ではない。",
+      "eyes": "closed",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "鍵は「異常に見える事件ほど、視線と時間を正確に置き直す」にある。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。明智が嗜好と証言のずれから犯人像を絞る。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "犯人像を先に決めず、痕跡から可能性を削ろう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "では時刻、入口、道具の順に確かめる。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "明智が嗜好と証言のずれから犯人像を絞る。この行動には目的が二つ重なっている。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "表の目的が囮なら、裏の目的は何だ。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "答えはまだ言わない。反証できる形にしよう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "推理を勝利ではなく、検証として終わらせる。",
+      "eyes": "crying"
+    },
+    {
+      "op": "hide",
+      "actor": "tanurio"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "bg",
+      "src": "blind_spot",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "blind_spot"
+    },
+    {
+      "op": "nar",
+      "text": "第5景「盲点の再現」。見えていたはずという思い込みが崩れる。"
+    },
+    {
+      "op": "show",
+      "actor": "yoru",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "現場は「盲点の再現」。まず事実だけを並べよう。",
+      "eyes": "fun",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "確認できるのは、見えていたはずという思い込みが崩れるという一点だ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "見えたものと、そう思った理由を分けて書く。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "盲点の再現の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "証言が一致するほど、同じ思い込みを疑うべきか。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "一致は安心材料だが、真実の保証ではない。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "鍵は「異常に見える事件ほど、視線と時間を正確に置き直す」にある。",
+      "eyes": "joy"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。見えていたはずという思い込みが崩れる。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "犯人像を先に決めず、痕跡から可能性を削ろう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "では時刻、入口、道具の順に確かめる。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "見えていたはずという思い込みが崩れる。この行動には目的が二つ重なっている。",
+      "eyes": "fun",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "表の目的が囮なら、裏の目的は何だ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "答えはまだ言わない。反証できる形にしよう。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "推理を勝利ではなく、検証として終わらせる。",
+      "eyes": "closed"
+    },
+    {
+      "op": "hide",
+      "actor": "yoru"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "物語はここまで。残った問いは「異常に見える事件ほど、視線と時間を正確に置き直す」。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ご来場、ありがとうございました。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

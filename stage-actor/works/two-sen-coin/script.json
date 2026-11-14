@@ -1,0 +1,728 @@
+{
+  "meta": {
+    "id": "two-sen-coin",
+    "number": 114,
+    "title": "二銭銅貨 ―暗号の空洞―",
+    "original": "江戸川乱歩『二銭銅貨』（原作著作権消滅）",
+    "category": "探偵",
+    "adaptation": "faithful",
+    "format": "v3",
+    "minutes": 30,
+    "synopsis": "全五景で「暗号を解く快感と、真実を確かめる責任は別物である」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+    "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "松村",
+      "actor": "rei_casual",
+      "costume": "default"
+    },
+    {
+      "role": "私",
+      "actor": "nono_whitecat",
+      "costume": "default"
+    },
+    {
+      "role": "紳士泥棒",
+      "actor": "nibulus",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "poor_room": "bg/two-sen-coin-poor_room-2048x1152.png",
+    "coin_discovery": "bg/two-sen-coin-coin_discovery-2048x1152.png",
+    "braille_cipher": "bg/two-sen-coin-braille_cipher-2048x1152.png",
+    "false_triumph": "bg/two-sen-coin-false_triumph-2048x1152.png",
+    "prank_reveal": "bg/two-sen-coin-prank_reveal-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『二銭銅貨』。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "探偵の一席を、全五景でお届けします。",
+      "mouth": "open",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "この舞台の核は「暗号を解く快感と、真実を確かめる責任は別物である」。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "台詞はすべて今夜のための書き下ろしです。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "それでは、幕を開けましょう。",
+      "mouth": "open",
+      "eyes": "joy"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "poor_room",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "poor_room"
+    },
+    {
+      "op": "nar",
+      "text": "第1景「貧しい下宿」。二人の青年が新聞の盗難事件を読みあさる。"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "nono_whitecat",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "現場は「貧しい下宿」。まず事実だけを並べよう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "確認できるのは、二人の青年が新聞の盗難事件を読みあさるという一点だ。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "見えたものと、そう思った理由を分けて書く。",
+      "eyes": "anger"
+    },
+    {
+      "op": "nar",
+      "text": "貧しい下宿の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "証言が一致するほど、同じ思い込みを疑うべきか。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "一致は安心材料だが、真実の保証ではない。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "鍵は「暗号を解く快感と、真実を確かめる責任は別物である」にある。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。二人の青年が新聞の盗難事件を読みあさる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "犯人像を先に決めず、痕跡から可能性を削ろう。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "では時刻、入口、道具の順に確かめる。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "二人の青年が新聞の盗難事件を読みあさる。この行動には目的が二つ重なっている。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "表の目的が囮なら、裏の目的は何だ。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "答えはまだ言わない。反証できる形にしよう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "推理を勝利ではなく、検証として終わらせる。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "nono_whitecat"
+    },
+    {
+      "op": "bg",
+      "src": "coin_discovery",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "coin_discovery"
+    },
+    {
+      "op": "nar",
+      "text": "第2景「二銭銅貨の発見」。煙草屋で受け取った硬貨の縁に細工を見つける。"
+    },
+    {
+      "op": "show",
+      "actor": "nibulus",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "現場は「二銭銅貨の発見」。まず事実だけを並べよう。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "確認できるのは、煙草屋で受け取った硬貨の縁に細工を見つけるという一点だ。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "見えたものと、そう思った理由を分けて書く。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "二銭銅貨の発見の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "証言が一致するほど、同じ思い込みを疑うべきか。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "一致は安心材料だが、真実の保証ではない。",
+      "eyes": "surprise",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "鍵は「暗号を解く快感と、真実を確かめる責任は別物である」にある。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。煙草屋で受け取った硬貨の縁に細工を見つける。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "犯人像を先に決めず、痕跡から可能性を削ろう。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "では時刻、入口、道具の順に確かめる。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "煙草屋で受け取った硬貨の縁に細工を見つける。この行動には目的が二つ重なっている。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "表の目的が囮なら、裏の目的は何だ。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "答えはまだ言わない。反証できる形にしよう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "推理を勝利ではなく、検証として終わらせる。",
+      "eyes": "fun"
+    },
+    {
+      "op": "hide",
+      "actor": "nibulus"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "bg",
+      "src": "braille_cipher",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "braille_cipher"
+    },
+    {
+      "op": "nar",
+      "text": "第3景「点字暗号」。紙片の点を読み替え隠し場所へ近づく。"
+    },
+    {
+      "op": "show",
+      "actor": "nono_whitecat",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "nibulus",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "現場は「点字暗号」。まず事実だけを並べよう。",
+      "eyes": "anger",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "確認できるのは、紙片の点を読み替え隠し場所へ近づくという一点だ。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "見えたものと、そう思った理由を分けて書く。",
+      "eyes": "fun"
+    },
+    {
+      "op": "nar",
+      "text": "点字暗号の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "証言が一致するほど、同じ思い込みを疑うべきか。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "一致は安心材料だが、真実の保証ではない。",
+      "eyes": "crying",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "鍵は「暗号を解く快感と、真実を確かめる責任は別物である」にある。",
+      "eyes": "closed"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。紙片の点を読み替え隠し場所へ近づく。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "犯人像を先に決めず、痕跡から可能性を削ろう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "では時刻、入口、道具の順に確かめる。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "紙片の点を読み替え隠し場所へ近づく。この行動には目的が二つ重なっている。",
+      "eyes": "anger",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "表の目的が囮なら、裏の目的は何だ。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "答えはまだ言わない。反証できる形にしよう。",
+      "eyes": "fun"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "推理を勝利ではなく、検証として終わらせる。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "nono_whitecat"
+    },
+    {
+      "op": "hide",
+      "actor": "nibulus"
+    },
+    {
+      "op": "bg",
+      "src": "false_triumph",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "false_triumph"
+    },
+    {
+      "op": "nar",
+      "text": "第4景「推理の勝鬨」。松村が大胆な解読を得意げに披露する。"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "nono_whitecat",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "現場は「推理の勝鬨」。まず事実だけを並べよう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "確認できるのは、松村が大胆な解読を得意げに披露するという一点だ。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "見えたものと、そう思った理由を分けて書く。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "推理の勝鬨の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "証言が一致するほど、同じ思い込みを疑うべきか。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "一致は安心材料だが、真実の保証ではない。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "鍵は「暗号を解く快感と、真実を確かめる責任は別物である」にある。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。松村が大胆な解読を得意げに披露する。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "犯人像を先に決めず、痕跡から可能性を削ろう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "では時刻、入口、道具の順に確かめる。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "松村が大胆な解読を得意げに披露する。この行動には目的が二つ重なっている。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "表の目的が囮なら、裏の目的は何だ。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "答えはまだ言わない。反証できる形にしよう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "nono_whitecat",
+      "text": "推理を勝利ではなく、検証として終わらせる。",
+      "eyes": "crying"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "nono_whitecat"
+    },
+    {
+      "op": "bg",
+      "src": "prank_reveal",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "prank_reveal"
+    },
+    {
+      "op": "nar",
+      "text": "第5景「仕掛けの種明かし」。友人のいたずらが推理の熱と危うさを照らす。"
+    },
+    {
+      "op": "show",
+      "actor": "nibulus",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "現場は「仕掛けの種明かし」。まず事実だけを並べよう。",
+      "eyes": "fun",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "確認できるのは、友人のいたずらが推理の熱と危うさを照らすという一点だ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "見えたものと、そう思った理由を分けて書く。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "仕掛けの種明かしの空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "証言が一致するほど、同じ思い込みを疑うべきか。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "一致は安心材料だが、真実の保証ではない。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "鍵は「暗号を解く快感と、真実を確かめる責任は別物である」にある。",
+      "eyes": "joy"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。友人のいたずらが推理の熱と危うさを照らす。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "犯人像を先に決めず、痕跡から可能性を削ろう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "では時刻、入口、道具の順に確かめる。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "友人のいたずらが推理の熱と危うさを照らす。この行動には目的が二つ重なっている。",
+      "eyes": "fun",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "表の目的が囮なら、裏の目的は何だ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "答えはまだ言わない。反証できる形にしよう。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "推理を勝利ではなく、検証として終わらせる。",
+      "eyes": "closed"
+    },
+    {
+      "op": "hide",
+      "actor": "nibulus"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "物語はここまで。残った問いは「暗号を解く快感と、真実を確かめる責任は別物である」。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ご来場、ありがとうございました。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

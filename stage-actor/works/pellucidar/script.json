@@ -1,0 +1,761 @@
+{
+ "meta": {
+  "id": "pellucidar",
+  "number": 118,
+  "title": "地底世界ペルシダー ―内側の太陽―",
+  "original": "Edgar Rice Burroughs, Pellucidar（原典著作権消滅）",
+  "category": "SF",
+  "adaptation": "moderate",
+  "format": "v3",
+  "minutes": 44,
+  "synopsis": "全五景で「異世界を救うという言葉が、新たな支配にならないか」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+  "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
+  },
+  {
+   "role": "デヴィッド・イネス",
+   "actor": "rei_rider",
+   "costume": "default"
+  },
+  {
+   "role": "アブナー・ペリー",
+   "actor": "extra_wizard",
+   "costume": "default"
+  },
+  {
+   "role": "ダイアン",
+   "actor": "akane",
+   "costume": "default"
+  },
+  {
+   "role": "ヒュージャ",
+   "actor": "gou",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "iron_mole": "bg/pellucidar-iron_mole-2048x1152.png",
+  "inner_sun": "bg/pellucidar-inner_sun-2048x1152.png",
+  "mahar_city": "bg/pellucidar-mahar_city-2048x1152.png",
+  "tribes_council": "bg/pellucidar-tribes_council-2048x1152.png",
+  "return_shaft": "bg/pellucidar-return_shaft-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ようこそ、NONO座へ。本日の演目は『地底世界ペルシダー』。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "SFの一席を、全五景でお届けします。",
+   "mouth": "open",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "この舞台の核は「異世界を救うという言葉が、新たな支配にならないか」。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "台詞はすべて今夜のための書き下ろしです。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "それでは、幕を開けましょう。",
+   "mouth": "open",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "iron_mole",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "iron_mole"
+  },
+  {
+   "op": "nar",
+   "text": "第1景「鉄の掘削機」。試運転の掘削機が地殻を突き抜けて暴走する。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_rider",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "「鉄の掘削機」で常識の境界が動き始めた。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "試運転の掘削機が地殻を突き抜けて暴走する。観測した事実はそれだけだ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "可能だから使う、では理由にならない。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "鉄の掘削機の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "使わなければ、別の誰かが先に使う。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "だからこそ「異世界を救うという言葉が、新たな支配にならないか」を問い続ける。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "技術の速さに、判断の速さが追いついていない。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。試運転の掘削機が地殻を突き抜けて暴走する。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "未知を敵と決めず、条件を一つずつ調べよう。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "だが観察している私たちも観察されている。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "試運転の掘削機が地殻を突き抜けて暴走する。ここで未来の分岐が生まれる。",
+   "eyes": "normal"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "選択の結果を、発明のせいだけにはできない。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "記録を残そう。次の者が同じ盲点へ落ちぬように。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "そして戻れなくても、責任からは逃げない。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_rider"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
+   "op": "bg",
+   "src": "inner_sun",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "inner_sun"
+  },
+  {
+   "op": "nar",
+   "text": "第2景「内側の太陽」。常に真昼の地底世界ペルシダーへ到着する。"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "「内側の太陽」で常識の境界が動き始めた。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "常に真昼の地底世界ペルシダーへ到着する。観測した事実はそれだけだ。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "可能だから使う、では理由にならない。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "内側の太陽の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "使わなければ、別の誰かが先に使う。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "だからこそ「異世界を救うという言葉が、新たな支配にならないか」を問い続ける。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "技術の速さに、判断の速さが追いついていない。"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。常に真昼の地底世界ペルシダーへ到着する。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "未知を敵と決めず、条件を一つずつ調べよう。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "だが観察している私たちも観察されている。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "常に真昼の地底世界ペルシダーへ到着する。ここで未来の分岐が生まれる。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "選択の結果を、発明のせいだけにはできない。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "記録を残そう。次の者が同じ盲点へ落ちぬように。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "そして戻れなくても、責任からは逃げない。"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "bg",
+   "src": "mahar_city",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "mahar_city"
+  },
+  {
+   "op": "nar",
+   "text": "第3景「マハールの都市」。翼ある支配種と従属させられた人々を知る。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_rider",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "「マハールの都市」で常識の境界が動き始めた。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "翼ある支配種と従属させられた人々を知る。観測した事実はそれだけだ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "可能だから使う、では理由にならない。",
+   "eyes": "fun"
+  },
+  {
+   "op": "nar",
+   "text": "マハールの都市の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "使わなければ、別の誰かが先に使う。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "だからこそ「異世界を救うという言葉が、新たな支配にならないか」を問い続ける。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "技術の速さに、判断の速さが追いついていない。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。翼ある支配種と従属させられた人々を知る。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "未知を敵と決めず、条件を一つずつ調べよう。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "だが観察している私たちも観察されている。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "翼ある支配種と従属させられた人々を知る。ここで未来の分岐が生まれる。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "選択の結果を、発明のせいだけにはできない。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "記録を残そう。次の者が同じ盲点へ落ちぬように。",
+   "eyes": "fun"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "そして戻れなくても、責任からは逃げない。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_rider"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
+   "op": "bg",
+   "src": "tribes_council",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "tribes_council"
+  },
+  {
+   "op": "nar",
+   "text": "第4景「部族の評議」。ばらばらの部族へ共同戦線を呼びかける。"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "「部族の評議」で常識の境界が動き始めた。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "ばらばらの部族へ共同戦線を呼びかける。観測した事実はそれだけだ。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "可能だから使う、では理由にならない。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "部族の評議の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "使わなければ、別の誰かが先に使う。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "だからこそ「異世界を救うという言葉が、新たな支配にならないか」を問い続ける。",
+   "eyes": "closed",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "技術の速さに、判断の速さが追いついていない。"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。ばらばらの部族へ共同戦線を呼びかける。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "未知を敵と決めず、条件を一つずつ調べよう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "だが観察している私たちも観察されている。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "ばらばらの部族へ共同戦線を呼びかける。ここで未来の分岐が生まれる。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "選択の結果を、発明のせいだけにはできない。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "記録を残そう。次の者が同じ盲点へ落ちぬように。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "そして戻れなくても、責任からは逃げない。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "正面から問いかける",
+     "jump": "pellucidar_direct"
+    },
+    {
+     "text": "相手の話を最後まで聞く",
+     "jump": "pellucidar_listen"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "pellucidar_direct"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "私は正面から問う。曖昧なまま次へは進まない。"
+  },
+  {
+   "op": "jump",
+   "to": "pellucidar_merge"
+  },
+  {
+   "op": "label",
+   "id": "pellucidar_listen"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "結論を急がず、相手が何を恐れているかまで聞こう。"
+  },
+  {
+   "op": "label",
+   "id": "pellucidar_merge"
+  },
+  {
+   "op": "nar",
+   "text": "選び方は違っても、二人は同じ核心へ戻ってくる。"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "bg",
+   "src": "return_shaft",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "return_shaft"
+  },
+  {
+   "op": "nar",
+   "text": "第5景「地上への縦坑」。地上の技術を持ち帰る決断の危うさを問う。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_rider",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "「地上への縦坑」で常識の境界が動き始めた。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "地上の技術を持ち帰る決断の危うさを問う。観測した事実はそれだけだ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "可能だから使う、では理由にならない。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "地上への縦坑の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "使わなければ、別の誰かが先に使う。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "だからこそ「異世界を救うという言葉が、新たな支配にならないか」を問い続ける。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "技術の速さに、判断の速さが追いついていない。",
+   "eyes": "joy"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。地上の技術を持ち帰る決断の危うさを問う。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "未知を敵と決めず、条件を一つずつ調べよう。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "だが観察している私たちも観察されている。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "地上の技術を持ち帰る決断の危うさを問う。ここで未来の分岐が生まれる。",
+   "eyes": "fun"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "選択の結果を、発明のせいだけにはできない。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "記録を残そう。次の者が同じ盲点へ落ちぬように。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "そして戻れなくても、責任からは逃げない。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_rider"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "物語はここまで。残った問いは「異世界を救うという言葉が、新たな支配にならないか」。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ご来場、ありがとうございました。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "end"
+  }
+ ]
+}

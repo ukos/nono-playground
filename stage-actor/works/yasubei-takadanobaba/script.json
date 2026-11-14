@@ -1,0 +1,755 @@
+{
+ "meta": {
+  "id": "yasubei-takadanobaba",
+  "number": 150,
+  "title": "赤穂義士伝・安兵衛 高田馬場駆け付け ―十八町の疾走―",
+  "original": "古典講談『赤穂義士伝・堀部安兵衛』（伝統演目）",
+  "category": "講談",
+  "adaptation": "moderate",
+  "format": "v3",
+  "minutes": 36,
+  "synopsis": "全五景で「間に合う保証がなくても、友のため走る一歩を止めない」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+  "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
+  },
+  {
+   "role": "中山安兵衛",
+   "actor": "rei_trackcape",
+   "costume": "default"
+  },
+  {
+   "role": "菅野六郎左衛門",
+   "actor": "extra_elder",
+   "costume": "default"
+  },
+  {
+   "role": "堀部弥兵衛",
+   "actor": "iwao",
+   "costume": "default"
+  },
+  {
+   "role": "町人",
+   "actor": "shiro",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "morning_message": "bg/yasubei-takadanobaba-morning_message-2048x1152.png",
+  "edo_run": "bg/yasubei-takadanobaba-edo_run-2048x1152.png",
+  "takada_field": "bg/yasubei-takadanobaba-takada_field-2048x1152.png",
+  "duel_dust": "bg/yasubei-takadanobaba-duel_dust-2048x1152.png",
+  "adoption_offer": "bg/yasubei-takadanobaba-adoption_offer-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ようこそ、NONO座へ。本日の演目は『赤穂義士伝・安兵衛高田馬場駆け付け』。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "講談の一席を、全五景でお届けします。",
+   "mouth": "open",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "この舞台の核は「間に合う保証がなくても、友のため走る一歩を止めない」。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "台詞はすべて今夜のための書き下ろしです。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "それでは、幕を開けましょう。",
+   "mouth": "open",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "morning_message",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "morning_message"
+  },
+  {
+   "op": "nar",
+   "text": "第1景「決闘の知らせ」。安兵衛が叔父同然の菅野の果し合いを知る。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_trackcape",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "「決闘の知らせ」へ来た。安兵衛が叔父同然の菅野の果し合いを知る。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "ここで黙れば、誰かが代わりに意味を決める。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "私が守りたいのは「間に合う保証がなくても、友のため走る一歩を止めない」だ。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "決闘の知らせの空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "過去は変えられない。だが次の手は選べる。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。安兵衛が叔父同然の菅野の果し合いを知る。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "安兵衛が叔父同然の菅野の果し合いを知る。その事実から目をそらさない。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "恐れを消すのではなく、恐れたまま進もう。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "私の名ではなく、行いで答えを残す。",
+   "eyes": "normal"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "その答えを、次の場面まで持って行こう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "ここで決める。逃げず、相手の声を聞く。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "ならば私も、その決断の重さを分け合う。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_trackcape"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "bg",
+   "src": "edo_run",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "edo_run"
+  },
+  {
+   "op": "nar",
+   "text": "第2景「江戸十八町」。酒をあおった安兵衛が人波を縫い高田馬場へ走る。"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "「江戸十八町」へ来た。酒をあおった安兵衛が人波を縫い高田馬場へ走る。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "ここで黙れば、誰かが代わりに意味を決める。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "私が守りたいのは「間に合う保証がなくても、友のため走る一歩を止めない」だ。"
+  },
+  {
+   "op": "nar",
+   "text": "江戸十八町の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "ならば勝ち負けだけでなく、支払う代価も見る。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "過去は変えられない。だが次の手は選べる。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。酒をあおった安兵衛が人波を縫い高田馬場へ走る。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "酒をあおった安兵衛が人波を縫い高田馬場へ走る。その事実から目をそらさない。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "恐れを消すのではなく、恐れたまま進もう。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "私の名ではなく、行いで答えを残す。"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "その答えを、次の場面まで持って行こう。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "ここで決める。逃げず、相手の声を聞く。"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "ならば私も、その決断の重さを分け合う。",
+   "eyes": "fun"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "bg",
+   "src": "takada_field",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "takada_field"
+  },
+  {
+   "op": "nar",
+   "text": "第3景「高田馬場」。多勢に囲まれた菅野のもとへぎりぎりで着く。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_trackcape",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "「高田馬場」へ来た。多勢に囲まれた菅野のもとへぎりぎりで着く。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "ここで黙れば、誰かが代わりに意味を決める。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "私が守りたいのは「間に合う保証がなくても、友のため走る一歩を止めない」だ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "nar",
+   "text": "高田馬場の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "過去は変えられない。だが次の手は選べる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。多勢に囲まれた菅野のもとへぎりぎりで着く。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "多勢に囲まれた菅野のもとへぎりぎりで着く。その事実から目をそらさない。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "恐れを消すのではなく、恐れたまま進もう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "私の名ではなく、行いで答えを残す。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "その答えを、次の場面まで持って行こう。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "ここで決める。逃げず、相手の声を聞く。",
+   "eyes": "fun"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "ならば私も、その決断の重さを分け合う。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_trackcape"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "bg",
+   "src": "duel_dust",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "duel_dust"
+  },
+  {
+   "op": "nar",
+   "text": "第4景「助太刀の剣」。足の疲れを抱えながら相手の数と間合いを崩す。"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "「助太刀の剣」へ来た。足の疲れを抱えながら相手の数と間合いを崩す。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "ここで黙れば、誰かが代わりに意味を決める。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "私が守りたいのは「間に合う保証がなくても、友のため走る一歩を止めない」だ。"
+  },
+  {
+   "op": "nar",
+   "text": "助太刀の剣の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "ならば勝ち負けだけでなく、支払う代価も見る。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "過去は変えられない。だが次の手は選べる。",
+   "eyes": "normal"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。足の疲れを抱えながら相手の数と間合いを崩す。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "足の疲れを抱えながら相手の数と間合いを崩す。その事実から目をそらさない。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "恐れを消すのではなく、恐れたまま進もう。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "私の名ではなく、行いで答えを残す。"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "その答えを、次の場面まで持って行こう。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "ここで決める。逃げず、相手の声を聞く。"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "ならば私も、その決断の重さを分け合う。",
+   "eyes": "crying"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "正面から問いかける",
+     "jump": "yasubei-takadanobaba_direct"
+    },
+    {
+     "text": "相手の話を最後まで聞く",
+     "jump": "yasubei-takadanobaba_listen"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "yasubei-takadanobaba_direct"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "私は正面から問う。曖昧なまま次へは進まない。"
+  },
+  {
+   "op": "jump",
+   "to": "yasubei-takadanobaba_merge"
+  },
+  {
+   "op": "label",
+   "id": "yasubei-takadanobaba_listen"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "結論を急がず、相手が何を恐れているかまで聞こう。"
+  },
+  {
+   "op": "label",
+   "id": "yasubei-takadanobaba_merge"
+  },
+  {
+   "op": "nar",
+   "text": "選び方は違っても、二人は同じ核心へ戻ってくる。"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "bg",
+   "src": "adoption_offer",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "adoption_offer"
+  },
+  {
+   "op": "nar",
+   "text": "第5景「堀部家の申し出」。働きを見た弥兵衛が娘婿への願いを伝える。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_trackcape",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "「堀部家の申し出」へ来た。働きを見た弥兵衛が娘婿への願いを伝える。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "ここで黙れば、誰かが代わりに意味を決める。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "私が守りたいのは「間に合う保証がなくても、友のため走る一歩を止めない」だ。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "堀部家の申し出の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "過去は変えられない。だが次の手は選べる。",
+   "eyes": "joy"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。働きを見た弥兵衛が娘婿への願いを伝える。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "働きを見た弥兵衛が娘婿への願いを伝える。その事実から目をそらさない。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "恐れを消すのではなく、恐れたまま進もう。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "私の名ではなく、行いで答えを残す。",
+   "eyes": "fun"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "その答えを、次の場面まで持って行こう。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "ここで決める。逃げず、相手の声を聞く。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "ならば私も、その決断の重さを分け合う。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_trackcape"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "物語はここまで。残った問いは「間に合う保証がなくても、友のため走る一歩を止めない」。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ご来場、ありがとうございました。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "end"
+  }
+ ]
+}

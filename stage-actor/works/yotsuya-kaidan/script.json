@@ -1,0 +1,782 @@
+{
+ "meta": {
+  "id": "yotsuya-kaidan",
+  "number": 105,
+  "title": "東海道四谷怪談 ―戸板返しの夜―",
+  "original": "歌舞伎『東海道四谷怪談』（伝統演目・著作権消滅）",
+  "category": "能・歌舞伎",
+  "adaptation": "moderate",
+  "format": "v3",
+  "minutes": 40,
+  "synopsis": "全五景で「裏切りで消したはずの声は、罪の内側から戻る」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+  "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
+  },
+  {
+   "role": "お岩",
+   "actor": "akane",
+   "costume": "default"
+  },
+  {
+   "role": "民谷伊右衛門",
+   "actor": "yoru",
+   "costume": "default"
+  },
+  {
+   "role": "直助権兵衛",
+   "actor": "nibulus",
+   "costume": "default"
+  },
+  {
+   "role": "お袖",
+   "actor": "yui",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "yotsuya_house": "bg/yotsuya-kaidan-yotsuya_house-2048x1152.png",
+  "poison_mirror": "bg/yotsuya-kaidan-poison_mirror-2048x1152.png",
+  "door_panel": "bg/yotsuya-kaidan-door_panel-2048x1152.png",
+  "haunted_house": "bg/yotsuya-kaidan-haunted_house-2048x1152.png",
+  "snow_reckoning": "bg/yotsuya-kaidan-snow_reckoning-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ようこそ、NONO座へ。本日の演目は『東海道四谷怪談』。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "能・歌舞伎の一席を、全五景でお届けします。",
+   "mouth": "open",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "この舞台の核は「裏切りで消したはずの声は、罪の内側から戻る」。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "台詞はすべて今夜のための書き下ろしです。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "それでは、幕を開けましょう。",
+   "mouth": "open",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "yotsuya_house",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "yotsuya_house"
+  },
+  {
+   "op": "nar",
+   "text": "第1景「四谷の長屋」。困窮の中で伊右衛門が出世と欲望に揺れる。"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "「四谷の長屋」へ来た。困窮の中で伊右衛門が出世と欲望に揺れる。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "ここで黙れば、誰かが代わりに意味を決める。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "私が守りたいのは「裏切りで消したはずの声は、罪の内側から戻る」だ。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "四谷の長屋の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "過去は変えられない。だが次の手は選べる。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。困窮の中で伊右衛門が出世と欲望に揺れる。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "困窮の中で伊右衛門が出世と欲望に揺れる。その事実から目をそらさない。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "恐れを消すのではなく、恐れたまま進もう。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "私の名ではなく、行いで答えを残す。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "その答えを、次の場面まで持って行こう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "ここで決める。逃げず、相手の声を聞く。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "ならば私も、その決断の重さを分け合う。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "bg",
+   "src": "poison_mirror",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "poison_mirror"
+  },
+  {
+   "op": "nar",
+   "text": "第2景「毒と鏡」。お岩の顔が毒で崩れ裏切りの全貌が見える。"
+  },
+  {
+   "op": "show",
+   "actor": "nibulus",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "「毒と鏡」へ来た。お岩の顔が毒で崩れ裏切りの全貌が見える。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "ここで黙れば、誰かが代わりに意味を決める。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "私が守りたいのは「裏切りで消したはずの声は、罪の内側から戻る」だ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "毒と鏡の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "過去は変えられない。だが次の手は選べる。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。お岩の顔が毒で崩れ裏切りの全貌が見える。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "お岩の顔が毒で崩れ裏切りの全貌が見える。その事実から目をそらさない。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "恐れを消すのではなく、恐れたまま進もう。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "私の名ではなく、行いで答えを残す。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "その答えを、次の場面まで持って行こう。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "ここで決める。逃げず、相手の声を聞く。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "ならば私も、その決断の重さを分け合う。",
+   "eyes": "fun"
+  },
+  {
+   "op": "hide",
+   "actor": "nibulus"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "bg",
+   "src": "door_panel",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "door_panel"
+  },
+  {
+   "op": "nar",
+   "text": "第3景「戸板の川」。遺骸を戸板に打ちつけ流した罪が戻ってくる。"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "「戸板の川」へ来た。遺骸を戸板に打ちつけ流した罪が戻ってくる。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "ここで黙れば、誰かが代わりに意味を決める。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "私が守りたいのは「裏切りで消したはずの声は、罪の内側から戻る」だ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "nar",
+   "text": "戸板の川の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+   "eyes": "crying",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "過去は変えられない。だが次の手は選べる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。遺骸を戸板に打ちつけ流した罪が戻ってくる。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "遺骸を戸板に打ちつけ流した罪が戻ってくる。その事実から目をそらさない。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "恐れを消すのではなく、恐れたまま進もう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "私の名ではなく、行いで答えを残す。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "その答えを、次の場面まで持って行こう。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "ここで決める。逃げず、相手の声を聞く。",
+   "eyes": "fun"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "ならば私も、その決断の重さを分け合う。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "bg",
+   "src": "haunted_house",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "haunted_house"
+  },
+  {
+   "op": "nar",
+   "text": "第4景「仇夢の屋敷」。提灯と襖の影にお岩の姿が何度も現れる。"
+  },
+  {
+   "op": "show",
+   "actor": "nibulus",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "「仇夢の屋敷」へ来た。提灯と襖の影にお岩の姿が何度も現れる。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "ここで黙れば、誰かが代わりに意味を決める。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "私が守りたいのは「裏切りで消したはずの声は、罪の内側から戻る」だ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "仇夢の屋敷の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+   "eyes": "closed",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "過去は変えられない。だが次の手は選べる。",
+   "eyes": "normal"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。提灯と襖の影にお岩の姿が何度も現れる。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "提灯と襖の影にお岩の姿が何度も現れる。その事実から目をそらさない。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "恐れを消すのではなく、恐れたまま進もう。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "私の名ではなく、行いで答えを残す。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "その答えを、次の場面まで持って行こう。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "ここで決める。逃げず、相手の声を聞く。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "ならば私も、その決断の重さを分け合う。",
+   "eyes": "crying"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "正面から問いかける",
+     "jump": "yotsuya-kaidan_direct"
+    },
+    {
+     "text": "相手の話を最後まで聞く",
+     "jump": "yotsuya-kaidan_listen"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "yotsuya-kaidan_direct"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "私は正面から問う。曖昧なまま次へは進まない。"
+  },
+  {
+   "op": "jump",
+   "to": "yotsuya-kaidan_merge"
+  },
+  {
+   "op": "label",
+   "id": "yotsuya-kaidan_listen"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "結論を急がず、相手が何を恐れているかまで聞こう。"
+  },
+  {
+   "op": "label",
+   "id": "yotsuya-kaidan_merge"
+  },
+  {
+   "op": "nar",
+   "text": "選び方は違っても、二人は同じ核心へ戻ってくる。"
+  },
+  {
+   "op": "hide",
+   "actor": "nibulus"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "bg",
+   "src": "snow_reckoning",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "snow_reckoning"
+  },
+  {
+   "op": "nar",
+   "text": "第5景「雪の因果」。逃げ場を失った伊右衛門が自らの罪と対面する。"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "「雪の因果」へ来た。逃げ場を失った伊右衛門が自らの罪と対面する。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "ここで黙れば、誰かが代わりに意味を決める。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "私が守りたいのは「裏切りで消したはずの声は、罪の内側から戻る」だ。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "雪の因果の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+   "eyes": "normal",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "過去は変えられない。だが次の手は選べる。",
+   "eyes": "joy"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。逃げ場を失った伊右衛門が自らの罪と対面する。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "逃げ場を失った伊右衛門が自らの罪と対面する。その事実から目をそらさない。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "恐れを消すのではなく、恐れたまま進もう。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "私の名ではなく、行いで答えを残す。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "その答えを、次の場面まで持って行こう。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "ここで決める。逃げず、相手の声を聞く。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "ならば私も、その決断の重さを分け合う。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "物語はここまで。残った問いは「裏切りで消したはずの声は、罪の内側から戻る」。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ご来場、ありがとうございました。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "end"
+  }
+ ]
+}

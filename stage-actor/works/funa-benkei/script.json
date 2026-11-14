@@ -1,0 +1,730 @@
+{
+  "meta": {
+    "id": "funa-benkei",
+    "number": 102,
+    "title": "船弁慶 ―海に立つ亡霊―",
+    "original": "能『船弁慶』（伝統演目・著作権消滅）",
+    "category": "能・歌舞伎",
+    "adaptation": "faithful",
+    "format": "v3",
+    "minutes": 36,
+    "synopsis": "全五景で「別れを受け入れてこそ、旅は先へ進む」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+    "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "源義経",
+      "actor": "rei_kimono",
+      "costume": "default"
+    },
+    {
+      "role": "静御前",
+      "actor": "yui",
+      "costume": "default"
+    },
+    {
+      "role": "武蔵坊弁慶",
+      "actor": "extra_porter",
+      "costume": "default"
+    },
+    {
+      "role": "平知盛の霊",
+      "actor": "extra_skeleton",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "departure_inn": "bg/funa-benkei-departure_inn-2048x1152.png",
+    "shizuka_dance": "bg/funa-benkei-shizuka_dance-2048x1152.png",
+    "storm_boat": "bg/funa-benkei-storm_boat-2048x1152.png",
+    "ghost_fleet": "bg/funa-benkei-ghost_fleet-2048x1152.png",
+    "calm_horizon": "bg/funa-benkei-calm_horizon-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『船弁慶』。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "能・歌舞伎の一席を、全五景でお届けします。",
+      "mouth": "open",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "この舞台の核は「別れを受け入れてこそ、旅は先へ進む」。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "台詞はすべて今夜のための書き下ろしです。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "それでは、幕を開けましょう。",
+      "mouth": "open",
+      "eyes": "joy"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "departure_inn",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "departure_inn"
+    },
+    {
+      "op": "nar",
+      "text": "第1景「大物浦の宿」。都落ちの義経一行に静との別れが迫る。"
+    },
+    {
+      "op": "show",
+      "actor": "rei_kimono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "「大物浦の宿」へ来た。都落ちの義経一行に静との別れが迫る。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "ここで黙れば、誰かが代わりに意味を決める。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "私が守りたいのは「別れを受け入れてこそ、旅は先へ進む」だ。",
+      "eyes": "anger"
+    },
+    {
+      "op": "nar",
+      "text": "大物浦の宿の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "過去は変えられない。だが次の手は選べる。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。都落ちの義経一行に静との別れが迫る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "都落ちの義経一行に静との別れが迫る。その事実から目をそらさない。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "恐れを消すのではなく、恐れたまま進もう。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "私の名ではなく、行いで答えを残す。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "その答えを、次の場面まで持って行こう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "ここで決める。逃げず、相手の声を聞く。",
+      "eyes": "anger"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "ならば私も、その決断の重さを分け合う。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_kimono"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "bg",
+      "src": "shizuka_dance",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "shizuka_dance"
+    },
+    {
+      "op": "nar",
+      "text": "第2景「静の別れの舞」。静が旅の無事を祈り最後の舞を舞う。"
+    },
+    {
+      "op": "show",
+      "actor": "extra_porter",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_skeleton",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "「静の別れの舞」へ来た。静が旅の無事を祈り最後の舞を舞う。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "extra_skeleton",
+      "text": "ここで黙れば、誰かが代わりに意味を決める。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "私が守りたいのは「別れを受け入れてこそ、旅は先へ進む」だ。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "静の別れの舞の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_skeleton",
+      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+      "eyes": "surprise",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "extra_skeleton",
+      "text": "過去は変えられない。だが次の手は選べる。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。静が旅の無事を祈り最後の舞を舞う。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "静が旅の無事を祈り最後の舞を舞う。その事実から目をそらさない。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "extra_skeleton",
+      "text": "恐れを消すのではなく、恐れたまま進もう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "私の名ではなく、行いで答えを残す。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_skeleton",
+      "text": "その答えを、次の場面まで持って行こう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "ここで決める。逃げず、相手の声を聞く。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_skeleton",
+      "text": "ならば私も、その決断の重さを分け合う。",
+      "eyes": "fun"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_porter"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_skeleton"
+    },
+    {
+      "op": "bg",
+      "src": "storm_boat",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "storm_boat"
+    },
+    {
+      "op": "nar",
+      "text": "第3景「嵐の船上」。海が荒れ平家の亡霊の気配が近づく。"
+    },
+    {
+      "op": "show",
+      "actor": "rei_kimono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "「嵐の船上」へ来た。海が荒れ平家の亡霊の気配が近づく。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "ここで黙れば、誰かが代わりに意味を決める。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "私が守りたいのは「別れを受け入れてこそ、旅は先へ進む」だ。",
+      "eyes": "fun"
+    },
+    {
+      "op": "nar",
+      "text": "嵐の船上の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "過去は変えられない。だが次の手は選べる。",
+      "eyes": "closed"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。海が荒れ平家の亡霊の気配が近づく。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "海が荒れ平家の亡霊の気配が近づく。その事実から目をそらさない。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "恐れを消すのではなく、恐れたまま進もう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "私の名ではなく、行いで答えを残す。",
+      "eyes": "anger"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "その答えを、次の場面まで持って行こう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "ここで決める。逃げず、相手の声を聞く。",
+      "eyes": "fun"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "ならば私も、その決断の重さを分け合う。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_kimono"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "bg",
+      "src": "ghost_fleet",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "ghost_fleet"
+    },
+    {
+      "op": "nar",
+      "text": "第4景「亡霊の海」。知盛の霊が長刀を振るい義経を海へ誘う。"
+    },
+    {
+      "op": "show",
+      "actor": "extra_porter",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_skeleton",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "「亡霊の海」へ来た。知盛の霊が長刀を振るい義経を海へ誘う。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "extra_skeleton",
+      "text": "ここで黙れば、誰かが代わりに意味を決める。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "私が守りたいのは「別れを受け入れてこそ、旅は先へ進む」だ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "亡霊の海の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_skeleton",
+      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+      "eyes": "closed",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "extra_skeleton",
+      "text": "過去は変えられない。だが次の手は選べる。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。知盛の霊が長刀を振るい義経を海へ誘う。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "知盛の霊が長刀を振るい義経を海へ誘う。その事実から目をそらさない。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "extra_skeleton",
+      "text": "恐れを消すのではなく、恐れたまま進もう。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "私の名ではなく、行いで答えを残す。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_skeleton",
+      "text": "その答えを、次の場面まで持って行こう。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "ここで決める。逃げず、相手の声を聞く。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_skeleton",
+      "text": "ならば私も、その決断の重さを分け合う。",
+      "eyes": "crying"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_porter"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_skeleton"
+    },
+    {
+      "op": "bg",
+      "src": "calm_horizon",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "calm_horizon"
+    },
+    {
+      "op": "nar",
+      "text": "第5景「凪いだ水平線」。弁慶の祈りで亡霊が遠のき船は進む。"
+    },
+    {
+      "op": "show",
+      "actor": "rei_kimono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "「凪いだ水平線」へ来た。弁慶の祈りで亡霊が遠のき船は進む。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "ここで黙れば、誰かが代わりに意味を決める。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "私が守りたいのは「別れを受け入れてこそ、旅は先へ進む」だ。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "凪いだ水平線の空気が変わり、二人は言葉の裏を測る。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "過去は変えられない。だが次の手は選べる。",
+      "eyes": "joy"
+    },
+    {
+      "op": "nar",
+      "text": "遠くの音が途切れる。弁慶の祈りで亡霊が遠のき船は進む。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "弁慶の祈りで亡霊が遠のき船は進む。その事実から目をそらさない。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "恐れを消すのではなく、恐れたまま進もう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "私の名ではなく、行いで答えを残す。",
+      "eyes": "fun"
+    },
+    {
+      "op": "nar",
+      "text": "答えを急がず、選んだ手段の代価を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "その答えを、次の場面まで持って行こう。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "rei_kimono",
+      "text": "ここで決める。逃げず、相手の声を聞く。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "残された沈黙が、次の行動を促す。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "ならば私も、その決断の重さを分け合う。",
+      "eyes": "closed"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_kimono"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "物語はここまで。残った問いは「別れを受け入れてこそ、旅は先へ進む」。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ご来場、ありがとうございました。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

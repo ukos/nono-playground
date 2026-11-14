@@ -1,0 +1,743 @@
+{
+ "meta": {
+  "id": "sanada-osaka",
+  "number": 148,
+  "title": "真田幸村・大坂の陣 ―真田丸の冬―",
+  "original": "古典講談『真田幸村・大坂の陣』（伝統演目）",
+  "category": "講談",
+  "adaptation": "moderate",
+  "format": "v3",
+  "minutes": 48,
+  "synopsis": "全五景で「勝てぬ戦でも、守る範囲と退く時を自ら決める」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+  "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
+  },
+  {
+   "role": "真田幸村",
+   "actor": "rei_rider_red",
+   "costume": "default"
+  },
+  {
+   "role": "豊臣秀頼",
+   "actor": "shiro",
+   "costume": "default"
+  },
+  {
+   "role": "大助",
+   "actor": "hayate",
+   "costume": "default"
+  },
+  {
+   "role": "徳川家康",
+   "actor": "iwao",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "kudo_exile": "bg/sanada-osaka-kudo_exile-2048x1152.png",
+  "sanada_maru": "bg/sanada-osaka-sanada_maru-2048x1152.png",
+  "winter_siege": "bg/sanada-osaka-winter_siege-2048x1152.png",
+  "moat_filled": "bg/sanada-osaka-moat_filled-2048x1152.png",
+  "summer_charge": "bg/sanada-osaka-summer_charge-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ようこそ、NONO座へ。本日の演目は『真田幸村・大坂の陣』。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "講談の一席を、全五景でお届けします。",
+   "mouth": "open",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "この舞台の核は「勝てぬ戦でも、守る範囲と退く時を自ら決める」。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "台詞はすべて今夜のための書き下ろしです。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "それでは、幕を開けましょう。",
+   "mouth": "open",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "kudo_exile",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "kudo_exile"
+  },
+  {
+   "op": "nar",
+   "text": "第1景「九度山の蟄居」。幸村へ大坂入城の密使が訪れる。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_rider_red",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider_red",
+   "text": "「九度山の蟄居」へ来た。幸村へ大坂入城の密使が訪れる。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "ここで黙れば、誰かが代わりに意味を決める。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider_red",
+   "text": "私が守りたいのは「勝てぬ戦でも、守る範囲と退く時を自ら決める」だ。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "九度山の蟄居の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider_red",
+   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "過去は変えられない。だが次の手は選べる。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。幸村へ大坂入城の密使が訪れる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider_red",
+   "text": "幸村へ大坂入城の密使が訪れる。その事実から目をそらさない。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "恐れを消すのではなく、恐れたまま進もう。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider_red",
+   "text": "私の名ではなく、行いで答えを残す。",
+   "eyes": "normal"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "その答えを、次の場面まで持って行こう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider_red",
+   "text": "ここで決める。逃げず、相手の声を聞く。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "ならば私も、その決断の重さを分け合う。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_rider_red"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "bg",
+   "src": "sanada_maru",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "sanada_maru"
+  },
+  {
+   "op": "nar",
+   "text": "第2景「真田丸の築城」。地形と兵数から弱点を補う砦を設計する。"
+  },
+  {
+   "op": "show",
+   "actor": "hayate",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "「真田丸の築城」へ来た。地形と兵数から弱点を補う砦を設計する。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "ここで黙れば、誰かが代わりに意味を決める。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "私が守りたいのは「勝てぬ戦でも、守る範囲と退く時を自ら決める」だ。"
+  },
+  {
+   "op": "nar",
+   "text": "真田丸の築城の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "守るという言葉が、誰かの犠牲を隠していないか。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "ならば勝ち負けだけでなく、支払う代価も見る。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "過去は変えられない。だが次の手は選べる。"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。地形と兵数から弱点を補う砦を設計する。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "地形と兵数から弱点を補う砦を設計する。その事実から目をそらさない。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "恐れを消すのではなく、恐れたまま進もう。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "私の名ではなく、行いで答えを残す。"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "その答えを、次の場面まで持って行こう。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "ここで決める。逃げず、相手の声を聞く。"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "ならば私も、その決断の重さを分け合う。"
+  },
+  {
+   "op": "hide",
+   "actor": "hayate"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "bg",
+   "src": "winter_siege",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "winter_siege"
+  },
+  {
+   "op": "nar",
+   "text": "第3景「冬の陣」。少数の守備で大軍を引きつけ講和へ持ち込む。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_rider_red",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider_red",
+   "text": "「冬の陣」へ来た。少数の守備で大軍を引きつけ講和へ持ち込む。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "ここで黙れば、誰かが代わりに意味を決める。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider_red",
+   "text": "私が守りたいのは「勝てぬ戦でも、守る範囲と退く時を自ら決める」だ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "nar",
+   "text": "冬の陣の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider_red",
+   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "過去は変えられない。だが次の手は選べる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。少数の守備で大軍を引きつけ講和へ持ち込む。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider_red",
+   "text": "少数の守備で大軍を引きつけ講和へ持ち込む。その事実から目をそらさない。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "恐れを消すのではなく、恐れたまま進もう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider_red",
+   "text": "私の名ではなく、行いで答えを残す。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "その答えを、次の場面まで持って行こう。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider_red",
+   "text": "ここで決める。逃げず、相手の声を聞く。",
+   "eyes": "fun"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "ならば私も、その決断の重さを分け合う。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_rider_red"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "bg",
+   "src": "moat_filled",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "moat_filled"
+  },
+  {
+   "op": "nar",
+   "text": "第4景「埋められた堀」。講和後に防御を失い最後の作戦を練る。"
+  },
+  {
+   "op": "show",
+   "actor": "hayate",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "「埋められた堀」へ来た。講和後に防御を失い最後の作戦を練る。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "ここで黙れば、誰かが代わりに意味を決める。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "私が守りたいのは「勝てぬ戦でも、守る範囲と退く時を自ら決める」だ。"
+  },
+  {
+   "op": "nar",
+   "text": "埋められた堀の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "守るという言葉が、誰かの犠牲を隠していないか。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "ならば勝ち負けだけでなく、支払う代価も見る。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "過去は変えられない。だが次の手は選べる。"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。講和後に防御を失い最後の作戦を練る。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "講和後に防御を失い最後の作戦を練る。その事実から目をそらさない。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "恐れを消すのではなく、恐れたまま進もう。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "私の名ではなく、行いで答えを残す。"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "その答えを、次の場面まで持って行こう。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "ここで決める。逃げず、相手の声を聞く。"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "ならば私も、その決断の重さを分け合う。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "正面から問いかける",
+     "jump": "sanada-osaka_direct"
+    },
+    {
+     "text": "相手の話を最後まで聞く",
+     "jump": "sanada-osaka_listen"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "sanada-osaka_direct"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "私は正面から問う。曖昧なまま次へは進まない。"
+  },
+  {
+   "op": "jump",
+   "to": "sanada-osaka_merge"
+  },
+  {
+   "op": "label",
+   "id": "sanada-osaka_listen"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "結論を急がず、相手が何を恐れているかまで聞こう。"
+  },
+  {
+   "op": "label",
+   "id": "sanada-osaka_merge"
+  },
+  {
+   "op": "nar",
+   "text": "選び方は違っても、二人は同じ核心へ戻ってくる。"
+  },
+  {
+   "op": "hide",
+   "actor": "hayate"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "bg",
+   "src": "summer_charge",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "summer_charge"
+  },
+  {
+   "op": "nar",
+   "text": "第5景「夏の陣の決断」。退路のない突撃の前に次代へ言葉を残す。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_rider_red",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider_red",
+   "text": "「夏の陣の決断」へ来た。退路のない突撃の前に次代へ言葉を残す。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "ここで黙れば、誰かが代わりに意味を決める。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider_red",
+   "text": "私が守りたいのは「勝てぬ戦でも、守る範囲と退く時を自ら決める」だ。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "夏の陣の決断の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider_red",
+   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "過去は変えられない。だが次の手は選べる。",
+   "eyes": "joy"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。退路のない突撃の前に次代へ言葉を残す。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider_red",
+   "text": "退路のない突撃の前に次代へ言葉を残す。その事実から目をそらさない。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "恐れを消すのではなく、恐れたまま進もう。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider_red",
+   "text": "私の名ではなく、行いで答えを残す。",
+   "eyes": "fun"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "その答えを、次の場面まで持って行こう。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider_red",
+   "text": "ここで決める。逃げず、相手の声を聞く。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "ならば私も、その決断の重さを分け合う。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_rider_red"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "物語はここまで。残った問いは「勝てぬ戦でも、守る範囲と退く時を自ら決める」。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ご来場、ありがとうございました。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "end"
+  }
+ ]
+}

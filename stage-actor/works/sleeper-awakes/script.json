@@ -1,0 +1,755 @@
+{
+ "meta": {
+  "id": "sleeper-awakes",
+  "number": 117,
+  "title": "眠れる人が目覚めるとき ―二百年後の所有者―",
+  "original": "H. G. Wells, When the Sleeper Wakes（原典著作権消滅）",
+  "category": "SF",
+  "adaptation": "moderate",
+  "format": "v3",
+  "minutes": 46,
+  "synopsis": "全五景で「富と名義だけでは、未来社会への責任を果たせない」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+  "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
+  },
+  {
+   "role": "グレアム",
+   "actor": "rei_casual",
+   "costume": "default"
+  },
+  {
+   "role": "オストロッグ",
+   "actor": "kurogane",
+   "costume": "default"
+  },
+  {
+   "role": "ヘレン",
+   "actor": "yui",
+   "costume": "default"
+  },
+  {
+   "role": "老教師",
+   "actor": "extra_elder",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "victorian_sleep": "bg/sleeper-awakes-victorian_sleep-2048x1152.png",
+  "future_city": "bg/sleeper-awakes-future_city-2048x1152.png",
+  "council_tower": "bg/sleeper-awakes-council_tower-2048x1152.png",
+  "workers_airways": "bg/sleeper-awakes-workers_airways-2048x1152.png",
+  "air_battle": "bg/sleeper-awakes-air_battle-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ようこそ、NONO座へ。本日の演目は『眠れる人が目覚めるとき』。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "SFの一席を、全五景でお届けします。",
+   "mouth": "open",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "この舞台の核は「富と名義だけでは、未来社会への責任を果たせない」。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "台詞はすべて今夜のための書き下ろしです。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "それでは、幕を開けましょう。",
+   "mouth": "open",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "victorian_sleep",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "victorian_sleep"
+  },
+  {
+   "op": "nar",
+   "text": "第1景「十九世紀の眠り」。不眠の男グレアムが深い眠りへ落ちる。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "「十九世紀の眠り」で常識の境界が動き始めた。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "不眠の男グレアムが深い眠りへ落ちる。観測した事実はそれだけだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "可能だから使う、では理由にならない。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "十九世紀の眠りの空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "使わなければ、別の誰かが先に使う。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "だからこそ「富と名義だけでは、未来社会への責任を果たせない」を問い続ける。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "技術の速さに、判断の速さが追いついていない。"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。不眠の男グレアムが深い眠りへ落ちる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "未知を敵と決めず、条件を一つずつ調べよう。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "だが観察している私たちも観察されている。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "不眠の男グレアムが深い眠りへ落ちる。ここで未来の分岐が生まれる。",
+   "eyes": "normal"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "選択の結果を、発明のせいだけにはできない。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "記録を残そう。次の者が同じ盲点へ落ちぬように。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "そして戻れなくても、責任からは逃げない。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "bg",
+   "src": "future_city",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "future_city"
+  },
+  {
+   "op": "nar",
+   "text": "第2景「二百年後の都市」。目覚めた彼が世界最大の資産の名義人と知る。"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "「二百年後の都市」で常識の境界が動き始めた。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "目覚めた彼が世界最大の資産の名義人と知る。観測した事実はそれだけだ。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "可能だから使う、では理由にならない。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "二百年後の都市の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "使わなければ、別の誰かが先に使う。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "だからこそ「富と名義だけでは、未来社会への責任を果たせない」を問い続ける。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "技術の速さに、判断の速さが追いついていない。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。目覚めた彼が世界最大の資産の名義人と知る。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "未知を敵と決めず、条件を一つずつ調べよう。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "だが観察している私たちも観察されている。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "目覚めた彼が世界最大の資産の名義人と知る。ここで未来の分岐が生まれる。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "選択の結果を、発明のせいだけにはできない。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "記録を残そう。次の者が同じ盲点へ落ちぬように。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "そして戻れなくても、責任からは逃げない。",
+   "eyes": "fun"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "bg",
+   "src": "council_tower",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "council_tower"
+  },
+  {
+   "op": "nar",
+   "text": "第3景「白色評議会の塔」。オストロッグが彼の名で支配を正当化する。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "「白色評議会の塔」で常識の境界が動き始めた。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "オストロッグが彼の名で支配を正当化する。観測した事実はそれだけだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "可能だから使う、では理由にならない。",
+   "eyes": "fun"
+  },
+  {
+   "op": "nar",
+   "text": "白色評議会の塔の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "使わなければ、別の誰かが先に使う。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "だからこそ「富と名義だけでは、未来社会への責任を果たせない」を問い続ける。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "技術の速さに、判断の速さが追いついていない。"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。オストロッグが彼の名で支配を正当化する。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "未知を敵と決めず、条件を一つずつ調べよう。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "だが観察している私たちも観察されている。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "オストロッグが彼の名で支配を正当化する。ここで未来の分岐が生まれる。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "選択の結果を、発明のせいだけにはできない。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "記録を残そう。次の者が同じ盲点へ落ちぬように。",
+   "eyes": "fun"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "そして戻れなくても、責任からは逃げない。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "bg",
+   "src": "workers_airways",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "workers_airways"
+  },
+  {
+   "op": "nar",
+   "text": "第4景「空中路の蜂起」。労働者の怒りと支配側の武力が衝突する。"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "「空中路の蜂起」で常識の境界が動き始めた。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "労働者の怒りと支配側の武力が衝突する。観測した事実はそれだけだ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "可能だから使う、では理由にならない。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "空中路の蜂起の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "使わなければ、別の誰かが先に使う。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "だからこそ「富と名義だけでは、未来社会への責任を果たせない」を問い続ける。",
+   "eyes": "closed",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "技術の速さに、判断の速さが追いついていない。",
+   "eyes": "normal"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。労働者の怒りと支配側の武力が衝突する。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "未知を敵と決めず、条件を一つずつ調べよう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "だが観察している私たちも観察されている。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "労働者の怒りと支配側の武力が衝突する。ここで未来の分岐が生まれる。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "選択の結果を、発明のせいだけにはできない。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "記録を残そう。次の者が同じ盲点へ落ちぬように。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "そして戻れなくても、責任からは逃げない。",
+   "eyes": "crying"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "正面から問いかける",
+     "jump": "sleeper-awakes_direct"
+    },
+    {
+     "text": "相手の話を最後まで聞く",
+     "jump": "sleeper-awakes_listen"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "sleeper-awakes_direct"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "私は正面から問う。曖昧なまま次へは進まない。"
+  },
+  {
+   "op": "jump",
+   "to": "sleeper-awakes_merge"
+  },
+  {
+   "op": "label",
+   "id": "sleeper-awakes_listen"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "結論を急がず、相手が何を恐れているかまで聞こう。"
+  },
+  {
+   "op": "label",
+   "id": "sleeper-awakes_merge"
+  },
+  {
+   "op": "nar",
+   "text": "選び方は違っても、二人は同じ核心へ戻ってくる。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "bg",
+   "src": "air_battle",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "air_battle"
+  },
+  {
+   "op": "nar",
+   "text": "第5景「夜空の決断」。グレアムが名義人ではなく当事者として立つ。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "「夜空の決断」で常識の境界が動き始めた。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "グレアムが名義人ではなく当事者として立つ。観測した事実はそれだけだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "可能だから使う、では理由にならない。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "夜空の決断の空気が変わり、二人は言葉の裏を測る。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "使わなければ、別の誰かが先に使う。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "だからこそ「富と名義だけでは、未来社会への責任を果たせない」を問い続ける。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "技術の速さに、判断の速さが追いついていない。"
+  },
+  {
+   "op": "nar",
+   "text": "遠くの音が途切れる。グレアムが名義人ではなく当事者として立つ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "未知を敵と決めず、条件を一つずつ調べよう。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "だが観察している私たちも観察されている。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "グレアムが名義人ではなく当事者として立つ。ここで未来の分岐が生まれる。",
+   "eyes": "fun"
+  },
+  {
+   "op": "nar",
+   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "選択の結果を、発明のせいだけにはできない。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "記録を残そう。次の者が同じ盲点へ落ちぬように。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "残された沈黙が、次の行動を促す。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "そして戻れなくても、責任からは逃げない。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "物語はここまで。残った問いは「富と名義だけでは、未来社会への責任を果たせない」。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
+   "eyes": "normal"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ご来場、ありがとうございました。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "end"
+  }
+ ]
+}
