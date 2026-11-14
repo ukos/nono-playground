@@ -51,6 +51,7 @@ img { image-rendering: pixelated; image-rendering: crisp-edges; }
 #choices { z-index: 2; }
 #curtain { z-index: 3; }
 #to-title { z-index: 4; }
+#progress { z-index: 4; }
 #bg { position: absolute; left: 0; top: 0; transform-origin: 0 0; }
 .actor { position: absolute; transform-origin: 0 0; transition: opacity 0.2s; }
 .actor img { position: absolute; inset: 0; width: 100%; height: 100%; }
@@ -92,7 +93,7 @@ img { image-rendering: pixelated; image-rendering: crisp-edges; }
 /* 幕と額縁は 2048×1152 の舞台座標で描き、画面を覆う倍率で拡大する（js の layoutCurtain） */
 #curtain .art { position: absolute; left: 0; top: 0; width: 2048px; height: 1152px; transform-origin: 0 0; }
 #curtain .panel { position: absolute; top: 0; width: 1024px; height: 1152px; image-rendering: pixelated;
-  background: url(../theater/curtain.png?v=f06f321) no-repeat; background-size: 2048px 1152px;
+  background: url(../theater/curtain.png?v=41c1be8) no-repeat; background-size: 2048px 1152px;
   transition: transform 1.8s cubic-bezier(.6, .05, .3, 1); }
 #curtain .l { left: 0; background-position: 0 0; }
 #curtain .r { left: 1024px; background-position: -1024px 0; }
@@ -110,6 +111,12 @@ img { image-rendering: pixelated; image-rendering: crisp-edges; }
 #to-title { position: absolute; top: calc(0.6rem + env(safe-area-inset-top)); right: 0.6rem; width: 2.4rem; height: 2.4rem;
   font-size: 1.2rem; color: var(--ink); background: rgba(0, 0, 0, 0.4); border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 50%; cursor: pointer; }
+
+/* 進み具合（画面のいちばん上の細い帯） */
+#progress { position: absolute; left: 0; right: 0; top: env(safe-area-inset-top); height: 3px; background: rgba(255, 255, 255, 0.12);
+  pointer-events: none; }
+#progress .fill { height: 100%; width: 0; background: var(--gold); box-shadow: 0 0 4px rgba(217, 164, 65, 0.7);
+  transition: width 0.25s ease-out; }
 
 #error { position: fixed; left: 1rem; right: 1rem; bottom: 1rem; padding: 1rem; background: #5c0f15; color: #fff;
   border-radius: 0.6rem; white-space: pre-wrap; font-size: 0.9rem; z-index: 10; }

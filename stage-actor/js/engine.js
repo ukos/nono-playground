@@ -190,6 +190,13 @@ export class Session {
     this.rebuild();
     return true;
   }
+  /** 脚本のどこまで来たか（0〜1）。いまの場面の step 位置で測り、終演で 1。分岐で前後することがある。 */
+  get progress() {
+    const c = this.current;
+    if (c.kind === 'end') return 1;
+    const n = this.compiled.script.steps.length - 1;
+    return n > 0 ? Math.min(1, c.pc / n) : 0;
+  }
   choose(k) {
     if (!this.awaitingChoice) return false;
     this.choices = this.choices.slice(0, this.current.choicesBefore).concat(k);

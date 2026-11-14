@@ -1,6 +1,6 @@
 // 画面表示と操作。状態は engine.js の Session が持ち、ここは毎回それを描き直すだけ。
-import { Session } from './engine.js?v=f06f321';
-import { indexActors, resolveLayers, layersUsedBy } from './faces.js?v=f06f321';
+import { Session } from './engine.js?v=41c1be8';
+import { indexActors, resolveLayers, layersUsedBy } from './faces.js?v=41c1be8';
 
 // 公開のたびに tools/deploy_playground.py が版（コミット）を入れる。URLに付けて、古いファイルの使い回しを防ぐ
 const V = document.querySelector('meta[name="stage-version"]')?.content || 'dev';
@@ -15,7 +15,7 @@ const SIZE = { bust: [768, 1024], full: [768, 1152] };
 
 const $ = (s) => document.querySelector(s);
 const el = {
-  title: $('#title'), list: $('#work-list'), stage: $('#stage'), bg: $('#bg'), actors: $('#actors'),
+  title: $('#title'), progress: $('#progress'), progressFill: $('#progress .fill'), list: $('#work-list'), stage: $('#stage'), bg: $('#bg'), actors: $('#actors'),
   bubble: $('#bubble'), win: $('#window'), choices: $('#choices'), curtain: $('#curtain'),
   playbill: $('#curtain .playbill'), curtainArt: $('#curtain .art'), toTitle: $('#to-title'), error: $('#error'),
 };
@@ -187,6 +187,11 @@ function render() {
   const L = layout();
   el.stage.classList.toggle('portrait', L.portrait);
   el.stage.classList.toggle('bg-full', st.bgMode === 'full');
+
+  // 進み具合
+  const pct = Math.round(session.progress * 1000) / 10;
+  el.progressFill.style.width = `${pct}%`;
+  el.progress.setAttribute('aria-valuenow', String(Math.round(pct)));
 
   // 背景
   const bgPath = st.bg ? base + script.backgrounds[st.bg] : '';
