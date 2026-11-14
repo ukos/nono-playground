@@ -2,7 +2,7 @@
 // 画面状態は常に「ステップ0から、選択履歴に従って再生し直した結果」として作る（決定論的再構築）。
 
 export const EYES = ['normal', 'joy', 'anger', 'sorrow', 'fun', 'surprise', 'crying', 'closed'];
-export const MOUTHS = ['normal', 'open', 'clenched', 'sulky'];
+export const MOUTHS = ['normal', 'open'];
 export const POSITIONS = ['left', 'center', 'right'];
 export const VIEWS = ['bust', 'full'];
 export const BG_MODES = ['stage', 'full'];
