@@ -61,7 +61,7 @@ img { image-rendering: pixelated; image-rendering: crisp-edges; }
   background: var(--panel); color: var(--ink); border-color: rgba(217, 164, 65, 0.6); }
 .bubble.nar::after { display: none; }
 
-.window { position: absolute; left: 3vw; right: 3vw; bottom: calc(2vh + env(safe-area-inset-bottom)); height: 46vh;
+.window { position: absolute; left: 3vw; right: 3vw; bottom: calc(2vh + env(safe-area-inset-bottom));
   padding: 1.1em 1.2em; font-size: clamp(16px, 4.4vw, 22px); background: var(--panel);
   border: 2px solid rgba(217, 164, 65, 0.7); border-radius: 1.2em; overflow: auto; }
 .window .name { color: var(--gold); }
@@ -80,7 +80,7 @@ img { image-rendering: pixelated; image-rendering: crisp-edges; }
 /* 幕と額縁は 2048×1152 の舞台座標で描き、画面を覆う倍率で拡大する（js の layoutCurtain） */
 #curtain .art { position: absolute; left: 0; top: 0; width: 2048px; height: 1152px; transform-origin: 0 0; }
 #curtain .panel { position: absolute; top: 0; width: 1024px; height: 1152px; image-rendering: pixelated;
-  background: url(../theater/curtain.png?v=d8c5211) no-repeat; background-size: 2048px 1152px;
+  background: url(../theater/curtain.png?v=1f6dcf4) no-repeat; background-size: 2048px 1152px;
   transition: transform 1.8s cubic-bezier(.6, .05, .3, 1); }
 #curtain .l { left: 0; background-position: 0 0; }
 #curtain .r { left: 1024px; background-position: -1024px 0; }

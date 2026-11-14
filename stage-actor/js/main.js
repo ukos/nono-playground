@@ -1,6 +1,6 @@
 // 画面表示と操作。状態は engine.js の Session が持ち、ここは毎回それを描き直すだけ。
-import { Session } from './engine.js?v=d8c5211';
-import { indexActors, resolveLayers, layersUsedBy } from './faces.js?v=d8c5211';
+import { Session } from './engine.js?v=1f6dcf4';
+import { indexActors, resolveLayers, layersUsedBy } from './faces.js?v=1f6dcf4';
 
 // 公開のたびに tools/deploy_playground.py が版（コミット）を入れる。URLに付けて、古いファイルの使い回しを防ぐ
 const V = document.querySelector('meta[name="stage-version"]')?.content || 'dev';
@@ -40,7 +40,11 @@ function showError(e) {
   el.error.textContent = String(e && e.message ? e.message : e);
   el.error.hidden = false;
 }
-window.addEventListener('error', (e) => showError(e.error || e.message));
+window.addEventListener('error', (e) => {
+  // 「Script error.」は中身の分からない外部由来のエラー（ブラウザの拡張機能など）。アプリの動作には関係しないので表示しない
+  if (!e.error && /^Script error\.?$/.test(e.message || '')) { console.warn('外部のスクリプトエラー（無視）'); return; }
+  showError(e.error || e.message);
+});
 window.addEventListener('unhandledrejection', (e) => showError(e.reason));
 
 async function loadJSON(url) {
@@ -195,6 +199,8 @@ function renderText(stop, L) {
   if (!text) return;
 
   if (L.portrait) {
+    // セリフ枠は、背景（舞台領域）の下端の少し上から始める
+    el.win.style.top = `${Math.max(0, L.rh - 24)}px`;
     el.win.querySelector('.name').textContent = name;
     el.win.querySelector('.name').hidden = !name;
     el.win.querySelector('.text').textContent = text;
