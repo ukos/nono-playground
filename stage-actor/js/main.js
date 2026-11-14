@@ -1,6 +1,6 @@
 // 画面表示と操作。状態は engine.js の Session が持ち、ここは毎回それを描き直すだけ。
-import { Session } from './engine.js?v=343fe50';
-import { indexActors, resolveLayers, layersUsedBy } from './faces.js?v=343fe50';
+import { Session } from './engine.js?v=6007719';
+import { indexActors, resolveLayers, layersUsedBy } from './faces.js?v=6007719';
 
 // 公開のたびに tools/deploy_playground.py が版（コミット）を入れる。URLに付けて、古いファイルの使い回しを防ぐ
 const V = document.querySelector('meta[name="stage-version"]')?.content || 'dev';
