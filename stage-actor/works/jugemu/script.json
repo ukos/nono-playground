@@ -1,0 +1,251 @@
+{
+  "meta": {
+    "id": "jugemu",
+    "title": "寿限無 ―名前が先に着く―",
+    "original": "古典落語『寿限無』（伝統演目・著作権消滅）",
+    "adaptation": "faithful",
+    "format": "v3",
+    "minutes": 6,
+    "synopsis": "めでたい語を全部つないだ長名を、使者が息を切らして伝える短編。名前を言い終える頃には、たんこぶが引いている。",
+    "note": "本脚本は翻案であり、原作の文章・口演の転載ではない。セリフは全て本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "父",
+      "actor": "tanurio",
+      "costume": "default"
+    },
+    {
+      "role": "母",
+      "actor": "extra_elf",
+      "costume": "default"
+    },
+    {
+      "role": "寿限無",
+      "actor": "shiro",
+      "costume": "default"
+    },
+    {
+      "role": "使いの子",
+      "actor": "sasuke",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "home": "bg/jugemu-home-2048x1152.png",
+    "street": "bg/jugemu-street-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『寿限無 ―名前が先に着く―』。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "短くて長い、名前の早口コメディです。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "home",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "home"
+    },
+    {
+      "op": "show",
+      "actor": "tanurio",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elf",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elf",
+      "text": "丈夫でめでたい名前にしたいね。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "和尚さまの候補を全部つなげれば、最強じゃないか。",
+      "eyes": "fun"
+    },
+    {
+      "op": "nar",
+      "text": "二人は、めでたい言葉を一つ残らず名前にする。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elf"
+    },
+    {
+      "op": "hide",
+      "actor": "tanurio"
+    },
+    {
+      "op": "bg",
+      "src": "street",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "street"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "sasuke",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "sasuke",
+      "text": "大変だ。あの子が転んで、たんこぶを作った。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "家へ知らせて。名前を間違えないでね。",
+      "eyes": "fun"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "show",
+      "actor": "tanurio",
+      "pos": "left"
+    },
+    {
+      "op": "say",
+      "actor": "sasuke",
+      "text": "お宅の、寿限無寿限無、五劫のすりきれ、海砂利水魚の……"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "落ち着け。まだ半分だ。"
+    },
+    {
+      "op": "say",
+      "actor": "sasuke",
+      "text": "水行末雲来末風来末、食う寝るところに住むところ……"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "息を吸え。"
+    },
+    {
+      "op": "say",
+      "actor": "sasuke",
+      "text": "やぶらこうじのぶらこうじ、パイポパイポ……長久命の長助が！",
+      "eyes": "surprise",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "どうした。"
+    },
+    {
+      "op": "say",
+      "actor": "sasuke",
+      "text": "名前を言ってる間に、たんこぶが引っ込んだ！",
+      "eyes": "fun"
+    },
+    {
+      "op": "nar",
+      "text": "本人が元気に走ってくる。"
+    },
+    {
+      "op": "hide",
+      "actor": "sasuke"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "次からは「じゅげちゃん」でいいよ。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "めでたさは減らないか。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "呼んでもらえる回数が増えるから、むしろ増える。",
+      "eyes": "joy"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "hide",
+      "actor": "tanurio"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "長い名前は、たんこぶより長く残りました。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "めでたい言葉は全部入り、呼び名は短く。これにて。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

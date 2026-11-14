@@ -1,0 +1,387 @@
+{
+  "meta": {
+    "id": "kasa-jizo",
+    "title": "笠地蔵 ―真夜中の地蔵会議―",
+    "original": "日本昔話『笠地蔵』（伝統説話・著作権消滅）",
+    "adaptation": "free",
+    "format": "v3",
+    "minutes": 8,
+    "synopsis": "売れ残った笠を地蔵へ贈った老夫婦。その夜、地蔵たちは「何をどれだけ返すか」を真剣に議論する。必要な分だけを老夫婦へ、残りを共同蔵へ届ける、地蔵側視点のファンタジーコメディ。",
+    "note": "本脚本は翻案であり、原作の文章・口演の転載ではない。セリフは全て本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "お爺さん",
+      "actor": "extra_elder",
+      "costume": "default"
+    },
+    {
+      "role": "お婆さん",
+      "actor": "extra_elf",
+      "costume": "default"
+    },
+    {
+      "role": "地蔵議長",
+      "actor": "extra_skeleton",
+      "costume": "default"
+    },
+    {
+      "role": "若手地蔵",
+      "actor": "shiro",
+      "costume": "default"
+    },
+    {
+      "role": "力持ち地蔵",
+      "actor": "iwao",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "market": "bg/year-end-market-2048x1152.png",
+    "jizo": "bg/snowy-jizo-pass-2048x1152.png",
+    "cottage": "bg/old-cottage-night-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『笠地蔵 ―真夜中の地蔵会議―』。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "雪の夜、六体の地蔵は黙っていた――昼のあいだは。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "真夜中になると、石の議事録がたいへん賑やかに始まります。",
+      "eyes": "fun",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "market",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "market"
+    },
+    {
+      "op": "nar",
+      "text": "年の瀬の市。笠が一つも売れず、老夫婦の夕飯も買えない。"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elf",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elf",
+      "text": "売れなかった笠も、誰かの役には立つよ。気を落とさないで。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "帰り道の地蔵さまへ被せよう。雪より笠の方が軽かろう。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elf"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "bg",
+      "src": "jizo",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "jizo"
+    },
+    {
+      "op": "nar",
+      "text": "峠。五つの笠と、自分の手拭いを六体の地蔵へ掛ける。"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_skeleton",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "最後は手拭いですまん。皆さま、よい年を。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "nar",
+      "text": "夜半。人の足音が消えると、地蔵たちの石の会議が始まる。"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "left"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "議題一。いただいた親切へ、どう返すか。案をどうぞ。",
+      "eyes": "fun"
+    },
+    {
+      "op": "show",
+      "actor": "iwao",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "米俵を百俵。豪快でわかりやすい。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_skeleton",
+      "text": "却下。玄関がつぶれる。恩返しで家を壊してはならぬ。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "では、小判を山ほど。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "雪道で落とす。拾った者が別の昔話を始める。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_skeleton",
+      "text": "必要な物を、必要なだけ。残りは村の共同蔵へ。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "地味ですが、議長らしい案です。採決。"
+    },
+    {
+      "op": "nar",
+      "text": "六体の地蔵は石の手を少しだけ上げる。全会一致。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "運搬方法は。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_skeleton",
+      "text": "押す。地蔵は歩かぬが、雪の上なら滑る。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "それは歩くより目立ちます。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "地蔵たちは米、味噌、薪、布を小さな橇へ載せる。"
+    },
+    {
+      "op": "hide",
+      "actor": "iwao"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_skeleton"
+    },
+    {
+      "op": "bg",
+      "src": "cottage",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "cottage"
+    },
+    {
+      "op": "nar",
+      "text": "老夫婦の家。屋根の上を、重いものが滑る音が近づく。"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elf",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elf",
+      "text": "お爺さん、家が歩いてきたみたいな音だよ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "家はここだ。歩いてくるのは、もっと重い方かもしれん。"
+    },
+    {
+      "op": "nar",
+      "text": "戸口に橇が止まり、食料と薪、そして「共同蔵へ」の絵札が残る。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elf",
+      "text": "私たちだけの分ではないね。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "地蔵さまは、分けるところまで見ておられる。"
+    },
+    {
+      "op": "nar",
+      "text": "二人は必要な分を取り、残りを村の広場へ運ぶ。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elf"
+    },
+    {
+      "op": "bg",
+      "src": "jizo",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "jizo"
+    },
+    {
+      "op": "nar",
+      "text": "翌朝。地蔵たちは元の場所で、何も知らない顔をしている。"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_skeleton",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "議長、手拭いが少し曲がっています。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_skeleton",
+      "text": "会議の痕跡は消した。曲がりは風のせいだ。"
+    },
+    {
+      "op": "show",
+      "actor": "iwao",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "次回議題。橇にブレーキを付ける。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "賛成。昨夜、坂を二つ通り過ぎました。",
+      "eyes": "fun",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "iwao"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_skeleton"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "笠へのお礼は、老夫婦だけでなく村の冬を温めました。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "親切が会議にかけられるなら、分けられる恩返しが最優秀案でしょう。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

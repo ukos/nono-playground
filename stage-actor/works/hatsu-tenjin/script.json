@@ -1,0 +1,200 @@
+{
+  "meta": {
+    "id": "hatsu-tenjin",
+    "title": "初天神 ―父と子の凧―",
+    "original": "古典落語『初天神』（伝統演目・著作権消滅）",
+    "adaptation": "faithful",
+    "format": "v3",
+    "minutes": 6,
+    "synopsis": "ねだらない約束で初天神へ行った父子が、飴と凧で次々に約束を揺らす短編ほのぼの噺。",
+    "note": "本脚本は翻案であり、原作の文章・口演の転載ではない。セリフは全て本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "父",
+      "actor": "extra_craftsman",
+      "costume": "default"
+    },
+    {
+      "role": "子",
+      "actor": "shiro",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "street": "bg/hatsu-tenjin-road-2048x1152.png",
+    "shrine": "bg/hatsu-tenjin-shrine-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『初天神 ―父と子の凧―』。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "買わない約束は、境内に着く前から揺れています。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "street",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "street"
+    },
+    {
+      "op": "show",
+      "actor": "extra_craftsman",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "初天神へ行くが、今日は何もねだるな。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "ねだらない。見るだけ。目が欲しがるのは止められないけど。",
+      "eyes": "fun"
+    },
+    {
+      "op": "bg",
+      "src": "shrine",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "shrine"
+    },
+    {
+      "op": "nar",
+      "text": "参道には飴、団子、凧。父の財布は早くも危ない。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "あの飴、見てるだけで口が甘くなる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "見るだけと言ったろう。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "父ちゃんが食べたいなら、付き合うよ。"
+    },
+    {
+      "op": "nar",
+      "text": "父は飴を買う。子は半分を父へ返す。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "お前、半分くれるのか。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "父ちゃんの財布から出たから。"
+    },
+    {
+      "op": "nar",
+      "text": "次は凧。父が夢中で糸を握り、子に触らせない。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "僕の凧だよ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "今、風を読んでいる。大人の仕事だ。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "買うまでは僕が子どもで、買った後は父ちゃんが子どもだ。",
+      "eyes": "fun",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "凧は高く上がり、二人の影が同じ方向へ伸びる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "次は交代だ。十数えたら糸を渡す。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "約束。父ちゃんも、ねだりすぎないでね。",
+      "eyes": "joy"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_craftsman"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "初天神で一番はしゃいだのは、どちらだったでしょう。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "親子は飴と凧と、子ども心を半分ずつ分けました。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

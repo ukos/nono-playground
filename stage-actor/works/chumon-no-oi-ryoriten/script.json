@@ -1,0 +1,311 @@
+{
+  "meta": {
+    "id": "chumon-no-oi-ryoriten",
+    "title": "注文の多い料理店 ―山猫軒の予約客―",
+    "original": "宮沢賢治『注文の多い料理店』（著作権消滅作品）",
+    "adaptation": "moderate",
+    "format": "v3",
+    "minutes": 10,
+    "synopsis": "獲物を求める二人の猟師が、ヨルの山猫軒で自分たちこそ料理だと気づく。犬に救われ、狩りを遊びにせず森の手入れへ戻る。",
+    "note": "本脚本は翻案であり、原作の文章・口演の転載ではない。セリフは全て本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "猟師一",
+      "actor": "yui",
+      "costume": "default"
+    },
+    {
+      "role": "猟師二",
+      "actor": "rei_casual",
+      "costume": "default"
+    },
+    {
+      "role": "山猫軒の主人",
+      "actor": "yoru",
+      "costume": "default"
+    },
+    {
+      "role": "猟犬",
+      "actor": "kurogane",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "forest": "bg/kenji-misty-forest-2048x1152.png",
+    "restaurant": "bg/wildcat-restaurant-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『注文の多い料理店 ―山猫軒の予約客―』。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "二人の猟師と、ヨルの洋食屋。注文されるのは誰でしょう。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "forest",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "forest"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "獲物が一匹もいない。山まで来て損をした。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "犬たちも戻らない。霧が濃くなった。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "森の奥に、明るい扉。「西洋料理・山猫軒」と金文字がある。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "bg",
+      "src": "restaurant",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "restaurant"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "第一の扉。「泥を落とし、靴を磨いてください」。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "客を大切にする店だ。"
+    },
+    {
+      "op": "nar",
+      "text": "第二の扉。「金属品を外してください」。銃と弾を棚へ置く。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "料理店にしては、こちらへの注文が多い。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "第三の扉。「香料と塩を身体へよく塗ってください」。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "これは客の支度じゃない。料理の下ごしらえだ。",
+      "eyes": "crying"
+    },
+    {
+      "op": "show",
+      "actor": "yoru",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "ようこそ。今夜の特別料理が、自分で味を付けて来た。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "山猫軒の主人。私たちを食べるつもりだな。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "あなた方も、山の命を数でしか見なかったでしょう。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "だから同じことをしてよい理由にはならない。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "では、扉の向こうへ進む理由を言いなさい。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "生きて帰り、狩りを遊びにしないと決める。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "銃を置き、山の案内人として働く。",
+      "eyes": "closed",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "外から犬の吠え声。扉が震え、金文字が雨のように流れ落ちる。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "犬たちは、主人より山の約束を覚えていたようだ。"
+    },
+    {
+      "op": "nar",
+      "text": "ヨルは厨房の裏口を開ける。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "帰りなさい。次に来る時は、客でも獲物でもなく、森の手入れ人として。"
+    },
+    {
+      "op": "hide",
+      "actor": "yoru"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "bg",
+      "src": "forest",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "forest"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "帰路はこちらだ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "犬に案内される猟師か。立場が逆になった。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "逆になって、やっと見えた。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "山猫軒の注文は、二人の顔ではなく考え方を変えました。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "食べる側も食べられる側も、命を品書きだけにしてはいけません。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

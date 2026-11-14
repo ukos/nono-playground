@@ -1,0 +1,334 @@
+{
+  "meta": {
+    "id": "manju-kowai",
+    "title": "饅頭怖い ―NONO座総出の怖いもの大会―",
+    "original": "古典落語『饅頭怖い』（伝統演目・著作権消滅）",
+    "adaptation": "faithful",
+    "format": "v3",
+    "minutes": 8,
+    "synopsis": "多人数の怖いもの大会から、饅頭を投げ込むいたずら、濃いお茶のオチまでをテンポよくつなぐ全員集合型コメディ。",
+    "note": "本脚本は翻案であり、原作の文章・口演の転載ではない。セリフは全て本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "若者",
+      "actor": "yui",
+      "costume": "default"
+    },
+    {
+      "role": "若者",
+      "actor": "sasuke",
+      "costume": "default"
+    },
+    {
+      "role": "若者",
+      "actor": "shiro",
+      "costume": "default"
+    },
+    {
+      "role": "若者",
+      "actor": "gou",
+      "costume": "default"
+    },
+    {
+      "role": "若者",
+      "actor": "akane",
+      "costume": "default"
+    },
+    {
+      "role": "若者",
+      "actor": "tanurio",
+      "costume": "default"
+    },
+    {
+      "role": "饅頭好き",
+      "actor": "extra_porter",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "room": "bg/manju-gathering-2048x1152.png",
+    "next": "bg/manju-next-room-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『饅頭怖い ―NONO座総出の怖いもの大会―』。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "怖いものを言い合えば、最後に怖いのは誰でしょう。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "room",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "room"
+    },
+    {
+      "op": "nar",
+      "text": "町内の若者が集まり、怖いものを順番に言う。"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "sasuke",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "私は雷。光った後の待ち時間が怖い。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "sasuke",
+      "text": "俺は狭い所。隠れるのは好きだが、出られないのは嫌だ。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "私は大きな犬。やさしくても、走ってくると速いもの。"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "show",
+      "actor": "gou",
+      "pos": "left"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "俺は細かい計算。数字が群れで来る。"
+    },
+    {
+      "op": "hide",
+      "actor": "sasuke"
+    },
+    {
+      "op": "show",
+      "actor": "akane",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "私は退屈な説教。逃げ道がない。",
+      "eyes": "fun"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "show",
+      "actor": "tanurio",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "あいつの怖い物も聞こう。"
+    },
+    {
+      "op": "hide",
+      "actor": "gou"
+    },
+    {
+      "op": "show",
+      "actor": "extra_porter",
+      "pos": "left"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "俺は饅頭が怖い。見るだけで震える。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "本当かい。じゃあ別室で休みな。",
+      "eyes": "fun"
+    },
+    {
+      "op": "nar",
+      "text": "一同は饅頭を山ほど買い、別室へ投げ込む。"
+    },
+    {
+      "op": "hide",
+      "actor": "akane"
+    },
+    {
+      "op": "hide",
+      "actor": "tanurio"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_porter"
+    },
+    {
+      "op": "bg",
+      "src": "next",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "next"
+    },
+    {
+      "op": "show",
+      "actor": "extra_porter",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "怖い怖い。栗、胡麻、酒、全部違って怖い。",
+      "eyes": "fun"
+    },
+    {
+      "op": "nar",
+      "text": "男は饅頭を次々食べる。障子の外から全員が覗く。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_porter"
+    },
+    {
+      "op": "bg",
+      "src": "room",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "room"
+    },
+    {
+      "op": "show",
+      "actor": "akane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "sasuke",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "あいつ、怖がりながら全部食べたよ。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "sasuke",
+      "text": "騙された。次に本当に怖いものを聞こう。"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "show",
+      "actor": "extra_porter",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "extra_porter",
+      "text": "今度は、濃いお茶が怖い。",
+      "eyes": "fun",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "それなら湯飲みごと怖がらせてやる！"
+    },
+    {
+      "op": "nar",
+      "text": "全員が茶を持って追いかけ、部屋は饅頭の箱で転び放題になる。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_porter"
+    },
+    {
+      "op": "hide",
+      "actor": "sasuke"
+    },
+    {
+      "op": "hide",
+      "actor": "akane"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "怖いもの大会は、饅頭とお茶の大宴会になりました。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "本当に怖いのは、食い意地のそろった仲間たち。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

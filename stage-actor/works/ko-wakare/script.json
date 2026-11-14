@@ -1,0 +1,367 @@
+{
+  "meta": {
+    "id": "ko-wakare",
+    "title": "子別れ ―親子の約束帳―",
+    "original": "古典落語『子別れ』（伝統演目・著作権消滅）",
+    "adaptation": "moderate",
+    "format": "v3",
+    "minutes": 13,
+    "synopsis": "酒で家族を失った熊五郎が、三年後に息子亀と再会する。鰻をきっかけに即復縁するのではなく、約束帳と継続行動で母子の信頼を少しずつ取り戻す人情噺。",
+    "note": "本脚本は翻案であり、原作の文章・口演の転載ではない。セリフは全て本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "熊五郎",
+      "actor": "extra_craftsman",
+      "costume": "default"
+    },
+    {
+      "role": "お徳",
+      "actor": "extra_elf",
+      "costume": "default"
+    },
+    {
+      "role": "亀",
+      "actor": "shiro",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "home": "bg/broken-family-home-2048x1152.png",
+    "street": "bg/edo-school-road-2048x1152.png",
+    "shop": "bg/small-work-shop-2048x1152.png",
+    "eel": "bg/edo-eel-shop-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『子別れ ―親子の約束帳―』。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "別れた家族は、言葉ではなく小さな約束から戻ります。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "home",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "home"
+    },
+    {
+      "op": "nar",
+      "text": "大工の熊五郎は酒に溺れ、妻お徳と息子亀を家から追い出してしまう。"
+    },
+    {
+      "op": "show",
+      "actor": "extra_craftsman",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elf",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elf",
+      "text": "亀を怒鳴る家には置けない。酔いが醒めても、今日は戻りません。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "父ちゃん、明日はやさしくなる？",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "うるせえ。好きにしろ。",
+      "eyes": "anger"
+    },
+    {
+      "op": "nar",
+      "text": "戸が閉まり、熊五郎は一人になる。"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elf"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_craftsman"
+    },
+    {
+      "op": "bg",
+      "src": "street",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "street"
+    },
+    {
+      "op": "nar",
+      "text": "三年後。酒を断った熊五郎は、通学帰りの亀と出会う。"
+    },
+    {
+      "op": "show",
+      "actor": "extra_craftsman",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "亀、大きくなったな。母ちゃんは元気か。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "元気。でも父ちゃんの話をすると、黙る。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "当然だ。会ってくれとは言えない。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "じゃあ、できる約束を一つだけして。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "酒を飲まない。怒鳴らない。破ったら言い訳をしない。",
+      "eyes": "closed",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "紙に書いて。僕が預かる。"
+    },
+    {
+      "op": "nar",
+      "text": "熊五郎は約束帳を書き、亀へ渡す。鰻屋へ誘うが、母へ先に話すと決める。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_craftsman"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "bg",
+      "src": "shop",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "shop"
+    },
+    {
+      "op": "nar",
+      "text": "お徳の働く店。亀は約束帳を見せる。"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elf",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elf",
+      "text": "亀、会ったのね。怖くなかった？",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "怖かった。でも父ちゃんは、僕に決めさせた。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elf",
+      "text": "一度の紙で信じ直すことはできない。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "だから一週間ずつ印を付けるの。母ちゃんも見て。",
+      "eyes": "joy"
+    },
+    {
+      "op": "nar",
+      "text": "数か月、熊五郎は酒を断ち、養育の金と手紙を店へ届け続ける。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elf",
+      "text": "今度、昼の鰻屋で三人で会おう。帰るかどうかは、その後。",
+      "eyes": "closed"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elf"
+    },
+    {
+      "op": "bg",
+      "src": "eel",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "eel"
+    },
+    {
+      "op": "nar",
+      "text": "鰻屋。三人は別々の席に座り、亀が真ん中へ約束帳を置く。"
+    },
+    {
+      "op": "show",
+      "actor": "extra_craftsman",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elf",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "徳、亀。許してくれとは言わない。傷つけたことを認める。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elf",
+      "text": "私は戻る約束をしない。会い続けられるかを見ます。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "それでいい。家族という言葉を盾にしない。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "今日の印は、三人で話せた丸。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "亀は帳面に大きな丸を書く。三人は同じ鰻を少しずつ分ける。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elf",
+      "text": "次は公園で。お酒のない昼に。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "必ず行く。来られない時は、前の日に知らせる。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "約束が増えると、家族の道ができるね。",
+      "eyes": "joy"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elf"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_craftsman"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "親子は一度で元へ戻らず、会う約束を重ねました。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "人情は赦しを急がず、安心を積み直す時間にも宿ります。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

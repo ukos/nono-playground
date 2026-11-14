@@ -1,0 +1,476 @@
+{
+  "meta": {
+    "id": "momotaro",
+    "title": "桃太郎 ―鬼ヶ島の持ち主―",
+    "original": "日本昔話『桃太郎』（伝統説話・著作権消滅）",
+    "adaptation": "free",
+    "format": "v3",
+    "minutes": 11,
+    "synopsis": "鬼ヶ島へ宝を取り返しに来た桃太郎は、宝がもともと島の民の祭具で、村へ預けられた品だったと知る。観客は「戦う／話し合う」を選ぶが、どちらも所有記録の確認と交渉へ進み、人と鬼は共同倉庫と港を作る。",
+    "note": "本脚本は翻案であり、原作の文章・口演の転載ではない。セリフは全て本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "桃太郎",
+      "actor": "yui",
+      "costume": "default"
+    },
+    {
+      "role": "村の長老",
+      "actor": "extra_elder",
+      "costume": "default"
+    },
+    {
+      "role": "犬",
+      "actor": "kurogane",
+      "costume": "default"
+    },
+    {
+      "role": "猿",
+      "actor": "sasuke",
+      "costume": "default"
+    },
+    {
+      "role": "雉",
+      "actor": "kogane",
+      "costume": "default"
+    },
+    {
+      "role": "鬼の代表",
+      "actor": "extra_oni",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "village": "bg/village-storehouse-2048x1152.png",
+    "shore": "bg/oni-island-shore-2048x1152.png",
+    "harbor": "bg/shared-harbor-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『桃太郎 ―鬼ヶ島の持ち主―』。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "昔話の宝箱をひっくり返すと、底から古い持ち主の名が出てきました。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "奪われた宝を取り返す者は、英雄か。それとも次の略奪者か。",
+      "eyes": "closed",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "village",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "village"
+    },
+    {
+      "op": "nar",
+      "text": "村の蔵。鬼ヶ島から取り戻す品を書いた古い目録が広げられている。"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "桃太郎よ、島の宝を持ち帰れば、村は百年豊かになる。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "目録には「返してもらう」とある。でも、誰が最初の持ち主なんだ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "昔から村に伝わる話だ。疑う余地はない。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "昔からある話ほど、確かめる価値がある。",
+      "eyes": "closed",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "護衛は任せろ。だが、勝つことと正しいことは同じではない。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "犬、猿、雉。三人とも、宝より目録を守ってくれ。"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "show",
+      "actor": "sasuke",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "sasuke",
+      "text": "裏に薄い文字があるぜ。「潮の民より預かる」だ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "預かった物なら、村の所有とは限らない。"
+    },
+    {
+      "op": "hide",
+      "actor": "sasuke"
+    },
+    {
+      "op": "show",
+      "actor": "kogane",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "kogane",
+      "text": "海へ出る。答えは島で聞けばいい。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "きび団子は報酬ではなく、同じ船に乗る仲間の食事だ。",
+      "eyes": "joy"
+    },
+    {
+      "op": "hide",
+      "actor": "kogane"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "bg",
+      "src": "shore",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "shore"
+    },
+    {
+      "op": "nar",
+      "text": "鬼ヶ島の浜。砦ではなく、壊れた倉庫と古い港が見える。"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_oni",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "extra_oni",
+      "text": "また村の旗か。今度は何を持ち去りに来た。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "村では、鬼が宝を奪ったと教えられた。話を確かめに来た。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_oni",
+      "text": "その宝は島の祭具だ。飢饉の年、村が食糧と引き換えに運び去った。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "では、鬼が村から取った米や金は何だ。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "extra_oni",
+      "text": "返還を求めても門を閉ざされた。だから担保として持ち帰った。"
+    },
+    {
+      "op": "nar",
+      "text": "鬼は箱を開く。品々には、村ではなく島の家々の印が刻まれている。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "目録の裏書きと一致する。村の話は半分しか残っていなかった。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "show",
+      "actor": "sasuke",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "sasuke",
+      "text": "桃太郎、向こうも武器を並べてる。どうする。",
+      "eyes": "anger"
+    },
+    {
+      "op": "nar",
+      "text": "観客が、桃太郎の最初の一手を選ぶ。"
+    },
+    {
+      "op": "choice",
+      "options": [
+        {
+          "text": "武器を構え、力を示す",
+          "jump": "route_fight"
+        },
+        {
+          "text": "目録を開き、話し合う",
+          "jump": "route_talk"
+        }
+      ]
+    },
+    {
+      "op": "label",
+      "id": "route_fight"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "こちらにも戦う力はある。だが、最初の一撃は打たない。",
+      "eyes": "anger",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "犬が盾を、猿が棒を構える。鬼も金棒を上げ、浜が緊張する。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_oni",
+      "text": "力を見せてから話すのか。人の流儀は、昔と変わらぬな。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "その通りだ。今の構えが次の恨みを作る。武器を下ろす。",
+      "eyes": "closed"
+    },
+    {
+      "op": "jump",
+      "to": "route_negotiate"
+    },
+    {
+      "op": "label",
+      "id": "route_talk"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "島の印と村の記録を、一品ずつ照らし合わせよう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_oni",
+      "text": "言葉だけでなく、返す品と残す品を記録するなら応じる。"
+    },
+    {
+      "op": "say",
+      "actor": "sasuke",
+      "text": "おれが書記をやる。ごまかしたら、両方から怒られる役だな。",
+      "eyes": "fun"
+    },
+    {
+      "op": "jump",
+      "to": "route_negotiate"
+    },
+    {
+      "op": "label",
+      "id": "route_negotiate"
+    },
+    {
+      "op": "hide",
+      "actor": "sasuke"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "center"
+    },
+    {
+      "op": "nar",
+      "text": "浜に敷物を広げ、人と鬼が箱を一つずつ開ける。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "島の祭具は返す。村人の冬を越す米は返してもらう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_oni",
+      "text": "金貨の半分は港の修理に使い、残りは両者の共同倉庫へ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "宝を勝者の戦利品にせず、持ち主と用途を見える形にしよう。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "extra_oni",
+      "text": "ならば、島の扉も村の門も、同じ日に開く。",
+      "eyes": "joy"
+    },
+    {
+      "op": "nar",
+      "text": "三者は新しい目録へ署名し、古い箱に双方の印を付ける。"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_oni"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "bg",
+      "src": "harbor",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "harbor"
+    },
+    {
+      "op": "nar",
+      "text": "数か月後。島と村を結ぶ共同港に、交易の船が着く。"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "宝を持ち帰らず、道を持ち帰るとは思わなんだ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "宝の価値は、囲い込むことより、正しい持ち主を結ぶことにあった。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "村の古い話も、裏面まで語り継ごう。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "鬼退治の代わりに、誤解退治だ。こちらの方が手ごわかった。",
+      "eyes": "fun"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "戦いを選んでも、話し合いを選んでも、最後に必要なのは確かめること。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "正義は宝を奪う旗ではなく、持ち主を見つける灯りなのかもしれません。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

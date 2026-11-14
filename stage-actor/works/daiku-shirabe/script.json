@@ -1,0 +1,255 @@
+{
+  "meta": {
+    "id": "daiku-shirabe",
+    "title": "大工調べ ―道具箱の値段―",
+    "original": "古典落語『大工調べ』（伝統演目・著作権消滅）",
+    "adaptation": "moderate",
+    "format": "v3",
+    "minutes": 10,
+    "synopsis": "家賃の担保に取られた道具箱を巡り、棟梁が大家と奉行所で渡り合う。啖呵を侮辱でなく、損失と回収の理屈を通す職人の言葉として再構成。",
+    "note": "本脚本は翻案であり、原作の文章・口演の転載ではない。セリフは全て本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "棟梁",
+      "actor": "extra_craftsman",
+      "costume": "default"
+    },
+    {
+      "role": "大家",
+      "actor": "extra_villager",
+      "costume": "default"
+    },
+    {
+      "role": "町奉行",
+      "actor": "mei",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "tenement": "bg/carpenter-tenement-2048x1152.png",
+    "court": "bg/edo-magistrate-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『大工調べ ―道具箱の値段―』。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "職人の道具は、ただの物ではありません。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "tenement",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "tenement"
+    },
+    {
+      "op": "show",
+      "actor": "extra_craftsman",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_villager",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "家賃のかたに、与太郎の道具箱を預かった。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "不足は一両二分。ここに一両ある。道具を先に返してくれ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "全部そろうまで返せない。規則だ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "道具がなければ働けない。働けなければ残りも払えない。",
+      "eyes": "anger"
+    },
+    {
+      "op": "nar",
+      "text": "棟梁は不足分を工面するが、大家は受取を拒む。町奉行へ。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_villager"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_craftsman"
+    },
+    {
+      "op": "bg",
+      "src": "court",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "court"
+    },
+    {
+      "op": "show",
+      "actor": "mei",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "extra_craftsman",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_villager",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "双方、怒鳴らず事実を述べなさい。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "家賃を払わぬので、担保を預かっただけです。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "払う金を持って行った。だが、大家は道具を使えなくした。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "道具箱の中身と、預かった日数は。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "鉋、鑿、鋸。腕と同じです。七日、仕事を失った。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "そんなに稼げるなら、先に家賃を。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "稼ぐための手を縛って、払えとは理屈が逆だ。",
+      "eyes": "anger",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "棟梁は、道具の価値、失った日当、家賃の不足を一息に並べる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "一両二分を受け取り、箱を返す。それが最短で全員の損を止める。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "もっともです。大家は家賃を受け取り、道具を即時返却。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "ただし与太郎は、今後の支払日を棟梁と書面で決める。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "規則を守ったつもりで、回収の道を塞いでいた。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "大家を負かしに来たんじゃない。職人を働かせに来た。"
+    },
+    {
+      "op": "nar",
+      "text": "道具箱が戻り、棟梁は蓋を開けて一つずつ点検する。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "よい啖呵でした。次は奉行所でなく、帳場で使いなさい。",
+      "eyes": "fun"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_villager"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_craftsman"
+    },
+    {
+      "op": "hide",
+      "actor": "mei"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "道具箱は戻り、家賃も払われ、理屈だけが磨かれました。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "職人の啖呵は、働く権利を守る鑿だったのです。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

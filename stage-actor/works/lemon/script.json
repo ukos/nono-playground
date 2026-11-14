@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "id": "lemon",
+    "title": "檸檬 ―黄色い爆弾―",
+    "original": "梶井基次郎『檸檬』（著作権消滅作品）",
+    "adaptation": "faithful",
+    "format": "v3",
+    "minutes": 5,
+    "synopsis": "灰色に沈む主人公が一個の檸檬を買い、書店の画集へ爆弾のように置く短い詩的独白。",
+    "note": "本脚本は翻案であり、原作の文章・口演の転載ではない。セリフは全て本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "主人公",
+      "actor": "rei_casual",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "street": "bg/lemon-gray-street-2048x1152.png",
+    "bookstore": "bg/lemon-bookstore-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『檸檬 ―黄色い爆弾―』。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "短い詩的独白。重たい街へ、一個の色を置きます。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "street",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "street"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "胸の奥に、形のない重りがある。町の色まで灰色に見える。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "主人公は果物屋の前で、鮮やかな檸檬を一つ手に取る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "冷たい。小さい。掌の中だけ、世界の輪郭が戻ってくる。"
+    },
+    {
+      "op": "nar",
+      "text": "黄色を持って歩くと、曇った硝子も古い壁も舞台装置に変わる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "美しい物は、重りを消さない。でも、持ち方を変えてくれる。",
+      "eyes": "closed"
+    },
+    {
+      "op": "bg",
+      "src": "bookstore",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "bookstore"
+    },
+    {
+      "op": "nar",
+      "text": "丸善の画集を積み、頂上へ檸檬を置く。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "これは爆弾だ。爆発するのは店ではなく、私を覆う灰色だ。"
+    },
+    {
+      "op": "nar",
+      "text": "主人公は店を出る。想像の中で、黄色い光が画集の山を吹き飛ばす。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "何も壊れていない。それでも私は、少し軽く歩ける。",
+      "eyes": "joy"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "檸檬は町を爆破せず、見え方だけを鮮やかに変えました。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "小さな美しさは、重さの中に呼吸を作ることがあります。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

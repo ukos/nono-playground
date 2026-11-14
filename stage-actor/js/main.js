@@ -1,6 +1,6 @@
 // 画面表示と操作。状態は engine.js の Session が持ち、ここは毎回それを描き直すだけ。
-import { Session } from './engine.js?v=ebe8d8d';
-import { indexActors, resolveLayers, layersUsedBy } from './faces.js?v=ebe8d8d';
+import { Session } from './engine.js?v=fd62617';
+import { indexActors, resolveLayers, layersUsedBy } from './faces.js?v=fd62617';
 
 // 公開のたびに tools/deploy_playground.py が版（コミット）を入れる。URLに付けて、古いファイルの使い回しを防ぐ
 const V = document.querySelector('meta[name="stage-version"]')?.content || 'dev';
@@ -149,7 +149,7 @@ function render() {
   // 背景
   const bgPath = st.bg ? base + script.backgrounds[st.bg] : '';
   if (bgPath && el.bg.getAttribute('src') !== asset(bgPath)) el.bg.setAttribute('src', asset(bgPath));
-  el.bg.hidden = !bgPath;
+  el.bg.hidden = !bgPath || missingBg.has(asset(bgPath));
   el.bg.style.width = `${STAGE_W}px`;
   el.bg.style.height = `${STAGE_H}px`;
   el.bg.style.transform = `translate(${L.ox}px, ${L.oy}px) scale(${L.s})`;
@@ -272,6 +272,9 @@ window.addEventListener('keydown', (e) => {
   else if (e.key === 'Escape') goTitle();
 });
 window.addEventListener('resize', () => { layoutCurtain(); render(); });
+// 背景の画像がまだ届いていない作品は、暗い舞台のまま進める
+const missingBg = new Set();
+el.bg.addEventListener('error', () => { missingBg.add(el.bg.getAttribute('src')); el.bg.hidden = true; });
 
 /* ---------- 起動 ---------- */
 

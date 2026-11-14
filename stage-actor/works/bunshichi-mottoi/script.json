@@ -1,0 +1,646 @@
+{
+  "meta": {
+    "id": "bunshichi-mottoi",
+    "title": "文七元結 ―五十両の行方―",
+    "original": "古典落語『文七元結』（伝統演目・著作権消滅）",
+    "adaptation": "moderate",
+    "format": "v3",
+    "minutes": 18,
+    "synopsis": "長兵衛が娘のために借りた五十両を、命を絶とうとする文七へ渡す。金は戻るが、一度の美談で終わらず、家族・店・若者を支える仕組みへ情けをつなぐ長編人情噺。",
+    "note": "本脚本は翻案であり、原作の文章・口演の転載ではない。セリフは全て本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "長兵衛",
+      "actor": "extra_craftsman",
+      "costume": "default"
+    },
+    {
+      "role": "女房",
+      "actor": "extra_elf",
+      "costume": "default"
+    },
+    {
+      "role": "女将",
+      "actor": "akane",
+      "costume": "default"
+    },
+    {
+      "role": "文七",
+      "actor": "rei_casual",
+      "costume": "default"
+    },
+    {
+      "role": "商家の主人",
+      "actor": "extra_elder",
+      "costume": "default"
+    },
+    {
+      "role": "お久",
+      "actor": "yui",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "tenement": "bg/edo-tenement-2048x1152.png",
+    "shop": "bg/yoshiwara-office-2048x1152.png",
+    "bridge": "bg/azuma-bridge-night-2048x1152.png",
+    "merchant": "bg/edo-merchant-house-2048x1152.png",
+    "workshop": "bg/mottoi-workshop-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『文七元結 ―五十両の行方―』。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "情けは、渡した手から別の手へ巡ります。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "tenement",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "tenement"
+    },
+    {
+      "op": "nar",
+      "text": "江戸の長屋。左官の長兵衛は博打で家の金を失い、家族と口論になる。"
+    },
+    {
+      "op": "show",
+      "actor": "extra_craftsman",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elf",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elf",
+      "text": "お久を責めないで。あの子は、家を立て直そうと出ていったんだ。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "俺の負けが、娘にまで払わせる借金になった。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "吉原の店から使いが来る。お久は身を預け、父の借金を用立てようとしていた。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elf",
+      "text": "今なら迎えに行ける。頭を下げておいで。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elf"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_craftsman"
+    },
+    {
+      "op": "bg",
+      "src": "shop",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "shop"
+    },
+    {
+      "op": "nar",
+      "text": "店の女将は長兵衛を叱り、五十両を貸す。期限は大晦日。"
+    },
+    {
+      "op": "show",
+      "actor": "akane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_craftsman",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "これは娘を買う金じゃない。親がやり直すための猶予だよ。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "必ず働いて返す。お久は家へ帰してくれ。",
+      "eyes": "crying",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "金を返すまで預かる。でも客は取らせない。約束を破るな。"
+    },
+    {
+      "op": "hide",
+      "actor": "akane"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_craftsman"
+    },
+    {
+      "op": "nar",
+      "text": "奥の部屋。お久は、父が受け取った五十両の意味を女将へ尋ねる。"
+    },
+    {
+      "op": "show",
+      "actor": "akane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "父は、また博打へ持って行かないでしょうか。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "疑うのは当然だ。でも今度は、使い道を皆で見届ける。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "私が家を救うつもりで来たのに、待つことしかできません。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "待つのも仕事だよ。自分を売ったことにしないで、学びな。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "帰れたら、父の仕事の帳面を私が付けます。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "その意気だ。情けは、任せきりにしない方が長持ちする。",
+      "eyes": "joy"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "akane"
+    },
+    {
+      "op": "bg",
+      "src": "bridge",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "bridge"
+    },
+    {
+      "op": "nar",
+      "text": "吾妻橋。商家の奉公人・文七が、川を見つめている。"
+    },
+    {
+      "op": "show",
+      "actor": "extra_craftsman",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "若いの、欄干の外へ何を落とすつもりだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "店の五十両をなくしました。旦那さまに顔向けできません。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "命で勘定を合わせるな。なくした金はいくらだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "五十両です。"
+    },
+    {
+      "op": "nar",
+      "text": "長兵衛の懐にも、借りたばかりの五十両がある。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "この金を持って帰れ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "受け取れません。あなたにも事情があるはずです。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "娘が作った猶予だ。だが、お前が死ねば猶予そのものが腐る。",
+      "eyes": "closed",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "お名前を。必ず返します。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "名はいい。生きて店へ戻れ。"
+    },
+    {
+      "op": "nar",
+      "text": "長兵衛は五十両を押しつけ、逃げるように橋を去る。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_craftsman"
+    },
+    {
+      "op": "bg",
+      "src": "merchant",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "merchant"
+    },
+    {
+      "op": "nar",
+      "text": "商家。文七が五十両を差し出すと、店の者が奥から紛失金を見つける。"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "金は店にあった。お前は確認せず、命を捨てようとしたのか。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "申し訳ありません。なくしたと思い、恐ろしくて戻れませんでした。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "失敗より、相談せず消える方が店を壊す。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "橋で見知らぬ人が、娘のための金を私へ渡しました。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "その人を探す。恩返しの前に、事情と希望を聞く。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "私も参ります。金だけ返して終わりにはしません。",
+      "eyes": "closed"
+    },
+    {
+      "op": "nar",
+      "text": "店主は橋の番人と町内をたどり、長兵衛の長屋を突き止める。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "bg",
+      "src": "tenement",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "tenement"
+    },
+    {
+      "op": "nar",
+      "text": "長屋。金を手放した長兵衛へ、女房の怒りと沈黙が落ちる。"
+    },
+    {
+      "op": "show",
+      "actor": "extra_craftsman",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elf",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elf",
+      "text": "娘のための金を、見知らぬ人へ。あんたは大馬鹿だよ。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "返す言葉もない。明日から働く。お久にも全部話す。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "翌朝、文七の店の主と文七が長屋を訪れる。紛失金は店の奥で見つかっていた。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elf"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "この者の命を五十両で買い戻してくださった。金をお返しします。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "そして、名を聞かずに救った理由を、私は忘れません。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "返るなら、まずお久を迎える金にする。残りは働いて返す。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "文七を一人前の商人にする仕事を、あなたにも手伝ってほしい。"
+    },
+    {
+      "op": "nar",
+      "text": "店主はお久の身請けを整え、女将も貸金の返済期限を延ばす。"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "show",
+      "actor": "akane",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "一度の善行で博打の借りは消えないよ。毎日の働きで返しな。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "承知した。情けに甘えず、情けを次へ渡す。",
+      "eyes": "closed"
+    },
+    {
+      "op": "hide",
+      "actor": "akane"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_craftsman"
+    },
+    {
+      "op": "nar",
+      "text": "その夜。お久が長屋へ戻り、父の前に仕事の帳面を置く。"
+    },
+    {
+      "op": "show",
+      "actor": "extra_craftsman",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elf",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "父さん。助けたことは誇りです。でも、私を追い詰めたことは別です。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "わかっている。善いこと一つで、悪かった日々を消さない。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elf",
+      "text": "お久が帳面、私が財布。あんたは腕で稼ぐ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "返済日と生活費を先に書きます。賭場へ行けば、その日に相談。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "隠さない。俺一人の根性より、三人の仕組みを頼る。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elf",
+      "text": "それでやっと、家族の五十両が始まる。",
+      "eyes": "joy"
+    },
+    {
+      "op": "nar",
+      "text": "三人は最初の返済額を書き、揃って印を押す。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elf"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_craftsman"
+    },
+    {
+      "op": "bg",
+      "src": "workshop",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "workshop"
+    },
+    {
+      "op": "nar",
+      "text": "一年後。長兵衛の仕事場で、文七とお久が新しい元結を商い始める。"
+    },
+    {
+      "op": "show",
+      "actor": "rei_casual",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "父の五十両が、こんなに多くの人をつないだんですね。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "rei_casual",
+      "text": "今度は私たちが、困った奉公人へ前借りではなく相談先を作ります。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "情けを借金にしない仕組みですね。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_casual"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "五十両は戻り、情けだけが人から人へ残りました。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "人情は帳消しではなく、やり直す責任を支える力なのです。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

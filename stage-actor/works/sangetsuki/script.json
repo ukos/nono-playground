@@ -1,0 +1,229 @@
+{
+  "meta": {
+    "id": "sangetsuki",
+    "title": "山月記 ―虎の声、詩人の声―",
+    "original": "中島敦『山月記』（著作権消滅作品）",
+    "adaptation": "moderate",
+    "format": "v3",
+    "minutes": 11,
+    "synopsis": "虎となった李徴を本物の虎コテツが演じ、袁傪へ詩と弱さを託す。家族への真実を一方的に決めないという対話を加える。",
+    "note": "本脚本は翻案であり、原作の文章・口演の転載ではない。セリフは全て本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "袁傪",
+      "actor": "extra_craftsman",
+      "costume": "default"
+    },
+    {
+      "role": "李徴／虎",
+      "actor": "kotetsu",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "road": "bg/moonlit-sangetsu-road-2048x1152.png",
+    "study": "bg/ensans-study-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『山月記 ―虎の声、詩人の声―』。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "虎になった男を、本物の虎コテツが演じます。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "road",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "road"
+    },
+    {
+      "op": "show",
+      "actor": "extra_craftsman",
+      "pos": "left"
+    },
+    {
+      "op": "nar",
+      "text": "旅の役人・袁傪は、月夜の道で人の言葉を話す虎に呼び止められる。"
+    },
+    {
+      "op": "show",
+      "actor": "kotetsu",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "袁傪。姿を恐れず、声だけを聞いてくれ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "李徴なのか。なぜ虎の姿に。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "詩人として認められたい心と、笑われる恐れを飼い続けた。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "それが虎になった理由だと。"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "人を避け、誇りを守るうち、人の心を使わなくなった。"
+    },
+    {
+      "op": "nar",
+      "text": "李徴は草むらの闇から、記憶している詩を口述する。"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "詩を記してほしい。私が人だった証を、作品だけでも残したい。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "記す。だが、作品だけでなく、君の弱さも家族へ伝える。"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "家族には、死んだと告げてくれ。虎の夫など残酷だ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "決めるのは君ではない。支援は届けるが、真実を隠すかは考え直せ。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "私は臆病な自尊心で、最後まで選択を奪うところだった。"
+    },
+    {
+      "op": "nar",
+      "text": "遠くで獣の唸りが重なる。人の意識が薄れる時刻が近い。"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "次に会えば、私は君を友と認められぬかもしれない。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "ならば今日の声を記す。君を美化も怪物化もしない。",
+      "eyes": "closed",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "それでいい。詩より正確な友を、私は遅く得た。"
+    },
+    {
+      "op": "nar",
+      "text": "袁傪が去ると、虎は月へ向かい、声にならない咆哮を上げる。"
+    },
+    {
+      "op": "hide",
+      "actor": "kotetsu"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_craftsman"
+    },
+    {
+      "op": "bg",
+      "src": "study",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "study"
+    },
+    {
+      "op": "nar",
+      "text": "後日。袁傪は詩と手紙を整理し、李徴の家族へ生活費を届ける。"
+    },
+    {
+      "op": "show",
+      "actor": "extra_craftsman",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "才能だけでなく、助けを求められなかった孤独も書き残そう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "虎にならぬため、人は弱さを言葉にするのだ。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_craftsman"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "虎の姿は変わらずとも、李徴の声は友の記録へ渡りました。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "誇りと恐れの檻を開く鍵は、弱さを語る言葉だったのです。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

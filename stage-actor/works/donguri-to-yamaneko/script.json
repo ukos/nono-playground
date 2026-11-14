@@ -1,0 +1,224 @@
+{
+  "meta": {
+    "id": "donguri-to-yamaneko",
+    "title": "どんぐりと山猫 ―一番えらくない裁判―",
+    "original": "宮沢賢治『どんぐりと山猫』（著作権消滅作品）",
+    "adaptation": "faithful",
+    "format": "v3",
+    "minutes": 7,
+    "synopsis": "一郎=nono、山猫=yoru。どんぐりの「一番えらい」裁判を、一番えらくない者が一番という判決で終わらせる。",
+    "note": "本脚本は翻案であり、原作の文章・口演の転載ではない。セリフは全て本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "一郎／開閉幕",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "山猫",
+      "actor": "yoru",
+      "costume": "default"
+    },
+    {
+      "role": "細長いどんぐり",
+      "actor": "extra_villager",
+      "costume": "default"
+    },
+    {
+      "role": "丸いどんぐり",
+      "actor": "tanurio",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "home": "bg/ichiro-home-2048x1152.png",
+    "forest": "bg/acorn-court-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『どんぐりと山猫 ―一番えらくない裁判―』。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "一郎=nono、山猫=ヨル。森の裁判へご案内します。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "home",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "home"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "nar",
+      "text": "一郎のもとへ、字の曲がった葉書が届く。「面倒な裁判へ来てください」。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "差出人は山猫。面倒と書く招待状は、少し信用できる。",
+      "eyes": "fun"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "forest",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "forest"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yoru",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "待っていた。一番えらいどんぐりを決められず、三日も揉めている。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "どんな基準で争っているの。"
+    },
+    {
+      "op": "nar",
+      "text": "大きい、丸い、尖っている、光っている。どんぐりの声が森を揺らす。"
+    },
+    {
+      "op": "show",
+      "actor": "extra_villager",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "私は一番背が高い。ゆえに一番えらい。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_villager"
+    },
+    {
+      "op": "show",
+      "actor": "tanurio",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "私は一番丸い。転がる速さなら負けない。",
+      "eyes": "fun"
+    },
+    {
+      "op": "hide",
+      "actor": "tanurio"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "一郎、名判決を。山猫の威厳がすり減ってきた。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "では、一番えらくない、形の悪いどんぐりが一番えらい。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "森が静まり、全員が自分は形が良いと言い始める。争いは反対向きに消える。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "見事だ。褒美に黄金のどんぐりを。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "いらない。持ったら今度は僕が一番だと言いそう。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "では葉書を。次回は、もっと字をまっすぐ書く。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "曲がっている方が、山猫らしくて届きやすいよ。",
+      "eyes": "fun"
+    },
+    {
+      "op": "hide",
+      "actor": "yoru"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "一番を決める裁判は、一番を手放して終わりました。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "えらさの物差しを裏返すと、森は急に広くなります。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

@@ -1,0 +1,352 @@
+{
+  "meta": {
+    "id": "gon-gitsune",
+    "title": "ごん狐 ―栗の音が聞こえる―",
+    "original": "新美南吉『ごん狐』（著作権消滅作品）",
+    "adaptation": "free",
+    "format": "v3",
+    "minutes": 10,
+    "synopsis": "いたずらの重さを知ったごんは、兵十へ栗を届け続ける。観客は「姿を見せる／見せない」を選び、どちらも銃声の前に対話へ踏み出す。見せるルートでは、謝罪と継続的な償いから見回り仲間となる友情救済エンド。",
+    "note": "本脚本は翻案であり、原作の文章・口演の転載ではない。セリフは全て本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "ごん",
+      "actor": "akane",
+      "costume": "default"
+    },
+    {
+      "role": "兵十",
+      "actor": "extra_archer",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "river": "bg/gon-riverbank-2048x1152.png",
+    "house": "bg/hyoju-house-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『ごん狐 ―栗の音が聞こえる―』。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "善意は、隠したままでも届くでしょうか。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "栗を置く小さな手に、観客が勇気を一つ貸してください。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "river",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "river"
+    },
+    {
+      "op": "nar",
+      "text": "川辺。ひとりぼっちの狐ごんが、兵十の魚籠から鰻を逃がす。"
+    },
+    {
+      "op": "show",
+      "actor": "akane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_archer",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "困った顔を見たかっただけ。あの鰻が誰のためかは知らなかった。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "extra_archer",
+      "text": "母さんに食べさせたかったのに。これが最後の漁だった。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "後日、弔いの鐘を聞き、ごんは兵十の母が亡くなったと知る。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_archer"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "私のいたずらが、最後の願いを奪ったのかもしれない。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "謝りたい。でも、狐の言葉を人は信じるだろうか。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "hide",
+      "actor": "akane"
+    },
+    {
+      "op": "bg",
+      "src": "house",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "house"
+    },
+    {
+      "op": "nar",
+      "text": "ごんは夜ごと、栗や木の実を兵十の家へ置く。"
+    },
+    {
+      "op": "show",
+      "actor": "akane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_archer",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "extra_archer",
+      "text": "また栗だ。誰が置くのか、姿を見せない。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "今日は戸口まで。明日は声を出せるかもしれない。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "兵十は狐の足跡を見つけ、火縄銃を壁から下ろす。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_archer",
+      "text": "盗みに来た狐なら、今度こそ逃がさない。",
+      "eyes": "anger"
+    },
+    {
+      "op": "nar",
+      "text": "ごんは栗を抱え、明かりの漏れる戸口へ近づく。"
+    },
+    {
+      "op": "nar",
+      "text": "観客が、ごんの行動を選ぶ。"
+    },
+    {
+      "op": "choice",
+      "options": [
+        {
+          "text": "姿を見せて声を掛ける",
+          "jump": "route_show"
+        },
+        {
+          "text": "姿を隠したまま栗を置く",
+          "jump": "route_hide"
+        }
+      ]
+    },
+    {
+      "op": "label",
+      "id": "route_show"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "兵十。撃つ前に、一つだけ聞いて。",
+      "eyes": "crying",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "extra_archer",
+      "text": "狐が、私の名を。栗を置いたのもおまえか。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "鰻を逃がしたのは私。母さんのことを知って、怖くて隠れていた。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "extra_archer",
+      "text": "謝れば、失ったものが戻ると思うのか。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "戻らない。だから、できることを聞きたい。"
+    },
+    {
+      "op": "nar",
+      "text": "兵十は銃口を下げる。二人の間に、栗が一つ転がる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_archer",
+      "text": "まず、毎朝ここで話せ。隠れた贈り物は、もう受け取らない。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "それが償いになるまで、逃げずに来る。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "extra_archer",
+      "text": "友になるかは、その後だ。だが今日は栗を半分こしよう。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "冬の終わり、二人は森と畑を守る見回り仲間になる。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "友達は、許された瞬間でなく、会い続けた時間からできるんだ。",
+      "eyes": "joy"
+    },
+    {
+      "op": "jump",
+      "to": "ending_common"
+    },
+    {
+      "op": "label",
+      "id": "route_hide"
+    },
+    {
+      "op": "hide",
+      "actor": "akane"
+    },
+    {
+      "op": "nar",
+      "text": "ごんは栗を置き、物陰へ身を隠す。兵十が足音へ銃を向ける。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_archer",
+      "text": "誰だ。出てこい。"
+    },
+    {
+      "op": "nar",
+      "text": "引き金へ指がかかる。その時、栗が戸板を転がり、足跡まで続く。"
+    },
+    {
+      "op": "show",
+      "actor": "akane",
+      "pos": "left"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "撃たないで。栗を置いたのは私。鰻のことを謝りたかった。",
+      "eyes": "crying",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "extra_archer",
+      "text": "もう少し遅ければ、私は取り返せないことをしていた。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "隠れたままでは、善いことまで誤解されるんだね。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "extra_archer",
+      "text": "怖くても、次は戸をたたけ。私も、見る前に撃たない。"
+    },
+    {
+      "op": "nar",
+      "text": "二人は銃を壁へ戻し、栗を囲んで長い話を始める。"
+    },
+    {
+      "op": "jump",
+      "to": "ending_common"
+    },
+    {
+      "op": "label",
+      "id": "ending_common"
+    },
+    {
+      "op": "hide",
+      "actor": "akane"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_archer"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "姿を見せても隠しても、最後の一歩は言葉で近づくことでした。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "償いは贈り物だけでなく、誤解される怖さを越えて会い続けることなのです。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

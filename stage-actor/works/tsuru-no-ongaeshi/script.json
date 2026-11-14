@@ -1,0 +1,374 @@
+{
+  "meta": {
+    "id": "tsuru-no-ongaeshi",
+    "title": "鶴の恩返し ―織り部屋の約束―",
+    "original": "日本昔話『鶴の恩返し』（伝統説話・著作権消滅）",
+    "adaptation": "free",
+    "format": "v3",
+    "minutes": 10,
+    "synopsis": "罠から鶴を救った次郎のもとへ、旅の娘つうが現れ、織り部屋を覗かない約束を求める。観客が「覗く／覗かない」を選び、覗けば距離を置いて信頼を作り直す別れ、覗かなければつうが自ら正体を明かして共に店を営む正反対の結末になる。",
+    "note": "本脚本は翻案であり、原作の文章・口演の転載ではない。セリフは全て本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "次郎（職人）",
+      "actor": "extra_craftsman",
+      "costume": "default"
+    },
+    {
+      "role": "つう／鶴",
+      "actor": "shiro",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "snowfield": "bg/crane-snowfield-2048x1152.png",
+    "cottage": "bg/weaving-cottage-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『鶴の恩返し ―織り部屋の約束―』。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "恩返しには、受け取る側が守るべき約束もあります。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "今夜は、開けてはならない扉の前で、観客の心を試します。",
+      "eyes": "fun",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "snowfield",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "snowfield"
+    },
+    {
+      "op": "nar",
+      "text": "吹雪の田。罠にかかった白い鶴が、羽を雪へ沈めている。"
+    },
+    {
+      "op": "show",
+      "actor": "extra_craftsman",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "暴れるな。縄を切るだけだ。恩など返さなくていい。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "男・次郎は罠を外す。鶴は一度振り返り、雪空へ飛び立つ。"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_craftsman"
+    },
+    {
+      "op": "bg",
+      "src": "cottage",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "cottage"
+    },
+    {
+      "op": "nar",
+      "text": "その夜。戸をたたいた旅の娘・つうは、行き場がないと告げる。"
+    },
+    {
+      "op": "show",
+      "actor": "extra_craftsman",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "春まで、軒の下を貸してください。働いて食べ物を返します。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "返さなくていい。だが、寒さが去るまで一緒に暮らそう。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "では布を織ります。部屋を開けないと約束してください。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "理由を聞かず、扉を守る。それが私の仕事だ。"
+    },
+    {
+      "op": "nar",
+      "text": "つうの布は、朝焼けのように光る。町で高く売れ、暮らしが楽になる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "もう十分だ。これ以上、君が疲れる布はいらない。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "最後に一枚だけ。これは借りを返す布ではありません。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "では、何のために。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "私がここにいた証を、自分の意志で残すためです。"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "nar",
+      "text": "織り部屋から、機の音に混じって苦しそうな息が聞こえる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "声を掛けても返事がない。約束と命、どちらを守る。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "観客が、次郎の行動を選ぶ。"
+    },
+    {
+      "op": "choice",
+      "options": [
+        {
+          "text": "扉を開けて中を覗く",
+          "jump": "route_peek"
+        },
+        {
+          "text": "扉の外で待ち、覗かない",
+          "jump": "route_wait"
+        }
+      ]
+    },
+    {
+      "op": "label",
+      "id": "route_peek"
+    },
+    {
+      "op": "nar",
+      "text": "次郎が扉を開ける。鶴が自らの光る羽を糸へ変えている。"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "見てしまったのですね。私は、あの雪の日の鶴です。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "正体より、君が消えそうなことが怖かった。約束を破った。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "破られた扉の内側では、もう一緒には暮らせません。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "止めない。ただ、次の冬に元気な姿を見せてほしい。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "つうは布を一枚残し、鶴の姿で雪空へ帰る。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "次の冬、窓の外から合図します。今度は扉を開けずに。",
+      "eyes": "joy"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "別れは罰ではない。信頼を作り直すための距離だ。",
+      "eyes": "closed"
+    },
+    {
+      "op": "jump",
+      "to": "ending_common"
+    },
+    {
+      "op": "label",
+      "id": "route_wait"
+    },
+    {
+      "op": "nar",
+      "text": "次郎は扉から離れ、湯を沸かし、外から一度だけ声を掛ける。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "返事はいらない。朝までここにいる。助けが必要なら呼んでくれ。"
+    },
+    {
+      "op": "nar",
+      "text": "機の音が止む。長い沈黙の後、扉が内側から開く。"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "私は鶴です。あなたが助けた、あの日の鶴です。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "そうだったのか。話してくれてありがとう。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "覗かれなかったから、自分の言葉で扉を開けられました。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "恩を返すためでなく、ここにいたいなら残ってほしい。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "残ります。でも、羽を削る布はもう織りません。",
+      "eyes": "joy"
+    },
+    {
+      "op": "nar",
+      "text": "二人は旅人の古着を繕う店を開き、春には野の鶴を保護する。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "秘密を守るだけでなく、話せる時を待つのも約束なんだな。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "はい。恩返しではなく、これからは共同経営です。",
+      "eyes": "fun"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "jump",
+      "to": "ending_common"
+    },
+    {
+      "op": "label",
+      "id": "ending_common"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_craftsman"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "覗けば別れ、覗かなければ告白と共生。扉の意味が正反対になりました。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "相手の秘密は、暴く宝ではなく、語られる時を待つ信頼なのです。",
+      "eyes": "closed",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

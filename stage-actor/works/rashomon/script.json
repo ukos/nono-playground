@@ -1,0 +1,185 @@
+{
+  "meta": {
+    "id": "rashomon",
+    "title": "羅生門 ―雨の後の選択―",
+    "original": "芥川龍之介『羅生門』（著作権消滅作品）",
+    "adaptation": "moderate",
+    "format": "v3",
+    "minutes": 7,
+    "synopsis": "荒廃した門で、下人が老婆の理屈を受け取って着物を奪う。『藪の中』と対にし、理屈で責任まで消えない一言を追加。",
+    "note": "本脚本は翻案であり、原作の文章・口演の転載ではない。セリフは全て本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "下人",
+      "actor": "yoru",
+      "costume": "default"
+    },
+    {
+      "role": "老婆",
+      "actor": "extra_elder",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "gate": "bg/rashomon-rain-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『羅生門 ―雨の後の選択―』。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "『藪の中』と対になる、短い闇の物語です。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "gate",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "gate"
+    },
+    {
+      "op": "nar",
+      "text": "荒れた都。仕事を失った下人は、雨の羅生門で夜を越そうとする。"
+    },
+    {
+      "op": "show",
+      "actor": "yoru",
+      "pos": "left"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "飢えて死ぬか、盗んで生きるか。選べと言われても、どちらも闇だ。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "楼上に火。死体から髪を抜く老婆がいる。"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "死人を傷つけて、何をしている。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "鬘にして売る。この女も、生前は人を騙して生きた。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "悪人だったから、奪ってよいのか。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "生きるためなら、仕方がない。お前も同じ顔をしている。"
+    },
+    {
+      "op": "nar",
+      "text": "下人の迷いが、怒りから決意へ硬く変わる。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "なら、私があなたの着物を奪うのも仕方がない。",
+      "eyes": "closed"
+    },
+    {
+      "op": "nar",
+      "text": "下人は老婆の上着を奪い、階段を駆け下りる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "待て。理屈を返して、罪まで消したつもりか。",
+      "eyes": "anger"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "nar",
+      "text": "門の下。下人は奪った着物を握り、雨の暗闇を見る。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "他人の理屈を使っても、選んだのは私だ。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "生きる。その罪を誰かのせいにはしない。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "下人は闇へ消える。行方も、その後の善悪も語られない。"
+    },
+    {
+      "op": "hide",
+      "actor": "yoru"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "藪では証言が真実を隠し、門では理屈が責任を隠します。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "最後に残るのは、選んだ者自身の影です。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

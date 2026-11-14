@@ -1,0 +1,453 @@
+{
+  "meta": {
+    "id": "kachi-kachi-yama",
+    "title": "かちかち山 ―山の裁判―",
+    "original": "日本昔話『かちかち山』（伝統説話・著作権消滅）",
+    "adaptation": "free",
+    "format": "v3",
+    "minutes": 11,
+    "synopsis": "狸の加害に怒った兎は復讐をやめ、山の裁判を開く。被害と食料不足の事情を分けて審理し、観客が「弁償／保護観察／安全係」から判決を選ぶ。火打石と泥舟は復讐ではなく、証拠と復旧訓練の道具になる。",
+    "note": "本脚本は翻案であり、原作の文章・口演の転載ではない。セリフは全て本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "山の裁判長",
+      "actor": "mei",
+      "costume": "default"
+    },
+    {
+      "role": "書記の黒猫",
+      "actor": "yoru",
+      "costume": "default"
+    },
+    {
+      "role": "兎",
+      "actor": "shiro",
+      "costume": "default"
+    },
+    {
+      "role": "狸",
+      "actor": "tanurio",
+      "costume": "default"
+    },
+    {
+      "role": "お爺さん",
+      "actor": "extra_elder",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "farm": "bg/damaged-farm-2048x1152.png",
+    "court": "bg/forest-court-2048x1152.png",
+    "restored": "bg/restored-farm-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『かちかち山 ―山の裁判―』。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "復讐の火は、相手だけでなく持つ手も焦がします。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "そこで兎は火打石を置き、山じゅうを証人にする裁判を開きました。",
+      "eyes": "fun",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "farm",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "farm"
+    },
+    {
+      "op": "nar",
+      "text": "畑。狸の悪戯で倉が壊れ、お婆さんがけがをしている。"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "tanurio",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "作物だけなら分けた。だが、お婆さんを怖がらせた罪は重い。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "追い回されたから仕返しした。先に怒ったのは人間だ。",
+      "eyes": "anger"
+    },
+    {
+      "op": "nar",
+      "text": "狸は山へ逃げる。老人は兎へ、敵討ちを頼もうとする。"
+    },
+    {
+      "op": "hide",
+      "actor": "tanurio"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "同じ痛みを味わわせてくれ。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "同じ痛みでは、同じ怒りがもう一つ増えるだけです。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "山の裁判を開きましょう。被害と理由を、皆の前で分けます。",
+      "eyes": "closed",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "bg",
+      "src": "court",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "court"
+    },
+    {
+      "op": "nar",
+      "text": "大きな切り株を法壇にした「山の裁判」。葉擦れが開廷の拍手になる。"
+    },
+    {
+      "op": "show",
+      "actor": "mei",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "yoru",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "tanurio",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "山の法は、強い者の声だけを判決にしません。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "書記の黒猫です。罪状は、倉の破壊、脅し、けがを負わせたこと。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "畑を全部囲われ、食べ物が減ったことも記録してくれ。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "記録します。被告の事情は、被害を消しませんが、判決に必要です。"
+    },
+    {
+      "op": "hide",
+      "actor": "tanurio"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "わしらも柵を広げすぎた。それでも、暴力は許せん。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "双方の事実が出ました。次は兎の調査報告です。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "焼けた薪、泥の舟、壊れた倉。復讐に使えそうな物ばかりでした。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "だから全部、証拠品にしました。使い道は判決で決めます。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "観客の皆さま、山が立ち直るための判決を選んでください。"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "show",
+      "actor": "tanurio",
+      "pos": "right"
+    },
+    {
+      "op": "choice",
+      "options": [
+        {
+          "text": "共同労働による弁償",
+          "jump": "route_repair"
+        },
+        {
+          "text": "冬の食料を分ける保護観察",
+          "jump": "route_share"
+        },
+        {
+          "text": "山の安全係として働く",
+          "jump": "route_guard"
+        }
+      ]
+    },
+    {
+      "op": "label",
+      "id": "route_repair"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "判決。狸は倉と畑の柵を直し、収穫の一部で治療費を弁償する。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "逃げずに直す。壊した数より多く、杭を打つ。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "jump",
+      "to": "verdict_join"
+    },
+    {
+      "op": "label",
+      "id": "route_share"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "判決。村は冬の食料を一部開放し、狸は監督下で畑を手伝う。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "食べ物を盗まず、働いた分を受け取る。約束する。"
+    },
+    {
+      "op": "jump",
+      "to": "verdict_join"
+    },
+    {
+      "op": "label",
+      "id": "route_guard"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "判決。狸は火と川を見張る安全係となり、被害を労働で返す。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "火打石も泥舟も、今度は事故を防ぐ訓練に使う。"
+    },
+    {
+      "op": "jump",
+      "to": "verdict_join"
+    },
+    {
+      "op": "label",
+      "id": "verdict_join"
+    },
+    {
+      "op": "nar",
+      "text": "兎が証拠品の札を外し、復旧作業の道具として並べ直す。"
+    },
+    {
+      "op": "hide",
+      "actor": "tanurio"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "判決は終わりではありません。守られるか、皆で確かめます。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "一月ごとに報告会。逃げたら私が足跡を記録します。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "被害者の安全を第一に、やり直す道も閉ざさない。閉廷。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "hide",
+      "actor": "yoru"
+    },
+    {
+      "op": "hide",
+      "actor": "mei"
+    },
+    {
+      "op": "bg",
+      "src": "restored",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "restored"
+    },
+    {
+      "op": "nar",
+      "text": "春。直った倉の横に、山の動物用の小さな共同畑ができる。"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "tanurio",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "許したとは、まだ言わん。だが、働きは見ている。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "それでいい。信用は判決ではなく、毎日の仕事で返す。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "お婆さんの薬草を忘れるな。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "今日は二束。領収の葉っぱももらってきた。",
+      "eyes": "fun"
+    },
+    {
+      "op": "hide",
+      "actor": "tanurio"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "復讐の道具は、証拠と復旧の道具へ変わりました。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "正義とは痛みを移すことではなく、安全と責任を取り戻すことなのでしょう。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

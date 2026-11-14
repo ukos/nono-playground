@@ -1,0 +1,384 @@
+{
+  "meta": {
+    "id": "yuki-onna",
+    "title": "雪女 ―知っていた冬―",
+    "original": "小泉八雲『雪女』を核とする伝説（著作権消滅）",
+    "adaptation": "free",
+    "format": "v3",
+    "minutes": 10,
+    "synopsis": "雪の夜に命を助けられた巳之吉は、後に出会ったお雪が雪女だと最初から気づいていた。長年の沈黙が互いを縛っていたと告白し、二人は「冬は山を鎮め、春に家族へ戻る」という新しい約束を結ぶ。",
+    "note": "本脚本は翻案であり、原作の文章・口演の転載ではない。セリフは全て本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "巳之吉",
+      "actor": "extra_lumberjack",
+      "costume": "default"
+    },
+    {
+      "role": "茂作",
+      "actor": "extra_elder",
+      "costume": "default"
+    },
+    {
+      "role": "お雪／雪女",
+      "actor": "yui",
+      "costume": "default"
+    },
+    {
+      "role": "二人の子",
+      "actor": "shiro",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "hut": "bg/snowstorm-hut-2048x1152.png",
+    "home": "bg/winter-family-home-2048x1152.png",
+    "spring": "bg/snowmelt-path-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『雪女 ―知っていた冬―』。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "秘密を守ることと、秘密の中に相手を閉じ込めることは違います。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "巳之吉は、雪の夜の女を忘れてはいませんでした。",
+      "eyes": "surprise",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "hut",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "hut"
+    },
+    {
+      "op": "nar",
+      "text": "吹雪の夜。木こりの茂作と巳之吉は、川辺の小屋で眠る。"
+    },
+    {
+      "op": "show",
+      "actor": "extra_lumberjack",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "火が消えそうだ。巳之吉、朝まで戸を開けるな。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_lumberjack",
+      "text": "はい。雪の音が、人の息みたいに聞こえます。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "白い女が入り、茂作へ冷たい息を吹きかける。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "若い木こり。今夜のことを誰にも語らなければ、命は残す。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "extra_lumberjack",
+      "text": "あなたの顔を忘れない。それでも、誰にも話さない。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "忘れない、と言った者は初めてです。"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_lumberjack"
+    },
+    {
+      "op": "bg",
+      "src": "home",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "home"
+    },
+    {
+      "op": "nar",
+      "text": "一年後。巳之吉は、お雪と名乗る旅の女と出会い、家族になる。"
+    },
+    {
+      "op": "show",
+      "actor": "extra_lumberjack",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "雪を見ると、あなたは私を確かめるように見る。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_lumberjack",
+      "text": "昔、雪の中で大切なものを失った。それだけだ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "それだけ、ですか。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "年月が流れる。巳之吉は、お雪が年を取らないことにも気づいている。"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "母さんは、冬になると眠らないね。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "雪の夜は、昔のことを思い出すの。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_lumberjack",
+      "text": "今夜は私が起きている。二人は休んでくれ。"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "nar",
+      "text": "子どもが眠った後、巳之吉は閉じた戸へ向かって話し始める。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_lumberjack",
+      "text": "お雪。私は初めて会った日から、あなたが誰か知っていた。",
+      "eyes": "closed",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "では、何年も私を試していたのですか。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "extra_lumberjack",
+      "text": "違う。あなたが人として暮らしたいなら、その名で呼びたかった。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "秘密を守ったのではなく、私に嘘を続けさせたのですね。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "extra_lumberjack",
+      "text": "その通りだ。怖くて、話す機会を選ぶふりをして逃げていた。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "あの夜の約束では、話したあなたを消さねばならない。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "extra_lumberjack",
+      "text": "命は差し出す。でも、子どもには別れを自分の言葉で伝えてほしい。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "お雪の周囲に吹雪が渦巻くが、戸の向こうから子どもの寝言が聞こえる。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "私は長い冬のあいだ、約束を罰にしていました。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "extra_lumberjack",
+      "text": "なら、二人で約束を作り直そう。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "春から秋は家族と暮らす。冬は雪山を鎮めるため、山へ帰ります。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_lumberjack",
+      "text": "居場所を告げ、必ず戻る。私も隠さず待つ。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "そして子どもには、母が何者かを、怖がらせずに話します。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "吹雪が止み、窓に朝の光が差す。"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_lumberjack"
+    },
+    {
+      "op": "bg",
+      "src": "spring",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "spring"
+    },
+    {
+      "op": "nar",
+      "text": "春。お雪は子どもに白い羽織を預け、雪山へ向かう。"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "冬になったら帰ってくる？",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "雪が最初に降る朝、ただいまと言いに戻ります。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "じゃあ私は、春に行ってらっしゃいと言う。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "約束は秘密ではなく、帰る道を照らす印ね。",
+      "eyes": "closed"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "巳之吉は最初から気づいていた。その沈黙もまた、二人を縛っていました。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "真実を語り、約束を作り直した時、冬は別れではなく帰還の季節になりました。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

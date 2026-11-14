@@ -1,0 +1,315 @@
+{
+  "meta": {
+    "id": "shinagawa-shinju",
+    "title": "品川心中 ―浜辺の偽装駆け落ち―",
+    "original": "古典落語『品川心中』（伝統演目・著作権消滅）",
+    "adaptation": "free",
+    "format": "v3",
+    "minutes": 10,
+    "synopsis": "アカネがハヤテを誘う心中は、同情を集める偽装駆け落ち計画。網に絡み泥まみれになり、ヨルの提案で祭りの公開会計と労働へ転換する。",
+    "note": "本脚本は翻案であり、原作の文章・口演の転載ではない。セリフは全て本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "アカネ",
+      "actor": "akane",
+      "costume": "default"
+    },
+    {
+      "role": "ハヤテ",
+      "actor": "hayate",
+      "costume": "default"
+    },
+    {
+      "role": "追跡役ヨル",
+      "actor": "yoru",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "room": "bg/shinagawa-room-2048x1152.png",
+    "beach": "bg/shinagawa-mudflat-2048x1152.png",
+    "festival": "bg/shinagawa-festival-office-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『品川心中 ―浜辺の偽装駆け落ち―』。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "アカネとハヤテが、死なない心中騒ぎを起こします。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "room",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "room"
+    },
+    {
+      "op": "show",
+      "actor": "akane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "hayate",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "祭りの支度金が足りない。このままでは面目が立たない。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "だから心中ですか。俺は走るのは得意でも、沈むのは苦手です。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "本当に死にはしない。浜で騒いで、同情を集める芝居さ。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "その計画、題名からして失敗の匂いがします。"
+    },
+    {
+      "op": "nar",
+      "text": "二人は「駆け落ちの書置き」を作るが、行き先を書き忘れる。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "夜、品川の浜。合図で海へ入ったふりをする。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "俺が先に逃げたら。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "馬役が一番速く逃げてどうする。"
+    },
+    {
+      "op": "hide",
+      "actor": "hayate"
+    },
+    {
+      "op": "hide",
+      "actor": "akane"
+    },
+    {
+      "op": "bg",
+      "src": "beach",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "beach"
+    },
+    {
+      "op": "nar",
+      "text": "夜の浜。浅瀬に張った網と、岸の樽が芝居道具。"
+    },
+    {
+      "op": "show",
+      "actor": "akane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "hayate",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "潮が冷たい。芝居でも風邪は本物ですよ。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "声を張って。町内が来る前に始めるよ。"
+    },
+    {
+      "op": "nar",
+      "text": "アカネは岸へ戻るが、ハヤテの足が網に絡む。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "助けてください。本当に動けません。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "演技がうまくなったね。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "感心してないで、網を切って！"
+    },
+    {
+      "op": "show",
+      "actor": "yoru",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "書置きを拾った。行き先がないので、足跡を追った。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "見つけるのが早すぎる。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "偽装心中で金を集めれば詐欺だ。代わりに祭りの公開会計をしよう。"
+    },
+    {
+      "op": "nar",
+      "text": "黒猫ヨルが網を切る。反動で二人は泥へ尻もちをつく。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "生きててよかった。格好は死んでますが。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "あたしの面目も泥だらけだよ。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "泥は洗える。信用は、説明して働いて洗う。"
+    },
+    {
+      "op": "hide",
+      "actor": "yoru"
+    },
+    {
+      "op": "hide",
+      "actor": "hayate"
+    },
+    {
+      "op": "hide",
+      "actor": "akane"
+    },
+    {
+      "op": "bg",
+      "src": "festival",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "festival"
+    },
+    {
+      "op": "nar",
+      "text": "翌日。二人は祭りの支度所で事情を話し、働いて不足分を埋める。"
+    },
+    {
+      "op": "show",
+      "actor": "akane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "hayate",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "同情を買うより、提灯を売る方がまっとうだった。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "駆け落ち先は、祭りの会計係でしたね。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "次に逃げる時は、仕事が終わってから。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "逃げない選択はないんですか。"
+    },
+    {
+      "op": "hide",
+      "actor": "hayate"
+    },
+    {
+      "op": "hide",
+      "actor": "akane"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "品川の海は二人を飲まず、泥だけをたっぷり返しました。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "心中は中止、祭りは黒字。めでたく駆け落ち未遂です。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

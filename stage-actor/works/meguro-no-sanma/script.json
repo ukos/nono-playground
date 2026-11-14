@@ -1,0 +1,242 @@
+{
+  "meta": {
+    "id": "meguro-no-sanma",
+    "title": "目黒のさんま ―殿の炭火―",
+    "original": "古典落語『目黒のさんま』（伝統演目・著作権消滅）",
+    "adaptation": "faithful",
+    "format": "v3",
+    "minutes": 6,
+    "synopsis": "遠乗りで庶民の炭火秋刀魚を知った殿様クロガネが、城の上品すぎる料理に落胆する短い食ギャグ。",
+    "note": "本脚本は翻案であり、原作の文章・口演の転載ではない。セリフは全て本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "殿様",
+      "actor": "kurogane",
+      "costume": "default"
+    },
+    {
+      "role": "家臣",
+      "actor": "extra_villager",
+      "costume": "default"
+    },
+    {
+      "role": "炭焼き",
+      "actor": "extra_lumberjack",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "field": "bg/meguro-field-2048x1152.png",
+    "castle": "bg/castle-garden-grill-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『目黒のさんま ―殿の炭火―』。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "お殿様クロガネが、庶民の味に出会います。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "field",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "field"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_villager",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "遠乗りは腹が減る。何か香ばしい匂いがする。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "庶民の秋刀魚にございます。殿のお口には合いませぬ。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "show",
+      "actor": "extra_lumberjack",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "extra_lumberjack",
+      "text": "腹が減った人に身分は聞かない。焼きたてをどうぞ。",
+      "eyes": "joy"
+    },
+    {
+      "op": "nar",
+      "text": "炭火で焼いた秋刀魚。脂が落ち、煙が殿の顔を包む。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "うまい。煙まで飯の味がする。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "城では骨を抜き、蒸して脂を落とします。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "なぜ、うまいものからうまさを抜く。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_lumberjack"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_villager"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "bg",
+      "src": "castle",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "castle"
+    },
+    {
+      "op": "nar",
+      "text": "後日、城で秋刀魚が供される。銀皿の上で、すっかり上品になっている。"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_villager",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "これは秋刀魚の抜け殻だ。あの煙がない。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "目黒の品とは違い、こちらは由緒ある海の産で。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "産地はどこでもよい。秋刀魚は目黒に限る。"
+    },
+    {
+      "op": "nar",
+      "text": "家臣は困り、城の庭へ炭火台を設ける。"
+    },
+    {
+      "op": "show",
+      "actor": "extra_lumberjack",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "extra_lumberjack",
+      "text": "殿、今日はご自分で返してみますか。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "任せろ。……これは裏か、表か。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "焦げる側が、今の表でございます。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "料理も政も、現場を見ねば裏表がわからぬな。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_lumberjack"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_villager"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "殿は秋刀魚と一緒に、現場の煙まで味わいました。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "やはり秋刀魚は、目黒に限ります。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

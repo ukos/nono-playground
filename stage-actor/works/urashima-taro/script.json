@@ -1,0 +1,379 @@
+{
+  "meta": {
+    "id": "urashima-taro",
+    "title": "浦島太郎 ―潮の向こうの家族―",
+    "original": "日本昔話『浦島太郎』（伝統説話・著作権消滅）",
+    "adaptation": "free",
+    "format": "v3",
+    "minutes": 10,
+    "synopsis": "竜宮から戻った浦島太郎は、遠い子孫の汐里と出会う。観客は玉手箱を「開ける／開けない」から選び、開ければ失った年齢を受け入れて語り部に、開けなければ現在を生きる船頭になる。どちらも家族に迎えられる救済エンド。",
+    "note": "本脚本は翻案であり、原作の文章・口演の転載ではない。セリフは全て本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "浦島太郎",
+      "actor": "tanurio",
+      "costume": "default"
+    },
+    {
+      "role": "海亀",
+      "actor": "extra_kappa",
+      "costume": "default"
+    },
+    {
+      "role": "乙姫",
+      "actor": "extra_mermaid",
+      "costume": "default"
+    },
+    {
+      "role": "子孫・汐里",
+      "actor": "shiro",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "beach": "bg/old-beach-2048x1152.png",
+    "palace": "bg/dragon-palace-2048x1152.png",
+    "future": "bg/future-beach-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『浦島太郎 ―潮の向こうの家族―』。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "海の底では一日でも、陸では長い年月が流れます。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "帰る場所を失った旅人に、箱は罰ではなく道しるべを渡せるでしょうか。",
+      "eyes": "closed",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "beach",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "beach"
+    },
+    {
+      "op": "nar",
+      "text": "浜辺。子どもたちに囲まれた海亀を、漁師の浦島太郎が助ける。"
+    },
+    {
+      "op": "show",
+      "actor": "tanurio",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_kappa",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "海へ戻ろう。恩は、次に困っている者へ渡してくれ。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "extra_kappa",
+      "text": "それでも竜宮へ。海があなたに見せたい記憶があります。"
+    },
+    {
+      "op": "nar",
+      "text": "亀は背を低くする。太郎は家族へ一晩で戻る印を浜に残す。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_kappa"
+    },
+    {
+      "op": "hide",
+      "actor": "tanurio"
+    },
+    {
+      "op": "bg",
+      "src": "palace",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "palace"
+    },
+    {
+      "op": "nar",
+      "text": "竜宮。珊瑚の柱に、海辺の過去と未来が光の魚として映る。"
+    },
+    {
+      "op": "show",
+      "actor": "tanurio",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_mermaid",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "extra_mermaid",
+      "text": "私は乙姫。ここでは時間が、潮のように輪を描きます。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "美しい。でも、家族に帰る時を失いたくない。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_mermaid",
+      "text": "帰る時に、この箱を。開ければ失った時間が身体へ戻ります。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "開けなければ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_mermaid",
+      "text": "時間は戻りません。ただし、箱はあなたの血縁を探す羅針盤になります。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "どちらも代価がある。なら、自分で選んで持ち帰る。",
+      "eyes": "closed"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_mermaid"
+    },
+    {
+      "op": "hide",
+      "actor": "tanurio"
+    },
+    {
+      "op": "bg",
+      "src": "future",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "future"
+    },
+    {
+      "op": "nar",
+      "text": "浜へ戻ると、家も舟もなく、見知らぬ灯台と石碑が立っている。"
+    },
+    {
+      "op": "show",
+      "actor": "tanurio",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "ここは私の村のはずだ。なぜ誰も私を知らない。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "その名は、家の古い記録にあります。海へ消えた祖先の兄です。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "では君は、妹の家から続いた子孫なのか。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "はい。私は汐里。家では今も、浜に食事を一膳多く供えます。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "汐里は、太郎が残した印と同じ貝殻の紋を見せる。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "帰る家は消えたと思った。でも、待つ習慣が残っていた。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "箱をどうしますか。家族として、一緒に考えます。"
+    },
+    {
+      "op": "nar",
+      "text": "観客が玉手箱の選択をする。"
+    },
+    {
+      "op": "choice",
+      "options": [
+        {
+          "text": "玉手箱を開ける",
+          "jump": "route_open"
+        },
+        {
+          "text": "玉手箱を開けない",
+          "jump": "route_keep"
+        }
+      ]
+    },
+    {
+      "op": "label",
+      "id": "route_open"
+    },
+    {
+      "op": "nar",
+      "text": "箱から白い潮霧があふれ、太郎の髪と手に年月が宿る。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "身体が重い。これが、置いてきた歳月か。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "歳を取っても、あなたが家族であることは変わりません。",
+      "eyes": "crying",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "では残りの時間で、海の記憶を君たちへ語ろう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "nar",
+      "text": "汐里は太郎を支え、家の仏間へ「帰ってきた人」として迎える。"
+    },
+    {
+      "op": "jump",
+      "to": "route_join"
+    },
+    {
+      "op": "label",
+      "id": "route_keep"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "開けない。失った時間を罰として一人で背負うのはやめる。",
+      "eyes": "closed",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "箱の貝殻模様が光り、子孫の家まで青い道筋を映す。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "箱は閉じたまま、家族の記録として守りましょう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "私は今の時間を生き、海と町をつなぐ船頭になる。"
+    },
+    {
+      "op": "jump",
+      "to": "route_join"
+    },
+    {
+      "op": "label",
+      "id": "route_join"
+    },
+    {
+      "op": "nar",
+      "text": "数年後。古い浜に、小さな海の記憶館と救助所が建つ。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "祖先の物語が、今は海で迷う人を助ける地図になりました。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "時間は戻らなくても、帰る場所は未来に作れる。",
+      "eyes": "joy"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "hide",
+      "actor": "tanurio"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "箱を開けても開けなくても、太郎は子孫に迎えられました。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "失われた年月より、これから共に過ごす時間が救いになったのです。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

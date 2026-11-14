@@ -1,0 +1,284 @@
+{
+  "meta": {
+    "id": "toshishun",
+    "title": "杜子春 ―声を出す試練―",
+    "original": "芥川龍之介『杜子春』（著作権消滅作品）",
+    "adaptation": "faithful",
+    "format": "v3",
+    "minutes": 12,
+    "synopsis": "魔法使いの仙人から黄金と試練を受ける杜子春。母への責め苦に思わず声を上げ、仙人より人間を選ぶ幻想譚。",
+    "note": "本脚本は翻案であり、原作の文章・口演の転載ではない。セリフは全て本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "杜子春",
+      "actor": "yui",
+      "costume": "default"
+    },
+    {
+      "role": "仙人／魔法使い",
+      "actor": "extra_wizard",
+      "costume": "default"
+    },
+    {
+      "role": "母",
+      "actor": "extra_elf",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "city": "bg/tang-luoyang-sunset-2048x1152.png",
+    "mountain": "bg/toshishun-mountain-2048x1152.png",
+    "hell": "bg/toshishun-hell-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『杜子春 ―声を出す試練―』。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "仙人は魔法使い。沈黙の試練が、心の価値を測ります。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "city",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "city"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_wizard",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "財産を使い果たし、もう誰も私を友と呼ばない。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "影の頭へ夕日が当たる所を掘れ。黄金が出る。"
+    },
+    {
+      "op": "nar",
+      "text": "杜子春は黄金を得るが、宴と偽の友に使い尽くす。二度目も同じ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "金では、人の心も自分の心も満たせませんでした。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "ならば仙術を学ぶか。何を見ても声を出してはならぬ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "今度こそ、欲に負けません。",
+      "eyes": "closed"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_wizard"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "bg",
+      "src": "mountain",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "mountain"
+    },
+    {
+      "op": "nar",
+      "text": "峨眉山。仙人が去り、虎、嵐、兵士、火炎が杜子春を脅す。"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "怖さは声にしない。これは幻だ。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "杜子春は地獄へ落とされ、さまざまな責め苦を見ても黙り続ける。"
+    },
+    {
+      "op": "bg",
+      "src": "hell",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "hell"
+    },
+    {
+      "op": "nar",
+      "text": "最後に、痩せた馬が引き出される。その目は母の目だった。"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elf",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elf",
+      "text": "お前が幸せなら、母はどんな苦しみにも耐えます。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "お母さん！",
+      "eyes": "crying",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "杜子春の声で幻が砕け、洛陽の夕暮れへ戻る。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elf"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "bg",
+      "src": "city",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "city"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_wizard",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "試練には失敗だ。なぜ黙れなかった。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "母を見捨てて仙人になるなら、人である方を選びます。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "その答えを待っていた。仙術より難しいのは、人として暮らすことだ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "小さな畑を耕し、働いて食べたい。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "泰山の麓に家と畑がある。黄金ではなく、種を渡そう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "nar",
+      "text": "魔法使いは、一袋の種と鍬を残す。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "声を出した失敗が、初めて私の選んだ成功になった。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_wizard"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "杜子春は仙人になれず、人として生きる道を得ました。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "愛のために破った沈黙が、黄金より確かな宝だったのです。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "meta": {
+    "id": "nedoko",
+    "title": "寝床 ―大家リサイタル前夜―",
+    "original": "古典落語『寝床』（伝統演目・著作権消滅）",
+    "adaptation": "free",
+    "format": "v3",
+    "minutes": 9,
+    "synopsis": "歌好き大家の長演を避ける店子たちが、砂時計・拍子木・舞台効果で十五分の共同公演に作り替える。追加キャラ全員に裏方の見せ場を置く。",
+    "note": "本脚本は翻案であり、原作の文章・口演の転載ではない。セリフは全て本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "大家",
+      "actor": "extra_elder",
+      "costume": "default"
+    },
+    {
+      "role": "使い",
+      "actor": "extra_villager",
+      "costume": "default"
+    },
+    {
+      "role": "低音係",
+      "actor": "gou",
+      "costume": "default"
+    },
+    {
+      "role": "拍子木係",
+      "actor": "sasuke",
+      "costume": "default"
+    },
+    {
+      "role": "進行役",
+      "actor": "extra_elf",
+      "costume": "default"
+    },
+    {
+      "role": "時間係",
+      "actor": "extra_archer",
+      "costume": "default"
+    },
+    {
+      "role": "舞台効果",
+      "actor": "extra_wizard",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "hall": "bg/landlord-stage-2048x1152.png",
+    "tenement": "bg/nedoko-tenement-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は『寝床 ―大家リサイタル前夜―』。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "歌いたい大家と、聞きたくない店子の総力戦です。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "hall",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "hall"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_villager",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "今夜は私の義太夫を、長屋のみんなへ聞かせよう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "皆、急な用事ができまして。耳の用事です。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "店子が来ないなら、店賃の相談をしようか。"
+    },
+    {
+      "op": "nar",
+      "text": "使いは長屋を回る。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_villager"
+    },
+    {
+      "op": "bg",
+      "src": "tenement",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "tenement"
+    },
+    {
+      "op": "show",
+      "actor": "gou",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "sasuke",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elf",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "歌そのものより、終わる時刻がわからないのが怖い。"
+    },
+    {
+      "op": "say",
+      "actor": "sasuke",
+      "text": "俺は拍子木係なら、途中で終幕を打てる。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elf",
+      "text": "正直に、短くしてほしいと頼みましょう。"
+    },
+    {
+      "op": "hide",
+      "actor": "gou"
+    },
+    {
+      "op": "show",
+      "actor": "extra_archer",
+      "pos": "left"
+    },
+    {
+      "op": "say",
+      "actor": "extra_archer",
+      "text": "私が時間係。矢の代わりに砂時計を持つ。"
+    },
+    {
+      "op": "hide",
+      "actor": "sasuke"
+    },
+    {
+      "op": "show",
+      "actor": "extra_wizard",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "extra_wizard",
+      "text": "舞台効果なら任せよ。眠気を覚ます煙も出せる。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elf",
+      "text": "煙より換気をお願いします。"
+    },
+    {
+      "op": "nar",
+      "text": "追加キャラたちは、大家を止めるのでなく短い舞台へ整える。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_archer"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_wizard"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elf"
+    },
+    {
+      "op": "bg",
+      "src": "hall",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "hall"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_archer",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "sasuke",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "extra_archer",
+      "text": "一席十五分。砂が落ちたら終演です。"
+    },
+    {
+      "op": "say",
+      "actor": "sasuke",
+      "text": "拍子木は開始と終了の二回だけ。途中で増えたら非常事態です。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "芸を時計で切るとは無粋だ。"
+    },
+    {
+      "op": "nar",
+      "text": "大家が歌い始める。魔法使いの風で障子が震え、猪が低音で合いの手を入れる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "おや、今夜は皆が舞台を支えてくれる。"
+    },
+    {
+      "op": "nar",
+      "text": "十五分。砂時計が落ち、大家は名残惜しくも止める。"
+    },
+    {
+      "op": "say",
+      "actor": "sasuke",
+      "text": "終演！　今日は寝床が確保できます。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "extra_archer",
+      "text": "次回は店子の演目も一つずつ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "よかろう。聞く番も、大家の務めだな。"
+    },
+    {
+      "op": "hide",
+      "actor": "sasuke"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_archer"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "逃げていた店子は、舞台を整える裏方になりました。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "寝床を守る一番の芸は、終わる時刻を守ることでした。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

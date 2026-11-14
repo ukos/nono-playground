@@ -1,0 +1,917 @@
+{
+  "meta": {
+    "id": "hashire-melos",
+    "title": "走れメロス ―夕陽への誓い―",
+    "original": "太宰治『走れメロス』（著作権消滅作品）",
+    "adaptation": "moderate",
+    "format": "v3",
+    "minutes": 15,
+    "synopsis": "暴君の疑いを正そうとして捕らえられた牧人メロスは、妹の婚礼のため三日の猶予を願い、親友セリヌンティウスを人質に残す。濁流と疲労、心の迷いを越えて、メロスは日没の刑場を目指す。原作の筋と「信頼は行いによって結び直される」というテーマを守り、再起の記憶を観客が選ぶ中改変版。",
+    "note": "本脚本は翻案であり、原作文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "狂言回し",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "メロス（牧人）",
+      "actor": "yui",
+      "costume": "default"
+    },
+    {
+      "role": "セリヌンティウス（石工）",
+      "actor": "extra_craftsman",
+      "costume": "default"
+    },
+    {
+      "role": "ディオニス王",
+      "actor": "homura",
+      "costume": "default"
+    },
+    {
+      "role": "メロスの妹",
+      "actor": "shiro",
+      "costume": "default"
+    },
+    {
+      "role": "町人／妹の花婿（兼役）",
+      "actor": "extra_villager",
+      "costume": "default"
+    },
+    {
+      "role": "王の衛兵／フィロストラトス（兼役）",
+      "actor": "extra_archer",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "city": "bg/syracuse-street-2048x1152.png",
+    "palace": "bg/palace-hall-2048x1152.png",
+    "village": "bg/village-wedding-2048x1152.png",
+    "river": "bg/flooded-river-2048x1152.png",
+    "road": "bg/mountain-road-spring-2048x1152.png",
+    "square": "bg/execution-square-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ようこそ、NONO座へ。本日の演目は、太宰治『走れメロス』。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "一人の走者と、一人の待つ者。二人の間に置かれたのは、命でした。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "人は疑います。疲れれば、なおさら心は揺れます。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "それでも信頼は、揺れない心ではなく、戻ってくる行いに宿るのか。",
+      "eyes": "closed",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "夕陽が沈むまでの三日間。どうぞ最後まで、お見届けください。",
+      "eyes": "joy"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "city",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "city"
+    },
+    {
+      "op": "nar",
+      "text": "シラクスの市。夕暮れ。店は閉まり、人々は目を伏せて歩いている。"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_villager",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "祝いの布も葡萄酒も揃った。あとはセリヌンティウスに会うだけだ。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "だが、この都は妙に静かだ。祭りの前なのに、笑い声ひとつない。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "旅の方、大きな声はお控えください。壁にも耳がございます。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "何をそんなに恐れている。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "王は、親しい者ほど裏切るとお考えです。疑われた者は戻りません。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "恐れで人を従わせても、そこに忠義は育たない。",
+      "eyes": "anger",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "どうか、それ以上は。衛兵が参ります。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_villager"
+    },
+    {
+      "op": "show",
+      "actor": "extra_archer",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "extra_archer",
+      "text": "止まれ。荷を下ろし、所持品を見せろ。",
+      "eyes": "anger",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "祝いの品の底から、護身用の短剣が見つかる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_archer",
+      "text": "刃を持って王城へ向かう者を、見過ごすわけにはいかぬ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "ちょうどいい。王に言うべきことができた。",
+      "eyes": "anger"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_archer"
+    },
+    {
+      "op": "bg",
+      "src": "palace",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "palace"
+    },
+    {
+      "op": "nar",
+      "text": "王宮の謁見広間。高い玉座の前へ、メロスが引き出される。"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "homura",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "extra_archer",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "homura",
+      "text": "短剣を携え、王城へ近づいた理由を述べよ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "あなたの疑いが、この都から声と灯りを奪ったからだ。",
+      "eyes": "anger",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "homura",
+      "text": "声高な正義は、身の危険を知れば形を変える。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "人を試すために人を殺せば、残るのは恐れだけだ。",
+      "eyes": "anger"
+    },
+    {
+      "op": "say",
+      "actor": "homura",
+      "text": "では、おまえの誠実さを死によって示せ。処刑は明朝だ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "待ってほしい。妹の婚礼を済ませるまで、三日の猶予をください。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "homura",
+      "text": "帰らぬ者に、三日は長すぎる。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "友をここに残します。私が日没までに戻らなければ、友を代わりに。",
+      "eyes": "closed",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "extra_archer",
+      "text": "陛下、そのような申し出をお認めになるのですか。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "homura",
+      "text": "認めよう。人が友を捨てる瞬間を、都じゅうに見せるためにな。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_archer"
+    },
+    {
+      "op": "show",
+      "actor": "extra_craftsman",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "石工セリヌンティウスが呼ばれ、メロスから事情を聞く。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "勝手な願いだ。断ってくれていい。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "君が戻ると言うなら、私はここで待つ。話はそれだけだ。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "三日目の夕陽より先に、必ずこの場所へ立つ。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "ならば、妹さんを笑顔にしてこい。急げ、メロス。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "homura",
+      "text": "三日目の日没。鐘が三度鳴り終えれば、友の命はない。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "その鐘が終わる前に戻る。友の命を、私の約束に預ける。",
+      "eyes": "normal",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "二人は短く腕を組む。衛兵がセリヌンティウスを連れていく。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_craftsman"
+    },
+    {
+      "op": "hide",
+      "actor": "homura"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "待っていてくれ。今度は私が、信じられる者になる。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "bg",
+      "src": "village",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "village"
+    },
+    {
+      "op": "nar",
+      "text": "翌朝、山あいの村。婚礼の飾りが、急ごしらえで結ばれていく。"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "extra_villager",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "兄さん、三日も早めるなんて。何かあったの？",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "都に仕事を残した。明日の夜明けには、また発たなければならない。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "支度は足りません。でも、二人で足りない分を作ります。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "それでいい。暮らしは、立派な器より支え合う手が大切だ。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "兄さんも式で笑って。帰ってきてから、ずっと怖い顔よ。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "今日は笑う。おまえの門出を曇らせたくない。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "昼、二人は村人の前で誓いを交わす。やがて激しい雨が屋根を打つ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "この雨も、畑には祝いです。私が妹さんを守ります。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "守るだけでなく、迷った時は互いに話してくれ。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "兄さん、都の仕事が終わったら、すぐ帰ってくるよね。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "私の帰る場所はここだ。それを忘れず、行くべき所へ行く。",
+      "eyes": "closed"
+    },
+    {
+      "op": "nar",
+      "text": "夜更け。雨音の中で宴が静まり、メロスは短い眠りにつく。"
+    },
+    {
+      "op": "nar",
+      "text": "夜明け前、雨は弱まる。メロスは眠る二人に外套を掛ける。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "幸せでいてくれ。その願いを嘘にしないため、私は走る。",
+      "eyes": "sorrow",
+      "mouth": "open"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_villager"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "bg",
+      "src": "river",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "river"
+    },
+    {
+      "op": "nar",
+      "text": "三日目。豪雨で橋は流され、川は茶色い波を立てている。"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "ここを渡れなければ、約束の時刻に届かない。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "メロスは上流と下流を見渡す。迂回すれば、半日を失う。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "怖い。だが、怖さを理由に友を置き去りにはできない。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "荷を捨て、腰の綱を岩に結ぶ。流れを読み、一気に水へ入る。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "一歩ずつだ。流れに逆らわず、向こう岸だけを見る。",
+      "eyes": "closed"
+    },
+    {
+      "op": "nar",
+      "text": "綱が切れ、身体が濁流へさらわれる。伸ばした手が木の根をつかむ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "まだだ。私の足は、まだ地面を探している。",
+      "eyes": "anger",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "泥まみれで対岸へ上がる。膝は震えているが、再び走り出す。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "待っていろ、セリヌンティウス。夕陽には負けない。",
+      "eyes": "normal"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "bg",
+      "src": "road",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "road"
+    },
+    {
+      "op": "nar",
+      "text": "山道。追いはぎを振り切ったメロスに、容赦なく日差しが照りつける。"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "川で力を使い切った。足が、もう私の命令を聞かない。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "石につまずき、乾いた道へ倒れる。遠くで鳥が鳴く。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "ここで眠れば楽だ。王の言うとおり、人は結局、自分を選ぶのか。",
+      "eyes": "closed"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "友は私を恨むだろう。いや、恨む時間さえ奪われる。",
+      "eyes": "crying"
+    },
+    {
+      "op": "nar",
+      "text": "岩の割れ目から、細い泉の音が聞こえる。冷たい水が指を濡らす。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "水だ。まだ立てというのか。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "観客の皆さま。メロスの胸に、どちらの記憶が灯ったでしょう。"
+    },
+    {
+      "op": "choice",
+      "options": [
+        {
+          "text": "黙って引き受けた友の手",
+          "jump": "route_friend"
+        },
+        {
+          "text": "妹夫婦の新しい朝",
+          "jump": "route_sister"
+        }
+      ]
+    },
+    {
+      "op": "label",
+      "id": "route_friend"
+    },
+    {
+      "op": "nar",
+      "text": "王宮で交わした、石の粉にまみれた友の手の温かさが戻る。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "あの手は、説明より先に私を信じた。私は行動で返す。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "jump",
+      "to": "route_join"
+    },
+    {
+      "op": "label",
+      "id": "route_sister"
+    },
+    {
+      "op": "nar",
+      "text": "雨の婚礼で寄り添った妹夫婦の姿が、胸の奥に浮かぶ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "二人に正直であれと言った。ならば私が、言葉を行いに変える。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "jump",
+      "to": "route_join"
+    },
+    {
+      "op": "label",
+      "id": "route_join"
+    },
+    {
+      "op": "nar",
+      "text": "メロスは泉の水を飲み、裂いた衣で足を固く巻く。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "間に合うかではない。信じて待つ者へ向かい続ける。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "立て。次の一歩なら、まだ出せる。",
+      "eyes": "anger",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "一歩が十歩になり、十歩が走りになる。西の空が赤く染まる。"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "bg",
+      "src": "square",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "square"
+    },
+    {
+      "op": "nar",
+      "text": "シラクスの刑場。夕陽の下、三度目の鐘を待つ群衆が息を潜める。"
+    },
+    {
+      "op": "show",
+      "actor": "extra_craftsman",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "homura",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "extra_archer",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "homura",
+      "text": "二度目の鐘が鳴った。おまえの友は戻らぬ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "夕陽はまだ残っています。約束は終わっていません。"
+    },
+    {
+      "op": "say",
+      "actor": "homura",
+      "text": "待つ者は、来ない理由を美しく作るものだ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "疑いが浮かばないとは言いません。それでも私は待つと決めた。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "extra_archer",
+      "text": "師匠、縄を切ることはできません。でも、道を見てきます。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "フィロストラトス、行け。走る者に、まだ時があると伝えてくれ。",
+      "eyes": "normal"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_archer"
+    },
+    {
+      "op": "nar",
+      "text": "遠い道から、若い石工の叫びと、乱れた足音が近づいてくる。"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "その人ではない。約束をしたメロスが、ここへ戻った。",
+      "eyes": "crying",
+      "mouth": "open"
+    },
+    {
+      "op": "nar",
+      "text": "群衆が道を開ける。メロスは倒れながら、友の足元へ手を伸ばす。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "遅いぞ、メロス。私は、君を疑う自分と戦っていた。",
+      "eyes": "crying"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "私も道で、自分だけ助かりたいと思った。だから、私を打ってくれ。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "nar",
+      "text": "セリヌンティウスは、メロスの頬を一度だけ平手で打つ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "これは、戻ってきた君を現実だと確かめるためだ。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "次は君が打て。私も一度、君の約束を手放しかけた。",
+      "eyes": "closed"
+    },
+    {
+      "op": "nar",
+      "text": "メロスも友の頬を一度打つ。二人は痛みごと抱き合う。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "疑ったことを隠さず、それでも戻れた。私たちは友だ。",
+      "eyes": "crying",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "信じるとは、迷わないことではない。迷いの後も待つことだ。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "homura",
+      "text": "二人とも疑いを知りながら、約束の場所へ戻ったのか。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "人の心は揺れる。だからこそ、行いで何度でも結び直せる。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "homura",
+      "text": "わしは揺れを裏切りと決めつけ、先にすべてを断ってきた。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "断った道も、歩き直せます。最初の一歩は、処刑を止めることです。"
+    },
+    {
+      "op": "say",
+      "actor": "homura",
+      "text": "縄を解け。本日の処刑は取りやめる。"
+    },
+    {
+      "op": "nar",
+      "text": "広場にざわめきが広がり、やがて大きな歓声へ変わる。"
+    },
+    {
+      "op": "say",
+      "actor": "homura",
+      "text": "そして願う。おまえたちが許すなら、信頼を学ぶ輪に加えてほしい。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "王としてではなく、約束を守ろうとする一人としてなら。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "明日から行いを見ます。友になる答えは、その後です。",
+      "eyes": "fun"
+    },
+    {
+      "op": "nar",
+      "text": "王は初めて、命令ではなくうなずきで応える。夕陽の最後の光が残る。"
+    },
+    {
+      "op": "hide",
+      "actor": "homura"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_craftsman"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "こうして、三日間の約束は、日没の直前に結ばれ直しました。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "二人は一度ずつ疑い、一度ずつ戻った。その弱さまで分け合ったのです。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "信頼は、きれいな言葉だけでは続きません。待つこと、戻ること。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "そして破れかけた約束を、もう一度つなぐ勇気が要るのでしょう。",
+      "eyes": "closed",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "本日の『走れメロス』、これにて終幕。ご来場ありがとうございました。",
+      "eyes": "joy"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}
