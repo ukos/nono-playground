@@ -1,6 +1,6 @@
 // 画面表示と操作。状態は engine.js の Session が持ち、ここは毎回それを描き直すだけ。
-import { Session } from './engine.js?v=6007719';
-import { indexActors, resolveLayers, layersUsedBy } from './faces.js?v=6007719';
+import { Session } from './engine.js?v=665bb1d';
+import { indexActors, resolveLayers, layersUsedBy } from './faces.js?v=665bb1d';
 
 // 公開のたびに tools/deploy_playground.py が版（コミット）を入れる。URLに付けて、古いファイルの使い回しを防ぐ
 const V = document.querySelector('meta[name="stage-version"]')?.content || 'dev';
@@ -31,6 +31,7 @@ function layoutCurtain() {
 
 let actorsDb = null;
 let works = [];
+let categories = [];
 let work = null; // { id, script, session, base }
 let busy = false; // 幕の開閉中は操作を受け付けない
 const actorEls = new Map();
@@ -64,20 +65,61 @@ function preload(urls) {
 
 /* ---------- タイトル ---------- */
 
+const OPEN_KEY = 'stage-actor.openCategory';
+
+function workButton(w) {
+  const li = document.createElement('li');
+  const b = document.createElement('button');
+  b.type = 'button';
+  b.className = 'work';
+  b.append(w.title);
+  const m = document.createElement('span');
+  m.className = 'meta';
+  m.textContent = w.original || (w.test ? '基盤の動作確認用' : '');
+  b.append(m);
+  b.addEventListener('click', () => openWork(w.id));
+  li.append(b);
+  return li;
+}
+
+// カテゴリの一覧を出し、押したカテゴリの下に作品を開く（開けるのは一度に1つ）
 function renderTitle() {
   el.list.textContent = '';
-  for (const w of works) {
+  let open = null;
+  try { open = sessionStorage.getItem(OPEN_KEY); } catch (e) { /* 保存できない環境 */ }
+  const known = new Set(categories.map((c) => c.id));
+  const cats = [...categories];
+  if (works.some((w) => !known.has(w.category))) cats.push({ id: '', title: 'その他' });
+  for (const c of cats) {
+    const items = works.filter((w) => (known.has(w.category) ? w.category : '') === c.id);
+    if (!items.length) continue;
     const li = document.createElement('li');
+    li.className = 'category';
     const b = document.createElement('button');
     b.type = 'button';
-    b.innerHTML = '';
-    b.append(w.title);
-    const m = document.createElement('span');
-    m.className = 'meta';
-    m.textContent = w.original || (w.test ? '基盤の動作確認用' : '');
-    b.append(m);
-    b.addEventListener('click', () => openWork(w.id));
-    li.append(b);
+    b.className = 'cat';
+    b.setAttribute('aria-expanded', String(open === c.id));
+    b.append(c.title);
+    const n = document.createElement('span');
+    n.className = 'count';
+    n.textContent = `${items.length}作品`;
+    b.append(n);
+    const ul = document.createElement('ul');
+    ul.className = 'works';
+    ul.hidden = open !== c.id;
+    for (const w of items) ul.append(workButton(w));
+    b.addEventListener('click', () => {
+      const willOpen = ul.hidden;
+      for (const o of el.list.querySelectorAll('.category')) {
+        o.querySelector('.works').hidden = true;
+        o.querySelector('.cat').setAttribute('aria-expanded', 'false');
+      }
+      ul.hidden = !willOpen;
+      b.setAttribute('aria-expanded', String(willOpen));
+      try { sessionStorage.setItem(OPEN_KEY, willOpen ? c.id : ''); } catch (e) { /* 保存できない環境 */ }
+      if (willOpen) li.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+    });
+    li.append(b, ul);
     el.list.append(li);
   }
 }
@@ -283,6 +325,7 @@ el.bg.addEventListener('error', () => { missingBg.add(el.bg.getAttribute('src'))
     const [a, w] = await Promise.all([loadJSON('data/actors.json'), loadJSON('data/works.json')]);
     actorsDb = indexActors(a);
     works = w.works;
+    categories = w.categories || [];
     renderTitle();
     const q = new URLSearchParams(location.search).get('work');
     if (q && works.some((x) => x.id === q)) await openWork(q);

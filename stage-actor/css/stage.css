@@ -34,6 +34,13 @@ img { image-rendering: pixelated; image-rendering: crisp-edges; }
   background: rgba(255, 255, 255, 0.06); border: 1px solid rgba(217, 164, 65, 0.5); border-radius: 0.6rem; cursor: pointer; }
 #work-list button:hover, #work-list button:focus-visible { background: rgba(217, 164, 65, 0.18); outline: none; }
 #work-list .meta { display: block; font-size: 0.8rem; opacity: 0.65; margin-top: 0.2rem; }
+#work-list .cat { display: flex; align-items: baseline; gap: 0.6rem; font-size: 1.15rem; color: var(--gold); }
+#work-list .cat::before { content: '▸'; transition: transform 0.15s; }
+#work-list .cat[aria-expanded="true"]::before { transform: rotate(90deg); }
+#work-list .cat .count { margin-left: auto; font-size: 0.8rem; color: var(--ink); opacity: 0.6; }
+#work-list .works { list-style: none; margin: 0.5rem 0 0.2rem 1rem; padding: 0; display: grid; gap: 0.5rem; }
+#work-list .works[hidden] { display: none; }
+#work-list .work { font-size: 1rem; padding: 0.7rem 0.9rem; border-color: rgba(217, 164, 65, 0.3); }
 
 /* 舞台 */
 #stage { overflow: hidden; background: #000; touch-action: manipulation; }
@@ -85,7 +92,7 @@ img { image-rendering: pixelated; image-rendering: crisp-edges; }
 /* 幕と額縁は 2048×1152 の舞台座標で描き、画面を覆う倍率で拡大する（js の layoutCurtain） */
 #curtain .art { position: absolute; left: 0; top: 0; width: 2048px; height: 1152px; transform-origin: 0 0; }
 #curtain .panel { position: absolute; top: 0; width: 1024px; height: 1152px; image-rendering: pixelated;
-  background: url(../theater/curtain.png?v=6007719) no-repeat; background-size: 2048px 1152px;
+  background: url(../theater/curtain.png?v=665bb1d) no-repeat; background-size: 2048px 1152px;
   transition: transform 1.8s cubic-bezier(.6, .05, .3, 1); }
 #curtain .l { left: 0; background-position: 0 0; }
 #curtain .r { left: 1024px; background-position: -1024px 0; }
