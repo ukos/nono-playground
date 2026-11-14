@@ -56,7 +56,8 @@ img { image-rendering: pixelated; image-rendering: crisp-edges; }
   border-right: 3px solid var(--bubble-ink); border-bottom: 3px solid var(--bubble-ink); }
 .bubble.tail-left::after { left: 1.5em; transform: rotate(45deg) skew(12deg, 12deg); }
 .bubble.tail-right::after { right: 1.5em; transform: rotate(45deg) skew(12deg, 12deg); }
-.bubble.nar { left: 50% !important; top: auto !important; bottom: 4vh; transform: translateX(-50%); max-width: 70vw;
+.bubble.tail-center::after { left: var(--tail-x, 50%); transform: translateX(-50%) rotate(45deg); }
+.bubble.nar { left: 50% !important; top: auto !important; bottom: 4vh !important; transform: translateX(-50%); max-width: 70vw;
   background: var(--panel); color: var(--ink); border-color: rgba(217, 164, 65, 0.6); }
 .bubble.nar::after { display: none; }
 
@@ -79,7 +80,7 @@ img { image-rendering: pixelated; image-rendering: crisp-edges; }
 /* 幕と額縁は 2048×1152 の舞台座標で描き、画面を覆う倍率で拡大する（js の layoutCurtain） */
 #curtain .art { position: absolute; left: 0; top: 0; width: 2048px; height: 1152px; transform-origin: 0 0; }
 #curtain .panel { position: absolute; top: 0; width: 1024px; height: 1152px; image-rendering: pixelated;
-  background: url(../theater/curtain.png) no-repeat; background-size: 2048px 1152px;
+  background: url(../theater/curtain.png?v=269b91c) no-repeat; background-size: 2048px 1152px;
   transition: transform 1.8s cubic-bezier(.6, .05, .3, 1); }
 #curtain .l { left: 0; background-position: 0 0; }
 #curtain .r { left: 1024px; background-position: -1024px 0; }

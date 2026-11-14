@@ -1,6 +1,12 @@
 // 画面表示と操作。状態は engine.js の Session が持ち、ここは毎回それを描き直すだけ。
-import { Session } from './engine.js';
-import { indexActors, resolveLayers, layersUsedBy } from './faces.js';
+import { Session } from './engine.js?v=269b91c';
+import { indexActors, resolveLayers, layersUsedBy } from './faces.js?v=269b91c';
+
+// 公開のたびに tools/deploy_playground.py が版（コミット）を入れる。URLに付けて、古いファイルの使い回しを防ぐ
+const V = document.querySelector('meta[name="stage-version"]')?.content || 'dev';
+const asset = (u) => `${u}?v=${V}`;
+// 役者は背景と同じ倍率の半分で描く（2026-11-14）
+const ACTOR_SCALE = 0.5;
 
 const STAGE_W = 2048;
 const STAGE_H = 1152;
@@ -38,7 +44,7 @@ window.addEventListener('error', (e) => showError(e.error || e.message));
 window.addEventListener('unhandledrejection', (e) => showError(e.reason));
 
 async function loadJSON(url) {
-  const r = await fetch(url, { cache: 'no-cache' });
+  const r = await fetch(asset(url), { cache: 'no-cache' });
   if (!r.ok) throw new Error(`${url} を読み込めません（${r.status}）`);
   return r.json();
 }
@@ -48,7 +54,7 @@ function preload(urls) {
     const i = new Image();
     i.onload = () => res(true);
     i.onerror = () => { console.warn('画像が見つかりません:', u); res(false); };
-    i.src = u;
+    i.src = asset(u);
   })));
 }
 
@@ -122,6 +128,11 @@ function layout() {
   return { vw, vh, rh, s, ox, oy, portrait };
 }
 
+/** 見えている舞台の下端（背景の下端と、舞台領域の下端の高い方） */
+function stageBottom(L) {
+  return Math.min(L.oy + STAGE_H * L.s, L.rh);
+}
+
 function render() {
   if (!work) return;
   const { session, script, base } = work;
@@ -133,7 +144,7 @@ function render() {
 
   // 背景
   const bgPath = st.bg ? base + script.backgrounds[st.bg] : '';
-  if (bgPath && !el.bg.src.endsWith(bgPath)) el.bg.src = bgPath;
+  if (bgPath && el.bg.getAttribute('src') !== asset(bgPath)) el.bg.setAttribute('src', asset(bgPath));
   el.bg.hidden = !bgPath;
   el.bg.style.width = `${STAGE_W}px`;
   el.bg.style.height = `${STAGE_H}px`;
@@ -156,11 +167,11 @@ function render() {
     }
     while (node.children.length < r.layers.length) node.append(document.createElement('img'));
     while (node.children.length > r.layers.length) node.lastChild.remove();
-    r.layers.forEach((src, i) => { const img = node.children[i]; if (img.getAttribute('src') !== src) img.setAttribute('src', src); });
+    r.layers.forEach((src, i) => { const img = node.children[i]; if (img.getAttribute('src') !== asset(src)) img.setAttribute('src', asset(src)); });
     const cx = L.vw * POS_X[a.pos];
     // 腰から上：背景の下端に合わせる。全身：領域の高さに収める（背景が上下に切れている画面では少し小さくなる）
-    let sc = L.s;
-    let bottom = L.oy + STAGE_H * L.s;
+    let sc = L.s * (r.view === 'full' ? 1 : ACTOR_SCALE);
+    let bottom = stageBottom(L); // 見えている舞台の下端に腰（全身なら足元）を合わせる
     if (r.view === 'full' && h * sc > L.rh) { sc = L.rh / h; bottom = L.rh; }
     node.style.width = `${w}px`;
     node.style.height = `${h}px`;
@@ -199,22 +210,17 @@ function renderText(stop, L) {
     el.bubble.classList.add('nar');
     return;
   }
-  // 話者の頭の横に吹き出しを出す。右側の役者なら左へ、それ以外は右へ。
+  // 話者の頭の上に吹き出しを出す（ほかの役者の顔に掛からないように）
   const cx = L.vw * POS_X[a.pos];
-  const headOffset = 768 * L.s * 0.28;
-  el.bubble.style.top = `${Math.max(12, L.oy + 120 * L.s)}px`;
-  // 中央の話者は、空いている側に吹き出しを出す
-  const occupied = new Set(Object.values(stop.state.actors).map((x) => x.pos));
-  const toLeft = a.pos === 'right' || (a.pos === 'center' && occupied.has('right') && !occupied.has('left'));
-  if (toLeft) {
-    el.bubble.style.left = '';
-    el.bubble.style.right = `${Math.max(8, L.vw - (cx - headOffset))}px`;
-    el.bubble.classList.add('tail-right');
-  } else {
-    el.bubble.style.right = '';
-    el.bubble.style.left = `${Math.min(L.vw * 0.62, cx + headOffset)}px`;
-    el.bubble.classList.add('tail-left');
-  }
+  const actorTop = stageBottom(L) - 1024 * L.s * ACTOR_SCALE;
+  el.bubble.classList.add('tail-center');
+  el.bubble.style.right = '';
+  el.bubble.style.top = '';
+  const w = el.bubble.offsetWidth;
+  const left = Math.max(8, Math.min(L.vw - w - 8, cx - w / 2));
+  el.bubble.style.left = `${left}px`;
+  el.bubble.style.bottom = `${Math.max(8, L.vh - actorTop + 10)}px`;
+  el.bubble.style.setProperty('--tail-x', `${Math.max(24, Math.min(w - 24, cx - left))}px`);
 }
 
 function renderChoices(stop) {
