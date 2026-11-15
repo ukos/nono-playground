@@ -1,1097 +1,1049 @@
 {
-  "meta": {
-    "id": "cosmos-friendship-blast",
-    "number": 167,
-    "title": "咲き誇れ！おれのコスモス・友情努力でピュー！",
-    "original": "NONO座オリジナル熱血漫画パロディ",
-    "category": "Stage Actorオリジナル",
-    "adaptation": "free",
-    "format": "v3",
-    "minutes": 47,
-    "synopsis": "熱血新作の稽古で、どこかで聞いた必殺技、世紀末の拳、星座の鎧、友情の筋力が衝突。固有名詞と既存台詞を使わず、類型の暴走を笑う。",
-    "theme": "借り物の決め台詞より、仲間と作った不格好な一言の方が強い",
-    "chapters": [
-      {
-        "id": "main",
-        "title": "本編",
-        "scenes": [
-          "wasteland_ring",
-          "seven_shining_marks",
-          "armor_by_constellation",
-          "friendship_muscle",
-          "forbidden_catchphrase",
-          "revival_loop",
-          "original_finisher",
-          "petal_not_cosmos"
-        ]
-      }
-    ],
-    "note": "既存翻訳・上演台本・特定演者の口演は転用せず、台詞は本上演版の書き下ろし。"
-  },
-  "cast": [
-    {
-      "role": "熱血主人公",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "世紀末風の強敵",
-      "actor": "kurogane",
-      "costume": "default"
-    },
-    {
-      "role": "星巡りの戦士",
-      "actor": "gou",
-      "costume": "default"
-    },
-    {
-      "role": "友情筋力の超人",
-      "actor": "homura",
-      "costume": "default"
-    },
-    {
-      "role": "高速ツッコミ役",
-      "actor": "kotetsu",
-      "costume": "default"
-    }
+ "meta": {
+  "id": "cosmos-friendship-blast",
+  "number": 167,
+  "title": "咲き誇れ！おれのコスモス・友情努力でピュー！",
+  "original": "NONO座オリジナル熱血漫画パロディ",
+  "category": "Stage Actorオリジナル",
+  "adaptation": "free",
+  "format": "v3",
+  "minutes": 23,
+  "synopsis": "熱血漫画の材料をそろえた舞台で、主人公ノノは、どこかで聞いたことのない自分たちの決め台詞を探す。荒野のリング、光る印、星の鎧、友情、復活をくぐり、仲間の失敗から不格好な必殺技が生まれる。",
+  "theme": "借り物の決め台詞より、仲間と作った不格好な一言の方が強い",
+  "chapters": [
+   {
+    "id": "main",
+    "title": "本編",
+    "scenes": [
+     "wasteland_ring",
+     "seven_shining_marks",
+     "armor_by_constellation",
+     "friendship_muscle",
+     "forbidden_catchphrase",
+     "revival_loop",
+     "original_finisher",
+     "petal_not_cosmos"
+    ]
+   }
   ],
-  "backgrounds": {
-    "wasteland_ring": "bg/cosmos-friendship-blast-wasteland_ring-2048x1152.png",
-    "seven_shining_marks": "bg/cosmos-friendship-blast-seven_shining_marks-2048x1152.png",
-    "armor_by_constellation": "bg/cosmos-friendship-blast-armor_by_constellation-2048x1152.png",
-    "friendship_muscle": "bg/cosmos-friendship-blast-friendship_muscle-2048x1152.png",
-    "forbidden_catchphrase": "bg/cosmos-friendship-blast-forbidden_catchphrase-2048x1152.png",
-    "revival_loop": "bg/cosmos-friendship-blast-revival_loop-2048x1152.png",
-    "original_finisher": "bg/cosmos-friendship-blast-original_finisher-2048x1152.png",
-    "petal_not_cosmos": "bg/cosmos-friendship-blast-petal_not_cosmos-2048x1152.png"
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "熱血主人公",
+   "actor": "nono",
+   "costume": "default"
   },
-  "steps": [
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『咲き誇れ！おれのコスモス・友情努力でピュー！』。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "StageActorオリジナルの舞台を、全8景でお届けします。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "この舞台の核は「借り物の決め台詞より、仲間と作った不格好な一言の方が強い」。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "既存の台詞を写さず、今夜のために新しく構成しました。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "それでは、幕を開けましょう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "wasteland_ring",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "wasteland_ring"
-    },
-    {
-      "op": "nar",
-      "text": "第1景「荒野にリングがある」。終末の荒野で決闘を始めたはずが、足元だけ格闘リングで全員が設定を疑う。"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "gou",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "ここは「荒野にリングがある」。終末の荒野で決闘を始めたはずが、足元だけ格闘リングで全員が設定を疑う。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "今の選択は、次の場面だけでなく結末まで動かす。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。"
-    },
-    {
-      "op": "nar",
-      "text": "荒野にリングがあるの空気が変わり、言葉の裏にある選択が見える。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "私は「借り物の決め台詞より、仲間と作った不格好な一言の方が強い」という問いから逃げたくない。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "終末の荒野で決闘を始めたはずが、足元だけ格闘リングで全員が設定を疑う。ならば、今できる一手を選ぶ。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "その一手で得るものと、失うものを同じ明るさで見よう。"
-    },
-    {
-      "op": "nar",
-      "text": "舞台の奥で音が止み、終末の荒野で決闘を始めたはずが、足元だけ格闘リングで全員が設定を疑う。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "「荒野にリングがある」を通り過ぎず、この場で必要な言葉を残す。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。"
-    },
-    {
-      "op": "nar",
-      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "答えは一つでなくても、選んだ責任は分け合える。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "よし。次の場面へ持って行ける答えになった。"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "hide",
-      "actor": "gou"
-    },
-    {
-      "op": "bg",
-      "src": "seven_shining_marks",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "seven_shining_marks"
-    },
-    {
-      "op": "nar",
-      "text": "第2景「七つくらい光る印」。主人公の胸に星のような印が増え、何個なら独自設定かという会議になる。"
-    },
-    {
-      "op": "show",
-      "actor": "homura",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "kotetsu",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "ここは「七つくらい光る印」。主人公の胸に星のような印が増え、何個なら独自設定かという会議になる。"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "今の選択は、次の場面だけでなく結末まで動かす。"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。"
-    },
-    {
-      "op": "nar",
-      "text": "七つくらい光る印の空気が変わり、言葉の裏にある選択が見える。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "私は「借り物の決め台詞より、仲間と作った不格好な一言の方が強い」という問いから逃げたくない。"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "主人公の胸に星のような印が増え、何個なら独自設定かという会議になる。ならば、今できる一手を選ぶ。"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "その一手で得るものと、失うものを同じ明るさで見よう。"
-    },
-    {
-      "op": "nar",
-      "text": "舞台の奥で音が止み、主人公の胸に星のような印が増え、何個なら独自設定かという会議になる。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "「七つくらい光る印」を通り過ぎず、この場で必要な言葉を残す。"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。"
-    },
-    {
-      "op": "nar",
-      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "答えは一つでなくても、選んだ責任は分け合える。"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "よし。次の場面へ持って行ける答えになった。"
-    },
-    {
-      "op": "hide",
-      "actor": "homura"
-    },
-    {
-      "op": "hide",
-      "actor": "kotetsu"
-    },
-    {
-      "op": "bg",
-      "src": "armor_by_constellation",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "armor_by_constellation"
-    },
-    {
-      "op": "nar",
-      "text": "第3景「星座っぽい防具」。倉庫の鍋と傘で星巡りの鎧を作り、守護星より安全基準を優先する。"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "gou",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "ここは「星座っぽい防具」。倉庫の鍋と傘で星巡りの鎧を作り、守護星より安全基準を優先する。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "今の選択は、次の場面だけでなく結末まで動かす。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。"
-    },
-    {
-      "op": "nar",
-      "text": "星座っぽい防具の空気が変わり、言葉の裏にある選択が見える。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "私は「借り物の決め台詞より、仲間と作った不格好な一言の方が強い」という問いから逃げたくない。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "倉庫の鍋と傘で星巡りの鎧を作り、守護星より安全基準を優先する。ならば、今できる一手を選ぶ。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "その一手で得るものと、失うものを同じ明るさで見よう。"
-    },
-    {
-      "op": "nar",
-      "text": "舞台の奥で音が止み、倉庫の鍋と傘で星巡りの鎧を作り、守護星より安全基準を優先する。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "「星座っぽい防具」を通り過ぎず、この場で必要な言葉を残す。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。"
-    },
-    {
-      "op": "nar",
-      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "答えは一つでなくても、選んだ責任は分け合える。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "よし。次の場面へ持って行ける答えになった。"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "hide",
-      "actor": "gou"
-    },
-    {
-      "op": "bg",
-      "src": "friendship_muscle",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "friendship_muscle"
-    },
-    {
-      "op": "nar",
-      "text": "第4景「友情を筋力で量る」。友情の強さを腕立て回数で決める試験が始まり、応援役だけが疲れ果てる。"
-    },
-    {
-      "op": "show",
-      "actor": "homura",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "kotetsu",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "ここは「友情を筋力で量る」。友情の強さを腕立て回数で決める試験が始まり、応援役だけが疲れ果てる。"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "今の選択は、次の場面だけでなく結末まで動かす。"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。"
-    },
-    {
-      "op": "nar",
-      "text": "友情を筋力で量るの空気が変わり、言葉の裏にある選択が見える。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "私は「借り物の決め台詞より、仲間と作った不格好な一言の方が強い」という問いから逃げたくない。"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "友情の強さを腕立て回数で決める試験が始まり、応援役だけが疲れ果てる。ならば、今できる一手を選ぶ。"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "その一手で得るものと、失うものを同じ明るさで見よう。"
-    },
-    {
-      "op": "nar",
-      "text": "舞台の奥で音が止み、友情の強さを腕立て回数で決める試験が始まり、応援役だけが疲れ果てる。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "「友情を筋力で量る」を通り過ぎず、この場で必要な言葉を残す。"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。"
-    },
-    {
-      "op": "nar",
-      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "答えは一つでなくても、選んだ責任は分け合える。"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "よし。次の場面へ持って行ける答えになった。"
-    },
-    {
-      "op": "hide",
-      "actor": "homura"
-    },
-    {
-      "op": "hide",
-      "actor": "kotetsu"
-    },
-    {
-      "op": "bg",
-      "src": "forbidden_catchphrase",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "forbidden_catchphrase"
-    },
-    {
-      "op": "nar",
-      "text": "第5景「それ誰の台詞だ」。決め台詞を叫ぶたび誰かが既視感を指摘し、言い換えがどんどん長くなる。"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "gou",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "ここは「それ誰の台詞だ」。決め台詞を叫ぶたび誰かが既視感を指摘し、言い換えがどんどん長くなる。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "今の選択は、次の場面だけでなく結末まで動かす。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。"
-    },
-    {
-      "op": "nar",
-      "text": "それ誰の台詞だの空気が変わり、言葉の裏にある選択が見える。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "私は「借り物の決め台詞より、仲間と作った不格好な一言の方が強い」という問いから逃げたくない。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "決め台詞を叫ぶたび誰かが既視感を指摘し、言い換えがどんどん長くなる。ならば、今できる一手を選ぶ。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "その一手で得るものと、失うものを同じ明るさで見よう。"
-    },
-    {
-      "op": "nar",
-      "text": "舞台の奥で音が止み、決め台詞を叫ぶたび誰かが既視感を指摘し、言い換えがどんどん長くなる。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "「それ誰の台詞だ」を通り過ぎず、この場で必要な言葉を残す。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。"
-    },
-    {
-      "op": "nar",
-      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "答えは一つでなくても、選んだ責任は分け合える。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "よし。次の場面へ持って行ける答えになった。"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "hide",
-      "actor": "gou"
-    },
-    {
-      "op": "bg",
-      "src": "revival_loop",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "revival_loop"
-    },
-    {
-      "op": "nar",
-      "text": "第6景「何度も立ち上がる理由」。倒れては復活する演出を繰り返すが、床係から回数制限を告げられる。"
-    },
-    {
-      "op": "show",
-      "actor": "homura",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "kotetsu",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "ここは「何度も立ち上がる理由」。倒れては復活する演出を繰り返すが、床係から回数制限を告げられる。"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "今の選択は、次の場面だけでなく結末まで動かす。"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。"
-    },
-    {
-      "op": "nar",
-      "text": "何度も立ち上がる理由の空気が変わり、言葉の裏にある選択が見える。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "私は「借り物の決め台詞より、仲間と作った不格好な一言の方が強い」という問いから逃げたくない。"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "倒れては復活する演出を繰り返すが、床係から回数制限を告げられる。ならば、今できる一手を選ぶ。"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "その一手で得るものと、失うものを同じ明るさで見よう。"
-    },
-    {
-      "op": "nar",
-      "text": "舞台の奥で音が止み、倒れては復活する演出を繰り返すが、床係から回数制限を告げられる。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "「何度も立ち上がる理由」を通り過ぎず、この場で必要な言葉を残す。"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。"
-    },
-    {
-      "op": "nar",
-      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "答えは一つでなくても、選んだ責任は分け合える。"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "よし。次の場面へ持って行ける答えになった。"
-    },
-    {
-      "op": "hide",
-      "actor": "homura"
-    },
-    {
-      "op": "hide",
-      "actor": "kotetsu"
-    },
-    {
-      "op": "bg",
-      "src": "original_finisher",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "original_finisher"
-    },
-    {
-      "op": "nar",
-      "text": "第7景「自分たちの必殺技」。必殺技名を外見でなく失敗談から作り、全員の役割が必要な技へ変える。"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "gou",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "ここは「自分たちの必殺技」。必殺技名を外見でなく失敗談から作り、全員の役割が必要な技へ変える。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "今の選択は、次の場面だけでなく結末まで動かす。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。"
-    },
-    {
-      "op": "nar",
-      "text": "自分たちの必殺技の空気が変わり、言葉の裏にある選択が見える。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "私は「借り物の決め台詞より、仲間と作った不格好な一言の方が強い」という問いから逃げたくない。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "必殺技名を外見でなく失敗談から作り、全員の役割が必要な技へ変える。ならば、今できる一手を選ぶ。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "その一手で得るものと、失うものを同じ明るさで見よう。"
-    },
-    {
-      "op": "nar",
-      "text": "舞台の奥で音が止み、必殺技名を外見でなく失敗談から作り、全員の役割が必要な技へ変える。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "「自分たちの必殺技」を通り過ぎず、この場で必要な言葉を残す。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。"
-    },
-    {
-      "op": "nar",
-      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "答えは一つでなくても、選んだ責任は分け合える。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "よし。次の場面へ持って行ける答えになった。"
-    },
-    {
-      "op": "choice",
-      "options": [
-        {
-          "text": "今すぐ行動する",
-          "jump": "cosmos-friendship-blast_direct"
-        },
-        {
-          "text": "もう一人の声を最後まで聞く",
-          "jump": "cosmos-friendship-blast_listen"
-        }
-      ]
-    },
-    {
-      "op": "label",
-      "id": "cosmos-friendship-blast_direct"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "私は今すぐ動く。遅れた分は、行動の後で説明する。"
-    },
-    {
-      "op": "jump",
-      "to": "cosmos-friendship-blast_merge"
-    },
-    {
-      "op": "label",
-      "id": "cosmos-friendship-blast_listen"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "私は最後まで聞く。沈黙も答えの一部として受け止める。"
-    },
-    {
-      "op": "label",
-      "id": "cosmos-friendship-blast_merge"
-    },
-    {
-      "op": "nar",
-      "text": "選び方は違っても、二人は同じ核心を次の景へ運ぶ。"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "hide",
-      "actor": "gou"
-    },
-    {
-      "op": "bg",
-      "src": "petal_not_cosmos",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "petal_not_cosmos"
-    },
-    {
-      "op": "nar",
-      "text": "第8景「花びら一枚の勝負」。宇宙規模の力を語った末、最後は一枚の花びらを誰が守るかで勝敗を決める。"
-    },
-    {
-      "op": "show",
-      "actor": "homura",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "kotetsu",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "ここは「花びら一枚の勝負」。宇宙規模の力を語った末、最後は一枚の花びらを誰が守るかで勝敗を決める。"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "今の選択は、次の場面だけでなく結末まで動かす。"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。"
-    },
-    {
-      "op": "nar",
-      "text": "花びら一枚の勝負の空気が変わり、言葉の裏にある選択が見える。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "私は「借り物の決め台詞より、仲間と作った不格好な一言の方が強い」という問いから逃げたくない。"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "宇宙規模の力を語った末、最後は一枚の花びらを誰が守るかで勝敗を決める。ならば、今できる一手を選ぶ。"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "その一手で得るものと、失うものを同じ明るさで見よう。"
-    },
-    {
-      "op": "nar",
-      "text": "舞台の奥で音が止み、宇宙規模の力を語った末、最後は一枚の花びらを誰が守るかで勝敗を決める。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "「花びら一枚の勝負」を通り過ぎず、この場で必要な言葉を残す。"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。"
-    },
-    {
-      "op": "nar",
-      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "答えは一つでなくても、選んだ責任は分け合える。"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "よし。次の場面へ持って行ける答えになった。"
-    },
-    {
-      "op": "hide",
-      "actor": "homura"
-    },
-    {
-      "op": "hide",
-      "actor": "kotetsu"
-    },
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "『咲き誇れ！おれのコスモス・友情努力でピュー！』、これにて終演です。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "残った問いは「借り物の決め台詞より、仲間と作った不格好な一言の方が強い」。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "選んだ結末を、次の物語まで覚えていてください。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "end"
+  {
+   "role": "世紀末風の強敵",
+   "actor": "kurogane",
+   "costume": "default"
+  },
+  {
+   "role": "星巡りの戦士",
+   "actor": "gou",
+   "costume": "default"
+  },
+  {
+   "role": "友情筋力の超人",
+   "actor": "homura",
+   "costume": "default"
+  },
+  {
+   "role": "高速ツッコミ役",
+   "actor": "kotetsu",
+   "costume": "default"
+  },
+  {
+   "role": "狂言回し",
+   "actor": "yui_origin",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "wasteland_ring": "bg/cosmos-friendship-blast-wasteland_ring-2048x1152.png",
+  "seven_shining_marks": "bg/cosmos-friendship-blast-seven_shining_marks-2048x1152.png",
+  "armor_by_constellation": "bg/cosmos-friendship-blast-armor_by_constellation-2048x1152.png",
+  "friendship_muscle": "bg/cosmos-friendship-blast-friendship_muscle-2048x1152.png",
+  "forbidden_catchphrase": "bg/cosmos-friendship-blast-forbidden_catchphrase-2048x1152.png",
+  "revival_loop": "bg/cosmos-friendship-blast-revival_loop-2048x1152.png",
+  "original_finisher": "bg/cosmos-friendship-blast-original_finisher-2048x1152.png",
+  "petal_not_cosmos": "bg/cosmos-friendship-blast-petal_not_cosmos-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "yui_origin",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "開演でございます。案内役はユイ・オリジン。今夜はNONO座が、熱血漫画に、真っ向から挑みます。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "荒野、宿敵、光る印、星の鎧、友情、復活、必殺技。……熱い物語の材料は、全部そろえました。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "ひとつだけ、そろわない物がございます。どこかで聞いたことのない、自分たちの決め台詞です。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "主役のノノは、それを探しに、八つの景を駆け抜けます。審判は、言葉の番人、コテツ。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui_origin"
+  },
+  {
+   "op": "bg",
+   "src": "wasteland_ring",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "wasteland_ring"
+  },
+  {
+   "op": "nar",
+   "text": "砂嵐の荒野。なぜか中央にだけ、白いロープの格闘リングが立っている。"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "待っていたぞ、小僧。この荒野を通りたければ、俺を倒してからにしろ。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "望むところだ！　俺はノノ、宇宙一熱い主人公になる男だ！",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "俺は荒野の覇者、ガンテツ。拳ひとつで、三つの村の水桶を割った。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "水桶を割ったら、村の人が困るだろう。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……困っていた。あとで、桶屋を呼んで直させた。",
+   "eyes": "closed"
+  },
+  {
+   "op": "show",
+   "actor": "kotetsu",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "ちょっと待った。二人とも、なんで荒野にリングがあるのか、説明できる？",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "荒野だからだ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "熱いからだ。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "理由になってない。リングを運んだ人の苦労を考えて。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……運んだのは、俺だ。三日かかった。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "えらい。でも次からは、置く場所を相談して。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "kotetsu"
+  },
+  {
+   "op": "bg",
+   "src": "seven_shining_marks",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "seven_shining_marks"
+  },
+  {
+   "op": "nar",
+   "text": "夜営のたき火。ノノの胸元で、星の形の印が、ぼんやり光っている。"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "homura",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "ノノ、その胸の印はなんだ。昨日より、一つ増えてるぞ。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "成長の証だ！　七つ揃ったとき、伝説の力が目覚めるに違いない！",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "今いくつだ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……五つ。"
+  },
+  {
+   "op": "show",
+   "actor": "kotetsu",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "数えると、それは寝ているあいだに押しつけた、羽織の留め具の跡。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "夢がない……。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "夢はある。印の数じゃなくて、その跡がどこでついたかに。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "昨夜、崖から落ちかけたゴウを、ノノが抱きとめた。そのとき胸を打ったんだ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……じゃあ、これは、ゴウを守った印か。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "数えるなら、誰を守ったかで数えて。それなら、私も止めない。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "homura"
+  },
+  {
+   "op": "hide",
+   "actor": "kotetsu"
+  },
+  {
+   "op": "bg",
+   "src": "armor_by_constellation",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "armor_by_constellation"
+  },
+  {
+   "op": "nar",
+   "text": "星空の下の鍛冶場。鍋、傘、洗濯ばさみが、なぜか鎧の形に積み上げられている。"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "kotetsu",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "見ろ、星巡りの鎧だ。牡牛の星座の加護を受けた、このゴウ専用の。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "鍋と傘と洗濯ばさみ。星巡りというより、台所巡り。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "笑うな。鍋は胸を守る。傘は背中を守る。洗濯ばさみは……",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "洗濯ばさみは。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "……鍋と傘を、つないでいる。いちばん大事な部品だ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "星の加護は、どうやってもらうんだ。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "夜空を見上げて、星の名を叫ぶ。そうすると、鎧が光る……はずだった。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "光らないのか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "昨夜、叫びすぎて、近所の鶏が全部起きた。光ったのは、鶏小屋の灯りだけだ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "鎧が光らなくても、留め具を二重にしたのは偉い。昨日の崖、それで助かったでしょう。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "……ああ。光らなくても、外れなかった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "kotetsu"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "friendship_muscle",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "friendship_muscle"
+  },
+  {
+   "op": "nar",
+   "text": "友情を測る、巨大なはかり。片方の皿に、ホムラが腕立て伏せの姿勢で乗っている。"
+  },
+  {
+   "op": "show",
+   "actor": "homura",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "友情の強さは、筋肉で測る！　二人で腕立て伏せを百回、手を離さずにやりきった者が、真の友だ！",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "なぜ俺まで、ここにいる。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "敵と友情を結ぶのが、熱血の王道だろう。さあ、手を組め。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……九十八、九十九……俺は、もう九十九回やった。お前、まだ一回もやってないぞ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "俺は数える係だ。友情は、役割分担だ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "show",
+   "actor": "kotetsu",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "友情を床に押しつけないで。ガンテツの腕が、もう震えてる。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "震えているのは腕ではない。心だ。……誰かと何かを数えてもらうのは、初めてだ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "……ガンテツ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "回数は、もうどうでもいい。最後まで、手を離さないでくれたのが、うれしかった。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "百回目は、俺も一緒にやる。……ふんっ！　……ぐっ、重い！",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "homura"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "kotetsu"
+  },
+  {
+   "op": "bg",
+   "src": "forbidden_catchphrase",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "forbidden_catchphrase"
+  },
+  {
+   "op": "nar",
+   "text": "照明の落ちた舞台。ノノが一人、拳を突き上げて、決め台詞を叫ぶ練習をしている。"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "闇を裂き、空を焦がし、星をも砕く、この俺の……",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "show",
+   "actor": "kotetsu",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "はい、ピー。長い。それに、その熱の上げ方、どこかで聞いた。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "一番かっこいい言葉を、全部くっつけたのに。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "くっつけた言葉は、くっつけた人の物。ノノが言っても、ノノの声にならない。"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "小僧、そんな時は、拳で語れ。お前の……",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "はい、ピー。それも、拳で語る人たちの決まり文句。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "俺まで止められるのか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "誰でも止める。私の笛は、借り物の熱さにだけ鳴る。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……じゃあ、何を叫べばいいんだ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "叫ぶ前に、思い出して。この旅で、いちばんみっともなかったことを。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "みっともなかったこと……。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "kotetsu"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "bg",
+   "src": "revival_loop",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "revival_loop"
+  },
+  {
+   "op": "nar",
+   "text": "倒れては立ち上がる演出が三度目。床係の札に、赤い字で「あと一回」と書いてある。"
+  },
+  {
+   "op": "show",
+   "actor": "homura",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "うおお！　友情がある限り、俺は何度でも立ち上がる！",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "ホムラが倒れ、赤い照明がぐるぐる回り、また起き上がる。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ホムラ、さっきから同じ倒れ方を三回してるぞ。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "復活は、熱血の華だ。倒れた数だけ、強くなる。"
+  },
+  {
+   "op": "show",
+   "actor": "kotetsu",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "床係から伝言。照明代が今月分を超えました。次に倒れたら、自分で懐中電灯を持って。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "……友情に、予算があったのか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "なあ、ホムラ。倒れてから立つより、倒れないように誰かを呼ぶほうが、難しくないか。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "……呼ぶのは、恥ずかしい。強い者は、一人で立つものだと思っていた。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "じゃあ俺が先に呼ぶ。ホムラ、さっきから足がしびれて立てない。手を貸してくれ！",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "……ノノ。そうか。呼ぶのは、こうやるのか。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "homura"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "kotetsu"
+  },
+  {
+   "op": "bg",
+   "src": "original_finisher",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "original_finisher"
+  },
+  {
+   "op": "nar",
+   "text": "作戦会議の小屋。黒板に「必殺技の名前」と書かれ、その下は空白のままだ。"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kotetsu",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "みんなの、旅でいちばん格好わるかった話を、持ち寄ろう。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "俺は、鎧が光らなくて、鶏を全部起こした。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "show",
+   "actor": "homura",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "腕立てを数えるだけで、一回もやらなかった。"
+  },
+  {
+   "op": "hide",
+   "actor": "homura"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "リングを荒野に運ぶのに、三日かかった。誰も、手伝ってくれなかった。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "俺は、羽織の留め具の跡を、伝説の印だと思いこんだ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "全部、技の名前になりそう。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "決めた。技の名前は、「昨日みんなで転んだやつ」！",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "技名としては最低。思い出としては、最高。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "俺がまず受け止める。星巡りは留め具で全員をつなぐ。ホムラは柱になって支える。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "俺は、真ん中で、誰かを呼ぶ。コテツは。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "私は、危ない時に止める。それが、いちばん大事な役。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "kotetsu"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "bg",
+   "src": "petal_not_cosmos",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "petal_not_cosmos"
+  },
+  {
+   "op": "nar",
+   "text": "宇宙の果てのような舞台。中央に、名もない白い花びらが一枚、ゆっくりと落ちてくる。"
+  },
+  {
+   "op": "show",
+   "actor": "yui_origin",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "最後の勝負。宇宙を救う決戦……ではなく、この一枚の花びらを、地面に落とさず舞台の端まで運ぶこと。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "叫べば、息で飛んでしまう。拳を振れば、風で裂けてしまう。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "yui_origin"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "宇宙を賭けた戦いではなかったのか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "一枚を守れない技で、宇宙は守れない。……みんな、息をそろえて。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "留め具、よし。鍋、よし。傘は、花びらの屋根にする。"
+  },
+  {
+   "op": "nar",
+   "text": "花びらは、ゆらゆらと揺れながら、ノノの指先の上で止まった。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ここで、技を出す。……どっちの名前で、出す。",
+   "eyes": "closed"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "宇宙一かっこいい、借り物の決め台詞を叫ぶ",
+     "jump": "loud"
+    },
+    {
+     "text": "みんなの失敗から作った、不格好な技の名を呼ぶ",
+     "jump": "clumsy"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "loud"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "闇を裂き、空を焦がし……",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "その息で、花びらはふわりと舞い上がり、誰の手も届かない高さへ飛んでいった。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "飛んだ！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "借りた言葉は、声が大きすぎた。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……もう一度だ。今度は、俺たちの名前で。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "風が戻り、花びらは、ガンテツの差し出した大きな手のひらへ、ふわりと落ちた。"
+  },
+  {
+   "op": "jump",
+   "to": "finish"
+  },
+  {
+   "op": "label",
+   "id": "clumsy"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "いくぞ。……「昨日みんなで転んだやつ」。",
+   "eyes": "joy"
+  },
+  {
+   "op": "jump",
+   "to": "finish"
+  },
+  {
+   "op": "label",
+   "id": "finish"
+  },
+  {
+   "op": "nar",
+   "text": "ガンテツが受け止め、ゴウが傘をかざし、ノノが小声で合図する。花びらは、一度も落ちずに、舞台の端まで運ばれた。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……運んだ。誰も、叫ばずに。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "光らなくても、勝てた。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "これが、俺たちの必殺技だ。誰にもまねできないし、誰もまねしたくない！",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "show",
+   "actor": "yui_origin",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "宇宙一熱い決め台詞は、とうとう、最後まで出てまいりませんでした。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "代わりに出てきたのは、みっともない失敗の数だけ長い、不格好な技の名前でございます。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "借りた言葉は、大きな声でしか言えません。自分たちの言葉なら、ささやいても届きます。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "『咲き誇れ！おれのコスモス・友情努力でピュー！』、ここで幕でございます。皆さまの決め台詞も、どうぞご自分で。",
+   "eyes": "joy"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

@@ -1,393 +1,555 @@
 {
-  "meta": {
-    "id": "tebukuro-wo-kai-ni",
-    "title": "手袋を買いに ―雪あかり商店街―",
-    "original": "新美南吉『手袋を買いに』（著作権消滅作品）",
-    "adaptation": "free",
-    "format": "v3",
-    "minutes": 9,
-    "synopsis": "現代の商店街へ手袋を買いに出た子狐は、誤って狐の前足を店主へ見せる。正体に気づいていた老店主と孫娘は、古い狐用の型紙を現代の素材で更新する。春、孫娘が「人も動物も客」とする店を継ぐ世代交代エンド。",
-    "note": "本脚本は翻案であり、原作の文章・口演の転載ではない。セリフは全て本上演版の書き下ろし。"
+ "meta": {
+  "id": "tebukuro-wo-kai-ni",
+  "title": "手袋を買いに ―雪あかり商店街―",
+  "original": "新美南吉『手袋を買いに』（著作権消滅作品）",
+  "adaptation": "free",
+  "format": "v3",
+  "minutes": 13,
+  "synopsis": "雪で前足を冷やした子狐は、片方の手を人間の手に変えてもらい、ひとりで町の手袋屋へ行く。まちがえて狐の手を出しても、店主は手袋を売ってくれた。帰った子狐に、母狐はつぶやく。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "狂言回し",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "母狐",
-      "actor": "yui",
-      "costume": "default"
-    },
-    {
-      "role": "子狐",
-      "actor": "akane",
-      "costume": "default"
-    },
-    {
-      "role": "老店主",
-      "actor": "extra_elder",
-      "costume": "default"
-    },
-    {
-      "role": "孫娘",
-      "actor": "shiro",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "forest": "bg/modern-winter-forest-2048x1152.png",
-    "arcade": "bg/snowy-shopping-arcade-2048x1152.png",
-    "shop": "bg/glove-shop-spring-2048x1152.png"
+  {
+   "role": "母狐",
+   "actor": "yui",
+   "costume": "default"
   },
-  "steps": [
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『手袋を買いに ―雪あかり商店街―』。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "昔、狐の子は人の町へ手袋を買いに行きました。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "今夜の町は商店街。店主は、小さなお客の正体をもう知っています。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "forest",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "forest"
-    },
-    {
-      "op": "nar",
-      "text": "現代の冬。森の入口から、古いアーケード商店街の灯りが見える。"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "akane",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "母さん、雪が冷たい。前足が赤くなっちゃった。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "町で手袋を買いましょう。でも、人に狐だと知られてはいけない。"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "どうして。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "昔、人に追われた記憶があるの。怖さは、忘れたふりをしても残る。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "母狐は子狐の片方の前足だけを、人の子の手へ変える。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "この手で硬貨を出して、「子ども用をください」と言うのよ。"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "もう片方を出したら、どうなるの。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "店主が優しい人か、わからない。"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "hide",
-      "actor": "akane"
-    },
-    {
-      "op": "bg",
-      "src": "arcade",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "arcade"
-    },
-    {
-      "op": "nar",
-      "text": "雪の商店街。古い手袋店だけが、暖かな明かりを残している。"
-    },
-    {
-      "op": "show",
-      "actor": "akane",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elder",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "あの、子ども用の手袋をください。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "緊張した子狐は、狐の前足を差し出してしまう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "これは細い指ではなく、雪を歩く小さな足だね。"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "ご、ごめんなさい。お金は本物です。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "謝ることはない。形が違えば、測り方を変えればいい。"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "お爺ちゃん、その型紙、昔の箱にあった狐用だね。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "私の母が作った。ずっと次のお客を待っていた型紙だ。"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "狐だと、最初からわかっていたの。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "雪の匂いと、勇気を出す目でね。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "左右とも測らせて。今の糸なら、もっと暖かく軽くできる。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "孫娘は端末で型を記録し、左右の前足に合う手袋を縫う。"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "片方だけ人の手にしなくても、買い物できた。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "店は客に合わせるもの。客が店に化ける必要はない。"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elder"
-    },
-    {
-      "op": "hide",
-      "actor": "akane"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "bg",
-      "src": "forest",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "forest"
-    },
-    {
-      "op": "nar",
-      "text": "森の入口。母狐が心配そうに待っている。"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "akane",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "無事だったのね。その手袋、両方とも狐の形。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "店主さんは知ってた。怖くなかったよ。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "でも、昔の怖い人もいた。"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "うん。だから全部の人を信じるんじゃない。話を聞く人を見つけるの。",
-      "eyes": "closed"
-    },
-    {
-      "op": "nar",
-      "text": "翌朝、森の入口へ「動物の足も採寸します」という絵だけの札が立つ。"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "hide",
-      "actor": "akane"
-    },
-    {
-      "op": "bg",
-      "src": "shop",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "shop"
-    },
-    {
-      "op": "nar",
-      "text": "春。老店主は店の鍵と古い型紙箱を孫娘へ渡す。"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elder",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "次はおまえの店だ。昔の型を守り、新しい客に合わせて変えなさい。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "店名は「てぶくろと前足」。人も狐も、予約できます。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "看板に文字だけでなく、絵も忘れずにな。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "はい。森と町の両方に読める店を継ぎます。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elder"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "母の恐れは否定されず、子の体験で少しだけ更新されました。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "受け継ぐとは、昔の優しさを、次の客に合う形へ作り直すことなのです。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "end"
+  {
+   "role": "子狐",
+   "actor": "akane",
+   "costume": "default"
+  },
+  {
+   "role": "老店主",
+   "actor": "extra_elder",
+   "costume": "default"
+  },
+  {
+   "role": "孫娘",
+   "actor": "shiro",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "forest": "bg/modern-winter-forest-2048x1152.png",
+  "arcade": "bg/snowy-shopping-arcade-2048x1152.png",
+  "shop": "bg/glove-shop-spring-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "新美南吉の『手袋を買いに』。雪の森から、子狐がひとりで、人間の町へ買い物に行くお話です。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "今夜は、舞台を今の時代の、古い商店街に移しました。森のすぐそばに、まだ灯りの残る町です。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "子狐の母さんは、人間を、とても怖がっています。その訳を、まず聞いてください。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "forest",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "forest"
+  },
+  {
+   "op": "nar",
+   "text": "冬の朝。森の入口。一面の雪がまぶしく光っている。子狐が、穴から飛び出して、雪の上を転げ回る。"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "母さん、目に何か刺さった！　ぬいて、早く！",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "どれどれ。……何も刺さっていないわ。雪がまぶしかったのね。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "雪って、きらきら光るんだ。……あ、冷たい。前足が、じんじんする。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "まあ、こんなに赤くなって。……町へ行って、毛糸の手袋を買ってあげなければ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "町。人間がいるところ。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "そう。……母さんは、昔、友だちと二人で、町の家の鶏を取りに行ったことがあるの。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "見つかって、追いかけられた。友だちは逃げきれなかった。母さんは、命からがら森へ帰った。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……だから、母さんは町へ行かないの。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "足がすくんで、森の端から先へ、一歩も出られないの。……ごめんね。"
+  },
+  {
+   "op": "nar",
+   "text": "その夜。母狐は、子狐の片方の前足を両手で包み、しばらく握っていた。開くと、それは人間の子どもの手になっていた。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "町へ着いたら、帽子の看板のかかった家を探しなさい。とんとんと戸を叩いて、こんばんはと言うの。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "少し戸が開いたら、その隙間から、こっちの手、人間の手を出すのよ。この子どもの手にちょうどいい手袋をください、って。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "決して、こっちの手を出してはいけないよ。狐の手だと分かると、人間は捕まえて、檻に入れてしまうから。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "こっちの手。人間の手。……わかった。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "お金はこれ。白銅貨を二つ。人間の手に、ぎゅっと握っておいで。"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "bg",
+   "src": "arcade",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "arcade"
+  },
+  {
+   "op": "nar",
+   "text": "夜の商店街。雪をかぶったアーケードの下、ほとんどの店はシャッターを下ろし、一軒の手袋屋だけ明かりが漏れている。"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "帽子の看板。……ここだ。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "とんとん。……こんばんは。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "ガラス戸が細く開き、明かりが雪の上に長く伸びた。子狐は、まぶしさに目をぱちくりさせた。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "うわ、まぶしい。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "まぶしさに慌てた子狐は、言いつけと反対の手、狐の前足を、隙間から差し出してしまった。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "この手に、ちょうどいい手袋、ください。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……おや、小さなお客さんだ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "これは、狐の手だね。……手袋を買いに来たのか。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "子狐は、しまった、と思ったが、手を引っこめることもできずに固まっていた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "先に、お金をもらおうか。"
+  },
+  {
+   "op": "nar",
+   "text": "子狐は、握っていた白銅貨を、そっと差し出した。老店主は、二枚を指の上で鳴らして、にっこりした。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "本物のお金だ。木の葉じゃない。……それなら、お客さんだ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "子ども用の毛糸の手袋。いちばん小さいのを、持っておいで。"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "お爺ちゃん、これ？　……あ、狐の子。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "しっ。お客さんだ。手袋を、その小さな手に持たせてあげなさい。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "はい、どうぞ。ふわふわの、毛糸の手袋。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "あ、ありがとう、ございます。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "雪の夜に、よく来たね。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "nar",
+   "text": "子狐は、商店街の端の一軒の窓の下で、ふと足を止めた。中から、やさしい歌が聞こえてくる。"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "ねんねしな、ねんねしな。雪は屋根の上で、静かに眠ってる。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "ねんねしな、ねんねしな。あたたかい手が、ここにあるからね。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "人間の子守唄だ。……母さんの声と、同じ形をしてる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "寒い寒いって、森の小狐も、今ごろ母さんに抱かれて寝ているよ。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……母さんのところへ、帰ろう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "bg",
+   "src": "forest",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "forest"
+  },
+  {
+   "op": "nar",
+   "text": "森の入口。母狐が、雪の中で、震えながら待っている。子狐が駆けてくるのを見て、両手を広げた。"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "よかった。無事だったのね。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "母さん、手袋、買えたよ。ほら、ふわふわ。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "子狐は、まちがえて狐の手を出したことを、母さんに話す",
+     "jump": "tell"
+    },
+    {
+     "text": "子狐は、まちがえたことは黙って、手袋だけを見せる",
+     "jump": "hide"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "tell"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "あのね、まちがえて、本当の手のほうを出しちゃったの。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "まあ。それで、どうしたの。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "お店のおじいさん、狐の手だって分かったのに、ちゃんと手袋をくれたよ。捕まえたりしなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "人間って、ちっとも怖くないや。",
+   "eyes": "fun"
+  },
+  {
+   "op": "jump",
+   "to": "end"
+  },
+  {
+   "op": "label",
+   "id": "hide"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……母さん、町の人間はね、怖くなかったよ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "どうして、そう思うの。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "窓の中で、人間の子が、子守唄を歌ってた。母さんと、同じような声で。"
+  },
+  {
+   "op": "jump",
+   "to": "end"
+  },
+  {
+   "op": "label",
+   "id": "end"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……まあ、この子ったら。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "母狐は、子狐の手袋をはめた小さな手を、そっと両手で包んだ。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "ほんとうに、人間は、いいものかしら。……ほんとうに、いいものかしら。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "bg",
+   "src": "shop",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "shop"
+  },
+  {
+   "op": "nar",
+   "text": "春の午前。手袋屋の店の中。窓から、やわらかな日が差している。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "冬の終わりから、毎朝、店の前に、どんぐりが一つずつ置いてある。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "誰が置いていくのか、知らないふりをしている。知らないふりをしているほうが、来やすいだろうから。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "母さんの問いには、誰も答えを出しませんでした。答えは、次の冬、また雪が降ってから。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "新美南吉『手袋を買いに』。雪あかりの商店街から、そっと戸を閉めます。",
+   "eyes": "closed"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

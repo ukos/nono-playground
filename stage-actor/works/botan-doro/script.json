@@ -34,7 +34,7 @@
     ]
    }
   ],
-  "note": "既存翻訳・上演台本・特定演者の口演は転用せず、台詞は本上演版の書き下ろし。"
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
  },
  "cast": [
   {
@@ -93,34 +93,22 @@
   {
    "op": "say",
    "actor": "nono",
-   "text": "ようこそ、NONO座へ。本日の演目は『牡丹灯籠―露と新三郎―』。",
-   "eyes": "normal",
-   "mouth": "open"
+   "text": "江戸、根津の清水谷。萩原新三郎という、色白の、気の優しい浪人が、ひとりで、暮らしておりました。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "怪談・幻想の舞台を、全10景でお届けします。",
-   "eyes": "joy"
+   "text": "牛込の旗本、飯島平左衛門には、お露という、一人娘がいた。……二人は、たった一度、顔を合わせただけで、恋に、落ちたのです。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "この舞台の核は「恋慕が死を越えるとき、愛と執着の境は誰にも一度では裁けない」。",
-   "eyes": "anger"
+   "text": "三遊亭圓朝『怪談牡丹燈籠』。盆の夜、からん、ころんと、駒下駄の音を響かせて、牡丹の灯籠が、やってまいります。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "既存の台詞を写さず、今夜のために新しく構成しました。",
-   "eyes": "sorrow",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "nono",
-   "text": "それでは、幕を開けましょう。",
-   "eyes": "surprise"
+   "text": "恋慕が、死を越えるとき、……愛と執着の境は、誰にも、一度では、裁けない。前編と後編の、二幕で、お届けいたします。"
   },
   {
    "op": "hide",
@@ -137,7 +125,113 @@
   },
   {
    "op": "nar",
-   "text": "第1景「飯島家の出会い」。新三郎は病床のお露と心を通わせるが、身分と家の都合で再会を阻まれる。"
+   "text": "春。亀戸の臥竜梅を見た帰り、新三郎は、知り合いの医者、山本志丈に誘われ、柳島の、飯島家の寮に、立ち寄った。"
+  },
+  {
+   "op": "nar",
+   "text": "……寮の、奥座敷。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……ようこそ、お越しくださいました。……お嬢さまの、お付きの、米と申します。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……萩原新三郎と、申します。……志丈どのに、誘われて、お庭の、梅を、見せていただきに。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "お嬢さまは、お体が、弱く、この寮で、養生をしておられます。……お客さまは、珍しいことで。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……ご迷惑では。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "いいえ。……お嬢さまが、お会いしたいと。"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "襖が、すうっと、開いた。……十七の娘が、恥ずかしそうに、手をついて、頭を下げた。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……露と、申します。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……あ、……萩原、です。"
+  },
+  {
+   "op": "nar",
+   "text": "新三郎は、言葉を、失った。……娘も、顔を上げたまま、新三郎から、目を、離さなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……お嬢さま、お茶を。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……あ、はい。"
+  },
+  {
+   "op": "nar",
+   "text": "お露の手が、震えて、茶碗の湯が、こぼれた。……新三郎の、袴の上に。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……申し訳、ございません！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "いえ、……いえ。……温かい、です。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……お二人とも、お顔が、真っ赤でございますよ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
   },
   {
    "op": "show",
@@ -150,105 +244,53 @@
    "pos": "right"
   },
   {
-   "op": "say",
-   "actor": "rei_kimono",
-   "text": "ここは「飯島家の出会い」。新三郎は病床のお露と心を通わせるが、身分と家の都合で再会を阻まれる。",
-   "eyes": "normal",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
-   "eyes": "joy"
-  },
-  {
-   "op": "say",
-   "actor": "rei_kimono",
-   "text": "今の選択は、次の場面だけでなく結末まで動かす。",
-   "eyes": "anger"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
-   "eyes": "sorrow",
-   "mouth": "open"
-  },
-  {
    "op": "nar",
-   "text": "飯島家の出会いの空気が変わり、言葉の裏にある選択が見える。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_kimono",
-   "text": "私は「恋慕が死を越えるとき、愛と執着の境は誰にも一度では裁けない」という問いから逃げたくない。",
-   "eyes": "surprise"
+   "text": "帰り際。庭先。夕暮れ。お米が、気を利かせて、少し、離れていた。"
   },
   {
    "op": "say",
    "actor": "yui",
-   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
-   "eyes": "closed"
+   "text": "……また、来て、くださいますか。"
   },
   {
    "op": "say",
    "actor": "rei_kimono",
-   "text": "新三郎は病床のお露と心を通わせるが、身分と家の都合で再会を阻まれる。ならば、今できる一手を選ぶ。",
-   "eyes": "fun",
-   "mouth": "open"
+   "text": "……来ます。……必ず。"
   },
   {
    "op": "say",
    "actor": "yui",
-   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
-   "eyes": "crying"
-  },
-  {
-   "op": "nar",
-   "text": "舞台の奥で音が止み、新三郎は病床のお露と心を通わせるが、身分と家の都合で再会を阻まれる。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_kimono",
-   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
-   "eyes": "normal"
+   "text": "……必ず、ですよ。"
   },
   {
    "op": "say",
    "actor": "yui",
-   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
-   "eyes": "joy",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "rei_kimono",
-   "text": "「飯島家の出会い」を通り過ぎず、この場で必要な言葉を残す。",
-   "eyes": "anger"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+   "text": "……来てくださらなかったら、わたしは、……死んでしまうかも、しれません。",
    "eyes": "sorrow"
   },
   {
-   "op": "nar",
-   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-  },
-  {
    "op": "say",
    "actor": "rei_kimono",
-   "text": "答えは一つでなくても、選んだ責任は分け合える。",
-   "eyes": "surprise",
-   "mouth": "open"
+   "text": "……そんな、ことを。"
   },
   {
    "op": "say",
    "actor": "yui",
-   "text": "よし。次の場面へ持って行ける答えになった。",
+   "text": "本当です。……体が、弱いのですもの。待つのは、体に、毒です。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……すぐに、来ます。",
    "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "けれど、新三郎は、来なかった。……武家の娘の寮に、浪人の身が、そう、たびたび、訪ねるわけには、いかない。"
+  },
+  {
+   "op": "nar",
+   "text": "志丈も、それきり、誘いに、来なかった。"
   },
   {
    "op": "hide",
@@ -257,6 +299,155 @@
   {
    "op": "hide",
    "actor": "yui"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "夏。柳島の寮。お露が、床に、伏せっている。お米が、枕元で、扇子を、ゆっくりと、あおいでいる。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……お米。……萩原さまは。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……お見えに、なりません。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……もう、三月に、なる。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "お嬢さま、どうか、お気を、確かに。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……来ると、言ったのに。……必ず、と。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……わたしは、恋しさで、死ぬのかしら。……おかしい、でしょう。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "おかしくなど、ございません。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "お米。……もし、わたしが、死んだら、……あなたも、一緒に、来てくれる？"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……お嬢さまの、行くところなら、どこへでも。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "その夏の終わり。……お露は、恋わずらいの果てに、息を、引き取った。お米も、看病の疲れで、すぐ、あとを、追った。"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "秋。新三郎の住まい。下男の伴蔵が、薪を、割りながら、主人の、ため息を、聞いている。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……旦那。……また、柳島の、ほうを、見てますね。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……見ていない。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "見てますよ。……毎朝、東の空を。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……武家の、お嬢さんだ。……浪人の、わたしが、訪ねていい、相手では、ない。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "志丈先生に、頼めば、いいじゃ、ありませんか。……また、連れてってくれって。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……志丈どのは、来ない。……何度、使いを、出しても。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……あの先生は、面倒ごとが、嫌いですからね。……旗本の、娘と、浪人の、橋渡しなんぞ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……伴蔵。……人を、待たせるのは、罪だろうか。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……待たせてる、相手が、いるんですか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……いる。……必ず、と、言ったのに。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
   },
   {
    "op": "bg",
@@ -269,108 +460,145 @@
   },
   {
    "op": "nar",
-   "text": "第2景「牡丹灯籠の夜」。盆の夜、牡丹灯籠を下げたお米とお露が新三郎の長屋を訪ねる。"
+   "text": "盆の、十三日。根津の清水谷。新三郎の、住まいの、縁側。夜。"
+  },
+  {
+   "op": "nar",
+   "text": "……新三郎は、お露が死んだと、志丈から、聞かされたばかりだった。"
   },
   {
    "op": "show",
-   "actor": "yoru",
+   "actor": "rei_kimono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……死んだ。……お露どのが。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "来なかった、わたしの、せいだ。……必ず、と、言ったのに。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……盆の、迎え火を、焚こう。……せめて、お露どのの、魂が、迷わないように。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "新三郎は、縁側で、迎え火を、焚いた。……夜が、更けていく。"
+  },
+  {
+   "op": "nar",
+   "text": "闇の向こうから、駒下駄の、乾いた音が、近づいてきた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……下駄が、近づいて、くる。"
+  },
+  {
+   "op": "nar",
+   "text": "垣根の外を、二人の女が、通り過ぎていく。……先に立つ女が、牡丹の花を描いた、灯籠を、提げていた。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
    "pos": "left"
   },
   {
    "op": "show",
-   "actor": "kurogane",
+   "actor": "yoru",
    "pos": "right"
   },
   {
    "op": "say",
    "actor": "yoru",
-   "text": "ここは「牡丹灯籠の夜」。盆の夜、牡丹灯籠を下げたお米とお露が新三郎の長屋を訪ねる。",
-   "eyes": "normal"
+   "text": "……あら。……萩原さまでは、ございませんか。"
   },
   {
    "op": "say",
-   "actor": "kurogane",
-   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。"
-  },
-  {
-   "op": "say",
-   "actor": "yoru",
-   "text": "今の選択は、次の場面だけでなく結末まで動かす。",
-   "eyes": "anger",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。"
-  },
-  {
-   "op": "nar",
-   "text": "牡丹灯籠の夜の空気が変わり、言葉の裏にある選択が見える。"
-  },
-  {
-   "op": "say",
-   "actor": "yoru",
-   "text": "私は「恋慕が死を越えるとき、愛と執着の境は誰にも一度では裁けない」という問いから逃げたくない。",
+   "actor": "rei_kimono",
+   "text": "……お米どの！",
    "eyes": "surprise"
   },
   {
    "op": "say",
-   "actor": "kurogane",
-   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。"
+   "actor": "yoru",
+   "text": "お懐かしゅう、ございます。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……お米どの。……お露どのは、……亡くなったと、聞いて。"
   },
   {
    "op": "say",
    "actor": "yoru",
-   "text": "盆の夜、牡丹灯籠を下げたお米とお露が新三郎の長屋を訪ねる。ならば、今できる一手を選ぶ。",
-   "eyes": "fun"
+   "text": "……どなたが、そのような。",
+   "eyes": "closed"
   },
   {
    "op": "say",
-   "actor": "kurogane",
-   "text": "その一手で得るものと、失うものを同じ明るさで見よう。"
-  },
-  {
-   "op": "nar",
-   "text": "舞台の奥で音が止み、盆の夜、牡丹灯籠を下げたお米とお露が新三郎の長屋を訪ねる。"
+   "actor": "rei_kimono",
+   "text": "志丈どのが。"
   },
   {
    "op": "say",
    "actor": "yoru",
-   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
-   "eyes": "normal",
-   "mouth": "open"
+   "text": "……志丈さまは、嘘を、おっしゃったのでしょう。……お嬢さまの、ご縁談を、まとめるために、萩原さまを、遠ざけようと。"
   },
   {
    "op": "say",
-   "actor": "kurogane",
-   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。"
+   "actor": "rei_kimono",
+   "text": "……では。"
   },
   {
    "op": "say",
    "actor": "yoru",
-   "text": "「牡丹灯籠の夜」を通り過ぎず、この場で必要な言葉を残す。",
-   "eyes": "anger"
+   "text": "お嬢さまは、ご勘当になり、今は、谷中の、三崎に、わたくしと、二人で、住んでおります。……今宵は、盆の、お参りの、帰りで。"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "center"
   },
   {
    "op": "say",
-   "actor": "kurogane",
-   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。"
-  },
-  {
-   "op": "nar",
-   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+   "actor": "yui",
+   "text": "……お懐かしゅう、萩原さま。"
   },
   {
    "op": "say",
-   "actor": "yoru",
-   "text": "答えは一つでなくても、選んだ責任は分け合える。",
-   "eyes": "surprise"
+   "actor": "rei_kimono",
+   "text": "……夢では、ないのか。"
   },
   {
    "op": "say",
-   "actor": "kurogane",
-   "text": "よし。次の場面へ持って行ける答えになった。"
+   "actor": "yui",
+   "text": "……やっと、会えました。……必ず、と、おっしゃったのに。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……すまなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……もう、いいのです。……今宵、会えたから。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
   },
   {
    "op": "hide",
@@ -378,7 +606,7 @@
   },
   {
    "op": "hide",
-   "actor": "kurogane"
+   "actor": "yui"
   },
   {
    "op": "bg",
@@ -391,126 +619,305 @@
   },
   {
    "op": "nar",
-   "text": "第3景「七夜の逢瀬」。新三郎は夜ごとの逢瀬に溺れ、友は衰弱と墓土の匂いから異変を悟る。"
+   "text": "新三郎の、住まい。座敷。夜更け。行灯が、ひとつ。お露と新三郎が、向かい合っている。お米は、次の間で、控えている。"
   },
   {
    "op": "show",
-   "actor": "akane",
+   "actor": "rei_kimono",
    "pos": "left"
   },
   {
    "op": "show",
-   "actor": "rei_kimono",
+   "actor": "yui",
    "pos": "right"
   },
   {
    "op": "say",
-   "actor": "akane",
-   "text": "ここは「七夜の逢瀬」。新三郎は夜ごとの逢瀬に溺れ、友は衰弱と墓土の匂いから異変を悟る。",
-   "eyes": "normal"
+   "actor": "rei_kimono",
+   "text": "……お露どの。……少し、痩せたね。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……萩原さまを、待っているうちに。"
   },
   {
    "op": "say",
    "actor": "rei_kimono",
-   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
-   "eyes": "joy",
-   "mouth": "open"
+   "text": "……手が、冷たい。"
   },
   {
    "op": "say",
-   "actor": "akane",
-   "text": "今の選択は、次の場面だけでなく結末まで動かす。",
-   "eyes": "anger"
-  },
-  {
-   "op": "say",
-   "actor": "rei_kimono",
-   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
-   "eyes": "sorrow"
+   "actor": "yui",
+   "text": "夜風に、あたりましたから。……温めて、くださいますか。",
+   "eyes": "closed"
   },
   {
    "op": "nar",
-   "text": "七夜の逢瀬の空気が変わり、言葉の裏にある選択が見える。"
-  },
-  {
-   "op": "say",
-   "actor": "akane",
-   "text": "私は「恋慕が死を越えるとき、愛と執着の境は誰にも一度では裁けない」という問いから逃げたくない。",
-   "eyes": "surprise",
-   "mouth": "open"
+   "text": "新三郎は、お露の手を、両手で、包んだ。……いくら包んでも、温かく、ならなかった。"
   },
   {
    "op": "say",
    "actor": "rei_kimono",
-   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+   "text": "……明日も、来てくれるか。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "毎晩、まいります。……盆の、あいだは。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……盆が、明けたら。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……そのときは、そのときに。",
+   "eyes": "joy"
+  },
+  {
+   "op": "nar",
+   "text": "夜明け前。からん、ころん。……二人の女は、帰っていった。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "新三郎の、住まいの、隣の、長屋。伴蔵と、その女房、お峰が、ひそひそと、話している。"
+  },
+  {
+   "op": "nar",
+   "text": "……伴蔵は、新三郎の、身の回りの世話をしている、下男だった。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……お峰。……旦那の、部屋に、毎晩、女が、来る。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "いいじゃないの。……旦那も、年頃だもの。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……それが、妙なんだ。……来るときも、帰るときも、下駄の音は、するのに、……戸を、開ける音が、しない。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……戸の、音が。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "昨夜、障子の、破れから、覗いてみた。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……どうだった。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……旦那が、抱いていたのは、……骸骨だった。",
    "eyes": "closed"
   },
   {
    "op": "say",
    "actor": "akane",
-   "text": "新三郎は夜ごとの逢瀬に溺れ、友は衰弱と墓土の匂いから異変を悟る。ならば、今できる一手を選ぶ。",
-   "eyes": "fun"
-  },
-  {
-   "op": "say",
-   "actor": "rei_kimono",
-   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
-   "eyes": "crying",
-   "mouth": "open"
-  },
-  {
-   "op": "nar",
-   "text": "舞台の奥で音が止み、新三郎は夜ごとの逢瀬に溺れ、友は衰弱と墓土の匂いから異変を悟る。"
-  },
-  {
-   "op": "say",
-   "actor": "akane",
-   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
-   "eyes": "normal"
-  },
-  {
-   "op": "say",
-   "actor": "rei_kimono",
-   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
-   "eyes": "joy"
-  },
-  {
-   "op": "say",
-   "actor": "akane",
-   "text": "「七夜の逢瀬」を通り過ぎず、この場で必要な言葉を残す。",
-   "eyes": "anger",
+   "text": "骨！",
+   "eyes": "surprise",
    "mouth": "open"
   },
   {
    "op": "say",
-   "actor": "rei_kimono",
-   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "nar",
-   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+   "actor": "kurogane",
+   "text": "髪を、振り乱した、骨と皮の、女。……もう一人も、骨だ。牡丹の灯籠だけが、きれいに、灯っていた。"
   },
   {
    "op": "say",
    "actor": "akane",
-   "text": "答えは一つでなくても、選んだ責任は分け合える。",
-   "eyes": "surprise"
+   "text": "……旦那に、知らせなきゃ。"
   },
   {
    "op": "say",
-   "actor": "rei_kimono",
-   "text": "よし。次の場面へ持って行ける答えになった。",
-   "eyes": "closed",
-   "mouth": "open"
+   "actor": "kurogane",
+   "text": "……知らせる。……だが、あの旦那は、信じねえだろうな。……日に日に、顔色が、悪くなってる。"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
   },
   {
    "op": "hide",
    "actor": "akane"
   },
   {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "翌朝。新三郎の部屋。新三郎は、頬が、こけ、目の下が、黒ずんでいる。……部屋には、湿った、土の、匂いが、こもっていた。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……旦那。……お聞き、くだせえ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "何だ、伴蔵。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "毎晩、来る、あの女。……あれは、生きた人間じゃ、ありません。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……馬鹿を、申すな。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "覗いたんです。……旦那が、抱いていたのは、骨でした。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……お露どのは、生きている。……谷中の、三崎に、住んでいると、お米どのが。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……行って、確かめて、くだせえ。三崎に、本当に、二人の家が、あるかどうか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……行こう。……お前の、言うことが、間違いだと、確かめるために。",
+   "eyes": "closed"
+  },
+  {
    "op": "hide",
    "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "盆の、六日目の夜。行灯の、下。お露が、新三郎の、膝に、頭を、のせている。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……萩原さま。……わたしの、何が、好き。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……茶を、こぼした、ところ。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……まあ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "あのとき、あなたは、真っ赤になって、手が、震えていた。……武家の、お嬢さんが、わたしのような、浪人の前で。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……わたしは、萩原さまの、「温かい、です」が、好き。……袴が、濡れたのに。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……今は、あなたの、手が、冷たい。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……温めて、くださるでしょう。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……温めても、温めても。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……萩原さまの、そばに、いられるなら、冷たくても、いいの。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……わたしは、よくない。……あなたに、温かく、いてほしい。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……それは、もう、できないの。……ごめんなさい。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
   },
   {
    "op": "bg",
@@ -523,126 +930,135 @@
   },
   {
    "op": "nar",
-   "text": "第4景「寺で知る死」。寺の墓標からお露がすでに亡いと知り、新三郎は護符で戸を封じる。"
+   "text": "谷中、三崎。……どこを探しても、二人の住まいは、なかった。新三郎は、疲れ果てて、近くの、新幡随院という寺に、迷い込んだ。"
   },
   {
    "op": "show",
-   "actor": "yui",
+   "actor": "rei_kimono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……三崎の、どこにも、お露どのの、家は、ない。"
+  },
+  {
+   "op": "nar",
+   "text": "寺の、墓地。……真新しい、墓が、二つ、並んでいた。墓の前に、牡丹の花を描いた、灯籠が、一つ、供えてあった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……この、灯籠は。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……毎晩、お米どのが、提げてくる、灯籠と、同じ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "墓標に、刻まれた、名前。……「飯島平左衛門娘、露」。その隣に、「女中、米」。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……お露どの。……本当に、死んで、いたのか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "では、毎晩、わたしが、抱いていたのは。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
    "pos": "left"
   },
   {
    "op": "show",
-   "actor": "yoru",
+   "actor": "kurogane",
    "pos": "right"
   },
   {
-   "op": "say",
-   "actor": "yui",
-   "text": "ここは「寺で知る死」。寺の墓標からお露がすでに亡いと知り、新三郎は護符で戸を封じる。",
-   "eyes": "normal",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "yoru",
-   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
-   "eyes": "joy"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "今の選択は、次の場面だけでなく結末まで動かす。",
-   "eyes": "anger"
-  },
-  {
-   "op": "say",
-   "actor": "yoru",
-   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
-   "eyes": "sorrow",
-   "mouth": "open"
-  },
-  {
    "op": "nar",
-   "text": "寺で知る死の空気が変わり、言葉の裏にある選択が見える。"
+   "text": "新幡随院の、本堂。新三郎は、良石和尚に、すべてを、打ち明けた。……伴蔵が、つき従っている。"
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "私は「恋慕が死を越えるとき、愛と執着の境は誰にも一度では裁けない」という問いから逃げたくない。",
-   "eyes": "surprise"
+   "actor": "kurogane",
+   "text": "……和尚さまは、こう、おっしゃいました。旦那には、死相が、出ていると。"
   },
   {
    "op": "say",
-   "actor": "yoru",
-   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+   "actor": "rei_kimono",
+   "text": "……あと、何晩、もつ。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……あと、二晩、会えば。……死霊に、精気を、吸い尽くされると。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……お露どのに、殺されるのか。",
    "eyes": "closed"
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "寺の墓標からお露がすでに亡いと知り、新三郎は護符で戸を封じる。ならば、今できる一手を選ぶ。",
-   "eyes": "fun",
-   "mouth": "open"
+   "actor": "kurogane",
+   "text": "殺す、つもりじゃ、ねえんでしょう。……ただ、一緒に、いたいだけで。……でも、一緒に、いれば、旦那は、死ぬ。"
   },
   {
    "op": "say",
-   "actor": "yoru",
-   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
-   "eyes": "crying"
-  },
-  {
-   "op": "nar",
-   "text": "舞台の奥で音が止み、寺の墓標からお露がすでに亡いと知り、新三郎は護符で戸を封じる。"
+   "actor": "rei_kimono",
+   "text": "……和尚さまは、何と。"
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
-   "eyes": "normal"
+   "actor": "kurogane",
+   "text": "お札を、くださいました。……海音如来の、お札。家の、戸口と、窓に、全部、貼れ、と。"
   },
   {
    "op": "say",
-   "actor": "yoru",
-   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
-   "eyes": "joy",
-   "mouth": "open"
+   "actor": "kurogane",
+   "text": "……それと、金無垢の、如来の、お守り。肌身から、離すな、と。"
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "「寺で知る死」を通り過ぎず、この場で必要な言葉を残す。",
-   "eyes": "anger"
+   "actor": "rei_kimono",
+   "text": "……お札を、貼れば、お露どのは。"
   },
   {
    "op": "say",
-   "actor": "yoru",
-   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+   "actor": "kurogane",
+   "text": "……入って、来られなくなります。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……お露どのを、締め出すのか。……あれほど、待たせた、お露どのを。",
    "eyes": "sorrow"
   },
   {
-   "op": "nar",
-   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-  },
-  {
    "op": "say",
-   "actor": "yui",
-   "text": "答えは一つでなくても、選んだ責任は分け合える。",
-   "eyes": "surprise",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "yoru",
-   "text": "よし。次の場面へ持って行ける答えになった。",
-   "eyes": "closed"
+   "actor": "kurogane",
+   "text": "……旦那が、生きるためです。"
   },
   {
    "op": "hide",
-   "actor": "yui"
+   "actor": "rei_kimono"
   },
   {
    "op": "hide",
-   "actor": "yoru"
+   "actor": "kurogane"
   },
   {
    "op": "bg",
@@ -655,7 +1071,161 @@
   },
   {
    "op": "nar",
-   "text": "第5景「伴蔵の覗き見」。隣人の伴蔵は幽霊の願いを聞き、恐怖より先に謝礼の額を計る。"
+   "text": "夜。新三郎の、家。戸口にも、窓にも、雨戸の隙間にも、お札が、びっしりと、貼られている。"
+  },
+  {
+   "op": "nar",
+   "text": "……新三郎は、蚊帳の中で、お守りを、握りしめ、念仏を、唱えている。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……南無阿弥陀仏。……お露どの、許してくれ。"
+  },
+  {
+   "op": "nar",
+   "text": "夜の静けさを、ころん、からん、と、下駄の歯が、刻んだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……とうとう、来てしまった。"
+  },
+  {
+   "op": "nar",
+   "text": "下駄の音が、戸口の前で、止まった。……そして、家の周りを、ぐるりと、回り始めた。窓の前で、止まる。また、回る。"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……萩原さま。……萩原さま。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……戸が、開きません。……お札が、貼ってあって、入れません。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……お露どの。……すまない。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……どうして。……必ず、来ると、おっしゃった。毎晩、会うと、おっしゃった。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……今夜は、萩原さまが、来てくださらないのですね。……また。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……すまない、すまない。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "夜明けまで、下駄の音は、家の周りを、回り続けた。……新三郎は、一睡も、しなかった。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "二日目の、夜。伴蔵の、長屋。……戸を、叩く音。"
+  },
+  {
+   "op": "nar",
+   "text": "伴蔵が、震えながら、戸を、開けると、牡丹の灯籠を提げた、お米が、立っていた。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……伴蔵さん。……お願いが、ございます。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……ひ、ひいっ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "お嬢さまが、萩原さまに、会えずに、泣いておられます。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……萩原さまの家の、裏窓の、お札を、一枚だけ、剥がして、いただけませんか。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……む、無理だ。……そんなことをしたら、旦那が、死ぬ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……お嬢さまは、萩原さまを、殺したいのでは、ありません。……ただ、会いたいだけ。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……会えば、死ぬんだ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……では、あなたも、お嬢さまに、泣き続けよと、おっしゃるのですね。"
+  },
+  {
+   "op": "nar",
+   "text": "伴蔵は、黙った。……お米は、悲しそうに、首を、振った。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……明日の晩、また、まいります。……お考えおき、くださいませ。"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
   },
   {
    "op": "show",
@@ -668,94 +1238,61 @@
    "pos": "right"
   },
   {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "ここは「伴蔵の覗き見」。隣人の伴蔵は幽霊の願いを聞き、恐怖より先に謝礼の額を計る。"
+   "op": "nar",
+   "text": "お米が、去ったあと。……伴蔵と、お峰。"
   },
   {
    "op": "say",
    "actor": "akane",
-   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
-   "eyes": "joy"
+   "text": "……あんた。……今の、話。"
   },
   {
    "op": "say",
    "actor": "kurogane",
-   "text": "今の選択は、次の場面だけでなく結末まで動かす。"
+   "text": "……聞いてたか。"
   },
   {
    "op": "say",
    "actor": "akane",
-   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
+   "text": "聞いてた。……ねえ、あんた。……幽霊は、お札を剥がしてくれたら、お礼を、くれるかしら。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……お峰。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "だって、うちは、貧乏よ。……旦那の、世話をしたって、たいした、お給金は、もらえない。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "幽霊に、百両、くれたら、剥がしてやる、って、言ってごらんよ。……幽霊なら、そのくらい、何とでも、するでしょう。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……旦那が、死ぬんだぞ。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……旦那は、死にたがってるのよ。……あんな顔で、毎晩、泣いて。……会わせてあげたほうが、旦那のためかもしれない。",
    "eyes": "sorrow"
   },
   {
-   "op": "nar",
-   "text": "伴蔵の覗き見の空気が変わり、言葉の裏にある選択が見える。"
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……旦那が、死にたがってる、か。"
   },
   {
    "op": "say",
    "actor": "kurogane",
-   "text": "私は「恋慕が死を越えるとき、愛と執着の境は誰にも一度では裁けない」という問いから逃げたくない。"
-  },
-  {
-   "op": "say",
-   "actor": "akane",
-   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
-   "eyes": "closed",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "隣人の伴蔵は幽霊の願いを聞き、恐怖より先に謝礼の額を計る。ならば、今できる一手を選ぶ。"
-  },
-  {
-   "op": "say",
-   "actor": "akane",
-   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
-   "eyes": "crying"
-  },
-  {
-   "op": "nar",
-   "text": "舞台の奥で音が止み、隣人の伴蔵は幽霊の願いを聞き、恐怖より先に謝礼の額を計る。"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
-  },
-  {
-   "op": "say",
-   "actor": "akane",
-   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
-   "eyes": "joy"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "「伴蔵の覗き見」を通り過ぎず、この場で必要な言葉を残す。"
-  },
-  {
-   "op": "say",
-   "actor": "akane",
-   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
-   "eyes": "sorrow",
-   "mouth": "open"
-  },
-  {
-   "op": "nar",
-   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "答えは一つでなくても、選んだ責任は分け合える。"
-  },
-  {
-   "op": "say",
-   "actor": "akane",
-   "text": "よし。次の場面へ持って行ける答えになった。",
+   "text": "……百両、か。",
    "eyes": "closed"
   },
   {
@@ -765,21 +1302,6 @@
   {
    "op": "hide",
    "actor": "akane"
-  },
-  {
-   "op": "show",
-   "actor": "nono",
-   "pos": "center"
-  },
-  {
-   "op": "say",
-   "actor": "nono",
-   "text": "ここから後編。前編の選択を抱えたまま、物語の続きを始めます。",
-   "eyes": "closed"
-  },
-  {
-   "op": "hide",
-   "actor": "nono"
   },
   {
    "op": "bg",
@@ -792,7 +1314,7 @@
   },
   {
    "op": "nar",
-   "text": "第6景「前編終幕・閉ざす戸」。護符に守られた戸の外で灯籠が揺れ、内と外の双方が朝を待つ。"
+   "text": "前編の、終わり。三日目の夜。新三郎の家。……お札に守られた、戸の内側と、外側。"
   },
   {
    "op": "show",
@@ -807,103 +1329,41 @@
   {
    "op": "say",
    "actor": "rei_kimono",
-   "text": "ここは「前編終幕・閉ざす戸」。護符に守られた戸の外で灯籠が揺れ、内と外の双方が朝を待つ。",
-   "eyes": "normal"
+   "text": "……お露どの。……そこに、いるのか。"
   },
   {
    "op": "say",
    "actor": "yui",
-   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
-   "eyes": "joy",
-   "mouth": "open"
+   "text": "……おります。……戸の、外に。"
   },
   {
    "op": "say",
    "actor": "rei_kimono",
-   "text": "今の選択は、次の場面だけでなく結末まで動かす。",
-   "eyes": "anger"
+   "text": "……すまない。……わたしは、生きていたい。"
   },
   {
    "op": "say",
    "actor": "yui",
-   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
+   "text": "……わかって、おります。",
    "eyes": "sorrow"
   },
   {
-   "op": "nar",
-   "text": "前編終幕・閉ざす戸の空気が変わり、言葉の裏にある選択が見える。"
-  },
-  {
    "op": "say",
    "actor": "rei_kimono",
-   "text": "私は「恋慕が死を越えるとき、愛と執着の境は誰にも一度では裁けない」という問いから逃げたくない。",
-   "eyes": "surprise",
-   "mouth": "open"
+   "text": "でも、……会いたい。"
   },
   {
    "op": "say",
    "actor": "yui",
-   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
-   "eyes": "closed"
-  },
-  {
-   "op": "say",
-   "actor": "rei_kimono",
-   "text": "護符に守られた戸の外で灯籠が揺れ、内と外の双方が朝を待つ。ならば、今できる一手を選ぶ。",
-   "eyes": "fun"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
-   "eyes": "crying",
-   "mouth": "open"
+   "text": "……わたしも、同じです。"
   },
   {
    "op": "nar",
-   "text": "舞台の奥で音が止み、護符に守られた戸の外で灯籠が揺れ、内と外の双方が朝を待つ。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_kimono",
-   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
-   "eyes": "normal"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
-   "eyes": "joy"
-  },
-  {
-   "op": "say",
-   "actor": "rei_kimono",
-   "text": "「前編終幕・閉ざす戸」を通り過ぎず、この場で必要な言葉を残す。",
-   "eyes": "anger",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
-   "eyes": "sorrow"
+   "text": "二人は、戸を、挟んで、朝まで、黙っていた。……新三郎は、戸に、額を、当てていた。"
   },
   {
    "op": "nar",
-   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_kimono",
-   "text": "答えは一つでなくても、選んだ責任は分け合える。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "よし。次の場面へ持って行ける答えになった。",
-   "eyes": "closed",
-   "mouth": "open"
+   "text": "お露も、戸の向こうで、同じように、していた。"
   },
   {
    "op": "hide",
@@ -912,6 +1372,25 @@
   {
    "op": "hide",
    "actor": "yui"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……前編は、ここまで。戸の内には、生きたいと願う男。外には、会いたいと願う死者。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "後編。その戸を開けるのは、恋でも、恐怖でも、ありません。……百両の、欲でございます。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
   },
   {
    "op": "bg",
@@ -924,117 +1403,129 @@
   },
   {
    "op": "nar",
-   "text": "第7景「護符を剥がす取引」。伴蔵夫婦は幽霊の金と暮らしの不安に負け、護符を一枚ずつ剥がす。"
-  },
-  {
-   "op": "show",
-   "actor": "yoru",
-   "pos": "left"
+   "text": "四日目の夜。伴蔵の長屋。……牡丹の灯籠が、戸口に、灯った。"
   },
   {
    "op": "show",
    "actor": "kurogane",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
    "pos": "right"
   },
   {
    "op": "say",
    "actor": "yoru",
-   "text": "ここは「護符を剥がす取引」。伴蔵夫婦は幽霊の金と暮らしの不安に負け、護符を一枚ずつ剥がす。",
-   "eyes": "normal",
-   "mouth": "open"
+   "text": "……伴蔵さん。……お考えは。"
   },
   {
    "op": "say",
    "actor": "kurogane",
-   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。"
+   "text": "……小判で、百枚。"
   },
   {
    "op": "say",
    "actor": "yoru",
-   "text": "今の選択は、次の場面だけでなく結末まで動かす。",
-   "eyes": "anger"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。"
-  },
-  {
-   "op": "nar",
-   "text": "護符を剥がす取引の空気が変わり、言葉の裏にある選択が見える。"
-  },
-  {
-   "op": "say",
-   "actor": "yoru",
-   "text": "私は「恋慕が死を越えるとき、愛と執着の境は誰にも一度では裁けない」という問いから逃げたくない。",
+   "text": "……それほどの、ものを。",
    "eyes": "surprise"
   },
   {
    "op": "say",
    "actor": "kurogane",
-   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。"
+   "text": "……百両、くれたら、裏窓の、お札を、剥がす。……それと、旦那の、守り袋の、如来さまも、すり替える。"
   },
   {
    "op": "say",
    "actor": "yoru",
-   "text": "伴蔵夫婦は幽霊の金と暮らしの不安に負け、護符を一枚ずつ剥がす。ならば、今できる一手を選ぶ。",
-   "eyes": "fun",
-   "mouth": "open"
+   "text": "……如来さままで。"
   },
   {
    "op": "say",
    "actor": "kurogane",
-   "text": "その一手で得るものと、失うものを同じ明るさで見よう。"
+   "text": "お札を剥がしても、如来さまが、肌身に、あったら、お嬢さまは、近づけねえんだろう。……どうせやるなら、全部だ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……わかりました。……明晩、百両を、お持ちします。"
   },
   {
    "op": "nar",
-   "text": "舞台の奥で音が止み、伴蔵夫婦は幽霊の金と暮らしの不安に負け、護符を一枚ずつ剥がす。"
+   "text": "翌晩。お米は、本当に、百両を、置いていった。……小判は、冷たく、少し、土の匂いがした。"
   },
   {
-   "op": "say",
-   "actor": "yoru",
-   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
-   "eyes": "normal"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。"
-  },
-  {
-   "op": "say",
-   "actor": "yoru",
-   "text": "「護符を剥がす取引」を通り過ぎず、この場で必要な言葉を残す。",
-   "eyes": "anger"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。"
-  },
-  {
-   "op": "nar",
-   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-  },
-  {
-   "op": "say",
-   "actor": "yoru",
-   "text": "答えは一つでなくても、選んだ責任は分け合える。",
-   "eyes": "surprise",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "よし。次の場面へ持って行ける答えになった。"
+   "op": "hide",
+   "actor": "kurogane"
   },
   {
    "op": "hide",
    "actor": "yoru"
   },
   {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "深夜。伴蔵は、新三郎の、寝ている隙に、守り袋から、金無垢の、如来像を、抜き取り、瓦の、土の像と、すり替えた。"
+  },
+  {
+   "op": "nar",
+   "text": "……そして、裏窓に、梯子をかけ、お札を、一枚、剥がした。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……剥がした。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……如来さまは。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……ここにある。……金無垢だ。……これも、売れば、金になる。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……百両と、如来さま。……あたしたち、明日から、金持ちね。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……お峰。……俺たち、何を、したんだ。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……旦那を、会いたい人に、会わせてあげただけよ。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……そう、思えたら、いいんだがな。",
+   "eyes": "sorrow"
+  },
+  {
    "op": "hide",
    "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
   },
   {
    "op": "bg",
@@ -1047,125 +1538,250 @@
   },
   {
    "op": "nar",
-   "text": "第8景「死者との再会」。新三郎は恐れながらもお露を迎え、朝には冷たい骸を抱いて見つかる。"
-  },
-  {
-   "op": "show",
-   "actor": "akane",
-   "pos": "left"
+   "text": "その夜。新三郎の、家。……からん、ころん。下駄の音が、裏窓の前で、止まった。"
   },
   {
    "op": "show",
    "actor": "rei_kimono",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……下駄の、音。……裏窓の、ほうだ。"
+  },
+  {
+   "op": "nar",
+   "text": "裏窓が、すうっと、開いた。……お札の剥がれた、四角い、隙間から、牡丹の灯籠の、明かりが、差し込んだ。"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
    "pos": "right"
   },
   {
    "op": "say",
-   "actor": "akane",
-   "text": "ここは「死者との再会」。新三郎は恐れながらもお露を迎え、朝には冷たい骸を抱いて見つかる。",
-   "eyes": "normal"
+   "actor": "yui",
+   "text": "……やっと、入れました。"
   },
   {
    "op": "say",
    "actor": "rei_kimono",
-   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
-   "eyes": "joy"
-  },
-  {
-   "op": "say",
-   "actor": "akane",
-   "text": "今の選択は、次の場面だけでなく結末まで動かす。",
-   "eyes": "anger",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "rei_kimono",
-   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "nar",
-   "text": "死者との再会の空気が変わり、言葉の裏にある選択が見える。"
-  },
-  {
-   "op": "say",
-   "actor": "akane",
-   "text": "私は「恋慕が死を越えるとき、愛と執着の境は誰にも一度では裁けない」という問いから逃げたくない。",
+   "text": "……お露どの。……どうして。……お札が。",
    "eyes": "surprise"
   },
   {
    "op": "say",
-   "actor": "rei_kimono",
-   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
-   "eyes": "closed",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "akane",
-   "text": "新三郎は恐れながらもお露を迎え、朝には冷たい骸を抱いて見つかる。ならば、今できる一手を選ぶ。",
-   "eyes": "fun"
+   "actor": "yui",
+   "text": "……剥がれて、おりました。"
   },
   {
    "op": "say",
    "actor": "rei_kimono",
-   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
+   "text": "……如来さまの、お守りも、ここに。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……それは、土の、像でございます。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……土の、像。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……誰かが。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……誰が、剥がしたかは、どうでも、よいのです。……萩原さまは、今、わたしに、会いたいですか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……会いたい。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……怖くは、ないのですか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……怖い。……でも、会いたい。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……では、来て、くださいますか。……今度こそ。",
    "eyes": "crying"
   },
   {
-   "op": "nar",
-   "text": "舞台の奥で音が止み、新三郎は恐れながらもお露を迎え、朝には冷たい骸を抱いて見つかる。"
-  },
-  {
-   "op": "say",
-   "actor": "akane",
-   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
-   "eyes": "normal",
-   "mouth": "open"
-  },
-  {
    "op": "say",
    "actor": "rei_kimono",
-   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
-   "eyes": "joy"
-  },
-  {
-   "op": "say",
-   "actor": "akane",
-   "text": "「死者との再会」を通り過ぎず、この場で必要な言葉を残す。",
-   "eyes": "anger"
-  },
-  {
-   "op": "say",
-   "actor": "rei_kimono",
-   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
-   "eyes": "sorrow",
-   "mouth": "open"
+   "text": "……行く。……必ず、と、言ったから。"
   },
   {
    "op": "nar",
-   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+   "text": "新三郎は、蚊帳を、出た。……お露の手を、取った。冷たかった。……けれど、もう、温めようとは、しなかった。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "翌朝。伴蔵が、恐る恐る、新三郎の家の、戸を、開けた。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……旦那。……旦那。"
+  },
+  {
+   "op": "nar",
+   "text": "蚊帳の中で、新三郎は、死んでいた。……骨ばかりの、女の、骸を、しっかりと、抱いて。顔は、穏やかに、微笑んでいた。"
   },
   {
    "op": "say",
    "actor": "akane",
-   "text": "答えは一つでなくても、選んだ責任は分け合える。",
+   "text": "……ひっ。",
    "eyes": "surprise"
   },
   {
    "op": "say",
-   "actor": "rei_kimono",
-   "text": "よし。次の場面へ持って行ける答えになった。",
+   "actor": "kurogane",
+   "text": "……旦那。……会えたんですね。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……あんた、早く、逃げなきゃ。……誰かに、お札のことを、知られたら。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……そうだな。逃げるか。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……旦那の、顔、見たか。……笑ってた。",
    "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……笑ってたわね。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……俺は、旦那を、殺したのか。……それとも、会わせて、やったのか。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……どっちでも、いいじゃない。……百両は、本物よ。"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
   },
   {
    "op": "hide",
    "actor": "akane"
   },
   {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "江戸を、逃げ出す、夜明け前。千住の、大橋の、たもと。伴蔵と、お峰が、荷を、背負っている。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……あんた。……如来さまは。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……ここに、ある。……江戸で、売ったら、足が、つく。……下総まで、持っていく。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "旦那の、お葬式は。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……寺が、出してくれる。……和尚さまが、旦那の、骨と、お露さまの、骨を、一緒に、葬ると、言っていた。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……一緒に。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……そうだ。……一緒に。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……それは、少し、いいことね。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……いいことを、したのか、俺たちは。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……わからない。……わからないけど、もう、橋を、渡るしか、ないわ。"
+  },
+  {
    "op": "hide",
-   "actor": "rei_kimono"
+   "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
   },
   {
    "op": "bg",
@@ -1178,172 +1794,252 @@
   },
   {
    "op": "nar",
-   "text": "第9景「欲の行き先」。得た金は伴蔵夫婦を救わず、疑いと暴力を増やして二人を破滅へ導く。"
+   "text": "一年後。下総の、栗橋の宿。伴蔵と、お峰は、百両を元手に、荒物屋を、開き、繁盛していた。……関口屋。"
   },
   {
    "op": "show",
-   "actor": "yui",
+   "actor": "kurogane",
    "pos": "left"
   },
   {
    "op": "show",
-   "actor": "yoru",
+   "actor": "akane",
    "pos": "right"
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "ここは「欲の行き先」。得た金は伴蔵夫婦を救わず、疑いと暴力を増やして二人を破滅へ導く。",
-   "eyes": "normal"
+   "actor": "akane",
+   "text": "……あんた。……今日も、帳場に、座らないの。"
   },
   {
    "op": "say",
-   "actor": "yoru",
-   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
-   "eyes": "joy",
-   "mouth": "open"
+   "actor": "kurogane",
+   "text": "……あとで、座る。"
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "今の選択は、次の場面だけでなく結末まで動かす。",
-   "eyes": "anger"
-  },
-  {
-   "op": "say",
-   "actor": "yoru",
-   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "nar",
-   "text": "欲の行き先の空気が変わり、言葉の裏にある選択が見える。"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "私は「恋慕が死を越えるとき、愛と執着の境は誰にも一度では裁けない」という問いから逃げたくない。",
-   "eyes": "surprise",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "yoru",
-   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+   "actor": "akane",
+   "text": "最近、夜遊びが、すぎるわね。……料理屋の、女に、入れあげてるって、噂よ。",
    "eyes": "closed"
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "得た金は伴蔵夫婦を救わず、疑いと暴力を増やして二人を破滅へ導く。ならば、今できる一手を選ぶ。",
-   "eyes": "fun"
+   "actor": "kurogane",
+   "text": "……噂だ。"
   },
   {
    "op": "say",
-   "actor": "yoru",
-   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
-   "eyes": "crying",
-   "mouth": "open"
-  },
-  {
-   "op": "nar",
-   "text": "舞台の奥で音が止み、得た金は伴蔵夫婦を救わず、疑いと暴力を増やして二人を破滅へ導く。"
+   "actor": "akane",
+   "text": "……噂、じゃ、ないでしょう。"
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
-   "eyes": "normal"
+   "actor": "kurogane",
+   "text": "黙りやがれ！",
+   "eyes": "anger"
   },
   {
    "op": "say",
-   "actor": "yoru",
-   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
-   "eyes": "joy"
+   "actor": "akane",
+   "text": "……あんた、変わったわ。……百両を、手にしてから。"
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "「欲の行き先」を通り過ぎず、この場で必要な言葉を残す。",
-   "eyes": "anger",
-   "mouth": "open"
+   "actor": "kurogane",
+   "text": "お前が、言い出したんだ！　……幽霊に、百両、くれと、言え、と！"
   },
   {
    "op": "say",
-   "actor": "yoru",
-   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+   "actor": "akane",
+   "text": "あたしは、言っただけよ！　……剥がしたのは、あんたでしょう！",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……それを、言うな。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……如来さまを、売ったのも、あんた。……旦那の、骨を、見たのも、あんた。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……あたしは、夜中に、下駄の音が、聞こえるのよ。……からん、ころん、って。毎晩。",
    "eyes": "sorrow"
   },
   {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "right"
+  },
+  {
    "op": "nar",
-   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+   "text": "その夜。栗橋の、土手。雨。伴蔵が、お峰を、連れ出していた。"
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "答えは一つでなくても、選んだ責任は分け合える。",
+   "actor": "akane",
+   "text": "……あんた。……こんな、雨の中、どこへ。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……お峰。……お前、昨日、お上に、何か、言うつもりだったろう。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……何の、こと。",
    "eyes": "surprise"
   },
   {
    "op": "say",
-   "actor": "yoru",
-   "text": "よし。次の場面へ持って行ける答えになった。",
-   "eyes": "closed",
-   "mouth": "open"
-  },
-  {
-   "op": "choice",
-   "options": [
-    {
-     "text": "今すぐ行動する",
-     "jump": "botan-doro_direct"
-    },
-    {
-     "text": "もう一人の声を最後まで聞く",
-     "jump": "botan-doro_listen"
-    }
-   ]
-  },
-  {
-   "op": "label",
-   "id": "botan-doro_direct"
+   "actor": "kurogane",
+   "text": "……「萩原の旦那を、殺したのは、亭主だ」と。……隣の、婆さんが、聞いてた。"
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "私は今すぐ動く。遅れた分は、行動の後で説明する。",
-   "eyes": "joy",
-   "mouth": "open"
-  },
-  {
-   "op": "jump",
-   "to": "botan-doro_merge"
-  },
-  {
-   "op": "label",
-   "id": "botan-doro_listen"
+   "actor": "akane",
+   "text": "……言わないわよ！　……ただ、苦しくて、誰かに、話したかっただけ！"
   },
   {
    "op": "say",
-   "actor": "yoru",
-   "text": "私は最後まで聞く。沈黙も答えの一部として受け止める。",
-   "eyes": "anger"
+   "actor": "kurogane",
+   "text": "……話したら、終わりだ。",
+   "eyes": "closed"
   },
   {
-   "op": "label",
-   "id": "botan-doro_merge"
+   "op": "say",
+   "actor": "akane",
+   "text": "……あんた。……あたしを、どうする、つもり。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……答えられねえ。"
   },
   {
    "op": "nar",
-   "text": "選び方は違っても、二人は同じ核心を次の景へ運ぶ。"
+   "text": "雨音に、まじって、……どこかで、からん、ころん、と、下駄の音が、した。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……あの、音だ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……あんたにも、聞こえるのね。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……違う。……違う、違う！"
+  },
+  {
+   "op": "nar",
+   "text": "伴蔵は、土手を、転がるように、逃げ出した。……お峰は、雨の中に、立ち尽くしていた。"
   },
   {
    "op": "hide",
-   "actor": "yui"
+   "actor": "kurogane"
   },
   {
    "op": "hide",
-   "actor": "yoru"
+   "actor": "akane"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "翌朝。栗橋の宿。……伴蔵は、関所の役人に、自ら、名乗り出ていた。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……あの人、自分で、行ったのね。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……百両で、買ったものは、……荒物屋と、料理屋の女と、……毎晩の、下駄の音。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……あたしたちは、旦那を、会いたい人に、会わせたんじゃ、ない。……自分たちが、欲しいものに、会いに、行っただけ。"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "栗橋の、関所。牢の中。伴蔵が、ひとり、座っている。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……旦那。……聞こえますか。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……お札を剥がしたのは、俺です。……如来さまを、土の像に、すり替えたのも。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……旦那は、会いたがってた。……お露さまも、会いたがってた。……俺は、二人の、会いたい気持ちを、百両で、売ったんです。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……会わせてやった、なんて、言えねえ。……売ったんです。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……毎晩、下駄の音が、聞こえる。……あれは、お露さまじゃ、ねえ。……俺の、腹の中で、鳴ってるんだ。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……島へ、行っても、鳴るんだろうな。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
   },
   {
    "op": "bg",
@@ -1356,116 +2052,169 @@
   },
   {
    "op": "nar",
-   "text": "第10景「供養の灯」。残された者は恋を罪だけにせず、執着をほどくため牡丹灯籠へ火をともす。"
-  },
-  {
-   "op": "show",
-   "actor": "kurogane",
-   "pos": "left"
+   "text": "一年が、巡った。主のいない、古い家の、跡。……焚き火の前に、お峰が、ひとり。"
   },
   {
    "op": "show",
    "actor": "akane",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……旦那。……お露さま。……お米さん。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……あの人は、島流しに、なりました。……あたしは、荒物屋を、たたみました。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……百両は、残り、全部、新幡随院に、納めました。……お三人の、供養に。"
+  },
+  {
+   "op": "nar",
+   "text": "遠くから、懐かしい、下駄の音が、聞こえてきた。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……あの、音は。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "灯籠の光に、三つの影。……女が二人、それに、見覚えのある、男が一人。"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
    "pos": "right"
   },
   {
    "op": "say",
-   "actor": "kurogane",
-   "text": "ここは「供養の灯」。残された者は恋を罪だけにせず、執着をほどくため牡丹灯籠へ火をともす。"
+   "actor": "yoru",
+   "text": "……お峰さん。"
   },
   {
    "op": "say",
    "actor": "akane",
-   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
-   "eyes": "joy"
+   "text": "……お米さん。……お露さま。"
   },
   {
    "op": "say",
-   "actor": "kurogane",
-   "text": "今の選択は、次の場面だけでなく結末まで動かす。"
-  },
-  {
-   "op": "say",
-   "actor": "akane",
-   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
-   "eyes": "sorrow",
-   "mouth": "open"
-  },
-  {
-   "op": "nar",
-   "text": "供養の灯の空気が変わり、言葉の裏にある選択が見える。"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "私は「恋慕が死を越えるとき、愛と執着の境は誰にも一度では裁けない」という問いから逃げたくない。"
+   "actor": "yui",
+   "text": "……萩原さまも、ご一緒です。"
   },
   {
    "op": "say",
    "actor": "akane",
-   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
-   "eyes": "closed"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "残された者は恋を罪だけにせず、執着をほどくため牡丹灯籠へ火をともす。ならば、今できる一手を選ぶ。"
-  },
-  {
-   "op": "say",
-   "actor": "akane",
-   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
+   "text": "……旦那。……ごめんなさい。……ごめんなさい。",
    "eyes": "crying"
   },
   {
-   "op": "nar",
-   "text": "舞台の奥で音が止み、残された者は恋を罪だけにせず、執着をほどくため牡丹灯籠へ火をともす。"
-  },
-  {
    "op": "say",
-   "actor": "kurogane",
-   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
-  },
-  {
-   "op": "say",
-   "actor": "akane",
-   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
-   "eyes": "joy",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "「供養の灯」を通り過ぎず、この場で必要な言葉を残す。"
-  },
-  {
-   "op": "say",
-   "actor": "akane",
-   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "nar",
-   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "答えは一つでなくても、選んだ責任は分け合える。"
-  },
-  {
-   "op": "say",
-   "actor": "akane",
-   "text": "よし。次の場面へ持って行ける答えになった。",
+   "actor": "yui",
+   "text": "……あやまらないで、ください。……わたしは、萩原さまに、会えました。",
    "eyes": "closed"
   },
   {
-   "op": "hide",
-   "actor": "kurogane"
+   "op": "say",
+   "actor": "akane",
+   "text": "……でも、あたしたちが、旦那を。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "会いたい人に、会いたいと思うのは、罪では、ありません。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……でも、そのために、誰かの、欲を、借りたのは、……わたしの、罪です。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "お峰は、牡丹の灯籠に火をともす",
+     "jump": "m_light"
+    },
+    {
+     "text": "お峰は、灯籠を寺へ納める",
+     "jump": "m_temple"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_light"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……灯籠に、火を、ともさせて、ください。……今年の、迎え火の、代わりに。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……どうぞ。"
+  },
+  {
+   "op": "nar",
+   "text": "お峰は、牡丹の灯籠に、迎え火を、移した。……灯籠は、温かい、色に、灯った。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……温かい。……初めて、温かい、灯です。",
+   "eyes": "joy"
+  },
+  {
+   "op": "jump",
+   "to": "m_end"
+  },
+  {
+   "op": "label",
+   "id": "m_temple"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……この灯籠を、新幡随院の、和尚さまに、お納めします。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……もう、わたしたちは、迷わずに、すみますね。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……萩原さまと、一緒に、帰る場所が、できました。"
+  },
+  {
+   "op": "label",
+   "id": "m_end"
   },
   {
    "op": "hide",
    "actor": "akane"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
   },
   {
    "op": "bg",
@@ -1479,21 +2228,17 @@
   {
    "op": "say",
    "actor": "nono",
-   "text": "『牡丹灯籠―露と新三郎―』、これにて終演です。",
-   "eyes": "joy"
+   "text": "三遊亭圓朝『怪談牡丹燈籠』より、お露と新三郎の、恋の筋。これにて、幕でございます。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "残った問いは「恋慕が死を越えるとき、愛と執着の境は誰にも一度では裁けない」。",
-   "eyes": "anger"
+   "text": "死んだ恋人に、会いたいと願った男。会いに来た娘。……そして、その戸を、百両で、開けた夫婦。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "選んだ結末を、次の物語まで覚えていてください。",
-   "eyes": "sorrow",
-   "mouth": "open"
+   "text": "誰が、いちばん、罪深かったのか。……愛と執着の境は、牡丹の灯籠の、薄明かりの中で、今も、揺れているのでございます。"
   },
   {
    "op": "hide",

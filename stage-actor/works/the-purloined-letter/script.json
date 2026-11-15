@@ -5,7 +5,7 @@
   "original": "Edgar Allan Poe, The Purloined Letter（原作著作権消滅）",
   "adaptation": "moderate",
   "format": "v3",
-  "minutes": 17,
+  "minutes": 14,
   "synopsis": "王族の秘密を握る手紙が大臣Dに盗まれる。警視総監は徹底捜索しても発見できず、デュパンは相手が警察の方法を予測すると考える。訪問先で、わざと汚して置かれた手紙を見抜き交換する。",
   "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
  },
@@ -440,7 +440,22 @@
   },
   {
    "op": "nar",
-   "text": "大臣が窓へ駆け寄ったすきに、デュパンは紙差しの手紙を抜き取り、そっくりに作った偽物と入れ替えた。"
+   "text": "大臣が窓へ駆け寄ったすきに、デュパンは紙差しへ手を伸ばした。その瞬間、大臣が、振り返りかけた。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "……デュパン君、君も見たまえ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "ええ、今、参ります。……眼鏡が、ずれまして。"
+  },
+  {
+   "op": "nar",
+   "text": "大臣がまた窓の外へ目を戻す。デュパンは、手紙を抜き取り、そっくりに作った偽物と入れ替えた。指先が、わずかに震えていた。"
   },
   {
    "op": "choice",
@@ -539,6 +554,60 @@
   {
    "op": "hide",
    "actor": "nono_whitecat"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_trackcape"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "right"
+  },
+  {
+   "op": "show",
+   "actor": "rei_trackcape",
+   "pos": "left"
+  },
+  {
+   "op": "nar",
+   "text": "宮殿の小さな庭。王妃が、ベールの奥から、デュパンの差し出した手紙を受け取った。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……封が、切れていない。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "中身は、読んでおりません。見える場所に隠されたものを、見つけるのが仕事。読むのは、仕事ではありませんので。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "大臣は、この一枚で、一年、わたくしの眠りを奪いました。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……あなたは、一度も開けずに、それを返してくださった。"
+  },
+  {
+   "op": "nar",
+   "text": "王妃は、手紙を、庭の火鉢にくべた。紙は、あっけなく、灰になった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "一年の重さも、燃えれば、一枚分です。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
   },
   {
    "op": "hide",

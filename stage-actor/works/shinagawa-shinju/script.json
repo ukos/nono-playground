@@ -1,315 +1,668 @@
 {
-  "meta": {
-    "id": "shinagawa-shinju",
-    "title": "品川心中 ―浜辺の偽装駆け落ち―",
-    "original": "古典落語『品川心中』（伝統演目・著作権消滅）",
-    "adaptation": "free",
-    "format": "v3",
-    "minutes": 10,
-    "synopsis": "アカネがハヤテを誘う心中は、同情を集める偽装駆け落ち計画。網に絡み泥まみれになり、ヨルの提案で祭りの公開会計と労働へ転換する。",
-    "note": "本脚本は翻案であり、原作の文章・口演の転載ではない。セリフは全て本上演版の書き下ろし。"
+ "meta": {
+  "id": "shinagawa-shinju",
+  "title": "品川心中 ―遠浅の桟橋―",
+  "original": "古典落語『品川心中』（伝統演目・著作権消滅）",
+  "adaptation": "faithful",
+  "format": "v3",
+  "minutes": 18,
+  "synopsis": "移り替えの金ができず死を決めた品川の女郎お染は、心中の相手に貸本屋の金蔵を選ぶ。夜の桟橋で金蔵が海に落ちたあと、金ができたと知らせが入り、お染はやめてしまう。遠浅の海から這い上がった金蔵は、親分の家へ転がり込む。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "狂言回し",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "アカネ",
-      "actor": "akane",
-      "costume": "default"
-    },
-    {
-      "role": "ハヤテ",
-      "actor": "hayate",
-      "costume": "default"
-    },
-    {
-      "role": "追跡役ヨル",
-      "actor": "yoru",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "room": "bg/shinagawa-room-2048x1152.png",
-    "beach": "bg/shinagawa-mudflat-2048x1152.png",
-    "festival": "bg/shinagawa-festival-office-2048x1152.png"
+  {
+   "role": "お染",
+   "actor": "akane",
+   "costume": "default"
   },
-  "steps": [
+  {
+   "role": "金蔵",
+   "actor": "hayate",
+   "costume": "default"
+  },
+  {
+   "role": "若い衆・喜助",
+   "actor": "yoru",
+   "costume": "default"
+  },
+  {
+   "role": "親分",
+   "actor": "gou",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "room": "bg/shinagawa-room-2048x1152.png",
+  "beach": "bg/shinagawa-mudflat-2048x1152.png",
+  "festival": "bg/shinagawa-festival-office-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "NONO座の今宵の舞台は、江戸の南の玄関口、品川宿でございます。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "宿場の女郎には、季節の衣替えのたびに、着物や祝儀の物入りがございました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "金が工面できないと、朋輩の前で恥をかく。ある古株の女郎は、それなら死んだほうがましだと思いつめます。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ただし、一人で死ぬのは寂しいし、見栄えも悪い。……そこで、相手を探しました。古典落語『品川心中』。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "物騒な題ですが、ご安心を。品川の海は、たいそう遠浅でございます。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "room",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "room"
+  },
+  {
+   "op": "nar",
+   "text": "品川宿の女郎屋の座敷。年増のお染が、帳面をめくってはため息をついている。"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "移り替えまで、あと五日。着物も、祝儀も、お茶屋への付け届けも、全部で四十両。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "昔なじみの旦那衆に文を出したが、一通も返事がない。若い子たちは、もう陰で笑ってる。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "笑われるくらいなら、死んでやる。……でも、一人で死んだら、金に詰まって死んだと言われる。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "心中なら、恋に死んだと言ってもらえる。相手が要るわね。誰か、ちょうどいい人は。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "お染は、なじみ客の名を書いた紙を、指でなぞっていく。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "呉服屋の若旦那は、親がうるさい。大工の棟梁は、女房が怖い。……貸本屋の金蔵。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "あの人なら、頼まれたら断れない。身寄りもない。おまけに、少々、のんびりしてる。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "決めた。金ちゃんに、一緒に死んでもらいましょう。"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "show",
+   "actor": "hayate",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "お染、文をもらったから飛んできたよ。逢いたい、逢いたいなんて書いてあるから、嬉しくってさ。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "金ちゃん、よく来てくれたわね。……実はね、あたし、もう生きていけないの。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "ど、どうした。何があった。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "移り替えのお金ができなくて。恥をかくくらいなら、死にたいの。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "そりゃ大変だ。でも、死ぬなんて。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "金ちゃんは、あたしに惚れてくれてるわよね。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "惚れてるとも。品川で一番惚れてる。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "じゃあ、一緒に死んで。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "……えっ。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "あの世で夫婦になりましょう。今夜、裏の桟橋から。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "こ、今夜。……う、うん。お染がそう言うなら。惚れた弱みだ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "じゃあ、いったん家に帰って、身の回りを片付けてくる。白い着物も出してこなきゃ。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "着物なんか、どうでもいいわ。今夜、桟橋に来てくれればいいの。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "……俺、泳げないんだけど。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "あら、なら話が早いじゃないの。",
+   "eyes": "fun"
+  },
+  {
+   "op": "hide",
+   "actor": "hayate"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "bg",
+   "src": "beach",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "beach"
+  },
+  {
+   "op": "nar",
+   "text": "真夜中。宿の裏の桟橋。遠く宿場の灯がにじみ、足元で、低い波がぴちゃぴちゃと鳴っている。"
+  },
+  {
+   "op": "show",
+   "actor": "hayate",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "お染、暗いね。……海って、夜はこんなに黒いのか。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "怖いの？"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "怖くない。……いや、少し。……だいぶ。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "南無阿弥陀仏、南無阿弥陀仏。さあ、金ちゃん。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "ま、待って。最後に、言い残すことを考える。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "早くして。人が来ちゃう。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "ええと、貸本の返却が遅れてるのが三冊。それと、家主に、店賃が二月分。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "そんなこと言い残してどうするの。",
+   "eyes": "anger"
+  },
+  {
+   "op": "choice",
+   "options": [
     {
-      "op": "bg",
-      "src": null
+     "text": "金蔵がぐずぐずしているので、お染が背中をどんと押す",
+     "jump": "push"
     },
     {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『品川心中 ―浜辺の偽装駆け落ち―』。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "アカネとハヤテが、死なない心中騒ぎを起こします。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "room",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "room"
-    },
-    {
-      "op": "show",
-      "actor": "akane",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "hayate",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "祭りの支度金が足りない。このままでは面目が立たない。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "hayate",
-      "text": "だから心中ですか。俺は走るのは得意でも、沈むのは苦手です。"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "本当に死にはしない。浜で騒いで、同情を集める芝居さ。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "hayate",
-      "text": "その計画、題名からして失敗の匂いがします。"
-    },
-    {
-      "op": "nar",
-      "text": "二人は「駆け落ちの書置き」を作るが、行き先を書き忘れる。"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "夜、品川の浜。合図で海へ入ったふりをする。"
-    },
-    {
-      "op": "say",
-      "actor": "hayate",
-      "text": "俺が先に逃げたら。"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "馬役が一番速く逃げてどうする。"
-    },
-    {
-      "op": "hide",
-      "actor": "hayate"
-    },
-    {
-      "op": "hide",
-      "actor": "akane"
-    },
-    {
-      "op": "bg",
-      "src": "beach",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "beach"
-    },
-    {
-      "op": "nar",
-      "text": "夜の浜。浅瀬に張った網と、岸の樽が芝居道具。"
-    },
-    {
-      "op": "show",
-      "actor": "akane",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "hayate",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "hayate",
-      "text": "潮が冷たい。芝居でも風邪は本物ですよ。"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "声を張って。町内が来る前に始めるよ。"
-    },
-    {
-      "op": "nar",
-      "text": "アカネは岸へ戻るが、ハヤテの足が網に絡む。"
-    },
-    {
-      "op": "say",
-      "actor": "hayate",
-      "text": "助けてください。本当に動けません。"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "演技がうまくなったね。"
-    },
-    {
-      "op": "say",
-      "actor": "hayate",
-      "text": "感心してないで、網を切って！"
-    },
-    {
-      "op": "show",
-      "actor": "yoru",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "書置きを拾った。行き先がないので、足跡を追った。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "見つけるのが早すぎる。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "偽装心中で金を集めれば詐欺だ。代わりに祭りの公開会計をしよう。"
-    },
-    {
-      "op": "nar",
-      "text": "黒猫ヨルが網を切る。反動で二人は泥へ尻もちをつく。"
-    },
-    {
-      "op": "say",
-      "actor": "hayate",
-      "text": "生きててよかった。格好は死んでますが。"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "あたしの面目も泥だらけだよ。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "泥は洗える。信用は、説明して働いて洗う。"
-    },
-    {
-      "op": "hide",
-      "actor": "yoru"
-    },
-    {
-      "op": "hide",
-      "actor": "hayate"
-    },
-    {
-      "op": "hide",
-      "actor": "akane"
-    },
-    {
-      "op": "bg",
-      "src": "festival",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "festival"
-    },
-    {
-      "op": "nar",
-      "text": "翌日。二人は祭りの支度所で事情を話し、働いて不足分を埋める。"
-    },
-    {
-      "op": "show",
-      "actor": "akane",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "hayate",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "同情を買うより、提灯を売る方がまっとうだった。"
-    },
-    {
-      "op": "say",
-      "actor": "hayate",
-      "text": "駆け落ち先は、祭りの会計係でしたね。"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "次に逃げる時は、仕事が終わってから。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "hayate",
-      "text": "逃げない選択はないんですか。"
-    },
-    {
-      "op": "hide",
-      "actor": "hayate"
-    },
-    {
-      "op": "hide",
-      "actor": "akane"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "品川の海は二人を飲まず、泥だけをたっぷり返しました。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "心中は中止、祭りは黒字。めでたく駆け落ち未遂です。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "end"
+     "text": "金蔵が自分で決心しようとして、足を滑らせる",
+     "jump": "slip"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "push"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "ええい、まどろっこしい。それっ。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "お染に背中を押され、金蔵は、あっという間に暗い海へ落ちた。"
+  },
+  {
+   "op": "jump",
+   "to": "water"
+  },
+  {
+   "op": "label",
+   "id": "slip"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "よし、お染。今、行くよ。……一、二の……うわっ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "桟橋の苔に足を取られ、金蔵は、掛け声の途中で、ひとりで海へ転げ落ちた。"
+  },
+  {
+   "op": "jump",
+   "to": "water"
+  },
+  {
+   "op": "label",
+   "id": "water"
+  },
+  {
+   "op": "hide",
+   "actor": "hayate"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……金ちゃん。……行っちゃった。さあ、あたしも。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "お染さん、お染さん！　探しましたよ。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "喜助。邪魔しないで。今、あたしは……"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "お金ができたんです！　鎌倉屋の旦那から、四十両、届きました！",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……四十両、届いた？",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "移り替えは、立派にできますよ。さ、早く戻って、皆に顔を見せてやってください。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "そう。……そうなの。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "じゃあ、やめた。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "やめたって、何をです。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "なんでもないわ。……海の中に、ちょっと、悪いことしちゃったけど。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "金ちゃん、ごめんね。お金ができたから、あたし、死ぬのはやめにするわ。達者でね。"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "nar",
+   "text": "波打ち際。腰までの浅瀬から、ずぶ濡れの金蔵が、泥だらけで起き上がった。"
+  },
+  {
+   "op": "show",
+   "actor": "hayate",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "……浅い。品川の海、浅い。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "溺れようとしても、膝しか沈まない。……お染は。お染はどこへ行った。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "……今、達者でね、って聞こえたぞ。お金ができたから、やめたって。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "人を海に入れといて、自分はやめた？　ひでえ。ひどすぎる。",
+   "eyes": "crying",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "寒い。泥だらけだ。このまま帰ったら、長屋の連中に何と言われるか。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "そうだ。親分のところへ行こう。親分なら、話を聞いてくれる。"
+  },
+  {
+   "op": "hide",
+   "actor": "hayate"
+  },
+  {
+   "op": "bg",
+   "src": "festival",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "festival"
+  },
+  {
+   "op": "nar",
+   "text": "町内の祭りの支度小屋。夜更け、親分と若い衆が、提灯の陰で、こっそり賽子を振っている。"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "さあ、張った張った。丁か半か。",
+   "eyes": "fun"
+  },
+  {
+   "op": "nar",
+   "text": "そのとき、表の戸がどんどんと叩かれた。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "手入れだ！　灯りを消せ、銭を隠せ！",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "灯りが吹き消され、小屋の中は真っ暗。若い衆が、天井へ逃げる、縁の下へもぐる、大騒ぎになった。"
+  },
+  {
+   "op": "show",
+   "actor": "hayate",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "親分、俺です。金蔵です。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "金蔵？　……なんだ、脅かしやがって。誰か、灯りを。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "うわ、なんだその格好は。頭から泥をかぶって、海藻まで巻きつけて。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "親分、お染と心中してきました。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "心中？　お前、生きてるじゃねえか。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "向こうが、途中でやめたんです。お金ができたからって。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "……なんだと。お前だけ海に入れて、女はやめた？",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "品川の海が浅くて、助かりました。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "浅いのは、海よりも、お前の考えだ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "……親分、お染は、見栄のためなら死ねるって女だった。俺は、惚れた女のためなら死ねるって男だった。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "どっちも、命を、ずいぶん安く値踏みしてたんだな。……品川の海の深さくらいに。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "……分かってりゃいい。命の値段は、膝までの海じゃ、はかれねえ。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "よし、金蔵。泣くな。そういう女には、きっちりお灸をすえてやらなきゃならねえ。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "親分、手伝ってくれますか。化けて出てやりたいくらいです。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "化けて出るか。……そいつは、面白え。生きてる幽霊ってのを、こしらえてやろう。",
+   "eyes": "fun"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "hayate"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "こうして金蔵は、死に損なった幽霊になって、お染の座敷へ出ることになりますが……"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "その仕返しの顛末は、『品川心中』の下の巻。今夜は、ここまででございます。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "一緒に死のうと誘われたら、まず、海の深さを確かめてから。お後がよろしいようで。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

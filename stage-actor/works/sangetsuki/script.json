@@ -1,229 +1,475 @@
 {
-  "meta": {
-    "id": "sangetsuki",
-    "title": "山月記 ―虎の声、詩人の声―",
-    "original": "中島敦『山月記』（著作権消滅作品）",
-    "adaptation": "moderate",
-    "format": "v3",
-    "minutes": 11,
-    "synopsis": "虎となった李徴を本物の虎コテツが演じ、袁傪へ詩と弱さを託す。家族への真実を一方的に決めないという対話を加える。",
-    "note": "本脚本は翻案であり、原作の文章・口演の転載ではない。セリフは全て本上演版の書き下ろし。"
+ "meta": {
+  "id": "sangetsuki",
+  "title": "山月記 ―虎の声、詩人の声―",
+  "original": "中島敦『山月記』（著作権消滅作品）",
+  "adaptation": "faithful",
+  "format": "v3",
+  "minutes": 13,
+  "synopsis": "詩人として名を成せず、虎に変わった李徴。旧友の袁傪と月夜の山道で再会し、草むらの中から、自作の詩と、虎になった訳、妻子への頼みを語る。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "狂言回し",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "袁傪",
-      "actor": "extra_craftsman",
-      "costume": "default"
-    },
-    {
-      "role": "李徴／虎",
-      "actor": "kotetsu",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "road": "bg/moonlit-sangetsu-road-2048x1152.png",
-    "study": "bg/ensans-study-2048x1152.png"
+  {
+   "role": "袁傪",
+   "actor": "extra_craftsman",
+   "costume": "default"
   },
-  "steps": [
+  {
+   "role": "李徴／虎",
+   "actor": "kotetsu",
+   "costume": "default"
+  },
+  {
+   "role": "従者",
+   "actor": "extra_villager",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "road": "bg/moonlit-sangetsu-road-2048x1152.png",
+  "study": "bg/ensans-study-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "唐の時代。隴西の李徴は、若くして科挙に受かった秀才でしたが、役人の暮らしを嫌い、詩人として名を残そうとしました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "けれど詩は売れず、暮らしは苦しく、とうとう地方の小役人に戻ります。かつて見下した同輩に、頭を下げる日々。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ある夜、李徴は叫び声を上げて闇へ駆け出し、二度と戻りませんでした。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "中島敦『山月記』。虎になった男を、今夜は虎の剣士コテツが演じます。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "road",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "road"
+  },
+  {
+   "op": "nar",
+   "text": "夜明け前の商於の山道。月がまだ高い。役人の袁傪の一行が、馬を進めている。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_craftsman",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "extra_villager",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "袁傪さま、この先には人食い虎が出ると、宿の者が申しておりました。夜明けを待たれては。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "供の者が多い。虎も、そう易々とは近づくまい。急ぐ旅だ。進もう。"
+  },
+  {
+   "op": "nar",
+   "text": "そのとき、草むらから一匹の虎が躍り出た。だが虎は、袁傪に飛びかかる寸前で身をひるがえし、また草むらへ隠れた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "と、虎が、引き返しました。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "show",
+   "actor": "kotetsu",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "……あぶないところだった。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "……その声。聞き覚えがある。……まさか。わが友、李徴ではないか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "いかにも、わたしは隴西の李徴である。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "虎が、人の言葉を。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "下がっていなさい。……李徴、なぜ姿を見せぬ。草むらから出てきてくれ。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "出られぬ。今のこの姿を、おぬしに見せたくない。見れば、おぬしは怖れ、厭うだろう。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "だが、声だけなら。……少しのあいだ、この浅ましい身の話を、聞いてくれぬか。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "聞こう。夜が明けるまで、ここを動かぬ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_villager"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "一年ほど前、旅先で眠れぬ夜、誰かがわたしの名を呼んだ。外へ出ると、声は闇の向こうから、何度も呼ぶ。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "夢中で駆けていくうちに、手で地をつかんで走っていた。気がつくと、腕に毛が生え、谷川に映る顔は、虎だった。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "なぜこうなったのか、分からぬ。分からずに押しつけられたものを、黙って受け取るのが、生き物のさだめなのだろう。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "……それから、どうしていた。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "最初に兎を見たとき、わたしの中の人間は、どこかへ消えた。気がつくと、口のまわりが、兎の血で濡れていた。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "今でも一日のうち、数刻だけ、人の心が戻る。その数刻が、日に日に短くなっていく。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "やがて、わたしは、自分が人間だったことさえ、忘れてしまうだろう。それが、何より恐ろしい。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "……李徴。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "頼みがある。わたしは詩人になれなかった。だが、作った詩が、まだ数十、頭に残っている。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "それを書き取って、伝えてほしい。立派な詩集にしたいのではない。わたしが生きた跡を、どこかへ残したいのだ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "筆を持て。……いや、わたしが自分で書こう。言ってくれ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "袁傪は、馬の背に紙を広げた。草むらの中から、低く、朗々とした声が流れ出す。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "山の端に月を置き、谷に声を捨てる。昨日の名は、今朝の霜とともに消えた。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "筆を握った手は、今は土を掻く。それでも夜ごと、文字の形を、星の間に探している。"
+  },
+  {
+   "op": "nar",
+   "text": "詩は、三十あまりも続いた。どれも格調が高く、ひと息で読ませる力があった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "……みごとな詩だ。だが、何かが足りぬ。どこが、と言えぬが、一流になるには、何か、ほんのわずか、欠けている。",
+   "eyes": "closed"
+  },
+  {
+   "op": "choice",
+   "options": [
     {
-      "op": "bg",
-      "src": null
+     "text": "袁傪は、思ったことを、友に正直に伝える",
+     "jump": "tell"
     },
     {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『山月記 ―虎の声、詩人の声―』。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "虎になった男を、本物の虎コテツが演じます。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "road",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "road"
-    },
-    {
-      "op": "show",
-      "actor": "extra_craftsman",
-      "pos": "left"
-    },
-    {
-      "op": "nar",
-      "text": "旅の役人・袁傪は、月夜の道で人の言葉を話す虎に呼び止められる。"
-    },
-    {
-      "op": "show",
-      "actor": "kotetsu",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "袁傪。姿を恐れず、声だけを聞いてくれ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "李徴なのか。なぜ虎の姿に。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "詩人として認められたい心と、笑われる恐れを飼い続けた。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "それが虎になった理由だと。"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "人を避け、誇りを守るうち、人の心を使わなくなった。"
-    },
-    {
-      "op": "nar",
-      "text": "李徴は草むらの闇から、記憶している詩を口述する。"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "詩を記してほしい。私が人だった証を、作品だけでも残したい。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "記す。だが、作品だけでなく、君の弱さも家族へ伝える。"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "家族には、死んだと告げてくれ。虎の夫など残酷だ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "決めるのは君ではない。支援は届けるが、真実を隠すかは考え直せ。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "私は臆病な自尊心で、最後まで選択を奪うところだった。"
-    },
-    {
-      "op": "nar",
-      "text": "遠くで獣の唸りが重なる。人の意識が薄れる時刻が近い。"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "次に会えば、私は君を友と認められぬかもしれない。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "ならば今日の声を記す。君を美化も怪物化もしない。",
-      "eyes": "closed",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "それでいい。詩より正確な友を、私は遅く得た。"
-    },
-    {
-      "op": "nar",
-      "text": "袁傪が去ると、虎は月へ向かい、声にならない咆哮を上げる。"
-    },
-    {
-      "op": "hide",
-      "actor": "kotetsu"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_craftsman"
-    },
-    {
-      "op": "bg",
-      "src": "study",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "study"
-    },
-    {
-      "op": "nar",
-      "text": "後日。袁傪は詩と手紙を整理し、李徴の家族へ生活費を届ける。"
-    },
-    {
-      "op": "show",
-      "actor": "extra_craftsman",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "才能だけでなく、助けを求められなかった孤独も書き残そう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "虎にならぬため、人は弱さを言葉にするのだ。"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_craftsman"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "虎の姿は変わらずとも、李徴の声は友の記録へ渡りました。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "誇りと恐れの檻を開く鍵は、弱さを語る言葉だったのです。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "end"
+     "text": "袁傪は、何も言わず、ただ書き留める",
+     "jump": "silent"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "tell"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "李徴。おぬしの詩は、確かに見事だ。だが、どこか、人の心の底に届かぬところがある。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "……やはり、おぬしにも、そう聞こえるか。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "jump",
+   "to": "heart"
+  },
+  {
+   "op": "label",
+   "id": "silent"
+  },
+  {
+   "op": "nar",
+   "text": "袁傪は筆を止めたまま、しばらく黙っていた。その沈黙を、草むらの虎は聞き取った。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "……黙っているのは、言いにくいことがあるからだな。わたしの詩には、何かが欠けているのだろう。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "jump",
+   "to": "heart"
+  },
+  {
+   "op": "label",
+   "id": "heart"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "欠けているものなら、わたしは知っている。それが、わたしを虎にしたものだ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "わたしは、人と交わるのを避けた。人は、それを傲慢だと言った。だが、本当は、怖かったのだ。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "才が足りぬと知られるのが怖くて、師にもつかず、詩の仲間とも磨き合わなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "それでいて、凡人に混じって平凡に暮らすのも、我慢ならなかった。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "臆病なくせに、自分を高く見積もる心。恥をかくのが嫌なくせに、威張ってみせる心。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "その二つを、わたしは、餌をやって、育ててしまった。それが、この縞模様の正体だ。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "もっと才の乏しい者が、ひたすら磨いて、詩人になっていった。わたしは、磨く前に、恐れたのだ。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "……人間だったころには分からなかった。虎になって、ようやく分かった。遅すぎる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "月が傾き、空の端が白み始めた。草むらの中で、獣の息が荒くなる。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "別れる前に、もう一つ。……故郷の妻と子のことだ。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "わたしは、もう死んだと伝えてくれ。今日のことは、言わないでほしい。そして、どうか、飢えぬよう、計らってやってほしい。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "約束する。必ず。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "……本当は、詩より先に、妻子のことを頼むべきだった。そういう男だから、獣に身を落としたのだ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "もう行け。そして、帰り道、ここを通るな。その時のわたしは、きっと、おぬしを友と分からず、襲いかかる。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "あの丘の上まで行ったら、一度だけ、振り返ってくれ。わたしの姿を見せる。二度と、ここへ来ようと思わぬように。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "……李徴。達者で。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "kotetsu"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_craftsman"
+  },
+  {
+   "op": "nar",
+   "text": "一行が丘の上まで来て振り返ると、白んだ道の上に、一匹の虎が躍り出た。"
+  },
+  {
+   "op": "nar",
+   "text": "虎は、残月を仰いで、二声、三声、咆哮すると、また草むらへ躍り込み、二度と姿を見せなかった。"
+  },
+  {
+   "op": "bg",
+   "src": "study",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "study"
+  },
+  {
+   "op": "nar",
+   "text": "都の袁傪の書斎。書き取った詩の束を前に、袁傪は筆を置いた。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_craftsman",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "李徴の詩は、写して残した。妻と子には、夫は旅先で亡くなったと伝え、暮らしの手当てを届けた。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "……一つだけ、わたしにも欠けていたものがある。あの夜まで、あの男の恐れに、気づかなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "詩の欠けたところを、あの男は自分で知っていた。それを口にできる相手が、ただ一人もいなかったのだ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_craftsman"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "虎の吠える声は、月に届いても、人の言葉にはなりませんでした。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "中島敦『山月記』。月夜の山道の一幕を、ここで閉じます。",
+   "eyes": "closed"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

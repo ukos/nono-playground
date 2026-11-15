@@ -5,7 +5,7 @@
   "original": "知里幸惠編訳『アイヌ神謡集』所収（古典神謡）",
   "adaptation": "faithful",
   "format": "v3",
-  "minutes": 15,
+  "minutes": 20,
   "synopsis": "浜で遊ぶ小狼の神は小男の道を十二度さえぎる。怒った小男は岬と川の昔の名・今の名を問う。小狼は答え、さらに小男がオキキリムイの炉縁から生まれた魚だと素性を明かす。",
   "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
  },
@@ -134,6 +134,33 @@
   {
    "op": "say",
    "actor": "kurogane",
+   "text": "ホテナオ。妙な男だ。顔が、火にあぶったように赤い。背中が、丸い。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "それに、すれ違うとき、ふっと煙の匂いがした。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "匂うか。……昔の仕事の匂いが、抜けんのだ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "どんな仕事。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "小僧に話すことではない。……さあ、どけ。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
    "text": "ホテナオ。どこうか、どくまいか。私は男の前に、ひょいと跳んで立った。",
    "eyes": "fun"
   },
@@ -163,13 +190,18 @@
    "op": "say",
    "actor": "rei_casual",
    "text": "十度！　十一度！　十二度！　ええい、もう我慢ならん！",
-   "eyes": "anger",
-   "mouth": "open"
+   "eyes": "anger"
   },
   {
    "op": "say",
    "actor": "rei_casual",
    "text": "お前のような小僧に、わしの用事が分かるものか。大事な、大事な用事なのだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "日が沈むまでに、浜の東の岬へ着かねばならん。……着かねば、わしは、二度と、帰れなくなる。",
+   "eyes": "sorrow"
   },
   {
    "op": "say",
@@ -223,6 +255,15 @@
    "op": "show",
    "actor": "kurogane",
    "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "風が冷たい。……わしは、寒いのがいちばん苦手でな。"
+  },
+  {
+   "op": "nar",
+   "text": "小男は、日の当たる岩に背中を押しつけ、両手をこすり合わせた。"
   },
   {
    "op": "say",
@@ -339,8 +380,30 @@
    "op": "say",
    "actor": "rei_casual",
    "text": "何だと？　わしを小僧扱いするか。わしのほうがずっと年上だ。",
-   "eyes": "surprise",
-   "mouth": "open"
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "答えてばかりで、いい気になるな。今度はわしが聞く。お前の父の山は、昔、何と呼ばれた。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "ホテナオ。「狼が月に歌う山」。今は「雪の消えぬ山」。父は、まだ歌っている。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……親の山の名を、すらすらと言えるのだな。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "言えるさ。自分がどこから来たか、知っているから。",
+   "eyes": "closed"
   },
   {
    "op": "say",
@@ -486,14 +549,18 @@
   {
    "op": "say",
    "actor": "kurogane",
-   "text": "だから体は赤く、背が丸い。炉の火に長くあぶられた色が、まだ残っているのだ。"
+   "text": "だから顔は赤く、背が丸い。炉の火に長くあぶられた色が、まだ残っているのだ。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "煙の匂いも、寒がりも、火のそばで長く働いたからだ。"
   },
   {
    "op": "say",
    "actor": "rei_casual",
    "text": "……なぜ、それを知っている。",
-   "eyes": "surprise",
-   "mouth": "open"
+   "eyes": "surprise"
   },
   {
    "op": "say",
@@ -516,6 +583,12 @@
    "op": "say",
    "actor": "rei_casual",
    "text": "わしの正体を知った者の前では、もうこの姿ではいられない。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "それに、ほら。……日が、もう、海に触れる。岬までは、もう間に合わぬ。ここから、海へ還るしかない。",
+   "eyes": "closed"
   },
   {
    "op": "choice",

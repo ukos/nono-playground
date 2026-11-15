@@ -23,7 +23,7 @@
     ]
    }
   ],
-  "note": "既存翻訳・上演台本・特定演者の口演は転用せず、台詞は本上演版の書き下ろし。"
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
  },
  "cast": [
   {
@@ -77,34 +77,22 @@
   {
    "op": "say",
    "actor": "nono",
-   "text": "ようこそ、NONO座へ。本日の演目は『怪談乳房榎―絵師の怨みと忠義―』。",
-   "eyes": "normal",
-   "mouth": "open"
+   "text": "江戸、柳島。絵師の菱川重信は、筆一本で、名を上げた男。美しい妻お関と、生まれたばかりの、男の子、真与太郎がおりました。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "怪談・幻想の舞台を、全5景でお届けします。",
-   "eyes": "joy"
+   "text": "そこへ、弟子入りを、願い出た侍が、ひとり。磯貝浪江。……礼儀正しく、学もある。重信は、喜んで、迎え入れました。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "この舞台の核は「忠義は復讐の刃だけでなく、遺された命を守る手でもある」。",
-   "eyes": "anger"
+   "text": "三遊亭圓朝『怪談乳房榎』。血なまぐさい筋は、今宵は、少し、和らげて、お届けします。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "既存の台詞を写さず、今夜のために新しく構成しました。",
-   "eyes": "sorrow",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "nono",
-   "text": "それでは、幕を開けましょう。",
-   "eyes": "surprise"
+   "text": "忠義とは、仇を討つ刃だけでは、ない。……遺された命を、守り抜く、手でもあるのです。"
   },
   {
    "op": "hide",
@@ -121,7 +109,7 @@
   },
   {
    "op": "nar",
-   "text": "第1景「絵師の家」。重信の留守に浪江が入り込み、尊敬を装いながら家と妻へ欲を向ける。"
+   "text": "重信の家。画室。絵具の皿が、ずらりと、並んでいる。重信が、大きな紙に、龍の下絵を、描いている。浪江が、墨を、すっている。"
   },
   {
    "op": "show",
@@ -136,94 +124,63 @@
   {
    "op": "say",
    "actor": "rei_kimono",
-   "text": "ここは「絵師の家」。重信の留守に浪江が入り込み、尊敬を装いながら家と妻へ欲を向ける。",
-   "eyes": "normal",
-   "mouth": "open"
+   "text": "……浪江どの。……墨が、濃すぎる。"
   },
   {
    "op": "say",
    "actor": "kurogane",
-   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。"
+   "text": "申し訳、ございません、先生。"
   },
   {
    "op": "say",
    "actor": "rei_kimono",
-   "text": "今の選択は、次の場面だけでなく結末まで動かす。",
-   "eyes": "anger"
+   "text": "龍の、髭は、薄い墨で、引く。……濃いと、龍が、重くなる。"
   },
   {
    "op": "say",
    "actor": "kurogane",
-   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。"
+   "text": "……龍が、重く。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "龍は、雲の上に、浮かんでいなければ、ならない。……重い龍は、天に、昇れぬ。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……先生の、龍は、いつも、軽やかで、ございますな。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "軽やかに、見えるまで、何度も、描き直す。……軽やかに、見えるものほど、重い、修行の、果てに、ある。"
   },
   {
    "op": "nar",
-   "text": "絵師の家の空気が変わり、言葉の裏にある選択が見える。"
+   "text": "重信は、筆を、置いた。……下絵を、くるりと、巻いた。"
   },
   {
    "op": "say",
    "actor": "rei_kimono",
-   "text": "私は「忠義は復讐の刃だけでなく、遺された命を守る手でもある」という問いから逃げたくない。",
-   "eyes": "surprise"
+   "text": "……この龍は、高田の、南蔵院の、天井に、描く。……来月から、寺に、泊まり込みだ。"
   },
   {
    "op": "say",
    "actor": "kurogane",
-   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。"
+   "text": "……ひと月も、お留守に。"
   },
   {
    "op": "say",
    "actor": "rei_kimono",
-   "text": "重信の留守に浪江が入り込み、尊敬を装いながら家と妻へ欲を向ける。ならば、今できる一手を選ぶ。",
-   "eyes": "fun",
-   "mouth": "open"
+   "text": "家のことは、頼む。……妻と、真与太郎と、下男の、正助を。"
   },
   {
    "op": "say",
    "actor": "kurogane",
-   "text": "その一手で得るものと、失うものを同じ明るさで見よう。"
-  },
-  {
-   "op": "nar",
-   "text": "舞台の奥で音が止み、重信の留守に浪江が入り込み、尊敬を装いながら家と妻へ欲を向ける。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_kimono",
-   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
-   "eyes": "normal"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_kimono",
-   "text": "「絵師の家」を通り過ぎず、この場で必要な言葉を残す。",
-   "eyes": "anger"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。"
-  },
-  {
-   "op": "nar",
-   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_kimono",
-   "text": "答えは一つでなくても、選んだ責任は分け合える。",
-   "eyes": "surprise",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "よし。次の場面へ持って行ける答えになった。"
+   "text": "……お任せ、くださいませ。",
+   "eyes": "fun"
   },
   {
    "op": "hide",
@@ -232,6 +189,159 @@
   {
    "op": "hide",
    "actor": "kurogane"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "ひと月後。重信の家。夜。お関が、赤子を、あやしている。浪江が、廊下に、立っている。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……奥さま。……お寂しゅう、ございましょう。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "いいえ。……真与太郎が、おりますから。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……先生は、絵のことしか、頭に、ない。……奥さまの、ことも、真与太郎さまの、ことも、ほうっておいて。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……主人は、仕事を、しておるのです。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "拙者なら、……奥さまを、ひと月も、一人には、させませぬ。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……浪江さま。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……拙者は、奥さまを、お慕い、申しております。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……お帰りに、なってください。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……拒まれるなら、……この子を。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "浪江の目が、赤子に、向けられた。……お関は、赤子を、抱きしめて、震えた。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……やめて、ください。",
+   "eyes": "crying"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "翌朝。台所。お関が、正助を、そっと、呼び寄せた。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……正助。……南蔵院の、主人のところへ、文を、届けてくれますか。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……かしこまりました。……何と。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……書いて、あります。読まずに、渡して。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……奥さま、お顔の、色が。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……眠れなかったの。……真与太郎が、夜泣きを、して。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……浪江さまが、昨夜、遅くまで、廊下に。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……言わないで。……あなたは、何も、見なかったことに、して。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……奥さま。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "主人に、心配を、かけたくないの。……龍が、描き上がるまでは。"
+  },
+  {
+   "op": "nar",
+   "text": "正助は、文を、懐に入れた。……だが、その文は、南蔵院へ、届かなかった。途中で、浪江に、取り上げられたのだった。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
   },
   {
    "op": "bg",
@@ -244,11 +354,15 @@
   },
   {
    "op": "nar",
-   "text": "第2景「十二社の滝」。浪江は重信を滝へ誘い、暗がりで師を裏切って秘密を水底へ沈める。"
+   "text": "初夏。高田の、落合。蛍の飛び交う、夜。南蔵院の、帰り道。"
+  },
+  {
+   "op": "nar",
+   "text": "下男の正助が、提灯を、持って、重信の、先を、歩いている。浪江が、草むらで、待っていた。"
   },
   {
    "op": "show",
-   "actor": "yui",
+   "actor": "kurogane",
    "pos": "left"
   },
   {
@@ -258,111 +372,297 @@
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "ここは「十二社の滝」。浪江は重信を滝へ誘い、暗がりで師を裏切って秘密を水底へ沈める。",
-   "eyes": "normal"
+   "actor": "kurogane",
+   "text": "……正助。……ちょっと、来い。"
   },
   {
    "op": "say",
    "actor": "sasuke",
-   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
-   "eyes": "joy"
+   "text": "……浪江さま。……何の、ご用で。"
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "今の選択は、次の場面だけでなく結末まで動かす。",
-   "eyes": "anger",
-   "mouth": "open"
+   "actor": "kurogane",
+   "text": "先生を、ここへ、呼び出せ。……蛍が、きれいだから、と。"
   },
   {
    "op": "say",
    "actor": "sasuke",
-   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "nar",
-   "text": "十二社の滝の空気が変わり、言葉の裏にある選択が見える。"
+   "text": "……先生を、呼んで、どうなさいます。"
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "私は「忠義は復讐の刃だけでなく、遺された命を守る手でもある」という問いから逃げたくない。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "say",
-   "actor": "sasuke",
-   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
-   "eyes": "closed",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "浪江は重信を滝へ誘い、暗がりで師を裏切って秘密を水底へ沈める。ならば、今できる一手を選ぶ。",
-   "eyes": "fun"
-  },
-  {
-   "op": "say",
-   "actor": "sasuke",
-   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
-   "eyes": "crying"
-  },
-  {
-   "op": "nar",
-   "text": "舞台の奥で音が止み、浪江は重信を滝へ誘い、暗がりで師を裏切って秘密を水底へ沈める。"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
-   "eyes": "normal",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "sasuke",
-   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
-   "eyes": "joy"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "「十二社の滝」を通り過ぎず、この場で必要な言葉を残す。",
-   "eyes": "anger"
-  },
-  {
-   "op": "say",
-   "actor": "sasuke",
-   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
-   "eyes": "sorrow",
-   "mouth": "open"
-  },
-  {
-   "op": "nar",
-   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "答えは一つでなくても、選んだ責任は分け合える。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "say",
-   "actor": "sasuke",
-   "text": "よし。次の場面へ持って行ける答えになった。",
+   "actor": "kurogane",
+   "text": "……お前は、知らなくて、よい。",
    "eyes": "closed"
   },
   {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……知らなくて、よい、とは。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "断れば、お前の、首を、はねる。……その前に、お前の、郷里の、母親もだ。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……おっ母を。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……呼べ。"
+  },
+  {
    "op": "hide",
-   "actor": "yui"
+   "actor": "kurogane"
   },
   {
    "op": "hide",
    "actor": "sasuke"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……正助。……蛍か。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……はい。……田んぼの、向こうに、いっぱい。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……きれいだ。……蛍の光は、龍の目に、使えるかもしれん。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……あの、先生。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "どうした。顔色が、悪いぞ。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……いえ。……蛍が、目に、入っただけで。"
+  },
+  {
+   "op": "nar",
+   "text": "闇の中から、刀が、ひらめいた。……重信は、声もなく、倒れた。浪江が、血のついた刀を、拭った。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……正助。……先生は、盗賊に、襲われた。……いいな。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……先生。……先生。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "泣くな。……お前は、何も、見なかった。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "南蔵院。夜更け。正助が、震えながら、寺の、本堂へ、駆け込んだ。"
+  },
+  {
+   "op": "nar",
+   "text": "……天井の、龍の絵は、片方の、目と、爪が、まだ、描かれていなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……先生の、龍が。……描きかけの、まま。"
+  },
+  {
+   "op": "nar",
+   "text": "灯明が、揺れた。……天井の下に、ぼんやりと、人影が、立っていた。筆を、手にしている。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "そこに、おられるのは！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……正助。……墨を、すってくれ。……薄く。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……先生、……先生は、さっき。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……龍を、描き残しては、死にきれぬ。……墨を。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "正助は、泣きながら、墨を、すった。……影は、天井へ、筆を、伸ばし、龍の目と、爪を、描き入れた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……これで、龍は、天に、昇れる。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……先生。……お許しを。……わたしは、浪江さまに、脅されて。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……正助。……お前を、恨みは、せぬ。……だが、頼みが、ある。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……真与太郎を、守ってくれ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "影は、ふっと、消えた。……天井の龍が、一瞬、身じろぎしたように、見えた。"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "重信の、葬儀の、あと。重信の家。仏壇の前。お関が、白い喪服で、座っている。浪江が、後ろに、立った。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……奥さま。……お気の毒、でした。……盗賊とは、恐ろしい。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……盗賊。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……正助が、そう、申しておりました。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……浪江さま。……あの夜、あなたは、どちらに。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……拙者は、家で、留守を、守っておりました。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……家に、おられた、と。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……奥さま。……これからは、拙者が、この家を、守ります。……真与太郎さまの、父親代わりとして。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……主人の、四十九日も、まだですのに。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "女ひとりで、子を、育てられるとでも。……世間が、許しませぬぞ。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "お関は、何も、言えなかった。……真与太郎を、守るために、うなずくしか、なかった。"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
   },
   {
    "op": "bg",
@@ -375,126 +675,264 @@
   },
   {
    "op": "nar",
-   "text": "第3景「乳房榎の奇跡」。飢えた赤子の前で榎から白い雫が落ち、正助は主の霊の願いを悟る。"
+   "text": "半年後。浪江は、お関を、無理やり、妻にして、重信の家に、居座っていた。……ある夜、浪江が、正助を、呼びつけた。"
   },
   {
    "op": "show",
-   "actor": "yoru",
+   "actor": "kurogane",
    "pos": "left"
   },
   {
    "op": "show",
-   "actor": "rei_kimono",
+   "actor": "sasuke",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……正助。……赤子が、うるさい。……夜泣きが、ひどい。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……真与太郎さまは、お父上を、恋しがって。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……あの子が、育てば、いずれ、父親の、ことを、知る。……仇を、討ちに、来るかもしれん。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……真与太郎さまを、滝へ。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "十二社の、滝へ、連れていけ。……滝壺に、落としてこい。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "なんと、むごい！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "断れば、……わかっているな。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……仰せの、とおりに。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "十二社の、滝。夜。轟音。正助が、赤子を、抱いて、滝壺の、縁に、立っている。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……真与太郎さま。"
+  },
+  {
+   "op": "nar",
+   "text": "赤子が、正助の、指を、握った。……小さな、温かい、手。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……できない。……できるもんか。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……先生と、約束したんだ。……守ってくれ、と。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……逃げよう。……浪江さまの、手の、届かないところへ。"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "left"
+  },
+  {
+   "op": "nar",
+   "text": "武州、赤塚の、村はずれ。冬。……正助は、赤子を抱いて、松月院という寺の、裏手に、隠れ住んでいた。"
+  },
+  {
+   "op": "nar",
+   "text": "乳が、ない。赤子は、日に日に、弱っていく。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……乳が、ない。……米の、重湯も、もう、飲まない。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……先生。……真与太郎さまが、死んでしまう。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "寺の裏の、大きな、榎の木。……その幹に、乳房のような、こぶが、二つ、垂れていた。"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
    "pos": "right"
   },
   {
    "op": "say",
    "actor": "yoru",
-   "text": "ここは「乳房榎の奇跡」。飢えた赤子の前で榎から白い雫が落ち、正助は主の霊の願いを悟る。",
-   "eyes": "normal"
+   "text": "……泣くでない、下男よ。"
   },
   {
    "op": "say",
-   "actor": "rei_kimono",
-   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
-   "eyes": "joy",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "yoru",
-   "text": "今の選択は、次の場面だけでなく結末まで動かす。",
-   "eyes": "anger"
-  },
-  {
-   "op": "say",
-   "actor": "rei_kimono",
-   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "nar",
-   "text": "乳房榎の奇跡の空気が変わり、言葉の裏にある選択が見える。"
-  },
-  {
-   "op": "say",
-   "actor": "yoru",
-   "text": "私は「忠義は復讐の刃だけでなく、遺された命を守る手でもある」という問いから逃げたくない。",
-   "eyes": "surprise",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "rei_kimono",
-   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
-   "eyes": "closed"
-  },
-  {
-   "op": "say",
-   "actor": "yoru",
-   "text": "飢えた赤子の前で榎から白い雫が落ち、正助は主の霊の願いを悟る。ならば、今できる一手を選ぶ。",
-   "eyes": "fun"
-  },
-  {
-   "op": "say",
-   "actor": "rei_kimono",
-   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
-   "eyes": "crying",
-   "mouth": "open"
-  },
-  {
-   "op": "nar",
-   "text": "舞台の奥で音が止み、飢えた赤子の前で榎から白い雫が落ち、正助は主の霊の願いを悟る。"
-  },
-  {
-   "op": "say",
-   "actor": "yoru",
-   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
-   "eyes": "normal"
-  },
-  {
-   "op": "say",
-   "actor": "rei_kimono",
-   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
-   "eyes": "joy"
-  },
-  {
-   "op": "say",
-   "actor": "yoru",
-   "text": "「乳房榎の奇跡」を通り過ぎず、この場で必要な言葉を残す。",
-   "eyes": "anger",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "rei_kimono",
-   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "nar",
-   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-  },
-  {
-   "op": "say",
-   "actor": "yoru",
-   "text": "答えは一つでなくても、選んだ責任は分け合える。",
+   "actor": "sasuke",
+   "text": "……木が、しゃべった。",
    "eyes": "surprise"
   },
   {
    "op": "say",
-   "actor": "rei_kimono",
-   "text": "よし。次の場面へ持って行ける答えになった。",
-   "eyes": "closed",
-   "mouth": "open"
+   "actor": "yoru",
+   "text": "……榎の、精。……この、こぶから、乳が、出る。……赤子に、飲ませよ。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……木から、乳が。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "昔、この木の下で、乳の出ない、母親たちが、祈った。……その祈りが、こぶに、なった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "榎のこぶから、白い、雫が、ぽたり、ぽたりと、落ちてきた。……正助は、手のひらで、受けて、赤子の、口に、運んだ。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……飲んだ。……飲んでる。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……重信の、願いだ。……あの絵師は、死んでも、子を、案じている。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……先生が、見ていて、くださる。",
+   "eyes": "crying"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
   },
   {
    "op": "hide",
    "actor": "yoru"
   },
   {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "赤塚の、榎の下。五年後の、夏。……五歳の真与太郎が、榎の根元で、木の枝で、地面に、絵を、描いて、遊んでいる。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……真与太郎さまは、絵を、描くのが、好きでね。……毎日、地面に、龍ばかり。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……誰も、教えておらぬのに。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……先生の、血でしょう。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……父親のことを、聞かれたら、何と、答える。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……まだ、聞かれません。……おっ母は、どこ、とは、聞かれますけど。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……そのたびに、遠くにいる、と。……嘘は、つきたくないんだが。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……嘘では、ない。……遠くに、おる。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……いつか、全部、話さなきゃ、ならない。……わたしが、先生を、呼び出したことも。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……その日が、来るまで、乳を、出し続けよう。",
+   "eyes": "closed"
+  },
+  {
    "op": "hide",
-   "actor": "rei_kimono"
+   "actor": "sasuke"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
   },
   {
    "op": "bg",
@@ -507,11 +945,15 @@
   },
   {
    "op": "nar",
-   "text": "第4景「絵に宿る告発」。完成しない龍の絵へ重信の霊が現れ、浪江の嘘を一筆ずつ暴く。"
+   "text": "十年後。赤塚の村。正助と、十歳になった、真与太郎が、慎ましく、暮らしている。"
+  },
+  {
+   "op": "nar",
+   "text": "……ある日、正助は、江戸に、出た。南蔵院の、龍の天井を、見るために。"
   },
   {
    "op": "show",
-   "actor": "kurogane",
+   "actor": "sasuke",
    "pos": "left"
   },
   {
@@ -520,147 +962,135 @@
    "pos": "right"
   },
   {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "ここは「絵に宿る告発」。完成しない龍の絵へ重信の霊が現れ、浪江の嘘を一筆ずつ暴く。"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
-   "eyes": "joy"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "今の選択は、次の場面だけでなく結末まで動かす。"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
-   "eyes": "sorrow",
-   "mouth": "open"
-  },
-  {
    "op": "nar",
-   "text": "絵に宿る告発の空気が変わり、言葉の裏にある選択が見える。"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "私は「忠義は復讐の刃だけでなく、遺された命を守る手でもある」という問いから逃げたくない。"
+   "text": "南蔵院の本堂。天井の、龍の下に、尼の姿の、女が、座っていた。……お関だった。"
   },
   {
    "op": "say",
    "actor": "yui",
-   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
-   "eyes": "closed"
+   "text": "……正助なの。"
   },
   {
    "op": "say",
-   "actor": "kurogane",
-   "text": "完成しない龍の絵へ重信の霊が現れ、浪江の嘘を一筆ずつ暴く。ならば、今できる一手を選ぶ。"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
-   "eyes": "crying"
-  },
-  {
-   "op": "nar",
-   "text": "舞台の奥で音が止み、完成しない龍の絵へ重信の霊が現れ、浪江の嘘を一筆ずつ暴く。"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
+   "actor": "sasuke",
+   "text": "……奥さま。……そのお姿は。",
+   "eyes": "surprise"
   },
   {
    "op": "say",
    "actor": "yui",
-   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
-   "eyes": "joy",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "「絵に宿る告発」を通り過ぎず、この場で必要な言葉を残す。"
+   "text": "……浪江は、去年、亡くなりました。……毎晩、天井の龍に、睨まれる夢を、見て、……とうとう、気が、ふれて。"
   },
   {
    "op": "say",
    "actor": "yui",
-   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+   "text": "……わたしは、尼になって、主人の、供養を。",
    "eyes": "sorrow"
   },
   {
-   "op": "nar",
-   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-  },
-  {
    "op": "say",
-   "actor": "kurogane",
-   "text": "答えは一つでなくても、選んだ責任は分け合える。"
+   "actor": "sasuke",
+   "text": "……奥さま。……真与太郎さまは、生きて、おられます。"
   },
   {
    "op": "say",
    "actor": "yui",
-   "text": "よし。次の場面へ持って行ける答えになった。",
-   "eyes": "closed"
-  },
-  {
-   "op": "choice",
-   "options": [
-    {
-     "text": "今すぐ行動する",
-     "jump": "chibusa-enoki_direct"
-    },
-    {
-     "text": "もう一人の声を最後まで聞く",
-     "jump": "chibusa-enoki_listen"
-    }
-   ]
-  },
-  {
-   "op": "label",
-   "id": "chibusa-enoki_direct"
+   "text": "……生きて！",
+   "eyes": "surprise"
   },
   {
    "op": "say",
-   "actor": "kurogane",
-   "text": "私は今すぐ動く。遅れた分は、行動の後で説明する。"
-  },
-  {
-   "op": "jump",
-   "to": "chibusa-enoki_merge"
-  },
-  {
-   "op": "label",
-   "id": "chibusa-enoki_listen"
+   "actor": "sasuke",
+   "text": "滝へは、落とせませんでした。……赤塚で、榎の、乳で、育てました。"
   },
   {
    "op": "say",
    "actor": "yui",
-   "text": "私は最後まで聞く。沈黙も答えの一部として受け止める。",
-   "eyes": "anger"
-  },
-  {
-   "op": "label",
-   "id": "chibusa-enoki_merge"
-  },
-  {
-   "op": "nar",
-   "text": "選び方は違っても、二人は同じ核心を次の景へ運ぶ。"
+   "text": "……正助。……ありがとう。……ありがとう。",
+   "eyes": "crying"
   },
   {
    "op": "hide",
-   "actor": "kurogane"
+   "actor": "sasuke"
   },
   {
    "op": "hide",
    "actor": "yui"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "天井の、龍の目が、きらりと、光った。……灯明の下に、重信の、影が、立っていた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……来たか、正助。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……先生、お懐かしゅう。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……よく、守ってくれた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……龍の絵に、まだ、描き足りないところが、ある。……真与太郎の、ことだ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "浪江の、罪を、天井の、龍の下に、書き残した。……見よ。"
+  },
+  {
+   "op": "nar",
+   "text": "天井の、龍の、腹の、鱗の、一枚一枚に、小さな、文字が、浮かんでいた。"
+  },
+  {
+   "op": "nar",
+   "text": "……落合の、夜のこと。浪江の、刀のこと。正助が、脅されたこと。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……すべて、ここに。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……この龍を、寺の、和尚に、見せよ。……お上にも。……浪江は、死んだが、……罪は、記録に、残さねば、ならぬ。"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
   },
   {
    "op": "bg",
@@ -673,7 +1103,7 @@
   },
   {
    "op": "nar",
-   "text": "第5景「正助の裁き」。正助は復讐だけに走らず赤子を守り、真相を公へ出して主の無念を晴らす。"
+   "text": "赤塚の、榎の下。正助が、真与太郎に、すべてを、話している。"
   },
   {
    "op": "show",
@@ -688,102 +1118,95 @@
   {
    "op": "say",
    "actor": "sasuke",
-   "text": "ここは「正助の裁き」。正助は復讐だけに走らず赤子を守り、真相を公へ出して主の無念を晴らす。",
-   "eyes": "normal"
+   "text": "……真与太郎さま。……あなたの、お父上は、殺されました。……わたしが、呼び出した、その場所で。"
   },
   {
    "op": "say",
    "actor": "yoru",
-   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
-   "eyes": "joy"
+   "text": "……正助。……それを、話すのか。"
   },
   {
    "op": "say",
    "actor": "sasuke",
-   "text": "今の選択は、次の場面だけでなく結末まで動かす。",
-   "eyes": "anger",
-   "mouth": "open"
+   "text": "話します。……わたしが、隠したら、浪江さまと、同じに、なる。"
   },
   {
    "op": "say",
-   "actor": "yoru",
-   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
+   "actor": "sasuke",
+   "text": "真与太郎さまは、仇を、討ちたいと、思うかもしれない。……でも、仇は、もう、死んでいる。",
    "eyes": "sorrow"
   },
   {
-   "op": "nar",
-   "text": "正助の裁きの空気が変わり、言葉の裏にある選択が見える。"
-  },
-  {
-   "op": "say",
-   "actor": "sasuke",
-   "text": "私は「忠義は復讐の刃だけでなく、遺された命を守る手でもある」という問いから逃げたくない。",
-   "eyes": "surprise"
-  },
-  {
    "op": "say",
    "actor": "yoru",
-   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
-   "eyes": "closed",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "sasuke",
-   "text": "正助は復讐だけに走らず赤子を守り、真相を公へ出して主の無念を晴らす。ならば、今できる一手を選ぶ。",
-   "eyes": "fun"
-  },
-  {
-   "op": "say",
-   "actor": "yoru",
-   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
-   "eyes": "crying"
-  },
-  {
-   "op": "nar",
-   "text": "舞台の奥で音が止み、正助は復讐だけに走らず赤子を守り、真相を公へ出して主の無念を晴らす。"
-  },
-  {
-   "op": "say",
-   "actor": "sasuke",
-   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
-   "eyes": "normal",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "yoru",
-   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
-   "eyes": "joy"
-  },
-  {
-   "op": "say",
-   "actor": "sasuke",
-   "text": "「正助の裁き」を通り過ぎず、この場で必要な言葉を残す。",
-   "eyes": "anger"
-  },
-  {
-   "op": "say",
-   "actor": "yoru",
-   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
-   "eyes": "sorrow",
-   "mouth": "open"
-  },
-  {
-   "op": "nar",
-   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-  },
-  {
-   "op": "say",
-   "actor": "sasuke",
-   "text": "答えは一つでなくても、選んだ責任は分け合える。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "say",
-   "actor": "yoru",
-   "text": "よし。次の場面へ持って行ける答えになった。",
+   "text": "……では、何を、渡す。",
    "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……真実を。……それから、この、榎の、乳の、話を。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "正助は、真与太郎に仇討ちを勧めない",
+     "jump": "m_peace"
+    },
+    {
+     "text": "正助は、自分の罪を役人に申し出る",
+     "jump": "m_confess"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_peace"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "真与太郎さま。……お父上の、龍を、見に、行きましょう。……仇討ちの、刀ではなく、筆を、持って。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……絵師の、子に、絵師の、道を。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "選ぶのは、真与太郎さまです。……わたしは、それを、守るだけ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "jump",
+   "to": "m_end"
+  },
+  {
+   "op": "label",
+   "id": "m_confess"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "南蔵院の、龍の、鱗に、わたしの、名前も、書いてあります。……脅されて、先生を、呼び出した、下男、と。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……お前も、裁かれるのか。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "裁かれます。……でも、真与太郎さまが、成人するまでは、待ってほしいと、お上に、願います。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "label",
+   "id": "m_end"
   },
   {
    "op": "hide",
@@ -805,21 +1228,17 @@
   {
    "op": "say",
    "actor": "nono",
-   "text": "『怪談乳房榎―絵師の怨みと忠義―』、これにて終演です。",
-   "eyes": "joy"
+   "text": "三遊亭圓朝『怪談乳房榎』より、絵師の怨みと、下男の忠義。これにて、幕でございます。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "残った問いは「忠義は復讐の刃だけでなく、遺された命を守る手でもある」。",
-   "eyes": "anger"
+   "text": "重信の霊は、龍を、描き上げ、罪を、書き残しました。……けれど、子を、生かしたのは、正助の、手と、榎の、白い雫。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "選んだ結末を、次の物語まで覚えていてください。",
-   "eyes": "sorrow",
-   "mouth": "open"
+   "text": "赤塚の、乳房榎は、今も、子育ての、木として、祀られているそうでございます。"
   },
   {
    "op": "hide",

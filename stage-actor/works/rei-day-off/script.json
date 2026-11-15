@@ -1,815 +1,1402 @@
 {
-  "meta": {
-    "id": "rei-day-off",
-    "number": 164,
-    "title": "レイの休日 ―今日は忍者ではありません―",
-    "original": "NONO座オリジナル",
-    "category": "Stage Actorオリジナル",
-    "adaptation": "free",
-    "format": "v3",
-    "minutes": 31,
-    "synopsis": "普段着のレイは忍者役を断固拒否して休日へ出る。しかし静かな歩き方も買い物も昼寝も、仲間には忍術に見えてしまう。",
-    "theme": "得意な役から離れる日にも、その人らしさは残る",
-    "chapters": [
-      {
-        "id": "main",
-        "title": "本編",
-        "scenes": [
-          "declaration",
-          "quiet_cafe",
-          "shopping_bag",
-          "park_nap",
-          "ordinary_step"
-        ]
-      }
-    ],
-    "note": "既存翻訳・上演台本・特定演者の口演は転用せず、台詞は本上演版の書き下ろし。"
-  },
-  "cast": [
-    {
-      "role": "休日のレイ",
-      "actor": "rei_casual",
-      "costume": "default"
-    },
-    {
-      "role": "同行者",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "観察役",
-      "actor": "shiro",
-      "costume": "default"
-    },
-    {
-      "role": "疑い深い店主",
-      "actor": "kurogane",
-      "costume": "default"
-    }
+ "meta": {
+  "id": "rei-day-off",
+  "number": 164,
+  "title": "レイの休日 ―今日は忍者ではありません―",
+  "original": "NONO座オリジナル",
+  "category": "Stage Actorオリジナル",
+  "adaptation": "free",
+  "format": "v3",
+  "minutes": 39,
+  "synopsis": "普段着のレイは忍者役を断固拒否して休日へ出る。しかし静かな歩き方も買い物も昼寝も、仲間には忍術に見えてしまう。",
+  "theme": "得意な役から離れる日にも、その人らしさは残る",
+  "chapters": [
+   {
+    "id": "main",
+    "title": "本編",
+    "scenes": [
+     "declaration",
+     "quiet_cafe",
+     "shopping_bag",
+     "park_nap",
+     "ordinary_step"
+    ]
+   }
   ],
-  "backgrounds": {
-    "declaration": "bg/rei-day-off-declaration-2048x1152.png",
-    "quiet_cafe": "bg/rei-day-off-quiet_cafe-2048x1152.png",
-    "shopping_bag": "bg/rei-day-off-shopping_bag-2048x1152.png",
-    "park_nap": "bg/rei-day-off-park_nap-2048x1152.png",
-    "ordinary_step": "bg/rei-day-off-ordinary_step-2048x1152.png"
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "休日のレイ",
+   "actor": "rei_casual",
+   "costume": "default"
   },
-  "steps": [
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『レイの休日―今日は忍者ではありません―』。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "StageActorオリジナルの舞台を、全5景でお届けします。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "この舞台の核は「得意な役から離れる日にも、その人らしさは残る」。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "既存の台詞を写さず、今夜のために新しく構成しました。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "それでは、幕を開けましょう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "declaration",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "declaration"
-    },
-    {
-      "op": "nar",
-      "text": "第1景「忍者休業宣言」。レイは普段着で現れ、今日は隠れない、跳ばない、手裏剣を持たないと宣言する。"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "ここは「忍者休業宣言」。レイは普段着で現れ、今日は隠れない、跳ばない、手裏剣を持たないと宣言する。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "今の選択は、次の場面だけでなく結末まで動かす。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "忍者休業宣言の空気が変わり、言葉の裏にある選択が見える。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "私は「得意な役から離れる日にも、その人らしさは残る」という問いから逃げたくない。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "レイは普段着で現れ、今日は隠れない、跳ばない、手裏剣を持たないと宣言する。ならば、今できる一手を選ぶ。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "舞台の奥で音が止み、レイは普段着で現れ、今日は隠れない、跳ばない、手裏剣を持たないと宣言する。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "「忍者休業宣言」を通り過ぎず、この場で必要な言葉を残す。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "答えは一つでなくても、選んだ責任は分け合える。",
-      "eyes": "surprise",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "よし。次の場面へ持って行ける答えになった。",
-      "eyes": "closed"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "bg",
-      "src": "quiet_cafe",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "quiet_cafe"
-    },
-    {
-      "op": "nar",
-      "text": "第2景「静かすぎる喫茶店」。音を立てず椅子へ座っただけで、全員が消身の術だと騒ぎ始める。"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "ここは「静かすぎる喫茶店」。音を立てず椅子へ座っただけで、全員が消身の術だと騒ぎ始める。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "今の選択は、次の場面だけでなく結末まで動かす。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "静かすぎる喫茶店の空気が変わり、言葉の裏にある選択が見える。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "私は「得意な役から離れる日にも、その人らしさは残る」という問いから逃げたくない。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
-      "eyes": "closed",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "音を立てず椅子へ座っただけで、全員が消身の術だと騒ぎ始める。ならば、今できる一手を選ぶ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "舞台の奥で音が止み、音を立てず椅子へ座っただけで、全員が消身の術だと騒ぎ始める。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "「静かすぎる喫茶店」を通り過ぎず、この場で必要な言葉を残す。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "答えは一つでなくても、選んだ責任は分け合える。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "よし。次の場面へ持って行ける答えになった。",
-      "eyes": "closed"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "bg",
-      "src": "shopping_bag",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "shopping_bag"
-    },
-    {
-      "op": "nar",
-      "text": "第3景「買い物袋の誤解」。投げ売りの札と丸いコースターが忍具に見え、店主が勝手に警戒する。"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "ここは「買い物袋の誤解」。投げ売りの札と丸いコースターが忍具に見え、店主が勝手に警戒する。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "今の選択は、次の場面だけでなく結末まで動かす。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。"
-    },
-    {
-      "op": "nar",
-      "text": "買い物袋の誤解の空気が変わり、言葉の裏にある選択が見える。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "私は「得意な役から離れる日にも、その人らしさは残る」という問いから逃げたくない。",
-      "eyes": "surprise",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "投げ売りの札と丸いコースターが忍具に見え、店主が勝手に警戒する。ならば、今できる一手を選ぶ。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "その一手で得るものと、失うものを同じ明るさで見よう。"
-    },
-    {
-      "op": "nar",
-      "text": "舞台の奥で音が止み、投げ売りの札と丸いコースターが忍具に見え、店主が勝手に警戒する。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "「買い物袋の誤解」を通り過ぎず、この場で必要な言葉を残す。",
-      "eyes": "anger",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。"
-    },
-    {
-      "op": "nar",
-      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "答えは一つでなくても、選んだ責任は分け合える。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "よし。次の場面へ持って行ける答えになった。"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "bg",
-      "src": "park_nap",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "park_nap"
-    },
-    {
-      "op": "nar",
-      "text": "第4景「木陰の昼寝」。普通に眠りたいレイの周囲で仲間が護衛陣形を作り、休日が任務になる。"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "ここは「木陰の昼寝」。普通に眠りたいレイの周囲で仲間が護衛陣形を作り、休日が任務になる。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "今の選択は、次の場面だけでなく結末まで動かす。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "木陰の昼寝の空気が変わり、言葉の裏にある選択が見える。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "私は「得意な役から離れる日にも、その人らしさは残る」という問いから逃げたくない。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "普通に眠りたいレイの周囲で仲間が護衛陣形を作り、休日が任務になる。ならば、今できる一手を選ぶ。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "舞台の奥で音が止み、普通に眠りたいレイの周囲で仲間が護衛陣形を作り、休日が任務になる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "「木陰の昼寝」を通り過ぎず、この場で必要な言葉を残す。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "答えは一つでなくても、選んだ責任は分け合える。",
-      "eyes": "surprise",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "よし。次の場面へ持って行ける答えになった。",
-      "eyes": "closed"
-    },
-    {
-      "op": "choice",
-      "options": [
-        {
-          "text": "今すぐ行動する",
-          "jump": "rei-day-off_direct"
-        },
-        {
-          "text": "もう一人の声を最後まで聞く",
-          "jump": "rei-day-off_listen"
-        }
-      ]
-    },
-    {
-      "op": "label",
-      "id": "rei-day-off_direct"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "私は今すぐ動く。遅れた分は、行動の後で説明する。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "jump",
-      "to": "rei-day-off_merge"
-    },
-    {
-      "op": "label",
-      "id": "rei-day-off_listen"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "私は最後まで聞く。沈黙も答えの一部として受け止める。",
-      "eyes": "anger"
-    },
-    {
-      "op": "label",
-      "id": "rei-day-off_merge"
-    },
-    {
-      "op": "nar",
-      "text": "選び方は違っても、二人は同じ核心を次の景へ運ぶ。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "bg",
-      "src": "ordinary_step",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "ordinary_step"
-    },
-    {
-      "op": "nar",
-      "text": "第5景「ただ歩いて帰る」。レイは忍者らしさを否定せず、役ではない自分の歩幅で劇場へ戻る。"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "ここは「ただ歩いて帰る」。レイは忍者らしさを否定せず、役ではない自分の歩幅で劇場へ戻る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "今の選択は、次の場面だけでなく結末まで動かす。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "ただ歩いて帰るの空気が変わり、言葉の裏にある選択が見える。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "私は「得意な役から離れる日にも、その人らしさは残る」という問いから逃げたくない。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
-      "eyes": "closed",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "レイは忍者らしさを否定せず、役ではない自分の歩幅で劇場へ戻る。ならば、今できる一手を選ぶ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "舞台の奥で音が止み、レイは忍者らしさを否定せず、役ではない自分の歩幅で劇場へ戻る。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "「ただ歩いて帰る」を通り過ぎず、この場で必要な言葉を残す。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "答えは一つでなくても、選んだ責任は分け合える。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "よし。次の場面へ持って行ける答えになった。",
-      "eyes": "closed"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "『レイの休日―今日は忍者ではありません―』、これにて終演です。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "残った問いは「得意な役から離れる日にも、その人らしさは残る」。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "選んだ結末を、次の物語まで覚えていてください。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "end"
+  {
+   "role": "同行者",
+   "actor": "nono",
+   "costume": "default"
+  },
+  {
+   "role": "観察役",
+   "actor": "shiro",
+   "costume": "default"
+  },
+  {
+   "role": "疑い深い店主",
+   "actor": "kurogane",
+   "costume": "default"
+  },
+  {
+   "role": "狂言回し",
+   "actor": "yui_origin",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "declaration": "bg/rei-day-off-declaration-2048x1152.png",
+  "quiet_cafe": "bg/rei-day-off-quiet_cafe-2048x1152.png",
+  "shopping_bag": "bg/rei-day-off-shopping_bag-2048x1152.png",
+  "park_nap": "bg/rei-day-off-park_nap-2048x1152.png",
+  "ordinary_step": "bg/rei-day-off-ordinary_step-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "yui_origin",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "NONO座の、看板役者のひとり、レイ。……舞台では、たいてい、忍者を、演じております。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "屋根から、屋根へ。音もなく、影から、影へ。……お客さまに、いちばん、拍手を、もらう役。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "今宵は、そのレイの、なんでもない、一日の、お話。……お休みの、日でございます。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "得意な役から、離れる日にも、その人らしさは、ちゃんと、残る。……さて、どう残るのか、ご覧くださいませ。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui_origin"
+  },
+  {
+   "op": "bg",
+   "src": "declaration",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "declaration"
+  },
+  {
+   "op": "nar",
+   "text": "NONO座の、楽屋口。日曜の、朝。"
+  },
+  {
+   "op": "nar",
+   "text": "……ジーンズに、パーカー、白いスニーカーの、レイが、立っている。nonoと、シローが、出迎えた。"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……レイ、おはよう。……今日は、お休みだね。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……休み。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……レイさん、その格好、初めて、見ました。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……普段着。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "似合ってる。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……宣言する。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……宣言。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……今日は、隠れない。跳ばない。手裏剣を、持たない。……忍者は、休業。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……わかった。……今日は、普通の、レイだね。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……普通の、レイ。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……普通の、レイさんって、どんな、感じですか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……わからない。……だから、今日、確かめる。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……ぼくたちも、一緒に、出かけて、いいですか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……いい。……ただし、忍者扱い、しないこと。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "忍者扱いは、しません。……指切り。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "しません。……たぶん。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "楽屋口から、通りへ。三人が、歩き出した。……レイの足音だけが、聞こえない。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……座長代行。……レイさんの、足音。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……聞こえないね。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……スニーカーなのに。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……忍び足、かな。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……でも、休業中、ですよね。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……休業中なのに、忍び足。"
+  },
+  {
+   "op": "nar",
+   "text": "少し先を、歩いていたレイが、振り返った。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……今、何か、言った。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……い、いえ。何も。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……忍び足じゃ、ない。……これが、普通の、歩き方。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……普通で、それ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "bg",
+   "src": "quiet_cafe",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "quiet_cafe"
+  },
+  {
+   "op": "nar",
+   "text": "商店街の、角の、喫茶店。古い、木の扉。カウベルが、からん、と鳴る。……三人が、入っていった。"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……ここ、いいね。……静かで。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "窓際の、席に、しましょう。"
+  },
+  {
+   "op": "nar",
+   "text": "nonoと、シローが、椅子を、引いて、座った。……ぎい、ぎい、と、木の椅子が、鳴る。"
+  },
+  {
+   "op": "nar",
+   "text": "レイも、椅子を、引いて、座った。……音が、しなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……レイさん。……今、座りました？",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……座った。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……椅子が、鳴らなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……普通に、座っただけ。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……消身の、術。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……術じゃ、ない。座っただけ。"
+  },
+  {
+   "op": "nar",
+   "text": "店の奥から、マスターが、水を、運んできた。……二つ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……あの、三人です。"
+  },
+  {
+   "op": "nar",
+   "text": "マスターは、目を、こすった。……レイが、そこに、いた。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……マスターにも、見えてなかった。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……水、もう一つ、ください。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "喫茶店。コーヒーが、運ばれてきた。……三人で、ゆっくり、飲んでいる。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……レイ、休日は、いつも、何を、してるの。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……一日中、寝てる。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……丸一日？"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……あと、洗濯。……掃除。……猫を、見に行く。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……猫。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……近所の、塀の上に、いる。……三毛。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……普通の、休日だ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……その三毛、名前は。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……知らない。……名前を、つけたら、懐かれる。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……懐かれたら、だめなの。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……別れるとき、寂しい。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……普通の、休日。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……猫は、レイさんに、気づきますか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……気づかない。……隣に、座っても。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……やっぱり、消身の、術。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……猫が、鈍いだけ。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "bg",
+   "src": "shopping_bag",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "shopping_bag"
+  },
+  {
+   "op": "nar",
+   "text": "商店街の、雑貨屋。……古びた、看板。店先には、売り物が、所狭しと、並んでいる。"
+  },
+  {
+   "op": "nar",
+   "text": "眉間に、しわを寄せた、店主が、腕組みを、している。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……いらっしゃい。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……見るだけ。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……見るだけ、か。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "レイは、棚の、商品を、一つずつ、手に取った。……音もなく、手に取り、音もなく、戻す。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……お客さん。……手つきが、妙だね。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……普通。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "普通の人は、物を、戻すとき、ことり、と、音がする。……あんたは、しない。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……静かなほうが、いい。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……怪しい。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "nonoが、店に、入ってきた。……レイが、何かを、手にしていた。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……レイ、何を、見てるの。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……コースター。……丸い、木の。"
+  },
+  {
+   "op": "nar",
+   "text": "レイの手の中に、丸い、木のコースターが、五枚。……指の間に、一枚ずつ、挟んでいる。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……それは。……手裏剣の、持ち方だ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……違う。……五枚、比べてる。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "指の間に、挟んで、比べる人は、いない。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……レイ、それ、確かに、手裏剣の、持ち方。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……クセ。"
+  },
+  {
+   "op": "nar",
+   "text": "レイは、コースターを、そっと、棚に、戻した。……壁の、「投げ売り」の、札が、ひらりと、揺れた。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……投げ売り。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……あんた、それを、投げる、つもりか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……投げない。……売ってるだけ。……投げて、売る、じゃない。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……言葉の、綾か。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……店主さん、それ、ただの、安売りの、札です。",
+   "eyes": "fun"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "結局、レイは、木のコースターを、一枚、買った。……店主が、紙袋に、入れた。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……毎度、ありい。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……大事に、使う。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……あんた、忍者かい。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……今日は、違う。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……今日は、か。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……明日は、忍者。……舞台で。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……舞台。……ああ、NONO座の。……ポスターで、見たことが、ある。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……見に来て。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……忍者に、誘われるとはな。……行くよ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……一番前の、席で。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……一番前は、手裏剣が、飛んでくるだろう。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……飛ばない。……紙の、手裏剣。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "bg",
+   "src": "park_nap",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "park_nap"
+  },
+  {
+   "op": "nar",
+   "text": "近所の、公園。大きな、楠の、木陰。……午後の、日差しが、まぶしい。レイが、芝生に、寝転んだ。"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……昼寝、する。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……いいね。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……ぼくたちは、どうしましょう。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……好きに、して。"
+  },
+  {
+   "op": "nar",
+   "text": "レイは、目を、閉じた。……すぐに、寝息が、聞こえてきた。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……座長代行。……レイさん、寝ちゃいました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……寝ちゃったね。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……寝ている、間、無防備、ですよね。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……忍者は、寝ていても、気配に、気づく、っていうけど。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……今日は、休業中だから。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……じゃあ、ぼくらが、見張ろうか。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "楠の、周り。nonoと、シローが、レイの、両側に、陣取った。……そこへ、雑貨屋の、店主が、通りかかった。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……おや、さっきの。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……し、静かに。……今、昼寝中です。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……二人で、何を、しとる。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……護衛です。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……誰を、守っとる。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "休業中の、忍者は、無防備ですから。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……ほう。……では、わしも、手伝おう。"
+  },
+  {
+   "op": "nar",
+   "text": "店主も、木の陰に、立った。……三人が、レイを、三方から、囲む、陣形。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……鶴翼の、陣。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……陣形まで、あるのか。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "一時間後。頭の上で、か細い声が、した。……にゃあ。レイが、目を、開けた。周りに、三人が、立っている。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……何、してる。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……見張って、た。……レイ、上。"
+  },
+  {
+   "op": "nar",
+   "text": "楠の、高い枝の、先。三毛猫が、しがみついて、震えている。枝が、風で、大きく、揺れた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……塀の、三毛。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……降りられなく、なったんだ。……あの枝、細いです。猫ごと、折れそう。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……雑貨屋の、店主さんが、脚立を、取りに、行ってくれた。……でも、半分も、届かない。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……消防に、電話しますか。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……来るまで、あの枝が、もつかどうか。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "風が、また、吹いた。三毛が、悲鳴のように、鳴いた。……三人の目が、自然に、レイを、見た。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……今日は、休業。……跳ばない、って、宣言した。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……レイさん。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……でも、あの猫には、関係ない。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "レイは、休業を破り、幹を駆け上がって、一気に枝へ跳ぶ",
+     "jump": "c_leap"
+    },
+    {
+     "text": "レイは、跳ばずに、脚立から一段ずつ、普通に登っていく",
+     "jump": "c_climb"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "c_leap"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……休業、中止。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "レイの姿が、消えた。……次の瞬間、幹を、三歩で、駆け上がり、枝先の、三毛を、片腕で、抱えていた。"
+  },
+  {
+   "op": "nar",
+   "text": "枝が、ぽきりと、折れた。……レイは、猫を、抱いたまま、くるりと、回って、芝生に、音もなく、降りた。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……見えなかった。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……やっぱり、忍者だ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……今のは、忍者じゃない。……猫が、落ちそうだった、だけ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "jump",
+   "to": "c_after"
+  },
+  {
+   "op": "label",
+   "id": "c_climb"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……跳ばない。……普通に、登る。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "レイは、脚立の、てっぺんから、幹の、こぶに、足を、かけた。"
+  },
+  {
+   "op": "nar",
+   "text": "一段ずつ、ゆっくり、枝へ、近づいていく。……やっぱり、音は、しなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……ゆっくりだ。……でも、枝が、ほとんど、揺れてない。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……おいで。……怖くない。"
+  },
+  {
+   "op": "nar",
+   "text": "三毛は、しばらく、レイを、見つめていた。……それから、自分から、レイの、胸に、飛び移った。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……猫が、レイさんに、気づいた。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……気づかれた。……初めて。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "jump",
+   "to": "c_after"
+  },
+  {
+   "op": "label",
+   "id": "c_after"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……たいしたもんだ。……あんた、やっぱり、只者じゃない。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……ただの、休日。"
+  },
+  {
+   "op": "nar",
+   "text": "三毛は、レイの、腕の中で、ごろごろと、喉を、鳴らしている。……離れようと、しない。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……すっかり、懐かれたな。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……懐かれたら、別れるとき、寂しい。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……じゃあ、別れなきゃいい。……名前を、つけてやれ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……名前。……ミケ。……そのまま。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……ひねりが、ないな。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……普通が、いい。……今日は、普通の、日だから。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "bg",
+   "src": "ordinary_step",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "ordinary_step"
+  },
+  {
+   "op": "nar",
+   "text": "夕暮れ。劇場へ、帰る、道。……三人が、並んで、歩いている。レイの足音は、やっぱり、聞こえない。"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……レイさん。……今日は、忍者、休業、でしたよね。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……休業。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……でも、足音、しない。椅子も、鳴らない。コースターは、手裏剣持ち。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……昼寝しても、隙がない。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……全部、普通に、やっただけ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……そうなんだよね。……レイの、普通が、もう、忍者なんだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……忍者を、やめたら、レイじゃ、なくなる？"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……違う。……忍者を、やめても、レイは、レイ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……足音が、しないのも、レイ。……猫に、気づかれないのも、レイ。……ありがとう、って、言えるのも、レイ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……そうなのか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……明日は、舞台で、忍者。……次の休みは、ミケに、会いに行く。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……普通の、レイさんの、予定ですね。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……普通の、レイの、予定。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "yui_origin",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "NONO座オリジナル『レイの休日』、これにて、幕でございます。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "忍者を、休業しても、レイの、足音は、聞こえませんでした。……椅子も、鳴りませんでした。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "でも、それが、レイ。……役を、脱いでも、残るもの。それが、その人らしさ、なのでございますね。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "yui_origin"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

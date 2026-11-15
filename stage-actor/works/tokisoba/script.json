@@ -3,11 +3,11 @@
   "id": "tokisoba",
   "title": "時そば ―一文の知恵―",
   "original": "古典落語『時そば』（伝統演目・著作権消滅）",
-  "adaptation": "free",
+  "adaptation": "faithful",
   "format": "v3",
-  "minutes": 5,
-  "synopsis": "夜の蕎麦屋台。賢い客は小銭を数える途中で時刻を聞き、勘定をごまかして一文浮かせる。それを見ていた男が真似をすると、時刻が合わず大失敗。古典落語の短い笑いを、そのまま小品に仕立てた書き下ろし。",
-  "note": "本脚本は翻案であり、落語の口演の転載ではない。セリフは全て本上演版の書き下ろし。"
+  "minutes": 18,
+  "synopsis": "冬の夜の蕎麦屋台。客は店を褒めながら銭を数え、途中で時刻を聞いて一文浮かせる。それを見ていた男が真似をするが、刻限が違えば勘定も違う。観客は男が出かける刻限を選ぶ。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
  },
  "cast": [
   {
@@ -48,15 +48,31 @@
   {
    "op": "say",
    "actor": "nono",
-   "text": "ようこそ、NONO座へ。本日の演目は、短い笑いの一席『時そば』。",
-   "eyes": "normal"
+   "text": "ようこそ、NONO座へ。今夜は冬の夜更けの、蕎麦屋台へご案内します。",
+   "eyes": "joy",
+   "mouth": "open"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "舞台は夜の蕎麦屋台。お代は十六文。さて、どうやって払うのでしょう。",
-   "eyes": "fun",
-   "mouth": "open"
+   "text": "江戸の蕎麦は、一杯十六文。二八蕎麦、と申しまして、二八、十六の洒落でございます。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "払うのは一文銭が十六枚。数え方ひとつで、得をする人と、損をする人が出てまいります。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "時刻の呼び方も、今とは違います。夜の九つは真夜中、四つはそれより二刻ほど早い頃。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "この「九つ」と「四つ」、どうぞ頭の隅に置いてお聞きください。",
+   "eyes": "closed"
   },
   {
    "op": "hide",
@@ -73,81 +89,168 @@
   },
   {
    "op": "nar",
-   "text": "夜更けの屋台。湯気の向こうに、店主と一人の客。"
+   "text": "夜更けの町角。風鈴を下げた蕎麦屋台に、湯気が白く立っている。"
   },
   {
    "op": "show",
    "actor": "extra_craftsman",
-   "pos": "left"
-  },
-  {
-   "op": "show",
-   "actor": "extra_porter",
    "pos": "right"
   },
   {
    "op": "say",
    "actor": "extra_craftsman",
-   "text": "へい、温かい蕎麦一杯、お待ちどうさま。",
-   "eyes": "normal"
+   "text": "うう、冷える。今夜はまだ三杯しか出ていねえ。鍋の湯ばかり立派に沸いてらあ。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "left"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "うん、いい出汁だ。……親父、お代は十六文だったね。",
-   "eyes": "fun"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "小銭で払うよ。ほれ、一文、二文、三文、四文、五文、六文、七文、八文……",
-   "eyes": "normal"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "おっと親父、今、何時だい？",
-   "eyes": "normal",
+   "text": "おう、蕎麦屋。一杯たのむ。熱いところをな。",
+   "eyes": "joy",
    "mouth": "open"
   },
   {
    "op": "say",
    "actor": "extra_craftsman",
-   "text": "へえ、今は九つでございます。",
-   "eyes": "normal"
+   "text": "へい、毎度。ただいま。"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "九つ。……十文、十一文、十二文、十三文、十四文、十五文。はい、十六文、ごちそうさま。",
-   "eyes": "fun",
-   "mouth": "open"
-  },
-  {
-   "op": "nar",
-   "text": "客は颯爽と夜の町へ消えた。店主は、首をひねる。"
+   "text": "屋台の行灯に「当たり屋」と書いてあるな。縁起のいい屋号だ。"
   },
   {
    "op": "say",
    "actor": "extra_craftsman",
-   "text": "……ん？　なんだか、勘定が合わないような……まあ、いいか。",
+   "text": "へえ、そこに目をとめてくださるお客さんは珍しい。",
    "eyes": "surprise"
   },
   {
-   "op": "hide",
-   "actor": "extra_craftsman"
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "当たるってのは、商いがいちばん喜ぶ言葉だ。俺も今夜は当たりてえ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "お待ちどうさま。熱いのでお気をつけて。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "お、割り箸だ。誰も口をつけてねえ箸は気持ちがいい。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "器もいい。縁が欠けてねえ。こういう店は、汁もいいに決まってる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……やっぱりだ。出汁が鰹で、きりっと立ってる。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "ありがてえ。毎晩、削り節をけちらずに入れておりやす。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "麺も細くて腰がある。それにこの竹輪、厚く切ってあるじゃねえか。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "寒い晩ですから、せめて竹輪くらいはと思いまして。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "汁を最後の一滴まで飲む。これが一番の褒め言葉だ。……ふう、生き返った。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "さて、勘定だ。いくらだい。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "十六文でございます。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "細けえので払うよ。手を出しな。数えながら渡すから。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "へい、どうぞ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "ひい、ふう、みい、よう、いつ、むう、なな、やあ……"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "おっと、蕎麦屋。今、何刻だい。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "へえ、九つで。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "とお、十一、十二、十三、十四、十五、十六。……ごちそうさん。"
   },
   {
    "op": "hide",
    "actor": "extra_porter"
   },
   {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "毎度ありがとうございます。……いいお客さんだったなあ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "褒めて、きれいに食べて、細かく払ってくれる。ああいう人ばかりなら、商いは楽だ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_craftsman"
+  },
+  {
+   "op": "bg",
+   "src": "street",
+   "mode": "full"
+  },
+  {
    "op": "bg",
    "src": "street"
   },
   {
    "op": "nar",
-   "text": "その様子を、隣で一部始終見ていた男がいた。"
+   "text": "屋台から少し離れた軒下。一部始終を見ていた男が、指を折って首をかしげている。"
   },
   {
    "op": "show",
@@ -157,9 +260,83 @@
   {
    "op": "say",
    "actor": "extra_lumberjack",
-   "text": "うまいことやるもんだ。俺もあの手で、一文浮かせてやろう。",
-   "eyes": "fun",
+   "text": "おかしいな。今の男、数えるのが妙に早かった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "ひい、ふう、みい……やあ、で時刻を聞いて、九つ。それから、とお。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "……あっ。九つを、蕎麦屋に言わせやがった。一文、浮いてるじゃねえか。",
+   "eyes": "surprise",
    "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "うまいことやるもんだ。褒めて、気をそらして、一文ちょろまかす。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "よし、俺もあの手でやってやろう。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "うちの娘に、正月の飴を約束しちまった。飴は四文。……懐には、十六文と、あと三文しかねえ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "一文浮かせりゃ、ちょうど四文。蕎麦も食えて、娘にも飴が買える。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "問題は、いつ行くかだ。"
+  },
+  {
+   "op": "nar",
+   "text": "男は、細かい銭を握りしめて、夜空を見上げた。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_lumberjack"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "待ちきれず、まだ早い刻限に屋台を探しに出る",
+     "jump": "early"
+    },
+    {
+     "text": "昨夜と同じ真夜中になるまで、じっと待つ",
+     "jump": "late"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "early"
+  },
+  {
+   "op": "show",
+   "actor": "extra_lumberjack",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "待ってなんかいられるか。思い立ったが吉日だ。",
+   "eyes": "anger"
   },
   {
    "op": "hide",
@@ -167,66 +344,153 @@
   },
   {
    "op": "bg",
+   "src": "yatai",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
    "src": "yatai"
   },
   {
-   "op": "show",
-   "actor": "extra_craftsman",
-   "pos": "left"
+   "op": "nar",
+   "text": "次の晩。まだ人通りのある頃合い。屋台は別の蕎麦屋で、行灯の字もかすれている。"
   },
   {
    "op": "show",
-   "actor": "extra_lumberjack",
+   "actor": "extra_craftsman",
    "pos": "right"
   },
   {
-   "op": "say",
-   "actor": "extra_craftsman",
-   "text": "いらっしゃい。蕎麦一杯、十六文でございます。",
-   "eyes": "normal"
+   "op": "show",
+   "actor": "extra_lumberjack",
+   "pos": "left"
   },
   {
    "op": "say",
    "actor": "extra_lumberjack",
-   "text": "親父、俺も小銭で払うぜ。よく見てろよ。",
-   "eyes": "fun"
-  },
-  {
-   "op": "say",
-   "actor": "extra_lumberjack",
-   "text": "一文、二文、三文、四文、五文、六文、七文、八文、九文、十文、十一文……",
-   "eyes": "normal"
-  },
-  {
-   "op": "say",
-   "actor": "extra_lumberjack",
-   "text": "おっと親父、今、何時だい？",
-   "eyes": "normal",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "extra_craftsman",
-   "text": "へえ、四つでございます。",
-   "eyes": "normal"
-  },
-  {
-   "op": "say",
-   "actor": "extra_lumberjack",
-   "text": "四つ……？　……五文、六文、七文……あれ？　足りねえ……",
-   "eyes": "surprise",
-   "mouth": "open"
-  },
-  {
-   "op": "nar",
-   "text": "男は慌てて懐を探り、結局、余分に払う羽目になった。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_craftsman",
-   "text": "へへ、毎度ありがとうございます。お客さん、時を聞くのも、時と場合によりまさあ。",
+   "text": "おう、蕎麦屋。一杯たのむ。",
    "eyes": "joy",
    "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "へい。ちょいとお待ちを。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "屋台の行灯に……ええと、何も書いてねえな。字が消えちまってる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "へえ、すいません。雨にやられまして。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "消えてるのも、奥ゆかしくていい。……ほら、割り箸を出してくれ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "あいにく、割り箸は切らしておりまして。こちらの塗り箸を、よく洗ってありやす。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "……洗ってあるのは、いいことだ。たぶん。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "お待ちどうさま。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "器は……縁が、ちょいと欠けてるな。欠けてるのは、手に引っかかって持ちやすい。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "汁は……ぬるい。いや、猫舌にやさしい。麺は……太いな。噛みごたえがある。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "竹輪は……透けて向こうが見える。薄く切る腕が、たいしたもんだ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "お客さん、無理して褒めてくださらなくても。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "無理なもんか。褒めるところから、もう始まってるんだ。……さて、勘定だ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "へい、十六文いただきやす。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "細けえので払う。手を出しな。ひい……ふう……みい……よう……"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "いつ、むう、なな……やあ、と。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "そうだ、親父、今、何刻だい。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "へえ、四つで。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "いつ、むう、なな、やあ、ここの、とお……。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "……おや？　数が戻ってねえか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "十六文、確かに。毎度ありがとうございます。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "一文浮かすつもりが、四文多く払っちまった。ぬるい蕎麦に、二十文だ。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "……四文。娘の飴が、ちょうど、ぬるい汁に溶けちまった。",
+   "eyes": "sorrow"
   },
   {
    "op": "hide",
@@ -237,6 +501,137 @@
    "actor": "extra_lumberjack"
   },
   {
+   "op": "jump",
+   "to": "fin"
+  },
+  {
+   "op": "label",
+   "id": "late"
+  },
+  {
+   "op": "show",
+   "actor": "extra_lumberjack",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "慌てちゃいけねえ。あの男は真夜中に食ってた。刻限まで真似しなきゃ、真似じゃねえ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_lumberjack"
+  },
+  {
+   "op": "bg",
+   "src": "yatai",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "yatai"
+  },
+  {
+   "op": "nar",
+   "text": "次の晩。真夜中を過ぎ、凍えた男が屋台にたどり着く。昨夜の「当たり屋」だ。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_craftsman",
+   "pos": "right"
+  },
+  {
+   "op": "show",
+   "actor": "extra_lumberjack",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "さ、寒い……。蕎麦屋、一杯。待ってるあいだに、足の指がなくなった気がする。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "へい、いらっしゃい。ずいぶん冷えておいでで。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "ここの行灯は「当たり屋」。縁起がいい。割り箸もいい。器も欠けてねえ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "お客さん、昨夜のお客さんと、おんなじことをおっしゃる。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "……そ、そうかい。いい店は、誰が見ても同じに見えるんだよ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "かじかんだ指で払うぞ。ひとつ、ふたつ、みっつ……よっつ、いつつ……むっつ、ななつ、やっつ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "ところで親父、今は何刻かな。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "へえ、八つで。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "ここのつ、とお……十五、十六。……あれ、ぴったりだ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "十六文、ちょうどいただきやした。毎度ありがとうございます。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "寒い中を三刻も待って、何も浮かなかった。風邪だけ、ただでもらった。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "……残りは三文。飴には、一文、足りねえ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_craftsman"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_lumberjack"
+  },
+  {
+   "op": "label",
+   "id": "fin"
+  },
+  {
+   "op": "bg",
+   "src": "street",
+   "mode": "full"
+  },
+  {
    "op": "bg",
    "src": "street"
   },
@@ -248,13 +643,31 @@
   {
    "op": "say",
    "actor": "nono",
-   "text": "小賢しい真似は、するもんじゃありませんね。『時そば』、これにてお開き。",
-   "eyes": "fun",
-   "mouth": "open"
+   "text": "九つと言わせた客は一文浮かせ、四つと言わせた男は四文損をしました。"
   },
   {
-   "op": "hide",
-   "actor": "nono"
+   "op": "say",
+   "actor": "nono",
+   "text": "待って八つを聞いた男は、損も得もせず、鼻水だけを持って帰ったそうで。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "真似をするなら、手口より先に、その人がいつ、どこで、何を見ていたかを。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ちなみに、男の娘は、翌朝、父親の鼻声を聞いて、自分の飴を半分、分けてくれたそうでございます。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "さて、時そばの勘定も済みました。……おや、そろそろ四つの鐘。皆さま、勘定はお早めに。",
+   "eyes": "joy",
+   "mouth": "open"
   },
   {
    "op": "end"

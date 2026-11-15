@@ -1,242 +1,561 @@
 {
-  "meta": {
-    "id": "meguro-no-sanma",
-    "title": "目黒のさんま ―殿の炭火―",
-    "original": "古典落語『目黒のさんま』（伝統演目・著作権消滅）",
-    "adaptation": "faithful",
-    "format": "v3",
-    "minutes": 6,
-    "synopsis": "遠乗りで庶民の炭火秋刀魚を知った殿様クロガネが、城の上品すぎる料理に落胆する短い食ギャグ。",
-    "note": "本脚本は翻案であり、原作の文章・口演の転載ではない。セリフは全て本上演版の書き下ろし。"
+ "meta": {
+  "id": "meguro-no-sanma",
+  "title": "目黒のさんま ―殿の炭火―",
+  "original": "古典落語『目黒のさんま』（伝統演目・著作権消滅）",
+  "adaptation": "faithful",
+  "format": "v3",
+  "minutes": 15,
+  "synopsis": "遠乗りで目黒に来た殿様が、茶屋の爺さんの焼く秋刀魚を初めて食べて感激する。城で取り寄せた秋刀魚は、脂も骨も抜かれて味がない。観客は台所の料り方を選ぶ。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "狂言回し",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "殿様",
-      "actor": "kurogane",
-      "costume": "default"
-    },
-    {
-      "role": "家臣",
-      "actor": "extra_villager",
-      "costume": "default"
-    },
-    {
-      "role": "炭焼き",
-      "actor": "extra_lumberjack",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "field": "bg/meguro-field-2048x1152.png",
-    "castle": "bg/castle-garden-grill-2048x1152.png"
+  {
+   "role": "殿様",
+   "actor": "kurogane",
+   "costume": "default"
   },
-  "steps": [
+  {
+   "role": "家臣・三太夫",
+   "actor": "extra_villager",
+   "costume": "default"
+  },
+  {
+   "role": "茶屋の爺さん",
+   "actor": "extra_lumberjack",
+   "costume": "default"
+  },
+  {
+   "role": "台所の料理番",
+   "actor": "extra_craftsman",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "field": "bg/meguro-field-2048x1152.png",
+  "castle": "bg/castle-garden-grill-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "秋晴れの日に、NONO座へようこそ。空の高さと、焼き魚の煙のお話をひとつ。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "秋刀魚という魚は、昔は下々の魚とされ、お殿様の膳にはまず上りませんでした。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "脂が強くて、焼けば煙がもうもう。お城の台所が一番嫌がる魚でございます。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "さて、魚河岸の魚より野原の魚を信じてしまったお殿様の、目黒の一日を。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "field",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "field"
+  },
+  {
+   "op": "nar",
+   "text": "秋晴れの目黒の野原。遠乗りの一行が馬を下り、すすきの中で息を整えている。"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "extra_villager",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "三太夫、目黒は良いな。空が広い。城の空は、いつも屋根の形に切り取られておる。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "殿、あまり先へお進みになりますと、お供の者が追いつけませぬ。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "追いつけぬなら、追いつけぬでよい。……ところで、腹が減った。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "弁当を積んだ馬は、だいぶ後ろでございます。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "なんと。腹が鳴っておる。殿の腹が鳴るなど、あってよいのか。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "あってはなりませぬ。お鳴らしになりませぬよう。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "鳴らすなと言われて止まる腹なら、苦労はせぬ。"
+  },
+  {
+   "op": "nar",
+   "text": "どこからか、香ばしい煙が流れてきた。じゅうじゅうと、脂の落ちる音がする。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……この匂いは何だ。三太夫、この、腹の底をつかむ匂いは。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "申し上げにくいのですが……近くの茶屋で、秋刀魚を焼いておるようで。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "さんま。聞いたことがない。さぞ名のある魚であろう。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "いえ、下魚でございます。殿のお口に入れるような物では。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "下か上かは、余の舌が決める。持ってまいれ。",
+   "eyes": "anger"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_villager"
+  },
+  {
+   "op": "show",
+   "actor": "extra_lumberjack",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "へえ、旦那さま方、煙が行っちまいましたか。すいません、うちの昼飯で。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "爺、その魚を余に売れ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "売るほどのもんじゃありやせん。焦げてるのと、もっと焦げてるのしか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "その、もっと焦げているほうがよい。"
+  },
+  {
+   "op": "nar",
+   "text": "爺さんは素焼きの皿に、真っ黒に脂の焦げた秋刀魚を一尾のせて差し出した。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "大根おろしはねえけど、塩はたっぷり振っておきやした。手でむしって、どうぞ。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "手で。……箸もなく、骨も取らずに。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "骨ごとかじっても、腹の苦いところが一番うまいんで。"
+  },
+  {
+   "op": "nar",
+   "text": "殿様は、おそるおそる皮をつまみ、身をほぐして、口に入れた。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……うまい。なんだこれは。熱い脂が舌の上で走り回る。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "苦いところが、確かにうまい。爺、この苦さは何だ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "わたも一緒に焼いてますんで。腹の苦みが、秋の味でさあ。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "余は今日、生まれて初めて、腹の減った魚を食うた。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "腹が減ってたのは、魚じゃなくて旦那さまのほうでしょう。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "うむ。……爺、礼を言う。この魚の名を、もう一度申せ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "さんま、でございます。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "さんま。……目黒の、さんま。忘れぬぞ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_lumberjack"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "bg",
+   "src": "castle",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "castle"
+  },
+  {
+   "op": "nar",
+   "text": "城の御殿。それから幾日、殿様の頭から、あの煙が離れない。"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "extra_villager",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "三太夫。城の膳は、なぜこうも静かなのだ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "静か、と申されますと。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "焼き魚に音がない。湯気も、匂いも、皿に着く前に死んでおる。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "毒見を通し、冷めぬよう蓋をし、廊下を三つ渡って参りますので。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……三太夫。余は、さんまが食いたい。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "殿、それを口になさいますな。下魚の名を城で申されては、ご家来衆が笑います。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "笑わせておけ。食いたいものを食いたいと言えぬ殿など、殿ではない。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "……かしこまりました。ただちに、日本橋の魚河岸から取り寄せまする。"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "nar",
+   "text": "御殿の台所。料理番が、届いた秋刀魚を前に青い顔をしている。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_craftsman",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "三太夫さま、さんまでございますか。あれは脂がきつく、殿のお体にさわりまする。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "殿のご所望じゃ。だが、粗相があってはならぬ。どう料ればよい。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "選ぶのは三太夫さまで。わたくしは、言われたとおりに料りまする。"
+  },
+  {
+   "op": "choice",
+   "options": [
     {
-      "op": "bg",
-      "src": null
+     "text": "医者の言うとおり、蒸して脂を抜き、骨を一本ずつ取る",
+     "jump": "steam"
     },
     {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『目黒のさんま ―殿の炭火―』。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "お殿様クロガネが、庶民の味に出会います。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "field",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "field"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_villager",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "遠乗りは腹が減る。何か香ばしい匂いがする。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "庶民の秋刀魚にございます。殿のお口には合いませぬ。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "show",
-      "actor": "extra_lumberjack",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "extra_lumberjack",
-      "text": "腹が減った人に身分は聞かない。焼きたてをどうぞ。",
-      "eyes": "joy"
-    },
-    {
-      "op": "nar",
-      "text": "炭火で焼いた秋刀魚。脂が落ち、煙が殿の顔を包む。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "うまい。煙まで飯の味がする。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "城では骨を抜き、蒸して脂を落とします。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "なぜ、うまいものからうまさを抜く。"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_lumberjack"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_villager"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "bg",
-      "src": "castle",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "castle"
-    },
-    {
-      "op": "nar",
-      "text": "後日、城で秋刀魚が供される。銀皿の上で、すっかり上品になっている。"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_villager",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "これは秋刀魚の抜け殻だ。あの煙がない。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "目黒の品とは違い、こちらは由緒ある海の産で。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "産地はどこでもよい。秋刀魚は目黒に限る。"
-    },
-    {
-      "op": "nar",
-      "text": "家臣は困り、城の庭へ炭火台を設ける。"
-    },
-    {
-      "op": "show",
-      "actor": "extra_lumberjack",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "extra_lumberjack",
-      "text": "殿、今日はご自分で返してみますか。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "任せろ。……これは裏か、表か。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "焦げる側が、今の表でございます。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "料理も政も、現場を見ねば裏表がわからぬな。"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_lumberjack"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_villager"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "殿は秋刀魚と一緒に、現場の煙まで味わいました。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "やはり秋刀魚は、目黒に限ります。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "end"
+     "text": "殿の言うとおり、目黒のように炭火でじかに焼く",
+     "jump": "grill"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "steam"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "脂は抜け、骨は残らず取れ。殿の喉に一本でも刺されば、腹を切るのはわしじゃ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "蒸して、脂を落として、骨を毛抜きで抜いて……。身がほぐれてしまいます。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "ほぐれたなら、丸めて形を整えよ。見た目だけは、魚に見えるように。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "……これはもう、魚の形をした、つみれでございます。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "jump",
+   "to": "serve"
+  },
+  {
+   "op": "label",
+   "id": "grill"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "殿は焼けと仰せだ。炭火で焼け。煙は、わしが団扇であおいで外へ逃がす。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "御殿で煙を立てるのは、火事と間違えられまする。"
+  },
+  {
+   "op": "nar",
+   "text": "台所から煙が上がり、火消しが二組、半鐘を鳴らして駆けつけた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "火事ではない、さんまじゃ。……いや、それも大声では言えぬ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "騒いでいるうちに真っ黒に。焦げを削り、骨を抜いたら、ほとんど残りませぬ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "jump",
+   "to": "serve"
+  },
+  {
+   "op": "label",
+   "id": "serve"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_craftsman"
+  },
+  {
+   "op": "nar",
+   "text": "蓋つきの漆の器が、毒見を通り、廊下を三つ渡って、殿様の前に置かれた。"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "おお、来たか。さんま。……蓋を取れ。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……三太夫。これは何だ。灰色で、丸くて、静かだ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "さんまでございます。脂と骨は、すべて取り除きました。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "匂いがせぬ。音もせぬ。……どれ。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……ぬるい。柔らかい。苦くない。これが、さんまか。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "間違いなく、さんまでございます。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "三太夫。これは、どこで仕入れたさんまだ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "はっ。日本橋の魚河岸より、今朝あがった極上のものを。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "それはいかん。さんまは目黒に限る。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_villager"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "魚の産地ではなく、焼いた煙と空腹の味。お殿様は、それを産地の名で覚えてしまいました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "目黒の海には、秋刀魚は一尾も泳いでおりません。それでも殿様は、生涯そう信じたそうで。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "目黒のさんま、お後がよろしいようで。皆さまも今夜は、骨ごと召し上がってください。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

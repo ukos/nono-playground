@@ -1,284 +1,700 @@
 {
-  "meta": {
-    "id": "toshishun",
-    "title": "杜子春 ―声を出す試練―",
-    "original": "芥川龍之介『杜子春』（著作権消滅作品）",
-    "adaptation": "faithful",
-    "format": "v3",
-    "minutes": 12,
-    "synopsis": "魔法使いの仙人から黄金と試練を受ける杜子春。母への責め苦に思わず声を上げ、仙人より人間を選ぶ幻想譚。",
-    "note": "本脚本は翻案であり、原作の文章・口演の転載ではない。セリフは全て本上演版の書き下ろし。"
+ "meta": {
+  "id": "toshishun",
+  "title": "杜子春 ―声を出す試練―",
+  "original": "芥川龍之介『杜子春』（著作権消滅作品）",
+  "adaptation": "faithful",
+  "format": "v3",
+  "minutes": 16,
+  "synopsis": "財産を使い果たした杜子春は、仙人に二度黄金を授かり、二度とも使い果たす。人間に愛想を尽かして仙人に弟子入りし、決して声を出すなという試練に臨むが、地獄で、馬にされた父母が打たれる。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "狂言回し",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "杜子春",
-      "actor": "yui",
-      "costume": "default"
-    },
-    {
-      "role": "仙人／魔法使い",
-      "actor": "extra_wizard",
-      "costume": "default"
-    },
-    {
-      "role": "母",
-      "actor": "extra_elf",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "city": "bg/tang-luoyang-sunset-2048x1152.png",
-    "mountain": "bg/toshishun-mountain-2048x1152.png",
-    "hell": "bg/toshishun-hell-2048x1152.png"
+  {
+   "role": "杜子春",
+   "actor": "yui",
+   "costume": "default"
   },
-  "steps": [
+  {
+   "role": "仙人・鉄冠子",
+   "actor": "extra_wizard",
+   "costume": "default"
+  },
+  {
+   "role": "母",
+   "actor": "extra_elf",
+   "costume": "default"
+  },
+  {
+   "role": "閻魔大王",
+   "actor": "gou",
+   "costume": "default"
+  },
+  {
+   "role": "金目当ての友",
+   "actor": "extra_villager",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "city": "bg/tang-luoyang-sunset-2048x1152.png",
+  "mountain": "bg/toshishun-mountain-2048x1152.png",
+  "hell": "bg/toshishun-hell-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "唐の都、洛陽。春の夕暮れ、西の門の下に、一人の若者がぼんやり空を見上げていました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "名は杜子春。金持ちの息子でしたが、財産を使い果たし、今日の宿もありません。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "芥川龍之介『杜子春』。人が、何を手放して、何を守るのかのお話です。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "city",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "city"
+  },
+  {
+   "op": "nar",
+   "text": "夕暮れの洛陽の西門。人と車が絶え間なく行き交う。門の下に、杜子春がもたれている。"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "日が暮れる。腹も減った。……いっそ川に身を投げて、死んでしまったほうがましかもしれない。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "お前は、何を考えている。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "わたしですか。今夜寝るところもないので、どうしたものかと考えているのです。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "そうか。それはかわいそうだな。では、わしがいいことを教えてやろう。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "今この夕日の中に立って、お前の影が地に映ったら、その頭に当たる所を、夜中に掘ってみるがいい。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "車にいっぱいの黄金が埋まっているはずだ。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "ほんとうですか。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "老人の姿は、もうどこにも見えなかった。その夜、杜子春が地を掘ると、大きな車にもあまるほどの黄金が、一山出てきた。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "extra_villager",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "杜子春どの、今宵の宴も見事でございますな。玉の杯、葡萄の酒、天竺の手品師まで。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "楽しんでくれ。わたしは、お前たちと飲むのが、何よりの楽しみだ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "杜子春どのほど、気前のいい友はおりません。"
+  },
+  {
+   "op": "nar",
+   "text": "三年のうちに、黄金はすっかり無くなった。宴に集まっていた友人たちは、ひとりも訪ねて来なくなった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "……杜子春？　ああ、あの、一文無しの。今日は、ちょっと、急ぎますので。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_villager"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "昨日まで頭を下げていた人が、今日は、水を一杯くれようともしない。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "杜子春は、また西の門の下に立っていた。そして、あの老人が、また現れた。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "また会ったな。お前は、何を考えている。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "今夜寝るところもないので、と申したいところですが……。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "では、また影の胸に当たる所を掘ってみるがいい。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "二度目の黄金も、三年で消えた。そして三度目の春、老人は、また門の下に現れた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "三度目だな。今度は、何を考えている。"
+  },
+  {
+   "op": "choice",
+   "options": [
     {
-      "op": "bg",
-      "src": null
+     "text": "杜子春は、三度目の黄金を、ありがたく受け取ろうとする",
+     "jump": "gold"
     },
     {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『杜子春 ―声を出す試練―』。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "仙人は魔法使い。沈黙の試練が、心の価値を測ります。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "city",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "city"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_wizard",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "財産を使い果たし、もう誰も私を友と呼ばない。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "影の頭へ夕日が当たる所を掘れ。黄金が出る。"
-    },
-    {
-      "op": "nar",
-      "text": "杜子春は黄金を得るが、宴と偽の友に使い尽くす。二度目も同じ。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "金では、人の心も自分の心も満たせませんでした。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "ならば仙術を学ぶか。何を見ても声を出してはならぬ。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "今度こそ、欲に負けません。",
-      "eyes": "closed"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_wizard"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "bg",
-      "src": "mountain",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "mountain"
-    },
-    {
-      "op": "nar",
-      "text": "峨眉山。仙人が去り、虎、嵐、兵士、火炎が杜子春を脅す。"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "怖さは声にしない。これは幻だ。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "杜子春は地獄へ落とされ、さまざまな責め苦を見ても黙り続ける。"
-    },
-    {
-      "op": "bg",
-      "src": "hell",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "hell"
-    },
-    {
-      "op": "nar",
-      "text": "最後に、痩せた馬が引き出される。その目は母の目だった。"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elf",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elf",
-      "text": "お前が幸せなら、母はどんな苦しみにも耐えます。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "お母さん！",
-      "eyes": "crying",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "杜子春の声で幻が砕け、洛陽の夕暮れへ戻る。"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elf"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "bg",
-      "src": "city",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "city"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_wizard",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "試練には失敗だ。なぜ黙れなかった。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "母を見捨てて仙人になるなら、人である方を選びます。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "その答えを待っていた。仙術より難しいのは、人として暮らすことだ。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "小さな畑を耕し、働いて食べたい。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "泰山の麓に家と畑がある。黄金ではなく、種を渡そう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "nar",
-      "text": "魔法使いは、一袋の種と鍬を残す。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "声を出した失敗が、初めて私の選んだ成功になった。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_wizard"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "杜子春は仙人になれず、人として生きる道を得ました。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "愛のために破った沈黙が、黄金より確かな宝だったのです。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "end"
+     "text": "杜子春は、もう金はいらないと、きっぱり断る",
+     "jump": "refuse"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "gold"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……では、今度は、影の腹のあたりでしょうか。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "掘りたいなら、掘るがいい。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……いいえ。掘っても、また三年で、同じ門の下に立つだけです。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "jump",
+   "to": "ask"
+  },
+  {
+   "op": "label",
+   "id": "refuse"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "もう金は要りません。",
+   "eyes": "anger"
+  },
+  {
+   "op": "jump",
+   "to": "ask"
+  },
+  {
+   "op": "label",
+   "id": "ask"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "金があれば、人は寄ってくる。無くなれば、去っていく。人間というものに、愛想が尽きました。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "ほう。人間に愛想が尽きたか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "あなたは、仙人でしょう。わたしを弟子にしてください。仙術を教えていただきたいのです。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "わしは峨眉山に住む、鉄冠子という仙人だ。……よろしい。では、ついてくるがいい。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
+   "op": "bg",
+   "src": "mountain",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "mountain"
+  },
+  {
+   "op": "nar",
+   "text": "峨眉山の頂。深い谷に臨む一枚岩の上。北斗の星が、手の届きそうなほど近い。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "right"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "わしはこれから、天上へ行って、西王母にお目にかかってくる。お前は、ここで待っておれ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "わしの留守に、いろいろな魔性が現れて、お前をたぶらかそうとするだろう。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "たとえ何が起ころうとも、決して声を出すのではないぞ。一言でも口をきいたら、お前は仙人になれぬと思え。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "大丈夫です。決して声は出しません。命が無くなっても、黙っています。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
+   "op": "nar",
+   "text": "虎が吠え、白い大蛇が鎌首をもたげ、天地を裂く雷が、岩の上に落ちた。"
+  },
+  {
+   "op": "nar",
+   "text": "金の鎧を着た神将が三叉の戟を構え、名を名乗れ、名乗らねば命を取ると叫んだ。杜子春は、黙っていた。"
+  },
+  {
+   "op": "nar",
+   "text": "戟が振り下ろされた。杜子春の魂は、からだを抜け出して、地獄の底へ落ちていった。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "bg",
+   "src": "hell",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "hell"
+  },
+  {
+   "op": "nar",
+   "text": "地獄の底。森羅殿の前。暗い空に、剣の山と、針の山がそびえている。"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "その方は、なぜ峨眉山の上に座っていた。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "杜子春は、黙っていた。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "黙っているな。答えねば、地獄の責め苦を、残らず味わわせるぞ。"
+  },
+  {
+   "op": "nar",
+   "text": "杜子春は、剣の山に追い上げられ、煮え湯の池に沈められても、口を結んでいた。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "この男は、どうしても口をきかぬ。……よし。この男の父母は、畜生道に落ちているはずだ。連れてまいれ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "鬼どもが、二匹の痩せ馬を引いてきた。その顔は、杜子春が夢にも忘れない、死んだ父と母の顔だった。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elf",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "さあ、なぜ峨眉山に座っていた。言わぬなら、この父母を打ち据える。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "鉄の鞭が、ふたたび、みたび鳴った。馬は苦しげに身をよじり、倒れ伏した。杜子春は、必死に目を閉じた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "わたしたちのことは、心配しないで。お前が幸せになれるなら、それがいちばんなんだから。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "大王が何とおっしゃっても、言いたくないことは、黙っておいで。"
+  },
+  {
+   "op": "nar",
+   "text": "その声は、杜子春が覚えている、母の声そのものだった。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "杜子春は、こらえきれず、母に駆け寄る",
+     "jump": "cry"
+    },
+    {
+     "text": "杜子春は、仙人の言いつけを守り、最後まで黙り通す",
+     "jump": "silent"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "cry"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……お母さん！",
+   "eyes": "crying",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "杜子春は、仙人の戒めも忘れて、半死の馬の首を抱いて、はらはらと涙を落とした。"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elf"
+  },
+  {
+   "op": "bg",
+   "src": "city",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "city"
+  },
+  {
+   "op": "nar",
+   "text": "気がつくと、杜子春は、夕日を浴びて、洛陽の西の門の下に、ぼんやり立っていた。"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "どうだな。わしの弟子になったところで、とても仙人にはなれはすまい。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……なれません。なれませんが、わたしは、なれなかったことも、かえってうれしい気がするのです。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "もしお前が、あの時、黙っておったら、わしは即座に、お前の命を絶ってしまおうと思っていたのだ。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "いかに仙人になれても、鞭を受ける父母を見て、黙っていられるものではありません。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "jump",
+   "to": "life"
+  },
+  {
+   "op": "label",
+   "id": "silent"
+  },
+  {
+   "op": "nar",
+   "text": "杜子春は、母の言葉を胸に抱いたまま、唇をかみ、とうとう一言も声を出さなかった。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
+   "op": "bg",
+   "src": "city",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "city"
+  },
+  {
+   "op": "nar",
+   "text": "目を開けると、そこは元の洛陽の門の下だった。杜子春の頬は、涙で濡れていた。"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "黙り通したな。約束どおり、お前は仙人になれる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "……だが、母が打たれるのを見て、声ひとつ上げなかった心で、仙人になって、何をする。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……わたしは、母を見捨てました。黙っていたのは、仙人になりたかったからです。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "そんな仙人に、なりたくはありません。この沈黙を、一生、背負って歩くだけです。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "仙人の道を、自分で降りるというのか。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "はい。降ります。",
+   "eyes": "closed"
+  },
+  {
+   "op": "jump",
+   "to": "life"
+  },
+  {
+   "op": "label",
+   "id": "life"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "お前は、これから何になるつもりだ。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "何になっても、人間らしい、正直な暮らしをするつもりです。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "その言葉を忘れるなよ。では、わしは、二度とお前には会わぬから。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "泰山の南の麓に、一軒の家がある。その家を畑ごと、お前にやるから、早速行って住まうがいい。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "今ごろはちょうど、家のまわりに、桃の花が一面に咲いているだろう。",
+   "eyes": "fun"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "母の声を聞いて叫んだ杜子春も、黙り通した杜子春も、桃の花の咲く家へ、人として帰っていきました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "芥川龍之介『杜子春』。洛陽の西の門の夕日とともに、幕を下ろします。",
+   "eyes": "closed"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

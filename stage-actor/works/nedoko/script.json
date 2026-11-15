@@ -1,327 +1,607 @@
 {
-  "meta": {
-    "id": "nedoko",
-    "title": "寝床 ―大家リサイタル前夜―",
-    "original": "古典落語『寝床』（伝統演目・著作権消滅）",
-    "adaptation": "free",
-    "format": "v3",
-    "minutes": 9,
-    "synopsis": "歌好き大家の長演を避ける店子たちが、砂時計・拍子木・舞台効果で十五分の共同公演に作り替える。追加キャラ全員に裏方の見せ場を置く。",
-    "note": "本脚本は翻案であり、原作の文章・口演の転載ではない。セリフは全て本上演版の書き下ろし。"
+ "meta": {
+  "id": "nedoko",
+  "title": "寝床 ―旦那の義太夫の晩―",
+  "original": "古典落語『寝床』（伝統演目・著作権消滅）",
+  "adaptation": "faithful",
+  "format": "v3",
+  "minutes": 16,
+  "synopsis": "義太夫好きの旦那が会を開くが、長屋の衆は言い訳を並べて誰も来ない。拗ねた旦那が店立てを言い出し、皆はしぶしぶ集まって料理を食べ、語りの途中で眠り込む。ただ一人泣いていた小僧の訳は。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "狂言回し",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "大家",
-      "actor": "extra_elder",
-      "costume": "default"
-    },
-    {
-      "role": "使い",
-      "actor": "extra_villager",
-      "costume": "default"
-    },
-    {
-      "role": "低音係",
-      "actor": "gou",
-      "costume": "default"
-    },
-    {
-      "role": "拍子木係",
-      "actor": "sasuke",
-      "costume": "default"
-    },
-    {
-      "role": "進行役",
-      "actor": "extra_elf",
-      "costume": "default"
-    },
-    {
-      "role": "時間係",
-      "actor": "extra_archer",
-      "costume": "default"
-    },
-    {
-      "role": "舞台効果",
-      "actor": "extra_wizard",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "hall": "bg/landlord-stage-2048x1152.png",
-    "tenement": "bg/nedoko-tenement-2048x1152.png"
+  {
+   "role": "旦那",
+   "actor": "extra_elder",
+   "costume": "default"
   },
-  "steps": [
+  {
+   "role": "番頭・茂蔵",
+   "actor": "extra_villager",
+   "costume": "default"
+  },
+  {
+   "role": "鳶頭",
+   "actor": "gou",
+   "costume": "default"
+  },
+  {
+   "role": "小僧・定吉",
+   "actor": "shiro",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "hall": "bg/landlord-stage-2048x1152.png",
+  "tenement": "bg/nedoko-tenement-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "毎度、NONO座へのお運び、ありがとうございます。芸好きの旦那と、逃げたい人々の一席です。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "義太夫節というのは、三味線に合わせて、物語を太い声で語る芸。上手な人なら、泣けます。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "下手な人だと、別の意味で泣けます。そしてこの旦那さまは、とびきりの、下手の横好き。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "古典落語『寝床』。旦那さまが語る晩、長屋の人々は、どうやって逃げるのか。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "hall",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "hall"
+  },
+  {
+   "op": "nar",
+   "text": "大店の奥座敷。金屏風の前に赤い毛氈が敷かれ、見台が据えてある。旦那が、湯呑みでうがいをしている。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "あー、あー、ああー。……よし、今夜は喉の調子がいい。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "茂蔵、茂蔵。長屋の衆は、そろそろ来るかな。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_villager",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "旦那さま、それが……皆さん、ちょいと都合が悪いようで。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "都合が悪い。まだ一人も来ないのか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "はい。一軒ずつ回ってまいりました。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "豆腐屋は。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "今夜はがんもどきを八百こしらえる注文が入りまして、手が離せないと。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "がんもどきが八百。……誰がそんなに食うのだ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "さあ。法事だそうで。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "小間物屋は。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "おかみさんが産気づきまして。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "あそこのおかみさんは、先月も産気づいたろう。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "……また、だそうで。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "鳶頭は。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "成田山のお不動さまへ、急に願掛けに行くと。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "夜中に成田まで歩くのか。……いや、それなら仕方がない。信心は大事だ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "はい、大事でございます。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "茂蔵。……お前は、来るんだろうな。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "手前は、その、急にお腹が。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "お前もか。……正直に言ってごらん。皆、本当に用事があるのか。",
+   "eyes": "anger"
+  },
+  {
+   "op": "choice",
+   "options": [
     {
-      "op": "bg",
-      "src": null
+     "text": "番頭は、皆が義太夫を聞きたくないのだと白状する",
+     "jump": "truth"
     },
     {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『寝床 ―大家リサイタル前夜―』。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "歌いたい大家と、聞きたくない店子の総力戦です。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "hall",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "hall"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elder",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_villager",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "今夜は私の義太夫を、長屋のみんなへ聞かせよう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "皆、急な用事ができまして。耳の用事です。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "店子が来ないなら、店賃の相談をしようか。"
-    },
-    {
-      "op": "nar",
-      "text": "使いは長屋を回る。"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elder"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_villager"
-    },
-    {
-      "op": "bg",
-      "src": "tenement",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "tenement"
-    },
-    {
-      "op": "show",
-      "actor": "gou",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "sasuke",
-      "pos": "center"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elf",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "歌そのものより、終わる時刻がわからないのが怖い。"
-    },
-    {
-      "op": "say",
-      "actor": "sasuke",
-      "text": "俺は拍子木係なら、途中で終幕を打てる。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elf",
-      "text": "正直に、短くしてほしいと頼みましょう。"
-    },
-    {
-      "op": "hide",
-      "actor": "gou"
-    },
-    {
-      "op": "show",
-      "actor": "extra_archer",
-      "pos": "left"
-    },
-    {
-      "op": "say",
-      "actor": "extra_archer",
-      "text": "私が時間係。矢の代わりに砂時計を持つ。"
-    },
-    {
-      "op": "hide",
-      "actor": "sasuke"
-    },
-    {
-      "op": "show",
-      "actor": "extra_wizard",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "舞台効果なら任せよ。眠気を覚ます煙も出せる。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elf",
-      "text": "煙より換気をお願いします。"
-    },
-    {
-      "op": "nar",
-      "text": "追加キャラたちは、大家を止めるのでなく短い舞台へ整える。"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_archer"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_wizard"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elf"
-    },
-    {
-      "op": "bg",
-      "src": "hall",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "hall"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elder",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_archer",
-      "pos": "center"
-    },
-    {
-      "op": "show",
-      "actor": "sasuke",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "extra_archer",
-      "text": "一席十五分。砂が落ちたら終演です。"
-    },
-    {
-      "op": "say",
-      "actor": "sasuke",
-      "text": "拍子木は開始と終了の二回だけ。途中で増えたら非常事態です。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "芸を時計で切るとは無粋だ。"
-    },
-    {
-      "op": "nar",
-      "text": "大家が歌い始める。魔法使いの風で障子が震え、猪が低音で合いの手を入れる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "おや、今夜は皆が舞台を支えてくれる。"
-    },
-    {
-      "op": "nar",
-      "text": "十五分。砂時計が落ち、大家は名残惜しくも止める。"
-    },
-    {
-      "op": "say",
-      "actor": "sasuke",
-      "text": "終演！　今日は寝床が確保できます。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_archer",
-      "text": "次回は店子の演目も一つずつ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "よかろう。聞く番も、大家の務めだな。"
-    },
-    {
-      "op": "hide",
-      "actor": "sasuke"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_archer"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elder"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "逃げていた店子は、舞台を整える裏方になりました。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "寝床を守る一番の芸は、終わる時刻を守ることでした。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "end"
+     "text": "番頭は、あくまで皆の用事が本当だと言い張る",
+     "jump": "lie"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "truth"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "申し訳ございません。皆さん、旦那さまの義太夫が……その、少々、こたえるそうで。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "こたえる？　わしの声が、こたえるだと。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "去年の秋、一晩聞いたあと、三日寝込んだ方がおりまして。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "あれは風邪だ。季節の変わり目だった。"
+  },
+  {
+   "op": "jump",
+   "to": "angry"
+  },
+  {
+   "op": "label",
+   "id": "lie"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "本当でございます。がんもどきも、お産も、成田山も。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "茂蔵。がんもどき八百は、去年のわしの会の晩にも聞いたぞ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "……覚えておいででしたか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "覚えておる。わしは、語りの文句と、言い訳は、一度聞いたら忘れん。"
+  },
+  {
+   "op": "jump",
+   "to": "angry"
+  },
+  {
+   "op": "label",
+   "id": "angry"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "よろしい。誰も聞きたくないなら、もう語らん。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "その代わり、長屋の店賃を明日から上げる。払えぬ者は、晦日までに出て行ってもらう。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "だ、旦那さま、それはあんまりで。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "お前も今日かぎり暇を出す。……さあ、見台を片付けなさい。わしは寝る。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "ああ、えらいことになった。これは、長屋じゅうに知らせないと。",
+   "eyes": "crying"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_villager"
+  },
+  {
+   "op": "bg",
+   "src": "tenement",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "tenement"
+  },
+  {
+   "op": "nar",
+   "text": "夜の長屋。井戸端に、鳶頭たちが集まっている。番頭が駆け込んできた。"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_villager",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "鳶頭、大変だ。旦那さまが拗ねて、店賃を上げて、皆を追い出すとおっしゃってる。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "追い出す？　義太夫を聞かねえくらいで。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "聞かねえくらいで、だそうで。……成田山はどうなりました。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "成田山は、いま井戸のまわりを三べん回って、お参りしたことにした。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "罰が当たりますよ。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "義太夫を一晩聞くのと、長屋を追い出されるのと、どっちが罰だ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "……どっちも、なかなかの罰で。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "しょうがねえ。皆で聞きに行こう。ただし、腹ごしらえだけは、しっかりしていく。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "腹ごしらえ？"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "旦那の会は、料理と酒だけは一流だ。飲んで食って、あとは、なんとか生き延びる。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_villager"
+  },
+  {
+   "op": "bg",
+   "src": "hall",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "hall"
+  },
+  {
+   "op": "nar",
+   "text": "奥座敷。料理の膳が並び、長屋の衆がぎっしり座っている。旦那は、まだ少し機嫌が悪い。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "旦那、さっきはとんだ失礼を。皆、どうしても旦那の義太夫が聞きてえって、戻ってまいりやした。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……無理をしなくてもよい。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "無理なもんですか。成田山のお不動さまも、旦那の声を聞いてこいとおっしゃいました。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "そうか。……そうか、そうか。では、茂蔵、見台を。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "nar",
+   "text": "旦那が見台の前に座り、太い声を張り上げた。障子がびりびり震え、行灯の火が揺れた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "えー、ここに、ひとりの若武者が、ありけるが、あああ、ああー。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "父の仇を、討たんものと、千里の道を、ああー、ああー。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "長屋の衆は、膳の料理を口に運びながら、ひとり、またひとりと、うなだれていく。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "雪は降る、降る、ああ、降り積もる、あああー。"
+  },
+  {
+   "op": "nar",
+   "text": "旦那が語りに夢中になっているあいだに、座敷の客は、みんな横になって眠り込んでいた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……さて、ここからが一番の泣かせどころ。皆の衆、よく聞いて……。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……なんだ、これは。皆、寝ておる。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "鳶頭まで、いびきをかいておる。番頭は、膳を枕にして。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "わしの義太夫は、子守唄か。……一生懸命、稽古したのに。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "座敷の隅で、ただ一人、小僧の定吉が、肩を震わせて泣いていた。"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "定吉。……お前、泣いておるのか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "うっ、うう……。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "そうか、お前だけは、わしの語りが分かったか。子どもなのに、えらいものだ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "どこだ。どこで泣けた。若武者の仇討ちか。それとも、雪の場か。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "そんなところじゃありません。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "では、どこだ。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "あすこでございます。旦那さまが座っている、その見台のところ。",
+   "eyes": "sorrow",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "ここか。ここが、悲しいところか。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "あすこは、あたしの寝床なんです。",
+   "eyes": "crying"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "旦那の語る見台は、いつもは小僧の寝床。座られてしまっては、眠る場所がありません。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "皆が眠れて、ただ一人眠れなかった子が、いちばん泣いていたという、お話でございます。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "寝床の一席、ここで語り納め。皆さまは、どうぞご自分の寝床で、ゆっくりお休みください。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

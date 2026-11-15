@@ -7,7 +7,7 @@
   "category": "古典落語・上方落語",
   "adaptation": "moderate",
   "format": "v3",
-  "minutes": 32,
+  "minutes": 35,
   "synopsis": "全五景で「親切と身勝手の境目を、狐の恩返しが映す」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
   "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
  },
@@ -138,6 +138,30 @@
   {
    "op": "nar",
    "text": "狐の目が、夕日を映して、金色に光った。そして、森の奥へ、消えていった。"
+  },
+  {
+   "op": "nar",
+   "text": "竹藪の向こうで、がさがさと足音がした。"
+  },
+  {
+   "op": "nar",
+   "text": "鉄砲を担いだ猟師が、空になった罠を見つけて、怒鳴った。……誰や、わしの獲物を逃がしたんは！"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "……やばい。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "源助は、重箱を抱えて、墓石の陰に、亀のように身を伏せた。猟師は、しばらくあたりをにらみ、舌打ちして去っていった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "……狐の代わりに、わしが撃たれるとこやった。",
+   "eyes": "closed"
   },
   {
    "op": "say",
@@ -1060,8 +1084,46 @@
    "text": "草むらが、一度だけ、こくりと頷くように、揺れた。"
   },
   {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "源助、源助！　わしの家の戸口に、今朝、狐の足跡がついとった。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "ほう。一分の狐が、礼に来たんか。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "礼に来た！　……油揚げを、一枚、置いていきよった。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "一分で買うて、油揚げ一枚。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……勘定は、合うとるな。",
+   "eyes": "closed"
+  },
+  {
    "op": "hide",
    "actor": "extra_lumberjack"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
   },
   {
    "op": "bg",

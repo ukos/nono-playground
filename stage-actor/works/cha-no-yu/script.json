@@ -7,7 +7,7 @@
   "category": "古典落語・上方落語",
   "adaptation": "free",
   "format": "v3",
-  "minutes": 32,
+  "minutes": 29,
   "synopsis": "全五景で「知ったかぶりは、誰も止めないと共同幻想になる」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
   "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
  },
@@ -401,6 +401,17 @@
   {
    "op": "say",
    "actor": "extra_elder",
+   "text": "……若い者は、修行の、回数も、多いのう。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "修行と、呼んでよいものか、存じませぬ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
    "text": "茶の湯とは、厳しいものだな。……腹から、修行させられる。",
    "eyes": "closed"
   },
@@ -476,6 +487,10 @@
    "actor": "extra_villager",
    "text": "……茶の湯の作法など、存じませんが、よろしいので。",
    "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "豆腐屋は、膝の上で、こっそり手を握りしめていた。ご隠居は、この長屋の家主である。招きを断れば、店賃の話になりかねない。"
   },
   {
    "op": "say",
@@ -870,6 +885,10 @@
    "text": "自家製の羊羹が、客に出された。客たちは、一口食べて、全員、口を押さえて、縁側から庭へ飛び出した。"
   },
   {
+   "op": "nar",
+   "text": "一人の客は、羊羹を懐紙に包み、ご隠居の目を盗んで、垣根の向こうの畑へ、えいっと放り投げた。"
+  },
+  {
    "op": "say",
    "actor": "extra_elder",
    "text": "……どうした、皆。",
@@ -899,168 +918,48 @@
    "actor": "shiro"
   },
   {
-   "op": "show",
-   "actor": "extra_elder",
-   "pos": "left"
+   "op": "bg",
+   "src": "village_boom",
+   "mode": "full"
   },
   {
-   "op": "show",
-   "actor": "shiro",
-   "pos": "right"
-  },
-  {
-   "op": "nar",
-   "text": "夕暮れ。誰もいない茶室。ご隠居と定吉が、ぽつんと座っている。"
+   "op": "bg",
+   "src": "village_boom"
   },
   {
    "op": "nar",
-   "text": "定吉が、黙って、本物の茶葉の包みを、ご隠居の前に置いた。お詫びの品として、乾物屋の主人が持たせてくれたものだった。"
+   "text": "垣根の向こうの畑。村人が、鍬を振るっている。空から、ぽとり、と何かが落ちてきて、村人の顔に、べたりと張りついた。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_villager",
+   "pos": "center"
   },
   {
    "op": "say",
-   "actor": "extra_elder",
-   "text": "定吉、わしの茶は、まずかったのか。"
+   "actor": "extra_villager",
+   "text": "うわっ。……なんだ、これは。甘いような、油くさいような。",
+   "eyes": "surprise"
   },
   {
    "op": "say",
-   "actor": "shiro",
-   "text": "……正直に申しますと、ひどい味でございました。"
+   "actor": "extra_villager",
+   "text": "黒くて、ぬらぬらして、羊羹のような、羊羹でないような。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "村人は、顔をぬぐって、垣根の向こうの隠居所を、しみじみと見上げた。"
   },
   {
    "op": "say",
-   "actor": "extra_elder",
-   "text": "初めて、言うてくれたな。",
+   "actor": "extra_villager",
+   "text": "……ああ、また、茶の湯か。",
    "eyes": "sorrow"
   },
   {
-   "op": "say",
-   "actor": "shiro",
-   "text": "言えずに、すみませんでした。ご隠居さまが、楽しそうだったので。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_elder",
-   "text": "わしも、まずいと分かっておった。……分かっておったが、皆が、けっこうと言うので、そうなのかと思い込んだ。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_elder",
-   "text": "一人がうなずくと、二人目もうなずく。十人うなずけば、まずい茶も、名物になる。",
-   "eyes": "closed"
-  },
-  {
-   "op": "say",
-   "actor": "shiro",
-   "text": "誰か一人が、最初に、まずい、と言えばよかったのでございますね。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_elder",
-   "text": "そうだ。……その一人に、わしが、なるべきだった。点てた本人だからな。"
-  },
-  {
-   "op": "say",
-   "actor": "shiro",
-   "text": "明日、皆さまに、お詫びに参りましょう。"
-  },
-  {
-   "op": "say",
-   "actor": "shiro",
-   "text": "乾物屋さんも、ずっと、青黄粉が売れ続けるので、おかしいと思っておられたそうです。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_elder",
-   "text": "乾物屋も、言えなかったのだな。",
-   "eyes": "closed"
-  },
-  {
-   "op": "say",
-   "actor": "extra_elder",
-   "text": "うむ。それから、本物の茶道の先生に、習いに行こう。……一度、本物の茶を、飲んでみたい。",
-   "eyes": "joy"
-  },
-  {
    "op": "hide",
-   "actor": "extra_elder"
-  },
-  {
-   "op": "hide",
-   "actor": "shiro"
-  },
-  {
-   "op": "show",
-   "actor": "extra_elder",
-   "pos": "left"
-  },
-  {
-   "op": "show",
-   "actor": "shiro",
-   "pos": "right"
-  },
-  {
-   "op": "nar",
-   "text": "ひと月後。茶室。本物の抹茶が、静かに点てられている。泡は、やわらかい緑色。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_elder",
-   "text": "どうだ、定吉。今度は、本物だ。"
-  },
-  {
-   "op": "say",
-   "actor": "shiro",
-   "text": "……苦い。でも、すっきりします。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_elder",
-   "text": "うむ。苦いが、腹は痛くならぬ。",
-   "eyes": "closed"
-  },
-  {
-   "op": "say",
-   "actor": "shiro",
-   "text": "けっこうな、お点前でございます。……今度は、本当に。",
-   "eyes": "joy"
-  },
-  {
-   "op": "say",
-   "actor": "shiro",
-   "text": "青い茶より、ずっと、短い修行で済みそうです。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_elder",
-   "text": "わしの茶室では、これから、まずいときは、まずい、と言ってよい。そう、張り紙をしよう。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_elder",
-   "text": "先生に、最初に言われた。茶は、上手に点てるより、正直に飲むものだ、と。"
-  },
-  {
-   "op": "say",
-   "actor": "shiro",
-   "text": "皆さま、来てくださるでしょうか。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_elder",
-   "text": "羊羹は、本物を出す。……それで、来てもらえねば、それまでだ。",
-   "eyes": "joy"
-  },
-  {
-   "op": "nar",
-   "text": "その日の午後、豆腐屋が、恐る恐る、隠居所の門をくぐった。手には、自分の家で点てた、青い茶の入った茶碗を持っていた。"
-  },
-  {
-   "op": "hide",
-   "actor": "extra_elder"
-  },
-  {
-   "op": "hide",
-   "actor": "shiro"
+   "actor": "extra_villager"
   },
   {
    "op": "bg",

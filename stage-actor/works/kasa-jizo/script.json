@@ -1,387 +1,626 @@
 {
-  "meta": {
-    "id": "kasa-jizo",
-    "title": "笠地蔵 ―真夜中の地蔵会議―",
-    "original": "日本昔話『笠地蔵』（伝統説話・著作権消滅）",
-    "adaptation": "free",
-    "format": "v3",
-    "minutes": 8,
-    "synopsis": "売れ残った笠を地蔵へ贈った老夫婦。その夜、地蔵たちは「何をどれだけ返すか」を真剣に議論する。必要な分だけを老夫婦へ、残りを共同蔵へ届ける、地蔵側視点のファンタジーコメディ。",
-    "note": "本脚本は翻案であり、原作の文章・口演の転載ではない。セリフは全て本上演版の書き下ろし。"
+ "meta": {
+  "id": "kasa-jizo",
+  "title": "笠地蔵 ―真夜中の地蔵会議―",
+  "original": "日本昔話『笠地蔵』（伝統説話・著作権消滅）",
+  "adaptation": "free",
+  "format": "v3",
+  "minutes": 14,
+  "synopsis": "大晦日、売れ残った笠を峠の地蔵にかぶせ、足りない一体には自分の手ぬぐいを結んだお爺さん。真夜中、地蔵たちは石の会議を開いてお礼を決め、凍った坂を下って老夫婦の家へ運ぶ。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "狂言回し",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "お爺さん",
-      "actor": "extra_elder",
-      "costume": "default"
-    },
-    {
-      "role": "お婆さん",
-      "actor": "extra_elf",
-      "costume": "default"
-    },
-    {
-      "role": "地蔵議長",
-      "actor": "extra_skeleton",
-      "costume": "default"
-    },
-    {
-      "role": "若手地蔵",
-      "actor": "shiro",
-      "costume": "default"
-    },
-    {
-      "role": "力持ち地蔵",
-      "actor": "iwao",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "market": "bg/year-end-market-2048x1152.png",
-    "jizo": "bg/snowy-jizo-pass-2048x1152.png",
-    "cottage": "bg/old-cottage-night-2048x1152.png"
+  {
+   "role": "お爺さん",
+   "actor": "extra_elder",
+   "costume": "default"
   },
-  "steps": [
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『笠地蔵 ―真夜中の地蔵会議―』。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "雪の夜、六体の地蔵は黙っていた――昼のあいだは。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "真夜中になると、石の議事録がたいへん賑やかに始まります。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "market",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "market"
-    },
-    {
-      "op": "nar",
-      "text": "年の瀬の市。笠が一つも売れず、老夫婦の夕飯も買えない。"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elder",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elf",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elf",
-      "text": "売れなかった笠も、誰かの役には立つよ。気を落とさないで。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "帰り道の地蔵さまへ被せよう。雪より笠の方が軽かろう。"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elf"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elder"
-    },
-    {
-      "op": "bg",
-      "src": "jizo",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "jizo"
-    },
-    {
-      "op": "nar",
-      "text": "峠。五つの笠と、自分の手拭いを六体の地蔵へ掛ける。"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elder",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_skeleton",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "最後は手拭いですまん。皆さま、よい年を。"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elder"
-    },
-    {
-      "op": "nar",
-      "text": "夜半。人の足音が消えると、地蔵たちの石の会議が始まる。"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "left"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "議題一。いただいた親切へ、どう返すか。案をどうぞ。",
-      "eyes": "fun"
-    },
-    {
-      "op": "show",
-      "actor": "iwao",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "米俵を百俵。豪快でわかりやすい。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "却下。玄関がつぶれる。恩返しで家を壊してはならぬ。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "では、小判を山ほど。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "雪道で落とす。拾った者が別の昔話を始める。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "必要な物を、必要なだけ。残りは村の共同蔵へ。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "地味ですが、議長らしい案です。採決。"
-    },
-    {
-      "op": "nar",
-      "text": "六体の地蔵は石の手を少しだけ上げる。全会一致。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "運搬方法は。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "押す。地蔵は歩かぬが、雪の上なら滑る。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "それは歩くより目立ちます。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "地蔵たちは米、味噌、薪、布を小さな橇へ載せる。"
-    },
-    {
-      "op": "hide",
-      "actor": "iwao"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_skeleton"
-    },
-    {
-      "op": "bg",
-      "src": "cottage",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "cottage"
-    },
-    {
-      "op": "nar",
-      "text": "老夫婦の家。屋根の上を、重いものが滑る音が近づく。"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elf",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elder",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elf",
-      "text": "お爺さん、家が歩いてきたみたいな音だよ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "家はここだ。歩いてくるのは、もっと重い方かもしれん。"
-    },
-    {
-      "op": "nar",
-      "text": "戸口に橇が止まり、食料と薪、そして「共同蔵へ」の絵札が残る。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elf",
-      "text": "私たちだけの分ではないね。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "地蔵さまは、分けるところまで見ておられる。"
-    },
-    {
-      "op": "nar",
-      "text": "二人は必要な分を取り、残りを村の広場へ運ぶ。"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elder"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elf"
-    },
-    {
-      "op": "bg",
-      "src": "jizo",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "jizo"
-    },
-    {
-      "op": "nar",
-      "text": "翌朝。地蔵たちは元の場所で、何も知らない顔をしている。"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_skeleton",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "議長、手拭いが少し曲がっています。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "会議の痕跡は消した。曲がりは風のせいだ。"
-    },
-    {
-      "op": "show",
-      "actor": "iwao",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "次回議題。橇にブレーキを付ける。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "賛成。昨夜、坂を二つ通り過ぎました。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "iwao"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_skeleton"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "笠へのお礼は、老夫婦だけでなく村の冬を温めました。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "親切が会議にかけられるなら、分けられる恩返しが最優秀案でしょう。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "end"
+  {
+   "role": "お婆さん",
+   "actor": "extra_elf",
+   "costume": "default"
+  },
+  {
+   "role": "市の餅屋",
+   "actor": "extra_villager",
+   "costume": "default"
+  },
+  {
+   "role": "地蔵議長",
+   "actor": "extra_skeleton",
+   "costume": "default"
+  },
+  {
+   "role": "六番目の地蔵",
+   "actor": "shiro",
+   "costume": "default"
+  },
+  {
+   "role": "力持ち地蔵",
+   "actor": "iwao",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "market": "bg/year-end-market-2048x1152.png",
+  "jizo": "bg/snowy-jizo-pass-2048x1152.png",
+  "cottage": "bg/old-cottage-night-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "大晦日のNONO座へ、ようこそ。今夜は、雪の峠に立つ六体のお地蔵さまのお話です。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "昼のお地蔵さまは、石のまま、じっと動きません。ところが、真夜中になると……"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "石の頭を寄せあって、会議をお開きになるのだそうで。昔話『笠地蔵』、NONO座流でございます。",
+   "eyes": "fun"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "cottage",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "cottage"
+  },
+  {
+   "op": "nar",
+   "text": "大晦日の朝。山あいの小さな家。米びつは空で、囲炉裏には細い火しかない。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elf",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "お爺さん、とうとう米が一粒もなくなりましたよ。正月のお餅も、つけそうにない。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "夜なべに編んだ笠が五つある。これを町の市で売って、餅米を買ってこよう。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "雪が降りそうな空ですよ。気をつけて。暗くなる前に帰ってきてくださいね。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "心配いらん。笠を売る者が、雪を怖がってどうする。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elf"
+  },
+  {
+   "op": "bg",
+   "src": "market",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "market"
+  },
+  {
+   "op": "nar",
+   "text": "年の瀬の市。人々が餅や魚を抱えて、足早に行き交う。お爺さんは、道の端で笠を並べている。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "笠はいらんかね。編みたての菅笠だよ。雪にも、雨にも。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_villager",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "爺さん、大晦日に笠を買う者はいねえよ。皆が欲しいのは、餅と鰤だ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "そうかね。……一つでも、売れんかね。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "一つ十文。……悪いが、うちも今年は苦しくてな。代わりに、これをやる。"
+  },
+  {
+   "op": "nar",
+   "text": "餅屋は、売れ残りの、ひびの入った小さな餅を一つ、お爺さんの手に載せた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "ありがたい。婆さんへの、いい土産になる。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "日が暮れるぞ。峠の雪は、早いからな。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_villager"
+  },
+  {
+   "op": "bg",
+   "src": "jizo",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "jizo"
+  },
+  {
+   "op": "nar",
+   "text": "夕暮れの峠。雪が激しく降り出した。道端に、六体の地蔵が、頭に雪を積もらせて並んでいる。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "おお、お地蔵さま。こんなに雪をかぶって、寒かろうに。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "売れ残りの笠だが、かぶってくだされ。……一つ、二つ、三つ、四つ、五つ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "六番目のお地蔵さまの分が、足りん。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……わしの手ぬぐいで、こらえてくだされ。ほっかむりでも、ないよりはましじゃろう。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "お爺さんは、自分の頭の手ぬぐいを外して、六番目の地蔵の頭に結んだ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "よいお年を。……さて、わしは、餅一つ持って、帰るとしよう。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "bg",
+   "src": "cottage",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "cottage"
+  },
+  {
+   "op": "nar",
+   "text": "夜。雪まみれのお爺さんが、戸口に倒れ込むように帰ってくる。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elf",
+   "pos": "right"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "お爺さん、頭が真っ白。手ぬぐいはどうしたの。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "笠は一つも売れなんだ。峠のお地蔵さまが寒そうで、みんなかぶせてきた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "一つ足りなんで、わしの手ぬぐいも。……すまん。餅米は、買えなんだ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "……そう。お地蔵さまに。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "それでいいんですよ。うちは寒くても、屋根がある。お地蔵さまには、ないもの。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "餅屋が、小さいのを一つくれた。これを、二人で分けよう。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "お湯に浮かべて、雑煮のつもりにしましょう。今年の正月は、それで十分。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elf"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "bg",
+   "src": "jizo",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "jizo"
+  },
+  {
+   "op": "nar",
+   "text": "真夜中の峠。足音が消えると、笠をかぶった地蔵たちの石の目が、そっと開く。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_skeleton",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "これより、峠六地蔵の、年越し臨時会議を開く。議題は一つ。今宵いただいた笠への、お礼じゃ。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "米俵を百俵！　どーんと、景気よく！",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "却下。あの小さな家に百俵積めば、床が抜ける。恩返しで家を壊してはならぬ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "では小判を千両。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "却下。大晦日の夜に千両を担いで歩けば、峠の熊が会議に加わる。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "あの……わたしは、笠ではなく、手ぬぐいでした。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "六番目は、ほっかむり。いちばん泥棒みたいな格好だな。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "でも、この手ぬぐいは、お爺さんの頭の温かさが、まだ残っています。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "あの人は、自分の頭を雪にさらして、帰っていきました。笠より、ずっと重いお供えです。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "……そうであったか。では、六番目に、お礼の中身を決めてもらおう。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "必要なものを、必要なだけ。米、味噌、薪、それから、お婆さんに、新しい手ぬぐいを。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "運ぶのは、わしにまかせろ。……ただ、雪が深い。峠を下る道は、凍っておる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "石の足では、坂で止まれぬ。滑れば谷底じゃ。それでも行くか。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "六体は、皆で手をつなぎ、凍った坂をそろそろと下る",
+     "jump": "slow"
+    },
+    {
+     "text": "六体は、大きな橇を作って、坂を一気に滑り下りる",
+     "jump": "sled"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "slow"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "一歩ずつだ。わしが一番前。転んだら、皆で受け止める。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "議長、足が。……いえ、大丈夫。皆が引っぱってくれました。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "夜明けまでに間に合えばよい。急ぐ恩返しは、たいてい落とし物をする。"
+  },
+  {
+   "op": "jump",
+   "to": "arrive"
+  },
+  {
+   "op": "label",
+   "id": "sled"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "橇だ！　俵を積んで、それっ！",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "石の地蔵を乗せた橇は、雪煙を上げて坂を駆け下り、曲がり角を二つ、勢いよく通り越した。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "止まれ、止まらぬ！　六番目、手ぬぐいで目をふさぐな！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "ふさいでいません！　風で、ずれたんです！"
+  },
+  {
+   "op": "nar",
+   "text": "橇は、杉の木にぶつかって、ようやく止まった。俵は一つも落ちていなかった。"
+  },
+  {
+   "op": "jump",
+   "to": "arrive"
+  },
+  {
+   "op": "label",
+   "id": "arrive"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_skeleton"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "bg",
+   "src": "cottage",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "cottage"
+  },
+  {
+   "op": "nar",
+   "text": "夜明け前。小さな家の外で、ずしん、ずしんと、重い足音がする。歌声も聞こえる。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elf",
+   "pos": "right"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "お爺さん、外で誰かが歌ってますよ。笠をくれた、爺さまの家はどこか、って。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "こんな夜中に。……戸を開けてみよう。"
+  },
+  {
+   "op": "nar",
+   "text": "戸口には、米俵、味噌樽、薪の束、そして畳んだ新しい手ぬぐいが、山のように積まれていた。"
+  },
+  {
+   "op": "nar",
+   "text": "遠ざかる雪道に、笠をかぶった六つの背中と、一つのほっかむりが見えた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……お地蔵さまだ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "あんな雪の中を、運んでくださったんだね。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "手ぬぐい一枚の礼に、新しい手ぬぐいが返ってきた。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "お爺さん、お餅がつけますよ。……そうだ、ついたら、峠へ持っていきましょう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "うむ。お地蔵さまにも、お雑煮を。今年は、六つ、ちゃんと揃えてな。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elf"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "売れ残りの笠と、一枚の手ぬぐい。お礼は、それを受け取ったお地蔵さまが、自分たちで相談して決めました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "峠の地蔵の手ぬぐいは、その後も毎年、少しずつ新しくなったそうです。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "笠地蔵、雪の夜の会議は、ここで閉会。皆さま、よいお年を。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

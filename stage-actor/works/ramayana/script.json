@@ -9,7 +9,7 @@
   "format": "v3",
   "minutes": 48,
   "synopsis": "全五景で「義務を守ることと、身近な人を疑わないことの緊張」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
-  "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
  },
  "cast": [
   {
@@ -63,33 +63,22 @@
   {
    "op": "say",
    "actor": "nono",
-   "text": "ようこそ、NONO座へ。本日の演目は『ラーマーヤナ』。",
-   "eyes": "normal"
+   "text": "古代インド、コーサラの国の都、アヨーディヤ。老いた王ダシャラタには、四人の王子がおりました。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "神話・叙事詩の一席を、全五景でお届けします。",
-   "mouth": "open",
-   "eyes": "normal"
+   "text": "長男のラーマは、弓の名手で、心正しく、誰からも、次の王にと、望まれていました。妻は、シーター。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "この舞台の核は「義務を守ることと、身近な人を疑わないことの緊張」。",
-   "eyes": "sorrow"
+   "text": "インドの叙事詩『ラーマーヤナ』。王位を目前にした王子が、森へ追われ、妻を奪われ、海を越えて、取り戻しに行くお話。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "台詞はすべて今夜のための書き下ろしです。"
-  },
-  {
-   "op": "say",
-   "actor": "nono",
-   "text": "それでは、幕を開けましょう。",
-   "mouth": "open",
-   "eyes": "joy"
+   "text": "義務を守ること。……そして、いちばん近くにいる人を、疑わないこと。その二つは、ときに、ぶつかり合うのでございます。"
   },
   {
    "op": "hide",
@@ -106,7 +95,87 @@
   },
   {
    "op": "nar",
-   "text": "第1景「アヨーディヤの門」。王位を譲りラーマが十四年の森の追放へ出る。"
+   "text": "アヨーディヤの都の、城門。朝。即位の祝いの飾りが、通りに、まだ、残っている。"
+  },
+  {
+   "op": "nar",
+   "text": "ラーマが、樹皮の衣に着替えて、門の前に、立っていた。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "兄上。……本当に、行かれるのですか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "父上が、約束を、なさったのだ。……カイケーイー妃に、昔、二つの願いを、何でも叶えると。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "その願いが、兄上を、十四年、森へ追い、弟のバラタを、王にすること、だったとは！",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "父上は、約束を、破れない。……王が、約束を破れば、国の言葉は、すべて、軽くなる。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "だから、兄上が、黙って、去るのですか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "父上の言葉を、守るのは、息子の、務めだ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……では、私も、行きます。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "ラクシュマナ。お前には、お前の、暮らしが。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "兄上のそばにいることが、私の、暮らしです。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……妻を、置いていくのか。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "妻は、言いました。……兄上に、ついて行かぬなら、離縁する、と。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
   },
   {
    "op": "show",
@@ -116,95 +185,63 @@
   {
    "op": "show",
    "actor": "yui",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
    "pos": "right"
   },
   {
    "op": "say",
-   "actor": "rei_kimono",
-   "text": "「アヨーディヤの門」へ来た。王位を譲りラーマが十四年の森の追放へ出る。",
-   "eyes": "normal"
-  },
-  {
-   "op": "say",
    "actor": "yui",
-   "text": "ここで黙れば、誰かが代わりに意味を決める。",
-   "eyes": "joy"
+   "text": "……わたしも、まいります。"
   },
   {
    "op": "say",
    "actor": "rei_kimono",
-   "text": "私が守りたいのは「義務を守ることと、身近な人を疑わないことの緊張」だ。",
-   "eyes": "anger"
-  },
-  {
-   "op": "nar",
-   "text": "アヨーディヤの門の空気が変わり、二人は言葉の裏を測る。"
+   "text": "シーター。……森は、獣が出る。雨も、日照りも、ある。宮殿の暮らしとは、まるで、違う。"
   },
   {
    "op": "say",
    "actor": "yui",
-   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
-   "eyes": "sorrow"
+   "text": "夫が、森にいるなら、森が、わたしの、宮殿です。"
   },
   {
    "op": "say",
    "actor": "rei_kimono",
-   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-   "eyes": "fun"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "過去は変えられない。だが次の手は選べる。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "nar",
-   "text": "遠くの音が途切れる。王位を譲りラーマが十四年の森の追放へ出る。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_kimono",
-   "text": "王位を譲りラーマが十四年の森の追放へ出る。その事実から目をそらさない。",
-   "eyes": "crying"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "恐れを消すのではなく、恐れたまま進もう。",
+   "text": "……つらい、旅になる。",
    "eyes": "closed"
   },
   {
    "op": "say",
-   "actor": "rei_kimono",
-   "text": "私の名ではなく、行いで答えを残す。",
-   "eyes": "normal"
-  },
-  {
-   "op": "nar",
-   "text": "答えを急がず、選んだ手段の代価を確かめる。"
-  },
-  {
-   "op": "say",
    "actor": "yui",
-   "text": "その答えを、次の場面まで持って行こう。",
+   "text": "一人の、つらい旅より、二人の、つらい旅のほうが、半分、軽いでしょう。",
    "eyes": "joy"
   },
   {
    "op": "say",
-   "actor": "rei_kimono",
-   "text": "ここで決める。逃げず、相手の声を聞く。",
-   "eyes": "anger"
-  },
-  {
-   "op": "nar",
-   "text": "残された沈黙が、次の行動を促す。"
+   "actor": "sasuke",
+   "text": "三人なら、三分の一です。"
   },
   {
    "op": "say",
    "actor": "yui",
-   "text": "ならば私も、その決断の重さを分け合う。",
-   "eyes": "sorrow"
+   "text": "……ラクシュマナ、それは、計算が、違うわ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "気持ちの、計算です。"
+  },
+  {
+   "op": "nar",
+   "text": "三人は、門をくぐった。都の人々が、泣きながら、見送った。"
+  },
+  {
+   "op": "nar",
+   "text": "……老王ダシャラタは、その数日後、悲しみのあまり、息を、引き取った。"
   },
   {
    "op": "hide",
@@ -213,6 +250,10 @@
   {
    "op": "hide",
    "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
   },
   {
    "op": "bg",
@@ -225,110 +266,208 @@
   },
   {
    "op": "nar",
-   "text": "第2景「金の鹿の森」。幻の鹿に誘われた隙にシーターがさらわれる。"
+   "text": "森。ダンダカの森の奥。パンチャヴァティーの庵。数年の月日が、流れていた。"
+  },
+  {
+   "op": "nar",
+   "text": "……ある朝、庵の前の木立に、金色に輝く、鹿が、現れた。"
   },
   {
    "op": "show",
-   "actor": "sasuke",
+   "actor": "yui",
    "pos": "left"
   },
   {
    "op": "show",
-   "actor": "gou",
+   "actor": "rei_kimono",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……ラーマ。見て。……あんなに、きれいな、鹿。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……金色の、鹿か。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "捕まえて、くださいな。……毛皮を、都へ帰る日に、持って帰りたいの。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……森に、金色の鹿など、いるはずがない。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "だから、珍しいのよ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……わかった。追いかけて、みよう。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "ラクシュマナ。……シーターを、頼む。何が、あっても、そばを、離れるな。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
    "pos": "right"
   },
   {
    "op": "say",
    "actor": "sasuke",
-   "text": "「金の鹿の森」へ来た。幻の鹿に誘われた隙にシーターがさらわれる。",
-   "eyes": "joy",
-   "mouth": "open"
+   "text": "……義姉上。あの鹿は、怪しい。羅刹の、化けたものかもしれません。"
   },
   {
    "op": "say",
-   "actor": "gou",
-   "text": "ここで黙れば、誰かが代わりに意味を決める。"
+   "actor": "yui",
+   "text": "兄上は、弓の名手よ。……心配、ないわ。"
+  },
+  {
+   "op": "nar",
+   "text": "森の奥から、悲鳴が、聞こえた。……ラーマの声だった。「シーター！　ラクシュマナ！　助けてくれ！」"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……ラーマ！",
+   "eyes": "surprise"
   },
   {
    "op": "say",
    "actor": "sasuke",
-   "text": "私が守りたいのは「義務を守ることと、身近な人を疑わないことの緊張」だ。",
+   "text": "……あれは、兄上の声ではない。化け物の、声色です。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "どうして、そう言えるの！　……早く、助けに、行って！",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "兄上を、倒せる者など、この森には、おりません。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "兄上は、私に、ここで、義姉上を、守れと、言いました。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "あなたは、兄上が、死ねばいいと、思っているの！　……わたしが、欲しいの！"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……そこまで、おっしゃいますか。",
    "eyes": "sorrow"
   },
   {
    "op": "nar",
-   "text": "金の鹿の森の空気が変わり、二人は言葉の裏を測る。"
-  },
-  {
-   "op": "say",
-   "actor": "gou",
-   "text": "守るという言葉が、誰かの犠牲を隠していないか。"
+   "text": "ラクシュマナは、地面に、一本の線を、引いた。"
   },
   {
    "op": "say",
    "actor": "sasuke",
-   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-   "eyes": "surprise",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "gou",
-   "text": "過去は変えられない。だが次の手は選べる。"
+   "text": "この線の内側に、いてください。……誰が来ても、決して、出てはなりません。"
   },
   {
    "op": "nar",
-   "text": "遠くの音が途切れる。幻の鹿に誘われた隙にシーターがさらわれる。"
+   "text": "ラクシュマナは、森の奥へ、走っていった。"
   },
   {
-   "op": "say",
-   "actor": "sasuke",
-   "text": "幻の鹿に誘われた隙にシーターがさらわれる。その事実から目をそらさない。",
-   "eyes": "closed"
-  },
-  {
-   "op": "say",
-   "actor": "gou",
-   "text": "恐れを消すのではなく、恐れたまま進もう。"
-  },
-  {
-   "op": "say",
-   "actor": "sasuke",
-   "text": "私の名ではなく、行いで答えを残す。",
-   "eyes": "joy",
-   "mouth": "open"
-  },
-  {
-   "op": "nar",
-   "text": "答えを急がず、選んだ手段の代価を確かめる。"
-  },
-  {
-   "op": "say",
-   "actor": "gou",
-   "text": "その答えを、次の場面まで持って行こう。"
-  },
-  {
-   "op": "say",
-   "actor": "sasuke",
-   "text": "ここで決める。逃げず、相手の声を聞く。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "nar",
-   "text": "残された沈黙が、次の行動を促す。"
-  },
-  {
-   "op": "say",
-   "actor": "gou",
-   "text": "ならば私も、その決断の重さを分け合う。"
+   "op": "hide",
+   "actor": "yui"
   },
   {
    "op": "hide",
    "actor": "sasuke"
   },
   {
+   "op": "show",
+   "actor": "yui",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "homura",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "庵の前。一人の、年老いた、托鉢僧が、現れた。……杖をつき、施しの鉢を、差し出している。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "……娘さん。……どうか、一口の、施しを。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……お待ちください。今、お持ちします。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "線の、外まで、持ってきてくださらんか。……年寄りの、足では、そこまで、届かぬ。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……托鉢の方に、施しを、拒むのは、罪。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "シーターは、一歩、線の外へ、踏み出した。……その瞬間、托鉢僧の姿が、膨れ上がった。十の頭。二十の腕。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "……わしは、ランカーの王、ラーヴァナ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "十の、頭……！",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "そなたの、美しさは、ランカーまで、聞こえておった。……わしの、妃に、なってもらう。"
+  },
+  {
+   "op": "nar",
+   "text": "ラーヴァナは、シーターを、空飛ぶ車に、乗せて、南の空へ、飛び去っていった。"
+  },
+  {
    "op": "hide",
-   "actor": "gou"
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "homura"
   },
   {
    "op": "bg",
@@ -341,107 +480,210 @@
   },
   {
    "op": "nar",
-   "text": "第3景「海を越える跳躍」。ハヌマーンがランカーへ渡りシーターを見つける。"
+   "text": "南の海辺。マヘーンドラの山の上。ラーマとラクシュマナは、猿の王国の、軍勢と、手を結んでいた。"
+  },
+  {
+   "op": "nar",
+   "text": "……猿の勇士、ハヌマーンが、海を、見つめている。"
   },
   {
    "op": "show",
-   "actor": "homura",
+   "actor": "rei_kimono",
    "pos": "left"
   },
   {
    "op": "show",
-   "actor": "rei_kimono",
+   "actor": "gou",
    "pos": "right"
   },
   {
    "op": "say",
-   "actor": "homura",
-   "text": "「海を越える跳躍」へ来た。ハヌマーンがランカーへ渡りシーターを見つける。"
+   "actor": "rei_kimono",
+   "text": "ハヌマーン。……ランカーは、この海の、向こうか。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "鳥の王の、弟が、教えてくれました。……あの島に、黒い城が、あると。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "百ヨージャナの、彼方。……鳥でも、渡れぬ、遠さで、ございます。"
   },
   {
    "op": "say",
    "actor": "rei_kimono",
-   "text": "ここで黙れば、誰かが代わりに意味を決める。",
+   "text": "……シーターは、あの島に、囚われている。……生きているかどうかも、わからない。",
    "eyes": "sorrow"
   },
   {
    "op": "say",
-   "actor": "homura",
-   "text": "私が守りたいのは「義務を守ることと、身近な人を疑わないことの緊張」だ。"
-  },
-  {
-   "op": "nar",
-   "text": "海を越える跳躍の空気が変わり、二人は言葉の裏を測る。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_kimono",
-   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "say",
-   "actor": "homura",
-   "text": "ならば勝ち負けだけでなく、支払う代価も見る。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_kimono",
-   "text": "過去は変えられない。だが次の手は選べる。",
+   "actor": "gou",
+   "text": "……わしが、跳びましょう。",
    "eyes": "closed"
   },
   {
-   "op": "nar",
-   "text": "遠くの音が途切れる。ハヌマーンがランカーへ渡りシーターを見つける。"
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "跳ぶ？"
   },
   {
    "op": "say",
-   "actor": "homura",
-   "text": "ハヌマーンがランカーへ渡りシーターを見つける。その事実から目をそらさない。"
+   "actor": "gou",
+   "text": "わしは、風の神の子。……子どものころ、太陽を、果物と間違えて、跳びついたことが、ありましてな。"
   },
   {
    "op": "say",
    "actor": "rei_kimono",
-   "text": "恐れを消すのではなく、恐れたまま進もう。",
-   "eyes": "joy"
+   "text": "……傷が、残るほど、叱られたのか。"
   },
   {
    "op": "say",
-   "actor": "homura",
-   "text": "私の名ではなく、行いで答えを残す。"
-  },
-  {
-   "op": "nar",
-   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+   "actor": "gou",
+   "text": "太陽に、叱られました。……顎に、傷が、残っております。",
+   "eyes": "fun"
   },
   {
    "op": "say",
    "actor": "rei_kimono",
-   "text": "その答えを、次の場面まで持って行こう。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "say",
-   "actor": "homura",
-   "text": "ここで決める。逃げず、相手の声を聞く。"
+   "text": "……頼む、ハヌマーン。シーターに、これを。"
   },
   {
    "op": "nar",
-   "text": "残された沈黙が、次の行動を促す。"
+   "text": "ラーマは、自分の、指輪を、外して、渡した。"
   },
   {
    "op": "say",
    "actor": "rei_kimono",
-   "text": "ならば私も、その決断の重さを分け合う。",
-   "eyes": "surprise"
+   "text": "私が、必ず、迎えに行くと。……伝えてくれ。"
   },
   {
-   "op": "hide",
-   "actor": "homura"
+   "op": "nar",
+   "text": "ハヌマーンは、山の頂で、身をかがめた。山が、きしんだ。……そして、一跳びで、海の上へ、舞い上がった。"
   },
   {
    "op": "hide",
    "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "ランカーの、アショーカの林。夜。シーターが、木の下に、座っている。"
+  },
+  {
+   "op": "nar",
+   "text": "羅刹の女たちが、見張っている。木の枝の上から、小さな猿が、そっと、降りてきた。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "……シーターさま。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……猿が、しゃべった。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "ラーマさまの、使いの、ハヌマーンで、ございます。……これを。"
+  },
+  {
+   "op": "nar",
+   "text": "シーターは、指輪を、手に取った。……震える指で、何度も、撫でた。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……ラーマの、指輪。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "必ず、迎えに来ると、おっしゃっていました。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……ラーヴァナは、毎日、わたしに、妃になれと、迫るの。……一年待って、承知しなければ、食べてしまう、と。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "……今すぐ、わしの背に、お乗りください。海を越えて、お連れします。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……それは、できないわ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "お断りに、なる？",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "わたしを、さらったのは、ラーヴァナ。……取り返すのは、ラーマでなければ、なりません。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "猿の背に、こっそり乗って、逃げ帰ったら、……ラーヴァナの罪は、問われないままになる。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "……さすがは、ラーマさまの、お妃さま。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "これを、ラーマに。……わたしの、髪飾り。わたしが、生きている、しるしに。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "必ず、お届けします。……少しばかり、ランカーで、暴れてから。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……暴れるの？",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "尻尾に、火を、つけられる予定です。……そうしたら、町に、火の粉を、撒いてきます。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
   },
   {
    "op": "bg",
@@ -454,159 +696,178 @@
   },
   {
    "op": "nar",
-   "text": "第4景「ランカーへの橋」。猿軍が海に橋を築きラーヴァナと対決する。"
+   "text": "南の海辺。猿の軍勢が、岩を運び、木を運び、海に、投げ入れている。岩には、一つ一つ、ラーマの名が、刻まれていた。"
   },
   {
    "op": "show",
-   "actor": "yui",
+   "actor": "rei_kimono",
    "pos": "left"
   },
   {
    "op": "show",
    "actor": "sasuke",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
    "pos": "right"
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "「ランカーへの橋」へ来た。猿軍が海に橋を築きラーヴァナと対決する。",
-   "eyes": "sorrow",
-   "mouth": "open"
+   "actor": "gou",
+   "text": "……ラーマさまの名を刻んだ岩は、沈みません。……海が、名を、浮かべるのです。"
   },
   {
    "op": "say",
    "actor": "sasuke",
-   "text": "ここで黙れば、誰かが代わりに意味を決める。",
-   "eyes": "fun"
+   "text": "五日で、百ヨージャナの、橋。……猿たちの、働きぶりは、すさまじい。"
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "私が守りたいのは「義務を守ることと、身近な人を疑わないことの緊張」だ。",
-   "eyes": "surprise"
+   "actor": "rei_kimono",
+   "text": "……一匹の、小さな、栗鼠が、砂を、運んでいる。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "栗鼠まで。……あいつも、手伝いたいのでしょう。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……大きな岩を運ぶ猿と、一粒の砂を運ぶ栗鼠。……どちらも、橋を、作っている。",
+   "eyes": "closed"
   },
   {
    "op": "nar",
-   "text": "ランカーへの橋の空気が変わり、二人は言葉の裏を測る。"
+   "text": "ラーマは、栗鼠を、手のひらに、乗せ、背中を、指で、そっと、撫でた。……栗鼠の背に、三本の、白い筋が、ついた。"
   },
   {
    "op": "say",
    "actor": "sasuke",
-   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
-   "eyes": "crying"
+   "text": "……白い筋が。"
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-   "eyes": "closed",
-   "mouth": "open"
+   "actor": "rei_kimono",
+   "text": "礼だ。……小さな力に、礼を、言わぬ王に、大きな力は、ついてこない。"
   },
   {
    "op": "say",
-   "actor": "sasuke",
-   "text": "過去は変えられない。だが次の手は選べる。",
-   "eyes": "normal"
-  },
-  {
-   "op": "nar",
-   "text": "遠くの音が途切れる。猿軍が海に橋を築きラーヴァナと対決する。"
+   "actor": "gou",
+   "text": "……わしの背中にも、撫でた跡を、つけて、いただけますか。"
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "猿軍が海に橋を築きラーヴァナと対決する。その事実から目をそらさない。",
-   "eyes": "joy"
-  },
-  {
-   "op": "say",
-   "actor": "sasuke",
-   "text": "恐れを消すのではなく、恐れたまま進もう。",
-   "eyes": "anger"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "私の名ではなく、行いで答えを残す。",
-   "eyes": "sorrow",
-   "mouth": "open"
-  },
-  {
-   "op": "nar",
-   "text": "答えを急がず、選んだ手段の代価を確かめる。"
-  },
-  {
-   "op": "say",
-   "actor": "sasuke",
-   "text": "その答えを、次の場面まで持って行こう。",
-   "eyes": "fun"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "ここで決める。逃げず、相手の声を聞く。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "nar",
-   "text": "残された沈黙が、次の行動を促す。"
-  },
-  {
-   "op": "say",
-   "actor": "sasuke",
-   "text": "ならば私も、その決断の重さを分け合う。",
-   "eyes": "crying"
-  },
-  {
-   "op": "choice",
-   "options": [
-    {
-     "text": "正面から問いかける",
-     "jump": "ramayana_direct"
-    },
-    {
-     "text": "相手の話を最後まで聞く",
-     "jump": "ramayana_listen"
-    }
-   ]
-  },
-  {
-   "op": "label",
-   "id": "ramayana_direct"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "私は正面から問う。曖昧なまま次へは進まない。"
-  },
-  {
-   "op": "jump",
-   "to": "ramayana_merge"
-  },
-  {
-   "op": "label",
-   "id": "ramayana_listen"
-  },
-  {
-   "op": "say",
-   "actor": "sasuke",
-   "text": "結論を急がず、相手が何を恐れているかまで聞こう。"
-  },
-  {
-   "op": "label",
-   "id": "ramayana_merge"
-  },
-  {
-   "op": "nar",
-   "text": "選び方は違っても、二人は同じ核心へ戻ってくる。"
+   "actor": "rei_kimono",
+   "text": "お前の背中は、広すぎる。"
   },
   {
    "op": "hide",
-   "actor": "yui"
+   "actor": "rei_kimono"
   },
   {
    "op": "hide",
    "actor": "sasuke"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "homura",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "ランカーの、戦場。十の頭を持つ王と、弓を構えた王子が、向かい合っている。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "ラーマ。……猿どもを、連れて、海まで、渡ってくるとはな。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "シーターを、返せ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "一人の女のために、ランカーを、灰にするつもりか。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "返せば、わしの、負けを、認めることになる。……わしは、ランカーの王だ。負けを認めて、生き延びる王は、王ではない。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……負けを、認められない王は、民を、道連れにする。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "小僧が、説教か！",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "ラーヴァナの、十の頭が、一斉に、吼えた。ラーマの矢が、一つの頭を、射落とした。……頭は、また、生えてきた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……何度、射ても。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "わしの頭は、千年の、修行で、得たもの。……そう、簡単には、落ちぬ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "nar",
+   "text": "ラーマは、最後の矢を、つがえた。……創造の神から、授かった、矢。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……ラーヴァナ。お前の、心臓を、狙う。……頭ではなく。"
+  },
+  {
+   "op": "nar",
+   "text": "矢が、放たれた。……ラーヴァナの胸を、貫いた。巨体が、ゆっくりと、倒れていった。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "……シーターを、一度も、無理やりには、しなかった。……それだけは、覚えておけ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……覚えておこう。お前の、最後の、言葉として。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "homura"
   },
   {
    "op": "bg",
@@ -619,101 +880,242 @@
   },
   {
    "op": "nar",
-   "text": "第5景「帰還の火」。勝利の後に信頼と王の義務が厳しく問われる。"
+   "text": "戦いの、あと。ランカーの都の、広場。シーターが、連れてこられた。猿の軍勢と、羅刹たちが、遠巻きに、見ている。"
   },
   {
    "op": "show",
-   "actor": "gou",
+   "actor": "rei_kimono",
    "pos": "left"
   },
   {
    "op": "show",
-   "actor": "homura",
+   "actor": "yui",
    "pos": "right"
   },
   {
    "op": "say",
-   "actor": "gou",
-   "text": "「帰還の火」へ来た。勝利の後に信頼と王の義務が厳しく問われる。"
+   "actor": "yui",
+   "text": "……来て、くださった。"
   },
   {
    "op": "say",
-   "actor": "homura",
-   "text": "ここで黙れば、誰かが代わりに意味を決める。"
+   "actor": "rei_kimono",
+   "text": "……シーター。"
   },
   {
    "op": "say",
-   "actor": "gou",
-   "text": "私が守りたいのは「義務を守ることと、身近な人を疑わないことの緊張」だ。"
-  },
-  {
-   "op": "nar",
-   "text": "帰還の火の空気が変わり、二人は言葉の裏を測る。"
+   "actor": "yui",
+   "text": "迎えに、来てくれた。",
+   "eyes": "joy"
   },
   {
    "op": "say",
-   "actor": "homura",
-   "text": "守るという言葉が、誰かの犠牲を隠していないか。"
+   "actor": "rei_kimono",
+   "text": "……シーター。……そなたは、一年近く、ラーヴァナの、もとにいた。",
+   "eyes": "closed"
   },
   {
    "op": "say",
-   "actor": "gou",
-   "text": "ならば勝ち負けだけでなく、支払う代価も見る。"
+   "actor": "yui",
+   "text": "……何を、おっしゃるの。",
+   "eyes": "surprise"
   },
   {
    "op": "say",
-   "actor": "homura",
-   "text": "過去は変えられない。だが次の手は選べる。"
-  },
-  {
-   "op": "nar",
-   "text": "遠くの音が途切れる。勝利の後に信頼と王の義務が厳しく問われる。"
+   "actor": "rei_kimono",
+   "text": "世間の者は、疑うだろう。……そなたが、清らかで、あったかどうかを。"
   },
   {
    "op": "say",
-   "actor": "gou",
-   "text": "勝利の後に信頼と王の義務が厳しく問われる。その事実から目をそらさない。"
+   "actor": "yui",
+   "text": "……世間の者は。……あなたは。"
   },
   {
    "op": "say",
-   "actor": "homura",
-   "text": "恐れを消すのではなく、恐れたまま進もう。"
+   "actor": "rei_kimono",
+   "text": "私は、王になる者だ。……王の妃は、民に、一点の、曇りも、疑われては、ならない。"
   },
   {
    "op": "say",
-   "actor": "gou",
-   "text": "私の名ではなく、行いで答えを残す。"
-  },
-  {
-   "op": "nar",
-   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+   "actor": "yui",
+   "text": "……わたしを、疑うのですか。……わたしは、ラーヴァナの、林で、毎日、あなたの名前を、唱えていたのに。",
+   "eyes": "anger"
   },
   {
    "op": "say",
-   "actor": "homura",
-   "text": "その答えを、次の場面まで持って行こう。"
+   "actor": "rei_kimono",
+   "text": "……私が、疑っているのでは、ない。"
   },
   {
    "op": "say",
-   "actor": "gou",
-   "text": "ここで決める。逃げず、相手の声を聞く。"
-  },
-  {
-   "op": "nar",
-   "text": "残された沈黙が、次の行動を促す。"
+   "actor": "yui",
+   "text": "では、誰が。"
   },
   {
    "op": "say",
-   "actor": "homura",
-   "text": "ならば私も、その決断の重さを分け合う。"
+   "actor": "rei_kimono",
+   "text": "……民が。……そして、王という、務めが。",
+   "eyes": "sorrow"
   },
   {
    "op": "hide",
-   "actor": "gou"
+   "actor": "rei_kimono"
   },
   {
    "op": "hide",
-   "actor": "homura"
+   "actor": "yui"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……ラクシュマナ。……薪を、積んでください。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……何を、なさるおつもりです。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "火の神に、問います。……わたしが、清らかで、あったかどうか。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "夫が、自分の言葉で、わたしを、信じられないのなら。……火に、証してもらうしか、ないでしょう。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……兄上！　止めてください！"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……止めて、どうなる。"
+  },
+  {
+   "op": "nar",
+   "text": "薪が、積まれた。火が、放たれた。……シーターは、まっすぐに、炎の中へ、歩いていった。"
+  },
+  {
+   "op": "nar",
+   "text": "炎は、シーターを、焼かなかった。……火の神、アグニが、シーターを、抱いて、炎の中から、現れた、と、伝えられている。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……これで、よろしいですか、王さま。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……義姉上が、無事で。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "遠巻きに見ていた猿の軍勢が、皆、肩を、震わせていた。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "ラーマは、シーターに許しを乞う",
+     "jump": "m_apologize"
+    },
+    {
+     "text": "ラーマは、王の務めを語る",
+     "jump": "m_duty"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_apologize"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……シーター。すまない。……私は、民の目を、恐れた。王になる、自分の、評判を、恐れた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "そなたを、火に、歩かせたのは、私の、弱さだ。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……その言葉を、炎の前に、聞きたかった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "jump",
+   "to": "m_end"
+  },
+  {
+   "op": "label",
+   "id": "m_duty"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "王は、民の疑いを、晴らさなければ、ならない。……それが、私の、務めだった。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……わたしの、務めは、何だったのでしょう。……夫を、信じること？　それとも、夫に、信じてもらうこと？"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……答えられない。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "答えられないなら、一緒に、考えて。……アヨーディヤへ、帰る道々。"
+  },
+  {
+   "op": "label",
+   "id": "m_end"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "bg",
+   "src": null
   },
   {
    "op": "show",
@@ -723,29 +1125,26 @@
   {
    "op": "say",
    "actor": "nono",
-   "text": "物語はここまで。残った問いは「義務を守ることと、身近な人を疑わないことの緊張」。",
-   "eyes": "sorrow"
+   "text": "『ラーマーヤナ』の長い旅も、今宵は、ここで、筆を置きます。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
-   "eyes": "normal"
+   "text": "ラーマは、父の約束を守り、海を越え、妻を、取り戻しました。……けれど、その妻を、炎の中へ、歩かせました。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "ご来場、ありがとうございました。",
-   "eyes": "joy",
-   "mouth": "open"
+   "text": "義務を守ることと、愛する人を信じること。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……この古い物語は、何千年も、その問いを、手放さずに、語り継がれてきたのでございます。"
   },
   {
    "op": "hide",
    "actor": "nono"
-  },
-  {
-   "op": "bg",
-   "src": null
   },
   {
    "op": "end"

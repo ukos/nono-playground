@@ -5,7 +5,7 @@
   "original": "『三国志演義』三顧の礼（古典・著作権消滅）",
   "adaptation": "moderate",
   "format": "v3",
-  "minutes": 19,
+  "minutes": 16,
   "synopsis": "徐庶の推薦を受けた劉備は、関羽・張飛と諸葛亮の草廬を三度訪ねる。留守と雪、同行者の苛立ちを越え、眠る孔明を待つ。孔明は天下三分の計を示し、民を救う志に応えて山を下りる。",
   "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
  },
@@ -43,6 +43,16 @@
   {
    "role": "徐庶",
    "actor": "extra_craftsman",
+   "costume": "default"
+  },
+  {
+   "role": "畑の農夫",
+   "actor": "extra_villager",
+   "costume": "default"
+  },
+  {
+   "role": "孔明の弟・諸葛均",
+   "actor": "hayate",
    "costume": "default"
   }
  ],
@@ -195,16 +205,62 @@
    "eyes": "fun"
   },
   {
-   "op": "hide",
-   "actor": "yui"
+   "op": "nar",
+   "text": "畑の向こうで、鍬を振るう農夫が、のんびりと歌っている。"
   },
   {
    "op": "hide",
    "actor": "kurogane"
   },
   {
+   "op": "show",
+   "actor": "extra_villager",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "青い空は、丸い傘。大地は、四角い碁盤。世の人は、白と黒に分かれて、栄えと辱めを競う。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "見事な歌だ。誰が作った歌かな。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "臥龍先生でさあ。この辺りじゃ、子どもでも歌いますよ。先生は、畑も耕すし、膝を抱えて歌も詠む。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "畑を耕す軍師なんぞ、聞いたことがねえ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "先生はね、自分を、昔の名宰相の管仲や楽毅に比べてなさる。皆、笑いますがね。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……笑う者のほうが、まだ先生の背丈が見えていないのかもしれぬ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
    "op": "hide",
    "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_villager"
   },
   {
    "op": "bg",
@@ -266,16 +322,58 @@
   },
   {
    "op": "nar",
-   "text": "数日後、二度目の訪問。今度は、孔明の弟が、兄は友人と遊山に出たと告げた。"
-  },
-  {
-   "op": "show",
-   "actor": "gou",
-   "pos": "left"
+   "text": "数日後、二度目の訪問。吹雪の中、草廬の戸口で、若者が書物を抱えて立っていた。"
   },
   {
    "op": "show",
    "actor": "yui",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "hayate",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "先生でいらっしゃいますか。劉備玄徳が、ふたたび参りました。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "いえ、わたしは弟の諸葛均です。兄は、昨日、友人と遊山に出かけました。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……また、すれ違ったか。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "兄は言っておりました。本当に会いたい人なら、三度でも来る。来なければ、それまでの縁だ、と。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……試されておるのかな。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "さあ。兄は、何を考えているか、弟にも分かりません。"
+  },
+  {
+   "op": "hide",
+   "actor": "hayate"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
    "pos": "right"
   },
   {
@@ -291,11 +389,11 @@
   },
   {
    "op": "hide",
-   "actor": "gou"
+   "actor": "yui"
   },
   {
    "op": "hide",
-   "actor": "yui"
+   "actor": "gou"
   },
   {
    "op": "bg",
@@ -428,6 +526,35 @@
    "text": "雪の中を、お待たせしてしまった。どうぞ、中へ。"
   },
   {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……裏へ回って火をつける、という勇ましいお声も、夢うつつに聞こえておりました。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "な、起きてたのか！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "半分は。将軍が、そのお声をどう扱われるか、残りの半分で聞いておりました。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……先生は、お人が悪い。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "人の悪い者でなければ、乱世の軍師は務まりませぬ。",
+   "eyes": "joy"
+  },
+  {
    "op": "hide",
    "actor": "yui"
   },
@@ -503,6 +630,21 @@
    "actor": "rei_kimono",
    "text": "ですが、私は田畑を耕す身。世の中に出るつもりは、ございません。",
    "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "なぜです。これほどの策を、胸にしまっておかれるのか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "策は、使う人を選びます。人を見誤れば、策は、民を殺す刃になる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "将軍は、三度目に、怒らずに雪の中で待たれた。……それでも、まだ、私は怖いのです。"
   },
   {
    "op": "say",

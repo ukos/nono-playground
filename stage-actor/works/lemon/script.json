@@ -1,150 +1,576 @@
 {
-  "meta": {
-    "id": "lemon",
-    "title": "檸檬 ―黄色い爆弾―",
-    "original": "梶井基次郎『檸檬』（著作権消滅作品）",
-    "adaptation": "faithful",
-    "format": "v3",
-    "minutes": 5,
-    "synopsis": "灰色に沈む主人公が一個の檸檬を買い、書店の画集へ爆弾のように置く短い詩的独白。",
-    "note": "本脚本は翻案であり、原作の文章・口演の転載ではない。セリフは全て本上演版の書き下ろし。"
+ "meta": {
+  "id": "lemon",
+  "title": "檸檬 ―黄色い爆弾―",
+  "original": "梶井基次郎『檸檬』（著作権消滅作品）",
+  "adaptation": "faithful",
+  "format": "v3",
+  "minutes": 16,
+  "synopsis": "名づけようのない塊を胸に抱えた学生が、京都の果物屋で一個の檸檬を買う。その冷たさと重さに救われた彼は、丸善の画集の山の頂に檸檬を据え、爆弾に見立てて店を出る。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "狂言回し",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "主人公",
-      "actor": "rei_casual",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "street": "bg/lemon-gray-street-2048x1152.png",
-    "bookstore": "bg/lemon-bookstore-2048x1152.png"
+  {
+   "role": "私",
+   "actor": "rei_casual",
+   "costume": "default"
   },
-  "steps": [
+  {
+   "role": "友人",
+   "actor": "yoru",
+   "costume": "default"
+  },
+  {
+   "role": "果物屋の主人",
+   "actor": "extra_villager",
+   "costume": "default"
+  },
+  {
+   "role": "丸善の店員",
+   "actor": "extra_elf",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "street": "bg/lemon-gray-street-2048x1152.png",
+  "bookstore": "bg/lemon-bookstore-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "大正のころの京都。ひとりの学生が、胸の中に重たい何かを抱えて、町をさまよっていました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "病でも、借金でもあるのに、それだけではない。名前のつけられない、もやもやした塊です。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "梶井基次郎の短い小説『檸檬』。今夜は、その一日を、四人の役者でたどります。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "主役は、果物屋で売っていた、たった一個の檸檬でございます。",
+   "eyes": "fun"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "street",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "street"
+  },
+  {
+   "op": "nar",
+   "text": "朝の裏通り。古い長屋の二階の窓が開き、学生が友人の部屋から出てくる。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "また俺の部屋で夜を明かしたな。下宿には帰らないのか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "帰ると、天井の染みが私を見下ろす。ここの天井は、まだ私を知らないから楽だ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "学校は。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "学校の門をくぐると、胸の塊が倍に膨らむ。だから、門の前で引き返した。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "金も、もう無いだろう。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "無い。だから、いい物を見ても、買えない。見るだけで疲れる。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "下宿のおかみさんが、昨日、俺のところまで来たぞ。月末までに払えなければ、荷物ごと出ていってもらうと。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……知っている。だから、今日が、あの部屋で目を覚ます、最後の朝だったかもしれない。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "じゃあ、どうするんだ、今日一日。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "歩く。表通りより裏通りがいい。崩れかけた塀や、干した布団や、壊れた植木鉢のほうが落ち着く。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "変わってるな。きれいな物なら、丸善にいくらでもあるのに。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "丸善は、昔は好きだった。香水の瓶、舶来の煙草、厚い画集。今は、全部が私を責める。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "責める？　物が？"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "持てない者に、持てる物はみんな重い。……行ってくる。夕方には、また部屋を貸してくれ。"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "nar",
+   "text": "学生は、ゆっくりと坂を下り、寺町の通りへ出た。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "寺町の果物屋。ここだけは、前を通るたびに足が止まる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "暗い通りの中で、この店だけが明るい。果物が、段々に積んで、光っている。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_villager",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "いらっしゃい。今朝は柿がいいよ。蜜柑も甘い。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……あの黄色いのは。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "ああ、檸檬かい。珍しいだろう。カリフォルニアから来たやつだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "檸檬。絵の具をそのまま固めたような黄色だ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "見るだけかい。それとも、一つ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "一つだけ。……一銭でも余ると思って、ずっと財布を握っていたんだ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "一つでいいなら、いちばん形のいいのを選びな。紡錘形で、ころっとしたやつ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "これにする。……冷たい。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "朝の井戸水みたいだろう。夏は、これを握って昼寝する客もいるよ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "握っていると、指の熱が、檸檬に吸われていく。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_villager"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "鼻を近づける。……すっとする。胸の中まで、窓が一つ開いたようだ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "重さも、ちょうどいい。何かを測るための重りのような、正しい重さだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "この重さを、私はずっと探していた気がする。いい物の重さではなく、ちょうどの重さを。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "学生は、檸檬を掌にのせたり、着物の袖でこすったりしながら、通りを歩きつづけた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "気がつくと、丸善の前にいる。今日は、入れそうな気がする。"
+  },
+  {
+   "op": "choice",
+   "options": [
     {
-      "op": "bg",
-      "src": null
+     "text": "檸檬を握りしめて、丸善の扉を押す",
+     "jump": "enter"
     },
     {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『檸檬 ―黄色い爆弾―』。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "短い詩的独白。重たい街へ、一個の色を置きます。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "street",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "street"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "胸の奥に、形のない重りがある。町の色まで灰色に見える。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "主人公は果物屋の前で、鮮やかな檸檬を一つ手に取る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "冷たい。小さい。掌の中だけ、世界の輪郭が戻ってくる。"
-    },
-    {
-      "op": "nar",
-      "text": "黄色を持って歩くと、曇った硝子も古い壁も舞台装置に変わる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "美しい物は、重りを消さない。でも、持ち方を変えてくれる。",
-      "eyes": "closed"
-    },
-    {
-      "op": "bg",
-      "src": "bookstore",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "bookstore"
-    },
-    {
-      "op": "nar",
-      "text": "丸善の画集を積み、頂上へ檸檬を置く。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "これは爆弾だ。爆発するのは店ではなく、私を覆う灰色だ。"
-    },
-    {
-      "op": "nar",
-      "text": "主人公は店を出る。想像の中で、黄色い光が画集の山を吹き飛ばす。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "何も壊れていない。それでも私は、少し軽く歩ける。",
-      "eyes": "joy"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "檸檬は町を爆破せず、見え方だけを鮮やかに変えました。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "小さな美しさは、重さの中に呼吸を作ることがあります。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "end"
+     "text": "今日はやめておこうと、丸善の前を通り過ぎる",
+     "jump": "pass"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "pass"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "やめておこう。いい日に入れば、いい日が台無しになる。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "二筋先まで歩いたところで、学生は立ち止まった。袖の中の檸檬が、急に重くなった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "檸檬が、引き返せと言っている。……分かった。分かったよ。"
+  },
+  {
+   "op": "jump",
+   "to": "maru"
+  },
+  {
+   "op": "label",
+   "id": "enter"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "扉は、思ったより軽かった。"
+  },
+  {
+   "op": "jump",
+   "to": "maru"
+  },
+  {
+   "op": "label",
+   "id": "maru"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "bg",
+   "src": "bookstore",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "bookstore"
+  },
+  {
+   "op": "nar",
+   "text": "丸善の二階。画集の棚がずらりと並び、高い天井に埃が光っている。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elf",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "いらっしゃいませ。何かお探しでございますか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "いや……少し、画集を見せてもらいます。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "どうぞ、ごゆっくり。重いものですから、お気をつけて。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "アングルの画集。……重い。一冊を引き出すだけで、腕が疲れる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "開いても、頁が目に入ってこない。昔は、一枚ずつ、何時間でも眺めたのに。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "次の一冊。次の一冊。出しては閉じて、積んでいく。戻す気力が、もう無い。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "お客さま、ずいぶん出されましたね。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "すみません。あとで戻します。……あとで。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elf"
+  },
+  {
+   "op": "nar",
+   "text": "店員が階段を下りていく。台の上には、色とりどりの画集が、崩れそうに積み上がっていた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……そうだ。檸檬だ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "この画集で、城を造ろう。赤い本を下に、青い本を壁に、黄色っぽい本は避けて。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "積んでは崩し、また積む。妙に、胸がどきどきする。"
+  },
+  {
+   "op": "nar",
+   "text": "学生は、色の積み木の頂上に、そっと檸檬を据えた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "できた。灰色の部屋の中で、この檸檬だけが、しんと光っている。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "周りの埃っぽい空気が、檸檬のところだけ、きゅっと引き締まった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "このまま、知らん顔をして、外へ出てしまったら、どうだろう。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "これは爆弾だ。黄金色の、恐ろしい爆弾。十分後に、丸善の棚ごと、こっぱみじんになる。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "bg",
+   "src": "street",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "street"
+  },
+  {
+   "op": "nar",
+   "text": "夕暮れの京極の通り。学生は、くすぐったそうな顔で、人混みを歩いていく。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "どうした、にやにやして。いい物でも買えたのか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "買った。一個だけ。……そして、置いてきた。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "置いてきた？　どこに。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "丸善の、画集の山のてっぺんに。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "何をしに。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "爆破しに。……今ごろ、あの気詰まりな棚が、粉々に吹き飛んでいる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "何も起きちゃいないよ。店員が首をかしげて、帳場に持っていくだけだ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "分かってる。でも、私の中では、確かに一つ、吹き飛んだ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "胸の、その、塊とかいうやつか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "塊はまだある。ただ、今日は、それと一緒に笑って歩ける。"
+  },
+  {
+   "op": "nar",
+   "text": "京極の灯りが、一つ、また一つとともり、二人はその中へ紛れていった。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "爆弾は、一度も爆発しませんでした。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "爆発したのは、重たい物ばかりの世界を、黄色一個で塗り替えられるという、その想像です。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "梶井基次郎『檸檬』の一日は、ここまで。お帰りの道で果物屋の前を通ったら、どうぞ一つ、手に取ってみてください。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

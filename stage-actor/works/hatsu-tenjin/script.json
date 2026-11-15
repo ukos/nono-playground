@@ -1,200 +1,567 @@
 {
-  "meta": {
-    "id": "hatsu-tenjin",
-    "title": "初天神 ―父と子の凧―",
-    "original": "古典落語『初天神』（伝統演目・著作権消滅）",
-    "adaptation": "faithful",
-    "format": "v3",
-    "minutes": 6,
-    "synopsis": "ねだらない約束で初天神へ行った父子が、飴と凧で次々に約束を揺らす短編ほのぼの噺。",
-    "note": "本脚本は翻案であり、原作の文章・口演の転載ではない。セリフは全て本上演版の書き下ろし。"
+ "meta": {
+  "id": "hatsu-tenjin",
+  "title": "初天神 ―父と子の凧―",
+  "original": "古典落語『初天神』（伝統演目・著作権消滅）",
+  "adaptation": "faithful",
+  "format": "v3",
+  "minutes": 16,
+  "synopsis": "初天神の縁日に、何もねだらないと約束した息子を連れて行った父親。飴、団子と次々にねだられ、最後に凧を買うと、今度は父親のほうが夢中になってしまう。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "狂言回し",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "父",
-      "actor": "extra_craftsman",
-      "costume": "default"
-    },
-    {
-      "role": "子",
-      "actor": "shiro",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "street": "bg/hatsu-tenjin-road-2048x1152.png",
-    "shrine": "bg/hatsu-tenjin-shrine-2048x1152.png"
+  {
+   "role": "父・熊五郎",
+   "actor": "extra_craftsman",
+   "costume": "default"
   },
-  "steps": [
+  {
+   "role": "金坊",
+   "actor": "shiro",
+   "costume": "default"
+  },
+  {
+   "role": "母",
+   "actor": "extra_elf",
+   "costume": "default"
+  },
+  {
+   "role": "露店の親父",
+   "actor": "extra_villager",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "street": "bg/hatsu-tenjin-road-2048x1152.png",
+  "shrine": "bg/hatsu-tenjin-shrine-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "お寒い中、NONO座へようこそ。正月二十五日は、その年はじめての天神さまの縁日、初天神。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "境内には梅が咲き、飴屋、団子屋、凧屋と、露店がずらりと並びます。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "子ども連れで行けば、財布が軽くなるのは昔も今も同じ。そこで、ある父親は考えました。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "「今日は何も買わない」と、先に約束させればよいのだ、と。古典落語『初天神』。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "street",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "street"
+  },
+  {
+   "op": "nar",
+   "text": "長屋の前の通り。羽織を着た父親が、草履をつっかけて出かけようとしている。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_craftsman",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elf",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "じゃあ、ちょっと天神さまにお参りしてくる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "あら、一人で行くの。金坊も連れてっておやりよ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "あいつを連れてくと、あれ買え、これ買えで、たまったもんじゃねえ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "子どもの楽しみじゃないの。"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "おとっつぁん、天神さま行くの？　おいらも行く！",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "ほら、聞きつけた。……金坊、連れてってやってもいいが、約束しろ。何も買ってくれと言わねえと。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "言わない。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "飴もだぞ。団子もだぞ。凧もだぞ。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "言わない。おいら、天神さまに、お参りしたいだけだから。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "ほら、いい子じゃないの。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "どうだかな。……よし、行くぞ。手を離すなよ。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_craftsman"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elf"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "bg",
+   "src": "shrine",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "shrine"
+  },
+  {
+   "op": "nar",
+   "text": "天神さまの境内。人でごった返し、露店から甘い匂いが流れてくる。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_craftsman",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "おとっつぁん、人がいっぱいだね。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "手を離すなよ。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "うん。……おとっつぁん、今日は、おいら、いい子だね。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "……なんだ、急に。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "何も買ってくれって言ってないもん。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "当たり前だ。約束したろう。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "いい子には、ごほうびがあるもんだよね。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "そういうのを、ねだるってんだ。",
+   "eyes": "anger"
+  },
+  {
+   "op": "show",
+   "actor": "extra_villager",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "いらっしゃい、坊や。甘い飴だよ。赤いのも、青いのも。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……あの飴、きれいだね。おいらは買ってくれって言わないけど、きれいだね。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "言ってるのと同じだ。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "言ってない。きれいだって言っただけ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "旦那、坊やはまだ「買って」って言ってませんぜ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "……わかった、わかった。一つだけだぞ。親父、一番安いのを。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "自分で選んでいい？"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "選ぶな。選ぶと高いのを選ぶ。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "これ！　……これにする。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "それは一番大きいやつだろう。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "一番大きいのは、なめるのに一番長くかかるから、一番得だよ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "坊や、商売がわかってるねえ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "nar",
+   "text": "父は渋い顔で銭を払った。金坊は飴を口いっぱいにほおばり、また露店を眺めている。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "おとっつぁん、飴、もう終わっちゃった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "噛んだな。なめると長いって言ったのは誰だ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……あのね、おとっつぁん。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "なんだ。"
+  },
+  {
+   "op": "choice",
+   "options": [
     {
-      "op": "bg",
-      "src": null
+     "text": "金坊は、団子屋の前で立ち止まる",
+     "jump": "dango"
     },
     {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『初天神 ―父と子の凧―』。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "買わない約束は、境内に着く前から揺れています。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "street",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "street"
-    },
-    {
-      "op": "show",
-      "actor": "extra_craftsman",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "初天神へ行くが、今日は何もねだるな。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "ねだらない。見るだけ。目が欲しがるのは止められないけど。",
-      "eyes": "fun"
-    },
-    {
-      "op": "bg",
-      "src": "shrine",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "shrine"
-    },
-    {
-      "op": "nar",
-      "text": "参道には飴、団子、凧。父の財布は早くも危ない。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "あの飴、見てるだけで口が甘くなる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "見るだけと言ったろう。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "父ちゃんが食べたいなら、付き合うよ。"
-    },
-    {
-      "op": "nar",
-      "text": "父は飴を買う。子は半分を父へ返す。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "お前、半分くれるのか。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "父ちゃんの財布から出たから。"
-    },
-    {
-      "op": "nar",
-      "text": "次は凧。父が夢中で糸を握り、子に触らせない。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "僕の凧だよ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "今、風を読んでいる。大人の仕事だ。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "買うまでは僕が子どもで、買った後は父ちゃんが子どもだ。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "凧は高く上がり、二人の影が同じ方向へ伸びる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "次は交代だ。十数えたら糸を渡す。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "約束。父ちゃんも、ねだりすぎないでね。",
-      "eyes": "joy"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_craftsman"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "初天神で一番はしゃいだのは、どちらだったでしょう。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "親子は飴と凧と、子ども心を半分ずつ分けました。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "end"
+     "text": "金坊は、凧屋の前で立ち止まる",
+     "jump": "kite"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "dango"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "団子、おいしそうだね。みたらしの、とろとろの。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "へい、団子。蜜をたっぷりつけて。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "……一本だけだ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "父は団子を受け取ると、先についた蜜を、べろりとなめてしまった。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "ああっ、おとっつぁん、蜜なめた！",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "垂れて着物が汚れるからだ。親心だ。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "蜜がなくなっちゃった。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "親父、この団子、もう一度蜜壺につけてくれ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "……旦那、そいつは、いけません。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "父は親父のすきを見て、団子を蜜壺にどぶんとつけ、また蜜をなめた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "旦那！　二度づけは困ります！",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "おとっつぁん、おいらより、行儀が悪いや。",
+   "eyes": "fun"
+  },
+  {
+   "op": "jump",
+   "to": "kite"
+  },
+  {
+   "op": "label",
+   "id": "kite"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "おいら、凧がほしいなんて言わない。言わないけど、凧が見たい。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "見るだけだぞ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "へい、凧ですよ。奴凧、字凧、絵凧。坊や、どれがいい。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "いちばん大きい凧！　空のいちばん上まで行くやつ！",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "また一番大きいのか。……ええい、ここまで来たら、しょうがねえ。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_villager"
+  },
+  {
+   "op": "nar",
+   "text": "境内の裏の、広い野原。父は凧の糸を手に、空を見上げている。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "いいか、金坊。凧ってのは、風を読むもんだ。おとっつぁんが上げてやるから、見てろ。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "おいらが上げたい。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "最初が肝心なんだ。走るぞ。……それっ。"
+  },
+  {
+   "op": "nar",
+   "text": "凧は風をつかんで、ぐんぐん空へ上がっていく。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "上がった、上がった！　見ろ、金坊、天神さまの屋根より高えぞ。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "おとっつぁん、糸、貸して。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "待て待て、まだ風が落ち着かねえ。もう少し上げてからだ。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "もう十分上がってるよ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "いや、まだだ。隣の凧より、もっと上へ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "おとっつぁん、それ、おいらの凧！",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "下がってろ、危ねえ。糸に足を取られるぞ。……おお、上がる、上がる。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "こんなことなら、おとっつぁんを連れてくるんじゃなかった。",
+   "eyes": "crying",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_craftsman"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "子どもを連れて行ったつもりが、いつの間にか、子どもに連れて来てもらっておりました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "初天神の空には、その日、大人の上げた凧がいちばん高く揚がっていたそうで。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "初天神のお参りは、ここまで。皆さま、帰り道の団子は、二度づけなさいませんように。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

@@ -1,224 +1,614 @@
 {
-  "meta": {
-    "id": "donguri-to-yamaneko",
-    "title": "どんぐりと山猫 ―一番えらくない裁判―",
-    "original": "宮沢賢治『どんぐりと山猫』（著作権消滅作品）",
-    "adaptation": "faithful",
-    "format": "v3",
-    "minutes": 7,
-    "synopsis": "一郎=nono、山猫=yoru。どんぐりの「一番えらい」裁判を、一番えらくない者が一番という判決で終わらせる。",
-    "note": "本脚本は翻案であり、原作の文章・口演の転載ではない。セリフは全て本上演版の書き下ろし。"
+ "meta": {
+  "id": "donguri-to-yamaneko",
+  "title": "どんぐりと山猫 ―一番えらくない裁判―",
+  "original": "宮沢賢治『どんぐりと山猫』（著作権消滅作品）",
+  "adaptation": "faithful",
+  "format": "v3",
+  "minutes": 15,
+  "synopsis": "山猫から裁判に来てほしいという葉書をもらった一郎は、森の奥で、頭のとがったのがえらい、まるいのがえらい、大きいのがえらいと言い争うどんぐりたちの裁判に立ち会い、見事な判決を授ける。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "一郎／開閉幕",
+   "actor": "nono",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "一郎／開閉幕",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "山猫",
-      "actor": "yoru",
-      "costume": "default"
-    },
-    {
-      "role": "細長いどんぐり",
-      "actor": "extra_villager",
-      "costume": "default"
-    },
-    {
-      "role": "丸いどんぐり",
-      "actor": "tanurio",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "home": "bg/ichiro-home-2048x1152.png",
-    "forest": "bg/acorn-court-2048x1152.png"
+  {
+   "role": "山猫",
+   "actor": "yoru",
+   "costume": "default"
   },
-  "steps": [
+  {
+   "role": "馬車別当",
+   "actor": "extra_porter",
+   "costume": "default"
+  },
+  {
+   "role": "とがったどんぐり",
+   "actor": "extra_villager",
+   "costume": "default"
+  },
+  {
+   "role": "まるいどんぐり",
+   "actor": "tanurio",
+   "costume": "default"
+  },
+  {
+   "role": "大きなどんぐり",
+   "actor": "gou",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "home": "bg/ichiro-home-2048x1152.png",
+  "forest": "bg/acorn-court-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "NONO座、開演です。今夜の一郎の役は、わたくしnonoが務めます。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "宮沢賢治の『どんぐりと山猫』。ある土曜日の夕方、一郎の家に、おかしな葉書が届きました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "字はへたくそ、墨はぼたぼた。差出人は、なんと、山猫です。",
+   "eyes": "fun"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "home",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "home"
+  },
+  {
+   "op": "nar",
+   "text": "山あいの農家。囲炉裏のそばで、一郎が葉書を何度も読み返している。"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "「かねた一郎さま。あなたは、ごきげんよろしいほで、けっこです。」",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "「あした、めんどなさいばんしますから、おいでんなさい。とびどぐもたないでくなさい。」"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "「山ねこ 拝」。……字は間違いだらけなのに、なんだか、すごく大事な手紙のような気がする。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "めんどなさいばん。面倒な裁判、かな。山猫が、ぼくに来てくれと言っている。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "眠れない。早く朝にならないかな。弁当も、もう包んでしまおう。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "forest",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "forest"
+  },
+  {
+   "op": "nar",
+   "text": "翌朝の森。栗の木がぱらぱらと実を落とし、谷の奥で滝が笛のように鳴っている。"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "栗の木さん、山猫を見なかったかい。……東のほうへ行った、って。ありがとう。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "滝さん、山猫は。……西へ。きのこさんは、南だと言う。りすは、北だって。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "みんな、言うことがばらばらだ。でも、どの道も、なんだか楽しい。",
+   "eyes": "fun"
+  },
+  {
+   "op": "nar",
+   "text": "一郎が谷を下りると、黄金色の草地に出た。足の曲がった背の低い男が、鞭を持って立っている。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "あなたが、かねた一郎さんですか。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "そうです。あなたは。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "わたしは山猫さまの馬車別当です。……あの葉書は、わたしが書いたんでございますよ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ああ、そうでしたか。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "その、文章は……どうでしたか。少し、まずかったでしょうか。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "いいえ、とても上手ですよ。五年生だって、あんなには書けません。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "五年生よりも上手！　ああ、うれしい。今夜は眠れません。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "そのとき、風がどうっと吹いて、草が一斉に伏した。黄色い陣羽織を着た山猫が、現れた。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "よく来てくださいました。実は、おとといから、とても面倒な裁判が起こりましてね。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "毎年のことなのですが、今年はとりわけ、ひどいのです。あなたのご意見をうかがいたくて。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "どんぐりは、争っているあいだ、土にもぐろうとしません。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "今日の日暮れまでに収まらねば、今年は一本の芽も出ず、この森は、来年、樫の若木を失います。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "どんな裁判なんですか。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "見ていただくのが早い。……馬車別当、鈴を鳴らせ。"
+  },
+  {
+   "op": "nar",
+   "text": "鈴がりんりんと鳴ると、草の間から、赤いずぼんをはいたどんぐりが、何百となくわき出てきた。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "extra_villager",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "いいえ、だめです。何と言っても、頭のとがっているのが一番えらいんです。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "いいえ、ちがいます。まるいのが一番えらいのです。ころころ、どこへでも転がれる。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "転がってどうする。とがっていれば、土にまっすぐ刺さる。芽が出るのも早い。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "とがっているのは、ただ痩せているだけだ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……と、この調子が三日目です。しずかにしろ、しずかに！",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_villager"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "いいや、大きいのが一番えらいんだ。わたしがいちばん大きいから、わたしがえらい。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "大きいだけなら、栗の実のほうが大きい。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "栗はどんぐりじゃない。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "どんぐりの中で比べたら、きみは中くらいだよ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "背比べをしよう、背比べを。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……やめなさい。どんぐりの背比べは、いつまでたっても終わりません。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "一郎さん、このとおりです。どうしたらよいでしょう。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "うーん。……そうだ。では、こう言ってみたらどうでしょう。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "このなかで、いちばんばかで、めちゃくちゃで、てんでなっていないのが、いちばんえらい、と。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……ふむ。それは、まったく妙な案ですな。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "show",
+   "actor": "extra_villager",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "よろしい。しずかにしろ。申しわたしだ。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "このなかで、いちばんえらくなくて、ばかで、めちゃくちゃで、まるでなっていないようなのが、いちばんえらいのだ。"
+  },
+  {
+   "op": "nar",
+   "text": "どんぐりたちは、しいんとして、堅まってしまった。一つも、口をきかなかった。"
+  },
+  {
+   "op": "nar",
+   "text": "とがったどんぐりは頭をすくめ、まるいどんぐりは、なるべく小さく丸まった。"
+  },
+  {
+   "op": "nar",
+   "text": "やがて、一つ、また一つと、どんぐりたちは、黙って草の根もとの土へもぐっていった。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_villager"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "ありがとうございました。この面倒な裁判を、まるで一分半で片づけてくださった。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "どうか、わたしの裁判所の、名誉判事になってください。これからも、葉書を出したら来てくださいますか。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ええ、いいですとも。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "それから、葉書の文句ですが。これからは「用事これありに付き、明日出頭すべし」と書いてもよろしいでしょうか。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……そいつは、おかしいでしょう。そうしないほうが、いいでしょう。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "そうですか。……では、これまでの通りにしましょう。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "お礼をさしあげます。黄金のどんぐり一升と、塩鮭の頭と、どちらがよろしいですか。"
+  },
+  {
+   "op": "choice",
+   "options": [
     {
-      "op": "bg",
-      "src": null
+     "text": "一郎は、黄金のどんぐりを選ぶ",
+     "jump": "gold"
     },
     {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『どんぐりと山猫 ―一番えらくない裁判―』。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "一郎=nono、山猫=ヨル。森の裁判へご案内します。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "home",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "home"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "nar",
-      "text": "一郎のもとへ、字の曲がった葉書が届く。「面倒な裁判へ来てください」。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "差出人は山猫。面倒と書く招待状は、少し信用できる。",
-      "eyes": "fun"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "forest",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "forest"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "yoru",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "待っていた。一番えらいどんぐりを決められず、三日も揉めている。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "どんな基準で争っているの。"
-    },
-    {
-      "op": "nar",
-      "text": "大きい、丸い、尖っている、光っている。どんぐりの声が森を揺らす。"
-    },
-    {
-      "op": "show",
-      "actor": "extra_villager",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "私は一番背が高い。ゆえに一番えらい。"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_villager"
-    },
-    {
-      "op": "show",
-      "actor": "tanurio",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "私は一番丸い。転がる速さなら負けない。",
-      "eyes": "fun"
-    },
-    {
-      "op": "hide",
-      "actor": "tanurio"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "一郎、名判決を。山猫の威厳がすり減ってきた。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "では、一番えらくない、形の悪いどんぐりが一番えらい。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "森が静まり、全員が自分は形が良いと言い始める。争いは反対向きに消える。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "見事だ。褒美に黄金のどんぐりを。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "いらない。持ったら今度は僕が一番だと言いそう。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "では葉書を。次回は、もっと字をまっすぐ書く。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "曲がっている方が、山猫らしくて届きやすいよ。",
-      "eyes": "fun"
-    },
-    {
-      "op": "hide",
-      "actor": "yoru"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "一番を決める裁判は、一番を手放して終わりました。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "えらさの物差しを裏返すと、森は急に広くなります。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "end"
+     "text": "一郎は、塩鮭の頭を選ぶ",
+     "jump": "salmon"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "gold"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "黄金のどんぐりがいいです。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "馬車別当、どんぐりを一升、はやく。いちばん、光ったのを。"
+  },
+  {
+   "op": "nar",
+   "text": "別当は、どんぐりの中から金色に光るものを選び、桝に山盛りにした。"
+  },
+  {
+   "op": "jump",
+   "to": "ride"
+  },
+  {
+   "op": "label",
+   "id": "salmon"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "塩鮭の頭がいいです。うちのおっかあが、焼いて汁にすると喜ぶから。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "鮭の頭。……一郎さんは、まじめな人ですね。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "それでは鮭の頭と、おまけに、どんぐりも少し包みましょう。手ぶらで帰しては、名誉判事に申し訳ない。"
+  },
+  {
+   "op": "jump",
+   "to": "ride"
+  },
+  {
+   "op": "label",
+   "id": "ride"
+  },
+  {
+   "op": "nar",
+   "text": "一郎は、白い大きなきのこの馬車に乗せられ、ゆらゆらと森を出た。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "さようなら、一郎さん。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "home",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "home"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "気がつくと、一郎は家の前に立っていた。手の中の包みを開けると、どんぐりは、ふつうの茶色になっていた。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "光っていたのは、森の中だけだったんだ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "それきり、山猫からの葉書は、二度と来なかった。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "やっぱり、出頭すべしと書いてもいいと、言えばよかったかな。……ときどき、そう思う。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "宮沢賢治『どんぐりと山猫』、閉廷でございます。皆さまのポストにも、へたな字の葉書が届きますように。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

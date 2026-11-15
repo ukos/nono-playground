@@ -23,7 +23,7 @@
     ]
    }
   ],
-  "note": "既存翻訳・上演台本・特定演者の口演は転用せず、台詞は本上演版の書き下ろし。"
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
  },
  "cast": [
   {
@@ -77,34 +77,27 @@
   {
    "op": "say",
    "actor": "nono",
-   "text": "ようこそ、NONO座へ。本日の演目は『カンディード―それでも庭を耕す―』。",
-   "eyes": "normal",
-   "mouth": "open"
+   "text": "十八世紀、ドイツのウェストファリア。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "寓話・風刺の舞台を、全5景でお届けします。",
-   "eyes": "joy"
+   "text": "トゥンダー・テン・トロンク男爵の城に、心のまっすぐな青年が、暮らしておりました。名を、カンディード。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "この舞台の核は「最善だと言い張る思想より、目の前の仕事と他者への責任が世界を少し良くする」。",
-   "eyes": "anger"
+   "text": "家庭教師は、哲学者パングロス。口ぐせは、こうです。「この世は、ありうるすべての世界のうちで、最善の世界である」。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "既存の台詞を写さず、今夜のために新しく構成しました。",
-   "eyes": "sorrow",
-   "mouth": "open"
+   "text": "ヴォルテール『カンディード』。この教えを、胸に抱いた青年が、世界じゅうで、ひどい目に遭い続ける、風刺の物語でございます。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "それでは、幕を開けましょう。",
-   "eyes": "surprise"
+   "text": "最善だと、言い張る思想より、目の前の仕事と、隣の人への責任が、世界を、少しだけ、良くする。……さあ、まいりましょう。"
   },
   {
    "op": "hide",
@@ -121,7 +114,97 @@
   },
   {
    "op": "nar",
-   "text": "第1景「最善の城」。パングロスはこの城も鼻の形も最善だと説くが、カンディードは恋を理由に追放される。"
+   "text": "男爵の城。広間。窓が、いくつもある、立派な城。"
+  },
+  {
+   "op": "nar",
+   "text": "……ただし、ウェストファリアの基準で。パングロスが、黒板の前で、講義をしている。"
+  },
+  {
+   "op": "show",
+   "actor": "nibulus",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "カンディード君。……鼻は、何のために、あるか。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……息を、するため、でしょうか。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "違う。……眼鏡を、かけるためだ。だから、我々には、鼻があり、そして、眼鏡がある。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……そういう、ことだったのか！"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "足は、何のために、あるか。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……歩くため。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "違う。……靴下を、はくためだ。だから、我々は、靴下を、はいている。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……先生は、何でも、ご存じだ！",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "すべてのことには、理由がある。……そして、すべては、最善の、ために、ある。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "この城は、世界で、いちばん美しい城だ。男爵は、世界で、いちばん偉い男爵だ。……ゆえに、この世は、最善の世界である。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……最善の、世界。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "そうだ。……雨も、最善。雷も、最善。私の、この、薄い髪も、最善だ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "先生の、髪まで！",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "nibulus"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
   },
   {
    "op": "show",
@@ -130,109 +213,53 @@
   },
   {
    "op": "show",
-   "actor": "nibulus",
+   "actor": "yui",
    "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "城の庭。衝立の陰。男爵の娘、キュネゴンドが、そっと、ハンカチを、落とした。カンディードが、拾った。"
   },
   {
    "op": "say",
    "actor": "tanurio",
-   "text": "ここは「最善の城」。パングロスはこの城も鼻の形も最善だと説くが、カンディードは恋を理由に追放される。",
-   "eyes": "normal",
-   "mouth": "open"
+   "text": "……キュネゴンドさま。……落とされましたよ。"
   },
   {
    "op": "say",
-   "actor": "nibulus",
-   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
+   "actor": "yui",
+   "text": "……拾ってくださったのね、カンディード。",
    "eyes": "joy"
   },
   {
    "op": "say",
    "actor": "tanurio",
-   "text": "今の選択は、次の場面だけでなく結末まで動かす。",
-   "eyes": "anger"
+   "text": "……手が、触れて、しまいました。"
   },
   {
    "op": "say",
-   "actor": "nibulus",
-   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
-   "eyes": "sorrow",
-   "mouth": "open"
+   "actor": "yui",
+   "text": "触れたわ。"
   },
   {
    "op": "nar",
-   "text": "最善の城の空気が変わり、言葉の裏にある選択が見える。"
+   "text": "二人は、衝立の陰で、そっと、口づけを、した。……その瞬間、男爵が、通りかかった。"
   },
   {
    "op": "say",
    "actor": "tanurio",
-   "text": "私は「最善だと言い張る思想より、目の前の仕事と他者への責任が世界を少し良くする」という問いから逃げたくない。",
+   "text": "……男爵さま！",
    "eyes": "surprise"
   },
   {
-   "op": "say",
-   "actor": "nibulus",
-   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
-   "eyes": "closed"
-  },
-  {
-   "op": "say",
-   "actor": "tanurio",
-   "text": "パングロスはこの城も鼻の形も最善だと説くが、カンディードは恋を理由に追放される。ならば、今できる一手を選ぶ。",
-   "eyes": "fun",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "nibulus",
-   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
-   "eyes": "crying"
-  },
-  {
    "op": "nar",
-   "text": "舞台の奥で音が止み、パングロスはこの城も鼻の形も最善だと説くが、カンディードは恋を理由に追放される。"
+   "text": "男爵は、カンディードの尻を、思いきり、蹴り飛ばした。……城の門から、外へ。"
   },
   {
    "op": "say",
-   "actor": "tanurio",
-   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
-   "eyes": "normal"
-  },
-  {
-   "op": "say",
-   "actor": "nibulus",
-   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
-   "eyes": "joy",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "tanurio",
-   "text": "「最善の城」を通り過ぎず、この場で必要な言葉を残す。",
-   "eyes": "anger"
-  },
-  {
-   "op": "say",
-   "actor": "nibulus",
-   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+   "actor": "yui",
+   "text": "待って、お父さま！",
    "eyes": "sorrow"
-  },
-  {
-   "op": "nar",
-   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-  },
-  {
-   "op": "say",
-   "actor": "tanurio",
-   "text": "答えは一つでなくても、選んだ責任は分け合える。",
-   "eyes": "surprise",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "nibulus",
-   "text": "よし。次の場面へ持って行ける答えになった。",
-   "eyes": "closed"
   },
   {
    "op": "hide",
@@ -240,7 +267,41 @@
   },
   {
    "op": "hide",
-   "actor": "nibulus"
+   "actor": "yui"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "城の外。冬の野原。カンディードは、雪の中に、座り込んでいる。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……追い出された。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……でも、先生は、言っていた。すべては、最善の、ために、ある。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……追い出されたのも、きっと、最善の、ためだ。……そうに、違いない。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……寒い。……おなかも、すいた。……これも、最善……なのかな。"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
   },
   {
    "op": "bg",
@@ -253,116 +314,191 @@
   },
   {
    "op": "nar",
-   "text": "第2景「戦争と震災」。軍隊の栄光と都市の惨禍を続けて見て、最善説の言葉が現実に追いつかなくなる。"
+   "text": "隣国の、町。兵士の、募集係が、カンディードに、酒を、おごった。"
+  },
+  {
+   "op": "nar",
+   "text": "……気がつくと、カンディードは、軍服を、着せられ、隊列に、並ばされていた。"
   },
   {
    "op": "show",
-   "actor": "yui",
+   "actor": "tanurio",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……僕は、いつ、兵隊に、なったんだろう。"
+  },
+  {
+   "op": "nar",
+   "text": "戦場。大砲が、鳴る。両軍で、何千人もの、兵士が、倒れていく。両軍の王が、それぞれ、勝利を、祝う、歌を、歌わせていた。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……どちらの王も、勝ったと、言っている。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "負けた人は、どこに、いるんだ。……死んだ人の、ことか。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……焼かれた村。……倒れた、母親と、子ども。……これが、最善の、世界の、ための、戦争なのか。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "カンディードは、死体の山を、越えて、逃げ出した。"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
    "pos": "left"
   },
   {
    "op": "show",
-   "actor": "kurogane",
+   "actor": "nibulus",
    "pos": "right"
   },
   {
-   "op": "say",
-   "actor": "yui",
-   "text": "ここは「戦争と震災」。軍隊の栄光と都市の惨禍を続けて見て、最善説の言葉が現実に追いつかなくなる。",
-   "eyes": "normal"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "今の選択は、次の場面だけでなく結末まで動かす。",
-   "eyes": "anger",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。"
-  },
-  {
    "op": "nar",
-   "text": "戦争と震災の空気が変わり、言葉の裏にある選択が見える。"
+   "text": "オランダの、町の、路地。物乞いが、一人、うずくまっている。顔は、ただれ、鼻は、欠けていた。"
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "私は「最善だと言い張る思想より、目の前の仕事と他者への責任が世界を少し良くする」という問いから逃げたくない。",
+   "actor": "nibulus",
+   "text": "……カンディード君。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……先生！　……パングロス先生！　……その、お姿は！",
    "eyes": "surprise"
   },
   {
    "op": "say",
-   "actor": "kurogane",
-   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。"
+   "actor": "nibulus",
+   "text": "病だ。……ある女中から、うつされた。……女中は、修道士から。修道士は、伯爵夫人から。……アメリカ大陸から、来た、病だ。"
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "軍隊の栄光と都市の惨禍を続けて見て、最善説の言葉が現実に追いつかなくなる。ならば、今できる一手を選ぶ。",
-   "eyes": "fun"
+   "actor": "tanurio",
+   "text": "……そんな、ひどい。"
   },
   {
    "op": "say",
-   "actor": "kurogane",
-   "text": "その一手で得るものと、失うものを同じ明るさで見よう。"
+   "actor": "nibulus",
+   "text": "ひどくは、ない。……この病が、なければ、アメリカから、チョコレートも、伝わらなかった。……ゆえに、これも、最善だ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……キュネゴンドさまは。……城の、皆は。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "……城は、敵の兵士に、焼かれた。……男爵も、男爵夫人も、亡くなった。キュネゴンドさまも、……おそらく。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……城が、焼けて、しまった。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "嘆くな。……すべては、最善の、ために。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……先生。……僕には、もう、その言葉が、よく、わかりません。"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "nibulus"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "nibulus",
+   "pos": "right"
   },
   {
    "op": "nar",
-   "text": "舞台の奥で音が止み、軍隊の栄光と都市の惨禍を続けて見て、最善説の言葉が現実に追いつかなくなる。"
+   "text": "リスボン。港。二人を乗せた船が、港に、着いた、その瞬間。……大地が、揺れた。"
+  },
+  {
+   "op": "nar",
+   "text": "建物が、崩れる。炎が、上がる。港の水が、引き、そして、大波となって、押し寄せた。……一日で、三万人が、亡くなった。"
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
-   "eyes": "normal",
-   "mouth": "open"
+   "actor": "tanurio",
+   "text": "……先生！　……この、地震も、最善ですか！"
   },
   {
    "op": "say",
-   "actor": "kurogane",
-   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。"
+   "actor": "nibulus",
+   "text": "……地震は、リスボンに、起きる、べくして、起きた。……もし、起きなかったら、それは、最善では、なかったのだ。",
+   "eyes": "closed"
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "「戦争と震災」を通り過ぎず、この場で必要な言葉を残す。",
+   "actor": "tanurio",
+   "text": "……瓦礫の下に、まだ、人が！"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "地中の、火が、海水と、まじり合い、……"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "先生、手伝ってください！　理由は、あとで！",
    "eyes": "anger"
   },
   {
    "op": "say",
-   "actor": "kurogane",
-   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。"
+   "actor": "nibulus",
+   "text": "理由を、知らずに、動くのは、哲学者の、恥だ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "動かずに、理由を、話すのは、……人間の、恥です！"
   },
   {
    "op": "nar",
-   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "答えは一つでなくても、選んだ責任は分け合える。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "よし。次の場面へ持って行ける答えになった。"
+   "text": "カンディードは、瓦礫を、掘り始めた。……パングロスは、その横で、まだ、地震の理由を、説明し続けていた。"
   },
   {
    "op": "hide",
-   "actor": "yui"
+   "actor": "tanurio"
   },
   {
    "op": "hide",
-   "actor": "kurogane"
+   "actor": "nibulus"
   },
   {
    "op": "bg",
@@ -375,113 +511,114 @@
   },
   {
    "op": "nar",
-   "text": "第3景「黄金郷を出る」。争いも貧困もない黄金郷に着くが、富と再会を求めて自ら外へ出る。"
+   "text": "長い、長い、旅。宗教裁判で、パングロスは、火あぶりに、されかけた。"
+  },
+  {
+   "op": "nar",
+   "text": "カンディードは、鞭で、打たれた。……そして、なんと、キュネゴンドと、再会した。彼女は、生きていた。"
   },
   {
    "op": "show",
-   "actor": "iwao",
+   "actor": "tanurio",
    "pos": "left"
   },
   {
    "op": "show",
-   "actor": "tanurio",
+   "actor": "yui",
    "pos": "right"
   },
   {
    "op": "say",
-   "actor": "iwao",
-   "text": "ここは「黄金郷を出る」。争いも貧困もない黄金郷に着くが、富と再会を求めて自ら外へ出る。"
+   "actor": "yui",
+   "text": "……その声、まさか！"
   },
   {
    "op": "say",
    "actor": "tanurio",
-   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
-   "eyes": "joy",
-   "mouth": "open"
+   "text": "……キュネゴンドさま！　……生きて、いたんですね！"
   },
   {
    "op": "say",
-   "actor": "iwao",
-   "text": "今の選択は、次の場面だけでなく結末まで動かす。"
-  },
-  {
-   "op": "say",
-   "actor": "tanurio",
-   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
+   "actor": "yui",
+   "text": "生きていたわ。……売られて、買われて、また、売られて。……生きていたのよ。",
    "eyes": "sorrow"
   },
   {
-   "op": "nar",
-   "text": "黄金郷を出るの空気が変わり、言葉の裏にある選択が見える。"
-  },
-  {
-   "op": "say",
-   "actor": "iwao",
-   "text": "私は「最善だと言い張る思想より、目の前の仕事と他者への責任が世界を少し良くする」という問いから逃げたくない。"
-  },
-  {
    "op": "say",
    "actor": "tanurio",
-   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
-   "eyes": "closed"
+   "text": "……一緒に、逃げましょう。"
   },
   {
    "op": "say",
-   "actor": "iwao",
-   "text": "争いも貧困もない黄金郷に着くが、富と再会を求めて自ら外へ出る。ならば、今できる一手を選ぶ。"
-  },
-  {
-   "op": "say",
-   "actor": "tanurio",
-   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
-   "eyes": "crying",
-   "mouth": "open"
+   "actor": "yui",
+   "text": "逃げても、また、すぐに、離ればなれに、なるわ。……この世は、そういう、ところだから。"
   },
   {
    "op": "nar",
-   "text": "舞台の奥で音が止み、争いも貧困もない黄金郷に着くが、富と再会を求めて自ら外へ出る。"
-  },
-  {
-   "op": "say",
-   "actor": "iwao",
-   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
-  },
-  {
-   "op": "say",
-   "actor": "tanurio",
-   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
-   "eyes": "joy"
-  },
-  {
-   "op": "say",
-   "actor": "iwao",
-   "text": "「黄金郷を出る」を通り過ぎず、この場で必要な言葉を残す。"
-  },
-  {
-   "op": "say",
-   "actor": "tanurio",
-   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
-   "eyes": "sorrow"
+   "text": "案の定、二人は、また、引き離された。キュネゴンドは、南米の総督に、連れ去られた。"
   },
   {
    "op": "nar",
-   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-  },
-  {
-   "op": "say",
-   "actor": "iwao",
-   "text": "答えは一つでなくても、選んだ責任は分け合える。"
-  },
-  {
-   "op": "say",
-   "actor": "tanurio",
-   "text": "よし。次の場面へ持って行ける答えになった。",
-   "eyes": "closed",
-   "mouth": "open"
+   "text": "……カンディードは、南米の、奥地へ、逃げ込んだ。"
   },
   {
    "op": "hide",
-   "actor": "iwao"
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "南米の、奥地。険しい山々を越え、川を下った先に、……信じられない国が、あった。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……道に、金が、転がっている。……子どもたちが、ルビーで、石蹴りを、している。"
+  },
+  {
+   "op": "nar",
+   "text": "黄金郷、エルドラド。……そこには、牢屋も、裁判所も、なかった。争いも、なかった。貧しい者も、いなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……お祈りは、どうしているのですか。……何を、神に、願うのですか。"
+  },
+  {
+   "op": "nar",
+   "text": "国の老人が、答えた。……「何も、願いません。必要なものは、すべて、あるから。ただ、感謝するだけです」。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……ここが、最善の、世界だ。……先生の、言っていた、世界は、ここに、あった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "けれど、ひと月後。カンディードは、王に、言った。……「この国を、出たいのです」。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……キュネゴンドさまを、迎えに、行きたい。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……それに、この国の、金の石を、外へ、持っていけば、……僕は、大金持ちに、なれる。"
+  },
+  {
+   "op": "nar",
+   "text": "王は、笑った。……そして、羊百頭に、金と宝石を、積ませて、カンディードを、見送った。"
   },
   {
    "op": "hide",
@@ -498,172 +635,275 @@
   },
   {
    "op": "nar",
-   "text": "第4景「富が減る旅」。持ち出した財宝は詐欺と事故で失われ、悲観者マルタンとの議論だけが残る。"
+   "text": "南米の、港町。カンディードは、羊を、一頭、また一頭と、失っていった。詐欺師に、だまされ、沼に、沈み、盗賊に、奪われ。"
   },
   {
    "op": "show",
-   "actor": "nibulus",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "港の、酒場。カンディードの前に、痩せた、陰気な男が、座っている。"
+  },
+  {
+   "op": "nar",
+   "text": "マルタン。……この町で、一番、不幸な男を、探して、雇った、旅の道連れ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……マルタンさん。……百頭の、羊が、二頭に、なりました。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……二頭も、残ったか。……運が、よいな。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……あなたは、どう、思いますか。この世は、最善ですか。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "最悪だ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……最悪。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "人は、互いに、だまし、奪い、殺し合う。……それが、この世の、本当の、姿だ。私は、悲観論者だ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……僕の先生は、楽観論者でした。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "君の先生は、鼻が、欠けたのでは、なかったか。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……ご存じ、なんですか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "楽観論者は、たいてい、どこかが、欠けている。……現実を、見る、目とかな。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……では、悲観論者は。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "何も、欠けていない。……だから、何も、期待しない。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "船の上。大西洋を、渡る。カンディードとマルタンは、毎日、議論を、している。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "マルタンさん。……あの船を、見てください。……沈みかけています。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……海賊船だ。……今、我々の船に、撃たれて、沈んでいる。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "船長は、悪人でした。……悪人の船が、沈む。……これは、善いことですか。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "船の、乗組員たちは、悪人では、なかったかもしれない。……悪人の船長に、雇われた、ただの、船乗りだ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……船乗りも、一緒に、沈む。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "善も悪も、一緒に、沈む。……それが、海だ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……救命の、ボートを、出しましょう。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "悪人を、助けるのか。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "船乗りを、助けるんです。"
+  },
+  {
+   "op": "nar",
+   "text": "沈む船から、一頭の、赤い羊が、泳いで、こちらへ、向かってきた。……カンディードの、羊だった。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……僕の、羊だ！",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……偶然だ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……マルタンさん。……最善とも、最悪とも、言えないことが、ある。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……それは、そうだ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
    "pos": "left"
   },
   {
    "op": "show",
    "actor": "yui",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
    "pos": "right"
   },
   {
-   "op": "say",
-   "actor": "nibulus",
-   "text": "ここは「富が減る旅」。持ち出した財宝は詐欺と事故で失われ、悲観者マルタンとの議論だけが残る。",
-   "eyes": "normal",
-   "mouth": "open"
+   "op": "nar",
+   "text": "長い、旅の、果て。トルコの、海辺。カンディードは、ついに、キュネゴンドを、見つけた。"
   },
   {
    "op": "say",
    "actor": "yui",
-   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
-   "eyes": "joy"
+   "text": "……やっと、会えた。"
   },
   {
    "op": "say",
-   "actor": "nibulus",
-   "text": "今の選択は、次の場面だけでなく結末まで動かす。",
-   "eyes": "anger"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
-   "eyes": "sorrow",
-   "mouth": "open"
+   "actor": "tanurio",
+   "text": "……キュネゴンドさま。"
   },
   {
    "op": "nar",
-   "text": "富が減る旅の空気が変わり、言葉の裏にある選択が見える。"
-  },
-  {
-   "op": "say",
-   "actor": "nibulus",
-   "text": "私は「最善だと言い張る思想より、目の前の仕事と他者への責任が世界を少し良くする」という問いから逃げたくない。",
-   "eyes": "surprise"
+   "text": "キュネゴンドの顔は、日に焼け、しわが、刻まれていた。……かつての、城の、美しい娘の、面影は、もう、ほとんど、なかった。"
   },
   {
    "op": "say",
    "actor": "yui",
-   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
-   "eyes": "closed"
-  },
-  {
-   "op": "say",
-   "actor": "nibulus",
-   "text": "持ち出した財宝は詐欺と事故で失われ、悲観者マルタンとの議論だけが残る。ならば、今できる一手を選ぶ。",
-   "eyes": "fun",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
-   "eyes": "crying"
-  },
-  {
-   "op": "nar",
-   "text": "舞台の奥で音が止み、持ち出した財宝は詐欺と事故で失われ、悲観者マルタンとの議論だけが残る。"
-  },
-  {
-   "op": "say",
-   "actor": "nibulus",
-   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
-   "eyes": "normal"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
-   "eyes": "joy",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "nibulus",
-   "text": "「富が減る旅」を通り過ぎず、この場で必要な言葉を残す。",
-   "eyes": "anger"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
+   "text": "……醜く、なったでしょう。",
    "eyes": "sorrow"
   },
   {
-   "op": "nar",
-   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……そんな、ことは。"
   },
   {
    "op": "say",
-   "actor": "nibulus",
-   "text": "答えは一つでなくても、選んだ責任は分け合える。",
-   "eyes": "surprise",
-   "mouth": "open"
+   "actor": "tanurio",
+   "text": "……あなたは、生き延びた。……それが、何より、です。"
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "よし。次の場面へ持って行ける答えになった。",
+   "actor": "kurogane",
+   "text": "……善い、答えだ。",
    "eyes": "closed"
   },
   {
-   "op": "choice",
-   "options": [
-    {
-     "text": "今すぐ行動する",
-     "jump": "candide_direct"
-    },
-    {
-     "text": "もう一人の声を最後まで聞く",
-     "jump": "candide_listen"
-    }
-   ]
-  },
-  {
-   "op": "label",
-   "id": "candide_direct"
+   "op": "say",
+   "actor": "tanurio",
+   "text": "キュネゴンドさま。……結婚、してください。……約束、しましたから。"
   },
   {
    "op": "say",
-   "actor": "nibulus",
-   "text": "私は今すぐ動く。遅れた分は、行動の後で説明する。",
-   "eyes": "joy",
-   "mouth": "open"
-  },
-  {
-   "op": "jump",
-   "to": "candide_merge"
-  },
-  {
-   "op": "label",
-   "id": "candide_listen"
+   "actor": "kurogane",
+   "text": "……約束を、守る楽観論者は、珍しい。"
   },
   {
    "op": "say",
    "actor": "yui",
-   "text": "私は最後まで聞く。沈黙も答えの一部として受け止める。",
-   "eyes": "anger"
-  },
-  {
-   "op": "label",
-   "id": "candide_merge"
-  },
-  {
-   "op": "nar",
-   "text": "選び方は違っても、二人は同じ核心を次の景へ運ぶ。"
+   "text": "……まだ、約束を、覚えて、いたの。",
+   "eyes": "crying"
   },
   {
    "op": "hide",
-   "actor": "nibulus"
+   "actor": "tanurio"
   },
   {
    "op": "hide",
    "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
   },
   {
    "op": "bg",
@@ -676,11 +916,79 @@
   },
   {
    "op": "nar",
-   "text": "第5景「私たちの庭」。答えを語り続ける代わりに、食べ、働き、助け合える小さな庭を耕す。"
+   "text": "トルコの、海辺の、小さな農場。カンディードは、残った金で、農場を、買った。"
+  },
+  {
+   "op": "nar",
+   "text": "……パングロスも、生きていた。皆が、そこに、集まって、暮らし始めた。"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "nibulus",
+   "pos": "center"
   },
   {
    "op": "show",
    "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "……カンディード君。……考えてみたまえ。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "もし、君が、城を追い出されなかったら。……もし、戦争に、巻き込まれなかったら。……もし、黄金郷へ、行かなかったら。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "……君は、今、ここで、農場の、主に、なっていなかった。……ゆえに、すべては、最善の、ために。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……また、始まった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……先生。……それは、よく、わかりました。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "でも、今は、……畑を、耕さないと。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "……畑を。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "nibulus"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
    "pos": "left"
   },
   {
@@ -689,94 +997,212 @@
    "pos": "right"
   },
   {
+   "op": "nar",
+   "text": "農場の、隣の、畑。老農夫が、黙々と、鍬を、振るっている。カンディードが、話しかけた。"
+  },
+  {
    "op": "say",
-   "actor": "kurogane",
-   "text": "ここは「私たちの庭」。答えを語り続ける代わりに、食べ、働き、助け合える小さな庭を耕す。"
+   "actor": "tanurio",
+   "text": "……おじいさん。……都では、昨日、大臣が、二人、処刑されたそうです。"
   },
   {
    "op": "say",
    "actor": "iwao",
-   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。"
+   "text": "……聞いたことも、ない。"
   },
   {
    "op": "say",
-   "actor": "kurogane",
-   "text": "今の選択は、次の場面だけでなく結末まで動かす。"
+   "actor": "tanurio",
+   "text": "ご存じ、ないのですか。"
   },
   {
    "op": "say",
    "actor": "iwao",
-   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。"
+   "text": "都のことは、知らん。……知ろうとも、思わん。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "わしは、この畑を、耕す。……家族と、息子たちと、一緒に。……働けば、三つの、悪いことから、遠ざかる。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……悪いことが、三つ、ですか。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "退屈。……悪徳。……それに、貧乏。"
   },
   {
    "op": "nar",
-   "text": "私たちの庭の空気が変わり、言葉の裏にある選択が見える。"
+   "text": "老農夫は、家に、カンディードたちを、招いた。……庭で採れた、果物と、甘い、シャーベットを、出してくれた。"
   },
   {
    "op": "say",
-   "actor": "kurogane",
-   "text": "私は「最善だと言い張る思想より、目の前の仕事と他者への責任が世界を少し良くする」という問いから逃げたくない。"
-  },
-  {
-   "op": "say",
-   "actor": "iwao",
-   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "答えを語り続ける代わりに、食べ、働き、助け合える小さな庭を耕す。ならば、今できる一手を選ぶ。"
+   "actor": "tanurio",
+   "text": "……甘い。……陽の、味がする。",
+   "eyes": "joy"
   },
   {
    "op": "say",
    "actor": "iwao",
-   "text": "その一手で得るものと、失うものを同じ明るさで見よう。"
-  },
-  {
-   "op": "nar",
-   "text": "舞台の奥で音が止み、答えを語り続ける代わりに、食べ、働き、助け合える小さな庭を耕す。"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
+   "text": "甘いのは、わしの腕では、ない。……この夏の、日差しの、おかげだ。"
   },
   {
    "op": "say",
    "actor": "iwao",
-   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "「私たちの庭」を通り過ぎず、この場で必要な言葉を残す。"
-  },
-  {
-   "op": "say",
-   "actor": "iwao",
-   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。"
-  },
-  {
-   "op": "nar",
-   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "答えは一つでなくても、選んだ責任は分け合える。"
-  },
-  {
-   "op": "say",
-   "actor": "iwao",
-   "text": "よし。次の場面へ持って行ける答えになった。"
+   "text": "自分の、庭で、採れたものだ。……それ以上の、理由は、ない。"
   },
   {
    "op": "hide",
-   "actor": "kurogane"
+   "actor": "tanurio"
   },
   {
    "op": "hide",
    "actor": "iwao"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "nibulus",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "農場。夕方。皆が、それぞれの、仕事を、している。キュネゴンドは、菓子を、焼いている。マルタンは、薪を、割っている。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……キュネゴンド。……今日の、菓子は、うまい。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "毎日、焼いていたら、うまく、なったわ。……醜くなった顔も、焼き菓子は、気にしない。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "カンディード君。……私は、まだ、この世が、最善だと、思っている。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "先生は、それで、いいです。……先生は、先生の、言葉を、話してください。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "……君の、考えは。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "カンディードは、最善説を退ける",
+     "jump": "m_reject"
+    },
+    {
+     "text": "カンディードは、黙って畑に戻る",
+     "jump": "m_garden"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_reject"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "僕は、もう、この世が、最善か、最悪か、考えるのを、やめました。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……考えているあいだに、瓦礫の下の人は、死んでしまう。……羊は、沈んでしまう。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "……それでも、哲学は、必要だよ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "必要です。……でも、哲学は、畑の、あとで。"
+  },
+  {
+   "op": "jump",
+   "to": "m_end"
+  },
+  {
+   "op": "label",
+   "id": "m_garden"
+  },
+  {
+   "op": "nar",
+   "text": "カンディードは、何も、答えなかった。……鍬を、持って、畑へ、出ていった。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "……カンディード君。……答えは。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……あれが、答えよ。先生。"
+  },
+  {
+   "op": "label",
+   "id": "m_end"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "nibulus"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……先生の、話は、いつも、すばらしい。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……でも、僕たちは、自分たちの、庭を、耕さなくては、なりません。"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
   },
   {
    "op": "bg",
@@ -790,21 +1216,17 @@
   {
    "op": "say",
    "actor": "nono",
-   "text": "『カンディード―それでも庭を耕す―』、これにて終演です。",
-   "eyes": "joy"
+   "text": "ヴォルテール『カンディード』、これにて、閉幕でございます。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "残った問いは「最善だと言い張る思想より、目の前の仕事と他者への責任が世界を少し良くする」。",
-   "eyes": "anger"
+   "text": "世界は、最善でも、最悪でも、ありませんでした。……そして、最後に、カンディードが、見つけたのは、自分たちの、小さな庭。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "選んだ結末を、次の物語まで覚えていてください。",
-   "eyes": "sorrow",
-   "mouth": "open"
+   "text": "大きな思想より、隣の人と、分け合える、果物を。……ヴォルテールは、そう、書き残したのでございます。"
   },
   {
    "op": "hide",

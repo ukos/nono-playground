@@ -1,929 +1,1761 @@
 {
-  "meta": {
-    "id": "aesop-trial",
-    "number": 179,
-    "title": "イソップ裁判 ―寓話たちの証言台―",
-    "original": "イソップ寓話群（伝承・パブリックドメイン）から新規構成",
-    "category": "寓話・風刺",
-    "adaptation": "free",
-    "format": "v3",
-    "minutes": 48,
-    "synopsis": "「誰の教訓が最も正しいか」を争う法廷へ、ウサギとカメ、狼と少年、北風と太陽、狐と葡萄、アリとキリギリスが証人として現れる。",
-    "theme": "短い教訓は判決ではなく、状況を問い直すための証言である",
-    "chapters": [
-      {
-        "id": "main",
-        "title": "本編",
-        "scenes": [
-          "court_opens",
-          "tortoise_hare",
-          "wolf_boy",
-          "wind_sun",
-          "fox_ant",
-          "no_single_moral"
-        ]
-      }
-    ],
-    "note": "既存翻訳・上演台本・特定演者の口演は転用せず、台詞は本上演版の書き下ろし。"
-  },
-  "cast": [
-    {
-      "role": "裁判長",
-      "actor": "iwao",
-      "costume": "default"
-    },
-    {
-      "role": "検察役",
-      "actor": "kurogane",
-      "costume": "default"
-    },
-    {
-      "role": "弁護役",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "証人役",
-      "actor": "shiro",
-      "costume": "default"
-    },
-    {
-      "role": "証人役",
-      "actor": "rei_casual",
-      "costume": "default"
-    },
-    {
-      "role": "書記",
-      "actor": "mei",
-      "costume": "default"
-    }
+ "meta": {
+  "id": "aesop-trial",
+  "number": 179,
+  "title": "イソップ裁判 ―寓話たちの証言台―",
+  "original": "イソップ寓話群（伝承・パブリックドメイン）から新規構成",
+  "category": "寓話・風刺",
+  "adaptation": "free",
+  "format": "v3",
+  "minutes": 48,
+  "synopsis": "「誰の教訓が最も正しいか」を争う法廷へ、ウサギとカメ、狼と少年、北風と太陽、狐と葡萄、アリとキリギリスが証人として現れる。",
+  "theme": "短い教訓は判決ではなく、状況を問い直すための証言である",
+  "chapters": [
+   {
+    "id": "main",
+    "title": "本編",
+    "scenes": [
+     "court_opens",
+     "tortoise_hare",
+     "wolf_boy",
+     "wind_sun",
+     "fox_ant",
+     "no_single_moral"
+    ]
+   }
   ],
-  "backgrounds": {
-    "court_opens": "bg/aesop-trial-court_opens-2048x1152.png",
-    "tortoise_hare": "bg/aesop-trial-tortoise_hare-2048x1152.png",
-    "wolf_boy": "bg/aesop-trial-wolf_boy-2048x1152.png",
-    "wind_sun": "bg/aesop-trial-wind_sun-2048x1152.png",
-    "fox_ant": "bg/aesop-trial-fox_ant-2048x1152.png",
-    "no_single_moral": "bg/aesop-trial-no_single_moral-2048x1152.png"
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "裁判長",
+   "actor": "iwao",
+   "costume": "default"
   },
-  "steps": [
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『イソップ裁判―寓話たちの証言台―』。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "寓話・風刺の舞台を、全6景でお届けします。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "この舞台の核は「短い教訓は判決ではなく、状況を問い直すための証言である」。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "既存の台詞を写さず、今夜のために新しく構成しました。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "それでは、幕を開けましょう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "court_opens",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "court_opens"
-    },
-    {
-      "op": "nar",
-      "text": "第1景「教訓の所有権」。村で争いが起き、最も正しい教訓を一つだけ掲げるため寓話裁判が開かれる。"
-    },
-    {
-      "op": "show",
-      "actor": "iwao",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "ここは「教訓の所有権」。村で争いが起き、最も正しい教訓を一つだけ掲げるため寓話裁判が開かれる。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "今の選択は、次の場面だけでなく結末まで動かす。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。"
-    },
-    {
-      "op": "nar",
-      "text": "教訓の所有権の空気が変わり、言葉の裏にある選択が見える。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "私は「短い教訓は判決ではなく、状況を問い直すための証言である」という問いから逃げたくない。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "村で争いが起き、最も正しい教訓を一つだけ掲げるため寓話裁判が開かれる。ならば、今できる一手を選ぶ。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "その一手で得るものと、失うものを同じ明るさで見よう。"
-    },
-    {
-      "op": "nar",
-      "text": "舞台の奥で音が止み、村で争いが起き、最も正しい教訓を一つだけ掲げるため寓話裁判が開かれる。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "「教訓の所有権」を通り過ぎず、この場で必要な言葉を残す。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。"
-    },
-    {
-      "op": "nar",
-      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "答えは一つでなくても、選んだ責任は分け合える。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "よし。次の場面へ持って行ける答えになった。"
-    },
-    {
-      "op": "hide",
-      "actor": "iwao"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "bg",
-      "src": "tortoise_hare",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "tortoise_hare"
-    },
-    {
-      "op": "nar",
-      "text": "第2景「速さと油断」。ウサギとカメの証言から、遅い者が常に正しいという乱暴な解釈が問われる。"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "ここは「速さと油断」。ウサギとカメの証言から、遅い者が常に正しいという乱暴な解釈が問われる。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "今の選択は、次の場面だけでなく結末まで動かす。",
-      "eyes": "anger",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "速さと油断の空気が変わり、言葉の裏にある選択が見える。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "私は「短い教訓は判決ではなく、状況を問い直すための証言である」という問いから逃げたくない。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
-      "eyes": "closed",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "ウサギとカメの証言から、遅い者が常に正しいという乱暴な解釈が問われる。ならば、今できる一手を選ぶ。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "舞台の奥で音が止み、ウサギとカメの証言から、遅い者が常に正しいという乱暴な解釈が問われる。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "「速さと油断」を通り過ぎず、この場で必要な言葉を残す。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "答えは一つでなくても、選んだ責任は分け合える。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "よし。次の場面へ持って行ける答えになった。",
-      "eyes": "closed"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "bg",
-      "src": "wolf_boy",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "wolf_boy"
-    },
-    {
-      "op": "nar",
-      "text": "第3景「嘘と救助」。狼少年を罰するだけでなく、三度目に誰も確かめに行かなかった責任も審理する。"
-    },
-    {
-      "op": "show",
-      "actor": "mei",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "iwao",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "ここは「嘘と救助」。狼少年を罰するだけでなく、三度目に誰も確かめに行かなかった責任も審理する。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "今の選択は、次の場面だけでなく結末まで動かす。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。"
-    },
-    {
-      "op": "nar",
-      "text": "嘘と救助の空気が変わり、言葉の裏にある選択が見える。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "私は「短い教訓は判決ではなく、状況を問い直すための証言である」という問いから逃げたくない。",
-      "eyes": "surprise",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "狼少年を罰するだけでなく、三度目に誰も確かめに行かなかった責任も審理する。ならば、今できる一手を選ぶ。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "その一手で得るものと、失うものを同じ明るさで見よう。"
-    },
-    {
-      "op": "nar",
-      "text": "舞台の奥で音が止み、狼少年を罰するだけでなく、三度目に誰も確かめに行かなかった責任も審理する。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "「嘘と救助」を通り過ぎず、この場で必要な言葉を残す。",
-      "eyes": "anger",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。"
-    },
-    {
-      "op": "nar",
-      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "答えは一つでなくても、選んだ責任は分け合える。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "よし。次の場面へ持って行ける答えになった。"
-    },
-    {
-      "op": "hide",
-      "actor": "mei"
-    },
-    {
-      "op": "hide",
-      "actor": "iwao"
-    },
-    {
-      "op": "bg",
-      "src": "wind_sun",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "wind_sun"
-    },
-    {
-      "op": "nar",
-      "text": "第4景「力と優しさ」。北風と太陽の勝負から、優しさも相手を操る手段になり得ると反対尋問する。"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "ここは「力と優しさ」。北風と太陽の勝負から、優しさも相手を操る手段になり得ると反対尋問する。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "今の選択は、次の場面だけでなく結末まで動かす。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "力と優しさの空気が変わり、言葉の裏にある選択が見える。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "私は「短い教訓は判決ではなく、状況を問い直すための証言である」という問いから逃げたくない。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "北風と太陽の勝負から、優しさも相手を操る手段になり得ると反対尋問する。ならば、今できる一手を選ぶ。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "舞台の奥で音が止み、北風と太陽の勝負から、優しさも相手を操る手段になり得ると反対尋問する。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "「力と優しさ」を通り過ぎず、この場で必要な言葉を残す。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "答えは一つでなくても、選んだ責任は分け合える。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "よし。次の場面へ持って行ける答えになった。",
-      "eyes": "closed"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "bg",
-      "src": "fox_ant",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "fox_ant"
-    },
-    {
-      "op": "nar",
-      "text": "第5景「負け惜しみと備え」。狐の葡萄、アリとキリギリスを並べ、備えと分かち合いの境界を争う。"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "mei",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "ここは「負け惜しみと備え」。狐の葡萄、アリとキリギリスを並べ、備えと分かち合いの境界を争う。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "今の選択は、次の場面だけでなく結末まで動かす。",
-      "eyes": "anger",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "負け惜しみと備えの空気が変わり、言葉の裏にある選択が見える。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "私は「短い教訓は判決ではなく、状況を問い直すための証言である」という問いから逃げたくない。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
-      "eyes": "closed",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "狐の葡萄、アリとキリギリスを並べ、備えと分かち合いの境界を争う。ならば、今できる一手を選ぶ。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "舞台の奥で音が止み、狐の葡萄、アリとキリギリスを並べ、備えと分かち合いの境界を争う。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "「負け惜しみと備え」を通り過ぎず、この場で必要な言葉を残す。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "答えは一つでなくても、選んだ責任は分け合える。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "よし。次の場面へ持って行ける答えになった。",
-      "eyes": "closed"
-    },
-    {
-      "op": "choice",
-      "options": [
-        {
-          "text": "今すぐ行動する",
-          "jump": "aesop-trial_direct"
-        },
-        {
-          "text": "もう一人の声を最後まで聞く",
-          "jump": "aesop-trial_listen"
-        }
-      ]
-    },
-    {
-      "op": "label",
-      "id": "aesop-trial_direct"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "私は今すぐ動く。遅れた分は、行動の後で説明する。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "jump",
-      "to": "aesop-trial_merge"
-    },
-    {
-      "op": "label",
-      "id": "aesop-trial_listen"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "私は最後まで聞く。沈黙も答えの一部として受け止める。",
-      "eyes": "anger"
-    },
-    {
-      "op": "label",
-      "id": "aesop-trial_merge"
-    },
-    {
-      "op": "nar",
-      "text": "選び方は違っても、二人は同じ核心を次の景へ運ぶ。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "hide",
-      "actor": "mei"
-    },
-    {
-      "op": "bg",
-      "src": "no_single_moral",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "no_single_moral"
-    },
-    {
-      "op": "nar",
-      "text": "第6景「一つに決めない判決」。裁判長は唯一の教訓を退け、誰がいつ使う言葉かを添えて寓話を残す。"
-    },
-    {
-      "op": "show",
-      "actor": "iwao",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "ここは「一つに決めない判決」。裁判長は唯一の教訓を退け、誰がいつ使う言葉かを添えて寓話を残す。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "今の選択は、次の場面だけでなく結末まで動かす。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。"
-    },
-    {
-      "op": "nar",
-      "text": "一つに決めない判決の空気が変わり、言葉の裏にある選択が見える。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "私は「短い教訓は判決ではなく、状況を問い直すための証言である」という問いから逃げたくない。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "裁判長は唯一の教訓を退け、誰がいつ使う言葉かを添えて寓話を残す。ならば、今できる一手を選ぶ。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "その一手で得るものと、失うものを同じ明るさで見よう。"
-    },
-    {
-      "op": "nar",
-      "text": "舞台の奥で音が止み、裁判長は唯一の教訓を退け、誰がいつ使う言葉かを添えて寓話を残す。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "「一つに決めない判決」を通り過ぎず、この場で必要な言葉を残す。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。"
-    },
-    {
-      "op": "nar",
-      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "答えは一つでなくても、選んだ責任は分け合える。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "よし。次の場面へ持って行ける答えになった。"
-    },
-    {
-      "op": "hide",
-      "actor": "iwao"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "『イソップ裁判―寓話たちの証言台―』、これにて終演です。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "残った問いは「短い教訓は判決ではなく、状況を問い直すための証言である」。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "選んだ結末を、次の物語まで覚えていてください。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "end"
+  {
+   "role": "検察役",
+   "actor": "kurogane",
+   "costume": "default"
+  },
+  {
+   "role": "弁護役",
+   "actor": "nono",
+   "costume": "default"
+  },
+  {
+   "role": "証人役",
+   "actor": "shiro",
+   "costume": "default"
+  },
+  {
+   "role": "証人役",
+   "actor": "rei_casual",
+   "costume": "default"
+  },
+  {
+   "role": "書記",
+   "actor": "mei",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "court_opens": "bg/aesop-trial-court_opens-2048x1152.png",
+  "tortoise_hare": "bg/aesop-trial-tortoise_hare-2048x1152.png",
+  "wolf_boy": "bg/aesop-trial-wolf_boy-2048x1152.png",
+  "wind_sun": "bg/aesop-trial-wind_sun-2048x1152.png",
+  "fox_ant": "bg/aesop-trial-fox_ant-2048x1152.png",
+  "no_single_moral": "bg/aesop-trial-no_single_moral-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": "court_opens",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "court_opens"
+  },
+  {
+   "op": "nar",
+   "text": "とある村の、広場。村の掲示板に、一枚の札が、掲げられることになった。……「この村の、教訓」。"
+  },
+  {
+   "op": "nar",
+   "text": "ところが、どの教訓を書くかで、村は、真っ二つに、割れてしまった。「急がば回れ」か。"
+  },
+  {
+   "op": "nar",
+   "text": "「備えあれば憂いなし」か。「嘘をつくと、誰にも信じてもらえない」か。"
+  },
+  {
+   "op": "nar",
+   "text": "そこで、村は、前代未聞の、裁判を、開くことにした。……寓話裁判。"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "ただいまより、寓話裁判を、開廷いたします。……書記を務めます、メイです。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "本日の争点は、ただ一つ。……「この村に掲げる、最も正しい、教訓は、何か」。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "裁判長の、イワオである。……静粛に。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "教訓は、短い。……短いぶん、使い方を、誤ると、刃物のように、人を、傷つける。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "本日は、検察と、弁護、双方の、主張を、聞く。……証人として、寓話の、当事者たちを、召喚した。"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "検察役の、クロガネです。……検察は、教訓を、一つに、絞るべきだと、主張します。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "村の子どもたちに、迷いのない、まっすぐな、言葉を、渡したい。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……掲示板に、二つも三つも、書いたら、子どもは、どれを、信じればいいか、わからなくなる。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "弁護役の、nonoです。……弁護は、そう、簡単には、いかないと、思っています。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "教訓は、物語から、取り出した、ほんの、ひとかけらです。……かけらだけ、壁に、貼っても、物語の、全部は、伝わらない。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……では、証人を。最初の、寓話を。"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "tortoise_hare",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "tortoise_hare"
+  },
+  {
+   "op": "nar",
+   "text": "証言台に、一羽の、ウサギと、一匹の、カメが、並んで、立った。……役者が、扮している。"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "証人、ウサギ。……証人、カメ。前へ。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "二人とも、本当のことを、話すと、誓うか。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "誓います。……速く、話していいですか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……ち、か、い、ま、す。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……ウサギは、ゆっくり、話せ。カメは、そのままで、よい。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "カメさん。……あなたは、ウサギとの、駆けっこに、勝った。……そうですね。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……は、い。勝ち、ました。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "ウサギは、途中で、昼寝をした。……あなたは、休まず、歩き続けた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……ひと、やすみ、も、せず。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "検察は、この教訓を、推します。……「油断大敵、こつこつ進む者が、勝つ」。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "ちょっと、待ってくれ！　……昼寝したのは、悪かったよ。でも、それで、俺が、遅いってことには、ならないだろ。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "負けたのは、事実です。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "百回、走ったら、九十九回は、俺が、勝つ。……一回、負けた話だけ、ずっと、語られてるんだ。"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ウサギさん。……昼寝を、したのは、なぜですか。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……カメが、あんまり、遅いから。……待ってるのに、飽きたんだ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "待っていた。……つまり、ゴールで、カメさんを、待つつもりだった。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……まあ、そうだ。……一人で、ゴールしても、つまらないからな。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "検察は、「遅い者が、勝つ」と、言いたいのかも、しれません。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……でも、この話を、そう読んだら、速い子は、速いことを、恥じるように、なる。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……検察は、そこまでは。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "この寓話が、教えているのは、……油断するな、ということと、それから、相手を、見下すな、ということでは、ないでしょうか。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……見下してた、かもな。……カメのこと。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……ウ、サ、ギ、さん。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……何だよ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……ほ、ん、と、う、は。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……ゴールで、待って、いて、ほしかった。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……待ってて、ほしかった？",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……い、っ、しょ、に、ゴール、したかった。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……そんな、こと、一度も。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "書記さん。……カメさんの、今の言葉も、書き留めて。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "休廷。法廷の、控えの間。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……検察官。最初の証言は、どう見た。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……正直に、申しますと、カメの、あの一言で、足元が、ぐらつきました。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "「一緒に、ゴールしたかった」。……油断大敵の、教訓には、入りきらない。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "書記として、ひとつ、伺っても。……教訓は、短いほうが、覚えやすいのでは。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "覚えやすい言葉ほど、考えずに、使えてしまう。……それが、教訓の、怖さだ。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……次の証言で、取り返します。狼少年は、明快です。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "明快な話ほど、裏が、深い。……楽しみにしておる。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……裁判長、楽しんで、おられますか。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "少しな。……記録には、書くなよ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "bg",
+   "src": "wolf_boy",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "wolf_boy"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "次の、証人。……羊飼いの、少年。それから、村人。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "二人とも、前へ。"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "証言台に、羊飼いの少年と、村人が、立った。"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "少年。……あなたは、「狼が来た」と、二度、嘘をついた。……村人たちは、二度とも、駆けつけた。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……二度、言いました。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "そして、三度目。……本当に、狼が、来た。あなたは、叫んだ。でも、誰も、来なかった。羊は、全部、食べられた。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……一頭も、残らなかった。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "検察は、この教訓を、推します。……「嘘をつく者は、本当のことを、言っても、信じてもらえない」。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "子どもたちに、嘘の怖さを、教える。……これ以上、明快な、教訓は、ない。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "村人さん。……三度目の、叫び声を、聞きましたか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……聞きました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "聞いて、どうしましたか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……また、嘘だろうと、思って、畑仕事を、続けました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "誰か、一人でも、見に、行きましたか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……誰も、行きませんでした。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "一人でも、確かめに行っていたら、……羊は、何頭か、助かったかもしれない。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "弁護役。……嘘をついたのは、少年です。村人では、ない。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "そうです。少年の、嘘が、悪い。……でも、この寓話を、「嘘つきは、見捨てていい」と、読んだら、どうなりますか。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "一度、間違えた子が、本当に、助けを、呼んだとき、……誰も、行かない村に、なる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……行けば、よかった。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……村人さん。……ごめんなさい。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……私も。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "嘘をついたのは、……退屈だったから。山の上で、一人で、一日中、羊を、見ていて。……誰かに、来てほしかった。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……来てほしかった。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "叫んだら、みんな、来てくれた。……嬉しかった。だから、もう一度。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……一人で、山に、行かせていたのは、私たちだ。……交代で、見張りを、するべきだった。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "この二人の、新しい約束も、記録に。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "休廷。中庭の、井戸端。nonoが、桶の水で、顔を、洗っている。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "弁護役さん。……お疲れでは。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "少し。……少年の、顔が、忘れられなくて。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "嘘は、悪い。……だが、嘘の理由を、聞かずに、罰だけを、教訓にすれば、同じ寂しさの子が、また、嘘をつく。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……裁判長も、そう、お考えですか。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "裁判長は、考えを、口にしてはならぬ。……今のは、井戸の、独り言だ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……記録しません。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "よろしい。"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "wind_sun",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "wind_sun"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "三番目の、証人。……北風。それから、太陽。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "寓話の、中でも、とりわけ、強い者同士だ。……前へ。"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "証言台に、北風と、太陽が、立った。北風の役は、ほっぺたを、ふくらませている。太陽の役は、にこにこと、笑っている。"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "太陽さん。……あなたは、北風さんと、旅人の、マントを、脱がせる、勝負をした。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "しました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "北風さんは、力いっぱい、吹いた。……旅人は、マントを、押さえて、離さなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "押さえやがった。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "あなたは、ぽかぽかと、照らした。……旅人は、暑くなって、自分から、マントを、脱いだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "そう。……力より、優しさ。北風より、太陽。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "弁護は、……少し、別の、角度から、伺いたい。"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……弁護役が、反対尋問ですか。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "太陽さん。……旅人は、マントを、脱ぎたかったのでしょうか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "脱ぎたかった、か、ですって。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "旅人は、旅の途中でした。……マントは、旅人にとって、必要なものだった。それを、脱がせる、という、勝負。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "あなたは、旅人を、優しく、照らした。……でも、それは、旅人の、ためでしたか。それとも、北風に、勝つためでしたか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……北風に、勝つため、でした。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "優しさも、相手を、思いどおりに、動かす、手段に、なる。……力と、同じように。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……検察は、異議を、唱えません。……鋭い、尋問だ。"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……太陽。……俺たち、旅人に、悪いこと、したかもな。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……そうね。……勝負の、景品に、しちゃった。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "今度、旅人を、見かけたら、……マントを、脱がせるんじゃなくて、風よけに、なってやろうか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "じゃあ、私は、凍えた旅人を、温めましょう。……マントは、着たままで。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "備えの話と、歌の話、どちらも、残してください。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "休廷。法廷の、廊下。検察と、弁護が、すれ違った。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……太陽への、反対尋問。……見事でした。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "検察官が、異議を、唱えなかったからです。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "唱えようと、思えば、唱えられた。……でも、あなたの問いは、私の問いでも、あった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "私は、昔、太陽のような、上司に、仕えていた。……優しく、温かく、気がつくと、言いなりに、なっていた。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……マントを、脱がされたんですね。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……風邪を、ひきましたよ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "次が、最後の証人だ。……二人とも、席へ。"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "fox_ant",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "fox_ant"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "四番目の、証人。……狐。それから、アリ。……もう一人、キリギリス。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "三人も、か。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "狐の、寓話と、アリの、寓話を、並べて、聞きたいと、検察から、申し出が。"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "証言台に、狐と、アリが、立った。"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "狐さん。……高い木の、葡萄に、届かなかった。……そうですね。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……届かなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "そして、あなたは、言った。「どうせ、あの葡萄は、酸っぱいに、決まってる」。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……言った。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "負け惜しみ。……検察は、狐の寓話を、こう、読みます。「手に入らないものを、けなすのは、みっともない」。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "そして、アリさん。……あなたは、夏の間、せっせと、食べ物を、蓄えた。キリギリスは、歌って、遊んでいた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……そうです。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "冬になって、キリギリスは、食べ物を、乞いに来た。……あなたは、断った。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……「夏に、歌っていたなら、冬は、踊っていなさい」と、言いました。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "検察は、推します。……「備えあれば、憂いなし」。"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "狐さん。……葡萄を、酸っぱいと、言ったあと、どうしましたか。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……家に帰って、寝た。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "眠れましたか。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……眠れた。……酸っぱいと、思ったら、悔しく、なくなったから。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……それは、悪いこと、でしょうか。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "弁護役。……自分に、嘘を、ついている。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "自分を、守る、小さな、嘘。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……届かない葡萄を、いつまでも、見上げて、泣き続けるより、……酸っぱいと、思って、次の木を、探しに行けるなら。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……そう、次の日、別の、低い木で、甘い葡萄を、見つけたんだ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "狐の役が、帽子を、かぶり替えた。……今度は、キリギリスの役だった。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……アリさん。……あの冬は、寒かった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……知ってるわ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "アリさん。……キリギリスさんの、歌を、夏の間、聞いていましたか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……聞いていた。……働きながら。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "歌は、……どうでしたか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……働くのが、少し、楽に、なった。……あの歌が、あったから、夏の、暑い日も、運び続けられた。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……では、キリギリスさんは、夏の間、遊んでいた、だけでしょうか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……私たちの、仕事を、助けて、くれていた。……そのことに、冬になるまで、気づかなかった。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……でも、食べ物を、蓄えなかったのは、俺の、落ち度だ。……アリさんは、悪くない。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "備えることは、大切です。……そして、分け合うことも。どちらか、一つでは、なく。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "判決の前。裁判長室。書記が、記録の束を、机に、積み上げている。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "裁判長。……記録が、こんなに、なりました。教訓は、一行なのに、証言は、百枚。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……百枚、全部、読んだか。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "読みました。……どの証人も、自分の話を、最後まで、聞いてもらえたのは、初めてだと、言っていました。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "寓話の、当事者たちは、何百年も、一行の、教訓に、押し込められてきた。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……一行に、するのは、楽だ。……一行のほうが、裁く者も、迷わずに、すむ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "迷っておられますか。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "迷っておる。……だから、判決を、書ける。"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "bg",
+   "src": "no_single_moral",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "no_single_moral"
+  },
+  {
+   "op": "nar",
+   "text": "法廷。すべての、証言が、終わった。……裁判長が、立ち上がった。"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "検察、弁護、双方の、最終弁論を。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……検察は、最初、教訓を、一つに、絞るべきだと、申しました。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "証言を、聞いて、……一つに、絞れば、絞るほど、誰かが、こぼれ落ちると、わかりました。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……カメの、願いも、少年の、寂しさも、キリギリスの、歌も。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "弁護も、……最初から、答えを、持っていたわけでは、ありません。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "教訓は、判決では、ありません。……状況を、もう一度、見直すための、証言なのだと、思います。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……では、判決を、言い渡す。"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "本法廷は、……唯一の、教訓を、選ばない。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……選ばない？",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "選ばぬことを、選ぶ。……村の掲示板には、寓話を、全部、書け。教訓では、なく、話を、まるごと。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "そして、その下に、一行だけ、添えよ。……「この話を、誰が、いつ、使うかを、考えること」。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……誰が、いつ。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "同じ「嘘つきは、信じてもらえない」でも、……子どもを、叱る親が、使うのと、"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "叫び声を、聞いた村人が、自分に、言い聞かせるのとでは、まるで、違う。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "nonoは、判決に、一言、加える",
+     "jump": "m_add"
+    },
+    {
+     "text": "nonoは、判決を、そのまま、受け入れる",
+     "jump": "m_accept"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_add"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "裁判長。……一つだけ、お願いが。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "申してみよ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "掲示板の、寓話の、続きを、村の人が、書き足せる、余白を、残してください。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……カメが、ウサギを、待っていてほしかった、という、続きのような。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……許可する。",
+   "eyes": "joy"
+  },
+  {
+   "op": "jump",
+   "to": "m_end"
+  },
+  {
+   "op": "label",
+   "id": "m_accept"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……異議、ありません。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "判決を、記録します。……「一つに、決めない」。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……書記。字を、大きく、書いておけ。"
+  },
+  {
+   "op": "label",
+   "id": "m_end"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "寓話裁判、これにて、閉廷いたします。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "掲示板には、今も、いくつもの、寓話が、並んでいます。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……その下の、余白には、村の子どもたちの、落書きが、少しずつ、増えているそうです。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "「カメと、ウサギは、そのあと、一緒に、走りました」。……そんな、続きも。"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

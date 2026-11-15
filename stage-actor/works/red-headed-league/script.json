@@ -5,7 +5,7 @@
   "original": "Arthur Conan Doyle, The Red-Headed League（原作著作権消滅）",
   "adaptation": "moderate",
   "format": "v3",
-  "minutes": 19,
+  "minutes": 17,
   "synopsis": "質屋の主人ウィルソンは、助手に勧められ赤毛組合で百科事典を書き写す。突然組合が解散し、ホームズが調べると、助手は店主を留守にして地下から銀行へ抜けるため奇妙な職を仕組んでいた。",
   "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
  },
@@ -452,7 +452,42 @@
   {
    "op": "say",
    "actor": "shiro",
-   "text": "灯りを消してください。……音を立てずに。"
+   "text": "相手は、ロンドンで四番目に頭の切れる男だ。ピストルも持っている。……警部、扉の外の見張りは。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "部下を三人、表の通りと、質屋の前に。逃げ道は、トンネルしかありません。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "よろしい。では、灯りを消してください。……音を立てずに。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "真っ暗闇。誰かの呼吸の音だけが聞こえる。一時間。そして、もう一時間。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……ホームズさん、本当に、来るのですか。足が、しびれてまいりました。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "しっ。……床を、聞いてください。"
+  },
+  {
+   "op": "nar",
+   "text": "遠くで、こつ、こつ、と、石を削るような音がした。支配人が、息をのんだ。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……来たぞ、真下だ。"
   },
   {
    "op": "nar",
@@ -628,12 +663,51 @@
    "eyes": "closed"
   },
   {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "ホームズさん、組合はなくなりましたが、わしは、明日から、Bの項目を、自分で写すことにしました。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "誰にも頼まれないのに？",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "八週間、写しているうちに、知らないことを知るのが、面白くなってしまって。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……週四ポンドより、こっちのほうが、得をした気がします。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "詐欺師が、一人の質屋に、退屈しのぎを教えたわけだ。……それだけは、クレイ君の手柄だな。",
+   "eyes": "fun"
+  },
+  {
    "op": "hide",
    "actor": "shiro"
   },
   {
    "op": "hide",
    "actor": "nono_whitecat"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
   },
   {
    "op": "bg",

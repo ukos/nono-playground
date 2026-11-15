@@ -1,185 +1,433 @@
 {
-  "meta": {
-    "id": "rashomon",
-    "title": "羅生門 ―雨の後の選択―",
-    "original": "芥川龍之介『羅生門』（著作権消滅作品）",
-    "adaptation": "moderate",
-    "format": "v3",
-    "minutes": 7,
-    "synopsis": "荒廃した門で、下人が老婆の理屈を受け取って着物を奪う。『藪の中』と対にし、理屈で責任まで消えない一言を追加。",
-    "note": "本脚本は翻案であり、原作の文章・口演の転載ではない。セリフは全て本上演版の書き下ろし。"
+ "meta": {
+  "id": "rashomon",
+  "title": "羅生門 ―雨の後の選択―",
+  "original": "芥川龍之介『羅生門』（著作権消滅作品）",
+  "adaptation": "faithful",
+  "format": "v3",
+  "minutes": 10,
+  "synopsis": "荒れ果てた平安の都。暇を出された下人は、羅生門の下で、飢え死にか盗人かを迷う。楼の上で死人の髪を抜く老婆を捕らえ、その言い分を聞いた下人は、ある勇気を得る。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "狂言回し",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "下人",
-      "actor": "yoru",
-      "costume": "default"
-    },
-    {
-      "role": "老婆",
-      "actor": "extra_elder",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "gate": "bg/rashomon-rain-2048x1152.png"
+  {
+   "role": "下人",
+   "actor": "yoru",
+   "costume": "default"
   },
-  "steps": [
+  {
+   "role": "老婆",
+   "actor": "extra_elder",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "gate": "bg/rashomon-rain-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "平安の都が、地震と辻風と火事と飢饉で、すっかり荒れ果てていた頃のお話です。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "都の南の正門、羅生門も、朱の塗りは剥げ、狐狸が住み、引き取り手のない亡骸が捨てられる場所になりました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "芥川龍之介の『羅生門』。日暮れの雨の中、一人の男が、門の下で雨のやむのを待っています。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "gate",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "gate"
+  },
+  {
+   "op": "nar",
+   "text": "夕暮れ。降りしきる雨。崩れた石段に、主人から暇を出された下人が、ぼんやり腰を下ろしている。"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "雨が、やまない。……やんだところで、行く当てがあるわけでもない。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "四、五日前、長く仕えた屋敷から、暇を出された。屋敷の主人も、もう食べていけないのだ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "明日の飯をどうするか。どうにもならないことを、どうにかしようとしている。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "どうにかするなら、手段を選んではいられない。選べば、この門の下か、道端の土の上で、飢え死にだ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "選ばないとすれば。……盗人になるより、ほかに仕方がない。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "そこまでは、何度も考えた。だが、その先へ、一歩が出ない。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "冷たい風が、柱の間を吹き抜けた。下人は、首をすくめて、門の上へ続く梯子を見上げた。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "上の楼なら、雨風はしのげる。人目もない。今夜は、あそこで寝よう。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……おや。上に、火の光がある。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "こんな夜に、この門の上に、誰がいる。……ろくな者では、あるまい。"
+  },
+  {
+   "op": "nar",
+   "text": "下人は、腰の太刀に手をかけ、梯子を一段ずつ、猫のように息を殺して上っていった。"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "bg",
+   "src": "gate",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "gate"
+  },
+  {
+   "op": "nar",
+   "text": "楼の上。暗がりに、捨てられた亡骸がいくつも横たわっている。その中に、小さな火と、うずくまる影。"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……年寄りの女だ。煤けた着物で背を丸め、床に松明を突き立てている。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "老婆は、一つの亡骸の頭のそばにかがみ、長い髪を、一本ずつ抜き取っていた。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "何をしている。……死人の髪を、抜いている。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "さっきまでの迷いが、どこかへ消えた。代わりに、腹の底から、むかむかした怒りがこみ上げる。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "おのれ、どこへ行く。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "下人が太刀を抜いて飛びかかると、老婆は松明を蹴倒し、転がるように逃げようとした。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "逃がさない。……ほら、もう動けまい。言え、何をしていた。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "黙っているなら、この太刀で答えさせる。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……髪じゃ。抜いた髪を束ねて、かつらに仕立てて、売るのよ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "鬘に。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……あまりに平凡な答えだ。怒りが、冷たい侮りに変わっていく。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "死人から取るのが悪いと言うのか。ここに転がる者は皆、生きておる時に似たことをしてきた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "この女はな、蛇を刻んで干したものを、魚の干物と偽って、宮仕えの侍どもに売っておった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "侍どもは、うまいうまいと買うておった。病で死ななければ、今も売っておったろう。食うためじゃ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "わしも、食うためにしておる。この女が生きておったら、きっと、わしの手を許すわい。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "老婆の言葉を聞いているうちに、下人の心に、ある勇気が生まれてきた。さっき門の下で、欠けていた勇気だった。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……食うためなら、許される。そういうことだな。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "この門の上では、それが決まりじゃ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "飢え死にするか、盗人になるか。……もう、迷う必要はないらしい。"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "choice",
+   "options": [
     {
-      "op": "bg",
-      "src": null
+     "text": "下人は、老婆の言い分を、そのまま老婆へ返す",
+     "jump": "robe"
     },
     {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『羅生門 ―雨の後の選択―』。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "『藪の中』と対になる、短い闇の物語です。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "gate",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "gate"
-    },
-    {
-      "op": "nar",
-      "text": "荒れた都。仕事を失った下人は、雨の羅生門で夜を越そうとする。"
-    },
-    {
-      "op": "show",
-      "actor": "yoru",
-      "pos": "left"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "飢えて死ぬか、盗んで生きるか。選べと言われても、どちらも闇だ。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "楼上に火。死体から髪を抜く老婆がいる。"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elder",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "死人を傷つけて、何をしている。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "鬘にして売る。この女も、生前は人を騙して生きた。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "悪人だったから、奪ってよいのか。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "生きるためなら、仕方がない。お前も同じ顔をしている。"
-    },
-    {
-      "op": "nar",
-      "text": "下人の迷いが、怒りから決意へ硬く変わる。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "なら、私があなたの着物を奪うのも仕方がない。",
-      "eyes": "closed"
-    },
-    {
-      "op": "nar",
-      "text": "下人は老婆の上着を奪い、階段を駆け下りる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "待て。理屈を返して、罪まで消したつもりか。",
-      "eyes": "anger"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elder"
-    },
-    {
-      "op": "nar",
-      "text": "門の下。下人は奪った着物を握り、雨の暗闇を見る。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "他人の理屈を使っても、選んだのは私だ。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "生きる。その罪を誰かのせいにはしない。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "下人は闇へ消える。行方も、その後の善悪も語られない。"
-    },
-    {
-      "op": "hide",
-      "actor": "yoru"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "藪では証言が真実を隠し、門では理屈が責任を隠します。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "最後に残るのは、選んだ者自身の影です。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "end"
+     "text": "下人は、太刀を収め、何も取らずに背を向ける",
+     "jump": "turn"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "robe"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "なら、俺がお前の着物を取っても、恨みはしないな。俺も、食わねば死ぬ身だ。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "下人は、すばやく老婆の着物を剥ぎ取ると、すがりつく老婆を、亡骸の上へ蹴倒した。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "待て……待ってくれ……",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "下人は、奪った着物を脇に抱え、梯子を駆け下り、夜の底へ消えていった。"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "jump",
+   "to": "dark"
+  },
+  {
+   "op": "label",
+   "id": "turn"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……同じ理屈なら、俺も、お前の着物を取っていいことになる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "その理屈を、今、俺は、どうにも着る気になれない。死人の髪と同じくらい、汚れて見える。"
+  },
+  {
+   "op": "nar",
+   "text": "下人は太刀を鞘に収め、何も持たずに梯子を下りた。門の外は、まだ黒い雨が降っている。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……取らぬのか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "取らずに、どうやって明日を食う気じゃ。……あの男も、すぐに、ここへ戻ってくる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "jump",
+   "to": "dark"
+  },
+  {
+   "op": "label",
+   "id": "dark"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "しばらくして、老婆は梯子の口まで這っていき、白い髪を垂らして、門の下をのぞきこんだ。"
+  },
+  {
+   "op": "nar",
+   "text": "外には、ただ、真っ黒な夜があるばかりだった。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "下人の行方は、誰も知らない。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "盗人になったのか。ならなかったのか。どちらの道でも、あの夜の雨は、まだ降り続いているのかもしれません。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "芥川龍之介『羅生門』。雨の音とともに、幕を下ろします。"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

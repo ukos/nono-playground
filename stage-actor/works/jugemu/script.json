@@ -1,251 +1,581 @@
 {
-  "meta": {
-    "id": "jugemu",
-    "title": "寿限無 ―名前が先に着く―",
-    "original": "古典落語『寿限無』（伝統演目・著作権消滅）",
-    "adaptation": "faithful",
-    "format": "v3",
-    "minutes": 6,
-    "synopsis": "めでたい語を全部つないだ長名を、使者が息を切らして伝える短編。名前を言い終える頃には、たんこぶが引いている。",
-    "note": "本脚本は翻案であり、原作の文章・口演の転載ではない。セリフは全て本上演版の書き下ろし。"
+ "meta": {
+  "id": "jugemu",
+  "title": "寿限無 ―名前が先に着く―",
+  "original": "古典落語『寿限無』（伝統演目・著作権消滅）",
+  "adaptation": "faithful",
+  "format": "v3",
+  "minutes": 14,
+  "synopsis": "生まれた子にめでたい名前をと寺へ行った八五郎は、和尚の挙げる長生きの言葉を全部つけてしまう。七年後、その子が友だちの頭をぶち、長い名前を呼ぶあいだに、こぶが引っ込んでしまう。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "狂言回し",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "父",
-      "actor": "tanurio",
-      "costume": "default"
-    },
-    {
-      "role": "母",
-      "actor": "extra_elf",
-      "costume": "default"
-    },
-    {
-      "role": "寿限無",
-      "actor": "shiro",
-      "costume": "default"
-    },
-    {
-      "role": "使いの子",
-      "actor": "sasuke",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "home": "bg/jugemu-home-2048x1152.png",
-    "street": "bg/jugemu-street-2048x1152.png"
+  {
+   "role": "父・八五郎",
+   "actor": "tanurio",
+   "costume": "default"
   },
-  "steps": [
+  {
+   "role": "母",
+   "actor": "extra_elf",
+   "costume": "default"
+  },
+  {
+   "role": "和尚",
+   "actor": "extra_elder",
+   "costume": "default"
+  },
+  {
+   "role": "寿限無",
+   "actor": "shiro",
+   "costume": "default"
+  },
+  {
+   "role": "金ちゃん",
+   "actor": "sasuke",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "home": "bg/jugemu-home-2048x1152.png",
+  "street": "bg/jugemu-street-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "いらっしゃいませ、NONO座でございます。皆さまのお名前には、どんな願いがこもっているでしょう。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "長生きしてほしい、幸せになってほしい。親の願いは、ひとつでは足りません。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "その願いを、ひとつ残らず名前に詰め込んだ親がおりました。古典落語『寿限無』。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "早口の名前が、町じゅうを駆け回ります。どうぞ、舌を噛まないように。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "home",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "home"
+  },
+  {
+   "op": "nar",
+   "text": "寺の庫裏。生まれたばかりの赤子を抱いた八五郎が、和尚の前に座っている。"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "和尚さん、男の子が生まれました。ひとつ、めでたい名前をつけてやってくだせえ。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "それはめでたい。どんな子に育ってほしい。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "そりゃあ、長生きです。……産婆さんに言われたんで。この子は月足らずで、体が弱え、冬を越せるかどうか、って。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "だから、誰よりも長く、いつまでも生きる名前を。……名前で守れるもんなら、何でもしてやりてえ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……そうか。それは、心してつけねばならんな。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "では、「寿限無」。寿命に限りが無い、という意味じゃ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "じゅげむ。いいね。他にもありやすか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "「五劫の擦り切れ」。天女が千年に一度、羽衣で岩を撫でる。その岩が擦り切れるまでが一劫じゃ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "それが五つ。……気が遠くなるほど長えや。それも入れてくだせえ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "「海砂利水魚」。海の砂利も、水に住む魚も、数え切れぬほど多い。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "「水行末、雲来末、風来末」。水も雲も風も、行く末に果てがない。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "果てがねえ。いいね、いいね。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "「食う寝る処に住む処」。食べて、眠って、住む所に困らぬように。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "そいつは大事だ。うちは長屋が狭えから。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "「やぶら小路の藪柑子」。藪柑子という木は、たいそう丈夫で、冬でも赤い実をつける。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "それから、昔、唐土にパイポという国があった。王の名がシューリンガン。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "后がグーリンダイ。そのあいだの姫が、ポンポコピーとポンポコナー。皆、長生きをした。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "外国の王さまにあやかるんで。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "最後に、「長久命の長助」。長く久しい命で、長く助ける。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "和尚さん、どれもいい。どれにしたもんか、迷っちまう。"
+  },
+  {
+   "op": "choice",
+   "options": [
     {
-      "op": "bg",
-      "src": null
+     "text": "八五郎は、全部まとめて名前にすると決める",
+     "jump": "all"
     },
     {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『寿限無 ―名前が先に着く―』。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "短くて長い、名前の早口コメディです。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "home",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "home"
-    },
-    {
-      "op": "show",
-      "actor": "tanurio",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elf",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elf",
-      "text": "丈夫でめでたい名前にしたいね。"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "和尚さまの候補を全部つなげれば、最強じゃないか。",
-      "eyes": "fun"
-    },
-    {
-      "op": "nar",
-      "text": "二人は、めでたい言葉を一つ残らず名前にする。"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elf"
-    },
-    {
-      "op": "hide",
-      "actor": "tanurio"
-    },
-    {
-      "op": "bg",
-      "src": "street",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "street"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "sasuke",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "sasuke",
-      "text": "大変だ。あの子が転んで、たんこぶを作った。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "家へ知らせて。名前を間違えないでね。",
-      "eyes": "fun"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "show",
-      "actor": "tanurio",
-      "pos": "left"
-    },
-    {
-      "op": "say",
-      "actor": "sasuke",
-      "text": "お宅の、寿限無寿限無、五劫のすりきれ、海砂利水魚の……"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "落ち着け。まだ半分だ。"
-    },
-    {
-      "op": "say",
-      "actor": "sasuke",
-      "text": "水行末雲来末風来末、食う寝るところに住むところ……"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "息を吸え。"
-    },
-    {
-      "op": "say",
-      "actor": "sasuke",
-      "text": "やぶらこうじのぶらこうじ、パイポパイポ……長久命の長助が！",
-      "eyes": "surprise",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "どうした。"
-    },
-    {
-      "op": "say",
-      "actor": "sasuke",
-      "text": "名前を言ってる間に、たんこぶが引っ込んだ！",
-      "eyes": "fun"
-    },
-    {
-      "op": "nar",
-      "text": "本人が元気に走ってくる。"
-    },
-    {
-      "op": "hide",
-      "actor": "sasuke"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "次からは「じゅげちゃん」でいいよ。"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "めでたさは減らないか。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "呼んでもらえる回数が増えるから、むしろ増える。",
-      "eyes": "joy"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "hide",
-      "actor": "tanurio"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "長い名前は、たんこぶより長く残りました。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "めでたい言葉は全部入り、呼び名は短く。これにて。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "end"
+     "text": "八五郎は、一つだけ選んで、家で相談すると決める",
+     "jump": "one"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "all"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "迷うくらいなら、全部もらっていきます！",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "全部か。……長くなるぞ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "長けりゃ長いほど、長生きするでしょう。"
+  },
+  {
+   "op": "jump",
+   "to": "named"
+  },
+  {
+   "op": "label",
+   "id": "one"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "一つだけにしときます。「長助」ってのが、呼びやすくていい。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elf",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "長屋に帰ると、女房が首を横に振った。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "長助だけ？　あんた、和尚さんが他にもいい名前を言ってくれたんでしょう。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "寿限無とか、五劫の擦り切れとか、パイポの王さまとか。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "どうして一つだけなのよ。この子の長生きを、一つ分しか願わないつもり？"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……言われてみりゃ、そうだ。よし、もう一度寺に行って、全部書いてもらってくる。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elf"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "right"
+  },
+  {
+   "op": "jump",
+   "to": "named"
+  },
+  {
+   "op": "label",
+   "id": "named"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "では、書くぞ。紙が、ずいぶん長くなるわい。"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "nar",
+   "text": "こうして赤子の名は、半紙を三枚つないだ巻物になった。"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "寿限無寿限無、五劫の擦り切れ、海砂利水魚の水行末、雲来末、風来末……",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "食う寝る処に住む処、やぶら小路の藪柑子。パイポパイポ、パイポのシューリンガン。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "シューリンガンのグーリンダイ、グーリンダイのポンポコピーのポンポコナーの、長久命の長助。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "これが、全部で一人の男の子の名前でございます。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "street",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "street"
+  },
+  {
+   "op": "nar",
+   "text": "七年後。長屋の前の通り。井戸端で母親が洗い物をしていると、泣き声が近づいてくる。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elf",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "おばさん、うわああん。",
+   "eyes": "crying",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "あら、金ちゃん。どうしたの、そんなに泣いて。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "おばさんとこの、じゅげむじゅげむ……ごこうのすりきれ……かいじゃりすいぎょの……"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "すいぎょうまつ、うんらいまつ、ふうらいまつ、くうねるところにすむところ……"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "やぶらこうじのぶらこうじ、ぱいぽぱいぽ、ぱいぽのしゅーりんがん……"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "しゅーりんがんのぐーりんだい、ぐーりんだいのぽんぽこぴーの、ぽんぽこなーの……"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "ちょうきゅうめいのちょうすけが、おいらの頭をぶった。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "まあ、うちの寿限無寿限無、五劫の擦り切れ、海砂利水魚の水行末が？",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "雲来末、風来末、食う寝る処に住む処、やぶら小路の藪柑子、パイポパイポ……"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "パイポのシューリンガン、シューリンガンのグーリンダイ、グーリンダイのポンポコピーの……"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "ポンポコナーの、長久命の長助が、金ちゃんの頭をぶったの？　ごめんなさいね。",
+   "eyes": "anger"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "どうした、騒がしい。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "あんた、うちの寿限無寿限無、五劫の擦り切れ……が、金ちゃんの頭をぶったんですって。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "なに、うちの寿限無寿限無、五劫の擦り切れ、海砂利水魚の水行末、雲来末、風来末……",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……ええと、食う寝る処に住む処、やぶら小路の藪柑子、パイポパイポの……"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "シューリンガンのグーリンダイ……ポンポコピーのポンポコナーの長久命の長助が、か！",
+   "eyes": "anger"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "金ちゃん、すまねえ。どこをぶたれた。見せてごらん。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……あれっ？",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "どうした。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "名前を言ってるあいだに、こぶが引っ込んじゃった。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elf"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "呼んだ？　今、誰か、おいらの名前を全部言った？",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "言った。三人がかりでな。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……冬を越せるかって言われた子が、人の頭にこぶをこさえるほど、丈夫になりやがって。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "名前に込めた長い願いは、こぶが治るほどの長さでございました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "寿限無くんは、その後も元気に長生きしたそうです。ただ、呼ばれて返事をするのは、いつも最後だったとか。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "長い名前の一席、ようやく言い終わりました。皆さまのお名前も、どうぞ大切に呼んでもらってください。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

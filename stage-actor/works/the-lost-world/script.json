@@ -5,7 +5,7 @@
   "original": "Arthur Conan Doyle, The Lost World（原典著作権消滅）",
   "adaptation": "moderate",
   "format": "v3",
-  "minutes": 20,
+  "minutes": 14,
   "synopsis": "記者マローンはチャレンジャー教授の探検に参加し、サマリー、ロクストンと台地へ渡る。橋を失って孤立し、恐竜、猿人、先住民の争いに遭う。帰国後、証拠として翼竜が公開される。",
   "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
  },
@@ -276,8 +276,7 @@
    "op": "say",
    "actor": "rei_trackcape",
    "text": "橋が！　木の橋が、谷底へ落ちた！",
-   "eyes": "surprise",
-   "mouth": "open"
+   "eyes": "surprise"
   },
   {
    "op": "say",
@@ -377,6 +376,91 @@
   {
    "op": "hide",
    "actor": "kurogane"
+  },
+  {
+   "op": "nar",
+   "text": "猿人の村。崖の上の木々に、粗末な小屋が並ぶ。崖の縁に、縄で縛られた若者が、突き出されていた。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_trackcape",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "ロクストン卿、崖の縁に、人が。……猿人たちは、捕まえた者を、崖から突き落としているんだ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "次は、あの若者の番だ。……教授たちは、その後ろに並ばされている。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "銃を撃てば、猿人が一斉にこっちへ来ます。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "それでいい。わしが引きつける。お前は、若者の縄を切れ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "……やってみます。"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "nar",
+   "text": "銃声が森にこだました。猿人たちが一斉に吠え、音のほうへ駆け出した。マローンは、崖の縁へ走った。"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "動かないで。今、縄を切る。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……空の色の目をした人。あなたたちは、どこから来たの。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "地上の、ずっと遠くから。……さあ、立てるか。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "立てる。仲間を、まだ二人、あの小屋に捕らえられている。一緒に来て。",
+   "eyes": "anger"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_trackcape"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
   },
   {
    "op": "show",

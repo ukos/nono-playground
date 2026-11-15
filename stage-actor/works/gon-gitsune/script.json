@@ -1,352 +1,583 @@
 {
-  "meta": {
-    "id": "gon-gitsune",
-    "title": "ごん狐 ―栗の音が聞こえる―",
-    "original": "新美南吉『ごん狐』（著作権消滅作品）",
-    "adaptation": "free",
-    "format": "v3",
-    "minutes": 10,
-    "synopsis": "いたずらの重さを知ったごんは、兵十へ栗を届け続ける。観客は「姿を見せる／見せない」を選び、どちらも銃声の前に対話へ踏み出す。見せるルートでは、謝罪と継続的な償いから見回り仲間となる友情救済エンド。",
-    "note": "本脚本は翻案であり、原作の文章・口演の転載ではない。セリフは全て本上演版の書き下ろし。"
+ "meta": {
+  "id": "gon-gitsune",
+  "title": "ごん狐 ―栗の音が聞こえる―",
+  "original": "新美南吉『ごん狐』（著作権消滅作品）",
+  "adaptation": "faithful",
+  "format": "v3",
+  "minutes": 13,
+  "synopsis": "いたずら狐のごんは、兵十が病気の母のために獲った鰻を盗んでしまう。母の死を知って悔やんだごんは、毎日こっそり栗や松茸を届けるが、兵十はそれを神さまのしわざだと思っている。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "狂言回し",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "ごん",
-      "actor": "akane",
-      "costume": "default"
-    },
-    {
-      "role": "兵十",
-      "actor": "extra_archer",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "river": "bg/gon-riverbank-2048x1152.png",
-    "house": "bg/hyoju-house-2048x1152.png"
+  {
+   "role": "ごん",
+   "actor": "akane",
+   "costume": "default"
   },
-  "steps": [
+  {
+   "role": "兵十",
+   "actor": "extra_archer",
+   "costume": "default"
+  },
+  {
+   "role": "加助",
+   "actor": "extra_villager",
+   "costume": "default"
+  },
+  {
+   "role": "いわし売り",
+   "actor": "extra_porter",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "river": "bg/gon-riverbank-2048x1152.png",
+  "house": "bg/hyoju-house-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "新美南吉の『ごん狐』。昔、中山という小さな城のあった村の近くの山に、ごんという狐がいました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ひとりぼっちの小狐で、しだのいっぱい茂った森の穴に住み、夜でも昼でも、村へ出てきて悪戯ばかりしていました。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "畑の芋を掘り散らし、菜種がらに火をつけ、百姓家の裏の唐辛子をむしり取る。……そんな、ごんのお話です。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "river",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "river"
+  },
+  {
+   "op": "nar",
+   "text": "秋。雨上がりの川。水かさが増え、すすきの株が黄色く濁った水に浸かっている。兵十が、川の中で網を引いている。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_archer",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_archer",
+   "text": "……かかった。鰻と、きすが少し。今日は、これで十分だ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "兵十は、獲物を魚籠に入れて土手に置くと、川上へ何かを探しに行った。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_archer"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "しめしめ。兵十の魚籠だ。ちょいと、いたずらしてやろう。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "ごんは、魚籠の魚を、ぽんぽん川へ投げ込んだ。最後の太い鰻は、ぬるぬるして、ごんの首に巻きついた。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "うわ、こいつ、首に巻きついて離れない。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "show",
+   "actor": "extra_archer",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_archer",
+   "text": "うわあ、ぬすっと狐め！",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "わあっ！"
+  },
+  {
+   "op": "nar",
+   "text": "ごんは、鰻を首に巻いたまま、一目散に森へ逃げた。"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_archer"
+  },
+  {
+   "op": "nar",
+   "text": "十日ほどたって、ごんは、村の弥助の家の前を通りかかった。お寺の鐘が、遠くで鳴っている。"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "葬式だ。……兵十の家の誰が死んだんだろう。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "白い着物を着た人たちが、葬列を作って墓地へ向かっていく。"
+  },
+  {
+   "op": "nar",
+   "text": "位牌を捧げた兵十の顔は、いつもの赤いさつま芋のような元気がなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "兵十のおっかあだ。……兵十のおっかあは、床に就いていて、鰻が食べたいと言ったにちがいない。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "それで兵十が、はりきり網を持ち出した。それなのに、わしが、いたずらをして、鰻を取ってきてしまった。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "おっかあは、鰻が食べたい、鰻が食べたいと思いながら、死んだんだろう。……ちょっ、あんないたずらをしなけりゃよかった。",
+   "eyes": "crying"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "bg",
+   "src": "house",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "house"
+  },
+  {
+   "op": "nar",
+   "text": "兵十の家。兵十が、赤い井戸端で、麦をといでいる。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_archer",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_archer",
+   "text": "母も、もう、いなくなった。……おれも、ひとりぼっちだ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_archer"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "おれと同じ、ひとりぼっちの兵十か。",
+   "eyes": "closed"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "いわしの安売りだあ。いきのいい、いわしだあ。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "いわし売りが籠を置いて、弥助の家へ入っていったすきに、ごんは籠のいわしを五、六匹つかみ、兵十の家の裏口から投げ込んだ。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "うなぎのつぐないに、まず一つ、いいことをした。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "nar",
+   "text": "次の日。ごんが栗をどっさり拾って兵十の家へ行くと、兵十が、頬にかすり傷をつけて、ぼんやり座っていた。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_archer",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_archer",
+   "text": "いったい誰が、いわしなんかを、おれの家へ放り込んでいったんだろう。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_archer",
+   "text": "おかげで、おれは盗人と思われて、いわし屋のやつに、ひどい目にあわされた。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_archer"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……しまった。わしのしたことで、兵十が、なぐられた。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "今度は、いわしじゃない。山の栗を、自分で拾ってきたものを置いていこう。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "ごんは、そっと物置の入り口に栗を置いて帰った。次の日も、その次の日も。ある日は、松茸も二、三本持っていった。"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "nar",
+   "text": "月のいい晩。兵十と加助が、念仏の帰りに、ひそひそ話をしながら歩いてくる。ごんは、影の中で耳をすました。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_archer",
+   "pos": "right"
+  },
+  {
+   "op": "show",
+   "actor": "extra_villager",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "extra_archer",
+   "text": "そうそう、加助。このごろ、とても不思議なことがあるんだ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "何がだい。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_archer",
+   "text": "おっかあが死んでからは、誰だか知らんが、おれに栗や松茸なんかを、毎日毎日くれるんだよ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "ふうん、誰が。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_archer",
+   "text": "それが分からんのだよ。おれの知らんうちに、置いていくんだ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "……さっきからおれは考えていたが、そりゃ、人間じゃない、神さまだ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "神さまが、お前がたった一人になったのをあわれに思って、いろんなものを恵んでくださるんだよ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_archer",
+   "text": "そうかなあ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "そうだとも。だから、毎日、神さまにお礼を言うがいいよ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_archer",
+   "text": "うん。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_villager"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_archer"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "へえ、こいつはつまらないな。おれが、栗や松茸を持っていってやるのに。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "そのおれにはお礼を言わないで、神さまにお礼を言うんじゃあ、おれは、引き合わないなあ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "choice",
+   "options": [
     {
-      "op": "bg",
-      "src": null
+     "text": "ごんは、それでも明くる日、黙って栗を持っていく",
+     "jump": "quiet"
     },
     {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『ごん狐 ―栗の音が聞こえる―』。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "善意は、隠したままでも届くでしょうか。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "栗を置く小さな手に、観客が勇気を一つ貸してください。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "river",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "river"
-    },
-    {
-      "op": "nar",
-      "text": "川辺。ひとりぼっちの狐ごんが、兵十の魚籠から鰻を逃がす。"
-    },
-    {
-      "op": "show",
-      "actor": "akane",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_archer",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "困った顔を見たかっただけ。あの鰻が誰のためかは知らなかった。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "extra_archer",
-      "text": "母さんに食べさせたかったのに。これが最後の漁だった。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "後日、弔いの鐘を聞き、ごんは兵十の母が亡くなったと知る。"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_archer"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "私のいたずらが、最後の願いを奪ったのかもしれない。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "謝りたい。でも、狐の言葉を人は信じるだろうか。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "hide",
-      "actor": "akane"
-    },
-    {
-      "op": "bg",
-      "src": "house",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "house"
-    },
-    {
-      "op": "nar",
-      "text": "ごんは夜ごと、栗や木の実を兵十の家へ置く。"
-    },
-    {
-      "op": "show",
-      "actor": "akane",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_archer",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "extra_archer",
-      "text": "また栗だ。誰が置くのか、姿を見せない。"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "今日は戸口まで。明日は声を出せるかもしれない。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "兵十は狐の足跡を見つけ、火縄銃を壁から下ろす。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_archer",
-      "text": "盗みに来た狐なら、今度こそ逃がさない。",
-      "eyes": "anger"
-    },
-    {
-      "op": "nar",
-      "text": "ごんは栗を抱え、明かりの漏れる戸口へ近づく。"
-    },
-    {
-      "op": "nar",
-      "text": "観客が、ごんの行動を選ぶ。"
-    },
-    {
-      "op": "choice",
-      "options": [
-        {
-          "text": "姿を見せて声を掛ける",
-          "jump": "route_show"
-        },
-        {
-          "text": "姿を隠したまま栗を置く",
-          "jump": "route_hide"
-        }
-      ]
-    },
-    {
-      "op": "label",
-      "id": "route_show"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "兵十。撃つ前に、一つだけ聞いて。",
-      "eyes": "crying",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_archer",
-      "text": "狐が、私の名を。栗を置いたのもおまえか。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "鰻を逃がしたのは私。母さんのことを知って、怖くて隠れていた。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "extra_archer",
-      "text": "謝れば、失ったものが戻ると思うのか。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "戻らない。だから、できることを聞きたい。"
-    },
-    {
-      "op": "nar",
-      "text": "兵十は銃口を下げる。二人の間に、栗が一つ転がる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_archer",
-      "text": "まず、毎朝ここで話せ。隠れた贈り物は、もう受け取らない。"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "それが償いになるまで、逃げずに来る。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "extra_archer",
-      "text": "友になるかは、その後だ。だが今日は栗を半分こしよう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "冬の終わり、二人は森と畑を守る見回り仲間になる。"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "友達は、許された瞬間でなく、会い続けた時間からできるんだ。",
-      "eyes": "joy"
-    },
-    {
-      "op": "jump",
-      "to": "ending_common"
-    },
-    {
-      "op": "label",
-      "id": "route_hide"
-    },
-    {
-      "op": "hide",
-      "actor": "akane"
-    },
-    {
-      "op": "nar",
-      "text": "ごんは栗を置き、物陰へ身を隠す。兵十が足音へ銃を向ける。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_archer",
-      "text": "誰だ。出てこい。"
-    },
-    {
-      "op": "nar",
-      "text": "引き金へ指がかかる。その時、栗が戸板を転がり、足跡まで続く。"
-    },
-    {
-      "op": "show",
-      "actor": "akane",
-      "pos": "left"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "撃たないで。栗を置いたのは私。鰻のことを謝りたかった。",
-      "eyes": "crying",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_archer",
-      "text": "もう少し遅ければ、私は取り返せないことをしていた。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "隠れたままでは、善いことまで誤解されるんだね。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "extra_archer",
-      "text": "怖くても、次は戸をたたけ。私も、見る前に撃たない。"
-    },
-    {
-      "op": "nar",
-      "text": "二人は銃を壁へ戻し、栗を囲んで長い話を始める。"
-    },
-    {
-      "op": "jump",
-      "to": "ending_common"
-    },
-    {
-      "op": "label",
-      "id": "ending_common"
-    },
-    {
-      "op": "hide",
-      "actor": "akane"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_archer"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "姿を見せても隠しても、最後の一歩は言葉で近づくことでした。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "償いは贈り物だけでなく、誤解される怖さを越えて会い続けることなのです。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "end"
+     "text": "ごんは、明くる日、自分が来たと分かるように、家の中まで入ってみる",
+     "jump": "show"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "quiet"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……引き合わなくても、いい。兵十が、ひもじい思いをしなけりゃ、それで。"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "nar",
+   "text": "その明くる日も、ごんは、栗を持って、兵十の家へ出かけた。兵十は、物置で縄をなっていた。ごんは、こっそり裏口から入った。"
+  },
+  {
+   "op": "jump",
+   "to": "shot"
+  },
+  {
+   "op": "label",
+   "id": "show"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "いつか、兵十に分かってもらいたい。今日は、土間まで入って、栗を置いてみよう。",
+   "eyes": "fun"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "nar",
+   "text": "その明くる日、ごんは、栗を両手に抱えて、兵十の家の裏口から、土間まで、まっすぐ入っていった。"
+  },
+  {
+   "op": "jump",
+   "to": "shot"
+  },
+  {
+   "op": "label",
+   "id": "shot"
+  },
+  {
+   "op": "show",
+   "actor": "extra_archer",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_archer",
+   "text": "……おや。狐が、うちの中へ入ったではないか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_archer",
+   "text": "こないだ、鰻をぬすみやがった、ごん狐め。また、いたずらをしに来たな。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "兵十は、立ち上がって、納屋にかけてある火縄銃を取って、火薬をつめた。"
+  },
+  {
+   "op": "nar",
+   "text": "ごんが戸口を出ようとするところを、兵十は、足音をしのばせて近寄り、どんと撃った。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_archer"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "left"
+  },
+  {
+   "op": "nar",
+   "text": "ごんは、ばたりと倒れた。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_archer",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_archer",
+   "text": "……なんだ、土間に、何か。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "兵十が駆け寄って、家の中を見ると、土間に、栗が、かためて置いてあった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_archer",
+   "text": "ごん、お前だったのか。いつも、栗をくれたのは。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "ごんは、ぐったりと目をつぶったまま、うなずいた。"
+  },
+  {
+   "op": "nar",
+   "text": "兵十は、火縄銃を、ばたりと取り落とした。青い煙が、まだ筒口から、細く出ていた。"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_archer"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "こっそり置いても、姿を見せても、兵十の目に映ったのは、鰻をぬすんだ狐でした。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "分かってもらえたのは、もう、何も言えなくなってから。新美南吉『ごん狐』、ここで幕を下ろします。",
+   "eyes": "closed"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

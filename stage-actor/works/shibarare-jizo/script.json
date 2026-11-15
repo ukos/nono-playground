@@ -23,7 +23,7 @@
     ]
    }
   ],
-  "note": "既存翻訳・上演台本・特定演者の口演は転用せず、台詞は本上演版の書き下ろし。"
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
  },
  "cast": [
   {
@@ -72,34 +72,22 @@
   {
    "op": "say",
    "actor": "nono",
-   "text": "ようこそ、NONO座へ。本日の演目は『大岡政談・縛られ地蔵―縄がほどく盗難―』。",
-   "eyes": "normal",
-   "mouth": "open"
+   "text": "江戸、本所の、南蔵院。……境内に、古い、お地蔵さまが、一体、立っております。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "裁判・評定ものの舞台を、全5景でお届けします。",
-   "eyes": "joy"
+   "text": "このお地蔵さまは、縄で、ぐるぐる巻きに、縛られている。……願いごとを、するときに、縄で、縛るのが、習わしだそうで。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "この舞台の核は「奇抜な裁きは見世物ではなく、人の習慣を証拠へ変える仕掛けである」。",
-   "eyes": "anger"
+   "text": "大岡政談『縛られ地蔵』。……なぜ、お地蔵さまが、縛られることに、なったのか。今宵は、その、始まりのお話。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "既存の台詞を写さず、今夜のために新しく構成しました。",
-   "eyes": "sorrow",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "nono",
-   "text": "それでは、幕を開けましょう。",
-   "eyes": "surprise"
+   "text": "奇抜な、裁きは、見世物では、ない。……人の、習慣を、そのまま、証拠に、変える、仕掛けなのでございます。"
   },
   {
    "op": "hide",
@@ -116,11 +104,99 @@
   },
   {
    "op": "nar",
-   "text": "第1景「消えた反物」。荷車の番人が地蔵のそばで居眠りし、目覚めると反物が消えている。"
+   "text": "夏の、夕暮れ。南蔵院の、境内。……荷車が、一台、止まっている。荷台には、白い、木綿の反物が、山のように、積まれていた。"
   },
   {
    "op": "show",
-   "actor": "iwao",
+   "actor": "extra_porter",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……あー、暑い。……日本橋から、ここまで、荷車を、引いて、汗だくだ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……越後屋さんの、反物、五十反。……明日の、朝までに、向島の、問屋に、届ける。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……少し、休もう。……この、お地蔵さまの、木陰が、ちょうど、いい。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "荷車引きは、お地蔵さまの、足元に、腰を、下ろした。……蝉の声。そよ風。まぶたが、重くなる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……お地蔵さま。……ちょいと、荷物を、見ててくだせえ。……すぐ、起きますから。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……お地蔵さまに、番を、頼むなんて、罰当たりかな。……まあ、いいか。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "荷車引きは、いびきを、かき始めた。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "left"
+  },
+  {
+   "op": "nar",
+   "text": "一刻ほど、あと。……荷車引きが、目を、覚ました。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……ふあ。……よく、寝た。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……荷台が、からっぽ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……反物が、ない！　……五十反、全部！"
+  },
+  {
+   "op": "nar",
+   "text": "荷台は、空っぽだった。……縄も、筵も、何も、残っていなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……誰が！　……いつの、まに！"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……お地蔵さま！　……見ててくれって、頼んだのに！",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
    "pos": "left"
   },
   {
@@ -129,99 +205,55 @@
    "pos": "right"
   },
   {
-   "op": "say",
-   "actor": "iwao",
-   "text": "ここは「消えた反物」。荷車の番人が地蔵のそばで居眠りし、目覚めると反物が消えている。"
-  },
-  {
-   "op": "say",
-   "actor": "mei",
-   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
-   "eyes": "joy"
-  },
-  {
-   "op": "say",
-   "actor": "iwao",
-   "text": "今の選択は、次の場面だけでなく結末まで動かす。"
-  },
-  {
-   "op": "say",
-   "actor": "mei",
-   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
-   "eyes": "sorrow",
-   "mouth": "open"
-  },
-  {
    "op": "nar",
-   "text": "消えた反物の空気が変わり、言葉の裏にある選択が見える。"
-  },
-  {
-   "op": "say",
-   "actor": "iwao",
-   "text": "私は「奇抜な裁きは見世物ではなく、人の習慣を証拠へ変える仕掛けである」という問いから逃げたくない。"
+   "text": "日本橋、越後屋の、店先。……反物商の、主人の、娘、お糸が、荷車引きの、話を、聞いている。"
   },
   {
    "op": "say",
    "actor": "mei",
-   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
-   "eyes": "closed"
+   "text": "……五十反、全部。"
   },
   {
    "op": "say",
-   "actor": "iwao",
-   "text": "荷車の番人が地蔵のそばで居眠りし、目覚めると反物が消えている。ならば、今できる一手を選ぶ。"
-  },
-  {
-   "op": "say",
-   "actor": "mei",
-   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
+   "actor": "extra_porter",
+   "text": "……申し訳、ございません！　……居眠りを、してしまって。",
    "eyes": "crying"
   },
   {
-   "op": "nar",
-   "text": "舞台の奥で音が止み、荷車の番人が地蔵のそばで居眠りし、目覚めると反物が消えている。"
-  },
-  {
    "op": "say",
-   "actor": "iwao",
-   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
+   "actor": "mei",
+   "text": "……居眠りは、仕方が、ありません。……日本橋から、本所まで、炎天下を、引いたのですもの。"
   },
   {
    "op": "say",
    "actor": "mei",
-   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
-   "eyes": "joy",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "iwao",
-   "text": "「消えた反物」を通り過ぎず、この場で必要な言葉を残す。"
-  },
-  {
-   "op": "say",
-   "actor": "mei",
-   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "nar",
-   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-  },
-  {
-   "op": "say",
-   "actor": "iwao",
-   "text": "答えは一つでなくても、選んだ責任は分け合える。"
-  },
-  {
-   "op": "say",
-   "actor": "mei",
-   "text": "よし。次の場面へ持って行ける答えになった。",
+   "text": "……でも、五十反は、大きいわ。……問屋への、納めが、できなければ、うちの、信用が。",
    "eyes": "closed"
   },
   {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……お奉行所に、届け出ます。……わしが、自分で。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……お奉行所へ。……大岡さまなら、きっと、何とか、してくださる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……居眠りを、して、反物を、盗られました、と、言うのは、恥ずかしいが。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……わたしも、ご一緒します。"
+  },
+  {
    "op": "hide",
-   "actor": "iwao"
+   "actor": "extra_porter"
   },
   {
    "op": "hide",
@@ -238,7 +270,123 @@
   },
   {
    "op": "nar",
-   "text": "第2景「地蔵を召し捕れ」。大岡は黙って見ていた地蔵を共犯として縛り、評定所へ連れて来させる。"
+   "text": "南町奉行所の、お白洲。……大岡越前の、前に、荷車引きと、お糸が、座っている。"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……荷車引き。……反物は、南蔵院の、境内で、消えたと、申すか。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……へい。……お地蔵さまの、足元で、居眠りを、して。……目が、覚めたら。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……境内に、ほかに、人は。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……誰も、おりませんでした。……お地蔵さまだけで。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……地蔵だけ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……では、その地蔵は、すべてを、見ていたことになる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……へ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……地蔵は、反物が、運び去られるのを、黙って、見ていた。……止めもせず、声も、上げず。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……これは、盗人の、共犯である。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……お奉行さま、お地蔵さまが、共犯。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……同心。"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "right"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……お呼びで。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……南蔵院の、地蔵を、召し捕れ。……縄を、かけて、ここまで、連れてまいれ。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……お、お地蔵さまを、でございますか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……そうだ。……地蔵を、縛って、この、お白洲へ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
   },
   {
    "op": "show",
@@ -251,104 +399,49 @@
    "pos": "right"
   },
   {
-   "op": "say",
-   "actor": "sasuke",
-   "text": "ここは「地蔵を召し捕れ」。大岡は黙って見ていた地蔵を共犯として縛り、評定所へ連れて来させる。",
-   "eyes": "normal"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
-   "eyes": "joy"
+   "op": "nar",
+   "text": "本所から、数寄屋橋の、奉行所まで。……同心と、荷車引きが、縄で、縛った、お地蔵さまを、荷車に、乗せて、引いている。"
   },
   {
    "op": "say",
    "actor": "sasuke",
-   "text": "今の選択は、次の場面だけでなく結末まで動かす。",
-   "eyes": "anger",
-   "mouth": "open"
+   "text": "……わしは、同心に、なって、十年。……地蔵を、引っ立てたのは、初めてだ。"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
-   "eyes": "sorrow"
+   "text": "……わしも、地蔵を、運ぶのは、初めてで。"
   },
   {
    "op": "nar",
-   "text": "地蔵を召し捕れの空気が変わり、言葉の裏にある選択が見える。"
+   "text": "道の、両側に、人だかりが、できた。……「お地蔵さまが、縄に、かけられてる」「大岡さまが、地蔵を、裁くそうだ」。"
   },
   {
    "op": "say",
    "actor": "sasuke",
-   "text": "私は「奇抜な裁きは見世物ではなく、人の習慣を証拠へ変える仕掛けである」という問いから逃げたくない。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
-   "eyes": "closed",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "sasuke",
-   "text": "大岡は黙って見ていた地蔵を共犯として縛り、評定所へ連れて来させる。ならば、今できる一手を選ぶ。",
-   "eyes": "fun"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
-   "eyes": "crying"
-  },
-  {
-   "op": "nar",
-   "text": "舞台の奥で音が止み、大岡は黙って見ていた地蔵を共犯として縛り、評定所へ連れて来させる。"
-  },
-  {
-   "op": "say",
-   "actor": "sasuke",
-   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
-   "eyes": "normal",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
-   "eyes": "joy"
-  },
-  {
-   "op": "say",
-   "actor": "sasuke",
-   "text": "「地蔵を召し捕れ」を通り過ぎず、この場で必要な言葉を残す。",
-   "eyes": "anger"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
-   "eyes": "sorrow",
-   "mouth": "open"
-  },
-  {
-   "op": "nar",
-   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-  },
-  {
-   "op": "say",
-   "actor": "sasuke",
-   "text": "答えは一つでなくても、選んだ責任は分け合える。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "よし。次の場面へ持って行ける答えになった。",
+   "text": "……見物人が、ぞろぞろ、ついてくる。",
    "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……お奉行さまは、何を、お考えで。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……わからん。……だが、大岡さまの、なさることには、たいてい、わけが、ある。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……お地蔵さま、重いですね。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……罪の、重さだ、と、思って、引け。",
+   "eyes": "fun"
   },
   {
    "op": "hide",
@@ -357,6 +450,86 @@
   {
    "op": "hide",
    "actor": "extra_porter"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "奉行所の、奥座敷。……地蔵の、到着を、待つ間。同心が、首を、ひねっている。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……お奉行さま。……一つ、伺いたいことが。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……地蔵を、縛った、わけか。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……はい。……町じゅうの、噂です。……大岡さまが、ご乱心か、と。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……乱心か。……それは、よい。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……よい、のですか。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……噂が、広まれば、見物人が、集まる。……見物人が、集まれば、……反物を、買った者も、集まる。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……反物を、買った者。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……五十反の、木綿。……盗人は、それを、どこかで、売りさばく。……安ければ、町の者が、買う。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……買った者は、自分が、盗品を、持っているとは、知らぬ。……知らぬまま、奉行所へ、やってくる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……お奉行さま、そこまで。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……あとは、町の者が、笑ってくれれば、よいのだが。"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
   },
   {
    "op": "bg",
@@ -369,109 +542,85 @@
   },
   {
    "op": "nar",
-   "text": "第3景「笑った者の科料」。裁判を笑いに来た町人へ、法廷侮辱の科料として反物一反を命じる。"
-  },
-  {
-   "op": "show",
-   "actor": "iwao",
-   "pos": "left"
-  },
-  {
-   "op": "show",
-   "actor": "mei",
-   "pos": "right"
-  },
-  {
-   "op": "say",
-   "actor": "iwao",
-   "text": "ここは「笑った者の科料」。裁判を笑いに来た町人へ、法廷侮辱の科料として反物一反を命じる。"
-  },
-  {
-   "op": "say",
-   "actor": "mei",
-   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
-   "eyes": "joy",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "iwao",
-   "text": "今の選択は、次の場面だけでなく結末まで動かす。"
-  },
-  {
-   "op": "say",
-   "actor": "mei",
-   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
-   "eyes": "sorrow"
+   "text": "南町奉行所の、お白洲。……縛られた、お地蔵さまが、白い、砂利の上に、据えられている。"
   },
   {
    "op": "nar",
-   "text": "笑った者の科料の空気が変わり、言葉の裏にある選択が見える。"
+   "text": "門の外には、見物人が、黒山の、人だかり。"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "left"
   },
   {
    "op": "say",
    "actor": "iwao",
-   "text": "私は「奇抜な裁きは見世物ではなく、人の習慣を証拠へ変える仕掛けである」という問いから逃げたくない。"
+   "text": "……門を、開けよ。……見物を、許す。"
   },
   {
    "op": "say",
-   "actor": "mei",
-   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+   "actor": "sasuke",
+   "text": "……見物人を、入れて、よろしいので。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "よい。……地蔵の、裁きを、皆に、見せよう。"
+  },
+  {
+   "op": "nar",
+   "text": "門が、開いた。……町人たちが、どっと、お白洲の、縁まで、押し寄せた。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……地蔵。……そなたは、反物の、盗難を、黙って、見ておった。……申し開きは、あるか。"
+  },
+  {
+   "op": "nar",
+   "text": "お地蔵さまは、もちろん、何も、答えない。……見物人の、中から、くすくすと、笑い声が、漏れた。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……答えぬか。……では、黙秘と、みなす。"
+  },
+  {
+   "op": "nar",
+   "text": "笑い声が、大きくなった。……やがて、町人たちは、腹を抱えて、笑い出した。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……静まれい！",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "大岡越前の、声が、お白洲に、響き渡った。……笑い声が、ぴたりと、止んだ。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……ここは、奉行所の、お白洲である。……神聖なる、裁きの、場で、笑うとは、何事か。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……法廷を、侮辱した、罪。……笑った者は、全員、科料に、処す。",
    "eyes": "closed"
   },
   {
    "op": "say",
-   "actor": "iwao",
-   "text": "裁判を笑いに来た町人へ、法廷侮辱の科料として反物一反を命じる。ならば、今できる一手を選ぶ。"
-  },
-  {
-   "op": "say",
-   "actor": "mei",
-   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
-   "eyes": "crying",
-   "mouth": "open"
-  },
-  {
-   "op": "nar",
-   "text": "舞台の奥で音が止み、裁判を笑いに来た町人へ、法廷侮辱の科料として反物一反を命じる。"
-  },
-  {
-   "op": "say",
-   "actor": "iwao",
-   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
-  },
-  {
-   "op": "say",
-   "actor": "mei",
-   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
-   "eyes": "joy"
-  },
-  {
-   "op": "say",
-   "actor": "iwao",
-   "text": "「笑った者の科料」を通り過ぎず、この場で必要な言葉を残す。"
-  },
-  {
-   "op": "say",
-   "actor": "mei",
-   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "nar",
-   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-  },
-  {
-   "op": "say",
-   "actor": "iwao",
-   "text": "答えは一つでなくても、選んだ責任は分け合える。"
-  },
-  {
-   "op": "say",
-   "actor": "mei",
-   "text": "よし。次の場面へ持って行ける答えになった。",
-   "eyes": "closed",
-   "mouth": "open"
+   "actor": "sasuke",
+   "text": "……全員、で、ございますか。",
+   "eyes": "surprise"
   },
   {
    "op": "hide",
@@ -479,7 +628,157 @@
   },
   {
    "op": "hide",
-   "actor": "mei"
+   "actor": "sasuke"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……科料は、一人、木綿の、反物、一反。……明日の、昼までに、奉行所へ、納めよ。"
+  },
+  {
+   "op": "nar",
+   "text": "見物人たちが、ざわめいた。……「反物、一反だって」「たかが、笑っただけで」。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……お奉行さま。……反物を、集めて、どうなさるんで。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……荷車引き。……そなたは、越後屋の、反物を、何反、運んでいた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……五十反、で、ございます。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……越後屋の、反物には、何か、印は、あるか。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……印。……お糸さんに、聞かないと。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……では、お糸を、呼べ。……明日、集まった、反物を、すべて、改めさせる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……お奉行さま。……もしや。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……同心。……町じゅうの、反物屋と、古着屋に、触れを、出せ。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……明日、奉行所に、反物を、納める者は、どこで、買ったか、書き付けを、添えよ、と。"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "翌朝。奉行所の、門の前。……反物を、抱えた、町人たちが、長い、行列を、作っている。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……すごい、行列だ。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……皆、笑ったからな。……笑った覚えのある者は、正直に、来ている。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……笑ってない人も、来てませんか。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……来ている。……大岡さまの、お裁きを、近くで、見たいと、言って。……笑ったふりを、して。",
+   "eyes": "fun"
+  },
+  {
+   "op": "nar",
+   "text": "行列の、ひとりが、書き付けを、差し出した。……「深川、三河屋、一反、二百文」。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……二百文。……越後屋の、木綿は、一反、六百文は、する。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……三分の一の、値か。……安すぎる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……この行列、半分くらい、深川の、書き付けを、持ってますぜ。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……書き留めておけ。……全部だ。"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
   },
   {
    "op": "bg",
@@ -492,7 +791,87 @@
   },
   {
    "op": "nar",
-   "text": "第4景「盗品の印」。集まった反物の中に商人だけが知る印が見つかり、仕入れ先から盗人へたどる。"
+   "text": "翌日の、昼。……奉行所の、蔵の前。百反を、超える、反物が、山と、積まれている。お糸が、一反ずつ、広げて、確かめている。"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……これも、違う。……これも。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……お糸さん。……越後屋の、反物の、印とは。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……端の、耳の、ところに、藍の糸で、小さく、「糸」の、字を、織り込んで、あります。……わたしの、名前の。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……お糸さんの、名前を。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……父が、わたしの、生まれた年から、始めたのです。……お客さんには、知らせていない、内緒の、印。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "お糸の、手が、止まった。……一反の、反物の、耳に、小さな、藍の、「糸」の字。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……あった。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……これも。……これも。……十反、二十反。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……どこから、納められた、ものだ。"
+  },
+  {
+   "op": "nar",
+   "text": "同心が、書き付けを、確かめた。……「深川、富岡八幡前、古着屋、三河屋より、購う」。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……三河屋。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "center"
   },
   {
    "op": "show",
@@ -501,155 +880,75 @@
   },
   {
    "op": "show",
-   "actor": "extra_porter",
+   "actor": "mei",
    "pos": "right"
   },
   {
    "op": "say",
-   "actor": "sasuke",
-   "text": "ここは「盗品の印」。集まった反物の中に商人だけが知る印が見つかり、仕入れ先から盗人へたどる。",
-   "eyes": "normal",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
-   "eyes": "joy"
+   "actor": "iwao",
+   "text": "……三河屋は。"
   },
   {
    "op": "say",
    "actor": "sasuke",
-   "text": "今の選択は、次の場面だけでなく結末まで動かす。",
-   "eyes": "anger"
+   "text": "……捕らえました。……蔵の、奥から、残りの、反物が、二十反。"
   },
   {
    "op": "say",
-   "actor": "extra_porter",
-   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
-   "eyes": "sorrow",
-   "mouth": "open"
-  },
-  {
-   "op": "nar",
-   "text": "盗品の印の空気が変わり、言葉の裏にある選択が見える。"
+   "actor": "iwao",
+   "text": "……三河屋は、何と。"
   },
   {
    "op": "say",
    "actor": "sasuke",
-   "text": "私は「奇抜な裁きは見世物ではなく、人の習慣を証拠へ変える仕掛けである」という問いから逃げたくない。",
-   "eyes": "surprise"
+   "text": "……白状しました。……仲間と、二人で、本所を、歩いていたところ、居眠りの、荷車引きを、見つけた。"
   },
   {
    "op": "say",
-   "actor": "extra_porter",
-   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
+   "actor": "sasuke",
+   "text": "……ちょうどいいと、荷台ごと、反物を、運び去った、と。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……そして、深川で、安く、売りさばいた。",
    "eyes": "closed"
   },
   {
    "op": "say",
    "actor": "sasuke",
-   "text": "集まった反物の中に商人だけが知る印が見つかり、仕入れ先から盗人へたどる。ならば、今できる一手を選ぶ。",
-   "eyes": "fun",
-   "mouth": "open"
+   "text": "……町人たちは、安いと思って、三河屋から、買っていた。……そして、昨日の、科料に、その反物を、納めた。"
   },
   {
    "op": "say",
-   "actor": "extra_porter",
-   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
-   "eyes": "crying"
-  },
-  {
-   "op": "nar",
-   "text": "舞台の奥で音が止み、集まった反物の中に商人だけが知る印が見つかり、仕入れ先から盗人へたどる。"
+   "actor": "mei",
+   "text": "……盗まれた、反物が、笑った人たちの、手を、経て、奉行所に、戻ってきた。"
   },
   {
    "op": "say",
-   "actor": "sasuke",
-   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
-   "eyes": "normal"
+   "actor": "iwao",
+   "text": "……人は、安い品が、手に入ると、どこの店で、買ったかを、覚えている。……近所に、自慢するからな。"
   },
   {
    "op": "say",
-   "actor": "extra_porter",
-   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
-   "eyes": "joy",
-   "mouth": "open"
+   "actor": "iwao",
+   "text": "……その習慣を、使わせて、もらった。",
+   "eyes": "fun"
   },
   {
    "op": "say",
-   "actor": "sasuke",
-   "text": "「盗品の印」を通り過ぎず、この場で必要な言葉を残す。",
-   "eyes": "anger"
+   "actor": "mei",
+   "text": "……お奉行さま。……笑った人たちは、盗品だと、知らずに。"
   },
   {
    "op": "say",
-   "actor": "extra_porter",
-   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "nar",
-   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-  },
-  {
-   "op": "say",
-   "actor": "sasuke",
-   "text": "答えは一つでなくても、選んだ責任は分け合える。",
-   "eyes": "surprise",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "よし。次の場面へ持って行ける答えになった。",
+   "actor": "iwao",
+   "text": "……知らずに、買った者は、罰せぬ。……ただ、反物の、代金は、三河屋から、取り戻して、返す。",
    "eyes": "closed"
   },
   {
-   "op": "choice",
-   "options": [
-    {
-     "text": "今すぐ行動する",
-     "jump": "shibarare-jizo_direct"
-    },
-    {
-     "text": "もう一人の声を最後まで聞く",
-     "jump": "shibarare-jizo_listen"
-    }
-   ]
-  },
-  {
-   "op": "label",
-   "id": "shibarare-jizo_direct"
-  },
-  {
-   "op": "say",
-   "actor": "sasuke",
-   "text": "私は今すぐ動く。遅れた分は、行動の後で説明する。",
-   "eyes": "joy",
-   "mouth": "open"
-  },
-  {
-   "op": "jump",
-   "to": "shibarare-jizo_merge"
-  },
-  {
-   "op": "label",
-   "id": "shibarare-jizo_listen"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "私は最後まで聞く。沈黙も答えの一部として受け止める。",
-   "eyes": "anger"
-  },
-  {
-   "op": "label",
-   "id": "shibarare-jizo_merge"
-  },
-  {
-   "op": "nar",
-   "text": "選び方は違っても、二人は同じ核心を次の景へ運ぶ。"
+   "op": "hide",
+   "actor": "iwao"
   },
   {
    "op": "hide",
@@ -657,7 +956,72 @@
   },
   {
    "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "奉行所の、廊下。……荷車引きと、お糸が、並んで、座っている。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……お糸さん。……本当に、申し訳、ありませんでした。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……もう、謝らないで。……反物は、戻ってきたのですもの。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……戻らない、分も、あります。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……五十反の、うち、四十二反。……残りの、八反は、もう、誰かの、着物に、なって、しまったでしょう。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……八反分、わしの、給金から、引いてください。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……いいえ。……その、八反は、きっと、誰かを、温めています。……それで、いいことに、しましょう。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……お糸さんは、お地蔵さまみたいな、人だ。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……縛られるのは、ごめんよ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "hide",
    "actor": "extra_porter"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
   },
   {
    "op": "bg",
@@ -670,11 +1034,16 @@
   },
   {
    "op": "nar",
-   "text": "第5景「ほどかれた縄」。盗人を捕えた後、大岡は地蔵の縄を解き、町の油断にも戒めを残す。"
+   "text": "裁きの、日の、夕刻。……縄を、かけられたままの、石の、お姿。その前に、奉行が、ひとり、進み出た。"
   },
   {
    "op": "show",
    "actor": "iwao",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
    "pos": "left"
   },
   {
@@ -685,92 +1054,42 @@
   {
    "op": "say",
    "actor": "iwao",
-   "text": "ここは「ほどかれた縄」。盗人を捕えた後、大岡は地蔵の縄を解き、町の油断にも戒めを残す。"
-  },
-  {
-   "op": "say",
-   "actor": "mei",
-   "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
-   "eyes": "joy"
+   "text": "……地蔵。……共犯の、疑いは、晴れた。"
   },
   {
    "op": "say",
    "actor": "iwao",
-   "text": "今の選択は、次の場面だけでなく結末まで動かす。"
-  },
-  {
-   "op": "say",
-   "actor": "mei",
-   "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
-   "eyes": "sorrow"
+   "text": "……そなたは、黙って、見ていたのでは、ない。……黙って、盗人を、見つけさせて、くれたのだ。"
   },
   {
    "op": "nar",
-   "text": "ほどかれた縄の空気が変わり、言葉の裏にある選択が見える。"
+   "text": "大岡越前が、自ら、お地蔵さまの、縄を、解いた。"
   },
   {
    "op": "say",
-   "actor": "iwao",
-   "text": "私は「奇抜な裁きは見世物ではなく、人の習慣を証拠へ変える仕掛けである」という問いから逃げたくない。"
-  },
-  {
-   "op": "say",
-   "actor": "mei",
-   "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
-   "eyes": "closed",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "iwao",
-   "text": "盗人を捕えた後、大岡は地蔵の縄を解き、町の油断にも戒めを残す。ならば、今できる一手を選ぶ。"
+   "actor": "extra_porter",
+   "text": "……お地蔵さま。……疑って、すまなかった。"
   },
   {
    "op": "say",
    "actor": "mei",
-   "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
-   "eyes": "crying"
-  },
-  {
-   "op": "nar",
-   "text": "舞台の奥で音が止み、盗人を捕えた後、大岡は地蔵の縄を解き、町の油断にも戒めを残す。"
+   "text": "……お地蔵さまの、おかげで、反物が、戻ってきました。"
   },
   {
    "op": "say",
    "actor": "iwao",
-   "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
+   "text": "……科料として、納めさせた、反物は、越後屋の、ものは、越後屋に。……そうでない、ものは、持ち主に、返す。"
   },
   {
    "op": "say",
    "actor": "mei",
-   "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
-   "eyes": "joy"
+   "text": "……科料を、返すのですか。",
+   "eyes": "surprise"
   },
   {
    "op": "say",
    "actor": "iwao",
-   "text": "「ほどかれた縄」を通り過ぎず、この場で必要な言葉を残す。"
-  },
-  {
-   "op": "say",
-   "actor": "mei",
-   "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
-   "eyes": "sorrow",
-   "mouth": "open"
-  },
-  {
-   "op": "nar",
-   "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-  },
-  {
-   "op": "say",
-   "actor": "iwao",
-   "text": "答えは一つでなくても、選んだ責任は分け合える。"
-  },
-  {
-   "op": "say",
-   "actor": "mei",
-   "text": "よし。次の場面へ持って行ける答えになった。",
+   "text": "……法廷を、笑った罪は、反物を、一日、預けた、手間で、償った。……それで、十分だ。",
    "eyes": "closed"
   },
   {
@@ -779,7 +1098,140 @@
   },
   {
    "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "hide",
    "actor": "mei"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……荷車引き。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……ははっ。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……そなたの、居眠りも、罪では、ない。……だが、荷を、あずかる者が、地蔵に、番を、頼んで、眠るのは、油断だ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……返す、言葉も、ございません。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……町の者も、同じだ。……安い品を、どこから、来たか、考えずに、買う。……それも、油断だ。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……盗人が、品を、売りさばけるのは、買う者が、いるから、で、ございますね。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……いかにも。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "大岡は、地蔵を南蔵院へ丁重に送り返す",
+     "jump": "m_return"
+    },
+    {
+     "text": "大岡は、地蔵に、縄をかける習わしを残す",
+     "jump": "m_custom"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_return"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……同心。……地蔵を、南蔵院へ、丁重に、お送りせよ。……今度は、縄は、かけずに。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……はっ。……荷車に、花を、飾りましょうか。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……それも、よい。……行きは、罪人、帰りは、恩人だ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "jump",
+   "to": "m_end"
+  },
+  {
+   "op": "label",
+   "id": "m_custom"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……南蔵院の、住職に、伝えよ。……この地蔵に、願いを、かけるときは、縄で、縛れ、と。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……縛るので。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……願いが、叶ったら、縄を、解く。……地蔵の、恩を、忘れぬための、習わしだ。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……縛られ地蔵、と、呼ばれますな。"
+  },
+  {
+   "op": "label",
+   "id": "m_end"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
   },
   {
    "op": "bg",
@@ -793,21 +1245,27 @@
   {
    "op": "say",
    "actor": "nono",
-   "text": "『大岡政談・縛られ地蔵―縄がほどく盗難―』、これにて終演です。",
-   "eyes": "joy"
+   "text": "大岡政談『縛られ地蔵』、これにて、お開きでございます。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "残った問いは「奇抜な裁きは見世物ではなく、人の習慣を証拠へ変える仕掛けである」。",
-   "eyes": "anger"
+   "text": "お地蔵さまを、縛って、お白洲へ。……笑った者に、反物を、一反。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "選んだ結末を、次の物語まで覚えていてください。",
-   "eyes": "sorrow",
-   "mouth": "open"
+   "text": "……奇抜な、裁きは、町の、人々の、習慣を、証拠に、変えました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "南蔵院の、縛られ地蔵は、今は、東京の、葛飾に、移り、……今も、"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "願いごとの、縄で、ぐるぐる巻きに、なっているそうでございます。"
   },
   {
    "op": "hide",

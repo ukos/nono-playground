@@ -7,9 +7,9 @@
   "category": "SF",
   "adaptation": "moderate",
   "format": "v3",
-  "minutes": 46,
+  "minutes": 34,
   "synopsis": "全五景で「富と名義だけでは、未来社会への責任を果たせない」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
-  "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
  },
  "cast": [
   {
@@ -58,33 +58,27 @@
   {
    "op": "say",
    "actor": "nono",
-   "text": "ようこそ、NONO座へ。本日の演目は『眠れる人が目覚めるとき』。",
-   "eyes": "normal"
+   "text": "十九世紀の終わり、イギリス。グレアムという男が、ひどい不眠に、悩んでおりました。六日も、七日も、一睡も、できない。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "SFの一席を、全五景でお届けします。",
-   "mouth": "open",
-   "eyes": "normal"
+   "text": "そしてある日、彼は、深い、深い眠りに、落ちます。……目が覚めたのは、二百三年後の、ロンドンでした。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "この舞台の核は「富と名義だけでは、未来社会への責任を果たせない」。",
-   "eyes": "sorrow"
+   "text": "H・G・ウェルズ『眠れる人が目覚めるとき』。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "台詞はすべて今夜のための書き下ろしです。"
+   "text": "眠っているあいだに、彼の財産は、ふくれ上がり、世界の半分を、所有していたのです。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "それでは、幕を開けましょう。",
-   "mouth": "open",
-   "eyes": "joy"
+   "text": "富と名義だけで、未来に、責任が、持てるのか。……さあ、二百年後の都へ、まいりましょう。"
   },
   {
    "op": "hide",
@@ -101,7 +95,7 @@
   },
   {
    "op": "nar",
-   "text": "第1景「十九世紀の眠り」。不眠の男グレアムが深い眠りへ落ちる。"
+   "text": "十九世紀のコーンウォール。海辺の崖の上。夕暮れ。やつれた男が、ぼんやりと、海を、眺めている。"
   },
   {
    "op": "show",
@@ -110,90 +104,55 @@
   },
   {
    "op": "show",
-   "actor": "kurogane",
+   "actor": "extra_elder",
    "pos": "right"
   },
   {
    "op": "say",
-   "actor": "rei_casual",
-   "text": "「十九世紀の眠り」で常識の境界が動き始めた。",
-   "eyes": "normal"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "不眠の男グレアムが深い眠りへ落ちる。観測した事実はそれだけだ。"
+   "actor": "extra_elder",
+   "text": "……お若いの。顔色が、悪い。"
   },
   {
    "op": "say",
    "actor": "rei_casual",
-   "text": "可能だから使う、では理由にならない。",
-   "eyes": "anger"
-  },
-  {
-   "op": "nar",
-   "text": "十九世紀の眠りの空気が変わり、二人は言葉の裏を測る。"
+   "text": "……眠れないんです。もう、六日も。"
   },
   {
    "op": "say",
-   "actor": "kurogane",
-   "text": "使わなければ、別の誰かが先に使う。"
+   "actor": "extra_elder",
+   "text": "六日。",
+   "eyes": "surprise"
   },
   {
    "op": "say",
    "actor": "rei_casual",
-   "text": "だからこそ「富と名義だけでは、未来社会への責任を果たせない」を問い続ける。",
-   "eyes": "fun"
+   "text": "目を閉じても、頭の中で、何かが、ぐるぐる回っていて。……仕事のこと、世の中のこと、何もかも。"
   },
   {
    "op": "say",
-   "actor": "kurogane",
-   "text": "技術の速さに、判断の速さが追いついていない。"
-  },
-  {
-   "op": "nar",
-   "text": "遠くの音が途切れる。不眠の男グレアムが深い眠りへ落ちる。"
+   "actor": "extra_elder",
+   "text": "何の、お仕事を。"
   },
   {
    "op": "say",
    "actor": "rei_casual",
-   "text": "未知を敵と決めず、条件を一つずつ調べよう。",
-   "eyes": "crying"
+   "text": "……論文を、書いていました。社会を、よくするための。……書けば書くほど、世の中が、悪く見えてくる。",
+   "eyes": "closed"
   },
   {
    "op": "say",
-   "actor": "kurogane",
-   "text": "だが観察している私たちも観察されている。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "不眠の男グレアムが深い眠りへ落ちる。ここで未来の分岐が生まれる。",
-   "eyes": "normal"
-  },
-  {
-   "op": "nar",
-   "text": "答えを急がず、選んだ手段の代価を確かめる。"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "選択の結果を、発明のせいだけにはできない。"
+   "actor": "extra_elder",
+   "text": "それは、眠れんでしょうな。"
   },
   {
    "op": "say",
    "actor": "rei_casual",
-   "text": "記録を残そう。次の者が同じ盲点へ落ちぬように。",
-   "eyes": "anger"
-  },
-  {
-   "op": "nar",
-   "text": "残された沈黙が、次の行動を促す。"
+   "text": "このまま、死ぬのかと、思います。……いっそ、そのほうが。"
   },
   {
    "op": "say",
-   "actor": "kurogane",
-   "text": "そして戻れなくても、責任からは逃げない。"
+   "actor": "extra_elder",
+   "text": "……わしの家で、お茶でも、飲みなさい。少しは、落ち着く。"
   },
   {
    "op": "hide",
@@ -201,7 +160,81 @@
   },
   {
    "op": "hide",
-   "actor": "kurogane"
+   "actor": "extra_elder"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "老人の家。小さな居間。暖炉の火。グレアムが、椅子に、腰を下ろした。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "薬は、飲みなさったか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "何種類も。……効きませんでした。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……では、何も、考えずに、火を、見ていなさい。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……火を。"
+  },
+  {
+   "op": "nar",
+   "text": "暖炉の火が、ぱちぱちと、はぜる。グレアムの目が、ゆっくりと、閉じていった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……おや。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……お若いの？"
+  },
+  {
+   "op": "nar",
+   "text": "老人は、男の肩を、揺すった。……返事は、なかった。息は、している。"
+  },
+  {
+   "op": "nar",
+   "text": "脈も、ある。けれど、どれだけ揺すっても、目を、覚まさなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……眠り病か。……医者を、呼ばねば。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "医者が来た。学者が来た。新聞記者が来た。……誰にも、男を、起こすことは、できなかった。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
   },
   {
    "op": "bg",
@@ -214,12 +247,26 @@
   },
   {
    "op": "nar",
-   "text": "第2景「二百年後の都市」。目覚めた彼が世界最大の資産の名義人と知る。"
+   "text": "目が、覚めた。……ガラスの、棺のような、寝台。白い、天井。見知らぬ、機械の音。"
   },
   {
    "op": "show",
-   "actor": "yui",
-   "pos": "left"
+   "actor": "rei_casual",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……どこだ、ここは。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……体が、重い。……手が、細い。……まるで、何年も、動かしていなかったような。"
+  },
+  {
+   "op": "nar",
+   "text": "寝台の周りに、見慣れない服を着た人々が、集まっていた。皆、息を、のんで、こちらを、見つめていた。"
   },
   {
    "op": "show",
@@ -228,98 +275,152 @@
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "「二百年後の都市」で常識の境界が動き始めた。",
-   "eyes": "joy",
-   "mouth": "open"
+   "actor": "extra_elder",
+   "text": "……お目覚めですか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "どなた、ですか。"
   },
   {
    "op": "say",
    "actor": "extra_elder",
-   "text": "目覚めた彼が世界最大の資産の名義人と知る。観測した事実はそれだけだ。",
-   "eyes": "anger"
+   "text": "私は、あなたの、世話を、代々、任されてきた家の者です。……何も、覚えて、おられませんか。"
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "可能だから使う、では理由にならない。",
-   "eyes": "sorrow"
+   "actor": "rei_casual",
+   "text": "コーンウォールの、老人の家で、眠ったところまでは。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……あれから、二百三年が、経ちました。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……二百、三年。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "今は、二一〇〇年。……あなたは、ずっと、眠っておられた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……あの、老人は。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "私の、五代前の、祖先です。……あなたを、見つけた人です。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "right"
   },
   {
    "op": "nar",
-   "text": "二百年後の都市の空気が変わり、二人は言葉の裏を測る。"
+   "text": "寝台のある部屋の、大きな窓。外には、巨大な、ガラスの屋根に覆われた、都市が、広がっていた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……これが、ロンドン。"
   },
   {
    "op": "say",
    "actor": "extra_elder",
-   "text": "使わなければ、別の誰かが先に使う。",
-   "eyes": "fun"
+   "text": "今のロンドンは、全体が、一つの屋根の下に、あります。……雨も、雪も、知らない子どもが、ほとんどです。"
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "だからこそ「富と名義だけでは、未来社会への責任を果たせない」を問い続ける。",
-   "eyes": "surprise",
-   "mouth": "open"
+   "actor": "rei_casual",
+   "text": "空を、飛んでいるのは。"
   },
   {
    "op": "say",
    "actor": "extra_elder",
-   "text": "技術の速さに、判断の速さが追いついていない。",
-   "eyes": "crying"
-  },
-  {
-   "op": "nar",
-   "text": "遠くの音が途切れる。目覚めた彼が世界最大の資産の名義人と知る。"
+   "text": "飛行機械です。……空中路を、行き交っております。"
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "未知を敵と決めず、条件を一つずつ調べよう。",
+   "actor": "rei_casual",
+   "text": "……私は、どうして、二百年も、ここに。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……あなたの、財産の、おかげです。",
    "eyes": "closed"
   },
   {
    "op": "say",
    "actor": "extra_elder",
-   "text": "だが観察している私たちも観察されている。",
-   "eyes": "normal"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "目覚めた彼が世界最大の資産の名義人と知る。ここで未来の分岐が生まれる。",
-   "eyes": "joy",
-   "mouth": "open"
-  },
-  {
-   "op": "nar",
-   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+   "text": "眠る前、あなたには、親戚から、遺産が、入りました。……あなたは、眠ったまま、その遺産の、持ち主だった。"
   },
   {
    "op": "say",
    "actor": "extra_elder",
-   "text": "選択の結果を、発明のせいだけにはできない。",
-   "eyes": "anger"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "記録を残そう。次の者が同じ盲点へ落ちぬように。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "nar",
-   "text": "残された沈黙が、次の行動を促す。"
+   "text": "遺産は、信託の管理人たちが、運用しました。"
   },
   {
    "op": "say",
    "actor": "extra_elder",
-   "text": "そして戻れなくても、責任からは逃げない。",
-   "eyes": "fun"
+   "text": "……利子が、利子を生み、二百年で、……世界の、半分を、買えるほどに、なりました。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……世界の、半分。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "あなたの財産を、管理しているのは、白色評議会という、十二人の委員です。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……世界は、今、あなたの名義で、治められております。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……私は、何も、していない。眠っていただけだ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "眠っている人の名前ほど、使いやすいものは、ございません。……文句を、言いませんから。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "そうです。……だから、あなたは、目覚めては、いけなかったのです。"
   },
   {
    "op": "hide",
-   "actor": "yui"
+   "actor": "rei_casual"
   },
   {
    "op": "hide",
@@ -336,107 +437,173 @@
   },
   {
    "op": "nar",
-   "text": "第3景「白色評議会の塔」。オストロッグが彼の名で支配を正当化する。"
+   "text": "白色評議会の塔。最上階の、広い執務室。窓の外に、都市の灯りが、見下ろせる。鋭い目つきの男が、グレアムを、出迎えた。"
   },
   {
    "op": "show",
-   "actor": "rei_casual",
+   "actor": "kurogane",
    "pos": "left"
   },
   {
    "op": "show",
-   "actor": "kurogane",
+   "actor": "rei_casual",
    "pos": "right"
   },
   {
    "op": "say",
-   "actor": "rei_casual",
-   "text": "「白色評議会の塔」で常識の境界が動き始めた。",
-   "eyes": "anger"
-  },
-  {
-   "op": "say",
    "actor": "kurogane",
-   "text": "オストロッグが彼の名で支配を正当化する。観測した事実はそれだけだ。"
+   "text": "お目覚め、おめでとうございます。……私は、オストロッグ。"
   },
   {
    "op": "say",
    "actor": "rei_casual",
-   "text": "可能だから使う、では理由にならない。",
-   "eyes": "fun"
-  },
-  {
-   "op": "nar",
-   "text": "白色評議会の塔の空気が変わり、二人は言葉の裏を測る。"
+   "text": "……評議会の方ですか。"
   },
   {
    "op": "say",
    "actor": "kurogane",
-   "text": "使わなければ、別の誰かが先に使う。"
+   "text": "いいえ。評議会に、反対する者です。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "評議会は、あなたの名義を、使って、世界を、思うままにしてきた。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……そして、あなたが、目覚めたことを、隠そうとした。永遠に、眠らせておくつもりだったのです。"
   },
   {
    "op": "say",
    "actor": "rei_casual",
-   "text": "だからこそ「富と名義だけでは、未来社会への責任を果たせない」を問い続ける。",
-   "eyes": "crying"
+   "text": "……眠らせて、おく。"
   },
   {
    "op": "say",
    "actor": "kurogane",
-   "text": "技術の速さに、判断の速さが追いついていない。"
-  },
-  {
-   "op": "nar",
-   "text": "遠くの音が途切れる。オストロッグが彼の名で支配を正当化する。"
+   "text": "評議会にとっては、あなたが、眠っている王で、あるほうが、都合がいい。……起きている王は、命令を、出しますから。",
+   "eyes": "closed"
   },
   {
    "op": "say",
    "actor": "rei_casual",
-   "text": "未知を敵と決めず、条件を一つずつ調べよう。",
-   "eyes": "normal"
+   "text": "……命令など、出すつもりは。"
   },
   {
    "op": "say",
    "actor": "kurogane",
-   "text": "だが観察している私たちも観察されている。"
+   "text": "出さぬのも、一つの、命令になります。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "出していただきたいのです。……民衆は、あなたの目覚めを、待っていました。眠れる人が、目覚めるとき、世界は、変わると。"
   },
   {
    "op": "say",
    "actor": "rei_casual",
-   "text": "オストロッグが彼の名で支配を正当化する。ここで未来の分岐が生まれる。",
-   "eyes": "anger"
-  },
-  {
-   "op": "nar",
-   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+   "text": "……伝説、ですか。"
   },
   {
    "op": "say",
    "actor": "kurogane",
-   "text": "選択の結果を、発明のせいだけにはできない。"
+   "text": "そうです。……あなたは、今、伝説なのです。"
   },
   {
    "op": "say",
    "actor": "rei_casual",
-   "text": "記録を残そう。次の者が同じ盲点へ落ちぬように。",
-   "eyes": "fun"
-  },
-  {
-   "op": "nar",
-   "text": "残された沈黙が、次の行動を促す。"
+   "text": "伝説は、何をすれば、いいのです。"
   },
   {
    "op": "say",
    "actor": "kurogane",
-   "text": "そして戻れなくても、責任からは逃げない。"
+   "text": "何も。……ただ、民衆の前に、立ってくだされば。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
   },
   {
    "op": "hide",
    "actor": "rei_casual"
   },
   {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "塔の外から、地鳴りのような、声が、響いてきた。……何万もの人々の、叫び声。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "お聞きなさい。……民衆が、蜂起しました。評議会を、倒すために。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……私の、ために。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "「眠れる人を、我らに」。……そう、叫んでいるのです。"
+  },
+  {
+   "op": "nar",
+   "text": "オストロッグが、窓を、開けた。眼下の広場を、青い服を着た労働者たちが、埋め尽くしていた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……あの、青い服の人たちは。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "労働部の者たちです。……評議会の工場で、働いている。生まれてから死ぬまで、青い服を、着て。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……生まれてから、死ぬまで。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "子どもも、そうです。……親が青なら、子も、青。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……二百年前と、何も、変わっていない。いや、もっと、ひどい。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "お顔を、見せてあげなさい。……それだけで、彼らは、命を、懸けて、戦います。"
+  },
+  {
+   "op": "nar",
+   "text": "グレアムは、窓辺に、立った。広場の群衆が、一斉に、どっと、沸いた。"
+  },
+  {
    "op": "hide",
    "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
   },
   {
    "op": "bg",
@@ -449,159 +616,295 @@
   },
   {
    "op": "nar",
-   "text": "第4景「空中路の蜂起」。労働者の怒りと支配側の武力が衝突する。"
+   "text": "数日後。評議会は、倒れた。オストロッグが、新しい、支配者の座に、就いた。"
+  },
+  {
+   "op": "nar",
+   "text": "……グレアムは、塔の一室で、ひとりの若い女性と、会っていた。"
   },
   {
    "op": "show",
-   "actor": "yui",
+   "actor": "rei_casual",
    "pos": "left"
   },
   {
    "op": "show",
-   "actor": "extra_elder",
+   "actor": "yui",
    "pos": "right"
   },
   {
    "op": "say",
    "actor": "yui",
-   "text": "「空中路の蜂起」で常識の境界が動き始めた。",
-   "eyes": "sorrow",
-   "mouth": "open"
+   "text": "はじめまして。……ヘレン・ウォットンと、申します。"
   },
   {
    "op": "say",
-   "actor": "extra_elder",
-   "text": "労働者の怒りと支配側の武力が衝突する。観測した事実はそれだけだ。",
-   "eyes": "fun"
+   "actor": "rei_casual",
+   "text": "……どうやって、ここへ。"
   },
   {
    "op": "say",
    "actor": "yui",
-   "text": "可能だから使う、では理由にならない。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "nar",
-   "text": "空中路の蜂起の空気が変わり、二人は言葉の裏を測る。"
+   "text": "青い服の、労働者たちの、娘です。……どうしても、お話ししたくて、ここまで、忍び込んで、まいりました。"
   },
   {
    "op": "say",
-   "actor": "extra_elder",
-   "text": "使わなければ、別の誰かが先に使う。",
-   "eyes": "crying"
+   "actor": "rei_casual",
+   "text": "忍び込んで。"
   },
   {
    "op": "say",
    "actor": "yui",
-   "text": "だからこそ「富と名義だけでは、未来社会への責任を果たせない」を問い続ける。",
-   "eyes": "closed",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "extra_elder",
-   "text": "技術の速さに、判断の速さが追いついていない。",
-   "eyes": "normal"
-  },
-  {
-   "op": "nar",
-   "text": "遠くの音が途切れる。労働者の怒りと支配側の武力が衝突する。"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "未知を敵と決めず、条件を一つずつ調べよう。",
-   "eyes": "joy"
-  },
-  {
-   "op": "say",
-   "actor": "extra_elder",
-   "text": "だが観察している私たちも観察されている。",
+   "text": "オストロッグは、あなたを、だましています。",
    "eyes": "anger"
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "労働者の怒りと支配側の武力が衝突する。ここで未来の分岐が生まれる。",
-   "eyes": "sorrow",
-   "mouth": "open"
-  },
-  {
-   "op": "nar",
-   "text": "答えを急がず、選んだ手段の代価を確かめる。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_elder",
-   "text": "選択の結果を、発明のせいだけにはできない。",
-   "eyes": "fun"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "記録を残そう。次の者が同じ盲点へ落ちぬように。",
+   "actor": "rei_casual",
+   "text": "……だまして。",
    "eyes": "surprise"
   },
   {
-   "op": "nar",
-   "text": "残された沈黙が、次の行動を促す。"
-  },
-  {
    "op": "say",
-   "actor": "extra_elder",
-   "text": "そして戻れなくても、責任からは逃げない。",
-   "eyes": "crying"
-  },
-  {
-   "op": "choice",
-   "options": [
-    {
-     "text": "正面から問いかける",
-     "jump": "sleeper-awakes_direct"
-    },
-    {
-     "text": "相手の話を最後まで聞く",
-     "jump": "sleeper-awakes_listen"
-    }
-   ]
-  },
-  {
-   "op": "label",
-   "id": "sleeper-awakes_direct"
+   "actor": "yui",
+   "text": "評議会を、倒したのは、労働者たちです。……でも、オストロッグは、労働者たちに、何一つ、約束を、守っていない。"
   },
   {
    "op": "say",
    "actor": "yui",
-   "text": "私は正面から問う。曖昧なまま次へは進まない。"
-  },
-  {
-   "op": "jump",
-   "to": "sleeper-awakes_merge"
-  },
-  {
-   "op": "label",
-   "id": "sleeper-awakes_listen"
+   "text": "青い服は、そのまま。工場は、そのまま。……ただ、上に座る人が、評議会から、オストロッグに、変わっただけです。"
   },
   {
    "op": "say",
-   "actor": "extra_elder",
-   "text": "結論を急がず、相手が何を恐れているかまで聞こう。"
+   "actor": "rei_casual",
+   "text": "……変わったのは、名札だけか。"
   },
   {
-   "op": "label",
-   "id": "sleeper-awakes_merge"
+   "op": "say",
+   "actor": "yui",
+   "text": "労働者たちは、また、立ち上がろうとしています。"
   },
   {
-   "op": "nar",
-   "text": "選び方は違っても、二人は同じ核心へ戻ってくる。"
+   "op": "say",
+   "actor": "yui",
+   "text": "……そうしたら、オストロッグは、外地から、武装した警察隊を、呼び寄せるつもりです。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……空中路で、飛行機械に乗せて。今夜にも。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……私の、名前で。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "あなたの、名前で。……あなたが、許したことに、なっているのです。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
   },
   {
    "op": "hide",
    "actor": "yui"
   },
   {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……ヘレン。私は、二百年前、社会を、よくする論文を、書いていた。……書けば書くほど、眠れなくなった。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……眠れなく。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "世の中の不公平を、見て見ぬふりができなくて。……でも、私には、何も、できなかった。紙の上で、怒るしか。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "今は、できます。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……今の私は、ただの、名義だ。金と、名前だけが、ある。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "名義なら、使ってください。……あなたの名前で、労働者を、裏切るのでは、なく、あなたの名前で、守ってください。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……名前だけで、何が、守れる。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "広場に、立ってください。……労働者たちは、あなたを、信じています。まだ。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "名前だけでは、何も、守れません。……だから、名前だけで、いないでください。"
+  },
+  {
    "op": "hide",
-   "actor": "extra_elder"
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "bg",
+   "src": "council_tower",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "council_tower"
+  },
+  {
+   "op": "nar",
+   "text": "塔の、執務室。夜。グレアムが、オストロッグと、向かい合っている。"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "オストロッグ。……外地の、警察隊を、呼んだそうですね。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……どなたから、それを。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "誰でも、いい。……すぐに、取りやめなさい。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "取りやめれば、労働者たちは、暴動を起こし、この都市は、焼け野原になります。……秩序のためです。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "秩序のために、彼らを、撃つのですか。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "撃つのでは、ありません。……静めるのです。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "私の名で、撃つのか。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "あなたの名前は、便利なのです、グレアムさま。……あなたが、黙って、座っていてくだされば、世界は、平和です。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……評議会と、同じことを、言う。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "同じでは、ありません。……評議会は、あなたを、眠らせておこうとした。私は、起きたあなたを、上手に、使おうとしている。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "起きているが、何もしない王。……それが、いちばん、よい王です。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……あなたは、なぜ、そこまで、秩序に、こだわる。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "私は、青い服の家に、生まれました。……父は、工場の、事故で、死にました。暴動の、夜に。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "誰が、悪かったのでもない。……ただ、群衆が、怒り、機械が、止まり、父が、下敷きになった。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "だから、私は、上に、登った。……二度と、あの夜が、来ないように、上から、全部を、押さえるために。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……それで、今度は、あなたが、青い服の人々を、撃つのか。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "撃たねば、もっと、多くが、死ぬのです！　あなたには、わからない。……二百年、眠っていた人には！",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……わからない。……だから、自分の目で、見に行く。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
   },
   {
    "op": "bg",
@@ -614,7 +917,7 @@
   },
   {
    "op": "nar",
-   "text": "第5景「夜空の決断」。グレアムが名義人ではなく当事者として立つ。"
+   "text": "夜空。都市の屋根の上。空中路の発着場。遠くの地平線に、警察隊を乗せた、飛行機械の船団の、灯りが、近づいてくる。"
   },
   {
    "op": "show",
@@ -623,90 +926,71 @@
   },
   {
    "op": "show",
-   "actor": "kurogane",
+   "actor": "yui",
    "pos": "right"
   },
   {
    "op": "say",
-   "actor": "rei_casual",
-   "text": "「夜空の決断」で常識の境界が動き始めた。",
-   "eyes": "fun"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "グレアムが名義人ではなく当事者として立つ。観測した事実はそれだけだ。"
+   "actor": "yui",
+   "text": "……グレアムさま、来ます。……船団が。"
   },
   {
    "op": "say",
    "actor": "rei_casual",
-   "text": "可能だから使う、では理由にならない。",
-   "eyes": "crying"
-  },
-  {
-   "op": "nar",
-   "text": "夜空の決断の空気が変わり、二人は言葉の裏を測る。"
+   "text": "地上の、労働者たちは。"
   },
   {
    "op": "say",
-   "actor": "kurogane",
-   "text": "使わなければ、別の誰かが先に使う。"
+   "actor": "yui",
+   "text": "広場に、集まっています。……あなたの名前を、叫んでいます。今度は、オストロッグに、逆らうために。"
   },
   {
    "op": "say",
    "actor": "rei_casual",
-   "text": "だからこそ「富と名義だけでは、未来社会への責任を果たせない」を問い続ける。",
-   "eyes": "normal"
+   "text": "……私の名前を、叫んで、撃たれるのか。"
   },
   {
    "op": "say",
-   "actor": "kurogane",
-   "text": "技術の速さに、判断の速さが追いついていない。"
-  },
-  {
-   "op": "nar",
-   "text": "遠くの音が途切れる。グレアムが名義人ではなく当事者として立つ。"
+   "actor": "yui",
+   "text": "……きっと。"
   },
   {
    "op": "say",
    "actor": "rei_casual",
-   "text": "未知を敵と決めず、条件を一つずつ調べよう。",
-   "eyes": "anger"
+   "text": "……ヘレン。私は、飛行機械の、操縦を、覚えた。この数日で、こっそりと。",
+   "eyes": "closed"
   },
   {
    "op": "say",
-   "actor": "kurogane",
-   "text": "だが観察している私たちも観察されている。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "グレアムが名義人ではなく当事者として立つ。ここで未来の分岐が生まれる。",
-   "eyes": "fun"
-  },
-  {
-   "op": "nar",
-   "text": "答えを急がず、選んだ手段の代価を確かめる。"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "選択の結果を、発明のせいだけにはできない。"
+   "actor": "yui",
+   "text": "……いつのまに。",
+   "eyes": "surprise"
   },
   {
    "op": "say",
    "actor": "rei_casual",
-   "text": "記録を残そう。次の者が同じ盲点へ落ちぬように。",
-   "eyes": "crying"
-  },
-  {
-   "op": "nar",
-   "text": "残された沈黙が、次の行動を促す。"
+   "text": "一機、空いているのが、ある。……船団の、先頭に、ぶつかれば、残りは、引き返すかもしれない。"
   },
   {
    "op": "say",
-   "actor": "kurogane",
-   "text": "そして戻れなくても、責任からは逃げない。"
+   "actor": "yui",
+   "text": "……あなたが、死にます。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "二百年、眠っていた。……その分、少しは、起きていたい。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……ずるい言い方。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "君の真似だ。",
+   "eyes": "closed"
   },
   {
    "op": "hide",
@@ -714,7 +998,156 @@
   },
   {
    "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "発着場に、オストロッグが、駆け込んできた。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "グレアムさま！　……おやめください！　あなたが、死ねば、名義が、宙に浮く！　世界の財産が、誰の、ものでも、なくなる！"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……誰のものでも、なくなる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "それは、……それほど、悪いことか。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……悪い、ことでは、ないと。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "オストロッグ。……私は、名義人として、ではなく、この都市に、生きている、一人の人間として、飛ぶ。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……その言葉を、待っていました。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "グレアムは、飛び立つ",
+     "jump": "m_fly"
+    },
+    {
+     "text": "グレアムは、地上の群衆の前に立つ",
+     "jump": "m_stand"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_fly"
+  },
+  {
+   "op": "nar",
+   "text": "グレアムは、飛行機械に、乗り込んだ。エンジンが、うなる。夜空へ、まっすぐに、舞い上がっていった。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "戻ってきて！"
+  },
+  {
+   "op": "nar",
+   "text": "遠い空で、閃光が、走った。……船団の先頭が、大きく、傾いた。後続の船が、ばらばらに、旋回を、始めた。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……引き返して、いく。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……あの人は。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……わからぬ。……落ちたのか、まだ、飛んでいるのか。"
+  },
+  {
+   "op": "jump",
+   "to": "m_end"
+  },
+  {
+   "op": "label",
+   "id": "m_stand"
+  },
+  {
+   "op": "hide",
    "actor": "kurogane"
+  },
+  {
+   "op": "nar",
+   "text": "グレアムは、飛行機械には、乗らなかった。……発着場の、端まで歩き、眼下の広場を、見下ろした。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "皆さん！　……私は、眠れる人です。今は、起きています。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "私の名前で、撃たれるのは、もう、やめてほしい。……私の名前で、誰かを、撃つのも。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……それで、いいのです。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "ヘレン。……名義は、手放す。財産は、ここに住む、皆のものとして、分ける方法を、考える。眠らずに。"
+  },
+  {
+   "op": "label",
+   "id": "m_end"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "bg",
+   "src": null
   },
   {
    "op": "show",
@@ -724,29 +1157,21 @@
   {
    "op": "say",
    "actor": "nono",
-   "text": "物語はここまで。残った問いは「富と名義だけでは、未来社会への責任を果たせない」。",
-   "eyes": "sorrow"
+   "text": "『眠れる人が目覚めるとき』、今宵は、原作と少し違う結末にて、終演です。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
-   "eyes": "normal"
+   "text": "グレアムは、世界の半分の、持ち主でした。……けれど、持っているだけでは、誰も、守れませんでした。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "ご来場、ありがとうございました。",
-   "eyes": "joy",
-   "mouth": "open"
+   "text": "名前だけの王から、ひとりの当事者へ。……二百年の眠りから、本当に、目覚めたのは、その瞬間だったのでございましょう。"
   },
   {
    "op": "hide",
    "actor": "nono"
-  },
-  {
-   "op": "bg",
-   "src": null
   },
   {
    "op": "end"

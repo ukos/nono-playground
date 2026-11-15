@@ -1,334 +1,645 @@
 {
-  "meta": {
-    "id": "manju-kowai",
-    "title": "饅頭怖い ―NONO座総出の怖いもの大会―",
-    "original": "古典落語『饅頭怖い』（伝統演目・著作権消滅）",
-    "adaptation": "faithful",
-    "format": "v3",
-    "minutes": 8,
-    "synopsis": "多人数の怖いもの大会から、饅頭を投げ込むいたずら、濃いお茶のオチまでをテンポよくつなぐ全員集合型コメディ。",
-    "note": "本脚本は翻案であり、原作の文章・口演の転載ではない。セリフは全て本上演版の書き下ろし。"
+ "meta": {
+  "id": "manju-kowai",
+  "title": "饅頭怖い ―NONO座総出の怖いもの大会―",
+  "original": "古典落語『饅頭怖い』（伝統演目・著作権消滅）",
+  "adaptation": "faithful",
+  "format": "v3",
+  "minutes": 14,
+  "synopsis": "町内の若い衆が怖いものを白状しあう中、松公は饅頭が怖いと言って寝込む。仕返しに皆が饅頭を山ほど枕元に積むと、松公は「怖い怖い」と食べてしまう。最後に本当に怖いものは。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "狂言回し",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "若者",
-      "actor": "yui",
-      "costume": "default"
-    },
-    {
-      "role": "若者",
-      "actor": "sasuke",
-      "costume": "default"
-    },
-    {
-      "role": "若者",
-      "actor": "shiro",
-      "costume": "default"
-    },
-    {
-      "role": "若者",
-      "actor": "gou",
-      "costume": "default"
-    },
-    {
-      "role": "若者",
-      "actor": "akane",
-      "costume": "default"
-    },
-    {
-      "role": "若者",
-      "actor": "tanurio",
-      "costume": "default"
-    },
-    {
-      "role": "饅頭好き",
-      "actor": "extra_porter",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "room": "bg/manju-gathering-2048x1152.png",
-    "next": "bg/manju-next-room-2048x1152.png"
+  {
+   "role": "兄貴分・辰",
+   "actor": "gou",
+   "costume": "default"
   },
-  "steps": [
+  {
+   "role": "八五郎",
+   "actor": "sasuke",
+   "costume": "default"
+  },
+  {
+   "role": "熊さん",
+   "actor": "tanurio",
+   "costume": "default"
+  },
+  {
+   "role": "留公",
+   "actor": "shiro",
+   "costume": "default"
+  },
+  {
+   "role": "松公",
+   "actor": "extra_porter",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "room": "bg/manju-gathering-2048x1152.png",
+  "next": "bg/manju-next-room-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "さて、NONO座の今宵の一席。皆さま、怖いものはおありですか。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "蛇、蜘蛛、高いところ、暗い押し入れ。人の数だけ、怖いものがございます。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "今夜は、暇をもてあました町内の若い衆が、怖いものを白状しあう晩のお話。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "古典落語『饅頭こわい』。最後まで本当のことを言わない男が、ひとり混じっております。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "room",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "room"
+  },
+  {
+   "op": "nar",
+   "text": "町内の若い衆の溜まり場。座布団が輪になって並び、湯呑みが転がっている。"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "雨続きで仕事にならねえな。おい、暇つぶしに、皆の怖いもんを言いっこしようじゃねえか。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "いいね。辰兄ぃから言ってくれよ。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "俺か。俺は、蛇だ。あの、にょろっとした胴が、足に巻きついてくると思うと。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "辰兄ぃが蛇？　この前、どぶに落ちた猫を素手で拾い上げてたじゃねえか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "猫には足がある。足のないもんが動くのが、どうにも分からねえ。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "俺は蜘蛛だな。天井から、すうっと降りてくるやつ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "蜘蛛なら俺もだめだ。あいつら、足が八本もある。足の多いもんは信用できねえ。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "蛇は足がなくて、蜘蛛は足が多い。怖いもんは足で決まるのか。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "俺はもう一つある。蟻だ。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "蟻？　あんな小さいもんが。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "一匹ならいい。行列で来られると、どこまで続いてるのか、気になって夜も眠れねえ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "遅くなりやした。何の話です。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "怖いもんの言いっこだ。留、お前は何が怖い。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "おいらは、馬です。後ろに回ると、蹴られそうで。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "馬の前に回りゃいいじゃねえか。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "前に回ると、噛まれそうで。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "じゃあ横から乗れ。……ところで、松公。さっきから黙ってるが、お前は何が怖い。",
+   "eyes": "fun"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "怖いもん？　ねえな、そんなもん。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "ねえ？　ひとつも？",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "蛇は首に巻いて、えりまきにする。蜘蛛は納豆の糸と同じだ。蟻は甘いもんにたかる、かわいいもんよ。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "馬は。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "馬は、乗ってやるとありがたがる。怖がるのは向こうのほうだ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "偉そうに。人がせっかく白状してるのに、一人だけ澄ましやがって。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "澄ましてるわけじゃねえ。本当に、ねえんだから……",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "いや……。……ひとつだけ、あるか。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "なんだ、言ってみろ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "口にしたくもねえ。……饅頭だ。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "まんじゅう？",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "名前を聞いただけで、胸がむかむかする。あの、丸くて、白くて、中にあんこが……ああ、だめだ。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "気分が悪くなった。隣の部屋で、少し寝かせてもらう。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "辰兄ぃ、聞いたか。松公、饅頭が怖いんだってよ。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "聞いた。普段の憎まれ口の仇を取ってやろうじゃねえか。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "で、どう仕返しする。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "皆で銭を出しあって、ありったけの饅頭を買ってくる。寝てる枕元に、山と積んでやるんだ。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "いいね。そば饅頭、栗饅頭、薄皮饅頭、田舎饅頭。",
+   "eyes": "joy"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "俺は酒饅頭を買ってくる。においで目を回すぜ。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "よし、走れ。"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "bg",
+   "src": "next",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "next"
+  },
+  {
+   "op": "nar",
+   "text": "隣の小部屋。松公が布団をかぶって寝ている。その枕元に、饅頭の包みが次々と置かれていく。"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "置いたか。そうっとだぞ。……さあ、松公、起きろ。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "ふすまを閉めて、隙間から様子を見るか。それとも、もうちょっと待つか。",
+   "eyes": "fun"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "choice",
+   "options": [
     {
-      "op": "bg",
-      "src": null
+     "text": "若い衆は、すぐにふすまの隙間からのぞく",
+     "jump": "peek"
     },
     {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『饅頭怖い ―NONO座総出の怖いもの大会―』。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "怖いものを言い合えば、最後に怖いのは誰でしょう。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "room",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "room"
-    },
-    {
-      "op": "nar",
-      "text": "町内の若者が集まり、怖いものを順番に言う。"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "sasuke",
-      "pos": "center"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "私は雷。光った後の待ち時間が怖い。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "sasuke",
-      "text": "俺は狭い所。隠れるのは好きだが、出られないのは嫌だ。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "私は大きな犬。やさしくても、走ってくると速いもの。"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "show",
-      "actor": "gou",
-      "pos": "left"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "俺は細かい計算。数字が群れで来る。"
-    },
-    {
-      "op": "hide",
-      "actor": "sasuke"
-    },
-    {
-      "op": "show",
-      "actor": "akane",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "私は退屈な説教。逃げ道がない。",
-      "eyes": "fun"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "show",
-      "actor": "tanurio",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "あいつの怖い物も聞こう。"
-    },
-    {
-      "op": "hide",
-      "actor": "gou"
-    },
-    {
-      "op": "show",
-      "actor": "extra_porter",
-      "pos": "left"
-    },
-    {
-      "op": "say",
-      "actor": "extra_porter",
-      "text": "俺は饅頭が怖い。見るだけで震える。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "本当かい。じゃあ別室で休みな。",
-      "eyes": "fun"
-    },
-    {
-      "op": "nar",
-      "text": "一同は饅頭を山ほど買い、別室へ投げ込む。"
-    },
-    {
-      "op": "hide",
-      "actor": "akane"
-    },
-    {
-      "op": "hide",
-      "actor": "tanurio"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_porter"
-    },
-    {
-      "op": "bg",
-      "src": "next",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "next"
-    },
-    {
-      "op": "show",
-      "actor": "extra_porter",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "extra_porter",
-      "text": "怖い怖い。栗、胡麻、酒、全部違って怖い。",
-      "eyes": "fun"
-    },
-    {
-      "op": "nar",
-      "text": "男は饅頭を次々食べる。障子の外から全員が覗く。"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_porter"
-    },
-    {
-      "op": "bg",
-      "src": "room",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "room"
-    },
-    {
-      "op": "show",
-      "actor": "akane",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "sasuke",
-      "pos": "center"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "あいつ、怖がりながら全部食べたよ。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "sasuke",
-      "text": "騙された。次に本当に怖いものを聞こう。"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "show",
-      "actor": "extra_porter",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "extra_porter",
-      "text": "今度は、濃いお茶が怖い。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "それなら湯飲みごと怖がらせてやる！"
-    },
-    {
-      "op": "nar",
-      "text": "全員が茶を持って追いかけ、部屋は饅頭の箱で転び放題になる。"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_porter"
-    },
-    {
-      "op": "hide",
-      "actor": "sasuke"
-    },
-    {
-      "op": "hide",
-      "actor": "akane"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "怖いもの大会は、饅頭とお茶の大宴会になりました。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "本当に怖いのは、食い意地のそろった仲間たち。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "end"
+     "text": "若い衆は、たっぷり時間をおいてから、のぞく",
+     "jump": "wait"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "peek"
+  },
+  {
+   "op": "nar",
+   "text": "布団がもぞもぞと動いた。松公が、枕元を見て、飛び起きる。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "うわあ、饅頭だ！　怖い、怖い。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "こんなところに、饅頭が。こわいよう、こわいよう。……どれ、この怖いのを、先に片付けよう。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "もぐ。……ああ、こわい。この栗の入ったのが、とりわけこわい。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "この薄皮のやつも、口の中で溶けて、たまらなくこわい。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "おい、辰兄ぃ。あいつ、食ってるぞ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "怖い怖いって言いながら、口に放り込んでやがる。",
+   "eyes": "anger"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "jump",
+   "to": "reveal"
+  },
+  {
+   "op": "label",
+   "id": "wait"
+  },
+  {
+   "op": "nar",
+   "text": "若い衆が湯呑みを二杯ほど飲むあいだ、隣の部屋は、しんとしていた。"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "静かだな。……気絶したか。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "見てみよう。そうっと開けろ。"
+  },
+  {
+   "op": "nar",
+   "text": "ふすまを開けると、包み紙だけが散らばり、饅頭はひとつも残っていなかった。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……ああ、こわかった。全部、こわかった。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "jump",
+   "to": "reveal"
+  },
+  {
+   "op": "label",
+   "id": "reveal"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "てめえ、だましやがったな！　饅頭が怖いなんて嘘っぱちだろう。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "嘘じゃねえ。今も、腹の中で、こわいのがいっぱいだ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "じゃあ、本当は何が怖いんだ。正直に言え。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "本当に、怖いもんか。……そうだな。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "今は、濃いお茶が一杯、こわい。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "饅頭を山ほどせしめて、最後に、口直しのお茶まで頼んだ男でございました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "人の弱みを笑おうとした若い衆が、いちばん高い買い物をしたわけで。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "饅頭こわいの一席、お粗末さまでございました。私が怖いのは、ここにいる皆さまの拍手でございます。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

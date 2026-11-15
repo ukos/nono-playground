@@ -1,1212 +1,1989 @@
 {
-  "meta": {
-    "id": "too-many-once-upon-a-time",
-    "number": 166,
-    "title": "むかしむかしが多すぎる！ ―昔話管理局の大混線―",
-    "original": "NONO座オリジナル（パブリックドメイン昔話の再構成）",
-    "category": "Stage Actorオリジナル",
-    "adaptation": "free",
-    "format": "v3",
-    "minutes": 46,
-    "synopsis": "桃、赤い頭巾、亀、玉手箱、光る竹、傘、栗が一冊へ誤結合。役者は元の棚へ戻そうとするが、混ざった登場人物にも望みがある。",
-    "theme": "昔話は混ざって壊れるのではなく、語り直す責任によって生き続ける",
-    "chapters": [
-      {
-        "id": "main",
-        "title": "本編",
-        "scenes": [
-          "peach_hood",
-          "turtle_island",
-          "forbidden_rooms",
-          "mountain_props",
-          "story_bureau",
-          "that_was_you",
-          "return_or_remain",
-          "new_once_upon"
-        ]
-      }
-    ],
-    "note": "既存翻訳・上演台本・特定演者の口演は転用せず、台詞は本上演版の書き下ろし。"
-  },
-  "cast": [
-    {
-      "role": "桃から来た語り手",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "匂いで案内する白い友",
-      "actor": "shiro",
-      "costume": "default"
-    },
-    {
-      "role": "昔話管理局員",
-      "actor": "rei_casual",
-      "costume": "default"
-    },
-    {
-      "role": "鬼ヶ島の責任者",
-      "actor": "kurogane",
-      "costume": "default"
-    },
-    {
-      "role": "夜の森の住人",
-      "actor": "yoru",
-      "costume": "default"
-    }
+ "meta": {
+  "id": "too-many-once-upon-a-time",
+  "number": 166,
+  "title": "むかしむかしが多すぎる！ ―昔話管理局の大混線―",
+  "original": "NONO座オリジナル（パブリックドメイン昔話の再構成）",
+  "category": "Stage Actorオリジナル",
+  "adaptation": "free",
+  "format": "v3",
+  "minutes": 54,
+  "synopsis": "桃、赤い頭巾、亀、玉手箱、光る竹、傘、栗が一冊へ誤結合。役者は元の棚へ戻そうとするが、混ざった登場人物にも望みがある。",
+  "theme": "昔話は混ざって壊れるのではなく、語り直す責任によって生き続ける",
+  "chapters": [
+   {
+    "id": "main",
+    "title": "本編",
+    "scenes": [
+     "peach_hood",
+     "turtle_island",
+     "forbidden_rooms",
+     "mountain_props",
+     "story_bureau",
+     "that_was_you",
+     "return_or_remain",
+     "new_once_upon"
+    ]
+   }
   ],
-  "backgrounds": {
-    "peach_hood": "bg/too-many-once-upon-a-time-peach_hood-2048x1152.png",
-    "turtle_island": "bg/too-many-once-upon-a-time-turtle_island-2048x1152.png",
-    "forbidden_rooms": "bg/too-many-once-upon-a-time-forbidden_rooms-2048x1152.png",
-    "mountain_props": "bg/too-many-once-upon-a-time-mountain_props-2048x1152.png",
-    "story_bureau": "bg/too-many-once-upon-a-time-story_bureau-2048x1152.png",
-    "that_was_you": "bg/too-many-once-upon-a-time-that_was_you-2048x1152.png",
-    "return_or_remain": "bg/too-many-once-upon-a-time-return_or_remain-2048x1152.png",
-    "new_once_upon": "bg/too-many-once-upon-a-time-new_once_upon-2048x1152.png"
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "桃から来た語り手",
+   "actor": "nono",
+   "costume": "default"
   },
-  "steps": [
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『むかしむかしが多すぎる！―昔話管理局の大混線―』。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "StageActorオリジナルの舞台を、全8景でお届けします。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "この舞台の核は「昔話は混ざって壊れるのではなく、語り直す責任によって生き続ける」。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "既存の台詞を写さず、今夜のために新しく構成しました。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "それでは、幕を開けましょう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "peach_hood",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "peach_hood"
-    },
-    {
-      "op": "nar",
-      "text": "第1景「桃と赤い頭巾」。桃から出たnonoが赤い頭巾を拾い、鬼ヶ島ではなく祖母の家へ案内される。"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "ここは「桃と赤い頭巾」。桃から出たnonoが赤い頭巾を拾い、鬼ヶ島ではなく祖母の家へ案内される。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "今の選択は、次の場面だけでなく結末まで動かす。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "桃と赤い頭巾の空気が変わり、言葉の裏にある選択が見える。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "私は「昔話は混ざって壊れるのではなく、語り直す責任によって生き続ける」という問いから逃げたくない。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "桃から出たnonoが赤い頭巾を拾い、鬼ヶ島ではなく祖母の家へ案内される。ならば、今できる一手を選ぶ。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "舞台の奥で音が止み、桃から出たnonoが赤い頭巾を拾い、鬼ヶ島ではなく祖母の家へ案内される。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "「桃と赤い頭巾」を通り過ぎず、この場で必要な言葉を残す。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "答えは一つでなくても、選んだ責任は分け合える。",
-      "eyes": "surprise",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "よし。次の場面へ持って行ける答えになった。",
-      "eyes": "closed"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "bg",
-      "src": "turtle_island",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "turtle_island"
-    },
-    {
-      "op": "nar",
-      "text": "第2景「亀が運ぶ鬼ヶ島」。助けた亀が竜宮城を忘れて鬼ヶ島へ着き、鬼が玉手箱を先に渡そうとする。"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "yoru",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "ここは「亀が運ぶ鬼ヶ島」。助けた亀が竜宮城を忘れて鬼ヶ島へ着き、鬼が玉手箱を先に渡そうとする。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "今の選択は、次の場面だけでなく結末まで動かす。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "亀が運ぶ鬼ヶ島の空気が変わり、言葉の裏にある選択が見える。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "私は「昔話は混ざって壊れるのではなく、語り直す責任によって生き続ける」という問いから逃げたくない。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
-      "eyes": "closed",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "助けた亀が竜宮城を忘れて鬼ヶ島へ着き、鬼が玉手箱を先に渡そうとする。ならば、今できる一手を選ぶ。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "舞台の奥で音が止み、助けた亀が竜宮城を忘れて鬼ヶ島へ着き、鬼が玉手箱を先に渡そうとする。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "「亀が運ぶ鬼ヶ島」を通り過ぎず、この場で必要な言葉を残す。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "答えは一つでなくても、選んだ責任は分け合える。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "よし。次の場面へ持って行ける答えになった。",
-      "eyes": "closed"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "hide",
-      "actor": "yoru"
-    },
-    {
-      "op": "bg",
-      "src": "forbidden_rooms",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "forbidden_rooms"
-    },
-    {
-      "op": "nar",
-      "text": "第3景「開けるな見るな」。玉手箱、鶴の部屋、見るなの座敷が同じ廊下に並び、注意書きだけが増える。"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "ここは「開けるな見るな」。玉手箱、鶴の部屋、見るなの座敷が同じ廊下に並び、注意書きだけが増える。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "今の選択は、次の場面だけでなく結末まで動かす。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "開けるな見るなの空気が変わり、言葉の裏にある選択が見える。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "私は「昔話は混ざって壊れるのではなく、語り直す責任によって生き続ける」という問いから逃げたくない。",
-      "eyes": "surprise",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "玉手箱、鶴の部屋、見るなの座敷が同じ廊下に並び、注意書きだけが増える。ならば、今できる一手を選ぶ。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
-      "eyes": "crying",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "舞台の奥で音が止み、玉手箱、鶴の部屋、見るなの座敷が同じ廊下に並び、注意書きだけが増える。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "「開けるな見るな」を通り過ぎず、この場で必要な言葉を残す。",
-      "eyes": "anger",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "答えは一つでなくても、選んだ責任は分け合える。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "よし。次の場面へ持って行ける答えになった。",
-      "eyes": "closed",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "bg",
-      "src": "mountain_props",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "mountain_props"
-    },
-    {
-      "op": "nar",
-      "text": "第4景「栗と傘と光る竹」。猿蟹の栗、笠地蔵の傘、竹取の光が山道で役を交換し始める。"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "yoru",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "ここは「栗と傘と光る竹」。猿蟹の栗、笠地蔵の傘、竹取の光が山道で役を交換し始める。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "今の選択は、次の場面だけでなく結末まで動かす。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "栗と傘と光る竹の空気が変わり、言葉の裏にある選択が見える。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "私は「昔話は混ざって壊れるのではなく、語り直す責任によって生き続ける」という問いから逃げたくない。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "猿蟹の栗、笠地蔵の傘、竹取の光が山道で役を交換し始める。ならば、今できる一手を選ぶ。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "舞台の奥で音が止み、猿蟹の栗、笠地蔵の傘、竹取の光が山道で役を交換し始める。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "「栗と傘と光る竹」を通り過ぎず、この場で必要な言葉を残す。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "答えは一つでなくても、選んだ責任は分け合える。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "よし。次の場面へ持って行ける答えになった。",
-      "eyes": "closed"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "hide",
-      "actor": "yoru"
-    },
-    {
-      "op": "bg",
-      "src": "story_bureau",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "story_bureau"
-    },
-    {
-      "op": "nar",
-      "text": "第5景「昔話管理局の責任」。管理局は分類番号を優先し、混ざった人物の気持ちを無視して原状復帰を命じる。"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "ここは「昔話管理局の責任」。管理局は分類番号を優先し、混ざった人物の気持ちを無視して原状復帰を命じる。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "今の選択は、次の場面だけでなく結末まで動かす。",
-      "eyes": "anger",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "昔話管理局の責任の空気が変わり、言葉の裏にある選択が見える。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "私は「昔話は混ざって壊れるのではなく、語り直す責任によって生き続ける」という問いから逃げたくない。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
-      "eyes": "closed",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "管理局は分類番号を優先し、混ざった人物の気持ちを無視して原状復帰を命じる。ならば、今できる一手を選ぶ。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "舞台の奥で音が止み、管理局は分類番号を優先し、混ざった人物の気持ちを無視して原状復帰を命じる。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "「昔話管理局の責任」を通り過ぎず、この場で必要な言葉を残す。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "答えは一つでなくても、選んだ責任は分け合える。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "よし。次の場面へ持って行ける答えになった。",
-      "eyes": "closed"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "bg",
-      "src": "that_was_you",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "that_was_you"
-    },
-    {
-      "op": "nar",
-      "text": "第6景「混ぜ始めたのは誰だ」。皆が混線の犯人を探すが、最初に桃から出て勝手に旅立ったnonoへ視線が集まる。"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "yoru",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "ここは「混ぜ始めたのは誰だ」。皆が混線の犯人を探すが、最初に桃から出て勝手に旅立ったnonoへ視線が集まる。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "今の選択は、次の場面だけでなく結末まで動かす。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "混ぜ始めたのは誰だの空気が変わり、言葉の裏にある選択が見える。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "私は「昔話は混ざって壊れるのではなく、語り直す責任によって生き続ける」という問いから逃げたくない。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "皆が混線の犯人を探すが、最初に桃から出て勝手に旅立ったnonoへ視線が集まる。ならば、今できる一手を選ぶ。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
-      "eyes": "crying",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "舞台の奥で音が止み、皆が混線の犯人を探すが、最初に桃から出て勝手に旅立ったnonoへ視線が集まる。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "「混ぜ始めたのは誰だ」を通り過ぎず、この場で必要な言葉を残す。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "答えは一つでなくても、選んだ責任は分け合える。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "よし。次の場面へ持って行ける答えになった。",
-      "eyes": "closed",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "hide",
-      "actor": "yoru"
-    },
-    {
-      "op": "bg",
-      "src": "return_or_remain",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "return_or_remain"
-    },
-    {
-      "op": "nar",
-      "text": "第7景「元へ戻るか残るか」。小道具を元の棚へ返す案と、一夜限りの新しい昔話として残す案が対立する。"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "ここは「元へ戻るか残るか」。小道具を元の棚へ返す案と、一夜限りの新しい昔話として残す案が対立する。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "今の選択は、次の場面だけでなく結末まで動かす。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "元へ戻るか残るかの空気が変わり、言葉の裏にある選択が見える。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "私は「昔話は混ざって壊れるのではなく、語り直す責任によって生き続ける」という問いから逃げたくない。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "小道具を元の棚へ返す案と、一夜限りの新しい昔話として残す案が対立する。ならば、今できる一手を選ぶ。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "舞台の奥で音が止み、小道具を元の棚へ返す案と、一夜限りの新しい昔話として残す案が対立する。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "「元へ戻るか残るか」を通り過ぎず、この場で必要な言葉を残す。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "答えは一つでなくても、選んだ責任は分け合える。",
-      "eyes": "surprise",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "よし。次の場面へ持って行ける答えになった。",
-      "eyes": "closed"
-    },
-    {
-      "op": "choice",
-      "options": [
-        {
-          "text": "今すぐ行動する",
-          "jump": "too-many-once-upon-a-time_direct"
-        },
-        {
-          "text": "もう一人の声を最後まで聞く",
-          "jump": "too-many-once-upon-a-time_listen"
-        }
-      ]
-    },
-    {
-      "op": "label",
-      "id": "too-many-once-upon-a-time_direct"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "私は今すぐ動く。遅れた分は、行動の後で説明する。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "jump",
-      "to": "too-many-once-upon-a-time_merge"
-    },
-    {
-      "op": "label",
-      "id": "too-many-once-upon-a-time_listen"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "私は最後まで聞く。沈黙も答えの一部として受け止める。",
-      "eyes": "anger"
-    },
-    {
-      "op": "label",
-      "id": "too-many-once-upon-a-time_merge"
-    },
-    {
-      "op": "nar",
-      "text": "選び方は違っても、二人は同じ核心を次の景へ運ぶ。"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "bg",
-      "src": "new_once_upon",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "new_once_upon"
-    },
-    {
-      "op": "nar",
-      "text": "第8景「新しいむかしむかし」。語り継ぐたびに変わることを認め、出典への敬意と新しい結末を両立させる。"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "yoru",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "ここは「新しいむかしむかし」。語り継ぐたびに変わることを認め、出典への敬意と新しい結末を両立させる。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "今の選択は、次の場面だけでなく結末まで動かす。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "新しいむかしむかしの空気が変わり、言葉の裏にある選択が見える。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "私は「昔話は混ざって壊れるのではなく、語り直す責任によって生き続ける」という問いから逃げたくない。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
-      "eyes": "closed",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "語り継ぐたびに変わることを認め、出典への敬意と新しい結末を両立させる。ならば、今できる一手を選ぶ。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "舞台の奥で音が止み、語り継ぐたびに変わることを認め、出典への敬意と新しい結末を両立させる。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "「新しいむかしむかし」を通り過ぎず、この場で必要な言葉を残す。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "答えは一つでなくても、選んだ責任は分け合える。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "よし。次の場面へ持って行ける答えになった。",
-      "eyes": "closed"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "hide",
-      "actor": "yoru"
-    },
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "『むかしむかしが多すぎる！―昔話管理局の大混線―』、これにて終演です。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "残った問いは「昔話は混ざって壊れるのではなく、語り直す責任によって生き続ける」。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "選んだ結末を、次の物語まで覚えていてください。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "end"
+  {
+   "role": "匂いで案内する白い友",
+   "actor": "shiro",
+   "costume": "default"
+  },
+  {
+   "role": "昔話管理局員",
+   "actor": "rei_casual",
+   "costume": "default"
+  },
+  {
+   "role": "鬼ヶ島の責任者",
+   "actor": "kurogane",
+   "costume": "default"
+  },
+  {
+   "role": "夜の森の住人",
+   "actor": "yoru",
+   "costume": "default"
+  },
+  {
+   "role": "狂言回し",
+   "actor": "yui_origin",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "peach_hood": "bg/too-many-once-upon-a-time-peach_hood-2048x1152.png",
+  "turtle_island": "bg/too-many-once-upon-a-time-turtle_island-2048x1152.png",
+  "forbidden_rooms": "bg/too-many-once-upon-a-time-forbidden_rooms-2048x1152.png",
+  "mountain_props": "bg/too-many-once-upon-a-time-mountain_props-2048x1152.png",
+  "story_bureau": "bg/too-many-once-upon-a-time-story_bureau-2048x1152.png",
+  "that_was_you": "bg/too-many-once-upon-a-time-that_was_you-2048x1152.png",
+  "return_or_remain": "bg/too-many-once-upon-a-time-return_or_remain-2048x1152.png",
+  "new_once_upon": "bg/too-many-once-upon-a-time-new_once_upon-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "yui_origin",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "むかしむかし、……と、語り始めると、どこかの棚の、どこかの本が、ぱらりと、開く。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "世界のどこかに、昔話を、一冊ずつ、きちんと、棚に、しまっておく、役所が、あるそうでございます。……その名も、昔話管理局。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "ところが、ある晩、その棚が、崩れまして。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "……桃も、頭巾も、亀も、玉手箱も、光る竹も、傘も、栗も、一冊の本の中に、ごちゃまぜに。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "昔話は、混ざって、壊れるのか。……それとも、語り直されて、生き続けるのか。……どうぞ、最後まで、お付き合いくださいませ。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui_origin"
+  },
+  {
+   "op": "bg",
+   "src": "peach_hood",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "peach_hood"
+  },
+  {
+   "op": "nar",
+   "text": "川のほとり。……どんぶらこ、どんぶらこ、と、大きな桃が、流れてきた。岸に、打ち上げられ、ぱかんと、割れた。"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……ぷはっ。……生まれた。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……ここは、どこ。……おじいさんと、おばあさんは。"
+  },
+  {
+   "op": "nar",
+   "text": "誰も、いなかった。……川岸に、赤い、頭巾が、一つ、落ちていた。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……赤い、頭巾。……桃から、生まれた子は、頭巾を、かぶるんだっけ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……違う、気がする。……でも、寒いから、かぶっておこう。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "nonoが、赤い頭巾を、かぶった、その瞬間。……森の奥から、白い、犬が、走ってきた。"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……わん！　……あ、いや。……お待ちしておりました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……しゃべる、犬。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "白い友です。……匂いで、道案内を、いたします。……赤い頭巾の、お嬢さん。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……お嬢さん。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "おばあさんの、お家まで、ご案内します。……森の道は、危ないですから。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……おばあさん。……鬼ヶ島じゃ、なくて。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……鬼ヶ島。……何の、ことですか。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……ぼくは、桃から、生まれたんだ。……鬼退治に、行くはずじゃ、ないの。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……でも、赤い頭巾を、かぶっていますよね。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……かぶってる。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……赤い頭巾を、かぶった子は、おばあさんの、お家へ、行くんです。……そう、決まってます。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "森の、小道。木漏れ日。……二人が、歩いていると、木の陰から、黒い、外套の、女が、現れた。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……おや。……赤い頭巾の、子。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……夜の、森の、住人さん。……今は、昼ですよ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "森の中は、いつも、少し、夜なのよ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……どこへ、行くの。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……おばあさんの、家。……らしい。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……らしい。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "本当は、鬼ヶ島に、行くはずだった。……桃から、生まれたから。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……桃から、生まれた、赤い頭巾。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……それは、困ったわね。……私は、赤い頭巾の、子に、近道を、教えて、先回りして、おばあさんを、食べる、役なのだけど。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……食べるの。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……桃から、生まれた子の、おばあさんは、食べていいのかしら。……台本に、書いてないわ。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……食べないで、ください。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……食べないわよ。……お腹、すいてないもの。",
+   "eyes": "fun"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "森の奥の、小さな家。……扉を、叩くと、中から、しわがれた声が、した。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……おばあさんの、お家です。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……こんにちは。……桃から、来ました。"
+  },
+  {
+   "op": "nar",
+   "text": "扉が、開いた。……そこに、立っていたのは、おばあさんでは、なく、……白い髭の、おじいさんだった。手に、鍬を、持っている。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……おじいさん。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……あら。……桃太郎の、おじいさんだわ。……川で、洗濯中の、おばあさんを、待っているのね。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……おじいさん、ぼく、桃から、生まれたんです。"
+  },
+  {
+   "op": "nar",
+   "text": "おじいさんは、首を、かしげた。……そして、「わしの家の、桃は、まだ、川を、流れておる」と、言った。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……桃が、二つ、流れてるんですかね。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……昔話は、時々、二つ、流れるのよ。……語る人が、二人いれば。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……じゃあ、ぼくは、誰の、桃。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……それを、探すのが、今夜の、旅かしら。",
+   "eyes": "fun"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "bg",
+   "src": "turtle_island",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "turtle_island"
+  },
+  {
+   "op": "nar",
+   "text": "浜辺。……三人が、森を抜けると、そこは、海だった。子どもたちが、亀を、棒で、つついて、いじめている。"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……あ、亀が。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……助けましょう。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……こら！　いじめちゃ、だめだ！"
+  },
+  {
+   "op": "nar",
+   "text": "子どもたちは、逃げていった。……亀が、首を、伸ばして、nonoを、見上げた。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……亀が、言ってます。「お礼に、背中に、お乗りください。……竜宮城へ、ご案内します」。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……竜宮城。……今度は、浦島太郎か。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……赤い頭巾は、まだ、かぶってますけど。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……もう、何でも、いいや。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "二人は、亀の背中に、乗った。……亀は、海へ、すべり込んだ。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "海の、向こうの、島。……亀が、浜に、二人を、下ろした。"
+  },
+  {
+   "op": "nar",
+   "text": "……島には、黒い、岩山。岩山の、てっぺんに、旗が、立っている。「鬼ヶ島」。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……竜宮城じゃ、ない。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "岩陰から、大きな、鬼が、現れた。……金棒の、代わりに、何かの、箱を、抱えている。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……よく、来た。……鬼ヶ島の、責任者、クロガネだ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……あの、ぼく、竜宮城に、行くはずで。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "亀が、道を、間違えた。……近ごろ、多い。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……まあ、いい。……とりあえず、これを、受け取れ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "鬼は、黒い、漆塗りの、箱を、差し出した。……赤い、紐が、かけてある。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……玉手箱。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……いかにも、玉手箱だ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……それ、竜宮城から、帰るときに、もらう、ものじゃ。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "そうだ。……だが、竜宮城の、乙姫が、行方不明でな。……代わりに、わしが、渡す、ことになった。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……鬼が、玉手箱を。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "開けるなよ。……開けたら、じいさんに、なる。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……開けたら、だめなのに、渡すの。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……昔話とは、そういう、ものだ。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……あの、鬼さん。……鬼退治の、話は。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……鬼退治。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……桃から、生まれた子が、犬と、猿と、雉を、連れて、鬼ヶ島へ、来るんです。……鬼を、退治して、宝を、持ち帰る。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……あれか。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……あれ、知ってるの。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "知っている。……毎晩、退治される、役だからな。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……毎晩。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "何百年も、毎晩、桃の子に、退治される。……宝を、取られる。……島に、誰も、いなくなる。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……今夜は、やっと、亀の、手違いで、玉手箱を、渡すだけの、役に、なれた。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……退治、しないよ。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……せんのか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……鬼さん、何も、悪いこと、してないもの。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "bg",
+   "src": "forbidden_rooms",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "forbidden_rooms"
+  },
+  {
+   "op": "nar",
+   "text": "鬼ヶ島の、岩屋の中。……長い、廊下。両側に、襖が、ずらりと、並んでいる。どの襖にも、張り紙が、してある。"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……泊まっていけ。……ただし、廊下の、襖は、開けるな。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……どれも。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "どれも。……一番目の、襖は、「機を織る、鶴の部屋。見るな」。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……鶴の、恩返し。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "二番目は、「見るなの座敷。決して、開けるな」。……三番目は、玉手箱を、しまう、部屋。「開けたら、年をとる」。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……張り紙が、多すぎる。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……昔話が、混ざって、注意書きだけが、増えた。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……四番目は、「赤い頭巾の、おばあさんの、寝室。……中にいるのは、おばあさんとは、限らない」。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……それ、狼が、寝てる、部屋じゃ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……さあな。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "夜。廊下。……nonoと、白い友が、そっと、歩いている。四番目の、襖の、前に、夜の森の住人が、立っていた。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……開けるの。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……開けない。……でも、気になる。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……全部、開けるなと、書いてあるわね。……開けるなと、書いてあると、開けたくなる。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……それが、昔話の、罠ですよ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "罠かしら。……開けた人が、いたから、物語が、続いたのよ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "鶴の部屋を、開けた、おじいさん。……玉手箱を、開けた、浦島。……見るなの座敷を、覗いた、男。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……皆、ひどい目に、あった。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……あったわね。……でも、開けなかったら、話は、そこで、終わり。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……開けたら、終わる。……開けなかったら、始まらない。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……難しい。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "四番目の、襖の、前。……nonoは、張り紙を、じっと、見た。……そして、襖を、こん、こん、と、叩いた。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……どなたか、いますか。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……叩いた。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……開けるな、とは、書いてある。……叩くな、とは、書いてない。"
+  },
+  {
+   "op": "nar",
+   "text": "襖の、向こうから、声が、した。……「どうぞ。開けても、いいよ。……中は、空っぽだから」。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……誰も、いないの。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……おばあさんも、狼も、いない部屋。……出番が、なくなったのね。",
+   "eyes": "fun"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "bg",
+   "src": "mountain_props",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "mountain_props"
+  },
+  {
+   "op": "nar",
+   "text": "鬼ヶ島の、裏山。……山道。三人が、歩いている。道の途中に、焚き火。そこに、栗が、一粒、転がっていた。"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……栗だ。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……触るな。……その栗は、はじける。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……猿蟹合戦の、栗。……囲炉裏で、はじけて、猿に、ぶつかる。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……そうだ。……だが、ここには、猿が、いない。"
+  },
+  {
+   "op": "nar",
+   "text": "栗が、ぱちん、と、はじけた。……そして、近くの、竹に、ぶつかった。竹が、ぱかっと、割れた。……中が、光っている。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……竹が、光ってる。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……かぐや姫の、竹。"
+  },
+  {
+   "op": "nar",
+   "text": "光の中から、……小さな、傘が、一本、出てきた。編み笠。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……笠地蔵の、笠だ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……竹から、笠。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……もう、めちゃくちゃだな。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……面白いわね。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……変だけど、楽しい。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……でも、困りますよ。……栗が、竹に、ぶつかったら、かぐや姫は、生まれない。……笠は、お地蔵さんに、届かない。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……届かない、かしら。"
+  },
+  {
+   "op": "nar",
+   "text": "夜の森の住人は、笠を、拾い上げた。……山道の、脇に、雪をかぶった、六体の、お地蔵さま。一体だけ、笠が、なかった。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……ほら。……届けて、おあげなさい。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……ぼくが。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "笠地蔵の、おじいさんは、今夜、来られないの。……竹取の、翁と、まちがえられて、竹林に、行ってしまったから。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……代わりに。"
+  },
+  {
+   "op": "nar",
+   "text": "nonoは、お地蔵さまに、笠を、かぶせた。……お地蔵さまの、顔が、少しだけ、ほほえんだ、ように、見えた。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……届いた。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "昔話管理局。夜明け前。……管理局員が、一人、崩れた本棚を、見上げている。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……第三課、レイ。……崩落、確認。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……桃、一番。赤い頭巾、外国棚の、十四番。亀、二番。鶴、五番。竹、三番。笠、九番。栗、七番。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……全部、一冊に。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……局長は、言った。「原状に、戻せ」。……局長は、いつも、それしか、言わない。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……原状、とは、何だろう。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……百年前に、語られた、形。……二百年前に、語られた、形。……語る人が、変われば、昔話も、少しずつ、変わる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……どの、原状に、戻せば、いいのか。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "bg",
+   "src": "story_bureau",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "story_bureau"
+  },
+  {
+   "op": "nar",
+   "text": "昔話管理局。……天井まで、届く、本棚。分類番号の、札。……事務机に、管理局員が、座っている。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……昔話管理局、第三課、レイ。……混線の、件で、お呼び、しました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……あ、管理局の、人。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……桃、赤い頭巾、亀、玉手箱、鶴、竹、笠、栗。……八つの、昔話が、一冊に、まざっています。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……分類番号、一から、八まで、すべて、ばらばら。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……どうなるんですか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……原状、復帰。……夜明けの、鐘までに。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……鐘が、鳴ったら。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……混ざった、ままの、八冊は、白紙に、なる。……明日の、寝る前の、読み聞かせから、八つの、話が、消える。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……世界じゅうの、子どもが、桃太郎を、知らなく、なる。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……だから、原状、復帰。……急いで。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……元に、戻す。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……小道具を、それぞれの、棚へ、返す。……桃の子は、鬼ヶ島へ。赤い頭巾は、森へ。亀は、竜宮城へ。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……鬼さんは。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……鬼は、退治される。……分類番号、一。桃太郎。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……また、退治、か。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……規則です。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……今夜は、玉手箱を、渡す、だけの、役だった。……退治、されなかった。……初めて、だったんだ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……混線、でした。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……混線で、よかった。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……管理局員さん。……鬼さんの、気持ちは。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……分類番号に、気持ちの、欄は、ない。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……ないの。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……ない。……昔話は、決まった、形を、守るから、昔話。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……決まった、形。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "bg",
+   "src": "that_was_you",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "that_was_you"
+  },
+  {
+   "op": "nar",
+   "text": "管理局の、会議室。……全員が、机を、囲んでいる。……誰が、最初に、混線させたのか。犯人探しが、始まった。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……混線の、原因を、特定します。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "亀だ。……亀が、道を、間違えた。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……亀は、赤い頭巾の、子が、乗ったから、迷ったのよ。……頭巾の子が、行く先は、決まってないもの。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……赤い頭巾は、なぜ、浜辺に。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……桃の子が、拾ったから。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……桃の子は、なぜ、頭巾を。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……寒かったから。"
+  },
+  {
+   "op": "nar",
+   "text": "全員の、視線が、……部屋の隅で、小さくなっている、nonoに、集まった。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……ぼく、です。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……座長代行。……いえ、桃の子さん。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……桃から、出たとき、おじいさんも、おばあさんも、いなかった。……誰も、名前を、つけてくれなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……鬼退治に、行け、とも、言われなかった。……だから、赤い頭巾を、かぶって、……勝手に、歩き出した。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……勝手に。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……ぼくが、勝手に、歩き出したから、亀が、迷って、鬼が、玉手箱を、持って、栗が、はじけて。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……ごめんなさい。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……でも、桃の子さんが、歩き出したから、鬼さんは、退治されなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……お地蔵さんにも、笠が、届いた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……局の、記録には、ない。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……それは、記録に、ない。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "会議室の、外の、廊下。……鬼と、夜の森の住人が、窓辺で、並んでいる。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……狼。……お前は、毎晩、食べる役か。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……毎晩じゃ、ないわ。……猟師に、お腹を、切られる、日もある。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……わしと、同じだな。……毎晩、負ける。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……でも、子どもたちは、私の話を、聞いて、知らない人に、ついていかない。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……わしの話を、聞いて、勇気を、出す。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……負け役も、役に、立ってる。……それが、せめてもの、救いね。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……今夜は、負けなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……私も、食べなかった。……どっちも、初めて。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……混線も、悪くないな。",
+   "eyes": "fun"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "bg",
+   "src": "return_or_remain",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "return_or_remain"
+  },
+  {
+   "op": "nar",
+   "text": "管理局の、大きな、作業台。……小道具が、並べられている。桃の、種。赤い頭巾。玉手箱。光る竹。笠。栗の、殻。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……決めて、ください。……元の、棚へ、返すか。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……返さずに、おいたら。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……一夜限りの、新しい、昔話として、残す。……分類番号は、つかない。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……番号が、つかないと、どうなる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……誰も、探せない。……誰にも、語られない。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……それは、寂しいな。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……元に、返したら、鬼さんは、また、退治される。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……それが、わしの、役だ。……何百年も。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……嫌じゃ、ないの。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……嫌だ。……だが、子どもたちは、あの話で、勇気を、もらう。……鬼が、いなきゃ、桃太郎は、ただの、旅人だ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……桃の子さん。……ぼくは、白い友、ですけど。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……本当は、桃太郎の、犬なんです。……きび団子で、ついていく、犬。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……そうだったの。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……でも、今夜は、きび団子、もらってないのに、ついてきました。……楽しかったから。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……私も。……狼の、役だけど、今夜は、誰も、食べなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……食べない、狼も、悪くないわ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……皆、元に、戻りたい。……でも、今夜のことも、忘れたくない。"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "bg",
+   "src": "new_once_upon",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "new_once_upon"
+  },
+  {
+   "op": "nar",
+   "text": "管理局の、窓の外。……夜が、明け始めている。全員が、作業台の、前に、立っている。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "遠くで、夜明けの鐘が、一つ目を、打った。……鳴り終わるまでに、八冊の行き先を、決めなければならない。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……あと、六つ。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "小道具を元の棚へ返し、今夜の話は余白に書き残す",
+     "jump": "m_return"
+    },
+    {
+     "text": "混ざった一冊を、新しい昔話として棚に加える",
+     "jump": "m_new"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_return"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……元の、棚へ、返そう。……昔話は、元の、形で、語られるから、昔話。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……承知、しました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……でも、管理局員さん。……本の、最後の、余白に、一行だけ、書いて、いい。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……余白に、何と。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……「ある晩、鬼は、退治されなかった。……桃の子が、頭巾を、かぶって、迷い込んだから」。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……余白に、か。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……余白は、分類番号の、対象外です。……書いても、規則違反には、なりません。"
+  },
+  {
+   "op": "jump",
+   "to": "m_end"
+  },
+  {
+   "op": "label",
+   "id": "m_new"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……この一冊を、新しい、棚に、置こう。……分類番号は、百一番。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……百一番は、ありません。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……作って。……管理局員さんが。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……前例が、ありません。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……作ります。……分類番号、百一番。「むかしむかしが、多すぎる」。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……わしの、名前も、入るか。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……鬼ヶ島の、責任者、として。"
+  },
+  {
+   "op": "label",
+   "id": "m_end"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……一つ、伺っても。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……何でも、聞いて。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……桃の子さんの、名前は。……記録に、必要です。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……誰も、つけてくれなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……じゃあ、ぼくたちで、つけましょう。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……管理局の、規則では、名前は、語り手が、つけるもの。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……語り手は、ぼく。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……じゃあ、自分で、つけて。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……nono。……むかしむかしの、まだ、名前のない、語り手。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……記録しました。……nono。分類番号、なし。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "番号の、ない、名前。……いいですね。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……迷子に、ぴったり、でしょ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "yui_origin",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "NONO座オリジナル『むかしむかしが多すぎる！』、これにて、幕でございます。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "混ざった昔話は、壊れたのでしょうか。……いいえ。鬼は、一晩、退治されず、お地蔵さまには、笠が、届きました。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "昔話は、語り直す人が、いるかぎり、生き続ける。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "……出典への、敬意と、新しい、一行を、添えて。……むかしむかし、の、おしまい、でございます。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "yui_origin"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

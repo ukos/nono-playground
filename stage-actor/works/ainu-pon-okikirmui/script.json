@@ -5,7 +5,7 @@
   "original": "知里幸惠編訳『アイヌ神謡集』所収（古典神謡）",
   "adaptation": "faithful",
   "format": "v3",
-  "minutes": 15,
+  "minutes": 18,
   "synopsis": "小オキキリムイは水源で小男が胡桃の木の杭を打ち、濁った水が鮭を追い返すのを見る。怒って小男を倒し、六つの地獄まで届く杭を根から折る。清い風と水が戻る。",
   "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
  },
@@ -434,6 +434,60 @@
    "text": "地の底の国まで根を張って、地上の川を汚していたのか。"
   },
   {
+   "op": "show",
+   "actor": "nibulus",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "やめてくれ……！　その根を、引かないでくれ。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "お前……なぜ、こんな地の底に。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "その杭は、わしだ。わしは、水源の胡桃の木の精。杭は、わしの根を削って作った。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "人間どもが、わしの仲間の胡桃を、毎年、切っていく。実を取り、枝を折り、皮をはいで、魚の毒にする。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "だから、鮭を止めてやった。わしらの痛みを、人間にも、少しは味わわせたかったのだ。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "……胡桃の痛みを、鮭と村の子どもに、背負わせたのか。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "根を全部抜かれたら、わしは、もう芽を出せぬ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_rider"
+  },
+  {
+   "op": "hide",
+   "actor": "nibulus"
+  },
+  {
    "op": "choice",
    "options": [
     {
@@ -451,6 +505,22 @@
    "id": "m_break"
   },
   {
+   "op": "show",
+   "actor": "rei_rider",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "nibulus",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "川をふさぐ杭だけを折る。お前の根は、残しておく。",
+   "eyes": "closed"
+  },
+  {
    "op": "say",
    "actor": "rei_rider",
    "text": "折れろ！　クツニサ　クトンクトン！",
@@ -459,7 +529,26 @@
   },
   {
    "op": "nar",
-   "text": "胡桃の杭は、六つ目の国の底で、ばきりと折れた。"
+   "text": "胡桃の杭は、六つ目の国の底で、ばきりと折れた。小男の根だけが、静かに土の中に残った。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "……情けを、かけたのか。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "村に帰ったら、胡桃を切りすぎないよう、皆に伝える。だから、お前も、二度と川をふさぐな。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_rider"
+  },
+  {
+   "op": "hide",
+   "actor": "nibulus"
   },
   {
    "op": "jump",
@@ -470,6 +559,16 @@
    "id": "m_pull"
   },
   {
+   "op": "show",
+   "actor": "rei_rider",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "nibulus",
+   "pos": "right"
+  },
+  {
    "op": "say",
    "actor": "rei_rider",
    "text": "出てこい、根っこごと！　クツニサ　クトンクトン！",
@@ -478,11 +577,24 @@
   },
   {
    "op": "nar",
-   "text": "杭は六つの国を突き抜けて引き上げられ、川岸に投げ出された。"
+   "text": "杭は六つの国を突き抜けて引き上げられ、川岸に投げ出された。小男の叫びが、地の底へ遠ざかっていった。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_rider"
+  },
+  {
+   "op": "hide",
+   "actor": "nibulus"
   },
   {
    "op": "label",
    "id": "m_after"
+  },
+  {
+   "op": "show",
+   "actor": "rei_rider",
+   "pos": "center"
   },
   {
    "op": "say",
@@ -567,7 +679,7 @@
   {
    "op": "say",
    "actor": "rei_rider",
-   "text": "あの小男は、どこかへ逃げてしまった。でも、もう杭を打つ力は残っていないだろう。"
+   "text": "あの小男は、もう杭を打たないだろう。……村の皆にも、胡桃の痛みを話してやらなければ。"
   },
   {
    "op": "say",

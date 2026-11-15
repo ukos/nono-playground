@@ -1,780 +1,1328 @@
 {
-  "meta": {
-    "id": "villain-audition",
-    "number": 162,
-    "title": "悪役オーディション ―怖さより親切―",
-    "original": "NONO座オリジナル",
-    "category": "Stage Actorオリジナル",
-    "adaptation": "free",
-    "format": "v3",
-    "minutes": 32,
-    "synopsis": "次回公演の悪役を決めるオーディション。クロガネたちは恐ろしい登場を競うが、困った相手を見るたび親切が先に出てしまう。",
-    "theme": "怖さは声の大きさではなく、何を選ばせるかで生まれる",
-    "chapters": [
-      {
-        "id": "main",
-        "title": "本編",
-        "scenes": [
-          "audition_stage",
-          "hostage_test",
-          "evil_laugh",
-          "true_fear",
-          "kind_villain"
-        ]
-      }
-    ],
-    "note": "既存翻訳・上演台本・特定演者の口演は転用せず、台詞は本上演版の書き下ろし。"
-  },
-  "cast": [
-    {
-      "role": "審査役",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "悪役候補クロガネ",
-      "actor": "kurogane",
-      "costume": "default"
-    },
-    {
-      "role": "悪役候補ヨル",
-      "actor": "yoru",
-      "costume": "default"
-    },
-    {
-      "role": "悪役候補ホムラ",
-      "actor": "homura",
-      "costume": "default"
-    },
-    {
-      "role": "悪役候補イワオ",
-      "actor": "iwao",
-      "costume": "default"
-    }
+ "meta": {
+  "id": "villain-audition",
+  "number": 162,
+  "title": "悪役オーディション ―怖さより親切―",
+  "original": "NONO座オリジナル",
+  "category": "Stage Actorオリジナル",
+  "adaptation": "free",
+  "format": "v3",
+  "minutes": 35,
+  "synopsis": "次回公演の悪役を決めるオーディション。クロガネたちは恐ろしい登場を競うが、困った相手を見るたび親切が先に出てしまう。",
+  "theme": "怖さは声の大きさではなく、何を選ばせるかで生まれる",
+  "chapters": [
+   {
+    "id": "main",
+    "title": "本編",
+    "scenes": [
+     "audition_stage",
+     "hostage_test",
+     "evil_laugh",
+     "true_fear",
+     "kind_villain"
+    ]
+   }
   ],
-  "backgrounds": {
-    "audition_stage": "bg/villain-audition-audition_stage-2048x1152.png",
-    "hostage_test": "bg/villain-audition-hostage_test-2048x1152.png",
-    "evil_laugh": "bg/villain-audition-evil_laugh-2048x1152.png",
-    "true_fear": "bg/villain-audition-true_fear-2048x1152.png",
-    "kind_villain": "bg/villain-audition-kind_villain-2048x1152.png"
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "審査役",
+   "actor": "nono",
+   "costume": "default"
   },
-  "steps": [
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『悪役オーディション―怖さより親切―』。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "StageActorオリジナルの舞台を、全5景でお届けします。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "この舞台の核は「怖さは声の大きさではなく、何を選ばせるかで生まれる」。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "既存の台詞を写さず、今夜のために新しく構成しました。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "それでは、幕を開けましょう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "audition_stage",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "audition_stage"
-    },
-    {
-      "op": "nar",
-      "text": "第1景「恐怖の入場審査」。候補者たちは闇、炎、重い足音を使って最も怖い登場を競う。"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "yoru",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "ここは「恐怖の入場審査」。候補者たちは闇、炎、重い足音を使って最も怖い登場を競う。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "今の選択は、次の場面だけでなく結末まで動かす。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "恐怖の入場審査の空気が変わり、言葉の裏にある選択が見える。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "私は「怖さは声の大きさではなく、何を選ばせるかで生まれる」という問いから逃げたくない。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "候補者たちは闇、炎、重い足音を使って最も怖い登場を競う。ならば、今できる一手を選ぶ。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "舞台の奥で音が止み、候補者たちは闇、炎、重い足音を使って最も怖い登場を競う。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "「恐怖の入場審査」を通り過ぎず、この場で必要な言葉を残す。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "答えは一つでなくても、選んだ責任は分け合える。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "よし。次の場面へ持って行ける答えになった。",
-      "eyes": "closed"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "hide",
-      "actor": "yoru"
-    },
-    {
-      "op": "bg",
-      "src": "hostage_test",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "hostage_test"
-    },
-    {
-      "op": "nar",
-      "text": "第2景「人質役が転ぶ」。人質役が転ぶと全候補が演技を忘れて駆け寄り、審査が親切競争に変わる。"
-    },
-    {
-      "op": "show",
-      "actor": "homura",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "iwao",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "ここは「人質役が転ぶ」。人質役が転ぶと全候補が演技を忘れて駆け寄り、審査が親切競争に変わる。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "今の選択は、次の場面だけでなく結末まで動かす。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。"
-    },
-    {
-      "op": "nar",
-      "text": "人質役が転ぶの空気が変わり、言葉の裏にある選択が見える。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "私は「怖さは声の大きさではなく、何を選ばせるかで生まれる」という問いから逃げたくない。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "人質役が転ぶと全候補が演技を忘れて駆け寄り、審査が親切競争に変わる。ならば、今できる一手を選ぶ。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "その一手で得るものと、失うものを同じ明るさで見よう。"
-    },
-    {
-      "op": "nar",
-      "text": "舞台の奥で音が止み、人質役が転ぶと全候補が演技を忘れて駆け寄り、審査が親切競争に変わる。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "「人質役が転ぶ」を通り過ぎず、この場で必要な言葉を残す。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。"
-    },
-    {
-      "op": "nar",
-      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "答えは一つでなくても、選んだ責任は分け合える。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "よし。次の場面へ持って行ける答えになった。"
-    },
-    {
-      "op": "hide",
-      "actor": "homura"
-    },
-    {
-      "op": "hide",
-      "actor": "iwao"
-    },
-    {
-      "op": "bg",
-      "src": "evil_laugh",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "evil_laugh"
-    },
-    {
-      "op": "nar",
-      "text": "第3景「悪の笑い方」。高笑いを練習するほど咳や照れが出て、互いに水を差し出してしまう。"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "yoru",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "ここは「悪の笑い方」。高笑いを練習するほど咳や照れが出て、互いに水を差し出してしまう。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "今の選択は、次の場面だけでなく結末まで動かす。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "悪の笑い方の空気が変わり、言葉の裏にある選択が見える。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "私は「怖さは声の大きさではなく、何を選ばせるかで生まれる」という問いから逃げたくない。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "高笑いを練習するほど咳や照れが出て、互いに水を差し出してしまう。ならば、今できる一手を選ぶ。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
-      "eyes": "crying",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "舞台の奥で音が止み、高笑いを練習するほど咳や照れが出て、互いに水を差し出してしまう。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "「悪の笑い方」を通り過ぎず、この場で必要な言葉を残す。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "答えは一つでなくても、選んだ責任は分け合える。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "よし。次の場面へ持って行ける答えになった。",
-      "eyes": "closed",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "hide",
-      "actor": "yoru"
-    },
-    {
-      "op": "bg",
-      "src": "true_fear",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "true_fear"
-    },
-    {
-      "op": "nar",
-      "text": "第4景「本当に怖いもの」。観客を脅す代わりに、選択肢を奪う仕組みこそ悪役らしいと気づく。"
-    },
-    {
-      "op": "show",
-      "actor": "homura",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "iwao",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "ここは「本当に怖いもの」。観客を脅す代わりに、選択肢を奪う仕組みこそ悪役らしいと気づく。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "今の選択は、次の場面だけでなく結末まで動かす。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。"
-    },
-    {
-      "op": "nar",
-      "text": "本当に怖いものの空気が変わり、言葉の裏にある選択が見える。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "私は「怖さは声の大きさではなく、何を選ばせるかで生まれる」という問いから逃げたくない。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "観客を脅す代わりに、選択肢を奪う仕組みこそ悪役らしいと気づく。ならば、今できる一手を選ぶ。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "その一手で得るものと、失うものを同じ明るさで見よう。"
-    },
-    {
-      "op": "nar",
-      "text": "舞台の奥で音が止み、観客を脅す代わりに、選択肢を奪う仕組みこそ悪役らしいと気づく。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "「本当に怖いもの」を通り過ぎず、この場で必要な言葉を残す。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。"
-    },
-    {
-      "op": "nar",
-      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "答えは一つでなくても、選んだ責任は分け合える。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "よし。次の場面へ持って行ける答えになった。"
-    },
-    {
-      "op": "choice",
-      "options": [
-        {
-          "text": "今すぐ行動する",
-          "jump": "villain-audition_direct"
-        },
-        {
-          "text": "もう一人の声を最後まで聞く",
-          "jump": "villain-audition_listen"
-        }
-      ]
-    },
-    {
-      "op": "label",
-      "id": "villain-audition_direct"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "私は今すぐ動く。遅れた分は、行動の後で説明する。"
-    },
-    {
-      "op": "jump",
-      "to": "villain-audition_merge"
-    },
-    {
-      "op": "label",
-      "id": "villain-audition_listen"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "私は最後まで聞く。沈黙も答えの一部として受け止める。"
-    },
-    {
-      "op": "label",
-      "id": "villain-audition_merge"
-    },
-    {
-      "op": "nar",
-      "text": "選び方は違っても、二人は同じ核心を次の景へ運ぶ。"
-    },
-    {
-      "op": "hide",
-      "actor": "homura"
-    },
-    {
-      "op": "hide",
-      "actor": "iwao"
-    },
-    {
-      "op": "bg",
-      "src": "kind_villain",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "kind_villain"
-    },
-    {
-      "op": "nar",
-      "text": "第5景「採用された全員」。全員不採用の危機から、善人が悪を演じる誠実さを評価され共同悪役に決まる。"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "yoru",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "ここは「採用された全員」。全員不採用の危機から、善人が悪を演じる誠実さを評価され共同悪役に決まる。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "今の選択は、次の場面だけでなく結末まで動かす。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "採用された全員の空気が変わり、言葉の裏にある選択が見える。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "私は「怖さは声の大きさではなく、何を選ばせるかで生まれる」という問いから逃げたくない。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
-      "eyes": "closed",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "全員不採用の危機から、善人が悪を演じる誠実さを評価され共同悪役に決まる。ならば、今できる一手を選ぶ。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "舞台の奥で音が止み、全員不採用の危機から、善人が悪を演じる誠実さを評価され共同悪役に決まる。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "「採用された全員」を通り過ぎず、この場で必要な言葉を残す。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "答えは一つでなくても、選んだ責任は分け合える。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "よし。次の場面へ持って行ける答えになった。",
-      "eyes": "closed"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "hide",
-      "actor": "yoru"
-    },
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "『悪役オーディション―怖さより親切―』、これにて終演です。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "残った問いは「怖さは声の大きさではなく、何を選ばせるかで生まれる」。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "選んだ結末を、次の物語まで覚えていてください。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "end"
+  {
+   "role": "悪役候補クロガネ",
+   "actor": "kurogane",
+   "costume": "default"
+  },
+  {
+   "role": "悪役候補ヨル",
+   "actor": "yoru",
+   "costume": "default"
+  },
+  {
+   "role": "悪役候補ホムラ",
+   "actor": "homura",
+   "costume": "default"
+  },
+  {
+   "role": "悪役候補イワオ",
+   "actor": "iwao",
+   "costume": "default"
+  },
+  {
+   "role": "狂言回し",
+   "actor": "yui_origin",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "audition_stage": "bg/villain-audition-audition_stage-2048x1152.png",
+  "hostage_test": "bg/villain-audition-hostage_test-2048x1152.png",
+  "evil_laugh": "bg/villain-audition-evil_laugh-2048x1152.png",
+  "true_fear": "bg/villain-audition-true_fear-2048x1152.png",
+  "kind_villain": "bg/villain-audition-kind_villain-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "yui_origin",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "次回の、NONO座、大公演。演目は、『魔王の城』。……主人公も、姫も、決まりました。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "決まっていないのは、ただ一つ。……魔王の役。物語でいちばん、怖い役でございます。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "そこで、今宵は、悪役オーディションを、開催いたします。……審査役は、nono。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "本当の怖さは、声の大きさでは、ない。……相手に、何を選ばせるか、で、生まれる。……さあ、候補者の皆さま、どうぞ。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui_origin"
+  },
+  {
+   "op": "bg",
+   "src": "audition_stage",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "audition_stage"
+  },
+  {
+   "op": "nar",
+   "text": "NONO座の、稽古場。床に、白いテープで、四角い、舞台が、描かれている。"
+  },
+  {
+   "op": "nar",
+   "text": "審査役のnonoが、長机に、座っている。机の上には、採点表。"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……では、悪役オーディション、始めます。……一番の、方。"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "left"
+  },
+  {
+   "op": "nar",
+   "text": "稽古場の、照明が、ふっと、暗くなった。……闇の中から、低い、足音。こつ、こつ、こつ。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……ふっふっふ。……我こそは、闇の、魔王。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "光を、喰らい、希望を、砕く。……さあ、ひざまずけ。"
+  },
+  {
+   "op": "nar",
+   "text": "クロガネが、黒い外套を、ばさりと、広げた。……外套の裾が、長机の、水差しに、引っかかった。水差しが、倒れた。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……水差しが。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……す、すまん。……拭く。……雑巾は、どこだ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……あ、大丈夫です、大丈夫です。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……採点表が、濡れたな。……乾かそう。うちわは、どこだ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……クロガネさん、魔王は、採点表を、乾かしません。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……乾かす、魔王も、いても、いいだろう。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……一点、加点します。……親切さで。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "homura",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……二番の、方。"
+  },
+  {
+   "op": "nar",
+   "text": "稽古場の、隅で、赤い、炎が、ぼっと、燃え上がった。……ホムラが、両手に、松明を、掲げて、現れた。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "……我は、炎の、魔王。……すべてを、焼き尽くす。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "村も、森も、城も、……灰に、してくれる。"
+  },
+  {
+   "op": "nar",
+   "text": "松明の、火の粉が、ぱらぱらと、床に、落ちた。……ホムラは、松明を、高く、掲げたまま、床を、見下ろした。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "……あ、床が、焦げる。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "……審査役さん、消火器、ありますか。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……入口の、横に。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "……持ってきます。……焼き尽くす、前に、床だけは、守らないと。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "homura"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……三番の、方。"
+  },
+  {
+   "op": "nar",
+   "text": "床が、ずしん、と、揺れた。……ずしん。ずしん。イワオが、重い足音で、ゆっくりと、歩いてきた。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……我は、岩の、魔王。……一歩ごとに、大地が、裂ける。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……ずしん。……ずしん。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……あの、イワオさん。……下の階から、苦情が、来てます。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……苦情。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "「天井から、ほこりが、落ちてくる」と。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……それは、いかん。……抜き足、差し足で、もう一度、やり直す。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……抜き足の、魔王。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……抜き足でも、重いものは、重い。"
+  },
+  {
+   "op": "nar",
+   "text": "床が、みし、みし、と、鳴った。……下の階から、また、苦情の、電話が、鳴った。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……四番の、方。"
+  },
+  {
+   "op": "nar",
+   "text": "照明が、すべて、消えた。……真っ暗な、稽古場。どこからか、ささやき声が、聞こえる。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……私は、夜の、魔王。……あなたの、後ろに、いる。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……背中が、寒い！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……振り向いても、いない。……でも、ずっと、いる。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……怖い。……これは、怖い。"
+  },
+  {
+   "op": "nar",
+   "text": "照明が、ついた。……ヨルは、nonoの、すぐ後ろに、立っていた。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……驚かせて、ごめんなさい。……心臓、大丈夫。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……大丈夫、です。……でも、謝らなくて、いいです。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……謝らずには、いられないの。"
+  },
+  {
+   "op": "nar",
+   "text": "稽古場の、扉の外で、誰かが、悲鳴を、上げた。……通りかかった、掃除係だった。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……あの人にも、謝ってくる。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "bg",
+   "src": "hostage_test",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "hostage_test"
+  },
+  {
+   "op": "nar",
+   "text": "二次審査。……人質の、場面。人質役の、新人が、床に、座っている。"
+  },
+  {
+   "op": "nar",
+   "text": "魔王の候補は、人質を、引き立てて、城の、地下牢へ、連れていく。"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "homura",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……二次審査は、人質の、場面です。……人質を、引きずって、地下牢へ。……台本は、三行。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……三行で、怖がらせる。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "……腕が、鳴るな。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……では、クロガネさんから。……どうぞ。"
+  },
+  {
+   "op": "nar",
+   "text": "クロガネが、人質役の、新人の、腕を、つかんだ。……その瞬間、新人が、足を、もつれさせて、転んだ。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……大丈夫か！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "膝、すりむいた？",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "二人は、演技を、忘れて、駆け寄った。……クロガネが、新人を、助け起こし、ホムラが、膝を、のぞき込んだ。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……ばんそうこう、持ってるか。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "ある。……いつも、持ってる。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……あの、お二人。……今、魔王です。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……魔王でも、転んだ人は、起こす。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "homura"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……では、イワオさんと、ヨルさん。……お願いします。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……人質よ。……来い。"
+  },
+  {
+   "op": "nar",
+   "text": "イワオが、人質役の、手を、引いた。……新人が、また、つまずいた。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……おっと。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "イワオは、新人を、ひょいと、抱き上げた。……お姫さま、抱っこ、で。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……イワオさん、それ、魔王の、運び方じゃ、ない。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……転ぶと、危ない。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……じゃあ、私も、手伝う。……足元を、照らすわ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "ヨルが、懐中電灯で、イワオの、足元を、照らした。……二人は、人質を、地下牢まで、そっと、丁寧に、送り届けた。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……地下牢まで、無事に、届きました。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……ご苦労。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……審査が、親切競争に、なってる。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……審査役さん、人質役の子に、お茶を、出してあげて。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……すぐ、お持ちします。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "bg",
+   "src": "evil_laugh",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "evil_laugh"
+  },
+  {
+   "op": "nar",
+   "text": "三次審査。……悪の、高笑い。稽古場の、真ん中に、四人が、並んでいる。"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……三次審査は、高笑いです。……魔王が、勝利を、確信して、笑う。……「わーっはっはっは」。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……任せろ。……わーっ、はっ、はっ、……げほっ。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……のどに、むせた。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……大丈夫。……お水。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……すまん。……のどが、乾いて。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……ヨルさん、どうぞ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……ふふふ。……ふふ。……ふふふふ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……ごめんなさい。……笑うと、照れるの。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……照れる、魔王。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "homura",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "……わっはっはっは！　……はっは、……はっくしょん！"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……風邪か。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "……松明の、煙が。……はっくしょん。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……のど飴、あるぞ。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "……助かる。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……イワオさん。……高笑いを。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……では、一度だけ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "イワオが、大きく息を吸った。稽古場の空気が、ずしりと、重くなった。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "ふぅはははは……ははははは……！",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "低い笑い声が、壁を震わせ、窓の外の鳥が、一斉に飛び立った。……審査役が、思わず、一歩、後ずさった。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……こ、こわい。……ほんとに、こわい。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……す、すまん。……泣かせるつもりは、なかった。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "イワオ、すごいじゃないか。……合格だろう、これは。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……いや。……審査役を泣かせて、喜べる魔王には、わしは、なりたくない。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……笑いは、完璧なのに、本人が、落ち込んでる。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "homura"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "bg",
+   "src": "true_fear",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "true_fear"
+  },
+  {
+   "op": "nar",
+   "text": "稽古場の、休憩室。……審査役と、候補者四人が、お茶を、飲んでいる。"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……正直に、言います。……今のところ、誰も、怖く、ありません。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……だろうな。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……向いて、ないのかしら。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……でも、ヨルさんの、最初の、「あなたの、後ろに、いる」は、怖かった。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……あの、ささやきは。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "声は、小さかった。……でも、振り向いても、いない、って、言われたら、……ぼくは、どこにも、逃げられない、気がした。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……逃げ場を、奪う。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……そう。……大声で、脅されるより、……選ぶ道を、奪われるほうが、怖い。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "homura",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "……選ぶ道を、奪う、か。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……台本の、魔王は、姫に、こう言う。「この城から、出たければ、出てもいい。……ただし、村は、焼く」。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "……出ても、いい、と、言いながら、出られなくする。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……まさに、それ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……優しい、声で、言えば、言うほど、怖い。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "……おれたちは、親切が、先に、出る。……でも、その親切な、声で、ひどい選択を、迫ったら。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……それが、いちばん、怖い、魔王。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……親切を、使って、悪を、演じる。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……親切な、人ほど、相手が、何を、大事にしているか、知ってる。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……だから、何を、奪えば、いちばん、困るかも、わかる。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "……審査役、それ、ちょっと、怖いぞ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "……できるか、おれたちに。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……やってみるしか、ない。……オーディションだからな。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……もう一度、二次審査を、やりましょう。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "homura"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "もう一度、稽古場。……クロガネが、人質役の、新人の、前に、立った。今度は、外套を、広げない。声も、低く、静かに。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……姫。……城を、出たいか。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……出ても、いい。……門は、開けておく。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……ただ、あなたが、出ていったら、……あなたの、侍女たちは、ここに、残る。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……誰が、侍女の、世話を、する。……あなたが、決めていい。"
+  },
+  {
+   "op": "nar",
+   "text": "人質役の、新人が、震えた。……演技では、なく、本当に。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……カット。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……怖かった。……本当に。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……すまん。……怖かったか。……大丈夫か。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……今のは、謝らなくて、いいんです。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……クロガネさん、声が、いつもより、優しかった。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……優しく、言うほうが、自分も、怖かった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "bg",
+   "src": "kind_villain",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "kind_villain"
+  },
+  {
+   "op": "nar",
+   "text": "稽古場。審査結果の、発表。……四人の候補者が、並んでいる。審査役が、採点表を、持って、立った。"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "homura",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……審査結果を、発表します。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……魔王役は、……一人に、決められませんでした。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "……全員、不採用か。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……違います。……全員、採用です。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……全員。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "……城が、狭くならんか。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "魔王の、城は、広いんです。……台本で、四階建てに、しました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "魔王は、一人じゃ、なくていい。……闇の魔王、炎の魔王、岩の魔王、夜の魔王。……四人で、一つの、城を、治める。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "homura"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……四人の、魔王か。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……でも、私たち、親切が、先に出るわ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……それで、いいんです。……親切な、人が、悪役を、演じる。それが、いちばん、誠実な、悪役だと、思う。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……台本を、少し、変えます。……魔王たちは、姫に、ひどい選択を、迫る。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……でも、最後に、姫が、自分で、四つ目の道を、見つける。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……四つ目の、道。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……魔王が、用意しなかった、道。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "四人の魔王は、姫に四つ目の道を見つけさせる",
+     "jump": "m_fourth"
+    },
+    {
+     "text": "四人の魔王は、こっそり四つ目の道を用意しておく",
+     "jump": "m_secret"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_fourth"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "魔王は、道を、全部、塞ぐ。……全力で。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……全力で、塞いで、それでも、見つけられたら。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……悪役冥利に、尽きる。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……全力で、塞ぐなら、稽古も、全力ね。"
+  },
+  {
+   "op": "jump",
+   "to": "m_end"
+  },
+  {
+   "op": "label",
+   "id": "m_secret"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……こっそり、裏口の、鍵を、開けておくのは、だめかしら。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……それは、親切すぎる、魔王です。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……親切すぎる、魔王。……わしらに、ぴったりだ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "label",
+   "id": "m_end"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "yui_origin",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "NONO座オリジナル『悪役オーディション』、これにて、幕でございます。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "候補者たちは、誰も、高笑いが、できませんでした。……転んだ人を、放っておけず、水差しを、拭き、床の焦げを、心配しました。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "けれど、穏やかな、優しい声が、逃げ道を、ふさいだとき。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "……いちばん、怖い、魔王が、生まれたのでございます。次回公演、『魔王の城』。どうぞ、お楽しみに。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "yui_origin"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

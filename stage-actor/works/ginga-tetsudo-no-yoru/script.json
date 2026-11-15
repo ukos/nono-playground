@@ -1,369 +1,768 @@
 {
-  "meta": {
-    "id": "ginga-tetsudo-no-yoru",
-    "title": "銀河鉄道の夜 ―星祭りの切符―",
-    "original": "宮沢賢治『銀河鉄道の夜』（著作権消滅作品）",
-    "adaptation": "moderate",
-    "format": "v3",
-    "minutes": 16,
-    "synopsis": "ジョバンニ=nono、カムパネルラ=shiro。銀河の旅と別れを軸に、帰還したジョバンニが小さな仕事を続ける決意へつなぐ。",
-    "note": "本脚本は翻案であり、原作の文章・口演の転載ではない。セリフは全て本上演版の書き下ろし。"
+ "meta": {
+  "id": "ginga-tetsudo-no-yoru",
+  "title": "銀河鉄道の夜 ―星祭りの切符―",
+  "original": "宮沢賢治『銀河鉄道の夜』（著作権消滅作品）",
+  "adaptation": "moderate",
+  "format": "v3",
+  "minutes": 19,
+  "synopsis": "ケンタウル祭の夜、丘で眠ったジョバンニは、カムパネルラと銀河鉄道に乗る。鳥捕り、難破船の姉弟、蠍の火。どこまでも一緒に行こうと約束した友は、いつのまにか席から消えていた。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "ジョバンニ／開閉幕",
+   "actor": "nono",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "ジョバンニ／開閉幕",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "カムパネルラ",
-      "actor": "shiro",
-      "costume": "default"
-    },
-    {
-      "role": "車掌",
-      "actor": "extra_villager",
-      "costume": "default"
-    },
-    {
-      "role": "鳥捕り",
-      "actor": "extra_archer",
-      "costume": "default"
-    },
-    {
-      "role": "難破船の乗客",
-      "actor": "extra_elf",
-      "costume": "default"
-    },
-    {
-      "role": "カムパネルラの父",
-      "actor": "extra_craftsman",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "town": "bg/galaxy-festival-town-2048x1152.png",
-    "train": "bg/galaxy-train-2048x1152.png",
-    "hill": "bg/galaxy-hill-dawn-2048x1152.png"
+  {
+   "role": "カムパネルラ",
+   "actor": "shiro",
+   "costume": "default"
   },
-  "steps": [
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『銀河鉄道の夜 ―星祭りの切符―』。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ジョバンニはnono、カムパネルラはシロ。銀河の旅へ出発します。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "town",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "town"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "星祭りの夜なのに、僕は配達と母さんの牛乳で遅くなる。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "丘へ来られたら来て。来られなくても、空は同じだよ。",
-      "eyes": "joy"
-    },
-    {
-      "op": "nar",
-      "text": "カムパネルラは友だちの輪へ戻り、ジョバンニは一人で丘へ上る。"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "train",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "train"
-    },
-    {
-      "op": "nar",
-      "text": "気づくと、ジョバンニは銀河鉄道の車内。向かいにカムパネルラがいる。"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ここはどこ。さっきまで丘にいた。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "切符があるなら、乗っていていいんだと思う。"
-    },
-    {
-      "op": "show",
-      "actor": "extra_villager",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "銀河ステーション。次は白鳥の停車場。"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_villager"
-    },
-    {
-      "op": "nar",
-      "text": "窓の外を、青い星雲と十字の光が流れる。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ずっと一緒に行けたらいい。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "ずっと、という言葉は、どこまでだろう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "鳥を捕る人、難破した姉弟。乗客はそれぞれの「ほんとうの幸い」を語る。"
-    },
-    {
-      "op": "show",
-      "actor": "extra_archer",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "extra_archer",
-      "text": "私は鳥を捕る。でも、この鳥は空へ戻る光でできている。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "持って帰れない物もあるんですね。"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_archer"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elf",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elf",
-      "text": "私たちは船を失った。でも、手を離さずここへ来た。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "誰かと一緒にいることも、幸いの一つですか。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elf",
-      "text": "一緒にいられない時、相手のために選ぶことも。"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elf"
-    },
-    {
-      "op": "nar",
-      "text": "列車が暗い川へ近づく。カムパネルラの席が淡く透ける。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "君の手が冷たい。帰る駅はどこ。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "僕は、川でザネリを押し上げた。その後の駅がわからない。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "なら僕も降りる。君を一人にしない。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "君は戻って。お母さんの牛乳を持って帰る仕事がある。",
-      "eyes": "closed",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "それが、僕のほんとうの幸いにつながる？"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "小さな仕事を、誰かのために続けることから始まる。",
-      "eyes": "joy"
-    },
-    {
-      "op": "nar",
-      "text": "白い光が満ち、カムパネルラの席だけが空になる。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "さようならは言わない。君から受け取ったことを生きる。",
-      "eyes": "crying"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "hill",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "hill"
-    },
-    {
-      "op": "nar",
-      "text": "丘で目覚める。町では、川の事故とカムパネルラの行方が語られている。"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_craftsman",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "息子は、友だちを助けたらしい。まだ戻らない。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "列車で一緒でした。証明できないけれど、最後までやさしかった。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "その言葉を持って、君はお母さんの所へ帰りなさい。"
-    },
-    {
-      "op": "nar",
-      "text": "ジョバンニは牛乳瓶を抱え、町の灯りへ走る。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "悲しみを抱えたままでも、誰かの役に立つ方へ走ろう。",
-      "eyes": "closed",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_craftsman"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "銀河の旅は終わっても、受け取った優しさは地上の仕事へ続きます。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ほんとうの幸いは、遠い星ではなく、次に差し出す手の中にあるのでしょう。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "end"
+  {
+   "role": "車掌",
+   "actor": "extra_villager",
+   "costume": "default"
+  },
+  {
+   "role": "鳥捕り",
+   "actor": "extra_archer",
+   "costume": "default"
+  },
+  {
+   "role": "難破船の乗客",
+   "actor": "extra_elf",
+   "costume": "default"
+  },
+  {
+   "role": "カムパネルラの父",
+   "actor": "extra_craftsman",
+   "costume": "default"
+  },
+  {
+   "role": "ザネリ",
+   "actor": "sasuke",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "town": "bg/galaxy-festival-town-2048x1152.png",
+  "train": "bg/galaxy-train-2048x1152.png",
+  "hill": "bg/galaxy-hill-dawn-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "今夜のジョバンニは、わたくしnonoが演じます。宮沢賢治『銀河鉄道の夜』。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "漁に出たきり帰らない父。病気の母。ジョバンニは、学校が終わると活版所で活字を拾って働いています。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "そして今夜は、ケンタウル祭。町じゅうが、星の祭りに浮かれる夜です。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "town",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "town"
+  },
+  {
+   "op": "nar",
+   "text": "夕暮れの町。時計屋のショーウインドウの前で、子どもたちが烏瓜の灯りを持って騒いでいる。"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "ジョバンニ、お父さんから、らっこの上着が来るよ。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "ジョバンニは、唇をかんで、うつむいた。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "遠い海で、らっこを獲ってるんだろう。いつ帰ってくるのさ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ザネリ、やめろよ。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "怒った、怒った。……おうい、川へ烏瓜を流しに行こう。",
+   "eyes": "fun"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……ジョバンニ。ザネリの言うこと、気にするなよ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "カムパネルラ。……君は、ザネリと一緒に行くの。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "みんなが誘うから。……ジョバンニも、来られたら来て。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "僕は、牛乳屋へ母さんの牛乳を取りに行かなくちゃ。今朝の分が、まだ届いてないんだ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "そうか。……じゃあ、また。"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "カムパネルラは、ザネリが僕をからかっても、いっしょに笑わなかった。それだけで、少し、うれしかった。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "牛乳屋の人は、今は分からないと言った。……もう少し、あとで来てみよう。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "hill",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "hill"
+  },
+  {
+   "op": "nar",
+   "text": "町はずれの丘。草の上に寝ころぶと、天の川が、白く、ぼうっと流れている。"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "先生は、昼の授業で、天の川は小さな星の集まりだと言っていた。答えは知っていたのに、手を挙げられなかった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "毎日、働いて、眠くて。……何もかも、ぼんやりして、言葉が出てこなかったんだ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……あれ。どこかで、汽車の音がする。……銀河ステーション、銀河ステーション……",
+   "eyes": "surprise"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "train",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "train"
+  },
+  {
+   "op": "nar",
+   "text": "気がつくと、ジョバンニは、青い天鵞絨の座席の、小さな汽車の中に座っていた。窓の外を、星の野原が流れていく。"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "カムパネルラ。……君も、乗っていたの。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "みんなは、ずいぶん走ったけれど、遅れてしまった。ザネリも、ずいぶん走ったけれど、追いつかなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……ジョバンニ、ぼくは、おっかさんが、ぼくを許してくださるだろうかと、そればかり考えているんだ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "許すって、何を。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "誰だって、ほんとうにいいことをしたら、いちばん幸いなんだろう。だから、おっかさんは、ぼくを許してくださると思う。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "窓の外に、白い十字架が、光の島の上に立っているのが見えた。乗客たちが、帽子を取って祈っている。"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "show",
+   "actor": "extra_archer",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_archer",
+   "text": "ここ、空いていますか。わたしは鳥捕りでございます。鷺や雁を捕まえて、お菓子にして売っております。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "鳥を、お菓子に。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_archer",
+   "text": "ほら、雁の足を一本、いかが。……甘いでしょう。天の川の砂に押しつけて、平べったくするんです。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……本当だ。チョコレートより甘い。",
+   "eyes": "fun"
+  },
+  {
+   "op": "show",
+   "actor": "extra_villager",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "切符を拝見いたします。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_archer",
+   "text": "はい、わたしのは、この三等の切符で。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "切符……。ポケットに、何か入ってる。……この緑の紙かな。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "……これは。三次空間の方からお持ちになったのですか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_archer",
+   "text": "おや、こいつはたいしたもんだ。こいつは、天上どこじゃない、どこでも勝手に歩ける通行券だ。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_archer",
+   "text": "こんな切符を持っていれば、この不完全な幻想第四次の銀河鉄道なんか、どこまででも行けるはずでさあ。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_villager"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……鳥捕りさんは、さっきまで、ここにいたのに。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "振り返ると、鳥捕りの席は空になっていた。ジョバンニは、あの人に、何かしてあげればよかったと思った。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_archer"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "ジョバンニ、あの人は、もう降りたんだよ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "僕は、あの人のことを、少しうるさいと思っていた。……今は、あの人の幸いのためなら、何でもしたいのに。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "nar",
+   "text": "汽車が止まり、つやつやした黒い髪の女の子が、小さな弟の手を引いて乗り込んできた。服が、ぐっしょり濡れている。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elf",
+   "pos": "right"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "わたしたちは、氷山にぶつかった船に乗っていました。救命ボートには、小さい子どもたちを先に乗せました。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "先生とわたしたちは、そのあとで、甲板に残りました。……どうか、神さまの思し召しのとおりにと。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……君たちは、誰かを押しのけなかったんだね。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "押しのけて助かるのが、ほんとうに幸いかどうか、分からなかったんです。"
+  },
+  {
+   "op": "nar",
+   "text": "窓の外に、真っ赤な美しい火が燃えている。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "あれは、蠍の火。蠍は、いたちに追われて逃げて、井戸に落ちて溺れたの。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "そのとき、蠍は祈った。どうしてわたしのからだを、だまっていたちにくれてやらなかったろう、って。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "次は、まことのみんなの幸いのために、わたしのからだをお使いくださいって。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "……そうしたら、からだが真っ赤な火になって、夜の闇を照らしているの。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……みんなの幸いのために。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "汽車は、大きな十字架の立つ駅に近づいていた。「サウザンクロス」と、車掌の声がする。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "わたしたちは、ここで降りなければなりません。ここから天上へ行くのです。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "……あなたも、一緒に降りませんか。",
+   "eyes": "joy"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "ジョバンニは、女の子と一緒に、ここで降りようとする",
+     "jump": "off"
+    },
+    {
+     "text": "ジョバンニは、カムパネルラと汽車に残ると答える",
+     "jump": "stay"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "off"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……僕も、降りようかな。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "だめだよ、ジョバンニ。君の切符は、どこまでも行ける切符だ。ここで降りるための切符じゃない。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "カムパネルラは。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "ぼくは……ぼくは、もう少し、先までいくんだ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "jump",
+   "to": "part"
+  },
+  {
+   "op": "label",
+   "id": "stay"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "僕たちは、もっといいところへ行くんだ。天上なんかより、もっといいところを、こさえなきゃいけないって、僕の先生が言ったよ。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "……そうかもしれませんね。お元気で。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "jump",
+   "to": "part"
+  },
+  {
+   "op": "label",
+   "id": "part"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elf"
+  },
+  {
+   "op": "nar",
+   "text": "女の子と弟は、ほかの乗客たちと十字架の方へ歩いていき、見えなくなった。車内には、二人だけが残った。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "カムパネルラ、また僕たち二人きりになったね。どこまでもどこまでも一緒に行こう。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "僕はもう、あの蠍のように、ほんとうにみんなの幸いのためならば、僕のからだなんか、百ぺん灼いてもかまわない。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "うん。僕だって、そうだ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "けれども、ほんとうの幸いは、いったい何だろう。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "僕、分からない。"
+  },
+  {
+   "op": "nar",
+   "text": "窓の外の天の川の中に、真っ暗な、底の知れない穴が、ぽっかり開いていた。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……あ、あすこが、ほんとうの天上なんだ。あっ、あすこにいるの、僕のおっかさんだよ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "どこ？　僕には、何も見えない。……カムパネルラ、僕たち、一緒に行こうねえ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "ジョバンニが振り返ると、カムパネルラの座っていた席は、もう空っぽで、青い天鵞絨だけが光っていた。"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "カムパネルラ……！",
+   "eyes": "crying",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "hill",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "hill"
+  },
+  {
+   "op": "nar",
+   "text": "ジョバンニは、丘の草の上で目を覚ました。胸が、まだどきどきしている。"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "夢……。……そうだ、牛乳。母さんが待ってる。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "牛乳瓶を抱えて川のほうへ走ると、橋のたもとに、大勢の人が集まっていた。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "カムパネルラが……カムパネルラが、川へ入ったんだ。俺が舟から落ちたのを、押し上げてくれて……",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "俺は助かった。でも、カムパネルラが、見えなくなった。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "show",
+   "actor": "extra_craftsman",
+   "pos": "right"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "もう、四十五分たちました。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "博士……カムパネルラのお父さん。僕、カムパネルラが、どこへ行ったか、知っています。ずっと一緒に……"
+  },
+  {
+   "op": "nar",
+   "text": "けれど、ジョバンニは、のどがつまって、何も言えなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "……あなたは、ジョバンニさんでしたね。どうも今晩は、ありがとう。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "あなたのお父さんは、もう帰っていますか。……今日、手紙が来ました。もうすぐ、帰ってくるはずですよ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "あしたの放課後、皆さんと、うちへ遊びに来てくださいね。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……はい。必ず、うかがいます。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_craftsman"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "母さんに、牛乳を届けよう。それから、父さんが帰ってくることも。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "カムパネルラ。僕は、ほんとうの幸いを、探しに行く。君の分まで。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "汽車は、どこまでも行ける切符を、ジョバンニのポケットに残していきました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "宮沢賢治『銀河鉄道の夜』。星祭りの夜の旅を、ここで終わります。",
+   "eyes": "closed"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

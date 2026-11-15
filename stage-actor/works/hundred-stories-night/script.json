@@ -1,816 +1,1388 @@
 {
-  "meta": {
-    "id": "hundred-stories-night",
-    "number": 165,
-    "title": "100の物語を演じた夜 ―小道具たちの記念公演―",
-    "original": "NONO座オリジナル",
-    "category": "Stage Actorオリジナル",
-    "adaptation": "free",
-    "format": "v3",
-    "minutes": 42,
-    "synopsis": "百本目の終演後、倉庫の小道具が忘れられた台詞を響かせる。一座は固有の台詞を再現せず、品物に残った選択だけをたどる。",
-    "theme": "演じた記憶は引用ではなく、次の物語を選ぶ力になる",
-    "chapters": [
-      {
-        "id": "main",
-        "title": "本編",
-        "scenes": [
-          "prop_room",
-          "silent_reprise",
-          "villain_box",
-          "blank_ending",
-          "new_prop"
-        ]
-      }
-    ],
-    "note": "既存翻訳・上演台本・特定演者の口演は転用せず、台詞は本上演版の書き下ろし。"
-  },
-  "cast": [
-    {
-      "role": "座長代行",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "小道具係",
-      "actor": "shiro",
-      "costume": "default"
-    },
-    {
-      "role": "記録係",
-      "actor": "rei_casual",
-      "costume": "default"
-    },
-    {
-      "role": "悪役代表",
-      "actor": "kurogane",
-      "costume": "default"
-    },
-    {
-      "role": "古い舞台の声",
-      "actor": "mizuchi",
-      "costume": "default"
-    },
-    {
-      "role": "夜の案内人",
-      "actor": "yoru",
-      "costume": "default"
-    }
+ "meta": {
+  "id": "hundred-stories-night",
+  "number": 165,
+  "title": "100の物語を演じた夜 ―小道具たちの記念公演―",
+  "original": "NONO座オリジナル",
+  "category": "Stage Actorオリジナル",
+  "adaptation": "free",
+  "format": "v3",
+  "minutes": 42,
+  "synopsis": "百本目の終演後、倉庫の小道具が忘れられた台詞を響かせる。一座は固有の台詞を再現せず、品物に残った選択だけをたどる。",
+  "theme": "演じた記憶は引用ではなく、次の物語を選ぶ力になる",
+  "chapters": [
+   {
+    "id": "main",
+    "title": "本編",
+    "scenes": [
+     "prop_room",
+     "silent_reprise",
+     "villain_box",
+     "blank_ending",
+     "new_prop"
+    ]
+   }
   ],
-  "backgrounds": {
-    "prop_room": "bg/hundred-stories-night-prop_room-2048x1152.png",
-    "silent_reprise": "bg/hundred-stories-night-silent_reprise-2048x1152.png",
-    "villain_box": "bg/hundred-stories-night-villain_box-2048x1152.png",
-    "blank_ending": "bg/hundred-stories-night-blank_ending-2048x1152.png",
-    "new_prop": "bg/hundred-stories-night-new_prop-2048x1152.png"
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "座長代行",
+   "actor": "nono",
+   "costume": "default"
   },
-  "steps": [
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『100の物語を演じた夜―小道具たちの記念公演―』。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "StageActorオリジナルの舞台を、全5景でお届けします。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "この舞台の核は「演じた記憶は引用ではなく、次の物語を選ぶ力になる」。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "既存の台詞を写さず、今夜のために新しく構成しました。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "それでは、幕を開けましょう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "prop_room",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "prop_room"
-    },
-    {
-      "op": "nar",
-      "text": "第1景「百の小道具倉庫」。砂時計、空の冠、切れた糸、木の鍵が一斉に音を立て、終わらなかった役を呼ぶ。"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "ここは「百の小道具倉庫」。砂時計、空の冠、切れた糸、木の鍵が一斉に音を立て、終わらなかった役を呼ぶ。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "今の選択は、次の場面だけでなく結末まで動かす。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "百の小道具倉庫の空気が変わり、言葉の裏にある選択が見える。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "私は「演じた記憶は引用ではなく、次の物語を選ぶ力になる」という問いから逃げたくない。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "砂時計、空の冠、切れた糸、木の鍵が一斉に音を立て、終わらなかった役を呼ぶ。ならば、今できる一手を選ぶ。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "舞台の奥で音が止み、砂時計、空の冠、切れた糸、木の鍵が一斉に音を立て、終わらなかった役を呼ぶ。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "「百の小道具倉庫」を通り過ぎず、この場で必要な言葉を残す。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "答えは一つでなくても、選んだ責任は分け合える。",
-      "eyes": "surprise",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "よし。次の場面へ持って行ける答えになった。",
-      "eyes": "closed"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "bg",
-      "src": "silent_reprise",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "silent_reprise"
-    },
-    {
-      "op": "nar",
-      "text": "第2景「台詞のない再演」。固有の名台詞を使わず、走る、待つ、許すという動作だけで過去の選択を再演する。"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "mizuchi",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "ここは「台詞のない再演」。固有の名台詞を使わず、走る、待つ、許すという動作だけで過去の選択を再演する。"
-    },
-    {
-      "op": "say",
-      "actor": "mizuchi",
-      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "今の選択は、次の場面だけでなく結末まで動かす。"
-    },
-    {
-      "op": "say",
-      "actor": "mizuchi",
-      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。"
-    },
-    {
-      "op": "nar",
-      "text": "台詞のない再演の空気が変わり、言葉の裏にある選択が見える。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "私は「演じた記憶は引用ではなく、次の物語を選ぶ力になる」という問いから逃げたくない。"
-    },
-    {
-      "op": "say",
-      "actor": "mizuchi",
-      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "固有の名台詞を使わず、走る、待つ、許すという動作だけで過去の選択を再演する。ならば、今できる一手を選ぶ。"
-    },
-    {
-      "op": "say",
-      "actor": "mizuchi",
-      "text": "その一手で得るものと、失うものを同じ明るさで見よう。"
-    },
-    {
-      "op": "nar",
-      "text": "舞台の奥で音が止み、固有の名台詞を使わず、走る、待つ、許すという動作だけで過去の選択を再演する。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
-    },
-    {
-      "op": "say",
-      "actor": "mizuchi",
-      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "「台詞のない再演」を通り過ぎず、この場で必要な言葉を残す。"
-    },
-    {
-      "op": "say",
-      "actor": "mizuchi",
-      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。"
-    },
-    {
-      "op": "nar",
-      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "答えは一つでなくても、選んだ責任は分け合える。"
-    },
-    {
-      "op": "say",
-      "actor": "mizuchi",
-      "text": "よし。次の場面へ持って行ける答えになった。"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "hide",
-      "actor": "mizuchi"
-    },
-    {
-      "op": "bg",
-      "src": "villain_box",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "villain_box"
-    },
-    {
-      "op": "nar",
-      "text": "第3景「悪役の箱」。クロガネが敗れた悪役たちの小道具を並べ、悪役にも守りたかった何かがあったと語る。"
-    },
-    {
-      "op": "show",
-      "actor": "yoru",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "ここは「悪役の箱」。クロガネが敗れた悪役たちの小道具を並べ、悪役にも守りたかった何かがあったと語る。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "今の選択は、次の場面だけでなく結末まで動かす。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "悪役の箱の空気が変わり、言葉の裏にある選択が見える。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "私は「演じた記憶は引用ではなく、次の物語を選ぶ力になる」という問いから逃げたくない。",
-      "eyes": "surprise",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "クロガネが敗れた悪役たちの小道具を並べ、悪役にも守りたかった何かがあったと語る。ならば、今できる一手を選ぶ。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
-      "eyes": "crying",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "舞台の奥で音が止み、クロガネが敗れた悪役たちの小道具を並べ、悪役にも守りたかった何かがあったと語る。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "「悪役の箱」を通り過ぎず、この場で必要な言葉を残す。",
-      "eyes": "anger",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "答えは一つでなくても、選んだ責任は分け合える。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "よし。次の場面へ持って行ける答えになった。",
-      "eyes": "closed",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "yoru"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "bg",
-      "src": "blank_ending",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "blank_ending"
-    },
-    {
-      "op": "nar",
-      "text": "第4景「白紙の百一冊目」。記念台本の最後だけが白紙で、役者自身の物語を誰が書くのかが問われる。"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "ここは「白紙の百一冊目」。記念台本の最後だけが白紙で、役者自身の物語を誰が書くのかが問われる。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "今の選択は、次の場面だけでなく結末まで動かす。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。"
-    },
-    {
-      "op": "nar",
-      "text": "白紙の百一冊目の空気が変わり、言葉の裏にある選択が見える。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "私は「演じた記憶は引用ではなく、次の物語を選ぶ力になる」という問いから逃げたくない。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "記念台本の最後だけが白紙で、役者自身の物語を誰が書くのかが問われる。ならば、今できる一手を選ぶ。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "その一手で得るものと、失うものを同じ明るさで見よう。"
-    },
-    {
-      "op": "nar",
-      "text": "舞台の奥で音が止み、記念台本の最後だけが白紙で、役者自身の物語を誰が書くのかが問われる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "「白紙の百一冊目」を通り過ぎず、この場で必要な言葉を残す。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。"
-    },
-    {
-      "op": "nar",
-      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "答えは一つでなくても、選んだ責任は分け合える。",
-      "eyes": "surprise",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "よし。次の場面へ持って行ける答えになった。"
-    },
-    {
-      "op": "choice",
-      "options": [
-        {
-          "text": "今すぐ行動する",
-          "jump": "hundred-stories-night_direct"
-        },
-        {
-          "text": "もう一人の声を最後まで聞く",
-          "jump": "hundred-stories-night_listen"
-        }
-      ]
-    },
-    {
-      "op": "label",
-      "id": "hundred-stories-night_direct"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "私は今すぐ動く。遅れた分は、行動の後で説明する。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "jump",
-      "to": "hundred-stories-night_merge"
-    },
-    {
-      "op": "label",
-      "id": "hundred-stories-night_listen"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "私は最後まで聞く。沈黙も答えの一部として受け止める。"
-    },
-    {
-      "op": "label",
-      "id": "hundred-stories-night_merge"
-    },
-    {
-      "op": "nar",
-      "text": "選び方は違っても、二人は同じ核心を次の景へ運ぶ。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "bg",
-      "src": "new_prop",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "new_prop"
-    },
-    {
-      "op": "nar",
-      "text": "第5景「次の物語の小道具」。観客の選択で古い品を戻すか組み替え、百一作目のための新しい鍵を作る。"
-    },
-    {
-      "op": "show",
-      "actor": "mizuchi",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "yoru",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "mizuchi",
-      "text": "ここは「次の物語の小道具」。観客の選択で古い品を戻すか組み替え、百一作目のための新しい鍵を作る。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "まず、目の前で起きたことと、思い込みを分けて考えよう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "mizuchi",
-      "text": "今の選択は、次の場面だけでなく結末まで動かす。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "急いで答えるほど、見落とした声が舞台の外へ追いやられる。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "次の物語の小道具の空気が変わり、言葉の裏にある選択が見える。"
-    },
-    {
-      "op": "say",
-      "actor": "mizuchi",
-      "text": "私は「演じた記憶は引用ではなく、次の物語を選ぶ力になる」という問いから逃げたくない。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "正しい顔をするより、間違えた後でどう直すかを見せてほしい。",
-      "eyes": "closed",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "mizuchi",
-      "text": "観客の選択で古い品を戻すか組み替え、百一作目のための新しい鍵を作る。ならば、今できる一手を選ぶ。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "その一手で得るものと、失うものを同じ明るさで見よう。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "舞台の奥で音が止み、観客の選択で古い品を戻すか組み替え、百一作目のための新しい鍵を作る。"
-    },
-    {
-      "op": "say",
-      "actor": "mizuchi",
-      "text": "怖いのは失敗ではない。失敗を誰か一人のせいにすることだ。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "なら、ここからは役名ではなく行動で互いを確かめよう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "mizuchi",
-      "text": "「次の物語の小道具」を通り過ぎず、この場で必要な言葉を残す。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "私は反対するためでなく、その決意が本物か確かめるために問う。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "二人は勝ち負けより、次の行動が誰へ届くかを確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "mizuchi",
-      "text": "答えは一つでなくても、選んだ責任は分け合える。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "よし。次の場面へ持って行ける答えになった。",
-      "eyes": "closed"
-    },
-    {
-      "op": "hide",
-      "actor": "mizuchi"
-    },
-    {
-      "op": "hide",
-      "actor": "yoru"
-    },
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "『100の物語を演じた夜―小道具たちの記念公演―』、これにて終演です。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "残った問いは「演じた記憶は引用ではなく、次の物語を選ぶ力になる」。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "選んだ結末を、次の物語まで覚えていてください。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "end"
+  {
+   "role": "小道具係",
+   "actor": "shiro",
+   "costume": "default"
+  },
+  {
+   "role": "記録係",
+   "actor": "rei_casual",
+   "costume": "default"
+  },
+  {
+   "role": "悪役代表",
+   "actor": "kurogane",
+   "costume": "default"
+  },
+  {
+   "role": "古い舞台の声",
+   "actor": "mizuchi",
+   "costume": "default"
+  },
+  {
+   "role": "夜の案内人",
+   "actor": "yoru",
+   "costume": "default"
+  },
+  {
+   "role": "狂言回し",
+   "actor": "yui_origin",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "prop_room": "bg/hundred-stories-night-prop_room-2048x1152.png",
+  "silent_reprise": "bg/hundred-stories-night-silent_reprise-2048x1152.png",
+  "villain_box": "bg/hundred-stories-night-villain_box-2048x1152.png",
+  "blank_ending": "bg/hundred-stories-night-blank_ending-2048x1152.png",
+  "new_prop": "bg/hundred-stories-night-new_prop-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "yui_origin",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "本日は、NONO座、百本目の、記念公演に、お越しいただき、まことに、ありがとうございました。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "……客席の、皆さまが、お帰りになったあとの、劇場。灯りの落ちた、裏の、倉庫。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "今宵は、そこで起きた、ちょっと、不思議な、一夜の、お話を。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "演じた記憶は、借りてきた台詞では、ない。……次の物語を、選ぶための、力になる。……さあ、倉庫の、鍵を、開けましょう。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui_origin"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "百本目の、終演後。楽屋。花束が、山のように、積まれている。一座の皆が、紙コップで、乾杯を、している。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……百本目に、乾杯。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……乾杯。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "乾杯！　……皆、お疲れさま。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "座長代行。……百本の、うち、何本、失敗した。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……数えたこと、ない。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "記録帳に、書いてあります。……台詞を、飛ばした回、四十二。小道具が、壊れた回、十八。幕が、途中で、止まった回、三。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……よく、百本、続いたな。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……続いたね。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……失敗の回のほうが、お客さんの、拍手が、大きかった、という記録も、あります。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……それ、記録しなくて、いいよ。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "bg",
+   "src": "prop_room",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "prop_room"
+  },
+  {
+   "op": "nar",
+   "text": "NONO座の、地下倉庫。百本の芝居で、使われた、小道具が、棚に、ぎっしり、並んでいる。"
+  },
+  {
+   "op": "nar",
+   "text": "……砂時計。空っぽの冠。切れた糸。木の鍵。"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……座長代行。……百本目の、小道具も、しまい終わりました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……ありがとう、シロー。……百本、か。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "百本です。……最初の、一本目の、小道具は、この、木の、鍵でした。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……覚えてる。……扉の芝居だった。鍵が、なかなか、回らなくて。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "本番で、鍵が、折れたんです。……座長代行が、手で、扉を、押し開けた。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……お客さん、笑ってたね。",
+   "eyes": "fun"
+  },
+  {
+   "op": "nar",
+   "text": "そのとき。……棚の、砂時計が、ひとりでに、ひっくり返った。さらさらと、砂が、落ち始めた。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……今、誰か、触りましたか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……触って、ない。"
+  },
+  {
+   "op": "nar",
+   "text": "冠が、かたかたと、震えた。切れた糸が、ふわりと、宙に、浮いた。木の鍵が、こつん、と、床に、落ちた。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "mizuchi",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "……おかえり。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……声が、どこから。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "……古い、舞台の、声。……この劇場の、床板と、幕と、梁に、しみついた、声だよ。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……劇場が、しゃべった。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "百本の芝居を、見てきた。……百本分の、拍手と、ため息と、失敗を、聞いてきた。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "……今夜は、小道具たちが、騒いでいる。……終わらなかった役が、まだ、残っている、と。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……終わらなかった、役。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "芝居は、終わった。……でも、役の中には、まだ、言い残したことが、ある者も、いる。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……言い残したことを、小道具が、代わりに。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "言葉では、ない。……動きでね。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "hide",
+   "actor": "mizuchi"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "倉庫の、扉が、開いた。……記録係と、黒い外套の、女が、入ってきた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……座長代行。……記録帳が、勝手に、めくれて。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……夜の、案内人、ヨル。……今夜だけ、この倉庫の、案内を、仰せつかって、まいりました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……誰に。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……劇場に。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "小道具たちは、言葉を、持たない。……持っているのは、使われたときの、手の、ぬくもりと、選ばれた、動きだけ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……だから、台詞は、要らない。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "そう。……今夜の、再演は、台詞なしで。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "bg",
+   "src": "silent_reprise",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "silent_reprise"
+  },
+  {
+   "op": "nar",
+   "text": "倉庫の、真ん中が、ぼんやりと、明るくなった。……そこが、小さな、舞台に、なっていた。"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……一つ目。……砂時計。"
+  },
+  {
+   "op": "nar",
+   "text": "座長代行が、砂時計を、手に取った。……すると、体が、勝手に、動き出した。走る。走る。息を、切らして、走る。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……これは。……誰かを、迎えに、走った、役。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……約束の、時刻に、遅れそうな、役。"
+  },
+  {
+   "op": "nar",
+   "text": "砂が、落ちきった。……座長代行は、立ち止まり、両腕を、広げた。そこに、誰かが、飛び込んできた、かのように。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……間に合った。……間に合ったんだ。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……台詞が、なくても、わかりますね。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……二つ目。……切れた糸。"
+  },
+  {
+   "op": "nar",
+   "text": "シローが、糸を、手に取った。……体が、動かなくなった。立ったまま、じっと、待つ。待つ。……長い、長い、静けさ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……待っている、役。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……誰かが、帰ってくるのを。"
+  },
+  {
+   "op": "nar",
+   "text": "シローは、糸の、切れ端を、そっと、結び直した。……ほどけないように、二重に。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……切れた縁を、自分の手で、結び直した。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……帰ってこなくても、結んだ。"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……三つ目。……空の、冠。"
+  },
+  {
+   "op": "nar",
+   "text": "記録係が、冠を、手に取った。……冠を、かぶろうとして、やめた。"
+  },
+  {
+   "op": "nar",
+   "text": "そして、目の前の、誰かの、頭に、そっと、のせる、仕草を、した。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……冠を、譲った、役。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……いえ。……許した、役です。……自分を、裏切った、相手に。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……走る。待つ。許す。……台詞は、何一つ、言ってないのに。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……百本分の、選択は、言葉より、深く、体に、残っている。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……最後に、もう一つ。……木の、鍵。"
+  },
+  {
+   "op": "nar",
+   "text": "座長代行が、木の鍵を、拾い上げた。……扉の前に、立つ、仕草。鍵を、回そうとして、……回らない。何度も、回す。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……一本目の、芝居。"
+  },
+  {
+   "op": "nar",
+   "text": "座長代行は、鍵を、そっと、置いた。……そして、両手で、見えない、扉を、押した。ゆっくりと、扉が、開く。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……鍵が、なくても、開く扉が、ある。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……あの日、あなたは、そう、選んだ。……百本の、始まりは、壊れた鍵だった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……座長代行の、くせに、すぐ、手で、押すんですよね。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……押すしか、なかったんだよ。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "bg",
+   "src": "villain_box",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "villain_box"
+  },
+  {
+   "op": "nar",
+   "text": "倉庫の、奥。……黒い、箱が、一つ。蓋に、白い字で、「悪役」と、書いてある。クロガネが、その前に、立っていた。"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……クロガネさん。……来てたの。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……悪役の、箱が、呼んだのさ。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……この中には、百本の芝居で、負けた、悪役たちの、小道具が、入っている。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "クロガネは、蓋を、開けた。……折れた剣。割れた仮面。毒の小瓶。……そして、片方だけの、子どもの、靴。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……子どもの、靴。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……ある芝居の、悪党が、ずっと、懐に、入れていた。……死んだ、自分の、娘の、靴だ。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "台本には、一行も、書いていない。……だが、俺は、毎晩、懐に、入れて、演じた。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……台本に、ないのに。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……悪役にも、守りたかった、何かが、ある。……そうでなきゃ、あんなに、必死に、悪いことは、できない。"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……クロガネさん。……悪役の、箱の、ほかの、小道具にも、そういう、話が。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……ある。……割れた仮面は、誰にも、素顔を、見せられなかった、男の。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "毒の小瓶は、……本当は、自分が、飲むつもりだった、女の。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……誰も、知らなかった。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "知らなくて、いい。……主人公が、勝つには、悪役は、負けなくちゃ、ならない。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……でも、負けた悪役の、小道具を、捨てずに、取っておいた。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……捨てられなかった。……百本分、全部。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……クロガネさんが、取っておいたの。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……悪役の、ささやかな、悪事だよ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……いい、悪事ですね。"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "blank_ending",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "blank_ending"
+  },
+  {
+   "op": "nar",
+   "text": "倉庫の、机の上。……百冊の、台本が、積み上げられている。その、一番上に、表紙だけの、百一冊目。"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……座長代行。……記念台本の、百一冊目が。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……百一冊目、なんて、作ったっけ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……作ってません。……でも、ここに。"
+  },
+  {
+   "op": "nar",
+   "text": "記録係が、表紙を、開いた。……中は、真っ白だった。一行も、書かれていない。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……劇場からの、贈り物。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……白紙を？"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "百本、誰かの、物語を、演じてきた。……百一本目は、誰の、物語を、演じる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……誰の。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……あなたたち、自身の。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……私たちの、物語。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "記録係として、言わせてください。……百本分の、記録の、余白に、皆の、落書きが、ありました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……落書き。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "稽古の、合間に、誰かが、描いた、似顔絵や、弁当の、献立。……台本には、載らない、私たちの、時間です。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……私たちは、役者だよ。……自分の、物語なんて。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……今夜、走って、待って、許した。……悪役の、箱を、開けた。……それは、誰の、物語だった。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……私たちの、だ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "mizuchi",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "……誰が、書く。……百一冊目を。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……座長代行だろう。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……私一人じゃ、書けない。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……字が、汚いからな。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……字の話は、してない。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "……では、皆で、書くか。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "皆で。……でも、皆で書くと、筋が、まとまらない。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……まとまらなくて、いいじゃないか。……本番五分前の、あの夜みたいに。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……クロガネさん、あの夜の、こと、まだ、言う。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "一生、言う。……悪役が、王女を、逃がした、あの夜を。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "……物語は、書く者が、一人なら、まっすぐ、進む。……皆で、書けば、寄り道を、する。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "……寄り道の、ほうが、劇場は、好きだよ。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "mizuchi"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "倉庫の、隅。夜明けの、少し前。クロガネと、シローが、悪役の箱の、蓋を、閉めている。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……クロガネさん。……百一作目でも、悪役を、やりますか。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……やる。……誰かが、やらなきゃ、ならん。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……つらく、ないですか。……毎晩、負けて。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……負けるのが、仕事だ。……だが、どう負けるかは、毎晩、選べる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……どう、負けるか。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "惨めに、負けるか。……潔く、負けるか。……誰かを、守って、負けるか。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……あの夜は、王女を、逃がして、負けましたね。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……あれは、負けたのか、勝ったのか、今でも、わからん。",
+   "eyes": "fun"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "bg",
+   "src": "new_prop",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "new_prop"
+  },
+  {
+   "op": "nar",
+   "text": "夜明け前。倉庫の、真ん中。……百の小道具が、床に、並べられている。全員が、その周りに、座っている。"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……座長代行。……百一作目の、小道具を、決めましょう。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……新しいのを、作る？"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……古いのを、組み替えるのも、ありです。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……木の鍵に、切れた糸を、結んで、……砂時計を、ぶら下げて。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……変な、鍵。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "鍵穴に、入りますかね。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "入る鍵穴を、百一作目で、作るんです。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……変な、鍵です。……でも、百本分、詰まってる。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "古い小道具を、それぞれ元の棚に戻す",
+     "jump": "m_return"
+    },
+    {
+     "text": "古い小道具を、組み合わせて、新しい鍵を作る",
+     "jump": "m_combine"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_return"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……やっぱり、元の、棚に、戻そう。……百本の、思い出は、百本の、ままで。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……では、百一作目の、小道具は。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……まだ、何も、ない。……白紙の、台本と、同じ。……空っぽから、始めよう。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……空っぽの、鍵穴だけ、用意して。"
+  },
+  {
+   "op": "jump",
+   "to": "m_end"
+  },
+  {
+   "op": "label",
+   "id": "m_combine"
+  },
+  {
+   "op": "nar",
+   "text": "皆で、木の鍵に、糸を結び、砂時計を、ぶら下げ、冠の、飾り玉を、一つ、くくりつけた。……悪役の箱から、子どもの靴の、紐も。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……できた。……百一作目の、鍵。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……どの扉を、開ける鍵ですか。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……わからない。……それを、探すのが、百一作目だ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "label",
+   "id": "m_end"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "mizuchi",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……夜が、明けます。……私の、案内は、ここまで。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……ヨルさん。……また、会える？"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "百一作目に、夜の、場面が、あれば。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "……私は、いつでも、ここに、いる。……床板と、幕と、梁の中に。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "……百一作目の、初日に、拍手の音を、たっぷり、聞かせておくれ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……約束する。"
+  },
+  {
+   "op": "nar",
+   "text": "砂時計が、最後の砂を、落とした。……倉庫は、ただの、倉庫に、戻った。"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "mizuchi"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……座長代行。……もう、朝です。……開演前の、掃除が。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……百一作目は、掃除から、始めよう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "yui_origin",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "NONO座オリジナル『100の物語を演じた夜』、これにて、幕でございます。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "百本の、物語の、台詞は、倉庫の、どこにも、残っていませんでした。……残っていたのは、走る足、待つ背中、許す手。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "そして、白紙の、百一冊目。……次の物語を、選ぶ力は、きっと、そこから、生まれるのでございます。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "yui_origin"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

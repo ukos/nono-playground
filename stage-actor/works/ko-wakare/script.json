@@ -1,367 +1,750 @@
 {
-  "meta": {
-    "id": "ko-wakare",
-    "title": "子別れ ―親子の約束帳―",
-    "original": "古典落語『子別れ』（伝統演目・著作権消滅）",
-    "adaptation": "moderate",
-    "format": "v3",
-    "minutes": 13,
-    "synopsis": "酒で家族を失った熊五郎が、三年後に息子亀と再会する。鰻をきっかけに即復縁するのではなく、約束帳と継続行動で母子の信頼を少しずつ取り戻す人情噺。",
-    "note": "本脚本は翻案であり、原作の文章・口演の転載ではない。セリフは全て本上演版の書き下ろし。"
+ "meta": {
+  "id": "ko-wakare",
+  "title": "子別れ ―子は鎹―",
+  "original": "古典落語『子別れ』（伝統演目・著作権消滅）",
+  "adaptation": "faithful",
+  "format": "v3",
+  "minutes": 19,
+  "synopsis": "酒で家族を失った大工の熊五郎は、三年酒を断ち、通りでせがれの亀と再会する。小遣いと鰻の約束を内緒にした亀は、母に問い詰められ、父の玄能を見せられる。翌日の鰻屋で、親子三人はまた一つの家になる。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "狂言回し",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "熊五郎",
-      "actor": "extra_craftsman",
-      "costume": "default"
-    },
-    {
-      "role": "お徳",
-      "actor": "extra_elf",
-      "costume": "default"
-    },
-    {
-      "role": "亀",
-      "actor": "shiro",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "home": "bg/broken-family-home-2048x1152.png",
-    "street": "bg/edo-school-road-2048x1152.png",
-    "shop": "bg/small-work-shop-2048x1152.png",
-    "eel": "bg/edo-eel-shop-2048x1152.png"
+  {
+   "role": "熊五郎",
+   "actor": "extra_craftsman",
+   "costume": "default"
   },
-  "steps": [
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『子別れ ―親子の約束帳―』。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "別れた家族は、言葉ではなく小さな約束から戻ります。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "home",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "home"
-    },
-    {
-      "op": "nar",
-      "text": "大工の熊五郎は酒に溺れ、妻お徳と息子亀を家から追い出してしまう。"
-    },
-    {
-      "op": "show",
-      "actor": "extra_craftsman",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elf",
-      "pos": "center"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elf",
-      "text": "亀を怒鳴る家には置けない。酔いが醒めても、今日は戻りません。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "父ちゃん、明日はやさしくなる？",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "うるせえ。好きにしろ。",
-      "eyes": "anger"
-    },
-    {
-      "op": "nar",
-      "text": "戸が閉まり、熊五郎は一人になる。"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elf"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_craftsman"
-    },
-    {
-      "op": "bg",
-      "src": "street",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "street"
-    },
-    {
-      "op": "nar",
-      "text": "三年後。酒を断った熊五郎は、通学帰りの亀と出会う。"
-    },
-    {
-      "op": "show",
-      "actor": "extra_craftsman",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "亀、大きくなったな。母ちゃんは元気か。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "元気。でも父ちゃんの話をすると、黙る。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "当然だ。会ってくれとは言えない。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "じゃあ、できる約束を一つだけして。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "酒を飲まない。怒鳴らない。破ったら言い訳をしない。",
-      "eyes": "closed",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "紙に書いて。僕が預かる。"
-    },
-    {
-      "op": "nar",
-      "text": "熊五郎は約束帳を書き、亀へ渡す。鰻屋へ誘うが、母へ先に話すと決める。"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_craftsman"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "bg",
-      "src": "shop",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "shop"
-    },
-    {
-      "op": "nar",
-      "text": "お徳の働く店。亀は約束帳を見せる。"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elf",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elf",
-      "text": "亀、会ったのね。怖くなかった？",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "怖かった。でも父ちゃんは、僕に決めさせた。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elf",
-      "text": "一度の紙で信じ直すことはできない。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "だから一週間ずつ印を付けるの。母ちゃんも見て。",
-      "eyes": "joy"
-    },
-    {
-      "op": "nar",
-      "text": "数か月、熊五郎は酒を断ち、養育の金と手紙を店へ届け続ける。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elf",
-      "text": "今度、昼の鰻屋で三人で会おう。帰るかどうかは、その後。",
-      "eyes": "closed"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elf"
-    },
-    {
-      "op": "bg",
-      "src": "eel",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "eel"
-    },
-    {
-      "op": "nar",
-      "text": "鰻屋。三人は別々の席に座り、亀が真ん中へ約束帳を置く。"
-    },
-    {
-      "op": "show",
-      "actor": "extra_craftsman",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "center"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elf",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "徳、亀。許してくれとは言わない。傷つけたことを認める。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elf",
-      "text": "私は戻る約束をしない。会い続けられるかを見ます。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "それでいい。家族という言葉を盾にしない。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "今日の印は、三人で話せた丸。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "亀は帳面に大きな丸を書く。三人は同じ鰻を少しずつ分ける。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elf",
-      "text": "次は公園で。お酒のない昼に。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "必ず行く。来られない時は、前の日に知らせる。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "約束が増えると、家族の道ができるね。",
-      "eyes": "joy"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elf"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_craftsman"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "親子は一度で元へ戻らず、会う約束を重ねました。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "人情は赦しを急がず、安心を積み直す時間にも宿ります。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "end"
+  {
+   "role": "お徳",
+   "actor": "extra_elf",
+   "costume": "default"
+  },
+  {
+   "role": "亀",
+   "actor": "shiro",
+   "costume": "default"
+  },
+  {
+   "role": "番頭",
+   "actor": "extra_villager",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "home": "bg/broken-family-home-2048x1152.png",
+  "street": "bg/edo-school-road-2048x1152.png",
+  "shop": "bg/small-work-shop-2048x1152.png",
+  "eel": "bg/edo-eel-shop-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "今宵のNONO座は、人情噺の大ネタ、『子別れ』を一席。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "腕はいいのに酒にだらしない大工、熊五郎。女房のお徳と、せがれの亀を、とうとう家から出してしまいます。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "それから三年。人は、変われるものでしょうか。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "落語では、子どものことを、夫婦をつなぐ「鎹」と申します。材木と材木を留める、あのコの字の金具です。",
+   "eyes": "fun"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "home",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "home"
+  },
+  {
+   "op": "nar",
+   "text": "夜更けの長屋。仕事台には埃が積もっている。熊五郎が、千鳥足で帰ってきた。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_craftsman",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "帰ったぞう。……なんだ、まだ起きてやがったのか。",
+   "eyes": "fun"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elf",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "三日も帰らないで、どこにいたの。お弔いに行くって出たきり。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "お弔いのあと、仲間と精進落としに行って、その、吉原に、ちょいとな。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "弔いの帰りに吉原？　親方からもらったお香典の返しのお金は。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "……飲んだ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "亀の手習いの月謝も払えないのに。大家さんへの店賃も、もう二月たまってる。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "うるせえ。俺の稼いだ金だ。俺が飲んで何が悪い。",
+   "eyes": "anger"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "おっかあ、おとっつぁん、喧嘩しないで。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "子どもは寝てろ。……ええい、うるせえ。出ていきたきゃ、出ていけ。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "……出ていきます。亀も連れていきます。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "ああ、どこへでも行け。"
+  },
+  {
+   "op": "nar",
+   "text": "お徳は、亀の手を引いて、夜の長屋を出ていった。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_craftsman"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elf"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "show",
+   "actor": "extra_craftsman",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "……行っちまった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "静かでいいや。……静かすぎらあ。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_craftsman"
+  },
+  {
+   "op": "bg",
+   "src": "street",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "street"
+  },
+  {
+   "op": "nar",
+   "text": "三年後の春。寺子屋帰りの道。熊五郎は、番頭と連れ立って、木場へ材木を見に行く途中だ。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_craftsman",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_villager",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "棟梁、このごろ、すっかり評判ですよ。酒を断って、三年。仕事が丁寧で、早いと。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "番頭さん、棟梁はよしてくだせえ。わっちは、ただの大工で。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "酒をやめたきっかけは、何だったんです。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "女房と子どもに逃げられて、ひとりで飲んでたら、酒がちっとも、うまくなくなっちまった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "一升飲んでも、半分は、亀の泣き声の味がする。それで、やめました。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "……向こうから来る子、棟梁のほうを、じっと見てますよ。"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……おとっつぁん？",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "亀。……亀か。大きくなったな。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "わたしは先に、木場で待っております。ごゆっくり。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_villager"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "元気だったか。おっかあは。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "元気。よそのお針仕事をして、夜遅くまで働いてる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "……そうか。新しいおとっつぁんは、できたか。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "いないよ。おっかあ、誰とも一緒にならないって。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "そうか。……そうか。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "おとっつぁん、お酒、まだ飲んでるの。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "もう三年、一滴も飲んでねえ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "ほんと？　顔が、前と違うもの。前は、いつも赤かった。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "亀、これをやる。五十銭だ。好きなもんを買え。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "こんなに？",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "それとな、明日、鰻を食わせてやる。昼に、そこの鰻屋で待ってる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "ただし、おっかあには言うな。おとっつぁんに会ったことは、内緒だ。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……内緒。うん。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_craftsman"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "bg",
+   "src": "shop",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "shop"
+  },
+  {
+   "op": "nar",
+   "text": "夕方、お徳の小さな仕事場。亀が帰ると、お徳が、亀の懐から落ちた銀貨に気づいた。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elf",
+   "pos": "right"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "亀、その五十銭、どうしたの。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……拾った。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "五十銭も、道に落ちてるわけがないでしょう。誰にもらったの。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "知らないおじさん。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "知らない人にお金をもらったなら、なおさら返さなきゃ。どこの誰。",
+   "eyes": "anger"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "亀は、約束を守って、口をつぐむ",
+     "jump": "silent"
+    },
+    {
+     "text": "亀は、母の顔を見て、すぐに打ち明ける",
+     "jump": "tell"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "silent"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……言えない。言わないって、約束した。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "約束？　盗んだんじゃないでしょうね。言わないなら、これでぶつよ。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "お徳は、仕事台の上の、大工道具の玄能を握った。熊五郎の家から、ただ一つ持ち出した物だった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "これはね、お前のおとっつぁんの玄能だよ。おとっつぁんがぶつと思いなさい。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "やめて。……おとっつぁんに、もらったんだ。",
+   "eyes": "crying"
+  },
+  {
+   "op": "jump",
+   "to": "reveal"
+  },
+  {
+   "op": "label",
+   "id": "tell"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "おっかあ、ごめん。おとっつぁんに、もらった。内緒って言われたけど。",
+   "eyes": "crying"
+  },
+  {
+   "op": "jump",
+   "to": "reveal"
+  },
+  {
+   "op": "label",
+   "id": "reveal"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "……おとっつぁん。熊さんに、会ったの。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "会った。お酒、三年も飲んでないって。顔が白くなってた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "……三年。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "明日、鰻を食べさせてくれるって。昼に、表通りの鰻屋で。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "……そう、熊さんが、鰻を。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "おっかあ、行ってもいい？"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "行っておいで。……それから、亀。いつもの着物じゃなくて、正月の着物を着ていきなさい。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "正月の？",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "おっかあの帯も、いちばんいいのを出さなきゃ。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elf"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "bg",
+   "src": "eel",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "eel"
+  },
+  {
+   "op": "nar",
+   "text": "翌日の昼。鰻屋の二階。熊五郎と亀が、蒲焼きを前に座っている。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_craftsman",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "亀、遠慮しねえで食え。ここの鰻は、江戸一番だ。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "おいしい。……おとっつぁん、おっかあもね、鰻、好きなんだよ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "知ってる。昔は、祝い事のたびに、二人で食いにきた。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "階段のほうで、そっと下駄の音がした。お徳が、よそゆきの着物で、入り口に立っていた。"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elf",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "……お徳。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "たまたま、通りかかったものですから。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "たまたま、二階まで上がってきたのか。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "亀が、何か、ご迷惑をかけていないかと思って。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "……迷惑をかけたのは、わっちのほうだ。お徳、すまなかった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "酒はやめた。仕事もまじめにやってる。こんなことを言える筋じゃねえが。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "もういっぺん、亀と、三人で暮らしちゃもらえねえか。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "……あんた、変わったね。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "お前たちがいなくなって、やっと変われた。遅すぎるけど。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "遅くないよ。……亀が、毎晩、おとっつぁんの話をしてた。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elf"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "おとっつぁん、おっかあ、もう喧嘩しない？",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "しねえ。約束する。",
+   "eyes": "joy"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elf",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "子どもは夫婦の鎹っていうけど、本当ね。この子がいなかったら、あたしたち、二度と会わなかった。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "あたいが、鎹？",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "そうだ。お前が、おとっつぁんと、おっかあを、つないでくれた。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "それで、昨日、おっかあが、あたいを玄能でぶつって言ったのか。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_craftsman"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elf"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "鎹を打ち込むのは、玄能。……亀の頭は、どうやら、ぎりぎりで打たれずに済んだようで。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "酒をやめた三年と、黙っていた一晩と。親子三人は、鰻の湯気の中で、また一つの家になりました。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "子別れ、またの名を子は鎹。お後がよろしいようで。皆さまの帰り道に、どうぞ、いい匂いの鰻屋がありますように。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }
