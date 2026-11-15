@@ -5,9 +5,9 @@
   "original": "L. Frank Baum, The Wonderful Wizard of Oz（原著・著作権消滅）",
   "adaptation": "moderate",
   "format": "v3",
-  "minutes": 27,
+  "minutes": 22,
   "synopsis": "全六景で原作の主要な運動をたどりながら、求める力がすでに自分の行動の中にあると気づくことを中心に再構成する。第五景で観客が人物の姿勢を選び、分岐は終幕前に合流する。",
-  "note": "本脚本は著作権の消滅した原作からの翻案であり、既存の翻訳・上演台本は使用していない。セリフは全て本上演版の書き下ろし。"
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
  },
  "cast": [
   {
@@ -67,28 +67,27 @@
   {
    "op": "say",
    "actor": "nono",
-   "text": "ようこそ、NONO座へ。本日の演目は『オズの魔法使い』。",
-   "eyes": "normal"
+   "text": "灰色の大草原カンザスに、ドロシーという女の子と、子犬のトトが住んでいました。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "この舞台が見つめるのは、求める力がすでに自分の行動の中にあると気づくこと。",
-   "eyes": "sorrow",
-   "mouth": "open"
+   "text": "ある日、大きな竜巻が、家ごとドロシーを空へ持ち上げてしまいます。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "古い物語を借りながら、台詞はすべて今夜のための書き下ろしです。",
-   "eyes": "normal"
+   "text": "ライマン・フランク・ボームの『オズの魔法使い』。黄色いレンガの道を、四人の仲間が歩きます。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "それでは、幕を開けましょう。",
-   "eyes": "joy",
-   "mouth": "open"
+   "text": "脳がほしいかかし、心がほしいブリキの木こり、勇気がほしいライオン。そして、家に帰りたいドロシー。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "欲しかったものは、本当はどこにあったのか。最後まで一緒に歩いてください。"
   },
   {
    "op": "hide",
@@ -105,79 +104,81 @@
   },
   {
    "op": "nar",
-   "text": "第1景「竜巻」。カンザスの農場。灰色の空、竜巻、傾く柵、飛ぶ藁。"
+   "text": "カンザスの大草原。木も花もない、灰色の平原に、小さな一部屋の家が建っている。"
   },
   {
    "op": "show",
    "actor": "yui",
-   "pos": "left"
-  },
-  {
-   "op": "show",
-   "actor": "extra_porter",
    "pos": "center"
   },
   {
-   "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+   "op": "say",
+   "actor": "yui",
+   "text": "エムおばさんも、ヘンリーおじさんも、笑わなくなった。この草原みたいに、灰色の顔。"
   },
   {
    "op": "say",
    "actor": "yui",
-   "text": "家ごと空へ上がるなんて、夢でも戸締まりが必要ね。",
-   "eyes": "normal",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "怖い時ほど、帰りたい場所の形がはっきりする。",
+   "text": "でも、トトは笑ってる。黒い目をきらきらさせて。トトがいれば、私も灰色にならない。",
    "eyes": "joy"
   },
   {
-   "op": "say",
-   "actor": "yui",
-   "text": "今の言葉を、聞かなかったことにはできない。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "知らない国へ着いても、まず道を尋ねよう。",
-   "eyes": "surprise"
+   "op": "nar",
+   "text": "北の空が黒く渦巻き、竜巻が近づいてきた。おばさんは地下室へ逃げ込み、ドロシーはトトを追いかけて遅れた。"
   },
   {
    "op": "say",
    "actor": "yui",
-   "text": "帰る願いは、旅の最初の一歩になる。",
-   "eyes": "anger",
+   "text": "家が、浮いた！　くるくる回りながら、空へ上がっていく！",
+   "eyes": "surprise",
    "mouth": "open"
   },
   {
    "op": "say",
-   "actor": "extra_porter",
-   "text": "なら、次の一歩で確かめよう。",
-   "eyes": "fun"
+   "actor": "yui",
+   "text": "家ごと空へ上がるなんて、夢でも戸締まりが必要ね。"
   },
   {
    "op": "say",
    "actor": "yui",
-   "text": "私は、求める力がすでに自分の行動の中にあると気づくことを忘れずに選ぶ。",
+   "text": "揺れが、だんだん、ゆりかごみたいに優しくなってきた。……眠く、なってきた。",
    "eyes": "closed"
   },
   {
+   "op": "nar",
+   "text": "どすん、と大きな音がして、家は止まった。窓の外は、色とりどりの花と、青い空だった。"
+  },
+  {
    "op": "say",
-   "actor": "extra_porter",
-   "text": "その選択の重さを、次の場面まで持って行こう。",
-   "eyes": "crying"
+   "actor": "yui",
+   "text": "ここは、どこ？　カンザスでは、ないみたい。"
+  },
+  {
+   "op": "nar",
+   "text": "家の下から、銀の靴を履いた二本の足が突き出していた。家が、東の悪い魔女の上に落ちたのだった。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "魔女を、押しつぶしてしまった……わざとじゃないのに。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "北の良い魔女が現れ、ドロシーに魔女の銀の靴を履かせ、額に守りの口づけをした。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "家へ帰るには、どうしたらいいの。"
+  },
+  {
+   "op": "nar",
+   "text": "エメラルドの都の、偉大なオズに頼みなさい。黄色いレンガの道を、まっすぐ行けばいい。北の魔女はそう教えた。"
   },
   {
    "op": "hide",
    "actor": "yui"
-  },
-  {
-   "op": "hide",
-   "actor": "extra_porter"
   },
   {
    "op": "bg",
@@ -190,7 +191,7 @@
   },
   {
    "op": "nar",
-   "text": "第2景「黄色い煉瓦道」。鮮やかな黄色い道。青い畑、遠いエメラルドの塔。"
+   "text": "黄色いレンガの道。両側にトウモロコシ畑が広がり、棒の上に、かかしが一体、くくりつけられている。"
   },
   {
    "op": "show",
@@ -200,66 +201,95 @@
   {
    "op": "show",
    "actor": "extra_craftsman",
-   "pos": "center"
-  },
-  {
-   "op": "show",
-   "actor": "extra_porter",
    "pos": "right"
-  },
-  {
-   "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "脳がないから考えられない、と誰が決めたの。",
-   "eyes": "joy",
-   "mouth": "open"
   },
   {
    "op": "say",
    "actor": "extra_craftsman",
-   "text": "迷った時に道順を考えたのは僕だ。でも偶然かもしれない。",
-   "eyes": "sorrow"
+   "text": "やあ、おはよう。……ああ、驚かないで。わらの詰まった頭でも、口はきけるんだ。"
   },
   {
    "op": "say",
    "actor": "yui",
-   "text": "答えはまだ一つに決められない。",
+   "text": "かかしが、しゃべった。",
    "eyes": "surprise"
   },
   {
    "op": "say",
+   "actor": "extra_craftsman",
+   "text": "ぼくの頭には、脳がない。わらしか入っていないから、カラスにも笑われる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "脳があれば、考えられるのに。……君、どこへ行くの。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "エメラルドの都。偉大なオズに、カンザスへ帰る方法を聞きに。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "ぼくも行っていいかい。オズなら、脳をくれるかもしれない。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "脳がないから考えられない、と誰が決めたの。今だって、ちゃんと考えて、私に話しかけたじゃない。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "それは……偶然さ。"
+  },
+  {
+   "op": "nar",
+   "text": "森の中で、錆びついて動けなくなったブリキの木こりが見つかった。"
+  },
+  {
+   "op": "show",
    "actor": "extra_porter",
-   "text": "心がない私も、友を傷つけるのが怖い。",
-   "eyes": "anger"
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……油を……油差しを……。"
   },
   {
    "op": "say",
    "actor": "yui",
-   "text": "その怖さは、心がある証拠じゃないかしら。",
-   "eyes": "fun",
-   "mouth": "open"
+   "text": "油差し、これね。肘と、膝と、首と。"
   },
   {
    "op": "say",
-   "actor": "extra_craftsman",
-   "text": "迷いを抱えたままでも、進むことはできる。",
-   "eyes": "closed"
+   "actor": "extra_porter",
+   "text": "ありがとう。一年も、斧を振り上げたまま、動けなかった。雨に降られて、錆びてしまって。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "私には、心がない。昔、恋をしていた娘がいたのに、心を失って、愛せなくなった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "オズに会えば、心をもらえるだろうか。"
   },
   {
    "op": "say",
    "actor": "yui",
-   "text": "私は、求める力がすでに自分の行動の中にあると気づくことを忘れずに選ぶ。",
-   "eyes": "crying"
+   "text": "一緒に行きましょう。"
   },
   {
    "op": "say",
-   "actor": "extra_craftsman",
-   "text": "その選択の重さを、次の場面まで持って行こう。",
-   "eyes": "normal"
+   "actor": "extra_porter",
+   "text": "心がない私も、友を傷つけるのが怖い。……それは、心がない者の恐れなのだろうか。",
+   "eyes": "sorrow"
   },
   {
    "op": "hide",
@@ -284,7 +314,19 @@
   },
   {
    "op": "nar",
-   "text": "第3景「臆病なライオン」。深い森。倒木、霧、獣道、差す緑の光。"
+   "text": "暗い森。木々の陰から、大きな吠え声が響いた。たてがみを揺らして、ライオンが飛び出してきた。"
+  },
+  {
+   "op": "show",
+   "actor": "kotetsu",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "ガオー！",
+   "eyes": "anger",
+   "mouth": "open"
   },
   {
    "op": "show",
@@ -292,65 +334,74 @@
    "pos": "left"
   },
   {
-   "op": "show",
-   "actor": "kotetsu",
-   "pos": "center"
-  },
-  {
-   "op": "show",
-   "actor": "extra_craftsman",
-   "pos": "right"
-  },
-  {
    "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+   "text": "ライオンは、かかしを突き飛ばし、ブリキの木こりを転がし、トトに噛みつこうとした。"
   },
   {
    "op": "say",
    "actor": "yui",
-   "text": "大声で脅したのに、自分の爪の音で震えている。",
-   "eyes": "sorrow",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "kotetsu",
-   "text": "怖くない者が勇気を出すことはできない。"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "その理屈には、置き去りにされた声がある。",
+   "text": "やめなさい！　小さな犬をいじめるなんて！",
    "eyes": "anger"
   },
   {
+   "op": "nar",
+   "text": "ドロシーがライオンの鼻を叩くと、ライオンは、しっぽを巻いて泣き出した。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "痛い……。鼻を叩かなくても、いいじゃないか。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "あなた、百獣の王でしょう。こんなに大きいのに、臆病なのね。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "そうなんだ。吠えれば皆逃げるから、本当は怖いことが、ばれずにすんでいた。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "怖いものに会うと、心臓がどきどきして、逃げ出したくなる。勇気がないんだ。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "オズに、勇気をもらいに行きましょう。私たち、皆、オズに会いに行くところなの。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_craftsman",
+   "pos": "center"
+  },
+  {
    "op": "say",
    "actor": "extra_craftsman",
-   "text": "逃げたいのに皆の前へ立った。それを勇気と呼ぶんだ。",
-   "eyes": "fun"
+   "text": "深い谷がある。橋はない。……木を倒して、橋にすればいい。"
   },
   {
-   "op": "say",
-   "actor": "yui",
-   "text": "なら俺は、震えたまま一緒に歩く。",
-   "eyes": "closed",
-   "mouth": "open"
+   "op": "nar",
+   "text": "ブリキの木こりが、斧で大きな木を、谷の向こうへ切り倒した。"
   },
   {
    "op": "say",
    "actor": "kotetsu",
-   "text": "誰のための決断か、もう一度考えよう。"
+   "text": "ぼくが、皆を背中に乗せて、跳び越えよう。……怖いけど。"
   },
   {
    "op": "say",
    "actor": "yui",
-   "text": "私は、求める力がすでに自分の行動の中にあると気づくことを忘れずに選ぶ。",
-   "eyes": "normal"
+   "text": "ほら、かかしさんは考えた。木こりさんは、ライオンさんのことを心配してる。ライオンさんは、怖くても跳んだ。",
+   "eyes": "joy"
   },
   {
-   "op": "say",
-   "actor": "kotetsu",
-   "text": "その選択の重さを、次の場面まで持って行こう。"
+   "op": "hide",
+   "actor": "kotetsu"
   },
   {
    "op": "hide",
@@ -358,7 +409,101 @@
   },
   {
    "op": "hide",
-   "actor": "kotetsu"
+   "actor": "extra_craftsman"
+  },
+  {
+   "op": "bg",
+   "src": "emerald",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "emerald"
+  },
+  {
+   "op": "nar",
+   "text": "エメラルドの都。何もかもが緑に光っている。玉座の間の天井近くに、巨大な頭が浮かんでいる。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "わしはオズ、偉大にして恐るべき者。お前たちは、何を求める。"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "カンザスへ帰りたいのです。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_craftsman",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "脳がほしいのです。"
+  },
+  {
+   "op": "nar",
+   "text": "木こりは心を、ライオンは勇気を求めた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "願いは叶えよう。ただし、西の悪い魔女を倒してからだ。その証に、魔女の箒を持ってこい。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "魔女を倒すなんて。私は、誰かを傷つけたことなんて……。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "叶えたいなら、行け。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "魔女を倒すなんて、ぼくの頭じゃ、作戦も思いつかない。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "さっきも、谷の橋を思いついたじゃない。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "あれは……木が、そこにあったから。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "木がそこにあるって気づいたのが、考えたってことよ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
   },
   {
    "op": "hide",
@@ -375,7 +520,102 @@
   },
   {
    "op": "nar",
-   "text": "第4景「西の魔女の城」。黒い石の城。箒、鉄格子、嵐雲、濡れた床。"
+   "text": "西の魔女の城。黒い空に、翼の生えた猿たちが飛んでいる。"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "東の魔女の銀の靴を、小娘が履いているだと。その靴を、わたしによこしなさい。",
+   "eyes": "anger"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "これは、北の魔女さまにいただいたもの。あなたには渡さない。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "なら、仲間をばらばらにしてやる。かかしのわらは抜き、木こりは崖から落とし、ライオンは檻の中だ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "ひどい……。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "お前は、台所で床を磨いていなさい。靴を脱ぐまで、毎日だ。"
+  },
+  {
+   "op": "nar",
+   "text": "魔女は、見えない鉄の棒で、ドロシーをつまずかせ、銀の靴の片方を奪い取った。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "返して！　それは私の靴よ！",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "ドロシーは、怒りにまかせて、手元のバケツの水を、魔女に浴びせかけた。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "ああっ、水が！　溶ける……溶けていく……！",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "なんてことを……水が、わたしの弱点だと、知っていたのかい……。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "知らなかった……。ただ、靴を返してほしかっただけなのに。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "二人も魔女を倒してしまった。どちらも、わざとじゃないのに。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "でも、捕まっていた人たちが、笑ってる。……それなら、少しだけ、よかったのかもしれない。"
+  },
+  {
+   "op": "nar",
+   "text": "魔女は、茶色い水たまりになって消えた。城に捕らわれていた人々が、次々に解き放たれた。"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
   },
   {
    "op": "show",
@@ -384,7 +624,7 @@
   },
   {
    "op": "show",
-   "actor": "akane",
+   "actor": "extra_craftsman",
    "pos": "center"
   },
   {
@@ -393,58 +633,45 @@
    "pos": "right"
   },
   {
-   "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
-  },
-  {
    "op": "say",
-   "actor": "yui",
-   "text": "靴を渡せば帰してあげる。友達はここへ置いていきなさい。",
-   "eyes": "surprise",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "akane",
-   "text": "帰るために仲間を捨てたら、帰る私が別人になる。",
-   "eyes": "anger"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "恐れを隠しても、状況は変わらない。",
-   "eyes": "fun"
+   "actor": "extra_craftsman",
+   "text": "誰もばらばらにならなかったよ。ドロシーの機転のおかげだ。"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "水が弱点だなんて、魔法も案外日用品に負けるのね。",
-   "eyes": "closed"
+   "text": "かかしくん、君が、わらを詰め直す順番を教えてくれた。"
+  },
+  {
+   "op": "show",
+   "actor": "kotetsu",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "ぼくは、怖くて震えながら、檻の扉を体当たりで壊した。……どうしてそんなことが、できたんだろう。"
   },
   {
    "op": "say",
    "actor": "yui",
-   "text": "力は恐れられている間だけ、絶対に見えるものよ。",
-   "eyes": "crying",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "akane",
-   "text": "恐れを言葉にした今なら、選び直せる。",
-   "eyes": "normal"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "私は、求める力がすでに自分の行動の中にあると気づくことを忘れずに選ぶ。",
+   "text": "皆、もう持ってるのよ。欲しいって言ってたものを。",
    "eyes": "joy"
   },
   {
    "op": "say",
-   "actor": "akane",
-   "text": "その選択の重さを、次の場面まで持って行こう。",
-   "eyes": "sorrow"
+   "actor": "extra_craftsman",
+   "text": "そうかな。でも、オズに言われないと、信じられない気がする。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "私もだ。誰かに、これが心だと言ってもらいたい。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "ぼくも。……変だね。自分のことなのに、自分では分からない。"
   },
   {
    "op": "hide",
@@ -452,11 +679,15 @@
   },
   {
    "op": "hide",
-   "actor": "akane"
+   "actor": "extra_craftsman"
   },
   {
    "op": "hide",
    "actor": "extra_porter"
+  },
+  {
+   "op": "hide",
+   "actor": "kotetsu"
   },
   {
    "op": "bg",
@@ -468,8 +699,9 @@
    "src": "emerald"
   },
   {
-   "op": "nar",
-   "text": "第5景「エメラルドの都」。緑の大広間。巨大な顔の装置、幕、歯車。"
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "center"
   },
   {
    "op": "show",
@@ -477,9 +709,35 @@
    "pos": "left"
   },
   {
-   "op": "show",
+   "op": "nar",
+   "text": "一行が箒を差し出すと、オズは、なかなか約束を果たそうとしなかった。トトが、部屋の隅の衝立を倒した。"
+  },
+  {
+   "op": "say",
    "actor": "extra_wizard",
-   "pos": "center"
+   "text": "あっ……。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "衝立の陰にいたのは、小柄な、禿げ頭の老人だった。大きな頭は、紙と布で作った人形だった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "すまない。わしは、偉大な魔法使いではない。ネブラスカ生まれの、気球乗りの奇術師だ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "ひどい！　私たちを、魔女の城へ行かせたのに！",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "そのとおりだ。だが、お前たちの願いを叶える方法は、知っている。"
   },
   {
    "op": "show",
@@ -487,137 +745,93 @@
    "pos": "right"
   },
   {
-   "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "偉大なオズの正体が、幕の後ろの普通の人だったなんて。",
-   "eyes": "anger",
-   "mouth": "open"
-  },
-  {
    "op": "say",
    "actor": "extra_wizard",
-   "text": "私は約束を果たす魔法を持たない。だが印なら渡せる。",
-   "eyes": "fun"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "正しさだけでは、人の痛みを量れない。",
-   "eyes": "closed"
+   "text": "かかし、お前の頭に、ふすまと針を詰めてやろう。とがった考えが、出るようにな。"
   },
   {
    "op": "say",
    "actor": "extra_craftsman",
-   "text": "印より、旅で考えた回数を数えればいい。",
-   "eyes": "crying"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "願いをかなえる役目を、最初から自分たちで演じていたのね。",
-   "eyes": "normal",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "extra_wizard",
-   "text": "だから事実と心の両方を見よう。",
+   "text": "頭が、ちくちくする！　これが、脳か！",
    "eyes": "joy"
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "私は、求める力がすでに自分の行動の中にあると気づくことを忘れずに選ぶ。",
-   "eyes": "sorrow"
+   "actor": "extra_wizard",
+   "text": "木こり、お前の胸に、絹の心臓を縫い込もう。ライオン、勇気の薬を一杯。"
   },
   {
    "op": "say",
    "actor": "extra_wizard",
-   "text": "その選択の重さを、次の場面まで持って行こう。",
-   "eyes": "surprise"
+   "text": "……本当は、どれも、もう持っていたものだ。わしは、それに名前をつけただけだ。",
+   "eyes": "closed"
   },
   {
    "op": "nar",
-   "text": "ここで舞台は一瞬静まり、観客の選択が人物の心の向きを変える。"
+   "text": "ライオンは薬を飲み干して、お腹がぽかぽかする、ちょっと蜂蜜の味がする、と目を細めた。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "私は？　カンザスへ帰る方法は。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "気球で一緒に帰ろう。……だが、出発の瞬間、トトが逃げ出し、ドロシーが追いかけ、気球だけが空へ。"
   },
   {
    "op": "choice",
    "options": [
     {
-     "text": "魔法使いに願いを預ける",
-     "jump": "route_a"
+     "text": "ドロシーは、南の良い魔女を訪ねることにする",
+     "jump": "m_south"
     },
     {
-     "text": "仲間の実績を証拠にする",
-     "jump": "route_b"
+     "text": "ドロシーは、仲間たちに相談する",
+     "jump": "m_friends"
     }
    ]
   },
   {
    "op": "label",
-   "id": "route_a"
+   "id": "m_south"
   },
   {
    "op": "say",
    "actor": "yui",
-   "text": "私は『魔法使いに願いを預ける』道を選ぶ。",
-   "eyes": "joy",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "extra_wizard",
-   "text": "その決断なら、結果まで自分の言葉で引き受けて。",
-   "eyes": "normal"
-  },
-  {
-   "op": "set",
-   "flag": "f_route_a"
+   "text": "南の良い魔女さまなら、帰り方を知っているかもしれない。"
   },
   {
    "op": "jump",
-   "to": "merge_choice"
+   "to": "m_home"
   },
   {
    "op": "label",
-   "id": "route_b"
+   "id": "m_friends"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "考えた。南の魔女のグリンダなら、知っているはずだ。……ぼくの脳が、そう言ってる。"
   },
   {
    "op": "say",
    "actor": "yui",
-   "text": "私は『仲間の実績を証拠にする』道を選ぶ。",
-   "eyes": "surprise",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "extra_wizard",
-   "text": "違う道でも、守るべきものを見失わないで。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "set",
-   "flag": "f_route_b"
+   "text": "頼もしいかかしさん。",
+   "eyes": "joy"
   },
   {
    "op": "label",
-   "id": "merge_choice"
-  },
-  {
-   "op": "nar",
-   "text": "選択の余韻を抱えたまま、物語は同じ終幕へ向かう。"
-  },
-  {
-   "op": "hide",
-   "actor": "yui"
+   "id": "m_home"
   },
   {
    "op": "hide",
    "actor": "extra_wizard"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
   },
   {
    "op": "hide",
@@ -634,7 +848,7 @@
   },
   {
    "op": "nar",
-   "text": "第6景「帰郷の空」。朝焼けの丘。黄色い道の終点、銀色の靴、遠い農場の幻。"
+   "text": "南の国。良い魔女グリンダは、ドロシーの銀の靴を指さした。"
   },
   {
    "op": "show",
@@ -643,7 +857,7 @@
   },
   {
    "op": "show",
-   "actor": "kotetsu",
+   "actor": "extra_craftsman",
    "pos": "center"
   },
   {
@@ -652,55 +866,45 @@
    "pos": "right"
   },
   {
-   "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+   "op": "say",
+   "actor": "yui",
+   "text": "この靴に、帰る力が？　最初から、ずっと履いていたのに。"
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "帰り方は靴が知っていた。でも帰りたい理由は旅で知った。",
-   "eyes": "fun",
-   "mouth": "open"
+   "actor": "extra_craftsman",
+   "text": "はじめに知っていたら、ぼくは脳を手に入れられなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "私は、心を。"
+  },
+  {
+   "op": "show",
+   "actor": "kotetsu",
+   "pos": "center"
   },
   {
    "op": "say",
    "actor": "kotetsu",
-   "text": "俺たちは君なしでも進める。君が教えたのではなく、一緒に試したからだ。"
+   "text": "ぼくは、勇気を。……旅をしたから、手に入ったんだ。"
   },
   {
    "op": "say",
    "actor": "yui",
-   "text": "ここで黙れば、同じことが繰り返される。",
+   "text": "皆と別れるのは、つらい。でも、エムおばさんが、心配してる。",
    "eyes": "crying"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "別れは、仲間だった事実を消さない。",
-   "eyes": "normal"
+   "text": "泣くと、錆びてしまう。……でも、この涙が、心がある証拠なら、錆びてもいい。",
+   "eyes": "crying"
   },
   {
-   "op": "say",
-   "actor": "yui",
-   "text": "家は場所だけじゃない。帰りたいと願う心と、迎える声だ。",
-   "eyes": "joy",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "kotetsu",
-   "text": "言葉にした責任を、次の場面へ持って行こう。"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "私は、求める力がすでに自分の行動の中にあると気づくことを忘れずに選ぶ。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "say",
-   "actor": "kotetsu",
-   "text": "その選択の重さを、次の場面まで持って行こう。"
+   "op": "nar",
+   "text": "ドロシーは、靴のかかとを三度打ち鳴らした。家へ帰りたい、と唱えながら。"
   },
   {
    "op": "hide",
@@ -708,20 +912,54 @@
   },
   {
    "op": "hide",
-   "actor": "kotetsu"
+   "actor": "extra_craftsman"
   },
   {
    "op": "hide",
    "actor": "extra_porter"
   },
   {
-   "op": "bg",
-   "src": "homeward",
-   "mode": "full"
+   "op": "hide",
+   "actor": "kotetsu"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……カンザスの草原。灰色の空。でも、エムおばさんが、家の前で手を振ってる。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "ただいま、エムおばさん！　遠くまで、旅をしてきたの。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "かかしさんは、エメラルドの都の王さまに。木こりさんは、西の国の人たちのリーダーに。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "ライオンさんは、森の動物たちの王さまに。皆、自分の場所を見つけた。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "お家ほど、いい所はないわ。……灰色でも。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
   },
   {
    "op": "bg",
-   "src": "homeward"
+   "src": null
   },
   {
    "op": "show",
@@ -731,28 +969,22 @@
   {
    "op": "say",
    "actor": "nono",
-   "text": "『オズの魔法使い』、これにて終幕です。",
-   "eyes": "joy",
-   "mouth": "open"
+   "text": "『オズの魔法使い』、これにて幕です。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "残った問いは、求める力がすでに自分の行動の中にあると気づくこと。",
-   "eyes": "sorrow"
+   "text": "脳も、心も、勇気も、帰る力も。皆、旅を始める前から、ちゃんと持っていました。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "選ばなかった道も、物語の外で静かに私たちを見ています。",
-   "eyes": "normal"
+   "text": "ただ、それに気づくためには、黄色いレンガの道を、仲間と歩く必要があったのです。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "ご観劇、ありがとうございました。",
-   "eyes": "joy",
-   "mouth": "open"
+   "text": "欲しいものがあるとき、もしかしたら、もう、自分の足元にあるかもしれません。"
   },
   {
    "op": "hide",

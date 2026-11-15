@@ -5,9 +5,9 @@
   "original": "『竹取物語』（作者未詳・著作権消滅）",
   "adaptation": "moderate",
   "format": "v3",
-  "minutes": 24,
+  "minutes": 17,
   "synopsis": "全六景で原作の主要な運動をたどりながら、手に入れる愛ではなく、別れの中でも相手の意志を尊ぶことを中心に再構成する。第五景で観客が人物の姿勢を選び、分岐は終幕前に合流する。",
-  "note": "本脚本は著作権の消滅した原作からの翻案であり、既存の翻訳・上演台本は使用していない。セリフは全て本上演版の書き下ろし。"
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
  },
  "cast": [
   {
@@ -17,7 +17,7 @@
   },
   {
    "role": "かぐや姫",
-   "actor": "yui",
+   "actor": "yui_origin",
    "costume": "default"
   },
   {
@@ -62,28 +62,22 @@
   {
    "op": "say",
    "actor": "nono",
-   "text": "ようこそ、NONO座へ。本日の演目は『竹取物語』。",
-   "eyes": "normal"
+   "text": "今は昔、竹取の翁という者がいました。……日本でいちばん古い物語の、書き出しです。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "この舞台が見つめるのは、手に入れる愛ではなく、別れの中でも相手の意志を尊ぶこと。",
-   "eyes": "sorrow",
-   "mouth": "open"
+   "text": "竹の中から生まれた姫が、たくさんの求婚者を断り、帝の心も動かして、最後は月へ帰っていきます。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "古い物語を借りながら、台詞はすべて今夜のための書き下ろしです。",
-   "eyes": "normal"
+   "text": "誰もが知っているお話を、今夜は、姫が「選ぶ人」として生きた物語として演じます。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "それでは、幕を開けましょう。",
-   "eyes": "joy",
-   "mouth": "open"
+   "text": "八月十五夜の月が昇るまで、どうぞごゆっくり。"
   },
   {
    "op": "hide",
@@ -100,7 +94,7 @@
   },
   {
    "op": "nar",
-   "text": "第1景「光る竹」。月夜の竹林。細い竹が銀色に光り、奥に小さな切り株。"
+   "text": "夕暮れの竹林。一本の竹だけが、根元から、ぼうっと光っている。"
   },
   {
    "op": "show",
@@ -108,69 +102,47 @@
    "pos": "left"
   },
   {
-   "op": "show",
-   "actor": "yui",
-   "pos": "center"
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "野山に分け入って竹を取り、籠や笊を作って暮らしてきた。もう七十を過ぎた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……この竹だけ、内側から、朝のように光っておる。"
   },
   {
    "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+   "text": "翁が竹を切ると、中に、三寸ほどの小さな女の子が座っていた。"
   },
   {
    "op": "say",
    "actor": "extra_elder",
-   "text": "この竹だけ、内側から朝のように光っておる。",
-   "eyes": "normal"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "私は月の名を知らない。でも、この手の温かさは知っています。",
-   "eyes": "joy"
+   "text": "毎朝、毎晩、見ている竹の中におられた。わしの子になる人に違いない。"
   },
   {
    "op": "say",
    "actor": "extra_elder",
-   "text": "今の言葉を、聞かなかったことにはできない。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "拾ったのではない。家族として迎えたのだ。",
-   "eyes": "surprise"
+   "text": "手のひらに乗るほどの小ささ。籠に入れて、ばあさんのところへ連れて帰ろう。"
   },
   {
    "op": "say",
    "actor": "extra_elder",
-   "text": "では私も、与えられた名を自分のものとして生きます。",
-   "eyes": "anger"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "なら、次の一歩で確かめよう。",
-   "eyes": "fun"
+   "text": "竹よ、ありがとう。長年お前を切ってきたが、こんな贈り物をもらうとは思わなかった。"
   },
   {
    "op": "say",
    "actor": "extra_elder",
-   "text": "私は、手に入れる愛ではなく、別れの中でも相手の意志を尊ぶことを忘れずに選ぶ。",
-   "eyes": "closed"
+   "text": "ばあさんは、子を持てなかったことを、ずっと寂しがっておった。驚いて、腰を抜かすぞ。"
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "その選択の重さを、次の場面まで持って行こう。",
-   "eyes": "crying"
+   "actor": "extra_elder",
+   "text": "急いで帰ろう。日が落ちる前に。……いや、この子がいれば、夜道も明るいか。"
   },
   {
    "op": "hide",
    "actor": "extra_elder"
-  },
-  {
-   "op": "hide",
-   "actor": "yui"
   },
   {
    "op": "bg",
@@ -183,80 +155,167 @@
   },
   {
    "op": "nar",
-   "text": "第2景「育つ姫」。平安の山里の家。御簾、文机、月光の差す庭。"
+   "text": "翁と嫗の家。小さかった子は、三月ほどで、輝くように美しい娘に育った。"
   },
   {
    "op": "show",
-   "actor": "yui",
+   "actor": "extra_elf",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui_origin",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "不思議な子。抱いていると、家の中まで明るくなる。名前をつけましょう。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "なよ竹のかぐや姫。……きれいな名前。気に入りました。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "お前が来てから、竹を切るたびに、節の間から黄金が出てくるの。おかげで、家も大きくなった。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "私は月の名を知らない。でも、この手の温かさは知っています。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "拾ったのではない。家族として迎えたのだ。お前は、わしらの娘だ。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "では私も、与えられた名を、自分のものとして生きます。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "名付けの祝いに、近所の人を呼びましょう。三日三晩、歌って、踊って。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "黄金のおかげで、ご馳走も用意できる。竹に感謝せねばな。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "お父さまとお母さまが笑っていると、私の胸の中まで明るくなります。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "お前が笑うと、家の中の暗い所が、ひとつもなくなるのよ。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elf"
+  },
+  {
+   "op": "hide",
+   "actor": "yui_origin"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "show",
+   "actor": "yui_origin",
    "pos": "left"
   },
   {
    "op": "show",
    "actor": "extra_elf",
-   "pos": "center"
-  },
-  {
-   "op": "show",
-   "actor": "extra_elder",
    "pos": "right"
   },
   {
    "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+   "text": "姫の美しさは都じゅうの噂になり、夜ごと、男たちが垣根の隙間から家をのぞきに来た。"
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "都から届く文は増えるのに、私の心を尋ねる文はありません。",
-   "eyes": "joy",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "extra_elf",
-   "text": "美しさを褒める声ほど、お前の沈黙を見落としてしまうね。",
+   "actor": "yui_origin",
+   "text": "都から届く文は増えるのに、私の心を尋ねる文は、一通もありません。",
    "eyes": "sorrow"
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "答えはまだ一つに決められない。",
-   "eyes": "surprise"
+   "actor": "extra_elf",
+   "text": "美しさを褒める声ほど、お前の沈黙を見落としてしまうね。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "center"
   },
   {
    "op": "say",
    "actor": "extra_elder",
-   "text": "誰の宝になるかではなく、何を望むかを話しておくれ。",
-   "eyes": "anger"
+   "text": "姫や。人は、いつか誰かと連れ添うもの。五人の貴い方々が、どうしてもと言っておられる。"
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "私は、選ばれる品ではなく、選ぶ人でいたいのです。",
-   "eyes": "fun",
-   "mouth": "open"
+   "actor": "extra_elder",
+   "text": "誰の宝になるかではなく、お前が何を望むかを、話しておくれ。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "私は、選ばれる品ではなく、選ぶ人でいたいのです。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "五人とも、毎晩、垣根の外で笛を吹いたり、歌を詠んだりして、帰ろうとせんのだ。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "私の顔も、声も、ほとんど知らないのに。",
+   "eyes": "sorrow"
   },
   {
    "op": "say",
    "actor": "extra_elf",
-   "text": "迷いを抱えたままでも、進むことはできる。",
-   "eyes": "closed"
+   "text": "噂というのは、本人より先に、大きくなって歩き回るものだからね。"
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "私は、手に入れる愛ではなく、別れの中でも相手の意志を尊ぶことを忘れずに選ぶ。",
-   "eyes": "crying"
+   "actor": "yui_origin",
+   "text": "では、五人の方々に、それぞれ一つずつ、見たいものを持ってきていただきましょう。"
   },
   {
    "op": "say",
-   "actor": "extra_elf",
-   "text": "その選択の重さを、次の場面まで持って行こう。",
-   "eyes": "normal"
+   "actor": "extra_elder",
+   "text": "見たいもの？",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "本当に私を思ってくださるなら、どれほど遠くても、探しに行ってくださるはず。"
   },
   {
    "op": "hide",
-   "actor": "yui"
+   "actor": "yui_origin"
   },
   {
    "op": "hide",
@@ -277,33 +336,49 @@
   },
   {
    "op": "nar",
-   "text": "第3景「五つの難題」。広い寝殿の客間。五つの空の台座と巻物、灯明。"
+   "text": "五人の貴公子に、五つの難題が出された。"
   },
   {
    "op": "show",
-   "actor": "yui",
-   "pos": "left"
+   "actor": "yui_origin",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "石作皇子には、天竺にある仏の石の鉢。車持皇子には、蓬莱の山の、根が銀、茎が金、実が真珠の枝。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "右大臣には、火にくべても燃えない、火鼠の皮衣。大納言には、龍の首の五色の玉。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "中納言には、燕が産む子安貝。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "難題は意地悪ではありません。欲望が、真実を装うかどうかを見る鏡です。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui_origin"
   },
   {
    "op": "show",
    "actor": "extra_elder",
-   "pos": "center"
-  },
-  {
-   "op": "show",
-   "actor": "rei_kimono",
-   "pos": "right"
+   "pos": "left"
   },
   {
    "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+   "text": "石作皇子は、山寺の古い煤けた鉢を持ってきた。光るはずの鉢は、少しも光らなかった。"
   },
   {
-   "op": "say",
-   "actor": "yui",
-   "text": "難題は意地悪ではありません。欲望が真実を装うかを見る鏡です。",
-   "eyes": "sorrow",
-   "mouth": "open"
+   "op": "nar",
+   "text": "車持皇子は、職人に作らせた偽の玉の枝を持ってきた。そこへ、代金を払ってもらえない職人たちが訴えに来た。"
   },
   {
    "op": "say",
@@ -312,45 +387,72 @@
    "eyes": "surprise"
   },
   {
-   "op": "say",
-   "actor": "yui",
-   "text": "その理屈には、置き去りにされた声がある。",
-   "eyes": "anger"
-  },
-  {
-   "op": "say",
-   "actor": "rei_kimono",
-   "text": "帝であっても、命令で心を得ることはできぬ。",
-   "eyes": "fun"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "その言葉を信じるために、私は返事を急ぎません。",
-   "eyes": "closed",
-   "mouth": "open"
+   "op": "nar",
+   "text": "右大臣の皮衣は、火にくべるとめらめらと燃えた。大納言は嵐の海で死にかけ、中納言は燕の巣から落ちて腰を打った。"
   },
   {
    "op": "say",
    "actor": "extra_elder",
-   "text": "誰のための決断か、もう一度考えよう。",
-   "eyes": "crying"
+   "text": "五人が五人とも、宝を手に入れられなかった。……姫は、それで、ほっとしておるようだった。",
+   "eyes": "sorrow"
   },
   {
-   "op": "say",
-   "actor": "yui",
-   "text": "私は、手に入れる愛ではなく、別れの中でも相手の意志を尊ぶことを忘れずに選ぶ。",
-   "eyes": "normal"
+   "op": "show",
+   "actor": "yui_origin",
+   "pos": "right"
   },
   {
    "op": "say",
    "actor": "extra_elder",
-   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "text": "姫や。五人とも、ずいぶん無理をなさった。中納言さまは、腰を痛めて寝込んでおられるそうだ。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "お気の毒です。私の言葉が、あの方々を危ない目に遭わせてしまいました。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "でも、偽物を本物と言い張る方と、一生を共にはできません。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "分かっておる。わしも、偽の玉の枝に、危うくだまされるところだった。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "お父さまは、人がよすぎるのです。",
    "eyes": "joy"
   },
   {
-   "op": "hide",
-   "actor": "yui"
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "そう言われると、返す言葉もない。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "中納言さまのお見舞いに、歌を送りましょう。お腰の痛みが、早く治りますようにと。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "断った相手に、歌を？"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "断ったのは、結婚です。その方の命まで、軽く思ったわけではありません。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……姫は、わしより、よほど大人だ。",
+   "eyes": "closed"
   },
   {
    "op": "hide",
@@ -358,7 +460,7 @@
   },
   {
    "op": "hide",
-   "actor": "rei_kimono"
+   "actor": "yui_origin"
   },
   {
    "op": "bg",
@@ -371,79 +473,126 @@
   },
   {
    "op": "nar",
-   "text": "第4景「帝の庭」。平安京の宮中庭園。池、橋、白砂、遠い満月。"
+   "text": "帝の庭。噂を聞いた帝が、狩りにかこつけて、姫の家を訪れた。"
   },
   {
    "op": "show",
-   "actor": "yui",
+   "actor": "rei_kimono",
    "pos": "left"
   },
   {
    "op": "show",
-   "actor": "rei_kimono",
-   "pos": "center"
-  },
-  {
-   "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "会わずに退けることもできた。それでも来たのは、別れを嘘にしたくないからです。",
-   "eyes": "surprise",
-   "mouth": "open"
+   "actor": "yui_origin",
+   "pos": "right"
   },
   {
    "op": "say",
    "actor": "rei_kimono",
-   "text": "私は地位を置いて、一人の人としてあなたの答えを聞く。",
+   "text": "帝であっても、命令で心を得ることはできぬ。それは、分かっているつもりだ。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "それならば、なぜ、宮仕えをせよと何度もお使いを。",
    "eyes": "anger"
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "恐れを隠しても、状況は変わらない。",
-   "eyes": "fun"
+   "actor": "rei_kimono",
+   "text": "一度だけ、自分の目で、あなたに会いたかった。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "会わずに退けることもできました。それでも来たのは、別れを嘘にしたくないからです。"
   },
   {
    "op": "say",
    "actor": "rei_kimono",
-   "text": "心は地上に育ちました。でも身体は月の迎えを拒めない。",
+   "text": "私は地位を置いて、一人の人として、あなたの答えを聞こう。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "心は地上に育ちました。でも、この身体は、月の迎えを拒めないのです。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "月……？",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "私がこの家に来たのは、月の都で、罪を犯したからだと聞かされています。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "どんな罪だったのか、覚えていません。ただ、つぐないの年月が、もうすぐ終わるのです。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "罪のつぐないが、この家の、こんなに温かい暮らしだったとは。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "ならば引き留めず、あなたが残した言葉を守ろう。文を交わすことだけは、許してほしい。",
    "eyes": "closed"
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "ならば引き留めず、あなたが残した言葉を守ろう。",
-   "eyes": "crying",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "rei_kimono",
-   "text": "恐れを言葉にした今なら、選び直せる。",
-   "eyes": "normal"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "私は、手に入れる愛ではなく、別れの中でも相手の意志を尊ぶことを忘れずに選ぶ。",
+   "actor": "yui_origin",
+   "text": "はい。文なら、喜んで。",
    "eyes": "joy"
-  },
-  {
-   "op": "say",
-   "actor": "rei_kimono",
-   "text": "その選択の重さを、次の場面まで持って行こう。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "hide",
-   "actor": "yui"
   },
   {
    "op": "hide",
    "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "yui_origin"
+  },
+  {
+   "op": "show",
+   "actor": "yui_origin",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "それから三年。帝と姫は、季節ごとに文を交わした。桜の枝に結んだ文、紅葉を添えた文。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "帝のお文には、いつも、その日の空の色が書いてある。命令の言葉は、一つもない。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "地上の人の心の温かさを知るほど、月へ帰る日が、つらくなる。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "春の文には、宮中の梅が咲いた、と。秋の文には、夜通し虫の声を聞いていた、と。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "私も、竹林の雪の音のことを書いた。帝は、その音を聞いてみたいと、返してくださった。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "yui_origin"
   },
   {
    "op": "bg",
@@ -456,16 +605,16 @@
   },
   {
    "op": "nar",
-   "text": "第5景「八月十五夜」。翁の家の庭。満月、白い雲の階段、揺れる竹。"
-  },
-  {
-   "op": "show",
-   "actor": "yui",
-   "pos": "left"
+   "text": "八月十五夜が近づく。姫は毎晩、月を見ては泣いている。"
   },
   {
    "op": "show",
    "actor": "extra_elder",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui_origin",
    "pos": "center"
   },
   {
@@ -474,137 +623,141 @@
    "pos": "right"
   },
   {
-   "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "迎えが近づくほど、地上の匂いが鮮やかになります。",
-   "eyes": "anger",
-   "mouth": "open"
-  },
-  {
    "op": "say",
    "actor": "extra_elder",
-   "text": "親は子の道を塞ぐために育てたのではない。だが寂しい。",
-   "eyes": "fun"
+   "text": "姫や、どうして月を見て泣くのだ。"
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "正しさだけでは、人の痛みを量れない。",
-   "eyes": "closed"
-  },
-  {
-   "op": "say",
-   "actor": "extra_elf",
-   "text": "泣くことは引き留めることじゃないよ。愛した証だ。",
+   "actor": "yui_origin",
+   "text": "私は、月の都の者なのです。この十五日に、迎えが来ます。",
    "eyes": "crying"
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "私は忘れません。忘れないことまで奪う衣なら、着ません。",
-   "eyes": "normal",
-   "mouth": "open"
+   "actor": "extra_elf",
+   "text": "そんな……。ここがお前の家でしょう。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "迎えが近づくほど、地上の匂いが、鮮やかになります。お二人の着物の匂い、竹の匂い、雨の匂い。"
   },
   {
    "op": "say",
    "actor": "extra_elder",
-   "text": "だから事実と心の両方を見よう。",
-   "eyes": "joy"
+   "text": "帝に申し上げて、兵を出していただく。屋根にも塀にも、弓を持った者を並べて、迎えを追い返してやる。"
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "私は、手に入れる愛ではなく、別れの中でも相手の意志を尊ぶことを忘れずに選ぶ。",
+   "actor": "yui_origin",
+   "text": "お父さま、それは無理です。月の人々の前では、どんな弓も、引けなくなります。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "無理でも、やる。娘を連れて行かれるのを、黙って見ている親がいるものか。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "わたしは、姫を抱いて、蔵の奥に隠れる。戸を閉めて、鍵を三つかけて。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "……その気持ちだけで、十分です。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……親は子の道を塞ぐために育てたのではない。だが、寂しい。",
    "eyes": "sorrow"
   },
   {
    "op": "say",
-   "actor": "extra_elder",
-   "text": "その選択の重さを、次の場面まで持って行こう。",
-   "eyes": "surprise"
+   "actor": "extra_elf",
+   "text": "泣くことは、引き留めることじゃないよ。愛した証だ。"
   },
   {
-   "op": "nar",
-   "text": "ここで舞台は一瞬静まり、観客の選択が人物の心の向きを変える。"
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "月の都は、老いることも、悩むこともない所。でも、そこには、お母さまの手の荒れもない。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "こんな荒れた手が、懐かしいなんて。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "洗い物の水で荒れた手です。私を育ててくれた手です。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "私は忘れません。忘れないことまで奪う衣なら、着ません。"
   },
   {
    "op": "choice",
    "options": [
     {
-     "text": "地上の思い出を言葉に残す",
-     "jump": "route_a"
+     "text": "姫は、地上の思い出を手紙に書き残す",
+     "jump": "m_letter"
     },
     {
-     "text": "形見だけを静かに残す",
-     "jump": "route_b"
+     "text": "姫は、形見だけを静かに置いていく",
+     "jump": "m_keep"
     }
    ]
   },
   {
    "op": "label",
-   "id": "route_a"
+   "id": "m_letter"
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "私は『地上の思い出を言葉に残す』道を選ぶ。",
-   "eyes": "joy",
-   "mouth": "open"
+   "actor": "yui_origin",
+   "text": "筆と紙を。お父さま、お母さま、帝。それぞれに、言葉を残していきます。"
   },
   {
    "op": "say",
-   "actor": "extra_elder",
-   "text": "その決断なら、結果まで自分の言葉で引き受けて。",
-   "eyes": "normal"
+   "actor": "yui_origin",
+   "text": "書いているうちは、まだ、ここにいられる気がするから。"
   },
   {
    "op": "set",
-   "flag": "f_route_a"
+   "flag": "f_letter"
   },
   {
    "op": "jump",
-   "to": "merge_choice"
+   "to": "m_moon"
   },
   {
    "op": "label",
-   "id": "route_b"
+   "id": "m_keep"
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "私は『形見だけを静かに残す』道を選ぶ。",
-   "eyes": "surprise",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "extra_elder",
-   "text": "違う道でも、守るべきものを見失わないで。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "set",
-   "flag": "f_route_b"
+   "actor": "yui_origin",
+   "text": "言葉にすると、別れが本当になってしまう。形見の着物だけを、そっと置いていきます。"
   },
   {
    "op": "label",
-   "id": "merge_choice"
-  },
-  {
-   "op": "nar",
-   "text": "選択の余韻を抱えたまま、物語は同じ終幕へ向かう。"
-  },
-  {
-   "op": "hide",
-   "actor": "yui"
+   "id": "m_moon"
   },
   {
    "op": "hide",
    "actor": "extra_elder"
+  },
+  {
+   "op": "hide",
+   "actor": "yui_origin"
   },
   {
    "op": "hide",
@@ -621,80 +774,109 @@
   },
   {
    "op": "nar",
-   "text": "第6景「月への道」。雲上の月の道。地上の山々が小さく見え、白い光が満ちる。"
+   "text": "十五夜の真夜中。空が昼より明るくなり、雲に乗った天人たちが、静かに降りてきた。"
   },
   {
    "op": "show",
-   "actor": "yui",
+   "actor": "extra_wizard",
    "pos": "left"
   },
   {
    "op": "show",
-   "actor": "extra_wizard",
-   "pos": "center"
-  },
-  {
-   "op": "show",
-   "actor": "rei_kimono",
+   "actor": "yui_origin",
    "pos": "right"
   },
   {
    "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "天の羽衣を着れば、地上の悲しみは薄れます。",
-   "eyes": "fun",
-   "mouth": "open"
+   "text": "屋根の上の兵たちは、弓を引こうとしたが、手に力が入らず、ただ空を見上げるばかりだった。"
   },
   {
    "op": "say",
    "actor": "extra_wizard",
-   "text": "悲しみだけ消せば、愛した記憶も形を失います。",
-   "eyes": "closed"
+   "text": "かぐや姫。地上での罪のつぐないの時は、終わりました。月へ帰りましょう。"
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "ここで黙れば、同じことが繰り返される。",
-   "eyes": "crying"
-  },
-  {
-   "op": "say",
-   "actor": "rei_kimono",
-   "text": "帝への手紙も、父母への言葉も、私が私だった証です。",
-   "eyes": "normal"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "帰る場所が一つでも、心の故郷は一つとは限りません。",
-   "eyes": "joy",
-   "mouth": "open"
+   "actor": "yui_origin",
+   "text": "罪……。私が月で何をしたのか、もう覚えていません。覚えているのは、この家のことばかり。"
   },
   {
    "op": "say",
    "actor": "extra_wizard",
-   "text": "言葉にした責任を、次の場面へ持って行こう。",
-   "eyes": "sorrow"
+   "text": "汚れた地上に長くいると、そうなるのです。急ぎましょう。"
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "私は、手に入れる愛ではなく、別れの中でも相手の意志を尊ぶことを忘れずに選ぶ。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "say",
-   "actor": "extra_wizard",
-   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "actor": "yui_origin",
+   "text": "汚れた、とおっしゃいますか。この家の人たちの涙を、汚れと。",
    "eyes": "anger"
   },
   {
-   "op": "hide",
-   "actor": "yui"
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "涙など、すぐに乾きます。月の都では、誰も泣きません。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "泣かない都と、泣いてくれる人のいる家。……私は、どちらに育てられたか、忘れません。"
+  },
+  {
+   "op": "nar",
+   "text": "蔵の鍵は、ひとりでに外れ、扉が開いた。翁と嫗は、ただ泣いて姫の袖にすがった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "この天の羽衣を着れば、地上の悲しみは、すべて消えます。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "少しだけ、待ってください。",
+   "eyes": "anger"
+  },
+  {
+   "op": "if",
+   "flag": "f_letter",
+   "to": "m_write"
+  },
+  {
+   "op": "jump",
+   "to": "m_robe"
+  },
+  {
+   "op": "label",
+   "id": "m_write"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "帝への文と、不死の薬を。父母への言葉も、ここに置いていきます。"
+  },
+  {
+   "op": "label",
+   "id": "m_robe"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "悲しみだけ消せば、愛した記憶も、形を失います。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "帝への手紙も、父母への言葉も、私が私だった証です。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "帰る場所が一つでも、心の故郷は、一つとは限りません。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "羽衣が肩にかかると、姫の顔から、すっと悲しみが消えた。姫は振り返らずに、月へ昇っていった。"
   },
   {
    "op": "hide",
@@ -702,16 +884,47 @@
   },
   {
    "op": "hide",
+   "actor": "yui_origin"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "あなたのいない世で、不死の薬など何になろう。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "天にいちばん近い山の頂で、手紙と薬を焼かせた。その煙は、今も雲の中へ立ちのぼっている。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "人々は、その山を「ふじの山」と呼ぶようになった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "兵たちを、たくさん連れて登らせたから、士に富む山。不死の薬を焼いたから、不死の山。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "どちらの名で呼ばれても、煙は、月へ届いているだろうか。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
    "actor": "rei_kimono"
   },
   {
    "op": "bg",
-   "src": "moonroad",
-   "mode": "full"
-  },
-  {
-   "op": "bg",
-   "src": "moonroad"
+   "src": null
   },
   {
    "op": "show",
@@ -721,28 +934,22 @@
   {
    "op": "say",
    "actor": "nono",
-   "text": "『竹取物語』、これにて終幕です。",
-   "eyes": "joy",
-   "mouth": "open"
+   "text": "『竹取物語』、これにて幕です。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "残った問いは、手に入れる愛ではなく、別れの中でも相手の意志を尊ぶこと。",
-   "eyes": "sorrow"
+   "text": "かぐや姫は、五人の宝も、帝の位も選びませんでした。最後まで、自分で選ぶ人でいたのです。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "選ばなかった道も、物語の外で静かに私たちを見ています。",
-   "eyes": "normal"
+   "text": "そして別れのとき、まわりの人たちも、引き留めずに見送りました。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "ご観劇、ありがとうございました。",
-   "eyes": "joy",
-   "mouth": "open"
+   "text": "今夜の月がきれいだったら、誰かの言葉を、ひとつ思い出してください。"
   },
   {
    "op": "hide",

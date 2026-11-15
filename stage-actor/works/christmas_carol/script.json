@@ -1,725 +1,862 @@
 {
-  "meta": {
-    "id": "christmas_carol",
-    "title": "クリスマス・キャロル ―三つの時の扉―",
-    "original": "Charles Dickens, A Christmas Carol（原著・著作権消滅）",
-    "adaptation": "faithful",
-    "format": "v3",
-    "minutes": 25,
-    "synopsis": "全六景で原作の主要な運動をたどりながら、過去への理解を、現在の行動と未来の選択へつなげることを中心に再構成する。第五景で観客が人物の姿勢を選び、分岐は終幕前に合流する。",
-    "note": "本脚本は著作権の消滅した原作からの翻案であり、既存の翻訳・上演台本は使用していない。セリフは全て本上演版の書き下ろし。"
+ "meta": {
+  "id": "christmas_carol",
+  "title": "クリスマス・キャロル ―三つの時の扉―",
+  "original": "Charles Dickens, A Christmas Carol（原著・著作権消滅）",
+  "adaptation": "faithful",
+  "format": "v3",
+  "minutes": 25,
+  "synopsis": "全六景で原作の主要な運動をたどりながら、過去への理解を、現在の行動と未来の選択へつなげることを中心に再構成する。第五景で観客が人物の姿勢を選び、分岐は終幕前に合流する。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "狂言回し",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "スクルージ",
-      "actor": "extra_elder",
-      "costume": "default"
-    },
-    {
-      "role": "マーレイの亡霊",
-      "actor": "extra_skeleton",
-      "costume": "default"
-    },
-    {
-      "role": "過去の精霊",
-      "actor": "yui",
-      "costume": "default"
-    },
-    {
-      "role": "現在の精霊",
-      "actor": "mei",
-      "costume": "default"
-    },
-    {
-      "role": "未来の精霊",
-      "actor": "rei",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "countinghouse": "bg/countinghouse-2048x1152.png",
-    "marley": "bg/marley-2048x1152.png",
-    "past": "bg/past-2048x1152.png",
-    "present": "bg/present-2048x1152.png",
-    "future": "bg/future-2048x1152.png",
-    "morning": "bg/morning-2048x1152.png"
+  {
+   "role": "スクルージ",
+   "actor": "extra_elder",
+   "costume": "default"
   },
-  "steps": [
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『クリスマス・キャロル』。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "この舞台が見つめるのは、過去への理解を、現在の行動と未来の選択へつなげること。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "古い物語を借りながら、台詞はすべて今夜のための書き下ろしです。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "それでは、幕を開けましょう。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "countinghouse",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "countinghouse"
-    },
-    {
-      "op": "nar",
-      "text": "第1景「冷たい事務所」。雪のロンドンの会計事務所。高い机、小さな火鉢、曇り窓。"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elder",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "center"
-    },
-    {
-      "op": "nar",
-      "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "祝日で腹が満ちるなら、貧乏人は毎日祝えばよい。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "伯父さん、食卓は料理だけでなく、人を迎える場所です。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "今の言葉を、聞かなかったことにはできない。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "善意は帳簿に残らない。だから信用できぬ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "残らないものでも、人を生かすことがあります。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "なら、次の一歩で確かめよう。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "私は、過去への理解を、現在の行動と未来の選択へつなげることを忘れずに選ぶ。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "その選択の重さを、次の場面まで持って行こう。",
-      "eyes": "crying"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elder"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "bg",
-      "src": "marley",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "marley"
-    },
-    {
-      "op": "nar",
-      "text": "第2景「鎖の亡霊」。暗い寝室。暖炉、重いカーテン、鎖の影。"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elder",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_skeleton",
-      "pos": "center"
-    },
-    {
-      "op": "nar",
-      "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "その鎖は誰に掛けられた。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "一つ一つ、私が無関心で鍛えた。お前の鎖はもっと長い。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "答えはまだ一つに決められない。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "死者の脅しで商売の理屈は変わらぬ。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "変えるのは脅しではない。三つの時を見たお前自身だ。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "迷いを抱えたままでも、進むことはできる。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "私は、過去への理解を、現在の行動と未来の選択へつなげることを忘れずに選ぶ。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "その選択の重さを、次の場面まで持って行こう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elder"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_skeleton"
-    },
-    {
-      "op": "bg",
-      "src": "past",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "past"
-    },
-    {
-      "op": "nar",
-      "text": "第3景「過去の教室」。古い寄宿学校。空の机、冬の夕日、一冊の本。"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elder",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "center"
-    },
-    {
-      "op": "nar",
-      "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "あの少年は休暇にも一人で本を読んでいた。私だ。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "寂しさを知る人が、なぜ他人の寂しさに背を向けたの。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "その理屈には、置き去りにされた声がある。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "守るために金を積み、積むほど人を遠ざけた。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "過去は責めるためでなく、結び目を見つけるためにあります。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "誰のための決断か、もう一度考えよう。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "私は、過去への理解を、現在の行動と未来の選択へつなげることを忘れずに選ぶ。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "その選択の重さを、次の場面まで持って行こう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elder"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "bg",
-      "src": "present",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "present"
-    },
-    {
-      "op": "nar",
-      "text": "第4景「現在の食卓」。質素で暖かなクリスマスの食卓。小さな七面鳥、蝋燭。"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elder",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "mei",
-      "pos": "center"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "少ない料理を、あんなに楽しそうに分けている。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "豊かさは量でなく、誰の分を空けてあるかで測る。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "恐れを隠しても、状況は変わらない。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "あの小さな子の椅子が、来年もあるとは限らない。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "未来は決定ではありません。今の無関心が押している方向です。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "恐れを言葉にした今なら、選び直せる。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "私は、過去への理解を、現在の行動と未来の選択へつなげることを忘れずに選ぶ。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "その選択の重さを、次の場面まで持って行こう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elder"
-    },
-    {
-      "op": "hide",
-      "actor": "mei"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "bg",
-      "src": "future",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "future"
-    },
-    {
-      "op": "nar",
-      "text": "第5景「名のない墓」。霧の墓地。読みにくい墓石、枯れ木、黒い空。"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elder",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei",
-      "pos": "center"
-    },
-    {
-      "op": "nar",
-      "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "誰もこの死を惜しまない。部屋から品物まで持ち去る。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "この墓の名を見ろと言うのか。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "正しさだけでは、人の痛みを量れない。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "未来は口を利かない。だから私の声で答えるしかない。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "私は変われる。今からなら、まだ間に合うと言ってくれ。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "だから事実と心の両方を見よう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "私は、過去への理解を、現在の行動と未来の選択へつなげることを忘れずに選ぶ。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "その選択の重さを、次の場面まで持って行こう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "ここで舞台は一瞬静まり、観客の選択が人物の心の向きを変える。"
-    },
-    {
-      "op": "choice",
-      "options": [
-        {
-          "text": "まず謝罪へ向かう",
-          "jump": "route_a"
-        },
-        {
-          "text": "まず困窮者を助ける",
-          "jump": "route_b"
-        }
-      ]
-    },
-    {
-      "op": "label",
-      "id": "route_a"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "私は『まず謝罪へ向かう』道を選ぶ。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "その決断なら、結果まで自分の言葉で引き受けて。",
-      "eyes": "normal"
-    },
-    {
-      "op": "set",
-      "flag": "f_route_a"
-    },
-    {
-      "op": "jump",
-      "to": "merge_choice"
-    },
-    {
-      "op": "label",
-      "id": "route_b"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "私は『まず困窮者を助ける』道を選ぶ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "違う道でも、守るべきものを見失わないで。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "set",
-      "flag": "f_route_b"
-    },
-    {
-      "op": "label",
-      "id": "merge_choice"
-    },
-    {
-      "op": "nar",
-      "text": "選択の余韻を抱えたまま、物語は同じ終幕へ向かう。"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elder"
-    },
-    {
-      "op": "hide",
-      "actor": "rei"
-    },
-    {
-      "op": "bg",
-      "src": "morning",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "morning"
-    },
-    {
-      "op": "nar",
-      "text": "第6景「変わった朝」。晴れたクリスマスの街。鐘、雪、開いた窓、買い物籠。"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elder",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "center"
-    },
-    {
-      "op": "show",
-      "actor": "mei",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "今日は何日だ。三つの時が一夜で私を戻したのか。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "戻したのではなく、進む朝をくれたのです。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "ここで黙れば、同じことが繰り返される。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "寄付も食事も、罪滅ぼしの一度で終わらせない。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "変化は奇跡で始まっても、習慣で本物になります。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "言葉にした責任を、次の場面へ持って行こう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "私は、過去への理解を、現在の行動と未来の選択へつなげることを忘れずに選ぶ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "その選択の重さを、次の場面まで持って行こう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elder"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "hide",
-      "actor": "mei"
-    },
-    {
-      "op": "bg",
-      "src": "morning",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "morning"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "『クリスマス・キャロル』、これにて終幕です。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "残った問いは、過去への理解を、現在の行動と未来の選択へつなげること。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "選ばなかった道も、物語の外で静かに私たちを見ています。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ご観劇、ありがとうございました。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "end"
+  {
+   "role": "マーレイの亡霊",
+   "actor": "extra_skeleton",
+   "costume": "default"
+  },
+  {
+   "role": "過去の精霊",
+   "actor": "yui",
+   "costume": "default"
+  },
+  {
+   "role": "現在の精霊",
+   "actor": "mei",
+   "costume": "default"
+  },
+  {
+   "role": "未来の精霊",
+   "actor": "rei",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "countinghouse": "bg/countinghouse-2048x1152.png",
+  "marley": "bg/marley-2048x1152.png",
+  "past": "bg/past-2048x1152.png",
+  "present": "bg/present-2048x1152.png",
+  "future": "bg/future-2048x1152.png",
+  "morning": "bg/morning-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "まず申し上げておきます。マーレイは、死んでいました。七年前のクリスマス・イヴに。それが、この話の始まりです。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "チャールズ・ディケンズの『クリスマス・キャロル』。ロンドンいちばんのけちん坊が、ひと晩で三つの扉をくぐります。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "過去、現在、そして未来。人は、本当に変われるのでしょうか。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "霧の濃いロンドンの路地へ、ご案内します。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "countinghouse",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "countinghouse"
+  },
+  {
+   "op": "nar",
+   "text": "クリスマス・イヴの夕方。スクルージ＆マーレイ商会の事務所。石炭は、ほんのひとかけらしか燃えていない。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "帳簿の数字は嘘をつかん。人間は嘘をつく。だから、わしは数字だけを信じる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "ボブ・クラチット、石炭箱に手を伸ばすな。凍えるなら、外套を着て書け。週十五シリングの書記に、火は贅沢だ。"
+  },
+  {
+   "op": "nar",
+   "text": "書記のボブは、ろうそくの火で指を温めようとして、うまくいかなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "メリー・クリスマスだと？　ふん、くだらん！　金もないのに浮かれる日だ。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "甥のフレッドが、明日の夕食に誘いに来た。スクルージは、それを追い返した。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "クリスマスを祝う馬鹿者は、自分のプディングと一緒に煮て、柊の杭を心臓に打ち込んで埋めてしまえ。"
+  },
+  {
+   "op": "nar",
+   "text": "慈善の寄付を集める紳士たちが来た。貧しい人々に、せめて食べ物と温かさを、と。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "監獄はないのか。救貧院はないのか。……それがあるなら、わしは税金を払っている。それで十分だ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "死にたい者は、死ねばいい。余分な人口が減る。"
+  },
+  {
+   "op": "nar",
+   "text": "紳士たちは黙って帰った。窓の外で、少年がキャロルを歌い始めた。スクルージは、定規を振り上げて追い払った。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "ボブ、明日は休みたいのだろう。給料はまるまる払えと。……明後日は、いつもより早く来い。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "bg",
+   "src": "marley",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "marley"
+  },
+  {
+   "op": "nar",
+   "text": "夜。スクルージの暗い家。玄関のノッカーが、一瞬、死んだマーレイの顔に見えた。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……気のせいだ。消化不良が見せる幻だ。マスタードの粒か、生煮えのジャガイモか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "地下室の方から、鎖を引きずる音が近づいてくる。扉を通り抜けて、白い影が入ってきた。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_skeleton",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "エベニーザー・スクルージ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "マーレイ……！　お前は、死んだはずだ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "わしは、生きている間に、この鎖を一つずつ自分で鍛えた。帳簿、金庫、鍵、財布。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "お前の鎖は、七年前のわしのより、もう、ずっと長く重い。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "なぜ、わしを責める。お前は、いい商売人だった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "商売だと。人類こそが、わしの商売だった。慈悲も、寛容も。帳簿の一行など、海の中のひとしずくだ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "今夜、三人の精霊が来る。それが、お前に残された、最後の機会だ。"
+  },
+  {
+   "op": "nar",
+   "text": "亡霊は窓から外へ漂い出た。夜空には、同じように鎖をつけた亡霊たちが、泣きながら飛び交っていた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……くだら……。言いかけて、やめた。何も言えなかった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "三人も来るのか。一度に済ませてはもらえんものか。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_skeleton"
+  },
+  {
+   "op": "bg",
+   "src": "past",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "past"
+  },
+  {
+   "op": "nar",
+   "text": "午前一時。ベッドのカーテンが開き、子どものようで老人のような、光をまとった精霊が立っていた。"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "私は、過去のクリスマスの精霊。あなたの過去の。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "帽子をかぶってくれんか。その光は、目に痛い。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "光を消したいのね。あなたは、ずっと、そうしてきた。……さあ、手を。",
+   "eyes": "fun"
+  },
+  {
+   "op": "nar",
+   "text": "二人は窓を抜け、雪の田舎道に立った。古い寄宿学校。クリスマスなのに、ひとり残された少年が、本を読んでいる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "わしだ。……あの子は、わしだ。家に帰してもらえなかった。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "本の中の、アリババや、ロビンソン・クルーソーが、あなたの友だちだった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "昨夜、キャロルを歌っていた少年がいた。何か、やればよかった。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "今、そう思えたのね。",
+   "eyes": "joy"
+  },
+  {
+   "op": "nar",
+   "text": "妹のファンが駆け込んできて、兄さん、お父さまが許してくださった、家へ帰れるの、と叫んだ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "ファン……。体の弱い子だった。あの子は、子どもを一人残して、若くして死んだ。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "その子が、あなたの甥、フレッドよ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……昨日、あの子を、追い返してしまった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "場面は変わり、陽気な商人フェジウィッグの倉庫。若いスクルージが、店じゅうの仲間と踊っている。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "フェジウィッグ親方！　ああ、あの方は、わしらを幸せにしてくださった。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "使ったお金は、ほんの数ポンド。それなのに、なぜそんなに感謝するの。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "金ではない。言葉や表情ひとつで、人を幸せにも、みじめにもできる。……ボブに、ひと言、何か言いたい。"
+  },
+  {
+   "op": "nar",
+   "text": "次の場面。黒い喪服の若い女性が、若いスクルージに別れを告げていた。婚約者のベルだった。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "「あなたは、別の偶像を見つけたのね。金という偶像を」。彼女はそう言って、去っていった。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "もう見せないでくれ。精霊、なぜわしを苦しめる。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "最後にもう一つ。ベルは、優しい夫と、たくさんの子どもに囲まれて、暖炉の前で笑っている。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "あの子たちの一人が、あなたの娘だったかもしれない。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "これは、起きたこと。私が作った影ではない。あなたが、作ったもの。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "bg",
+   "src": "present",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "present"
+  },
+  {
+   "op": "nar",
+   "text": "午前二時。スクルージの部屋は、柊とヤドリギに覆われ、七面鳥、焼き栗、プディングが山と積まれている。"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "入りなさい、そして私をよく知りなさい。私は、現在のクリスマスの精霊よ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "昨夜、教えられたことは、身にしみている。今夜も、何か教えてくれるのなら。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "では、私の衣の裾につかまって。"
+  },
+  {
+   "op": "nar",
+   "text": "二人が立ったのは、カムデン・タウンの小さな家。ボブ・クラチットの家族が、ささやかな夕食を囲んでいた。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "ボブの週十五シリングで、八人が暮らしているの。ガチョウは小さい。でも、皆の顔を見て。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "あの、松葉杖の小さな子は。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "ティム。ちいちゃなティム。教会で、皆が自分を見てくれたらいい、と言った子。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "足の悪い子を見れば、誰かが、歩けるようにしてくださった方を、思い出すだろうからって。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "精霊、あの子は、生きられるのか。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "空いた椅子と、持ち主のいない松葉杖が見える。このままの未来なら、あの子は死ぬ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "いけない、いけない。助かると言ってくれ。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "余分な人間は減ればいい。……昨日、事務所でそう口にしたのは、どなただったかしら。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "自分の言葉に、こんなに打たれるとは思わなかった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "ボブが杯を上げた。スクルージさんに乾杯。この祝宴を下さった方に。妻は眉をひそめたが、子どもたちは杯を合わせた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "わしに、乾杯を……。あの家で、わしの名前を、祝ってくれるのか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "二人はフレッドの家へ飛んだ。甥は、笑いながら、伯父の話をしていた。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "フレッドは、毎年あなたを誘うと決めている。あなたが笑って死ねるように、と言って。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "姉妹たちが、ハープを弾いている。あれは、学校にいたころ、ファンがよく歌っていた曲よ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "当てっこ遊びをしている。答えは「スクルージ伯父さん」か。……わしも、加わりたかった。",
+   "eyes": "joy"
+  },
+  {
+   "op": "nar",
+   "text": "精霊の衣の裾から、ぼろを着た二人の子どもが現れた。痩せこけた男の子と女の子。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "この子たちの名前は、無知と欠乏。人間の子。特に男の子のほうを、気をつけなさい。額に「破滅」と書いてある。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "頼れる場所は、ないのか。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "監獄はないの。救貧院はないの。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "bg",
+   "src": "future",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "future"
+  },
+  {
+   "op": "nar",
+   "text": "午前三時。黒い衣で全身を覆った、顔のない精霊が、音もなく近づいてくる。"
+  },
+  {
+   "op": "show",
+   "actor": "rei",
+   "pos": "right"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "未来のクリスマスの精霊か。……あなたが一番怖い。でも、わしは、変わりたい。どうか案内してくれ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "精霊は、答えずに、手だけで道を示した。"
+  },
+  {
+   "op": "nar",
+   "text": "ロンドンの取引所。商人たちが、誰かの死を噂している。葬式には昼食が出るなら行こう、と笑いながら。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "誰のことだ。友人もいない、けちな男らしいが。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "精霊、わしは自分の姿を探しているのに、いつもの取引所の柱のところにいない。"
+  },
+  {
+   "op": "nar",
+   "text": "裏町の古物屋。死んだ男の寝具や、シャツや、ベッドのカーテンまで、女中たちが盗んで売りに来ていた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "カーテンを、死人のベッドから外したのか。……かわいそうに。よほど、嫌われていたのだな。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "精霊が指さした先に、毛布の下に横たわる遺体があった。顔は覆われていた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "覆いを、取る勇気がない。精霊、この死で心を動かされた人を、一人でいい、見せてくれ。"
+  },
+  {
+   "op": "nar",
+   "text": "若い夫婦が、借金の取り立て人の死を聞いて、ほっと息をついていた。死で動かされた心は、それだけだった。"
+  },
+  {
+   "op": "nar",
+   "text": "クラチット家。部屋は静かで、炉辺の椅子が一つ空いていた。ボブは、二階の小さな寝台のそばで泣いていた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "ティムが……。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "精霊は、雑草の茂った墓地へ進んだ。手入れのされていない墓石に、名前が刻まれていた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "わしの名だ……！　あの毛布の下にいたのは、わしだったのか！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "わしは、変わる。あの扉を、三つとも胸に入れて生きる。これは、変えられる影だと言ってくれ。",
+   "eyes": "crying"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "スクルージは、精霊の衣にすがって誓う",
+     "jump": "m_vow"
+    },
+    {
+     "text": "スクルージは、墓の前で膝をついて誓う",
+     "jump": "m_kneel"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_vow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "過去も、現在も、未来も、わしの中に住まわせる。三人の精霊の教えを、締め出しはしない。"
+  },
+  {
+   "op": "jump",
+   "to": "m_wake"
+  },
+  {
+   "op": "label",
+   "id": "m_kneel"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "この墓石の文字を、消してくれ。消せないなら、わしが消してみせる。生き方で。"
+  },
+  {
+   "op": "label",
+   "id": "m_wake"
+  },
+  {
+   "op": "nar",
+   "text": "精霊の黒い衣が縮み、崩れ、ベッドの柱になった。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "bg",
+   "src": "morning",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "morning"
+  },
+  {
+   "op": "nar",
+   "text": "朝。窓を開けると、澄んだ冷たい空気と、教会の鐘の音。スクルージは、自分のベッドの上にいた。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "ベッドのカーテンがある！　盗まれていない！　わしは、生きている！",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "おおい、そこの坊や。今日は何日だ。"
+  },
+  {
+   "op": "nar",
+   "text": "通りの少年が、クリスマスに決まってるじゃないか、と答えた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "クリスマス！　間に合った。精霊たちは、ひと晩で全部やってくれた。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "羽みたいに軽い。天使みたいに幸せだ。小学生みたいに浮かれている。誰か、止めてくれ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "坊や、角の鳥屋の、いちばん大きな七面鳥を買ってきておくれ。半クラウンやろう。五分で戻れば。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "七面鳥は、ボブ・クラチットの家へ。誰から届いたかは、内緒だ。ティムの二倍はある大きさだ。"
+  },
+  {
+   "op": "nar",
+   "text": "スクルージは、昨日の寄付集めの紳士を街で見つけ、何かを耳打ちした。紳士は、目を丸くした。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "金額の中に、これまでの未払い分が、たっぷり入っておりましてな。……どうか、遠慮なさらずに。"
+  },
+  {
+   "op": "nar",
+   "text": "その日の午後。スクルージは、甥のフレッドの家の玄関に、長いこと立っていた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……ごめんください。夕食に、招かれに来た。入っても、いいかね。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "フレッドは、伯父の手を握って、離さなかった。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "bg",
+   "src": "countinghouse",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "countinghouse"
+  },
+  {
+   "op": "nar",
+   "text": "翌朝。ボブは、十八分半、遅刻してきた。スクルージは、待ち構えていた。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "クラチット！　こんな時間に、どういうつもりだ。もう、我慢できん。だから……。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "だから、給料を上げる。メリー・クリスマス、ボブ！　午後に、ホットワインでも飲みながら相談しよう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "石炭を、もうひとバケツ買いなさい。今すぐだ。"
+  },
+  {
+   "op": "nar",
+   "text": "ボブは、一瞬、定規で主人を殴り倒して、通りの人を呼ぼうかと本気で考えた。"
+  },
+  {
+   "op": "nar",
+   "text": "スクルージは約束以上に、その言葉を守った。ちいちゃなティムは、死ななかった。スクルージは、ティムの第二の父親になった。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "『クリスマス・キャロル』、これにて幕です。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "町の人々は、スクルージの変わりように笑いました。彼は、笑わせておきました。自分も笑っていたからです。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ちいちゃなティムが言ったとおりに。神さま、ぼくたち、みんなを祝福してください。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "過去の扉は、もう閉まっています。でも、明日の扉は、まだ鍵がかかっていません。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

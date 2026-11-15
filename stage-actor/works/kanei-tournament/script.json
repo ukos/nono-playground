@@ -1,755 +1,1081 @@
 {
-  "meta": {
-    "id": "kanei-tournament",
-    "number": 146,
-    "title": "寛永御前試合 ―剣豪の間合い―",
-    "original": "古典講談『寛永御前試合』（伝統演目）",
-    "category": "講談",
-    "adaptation": "free",
-    "format": "v3",
-    "minutes": 42,
-    "synopsis": "全五景で「強さは勝った数でなく、刃を止める判断にも現れる」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
-    "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+ "meta": {
+  "id": "kanei-tournament",
+  "number": 146,
+  "title": "寛永御前試合 ―剣豪の間合い―",
+  "original": "古典講談『寛永御前試合』（伝統演目）",
+  "category": "講談",
+  "adaptation": "free",
+  "format": "v3",
+  "minutes": 42,
+  "synopsis": "全五景で「強さは勝った数でなく、刃を止める判断にも現れる」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "狂言回し",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "柳生十兵衛",
-      "actor": "rei_kimono",
-      "costume": "default"
-    },
-    {
-      "role": "荒木又右衛門",
-      "actor": "iwao",
-      "costume": "default"
-    },
-    {
-      "role": "宮本武蔵",
-      "actor": "extra_porter",
-      "costume": "default"
-    },
-    {
-      "role": "将軍家光",
-      "actor": "extra_elder",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "castle_arena": "bg/kanei-tournament-castle_arena-2048x1152.png",
-    "waiting_room": "bg/kanei-tournament-waiting_room-2048x1152.png",
-    "first_bout": "bg/kanei-tournament-first_bout-2048x1152.png",
-    "final_bout": "bg/kanei-tournament-final_bout-2048x1152.png",
-    "empty_arena": "bg/kanei-tournament-empty_arena-2048x1152.png"
+  {
+   "role": "柳生十兵衛",
+   "actor": "rei_kimono",
+   "costume": "default"
   },
-  "steps": [
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『寛永御前試合』。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "講談の一席を、全五景でお届けします。",
-      "mouth": "open",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "この舞台の核は「強さは勝った数でなく、刃を止める判断にも現れる」。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "台詞はすべて今夜のための書き下ろしです。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "それでは、幕を開けましょう。",
-      "mouth": "open",
-      "eyes": "joy"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "castle_arena",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "castle_arena"
-    },
-    {
-      "op": "nar",
-      "text": "第1景「江戸城の試合場」。諸国の剣豪が将軍御前の試合へ集まる。"
-    },
-    {
-      "op": "show",
-      "actor": "rei_kimono",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "iwao",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "「江戸城の試合場」へ来た。諸国の剣豪が将軍御前の試合へ集まる。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "ここで黙れば、誰かが代わりに意味を決める。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "私が守りたいのは「強さは勝った数でなく、刃を止める判断にも現れる」だ。",
-      "eyes": "anger"
-    },
-    {
-      "op": "nar",
-      "text": "江戸城の試合場の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "守るという言葉が、誰かの犠牲を隠していないか。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "過去は変えられない。だが次の手は選べる。"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。諸国の剣豪が将軍御前の試合へ集まる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "諸国の剣豪が将軍御前の試合へ集まる。その事実から目をそらさない。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "恐れを消すのではなく、恐れたまま進もう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "私の名ではなく、行いで答えを残す。",
-      "eyes": "normal"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "その答えを、次の場面まで持って行こう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "ここで決める。逃げず、相手の声を聞く。",
-      "eyes": "anger"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "ならば私も、その決断の重さを分け合う。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_kimono"
-    },
-    {
-      "op": "hide",
-      "actor": "iwao"
-    },
-    {
-      "op": "bg",
-      "src": "waiting_room",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "waiting_room"
-    },
-    {
-      "op": "nar",
-      "text": "第2景「剣豪の控え」。流派と名声を背負う者たちが互いの間合いを測る。"
-    },
-    {
-      "op": "show",
-      "actor": "extra_porter",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elder",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "extra_porter",
-      "text": "「剣豪の控え」へ来た。流派と名声を背負う者たちが互いの間合いを測る。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "ここで黙れば、誰かが代わりに意味を決める。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "extra_porter",
-      "text": "私が守りたいのは「強さは勝った数でなく、刃を止める判断にも現れる」だ。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "剣豪の控えの空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "extra_porter",
-      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-      "eyes": "surprise",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "過去は変えられない。だが次の手は選べる。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。流派と名声を背負う者たちが互いの間合いを測る。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_porter",
-      "text": "流派と名声を背負う者たちが互いの間合いを測る。その事実から目をそらさない。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "恐れを消すのではなく、恐れたまま進もう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "extra_porter",
-      "text": "私の名ではなく、行いで答えを残す。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "その答えを、次の場面まで持って行こう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "extra_porter",
-      "text": "ここで決める。逃げず、相手の声を聞く。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "ならば私も、その決断の重さを分け合う。",
-      "eyes": "fun"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_porter"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elder"
-    },
-    {
-      "op": "bg",
-      "src": "first_bout",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "first_bout"
-    },
-    {
-      "op": "nar",
-      "text": "第3景「第一の立合い」。派手な技より一歩の読み合いが勝負を決める。"
-    },
-    {
-      "op": "show",
-      "actor": "rei_kimono",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "iwao",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "「第一の立合い」へ来た。派手な技より一歩の読み合いが勝負を決める。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "ここで黙れば、誰かが代わりに意味を決める。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "私が守りたいのは「強さは勝った数でなく、刃を止める判断にも現れる」だ。",
-      "eyes": "fun"
-    },
-    {
-      "op": "nar",
-      "text": "第一の立合いの空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "守るという言葉が、誰かの犠牲を隠していないか。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "過去は変えられない。だが次の手は選べる。"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。派手な技より一歩の読み合いが勝負を決める。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "派手な技より一歩の読み合いが勝負を決める。その事実から目をそらさない。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "恐れを消すのではなく、恐れたまま進もう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "私の名ではなく、行いで答えを残す。",
-      "eyes": "anger"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "その答えを、次の場面まで持って行こう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "ここで決める。逃げず、相手の声を聞く。",
-      "eyes": "fun"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "ならば私も、その決断の重さを分け合う。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_kimono"
-    },
-    {
-      "op": "hide",
-      "actor": "iwao"
-    },
-    {
-      "op": "bg",
-      "src": "final_bout",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "final_bout"
-    },
-    {
-      "op": "nar",
-      "text": "第4景「最後の立合い」。勝てば相手を傷つける局面で刃を止めるか問われる。"
-    },
-    {
-      "op": "show",
-      "actor": "extra_porter",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elder",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "extra_porter",
-      "text": "「最後の立合い」へ来た。勝てば相手を傷つける局面で刃を止めるか問われる。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "ここで黙れば、誰かが代わりに意味を決める。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "extra_porter",
-      "text": "私が守りたいのは「強さは勝った数でなく、刃を止める判断にも現れる」だ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "最後の立合いの空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "extra_porter",
-      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-      "eyes": "closed",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "過去は変えられない。だが次の手は選べる。",
-      "eyes": "normal"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。勝てば相手を傷つける局面で刃を止めるか問われる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_porter",
-      "text": "勝てば相手を傷つける局面で刃を止めるか問われる。その事実から目をそらさない。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "恐れを消すのではなく、恐れたまま進もう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "extra_porter",
-      "text": "私の名ではなく、行いで答えを残す。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "その答えを、次の場面まで持って行こう。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "extra_porter",
-      "text": "ここで決める。逃げず、相手の声を聞く。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "ならば私も、その決断の重さを分け合う。",
-      "eyes": "crying"
-    },
-    {
-      "op": "choice",
-      "options": [
-        {
-          "text": "正面から問いかける",
-          "jump": "kanei-tournament_direct"
-        },
-        {
-          "text": "相手の話を最後まで聞く",
-          "jump": "kanei-tournament_listen"
-        }
-      ]
-    },
-    {
-      "op": "label",
-      "id": "kanei-tournament_direct"
-    },
-    {
-      "op": "say",
-      "actor": "extra_porter",
-      "text": "私は正面から問う。曖昧なまま次へは進まない。"
-    },
-    {
-      "op": "jump",
-      "to": "kanei-tournament_merge"
-    },
-    {
-      "op": "label",
-      "id": "kanei-tournament_listen"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "結論を急がず、相手が何を恐れているかまで聞こう。"
-    },
-    {
-      "op": "label",
-      "id": "kanei-tournament_merge"
-    },
-    {
-      "op": "nar",
-      "text": "選び方は違っても、二人は同じ核心へ戻ってくる。"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_porter"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elder"
-    },
-    {
-      "op": "bg",
-      "src": "empty_arena",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "empty_arena"
-    },
-    {
-      "op": "nar",
-      "text": "第5景「試合後の白砂」。名声より残った命と学びを数える。"
-    },
-    {
-      "op": "show",
-      "actor": "rei_kimono",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "iwao",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "「試合後の白砂」へ来た。名声より残った命と学びを数える。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "ここで黙れば、誰かが代わりに意味を決める。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "私が守りたいのは「強さは勝った数でなく、刃を止める判断にも現れる」だ。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "試合後の白砂の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "守るという言葉が、誰かの犠牲を隠していないか。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "過去は変えられない。だが次の手は選べる。"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。名声より残った命と学びを数える。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "名声より残った命と学びを数える。その事実から目をそらさない。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "恐れを消すのではなく、恐れたまま進もう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "私の名ではなく、行いで答えを残す。",
-      "eyes": "fun"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "その答えを、次の場面まで持って行こう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "ここで決める。逃げず、相手の声を聞く。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "ならば私も、その決断の重さを分け合う。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_kimono"
-    },
-    {
-      "op": "hide",
-      "actor": "iwao"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "物語はここまで。残った問いは「強さは勝った数でなく、刃を止める判断にも現れる」。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ご来場、ありがとうございました。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "end"
+  {
+   "role": "荒木又右衛門",
+   "actor": "iwao",
+   "costume": "default"
+  },
+  {
+   "role": "宮本武蔵",
+   "actor": "extra_porter",
+   "costume": "default"
+  },
+  {
+   "role": "将軍家光",
+   "actor": "extra_elder",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "castle_arena": "bg/kanei-tournament-castle_arena-2048x1152.png",
+  "waiting_room": "bg/kanei-tournament-waiting_room-2048x1152.png",
+  "first_bout": "bg/kanei-tournament-first_bout-2048x1152.png",
+  "final_bout": "bg/kanei-tournament-final_bout-2048x1152.png",
+  "empty_arena": "bg/kanei-tournament-empty_arena-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "寛永の世。三代将軍家光公は、たいそう剣術がお好きでした。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "講談『寛永御前試合』。諸国の名だたる剣客が、江戸城の白砂の上で、将軍の御前に技を競ったという物語です。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "史実ではありません。生きた年代の合わない剣豪たちが、講釈師の舌の上でだけ、一堂に会します。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "今夜は、そこからさらに自由に、三人の剣客の、勝ち負けの外の話を、こしらえてみました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "誰が勝ったかより、誰が、どこで刀を止めたか。どうぞ、その一瞬を、お見逃しなく。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "castle_arena",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "castle_arena"
+  },
+  {
+   "op": "nar",
+   "text": "江戸城、吹上の御庭。白砂を敷きつめた試合場。四方に幔幕が張られ、正面の高座に、将軍家光が座している。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "皆の者、大儀である。天下が治まって二十年余り。戦を知らぬ侍が、増えた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "刀は、床の間の飾りになりかけておる。……今日は、まことの剣とは何か、余の前で、見せてもらいたい。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "勝った者には、望みのままの褒美を取らす。負けた者を、余は、決して責めぬ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "柳生、但馬守は、来ておらぬのか。"
+  },
+  {
+   "op": "nar",
+   "text": "老臣が答えた。但馬守さまは、息子の試合は見ぬ、と仰せで、屋敷にこもっておられます、と。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "親心か。それとも、見れば口を出したくなるからか。……あの男らしい。",
+   "eyes": "fun"
+  },
+  {
+   "op": "nar",
+   "text": "控えの幔幕の陰から、三人の剣客が、それぞれの思いで、高座を見上げていた。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "柳生十兵衛三厳。将軍家剣術指南、柳生但馬守の嫡男でござる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "父の名に、泥は塗れぬ。……しかし、父の名だけで、白砂に立ちたくもない。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "父は、剣は人を殺す道具ではなく、人を活かす道具だと言う。活人剣、と。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "わしは、まだ、その意味が分からぬ。木刀で打たれれば痛い。真剣なら、死ぬ。それだけしか、知らぬ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "片目を失ったのは、幼いころの稽古でござる。父の木刀が、目に入った。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "それ以来、わしは、片方の目で、半分の世界を見て、剣を覚えた。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "荒木又右衛門。伊賀の鍵屋の辻で、ちと名を上げた男でござる。……噂ほどの者ではない。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "噂では、三十六人を斬ったことになっておる。噂は、わしより、よく働く。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "今は、鳥取の池田家で、若い者に稽古をつけておる。上さまのお声がかりで、引っ張り出された。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "年寄りを白砂に引き出すとは、上さまも、人が悪い。",
+   "eyes": "fun"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "宮本武蔵、と申す。……どこの家中にも仕えておらぬ。絵を描き、仏を彫り、ときどき、剣を振る。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "着物は、三日、替えておらぬ。風呂も、嫌いだ。……城の者が、鼻をつまんでおった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "六十余度の勝負に、一度も負けたことがない。……そう言われておるが、勝てぬ相手とは、立ち合わなかっただけのこと。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "bg",
+   "src": "waiting_room",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "waiting_room"
+  },
+  {
+   "op": "nar",
+   "text": "控えの間。三人は、離れて座り、それぞれ、刀の手入れをしている。障子越しに、白砂の照り返しが入ってくる。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "武蔵どの、お目にかかれて光栄でござる。父が、よく、あなたの話をしておりました。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "但馬守どのが、わしの話を。……悪口であろう。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "半分は。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "正直な若者だ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "武蔵どの、巌流島では、櫂を削って、木刀にしたと聞いた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "舟の上で、暇だったのでな。……佐々木小次郎どのの物干し竿より、一尺長く削った。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "刀の長さで、勝ったと。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "刀の長さと、時刻と、日の向きで。……わしは、遅れて行った。小次郎どのは、待ちくたびれて、鞘を、浜に投げ捨てた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "勝った。だが、あれ以来、わしは、勝つことの、意味が、よく分からなくなった。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "武蔵どのほどの方が、勝つ意味を見失われるとは。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "意味が、分からぬ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "吉岡一門とも戦った。七十人を相手に、一乗寺下り松で。……先頭にいたのは、まだ十二の子どもであった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "わしは、その子を、最初に斬った。名目人を倒せば、一門は崩れる。理屈は、正しかった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "勝てば、相手は、そこで終わる。終わった相手からは、何も学べぬ。……学べるのは、負けた者のほうだ。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "武蔵が、庭に出た。十兵衛と又右衛門は、二人きりになった。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "十兵衛どの、そなた、白砂の上で、父上の目を、気にしておられるな。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……分かりますか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "刀の握りが、硬い。人に見られている者の握りだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "父は、将軍家の指南役。わしが負ければ、柳生の剣が負けたことになる。……一人の負けでは、すまぬのです。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "わしも、そういう重さを、四年、背負っておった。義弟の仇討ちの助太刀で。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "背負った重さは、捨てられぬ。だが、背負い方は、変えられる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "背負い方。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "前に抱えれば、足元が見えぬ。背中に回せば、前が見える。……それだけのことだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "荒木どのは、仇討ちのとき、何を背負っておられたのです。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "義弟の弟の命と、義弟の恐れと、わしの意地だ。……鍵屋の辻で、意地だけ、置いてきた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……荒木どの、第一の立合いは、あなたとでござる。手加減は、無用に願いたい。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "もとより、そのつもり。手加減するほど、わしは器用ではない。",
+   "eyes": "fun"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "bg",
+   "src": "first_bout",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "first_bout"
+  },
+  {
+   "op": "nar",
+   "text": "白砂の上。十兵衛と又右衛門が、木刀を構えて向かい合う。審判役の老臣が、扇を上げる。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "right"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "扇が下りた。だが、二人とも、動かなかった。白砂の上に、長い沈黙が落ちた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……動けぬ。どこへ打ち込んでも、木刀が、そこで待っている気がする。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "二人とも、動かぬか。……退屈な試合よのう。"
+  },
+  {
+   "op": "nar",
+   "text": "高座の家光が、扇で膝を打った。幔幕の陰の武蔵だけが、身を乗り出して、白砂を見つめていた。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "若い者は、待てぬものだ。待てぬ者は、自分から崩れる。……だが、この若者は、待っておる。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "若いのに、隙がない。……ならば、こちらから、隙を見せてみるか。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "又右衛門は、わずかに、左足を引いた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "誘いか。……誘いと分かって、乗るか、乗らぬか。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "十兵衛は、誘いに乗って、一気に踏み込む",
+     "jump": "m_jump"
+    },
+    {
+     "text": "十兵衛は、誘いに乗らず、半歩だけ下がる",
+     "jump": "m_back"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_jump"
+  },
+  {
+   "op": "nar",
+   "text": "十兵衛は、踏み込んだ。又右衛門の木刀が、それを待って、横から払った。十兵衛は、払われながら、さらに半歩、踏み込んだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "二つ目の誘いが、あると思った。……だから、もう半歩。"
+  },
+  {
+   "op": "jump",
+   "to": "m_bout"
+  },
+  {
+   "op": "label",
+   "id": "m_back"
+  },
+  {
+   "op": "nar",
+   "text": "十兵衛は、半歩、下がった。又右衛門の木刀の先が、空を切った。そのわずかな間に、十兵衛の木刀が、伸びた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "下がるのも、踏み込むうちだと、父に教わりました。"
+  },
+  {
+   "op": "label",
+   "id": "m_bout"
+  },
+  {
+   "op": "nar",
+   "text": "十兵衛の木刀の先が、又右衛門の小手の、紙一枚手前で、止まった。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……風が、止まった。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "参った。木刀が、当たる前に、わしの手が、止まっておった。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "荒木どの、あなたも、最後の一瞬、木刀を引かれた。わたしの面を、打てたはずなのに。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "さあ、どうかな。年寄りの手は、遅いのだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "当てなかったのは、わざとではありませぬ。当てると、あなたが、次の立合いに出られぬと思った。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "それを、わざと、と言うのだ。……若い者が、勝つ前に、相手の明日を考えるか。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "一本、十兵衛。……又右衛門、よう、木刀を引いた。打ち返せば、相打ちであったろう。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "上さま、相打ちは、どちらも、明日がない打ち方でござる。わしは、もう、そういう剣は、振りたくない。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "次の立合いまでの間。十兵衛は、白砂の端で、息を整えている。武蔵が、近づいてきた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "見事だった。……いや、見事に、止めた、と言うべきか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "武蔵どの。次は、あなたとでございます。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "上さまは、次は、真剣でと、仰せになった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "真剣……！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "木刀の勝負では、本当の強さは分からぬ、と。……天下泰平の将軍は、血を見たことがないのだ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "武蔵どのは、どうされます。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "上さまは、血が見たいのでしょうか。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "見たいのではない。知らぬのだ。知らぬ者は、知りたがる。……戦場を知る者は、二度と見たいとは言わぬ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "断ることもできる。……だが、断れば、そなたが不戦勝になる。それも、そなたには、つらかろう。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……はい。勝たずに勝つのは、負けるより、つらい。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "そなたの父上は、良い息子を持った。……では、明日の剣を、今日、使い切らぬように。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "bg",
+   "src": "final_bout",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "final_bout"
+  },
+  {
+   "op": "nar",
+   "text": "白砂の上。陽が傾き、影が長い。十兵衛と武蔵が、真剣を抜いて、向かい合う。幔幕の内に、ざわめきが広がる。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "十兵衛どの、わしの刀は、二本だ。……驚かぬのだな。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "二天一流。父から、聞いております。……二本の刀で、天と地を、同時に斬る、と。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "父上は、大げさだ。片方は、落とさぬように、持っておるだけさ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "nar",
+   "text": "武蔵は、二本の刀を、だらりと下げた。構えとも言えない、構えだった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……隙だらけに見える。だが、どこへ斬り込んでも、二本のうち、どちらかが、そこにある。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "高座から、家光の声が飛んだ。武蔵、それは構えか、眠っておるように見えるぞ、と。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "上さま、眠っておるのは、刀でございます。起こすのは、相手でございます。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "片目のわしには、片方の刀しか見えぬ。……ならば、見えぬほうを、信じるしかない。"
+  },
+  {
+   "op": "nar",
+   "text": "十兵衛が、踏み込んだ。武蔵の右の刀が、それを受けた。左の刀が、十兵衛の首筋へ、走った。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "right"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "刃が、十兵衛の首の、皮一枚の手前で、止まった。同時に、十兵衛の刀の切っ先も、武蔵の胸元で、止まっていた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……動くな、十兵衛どの。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……武蔵どのこそ。"
+  },
+  {
+   "op": "nar",
+   "text": "二人は、そのまま、息を止めて、動かなかった。白砂の上に、夕陽が、赤く伸びた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "勝負は、どうした。……どちらが、勝った。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "上さま、わしの刀が、先に、十兵衛どのの首に届きました。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "いえ、わたしの刀が、先に、武蔵どのの胸に。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……どちらも、刃を、止めたのか。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "審判の老臣は、扇を上げたまま、下ろせなかった。どちらに上げればよいのか、分からなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "斬れば、ここで、どちらかが死ぬ。止めれば、二人とも、明日、また剣を振れる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "上さま、わしは、六十余度、勝ってまいりました。今日、初めて、勝たずに、刀を引きました。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "わたしは、柳生の名のために、勝たねばならぬと思っておりました。……ですが、刃を止めた瞬間、父の顔が、浮かばなかった。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "浮かんだのは、武蔵どのが、明日、どこかで、絵を描いている姿でした。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "武蔵、そなたも、明日のことを考えたのか。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……鷺の絵を、描こうと思っておった。枯れ木の枝に、一羽で、とまっておる鷺を。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "bg",
+   "src": "empty_arena",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "empty_arena"
+  },
+  {
+   "op": "nar",
+   "text": "日が暮れた。試合場には、誰もいない。白砂の上に、足跡だけが、いくつも残っている。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "余は、剣とは、斬るものだと思うておった。……今日、止めるものでもあると、知った。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "余の父も、祖父も、戦で天下を取った。余は、戦を知らずに、天下を受け取った。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "白砂の上に、血が流れるのを見たいと思うた。……恥ずかしいことを、思うたものだ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "天下泰平の世の剣は、斬らずに済ませる剣でなくてはならぬのかもしれぬ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "家光は、三人に、等しく褒美を与えた。十兵衛には、以後、勝手に旅に出ることを、許した。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "十兵衛どの、旅に出られるのか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "父の名の届かぬところで、剣を振ってみたいのです。……誰も、わしを、柳生の子と知らぬところで。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "よい旅になろう。わしも、若いころは、そうだった。……ただ、わしは、勝ちすぎた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "勝つたびに、友が減った。斬った相手は、もう、わしの話を聞いてくれぬ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "吉岡の子どもの顔を、わしは、今でも、夢に見る。……あれを、勝ちと呼ぶのは、もうやめた。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "わしは、仇討ちのあとで、そのことを知った。……勝ったはずなのに、何かを、四年分、失くしておった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "今日は、誰も、何も、失くしませんでした。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "上さまの、真剣勝負の楽しみ以外は、な。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "それは、上さまに、我慢していただこう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "帰ったら、父に、何と言いましょう。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "勝ったとも、負けたとも、言わぬことだ。止めた、とだけ言えばいい。……父上なら、それで分かる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "活人剣か。……但馬守どのの言葉が、今日、白砂の上で、少しだけ、本当になった。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "夜。武蔵は、白砂の上に、ひとり残って、筆で、地面に、何かを描いていた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "鷺だ。……一羽で、枯れ枝に、とまっておる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "剣を振るより、筆を持つほうが、震える。斬る相手がおらぬから、自分の心が、そのまま出る。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "斬らぬ強さ、というものがあるのなら。……わしは、それを、ずいぶん遠回りして、知った。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "夜風が、白砂の絵を、ゆっくりと、消していった。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "寛永御前試合、刃を止めた二人の剣豪のお話、これにてお開きでございます。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "一つ目の立合いでは木刀が、二つ目では真剣が、相手の、紙一枚手前で止まりました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "勝ち負けの数は、講談の中では、いくらでも盛れます。けれど、止めた一瞬は、盛りようがありません。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "刃を振るうより、止めるほうが難しい。……それは、剣に限ったことでは、ないのかもしれませんね。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

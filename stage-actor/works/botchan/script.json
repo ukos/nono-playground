@@ -5,9 +5,9 @@
   "original": "夏目漱石『坊っちゃん』（著作権消滅）",
   "adaptation": "moderate",
   "format": "v3",
-  "minutes": 25,
+  "minutes": 18,
   "synopsis": "全六景で原作の主要な運動をたどりながら、無鉄砲な正義を、他者への責任へ育てることを中心に再構成する。第五景で観客が人物の姿勢を選び、分岐は終幕前に合流する。",
-  "note": "本脚本は著作権の消滅した原作からの翻案であり、既存の翻訳・上演台本は使用していない。セリフは全て本上演版の書き下ろし。"
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
  },
  "cast": [
   {
@@ -67,28 +67,22 @@
   {
    "op": "say",
    "actor": "nono",
-   "text": "ようこそ、NONO座へ。本日の演目は『坊っちゃん』。",
-   "eyes": "normal"
+   "text": "「親譲りの無鉄砲で、小供の時から損ばかりしている」。夏目漱石『坊っちゃん』の、有名な書き出しです。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "この舞台が見つめるのは、無鉄砲な正義を、他者への責任へ育てること。",
-   "eyes": "sorrow",
-   "mouth": "open"
+   "text": "二階から飛び降りて腰を抜かし、ナイフで指を切って見せる。そんな江戸っ子が、四国の中学校の先生になります。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "古い物語を借りながら、台詞はすべて今夜のための書き下ろしです。",
-   "eyes": "normal"
+   "text": "曲がったことが大嫌い。だから、曲がった大人たちと、ぶつかってばかり。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "それでは、幕を開けましょう。",
-   "eyes": "joy",
-   "mouth": "open"
+   "text": "正しいと思ったら、まっすぐ突っ込む。その先に何があるか、見届けてください。"
   },
   {
    "op": "hide",
@@ -105,7 +99,7 @@
   },
   {
    "op": "nar",
-   "text": "第1景「清との別れ」。明治の東京の小さな家。玄関、古い箪笥、旅支度。"
+   "text": "東京、新橋の駅。汽車を待つ若い教師と、年老いた女中の清。"
   },
   {
    "op": "show",
@@ -115,59 +109,70 @@
   {
    "op": "show",
    "actor": "extra_elf",
-   "pos": "center"
-  },
-  {
-   "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "四国だろうが月だろうが、教師なら飯は食える。",
-   "eyes": "normal"
+   "pos": "right"
   },
   {
    "op": "say",
    "actor": "extra_elf",
-   "text": "乱暴でも、あなたは卑怯だけはしない人です。",
+   "text": "坊っちゃん、四国はずいぶん遠いそうですね。お土産は、越後の笹飴がいいです。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "越後は反対方向だよ、清。四国だろうが月だろうが、教師なら飯は食える。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "坊っちゃんは、まっすぐでいいご気性です。乱暴でも、卑怯だけはしない人です。",
    "eyes": "joy"
   },
   {
    "op": "say",
    "actor": "rei_casual",
-   "text": "今の言葉を、聞かなかったことにはできない。",
-   "eyes": "sorrow"
+   "text": "褒めるなよ。帰れなくなるじゃないか。"
   },
   {
    "op": "say",
    "actor": "extra_elf",
-   "text": "褒めるなよ。帰れなくなるじゃないか。",
-   "eyes": "surprise"
+   "text": "帰る場所は残しておきます。だから、胸を張って行きなさい。"
   },
   {
    "op": "say",
    "actor": "rei_casual",
-   "text": "帰る場所は残しておきます。だから胸を張って行きなさい。",
-   "eyes": "anger"
-  },
-  {
-   "op": "say",
-   "actor": "extra_elf",
-   "text": "なら、次の一歩で確かめよう。",
-   "eyes": "fun"
-  },
-  {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "私は、無鉄砲な正義を、他者への責任へ育てることを忘れずに選ぶ。",
+   "text": "親にも兄貴にも好かれなかった。俺を本気でかわいがってくれたのは、清だけだ。",
    "eyes": "closed"
   },
   {
    "op": "say",
    "actor": "extra_elf",
-   "text": "その選択の重さを、次の場面まで持って行こう。",
-   "eyes": "crying"
+   "text": "坊っちゃん、手紙をくださいね。字が下手でもかまいません。清は、坊っちゃんの字なら読めます。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "手紙は苦手だ。……でも、書く。下宿が決まったら、一番に書く。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "向こうで、悪い人に騙されませんように。坊っちゃんは、人を疑うのが下手だから。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "疑うのは下手でも、嘘を見抜くのは得意だ。安心しろ。"
+  },
+  {
+   "op": "nar",
+   "text": "汽車が動き出した。窓から振り返ると、清はいつまでも、ホームに小さく立っていた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "清の目が、少し濡れていた。俺の目も、少し、煤が入ったらしい。",
+   "eyes": "closed"
   },
   {
    "op": "hide",
@@ -188,7 +193,7 @@
   },
   {
    "op": "nar",
-   "text": "第2景「新任教師」。明治の地方中学校。木造校舎、黒板、整列した机。"
+   "text": "四国の中学校。職員室には、変わった先生ばかりがそろっている。"
   },
   {
    "op": "show",
@@ -197,65 +202,95 @@
   },
   {
    "op": "show",
-   "actor": "extra_craftsman",
+   "actor": "nibulus",
    "pos": "center"
   },
   {
    "op": "show",
-   "actor": "nibulus",
+   "actor": "iwao",
    "pos": "right"
   },
   {
-   "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "生徒は俺を天ぷら先生と呼ぶ。食べた物まで授業になるのか。",
-   "eyes": "joy"
-  },
-  {
-   "op": "say",
-   "actor": "extra_craftsman",
-   "text": "からかいに腹を立てるな。だが嘘を教える大人には怒れ。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "答えはまだ一つに決められない。",
-   "eyes": "surprise"
-  },
-  {
    "op": "say",
    "actor": "nibulus",
-   "text": "東京者は反応が派手で、観察しがいがありますねえ。",
-   "eyes": "anger"
-  },
-  {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "人を笑う暇があるなら、答案の一枚でも読め。",
+   "text": "いやあ、東京の方。お若い。お元気。……東京者は、反応が派手で、観察しがいがありますねえ。",
    "eyes": "fun"
   },
   {
    "op": "say",
-   "actor": "extra_craftsman",
-   "text": "迷いを抱えたままでも、進むことはできる。",
-   "eyes": "closed"
+   "actor": "rei_casual",
+   "text": "人を笑う暇があるなら、答案の一枚でも読め。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "教頭の私は、文学士でしてね。いつも赤いシャツを着ています。赤は体にいいそうで。"
   },
   {
    "op": "say",
    "actor": "rei_casual",
-   "text": "私は、無鉄砲な正義を、他者への責任へ育てることを忘れずに選ぶ。",
-   "eyes": "crying"
+   "text": "心の中で「赤シャツ」と名付けた。こっちの太鼓持ちは「野だいこ」だ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "君、教師というものは、生徒の模範でなければなりません。言葉遣いも、身なりも。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "俺は、べらんめえで育った。急に丁寧には、なれません。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "なれますよ。私も昔は、田舎者でしたから。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "教頭先生は、本当に、人格者でいらっしゃいますなあ。"
+  },
+  {
+   "op": "hide",
+   "actor": "nibulus"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "show",
+   "actor": "extra_craftsman",
+   "pos": "right"
   },
   {
    "op": "say",
    "actor": "extra_craftsman",
-   "text": "その選択の重さを、次の場面まで持って行こう。",
-   "eyes": "normal"
+   "text": "数学の主任の堀田だ。生徒は、俺のことを山嵐と呼ぶ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……あんたとは、なんだか気が合いそうだ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "下宿は決まったか。骨董屋の二階なら空いている。主人が、やたらと掛け軸を売りつけてくるがな。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "掛け軸はいらない。屋根と布団があれば十分だ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "江戸っ子は、話が早くていい。",
+   "eyes": "fun"
   },
   {
    "op": "hide",
@@ -266,8 +301,108 @@
    "actor": "extra_craftsman"
   },
   {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "nar",
+   "text": "黒板に大きく、「天麩羅先生」と書いてあった。昨夜、町の店で天ぷらそばを四杯食べたのを、生徒に見られていた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "生徒は俺を天ぷら先生と呼ぶ。食べた物まで、授業になるのか。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "宿直の夜には、布団の中に、イナゴが五十匹ほど入れられていた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "誰だ、こんなことをした奴は！　名乗り出ろ！",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "謝れば許す。黙っているのが、いちばん卑怯だ。"
+  },
+  {
+   "op": "nar",
+   "text": "寄宿舎の廊下で、生徒たちは、どんどんと床を踏み鳴らしてから、しんと静まり返った。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "踏み鳴らしたのは誰だ。……寝たふりをするな。いびきが、下手すぎる。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "いたずらしたなら、したと言え。言わないなら、それは、いたずらじゃない。卑怯だ。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_craftsman",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "からかいに腹を立てるな。だが、嘘を教える大人には怒れ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "生徒のいたずらより、黙って見ている先生たちのほうが、よほど気に食わない。"
+  },
+  {
+   "op": "nar",
+   "text": "職員会議。生徒の処分をめぐって、赤シャツは長々と、穏便に、と繰り返した。"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "生徒も若気の至り。ここは寛大に、教育的配慮をもって……。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "寛大と、ずるずるは違う。悪いことをしたなら、悪いと言ってやるのが教育だ。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "坊っちゃんの言うとおりだ。罰は軽くていい。だが、謝らせろ。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……多数決にしましょう。",
+   "eyes": "closed"
+  },
+  {
    "op": "hide",
-   "actor": "nibulus"
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_craftsman"
   },
   {
    "op": "bg",
@@ -280,7 +415,7 @@
   },
   {
    "op": "nar",
-   "text": "第3景「温泉町」。夕方の温泉街。石畳、湯けむり、赤い提灯。"
+   "text": "温泉町。湯上がりの坊っちゃんが、団子屋の前を通りかかる。"
   },
   {
    "op": "show",
@@ -288,63 +423,105 @@
    "pos": "left"
   },
   {
-   "op": "show",
-   "actor": "iwao",
-   "pos": "center"
-  },
-  {
-   "op": "show",
-   "actor": "nibulus",
-   "pos": "right"
-  },
-  {
-   "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "温泉は毎日入る。赤い手ぬぐいを下げていたら、生徒に「赤手ぬぐい」と呼ばれた。"
   },
   {
    "op": "say",
    "actor": "rei_casual",
-   "text": "赤シャツ先生は丁寧だ。だから言葉の裏が余計に見えない。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "say",
-   "actor": "iwao",
-   "text": "学校には調和が必要です。正しさだけでは人は動きません。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "その理屈には、置き去りにされた声がある。",
-   "eyes": "anger"
-  },
-  {
-   "op": "say",
-   "actor": "nibulus",
-   "text": "調和の名で、都合の悪い者を追い出すのか。",
+   "text": "団子を二皿食べたら、翌日の黒板に「団子二皿七銭」。この町では、何も隠せない。",
    "eyes": "fun"
   },
   {
    "op": "say",
    "actor": "rei_casual",
-   "text": "若い先生、世の中は白黒だけでは疲れますよ。",
-   "eyes": "closed"
-  },
-  {
-   "op": "say",
-   "actor": "iwao",
-   "text": "誰のための決断か、もう一度考えよう。"
+   "text": "湯船で泳いだら、翌日、湯屋の壁に「湯の中で泳ぐべからず」と貼り紙だ。俺ひとりのための貼り紙らしい。"
   },
   {
    "op": "say",
    "actor": "rei_casual",
-   "text": "私は、無鉄砲な正義を、他者への責任へ育てることを忘れずに選ぶ。",
-   "eyes": "normal"
+   "text": "小さな町は、窮屈だ。でも、温泉は、いい湯だ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "right"
   },
   {
    "op": "say",
    "actor": "iwao",
-   "text": "その選択の重さを、次の場面まで持って行こう。"
+   "text": "坂の上のうらなり君が、遠くの学校へ転任になるそうです。家の事情とかで。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "うらなり君が？　あんなおとなしい人が、なぜ急に。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "本人の希望ですよ。学校には調和が必要です。正しさだけでは、人は動きません。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "赤シャツ先生は丁寧だ。だから、言葉の裏が余計に見えない。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "温泉の帰り道、色の白い、背の高い女性が、坊っちゃんの前を通り過ぎた。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……あなたが、東京から来た新しい先生ね。うらなりさんの転任のこと、何か聞いていらっしゃる？"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "いや、何も。あんたは。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "何も聞いていらっしゃらないなら、いいの。皆さん、私の前では、何も話してくださらないから。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "あんたが、マドンナとかいう人か。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "そう呼ばれるのも、もう嫌。私には、ちゃんと名前があるのに。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "名前で呼ばれないのは、気分が悪いよな。俺も、天ぷら先生と呼ばれている。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……少しだけ、笑ってしまいました。失礼。",
+   "eyes": "joy"
   },
   {
    "op": "hide",
@@ -352,11 +529,7 @@
   },
   {
    "op": "hide",
-   "actor": "iwao"
-  },
-  {
-   "op": "hide",
-   "actor": "nibulus"
+   "actor": "akane"
   },
   {
    "op": "bg",
@@ -369,7 +542,7 @@
   },
   {
    "op": "nar",
-   "text": "第4景「うらなりの転任」。川辺の柳。遠くに学校、曇天、荷造りの車。"
+   "text": "川沿いの土手。夕暮れの道で、山嵐と坊っちゃんが話している。"
   },
   {
    "op": "show",
@@ -378,8 +551,85 @@
   },
   {
    "op": "show",
+   "actor": "extra_craftsman",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "うらなり君には、婚約者がいた。町一番の美人の、マドンナと呼ばれるお嬢さんだ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "そのマドンナに、赤シャツが目をつけた。邪魔なうらなり君を、遠くへ飛ばしたというわけだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "うらなり君の転任は、誰かの恋の都合で決まったのか。",
+   "eyes": "anger"
+  },
+  {
+   "op": "show",
    "actor": "akane",
    "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "私を賞品のように扱う噂も、もうたくさんです。私の気持ちは、誰も聞いてくれない。"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "今すぐ赤シャツの家へ行って、一発殴ってくる。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "待て。証拠なしに殴れば、こちらが悪者になる。見張ろう。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "曲がったことを正すなら、まっすぐな手順も要るんだな。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "俺は、前はお前を誤解していた。赤シャツに、お前の悪口を吹き込まれてな。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "俺も、あんたに氷水をおごってもらった一銭五厘を、返さなきゃと思ってた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "一銭五厘か。……律儀な奴だ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_craftsman"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "left"
   },
   {
    "op": "show",
@@ -388,67 +638,58 @@
   },
   {
    "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+   "text": "学校では、生徒同士の喧嘩に、山嵐が巻き込まれた。その責任を問われ、山嵐は辞職させられることになった。"
   },
   {
    "op": "say",
-   "actor": "rei_casual",
-   "text": "うらなり君の転任は、誰かの恋の都合で決まったのか。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "say",
-   "actor": "akane",
-   "text": "私を賞品のように扱う噂も、もうたくさんです。",
-   "eyes": "anger"
-  },
-  {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "恐れを隠しても、状況は変わらない。",
-   "eyes": "fun"
+   "actor": "iwao",
+   "text": "喧嘩の仲裁に入ったのに、新聞には首謀者のように書かれましてね。残念です。"
   },
   {
    "op": "say",
    "actor": "extra_craftsman",
-   "text": "証拠なしに殴れば、こちらが悪者になる。見張ろう。",
+   "text": "新聞に書かせたのは、誰だ。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "さあ。噂というのは、羽が生えていますから。",
+   "eyes": "fun"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "その羽をつけたのは、あんたじゃないのか。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "証拠のないことを言うと、君の評判に傷がつきますよ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "坊っちゃん、今は引け。辞表を出す前に、やることがある。",
    "eyes": "closed"
   },
   {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "曲がったことを正すなら、まっすぐな手順も要るんだな。",
-   "eyes": "crying"
-  },
-  {
-   "op": "say",
-   "actor": "akane",
-   "text": "恐れを言葉にした今なら、選び直せる。",
-   "eyes": "normal"
-  },
-  {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "私は、無鉄砲な正義を、他者への責任へ育てることを忘れずに選ぶ。",
-   "eyes": "joy"
-  },
-  {
-   "op": "say",
-   "actor": "akane",
-   "text": "その選択の重さを、次の場面まで持って行こう。",
-   "eyes": "sorrow"
-  },
-  {
    "op": "hide",
-   "actor": "rei_casual"
-  },
-  {
-   "op": "hide",
-   "actor": "akane"
+   "actor": "iwao"
   },
   {
    "op": "hide",
    "actor": "extra_craftsman"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
   },
   {
    "op": "bg",
@@ -461,7 +702,7 @@
   },
   {
    "op": "nar",
-   "text": "第5景「芸者宿の裏口」。夜の料理屋裏口。格子戸、雨樋、濡れた路地。"
+   "text": "芸者宿の裏口。夜更け、山嵐と坊っちゃんが、物陰に隠れている。"
   },
   {
    "op": "show",
@@ -471,132 +712,122 @@
   {
    "op": "show",
    "actor": "extra_craftsman",
-   "pos": "center"
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "赤シャツは、マドンナの話をしておきながら、毎晩この宿で芸者遊びをしている。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "見たぞ。立派な演説のあとで、隠れて遊ぶ姿を。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "言葉と行いが違う。その一点を、逃すな。"
+  },
+  {
+   "op": "nar",
+   "text": "宿の戸が開き、赤シャツと野だいこが、上機嫌で出てきた。"
   },
   {
    "op": "show",
    "actor": "iwao",
-   "pos": "right"
-  },
-  {
-   "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "見たぞ。立派な演説のあとで、隠れて遊ぶ姿を。",
-   "eyes": "anger"
-  },
-  {
-   "op": "say",
-   "actor": "extra_craftsman",
-   "text": "言葉と行いが違う。その一点を逃すな。",
-   "eyes": "fun"
-  },
-  {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "正しさだけでは、人の痛みを量れない。",
-   "eyes": "closed"
+   "pos": "center"
   },
   {
    "op": "say",
    "actor": "iwao",
-   "text": "私生活を嗅ぎ回るとは、教育者の品位が疑われます。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "品位は看板じゃない。誰も見ていない時の振る舞いだ。",
-   "eyes": "normal"
-  },
-  {
-   "op": "say",
-   "actor": "extra_craftsman",
-   "text": "だから事実と心の両方を見よう。",
-   "eyes": "joy"
-  },
-  {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "私は、無鉄砲な正義を、他者への責任へ育てることを忘れずに選ぶ。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "say",
-   "actor": "extra_craftsman",
-   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "text": "な、なんですか、あなた方は。私生活を嗅ぎ回るとは、教育者の品位が疑われます。",
    "eyes": "surprise"
   },
   {
-   "op": "nar",
-   "text": "ここで舞台は一瞬静まり、観客の選択が人物の心の向きを変える。"
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "品位は看板じゃない。誰も見ていない時の振る舞いだ。"
   },
   {
    "op": "choice",
    "options": [
     {
-     "text": "不正を人前で暴く",
-     "jump": "route_a"
+     "text": "坊っちゃんは、その場で赤シャツを殴る",
+     "jump": "m_hit"
     },
     {
-     "text": "証拠を校長へ提出する",
-     "jump": "route_b"
+     "text": "坊っちゃんは、殴らずに辞表を突きつける",
+     "jump": "m_quit"
     }
    ]
   },
   {
    "op": "label",
-   "id": "route_a"
+   "id": "m_hit"
   },
   {
    "op": "say",
    "actor": "rei_casual",
-   "text": "私は『不正を人前で暴く』道を選ぶ。",
-   "eyes": "joy"
-  },
-  {
-   "op": "say",
-   "actor": "extra_craftsman",
-   "text": "その決断なら、結果まで自分の言葉で引き受けて。",
-   "eyes": "normal"
-  },
-  {
-   "op": "set",
-   "flag": "f_route_a"
-  },
-  {
-   "op": "jump",
-   "to": "merge_choice"
-  },
-  {
-   "op": "label",
-   "id": "route_b"
-  },
-  {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "私は『証拠を校長へ提出する』道を選ぶ。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "say",
-   "actor": "extra_craftsman",
-   "text": "違う道でも、守るべきものを見失わないで。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "set",
-   "flag": "f_route_b"
-  },
-  {
-   "op": "label",
-   "id": "merge_choice"
+   "text": "うらなり君の分と、山嵐の分だ！",
+   "eyes": "anger",
+   "mouth": "open"
   },
   {
    "op": "nar",
-   "text": "選択の余韻を抱えたまま、物語は同じ終幕へ向かう。"
+   "text": "坊っちゃんは赤シャツを、山嵐は野だいこを、拳と、生卵で、さんざんにこらしめた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "これで、すっきりした。……あとは、正々堂々、辞表だ。"
+  },
+  {
+   "op": "jump",
+   "to": "m_after"
+  },
+  {
+   "op": "label",
+   "id": "m_quit"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "殴る価値もない。俺は、こんな学校は辞める。辞表は、明日、校長に出す。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "俺もだ。証拠は、ちゃんと校長に渡してから辞めよう。"
+  },
+  {
+   "op": "label",
+   "id": "m_after"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……ご自由に。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "すっきりしたか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "ちっとも。殴っても、うらなり君は戻ってこない。マドンナも、自分の名前で呼ばれるようにはならない。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "それでも、黙っていたら、俺たちも赤シャツの仲間だった。"
   },
   {
    "op": "hide",
@@ -605,10 +836,6 @@
   {
    "op": "hide",
    "actor": "extra_craftsman"
-  },
-  {
-   "op": "hide",
-   "actor": "iwao"
   },
   {
    "op": "bg",
@@ -621,7 +848,78 @@
   },
   {
    "op": "nar",
-   "text": "第6景「東京への帰路」。朝の港。蒸気船、木箱、淡い水平線。"
+   "text": "東京へ戻る汽車の窓。四国の海が、遠ざかっていく。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_craftsman",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "教師は辞める。逃げじゃない。あの場所で、嘘に慣れないためだ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "無鉄砲は直らない。でも、一人で正義を決める癖は、お互い直したいな。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "それなら、四国で得たものは、給料より大きい。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "東京で会ったら、また天ぷらそばでも食おう。今度は、四杯までにしておけ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "山嵐、あんたは、これからどうする。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "会津へ帰って、しばらく畑でも耕す。曲がった大根は、許してやるつもりだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "大根なら、曲がってても、うまい。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "赤シャツは、これからも、ああいう顔で、教頭を続けるんだろうな。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "続ければいい。俺たちは、あの顔の前で、黙らなかった。それで十分だ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "五杯食べてやる。誰も黒板に書かないなら。",
+   "eyes": "fun"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_craftsman"
   },
   {
    "op": "show",
@@ -631,64 +929,40 @@
   {
    "op": "show",
    "actor": "extra_elf",
-   "pos": "center"
-  },
-  {
-   "op": "show",
-   "actor": "extra_craftsman",
    "pos": "right"
-  },
-  {
-   "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "教師は辞める。逃げではなく、あの場所で嘘に慣れないためだ。",
-   "eyes": "fun"
   },
   {
    "op": "say",
    "actor": "extra_elf",
-   "text": "戻ったら、今度は考えてから飛び出してください。",
+   "text": "坊っちゃん、お帰りなさい。ずいぶん早く帰ってきましたね。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "清、また一緒に暮らそう。街鉄の技手になった。月給は、前より少ないけど。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "戻ったら、今度は考えてから飛び出してください。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……清は、その翌年、肺炎で死んだ。坊っちゃんのお寺へ埋めてくれと、最後に言ったそうだ。",
    "eyes": "closed"
   },
   {
    "op": "say",
    "actor": "rei_casual",
-   "text": "ここで黙れば、同じことが繰り返される。",
-   "eyes": "crying"
-  },
-  {
-   "op": "say",
-   "actor": "extra_craftsman",
-   "text": "無鉄砲は直らない。でも一人で正義を決める癖は直したい。",
-   "eyes": "normal"
+   "text": "だから清の墓は、小日向の養源寺にある。"
   },
   {
    "op": "say",
    "actor": "rei_casual",
-   "text": "それなら四国で得たものは、給料より大きい。",
-   "eyes": "joy"
-  },
-  {
-   "op": "say",
-   "actor": "extra_elf",
-   "text": "言葉にした責任を、次の場面へ持って行こう。",
+   "text": "越後の笹飴、結局、買ってやれなかった。",
    "eyes": "sorrow"
-  },
-  {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "私は、無鉄砲な正義を、他者への責任へ育てることを忘れずに選ぶ。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "say",
-   "actor": "extra_elf",
-   "text": "その選択の重さを、次の場面まで持って行こう。",
-   "eyes": "anger"
   },
   {
    "op": "hide",
@@ -699,17 +973,8 @@
    "actor": "extra_elf"
   },
   {
-   "op": "hide",
-   "actor": "extra_craftsman"
-  },
-  {
    "op": "bg",
-   "src": "return",
-   "mode": "full"
-  },
-  {
-   "op": "bg",
-   "src": "return"
+   "src": null
   },
   {
    "op": "show",
@@ -719,28 +984,22 @@
   {
    "op": "say",
    "actor": "nono",
-   "text": "『坊っちゃん』、これにて終幕です。",
-   "eyes": "joy",
-   "mouth": "open"
+   "text": "『坊っちゃん』、これにて幕です。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "残った問いは、無鉄砲な正義を、他者への責任へ育てること。",
-   "eyes": "sorrow"
+   "text": "曲がったものに、まっすぐぶつかって、損ばかりした若者。でも、嘘に慣れることだけは、しませんでした。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "選ばなかった道も、物語の外で静かに私たちを見ています。",
-   "eyes": "normal"
+   "text": "そして、そのまっすぐさを、誰よりも信じてくれていたのは、ひとりの年老いた女中でした。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "ご観劇、ありがとうございました。",
-   "eyes": "joy",
-   "mouth": "open"
+   "text": "あなたのまっすぐさを信じてくれる人を、どうか大事に。"
   },
   {
    "op": "hide",

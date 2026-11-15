@@ -1,700 +1,1108 @@
 {
-  "meta": {
-    "id": "iga-no-sugetsu",
-    "number": 147,
-    "title": "荒木又右衛門・伊賀の水月 ―鍵屋の辻まで―",
-    "original": "古典講談『荒木又右衛門・伊賀の水月』（伝統演目）",
-    "category": "講談",
-    "adaptation": "faithful",
-    "format": "v3",
-    "minutes": 46,
-    "synopsis": "全五景で「仇討ちの一瞬より、そこへ至る関係と覚悟が人を変える」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
-    "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+ "meta": {
+  "id": "iga-no-sugetsu",
+  "number": 147,
+  "title": "荒木又右衛門・伊賀の水月 ―鍵屋の辻まで―",
+  "original": "古典講談『荒木又右衛門・伊賀の水月』（伝統演目）",
+  "category": "講談",
+  "adaptation": "faithful",
+  "format": "v3",
+  "minutes": 46,
+  "synopsis": "全五景で「仇討ちの一瞬より、そこへ至る関係と覚悟が人を変える」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "狂言回し",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "荒木又右衛門",
-      "actor": "iwao",
-      "costume": "default"
-    },
-    {
-      "role": "渡辺数馬",
-      "actor": "rei_kimono",
-      "costume": "default"
-    },
-    {
-      "role": "河合又五郎",
-      "actor": "yoru",
-      "costume": "default"
-    },
-    {
-      "role": "池田家使者",
-      "actor": "kurogane",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "oath_room": "bg/iga-no-sugetsu-oath_room-2048x1152.png",
-    "training_yard": "bg/iga-no-sugetsu-training_yard-2048x1152.png",
-    "domain_negotiation": "bg/iga-no-sugetsu-domain_negotiation-2048x1152.png",
-    "kagiya_crossroads": "bg/iga-no-sugetsu-kagiya_crossroads-2048x1152.png",
-    "after_duel": "bg/iga-no-sugetsu-after_duel-2048x1152.png"
+  {
+   "role": "荒木又右衛門",
+   "actor": "iwao",
+   "costume": "default"
   },
-  "steps": [
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『荒木又右衛門・伊賀の水月』。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "講談の一席を、全五景でお届けします。",
-      "mouth": "open",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "この舞台の核は「仇討ちの一瞬より、そこへ至る関係と覚悟が人を変える」。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "台詞はすべて今夜のための書き下ろしです。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "それでは、幕を開けましょう。",
-      "mouth": "open",
-      "eyes": "joy"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "oath_room",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "oath_room"
-    },
-    {
-      "op": "nar",
-      "text": "第1景「仇討ちの誓い」。数馬が姉婿又右衛門へ助太刀を頼む。"
-    },
-    {
-      "op": "show",
-      "actor": "iwao",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_kimono",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "「仇討ちの誓い」へ来た。数馬が姉婿又右衛門へ助太刀を頼む。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "ここで黙れば、誰かが代わりに意味を決める。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "私が守りたいのは「仇討ちの一瞬より、そこへ至る関係と覚悟が人を変える」だ。"
-    },
-    {
-      "op": "nar",
-      "text": "仇討ちの誓いの空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "ならば勝ち負けだけでなく、支払う代価も見る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "過去は変えられない。だが次の手は選べる。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。数馬が姉婿又右衛門へ助太刀を頼む。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "数馬が姉婿又右衛門へ助太刀を頼む。その事実から目をそらさない。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "恐れを消すのではなく、恐れたまま進もう。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "私の名ではなく、行いで答えを残す。"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "その答えを、次の場面まで持って行こう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "ここで決める。逃げず、相手の声を聞く。"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "ならば私も、その決断の重さを分け合う。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "hide",
-      "actor": "iwao"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_kimono"
-    },
-    {
-      "op": "bg",
-      "src": "training_yard",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "training_yard"
-    },
-    {
-      "op": "nar",
-      "text": "第2景「長い稽古」。未熟な数馬が年月をかけ恐怖と向き合う。"
-    },
-    {
-      "op": "show",
-      "actor": "yoru",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "「長い稽古」へ来た。未熟な数馬が年月をかけ恐怖と向き合う。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "ここで黙れば、誰かが代わりに意味を決める。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "私が守りたいのは「仇討ちの一瞬より、そこへ至る関係と覚悟が人を変える」だ。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "長い稽古の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "守るという言葉が、誰かの犠牲を隠していないか。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-      "eyes": "surprise",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "過去は変えられない。だが次の手は選べる。"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。未熟な数馬が年月をかけ恐怖と向き合う。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "未熟な数馬が年月をかけ恐怖と向き合う。その事実から目をそらさない。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "恐れを消すのではなく、恐れたまま進もう。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "私の名ではなく、行いで答えを残す。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "その答えを、次の場面まで持って行こう。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "ここで決める。逃げず、相手の声を聞く。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "ならば私も、その決断の重さを分け合う。"
-    },
-    {
-      "op": "hide",
-      "actor": "yoru"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "bg",
-      "src": "domain_negotiation",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "domain_negotiation"
-    },
-    {
-      "op": "nar",
-      "text": "第3景「大名家の駆引き」。引渡しをめぐり藩の面子と政治が絡む。"
-    },
-    {
-      "op": "show",
-      "actor": "iwao",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_kimono",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "「大名家の駆引き」へ来た。引渡しをめぐり藩の面子と政治が絡む。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "ここで黙れば、誰かが代わりに意味を決める。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "私が守りたいのは「仇討ちの一瞬より、そこへ至る関係と覚悟が人を変える」だ。"
-    },
-    {
-      "op": "nar",
-      "text": "大名家の駆引きの空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "ならば勝ち負けだけでなく、支払う代価も見る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "過去は変えられない。だが次の手は選べる。",
-      "eyes": "closed"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。引渡しをめぐり藩の面子と政治が絡む。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "引渡しをめぐり藩の面子と政治が絡む。その事実から目をそらさない。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "恐れを消すのではなく、恐れたまま進もう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "私の名ではなく、行いで答えを残す。"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "その答えを、次の場面まで持って行こう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "ここで決める。逃げず、相手の声を聞く。"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "ならば私も、その決断の重さを分け合う。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "hide",
-      "actor": "iwao"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_kimono"
-    },
-    {
-      "op": "bg",
-      "src": "kagiya_crossroads",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "kagiya_crossroads"
-    },
-    {
-      "op": "nar",
-      "text": "第4景「鍵屋の辻」。道を塞ぎ決闘へ至る最後の言葉を交わす。"
-    },
-    {
-      "op": "show",
-      "actor": "yoru",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "「鍵屋の辻」へ来た。道を塞ぎ決闘へ至る最後の言葉を交わす。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "ここで黙れば、誰かが代わりに意味を決める。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "私が守りたいのは「仇討ちの一瞬より、そこへ至る関係と覚悟が人を変える」だ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "鍵屋の辻の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "守るという言葉が、誰かの犠牲を隠していないか。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-      "eyes": "closed",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "過去は変えられない。だが次の手は選べる。"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。道を塞ぎ決闘へ至る最後の言葉を交わす。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "道を塞ぎ決闘へ至る最後の言葉を交わす。その事実から目をそらさない。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "恐れを消すのではなく、恐れたまま進もう。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "私の名ではなく、行いで答えを残す。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "その答えを、次の場面まで持って行こう。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "ここで決める。逃げず、相手の声を聞く。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "ならば私も、その決断の重さを分け合う。"
-    },
-    {
-      "op": "hide",
-      "actor": "yoru"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "bg",
-      "src": "after_duel",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "after_duel"
-    },
-    {
-      "op": "nar",
-      "text": "第5景「水月の静けさ」。勝敗の後に失われた年月と残る者を見つめる。"
-    },
-    {
-      "op": "show",
-      "actor": "iwao",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_kimono",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "「水月の静けさ」へ来た。勝敗の後に失われた年月と残る者を見つめる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "ここで黙れば、誰かが代わりに意味を決める。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "私が守りたいのは「仇討ちの一瞬より、そこへ至る関係と覚悟が人を変える」だ。"
-    },
-    {
-      "op": "nar",
-      "text": "水月の静けさの空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "ならば勝ち負けだけでなく、支払う代価も見る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "過去は変えられない。だが次の手は選べる。",
-      "eyes": "joy"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。勝敗の後に失われた年月と残る者を見つめる。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "勝敗の後に失われた年月と残る者を見つめる。その事実から目をそらさない。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "恐れを消すのではなく、恐れたまま進もう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "私の名ではなく、行いで答えを残す。"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "その答えを、次の場面まで持って行こう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "ここで決める。逃げず、相手の声を聞く。"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "ならば私も、その決断の重さを分け合う。",
-      "eyes": "closed"
-    },
-    {
-      "op": "hide",
-      "actor": "iwao"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_kimono"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "物語はここまで。残った問いは「仇討ちの一瞬より、そこへ至る関係と覚悟が人を変える」。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ご来場、ありがとうございました。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "end"
+  {
+   "role": "渡辺数馬",
+   "actor": "rei_kimono",
+   "costume": "default"
+  },
+  {
+   "role": "河合又五郎",
+   "actor": "yoru",
+   "costume": "default"
+  },
+  {
+   "role": "池田家使者",
+   "actor": "kurogane",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "oath_room": "bg/iga-no-sugetsu-oath_room-2048x1152.png",
+  "training_yard": "bg/iga-no-sugetsu-training_yard-2048x1152.png",
+  "domain_negotiation": "bg/iga-no-sugetsu-domain_negotiation-2048x1152.png",
+  "kagiya_crossroads": "bg/iga-no-sugetsu-kagiya_crossroads-2048x1152.png",
+  "after_duel": "bg/iga-no-sugetsu-after_duel-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "寛永十一年、霜月七日。伊賀上野の城下、鍵屋の辻。日本三大仇討ちの一つが、この朝、決着を見ました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "講談『荒木又右衛門』より、伊賀の水月。三十六人斬りの豪傑として語られる剣客の、長い長い四年間のお話です。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "実のところ、斬り合いはわずかな時間。そこへ至るまでに、藩と旗本と、将軍家までが揺れました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "一瞬の太刀より、その一瞬までに人がどう変わったか。どうぞ、膝を寄せてお聞きください。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "oath_room",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "oath_room"
+  },
+  {
+   "op": "nar",
+   "text": "寛永七年、夏。大和郡山、松平家の剣術指南役、荒木又右衛門の屋敷。若い侍が、青ざめた顔で座っている。"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "義兄上。……岡山の弟、源太夫が、殺されました。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "源太夫が。あの、まだ十六の。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "同じ池田家の家来、河合又五郎の仕業です。わけは、まだ分かりませぬ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "酒の席で、何かの言い合いになったと聞きました。弟は、刀を抜く間もなかったと。又五郎は、その夜のうちに、国を出ました。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "江戸へ逃げ、旗本の安藤さまのお屋敷に、かくまわれていると聞きました。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "旗本に、か。……それは、ただの喧嘩ではすまぬ。池田家は、大名。安藤家は、将軍家直参の旗本だ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "父も、悲しみのあまり、床に伏せてしまいました。弟の仇は、兄であるわたしが討たねばなりません。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "しかし、わたしは、剣が、まるで下手でございます。道場では、いつも、一本も取れません。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "数馬どの、ここへ来たのは、わしに、助太刀を頼むためか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……はい。姉の夫であるあなたに。恥を承知で。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "恥ではない。己の弱さを知って頭を下げるのは、強さの始まりだ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "だが、ひとつ、覚えておいてもらう。仇討ちは、相手を斬れば終わる、というものではない。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "何年かかるか分からぬ。旅の空で、病に倒れるかもしれぬ。見つけたときに、こちらが斬られるかもしれぬ。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "それでも、行くか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "参ります。……弟の、最後の顔が、毎晩、夢に出てくるのです。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "よし。では、わしも、指南役の職を辞そう。今日から、わしは、浪人だ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "松平さまが、お許しくださるでしょうか。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "お許しが出ぬなら、勝手に出る。主君に迷惑はかけられぬから、浪人になるのだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "義兄上、そこまで……。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "中途半端な助太刀は、相手に失礼だ。……妻には、わしから話す。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "姉上は、きっと、泣きます。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "泣くだろう。泣いたあとで、旅の握り飯を、山ほど作ってくれるだろう。そういう女だ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "bg",
+   "src": "training_yard",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "training_yard"
+  },
+  {
+   "op": "nar",
+   "text": "旅の宿の裏庭。秋の夕暮れ。木刀を構えた数馬が、肩で息をしている。又右衛門は、腕を組んで見ている。"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "構えが高い。肩に力が入っておる。……数馬、刀は、重いか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "重うございます。腕が、ちぎれそうで。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "重いと思っておるうちは、刀に使われておる。刀に、自分の重さを預けるのだ。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "刀は、手で振るものではない。腰で振る。……また、目をつぶったな。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "つぶっておりません。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "つぶっておる。打ち込まれる瞬間、まぶたが、ほんのわずか落ちる。相手は、そこを斬る。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……怖いのです。木刀でも、当たると思うと。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "怖いのは、恥ではない。怖さを、見ないふりをするのが、恥だ。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "水月、という言葉を知っておるか。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "水に映る、月のことでございますか。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "水は、月を映そうとして映すのではない。静かにしていれば、ひとりでに、月が映る。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "心も同じだ。相手を斬ろう、勝とうと、波を立てれば、相手の太刀筋が見えぬ。静かにしておれば、来るものが、ひとりでに映る。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "静かに……。怖いときに、どうやって、静かに。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "怖いと、思うことだ。怖いのう、と、心の中で言ってやる。そうすると、波が、少しずつ、おさまる。"
+  },
+  {
+   "op": "nar",
+   "text": "数馬は、目を開けたまま、木刀を受けた。今度は、まぶたが落ちなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "今のは、見えたな。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……見えました。義兄上の木刀が、ゆっくり、来るように。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "一日に、それが一度あれば、よい。十年で、三千六百回だ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "十年……！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "冗談だ。仇は、それほど待ってはくれぬ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "一年、二年。二人は、又五郎の行方を追って、京、大坂、奈良を歩いた。噂を聞いては駆けつけ、空振りに終わった。"
+  },
+  {
+   "op": "nar",
+   "text": "路銀は尽き、数馬は、宿の薪割りをして、飯をもらった。又右衛門は、町の道場で、代稽古をして、日銭を稼いだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "義兄上、わたしは、近ごろ、分からなくなります。わたしは、又五郎を、本当に憎んでいるのでしょうか。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "どういうことだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "最初は、憎くて、眠れなかった。今は……ただ、早く、終わらせたい。終わらせて、父と、姉のもとへ帰りたい。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "それで、よい。憎しみだけで歩く者は、三年で倒れる。帰りたいと思う者は、十年でも歩ける。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "義兄上は、なぜ、ここまで。……わたしの弟は、義兄上にとっては、他人も同然ではありませんか。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "他人ではない。お前の姉の弟だ。わしの妻の弟だ。……それに、お前が、頭を下げに来た。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "頭を下げに来た者を、手ぶらで帰すほど、わしの剣は、偉くはない。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……ありがとうございます。わたしは、一生かかっても、この恩を返せませぬ。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "返さんでいい。お前が、いつか、誰かに頭を下げられたとき、その者の隣を歩いてやれ。それで、帳消しだ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "bg",
+   "src": "domain_negotiation",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "domain_negotiation"
+  },
+  {
+   "op": "nar",
+   "text": "江戸。池田家の上屋敷の一室。使者が、又右衛門と数馬に、事の成り行きを語る。"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "荒木どの、数馬どの、よう来られた。家中の者は、皆、そなたらの噂をしておる。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "殿さま、池田宮内少輔さまは、又五郎の引き渡しを、旗本の安藤家に、何度も求められた。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "安藤家は、拒んだ。旗本仲間が、皆で、又五郎をかばった。大名に、旗本が頭を下げるいわれはない、と。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "殿さまは、ご立腹のあまり、病を得て、亡くなられた。……今わの際に、又五郎を討て、と、ひと言。",
+   "eyes": "anger"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "殿さまが……。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "将軍家も、捨て置けなくなった。大名と旗本が争えば、天下の乱れになる。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "そこで、ご公儀は、喧嘩両成敗とされた。旗本たちは、謹慎。又五郎は、江戸を追われた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "謹慎……。人ひとりを斬った者をかくまって、謹慎だけでございますか。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "旗本の面子、大名の面子、将軍家の面子。……源太夫どのの命は、その間に、挟まれてしまった。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "江戸を出た又五郎は、今、どこにいるか分からぬ。……ご公儀は、仇討ちを、止めもせず、助けもせぬ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "つまり、ここから先は、わしらの勝手、ということでござるな。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "さよう。池田家としても、表立っては、何もできぬ。……だが、殿さまの無念は、家中の者、皆が、胸に持っている。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "又五郎には、叔父の河合甚左衛門がついておる。郡山の剣術指南役だった男だ。荒木どの、お前の、昔の同輩だろう。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……甚左衛門どのか。槍の名手だ。わしが、若いころ、何度、手合わせをしたか知れぬ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "義兄上の、昔の友が、敵に。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "友であったからこそ、わしが相手をせねばならぬ。……他の誰にも、任せられぬ。"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "寛永十一年、秋。又右衛門のもとへ、一通の知らせが届いた。又五郎の一行が、奈良から伊賀を越え、江戸へ向かうという。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "伊賀上野、鍵屋の辻。上野の城下へ入る道と、伊勢へ抜ける道の、分かれ目だ。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "一行は、又五郎、叔父の甚左衛門、妹婿の桜井半兵衛、そのほか、供の者が十人ほど。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "こちらは、義兄上と、わたし。それに、供の者が二人。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "四人で、十数人。……数で勝てぬなら、場所で勝つ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "甚左衛門どのは、槍。半兵衛どのも、槍の使い手だ。狭い辻なら、槍は、振り回せぬ。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "鍵屋の辻の茶屋に、夜明け前から、潜む。一行は、必ず、その角を曲がる。曲がった、その時だ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "義兄上、もし、わたしが、斬られたら。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "斬られぬように、四年、稽古をした。……数馬、今夜は、よく眠っておけ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "眠れるでしょうか。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "怖いのう、と言ってみろ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……怖いのう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "bg",
+   "src": "kagiya_crossroads",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "kagiya_crossroads"
+  },
+  {
+   "op": "nar",
+   "text": "霜月七日、明け方。伊賀上野、鍵屋の辻。霜の降りた道に、茶屋の暖簾が揺れている。遠くから、馬の鈴の音。"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "供の二人には、逃げる者を追うな、と言うてある。追えば、そこで、こちらが減る。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "来たぞ。先頭は、馬に乗った甚左衛門。そのあとに、半兵衛。又五郎は、駕籠の中だ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "手が、震えます。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "震えてよい。震えたまま、刀を抜け。……数馬、お前の相手は、又五郎ただひとりだ。ほかの者は、わしが引き受ける。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "一行が、角を曲がった。又右衛門が、茶屋から飛び出し、甚左衛門の馬の前に立ちはだかった。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "河合甚左衛門どの、荒木又右衛門でござる。……お久しゅう。"
+  },
+  {
+   "op": "nar",
+   "text": "甚左衛門は、馬上から、静かに又右衛門を見下ろした。荒木か、と、ひと言だけ言った。"
+  },
+  {
+   "op": "nar",
+   "text": "二人は、それ以上、言葉を交わさなかった。昔の道場の話は、刀が、代わりにした。"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "叔父上……！　荒木が来た。数馬も、いるぞ。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "又五郎、そなたの相手は、数馬だ。……逃げずに、立たれよ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "逃げてきたのではない。わしは、四年、追われてきたのだ。旗本の屋敷に、閉じこもって。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "わしは、源太夫を斬った。あれは、わしの過ちだ。だが、わしひとりの過ちに、大名も、旗本も、将軍家まで、騒ぎ立てた。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "わしは、もう、自分の名前が、自分のものでない気がしておる。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "ならば、ここで、自分の名前を、取り戻されよ。……侍として。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "又右衛門が、甚左衛門と半兵衛を引きつける間に、数馬は、駕籠から出た又五郎と、向かい合った。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "河合又五郎。渡辺源太夫の兄、渡辺数馬である。弟の仇、尋常に勝負。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……数馬か。顔が、源太夫に似ている。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "怖いのう。……怖いのう。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "数馬は、目を開けたまま、刀を構えた。又五郎の刀の先が、水に映る月のように、ゆっくり見えた。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "ええいっ！",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "二人の刀は、何度も打ち合わされ、離れ、また打ち合わされた。太陽が、霜を溶かし、道が泥になった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "怖い……。怖いのう……。でも、目は、閉じぬ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "まだ……まだ、終わらぬ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "お前も、強くなったな……。四年前の、あの臆病な若造が。"
+  },
+  {
+   "op": "nar",
+   "text": "戦いは、昼過ぎにまで及んだと伝えられる。二人とも、傷を負い、刀を杖にして立つほどだった。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "数馬は、又右衛門の教えを思い出して、静かに構え直す",
+     "jump": "m_still"
+    },
+    {
+     "text": "数馬は、又五郎に、最後の言葉を求める",
+     "jump": "m_word"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_still"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "波を立てるな。……水は、月を、ひとりでに映す。"
+  },
+  {
+   "op": "nar",
+   "text": "数馬の目に、又五郎の、わずかな隙が、映った。"
+  },
+  {
+   "op": "jump",
+   "to": "m_end"
+  },
+  {
+   "op": "label",
+   "id": "m_word"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "又五郎、源太夫に、何か言うことは、ないか。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……すまなかった、と。若い者を、つまらぬ口論で、斬ってしまった。……兄上に、そう伝えてくれ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "伝える。……わたしが、ここで、受け取った。",
+   "eyes": "closed"
+  },
+  {
+   "op": "label",
+   "id": "m_end"
+  },
+  {
+   "op": "nar",
+   "text": "数馬の刀が、又五郎の胸を打った。又五郎は、泥の中に、静かに膝をついた。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……これで、わしの名前は、わしに返った。"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "bg",
+   "src": "after_duel",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "after_duel"
+  },
+  {
+   "op": "nar",
+   "text": "鍵屋の辻。昼下がり。戦いのあとの静けさ。茶屋の軒先から、雫が落ちている。"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "義兄上……。終わりました。終わったのでしょうか。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "終わった。又五郎は、侍として、討たれた。……甚左衛門どのも、半兵衛どのも、わしの前で、倒れた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "義兄上、お怪我は。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "かすり傷だ。……刀が、二か所、刃こぼれした。研ぎ師が、泣くな。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "世間は、きっと、わしが三十六人を斬ったと言いふらすだろう。……斬ったのは、二人だ。供の者たちは、逃げた。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "三十六人……。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "話は、大きくなる。大きくなった話は、わしのものではなくなる。それで、かまわぬ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "甚左衛門どのは、義兄上の、昔の友でした。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "最後に、甚左衛門どのは、言われた。荒木、腕を上げたな、と。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "そうだ。あの人の槍は、昔と同じだった。……わしが、昔と同じでは、なかっただけだ。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "四年、旅の空にいるうちに、わしの剣は、人を斬るためのものから、お前を守るためのものに、変わっていた。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "わたしも、変わりました。……又五郎を憎んで、旅に出たのに、最後に、あの人の顔を、まっすぐ見てしまった。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "それが、仇討ちの、本当の終わりかもしれぬ。"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "二人は、藤堂家の預かりとなり、のちに、池田家へ引き取られた。池田家は、鳥取へ国替えになっていた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "義兄上、鳥取へ参ったら、何をなさいますか。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "稽古だ。若い者に、水月を教える。……怖いのう、と言える侍を、ひとりでも増やしたい。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "又五郎が、最後に、名前が自分に返ったと言ったことも、弟に伝えます。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "弟の墓に、報告に参ります。それから、父に。それから、姉上に。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "姉上には、わしが先に謝らねばならぬ。四年も、留守にしたのでな。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "姉上は、怒っておられるでしょうね。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "怒っておるだろう。……怖いのう。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "数馬、仇討ちは、もう、一生に一度で十分だ。お前の子には、別の稽古をさせてやれ。"
+  },
+  {
+   "op": "nar",
+   "text": "又右衛門は、鳥取に移って間もなく、四十一歳で亡くなったと伝えられる。急な死であった。"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "鍵屋の辻の一席、ここで張り扇を置かせていただきます。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "三十六人斬りの豪傑は、本当は、四年間、若い義弟の隣を歩き続けた人でした。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "憎しみで始まった旅は、最後に、仇の詫びの言葉を受け取って終わりました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "怖いのう、と言える心は、波の立たない水のように、いちばん大事なものを映してくれるのかもしれません。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

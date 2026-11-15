@@ -7,7 +7,7 @@
   "format": "v3",
   "minutes": 29,
   "synopsis": "全六景で原作の主要な運動をたどりながら、勝つ英雄から、共同体に何を遺す英雄へ主題を深めることを中心に再構成する。第五景で観客が人物の姿勢を選び、分岐は終幕前に合流する。",
-  "note": "本脚本は著作権の消滅した原作からの翻案であり、既存の翻訳・上演台本は使用していない。セリフは全て本上演版の書き下ろし。"
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
  },
  "cast": [
   {
@@ -67,28 +67,22 @@
   {
    "op": "say",
    "actor": "nono",
-   "text": "ようこそ、NONO座へ。本日の演目は『ベーオウルフ』。",
-   "eyes": "normal"
+   "text": "聞け。遠い昔、槍のデネ人の王たちの栄光を。……古英語の詩は、こう呼びかけて始まります。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "この舞台が見つめるのは、勝つ英雄から、共同体に何を遺す英雄へ主題を深めること。",
-   "eyes": "sorrow",
-   "mouth": "open"
+   "text": "『ベーオウルフ』。千年以上前、イングランドで書き留められた、北欧の英雄の物語です。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "古い物語を借りながら、台詞はすべて今夜のための書き下ろしです。",
-   "eyes": "normal"
+   "text": "若き日に怪物を倒した英雄は、五十年、国を治め、老いて、最後に竜と戦います。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "それでは、幕を開けましょう。",
-   "eyes": "joy",
-   "mouth": "open"
+   "text": "勝つことと、残すこと。その二つは、同じなのでしょうか。海の向こうの、鹿の広間へ参りましょう。"
   },
   {
    "op": "hide",
@@ -105,12 +99,7 @@
   },
   {
    "op": "nar",
-   "text": "第1景「鹿の広間」。巨大な木造宴会場ヘオロット。金の梁、長椅子、夜の沼霧。"
-  },
-  {
-   "op": "show",
-   "actor": "extra_porter",
-   "pos": "left"
+   "text": "デンマーク。フロースガール王が建てた、世にも名高い黄金の大広間ヘオロット。破風に、鹿の角が飾られている。"
   },
   {
    "op": "show",
@@ -118,67 +107,80 @@
    "pos": "center"
   },
   {
-   "op": "show",
-   "actor": "extra_oni",
-   "pos": "right"
-  },
-  {
-   "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
-  },
-  {
    "op": "say",
-   "actor": "extra_porter",
-   "text": "十二年、夜ごとグレンデルが歌と命を奪ってきた。",
-   "eyes": "normal",
-   "mouth": "open"
+   "actor": "extra_wizard",
+   "text": "この広間を建てたとき、竪琴の音が、毎晩、天井まで響いた。神が世界を作った話を、詩人が歌っていた。"
   },
   {
    "op": "say",
    "actor": "extra_wizard",
-   "text": "私は武器を置き、腕だけで怪物と向き合う。",
-   "eyes": "joy"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "今の言葉を、聞かなかったことにはできない。",
+   "text": "その歌声を、沼の闇の中で、聞いていた者がいた。カインの末裔、グレンデル。",
    "eyes": "sorrow"
   },
   {
-   "op": "say",
-   "actor": "extra_oni",
-   "text": "人の喜びの音が、沼の孤独を刺した。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "敵の痛みを知っても、殺戮を止める責任は消えない。",
-   "eyes": "anger",
-   "mouth": "open"
+   "op": "nar",
+   "text": "夜。グレンデルは、眠っていた戦士三十人を、広間からさらっていった。それから十二年、ヘオロットの夜は、空になった。"
   },
   {
    "op": "say",
    "actor": "extra_wizard",
-   "text": "なら、次の一歩で確かめよう。",
-   "eyes": "fun"
+   "text": "誰も、夜の広間に、眠ろうとしない。わしの戦士たちは、酒の杯の上で誓い、朝には、血の跡だけが残った。"
   },
   {
    "op": "say",
-   "actor": "extra_porter",
-   "text": "私は、勝つ英雄から、共同体に何を遺す英雄へ主題を深めることを忘れずに選ぶ。",
+   "actor": "extra_wizard",
+   "text": "王の黄金も、知恵も、あの影には、何の役にも立たぬ。",
    "eyes": "closed"
   },
   {
    "op": "say",
    "actor": "extra_wizard",
-   "text": "その選択の重さを、次の場面まで持って行こう。",
-   "eyes": "crying"
+   "text": "賢者たちは、異教の神殿に、生贄を捧げて祈った。……わしは、それを止めることもできなかった。"
   },
   {
-   "op": "hide",
-   "actor": "extra_porter"
+   "op": "nar",
+   "text": "海の向こう、イェーアト人の国から、十四人の戦士を乗せた船が、ヘオロットの岸に着いた。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "ヒイェラーク王の甥、エッジセーオウの子、ベーオウルフ。三十人の力を、片手の握りに持つ者です。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "王よ、恩を返しに来ました。父が、昔、あなたに救われた。……今夜、この広間で、グレンデルを待たせていただきたい。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "エッジセーオウの子か。……子どもの頃のお前を、覚えているぞ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "お前の父は、ウィルフィング族の男を殺して、国を追われた。わしが、償いの金を払って、争いを鎮めたのだ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "私の仲間も、皆、それを承知で、ついてきてくれました。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "剣は使いません。あの怪物は、剣を知らぬと聞きました。ならば、私も、素手で。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "神が、どちらに栄光を与えるか、見せてもらおう。"
   },
   {
    "op": "hide",
@@ -186,7 +188,44 @@
   },
   {
    "op": "hide",
-   "actor": "extra_oni"
+   "actor": "extra_porter"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "left"
+  },
+  {
+   "op": "nar",
+   "text": "宴の席で、王の家臣ウンフェルスが、ベーオウルフを嘲った。若いころ、泳ぎ比べで負けた男だろう、と。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "負けてはいない。七晩、鎧を着たまま、冬の海を泳いだ。海の獣を九匹、剣で沈めた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "ウンフェルス、あなたが本当に勇敢なら、グレンデルは、十二年もこの広間で好きにしていないはずだ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "王妃ウェアルフセーオウが、蜂蜜酒の杯を、ベーオウルフの手に渡した。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "王妃さま、この広間を、今夜、取り戻します。さもなくば、ここで死にます。"
+  },
+  {
+   "op": "nar",
+   "text": "王妃は、杯を、ウンフェルスにも、王の甥にも、若い戦士にも回した。広間に、久しぶりに笑い声が戻った。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
   },
   {
    "op": "bg",
@@ -199,7 +238,7 @@
   },
   {
    "op": "nar",
-   "text": "第2景「夜の組討ち」。壊れた宴会場。倒れた卓、裂けた扉、月光。"
+   "text": "夜。ヘオロットの広間。灯りが消え、戦士たちが眠っている。ベーオウルフだけが、目を開けている。"
   },
   {
    "op": "show",
@@ -207,80 +246,127 @@
    "pos": "left"
   },
   {
-   "op": "show",
-   "actor": "extra_oni",
-   "pos": "center"
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "仲間たちは、眠ったふりをしている。誰も、生きて故郷の土を踏めるとは、思っていない。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "来る。……霧の沼地から、足音が。扉の鉄の帯を、指で引きちぎった。"
   },
   {
    "op": "show",
-   "actor": "yui",
+   "actor": "extra_oni",
    "pos": "right"
   },
   {
-   "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
-  },
-  {
    "op": "say",
-   "actor": "extra_porter",
-   "text": "剣が効かないなら、逃げ道を塞ぎ力を受け止める。",
-   "eyes": "joy",
+   "actor": "extra_oni",
+   "text": "グオオオ……！",
+   "eyes": "anger",
    "mouth": "open"
   },
   {
-   "op": "say",
-   "actor": "extra_oni",
-   "text": "腕を失っても、私の母が復讐を継ぐ。",
-   "eyes": "sorrow"
+   "op": "nar",
+   "text": "グレンデルは、眠っていた戦士を一人、つかみ、一口で呑み込んだ。次に、ベーオウルフへ手を伸ばした。"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "答えはまだ一つに決められない。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "勝利の歌が、新しい敵の悲しみを呼びます。",
+   "text": "その手を、待っていた。",
    "eyes": "anger"
   },
   {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "英雄は次の夜まで見通して備えねばならない。",
-   "eyes": "fun",
-   "mouth": "open"
+   "op": "nar",
+   "text": "ベーオウルフは、怪物の指をつかみ、握り潰した。グレンデルは、生まれて初めて、恐怖を知った。"
   },
   {
    "op": "say",
    "actor": "extra_oni",
-   "text": "迷いを抱えたままでも、進むことはできる。",
-   "eyes": "closed"
+   "text": "……グウ？　……放せ……！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "二人の組み合いで、黄金の広間の長椅子が、次々に倒れた。壁が鳴り、骨組みが軋んだ。"
   },
   {
    "op": "say",
-   "actor": "extra_porter",
-   "text": "私は、勝つ英雄から、共同体に何を遺す英雄へ主題を深めることを忘れずに選ぶ。",
+   "actor": "extra_oni",
+   "text": "……腕が……ギイイイ……！",
    "eyes": "crying"
   },
   {
-   "op": "say",
-   "actor": "extra_oni",
-   "text": "その選択の重さを、次の場面まで持って行こう。",
-   "eyes": "normal"
-  },
-  {
-   "op": "hide",
-   "actor": "extra_porter"
+   "op": "nar",
+   "text": "ベーオウルフは、怪物の腕を、肩の付け根から、ねじ切った。グレンデルは、腕を失ったまま、沼へ逃げ帰り、そこで死んだ。"
   },
   {
    "op": "hide",
    "actor": "extra_oni"
   },
   {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "怪物の足跡が、沼まで、血で続いている。……もう、帰ってはこない。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "腕を、破風の下に、高く掲げる。……ヘオロットは、今夜、取り戻された。"
+  },
+  {
    "op": "hide",
-   "actor": "yui"
+   "actor": "extra_porter"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "ベーオウルフ、今日から、わしは、お前を、息子として愛そう。望むもので、手に入れられぬものはない。",
+   "eyes": "joy"
+  },
+  {
+   "op": "nar",
+   "text": "王は、金の旗、兜、鎖帷子、宝剣、そして八頭の馬を贈った。詩人が、古い英雄シゲムンドの竜退治を歌った。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "仲間の一人、ホンドシオーは、最初に喰われた。……贈り物のうち、彼の分は、黄金で償ってください。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "王よ、贈り物は、国の者たちに分けてください。私は、この広間の灯りが、また毎晩ともるのが見たかっただけです。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "わしの昔の友に、ヘレモードという王がいた。力も富もあったが、人に分け与えず、ひとりで滅んだ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "……若い勝利ほど、甘いものはない。だが、気をつけよ。その甘さは、長くは続かぬ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
   },
   {
    "op": "bg",
@@ -293,7 +379,47 @@
   },
   {
    "op": "nar",
-   "text": "第3景「沼の底」。暗い沼の水底宮殿。古い剣、骨、緑の光。"
+   "text": "翌晩。宴のあとで眠っていた広間に、新しい影が現れた。グレンデルの母が、息子の復讐に来たのだった。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_mummy",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_mummy",
+   "text": "……息子の腕を、返して。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "影は、王の最も信頼する相談役アッシュヘレをさらい、息子の腕を取り戻して、闇へ消えた。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_mummy"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "アッシュヘレが……。友よ、わしと、若い頃から肩を並べて戦った者が。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "沼地へ行け、ベーオウルフ。狼の住む丘、風の吹きすさぶ崖、霧の湖。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "猟犬に追われた鹿でさえ、あの水に飛び込むより、岸で死ぬことを選ぶ。"
   },
   {
    "op": "show",
@@ -301,80 +427,102 @@
    "pos": "left"
   },
   {
-   "op": "show",
-   "actor": "extra_mummy",
-   "pos": "center"
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "嘆かないでください、王よ。友の死を悼むより、仇を討つほうがいい。誰にでも、この世の終わりは来る。"
   },
   {
-   "op": "show",
-   "actor": "extra_wizard",
-   "pos": "right"
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "生きているうちに名を残せる者は、それを成し遂げるべきです。それが、死んだ戦士への、最後の贈り物になる。",
+   "eyes": "closed"
   },
   {
    "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+   "text": "ウンフェルスは、恥じ入って、自分の名剣フルンティングを、ベーオウルフに貸した。"
   },
   {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "息子を奪った者よ、母の怒りを怪物と呼ぶのか。",
-   "eyes": "sorrow",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "extra_mummy",
-   "text": "あなたの悲しみは分かる。だが広間の子らも母を失った。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "その理屈には、置き去りにされた声がある。",
-   "eyes": "anger"
-  },
-  {
-   "op": "say",
-   "actor": "extra_wizard",
-   "text": "水底の剣は、力より争いの古さを示している。",
-   "eyes": "fun"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "勝って戻るなら、復讐の連鎖を誇りに変えるな。",
-   "eyes": "closed",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "extra_mummy",
-   "text": "誰のための決断か、もう一度考えよう。",
-   "eyes": "crying"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "私は、勝つ英雄から、共同体に何を遺す英雄へ主題を深めることを忘れずに選ぶ。",
-   "eyes": "normal"
-  },
-  {
-   "op": "say",
-   "actor": "extra_mummy",
-   "text": "その選択の重さを、次の場面まで持って行こう。",
-   "eyes": "joy"
+   "op": "hide",
+   "actor": "extra_wizard"
   },
   {
    "op": "hide",
    "actor": "extra_porter"
   },
   {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "left"
+  },
+  {
+   "op": "nar",
+   "text": "沼の崖の上に、アッシュヘレの首があった。湖は、血で沸き立っていた。ベーオウルフは、鎧のまま、水に飛び込んだ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "もし、わしが戻らなければ、贈り物は、ヒイェラーク王へ届けてくれ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "底へ。……一日の半分を、沈み続けた。"
+  },
+  {
+   "op": "nar",
+   "text": "湖の底の洞窟。水の入らない、火の明るい広間。そこで、グレンデルの母が、ベーオウルフに組みついた。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_mummy",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_mummy",
+   "text": "ここは、わたしの家。……息子の眠る家に、剣を持って入る者は、誰。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "フルンティングの刃が、通らない！　何度、斬りつけても……！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "母は、ベーオウルフを押し倒し、短剣を突き立てた。鎖帷子が、刃を止めた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "壁に……巨人が鍛えた、古い剣が掛かっている。人の手では、持ち上げられないほどの。"
+  },
+  {
+   "op": "nar",
+   "text": "ベーオウルフは、その剣をつかみ、ひと振りで、母を斬った。洞窟に、太陽のような光が満ちた。"
+  },
+  {
    "op": "hide",
    "actor": "extra_mummy"
   },
   {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "グレンデルの亡骸も、ここにあった。……首を取り、持ち帰る。剣の刃は、怪物の血で、氷のように溶けてしまった。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "岸で待っていたデネ人たちは、湖の血を見て、英雄は死んだと思い、日暮れ前に帰ってしまった。"
+  },
+  {
+   "op": "nar",
+   "text": "残っていたのは、海を越えてきたイェーアトの仲間たちだけだった。"
+  },
+  {
    "op": "hide",
-   "actor": "extra_wizard"
+   "actor": "extra_porter"
   },
   {
    "op": "bg",
@@ -387,71 +535,78 @@
   },
   {
    "op": "nar",
-   "text": "第4景「老王の広間」。年月を経た王宮。古い盾、豊かな穀倉、冬の光。"
+   "text": "五十年後。イェーアト人の国。ベーオウルフは、王となり、長く国を治めた。白い髭の、老いた王である。"
   },
   {
    "op": "show",
    "actor": "extra_porter",
-   "pos": "left"
-  },
-  {
-   "op": "show",
-   "actor": "yui",
    "pos": "center"
   },
   {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "ヒイェラーク王も、その子も、戦で死んだ。王位は、望まずに、わしに来た。……五十年、外の敵が、この国に攻め込まなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "若い頃は、怪物の腕を、ねじ切って掲げた。王になってからは、誰の腕も、ねじ切らずにすむように、生きてきた。",
+   "eyes": "closed"
+  },
+  {
    "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+   "text": "一人の奴隷が、主人の罰を恐れて逃げ、古い塚の中に、迷い込んだ。そこで、宝の山の上に眠る竜を見つけた。"
+  },
+  {
+   "op": "nar",
+   "text": "奴隷は、宝の中から、金の杯を一つだけ盗んで、主人に差し出し、許しを乞うた。"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "五十年の平和で、私は戦士より王である時間を長く持った。",
-   "eyes": "surprise",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "だから民は、昔の怪力でなく今の判断を頼ります。",
-   "eyes": "anger"
+   "text": "竜は、三百年、宝を抱いて眠っていた。一枚の金貨も使わず、ただ、数えて。"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "恐れを隠しても、状況は変わらない。",
-   "eyes": "fun"
+   "text": "たった一つの杯のために。……竜は、目を覚まし、夜ごと、村々を焼き始めた。わしの館も、燃えた。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
   },
   {
    "op": "say",
    "actor": "yui",
-   "text": "英雄の物語は若い日の勝利ばかりを覚える。",
+   "text": "王よ、私が、行きます。ウェーイムンディング家のウィーラーフ。若いですが、父の剣は、もう、手に馴染みました。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "ウィーラーフ、竜は、わしが倒す。……これは、王の仕事だ。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "王は、もう、七十を越えておられます。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "知っている。朝、鎧を着るのに、昔の倍の時間がかかる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "だからこそだ。若い頃のわしなら、誰かに任せられた。今は、任せる時間が、残っておらぬ。",
    "eyes": "closed"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "統治の日々もまた、毎朝選び直す戦いです。",
-   "eyes": "crying",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "恐れを言葉にした今なら、選び直せる。",
-   "eyes": "normal"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "私は、勝つ英雄から、共同体に何を遺す英雄へ主題を深めることを忘れずに選ぶ。",
-   "eyes": "joy"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "その選択の重さを、次の場面まで持って行こう。",
-   "eyes": "sorrow"
+   "text": "鉄の盾を、作らせた。木の盾は、竜の火で燃えるからな。……十一人の家臣を、連れて行く。"
   },
   {
    "op": "hide",
@@ -472,7 +627,7 @@
   },
   {
    "op": "nar",
-   "text": "第5景「竜の塚」。燃える古墳。黄金、黒煙、崩れる石、夕空。"
+   "text": "岬の上の、古い石の塚。入口から、竜の息のような熱気が流れ出している。"
   },
   {
    "op": "show",
@@ -481,227 +636,126 @@
   },
   {
    "op": "show",
-   "actor": "homura",
-   "pos": "center"
-  },
-  {
-   "op": "show",
    "actor": "yui",
    "pos": "right"
   },
   {
-   "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "七つのとき、祖父の館に預けられた。祖父は、わしを、自分の子らと同じに扱ってくれた。"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "盗まれた杯一つで、竜の火が国を焼く。私は一人で止める。",
+   "text": "皆は、ここで待て。この戦いは、わしひとりのものだ。……わしの最後の戦いかもしれぬ。"
+  },
+  {
+   "op": "nar",
+   "text": "王が、塚の入口で叫ぶと、地の底から、炎をまとった竜が躍り出た。"
+  },
+  {
+   "op": "show",
+   "actor": "homura",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "ガアアアッ！",
    "eyes": "anger",
    "mouth": "open"
   },
   {
-   "op": "say",
-   "actor": "homura",
-   "text": "王が倒れれば、勝っても国は守り手を失います。"
+   "op": "nar",
+   "text": "王の剣ネイリングは、竜の鱗に当たって、鈍った。炎が、鉄の盾ごと、王を包み込んだ。"
   },
   {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "正しさだけでは、人の痛みを量れない。",
-   "eyes": "closed"
+   "op": "nar",
+   "text": "家臣たちは、恐れて、森の中へ逃げ込んだ。残ったのは、ウィーラーフ一人だった。"
   },
   {
    "op": "say",
    "actor": "yui",
-   "text": "宝を守る年月が、私を宝の囚人にした。",
-   "eyes": "crying"
+   "text": "王の剣が、折れた……！"
   },
   {
    "op": "say",
-   "actor": "extra_porter",
-   "text": "後継者に任せることも、王の勇気です。",
-   "eyes": "normal",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "homura",
-   "text": "だから事実と心の両方を見よう。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "私は、勝つ英雄から、共同体に何を遺す英雄へ主題を深めることを忘れずに選ぶ。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "say",
-   "actor": "homura",
-   "text": "その選択の重さを、次の場面まで持って行こう。"
-  },
-  {
-   "op": "nar",
-   "text": "ここで舞台は一瞬静まり、観客の選択が人物の心の向きを変える。"
+   "actor": "yui",
+   "text": "宴の席で、蜂蜜酒の杯を受け、王に誓った言葉を、皆、忘れたのか！",
+   "eyes": "anger"
   },
   {
    "op": "choice",
    "options": [
     {
-     "text": "王が単独で竜へ挑む",
-     "jump": "route_a"
+     "text": "ウィーラーフは、盾を燃やされながら、王の前に飛び出す",
+     "jump": "m_shield"
     },
     {
-     "text": "後継者と作戦を分かち合う",
-     "jump": "route_b"
+     "text": "ウィーラーフは、竜の喉の下の柔らかい鱗を狙って回り込む",
+     "jump": "m_flank"
     }
    ]
   },
   {
    "op": "label",
-   "id": "route_a"
+   "id": "m_shield"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "王よ、私の盾の陰へ！　……私の盾は、燃えてしまった。王の盾の後ろに、入らせてください。"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "私は『王が単独で竜へ挑む』道を選ぶ。",
-   "eyes": "joy",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "homura",
-   "text": "その決断なら、結果まで自分の言葉で引き受けて。"
-  },
-  {
-   "op": "set",
-   "flag": "f_route_a"
+   "text": "ウィーラーフ……お前は、ひとりで、ここへ……。"
   },
   {
    "op": "jump",
-   "to": "merge_choice"
+   "to": "m_strike"
   },
   {
    "op": "label",
-   "id": "route_b"
+   "id": "m_flank"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "王よ、竜の首の下へ！　あそこだけ、鱗が薄い。私が、炎を引きつけます。"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "私は『後継者と作戦を分かち合う』道を選ぶ。",
-   "eyes": "surprise",
-   "mouth": "open"
+   "text": "よく見ている。……若い目は、いいものだ。"
+  },
+  {
+   "op": "label",
+   "id": "m_strike"
+  },
+  {
+   "op": "nar",
+   "text": "竜が、王の首に噛みついた。毒の牙が、深く刺さった。"
+  },
+  {
+   "op": "nar",
+   "text": "ウィーラーフの剣が、竜の腹の柔らかい所を貫き、炎が弱まった。王は、腰の短剣を抜き、竜を二つに斬り裂いた。"
   },
   {
    "op": "say",
    "actor": "homura",
-   "text": "違う道でも、守るべきものを見失わないで。"
-  },
-  {
-   "op": "set",
-   "flag": "f_route_b"
-  },
-  {
-   "op": "label",
-   "id": "merge_choice"
-  },
-  {
-   "op": "nar",
-   "text": "選択の余韻を抱えたまま、物語は同じ終幕へ向かう。"
-  },
-  {
-   "op": "hide",
-   "actor": "extra_porter"
+   "text": "……グ……ゥ。",
+   "eyes": "crying"
   },
   {
    "op": "hide",
    "actor": "homura"
   },
   {
-   "op": "hide",
-   "actor": "yui"
-  },
-  {
-   "op": "bg",
-   "src": "legacy",
-   "mode": "full"
-  },
-  {
-   "op": "bg",
-   "src": "legacy"
-  },
-  {
-   "op": "nar",
-   "text": "第6景「海辺の火葬塚」。風の強い海岸。石の墓標、灰、遠い船、朝焼け。"
-  },
-  {
-   "op": "show",
-   "actor": "extra_porter",
-   "pos": "left"
-  },
-  {
-   "op": "show",
-   "actor": "yui",
-   "pos": "center"
-  },
-  {
-   "op": "show",
-   "actor": "extra_wizard",
-   "pos": "right"
-  },
-  {
-   "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
-  },
-  {
    "op": "say",
    "actor": "extra_porter",
-   "text": "竜は倒れた。だが私の命もここまでだ。",
-   "eyes": "fun",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "宝を墓へ閉じ込めず、国の再建に使います。",
-   "eyes": "closed"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "ここで黙れば、同じことが繰り返される。",
-   "eyes": "crying"
-  },
-  {
-   "op": "say",
-   "actor": "extra_wizard",
-   "text": "私の名より、次の冬を越す倉と約束を残してくれ。",
-   "eyes": "normal"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "英雄の最後の勝利は、自分なしで続く国を作ることです。",
-   "eyes": "joy",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "言葉にした責任を、次の場面へ持って行こう。",
+   "text": "竜は、倒れた。……わしの首の傷が、熱い。毒が、胸へ回っていく。",
    "eyes": "sorrow"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "私は、勝つ英雄から、共同体に何を遺す英雄へ主題を深めることを忘れずに選ぶ。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "その選択の重さを、次の場面まで持って行こう。",
-   "eyes": "anger"
   },
   {
    "op": "hide",
@@ -712,10 +766,6 @@
    "actor": "yui"
   },
   {
-   "op": "hide",
-   "actor": "extra_wizard"
-  },
-  {
    "op": "bg",
    "src": "legacy",
    "mode": "full"
@@ -725,6 +775,132 @@
    "src": "legacy"
   },
   {
+   "op": "nar",
+   "text": "塚の入口。ベーオウルフは、石の上に座っている。ウィーラーフが、塚から宝を運び出してきた。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "王よ、金の杯、鎖帷子、古い軍旗。竜が、三百年守ってきた宝です。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "塚の中の軍旗は、金の糸で織られていて、暗闇の中で、それ自体が光っていました。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "見せてくれて、ありがとう。……この宝を、民のために使え。わしは、自分の命で、これを買った。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "五十年、わしは、民を治めた。誰も、わしを恐れて、国を攻めなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "親族を殺したこともない。偽りの誓いを立てたこともない。……神の前で、恥じることはない。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "わしには、息子がいない。ウィーラーフ、お前が、ウェーイムンディング家の最後の者だ。この首飾りと、兜と、鎖帷子を。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "王よ……。水を、お持ちしました。兜で、汲んできました。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "運命は、わしの親族を、皆、連れて行った。わしも、その後を追う。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "海辺の岬の上に、塚を築いてくれ。高く。船乗りたちが、遠くからでも見えるように。ベーオウルフの塚と、呼ぶように。"
+  },
+  {
+   "op": "nar",
+   "text": "老王は、息を引き取った。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "逃げた家臣たちよ。王が、お前たちに与えた兜も、剣も、今日から、何の意味もない。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "王が死んだと知れば、北の国も、南の国も、また攻めてくる。……私たちは、王の陰で、五十年、守られてきたのだ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "民は、海辺の岬に、大きな火葬の薪を積んだ。王の亡骸と、竜の宝を、共に焼き、その上に、塚を築いた。"
+  },
+  {
+   "op": "nar",
+   "text": "一人の老いた女が、髪を結い上げ、悲しみの歌を歌った。攻め込まれる日々、殺される人々、恥と囚われの日々を、繰り返し。"
+  },
+  {
+   "op": "nar",
+   "text": "宝は、王が言ったように、民には分けられなかった。人々は、それを、王とともに、土に返した。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "十二人の戦士が、塚の周りを馬で回り、王の業績を歌った。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "王の中で、最も穏やかで、最も人に優しく、最も名誉を求めた方だった、と。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "名誉を求めた方。……私は、王が残したのは、宝でも、名前でもないと思う。最後に、逃げなかった、ひとりの背中だ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
    "op": "show",
    "actor": "nono",
    "pos": "center"
@@ -732,28 +908,22 @@
   {
    "op": "say",
    "actor": "nono",
-   "text": "『ベーオウルフ』、これにて終幕です。",
-   "eyes": "joy",
-   "mouth": "open"
+   "text": "『ベーオウルフ』、これにて幕です。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "残った問いは、勝つ英雄から、共同体に何を遺す英雄へ主題を深めること。",
-   "eyes": "sorrow"
+   "text": "若い英雄は、怪物の腕を掲げました。老いた王は、竜の宝を、民に残そうとして、民はそれを王と一緒に埋めました。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "選ばなかった道も、物語の外で静かに私たちを見ています。",
-   "eyes": "normal"
+   "text": "最後に戦場に残ったのは、王と、たった一人の若者でした。その若者が、次の時代を背負っていきます。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "ご観劇、ありがとうございました。",
-   "eyes": "joy",
-   "mouth": "open"
+   "text": "勝つ英雄は、一代限り。けれど、逃げずに隣に立つ人は、次の誰かの隣にも、きっと立ちます。"
   },
   {
    "op": "hide",

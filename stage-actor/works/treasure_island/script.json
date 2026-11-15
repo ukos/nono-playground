@@ -7,7 +7,7 @@
   "format": "v3",
   "minutes": 28,
   "synopsis": "全六景で原作の主要な運動をたどりながら、冒険の興奮と、欲望・忠義・選択の代償を同時に描くことを中心に再構成する。第五景で観客が人物の姿勢を選び、分岐は終幕前に合流する。",
-  "note": "本脚本は著作権の消滅した原作からの翻案であり、既存の翻訳・上演台本は使用していない。セリフは全て本上演版の書き下ろし。"
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
  },
  "cast": [
   {
@@ -57,28 +57,22 @@
   {
    "op": "say",
    "actor": "nono",
-   "text": "ようこそ、NONO座へ。本日の演目は『宝島』。",
-   "eyes": "normal"
+   "text": "十八世紀のイギリス、ブリストルの海辺。宿屋の息子ジム・ホーキンズが、一枚の地図を手に入れます。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "この舞台が見つめるのは、冒険の興奮と、欲望・忠義・選択の代償を同時に描くこと。",
-   "eyes": "sorrow",
-   "mouth": "open"
+   "text": "ロバート・ルイス・スティーヴンソンの『宝島』。海賊フリントが埋めた財宝をめぐる、少年の航海記です。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "古い物語を借りながら、台詞はすべて今夜のための書き下ろしです。",
-   "eyes": "normal"
+   "text": "そして、この話のいちばんの謎は、宝ではありません。片脚の料理番、ロング・ジョン・シルバーという男です。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "それでは、幕を開けましょう。",
-   "eyes": "joy",
-   "mouth": "open"
+   "text": "味方か、敵か。最後の波が引くまで、ジムと一緒に見極めてください。"
   },
   {
    "op": "hide",
@@ -95,7 +89,95 @@
   },
   {
    "op": "nar",
-   "text": "第1景「提督ベンボー亭」。海辺の古い宿。宝箱、濡れた窓、荒い波。"
+   "text": "提督ベンボー亭。崖の上の小さな宿。顔に刀傷のある老水夫が、毎晩ラム酒を飲んで歌っている。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "船長と名乗るあの客は、毎日、望遠鏡で海を見張っている。片脚の男が来たら知らせろって、銀貨をくれた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "父さんが病気で寝ているのに、あの人の歌がうるさくて、眠れないんだ。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "ジム、お父上の脈は弱い。静かにさせなさい。……船長、そのラム酒が、あなたの命も縮めている。"
+  },
+  {
+   "op": "nar",
+   "text": "老水夫はナイフを抜きかけたが、医師リヴジーの落ち着いた目に気圧されて、腰を下ろした。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "次に暴れたら、治安判事として、あなたを縛り首にする。私は医者でもあり、判事でもあるのでね。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "nar",
+   "text": "霧の朝。盲目の男が杖を鳴らして現れ、老水夫の手に、黒く塗った紙切れを押しつけた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "黒丸……？　船長が、真っ青になって、倒れた！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "その夜、ジムの父も息を引き取った。老水夫は、黒丸を受けた日に、卒中で死んだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "一日に、二人も。……母さんと二人で、宿を守らなきゃ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "船長は、宿代を払っていない。あの箱の中から、払ってもらう。"
+  },
+  {
+   "op": "nar",
+   "text": "船乗りの箱の底に、油布で包んだ束があった。中から、島の地図が出てきた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "赤い十字が三つ。「大部分の宝、ここ」と書いてある。……フリント船長の署名！"
+  },
+  {
+   "op": "nar",
+   "text": "外で、蹄の音と叫び声。海賊たちが、箱を狙って宿へ押し寄せてきた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "母さん、生垣の陰へ！　地図は、ぼくの胸に。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
   },
   {
    "op": "show",
@@ -104,73 +186,45 @@
   },
   {
    "op": "show",
-   "actor": "yoru",
-   "pos": "center"
-  },
-  {
-   "op": "show",
    "actor": "extra_elder",
    "pos": "right"
   },
   {
-   "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "間一髪だったな。海賊どもは、税関の騎馬隊に追い散らされた。"
   },
   {
    "op": "say",
    "actor": "rei_casual",
-   "text": "亡くなった船乗りの箱から、島の地図が出てきた。",
-   "eyes": "normal"
-  },
-  {
-   "op": "say",
-   "actor": "yoru",
-   "text": "地図は宝より先に、人の目を変える。",
-   "eyes": "joy"
-  },
-  {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "今の言葉を、聞かなかったことにはできない。",
-   "eyes": "sorrow"
+   "text": "先生、これを見てください。あいつらが欲しがっていたものです。"
   },
   {
    "op": "say",
    "actor": "extra_elder",
-   "text": "印の場所だけでなく、余白に書かれた潮の記録も読め。",
+   "text": "これは……フリントの島の地図だ。地主のトリローニさんに見せねば。",
    "eyes": "surprise"
   },
   {
    "op": "say",
-   "actor": "rei_casual",
-   "text": "冒険は紙の上では静かだ。海へ出れば命の重さになる。",
-   "eyes": "anger"
-  },
-  {
-   "op": "say",
-   "actor": "yoru",
-   "text": "なら、次の一歩で確かめよう。",
-   "eyes": "fun"
+   "actor": "extra_elder",
+   "text": "ブリストルで船を仕立てて、宝を探しに行こう。ジム、君は船室係として来るといい。"
   },
   {
    "op": "say",
    "actor": "rei_casual",
-   "text": "私は、冒険の興奮と、欲望・忠義・選択の代償を同時に描くことを忘れずに選ぶ。",
+   "text": "海へ！　ぼくが、海へ出られる！",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "ただし、この地図のことは、誰にも言うな。地主殿は口が軽い。それだけが心配だ。",
    "eyes": "closed"
-  },
-  {
-   "op": "say",
-   "actor": "yoru",
-   "text": "その選択の重さを、次の場面まで持って行こう。",
-   "eyes": "crying"
   },
   {
    "op": "hide",
    "actor": "rei_casual"
-  },
-  {
-   "op": "hide",
-   "actor": "yoru"
   },
   {
    "op": "hide",
@@ -187,7 +241,23 @@
   },
   {
    "op": "nar",
-   "text": "第2景「ヒスパニオーラ号」。帆船の甲板。樽、帆柱、青い外洋。"
+   "text": "ブリストル港。帆船ヒスパニオーラ号の甲板。松葉杖をついた片脚の男が、肩にオウムを乗せて歩いている。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "やあ、坊主。お前がジム・ホーキンズか。地主さまから聞いてる。わしは料理番のジョン・シルバー。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "こいつはフリント船長。オウムの名前さ。二百年生きてる、と言いたいところだが、まあ、わしよりは年上だ。"
   },
   {
    "op": "show",
@@ -195,9 +265,35 @@
    "pos": "left"
   },
   {
-   "op": "show",
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "片脚の……。船長が、片脚の男に気をつけろって言ってた。"
+  },
+  {
+   "op": "say",
    "actor": "extra_porter",
-   "pos": "center"
+   "text": "片脚の男なんぞ、港に百人はいる。わしの脚は、イギリス国王のために戦って、なくしたのさ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "船員の名前を、全部覚えているんですね。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "名前を呼ばれた男は、呼んだ男のために働く。料理と同じさ。塩ひとつまみで、皆の機嫌が変わる。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "シルバーさんの話、もっと聞きたい。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
   },
   {
    "op": "show",
@@ -205,64 +301,24 @@
    "pos": "right"
   },
   {
-   "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "スモレット船長は、乗組員が気に入らないそうだ。皆、行き先を知りすぎている、とな。"
   },
   {
    "op": "say",
    "actor": "rei_casual",
-   "text": "片脚の料理人なのに、船員全員の名前を覚えている。",
-   "eyes": "joy"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "人を動かすのは命令より、名前を呼ぶことさ。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "答えはまだ一つに決められない。",
-   "eyes": "surprise"
+   "text": "宝島のことが、もう、船中に知られているんですか。"
   },
   {
    "op": "say",
    "actor": "extra_elder",
-   "text": "親切と計算が同じ笑顔をする時もある。",
-   "eyes": "anger"
-  },
-  {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "少年、疑うなら耳を開け。決めつけるなら目を閉じろ。",
-   "eyes": "fun"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "迷いを抱えたままでも、進むことはできる。",
+   "text": "地主殿が、港じゅうでしゃべってしまった。……船長は、弾薬と武器を、船尾に移させたよ。",
    "eyes": "closed"
-  },
-  {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "私は、冒険の興奮と、欲望・忠義・選択の代償を同時に描くことを忘れずに選ぶ。",
-   "eyes": "crying"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "その選択の重さを、次の場面まで持って行こう。",
-   "eyes": "normal"
   },
   {
    "op": "hide",
    "actor": "rei_casual"
-  },
-  {
-   "op": "hide",
-   "actor": "extra_porter"
   },
   {
    "op": "hide",
@@ -279,7 +335,88 @@
   },
   {
    "op": "nar",
-   "text": "第3景「林檎樽の密談」。夜の帆船甲板。林檎樽、月、静かな帆。"
+   "text": "夜の甲板。ジムは、林檎を取ろうとして、空に近い大樽の中に入り込んだ。樽の外で、声がする。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……眠ってしまうところだった。外に、誰か来た。シルバーさんの声だ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "若いの、聞け。わしはフリントの操舵手だった。あの船長は、わしを怖がっていた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "島に着いて、宝を掘り出すまでは、紳士がたに従っておけ。船を戻す航海士がいるからな。"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "それで、いつやる。おれはもう、あのスモレットの命令を聞くのに、うんざりだ。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "急ぐと、首を締めるのは自分だぞ、イスラエル。宝を積んで、帰り道の半分まで来たら、そのときだ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "地主と医者と、あの坊主は。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……死人は、噛みつかない。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "反乱だ。島に着いたら、皆を殺すつもりなんだ。……あの、優しいシルバーさんが。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "nar",
+   "text": "見張りが叫んだ。陸だ、陸が見えるぞ。甲板じゅうが沸き立ち、樽のそばから人が消えた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "今のうちに出て、先生たちに知らせなきゃ。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
   },
   {
    "op": "show",
@@ -288,65 +425,45 @@
   },
   {
    "op": "show",
-   "actor": "extra_porter",
-   "pos": "center"
-  },
-  {
-   "op": "show",
-   "actor": "yoru",
+   "actor": "extra_elder",
    "pos": "right"
-  },
-  {
-   "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
   },
   {
    "op": "say",
    "actor": "rei_casual",
-   "text": "樽の中で聞いた。島に着いたら反乱を起こすつもりだ。",
-   "eyes": "sorrow"
+   "text": "先生、船長室で話があると、地主さんに伝えてください。……乗組員の大半が、海賊の仲間です。"
   },
   {
    "op": "say",
-   "actor": "extra_porter",
-   "text": "宝を目前にして、船長の規則に従う海賊はいない。",
+   "actor": "extra_elder",
+   "text": "何人だ。",
    "eyes": "surprise"
   },
   {
    "op": "say",
    "actor": "rei_casual",
-   "text": "その理屈には、置き去りにされた声がある。",
-   "eyes": "anger"
+   "text": "シルバーと、イスラエル・ハンズと、他に十人以上。味方は、ぼくたちを入れて、七人くらい。"
   },
   {
    "op": "say",
-   "actor": "yoru",
-   "text": "今すぐ告げれば戦いになる。黙れば準備ができる。",
-   "eyes": "fun"
+   "actor": "extra_elder",
+   "text": "今すぐ告げれば、ここで戦いになる。数で負ける。"
   },
   {
    "op": "say",
-   "actor": "rei_casual",
-   "text": "勇気は叫ぶことだけじゃない。黙って機を待つこともある。",
+   "actor": "extra_elder",
+   "text": "何も知らないふりをしよう。ジム、君が一番の目と耳だ。君の勇気に、私たちの命を預ける。",
    "eyes": "closed"
   },
   {
    "op": "say",
-   "actor": "extra_porter",
-   "text": "誰のための決断か、もう一度考えよう。",
-   "eyes": "crying"
-  },
-  {
-   "op": "say",
    "actor": "rei_casual",
-   "text": "私は、冒険の興奮と、欲望・忠義・選択の代償を同時に描くことを忘れずに選ぶ。",
-   "eyes": "normal"
+   "text": "……ぼくは、樽の中で聞いていただけです。"
   },
   {
    "op": "say",
-   "actor": "extra_porter",
-   "text": "その選択の重さを、次の場面まで持って行こう。",
-   "eyes": "joy"
+   "actor": "extra_elder",
+   "text": "逃げずに、最後まで聞いた。それが勇気だ。"
   },
   {
    "op": "hide",
@@ -354,7 +471,183 @@
   },
   {
    "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "bg",
+   "src": "stockade",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "stockade"
+  },
+  {
+   "op": "nar",
+   "text": "宝島。熱気と湿気。灰色の森の中に、丸太で囲った古い砦が建っている。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "nar",
+   "text": "上陸の日、ジムはひとりボートに飛び乗り、森へ逃げ込んだ。そこで、三年も島に置き去りにされた男に会った。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "ベン・ガンという人に会いました。チーズが食べたいって、そればかり言ってた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "フリントの昔の手下だった。……それと、宝の話をすると、妙に、にやにや笑うんです。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "不思議な男だな。だが、今は砦だ。ここに水はある。火薬もある。だが、人数が足りない。"
+  },
+  {
+   "op": "nar",
+   "text": "海賊たちの攻撃が始まった。砦の柵を越えて、刀を持った男たちが飛び込んでくる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "来るな！",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "激しい撃ち合いのあと、海賊たちは退いた。砦の側にも、けが人が出た。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "休戦だ、先生。白旗を立てて来た。……話し合おうじゃないか。地図を渡せば、皆の命は助けてやる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "断る。船長が言っていた。お前たちは、船を動かす腕もない。そのうち、熱病で倒れていく。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "なら、一時間もたたずに、この砦を叩き潰してやる。",
+   "eyes": "anger"
+  },
+  {
+   "op": "hide",
    "actor": "extra_porter"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "私は、敵の野営地にも行く。病人がいるなら、医者として診る。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "海賊を、助けるんですか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "治療は降伏ではない。私が何者であるかを、手放さないためだ。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "nar",
+   "text": "夜。ジムはひとりで砦を抜け出し、ベン・ガンの小舟で、沖に停泊しているヒスパニオーラ号へ向かった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "船を取り返せば、海賊たちは島から出られない。……先生には、また叱られるだろうな。"
+  },
+  {
+   "op": "nar",
+   "text": "船の上では、見張りの海賊が二人、酒に酔って取っ組み合い、一人が倒れていた。"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……坊主か。ラムを……。ラムを一杯、持ってきてくれ。脚をやられた。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "船長は、ぼくです。今から、この船を北の入江に入れる。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "舵を取れるのか。おれが教えてやろう。……そのかわり、酒と、包帯を。",
+   "eyes": "fun"
+  },
+  {
+   "op": "nar",
+   "text": "二人は奇妙な協力をして、船を入江の浅瀬に乗り上げさせた。その瞬間、イスラエルは短剣を抜いた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "帆柱へ！",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "ジムは帆柱の横木によじ登り、二丁の拳銃を構えた。イスラエルは短剣を投げ、ジムの肩を柱に縫いつけた。"
+  },
+  {
+   "op": "nar",
+   "text": "拳銃が火を噴いた。イスラエルは、海へ落ちて、二度と浮かんでこなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……肩が、熱い。でも、船は、取り返した。",
+   "eyes": "crying"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
   },
   {
    "op": "hide",
@@ -371,7 +664,7 @@
   },
   {
    "op": "nar",
-   "text": "第4景「島の柵砦」。熱帯の島の木柵。見張り台、煙、密林。"
+   "text": "夜明け前。砦に戻ったジムを迎えたのは、仲間ではなく、オウムの叫び声だった。"
   },
   {
    "op": "show",
@@ -380,65 +673,61 @@
   },
   {
    "op": "show",
-   "actor": "extra_elder",
-   "pos": "center"
-  },
-  {
-   "op": "show",
-   "actor": "yoru",
+   "actor": "extra_porter",
    "pos": "right"
   },
   {
-   "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "よく帰ったな、ジム。……驚いたか。先生たちは、砦を明け渡して、出ていったよ。"
   },
   {
    "op": "say",
    "actor": "rei_casual",
-   "text": "砦に水はあるが、人数が足りない。地図を守るだけでは勝てない。",
+   "text": "先生が？　……あなたたちの捕虜になった？",
    "eyes": "surprise"
   },
   {
    "op": "say",
-   "actor": "extra_elder",
-   "text": "敵にも傷病者がいる。医者として診る。",
+   "actor": "extra_porter",
+   "text": "取引さ。砦と食料と地図を渡して、命と引き換えに、どこかへ行った。理由は、わしにも分からん。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "シルバー、ぼくは全部知っている。樽の中で聞いた。船を取り返したのも、ぼくだ。",
    "eyes": "anger"
   },
   {
    "op": "say",
    "actor": "rei_casual",
-   "text": "恐れを隠しても、状況は変わらない。",
-   "eyes": "fun"
+   "text": "殺すなら殺せばいい。でも、ぼくを生かしておけば、あなたが絞首台に上がるとき、証言してあげる。"
   },
   {
    "op": "say",
-   "actor": "yoru",
-   "text": "海賊を助けるのですか。",
+   "actor": "extra_porter",
+   "text": "……わしの若いころに、そっくりだ。",
    "eyes": "closed"
   },
   {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "治療は降伏ではない。こちらが何者かを手放さないためだ。",
-   "eyes": "crying"
+   "op": "nar",
+   "text": "海賊たちが刀を抜いた。シルバーは、松葉杖を一振りして、彼らの前に立ちはだかった。"
   },
   {
    "op": "say",
-   "actor": "extra_elder",
-   "text": "恐れを言葉にした今なら、選び直せる。",
-   "eyes": "normal"
+   "actor": "extra_porter",
+   "text": "この坊主に手を出す奴は、わしが相手だ。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "海賊たちは、黒丸をシルバーに突きつけた。シルバーは、懐から、あの地図を取り出して投げた。"
   },
   {
    "op": "say",
-   "actor": "rei_casual",
-   "text": "私は、冒険の興奮と、欲望・忠義・選択の代償を同時に描くことを忘れずに選ぶ。",
-   "eyes": "joy"
-  },
-  {
-   "op": "say",
-   "actor": "extra_elder",
-   "text": "その選択の重さを、次の場面まで持って行こう。",
-   "eyes": "sorrow"
+   "actor": "extra_porter",
+   "text": "黒丸の代わりに、宝の地図だ。どっちが値打ちがある。"
   },
   {
    "op": "hide",
@@ -446,11 +735,7 @@
   },
   {
    "op": "hide",
-   "actor": "extra_elder"
-  },
-  {
-   "op": "hide",
-   "actor": "yoru"
+   "actor": "extra_porter"
   },
   {
    "op": "bg",
@@ -463,7 +748,7 @@
   },
   {
    "op": "nar",
-   "text": "第5景「空の宝穴」。岩山の洞窟。掘られた穴、切れた縄、松明。"
+   "text": "三本の松の木の下。地図の印の場所に、海賊たちが駆け寄る。そこには、大きな穴があいているだけだった。"
   },
   {
    "op": "show",
@@ -473,133 +758,107 @@
   {
    "op": "show",
    "actor": "extra_porter",
-   "pos": "center"
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "空っぽだ……。誰かが、もう掘り出した。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……ジム、こっちへ来い。わしの横に。拳銃を、一丁、持っておけ。"
+  },
+  {
+   "op": "nar",
+   "text": "海賊たちの怒りは、シルバーへ向かった。そのとき、森から銃声が響いた。医師とベン・ガンが、飛び出してきた。"
   },
   {
    "op": "show",
    "actor": "extra_elder",
-   "pos": "right"
-  },
-  {
-   "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "宝はもう移されていた。争った場所には空洞だけが残った。",
-   "eyes": "anger"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "宝が消えれば、私の価値も消えると思うか。",
-   "eyes": "fun"
-  },
-  {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "正しさだけでは、人の痛みを量れない。",
-   "eyes": "closed"
+   "pos": "center"
   },
   {
    "op": "say",
    "actor": "extra_elder",
-   "text": "選ぶ行動が人の価値を作る。今ここで味方をするのか。",
-   "eyes": "crying"
-  },
-  {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "生き残る側に付く。だが少年を売るほど安くはない。",
-   "eyes": "normal"
+   "text": "宝は、ベン・ガンが二年前に掘り出して、自分の洞窟に移していた。私が砦を明け渡したのは、そのためだ。"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "だから事実と心の両方を見よう。",
-   "eyes": "joy"
+   "text": "なるほど。先生のほうが、一枚上手だった。",
+   "eyes": "fun"
   },
   {
    "op": "say",
-   "actor": "rei_casual",
-   "text": "私は、冒険の興奮と、欲望・忠義・選択の代償を同時に描くことを忘れずに選ぶ。",
-   "eyes": "sorrow"
+   "actor": "extra_elder",
+   "text": "シルバー、お前はどちらにつく。"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "その選択の重さを、次の場面まで持って行こう。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "nar",
-   "text": "ここで舞台は一瞬静まり、観客の選択が人物の心の向きを変える。"
+   "text": "生き残る側に。……だが、この坊主を売るほど、わしは安くないつもりだ。"
   },
   {
    "op": "choice",
    "options": [
     {
-     "text": "シルバーを仲間として信じる",
-     "jump": "route_a"
+     "text": "ジムは、シルバーを仲間として信じる",
+     "jump": "m_trust"
     },
     {
-     "text": "監視下の協力者として扱う",
-     "jump": "route_b"
+     "text": "ジムは、シルバーを監視のもとで連れ帰る",
+     "jump": "m_watch"
     }
    ]
   },
   {
    "op": "label",
-   "id": "route_a"
+   "id": "m_trust"
   },
   {
    "op": "say",
    "actor": "rei_casual",
-   "text": "私は『シルバーを仲間として信じる』道を選ぶ。",
+   "text": "シルバーは、砦でぼくを守った。少なくとも、一度は。それを、信じます。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "坊主の言葉一つで、わしの首がつながったな。",
    "eyes": "joy"
   },
   {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "その決断なら、結果まで自分の言葉で引き受けて。",
-   "eyes": "normal"
-  },
-  {
-   "op": "set",
-   "flag": "f_route_a"
-  },
-  {
    "op": "jump",
-   "to": "merge_choice"
+   "to": "m_cave"
   },
   {
    "op": "label",
-   "id": "route_b"
+   "id": "m_watch"
   },
   {
    "op": "say",
    "actor": "rei_casual",
-   "text": "私は『監視下の協力者として扱う』道を選ぶ。",
-   "eyes": "surprise"
+   "text": "シルバーを信じたい。でも、目は離さない。……先生、拳銃は、ぼくが持っています。"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "違う道でも、守るべきものを見失わないで。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "set",
-   "flag": "f_route_b"
+   "text": "それでいい。用心深い男は、長生きする。",
+   "eyes": "closed"
   },
   {
    "op": "label",
-   "id": "merge_choice"
+   "id": "m_cave"
   },
   {
    "op": "nar",
-   "text": "選択の余韻を抱えたまま、物語は同じ終幕へ向かう。"
+   "text": "ベン・ガンの洞窟には、金貨の山が積まれていた。イギリス、フランス、スペイン、あらゆる国の金貨だった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "これを集めるために、何人が死んだんだろう。"
   },
   {
    "op": "hide",
@@ -624,7 +883,7 @@
   },
   {
    "op": "nar",
-   "text": "第6景「帰りの海」。夕暮れの帆船。小さな宝箱、静かな波、故郷の灯。"
+   "text": "帰りの海。金貨を積んだヒスパニオーラ号は、南米の港に立ち寄った。夜、シルバーが姿を消した。"
   },
   {
    "op": "show",
@@ -633,65 +892,39 @@
   },
   {
    "op": "show",
-   "actor": "extra_porter",
-   "pos": "center"
-  },
-  {
-   "op": "show",
    "actor": "extra_elder",
    "pos": "right"
   },
   {
-   "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "ボートを盗み、金貨の袋を一つだけ持って、逃げた。ベン・ガンが、わざと見逃したらしい。"
   },
   {
    "op": "say",
    "actor": "rei_casual",
-   "text": "金貨を得ても、夜には波音で目が覚める。",
-   "eyes": "fun"
+   "text": "ほっとしたような、さびしいような気持ちです。"
   },
   {
    "op": "say",
-   "actor": "extra_porter",
-   "text": "宝島は地図から消えても、欲望の形で残る。",
+   "actor": "extra_elder",
+   "text": "あの男を、英雄にも、怪物にもできない。どちらも選んで生きた男だ。",
    "eyes": "closed"
   },
   {
    "op": "say",
    "actor": "rei_casual",
-   "text": "ここで黙れば、同じことが繰り返される。",
-   "eyes": "crying"
+   "text": "あの人は、船に乗った最初の日から、ぼくを名前で呼んでくれた。坊主、じゃなくて、ジム、と。"
   },
   {
    "op": "say",
    "actor": "extra_elder",
-   "text": "シルバーを英雄にも怪物にもできない。両方を選んだ人だ。",
-   "eyes": "normal"
+   "text": "君を利用するためか、守るためか。……おそらく、両方だ。"
   },
   {
    "op": "say",
    "actor": "rei_casual",
-   "text": "その複雑さを持ち帰れ。それが少年の冒険の終わりだ。",
-   "eyes": "joy"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "言葉にした責任を、次の場面へ持って行こう。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "私は、冒険の興奮と、欲望・忠義・選択の代償を同時に描くことを忘れずに選ぶ。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "その選択の重さを、次の場面まで持って行こう。",
-   "eyes": "anger"
+   "text": "いつか、どこかの港で会ったら、ぼくは、挨拶をすると思います。"
   },
   {
    "op": "hide",
@@ -699,20 +932,36 @@
   },
   {
    "op": "hide",
-   "actor": "extra_porter"
-  },
-  {
-   "op": "hide",
    "actor": "extra_elder"
   },
   {
-   "op": "bg",
-   "src": "returnsea",
-   "mode": "full"
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "金貨は、皆で分けた。ベン・ガンは、三週間で全部使ってしまったそうだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "今でも夜中に、波の音と、オウムの叫び声で目が覚める。「八銀貨！　八銀貨！」って。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "島には、まだ銀の延べ棒が残っているらしい。でも、ぼくは二度と、あの島へは行かない。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
   },
   {
    "op": "bg",
-   "src": "returnsea"
+   "src": null
   },
   {
    "op": "show",
@@ -722,28 +971,22 @@
   {
    "op": "say",
    "actor": "nono",
-   "text": "『宝島』、これにて終幕です。",
-   "eyes": "joy",
-   "mouth": "open"
+   "text": "『宝島』、これにて幕です。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "残った問いは、冒険の興奮と、欲望・忠義・選択の代償を同時に描くこと。",
-   "eyes": "sorrow"
+   "text": "地図には、宝の場所は書いてありました。でも、誰を信じるかは、書いてありませんでした。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "選ばなかった道も、物語の外で静かに私たちを見ています。",
-   "eyes": "normal"
+   "text": "片脚の料理番は、最後まで、悪人とも善人とも言い切れない人でした。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "ご観劇、ありがとうございました。",
-   "eyes": "joy",
-   "mouth": "open"
+   "text": "人を見る目というのは、金貨よりずっと手に入れにくい宝なのかもしれません。"
   },
   {
    "op": "hide",

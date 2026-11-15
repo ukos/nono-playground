@@ -1,728 +1,1062 @@
 {
-  "meta": {
-    "id": "akagaki-tokkuri",
-    "number": 151,
-    "title": "赤穂義士伝・赤垣源蔵 徳利の別れ ―兄の羽織―",
-    "original": "古典講談『赤穂義士伝・赤垣源蔵』（伝統演目）",
-    "category": "講談",
-    "adaptation": "faithful",
-    "format": "v3",
-    "minutes": 36,
-    "synopsis": "全五景で「会えない相手へ語る言葉も、別れを届けることがある」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
-    "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+ "meta": {
+  "id": "akagaki-tokkuri",
+  "number": 151,
+  "title": "赤穂義士伝・赤垣源蔵 徳利の別れ ―兄の羽織―",
+  "original": "古典講談『赤穂義士伝・赤垣源蔵』（伝統演目）",
+  "category": "講談",
+  "adaptation": "faithful",
+  "format": "v3",
+  "minutes": 36,
+  "synopsis": "全五景で「会えない相手へ語る言葉も、別れを届けることがある」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "狂言回し",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "赤垣源蔵",
-      "actor": "rei_casual",
-      "costume": "default"
-    },
-    {
-      "role": "兄の羽織",
-      "actor": "nono_whitecat",
-      "costume": "default"
-    },
-    {
-      "role": "下女",
-      "actor": "mei",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "brother_house": "bg/akagaki-tokkuri-brother_house-2048x1152.png",
-    "empty_room": "bg/akagaki-tokkuri-empty_room-2048x1152.png",
-    "sake_cup": "bg/akagaki-tokkuri-sake_cup-2048x1152.png",
-    "silent_bow": "bg/akagaki-tokkuri-silent_bow-2048x1152.png",
-    "winter_street": "bg/akagaki-tokkuri-winter_street-2048x1152.png"
+  {
+   "role": "赤垣源蔵",
+   "actor": "rei_hakama",
+   "costume": "default"
   },
-  "steps": [
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『赤穂義士伝・赤垣源蔵徳利の別れ』。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "講談の一席を、全五景でお届けします。",
-      "mouth": "open",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "この舞台の核は「会えない相手へ語る言葉も、別れを届けることがある」。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "台詞はすべて今夜のための書き下ろしです。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "それでは、幕を開けましょう。",
-      "mouth": "open",
-      "eyes": "joy"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "brother_house",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "brother_house"
-    },
-    {
-      "op": "nar",
-      "text": "第1景「兄の留守宅」。討入前の源蔵が兄へ別れを告げに訪れる。"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "nono_whitecat",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "「兄の留守宅」へ来た。討入前の源蔵が兄へ別れを告げに訪れる。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "ここで黙れば、誰かが代わりに意味を決める。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "私が守りたいのは「会えない相手へ語る言葉も、別れを届けることがある」だ。",
-      "eyes": "anger"
-    },
-    {
-      "op": "nar",
-      "text": "兄の留守宅の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "過去は変えられない。だが次の手は選べる。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。討入前の源蔵が兄へ別れを告げに訪れる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "討入前の源蔵が兄へ別れを告げに訪れる。その事実から目をそらさない。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "恐れを消すのではなく、恐れたまま進もう。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "私の名ではなく、行いで答えを残す。",
-      "eyes": "normal"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "その答えを、次の場面まで持って行こう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "ここで決める。逃げず、相手の声を聞く。",
-      "eyes": "anger"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "ならば私も、その決断の重さを分け合う。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "hide",
-      "actor": "nono_whitecat"
-    },
-    {
-      "op": "bg",
-      "src": "empty_room",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "empty_room"
-    },
-    {
-      "op": "nar",
-      "text": "第2景「誰もいない座敷」。不在と知り兄の羽織を座らせて向き合う。"
-    },
-    {
-      "op": "show",
-      "actor": "mei",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "「誰もいない座敷」へ来た。不在と知り兄の羽織を座らせて向き合う。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "ここで黙れば、誰かが代わりに意味を決める。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "私が守りたいのは「会えない相手へ語る言葉も、別れを届けることがある」だ。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "誰もいない座敷の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-      "eyes": "surprise",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "過去は変えられない。だが次の手は選べる。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。不在と知り兄の羽織を座らせて向き合う。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "不在と知り兄の羽織を座らせて向き合う。その事実から目をそらさない。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "恐れを消すのではなく、恐れたまま進もう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "私の名ではなく、行いで答えを残す。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "その答えを、次の場面まで持って行こう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "ここで決める。逃げず、相手の声を聞く。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "ならば私も、その決断の重さを分け合う。",
-      "eyes": "fun"
-    },
-    {
-      "op": "hide",
-      "actor": "mei"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "bg",
-      "src": "sake_cup",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "sake_cup"
-    },
-    {
-      "op": "nar",
-      "text": "第3景「徳利と杯」。一人二役で酒を酌み交わし昔の思い出を語る。"
-    },
-    {
-      "op": "show",
-      "actor": "nono_whitecat",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "mei",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "「徳利と杯」へ来た。一人二役で酒を酌み交わし昔の思い出を語る。",
-      "eyes": "anger",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "ここで黙れば、誰かが代わりに意味を決める。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "私が守りたいのは「会えない相手へ語る言葉も、別れを届けることがある」だ。",
-      "eyes": "fun"
-    },
-    {
-      "op": "nar",
-      "text": "徳利と杯の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-      "eyes": "crying",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "過去は変えられない。だが次の手は選べる。",
-      "eyes": "closed"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。一人二役で酒を酌み交わし昔の思い出を語る。"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "一人二役で酒を酌み交わし昔の思い出を語る。その事実から目をそらさない。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "恐れを消すのではなく、恐れたまま進もう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "私の名ではなく、行いで答えを残す。",
-      "eyes": "anger",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "その答えを、次の場面まで持って行こう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "ここで決める。逃げず、相手の声を聞く。",
-      "eyes": "fun"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "ならば私も、その決断の重さを分け合う。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "hide",
-      "actor": "nono_whitecat"
-    },
-    {
-      "op": "hide",
-      "actor": "mei"
-    },
-    {
-      "op": "bg",
-      "src": "silent_bow",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "silent_bow"
-    },
-    {
-      "op": "nar",
-      "text": "第4景「羽織への礼」。真意を紙にも残さず深く頭を下げる。"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "nono_whitecat",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "「羽織への礼」へ来た。真意を紙にも残さず深く頭を下げる。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "ここで黙れば、誰かが代わりに意味を決める。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "私が守りたいのは「会えない相手へ語る言葉も、別れを届けることがある」だ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "羽織への礼の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "過去は変えられない。だが次の手は選べる。",
-      "eyes": "normal"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。真意を紙にも残さず深く頭を下げる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "真意を紙にも残さず深く頭を下げる。その事実から目をそらさない。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "恐れを消すのではなく、恐れたまま進もう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "私の名ではなく、行いで答えを残す。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "その答えを、次の場面まで持って行こう。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "ここで決める。逃げず、相手の声を聞く。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "ならば私も、その決断の重さを分け合う。",
-      "eyes": "crying"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "hide",
-      "actor": "nono_whitecat"
-    },
-    {
-      "op": "bg",
-      "src": "winter_street",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "winter_street"
-    },
-    {
-      "op": "nar",
-      "text": "第5景「冬の帰路」。空の徳利を置き源蔵が静かに討入へ向かう。"
-    },
-    {
-      "op": "show",
-      "actor": "mei",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "「冬の帰路」へ来た。空の徳利を置き源蔵が静かに討入へ向かう。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "ここで黙れば、誰かが代わりに意味を決める。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "私が守りたいのは「会えない相手へ語る言葉も、別れを届けることがある」だ。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "冬の帰路の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "過去は変えられない。だが次の手は選べる。",
-      "eyes": "joy"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。空の徳利を置き源蔵が静かに討入へ向かう。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "空の徳利を置き源蔵が静かに討入へ向かう。その事実から目をそらさない。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "恐れを消すのではなく、恐れたまま進もう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "私の名ではなく、行いで答えを残す。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "その答えを、次の場面まで持って行こう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "ここで決める。逃げず、相手の声を聞く。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "ならば私も、その決断の重さを分け合う。",
-      "eyes": "closed"
-    },
-    {
-      "op": "hide",
-      "actor": "mei"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "物語はここまで。残った問いは「会えない相手へ語る言葉も、別れを届けることがある」。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ご来場、ありがとうございました。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "end"
-    }
-  ]
+  {
+   "role": "兄・塩山伊左衛門",
+   "actor": "extra_elder",
+   "costume": "default"
+  },
+  {
+   "role": "下女",
+   "actor": "mei",
+   "costume": "default"
+  },
+  {
+   "role": "下男・市助",
+   "actor": "extra_villager",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "brother_house": "bg/akagaki-tokkuri-brother_house-2048x1152.png",
+  "empty_room": "bg/akagaki-tokkuri-empty_room-2048x1152.png",
+  "sake_cup": "bg/akagaki-tokkuri-sake_cup-2048x1152.png",
+  "silent_bow": "bg/akagaki-tokkuri-silent_bow-2048x1152.png",
+  "winter_street": "bg/akagaki-tokkuri-winter_street-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "元禄十五年、十二月十四日。江戸の町に、朝から雪が降っておりました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "講談『赤穂義士伝』のうち、赤垣源蔵、徳利の別れ。義士銘々伝の中でも、ことに人気の高い一席です。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "源蔵は、四十七士のひとり。大酒飲みで、気のいい男。その夜、討ち入りのことは、誰にも言えません。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "言えないまま、たった一人の兄に、別れを告げに行く。……会えなかった兄に、どう告げたのか。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "雪の降る芝・汐留の、兄の屋敷から、お聞きください。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "brother_house",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "brother_house"
+  },
+  {
+   "op": "nar",
+   "text": "夕暮れ。脇坂淡路守の家臣、塩山伊左衛門の屋敷の門。雪を積んだ笠をかぶった男が、片手に大きな徳利を下げて立っている。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_hakama",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "ごめん。……ごめんくだされ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "寒い。徳利の中身が、凍ってしまいそうだ。これが凍っては、話にならん。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "門番の爺さんも、こう寒くては、居眠りか。……おうい、源蔵だ。開けてくれい。"
+  },
+  {
+   "op": "nar",
+   "text": "中から、下女のお杉が、雪駄をつっかけて駆けてきた。"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "まあ、源蔵さま。雪の中を、こんなに遅く。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "お杉どのか。兄上は、ご在宅かな。今日は、兄上と、ちと飲みたいと思ってな。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "あいにく、旦那さまは、お屋敷のお勤めで、まだお戻りではございません。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "今宵は、遅くなりそうかな。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "殿さまの御用で、四つを過ぎるかもしれぬと、朝に申しておいででした。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "そうか。……では、姉上に、ご挨拶を。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "奥さまは……その、お風邪を召して、伏せっておいででございます。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "風邪か。……風邪というのは、わしが来ると、よくかかるものらしい。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "源蔵さま、そのようなことは……。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "いやいや、怒っておるのではない。浪人の、飲んだくれの弟が、また金の無心に来たと思われるのは、当たり前だ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "姉上は、正直な方だ。嫌いな者には、嫌いと、ちゃんと風邪をひいてくださる。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "源蔵さま、奥さまに聞こえます。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "聞こえるように言うておる。……いや、冗談だ。今のは、聞こえなかったことにしてくれ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "お杉どの、上がらせてもらっても、よいかな。兄上が戻るまで、少しだけ、待たせてほしい。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "どうぞ、どうぞ。火鉢に、炭を足してまいります。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "足元の雪を払ってから上がる。兄上の畳を濡らしては、また叱られる。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_hakama"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "bg",
+   "src": "empty_room",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "empty_room"
+  },
+  {
+   "op": "nar",
+   "text": "屋敷の奥の座敷。床の間に掛け軸。衣桁に、兄の黒い羽織が掛けてある。行灯の火が、ゆらゆら揺れている。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_hakama",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "兄上の座敷は、いつ来ても、きちんとしている。……わしの長屋とは、えらい違いだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "三年前、殿さまが、松の廊下で刃傷に及ばれ、お腹を召された。赤穂の城は、明け渡し。わしらは、浪人になった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "わしは、赤穂で、勘定方の端に名を連ねておった。そろばんより、徳利のほうが得意でな。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "兄上は、その時から、わしに冷たくなった。いや、わしが、酒に逃げた。……どちらが先だったかは、忘れてしまった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "衣桁の羽織が、ふわりと、すきま風に揺れた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "……兄上？",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "なんだ、羽織か。……兄上の羽織が、わしを見ている気がした。",
+   "eyes": "joy"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "源蔵さま、お茶をお持ちいたしました。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "お杉どの、ひとつ、頼みがある。……あの羽織を、ここへ持ってきてはもらえぬか。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "旦那さまの、お羽織を？",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "兄上は留守。だが、羽織は、兄上の肩の形をしておる。それを、この座布団の上に、座らせてほしい。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……旦那さまに叱られましたら、私が、羽織のお守りをしていたと申しましょう。"
+  },
+  {
+   "op": "nar",
+   "text": "お杉は、羽織を衣桁から外し、源蔵と向かい合わせの座布団の上に、きちんと広げて置いた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "うむ。兄上、お久しぶりでござる。……少し、お痩せになりましたか。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "源蔵さま、お羽織に、お話しかけに……。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "話しかけたら、いかんか。兄上は、羽織でも、わしよりずっと、ちゃんとしておる。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_hakama"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "bg",
+   "src": "sake_cup",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "sake_cup"
+  },
+  {
+   "op": "nar",
+   "text": "座敷。源蔵は、羽織の前に座り、二つの杯を並べた。徳利から、片方の杯に酒を注ぎ、もう片方にも注ぐ。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_hakama",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "お杉どの、すまぬが、杯をもう一つ。……兄上の分だ。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "杯でしたら、こちらの棚に。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "兄上、一献。……おお、兄上は、相変わらず、飲まぬか。では、わしが、代わりにいただこう。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "うまい。雪の夜の酒は、格別じゃ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "兄上、覚えておられますか。播州赤穂の、浜の塩田。子どもの頃、二人で、塩の山に登って叱られましたな。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "兄上は、ちゃんと、わしの手を引いて、登らせてくれた。叱られたときは、自分が言い出したと、かばってくれた。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "旦那さまが、子どものころは、そんなにいたずらを。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "いたずらは、いつも、わしが言い出す。兄上は、それを後から片付ける役でござった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "それから、わしが十の時。熱を出して、三日三晩、うなされた。兄上が、寝ずに、手ぬぐいを替えてくれた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "……兄上は、そんなことは、覚えておられないかもしれぬが、わしは、忘れておりません。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "源蔵さま、お羽織が、黙って聞いておられますね。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "そうだ。兄上は、昔から、黙って聞いてくださる人だった。わしが、何をしゃべっても。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "兄上は、塩山家へ養子に入られて、わしは、赤垣の家を継いだ。名字は分かれても、兄弟は兄弟だ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "兄上、この徳利も、覚えておられますか。わしが、赤穂から持ってきた、ただひとつの品。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "殿さまから、勘定方の仕事で褒められたとき、いただいた徳利でござる。……わしの、自慢の徳利だ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "兄上、もう一献。……おや、また、飲まぬ。では、これも、わしがいただきます。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "源蔵さま、そんなにお飲みになっては。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "案ずるな、お杉どの。わしは、酒には負けぬ。負けるのは、いつも、自分にだ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_hakama"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "show",
+   "actor": "rei_hakama",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "兄上、わしは、近いうちに、遠いところへ、ご奉公に参ることになった。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "ご奉公が、お決まりになったのですか。それは、おめでとうございます。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "どちらのお家でございますか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "それは……まだ、言えぬ。先方の都合でな。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "西国の、さるお家だ。……遠いところだ。もう、江戸には、戻らぬかもしれぬ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "兄上、これまで、ずいぶん、ご心配をかけました。酒のことで、何度、恥をかかせたか知れぬ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "浪人になってからの三年、ろくに、顔も見せなかった。顔を見せれば、金の無心だった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "それでも、兄上は、一度も、門を閉ざしはしなかった。……来れば、いつも、お杉どのが、火鉢に炭を足してくれた。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "どうして、そんなお別れのようなことを、おっしゃるのです。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "わしが行ったあとで、どこぞで、わしの噂を聞くこともあろう。その時は、ああ、あの飲んだくれか、と笑ってくだされ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "兄上、どうか、お体を大切に。姉上にも、甥や姪にも、よろしくお伝えくだされ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "……本当は、兄上の顔を、ひと目見たかった。今夜、どうしても。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "もう少しお待ちになれば、旦那さまも、お帰りに。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "いや。待てば、話してしまう。話してしまえば、兄上を困らせる。……これで、よいのだ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "源蔵は、羽織に向かって、杯を高く上げた。二つの杯の、片方だけが、いつまでも満ちたままだった。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_hakama"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "bg",
+   "src": "silent_bow",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "silent_bow"
+  },
+  {
+   "op": "nar",
+   "text": "夜更け。座敷。雪の音が、障子の向こうで、しんしんと続いている。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_hakama",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "お杉どの、筆と紙を、借りられるか。"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "はい、ただいま。"
+  },
+  {
+   "op": "nar",
+   "text": "源蔵は、筆を取り、紙に向かったが、しばらく、筆先が、紙の上で止まったままだった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "……書けぬ。書けば、誰かの目に触れる。誰かの目に触れれば、皆の命が、危うくなる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "書けば、わしの言葉は、兄上の家の罪になる。……書かぬのが、弟の、最後の孝行だ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "書かぬことにした。紙は、白いまま、お返しする。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "何も、お書きにならないのですか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "書かずとも、兄上には、伝わる。……伝わらねば、それも、仕方ない。"
+  },
+  {
+   "op": "nar",
+   "text": "源蔵は、座布団を外し、羽織の前に、両手をついて、深く、深く、頭を下げた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "兄上、長い間、お世話になりました。源蔵は、これにて、お暇いたします。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "源蔵さま、そんな、今生の別れのような……。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "遠いご奉公だと言ったろう。泣くほどのことではない。……お杉どの、あなたにも、礼を言う。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "源蔵さま、また、いつか、雪の夜にでも、お越しくださいませ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "……雪の夜に、か。そうだな。いつか。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "来るたびに、熱いお茶を、ありがとう。わしは、あの一杯で、何度、兄上の家の温かさを思い出したか知れぬ。"
+  },
+  {
+   "op": "nar",
+   "text": "源蔵は、空になった徳利を、羽織の前に、そっと置いた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "この徳利は、兄上に。……空のままで、すまぬと伝えてくれ。わしの代わりに、兄上の酒の相手を、させてやってくれ。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_hakama"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "bg",
+   "src": "winter_street",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "winter_street"
+  },
+  {
+   "op": "nar",
+   "text": "屋敷の門の外。雪は、膝まで積もっている。源蔵は、笠をかぶり、振り返らずに、歩き出した。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_hakama",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "……兄上、ご免。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "本所、松坂町。吉良上野介の屋敷まで、雪の道を、一里と少し。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "その前に、堀部どのの長屋で、皆と落ち合う。着替えの火事装束は、もう、包んである。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "一年九か月、酒に溺れたふりをした。いや、ふりのつもりが、半分は本気であった。……それも、今夜で終わりだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "寅の刻、山鹿流の陣太鼓。……大石さまの合図で、皆が、集まる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "兄上、怒っておられるかな。怒っておられるなら、それでいい。わしのことを、考えてくださったということだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "酒は、もう、要らぬ。いや、少しだけ、体に残っておる。雪には、ちょうどいい。"
+  },
+  {
+   "op": "nar",
+   "text": "源蔵の足跡が、雪の中に、ひとつ、またひとつ、残っていった。やがて、降る雪に、消されていった。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_hakama"
+  },
+  {
+   "op": "bg",
+   "src": "brother_house",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "brother_house"
+  },
+  {
+   "op": "nar",
+   "text": "夜。四つ過ぎ。塩山伊左衛門が、勤めから帰ってきた。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "旦那さま、お帰りなさいませ。……今宵、源蔵さまが、お見えになりました。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "源蔵が。……また、金の無心か。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "いいえ。旦那さまのお羽織と、お酒を酌み交わして、遠いところへご奉公に参る、とおっしゃって。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "筆も紙もお借りになりましたが、何も、お書きになりませんでした。空の徳利を、置いていかれました。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……羽織と、酒を。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "旦那さま、源蔵さまは、今宵は、一度も、お金のことをおっしゃいませんでした。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "飲んだくれの弟め。ご奉公などと、浪人の身で、どこの家が、あれを雇う。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "遠くへ行く。……どこへ。何をしに。何も言わずに、帰ったのか。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "旦那さまの羽織に、手をついて、深く、頭を下げておいででした。……長い間、お世話になりました、と。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "羽織の前に、手を……。あの源蔵が。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "伊左衛門は、黙って、座敷の、空の徳利を見つめていた。行灯の火が、徳利の首に、小さく映っていた。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "bg",
+   "src": "winter_street",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "winter_street"
+  },
+  {
+   "op": "nar",
+   "text": "翌朝。十二月十五日。雪は上がり、江戸の町に、どよめきが広がった。赤穂の浪士が、吉良の屋敷に討ち入った、と。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_villager",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "旦那さま！　旦那さま！　赤穂の浪人衆が、本所の吉良さまの屋敷に、討ち入りなすったそうで！"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "何、討ち入り……！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "市助、すぐに行け。浪士の方々は、泉岳寺へ向かっておられるはず。……源蔵が、いるかどうか、見てまいれ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "源蔵さまが？　あの、酒好きの……。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "ゆうべの羽織だ。ゆうべの徳利だ。……あれは、ご奉公の挨拶などではなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "行けと言うのだ！",
+   "eyes": "anger"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "nar",
+   "text": "高輪へ向かう道。火事装束の、白と黒の衣を着た浪士たちが、槍の先に首を包んで、静かに歩いていく。沿道は、人で埋まっている。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "赤垣さま！　赤垣源蔵さまは、おられませんか！　塩山家の、下男の市助でございます！"
+  },
+  {
+   "op": "show",
+   "actor": "rei_hakama",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "……市助か。よく来た。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "源蔵さま……！　本当に、源蔵さまだ……！",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "兄上に、伝えてくれ。ゆうべは、雪の中、お邪魔をいたした。……ご奉公とは、このことでござった、と。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "旦那さまは、ゆうべ、源蔵さまの徳利を、夜明けまで見つめておいででした。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "……そうか。兄上が。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "黙っていたのは、兄上を巻き込まぬため。兄上の、家と、甥と姪のためだ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "旦那さまは、何か、形見を、と申しておられました。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "形見は、もう、置いてきた。空の徳利だ。……兄上は、あれで、分かってくれるはずだ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "市助、これを。……昨夜、兄上の座敷で使った、杯だ。懐に入れて、持ってきてしまった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "一つは兄上の徳利に、一つは、わしの懐に。それで、ちょうど、二人分の酒盛りだ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "源蔵さま、どうか……どうか……。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "泣くな、市助。わしは、今朝ほど、晴れ晴れとした朝を知らぬ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "殿さまの墓前に、ご報告に行く。……そのあとのことは、お上が決めることだ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "源蔵は、隊列に戻り、振り返らずに、泉岳寺の山門へ入っていった。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_villager"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_hakama"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "塩山家の座敷。伊左衛門は、市助から、杯を受け取った。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "源蔵、ゆうべ、わしが、早く帰っておれば。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "伊左衛門は、黙って、空の徳利を、羽織の前に置き、杯に、なみなみと、酒を注いだ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "源蔵、注いでやったぞ。……飲まぬのか。ならば、兄が飲む。ゆうべ、お前がそうしたように。"
+  },
+  {
+   "op": "nar",
+   "text": "そして、ひとりで、ゆっくりと、飲み干した。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "酒は、苦手でな。……だが、今日は、うまい。お前の言うとおりだ。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "赤垣源蔵、徳利の別れ。これにて読み終わりでございます。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "会えなかった兄に、源蔵は、羽織を相手に、言葉を尽くしました。何も書かず、何も明かさずに。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "その別れは、空の徳利と、一つの杯になって、ちゃんと兄のもとへ届きました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "源蔵が切腹して果てたのは、翌年の二月四日。三十五歳であったと伝えられております。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

@@ -7,7 +7,7 @@
   "format": "v3",
   "minutes": 29,
   "synopsis": "全六景で原作の主要な運動をたどりながら、怪物の恐怖ではなく、創造した者が関係と責任を拒む恐怖を描くことを中心に再構成する。第五景で観客が人物の姿勢を選び、分岐は終幕前に合流する。",
-  "note": "本脚本は著作権の消滅した原作からの翻案であり、既存の翻訳・上演台本は使用していない。セリフは全て本上演版の書き下ろし。"
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
  },
  "cast": [
   {
@@ -57,32 +57,94 @@
   {
    "op": "say",
    "actor": "nono",
-   "text": "ようこそ、NONO座へ。本日の演目は『フランケンシュタイン』。",
-   "eyes": "normal"
+   "text": "北極の氷の海。一隻の探検船が、氷に閉じ込められています。その船に、犬ぞりで疲れ果てた一人の男が引き上げられました。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "この舞台が見つめるのは、怪物の恐怖ではなく、創造した者が関係と責任を拒む恐怖を描くこと。",
-   "eyes": "sorrow",
-   "mouth": "open"
+   "text": "メアリー・シェリーの『フランケンシュタイン』。男の名は、ヴィクター・フランケンシュタイン。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "古い物語を借りながら、台詞はすべて今夜のための書き下ろしです。",
-   "eyes": "normal"
+   "text": "皆さんがよく知る、ボルトの刺さった緑の怪物は、ここには出てきません。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "それでは、幕を開けましょう。",
-   "eyes": "joy",
-   "mouth": "open"
+   "text": "出てくるのは、名前も与えられなかった、ひとりの「者」です。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "本当に恐ろしいのは、作られた者か、作った者か。氷の上で語られる、長い告白を聞いてください。"
   },
   {
    "op": "hide",
    "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "arctic",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "arctic"
+  },
+  {
+   "op": "nar",
+   "text": "北極海。氷に閉ざされた探検船の船室。船長ウォルトンが、ランプのそばで、客人の話に耳を傾けている。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "氷の上を犬ぞりで走ってきた方に会うとは思わなかった。何を追っておられたのです。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "追っていたのではない。……いや、追っていた。巨大な影を。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "私は、北極点への航路を見つけたいのです。誰も見たことのない場所へ、最初に立つ。人類のためにも、私自身のためにも。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "私も、かつて、あなたと同じ目をしていた。……ウォルトン、私の話を聞けば、その目を、少しは疑うようになるでしょう。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "どうぞ、お話しください。この氷が解けるまで、時間はたっぷりあります。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "私は、ジュネーヴの裕福な家に生まれた。……そして、生命の秘密を、この手で暴いてしまった男です。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
   },
   {
    "op": "bg",
@@ -95,79 +157,109 @@
   },
   {
    "op": "nar",
-   "text": "第1景「生命の夜」。ゴシックな研究室。雷、実験台、コイル、開いた天窓。"
+   "text": "インゴルシュタットの下宿の屋根裏。窓の外は、十一月の冷たい雨。机の上に、様々な道具が並んでいる。"
   },
   {
    "op": "show",
    "actor": "extra_wizard",
-   "pos": "left"
-  },
-  {
-   "op": "show",
-   "actor": "extra_mummy",
    "pos": "center"
   },
   {
-   "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "大学の講義で、化学者たちは、天に昇り、雷を操ると聞いた。……私は、その先へ行きたかった。"
   },
   {
    "op": "say",
    "actor": "extra_wizard",
-   "text": "死を越える発見だ。私は人類の恩人になる。",
-   "eyes": "normal",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "extra_mummy",
-   "text": "目が開いた瞬間、創造者は私を見て逃げた。",
-   "eyes": "joy"
+   "text": "二年間、墓場と解剖室と屠殺場を巡った。誰にも話さず、手紙も書かなかった。"
   },
   {
    "op": "say",
    "actor": "extra_wizard",
-   "text": "今の言葉を、聞かなかったことにはできない。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "say",
-   "actor": "extra_mummy",
-   "text": "理想の姿と違った。ただそれだけで恐怖した。",
-   "eyes": "surprise"
+   "text": "頬はこけ、熱にうかされ、少しの物音にも飛び上がった。それでも、手は止まらなかった。"
   },
   {
    "op": "say",
    "actor": "extra_wizard",
-   "text": "私の最初の罪は、生まれたことではなく、捨てられたことだ。",
-   "eyes": "anger",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "extra_mummy",
-   "text": "なら、次の一歩で確かめよう。",
-   "eyes": "fun"
-  },
-  {
-   "op": "say",
-   "actor": "extra_wizard",
-   "text": "私は、怪物の恐怖ではなく、創造した者が関係と責任を拒む恐怖を描くことを忘れずに選ぶ。",
+   "text": "父からの手紙は、机の隅に、封も切らずに積み上げた。エリザベスからの手紙も。",
    "eyes": "closed"
   },
   {
    "op": "say",
+   "actor": "extra_wizard",
+   "text": "母は、エリザベスの熱病を看病して、うつって死んだ。私は、十七だった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "死から命を呼び戻せるなら、病も、悲しみも、この世から消せる。"
+  },
+  {
+   "op": "nar",
+   "text": "十一月の陰鬱な夜。午前一時。ろうそくは燃え尽きかけていた。机の上の大きな体の、黄色い目が、ゆっくりと開いた。"
+  },
+  {
+   "op": "show",
    "actor": "extra_mummy",
-   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "目が……開いた。息をしている。手足が、震えている。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "美しい顔を選んで作ったはずなのに。黄色い肌の下で、筋肉と血管が透けて見える。唇は黒い。",
    "eyes": "crying"
   },
   {
-   "op": "hide",
-   "actor": "extra_wizard"
+   "op": "nar",
+   "text": "作られた者は、ゆっくりと手を伸ばした。何かを言おうとして、口を開いた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "近寄るな、そんな手で、私に触れるな！",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "ヴィクターは、部屋を飛び出し、一晩中、雨の街を歩き回った。戻ったとき、屋根裏は、空になっていた。"
   },
   {
    "op": "hide",
    "actor": "extra_mummy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "二年間、夢見ていたものが、手に入った瞬間、悪夢に変わった。……逃げた。あれから、逃げた。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "名前もつけず、言葉もかけず。生まれたばかりの者を、ひとり残して。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "翌朝、親友のクラーヴァルが訪ねてきた。ヴィクターは、熱病で倒れ、数か月、寝込んだ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "看病してくれたクラーヴァルにも、何も話さなかった。悪い夢だったと、思い込もうとした。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
   },
   {
    "op": "bg",
@@ -180,7 +272,7 @@
   },
   {
    "op": "nar",
-   "text": "第2景「森の学び」。森の小屋を望む隠れ場所。本、薪、雪解けの光。"
+   "text": "森の奥。小さな農家の、壁の隙間に作られた物置。作られた者は、そこに隠れて、一年近く暮らしていた。"
   },
   {
    "op": "show",
@@ -188,69 +280,99 @@
    "pos": "left"
   },
   {
-   "op": "show",
-   "actor": "yui",
-   "pos": "center"
+   "op": "say",
+   "actor": "extra_mummy",
+   "text": "生まれたとき、光と、音と、寒さが、いっぺんに来た。何が何だか、分からなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_mummy",
+   "text": "月を見て、うれしかった。鳥の声を真似しようとして、自分の声が恐ろしくて、黙った。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_mummy",
+   "text": "森で、木の実を食べた。火に触って、やけどをした。火は温かいのに、痛いのだと知った。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_mummy",
+   "text": "村へ行くと、子どもは泣き、男たちは石を投げた。私は、自分が、見られてはいけない姿なのだと知った。"
   },
   {
    "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+   "text": "隙間の向こうでは、目の見えない老人と、息子と娘が、貧しく暮らしていた。"
   },
   {
    "op": "say",
    "actor": "extra_mummy",
-   "text": "家族の会話を壁越しに聞き、言葉と優しさを覚えた。",
-   "eyes": "joy"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "助けた薪も、見つかった顔一つで恐怖に変わった。",
-   "eyes": "sorrow"
+   "text": "あの家族は、夜、本を読む。笛を吹く。互いの顔を見て、笑う。"
   },
   {
    "op": "say",
    "actor": "extra_mummy",
-   "text": "答えはまだ一つに決められない。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "人は姿を見る前に心を知ることができないのか。",
-   "eyes": "anger"
-  },
-  {
-   "op": "say",
-   "actor": "extra_mummy",
-   "text": "知ろうとする時間を、誰もあなたに与えなかった。",
-   "eyes": "fun"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "迷いを抱えたままでも、進むことはできる。",
+   "text": "私は、隙間から聞いて、言葉を覚えた。森で拾った本で、字を覚えた。",
    "eyes": "closed"
   },
   {
    "op": "say",
    "actor": "extra_mummy",
-   "text": "私は、怪物の恐怖ではなく、創造した者が関係と責任を拒む恐怖を描くことを忘れずに選ぶ。",
+   "text": "『失楽園』、『若きウェルテルの悩み』、『プルターク英雄伝』。三冊が、私の世界のすべてだった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_mummy",
+   "text": "娘が泣くと、息子が肩を抱いた。老人は、二人の頭に手を置いた。……私は、それが何という名前の行いなのか、知らなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_mummy",
+   "text": "夜のうちに、薪を割って、戸口に積んでおいた。朝、家族が驚いて、「森の精がいる」と喜んだ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_mummy",
+   "text": "生まれた部屋から持ち出した上着のポケットに、紙があった。作り主の、実験の日誌だった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_mummy",
+   "text": "私が、どう作られたか、全部、書いてあった。作り主は、私を、おぞましいと書いていた。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "ある日、息子と娘が出かけた留守に、作られた者は、目の見えない老人の前に、姿を現した。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_mummy",
+   "text": "私には、友がいません。人は、私を見て、逃げる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_mummy",
+   "text": "……あなたは、私を、見ることができない。だから、話を聞いてくれますか。"
+  },
+  {
+   "op": "nar",
+   "text": "老人は、優しく聞いた。だが、帰ってきた息子は、作られた者を見て、杖で打ちのめした。家族は、翌日、その家を去った。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_mummy",
+   "text": "その夜、私は、あの家を燃やした。空っぽの家を。火は温かくて、痛かった。",
    "eyes": "crying"
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "その選択の重さを、次の場面まで持って行こう。",
-   "eyes": "normal"
+   "actor": "extra_mummy",
+   "text": "その日、私は、人間に、戦いを宣言した。いちばん最初に、私を捨てた男から。",
+   "eyes": "anger"
   },
   {
    "op": "hide",
    "actor": "extra_mummy"
-  },
-  {
-   "op": "hide",
-   "actor": "yui"
   },
   {
    "op": "bg",
@@ -263,7 +385,7 @@
   },
   {
    "op": "nar",
-   "text": "第3景「氷河の対話」。アルプスの氷河。青い氷壁、雲、深い亀裂。"
+   "text": "アルプスの氷河。モンブランの麓。ヴィクターは、末の弟ウィリアムを失い、悲しみのあまり、山へ逃れていた。"
   },
   {
    "op": "show",
@@ -271,63 +393,139 @@
    "pos": "left"
   },
   {
-   "op": "show",
-   "actor": "extra_mummy",
-   "pos": "center"
-  },
-  {
-   "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "弟は、ジュネーヴの郊外で殺された。そして、家の召使いのジュスティーヌが、無実の罪で処刑された。"
   },
   {
    "op": "say",
    "actor": "extra_wizard",
-   "text": "お前が家族を奪った。怪物め。",
-   "eyes": "sorrow",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "extra_mummy",
-   "text": "私を作り、名も仲間も与えなかった者が、その言葉を使うのか。",
-   "eyes": "surprise"
+   "text": "私には、分かっていた。誰がやったのか。……だが、言えなかった。誰が信じる。",
+   "eyes": "closed"
   },
   {
    "op": "say",
    "actor": "extra_wizard",
-   "text": "その理屈には、置き去りにされた声がある。",
-   "eyes": "anger"
-  },
-  {
-   "op": "say",
-   "actor": "extra_mummy",
-   "text": "望みは何だ。",
-   "eyes": "fun"
-  },
-  {
-   "op": "say",
-   "actor": "extra_wizard",
-   "text": "私と同じ孤独を分ける伴侶を作れ。それなら人から離れる。",
-   "eyes": "closed",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "extra_mummy",
-   "text": "誰のための決断か、もう一度考えよう。",
+   "text": "黙っていた私が、ジュスティーヌを殺したのだ。あれと、同じくらいに。",
    "eyes": "crying"
   },
   {
+   "op": "nar",
+   "text": "氷の割れ目を跳び越えて、人間とは思えない速さで、大きな影が近づいてきた。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_mummy",
+   "pos": "right"
+  },
+  {
    "op": "say",
    "actor": "extra_wizard",
-   "text": "私は、怪物の恐怖ではなく、創造した者が関係と責任を拒む恐怖を描くことを忘れずに選ぶ。",
-   "eyes": "normal"
+   "text": "悪魔め！　弟を返せ！　お前を、その氷の上に叩きつけてやる！",
+   "eyes": "anger",
+   "mouth": "open"
   },
   {
    "op": "say",
    "actor": "extra_mummy",
-   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "text": "落ち着いてください、作り主。私は、あなたより背が高く、力が強い。でも、あなたとは、戦いたくない。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_mummy",
+   "text": "私は、あなたのアダムであるべきだった。なのに、あなたは、私を、堕天使にした。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_mummy",
+   "text": "生まれたとき、私は善かった。苦しみが、私を悪にした。……聞いてください。それから、裁いてください。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "……聞こう。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "洞穴の火の前で、作られた者は、森と農家での一年を話した。ヴィクターは、黙って聞いた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_mummy",
+   "text": "私に、伴侶を作ってください。私と同じ姿の、女の人を。二人で、南米の荒野に行き、誰にも会わずに暮らします。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_mummy",
+   "text": "一人でいい。私を見て、逃げない者が、一人いれば。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_mummy",
+   "text": "愛されれば、私は善くなれる。善い行いの報いが、ひとつでも欲しいのです。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "お前は、もう人を殺した。その手で、何を言う。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "ヴィクターは、作ると約束する",
+     "jump": "m_promise"
+    },
+    {
+     "text": "ヴィクターは、ためらいながら、考える時間を求める",
+     "jump": "m_think"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_promise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "……作ろう。お前の願いを、一度だけ聞く。そのかわり、二度と、人の前に現れるな。"
+  },
+  {
+   "op": "jump",
+   "to": "m_after"
+  },
+  {
+   "op": "label",
+   "id": "m_think"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "少し、時間をくれ。……いや、分かった。作る。断れば、もっと多くの人が死ぬのだろう。"
+  },
+  {
+   "op": "label",
+   "id": "m_after"
+  },
+  {
+   "op": "say",
+   "actor": "extra_mummy",
+   "text": "私は、あなたの仕事を、見守っています。",
    "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "見守る、か。……監視する、と同じ意味だな。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_mummy",
+   "text": "いいえ。待つ、という意味です。私には、待つことしかできない。"
   },
   {
    "op": "hide",
@@ -348,79 +546,82 @@
   },
   {
    "op": "nar",
-   "text": "第4景「第二の創造」。孤島の作業小屋。未完成の器具、荒海、蝋燭。"
+   "text": "スコットランドのオークニー諸島。荒れた岩の島の、小さな小屋。ヴィクターは、二人目の体を作り始めていた。"
   },
   {
    "op": "show",
    "actor": "extra_wizard",
-   "pos": "left"
-  },
-  {
-   "op": "show",
-   "actor": "extra_mummy",
    "pos": "center"
   },
   {
-   "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "完成は近い。……だが、手が止まる。"
   },
   {
    "op": "say",
    "actor": "extra_wizard",
-   "text": "もう一人を作れば、苦しみを二倍にするかもしれない。",
-   "eyes": "surprise",
+   "text": "クラーヴァルを、イギリスの旅に誘ったのは、私だ。何も知らない友を、こんな仕事の道連れにして。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "二人目が、あの者を嫌ったら。二人目が、約束などしていない、と言ったら。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "二人が子を産み、悪魔の種族が、地上に広がったら。未来の人類が、私を呪うだろう。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "窓の外。月の光の中に、作られた者の顔があった。にやりと笑って、仕事を見守っていた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "できない！",
+   "eyes": "anger",
    "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "ヴィクターは、作りかけの体を、ばらばらに引き裂いた。窓の外で、獣のような悲鳴が上がった。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_mummy",
+   "pos": "right"
   },
   {
    "op": "say",
    "actor": "extra_mummy",
-   "text": "約束を破れば、私の怒りが世界へ向かう。",
+   "text": "あなたは、約束を破った。私を、また独りにした。",
    "eyes": "anger"
   },
   {
    "op": "say",
-   "actor": "extra_wizard",
-   "text": "恐れを隠しても、状況は変わらない。",
-   "eyes": "fun"
-  },
-  {
-   "op": "say",
    "actor": "extra_mummy",
-   "text": "恐れから作る命は、その命自身の意思を無視している。",
-   "eyes": "closed"
+   "text": "私は、あなたの婚礼の夜に、そこにいる。……それを、覚えておいてください。"
   },
   {
-   "op": "say",
-   "actor": "extra_wizard",
-   "text": "最初の過ちを、二つ目の身体で隠すな。",
-   "eyes": "crying",
-   "mouth": "open"
+   "op": "hide",
+   "actor": "extra_mummy"
   },
   {
-   "op": "say",
-   "actor": "extra_mummy",
-   "text": "恐れを言葉にした今なら、選び直せる。",
-   "eyes": "normal"
+   "op": "nar",
+   "text": "翌朝、浜辺に、クラーヴァルの亡骸が打ち上げられた。ヴィクターは、殺人の疑いで捕らえられ、獄中で熱に倒れた。"
   },
   {
    "op": "say",
    "actor": "extra_wizard",
-   "text": "私は、怪物の恐怖ではなく、創造した者が関係と責任を拒む恐怖を描くことを忘れずに選ぶ。",
-   "eyes": "joy"
-  },
-  {
-   "op": "say",
-   "actor": "extra_mummy",
-   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "text": "婚礼の夜に。……私を殺すつもりなら、それでいい。それで、終わりにできる。",
    "eyes": "sorrow"
   },
   {
    "op": "hide",
    "actor": "extra_wizard"
-  },
-  {
-   "op": "hide",
-   "actor": "extra_mummy"
   },
   {
    "op": "bg",
@@ -433,240 +634,83 @@
   },
   {
    "op": "nar",
-   "text": "第5景「失われる家」。嵐の屋敷。婚礼の花、割れた窓、消えた灯。"
+   "text": "湖のほとりの宿。ヴィクターとエリザベスの婚礼の夜。外は、嵐になっている。"
   },
   {
    "op": "show",
-   "actor": "extra_wizard",
+   "actor": "yui",
    "pos": "left"
   },
   {
-   "op": "show",
+   "op": "say",
    "actor": "yui",
-   "pos": "center"
+   "text": "ヴィクター、どうして、そんなに拳銃を握っているの。今日は、私たちの婚礼の日よ。"
   },
   {
    "op": "show",
-   "actor": "extra_mummy",
+   "actor": "extra_wizard",
    "pos": "right"
   },
   {
-   "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
-  },
-  {
    "op": "say",
    "actor": "extra_wizard",
-   "text": "私たちの未来を、あなたは研究と復讐の両方に奪われた。",
-   "eyes": "anger",
-   "mouth": "open"
+   "text": "エリザベス、今夜だけは、部屋から出ないでくれ。……恐ろしい夜なんだ。明日になったら、全部話す。"
   },
   {
    "op": "say",
    "actor": "yui",
-   "text": "私が守るべきものを敵への罠にした。",
-   "eyes": "fun"
-  },
-  {
-   "op": "say",
-   "actor": "extra_wizard",
-   "text": "正しさだけでは、人の痛みを量れない。",
-   "eyes": "closed"
-  },
-  {
-   "op": "say",
-   "actor": "extra_mummy",
-   "text": "創造者よ、私はお前と同じ孤独を返した。",
-   "eyes": "crying"
-  },
-  {
-   "op": "say",
-   "actor": "extra_wizard",
-   "text": "復讐で似た者になった二人が、互いを怪物と呼んでいる。",
-   "eyes": "normal",
-   "mouth": "open"
+   "text": "小さいころ、あなたの家に引き取られた日から、私は、あなたの隣にいた。"
   },
   {
    "op": "say",
    "actor": "yui",
-   "text": "だから事実と心の両方を見よう。",
-   "eyes": "joy"
-  },
-  {
-   "op": "say",
-   "actor": "extra_wizard",
-   "text": "私は、怪物の恐怖ではなく、創造した者が関係と責任を拒む恐怖を描くことを忘れずに選ぶ。",
+   "text": "あなたは、何年も、何かを隠している。私は、あなたが選んでくれるなら、何も怖くない。",
    "eyes": "sorrow"
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "その選択の重さを、次の場面まで持って行こう。",
-   "eyes": "surprise"
+   "actor": "extra_wizard",
+   "text": "君を、守る。私が、あれを見つけて、終わらせる。"
   },
   {
    "op": "nar",
-   "text": "ここで舞台は一瞬静まり、観客の選択が人物の心の向きを変える。"
-  },
-  {
-   "op": "choice",
-   "options": [
-    {
-     "text": "伴侶の創造を続ける",
-     "jump": "route_a"
-    },
-    {
-     "text": "創造を止め対話の責任を負う",
-     "jump": "route_b"
-    }
-   ]
-  },
-  {
-   "op": "label",
-   "id": "route_a"
-  },
-  {
-   "op": "say",
-   "actor": "extra_wizard",
-   "text": "私は『伴侶の創造を続ける』道を選ぶ。",
-   "eyes": "joy",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "その決断なら、結果まで自分の言葉で引き受けて。",
-   "eyes": "normal"
-  },
-  {
-   "op": "set",
-   "flag": "f_route_a"
-  },
-  {
-   "op": "jump",
-   "to": "merge_choice"
-  },
-  {
-   "op": "label",
-   "id": "route_b"
-  },
-  {
-   "op": "say",
-   "actor": "extra_wizard",
-   "text": "私は『創造を止め対話の責任を負う』道を選ぶ。",
-   "eyes": "surprise",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "違う道でも、守るべきものを見失わないで。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "set",
-   "flag": "f_route_b"
-  },
-  {
-   "op": "label",
-   "id": "merge_choice"
-  },
-  {
-   "op": "nar",
-   "text": "選択の余韻を抱えたまま、物語は同じ終幕へ向かう。"
-  },
-  {
-   "op": "hide",
-   "actor": "extra_wizard"
+   "text": "ヴィクターは、宿の中を見回りに出た。そのとき、部屋から、エリザベスの悲鳴が聞こえた。"
   },
   {
    "op": "hide",
    "actor": "yui"
   },
   {
-   "op": "hide",
-   "actor": "extra_mummy"
-  },
-  {
-   "op": "bg",
-   "src": "arctic",
-   "mode": "full"
-  },
-  {
-   "op": "bg",
-   "src": "arctic"
-  },
-  {
-   "op": "nar",
-   "text": "第6景「北極の終幕」。北極海の船上。氷山、吹雪、遠い犬橇の跡。"
-  },
-  {
-   "op": "show",
-   "actor": "extra_wizard",
-   "pos": "left"
-  },
-  {
-   "op": "show",
-   "actor": "extra_mummy",
-   "pos": "center"
-  },
-  {
-   "op": "show",
-   "actor": "extra_porter",
-   "pos": "right"
-  },
-  {
-   "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
-  },
-  {
    "op": "say",
    "actor": "extra_wizard",
-   "text": "追跡の果てに、私は乗組員まで野心へ巻き込んだ。",
-   "eyes": "fun",
+   "text": "エリザベス！",
+   "eyes": "surprise",
    "mouth": "open"
   },
   {
-   "op": "say",
-   "actor": "extra_mummy",
-   "text": "探究を止めることは敗北ではない。生きた者への責任です。",
-   "eyes": "closed"
+   "op": "nar",
+   "text": "駆け戻ったとき、窓は開いていた。エリザベスは、寝台の上で、もう息をしていなかった。窓の外で、あの者が笑っていた。"
   },
   {
    "op": "say",
    "actor": "extra_wizard",
-   "text": "ここで黙れば、同じことが繰り返される。",
+   "text": "狙われていたのは、私ではなかった。……私の、いちばん大切なもの。私が、あの者から奪ったのと、同じもの。",
    "eyes": "crying"
   },
   {
    "op": "say",
-   "actor": "extra_porter",
-   "text": "創造者が死んでも、私の痛みは正しさにならない。",
-   "eyes": "normal"
+   "actor": "extra_wizard",
+   "text": "父も、知らせを聞いて、数日後に死んだ。友人のクラーヴァルも、もういない。"
   },
   {
    "op": "say",
    "actor": "extra_wizard",
-   "text": "私たちの物語を、知識への恐れでなく責任への警告にしてくれ。",
-   "eyes": "joy",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "extra_mummy",
-   "text": "言葉にした責任を、次の場面へ持って行こう。",
-   "eyes": "sorrow"
+   "text": "治安判事に、すべてを話した。判事は、気の毒そうに、うなずくだけだった。"
   },
   {
    "op": "say",
    "actor": "extra_wizard",
-   "text": "私は、怪物の恐怖ではなく、創造した者が関係と責任を拒む恐怖を描くことを忘れずに選ぶ。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "say",
-   "actor": "extra_mummy",
-   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "text": "あれを追う。地の果てまで。それが、私に残された、たった一つの仕事だ。",
    "eyes": "anger"
   },
   {
@@ -674,14 +718,6 @@
    "actor": "extra_wizard"
   },
   {
-   "op": "hide",
-   "actor": "extra_mummy"
-  },
-  {
-   "op": "hide",
-   "actor": "extra_porter"
-  },
-  {
    "op": "bg",
    "src": "arctic",
    "mode": "full"
@@ -692,34 +728,175 @@
   },
   {
    "op": "show",
+   "actor": "extra_porter",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "そうして、この北の氷の上まで、追ってきた。あれは、木に、私への道しるべを刻んでいく。食料まで、置いていく。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "私の憎しみが、私を生かしている。……ウォルトン、私が死んだら、あれを殺してくれ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "あなたは、まだ、あの者のことを、名前で呼ばない。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "呼ぶ名前がない。悪魔、怪物、あれ。……それ以外に、何と呼べばいい。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "名前……。つけてやらなかった。一度も。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "乗組員たちは、帰国を求めて騒いでいた。ウォルトンは、南へ戻ると決めた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "私は、北極点を諦めます。仲間の命と引き換えにはできない。……あなたの話を聞いて、そう決めました。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "それでいい。私のようになるな。名誉を求めて、人を顧みなくなるな。……私は、失敗したのかもしれない。だが、誰かが……。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "ヴィクターは、言葉の途中で、目を閉じた。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "亡くなられた。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "left"
+  },
+  {
+   "op": "nar",
+   "text": "真夜中。船室に、巨大な影が入ってきた。作られた者が、作り主の亡骸の前に、立っていた。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_mummy",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_mummy",
+   "text": "作り主。……返事を、してください。もう、私を見て、逃げることもできないのですか。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "お前が、彼を、ここまで追い詰めた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_mummy",
+   "text": "分かっています。私は、ウィリアムを、エリザベスを、殺しました。悔いていないと言えば、嘘になる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_mummy",
+   "text": "でも、ひとつ聞いてください。私も、愛されたかった。ただ、それだけを、望んでいた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_mummy",
+   "text": "作り主が死んだ今、私の仕事も終わりました。私は、北の果てへ行き、火を焚いて、自分の灰を風に撒きます。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_mummy",
+   "text": "もう、誰も、私のような者を作らないように。私のことを、思い出す者さえ、いなくなるように。"
+  },
+  {
+   "op": "nar",
+   "text": "作られた者は、窓から氷の上へ飛び降り、闇の中へ、遠ざかっていった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "待て。……名前を、聞かせてくれ。"
+  },
+  {
+   "op": "nar",
+   "text": "答えはなかった。氷の割れる音だけが響いた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "波に運ばれて、見えなくなった。……あの者には、最後まで、名乗る名前がなかったのだ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_mummy"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
    "actor": "nono",
    "pos": "center"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "『フランケンシュタイン』、これにて終幕です。",
-   "eyes": "joy",
-   "mouth": "open"
+   "text": "『フランケンシュタイン』、これにて幕です。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "残った問いは、怪物の恐怖ではなく、創造した者が関係と責任を拒む恐怖を描くこと。",
-   "eyes": "sorrow"
+   "text": "作った者は、作られた者を、最後まで名前で呼びませんでした。名前のないまま、二人は、氷の海で別れました。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "選ばなかった道も、物語の外で静かに私たちを見ています。",
-   "eyes": "normal"
+   "text": "生み出したものに、責任を持つこと。逃げないこと。抱きしめるのが無理でも、話を聞くこと。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "ご観劇、ありがとうございました。",
-   "eyes": "joy",
-   "mouth": "open"
+   "text": "何かを作る力を持った人は、きっと皆、ヴィクターと同じ十一月の夜に、一度は立つのでしょう。"
   },
   {
    "op": "hide",

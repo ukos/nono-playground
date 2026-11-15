@@ -1,743 +1,901 @@
 {
-  "meta": {
-    "id": "rue_morgue",
-    "title": "モルグ街の殺人 ―聞き取れない声―",
-    "original": "Edgar Allan Poe, The Murders in the Rue Morgue（原著・著作権消滅）",
-    "adaptation": "faithful",
-    "format": "v3",
-    "minutes": 22,
-    "synopsis": "全六景で原作の主要な運動をたどりながら、思い込みを外し、矛盾する証言から可能性の枠そのものを広げることを中心に再構成する。第五景で観客が人物の姿勢を選び、分岐は終幕前に合流する。",
-    "note": "本脚本は著作権の消滅した原作からの翻案であり、既存の翻訳・上演台本は使用していない。セリフは全て本上演版の書き下ろし。"
+ "meta": {
+  "id": "rue_morgue",
+  "title": "モルグ街の殺人 ―聞き取れない声―",
+  "original": "Edgar Allan Poe, The Murders in the Rue Morgue（原著・著作権消滅）",
+  "adaptation": "faithful",
+  "format": "v3",
+  "minutes": 22,
+  "synopsis": "全六景で原作の主要な運動をたどりながら、思い込みを外し、矛盾する証言から可能性の枠そのものを広げることを中心に再構成する。第五景で観客が人物の姿勢を選び、分岐は終幕前に合流する。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "狂言回し",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "デュパン",
-      "actor": "yoru",
-      "costume": "default"
-    },
-    {
-      "role": "語り手",
-      "actor": "rei",
-      "costume": "default"
-    },
-    {
-      "role": "船乗り",
-      "actor": "extra_villager",
-      "costume": "default"
-    },
-    {
-      "role": "オランウータン",
-      "actor": "sasuke",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "parisroom": "bg/parisroom-2048x1152.png",
-    "crime_room": "bg/crime_room-2048x1152.png",
-    "testimony": "bg/testimony-2048x1152.png",
-    "clues": "bg/clues-2048x1152.png",
-    "sailor": "bg/sailor-2048x1152.png",
-    "solution": "bg/solution-2048x1152.png"
+  {
+   "role": "デュパン",
+   "actor": "yoru",
+   "costume": "default"
   },
-  "steps": [
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『モルグ街の殺人』。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "この舞台が見つめるのは、思い込みを外し、矛盾する証言から可能性の枠そのものを広げること。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "古い物語を借りながら、台詞はすべて今夜のための書き下ろしです。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "それでは、幕を開けましょう。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "parisroom",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "parisroom"
-    },
-    {
-      "op": "nar",
-      "text": "第1景「夜の推理談義」。十九世紀パリの薄暗い書斎。新聞、ランプ、地図。"
-    },
-    {
-      "op": "show",
-      "actor": "yoru",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei",
-      "pos": "center"
-    },
-    {
-      "op": "nar",
-      "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "分析は答えを当てる芸ではない。相手が何を見落としたかを見る。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "モルグ街で母娘が殺され、部屋は内側から閉ざされていた。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "今の言葉を、聞かなかったことにはできない。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "密室という言葉が、窓を調べる手を止めさせる。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "まず不可能という札を外そう。",
-      "eyes": "anger",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "なら、次の一歩で確かめよう。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "私は、思い込みを外し、矛盾する証言から可能性の枠そのものを広げることを忘れずに選ぶ。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "その選択の重さを、次の場面まで持って行こう。",
-      "eyes": "crying"
-    },
-    {
-      "op": "hide",
-      "actor": "yoru"
-    },
-    {
-      "op": "hide",
-      "actor": "rei"
-    },
-    {
-      "op": "bg",
-      "src": "crime_room",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "crime_room"
-    },
-    {
-      "op": "nar",
-      "text": "第2景「四階の密室」。荒れた四階の部屋。倒れた家具、閉じた窓、煙突。"
-    },
-    {
-      "op": "show",
-      "actor": "yoru",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei",
-      "pos": "center"
-    },
-    {
-      "op": "nar",
-      "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "金貨は残り、家具は壊れ、犯行の目的が読めない。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "人が通れない煙突、内側から掛かった窓の釘。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "答えはまだ一つに決められない。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "釘は折れている。窓を閉じれば元通りに見える仕掛けだ。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "出口が消えたのではなく、調べ方の順番が出口を隠した。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "迷いを抱えたままでも、進むことはできる。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "私は、思い込みを外し、矛盾する証言から可能性の枠そのものを広げることを忘れずに選ぶ。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "その選択の重さを、次の場面まで持って行こう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "hide",
-      "actor": "yoru"
-    },
-    {
-      "op": "hide",
-      "actor": "rei"
-    },
-    {
-      "op": "bg",
-      "src": "testimony",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "testimony"
-    },
-    {
-      "op": "nar",
-      "text": "第3景「食い違う証言」。警察の聞取室。証言書、椅子、各国語の辞書。"
-    },
-    {
-      "op": "show",
-      "actor": "yoru",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei",
-      "pos": "center"
-    },
-    {
-      "op": "show",
-      "actor": "extra_villager",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "皆が叫び声を外国語だと言うが、何語かは誰も一致しない。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "自分に分からない音を、知っている外国語へ押し込んだ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "その理屈には、置き去りにされた声がある。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "人間の言葉ではない可能性は。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "その発想なら、異常な力と長い毛も同じ線に並ぶ。",
-      "eyes": "closed",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "誰のための決断か、もう一度考えよう。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "私は、思い込みを外し、矛盾する証言から可能性の枠そのものを広げることを忘れずに選ぶ。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "その選択の重さを、次の場面まで持って行こう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "hide",
-      "actor": "yoru"
-    },
-    {
-      "op": "hide",
-      "actor": "rei"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_villager"
-    },
-    {
-      "op": "bg",
-      "src": "clues",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "clues"
-    },
-    {
-      "op": "nar",
-      "text": "第4景「毛と結び目」。窓辺の検証台。一本の毛、結び目、拡大鏡。"
-    },
-    {
-      "op": "show",
-      "actor": "yoru",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei",
-      "pos": "center"
-    },
-    {
-      "op": "nar",
-      "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "この毛は人毛ではない。喉を掴んだ指の幅も人間離れしている。",
-      "eyes": "surprise",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "船乗りが使う結び目と、逃げた大型の動物。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "恐れを隠しても、状況は変わらない。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "犯人と原因を分けよう。動物の行為に、持ち主の責任がある。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "広告で持ち主を呼べば、隠した事情も聞ける。",
-      "eyes": "crying",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "恐れを言葉にした今なら、選び直せる。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "私は、思い込みを外し、矛盾する証言から可能性の枠そのものを広げることを忘れずに選ぶ。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "その選択の重さを、次の場面まで持って行こう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "hide",
-      "actor": "yoru"
-    },
-    {
-      "op": "hide",
-      "actor": "rei"
-    },
-    {
-      "op": "bg",
-      "src": "sailor",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "sailor"
-    },
-    {
-      "op": "nar",
-      "text": "第5景「広告への返事」。静かな面談室。新聞広告、閉じた扉、ロープ。"
-    },
-    {
-      "op": "show",
-      "actor": "yoru",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_villager",
-      "pos": "center"
-    },
-    {
-      "op": "show",
-      "actor": "rei",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "珍しい動物を保護した。心当たりの船乗りは来られたし。",
-      "eyes": "anger",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "逃げた猿が剃刀を真似し、止める前に窓へ登った。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "正しさだけでは、人の痛みを量れない。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "あなたは殺していない。だが危険を隠した責任は残る。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "すべて話します。恐れて黙ったことが、事件を長引かせた。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "だから事実と心の両方を見よう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "私は、思い込みを外し、矛盾する証言から可能性の枠そのものを広げることを忘れずに選ぶ。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "その選択の重さを、次の場面まで持って行こう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "ここで舞台は一瞬静まり、観客の選択が人物の心の向きを変える。"
-    },
-    {
-      "op": "choice",
-      "options": [
-        {
-          "text": "船乗りを直ちに呼び出す",
-          "jump": "route_a"
-        },
-        {
-          "text": "匿名広告で自発的に来させる",
-          "jump": "route_b"
-        }
-      ]
-    },
-    {
-      "op": "label",
-      "id": "route_a"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "私は『船乗りを直ちに呼び出す』道を選ぶ。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "その決断なら、結果まで自分の言葉で引き受けて。",
-      "eyes": "normal"
-    },
-    {
-      "op": "set",
-      "flag": "f_route_a"
-    },
-    {
-      "op": "jump",
-      "to": "merge_choice"
-    },
-    {
-      "op": "label",
-      "id": "route_b"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "私は『匿名広告で自発的に来させる』道を選ぶ。",
-      "eyes": "surprise",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "違う道でも、守るべきものを見失わないで。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "set",
-      "flag": "f_route_b"
-    },
-    {
-      "op": "label",
-      "id": "merge_choice"
-    },
-    {
-      "op": "nar",
-      "text": "選択の余韻を抱えたまま、物語は同じ終幕へ向かう。"
-    },
-    {
-      "op": "hide",
-      "actor": "yoru"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_villager"
-    },
-    {
-      "op": "hide",
-      "actor": "rei"
-    },
-    {
-      "op": "bg",
-      "src": "solution",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "solution"
-    },
-    {
-      "op": "nar",
-      "text": "第6景「密室の再現」。朝のモルグ街。開いた窓、避雷針、静かな通り。"
-    },
-    {
-      "op": "show",
-      "actor": "yoru",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei",
-      "pos": "center"
-    },
-    {
-      "op": "show",
-      "actor": "sasuke",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "避雷針を登り、跳ね窓から入り、同じ道で逃げた。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "あり得ない犯人だから、あり得る出口が見えなかった。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "ここで黙れば、同じことが繰り返される。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "sasuke",
-      "text": "推理は怪物を作るためでなく、無実の人を解放するためにある。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "矛盾は邪魔ではない。考えの枠を広げる入口だ。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "言葉にした責任を、次の場面へ持って行こう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "私は、思い込みを外し、矛盾する証言から可能性の枠そのものを広げることを忘れずに選ぶ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "その選択の重さを、次の場面まで持って行こう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "hide",
-      "actor": "yoru"
-    },
-    {
-      "op": "hide",
-      "actor": "rei"
-    },
-    {
-      "op": "hide",
-      "actor": "sasuke"
-    },
-    {
-      "op": "bg",
-      "src": "solution",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "solution"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "『モルグ街の殺人』、これにて終幕です。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "残った問いは、思い込みを外し、矛盾する証言から可能性の枠そのものを広げること。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "選ばなかった道も、物語の外で静かに私たちを見ています。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ご観劇、ありがとうございました。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "end"
+  {
+   "role": "語り手",
+   "actor": "rei",
+   "costume": "default"
+  },
+  {
+   "role": "船乗り",
+   "actor": "extra_villager",
+   "costume": "default"
+  },
+  {
+   "role": "オランウータン",
+   "actor": "sasuke",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "parisroom": "bg/parisroom-2048x1152.png",
+  "crime_room": "bg/crime_room-2048x1152.png",
+  "testimony": "bg/testimony-2048x1152.png",
+  "clues": "bg/clues-2048x1152.png",
+  "sailor": "bg/sailor-2048x1152.png",
+  "solution": "bg/solution-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "一八四一年、エドガー・アラン・ポーは、世界で初めての推理小説と呼ばれる短編を書きました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "『モルグ街の殺人』。名探偵オーギュスト・デュパンと、彼と暮らす名もない語り手の物語です。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "鍵のかかった四階の部屋。誰の言葉とも聞き分けられない、甲高い声。そして、ありえない力。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "残酷な場面は、言葉で触れるだけにします。どうぞ、証言の食い違いに、耳を澄ませてください。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "parisroom",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "parisroom"
+  },
+  {
+   "op": "nar",
+   "text": "パリ、フォーブール・サン・ジェルマンの古びた屋敷。昼は鎧戸を閉め、ろうそくを灯して、夜を作っている。"
+  },
+  {
+   "op": "show",
+   "actor": "rei",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "私とデュパンは、この崩れかけた屋敷を借りて、世間から隠れるように暮らしている。昼は本を読み、夜は街を歩く。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "デュパンは、名家の出だが、財産をほとんど失った。残ったわずかな収入を、すべて本につぎ込んでいる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "図書館で、同じ珍しい本を探していて、出会った。それ以来、二人で、この屋敷にいる。"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "君は、チェスの名人が、分析家だと思っているかね。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "違うのか。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "チェスは、複雑なだけだ。駒の動きが多いから、注意深い者が勝つ。深く考える者ではない。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "私なら、ホイストを選ぶ。相手の顔色、カードの置き方、ため息。勝負の外にあるものを、全部読む者が勝つ。"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "夜の散歩の途中、十五分ほど黙っていたデュパンが、突然、口を開いた。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "確かに、あの男は背が低すぎる。悲劇より、軽演劇のほうが向いているね。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "……どうして、私が、靴屋あがりの役者シャンティイのことを考えていると分かった。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "君は、果物屋にぶつかって、石畳の割れ目でつまずいた。それから、足元を見ながら歩いた。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "舗装の新しい路地で、君は「ステレオトミー」と口の中でつぶやいた。そこから原子論、エピクロス、オリオン座へ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "昨日の新聞に、シャンティイを皮肉った、オリオン座のラテン語の詩が載っていた。君は、空を見上げて、微笑んだ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "……背筋が寒くなる。私の頭の中を、そのまま歩いてきたようだ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "果物屋の籠が、君を押した。そこから、十五分の旅が始まった。籠が、すべての出発点さ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "歩いたのは、君の足だ。私は、それを後ろからついていっただけさ。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "bg",
+   "src": "crime_room",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "crime_room"
+  },
+  {
+   "op": "nar",
+   "text": "モルグ街。古い家の四階。深夜三時、近所の人々が、恐ろしい悲鳴を聞いて、扉を打ち破った。"
+  },
+  {
+   "op": "show",
+   "actor": "rei",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "夕刊の記事を読む。被害者は、レスパネー夫人と、娘のカミーユ嬢。二人とも、ひどいありさまで見つかった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "部屋は、内側から鍵がかかっていた。窓も、閉まっていた。犯人は、どこから入り、どこから出たのか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "床には、金貨の詰まった袋が二つ、そのまま。盗みが目的ではない。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "隣人たちは、四階まで駆け上がる途中で、上から言い争う二つの声を聞いた。扉の前に着いたときには、静まり返っていた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "暖炉には、白髪の束が、根元から引き抜かれて落ちていた。……人間の手で、あんなことができるのか。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "娘は、暖炉の煙突の中に、逆さまに押し込まれていた。数人がかりで、ようやく引き出せたという。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "警察は、銀行員のアドルフ・ル・ボンを逮捕した。前の日に、夫人の家まで、金貨を届けた男だ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "夫人は、娘と二人きりで暮らし、ほとんど誰とも付き合わなかった。占い師をしていた、という噂もある。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "恨みを買うような相手も、見当たらない。……なのに、あの怒り方は、何なのだろう。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "rei"
+  },
+  {
+   "op": "bg",
+   "src": "testimony",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "testimony"
+  },
+  {
+   "op": "nar",
+   "text": "デュパンの書斎。新聞の束が、床に散らばっている。デュパンは、証言の記事だけを切り抜いて、机に並べている。"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "right"
+  },
+  {
+   "op": "show",
+   "actor": "rei",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "警察は、熱心に動く。だが、方法がない。目の前に物を近づけすぎて、全体が見えなくなっている。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "真実は、いつも井戸の底にあるとは限らない。たいていは、山の頂、誰もが見上げる場所に転がっている。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "星は、横目で見たほうがよく見える。まっすぐ見つめると、光がぼやけるのだ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "証言を読み比べよう。どの証人も、悲鳴の後に、二つの声を聞いた。一つは、低いフランス人の声。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "もう一つは、甲高い声。……フランス人の証人は、スペイン語だったと言う。オランダ人は、フランス語だったと。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "憲兵のミュゼは、フランス語ではない、たぶんスペイン語、と言った。銀細工師は、イタリア語だろう、と。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "イギリス人は、ドイツ語だと思った。スペイン人は、イギリス語だと。イタリア人は、ロシア語だと。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "皆、自分の知らない言葉だと言っている。そして、一つの単語も、聞き取れていない。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "……変だ。いくら外国語でも、音のまとまりくらいは聞き取れるはずだ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "誰にも分からない言葉。それは、言葉ではなかったのかもしれない。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "低いフランス語の声は、「なんてことだ」と「ちくしょう」と言った、と証人たちは一致している。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "その一致が大事だ。低い声の主は、驚いていた。……殺した者が、驚くだろうか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "ル・ボンは、どうなる。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "金貨を届けただけの男が、二人の女性を、あんな力で、煙突に押し込めるとは思えない。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "警視総監に知り合いがいる。現場を見せてもらおう。ル・ボンには、昔、恩を受けたことがある。"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "rei"
+  },
+  {
+   "op": "bg",
+   "src": "clues",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "clues"
+  },
+  {
+   "op": "nar",
+   "text": "モルグ街の四階。時間が止まったような部屋。窓の外は、高い避雷針の柱が、壁に沿って立っている。"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "rei",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "扉は、内側から鍵。煙突は、猫一匹がやっと。……残るは、窓だ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "犯人は、出ていった。だから、出口はある。出口がないように見えるなら、見え方のほうが間違っているのだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "窓は、両方とも、釘で打ちつけてあったと聞いた。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "警察は、釘を見て、それで調べるのをやめた。私は、そこで調べ始める。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "デュパンは、部屋の床、壁、天井まで、一時間かけて見て回った。憲兵が、あきれた顔で見ていた。"
+  },
+  {
+   "op": "nar",
+   "text": "デュパンが、奥の窓の釘をつまむと、釘は、途中で、ぽろりと折れていた。頭だけが、穴に乗っていた。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "隠れたばね仕掛けで、窓は内側から自然に閉まる。釘は、古くから折れていたのだ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "もう一つの窓の釘は、しっかり打たれていた。だから警察は、こちらも同じだと思い込んだ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "二つが同じに見えるとき、違う一点を探す。それだけのことさ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "窓の外の避雷針から、鎧戸まで、一メートル半。人間なら、跳べない。……並外れた敏捷さがあれば、話は別だ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "敏捷さ、怪力、理由のない残酷さ、聞き取れない声……。"
+  },
+  {
+   "op": "nar",
+   "text": "デュパンは、夫人の固く握りしめた指の間から抜き取られた、毛の束を見せた。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "これは、人間の髪ではない。……それと、避雷針の根元で、これを拾った。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "憲兵たちは、避雷針は誰にも登れない、と言っていた。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "誰にも、の中に、人間しか入れていないのだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "汚れた小さなリボン。……船乗りが、髪を結ぶのに使う結び方だ。マルタ島の船乗りがよくやる。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "キュヴィエの動物図鑑を開いてごらん。ボルネオの、黄褐色の大きなオランウータンの頁を。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "指の幅も、力も、毛の色も……。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "夫人の喉に残った指の跡は、人間の手では、とても届かない幅だった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "では、リボンの主は。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "その獣の持ち主だ。マルタ船籍の船乗り。……新聞に、広告を出そう。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "rei"
+  },
+  {
+   "op": "bg",
+   "src": "sailor",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "sailor"
+  },
+  {
+   "op": "nar",
+   "text": "デュパンの屋敷の玄関。新聞に出した広告を見て、一人の男が訪ねてきた。日焼けした、がっしりした船乗りだ。"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "right"
+  },
+  {
+   "op": "show",
+   "actor": "rei",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "広告をご覧になったのですね。ブーローニュの森で、黄褐色の大きなオランウータンを捕まえた、持ち主は申し出よ、と。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_villager",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "ええ、まあ、はい。わしのです。いくらで返してもらえますかな。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "何しろ、ずいぶん元手がかかってましてね。餌代だって、ばかにならない。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "植物園に売れば、いい値がつくと聞きまして。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "お礼は、金貨ではありません。モルグ街の事件について、知っていることを、全部話していただきたい。"
+  },
+  {
+   "op": "nar",
+   "text": "デュパンは、静かに扉に鍵をかけ、拳銃を机の上に置いた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "ピ、ピストル……！　わしは、何も悪いことは……！",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "怖がることはない。あなたが無実なのは知っています。だが、知っていることを話さなければ、無実の銀行員が裁かれる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "……話します。ボルネオで、仲間と捕まえて、売るつもりで連れて帰った。下宿で、こっそり飼っていた。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "あの夜、帰ると、そいつが剃刀を持って、鏡の前で顔を剃るふりをしていた。わしの真似を、鍵穴から見ていたんだ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "鞭を見せると、剃刀を持ったまま、窓から逃げた。わしは、追いかけた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "夜中の三時、通りには誰もいなかった。あいつは、月明かりの中、屋根から屋根へ跳んでいった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "明かりのついた窓が一つ。モルグ街の家の、四階だった。"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "rei"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_villager"
+  },
+  {
+   "op": "bg",
+   "src": "solution",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "solution"
+  },
+  {
+   "op": "nar",
+   "text": "再現。夜のモルグ街。四階の窓に明かりがともっている。避雷針を、黄色い影が登っていく。"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……キキッ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "nar",
+   "text": "獣は、窓の明かりの中に、鏡と、櫛と、剃刀を見つけた。主人の部屋と、同じものを。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_villager",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "避雷針を登って、窓の鎧戸に飛びついた。部屋の中では、夫人と娘さんが、箱の書類を整理していた。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "ウキャ、キキキ！"
+  },
+  {
+   "op": "nar",
+   "text": "獣は、鏡の前の真似ごとのつもりで、剃刀を振り回した。悲鳴に怯え、怯えたことに逆上した。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "わしは、避雷針の途中から、それを見ていた。見ていただけだ。……何も、できなかった。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "わしが、「なんてことだ」と叫んだ。それが、あの低いフランス語の声だ。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……キュウ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "獣は、主人の声を聞き、叱られると思って、部屋の跡を隠そうとした。"
+  },
+  {
+   "op": "nar",
+   "text": "そして、来た道を、窓から逃げた。窓は、ばね仕掛けで、ひとりでに閉じた。"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "甲高い声は、あいつの、怯えた叫び声だった。どの国の人にも、聞き分けられるはずがない。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "怖くて、避雷針を滑り降りて、逃げ帰った。あいつのことは、もう知らないと思うことにした。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "知らないと思っても、新聞は毎日、ル・ボンの名前を書いていた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "……毎晩、眠れなかった。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "デュパンは、船乗りに自首を勧める",
+     "jump": "m_confess"
+    },
+    {
+     "text": "デュパンは、船乗りの証言を自分の口から警察へ伝える",
+     "jump": "m_report"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_confess"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "警視総監の前で、今の話を、そのまましてください。あなたは、罪を犯したのではない。手放したのです。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "……行きます。銀行員さんを、牢屋から出してやらなきゃ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "jump",
+   "to": "m_end"
+  },
+  {
+   "op": "label",
+   "id": "m_report"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "私が伝えましょう。あなたは、獣を探して、植物園に売ってください。それが、償いの一つになる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "あいつは、植物園で、檻の中で暮らすのか。……故郷の森の匂いは、もうしないだろうな。",
+   "eyes": "closed"
+  },
+  {
+   "op": "label",
+   "id": "m_end"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_villager"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "rei",
+   "pos": "left"
+  },
+  {
+   "op": "nar",
+   "text": "ル・ボンは釈放された。オランウータンは、のちに捕まり、植物園に、高い値段で売られた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "ル・ボンは、何度も手を握って礼を言った。デュパンは、昔の恩を返しただけだ、と目をそらした。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "警視総監は、悔しそうだった。人には、それぞれの仕事があるものだ、と皮肉を言っていた。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "言わせておけばいい。彼の知恵には、頭はあって、体がない。女神ラヴェルナの絵のようにね。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "ラヴェルナ？"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "ローマの盗人の守り神だ。絵では、頭だけ描かれて、体がない。……総監の知恵と同じさ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "大事なのは、不可能に見えるものを、一つずつ、ありうるものに変えていくこと。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "「誰が」を考える前に、「何が」を考えることだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "結局、犯人は、殺すつもりのない者だった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "鏡の前で、主人の真似をしただけの獣。……罪を問える相手が、どこにもいない。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "責めを負うとすれば、森から獣を連れ出し、狭い部屋に閉じ込めた者だろう。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "だからこそ、皆が見落とした。人間の悪意を探していたから、人間でない者の恐怖が、見えなかったのだ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "rei"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "『モルグ街の殺人』、これにて幕です。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "誰の言葉にも聞こえなかった声は、そもそも言葉ではありませんでした。釘も、窓も、思い込みの中で閉じていました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "答えが見つからないとき、問いの枠そのものを、一度、外してみる。それが、デュパンの方法でした。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "名探偵は、ここで初めて生まれました。のちの多くの探偵たちが、この暗い部屋から、出発していきます。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

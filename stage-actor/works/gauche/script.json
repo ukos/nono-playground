@@ -5,9 +5,9 @@
   "original": "宮沢賢治『セロ弾きのゴーシュ』（著作権消滅）",
   "adaptation": "moderate",
   "format": "v3",
-  "minutes": 22,
+  "minutes": 18,
   "synopsis": "全六景で原作の主要な運動をたどりながら、未熟さを認め、他者との響き合いによって成長することを中心に再構成する。第五景で観客が人物の姿勢を選び、分岐は終幕前に合流する。",
-  "note": "本脚本は著作権の消滅した原作からの翻案であり、既存の翻訳・上演台本は使用していない。セリフは全て本上演版の書き下ろし。"
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
  },
  "cast": [
   {
@@ -17,7 +17,7 @@
   },
   {
    "role": "ゴーシュ",
-   "actor": "rei",
+   "actor": "rei_sweater",
    "costume": "default"
   },
   {
@@ -67,28 +67,22 @@
   {
    "op": "say",
    "actor": "nono",
-   "text": "ようこそ、NONO座へ。本日の演目は『セロ弾きのゴーシュ』。",
-   "eyes": "normal"
+   "text": "町の活動写真館で、セロという楽器を弾いている若者がいました。名前はゴーシュ。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "この舞台が見つめるのは、未熟さを認め、他者との響き合いによって成長すること。",
-   "eyes": "sorrow",
-   "mouth": "open"
+   "text": "宮沢賢治の『セロ弾きのゴーシュ』。ゴーシュは、楽団でいちばん下手だと、いつも叱られていました。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "古い物語を借りながら、台詞はすべて今夜のための書き下ろしです。",
-   "eyes": "normal"
+   "text": "音楽会まで、あと十日。毎晩、ゴーシュの小屋に、不思議なお客がやってきます。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "それでは、幕を開けましょう。",
-   "eyes": "joy",
-   "mouth": "open"
+   "text": "猫、かっこう、狸の子、野ねずみの親子。ひと晩ずつ、耳を傾けてください。"
   },
   {
    "op": "hide",
@@ -105,77 +99,74 @@
   },
   {
    "op": "nar",
-   "text": "第1景「叱られる合奏」。古い町の楽団練習場。譜面台、椅子、夕方の窓。"
+   "text": "町の楽団の練習場。第六交響曲の稽古の最中、楽長が手を打って演奏を止めた。"
   },
   {
    "op": "show",
-   "actor": "rei",
+   "actor": "extra_elder",
    "pos": "left"
   },
   {
    "op": "show",
-   "actor": "extra_elder",
-   "pos": "center"
+   "actor": "rei_sweater",
+   "pos": "right"
   },
   {
    "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+   "text": "楽長は顔をしかめ、セロが遅れている、音が死んでいる、と言った。"
   },
   {
    "op": "say",
-   "actor": "rei",
-   "text": "君のセロは遅れる。音が悪いのではなく、皆の息を聞いていない。",
-   "eyes": "normal"
-  },
-  {
-   "op": "say",
-   "actor": "extra_elder",
-   "text": "聞いているつもりです。指が追いつかないだけです。",
-   "eyes": "joy"
-  },
-  {
-   "op": "say",
-   "actor": "rei",
-   "text": "今の言葉を、聞かなかったことにはできない。",
+   "actor": "rei_sweater",
+   "text": "すみません。もう一度、はじめから。",
    "eyes": "sorrow"
   },
   {
-   "op": "say",
-   "actor": "extra_elder",
-   "text": "つもりは音にならない。今夜から音の前の沈黙を数えなさい。",
-   "eyes": "surprise"
+   "op": "nar",
+   "text": "楽長は、怒りもせず、悲しみもない、ただの音だ、と首を振った。"
   },
   {
    "op": "say",
-   "actor": "rei",
-   "text": "一人で弾くより、皆と弾く方が孤独だ。",
-   "eyes": "anger"
+   "actor": "rei_sweater",
+   "text": "……感情が、ないと。"
+  },
+  {
+   "op": "nar",
+   "text": "十日後の音楽会までに、何とかしておけ。楽長はそう言い捨てて、稽古を終えた。"
   },
   {
    "op": "say",
-   "actor": "extra_elder",
-   "text": "なら、次の一歩で確かめよう。",
-   "eyes": "fun"
-  },
-  {
-   "op": "say",
-   "actor": "rei",
-   "text": "私は、未熟さを認め、他者との響き合いによって成長することを忘れずに選ぶ。",
+   "actor": "rei_sweater",
+   "text": "皆が帰ったあとも、楽譜を見つめていた。どこが悪いのか、自分では分からない。",
    "eyes": "closed"
   },
   {
    "op": "say",
-   "actor": "extra_elder",
-   "text": "その選択の重さを、次の場面まで持って行こう。",
-   "eyes": "crying"
+   "actor": "rei_sweater",
+   "text": "金管も木管も、皆、楽しそうに弾いている。俺だけが、追いかけっこで負けている。"
   },
   {
-   "op": "hide",
-   "actor": "rei"
+   "op": "say",
+   "actor": "rei_sweater",
+   "text": "セロを担いで帰ろう。今夜は、夜明けまで弾く。"
+  },
+  {
+   "op": "nar",
+   "text": "楽長は帰り際、ふと振り返った。君のセロは楽器だ、楽器は気持ちを運ぶ道具だ、と言い残した。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_sweater",
+   "text": "気持ちを、運ぶ。……俺には、運ぶほどの気持ちがないのだろうか。",
+   "eyes": "closed"
   },
   {
    "op": "hide",
    "actor": "extra_elder"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_sweater"
   },
   {
    "op": "bg",
@@ -188,77 +179,125 @@
   },
   {
    "op": "nar",
-   "text": "第2景「猫の訪問」。水車小屋の粗末な部屋。セロ、譜面、月明かり。"
+   "text": "町外れの水車小屋。夜。ゴーシュがひとり、セロを抱えて、がむしゃらに弾いている。"
   },
   {
    "op": "show",
-   "actor": "rei",
+   "actor": "rei_sweater",
    "pos": "left"
   },
   {
-   "op": "show",
-   "actor": "yoru",
-   "pos": "center"
-  },
-  {
-   "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+   "op": "say",
+   "actor": "rei_sweater",
+   "text": "もう一度。もう一度。……指が痛い。それでも、音が変わらない。"
   },
   {
    "op": "say",
-   "actor": "rei",
-   "text": "勝手に入って、注文までつけるのか。",
-   "eyes": "joy"
+   "actor": "rei_sweater",
+   "text": "水を一杯。……水車の音が、俺のセロより、よほどいい調子で回っている。"
   },
   {
    "op": "say",
-   "actor": "yoru",
-   "text": "怒鳴る音は大きいだけ。私の毛は一度も震えなかった。",
+   "actor": "rei_sweater",
+   "text": "楽長の言うとおりだ。俺の音には、怒りも、喜びもない。ただ、間違えないように弾いているだけだ。",
    "eyes": "sorrow"
   },
   {
-   "op": "say",
-   "actor": "rei",
-   "text": "答えはまだ一つに決められない。",
-   "eyes": "surprise"
+   "op": "nar",
+   "text": "とんとんと戸を叩く音がして、三毛猫が、半分熟したトマトを抱えて入ってきた。"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "right"
   },
   {
    "op": "say",
    "actor": "yoru",
-   "text": "では何を弾けば、お前は黙る。",
+   "text": "先生、お疲れでしょう。トマトをお持ちしました。それから、シューマンのトロメライを弾いてくださいな。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_sweater",
+   "text": "誰が先生だ。そのトマト、うちの畑のじゃないか。まだ青いのを、勝手にもいで。",
    "eyes": "anger"
   },
   {
    "op": "say",
-   "actor": "rei",
-   "text": "黙らせるのでなく、耳をこちらへ向けてみて。",
+   "actor": "yoru",
+   "text": "細かいことを。ほら、トロメライ。聴かないと眠れないんですよ。",
    "eyes": "fun"
   },
   {
    "op": "say",
-   "actor": "yoru",
-   "text": "迷いを抱えたままでも、進むことはできる。",
-   "eyes": "closed"
+   "actor": "rei_sweater",
+   "text": "猫が、シューマンを知っているのか。"
   },
   {
    "op": "say",
-   "actor": "rei",
-   "text": "私は、未熟さを認め、他者との響き合いによって成長することを忘れずに選ぶ。",
+   "actor": "yoru",
+   "text": "毎晩、窓の外で聴いてましたからね。先生のは、ちょっと固いですけど。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_sweater",
+   "text": "余計なお世話だ。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "固い音は、肩が凝るんですよ。猫は、ふにゃっとした音が好きなんです。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_sweater",
+   "text": "よし、弾いてやる。……「インドの虎狩り」を、思いきりな！",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "ゴーシュは耳に栓をして、嵐のような曲を弾き始めた。猫は目から火花を散らし、壁に頭をぶつけて逃げ回った。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "やめて、やめてください！　もう二度と、生意気は言いません！",
    "eyes": "crying"
   },
   {
    "op": "say",
-   "actor": "yoru",
-   "text": "その選択の重さを、次の場面まで持って行こう。",
-   "eyes": "normal"
+   "actor": "rei_sweater",
+   "text": "舌を出してみろ。……マッチをすってやる。"
   },
   {
-   "op": "hide",
-   "actor": "rei"
+   "op": "say",
+   "actor": "yoru",
+   "text": "ひゃあっ！"
   },
   {
    "op": "hide",
    "actor": "yoru"
+  },
+  {
+   "op": "say",
+   "actor": "rei_sweater",
+   "text": "少しやりすぎたか。……でも、腹の底から弾いたら、音が、少し太くなった気がした。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_sweater",
+   "text": "怒って弾いたら、セロが、怒った声を出した。……そうか、セロは、俺の気持ちを、ちゃんと運ぶのか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_sweater",
+   "text": "猫には悪いことをした。今度来たら、本当にトロメライを弾いてやろう。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_sweater"
   },
   {
    "op": "bg",
@@ -271,69 +310,125 @@
   },
   {
    "op": "nar",
-   "text": "第3景「かっこうの音程」。夜更けの水車小屋。開いた窓、森、青い月。"
+   "text": "次の夜。窓から、一羽のかっこうが飛び込んできた。"
   },
   {
    "op": "show",
-   "actor": "rei",
+   "actor": "rei_sweater",
    "pos": "left"
   },
   {
    "op": "show",
    "actor": "kogane",
-   "pos": "center"
-  },
-  {
-   "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
-  },
-  {
-   "op": "say",
-   "actor": "rei",
-   "text": "かっこう、同じ二音ばかりで何が分かる。",
-   "eyes": "sorrow"
+   "pos": "right"
   },
   {
    "op": "say",
    "actor": "kogane",
-   "text": "カッコウ。"
+   "text": "先生、音楽を教えてください。ドレミファを、正しく習いたいのです。"
   },
   {
    "op": "say",
-   "actor": "rei",
-   "text": "その理屈には、置き去りにされた声がある。",
+   "actor": "rei_sweater",
+   "text": "鳥が音楽を？　お前の歌は、かっこう、かっこう、だけだろう。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "kogane",
+   "text": "そこが難しいのです。かっこう、と、かっこう、と、かっこう。全部違うのです。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_sweater",
+   "text": "違う？　同じに聞こえるが。"
+  },
+  {
+   "op": "say",
+   "actor": "kogane",
+   "text": "では、先生、ドレミファを弾いてください。私は、それに合わせて鳴きます。"
+  },
+  {
+   "op": "nar",
+   "text": "ゴーシュがドの音を弾くと、かっこうは、かっこう、と鳴いた。何度も、何十度も。"
+  },
+  {
+   "op": "say",
+   "actor": "kogane",
+   "text": "かっこう。かっこう。……先生、今のは少し、遅れました。もう一度。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_sweater",
+   "text": "鳥のくせに、注文が多い。"
+  },
+  {
+   "op": "say",
+   "actor": "kogane",
+   "text": "鳥だからこそです。私たちは、この声一つで、春を知らせなければならないのですから。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_sweater",
+   "text": "もういい！　いつまで鳴いているんだ。喉から血が出るぞ。",
    "eyes": "anger"
   },
   {
    "op": "say",
    "actor": "kogane",
-   "text": "二音だから、ごまかしがないのか。"
+   "text": "でも、先生……。先生の音は、少し、遅れて聞こえます。"
   },
   {
    "op": "say",
-   "actor": "rei",
-   "text": "カッコウ。",
+   "actor": "rei_sweater",
+   "text": "……遅れて？",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "kogane",
+   "text": "私の声のほうが、ほんの少しだけ、高いのです。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_sweater",
+   "text": "鳥に音程を直されてたまるか。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "kogane",
+   "text": "直すのではありません。ご一緒したいのです。先生の音と、私の声が、ぴったり重なるところまで。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_sweater",
+   "text": "……重なるところまで、か。",
    "eyes": "closed"
   },
   {
-   "op": "say",
-   "actor": "kogane",
-   "text": "誰のための決断か、もう一度考えよう。"
+   "op": "nar",
+   "text": "ゴーシュが怒って追い払うと、かっこうは窓ガラスに何度もぶつかり、最後に、割れた窓から飛び去った。"
   },
   {
    "op": "say",
-   "actor": "rei",
-   "text": "私は、未熟さを認め、他者との響き合いによって成長することを忘れずに選ぶ。",
-   "eyes": "normal"
+   "actor": "rei_sweater",
+   "text": "……あの鳥の言ったとおりだ。俺の音は、いつも、ほんの少し、遅れていた。",
+   "eyes": "sorrow"
   },
   {
    "op": "say",
-   "actor": "kogane",
-   "text": "その選択の重さを、次の場面まで持って行こう。"
+   "actor": "rei_sweater",
+   "text": "楽譜を追いかけて、皆の音を聞いていなかった。だから、ほんの少し、遅れる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_sweater",
+   "text": "窓ガラス、割らせてしまったな。あの鳥、頭を打っていなければいいが。"
   },
   {
    "op": "hide",
-   "actor": "rei"
+   "actor": "rei_sweater"
   },
   {
    "op": "hide",
@@ -350,73 +445,128 @@
   },
   {
    "op": "nar",
-   "text": "第4景「狸の拍子」。雨の夜の小屋。木床、空き箱、セロの影。"
+   "text": "次の夜。小さな狸の子が、小太鼓のばちを持ってやってきた。"
   },
   {
    "op": "show",
-   "actor": "rei",
+   "actor": "rei_sweater",
    "pos": "left"
   },
   {
    "op": "show",
    "actor": "tanurio",
-   "pos": "center"
-  },
-  {
-   "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+   "pos": "right"
   },
   {
    "op": "say",
-   "actor": "rei",
-   "text": "ぼくのお腹を太鼓にして、二拍目をはっきり弾いて。",
+   "actor": "tanurio",
+   "text": "ゴーシュさん、小太鼓の稽古をつけてください。おっかさんが、ゴーシュさんのセロに合わせるといいって。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_sweater",
+   "text": "狸の子が、太鼓を？　……まあいい。「愉快な馬車屋」を弾こう。"
+  },
+  {
+   "op": "nar",
+   "text": "ゴーシュが弾き、狸の子が、セロの胴を、ばちでぽこぽこと叩いた。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "ゴーシュさん、二番目の糸を弾くとき、いつも遅れますね。つまずくみたいに。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_sweater",
+   "text": "二番目の糸……ここか。……本当だ。指が、ここで一瞬、迷う。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "ぼくの太鼓も、そこで一緒につまずいちゃうんです。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_sweater",
+   "text": "……二番目の糸。",
    "eyes": "surprise"
   },
   {
    "op": "say",
-   "actor": "tanurio",
-   "text": "拍は譜面にある。なぜ身体で確かめる。",
-   "eyes": "anger"
+   "actor": "rei_sweater",
+   "text": "そうか。この糸は、どうも引っかかって、音が出にくい。"
   },
   {
    "op": "say",
-   "actor": "rei",
-   "text": "恐れを隠しても、状況は変わらない。",
+   "actor": "tanurio",
+   "text": "ぼく、毎晩ゴーシュさんの小屋の外で聴いてたんです。おっかさんが、いい音だって。",
    "eyes": "fun"
   },
   {
    "op": "say",
-   "actor": "tanurio",
-   "text": "音は耳だけじゃなく、お腹にも来るから。",
+   "actor": "rei_sweater",
+   "text": "いい音……。そんなことを言われたのは、初めてだ。",
    "eyes": "closed"
   },
   {
    "op": "say",
-   "actor": "rei",
-   "text": "なるほど。遅れていたのは指より、呼吸だった。",
-   "eyes": "crying"
+   "actor": "tanurio",
+   "text": "ゴーシュさん、もう一回。今度は、ぼくがゆっくり叩くから、一緒に。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_sweater",
+   "text": "よし。……ぽこ、ぽこ、ぽこ。お前のばちは、なかなか正確だ。"
   },
   {
    "op": "say",
    "actor": "tanurio",
-   "text": "恐れを言葉にした今なら、選び直せる。",
-   "eyes": "normal"
-  },
-  {
-   "op": "say",
-   "actor": "rei",
-   "text": "私は、未熟さを認め、他者との響き合いによって成長することを忘れずに選ぶ。",
+   "text": "おっかさんに、褒められたって言おう。",
    "eyes": "joy"
   },
   {
    "op": "say",
    "actor": "tanurio",
-   "text": "その選択の重さを、次の場面まで持って行こう。",
-   "eyes": "sorrow"
+   "text": "ゴーシュさんのセロ、最初の晩より、ずっとあったかい音になったって、おっかさんが言ってました。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_sweater",
+   "text": "最初の晩から、聴いていたのか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "猫さんが、目から火花を散らして逃げていったのも、見てました。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "rei_sweater",
+   "text": "……それは、忘れてくれ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "忘れません。とっても、すごい音だったから。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_sweater",
+   "text": "すごい音、か。怒った音でも、誰かには、すごい音に聞こえるのか。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "夜明け近く、狸の子は、ぺこりとお辞儀をして帰っていった。"
   },
   {
    "op": "hide",
-   "actor": "rei"
+   "actor": "rei_sweater"
   },
   {
    "op": "hide",
@@ -433,142 +583,128 @@
   },
   {
    "op": "nar",
-   "text": "第5景「野ねずみの願い」。明け方の小屋。小さな穴、藁、柔らかな朝光。"
+   "text": "次の夜。野ねずみの母親が、ぐったりした子ねずみを抱えて、小屋の床の穴から出てきた。"
   },
   {
    "op": "show",
-   "actor": "rei",
+   "actor": "rei_sweater",
    "pos": "left"
   },
   {
    "op": "show",
    "actor": "shiro",
-   "pos": "center"
-  },
-  {
-   "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
-  },
-  {
-   "op": "say",
-   "actor": "rei",
-   "text": "この子の胸が苦しいの。セロの中へ入れてください。",
-   "eyes": "anger"
+   "pos": "right"
   },
   {
    "op": "say",
    "actor": "shiro",
-   "text": "音で病気が治るとは約束できない。",
-   "eyes": "fun"
-  },
-  {
-   "op": "say",
-   "actor": "rei",
-   "text": "正しさだけでは、人の痛みを量れない。",
-   "eyes": "closed"
-  },
-  {
-   "op": "say",
-   "actor": "shiro",
-   "text": "でも、あなたの低い響きでよく眠れるんです。",
+   "text": "ゴーシュさん、この子が、病気なのです。どうか、セロで治してやってください。",
    "eyes": "crying"
   },
   {
    "op": "say",
-   "actor": "rei",
-   "text": "上手さのためでなく、誰かの眠りのために弾いてみよう。",
-   "eyes": "normal"
-  },
-  {
-   "op": "say",
-   "actor": "shiro",
-   "text": "だから事実と心の両方を見よう。",
-   "eyes": "joy"
-  },
-  {
-   "op": "say",
-   "actor": "rei",
-   "text": "私は、未熟さを認め、他者との響き合いによって成長することを忘れずに選ぶ。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "say",
-   "actor": "shiro",
-   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "actor": "rei_sweater",
+   "text": "俺は医者じゃない。セロで病気が治るものか。",
    "eyes": "surprise"
   },
   {
-   "op": "nar",
-   "text": "ここで舞台は一瞬静まり、観客の選択が人物の心の向きを変える。"
+   "op": "say",
+   "actor": "shiro",
+   "text": "森の動物たちは、病気になると、ゴーシュさんの小屋の床下へ来るのです。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "セロの音を浴びると、血の巡りがよくなって、治るのです。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_sweater",
+   "text": "……知らなかった。俺の下手なセロを、床下で、皆が聴いていたのか。"
   },
   {
    "op": "choice",
    "options": [
     {
-     "text": "相手の音を先に聴く",
-     "jump": "route_a"
+     "text": "ゴーシュは、子ねずみをセロの胴の中に入れて弾く",
+     "jump": "m_inside"
     },
     {
-     "text": "自分の拍を強く示す",
-     "jump": "route_b"
+     "text": "ゴーシュは、子ねずみをそばに置いて静かに弾く",
+     "jump": "m_beside"
     }
    ]
   },
   {
    "op": "label",
-   "id": "route_a"
+   "id": "m_inside"
   },
   {
    "op": "say",
-   "actor": "rei",
-   "text": "私は『相手の音を先に聴く』道を選ぶ。",
+   "actor": "rei_sweater",
+   "text": "この穴から、胴の中へ。……ごうごう鳴るから、しっかりつかまっていろ。"
+  },
+  {
+   "op": "nar",
+   "text": "ゴーシュは、ラプソディを弾いた。胴の中の子ねずみが、目をぱちくりさせて、走り出てきた。"
+  },
+  {
+   "op": "jump",
+   "to": "m_well"
+  },
+  {
+   "op": "label",
+   "id": "m_beside"
+  },
+  {
+   "op": "say",
+   "actor": "rei_sweater",
+   "text": "驚かないように、小さな音で。でも、ちゃんと、腹の底から。"
+  },
+  {
+   "op": "nar",
+   "text": "ゆっくりした曲が流れると、子ねずみの鼻が、ひくひくと動き始めた。"
+  },
+  {
+   "op": "label",
+   "id": "m_well"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "治った！　ありがとうございます、ありがとうございます！",
    "eyes": "joy"
   },
   {
    "op": "say",
-   "actor": "shiro",
-   "text": "その決断なら、結果まで自分の言葉で引き受けて。",
-   "eyes": "normal"
-  },
-  {
-   "op": "set",
-   "flag": "f_route_a"
-  },
-  {
-   "op": "jump",
-   "to": "merge_choice"
-  },
-  {
-   "op": "label",
-   "id": "route_b"
-  },
-  {
-   "op": "say",
-   "actor": "rei",
-   "text": "私は『自分の拍を強く示す』道を選ぶ。",
-   "eyes": "surprise"
+   "actor": "rei_sweater",
+   "text": "パンを、少し持っていけ。かけらで悪いが。"
   },
   {
    "op": "say",
    "actor": "shiro",
-   "text": "違う道でも、守るべきものを見失わないで。",
-   "eyes": "sorrow"
+   "text": "こんなにたくさん。この子の兄弟たちにも、分けてやれます。"
   },
   {
-   "op": "set",
-   "flag": "f_route_b"
+   "op": "say",
+   "actor": "rei_sweater",
+   "text": "床下で聴いているなら、遠慮しないで、ほかの病気の動物たちも連れてこい。"
   },
   {
-   "op": "label",
-   "id": "merge_choice"
+   "op": "say",
+   "actor": "shiro",
+   "text": "ゴーシュさん、毎晩、ありがとうございます。皆、ゴーシュさんのセロのおかげで、元気になりました。",
+   "eyes": "joy"
   },
   {
-   "op": "nar",
-   "text": "選択の余韻を抱えたまま、物語は同じ終幕へ向かう。"
+   "op": "say",
+   "actor": "rei_sweater",
+   "text": "下手だ、下手だと言われ続けたセロが、誰かの病気を治していたのか。",
+   "eyes": "closed"
   },
   {
    "op": "hide",
-   "actor": "rei"
+   "actor": "rei_sweater"
   },
   {
    "op": "hide",
@@ -585,95 +721,145 @@
   },
   {
    "op": "nar",
-   "text": "第6景「町の音楽会」。満員の町会堂。赤い幕、譜面台、花束、舞台灯。"
+   "text": "音楽会の夜。楽団の演奏は大成功だった。客席から、アンコールの拍手が鳴りやまない。"
   },
   {
    "op": "show",
-   "actor": "rei",
+   "actor": "extra_elder",
    "pos": "left"
   },
   {
    "op": "show",
-   "actor": "extra_elder",
-   "pos": "center"
-  },
-  {
-   "op": "show",
-   "actor": "yoru",
+   "actor": "rei_sweater",
    "pos": "right"
   },
   {
    "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+   "text": "楽長が、ゴーシュに、アンコールを弾いてこいと言った。"
   },
   {
    "op": "say",
-   "actor": "rei",
-   "text": "今夜の君は、楽団の音を押さずに支えていた。",
-   "eyes": "fun"
-  },
-  {
-   "op": "say",
-   "actor": "extra_elder",
-   "text": "夜ごとの客が、音の聞き方を教えてくれました。",
-   "eyes": "closed"
-  },
-  {
-   "op": "say",
-   "actor": "rei",
-   "text": "ここで黙れば、同じことが繰り返される。",
-   "eyes": "crying"
-  },
-  {
-   "op": "say",
-   "actor": "yoru",
-   "text": "猫にも礼を言う気になった？",
-   "eyes": "normal"
-  },
-  {
-   "op": "say",
-   "actor": "rei",
-   "text": "次に来たら、扉を閉めずに一曲弾く。",
-   "eyes": "joy"
-  },
-  {
-   "op": "say",
-   "actor": "extra_elder",
-   "text": "言葉にした責任を、次の場面へ持って行こう。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "say",
-   "actor": "rei",
-   "text": "私は、未熟さを認め、他者との響き合いによって成長することを忘れずに選ぶ。",
+   "actor": "rei_sweater",
+   "text": "私が？　ひとりで？",
    "eyes": "surprise"
   },
   {
-   "op": "say",
-   "actor": "extra_elder",
-   "text": "その選択の重さを、次の場面まで持って行こう。",
-   "eyes": "anger"
-  },
-  {
-   "op": "hide",
-   "actor": "rei"
+   "op": "nar",
+   "text": "楽長はうなずいた。断ろうとするゴーシュの背中を、皆がステージへ押し出した。"
   },
   {
    "op": "hide",
    "actor": "extra_elder"
   },
   {
+   "op": "say",
+   "actor": "rei_sweater",
+   "text": "……ならば、やってやる。「インドの虎狩り」だ。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "ゴーシュが、あの夜、猫を追い払った曲を、全身で弾いた。客席は、しんと静まり返り、それから大喝采となった。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "left"
+  },
+  {
+   "op": "nar",
+   "text": "楽長は、ゴーシュの肩を叩き、十日前とは別人のようだ、赤ん坊と兵隊ほど違う、と言った。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_sweater",
+   "text": "別人……。いや、毎晩、小屋に来たお客たちが、教えてくれたんだ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_sweater",
+   "text": "怒って弾いた夜も、追い払った夜も、皆、何かを置いていってくれた。"
+  },
+  {
+   "op": "nar",
+   "text": "楽団の仲間たちが、ゴーシュのまわりに集まり、口々に、あの曲は痛快だった、と言った。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_sweater",
+   "text": "今度、皆にも聴かせたい。かっこうと合わせる、ドレミファを。",
+   "eyes": "joy"
+  },
+  {
+   "op": "nar",
+   "text": "楽団の仲間が、ゴーシュに、十日間で何があったのかと尋ねた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_sweater",
+   "text": "毎晩、お客が来たんだ。……信じてもらえないだろうけど、猫と、鳥と、狸と、ねずみが。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_sweater",
+   "text": "一番厳しい先生は、かっこうだった。",
+   "eyes": "fun"
+  },
+  {
+   "op": "nar",
+   "text": "仲間たちは笑ったが、ゴーシュの顔は、少しも冗談を言っているようには見えなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_sweater",
+   "text": "明日から、また稽古だ。今度は、床下の客にも、ちゃんと聞こえるように。"
+  },
+  {
    "op": "hide",
-   "actor": "yoru"
+   "actor": "rei_sweater"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "show",
+   "actor": "rei_sweater",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "その夜、小屋に帰ったゴーシュは、窓を開けて、遠くの空を見た。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_sweater",
+   "text": "ああ、かっこう。あのときは、すまなかった。俺は怒ったんじゃなかったんだ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_sweater",
+   "text": "遅れていると言われて、図星だったから、腹が立ったんだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_sweater",
+   "text": "次の春、お前の声が聞こえたら、ドの音で、一緒に鳴こう。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_sweater",
+   "text": "猫にも、狸の子にも、ねずみの親子にも、礼を言わなきゃな。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_sweater"
   },
   {
    "op": "bg",
-   "src": "concert",
-   "mode": "full"
-  },
-  {
-   "op": "bg",
-   "src": "concert"
+   "src": null
   },
   {
    "op": "show",
@@ -683,28 +869,22 @@
   {
    "op": "say",
    "actor": "nono",
-   "text": "『セロ弾きのゴーシュ』、これにて終幕です。",
-   "eyes": "joy",
-   "mouth": "open"
+   "text": "『セロ弾きのゴーシュ』、これにて幕です。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "残った問いは、未熟さを認め、他者との響き合いによって成長すること。",
-   "eyes": "sorrow"
+   "text": "いちばん下手だと叱られた若者を、毎晩、動物たちが少しずつ、上手にしていきました。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "選ばなかった道も、物語の外で静かに私たちを見ています。",
-   "eyes": "normal"
+   "text": "遅れていると教えてくれた鳥。いい音だと言ってくれた狸の子。床下で聴いていた森の仲間たち。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "ご観劇、ありがとうございました。",
-   "eyes": "joy",
-   "mouth": "open"
+   "text": "聴いてくれる誰かがいると、音は、少しずつ太くなります。"
   },
   {
    "op": "hide",

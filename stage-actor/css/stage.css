@@ -93,7 +93,7 @@ img { image-rendering: pixelated; image-rendering: crisp-edges; }
 /* 幕と額縁は 2048×1152 の舞台座標で描き、画面を覆う倍率で拡大する（js の layoutCurtain） */
 #curtain .art { position: absolute; left: 0; top: 0; width: 2048px; height: 1152px; transform-origin: 0 0; }
 #curtain .panel { position: absolute; top: 0; width: 1024px; height: 1152px; image-rendering: pixelated;
-  background: url(../theater/curtain.png?v=c57ec76) no-repeat; background-size: 2048px 1152px;
+  background: url(../theater/curtain.png?v=cf81b99) no-repeat; background-size: 2048px 1152px;
   transition: transform 1.8s cubic-bezier(.6, .05, .3, 1); }
 #curtain .l { left: 0; background-position: 0 0; }
 #curtain .r { left: 1024px; background-position: -1024px 0; }
@@ -103,7 +103,12 @@ img { image-rendering: pixelated; image-rendering: crisp-edges; }
 #curtain .frame { box-shadow: 0 0 0 8000px var(--night); }
 #curtain .playbill { position: absolute; left: 50%; top: 40%; transform: translate(-50%, -50%); padding: 1em 1.6em;
   font-size: clamp(1.2rem, 4vw, 2.2rem); color: var(--gold); background: rgba(0, 0, 0, 0.35); border: 2px solid var(--gold);
-  border-radius: 0.4em; transition: opacity 0.5s; white-space: nowrap; }
+  border-radius: 0.4em; transition: opacity 0.5s; width: max-content; max-width: 88%; box-sizing: border-box;
+  text-align: center; line-height: 1.4; overflow-wrap: anywhere; }
+#curtain .playbill .main, #curtain .playbill .sub { display: block; }
+#curtain .playbill .sub { font-size: 0.62em; margin-top: 0.35em; opacity: 0.9; }
+#work-list .wtitle .main, #work-list .wtitle .sub { display: block; }
+#work-list .wtitle .sub { font-size: 0.85em; opacity: 0.8; }
 #curtain.open .l { transform: translateX(-2048px); }
 #curtain.open .r { transform: translateX(2048px); }
 #curtain.open .playbill { opacity: 0; }

@@ -1,758 +1,976 @@
 {
-  "meta": {
-    "id": "dracula",
-    "title": "ドラキュラ ―夜を綴る者たち―",
-    "original": "Bram Stoker, Dracula（原著・著作権消滅）",
-    "adaptation": "free",
-    "format": "v3",
-    "minutes": 30,
-    "synopsis": "全六景で原作の主要な運動をたどりながら、断片的な記録を共同で読み、孤立させる恐怖に連帯で対抗することを中心に再構成する。第五景で観客が人物の姿勢を選び、分岐は終幕前に合流する。",
-    "note": "本脚本は著作権の消滅した原作からの翻案であり、既存の翻訳・上演台本は使用していない。セリフは全て本上演版の書き下ろし。"
+ "meta": {
+  "id": "dracula",
+  "title": "ドラキュラ ―夜を綴る者たち―",
+  "original": "Bram Stoker, Dracula（原著・著作権消滅）",
+  "adaptation": "free",
+  "format": "v3",
+  "minutes": 30,
+  "synopsis": "全六景で原作の主要な運動をたどりながら、断片的な記録を共同で読み、孤立させる恐怖に連帯で対抗することを中心に再構成する。第五景で観客が人物の姿勢を選び、分岐は終幕前に合流する。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "狂言回し",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "ジョナサン",
-      "actor": "rei",
-      "costume": "default"
-    },
-    {
-      "role": "ミナ",
-      "actor": "yui",
-      "costume": "default"
-    },
-    {
-      "role": "ドラキュラ伯爵",
-      "actor": "extra_skeleton",
-      "costume": "default"
-    },
-    {
-      "role": "ヴァン・ヘルシング",
-      "actor": "extra_wizard",
-      "costume": "default"
-    },
-    {
-      "role": "ルーシー",
-      "actor": "extra_elf",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "castle": "bg/castle-2048x1152.png",
-    "demeter": "bg/demeter-2048x1152.png",
-    "lucyroom": "bg/lucyroom-2048x1152.png",
-    "archive": "bg/archive-2048x1152.png",
-    "abbey": "bg/abbey-2048x1152.png",
-    "mountainpass": "bg/mountainpass-2048x1152.png"
+  {
+   "role": "ジョナサン",
+   "actor": "rei",
+   "costume": "default"
   },
-  "steps": [
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『ドラキュラ』。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "この舞台が見つめるのは、断片的な記録を共同で読み、孤立させる恐怖に連帯で対抗すること。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "古い物語を借りながら、台詞はすべて今夜のための書き下ろしです。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "それでは、幕を開けましょう。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "castle",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "castle"
-    },
-    {
-      "op": "nar",
-      "text": "第1景「城への招待」。トランシルヴァニアの断崖城。月、狼の森、鉄門。"
-    },
-    {
-      "op": "show",
-      "actor": "rei",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_skeleton",
-      "pos": "center"
-    },
-    {
-      "op": "nar",
-      "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "伯爵は鏡に映らず、食事も取らない。扉だけが毎夜閉じる。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "客人よ、城では夜が昼です。余計な部屋へ入らぬよう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "今の言葉を、聞かなかったことにはできない。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "契約書を届ける旅が、檻の中の滞在に変わった。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "書き留めろ。記録だけが、恐怖に形を与える。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "なら、次の一歩で確かめよう。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "私は、断片的な記録を共同で読み、孤立させる恐怖に連帯で対抗することを忘れずに選ぶ。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "その選択の重さを、次の場面まで持って行こう。",
-      "eyes": "crying"
-    },
-    {
-      "op": "hide",
-      "actor": "rei"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_skeleton"
-    },
-    {
-      "op": "bg",
-      "src": "demeter",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "demeter"
-    },
-    {
-      "op": "nar",
-      "text": "第2景「幽霊船」。嵐の港。無人の帆船、切れた舵輪、積荷の土箱。"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_wizard",
-      "pos": "center"
-    },
-    {
-      "op": "show",
-      "actor": "extra_skeleton",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "デメテル号は乗組員を失い、一頭の黒い影だけが上陸した。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "新聞記事と航海日誌を並べれば、偶然ではない。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "答えはまだ一つに決められない。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "遠い城の夜が、土の箱に乗ってロンドンへ来た。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "怪物は秘密を好む。記録を共有することが最初の杭だ。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "迷いを抱えたままでも、進むことはできる。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "私は、断片的な記録を共同で読み、孤立させる恐怖に連帯で対抗することを忘れずに選ぶ。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "その選択の重さを、次の場面まで持って行こう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_wizard"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_skeleton"
-    },
-    {
-      "op": "bg",
-      "src": "lucyroom",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "lucyroom"
-    },
-    {
-      "op": "nar",
-      "text": "第3景「ルーシーの夜」。海辺の寝室。白いカーテン、薬瓶、開く窓。"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elf",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "center"
-    },
-    {
-      "op": "show",
-      "actor": "extra_wizard",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elf",
-      "text": "眠るたび、窓の外から誰かに呼ばれる。朝には力がない。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "輸血だけでは、夜に失うものへ追いつけません。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elf",
-      "text": "その理屈には、置き去りにされた声がある。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "迷信と退ければ、観察した事実まで捨てることになる。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elf",
-      "text": "怖い名前でも、原因を呼べれば仲間と戦える。",
-      "eyes": "closed",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "誰のための決断か、もう一度考えよう。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elf",
-      "text": "私は、断片的な記録を共同で読み、孤立させる恐怖に連帯で対抗することを忘れずに選ぶ。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "その選択の重さを、次の場面まで持って行こう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elf"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_wizard"
-    },
-    {
-      "op": "bg",
-      "src": "archive",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "archive"
-    },
-    {
-      "op": "nar",
-      "text": "第4景「記録の部屋」。ロンドンの書斎。日記、蝋管、新聞切抜き、地図。"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei",
-      "pos": "center"
-    },
-    {
-      "op": "show",
-      "actor": "extra_wizard",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "私たちの日記を時系列に並べたら、伯爵の動きが一本になった。",
-      "eyes": "surprise",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "個人の恐怖が、共有した瞬間に証拠へ変わる。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "恐れを隠しても、状況は変わらない。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "ミナを守るため情報から外すべきだ。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "外されることが一番危険です。私は記録する側でいたい。",
-      "eyes": "crying",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "恐れを言葉にした今なら、選び直せる。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "私は、断片的な記録を共同で読み、孤立させる恐怖に連帯で対抗することを忘れずに選ぶ。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "その選択の重さを、次の場面まで持って行こう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "hide",
-      "actor": "rei"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_wizard"
-    },
-    {
-      "op": "bg",
-      "src": "abbey",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "abbey"
-    },
-    {
-      "op": "nar",
-      "text": "第5景「ロンドンの追跡」。廃修道院。土箱、蝙蝠の影、夜明け前の霧。"
-    },
-    {
-      "op": "show",
-      "actor": "rei",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_skeleton",
-      "pos": "center"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "箱を一つずつ清めれば、伯爵の逃げ場は減る。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "君たちは私の夜を地図に閉じ込められると思うか。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "正しさだけでは、人の痛みを量れない。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "地図ではなく、互いの証言で囲む。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "孤立させる力に、私たちは連帯で対抗する。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "だから事実と心の両方を見よう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "私は、断片的な記録を共同で読み、孤立させる恐怖に連帯で対抗することを忘れずに選ぶ。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "その選択の重さを、次の場面まで持って行こう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "ここで舞台は一瞬静まり、観客の選択が人物の心の向きを変える。"
-    },
-    {
-      "op": "choice",
-      "options": [
-        {
-          "text": "ミナの記憶を作戦に使う",
-          "jump": "route_a"
-        },
-        {
-          "text": "ミナを情報から遠ざけ守る",
-          "jump": "route_b"
-        }
-      ]
-    },
-    {
-      "op": "label",
-      "id": "route_a"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "私は『ミナの記憶を作戦に使う』道を選ぶ。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "その決断なら、結果まで自分の言葉で引き受けて。",
-      "eyes": "normal"
-    },
-    {
-      "op": "set",
-      "flag": "f_route_a"
-    },
-    {
-      "op": "jump",
-      "to": "merge_choice"
-    },
-    {
-      "op": "label",
-      "id": "route_b"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "私は『ミナを情報から遠ざけ守る』道を選ぶ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "違う道でも、守るべきものを見失わないで。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "set",
-      "flag": "f_route_b"
-    },
-    {
-      "op": "label",
-      "id": "merge_choice"
-    },
-    {
-      "op": "nar",
-      "text": "選択の余韻を抱えたまま、物語は同じ終幕へ向かう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_skeleton"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "bg",
-      "src": "mountainpass",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "mountainpass"
-    },
-    {
-      "op": "nar",
-      "text": "第6景「最後の追跡」。雪の山道。馬車の轍、夕日、遠い城。"
-    },
-    {
-      "op": "show",
-      "actor": "rei",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "center"
-    },
-    {
-      "op": "show",
-      "actor": "extra_wizard",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "日が沈む前に馬車へ追いつかなければ、夜が伯爵を戻す。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "急ぐほど、仲間の命を道具にしないで。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "ここで黙れば、同じことが繰り返される。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "恐怖を倒すことと、恐怖のやり方を真似ることは違う。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "最後の頁には、勝利より皆が帰ったことを書こう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "言葉にした責任を、次の場面へ持って行こう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "私は、断片的な記録を共同で読み、孤立させる恐怖に連帯で対抗することを忘れずに選ぶ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "その選択の重さを、次の場面まで持って行こう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "hide",
-      "actor": "rei"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_wizard"
-    },
-    {
-      "op": "bg",
-      "src": "mountainpass",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "mountainpass"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "『ドラキュラ』、これにて終幕です。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "残った問いは、断片的な記録を共同で読み、孤立させる恐怖に連帯で対抗すること。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "選ばなかった道も、物語の外で静かに私たちを見ています。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ご観劇、ありがとうございました。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "end"
+  {
+   "role": "ミナ",
+   "actor": "yui",
+   "costume": "default"
+  },
+  {
+   "role": "ドラキュラ伯爵",
+   "actor": "extra_skeleton",
+   "costume": "default"
+  },
+  {
+   "role": "ヴァン・ヘルシング",
+   "actor": "extra_wizard",
+   "costume": "default"
+  },
+  {
+   "role": "ルーシー",
+   "actor": "extra_elf",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "castle": "bg/castle-2048x1152.png",
+  "demeter": "bg/demeter-2048x1152.png",
+  "lucyroom": "bg/lucyroom-2048x1152.png",
+  "archive": "bg/archive-2048x1152.png",
+  "abbey": "bg/abbey-2048x1152.png",
+  "mountainpass": "bg/mountainpass-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "この物語には、語り手がひとりもいません。あるのは、日記と、手紙と、電報と、船の航海日誌だけです。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ブラム・ストーカーの『ドラキュラ』。トランシルヴァニアの古城から、霧のロンドンへ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "一人で読めば、ただの奇妙な書き付け。けれど、皆の記録を一つに綴じたとき、怪物の姿が浮かび上がります。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "今夜は、その「綴じる」ことを軸に、自由に組み直しました。最初の一枚は、若い弁理士の日記です。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "castle",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "castle"
+  },
+  {
+   "op": "nar",
+   "text": "カルパチア山脈の峠。夜。四頭立ての黒い馬車が、狼の遠吠えの中を走り、崩れかけた城の門の前で止まった。"
+  },
+  {
+   "op": "show",
+   "actor": "rei",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "五月五日。ロンドンの事務所の命で、伯爵にロンドンの屋敷を売る契約に来た。宿の女主人が、十字架を首にかけてくれた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "今日は聖ゲオルギウスの日の前夜。悪いものが、地上を歩き回る夜だと、泣きながら。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_skeleton",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "白い口ひげの、背の高い老人が、ランプを手に、門の内に立っていた。黒い服。部屋の中で、影が見えない。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "ようこそ、わが家へ。ご自分の意志で、お入りなさい。そして、あなたが運んできた幸せを、少し置いていきなさい。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "ドラキュラ伯爵ですね。ホーキンズ事務所の、ジョナサン・ハーカーです。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "お疲れでしょう。夕食を用意させた。私は、もう済ませたので、ご一緒はできぬが。"
+  },
+  {
+   "op": "nar",
+   "text": "握手をした伯爵の手は、氷のように冷たかった。手のひらの真ん中に、毛が生えていた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "ロンドンの屋敷の話を聞かせてくれ。あの混雑した通りを、人の群れの中を、私は歩いてみたいのだ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "夜の子どもたちの声をお聞きなさい。……なんという音楽だ。都会の方には、お分かりになるまいが。"
+  },
+  {
+   "op": "nar",
+   "text": "遠くで、狼が一斉に吠えた。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_skeleton"
+  },
+  {
+   "op": "show",
+   "actor": "rei",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "五月八日。この城には、鏡が一枚もない。髭を剃っていたら、伯爵が背後に立っていた。手鏡に、伯爵が映らなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "剃刀で顎を切ると、伯爵の目が、燃えるように光った。十字架の鎖に手が触れたとたん、身を引いた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "扉という扉に、鍵がかかっている。私は、客ではない。……囚人だ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "伯爵に言われて、日付を先にした手紙を三通書かされた。六月十二日、十九日、二十九日。……私の命日の予定表だ。"
+  },
+  {
+   "op": "nar",
+   "text": "夜。窓から下を見ると、伯爵が、城の壁を、頭を下にして、蜥蜴のように這い降りていくところだった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "人間ではない。……あれは、何だ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "地下の礼拝堂に、土を詰めた木箱が五十個。その一つに、伯爵が、目を開けたまま横たわっていた。息もせずに。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "唇の端から、赤い滴が垂れていた。若返ったように、髪が黒くなっていた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "五十の箱は、明日、ロンドンへ運ばれる。……あの者は、何百万もの人がいる街で、餌を探すつもりだ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "ミナ、もし私が帰れなかったら、この日記を。……城の壁を伝って、逃げる。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei"
+  },
+  {
+   "op": "bg",
+   "src": "demeter",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "demeter"
+  },
+  {
+   "op": "nar",
+   "text": "海辺の町ウィトビー。崖の上の修道院の廃墟。ミナは、親友ルーシーの家に、夏を過ごしに来ている。"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "七月二十六日。ジョナサンから、ひと月以上、手紙が来ない。最後の一通は、変に短くて、字も他人のようだった。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "私は、速記とタイプを練習している。結婚したら、夫の仕事を手伝えるように。……それに、何でも書き留めておく癖がついた。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elf",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "ミナ、三人から、一日で求婚されたの。お医者のスワード先生、テキサスのモリスさん、それからアーサー。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "どうして、三人と結婚できないのかしら。……ごめんなさい、今の、聞かなかったことにして。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "アーサーを選んだのね。顔に書いてあるわ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "nar",
+   "text": "嵐の夜。ロシアの帆船デメテル号が、港に吹き寄せられた。舵輪には、死んだ船長が、十字架を握ったまま、縛りつけられていた。"
+  },
+  {
+   "op": "nar",
+   "text": "船倉から、大きな黒い犬が飛び出して、崖の階段を駆け上がり、消えた。積み荷は、土を詰めた木箱五十個だった。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "船長の航海日誌が、新聞に載った。乗組員が一人ずつ消えていった。甲板に、背の高い痩せた男がいた、と。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "最後のページには、こう書いてあった。私は、この舵を離れない。……神よ、お救いください。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "ミナ、変な夢を見るの。誰かが、窓の外から、私を呼んでいる。"
+  },
+  {
+   "op": "nar",
+   "text": "夜中、ミナが目を覚ますと、ルーシーの寝床が空だった。崖の上の墓地のベンチに、白い寝間着の姿があった。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "その上に、黒い影が、かがみ込んでいた。赤い目が、二つ。……近づくと、何もいなかった。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "覚えていないの。ただ、苦くて、甘い水の中に、沈んでいくみたいだった。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elf"
+  },
+  {
+   "op": "bg",
+   "src": "lucyroom",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "lucyroom"
+  },
+  {
+   "op": "nar",
+   "text": "ロンドン。ルーシーの寝室。窓辺にはニンニクの花が飾られている。ルーシーは、日に日に青ざめていく。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elf",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "夜になると、重い羽音がして、赤い目の何かが、窓を叩くの。……目が覚めると、喉が痛い。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "首に、小さな二つの赤い傷があった。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "私は、アムステルダムのヴァン・ヘルシング。スワード君の恩師だ。……ああ、この傷。私の恐れていたとおりだ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "輸血を。アーサー君、君の血を。愛する人の血は、愛する人を救う。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "窓と戸と、首のまわりに、ニンニクの花を。迷信だと笑ってもいい。だが、外すな。"
+  },
+  {
+   "op": "nar",
+   "text": "四人の男たちが、次々に、ルーシーに血を与えた。けれど、ある夜、見張りの隙に、ニンニクの花が取り払われた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "……苦しくない。ふわふわして、軽い。……アーサー、キスをして。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "いかん、離れなさい！　それは、もう、ルーシーさんではない！",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "ルーシーは、息を引き取った。その顔は、生きていたときより、美しかった。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elf"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "終わってはいない。……むしろ、ここから始まる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "数日後。ハムステッドの公園で、子どもたちが、「きれいなご婦人」に誘われ、喉に傷をつけて見つかる事件が続いた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "墓地へ行く。アーサー君、つらいだろうが、見てもらわねばならぬ。君が信じなければ、誰も信じない。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elf",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "白い死装束のルーシーが、腕に子どもを抱いて、墓地の小道を歩いてきた。唇が、赤く濡れていた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "アーサー、いらっしゃい。腕が、あなたを待って、空っぽなの。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "十字架を。……見よ、ルーシーさんは、柩の中に戻れない。墓所の扉の隙間に、聖餅を塗り込めておいたからだ。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elf"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "あの人の魂を、解放してやらねばならぬ。それができるのは、彼女を愛した者の手だけだ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "アーサーは、白木の杭を握った。翌朝、柩の中のルーシーは、穏やかな、生前の顔に戻っていた。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
+   "op": "bg",
+   "src": "archive",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "archive"
+  },
+  {
+   "op": "nar",
+   "text": "スワード医師の病院の書斎。机いっぱいに、日記、手紙、蓄音機の蝋管、新聞の切り抜きが広げられている。"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "ジョナサンは、ブダペストの病院に担ぎ込まれていた。脳炎で。私が迎えに行き、そこで結婚式を挙げました。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "彼の日記を、私は封を切らずに預かった。でも、今、読みました。……ヴァン・ヘルシング先生、これを。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "奥さん、あなたは、宝石だ。これほどの記録を、きちんと時の順に並べて、タイプしてくださった。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "スワード先生の蝋管の録音も、ルーシーの手紙も、船の日誌も。全部、日付ごとに綴じました。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "一つずつ読むと、悪夢です。でも、並べると、地図になる。伯爵が、どこから来て、どこへ箱を運んだか。",
+   "eyes": "closed"
+  },
+  {
+   "op": "show",
+   "actor": "rei",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "狂ったのは、私だと思っていた。夢を見たのだと。……ミナがタイプした紙の上に、私の悪夢が、他人の記録と一致した。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "私は、狂っていなかった。それだけで、また、立てる気がする。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "あの者は、力が強く、二十人分の怪力を持ち、霧にも、狼にも、蝙蝠にもなれる。だが、弱点がある。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "日の光の下では、力が弱まる。招かれねば、家に入れぬ。川の流れは、潮の変わり目にしか渡れぬ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "そして、故郷の土の箱がなければ、眠れぬ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "五十の箱を、一つ残らず、清めるのだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "私は、もう一度、あの城の記憶の中に戻る。地図を描ける者は、私しかいない。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "私も、行きます。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "いや、奥さん。あなたは、病院で待っていてほしい。……男たちの仕事だ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "記録を作ったのは、私です。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "だからこそ、あなたを失うわけにはいかぬのだ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
+   "op": "hide",
+   "actor": "rei"
+  },
+  {
+   "op": "bg",
+   "src": "abbey",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "abbey"
+  },
+  {
+   "op": "nar",
+   "text": "ロンドン、カーファックスの廃屋の礼拝堂。腐った土の匂い。男たちは、聖餅を割って、箱に入れていく。"
+  },
+  {
+   "op": "show",
+   "actor": "rei",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "二十九箱。……残りは、どこだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "一つ、空の箱がある。土が、まだ温かい。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "ピカデリーの屋敷に九。マイル・エンドに六、バーモンジーに六。運送屋の帳簿に、全部、書いてある。"
+  },
+  {
+   "op": "nar",
+   "text": "その間、病院で、ミナは、一人で眠っていた。彼女の部屋の窓の外に、白い霧が、細く流れ込んでいた。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "extra_skeleton",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "声を立てるな。……お前の夫たちは、私の家を荒らした。私の箱を。だから、私は、彼らの一番大切なものを、もらう。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "窓の霧が……人の形に……！",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "お前は、私の葡萄酒絞り器になる。しばらくの間は。そして、のちには、私の伴侶になる。"
+  },
+  {
+   "op": "nar",
+   "text": "伯爵は、自分の胸を爪で裂き、ミナの口を、そこへ押しつけた。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_skeleton"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "男たちが部屋に飛び込んだとき、伯爵は、霧になって消えた。ミナの額に、聖餅を当てると、赤い焼き印のような痕が残った。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "汚れてしまった。私は、汚れてしまった。……ジョナサン、私に触れないで。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "触れる。君を離さない。君がどうなっても、私は、君と同じ道を行く。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "もし、私が、あの方のようになったら……ルーシーのように。その時は、ためらわないで。約束して。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "約束しよう。だが、そうはさせぬ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "先生、私の頭の中に、伯爵の声が聞こえます。波の音。帆柱のきしみ。……あの方は、船の中です。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "奥さん、その繋がりを、逆に使えるかもしれない。あなたを通して、あの者の居場所を読む。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "ミナは、催眠で伯爵の居場所を読むと申し出る",
+     "jump": "m_trance"
+    },
+    {
+     "text": "ミナは、自分を置いて行くよう皆に頼む",
+     "jump": "m_leave"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_trance"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "毎日、日の出と日の入りに、私を眠らせてください。その時だけ、あの方の心が開きます。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "危険すぎる。君が、向こうに引き込まれたら。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "怖いです。でも、記録は、最後まで、私が取ります。"
+  },
+  {
+   "op": "jump",
+   "to": "m_chase"
+  },
+  {
+   "op": "label",
+   "id": "m_leave"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "私を、ここに置いていって。あの方は、私を通して、皆さんの計画も知ってしまう。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "いや。知られてもかまわぬ嘘を、あなたの前で話そう。それに、あなたの目なしでは、追えぬ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "label",
+   "id": "m_chase"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "rei"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
+   "op": "bg",
+   "src": "mountainpass",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "mountainpass"
+  },
+  {
+   "op": "nar",
+   "text": "十一月六日。トランシルヴァニアの峠。雪。日没まで、あと一時間。ジプシーたちが、一つの箱を荷車に積んで、城へ急いでいる。"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "先生、私の額の痕が、燃えるように熱い。……城が、近い。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "伯爵は、船でヴァルナへ向かうと思わせて、ガラツへ入った。私の目を、逆に欺こうとしたのです。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "輪を描いた。聖餅で。あなたは、輪から出てはいけない。あの者の花嫁たちも、ここには入れぬ。"
+  },
+  {
+   "op": "nar",
+   "text": "吹雪の向こうから、白い女たちが三人、輪の外を歩き回り、歌うように、ミナを呼んだ。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "来なさい、と呼んでいる。……でも、私は、出ない。ジョナサンが来るまで、待つ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "show",
+   "actor": "rei",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "銃声。馬の蹄。ジョナサンとモリスが、荷車に追いついた。箱の蓋がこじ開けられる。"
+  },
+  {
+   "op": "nar",
+   "text": "中に、土にまみれた伯爵が横たわっていた。沈みかけた夕日に、赤い目が、勝ち誇ったように光った。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "ミナを、返せ！",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "ジョナサンの大きなナイフが、伯爵の喉を裂いた。同時に、モリスの短剣が、胸を貫いた。"
+  },
+  {
+   "op": "nar",
+   "text": "一瞬のうちに、伯爵の体は、塵となって崩れた。その顔に、最後に、安らぎのような表情が浮かんだ。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "額の痕が……消えた。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "モリスは、戦いの傷で、雪の上に倒れた。ミナの額を見て、微笑んで、息を引き取った。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "モリスさん……。私の額を、最後に見ていてくれた。",
+   "eyes": "crying"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
+   "op": "hide",
+   "actor": "rei"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "七年後の覚え書き。私たちには、男の子がいる。名前は、皆の名前をつないで、クインシーと呼んでいる。モリスの名だ。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "書類の山を、今、見返すと、ほとんどタイプ打ちの紙ばかり。本物の証拠は、ほとんどない。誰も、信じてはくれないでしょう。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "先生は、坊やを膝に乗せて言った。この子は、いつか、母さんがどれほど勇敢だったか知るだろう、と。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "それでいい。信じてもらうために、綴じたのではない。一緒に読むために、綴じたのだ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "一人ずつなら、きっと、誰も助からなかった。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "rei"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "『ドラキュラ』、これにて幕です。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "怪物は、人をひとりずつ孤立させました。城の囚人に。眠る娘に。夜の窓辺に。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "それに抗ったのは、銀の弾でも、白木の杭でもなく、互いの記録を、机の上に並べることでした。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "怖い夢を見た夜は、誰かに話してください。あなたの日記の一行が、別の誰かの一行と、つながるかもしれません。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

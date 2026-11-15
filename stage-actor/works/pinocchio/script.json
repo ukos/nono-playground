@@ -5,9 +5,9 @@
   "original": "Carlo Collodi, Le avventure di Pinocchio（原著・著作権消滅）",
   "adaptation": "moderate",
   "format": "v3",
-  "minutes": 27,
+  "minutes": 22,
   "synopsis": "全六景で原作の主要な運動をたどりながら、人間らしさを、罰ではなく責任を引き受ける行動として描くことを中心に再構成する。第五景で観客が人物の姿勢を選び、分岐は終幕前に合流する。",
-  "note": "本脚本は著作権の消滅した原作からの翻案であり、既存の翻訳・上演台本は使用していない。セリフは全て本上演版の書き下ろし。"
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
  },
  "cast": [
   {
@@ -62,28 +62,22 @@
   {
    "op": "say",
    "actor": "nono",
-   "text": "ようこそ、NONO座へ。本日の演目は『ピノッキオ』。",
-   "eyes": "normal"
+   "text": "昔々、あるところに……王さまがいました、と皆さんは言うでしょう。いいえ、一本の丸太があったのです。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "この舞台が見つめるのは、人間らしさを、罰ではなく責任を引き受ける行動として描くこと。",
-   "eyes": "sorrow",
-   "mouth": "open"
+   "text": "カルロ・コッローディの『ピノッキオの冒険』。しゃべる丸太から作られた、木の人形のお話です。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "古い物語を借りながら、台詞はすべて今夜のための書き下ろしです。",
-   "eyes": "normal"
+   "text": "嘘をつくと鼻が伸びる。約束を破ると、ろくなことにならない。それでも、ピノッキオは寄り道ばかり。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "それでは、幕を開けましょう。",
-   "eyes": "joy",
-   "mouth": "open"
+   "text": "木の人形が、本当の子どもになるまでの長い旅。どうぞ、ついてきてください。"
   },
   {
    "op": "hide",
@@ -100,7 +94,76 @@
   },
   {
    "op": "nar",
-   "text": "第1景「木の子の誕生」。木工工房。木屑、道具、暖炉、未完成の人形。"
+   "text": "貧しい木彫り職人ゼペットの仕事場。机の上に、しゃべる不思議な丸太が置かれている。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_craftsman",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "隣のさくらんぼ親方が、この丸太をくれた。しゃべって、気味が悪いと言ってな。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "この丸太で、踊ったり、剣を使ったりできる、すばらしい人形を作ろう。名前は、ピノッキオだ。"
+  },
+  {
+   "op": "nar",
+   "text": "ゼペットが目を彫ると、その目がきょろりと動いた。鼻を彫ると、鼻はぐんぐん伸びた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "こら、伸びるな。……口を彫ったら、笑い出した。手を彫ったら、わしのかつらを取りおった。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "やーい、ゼペットじいさんの、つるつる頭！",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "まだ足も作っていないのに、もう親を馬鹿にする。……まあ、子どもとは、そういうものか。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "足を彫り終えると、ピノッキオは仕事場を飛び出し、町の通りへ駆けていった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "待て、ピノッキオ！　誰か、その人形を捕まえてくれ！",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "憲兵がピノッキオの鼻をつまんで捕まえたが、見物人たちは、ゼペットが人形をいじめるのだと騒ぎ立てた。"
+  },
+  {
+   "op": "nar",
+   "text": "牢屋へ連れて行かれたのは、ゼペットのほうだった。ピノッキオは、ひとりで家へ帰った。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_craftsman"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
   },
   {
    "op": "show",
@@ -109,65 +172,66 @@
   },
   {
    "op": "show",
-   "actor": "extra_craftsman",
-   "pos": "center"
-  },
-  {
-   "op": "show",
    "actor": "kogane",
    "pos": "right"
   },
   {
-   "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+   "op": "say",
+   "actor": "kogane",
+   "text": "リー、リー、リー。……おい、木の坊や。ちょっと話を聞け。"
   },
   {
    "op": "say",
    "actor": "sasuke",
-   "text": "脚ができたら歩きたい。口ができたら歌いたい。",
-   "eyes": "normal",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "extra_craftsman",
-   "text": "歩く前に、戻って来る約束を覚えておくれ。",
-   "eyes": "joy"
-  },
-  {
-   "op": "say",
-   "actor": "sasuke",
-   "text": "今の言葉を、聞かなかったことにはできない。",
-   "eyes": "sorrow"
+   "text": "誰だ、お前。"
   },
   {
    "op": "say",
    "actor": "kogane",
-   "text": "自由は扉を出ることだけじゃない。帰る責任も含む。"
+   "text": "もの言うこおろぎさ。この部屋に、百年以上住んでいる。"
+  },
+  {
+   "op": "say",
+   "actor": "kogane",
+   "text": "親の言うことを聞かずに家を飛び出す子は、決して幸せにはなれない。悪いことは言わない、学校へ行け。"
   },
   {
    "op": "say",
    "actor": "sasuke",
-   "text": "難しい話は後で。世界が僕を待っている。",
+   "text": "学校なんか、つまらない。おいらは、一日じゅう、食べて、飲んで、寝て、遊んでいたいんだ。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "kogane",
+   "text": "そういう子の行き着く先は、病院か、牢屋だよ。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "うるさい！",
    "eyes": "anger",
    "mouth": "open"
   },
   {
-   "op": "say",
-   "actor": "extra_craftsman",
-   "text": "なら、次の一歩で確かめよう。",
-   "eyes": "fun"
+   "op": "nar",
+   "text": "ピノッキオが木槌を投げつけると、こおろぎは、壁に張りついて動かなくなった。"
   },
   {
    "op": "say",
    "actor": "sasuke",
-   "text": "私は、人間らしさを、罰ではなく責任を引き受ける行動として描くことを忘れずに選ぶ。",
-   "eyes": "closed"
+   "text": "……あれ？　動かない。……おいら、何をしたんだろう。",
+   "eyes": "sorrow"
   },
   {
    "op": "say",
-   "actor": "extra_craftsman",
-   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "actor": "sasuke",
+   "text": "お腹がすいた。卵がひとつ。割ったら、ひよこが飛び出して、窓から逃げていった。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "こおろぎの言うとおりだったのかな。家を飛び出したら、ご飯もない。",
    "eyes": "crying"
   },
   {
@@ -176,11 +240,57 @@
   },
   {
    "op": "hide",
+   "actor": "kogane"
+  },
+  {
+   "op": "show",
+   "actor": "extra_craftsman",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "夜。腹をすかせたピノッキオは、火鉢に足を乗せたまま眠り込み、朝には足が焼け落ちていた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "ピノッキオ！　足が……。待っていなさい、新しい足を作ってやる。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "ごめんなさい、お父さん。これからは、いい子になる。学校にも行く。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "学校へ行くには、本がいる。……よし、わしの上着を売って、ABCの本を買ってこよう。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "上着を？　外は、雪が降ってるよ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "上着なんかなくても、お前が字を読めるようになれば、それでいい。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
    "actor": "extra_craftsman"
   },
   {
    "op": "hide",
-   "actor": "kogane"
+   "actor": "sasuke"
   },
   {
    "op": "bg",
@@ -193,7 +303,7 @@
   },
   {
    "op": "nar",
-   "text": "第2景「学校への道」。イタリアの町道。学校の塔、人形芝居の看板、朝市。"
+   "text": "学校へ続く道。ABCの本を抱えたピノッキオの耳に、遠くから笛と太鼓の音が聞こえる。"
   },
   {
    "op": "show",
@@ -201,9 +311,64 @@
    "pos": "left"
   },
   {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "学校は、明日でも行ける。人形芝居は、今日しか来ないかもしれない。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "本を売れば、入場料になる。……お父さん、ごめんなさい。少しだけ。"
+  },
+  {
+   "op": "nar",
+   "text": "人形芝居の座長は、最初こそピノッキオを薪にしようとしたが、ゼペットの話を聞いて泣き、金貨を五枚くれた。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "五枚の金貨！　これで、お父さんに新しい上着を買ってあげられる！",
+   "eyes": "joy"
+  },
+  {
+   "op": "nar",
+   "text": "帰り道、脚を引きずる狐と、目の見えないふりをした猫が、ピノッキオの前に立ちふさがった。"
+  },
+  {
    "op": "show",
    "actor": "nibulus",
-   "pos": "center"
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "やあ、坊や。その金貨を、増やしたくはないかね。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "増やせるの？"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "「奇跡の野原」という所に、金貨を埋めて、水をやって、ひと晩待つ。朝には、金貨のなる木が生えている。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "五枚が、五百枚に？",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "二千枚かもしれん。わしらは、坊やのような正直な子を、助けるのが趣味でね。"
+  },
+  {
+   "op": "hide",
+   "actor": "nibulus"
   },
   {
    "op": "show",
@@ -212,64 +377,33 @@
   },
   {
    "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
-  },
-  {
-   "op": "say",
-   "actor": "sasuke",
-   "text": "教科書を売れば、芝居を見てお金も増やせるよ。",
-   "eyes": "joy",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "nibulus",
-   "text": "今日だけ楽しめば、明日の勉強は二倍遠くなる。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "say",
-   "actor": "sasuke",
-   "text": "答えはまだ一つに決められない。",
-   "eyes": "surprise"
+   "text": "道の木の幹に、白い影のようなこおろぎが見えた。"
   },
   {
    "op": "say",
    "actor": "kogane",
-   "text": "僕は騙されない。自分で決めて芝居へ行くんだ。"
+   "text": "坊や、引き返しなさい。お金を一晩で増やせるなんて言う者を、信じてはいけない。"
   },
   {
    "op": "say",
    "actor": "sasuke",
-   "text": "騙される時ほど、人は自分の決断だと思いたがる。",
-   "eyes": "fun",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "nibulus",
-   "text": "迷いを抱えたままでも、進むことはできる。",
-   "eyes": "closed"
+   "text": "こおろぎの幽霊なんか、怖くないぞ。おいらは、二千枚の金貨を持って帰るんだ。",
+   "eyes": "anger"
   },
   {
    "op": "say",
    "actor": "sasuke",
-   "text": "私は、人間らしさを、罰ではなく責任を引き受ける行動として描くことを忘れずに選ぶ。",
-   "eyes": "crying"
+   "text": "二千枚あったら、お父さんに上着を百着。家を金ぴかに。こおろぎさんにも、ひとつ部屋を。"
   },
   {
    "op": "say",
-   "actor": "nibulus",
-   "text": "その選択の重さを、次の場面まで持って行こう。",
-   "eyes": "normal"
+   "actor": "kogane",
+   "text": "夜道には、人殺しが出る。気をつけるんだよ。",
+   "eyes": "sorrow"
   },
   {
    "op": "hide",
    "actor": "sasuke"
-  },
-  {
-   "op": "hide",
-   "actor": "nibulus"
   },
   {
    "op": "hide",
@@ -286,88 +420,146 @@
   },
   {
    "op": "nar",
-   "text": "第3景「金貨の畑」。夜の荒れ地。一本の枯れ木、小さな穴、青い月。"
+   "text": "青い妖精の家。森の中の白い小さな家で、ピノッキオは、ベッドに寝かされている。"
   },
   {
    "op": "show",
-   "actor": "sasuke",
+   "actor": "akane",
    "pos": "left"
   },
   {
    "op": "show",
-   "actor": "nibulus",
-   "pos": "center"
-  },
-  {
-   "op": "show",
-   "actor": "akane",
+   "actor": "sasuke",
    "pos": "right"
   },
   {
-   "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+   "op": "say",
+   "actor": "akane",
+   "text": "目が覚めた？　あなたは、森で強盗に吊るされていたのよ。もう少しで、死ぬところだった。"
   },
   {
    "op": "say",
    "actor": "sasuke",
-   "text": "金貨を埋めれば木になる。水をやれば百倍さ。",
-   "eyes": "sorrow",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "nibulus",
-   "text": "働かず増える話は、誰の働きを隠しているの。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "say",
-   "actor": "sasuke",
-   "text": "その理屈には、置き去りにされた声がある。",
-   "eyes": "anger"
+   "text": "強盗は、狐と猫が化けてたんだ。金貨を取られそうになって、口の中に隠したから、助かった。"
   },
   {
    "op": "say",
    "actor": "akane",
-   "text": "僕は嘘をついていない。少しだけ話を短くしたんだ。",
+   "text": "金貨は、今どこにあるの。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……なくしちゃった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "ピノッキオの鼻が、ぐんと伸びた。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "どこでなくしたの。",
    "eyes": "fun"
   },
   {
    "op": "say",
    "actor": "sasuke",
-   "text": "鼻が伸びるのは罰ではなく、嘘が場所を取るからよ。",
-   "eyes": "closed",
-   "mouth": "open"
+   "text": "森の中で。"
   },
   {
-   "op": "say",
-   "actor": "nibulus",
-   "text": "誰のための決断か、もう一度考えよう。",
-   "eyes": "crying"
+   "op": "nar",
+   "text": "鼻が、もっと伸びた。"
   },
   {
    "op": "say",
    "actor": "sasuke",
-   "text": "私は、人間らしさを、罰ではなく責任を引き受ける行動として描くことを忘れずに選ぶ。",
-   "eyes": "normal"
+   "text": "……さっきの川で、落としたんだ。"
+  },
+  {
+   "op": "nar",
+   "text": "鼻は、扉につかえるほど、長く伸びた。"
   },
   {
    "op": "say",
-   "actor": "nibulus",
-   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "actor": "sasuke",
+   "text": "鼻が！　扉から出られない！",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "嘘には、二種類あるの。足が短くなる嘘と、鼻が長くなる嘘。あなたのは、鼻が長くなるほう。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "本当は、ポケットの中にあるんだ。ごめんなさい。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "正直に言えたわね。……キツツキたち、鼻をつついて、元の長さに戻してあげて。",
    "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "妖精さん、どうしてそんなに優しいの。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "あなたがいつか、本当の男の子になる日を見たいから。私を、お母さんだと思っていいのよ。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "お母さん……。おいら、勉強する。お父さんを探して、一緒にここで暮らしたい。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "約束よ。寄り道をしないで、まっすぐ帰ってくること。"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
   },
   {
    "op": "hide",
    "actor": "sasuke"
   },
   {
-   "op": "hide",
-   "actor": "nibulus"
+   "op": "nar",
+   "text": "結局、ピノッキオは、また狐と猫にだまされ、奇跡の野原に金貨を埋め、すべてを盗まれた。"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "金貨の木なんて、生えなかった。……おいらは、ばかだ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "お父さんに上着を買ってあげるはずだった金貨が、一枚も残っていない。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "裁判所に訴えたら、だまされた者が牢屋行きだって。……この国の決まりは、さかさまだ。"
   },
   {
    "op": "hide",
-   "actor": "akane"
+   "actor": "sasuke"
   },
   {
    "op": "bg",
@@ -380,7 +572,7 @@
   },
   {
    "op": "nar",
-   "text": "第4景「遊びの島」。派手な遊園地。回転木馬、菓子の屋台、夕焼け。"
+   "text": "おもちゃの国。学校も先生も本もない。毎日が日曜日で、子どもたちが一日じゅう遊んでいる。"
   },
   {
    "op": "show",
@@ -388,59 +580,65 @@
    "pos": "left"
   },
   {
-   "op": "show",
-   "actor": "kogane",
-   "pos": "center"
+   "op": "say",
+   "actor": "sasuke",
+   "text": "ここはいいなあ！　勉強しなくていい。朝から晩まで、こまを回して、馬跳びして。",
+   "eyes": "joy"
   },
   {
    "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+   "text": "それでも一年、ピノッキオは学校でよく勉強し、一番の生徒になった。妖精は、明日あなたを人間にすると約束した。"
   },
   {
    "op": "say",
    "actor": "sasuke",
-   "text": "勉強も仕事もない島なら、ずっと子どもでいられる。",
+   "text": "友だちのランプ芯が誘ってくれたんだ。妖精さんには、明日帰るって言っておいた。……明日って、いつだっけ。"
+  },
+  {
+   "op": "nar",
+   "text": "五か月が過ぎた。ある朝、ピノッキオの耳が、ロバの耳になっていた。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "耳が！　長くて、毛だらけ！　……ヒーン！　声まで、ロバになった！",
    "eyes": "surprise",
    "mouth": "open"
   },
   {
+   "op": "show",
+   "actor": "kogane",
+   "pos": "right"
+  },
+  {
    "op": "say",
    "actor": "kogane",
-   "text": "責任を捨てた自由は、やがて自分で選ぶ力まで奪う。"
+   "text": "遊ぶばかりで、何も学ばない子は、ロバになる。ここは、そういう国なんだ。"
   },
   {
    "op": "say",
    "actor": "sasuke",
-   "text": "恐れを隠しても、状況は変わらない。",
-   "eyes": "fun"
+   "text": "こおろぎさん、助けて。もう遊ばない。学校へ行く。",
+   "eyes": "crying"
   },
   {
    "op": "say",
    "actor": "kogane",
-   "text": "耳が伸びて声まで変わる。楽だったはずなのに。"
+   "text": "遅すぎることはない。でも、今度こそ、約束を自分で守るんだよ。"
   },
   {
    "op": "say",
    "actor": "sasuke",
-   "text": "戻りたいなら、恥ずかしさを隠さず助けを求めろ。",
-   "eyes": "crying",
-   "mouth": "open"
+   "text": "人間になれる前の日だったのに。妖精さん、きっと、がっかりしてる。",
+   "eyes": "sorrow"
   },
   {
-   "op": "say",
-   "actor": "kogane",
-   "text": "恐れを言葉にした今なら、選び直せる。"
+   "op": "nar",
+   "text": "ロバになったピノッキオは、サーカスに売られ、脚を痛め、海へ投げ込まれた。"
   },
   {
-   "op": "say",
-   "actor": "sasuke",
-   "text": "私は、人間らしさを、罰ではなく責任を引き受ける行動として描くことを忘れずに選ぶ。",
-   "eyes": "joy"
-  },
-  {
-   "op": "say",
-   "actor": "kogane",
-   "text": "その選択の重さを、次の場面まで持って行こう。"
+   "op": "nar",
+   "text": "海の中で、魚たちがロバの皮を食べると、中から、元の木の人形が現れた。"
   },
   {
    "op": "hide",
@@ -461,7 +659,7 @@
   },
   {
    "op": "nar",
-   "text": "第5景「巨大魚の腹」。巨大な海獣の腹の洞窟。難破船、焚火、波の反射。"
+   "text": "巨大な鮫の腹の中。暗闇の奥に、ろうそくの灯りが、ひとつだけ揺れている。"
   },
   {
    "op": "show",
@@ -469,134 +667,118 @@
    "pos": "left"
   },
   {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "鮫に、呑み込まれた……。真っ暗だ。……あの灯りは、何だろう。"
+  },
+  {
    "op": "show",
    "actor": "extra_craftsman",
-   "pos": "center"
-  },
-  {
-   "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
-  },
-  {
-   "op": "say",
-   "actor": "sasuke",
-   "text": "父さんが僕を探して、こんな所まで来たの。",
-   "eyes": "anger",
-   "mouth": "open"
+   "pos": "right"
   },
   {
    "op": "say",
    "actor": "extra_craftsman",
-   "text": "約束を破った子でも、探すのをやめれば父ではなくなる。",
-   "eyes": "fun"
+   "text": "ピノッキオ……？　ピノッキオなのか！",
+   "eyes": "surprise"
   },
   {
    "op": "say",
    "actor": "sasuke",
-   "text": "正しさだけでは、人の痛みを量れない。",
-   "eyes": "closed"
-  },
-  {
-   "op": "say",
-   "actor": "extra_craftsman",
-   "text": "今度は僕が出口を考える。失敗の後始末をしたい。",
+   "text": "その声……お父さん、ぼくだよ、ピノッキオだよ！",
    "eyes": "crying"
   },
   {
    "op": "say",
-   "actor": "sasuke",
-   "text": "その言葉を行動にすれば、木の身体でも十分に人間だ。",
-   "eyes": "normal",
-   "mouth": "open"
+   "actor": "extra_craftsman",
+   "text": "お前を探して、小舟で海に出たら、この鮫に呑まれてしまった。もう二年も、ここにいる。"
   },
   {
    "op": "say",
    "actor": "extra_craftsman",
-   "text": "だから事実と心の両方を見よう。",
-   "eyes": "joy"
-  },
-  {
-   "op": "say",
-   "actor": "sasuke",
-   "text": "私は、人間らしさを、罰ではなく責任を引き受ける行動として描くことを忘れずに選ぶ。",
+   "text": "船の積み荷のろうそくも、これが最後の一本だ。",
    "eyes": "sorrow"
   },
   {
    "op": "say",
+   "actor": "sasuke",
+   "text": "ごめんなさい、お父さん。上着を売ってくれたのに、ぼくは学校へ行かなかった。"
+  },
+  {
+   "op": "say",
    "actor": "extra_craftsman",
-   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "text": "もういい。こうしてまた会えた。わしには、それで十分だ。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "お父さん、ここから逃げよう。鮫は、口を開けて眠るんだ。そのすきに、口から外へ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "わしは泳げん。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "おいらが背中に乗せる。木だから、浮くんだ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "お前が、わしを？　あの、いたずらばかりしていた人形が。",
    "eyes": "surprise"
   },
   {
-   "op": "nar",
-   "text": "ここで舞台は一瞬静まり、観客の選択が人物の心の向きを変える。"
+   "op": "say",
+   "actor": "sasuke",
+   "text": "今度は、ぼくがお父さんを助ける番だ。"
   },
   {
    "op": "choice",
    "options": [
     {
-     "text": "失敗をすぐ告白する",
-     "jump": "route_a"
+     "text": "ピノッキオは、すぐに父を背負って泳ぎ出す",
+     "jump": "m_now"
     },
     {
-     "text": "まず自分で埋め合わせる",
-     "jump": "route_b"
+     "text": "ピノッキオは、鮫が深く眠るまで待つ",
+     "jump": "m_wait"
     }
    ]
   },
   {
    "op": "label",
-   "id": "route_a"
+   "id": "m_now"
   },
   {
    "op": "say",
    "actor": "sasuke",
-   "text": "私は『失敗をすぐ告白する』道を選ぶ。",
-   "eyes": "joy",
+   "text": "今だ！　しっかりつかまって、お父さん！",
+   "eyes": "anger",
    "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "extra_craftsman",
-   "text": "その決断なら、結果まで自分の言葉で引き受けて。",
-   "eyes": "normal"
-  },
-  {
-   "op": "set",
-   "flag": "f_route_a"
   },
   {
    "op": "jump",
-   "to": "merge_choice"
+   "to": "m_swim"
   },
   {
    "op": "label",
-   "id": "route_b"
+   "id": "m_wait"
   },
   {
    "op": "say",
    "actor": "sasuke",
-   "text": "私は『まず自分で埋め合わせる』道を選ぶ。",
-   "eyes": "surprise",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "extra_craftsman",
-   "text": "違う道でも、守るべきものを見失わないで。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "set",
-   "flag": "f_route_b"
+   "text": "鮫のいびきが、大きくなるまで待とう。……今だ、行こう！"
   },
   {
    "op": "label",
-   "id": "merge_choice"
+   "id": "m_swim"
   },
   {
    "op": "nar",
-   "text": "選択の余韻を抱えたまま、物語は同じ終幕へ向かう。"
+   "text": "ピノッキオは、父を背中に乗せ、鮫の歯の間をすり抜けて、夜の海へ泳ぎ出た。"
   },
   {
    "op": "hide",
@@ -617,7 +799,7 @@
   },
   {
    "op": "nar",
-   "text": "第6景「朝の浜辺」。穏やかな浜。濡れた木片、朝日、遠い漁村。"
+   "text": "夜明けの浜辺。小さな小屋。ピノッキオは、毎日、井戸の水を汲む仕事をして、父を養っている。"
   },
   {
    "op": "show",
@@ -627,66 +809,54 @@
   {
    "op": "show",
    "actor": "extra_craftsman",
-   "pos": "center"
-  },
-  {
-   "op": "show",
-   "actor": "akane",
    "pos": "right"
   },
   {
-   "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
-  },
-  {
    "op": "say",
    "actor": "sasuke",
-   "text": "人間になる魔法は、身体を変える光ではなかったのね。",
-   "eyes": "fun",
-   "mouth": "open"
+   "text": "お父さん、今日は牛乳を一杯、買ってきたよ。水汲みを百杯して、もらったお金で。"
   },
   {
    "op": "say",
    "actor": "extra_craftsman",
-   "text": "怖くても父を助けた。嘘を認め、戻って来た。",
-   "eyes": "closed"
+   "text": "ありがとう。お前のおかげで、わしは、また起き上がれるようになった。",
+   "eyes": "joy"
   },
   {
    "op": "say",
    "actor": "sasuke",
-   "text": "ここで黙れば、同じことが繰り返される。",
-   "eyes": "crying"
+   "text": "夜は、こおろぎさんに、字を教えてもらってる。もう、本も少し読めるんだ。"
+  },
+  {
+   "op": "show",
+   "actor": "kogane",
+   "pos": "center"
   },
   {
    "op": "say",
-   "actor": "akane",
-   "text": "これからも間違うよ。でも間違いを誰かのせいにしない。",
-   "eyes": "normal"
-  },
-  {
-   "op": "say",
-   "actor": "sasuke",
-   "text": "その約束を毎日選び直すことが、本当の心です。",
-   "eyes": "joy",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "extra_craftsman",
-   "text": "言葉にした責任を、次の場面へ持って行こう。",
-   "eyes": "sorrow"
+   "actor": "kogane",
+   "text": "坊やは、もう、私の言葉なしでも、自分で考えて歩けるね。"
   },
   {
    "op": "say",
    "actor": "sasuke",
-   "text": "私は、人間らしさを、罰ではなく責任を引き受ける行動として描くことを忘れずに選ぶ。",
-   "eyes": "surprise"
+   "text": "こおろぎさん、あのときは、木槌を投げて、ごめんなさい。"
   },
   {
    "op": "say",
-   "actor": "extra_craftsman",
-   "text": "その選択の重さを、次の場面まで持って行こう。",
-   "eyes": "anger"
+   "actor": "kogane",
+   "text": "謝ってくれる日を、ずっと待っていたよ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "妖精さんが病気だって聞いた。貯めたお金、全部、妖精さんに送るよ。上着は、また今度。"
+  },
+  {
+   "op": "say",
+   "actor": "kogane",
+   "text": "その言葉を、妖精さんは、きっとどこかで聞いている。"
   },
   {
    "op": "hide",
@@ -698,16 +868,50 @@
   },
   {
    "op": "hide",
-   "actor": "akane"
+   "actor": "kogane"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "ある朝、目を覚ますと、ピノッキオは、木の人形ではなく、本当の男の子になっていた。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "手が……温かい。ほっぺが、柔らかい。……人間の子どもに、なってる！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "部屋の隅の椅子に、古い木の人形が、ぐったりともたれかかっていた。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "木の人形だったころのおいらは、ずいぶん、おかしな顔をしていたんだな。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "いい子になれて、よかった。……いや、いい子になろうとし続けられて、よかった。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "お父さんも、元気になって、また木を彫ってる。今度は、ふつうの、しゃべらない木を。"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
   },
   {
    "op": "bg",
-   "src": "shore",
-   "mode": "full"
-  },
-  {
-   "op": "bg",
-   "src": "shore"
+   "src": null
   },
   {
    "op": "show",
@@ -717,28 +921,22 @@
   {
    "op": "say",
    "actor": "nono",
-   "text": "『ピノッキオ』、これにて終幕です。",
-   "eyes": "joy",
-   "mouth": "open"
+   "text": "『ピノッキオ』、これにて幕です。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "残った問いは、人間らしさを、罰ではなく責任を引き受ける行動として描くこと。",
-   "eyes": "sorrow"
+   "text": "嘘をついて、寄り道して、だまされて、ロバにまでなった木の人形。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "選ばなかった道も、物語の外で静かに私たちを見ています。",
-   "eyes": "normal"
+   "text": "本当の子どもになれたのは、最後に、自分の力で、父親を背負って泳いだからでした。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "ご観劇、ありがとうございました。",
-   "eyes": "joy",
-   "mouth": "open"
+   "text": "鼻が伸びそうになったら、その前に、ひと言「ごめんなさい」を。"
   },
   {
    "op": "hide",

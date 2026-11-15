@@ -7,7 +7,7 @@
   "format": "v3",
   "minutes": 27,
   "synopsis": "全六景で原作の主要な運動をたどりながら、顔・声・文章の間で、本当の自己を隠すことの美しさと残酷さを描くことを中心に再構成する。第五景で観客が人物の姿勢を選び、分岐は終幕前に合流する。",
-  "note": "本脚本は著作権の消滅した原作からの翻案であり、既存の翻訳・上演台本は使用していない。セリフは全て本上演版の書き下ろし。"
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
  },
  "cast": [
   {
@@ -57,28 +57,22 @@
   {
    "op": "say",
    "actor": "nono",
-   "text": "ようこそ、NONO座へ。本日の演目は『シラノ・ド・ベルジュラック』。",
-   "eyes": "normal"
+   "text": "一六四〇年のパリ。ガスコーニュ青年隊に、詩人で剣士で哲学者で、とても大きな鼻を持つ男がいました。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "この舞台が見つめるのは、顔・声・文章の間で、本当の自己を隠すことの美しさと残酷さを描くこと。",
-   "eyes": "sorrow",
-   "mouth": "open"
+   "text": "エドモン・ロスタンの戯曲『シラノ・ド・ベルジュラック』。シラノは、従妹のロクサーヌを愛しています。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "古い物語を借りながら、台詞はすべて今夜のための書き下ろしです。",
-   "eyes": "normal"
+   "text": "けれど、その鼻のせいで、思いを口にできません。ロクサーヌが恋したのは、美しい顔の若者クリスチャンでした。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "それでは、幕を開けましょう。",
-   "eyes": "joy",
-   "mouth": "open"
+   "text": "顔と、声と、手紙。三つに分かれた一つの恋を、どうぞ見届けてください。"
   },
   {
    "op": "hide",
@@ -95,85 +89,97 @@
   },
   {
    "op": "nar",
-   "text": "第1景「劇場の決闘」。パリの劇場。赤い幕、観客席、決闘の空間。"
+   "text": "ブルゴーニュ座の劇場。開演前のざわめき。舞台に、太った役者モンフルーリが登場した瞬間、客席から声が飛んだ。"
   },
   {
    "op": "show",
    "actor": "extra_porter",
-   "pos": "left"
-  },
-  {
-   "op": "show",
-   "actor": "iwao",
    "pos": "center"
   },
   {
-   "op": "show",
-   "actor": "yui",
-   "pos": "right"
-  },
-  {
-   "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
-  },
-  {
    "op": "say",
    "actor": "extra_porter",
-   "text": "私の鼻を笑うなら、比喩を二十は用意してから来い。",
-   "eyes": "normal",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "iwao",
-   "text": "剣と詩を同時に操るとは、見世物としては上等だ。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "今の言葉を、聞かなかったことにはできない。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "笑いを先に奪えば、傷つけられる前に自分で守れる。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "でもあなたは、笑われない場所でも本心を隠すのね。",
+   "text": "モンフルーリ！　ひと月は舞台に立つなと言ったはずだ。三つ数えるうちに消えろ！",
    "eyes": "anger",
    "mouth": "open"
   },
   {
-   "op": "say",
-   "actor": "iwao",
-   "text": "なら、次の一歩で確かめよう。"
+   "op": "nar",
+   "text": "役者は逃げ出し、劇場は大騒ぎになった。シラノは、自分の財布を、払い戻しの代わりに切符売りに投げ渡した。"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "私は、顔・声・文章の間で、本当の自己を隠すことの美しさと残酷さを描くことを忘れずに選ぶ。",
-   "eyes": "closed"
+   "text": "月給が、一晩で消えた。……だが、なんという、素晴らしい身振りだったことか。",
+   "eyes": "fun"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "right"
   },
   {
    "op": "say",
    "actor": "iwao",
-   "text": "その選択の重さを、次の場面まで持って行こう。"
+   "text": "無礼な男だ。……子爵、あの男の鼻を、からかってやれ。"
   },
   {
-   "op": "hide",
-   "actor": "extra_porter"
+   "op": "nar",
+   "text": "若い子爵が近づいて、シラノの鼻を、ひどく大きいですな、と言った。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "それだけかね。言葉が貧しい。鼻の悪口なら、私がもっと上手に言ってやろう。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "喧嘩腰なら、「わしがそんな鼻なら、その場で切り落とす」。親切なら、「お茶を飲むとき、湯に浸かりませんか」。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "学者風なら、「アリストテレスが、象の鼻と呼んだ動物」。詩人なら、「海の真ん中の、赤い岬」。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "子爵どの、あなたに機知があれば、こう言えたでしょう。だが、あなたには、字すらろくにない。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "子爵は、剣を抜いた。シラノは、詩を即興で詠みながら、剣を交えた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "舞を一つ、詩を一つ。……そして、結びの句で、ひと突き！"
+  },
+  {
+   "op": "nar",
+   "text": "最後の一行と同時に、シラノの剣が、子爵の肩に届いた。客席は、拍手と歓声に包まれた。"
   },
   {
    "op": "hide",
    "actor": "iwao"
   },
   {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "友よ、私が人を嫌うのは、この顔で、誰にも愛されないと思うからだ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "私が愛している人は、世界でいちばん美しい。……ロクサーヌだ。",
+   "eyes": "sorrow"
+  },
+  {
    "op": "hide",
-   "actor": "yui"
+   "actor": "extra_porter"
   },
   {
    "op": "bg",
@@ -186,7 +192,100 @@
   },
   {
    "op": "nar",
-   "text": "第2景「手紙の代筆」。朝のパン屋。焼き立てのパン、紙、羽根ペン。"
+   "text": "翌朝。菓子職人ラグノーの店。詩人たちに菓子をただで振る舞う、気のいい親方の店である。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "ロクサーヌから、会いたいと手紙が来た。ここで。……何の用だろう。ひょっとしたら。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "手紙を書いておこう。彼女に渡せなくても、書くことで、胸の中が少し静かになる。"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "シラノ、昨日の決闘を見たわ。百人を相手に戦ったんですって。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "誇張です。八人くらいだ。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "子どもの頃、ベルジュラックの庭で、一緒に遊んだわね。あなたは、いつも私の味方だった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "ロクサーヌ、言いたいことがあるのなら……。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "恋をしているの。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……それは。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "青年隊に、今度入る人。クリスチャン・ド・ヌーヴィレット。話したことはないけれど、とても美しい顔。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……美しい顔。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "きっと、頭のいい人よ。そんな顔をしているもの。シラノ、彼を守ってあげて。ガスコーニュの人たちは乱暴だから。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "守ろう。……あなたのためなら。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "それから、手紙をくれるように頼んで。彼の言葉が、読みたいの。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "手紙は、渡さずにすんだ。……今日ほど、この鼻を、重く感じた日はない。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
   },
   {
    "op": "show",
@@ -196,61 +295,54 @@
   {
    "op": "show",
    "actor": "rei",
-   "pos": "center"
+   "pos": "right"
   },
   {
    "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+   "text": "青年隊の詰め所。新入りのクリスチャンは、シラノの鼻について、皆の前で、わざと何度も口を挟んだ。"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "君の顔に私の言葉を貸す。彼女は完全な男を愛せる。",
-   "eyes": "joy",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "rei",
-   "text": "借りた言葉で得た愛は、誰のものになる。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "答えはまだ一つに決められない。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "say",
-   "actor": "rei",
-   "text": "問いは後だ。今は彼女を喜ばせたい。",
+   "text": "鼻に、鼻を突っ込むな、と申し上げたい。……だが、ロクサーヌの頼みだ。",
    "eyes": "anger"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "あなたも同じ願いだから、断れないのでしょう。",
-   "eyes": "fun",
-   "mouth": "open"
+   "text": "抱きしめさせてくれ。君が、ロクサーヌの想い人だ。"
   },
   {
    "op": "say",
    "actor": "rei",
-   "text": "迷いを抱えたままでも、進むことはできる。",
-   "eyes": "closed"
+   "text": "ロクサーヌさまが、私を？　……でも、困った。私は、話すのが下手なのです。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "美しい女性の前に出ると、言葉が一つも出てこない。手紙など、書いたこともない。"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "私は、顔・声・文章の間で、本当の自己を隠すことの美しさと残酷さを描くことを忘れずに選ぶ。",
-   "eyes": "crying"
+   "text": "君の顔と、私の言葉を、一つにしよう。私が書く。君が渡す。……二人で、一人の男になる。"
   },
   {
    "op": "say",
    "actor": "rei",
-   "text": "その選択の重さを、次の場面まで持って行こう。",
-   "eyes": "normal"
+   "text": "そんなことを、してくれるのですか。なぜ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "詩人は、自分の言葉が、誰かの口で生きるのを見たいものさ。……それだけだ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "シラノは、懐から、ロクサーヌ宛てに書いていた手紙を取り出し、宛名だけを、クリスチャンの名前に書き換えた。"
   },
   {
    "op": "hide",
@@ -271,12 +363,7 @@
   },
   {
    "op": "nar",
-   "text": "第3景「暗闇の告白」。夜のバルコニー。蔓薔薇、月、深い木陰。"
-  },
-  {
-   "op": "show",
-   "actor": "extra_porter",
-   "pos": "left"
+   "text": "夜。ロクサーヌの家のバルコニー。藤の花が垂れ下がっている。下の暗がりに、クリスチャンが立っている。"
   },
   {
    "op": "show",
@@ -284,67 +371,102 @@
    "pos": "center"
   },
   {
-   "op": "show",
-   "actor": "rei",
-   "pos": "right"
+   "op": "say",
+   "actor": "yui",
+   "text": "手紙は、毎日、すてきだった。でも、さっき会ったとき、あなたは、「愛しています」としか言わなかった。"
   },
   {
-   "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+   "op": "show",
+   "actor": "rei",
+   "pos": "left"
   },
   {
    "op": "say",
-   "actor": "extra_porter",
-   "text": "暗闇なら、顔の代わりに声だけが届く。",
-   "eyes": "sorrow",
-   "mouth": "open"
+   "actor": "rei",
+   "text": "……愛しています。"
   },
   {
    "op": "say",
    "actor": "yui",
-   "text": "今夜の言葉は、手紙より震えている。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "その理屈には、置き去りにされた声がある。",
+   "text": "それは、もう聞いたわ。何を、どう愛しているのか、話して。",
    "eyes": "anger"
   },
   {
    "op": "say",
    "actor": "rei",
-   "text": "声は私、名は彼。どちらが嘘なのだ。",
-   "eyes": "fun"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "姿を見せて。いいえ、今はこの声のままでいて。",
-   "eyes": "closed",
-   "mouth": "open"
+   "text": "……とても。"
   },
   {
    "op": "say",
    "actor": "yui",
-   "text": "誰のための決断か、もう一度考えよう。",
+   "text": "とても、何。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "……とても、とても。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "帰って。言葉を、どこかへ置き忘れてきたのね。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "シラノは、クリスチャンを木陰に押しやり、バルコニーの真下の暗闇から、声色を変えて話しかけた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "置き忘れてなどいない。見上げる言葉は、坂を上るのに時間がかかる。あなたの声は、坂を下るから、速いのだ。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "今日の声は、いつもと違う。震えていて、低くて。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "闇が、守ってくれているからです。顔が見えなければ、心だけで話せる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "私は、あなたの名前を、鈴のように胸の中に吊るした。あなたのことを考えるたびに、それが震えて、鳴る。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "あなたが去年の五月に、髪型を変えたのを覚えています。太陽を見たあとの目のように、どこを見ても、その金色が残っている。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "そう、それが聞きたかったの。……あなたの言葉に、私は酔ってしまう。",
    "eyes": "crying"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "私は、顔・声・文章の間で、本当の自己を隠すことの美しさと残酷さを描くことを忘れずに選ぶ。",
-   "eyes": "normal"
+   "text": "……今夜だけは、私が、私のままで、あなたと話している。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "クリスチャンがバルコニーに登り、ロクサーヌと口づけをした。シラノは、暗がりの下で、それを聞いていた。"
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "その選択の重さを、次の場面まで持って行こう。",
-   "eyes": "joy"
-  },
-  {
-   "op": "hide",
-   "actor": "extra_porter"
+   "actor": "extra_porter",
+   "text": "口づけの宴に、私の招待状はない。……けれど、言葉という料理だけは、私が作った。",
+   "eyes": "sorrow"
   },
   {
    "op": "hide",
@@ -353,6 +475,33 @@
   {
    "op": "hide",
    "actor": "rei"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "そのとき、ド・ギッシュ伯爵が、修道士を使って、ロクサーヌに会いに来ると知らせてきた。伯爵は、彼女に横恋慕していた。"
+  },
+  {
+   "op": "nar",
+   "text": "シラノは、月から落ちてきた男を装って、伯爵の足を十五分止めた。その間に、修道士が二人の婚礼を挙げた。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "結婚だと？　……よかろう。青年隊は、今夜、アラスの戦地へ出発する。花婿もだ。",
+   "eyes": "anger"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
   },
   {
    "op": "bg",
@@ -365,7 +514,7 @@
   },
   {
    "op": "nar",
-   "text": "第4景「戦地の手紙」。包囲戦の陣地。土嚢、旗、夜明け前の煙。"
+   "text": "一年後。アラスの包囲戦。スペイン軍に囲まれ、青年隊は飢えている。夜明け前、シラノが、敵の陣の間を抜けて戻ってくる。"
   },
   {
    "op": "show",
@@ -375,65 +524,153 @@
   {
    "op": "show",
    "actor": "rei",
-   "pos": "center"
-  },
-  {
-   "op": "show",
-   "actor": "iwao",
    "pos": "right"
   },
   {
+   "op": "say",
+   "actor": "rei",
+   "text": "シラノ、また、命がけで敵陣を抜けて、手紙を出しに行ったのか。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "毎日、一通。……君の名前で。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "毎日？　私は、一年で何通出したことに。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "二通、出す日もあった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "君は、そこまで……。命を賭けてまで、他人の名前で手紙を出すのか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "手紙を書く間だけ、私は自分の顔を忘れられる。"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "center"
+  },
+  {
    "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+   "text": "馬車の音。食料を積んだ馬車から、ロクサーヌが降りてきた。敵陣を、微笑み一つで通り抜けてきたという。"
   },
   {
    "op": "say",
-   "actor": "extra_porter",
-   "text": "私は毎日、君の名で彼女へ手紙を書いた。",
-   "eyes": "surprise",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "rei",
-   "text": "彼女が愛したのが言葉なら、私は身を引く。",
-   "eyes": "anger"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "恐れを隠しても、状況は変わらない。",
-   "eyes": "fun"
-  },
-  {
-   "op": "say",
-   "actor": "iwao",
-   "text": "今さら真実を渡せば、彼女の愛まで戦利品にする。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "敵弾より、告白の方が二人を深く傷つける。",
-   "eyes": "crying",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "rei",
-   "text": "恐れを言葉にした今なら、選び直せる。",
-   "eyes": "normal"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "私は、顔・声・文章の間で、本当の自己を隠すことの美しさと残酷さを描くことを忘れずに選ぶ。",
+   "actor": "yui",
+   "text": "手紙が、私をここまで運んだの。最初は、あなたの顔に恋をした。でも、今は違う。",
    "eyes": "joy"
   },
   {
    "op": "say",
+   "actor": "yui",
+   "text": "今は、あなたの心に恋をしている。たとえ、あなたが醜くなっても、私は、その手紙の人を愛する。"
+  },
+  {
+   "op": "say",
    "actor": "rei",
-   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "text": "……醜くなっても。",
    "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "シラノ、彼女が愛しているのは、私ではない。君だ。君の言葉だ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "本当のことを話してくれ。そして、彼女に選ばせよう。顔の私か、心の君か。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "シラノは、真実を告げようと決める",
+     "jump": "m_tell"
+    },
+    {
+     "text": "シラノは、もう少し待つように頼む",
+     "jump": "m_wait"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_tell"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……分かった。今日、すべてを話そう。"
+  },
+  {
+   "op": "jump",
+   "to": "m_shot"
+  },
+  {
+   "op": "label",
+   "id": "m_wait"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "今は戦場だ。生き延びてから、話そう。……待ってくれ。"
+  },
+  {
+   "op": "label",
+   "id": "m_shot"
+  },
+  {
+   "op": "nar",
+   "text": "そのとき、銃声が響いた。偵察に出たクリスチャンが、胸を撃たれて運ばれてきた。"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "クリスチャン！",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "……シラノ……。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "クリスチャン、彼女に話した。愛しているのは、君だと。今も、君だけだと。"
+  },
+  {
+   "op": "nar",
+   "text": "クリスチャンは、かすかに微笑み、息を引き取った。胸元には、血に濡れた、最後の手紙があった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "もう、言えない。死んだ男の名誉を、奪うことはできない。",
+   "eyes": "closed"
   },
   {
    "op": "hide",
@@ -445,7 +682,7 @@
   },
   {
    "op": "hide",
-   "actor": "iwao"
+   "actor": "yui"
   },
   {
    "op": "bg",
@@ -458,150 +695,75 @@
   },
   {
    "op": "nar",
-   "text": "第5景「十五年後の修道院」。秋の修道院庭園。落葉、石のベンチ、夕日。"
+   "text": "十五年後。パリの修道院の庭。秋。ロクサーヌは、喪服のまま、ここで暮らしている。"
   },
   {
    "op": "show",
-   "actor": "extra_porter",
+   "actor": "yui",
    "pos": "left"
   },
   {
-   "op": "show",
-   "actor": "yui",
-   "pos": "center"
-  },
-  {
-   "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
-  },
-  {
    "op": "say",
-   "actor": "extra_porter",
-   "text": "毎週の訪問だけが、私に残った祝日です。",
-   "eyes": "anger",
-   "mouth": "open"
+   "actor": "yui",
+   "text": "シラノは、毎週土曜日、同じ時間に来てくれる。十五年、一度も遅れたことがない。"
   },
   {
    "op": "say",
    "actor": "yui",
-   "text": "あなたは昔の手紙を読む時、同じ息継ぎをする。",
-   "eyes": "fun"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "正しさだけでは、人の痛みを量れない。",
-   "eyes": "closed"
+   "text": "クリスチャンが死んだ日から、私は、ここで、あの人の手紙だけを読んで暮らしてきた。"
   },
   {
    "op": "say",
    "actor": "yui",
-   "text": "暗くなったのに読めるのは、書いた本人だから。",
-   "eyes": "crying"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "長い沈黙が、やっと声の持ち主を返したのね。",
-   "eyes": "normal",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "だから事実と心の両方を見よう。",
+   "text": "世の中の噂を、新聞みたいに話してくれるの。……今日は、少し遅いわ。",
    "eyes": "joy"
   },
   {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "私は、顔・声・文章の間で、本当の自己を隠すことの美しさと残酷さを描くことを忘れずに選ぶ。",
-   "eyes": "sorrow"
+   "op": "nar",
+   "text": "木の葉が一枚、ひらひらと散った。"
   },
   {
    "op": "say",
    "actor": "yui",
-   "text": "その選択の重さを、次の場面まで持って行こう。",
-   "eyes": "surprise"
+   "text": "葉っぱが落ちるのは、美しいわね。地面へ向かって、最後に、舞ってみせるみたいに。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "right"
   },
   {
    "op": "nar",
-   "text": "ここで舞台は一瞬静まり、観客の選択が人物の心の向きを変える。"
-  },
-  {
-   "op": "choice",
-   "options": [
-    {
-     "text": "今夜こそ真実を告げる",
-     "jump": "route_a"
-    },
-    {
-     "text": "友の約束を守り沈黙する",
-     "jump": "route_b"
-    }
-   ]
-  },
-  {
-   "op": "label",
-   "id": "route_a"
+   "text": "シラノは、帽子を目深にかぶって、ゆっくりと歩いてきた。敵の手の者に、上から材木を落とされ、頭に深い傷を負っていた。"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "私は『今夜こそ真実を告げる』道を選ぶ。",
-   "eyes": "joy",
-   "mouth": "open"
+   "text": "遅れてしまいました。……邪魔な客が来たものでね。追い返すのに、手間取った。"
   },
   {
    "op": "say",
    "actor": "yui",
-   "text": "その決断なら、結果まで自分の言葉で引き受けて。",
-   "eyes": "normal"
-  },
-  {
-   "op": "set",
-   "flag": "f_route_a"
-  },
-  {
-   "op": "jump",
-   "to": "merge_choice"
-  },
-  {
-   "op": "label",
-   "id": "route_b"
+   "text": "いつもの新聞を、聞かせて。"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "私は『友の約束を守り沈黙する』道を選ぶ。",
-   "eyes": "surprise",
-   "mouth": "open"
+   "text": "修道女さまがたが、今日は肉を食べていいと言ってくださった。……私の顔を見て、哀れんでくれたのでしょう。"
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "違う道でも、守るべきものを見失わないで。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "set",
-   "flag": "f_route_b"
-  },
-  {
-   "op": "label",
-   "id": "merge_choice"
-  },
-  {
-   "op": "nar",
-   "text": "選択の余韻を抱えたまま、物語は同じ終幕へ向かう。"
-  },
-  {
-   "op": "hide",
-   "actor": "extra_porter"
+   "actor": "extra_porter",
+   "text": "土曜日、十九日。国王が葡萄酒を八杯飲んで、熱を出した。……月曜日、侍女たちが、恋の噂。",
+   "eyes": "closed"
   },
   {
    "op": "hide",
    "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
   },
   {
    "op": "bg",
@@ -614,71 +776,105 @@
   },
   {
    "op": "nar",
-   "text": "第6景「最後の羽飾り」。夜の修道院庭園。舞う落葉、月光、一本の剣。"
+   "text": "夕暮れ。庭に、薄紫の光が満ちる。ロクサーヌは、クリスチャンの最後の手紙を、シラノに見せる。"
   },
   {
    "op": "show",
-   "actor": "extra_porter",
+   "actor": "yui",
    "pos": "left"
   },
   {
    "op": "show",
+   "actor": "extra_porter",
+   "pos": "right"
+  },
+  {
+   "op": "say",
    "actor": "yui",
-   "pos": "center"
+   "text": "これを、読んで。十五年、肌身離さず持っている。"
   },
   {
    "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+   "text": "シラノは、手紙を開き、読み始めた。夕暮れは深まり、もう字が見えないほどの暗さになっていた。"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "私は醜さにも貧しさにも負けなかった。沈黙には負けた。",
-   "eyes": "fun",
-   "mouth": "open"
+   "text": "「さようなら、ロクサーヌ。私は、今日、死ぬでしょう。私の心は、あなたのそばに残ります」。"
   },
   {
    "op": "say",
    "actor": "yui",
-   "text": "いいえ。あなたの言葉は届いていた。名だけが遅れたの。",
-   "eyes": "closed"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "ここで黙れば、同じことが繰り返される。",
-   "eyes": "crying"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "最後まで手放さないものがある。私の羽飾りだ。",
-   "eyes": "normal"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "それは誇りではなく、愛を言葉にする勇気だったのね。",
-   "eyes": "joy",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "言葉にした責任を、次の場面へ持って行こう。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "私は、顔・声・文章の間で、本当の自己を隠すことの美しさと残酷さを描くことを忘れずに選ぶ。",
+   "text": "……その読み方。その声。……暗くて、字は見えないはずなのに。",
    "eyes": "surprise"
   },
   {
    "op": "say",
    "actor": "yui",
-   "text": "その選択の重さを、次の場面まで持って行こう。",
+   "text": "あのバルコニーの夜の声。……あなただったのね。十五年間。手紙も、全部。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "違う。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "違わない。あなたの声よ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……私は、あなたを愛していなかった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "どうして、黙っていたの。なぜ、十五年も。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "私の顔に、あなたの愛はふさわしくない。……そう思い込んでいた。それが、私の勇気の、限界だった。"
+  },
+  {
+   "op": "nar",
+   "text": "シラノは、頭の傷から血を流して、木によりかかった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "死が、来た。……いや、まだだ。立ったまま迎える。剣を抜いて。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "来い、嘘。来い、妥協。来い、偏見。お前たちは、私から何でも奪った。月桂樹も、薔薇も。",
    "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "だが、一つだけ、天へ持っていくものがある。今夜、神の前で帽子を脱ぐとき、汚れのないもの。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "それは……私の、心意気だ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "シラノは、剣を落とし、ロクサーヌの腕の中に倒れた。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "私は、一人の人を、二度失った。",
+   "eyes": "crying"
   },
   {
    "op": "hide",
@@ -690,12 +886,7 @@
   },
   {
    "op": "bg",
-   "src": "lastleaf",
-   "mode": "full"
-  },
-  {
-   "op": "bg",
-   "src": "lastleaf"
+   "src": null
   },
   {
    "op": "show",
@@ -705,28 +896,22 @@
   {
    "op": "say",
    "actor": "nono",
-   "text": "『シラノ・ド・ベルジュラック』、これにて終幕です。",
-   "eyes": "joy",
-   "mouth": "open"
+   "text": "『シラノ・ド・ベルジュラック』、これにて幕です。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "残った問いは、顔・声・文章の間で、本当の自己を隠すことの美しさと残酷さを描くこと。",
-   "eyes": "sorrow"
+   "text": "顔と、声と、手紙。ロクサーヌが愛したのは、結局、その全部を書いた、一人の男でした。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "選ばなかった道も、物語の外で静かに私たちを見ています。",
-   "eyes": "normal"
+   "text": "本当の自分を隠すのは、美しくて、残酷なことです。隠された相手にとっても、隠した本人にとっても。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "ご観劇、ありがとうございました。",
-   "eyes": "joy",
-   "mouth": "open"
+   "text": "大切な言葉は、誰かの名前を借りずに、自分の口から。間に合ううちに。"
   },
   {
    "op": "hide",

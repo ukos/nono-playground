@@ -1,6 +1,6 @@
 // 画面表示と操作。状態は engine.js の Session が持ち、ここは毎回それを描き直すだけ。
-import { Session } from './engine.js?v=c57ec76';
-import { indexActors, resolveLayers, layersUsedBy } from './faces.js?v=c57ec76';
+import { Session } from './engine.js?v=cf81b99';
+import { indexActors, resolveLayers, layersUsedBy } from './faces.js?v=cf81b99';
 
 // 公開のたびに tools/deploy_playground.py が版（コミット）を入れる。URLに付けて、古いファイルの使い回しを防ぐ
 const V = document.querySelector('meta[name="stage-version"]')?.content || 'dev';
@@ -67,12 +67,36 @@ function preload(urls) {
 
 const OPEN_KEY = 'stage-actor.openCategory';
 
+// 「本題 ―副題―」を本題と副題に分けて、副題を次の行に出す
+function titleParts(t) {
+  const i = t.indexOf('―');
+  if (i <= 0) return [t, ''];
+  return [t.slice(0, i).trim(), t.slice(i).trim()];
+}
+function fillTitle(node, t) {
+  const [main, sub] = titleParts(t);
+  node.textContent = '';
+  const a = document.createElement('span');
+  a.className = 'main';
+  a.textContent = main;
+  node.append(a);
+  if (sub) {
+    const b = document.createElement('span');
+    b.className = 'sub';
+    b.textContent = sub;
+    node.append(b);
+  }
+}
+
 function workButton(w) {
   const li = document.createElement('li');
   const b = document.createElement('button');
   b.type = 'button';
   b.className = 'work';
-  b.append(w.title);
+  const t = document.createElement('span');
+  t.className = 'wtitle';
+  fillTitle(t, w.title);
+  b.append(t);
   const m = document.createElement('span');
   m.className = 'meta';
   m.textContent = w.original || (w.test ? '基盤の動作確認用' : '');
@@ -148,7 +172,7 @@ async function openWork(id) {
   el.stage.hidden = false;
   el.curtain.classList.remove('open');
   layoutCurtain();
-  el.playbill.textContent = script.meta?.title || id;
+  fillTitle(el.playbill, script.meta?.title || id);
   busy = true;
   actorEls.clear();
   el.actors.textContent = '';

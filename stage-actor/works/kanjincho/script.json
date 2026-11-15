@@ -7,7 +7,7 @@
   "format": "v3",
   "minutes": 22,
   "synopsis": "全六景で原作の主要な運動をたどりながら、忠義を服従ではなく、守るために自ら傷を負う決断として描くことを中心に再構成する。第五景で観客が人物の姿勢を選び、分岐は終幕前に合流する。",
-  "note": "本脚本は著作権の消滅した原作からの翻案であり、既存の翻訳・上演台本は使用していない。セリフは全て本上演版の書き下ろし。"
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
  },
  "cast": [
   {
@@ -22,7 +22,7 @@
   },
   {
    "role": "源義経",
-   "actor": "rei_kimono",
+   "actor": "rei_hakama",
    "costume": "default"
   },
   {
@@ -52,28 +52,27 @@
   {
    "op": "say",
    "actor": "nono",
-   "text": "ようこそ、NONO座へ。本日の演目は『勧進帳』。",
-   "eyes": "normal"
+   "text": "歌舞伎十八番のひとつ『勧進帳』。歌舞伎の中でも、とりわけ人気の高い演目です。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "この舞台が見つめるのは、忠義を服従ではなく、守るために自ら傷を負う決断として描くこと。",
-   "eyes": "sorrow",
-   "mouth": "open"
+   "text": "兄の頼朝に追われた源義経が、家来の弁慶たちと、北陸の安宅の関を通り抜けようとします。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "古い物語を借りながら、台詞はすべて今夜のための書き下ろしです。",
-   "eyes": "normal"
+   "text": "一行は山伏に化け、義経は荷物持ちの強力に身をやつしています。関を守るのは、富樫左衛門。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "それでは、幕を開けましょう。",
-   "eyes": "joy",
-   "mouth": "open"
+   "text": "白紙の巻物と、主君を打つ杖。その二つが、関の扉を開く鍵になります。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "最後の飛び六方まで、どうぞ息を詰めてご覧ください。"
   },
   {
    "op": "hide",
@@ -90,7 +89,7 @@
   },
   {
    "op": "nar",
-   "text": "第1景「落人の山道」。北陸の雪解け山道。松、岩、遠い関所。"
+   "text": "北陸の山道。雪解けの水が岩を伝う。山伏の装束の一行が、足早に進んでいる。"
   },
   {
    "op": "show",
@@ -99,62 +98,88 @@
   },
   {
    "op": "show",
-   "actor": "rei_kimono",
-   "pos": "center"
-  },
-  {
-   "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+   "actor": "rei_hakama",
+   "pos": "right"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "今日からあなたは強力、私は山伏の先達です。",
-   "eyes": "normal",
-   "mouth": "open"
+   "text": "殿、この先が安宅の関。頼朝さまの命で、新しく関が設けられたと聞きます。"
   },
   {
    "op": "say",
-   "actor": "rei_kimono",
-   "text": "主従を逆さにしても、追手の目は消えぬ。",
-   "eyes": "joy"
+   "actor": "rei_hakama",
+   "text": "都を落ちてから、どれほどの山を越えたか。奥州の秀衡どのを頼るまで、あと少しだ。"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "今の言葉を、聞かなかったことにはできない。",
-   "eyes": "sorrow"
+   "text": "関では、山伏の一行を厳しく調べているとのこと。殿のお顔を知る者がいれば、それまで。"
   },
   {
    "op": "say",
-   "actor": "rei_kimono",
-   "text": "役を演じ切ることが命を守る。恥は私が引き受けます。",
+   "actor": "extra_porter",
+   "text": "そこで、お願いがございます。今日からあなたは強力、荷物持ちの下人。私は山伏の先達です。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "私が、荷を担ぐのか。",
    "eyes": "surprise"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "ならば私は、命令せずお前の判断を信じよう。",
-   "eyes": "anger",
-   "mouth": "open"
+   "text": "笠を深くかぶり、笈を背負い、一行のいちばん後ろを歩いていただきます。"
   },
   {
    "op": "say",
-   "actor": "rei_kimono",
-   "text": "なら、次の一歩で確かめよう。",
-   "eyes": "fun"
+   "actor": "rei_hakama",
+   "text": "主従を逆さにしても、追手の目は消えぬ。"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "私は、忠義を服従ではなく、守るために自ら傷を負う決断として描くことを忘れずに選ぶ。",
+   "text": "役を演じ切ることが、命を守ります。恥は、すべて私が引き受けます。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "……ならば私は、命令せず、お前の判断を信じよう。どんな役でも、演じてみせる。",
    "eyes": "closed"
   },
   {
    "op": "say",
-   "actor": "rei_kimono",
-   "text": "その選択の重さを、次の場面まで持って行こう。",
-   "eyes": "crying"
+   "actor": "rei_hakama",
+   "text": "都にいた頃は、平家を討った大将と呼ばれた。今は、笈ひとつ背負う強力か。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "お許しください。生きて奥州へ着くまでの、辛抱でございます。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "謝るな、弁慶。生き延びるために着る衣なら、どんな粗末なものでも、錦と同じだ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "関の手前で、皆に段取りを伝えます。何を問われても、私が答える。殿は、ただ黙って。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "黙ることなら、得意だ。兄上の前では、いつも黙っていた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "その黙っていたお心を、頼朝さまが一度でもお聞きくだされば、こんなことには。",
+   "eyes": "sorrow"
   },
   {
    "op": "hide",
@@ -162,7 +187,7 @@
   },
   {
    "op": "hide",
-   "actor": "rei_kimono"
+   "actor": "rei_hakama"
   },
   {
    "op": "bg",
@@ -175,7 +200,24 @@
   },
   {
    "op": "nar",
-   "text": "第2景「安宅の関」。厳しい木造関所。柵、旗、雪泥、太鼓。"
+   "text": "安宅の関。木の柵と門。番卒たちが槍を構え、関守の富樫左衛門が床几に座っている。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "left"
+  },
+  {
+   "op": "nar",
+   "text": "富樫は、山伏に化けた義経主従が北へ向かっているという触れ書きを、もう一度読み返した。"
+  },
+  {
+   "op": "nar",
+   "text": "すでに三人の山伏を、疑わしいとして斬り捨てていた。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
   },
   {
    "op": "show",
@@ -184,67 +226,74 @@
   },
   {
    "op": "show",
+   "actor": "rei_hakama",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "一行、静かに。私が話す。殿は、何があっても顔を上げてはなりません。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "旅の疲れを装え、だな。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "はい。黙っていても、背中が身分を語ることがございます。肩を少し落として。"
+  },
+  {
+   "op": "show",
    "actor": "extra_elder",
    "pos": "center"
   },
   {
-   "op": "show",
-   "actor": "rei_kimono",
-   "pos": "right"
-  },
-  {
-   "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
-  },
-  {
    "op": "say",
    "actor": "extra_porter",
-   "text": "東大寺再建の勧進に参る山伏一行。関をお通し願いたい。",
-   "eyes": "joy",
-   "mouth": "open"
+   "text": "我らは、東大寺再建の勧進に参る山伏の一行。この関を、お通し願いたい。"
   },
   {
    "op": "say",
    "actor": "extra_elder",
-   "text": "義経主従が山伏に化けたとの触れがある。姿を改める。",
-   "eyes": "sorrow"
+   "text": "富樫左衛門と申す。義経主従が山伏に化けたとの触れがある。山伏の一行は、ここを通すわけにはいかぬ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "すでに三人、疑わしき山伏を斬った。そなたらも、例外ではない。"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "答えはまだ一つに決められない。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "say",
-   "actor": "rei_kimono",
-   "text": "旅の疲れを装え。顔を上げてはならぬ。",
+   "text": "我ら山伏を斬ると申されるか。ならば、最期の勤めをいたす。",
    "eyes": "anger"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "黙っていても、背中が身分を語ることがある。",
-   "eyes": "fun",
-   "mouth": "open"
+   "text": "皆の者、ここで祈祷を始めよ。我らを斬れば、熊野権現の罰が、たちどころに当たるであろう。"
+  },
+  {
+   "op": "nar",
+   "text": "山伏たちが数珠を揉み、祈りの声が関に響いた。富樫は、しばし黙った。"
   },
   {
    "op": "say",
    "actor": "extra_elder",
-   "text": "迷いを抱えたままでも、進むことはできる。",
-   "eyes": "closed"
+   "text": "……殊勝な覚悟。まことの山伏なら、勧進帳を持っておろう。読んで聞かせよ。"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "私は、忠義を服従ではなく、守るために自ら傷を負う決断として描くことを忘れずに選ぶ。",
-   "eyes": "crying"
+   "text": "勧進帳を。",
+   "eyes": "surprise"
   },
   {
    "op": "say",
    "actor": "extra_elder",
-   "text": "その選択の重さを、次の場面まで持って行こう。",
-   "eyes": "normal"
+   "text": "東大寺再建の勧進なら、その趣意を書いた巻物があるはず。聞かせてもらおう。"
   },
   {
    "op": "hide",
@@ -252,11 +301,11 @@
   },
   {
    "op": "hide",
-   "actor": "extra_elder"
+   "actor": "rei_hakama"
   },
   {
    "op": "hide",
-   "actor": "rei_kimono"
+   "actor": "extra_elder"
   },
   {
    "op": "bg",
@@ -269,7 +318,7 @@
   },
   {
    "op": "nar",
-   "text": "第3景「白紙の勧進帳」。関所の検問台。白い巻物、墨、緊張した兵具。"
+   "text": "関の門前。富樫が、ならば勧進帳を読んでみせよ、と求めた。"
   },
   {
    "op": "show",
@@ -279,61 +328,67 @@
   {
    "op": "show",
    "actor": "extra_elder",
-   "pos": "center"
-  },
-  {
-   "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+   "pos": "right"
   },
   {
    "op": "say",
    "actor": "extra_porter",
    "text": "勧進帳を読めと言われても、これはただの白紙。",
-   "eyes": "sorrow",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……読んで差し上げよう。"
+  },
+  {
+   "op": "nar",
+   "text": "弁慶は、何も書かれていない巻物を広げ、朗々と読み始めた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "それつらつら思んみれば、大恩教主の秋の月は、涅槃の雲に隠れ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "生死長夜の長き夢、驚かすべき人もなし。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "ここに中ごろ、帝おわします。御名を聖武皇帝と申し奉る。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "最愛の夫人に別れ、恋慕やみがたく、涕泣眼にあらく、涙玉を貫く。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "東大寺を建立し給う。しかるに寿永の頃、炎上の災いに遭い、堂塔は灰となる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "俊乗坊重源、諸国を勧進し、再建の功を果たさんとす。一紙半銭の奉財の輩は、現世にては無比の楽を誇り。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "当来にては、数千蓮華の上に座せん。帰命稽首、敬って白す！",
+   "eyes": "anger",
    "mouth": "open"
   },
   {
-   "op": "say",
-   "actor": "extra_elder",
-   "text": "声が止まれば偽者。文字がなくても、祈りは作れる。",
-   "eyes": "surprise"
+   "op": "nar",
+   "text": "富樫は、声が止まれば偽者と見ていた。だが、弁慶の声は、一度も途切れなかった。"
   },
   {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "その理屈には、置き去りにされた声がある。",
-   "eyes": "anger"
-  },
-  {
-   "op": "say",
-   "actor": "extra_elder",
-   "text": "堂塔再建の功徳を説くその声、即興とは思えぬ。",
-   "eyes": "fun"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "真実でない文を、真実の願いで満たしたまで。",
-   "eyes": "closed",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "extra_elder",
-   "text": "誰のための決断か、もう一度考えよう。",
-   "eyes": "crying"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "私は、忠義を服従ではなく、守るために自ら傷を負う決断として描くことを忘れずに選ぶ。",
-   "eyes": "normal"
-  },
-  {
-   "op": "say",
-   "actor": "extra_elder",
-   "text": "その選択の重さを、次の場面まで持って行こう。",
-   "eyes": "joy"
+   "op": "nar",
+   "text": "富樫は、巻物の中身をのぞこうと身を乗り出した。弁慶は、さっと巻物を胸に引き寄せた。"
   },
   {
    "op": "hide",
@@ -354,80 +409,92 @@
   },
   {
    "op": "nar",
-   "text": "第4景「山伏問答」。関所内の広場。法具、錫杖、鋭い朝日。"
+   "text": "関の広場。富樫は、ならば山伏の心得を問う、と言った。山伏問答の始まりである。"
   },
   {
    "op": "show",
-   "actor": "extra_porter",
+   "actor": "extra_elder",
    "pos": "left"
   },
   {
    "op": "show",
-   "actor": "extra_elder",
-   "pos": "center"
-  },
-  {
-   "op": "show",
-   "actor": "rei_kimono",
+   "actor": "extra_porter",
    "pos": "right"
   },
   {
-   "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
-  },
-  {
    "op": "say",
-   "actor": "extra_porter",
-   "text": "山伏の装束と法具、その意味を答えよ。",
-   "eyes": "surprise",
-   "mouth": "open"
+   "actor": "extra_elder",
+   "text": "勧進帳の声は見事であった。だが、山伏の装いの意味までは、にわか仕込みでは答えられまい。"
   },
   {
    "op": "say",
    "actor": "extra_elder",
-   "text": "問いが十なら十答える。だが旅の目的まで疑うな。",
-   "eyes": "anger"
+   "text": "問う。山伏の装束の、その頭巾は、何を意味する。"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "恐れを隠しても、状況は変わらない。",
-   "eyes": "fun"
+   "text": "頭巾は五智の宝冠。仏の五つの知恵を、頭にいただくものでございます。"
   },
   {
    "op": "say",
-   "actor": "rei_kimono",
-   "text": "強力の顔を見せよ。その者だけ気品が隠せていない。",
+   "actor": "extra_elder",
+   "text": "篠懸と呼ぶ、その衣は。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "九会曼陀羅の柿の篠懸。胎蔵界と金剛界の仏の世界を、この身にまとっております。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "腰に下げた、その引敷は。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "獅子の座。山中で座るとき、この上に座れば、仏が座る獅子の座となりましょう。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "手に持つ金剛杖は。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "金剛杖は、悪魔を払い、険しい山道で身を支える。仏の智恵の杖でございます。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "では、山伏の九字の真言とは。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "九字は、臨・兵・闘・者・皆・陣・列・在・前。……ここで、その印を結んでお見せしましょうか。",
    "eyes": "closed"
   },
   {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "ここが刃の上だ。迷えば全員が倒れる。",
-   "eyes": "crying",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "extra_elder",
-   "text": "恐れを言葉にした今なら、選び直せる。",
-   "eyes": "normal"
+   "op": "nar",
+   "text": "富樫は、問いが十あれば十、二十あれば二十、淀みなく答える弁慶に、言葉を失った。"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "私は、忠義を服従ではなく、守るために自ら傷を負う決断として描くことを忘れずに選ぶ。",
-   "eyes": "joy"
+   "text": "問いが十なら、十答える。だが、旅の目的まで疑われるのは、心外でござる。"
   },
   {
    "op": "say",
    "actor": "extra_elder",
-   "text": "その選択の重さを、次の場面まで持って行こう。",
-   "eyes": "sorrow"
+   "text": "見事。山伏であることは、認めよう。門を開けよ。"
   },
   {
-   "op": "hide",
-   "actor": "extra_porter"
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "疑ったこと、許されよ。勧進の志に、少しばかり寄進させていただく。"
   },
   {
    "op": "hide",
@@ -435,7 +502,7 @@
   },
   {
    "op": "hide",
-   "actor": "rei_kimono"
+   "actor": "extra_porter"
   },
   {
    "op": "bg",
@@ -448,253 +515,172 @@
   },
   {
    "op": "nar",
-   "text": "第5景「主君を打つ」。関所門前。雪に残る足跡、振り上げた金剛杖の影。"
+   "text": "一行が門を通りかけたそのとき、番卒の一人が、最後尾の強力を指さした。"
   },
   {
    "op": "show",
-   "actor": "extra_porter",
+   "actor": "extra_elder",
    "pos": "left"
   },
   {
    "op": "show",
-   "actor": "rei_kimono",
+   "actor": "rei_hakama",
    "pos": "center"
   },
   {
    "op": "show",
-   "actor": "extra_elder",
+   "actor": "extra_porter",
    "pos": "right"
   },
   {
-   "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "待たれよ。そこの強力。……笠を取って、顔を見せよ。"
   },
   {
    "op": "say",
-   "actor": "extra_porter",
-   "text": "荷物持ちの分際で歩みが遅い。皆を危険にさらすな。",
-   "eyes": "anger",
-   "mouth": "open"
+   "actor": "extra_elder",
+   "text": "荷を担ぐ者にしては、指が細い。歩みにも、どこか品がある。判官殿に似ている、と番卒が申しておる。"
   },
   {
    "op": "say",
-   "actor": "rei_kimono",
-   "text": "弁慶、その杖をためらうな。私は役を生きる。",
-   "eyes": "fun"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "正しさだけでは、人の痛みを量れない。",
+   "actor": "rei_hakama",
+   "text": "……動くな。顔を上げるな。",
    "eyes": "closed"
   },
   {
    "op": "say",
-   "actor": "extra_elder",
-   "text": "主君を打つ家来がいるものか。だからこそ本物に見える。",
-   "eyes": "crying"
-  },
-  {
-   "op": "say",
    "actor": "extra_porter",
-   "text": "富樫殿は気づいた。それでも試している。",
-   "eyes": "normal",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "rei_kimono",
-   "text": "だから事実と心の両方を見よう。",
-   "eyes": "joy"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "私は、忠義を服従ではなく、守るために自ら傷を負う決断として描くことを忘れずに選ぶ。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "say",
-   "actor": "rei_kimono",
-   "text": "その選択の重さを、次の場面まで持って行こう。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "nar",
-   "text": "ここで舞台は一瞬静まり、観客の選択が人物の心の向きを変える。"
+   "text": "ここが刃の上だ。迷えば、全員が倒れる。",
+   "eyes": "closed"
   },
   {
    "op": "choice",
    "options": [
     {
-     "text": "偽りを貫いて主君を守る",
-     "jump": "route_a"
+     "text": "弁慶は、強力を打ちすえて叱る",
+     "jump": "m_strike"
     },
     {
-     "text": "正体を明かし覚悟を示す",
-     "jump": "route_b"
+     "text": "弁慶は、富樫に正体を明かそうとする",
+     "jump": "m_reveal"
     }
    ]
   },
   {
    "op": "label",
-   "id": "route_a"
+   "id": "m_strike"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "私は『偽りを貫いて主君を守る』道を選ぶ。",
-   "eyes": "joy",
+   "text": "荷物持ちの分際で、歩みが遅い！　お前が遅れるから、皆が疑われるのだ！",
+   "eyes": "anger",
    "mouth": "open"
   },
   {
-   "op": "say",
-   "actor": "rei_kimono",
-   "text": "その決断なら、結果まで自分の言葉で引き受けて。",
-   "eyes": "normal"
+   "op": "nar",
+   "text": "弁慶は金剛杖を振り上げ、義経の肩を、二度、三度と打ちすえた。"
   },
   {
-   "op": "set",
-   "flag": "f_route_a"
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "痛みは、声に出さぬ。強力は、叱られて黙るものだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "弁慶、その杖をためらうな。私は、役を生きる。",
+   "eyes": "closed"
   },
   {
    "op": "jump",
-   "to": "merge_choice"
+   "to": "m_after"
   },
   {
    "op": "label",
-   "id": "route_b"
+   "id": "m_reveal"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "私は『正体を明かし覚悟を示す』道を選ぶ。",
-   "eyes": "surprise",
+   "text": "富樫殿、この者は……。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "先達、何を言う。私は、ただの強力でございます。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "義経の目が、弁慶を止めた。弁慶は、唇を噛んで、杖を振り上げた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "黙れ、遅いと言っておる！　お前のような者を連れているから、皆が疑われる！",
+   "eyes": "anger",
    "mouth": "open"
   },
   {
-   "op": "say",
-   "actor": "rei_kimono",
-   "text": "違う道でも、守るべきものを見失わないで。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "set",
-   "flag": "f_route_b"
+   "op": "nar",
+   "text": "金剛杖が、義経の肩を打った。"
   },
   {
    "op": "label",
-   "id": "merge_choice"
+   "id": "m_after"
   },
   {
-   "op": "nar",
-   "text": "選択の余韻を抱えたまま、物語は同じ終幕へ向かう。"
-  },
-  {
-   "op": "hide",
-   "actor": "extra_porter"
-  },
-  {
-   "op": "hide",
-   "actor": "rei_kimono"
-  },
-  {
-   "op": "hide",
-   "actor": "extra_elder"
-  },
-  {
-   "op": "bg",
-   "src": "departure",
-   "mode": "full"
-  },
-  {
-   "op": "bg",
-   "src": "departure"
-  },
-  {
-   "op": "nar",
-   "text": "第6景「関を越えて」。関の北側の道。夕焼け、酒器、遠ざかる柵。"
-  },
-  {
-   "op": "show",
+   "op": "say",
    "actor": "extra_porter",
-   "pos": "left"
+   "text": "まだ疑われるなら、この強力、この場で打ち殺してご覧に入れよう！"
   },
   {
-   "op": "show",
-   "actor": "rei_kimono",
-   "pos": "center"
+   "op": "nar",
+   "text": "富樫は、しばらく弁慶の顔を見つめていた。弁慶の目には、涙が光っていた。"
   },
   {
-   "op": "show",
+   "op": "nar",
+   "text": "主君を打つ家来がいるものか。だからこそ、本物に見える。……いや、だからこそ、本物と分かる。"
+  },
+  {
+   "op": "say",
    "actor": "extra_elder",
-   "pos": "right"
+   "text": "……もうよい。強力を打つその杖、見ておるこちらまで痛む。"
   },
   {
-   "op": "nar",
-   "text": "互いの表情を確かめるように、言葉がゆっくり交わされる。"
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "疑いは晴れた。通られよ。"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "先ほどの無礼、命をもってお詫びします。",
-   "eyes": "fun",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "rei_kimono",
-   "text": "命を守るための杖を、どうして責められよう。",
+   "text": "富樫殿は、気づいた。それでも、通してくれた。",
    "eyes": "closed"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "ここで黙れば、同じことが繰り返される。",
-   "eyes": "crying"
+   "text": "打った手が、まだ震えている。……殿、早く、関を離れましょう。"
   },
   {
    "op": "say",
-   "actor": "extra_elder",
-   "text": "私は関守として敗れたのではない。人として道を開けた。",
-   "eyes": "normal"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "三人とも法を曲げた。その重さを忘れず進もう。",
-   "eyes": "joy",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "rei_kimono",
-   "text": "言葉にした責任を、次の場面へ持って行こう。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "私は、忠義を服従ではなく、守るために自ら傷を負う決断として描くことを忘れずに選ぶ。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "say",
-   "actor": "rei_kimono",
-   "text": "その選択の重さを、次の場面まで持って行こう。",
-   "eyes": "anger"
-  },
-  {
-   "op": "hide",
-   "actor": "extra_porter"
-  },
-  {
-   "op": "hide",
-   "actor": "rei_kimono"
+   "actor": "rei_hakama",
+   "text": "振り返るな。富樫殿の顔を見れば、あの方の苦しみまで、背負うことになる。"
   },
   {
    "op": "hide",
    "actor": "extra_elder"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_hakama"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
   },
   {
    "op": "bg",
@@ -706,6 +692,189 @@
    "src": "departure"
   },
   {
+   "op": "nar",
+   "text": "関を越えた先の松林。一行は、足を止めて息をついた。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_hakama",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "弁慶は義経の前にひざまずき、地に額をすりつけた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "先ほどの無礼、命をもってお詫びします。主君を打った杖を、この腕ごと折ってしまいたい。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "命を守るための杖を、どうして責められよう。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "お前が打たなければ、私は今頃、関の土の上だった。打たれた肩より、お前の手のほうが痛かろう。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……殿。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "兄に追われ、家来に打たれ、それでも、私には、こうして泣いてくれる家来がいる。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "弁慶。私は、この世でいちばん、果報者かもしれぬ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "果報者は、私のほうでございます。命を懸けてお仕えできる主に、巡り会えた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "では二人とも果報者だ。……奥州に着いたら、この肩の痣を、笑い話にしよう。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "はい。何年たっても、笑い話にいたしましょう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "富樫殿にも、いつか礼を言いたい。関守の役目を曲げてまで、道を開けてくれた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "あの方は、きっと、罰を受けるでしょう。それでも、開けてくださった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_hakama"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "富樫が、酒を持って、松林まで追ってきた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "先ほどは、失礼をいたした。せめて、旅の安全を祈って、一献。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "関守としては、これ以上は申せぬ。ただ、先の道は険しい。お気をつけて行かれよ。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "ありがたく、頂戴いたす。"
+  },
+  {
+   "op": "nar",
+   "text": "弁慶は、大杯を三度、飲み干した。そして、延年の舞を舞った。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "鳴るは滝の水、日は照るとも、絶えず、とうたり。……ここから先は、山伏の舞にて。"
+  },
+  {
+   "op": "nar",
+   "text": "富樫は、舞を見つめながら、静かに盃を置いた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "見事な舞。……あの強力殿にも、よしなにお伝えくだされ。"
+  },
+  {
+   "op": "nar",
+   "text": "関守として敗れたのではない。人として、道を開けたのだ。富樫は、そう自分に言い聞かせた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "三人とも、法を曲げた。その重さを忘れず、進もう。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "一行が先へ行ったのを見届けると、弁慶は、関の方へ向き直り、深々と一礼した。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "富樫殿、このご恩は、生涯忘れませぬ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "さあ、殿を追う。この足で、奥州まで！",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "弁慶は、片足ずつ大きく跳ねるように、六方を踏んで、花道を駆けていった。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
    "op": "show",
    "actor": "nono",
    "pos": "center"
@@ -713,28 +882,22 @@
   {
    "op": "say",
    "actor": "nono",
-   "text": "『勧進帳』、これにて終幕です。",
-   "eyes": "joy",
-   "mouth": "open"
+   "text": "『勧進帳』、これにて幕です。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "残った問いは、忠義を服従ではなく、守るために自ら傷を負う決断として描くこと。",
-   "eyes": "sorrow"
+   "text": "白紙の巻物を読み上げた知恵。主君を打ってまで守ろうとした忠義。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "選ばなかった道も、物語の外で静かに私たちを見ています。",
-   "eyes": "normal"
+   "text": "そして、すべてを見抜いたうえで、道を開けた関守。三人とも、自分の役を、最後まで演じ切りました。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "ご観劇、ありがとうございました。",
-   "eyes": "joy",
-   "mouth": "open"
+   "text": "正しさと情けの間で迷ったとき、富樫のように、人として道を開ける勇気も、ありかもしれません。"
   },
   {
    "op": "hide",
