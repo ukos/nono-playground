@@ -1,770 +1,1100 @@
 {
-  "meta": {
-    "id": "tenpo-rokkasen",
-    "number": 145,
-    "title": "天保六花撰 ―江戸悪党群像―",
-    "original": "古典講談『天保六花撰』（伝統演目）",
-    "category": "講談",
-    "adaptation": "free",
-    "format": "v3",
-    "minutes": 46,
-    "synopsis": "全五景で「悪名で結ばれた者たちにも、それぞれの義理と弱さがある」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
-    "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+ "meta": {
+  "id": "tenpo-rokkasen",
+  "number": 145,
+  "title": "天保六花撰 ―江戸悪党群像―",
+  "original": "古典講談『天保六花撰』（伝統演目）",
+  "category": "講談",
+  "adaptation": "free",
+  "format": "v3",
+  "minutes": 46,
+  "synopsis": "全五景で「悪名で結ばれた者たちにも、それぞれの義理と弱さがある」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "狂言回し",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "河内山宗俊",
-      "actor": "tanurio",
-      "costume": "default"
-    },
-    {
-      "role": "直侍",
-      "actor": "rei_kimono",
-      "costume": "default"
-    },
-    {
-      "role": "三千歳",
-      "actor": "akane",
-      "costume": "default"
-    },
-    {
-      "role": "金子市之丞",
-      "actor": "hayate",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "edo_backstreet": "bg/tenpo-rokkasen-edo_backstreet-2048x1152.png",
-    "palace_disguise": "bg/tenpo-rokkasen-palace_disguise-2048x1152.png",
-    "yoshiwara_rain": "bg/tenpo-rokkasen-yoshiwara_rain-2048x1152.png",
-    "six_paths": "bg/tenpo-rokkasen-six_paths-2048x1152.png",
-    "snow_arrest": "bg/tenpo-rokkasen-snow_arrest-2048x1152.png"
+  {
+   "role": "河内山宗俊",
+   "actor": "tanurio",
+   "costume": "default"
   },
-  "steps": [
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『天保六花撰』。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "講談の一席を、全五景でお届けします。",
-      "mouth": "open",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "この舞台の核は「悪名で結ばれた者たちにも、それぞれの義理と弱さがある」。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "台詞はすべて今夜のための書き下ろしです。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "それでは、幕を開けましょう。",
-      "mouth": "open",
-      "eyes": "joy"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "edo_backstreet",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "edo_backstreet"
-    },
-    {
-      "op": "nar",
-      "text": "第1景「江戸の裏長屋」。悪党と侠客の噂が一つの金策へ集まり始める。"
-    },
-    {
-      "op": "show",
-      "actor": "tanurio",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_kimono",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "「江戸の裏長屋」へ来た。悪党と侠客の噂が一つの金策へ集まり始める。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "ここで黙れば、誰かが代わりに意味を決める。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "私が守りたいのは「悪名で結ばれた者たちにも、それぞれの義理と弱さがある」だ。",
-      "eyes": "anger"
-    },
-    {
-      "op": "nar",
-      "text": "江戸の裏長屋の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "過去は変えられない。だが次の手は選べる。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。悪党と侠客の噂が一つの金策へ集まり始める。"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "悪党と侠客の噂が一つの金策へ集まり始める。その事実から目をそらさない。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "恐れを消すのではなく、恐れたまま進もう。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "私の名ではなく、行いで答えを残す。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "その答えを、次の場面まで持って行こう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "ここで決める。逃げず、相手の声を聞く。",
-      "eyes": "anger"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "ならば私も、その決断の重さを分け合う。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "hide",
-      "actor": "tanurio"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_kimono"
-    },
-    {
-      "op": "bg",
-      "src": "palace_disguise",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "palace_disguise"
-    },
-    {
-      "op": "nar",
-      "text": "第2景「上屋敷の偽上人」。河内山が高僧に化け大名家へ乗り込む。"
-    },
-    {
-      "op": "show",
-      "actor": "akane",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "hayate",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "「上屋敷の偽上人」へ来た。河内山が高僧に化け大名家へ乗り込む。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "hayate",
-      "text": "ここで黙れば、誰かが代わりに意味を決める。"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "私が守りたいのは「悪名で結ばれた者たちにも、それぞれの義理と弱さがある」だ。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "上屋敷の偽上人の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "hayate",
-      "text": "守るという言葉が、誰かの犠牲を隠していないか。"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-      "eyes": "surprise",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "hayate",
-      "text": "過去は変えられない。だが次の手は選べる。"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。河内山が高僧に化け大名家へ乗り込む。"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "河内山が高僧に化け大名家へ乗り込む。その事実から目をそらさない。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "hayate",
-      "text": "恐れを消すのではなく、恐れたまま進もう。"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "私の名ではなく、行いで答えを残す。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "hayate",
-      "text": "その答えを、次の場面まで持って行こう。"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "ここで決める。逃げず、相手の声を聞く。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "hayate",
-      "text": "ならば私も、その決断の重さを分け合う。"
-    },
-    {
-      "op": "hide",
-      "actor": "akane"
-    },
-    {
-      "op": "hide",
-      "actor": "hayate"
-    },
-    {
-      "op": "bg",
-      "src": "yoshiwara_rain",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "yoshiwara_rain"
-    },
-    {
-      "op": "nar",
-      "text": "第3景「吉原の雨」。直侍と三千歳の恋が追手に引き裂かれる。"
-    },
-    {
-      "op": "show",
-      "actor": "tanurio",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_kimono",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "「吉原の雨」へ来た。直侍と三千歳の恋が追手に引き裂かれる。",
-      "eyes": "anger",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "ここで黙れば、誰かが代わりに意味を決める。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "私が守りたいのは「悪名で結ばれた者たちにも、それぞれの義理と弱さがある」だ。",
-      "eyes": "fun"
-    },
-    {
-      "op": "nar",
-      "text": "吉原の雨の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-      "eyes": "crying",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "過去は変えられない。だが次の手は選べる。",
-      "eyes": "closed"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。直侍と三千歳の恋が追手に引き裂かれる。"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "直侍と三千歳の恋が追手に引き裂かれる。その事実から目をそらさない。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "恐れを消すのではなく、恐れたまま進もう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "私の名ではなく、行いで答えを残す。",
-      "eyes": "anger",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "その答えを、次の場面まで持って行こう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "ここで決める。逃げず、相手の声を聞く。",
-      "eyes": "fun"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "ならば私も、その決断の重さを分け合う。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "hide",
-      "actor": "tanurio"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_kimono"
-    },
-    {
-      "op": "bg",
-      "src": "six_paths",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "six_paths"
-    },
-    {
-      "op": "nar",
-      "text": "第4景「六人の分かれ道」。仲間同士の義理が保身と裏切りで揺れる。"
-    },
-    {
-      "op": "show",
-      "actor": "akane",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "hayate",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "「六人の分かれ道」へ来た。仲間同士の義理が保身と裏切りで揺れる。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "hayate",
-      "text": "ここで黙れば、誰かが代わりに意味を決める。"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "私が守りたいのは「悪名で結ばれた者たちにも、それぞれの義理と弱さがある」だ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "六人の分かれ道の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "hayate",
-      "text": "守るという言葉が、誰かの犠牲を隠していないか。"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-      "eyes": "closed",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "hayate",
-      "text": "過去は変えられない。だが次の手は選べる。"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。仲間同士の義理が保身と裏切りで揺れる。"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "仲間同士の義理が保身と裏切りで揺れる。その事実から目をそらさない。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "hayate",
-      "text": "恐れを消すのではなく、恐れたまま進もう。"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "私の名ではなく、行いで答えを残す。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "hayate",
-      "text": "その答えを、次の場面まで持って行こう。"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "ここで決める。逃げず、相手の声を聞く。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "hayate",
-      "text": "ならば私も、その決断の重さを分け合う。"
-    },
-    {
-      "op": "choice",
-      "options": [
-        {
-          "text": "正面から問いかける",
-          "jump": "tenpo-rokkasen_direct"
-        },
-        {
-          "text": "相手の話を最後まで聞く",
-          "jump": "tenpo-rokkasen_listen"
-        }
-      ]
-    },
-    {
-      "op": "label",
-      "id": "tenpo-rokkasen_direct"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "私は正面から問う。曖昧なまま次へは進まない。"
-    },
-    {
-      "op": "jump",
-      "to": "tenpo-rokkasen_merge"
-    },
-    {
-      "op": "label",
-      "id": "tenpo-rokkasen_listen"
-    },
-    {
-      "op": "say",
-      "actor": "hayate",
-      "text": "結論を急がず、相手が何を恐れているかまで聞こう。"
-    },
-    {
-      "op": "label",
-      "id": "tenpo-rokkasen_merge"
-    },
-    {
-      "op": "nar",
-      "text": "選び方は違っても、二人は同じ核心へ戻ってくる。"
-    },
-    {
-      "op": "hide",
-      "actor": "akane"
-    },
-    {
-      "op": "hide",
-      "actor": "hayate"
-    },
-    {
-      "op": "bg",
-      "src": "snow_arrest",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "snow_arrest"
-    },
-    {
-      "op": "nar",
-      "text": "第5景「雪の捕物」。華やかな悪名の後に各人の結末が迫る。"
-    },
-    {
-      "op": "show",
-      "actor": "tanurio",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_kimono",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "「雪の捕物」へ来た。華やかな悪名の後に各人の結末が迫る。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "ここで黙れば、誰かが代わりに意味を決める。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "私が守りたいのは「悪名で結ばれた者たちにも、それぞれの義理と弱さがある」だ。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "雪の捕物の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "過去は変えられない。だが次の手は選べる。",
-      "eyes": "joy"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。華やかな悪名の後に各人の結末が迫る。"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "華やかな悪名の後に各人の結末が迫る。その事実から目をそらさない。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "恐れを消すのではなく、恐れたまま進もう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "私の名ではなく、行いで答えを残す。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "その答えを、次の場面まで持って行こう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "ここで決める。逃げず、相手の声を聞く。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "ならば私も、その決断の重さを分け合う。",
-      "eyes": "closed"
-    },
-    {
-      "op": "hide",
-      "actor": "tanurio"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_kimono"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "物語はここまで。残った問いは「悪名で結ばれた者たちにも、それぞれの義理と弱さがある」。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ご来場、ありがとうございました。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "end"
+  {
+   "role": "直侍",
+   "actor": "rei_kimono",
+   "costume": "default"
+  },
+  {
+   "role": "三千歳",
+   "actor": "akane",
+   "costume": "default"
+  },
+  {
+   "role": "金子市之丞",
+   "actor": "hayate",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "edo_backstreet": "bg/tenpo-rokkasen-edo_backstreet-2048x1152.png",
+  "palace_disguise": "bg/tenpo-rokkasen-palace_disguise-2048x1152.png",
+  "yoshiwara_rain": "bg/tenpo-rokkasen-yoshiwara_rain-2048x1152.png",
+  "six_paths": "bg/tenpo-rokkasen-six_paths-2048x1152.png",
+  "snow_arrest": "bg/tenpo-rokkasen-snow_arrest-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "文政から天保にかけての江戸。御数寄屋坊主の河内山宗俊を頭に、六人の悪党がおりました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "講談『天保六花撰』。六歌仙になぞらえて、悪党六人を花に見立てた、粋で物騒な一席です。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "茶坊主の河内山。御家人くずれの片岡直次郎、通称直侍。吉原の花魁、三千歳。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "剣客の金子市之丞。それに、暗闇の丑松と、森田屋清蔵。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "今夜は、そのうち四人に焦点を当てて、自由に組み直しました。悪党の中にも、それぞれの義理と、弱さがあります。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "edo_backstreet",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "edo_backstreet"
+  },
+  {
+   "op": "nar",
+   "text": "下谷の裏長屋。冬の昼。河内山宗俊の家。茶道具と、酒徳利と、碁盤が、雑然と並んでいる。"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "nar",
+   "text": "碁盤の上には、打ちかけの石が並んでいる。相手は、誰もいない。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "わしは、河内山宗俊。お城の御数寄屋坊主だ。……つまり、茶を淹れるのが仕事の坊主さ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "茶を淹れながら、大名や旗本の、困りごとを聞く。困りごとは、金になる。強請りと、たかりと、ちょっとした人助け。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "先月は、質屋の強欲な主人から、二十両。その金で、長屋の後家さんの、薬代を払った。……残りは、酒になった。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "悪党と呼ばれちゃいるが、弱い者からは取らねえ。取るのは、肥えた狸の腹からだ。……わしも狸だがな。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "宗俊さん、いるかい。片岡直次郎だ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "直侍か。また、博打で負けたな。顔に書いてある。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "負けた。……それだけなら、いいんだが。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "吉原の三千歳に、会いに行けねえ。金がねえ。……あいつ、俺が来ねえと、客を取らねえって、楼主に折檻されてるらしい。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "惚れた弱みか。……御家人の家を潰して、遊び人になって、それでも、女には、まっすぐだな。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "俺の家は、代々の御家人だった。親父が死んで、俺が継いで、三年で、博打に溶かした。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "金を、貸してくれ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "貸さねえ。……仕事を、手伝え。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "宗俊さんの仕事は、ろくなもんじゃねえ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "ろくなもんじゃねえから、金になる。ろくな仕事は、ろくな金にしかならねえ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "hayate",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "夜。長屋に、もう一人、背の高い浪人が入ってきた。剣客の、金子市之丞である。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "剣の稽古の帰りだ。……ここに来ると、酒と線香の匂いがして、妙に落ち着く。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "宗俊どの、上州屋の番頭が、泣きながら、訪ねてきたそうだな。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "耳が早い。……娘のお浪を、出雲の松江侯の上屋敷に、奉公に出した。そしたら、殿さまの、お手つきにされそうになった。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "殿さまは、四十過ぎ。娘は、十七。……屋敷の奥に、閉じ込めてある。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "娘は嫌がって、首をくくろうとした。屋敷から、出してもらえねえ。……親は、二百両出すから、取り返してくれ、と。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "大名屋敷から、女を一人、取り返す。……刀で行くか。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "刀で行ったら、首が飛ぶ。わしは、口で行く。……市之丞、お前は、屋敷の外で、見張っていてくれ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "口で、大名を動かせるのか。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "衣は、寺の知り合いから借りる。駕籠は、森田屋が、用意してくれる。供の小坊主は、直侍に、剃り上げてもらう。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "直侍が、頭を剃るのか。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "三千歳に会う金のためなら、坊主にもなるさ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "二百両のうち、百両は、親が出せるだけの金だ。後の百両は、借金してまで、こしらえた。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "それを、取るのか。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "半分は、返す。……わしは、狸だが、骨までは、しゃぶらねえ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "大名は、もっと偉い者の言うことしか聞かねえ。……なら、もっと偉い者に、化ければいい。"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "hayate"
+  },
+  {
+   "op": "bg",
+   "src": "palace_disguise",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "palace_disguise"
+  },
+  {
+   "op": "nar",
+   "text": "松江侯の上屋敷。玄関。紫の衣をまとった、恰幅のいい高僧が、駕籠から降り立った。"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "拙僧は、上野、東叡山寛永寺の、宮さまのお使い。北谷道海と申す。……殿に、お目通りを願いたい。"
+  },
+  {
+   "op": "nar",
+   "text": "屋敷じゅうが、震え上がった。寛永寺の宮さまは、天皇家の血を引く、将軍家にとっても、雲の上のお方である。"
+  },
+  {
+   "op": "nar",
+   "text": "供の小坊主に化けた直侍が、うつむいて、笑いをこらえていた。剃りたての頭が、寒そうだった。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "堂々としておれ。嘘は、声の大きさで、本当になる。……袖の中の手は、震えておるがな。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "奥の書院。松江侯が、平伏して、使僧を迎えた。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "拙僧、宮さまのご内意を伝えに参ったのみ。茶も菓子も、お気遣いなく。……ほう、上方の羊羹でございますか。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "殿、宮さまは、大層ご心配でございます。殿のお屋敷に、町家の娘が一人、無理に留め置かれておる、と。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "宮さまのお耳に入ったからには、このまま捨て置けば、ご公儀の知るところとなりましょう。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "いや、殿のお心を疑っておるわけでは、ございませぬ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "ただ、宮さまは、慈悲深いお方ゆえ、娘の親の嘆きを、聞き捨てにできぬ、と。"
+  },
+  {
+   "op": "nar",
+   "text": "松江侯は、真っ青になり、すぐに娘を親元へ帰すと誓った。そのうえ、使僧に、山吹色の菓子折りまで差し出した。"
+  },
+  {
+   "op": "nar",
+   "text": "娘のお浪は、その日のうちに、裏門から、駕籠で、親元へ送り届けられた。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "これは、宮さまへの、お届け物として、お預かりいたしましょう。……拙僧が、責任をもって。"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "nar",
+   "text": "玄関。役目を終えた使僧が、駕籠に乗ろうとしたとき、家老の北村大膳が、その顔を、じっと見つめた。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……ん？",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "大膳は、叫んだ。その左の頬のほくろ、見覚えがある。お城の茶坊主、河内山宗俊ではないか、と。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……ばれたか。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "そうよ。わしは、河内山だ。……だが、大膳どの、騒いでいいのか。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "大名家の殿さまが、町娘を手籠めにしようとして、坊主にまんまと騙された。……そんな話が、お城で広まってもいいのかね。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "わしを捕まえれば、この話は、明日には、江戸じゅうの瓦版だ。……黙って帰せば、誰も、何も知らねえ。"
+  },
+  {
+   "op": "nar",
+   "text": "大膳は、言葉を失った。河内山は、高笑いをして、駕籠に乗り込んだ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "大膳どの、あんたは、殿さまの顔を立てた。わしは、娘の顔を立てた。……今日のところは、引き分けだ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "馬鹿め、と言いたいところだが、言わねえ。……娘一人、戻れば、それでいい。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "bg",
+   "src": "yoshiwara_rain",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "yoshiwara_rain"
+  },
+  {
+   "op": "nar",
+   "text": "吉原、大口屋の二階。雨。花魁三千歳の部屋。行灯の灯りが、雨の音に合わせて、揺れている。"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "left"
+  },
+  {
+   "op": "nar",
+   "text": "三千歳は、吉原でも名の通った花魁だった。指名の客は多かったが、直侍の来る夜だけは、ほかの客を断っていた。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "直さん、ひと月も来ないで。……あたしは、毎晩、格子の向こうを、見ていたのに。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "悪かった。金が、なかった。……今夜は、宗俊さんの仕事の分け前で、来られた。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "また、悪いことをしたのね。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "悪いことで稼いだ金で、お前に会いに来る。……それしか、できねえ男だ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "頭を、剃った。……似合うか。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "お坊さんの直さん。……拝みたくなるわ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "いいの。来てくれれば。……直さん、あたしを、ここから連れて逃げて。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "逃げれば、お前は、足抜けの罪だ。捕まれば、もっと、ひどい目にあう。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "今だって、ひどい目にあってるわ。直さんが来ない夜は、楼主に、煙管で、手を打たれるの。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "煙管で……。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "ほら、ここ。……まだ、赤いでしょう。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "あの楼主……！",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "怒らないで。怒っても、直さんが、損するだけ。……あたしは、直さんが来てくれるだけで、我慢できる。"
+  },
+  {
+   "op": "nar",
+   "text": "階下から、乱暴な足音が上がってきた。楼主の手下が、障子越しに、怒鳴った。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "直さん、隠れて。……あんた、お尋ね者でしょう。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "知ってたのか。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "知ってたわ。……それでも、来てくれるのを、待ってたのよ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "手下の足音は、隣の部屋の客を怒鳴りつけて、また降りていった。人違いであった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……命拾いした。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "今夜は、帰さない。雨が、やむまで。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "bg",
+   "src": "six_paths",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "six_paths"
+  },
+  {
+   "op": "nar",
+   "text": "下谷の河内山の家。夜。仲間たちが、それぞれの顔で、集まっている。"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "hayate",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "北村大膳が、黙っていられなかったらしい。……殿さまの恥より、自分の腹の虫が、大事だったか。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "松江侯の一件で、町奉行所が、わしを探し始めた。……悪いが、しばらく、皆、散り散りになってくれ。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "宗俊どの、わしは、残る。あんたを、ひとりにはしておけぬ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "剣術の先生が、茶坊主の用心棒か。安くつくな。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "宗俊さん、俺は、三千歳を連れて、逃げようと思う。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "吉原から、足抜けか。……直侍、それは、罪が重い。三千歳のほうが、ずっと、重い罰を受けるぞ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "分かってる。……分かってるが、もう、あいつの手の痣を、見ていられねえ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "森田屋は、もう、上方へ逃がした。あいつには、女房と子がいる。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "丑松が、怪しい。……あいつは、金のためなら、仲間でも売る。奉行所の手先と、酒を飲んでいたのを、見た者がいる。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "丑松か。……あいつも、悪党の仲間だ。悪党は、裏切るもんさ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "だが、わしらは、互いに、裏切らねえと、口に出して、約束したことは、一度もねえ。……裏切られても、文句は言えねえ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "宗俊どのは、最初から、こうなることが、分かっていたのだろう。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "分かってて、やめられねえのが、悪党の悪党たるところさ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "宗俊さん、あんたは、どうして、悪党になったんだ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "さあな。茶を淹れるのに、飽きたのさ。……いや、茶を淹れても、誰も、わしの顔を見なかったからかもしれねえ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "悪いことをしたら、皆が、わしの顔を見た。……それが、うれしかったのかもしれねえ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "hayate"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "hayate",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "夜更け。長屋の外。雪が、ちらつき始めた。直侍と市之丞が、二人きりで、立っている。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "直侍、三千歳を連れて逃げるなら、わしが、途中まで、守ってやる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "先生には、関係ねえ話だ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "先生、三千歳のこと、昔から、知ってるんだろう。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "わしにも、昔、惚れた女がいた。……守れなかった。だから、人の恋路には、甘いのさ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "吉原の格子越しに、何度か、顔を見た。あの女は、お前の名前しか、呼ばなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "そんなこと、ひと言も、言わなかったじゃねえか。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……ありがとう。でも、これは、俺ひとりで、片をつける。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "直侍は、三千歳に、ひと目会いに行く",
+     "jump": "m_meet"
+    },
+    {
+     "text": "直侍は、会わずに江戸を離れようとする",
+     "jump": "m_leave"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_meet"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "江戸を離れる前に、一度だけ。……入谷の寮で、あいつは、病を養っているそうだ。"
+  },
+  {
+   "op": "jump",
+   "to": "m_iriya"
+  },
+  {
+   "op": "label",
+   "id": "m_leave"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "会わずに行く。……そう決めたのに、足が、入谷のほうへ向いちまう。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "それでいい。決めたとおりに歩ける奴は、最初から、悪党にはならん。"
+  },
+  {
+   "op": "label",
+   "id": "m_iriya"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "hayate"
+  },
+  {
+   "op": "bg",
+   "src": "snow_arrest",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "snow_arrest"
+  },
+  {
+   "op": "nar",
+   "text": "入谷。雪の夜。田んぼの中の、小さなそば屋。直侍は、ここで、三千歳の寮へ手紙を届けてもらった。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "left"
+  },
+  {
+   "op": "nar",
+   "text": "そば屋の親父は、雪の中の客の顔を、じろりと見た。お尋ね者の人相書きに、似ていなくもなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "そばを一杯。……あったかいのを。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "雪の入谷。……あいつのいる寮は、この先の、梅の木のある家だ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "丑松が、俺を売ったら、ここらに、捕り方が来る。……それでも、来ちまった。"
+  },
+  {
+   "op": "nar",
+   "text": "寮の離れ。三千歳は、病で、床に伏せていた。直侍が、雪を払って、入ってきた。"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "直さん……！　来てくれたのね。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "来ちまった。……しばらく、江戸を離れる。その前に、顔を見たかった。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "いや。行かないで。行くなら、あたしも、連れていって。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "病の体で、雪の道は、歩けねえ。……治ったら、迎えに来る。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "嘘。直さんの嘘は、すぐ分かるのよ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……ああ、嘘だ。たぶん、もう、来られねえ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "それでも、来るって、言って。……嘘でいいから。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "宗俊さんに、教わったんだ。嘘は、声の大きさで、本当になるって。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "来る。必ず、来る。春になったら、梅が咲いたら。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "梅……。この寮の庭の梅、つぼみが、ふくらんでるのよ。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "外で、呼子の笛が鳴った。雪を踏む、大勢の足音。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "捕り方……！",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "丑松め。……三千歳、達者でな。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "雪の田んぼ道。提灯の群れが、直侍を囲んだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "御家人くずれの片岡直次郎。逃げも隠れもしねえ。……縄を打ちな。"
+  },
+  {
+   "op": "nar",
+   "text": "捕り方の後ろに、丑松の顔があった。直侍は、ちらりと見て、笑った。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "丑松、達者でな。……お前も、いつか、誰かに売られるぞ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "一つだけ頼む。……あの寮の女は、何も知らねえ。病人だ。手を出すな。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "直侍は、縄にかけられた。その後ろ姿を、寮の窓から、三千歳が、いつまでも見ていた。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "hayate",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "数日後。下谷の長屋。河内山の家にも、捕り方が迫っていた。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "宗俊どの、裏から逃げろ。わしが、ここで、食い止める。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "いや、逃げねえ。……逃げたら、直侍に、顔向けできねえ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "それに、わしは、太りすぎて、裏の塀は越えられねえ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "冗談を言っている場合か。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "市之丞、お前は、逃げろ。剣客が捕まったら、斬り合いになる。斬り合いになったら、お前は、本物の人殺しだ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "宗俊どのは、何人の人を、助けた。上州屋の娘、長屋の後家、借金で首の回らなかった、あの職人。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "数えたことはねえ。……数えたら、善人になっちまう。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "わしらは、悪党だ。だが、人殺しじゃねえ。……そこだけは、守ってくれ。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "……宗俊どの。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "市之丞は、深く一礼して、裏口から、雪の中へ消えた。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "茶を一服、淹れてから、行く。捕り方の旦那衆も、飲んでいきなせえ。……お城仕込みの、いい茶だ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "悪名ってのは、いいもんだ。死んだあとも、芝居になる。……わしの役は、狸のような役者に、やってもらいてえな。",
+   "eyes": "joy"
+  },
+  {
+   "op": "nar",
+   "text": "河内山宗俊は、牢に入れられ、ほどなく、牢の中で死んだと伝えられる。"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "hayate"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "天保六花撰、江戸の悪党たちの一席。これにて、花を散らせていただきます。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "大名を騙して娘を取り返した坊主。惚れた女の痣に耐えられなかった御家人くずれ。人を斬らずに逃げた剣客。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "悪名で結ばれた者たちにも、それぞれの義理と、それぞれの弱さがありました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "河内山の言ったとおり、この悪党たちは、のちに歌舞伎の舞台で、何度も、華やかに蘇ることになります。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

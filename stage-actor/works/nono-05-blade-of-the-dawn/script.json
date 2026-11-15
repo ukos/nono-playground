@@ -1,0 +1,993 @@
+{
+  "meta": {
+    "id": "nono-05-blade-of-the-dawn",
+    "title": "第五章　黄昏の城、暁の剣",
+    "original": "アクションRPG『NONO: Blade of the Dawn』統合仕様書・公式攻略本",
+    "adaptation": "moderate",
+    "format": "v3",
+    "minutes": 38,
+    "synopsis": "四宝で結界を解いたnonoたちは、最後の砦を経て黄昏の城へ突入する。ヨル、タヌリオ、アカネの裏切りと蚩尤の二形態を越え、ユイの覚醒を仲間の絆で制御し、世界へ夜明けを取り戻す。",
+    "note": "Stage Actor向け連作舞台化。筋・固有名・攻略要素は資料に基づき、台詞とナレーションは全て本上演版の書き下ろし。第五章のユイ覚醒の内面劇は舞台独自の補助表現。 覚醒三姿はゲーム本編の新事件ではなく、ユイが力を制御する内面を可視化した舞台上の演出。 原典は発注者提供のオリジナルIPとして扱う。公開・配布時の権利確認は運用者が行う。"
+  },
+  "cast": [
+    {
+      "role": "nono（旅人／狂言回し）",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "ユイ",
+      "actor": "yui",
+      "costume": "default"
+    },
+    {
+      "role": "レイ",
+      "actor": "rei",
+      "costume": "default"
+    },
+    {
+      "role": "ユイ・覚醒モード",
+      "actor": "yui_red",
+      "costume": "default"
+    },
+    {
+      "role": "ユイ・覚醒暴走モード",
+      "actor": "yui_wind",
+      "costume": "default"
+    },
+    {
+      "role": "ユイ・オリジン（覚醒の内面像）",
+      "actor": "yui_origin",
+      "costume": "default"
+    },
+    {
+      "role": "最後の守り人",
+      "actor": "extra_elder",
+      "costume": "default"
+    },
+    {
+      "role": "黒猫のヨル",
+      "actor": "yoru",
+      "costume": "default"
+    },
+    {
+      "role": "狸のタヌリオ",
+      "actor": "tanurio",
+      "costume": "default"
+    },
+    {
+      "role": "狐のアカネ",
+      "actor": "akane",
+      "costume": "default"
+    },
+    {
+      "role": "卯のシロー",
+      "actor": "shiro",
+      "costume": "default"
+    },
+    {
+      "role": "丑のイワオ",
+      "actor": "iwao",
+      "costume": "default"
+    },
+    {
+      "role": "辰のホムラ",
+      "actor": "homura",
+      "costume": "default"
+    },
+    {
+      "role": "未のメイ",
+      "actor": "mei",
+      "costume": "default"
+    },
+    {
+      "role": "戌のクロガネ",
+      "actor": "kurogane",
+      "costume": "default"
+    },
+    {
+      "role": "大悪魔・蚩尤 第一形態【エネミー追加名】",
+      "actor": "enemy_shiyu",
+      "costume": "default"
+    },
+    {
+      "role": "大悪魔・蚩尤 第二形態／影のnono【エネミー追加名】",
+      "actor": "enemy_shiyu_shadow",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "barrier_gate": "bg/ch5_01_barrier_gate-2048x1152.png",
+    "last_fort": "bg/ch5_02_last_fort-2048x1152.png",
+    "endland": "bg/ch5_03_endland-2048x1152.png",
+    "twilight_castle": "bg/ch5_04_twilight_castle-2048x1152.png",
+    "dark_hall": "bg/ch5_05_dark_hall-2048x1152.png",
+    "throne_room": "bg/ch5_06_throne_room-2048x1152.png",
+    "shiyu_first_form": "bg/ch5_07_shiyu_first_form-2048x1152.png",
+    "shiyu_shadow_form": "bg/ch5_08_shiyu_shadow_form-2048x1152.png",
+    "yui_awakened_light": "bg/ch5_09_yui_awakened_light-2048x1152.png",
+    "world_dawn": "bg/ch5_10_world_dawn-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "bg",
+      "src": "barrier_gate",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "barrier_gate"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "rei",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "紫の幕の前で、四つの宝がそれぞれの方角を向く。"
+    },
+    {
+      "op": "nar",
+      "text": "ヒレ、紋章、足袋、羽衣が四つの窪みで同時に光る。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "海は下から、炎は南から、忍びは東から、空は上から。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "四方向の力が結び目をほどく。中央を斬るな。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "壊す門ではない。正しい鍵を待っていた門だ。"
+    },
+    {
+      "op": "nar",
+      "text": "紫の光幕が音もなく左右へ分かれ、赤黒い空が現れる。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "ここから敵の力も刃も二倍です。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "恐怖を半分にする道具はない。歩幅だけ揃えろ。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "三人の一歩なら、霧に三つの穴を開けられる。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "rei"
+    },
+    {
+      "op": "bg",
+      "src": "last_fort",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "last_fort"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "八つの宝を集めたか。蚩尤の命は七十まで落ちる。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "命を数で呼ぶのは好きじゃない。でも備えは嘘をつかない。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "城の二室目は闇。燭台を全部灯すまで壁も敵じゃ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "仲間は倒れても六秒で立つ。私が早めます。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "ユイよ、癒しの光を自分にも残せ。赤い風が見える。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "私の中の力です。まだ、名を呼べば戻れます。"
+    },
+    {
+      "op": "nar",
+      "text": "守り人は白い布へ城の四室を、線だけで描き出す。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "地図にない道は、仲間の声で測ります。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "bg",
+      "src": "endland",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "endland"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "瘴気の沼を避け、骸骨の剣が灰の中から伸びる。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "待たせたね。今度は、誰の名も霧に預けない。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "シロー。十五人の名は、剣の中で朝を待っている。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "闇オオカミが右。死神が左の霧で鎌を上げた。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "長い刀で右を払う。nonoは左の光を切れ。"
+    },
+    {
+      "op": "nar",
+      "text": "暁光斬が灰を裂き、城へ続く黒い石道を照らす。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "光は敵だけでなく、帰り道まで残す。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "その刃なら、夜に名前を預けても朝に返ってきそうだ。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "rei"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "bg",
+      "src": "twilight_castle",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "twilight_castle"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "iwao",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "門は俺が叩く。地面の兄弟が返事をするまでだ。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "飛ぶ闇弾は盾へ。半分は受け、半分は床へ逃がす。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "重戦士と騎士が並ぶと、城門の方が小さく見える。"
+    },
+    {
+      "op": "nar",
+      "text": "大斧の震動で蝶番が浮き、盾の縁が紫弾を逸らす。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "軽口が出るなら肺は灰に負けていない。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "中へ入れば背後を閉じる。戻る扉ではない。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "戻るなら夜明けの側から、この門を見に来る。"
+    },
+    {
+      "op": "nar",
+      "text": "鉄門が内へ倒れ、湿った闇の回廊が口を開く。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "iwao"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "bg",
+      "src": "dark_hall",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "dark_hall"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "homura",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "mei",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "homura",
+      "text": "俺の炎波は広すぎる。燭台だけを狙うなら一本に絞る。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "私の光球を芯の上へ止めます。そこへ炎を重ねて。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "火と祈りで、一つずつ闇に居場所を返す。"
+    },
+    {
+      "op": "nar",
+      "text": "四つの燭台が灯り、濡れた壁から無数の傷が浮かぶ。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "壁の傷は爪ではありません。逃げた人の指跡です。"
+    },
+    {
+      "op": "say",
+      "actor": "homura",
+      "text": "城を燃やすのは後だ。先に残った声を外へ出す。"
+    },
+    {
+      "op": "nar",
+      "text": "奥の板へ石が乗り、玉座への扉が重く開く。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "怒りを燃料にしても、行き先は選べる。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "homura"
+    },
+    {
+      "op": "hide",
+      "actor": "mei"
+    },
+    {
+      "op": "bg",
+      "src": "throne_room",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "throne_room"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yoru",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "enemy_shiyu",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "六つの武器が玉座の周りで鳴り、牛頭の巨体が立つ。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_shiyu",
+      "text": "十五ノ名、皆コノ霧デ一ツニ潰ス。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "nono、財布は盗まなかった。代わりに夜を選ぶ。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ヨル、君の名は剣から消えない。だから本人へ聞く。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "朝は影を薄くする。薄い影に居場所はない。"
+    },
+    {
+      "op": "nar",
+      "text": "タヌリオとアカネが蚩尤の左右へ現れ、紫火を掲げる。"
+    },
+    {
+      "op": "hide",
+      "actor": "yoru"
+    },
+    {
+      "op": "hide",
+      "actor": "enemy_shiyu"
+    },
+    {
+      "op": "show",
+      "actor": "tanurio",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "akane",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "分身で逃げ道は作れる。でも今夜は、霧の側へ化ける。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "狐火は朝に消える。消える前に、夜の値打ちを確かめたい。"
+    },
+    {
+      "op": "hide",
+      "actor": "tanurio"
+    },
+    {
+      "op": "hide",
+      "actor": "akane"
+    },
+    {
+      "op": "show",
+      "actor": "yoru",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "enemy_shiyu",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_shiyu",
+      "text": "狐、狸、黒猫。裏口ヲ知ル者ハ夜ノ家臣ダ。"
+    },
+    {
+      "op": "choice",
+      "options": [
+        {
+          "text": "三人へ刃を向けない",
+          "jump": "ch5_spare"
+        },
+        {
+          "text": "退路だけを断つ",
+          "jump": "ch5_block"
+        }
+      ]
+    },
+    {
+      "op": "label",
+      "id": "ch5_spare"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "剣は蚩尤へ。君たちの答えは、その後で聞く。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "戦場で待つなんて、残酷にまぶしい。"
+    },
+    {
+      "op": "jump",
+      "to": "ch5_betray_join"
+    },
+    {
+      "op": "label",
+      "id": "ch5_block"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "逃げ道は閉じる。でも戻る道は三人分残す。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "違う道を同じ幅で残す。君らしい罠だ。"
+    },
+    {
+      "op": "label",
+      "id": "ch5_betray_join"
+    },
+    {
+      "op": "nar",
+      "text": "暁の剣が玉座を照らし、第一の衝撃波が八方へ走る。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "yoru"
+    },
+    {
+      "op": "hide",
+      "actor": "enemy_shiyu"
+    },
+    {
+      "op": "bg",
+      "src": "shiyu_first_form",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "shiyu_first_form"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "enemy_shiyu",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_shiyu",
+      "text": "戟、斧、剣、盾、棍、弓！　六腕ニ死角ナシ！"
+    },
+    {
+      "op": "nar",
+      "text": "八方向の弾が十二へ増え、濃霧から骸骨が立ち上がる。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "七秒ごとに癒します。呼ばれた兄弟は仲間に任せて！"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "弾の隙間と一緒に回る。中心ほど、歩幅は小さく！"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_shiyu",
+      "text": "宝デ削ッタ命ナド、霧ガ埋メル！"
+    },
+    {
+      "op": "nar",
+      "text": "イワオの地響き、ホムラの炎波、メイの光が霧を押し返す。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "nono、ハートを満たしました。暁光斬を！"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "十五の技を一つの光へ。黄昏の芯まで届け！",
+      "eyes": "anger"
+    },
+    {
+      "op": "nar",
+      "text": "巨体が崩れ、黒煙の中からnonoと同じ背丈の影が立つ。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "enemy_shiyu"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "bg",
+      "src": "shiyu_shadow_form",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "shiyu_shadow_form"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "enemy_shiyu_shadow",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "rei",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_shiyu_shadow",
+      "text": "我ハ、勝ツタビ置キ去リニシタ汝ノ影。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "僕の姿を着ても、歩いた理由までは盗めない。"
+    },
+    {
+      "op": "nar",
+      "text": "影の剣が突進し、三本の槍線と七方向の黒羽が交差する。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "突進は三・六秒、槍は二・八秒。重なる前に左へ。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_shiyu_shadow",
+      "text": "数エル声カラ、先ニ切ル。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "レイの声は影から来る。君の刃より一歩深い。"
+    },
+    {
+      "op": "nar",
+      "text": "雷遁が槍線を止め、暁の剣が黒い翼を一枚断つ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "ユイの魔力が跳ね上がる。赤い風が制御を外れた。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "蚩尤より先に、ユイを一人にしない。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "enemy_shiyu_shadow"
+    },
+    {
+      "op": "hide",
+      "actor": "rei"
+    },
+    {
+      "op": "bg",
+      "src": "yui_awakened_light",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "yui_awakened_light"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui_wind",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "yui_origin",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "ユイの金髪が風にほどけ、赤い嵐が玉座を包む。"
+    },
+    {
+      "op": "say",
+      "actor": "yui_wind",
+      "text": "近づかないで。癒しも祈りも、今は刃になります。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "はじまりの洞窟で、君は錆びた剣の眠りを見抜いた。"
+    },
+    {
+      "op": "say",
+      "actor": "yui_origin",
+      "text": "その声を思い出して。力より先に選んだ、あなたの声を。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "yui_wind",
+      "text": "私の中に、私より古い光がいる……。"
+    },
+    {
+      "op": "say",
+      "actor": "yui_origin",
+      "text": "赤い風は檻ではない。行き先を決める帆です。",
+      "eyes": "joy"
+    },
+    {
+      "op": "nar",
+      "text": "嵐が四本の光へ畳まれ、ユイの姿が紅の静けさへ変わる。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "戻ってきたら、最後の一歩を一緒に。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "yui_wind"
+    },
+    {
+      "op": "hide",
+      "actor": "yui_origin"
+    },
+    {
+      "op": "bg",
+      "src": "world_dawn",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "world_dawn"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui_red",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "rei",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "紅のユイが癒しの輪を広げ、影の蚩尤の傷が白く開く。"
+    },
+    {
+      "op": "say",
+      "actor": "yui_red",
+      "text": "この光は暴れません。皆の名を一つずつ照らします。"
+    },
+    {
+      "op": "nar",
+      "text": "影からレイの声が飛ぶ。nonoは右半歩、ユイは左の輪を閉じる。"
+    },
+    {
+      "op": "nar",
+      "text": "三人の動きが重なり、暁光斬が影の刀と槍を同時に断つ。"
+    },
+    {
+      "op": "nar",
+      "text": "影の蚩尤が『朝ハ……霧ノ、死ダ……』と刀を振り下ろす。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "朝は死ではない。見えなかった道に、色が戻る時だ。"
+    },
+    {
+      "op": "nar",
+      "text": "黒い翼が光の粒へ変わり、城の裂け目から本物の朝日が差す。"
+    },
+    {
+      "op": "say",
+      "actor": "yui_red",
+      "text": "終末の大地の空が、青を思い出しています。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "狐、狸、黒猫も外に出た。三人分の戻る道を使った。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "剣に刻んだ名は、勝敗ではなく帰る場所だった。"
+    },
+    {
+      "op": "nar",
+      "text": "十六の地から霧が引き、海、雪、森、火山が同じ朝を迎える。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "村の二度鐘で始まった旅を、十六の地の朝鐘で閉じよう。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "けれど夜明けの先には、まだ六つの空の島が浮かんでいる。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "yui_red"
+    },
+    {
+      "op": "hide",
+      "actor": "rei"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

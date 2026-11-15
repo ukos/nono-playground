@@ -9,7 +9,7 @@
   "format": "v3",
   "minutes": 40,
   "synopsis": "全五景で「大義のためでも、他人の心を道具にする痛みは残る」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
-  "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
  },
  "cast": [
   {
@@ -19,7 +19,7 @@
   },
   {
    "role": "岡野金右衛門",
-   "actor": "rei_casual",
+   "actor": "rei_hakama",
    "costume": "default"
   },
   {
@@ -34,7 +34,7 @@
   },
   {
    "role": "大石内蔵助",
-   "actor": "rei_kimono",
+   "actor": "iwao",
    "costume": "default"
   }
  ],
@@ -58,33 +58,22 @@
   {
    "op": "say",
    "actor": "nono",
-   "text": "ようこそ、NONO座へ。本日の演目は『赤穂義士伝・岡野金右衛門恋の絵図面取り』。",
-   "eyes": "normal"
+   "text": "赤穂義士伝の中にも、色恋の一席がございます。岡野金右衛門、恋の絵図面取り。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "講談の一席を、全五景でお届けします。",
-   "mouth": "open",
-   "eyes": "normal"
+   "text": "吉良上野介の屋敷は、本所に移ってから、すっかり建て直されておりました。どこに部屋があり、どこに寝所があるのか。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "この舞台の核は「大義のためでも、他人の心を道具にする痛みは残る」。",
-   "eyes": "sorrow"
+   "text": "討ち入るには、屋敷の絵図面が要ります。その図面を持っているのは、普請を請け負った大工の棟梁。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "台詞はすべて今夜のための書き下ろしです。"
-  },
-  {
-   "op": "say",
-   "actor": "nono",
-   "text": "それでは、幕を開けましょう。",
-   "mouth": "open",
-   "eyes": "joy"
+   "text": "そして棟梁には、年頃の娘がいました。……大義と、一人の娘の真心。その間で揺れる、若い義士のお話です。"
   },
   {
    "op": "hide",
@@ -101,11 +90,120 @@
   },
   {
    "op": "nar",
-   "text": "第1景「町人姿の潜伏」。岡野が大工の娘お艶へ近づき吉良邸の情報を探る。"
+   "text": "元禄十五年、秋。本所。吉良邸の裏手の町。小間物屋の店先に、町人姿の若い男が座っている。"
   },
   {
    "op": "show",
-   "actor": "rei_casual",
+   "actor": "rei_hakama",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "今のわしは、小間物屋の手代、九十郎。……刀の代わりに、櫛とかんざしを売っておる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "岡野金右衛門、二十三。父は、赤穂で病に倒れ、討ち入りの日を待たずに死んだ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "父の分まで、と思うておる。だが、わしにできることは、まだ何もない。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "隣の米屋の主人に、愛想笑いを覚えた。釣り銭を間違えて、三度、叱られた。"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "金右衛門、商いは、どうだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "大石さま。……櫛が三枚、売れました。小間物屋の才は、あるようでございます。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "それは、上々。……だが、売ってほしいのは、櫛ではない。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "吉良どのの屋敷は、塀が高く、長屋が囲んでいる。家来は百人とも、二百人とも。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "吉良の屋敷を建て直した大工の棟梁、平兵衛。その家が、この裏にある。娘が一人。名は、お艶。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "娘……。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "棟梁は、口が堅い。だが、娘の口は、父親ほど固くはなかろう。……近づいてほしい。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "大石さま、わたくしは、女子と話すのが、何よりも苦手でございます。剣の稽古なら、いくらでも。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "だから、お前に頼む。慣れた者は、すぐ嘘がばれる。……お前の下手さが、本物に見える。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "……人の娘の心を、道具に、するのでございますか。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "そうだ。……わしも、それを、お前にさせることを、一生、恥じるだろう。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "……承知いたしました。せめて、嘘は、少なく。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "それでいい。嘘は、少ないほど、ばれぬ。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_hakama"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "show",
+   "actor": "rei_hakama",
    "pos": "left"
   },
   {
@@ -114,100 +212,85 @@
    "pos": "right"
   },
   {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "「町人姿の潜伏」へ来た。岡野が大工の娘お艶へ近づき吉良邸の情報を探る。",
-   "eyes": "normal"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "ここで黙れば、誰かが代わりに意味を決める。",
-   "eyes": "joy"
-  },
-  {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "私が守りたいのは「大義のためでも、他人の心を道具にする痛みは残る」だ。",
-   "eyes": "anger"
-  },
-  {
    "op": "nar",
-   "text": "町人姿の潜伏の空気が変わり、二人は言葉の裏を測る。"
+   "text": "数日後。小間物屋の店先に、若い娘が立ち寄った。艶やかな黒髪に、古い木の櫛を挿している。"
   },
   {
    "op": "say",
    "actor": "yui",
-   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
-   "eyes": "sorrow"
+   "text": "そのかんざし、見せていただけますか。……あら、高い。やめておきます。"
   },
   {
    "op": "say",
-   "actor": "rei_casual",
-   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+   "actor": "rei_hakama",
+   "text": "お、お客さま、その、櫛のほうが、お似合いかと。……いや、今の櫛も、よくお似合いで。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "ふふ、どっちですの。",
    "eyes": "fun"
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "過去は変えられない。だが次の手は選べる。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "nar",
-   "text": "遠くの音が途切れる。岡野が大工の娘お艶へ近づき吉良邸の情報を探る。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "岡野が大工の娘お艶へ近づき吉良邸の情報を探る。その事実から目をそらさない。",
-   "eyes": "crying"
+   "actor": "rei_hakama",
+   "text": "ど、どっちも、で、ございます。"
   },
   {
    "op": "say",
    "actor": "yui",
-   "text": "恐れを消すのではなく、恐れたまま進もう。",
-   "eyes": "closed"
-  },
-  {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "私の名ではなく、行いで答えを残す。",
-   "eyes": "normal"
-  },
-  {
-   "op": "nar",
-   "text": "答えを急がず、選んだ手段の代価を確かめる。"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "その答えを、次の場面まで持って行こう。",
+   "text": "正直な手代さん。……この櫛は、亡くなった母の形見なんです。父が、仕事の余り木で、削ってくれた。",
    "eyes": "joy"
   },
   {
    "op": "say",
-   "actor": "rei_casual",
-   "text": "ここで決める。逃げず、相手の声を聞く。",
-   "eyes": "anger"
-  },
-  {
-   "op": "nar",
-   "text": "残された沈黙が、次の行動を促す。"
+   "actor": "rei_hakama",
+   "text": "木目が、きれいでございます。……大工さんの、お嬢さんで。"
   },
   {
    "op": "say",
    "actor": "yui",
-   "text": "ならば私も、その決断の重さを分け合う。",
-   "eyes": "sorrow"
+   "text": "ええ。父は、平兵衛。このあたりじゃ、ちょっと名の通った棟梁なんですよ。"
   },
   {
-   "op": "hide",
-   "actor": "rei_casual"
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "平兵衛……大石さまの言っていた、棟梁の名だ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "手代さん、お名前は。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "九十郎と、申します。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "九十郎さん。また、寄りますね。……売れ残りのかんざしでも、見に。"
   },
   {
    "op": "hide",
    "actor": "yui"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "名前を聞かれて、嘘を言った。……櫛の木目を褒めたのは、嘘ではなかったのに。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "明日も来ると言った。来なければいい、と思った。……来てほしい、とも思った。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_hakama"
   },
   {
    "op": "bg",
@@ -220,116 +303,195 @@
   },
   {
    "op": "nar",
-   "text": "第2景「橋の逢瀬」。本当の情と任務の嘘が同じ会話に混じる。"
+   "text": "一の橋のたもと。夕暮れ。川面に、灯りが揺れている。九十郎とお艶が、並んで川を見ている。"
   },
   {
    "op": "show",
-   "actor": "extra_craftsman",
+   "actor": "rei_hakama",
    "pos": "left"
   },
   {
    "op": "show",
-   "actor": "rei_kimono",
+   "actor": "yui",
    "pos": "right"
   },
   {
    "op": "say",
-   "actor": "extra_craftsman",
-   "text": "「橋の逢瀬」へ来た。本当の情と任務の嘘が同じ会話に混じる。",
-   "eyes": "joy",
-   "mouth": "open"
+   "actor": "yui",
+   "text": "九十郎さん、また、黙ってる。いつも、わたしばかり、しゃべってるわ。"
   },
   {
    "op": "say",
-   "actor": "rei_kimono",
-   "text": "ここで黙れば、誰かが代わりに意味を決める。",
-   "eyes": "anger"
+   "actor": "rei_hakama",
+   "text": "お艶さんの話を、聞いているのが、好きなので。"
   },
   {
    "op": "say",
-   "actor": "extra_craftsman",
-   "text": "私が守りたいのは「大義のためでも、他人の心を道具にする痛みは残る」だ。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "nar",
-   "text": "橋の逢瀬の空気が変わり、二人は言葉の裏を測る。"
+   "actor": "yui",
+   "text": "そう言われると、もっとしゃべりたくなっちゃう。",
+   "eyes": "joy"
   },
   {
    "op": "say",
-   "actor": "rei_kimono",
-   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+   "actor": "yui",
+   "text": "今日はね、魚屋のおかみさんが、猫に鯛を取られて、町じゅう追いかけたの。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "それは、猫の勝ちですね。",
    "eyes": "fun"
   },
   {
    "op": "say",
-   "actor": "extra_craftsman",
-   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-   "eyes": "surprise",
-   "mouth": "open"
+   "actor": "yui",
+   "text": "でしょう？　九十郎さん、笑うと、目が、なくなるのね。"
   },
   {
    "op": "say",
-   "actor": "rei_kimono",
-   "text": "過去は変えられない。だが次の手は選べる。",
-   "eyes": "crying"
-  },
-  {
-   "op": "nar",
-   "text": "遠くの音が途切れる。本当の情と任務の嘘が同じ会話に混じる。"
+   "actor": "yui",
+   "text": "九十郎さんの国は、どこ？　言葉に、少し、西のなまりがあるわ。"
   },
   {
    "op": "say",
-   "actor": "extra_craftsman",
-   "text": "本当の情と任務の嘘が同じ会話に混じる。その事実から目をそらさない。",
+   "actor": "rei_hakama",
+   "text": "……播州のほうで。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "海のあるところね。いいなあ。わたし、海を見たことがないの。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "浜には、白い塩の山がありまして。……いつか、お見せしたい。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "父はね、今、大きなお屋敷の仕事を終えたところなの。お武家さまのお屋敷。……それはもう、立派なのよ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "お屋敷……。本所の、あの塀の向こうだ。",
    "eyes": "closed"
   },
   {
    "op": "say",
-   "actor": "rei_kimono",
-   "text": "恐れを消すのではなく、恐れたまま進もう。",
-   "eyes": "normal"
+   "actor": "yui",
+   "text": "どこの、とは言えないの。父に、きつく口止めされてて。でも、九十郎さんなら、いいかな。"
   },
   {
    "op": "say",
-   "actor": "extra_craftsman",
-   "text": "私の名ではなく、行いで答えを残す。",
-   "eyes": "joy",
-   "mouth": "open"
+   "actor": "rei_hakama",
+   "text": "いいえ。……言わなくて、いいです。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "どうして？",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "お父上が、口止めされたのなら。……お艶さんが、お父上に叱られるのは、いやです。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "変な人。……そういうとこ、好きよ。"
   },
   {
    "op": "nar",
-   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+   "text": "お艶は、頬を赤らめて、走り去っていった。金右衛門は、橋の上で、長いこと、動けなかった。"
   },
   {
    "op": "say",
-   "actor": "rei_kimono",
-   "text": "その答えを、次の場面まで持って行こう。",
-   "eyes": "anger"
-  },
-  {
-   "op": "say",
-   "actor": "extra_craftsman",
-   "text": "ここで決める。逃げず、相手の声を聞く。",
+   "actor": "rei_hakama",
+   "text": "聞けばよかった。それが、わしの役目だった。……なのに、聞きたくないと思った。",
    "eyes": "sorrow"
   },
   {
-   "op": "nar",
-   "text": "残された沈黙が、次の行動を促す。"
+   "op": "hide",
+   "actor": "rei_hakama"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "show",
+   "actor": "rei_hakama",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "right"
   },
   {
    "op": "say",
-   "actor": "rei_kimono",
-   "text": "ならば私も、その決断の重さを分け合う。",
-   "eyes": "fun"
+   "actor": "iwao",
+   "text": "金右衛門、娘と、うまくいっているそうだな。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "大石さま、わたくしは、もう、続けられませぬ。……あの娘は、わたくしを、本気で。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "お前も、本気になりかけておるのだろう。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "本気に、など。……いえ。分かりませぬ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "夢に見るのです。お艶さんが、図面を持ってきて、泣いている夢を。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "それが、いちばん、つらい。嘘の中に、本当が混じる。どれが嘘で、どれが本当か、自分でも、分からなくなる。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "わしは、京で、一年、遊び人を演じた。……祇園の女たちの中にも、わしを本気で案じてくれた者がいた。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "大石さまも……。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "討ち入りは、十二月。……それまでに、図面が要る。図面なしで入れば、四十七人のうち、何人が無駄に死ぬか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "……分かっております。分かっているから、苦しいのです。",
+   "eyes": "closed"
   },
   {
    "op": "hide",
-   "actor": "extra_craftsman"
+   "actor": "rei_hakama"
   },
   {
    "op": "hide",
-   "actor": "rei_kimono"
+   "actor": "iwao"
   },
   {
    "op": "bg",
@@ -342,113 +504,114 @@
   },
   {
    "op": "nar",
-   "text": "第3景「大工の仕事場」。吉良邸絵図面の保管場所を知る。"
+   "text": "棟梁平兵衛の仕事場。かんなくずの匂い。壁に、大工道具がずらりと並んでいる。"
   },
   {
    "op": "show",
-   "actor": "rei_casual",
+   "actor": "extra_craftsman",
    "pos": "left"
   },
   {
+   "op": "nar",
+   "text": "棟梁は、かんなをかけていた手を止めて、金右衛門を上から下まで眺めた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "お前さんが、お艶が言ってる九十郎さんか。……ひょろっとしてるが、目は、まっすぐだな。"
+  },
+  {
    "op": "show",
-   "actor": "yui",
+   "actor": "rei_hakama",
    "pos": "right"
   },
   {
    "op": "say",
-   "actor": "rei_casual",
-   "text": "「大工の仕事場」へ来た。吉良邸絵図面の保管場所を知る。",
-   "eyes": "anger"
+   "actor": "rei_hakama",
+   "text": "はじめてお目にかかります。九十郎と申します。"
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "ここで黙れば、誰かが代わりに意味を決める。",
-   "eyes": "sorrow"
+   "actor": "extra_craftsman",
+   "text": "娘を、泣かせるような男だったら、この墨壺で、顔に線を引いてやるつもりだった。"
   },
   {
    "op": "say",
-   "actor": "rei_casual",
-   "text": "私が守りたいのは「大義のためでも、他人の心を道具にする痛みは残る」だ。",
-   "eyes": "fun"
-  },
-  {
-   "op": "nar",
-   "text": "大工の仕事場の空気が変わり、二人は言葉の裏を測る。"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-   "eyes": "crying"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "過去は変えられない。だが次の手は選べる。",
-   "eyes": "closed"
-  },
-  {
-   "op": "nar",
-   "text": "遠くの音が途切れる。吉良邸絵図面の保管場所を知る。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "吉良邸絵図面の保管場所を知る。その事実から目をそらさない。",
-   "eyes": "normal"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "恐れを消すのではなく、恐れたまま進もう。",
+   "actor": "extra_craftsman",
+   "text": "だが、娘が、ここ一月、毎朝、鼻歌を歌ってる。……泣かせちゃいないようだ。",
    "eyes": "joy"
   },
   {
    "op": "say",
-   "actor": "rei_casual",
-   "text": "私の名ではなく、行いで答えを残す。",
-   "eyes": "anger"
-  },
-  {
-   "op": "nar",
-   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+   "actor": "rei_hakama",
+   "text": "棟梁は、立派なお屋敷を、建てられたとか。"
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "その答えを、次の場面まで持って行こう。",
+   "actor": "extra_craftsman",
+   "text": "……娘が、しゃべったか。困ったもんだ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "一杯、どうだ。大工の酒は、木の匂いがするぞ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "いただきます。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "本所の、さるお旗本、いや、お高家のお屋敷さ。床下まで、わしが図を引いた。……あれは、わしの一生の仕事だ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "だが、お屋敷の主人は、図面を他人に見せたら、首が飛ぶと言った。……わしは、寝床の下の、手文庫に入れてある。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "そんな大事なことを、わたしに。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "お前さんは、娘の、いい人だろう。いずれ、わしの義理の息子だ。……家族に、隠し事はしねえ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "義理の、息子……。",
    "eyes": "sorrow"
   },
   {
    "op": "say",
-   "actor": "rei_casual",
-   "text": "ここで決める。逃げず、相手の声を聞く。",
-   "eyes": "fun"
-  },
-  {
-   "op": "nar",
-   "text": "残された沈黙が、次の行動を促す。"
+   "actor": "extra_craftsman",
+   "text": "お艶の母親は、あの子が五つのときに死んだ。わしは、男手ひとつで育てた。"
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "ならば私も、その決断の重さを分け合う。",
-   "eyes": "surprise"
+   "actor": "extra_craftsman",
+   "text": "どうした。顔が青いぞ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "いえ。……お酒を、少し、いただきすぎました。"
   },
   {
    "op": "hide",
-   "actor": "rei_casual"
+   "actor": "extra_craftsman"
   },
   {
    "op": "hide",
-   "actor": "yui"
+   "actor": "rei_hakama"
   },
   {
    "op": "bg",
@@ -461,159 +624,224 @@
   },
   {
    "op": "nar",
-   "text": "第4景「恋文と絵図面」。お艶が信頼の証として父の絵図面を持ち出す。"
+   "text": "夜。お艶の家の裏木戸。月明かり。お艶が、何かを胸に抱いて、出てくる。"
   },
   {
    "op": "show",
-   "actor": "extra_craftsman",
+   "actor": "yui",
    "pos": "left"
   },
   {
    "op": "show",
-   "actor": "rei_kimono",
+   "actor": "rei_hakama",
    "pos": "right"
   },
   {
    "op": "say",
-   "actor": "extra_craftsman",
-   "text": "「恋文と絵図面」へ来た。お艶が信頼の証として父の絵図面を持ち出す。",
-   "eyes": "sorrow",
-   "mouth": "open"
+   "actor": "yui",
+   "text": "九十郎さん、これ。……父の、手文庫から、持ってきたの。"
   },
   {
    "op": "say",
-   "actor": "rei_kimono",
-   "text": "ここで黙れば、誰かが代わりに意味を決める。",
-   "eyes": "fun"
-  },
-  {
-   "op": "say",
-   "actor": "extra_craftsman",
-   "text": "私が守りたいのは「大義のためでも、他人の心を道具にする痛みは残る」だ。",
+   "actor": "rei_hakama",
+   "text": "お艶さん、それは。",
    "eyes": "surprise"
   },
   {
-   "op": "nar",
-   "text": "恋文と絵図面の空気が変わり、二人は言葉の裏を測る。"
+   "op": "say",
+   "actor": "yui",
+   "text": "お屋敷の、絵図面。……九十郎さん、ずっと、これが欲しかったんでしょう。"
   },
   {
    "op": "say",
-   "actor": "rei_kimono",
-   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
-   "eyes": "crying"
+   "actor": "rei_hakama",
+   "text": "……いつから、気づいて。"
   },
   {
    "op": "say",
-   "actor": "extra_craftsman",
-   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-   "eyes": "closed",
-   "mouth": "open"
+   "actor": "yui",
+   "text": "分かるわよ。初めて会った日から、九十郎さん、うちの裏の、本所のお屋敷のほうばかり見てた。",
+   "eyes": "sorrow"
   },
   {
    "op": "say",
-   "actor": "rei_kimono",
-   "text": "過去は変えられない。だが次の手は選べる。",
-   "eyes": "normal"
-  },
-  {
-   "op": "nar",
-   "text": "遠くの音が途切れる。お艶が信頼の証として父の絵図面を持ち出す。"
+   "actor": "yui",
+   "text": "九十郎さんは、商人じゃない。手が、刀だこで、固いもの。……赤穂の、お侍さんでしょう。"
   },
   {
    "op": "say",
-   "actor": "extra_craftsman",
-   "text": "お艶が信頼の証として父の絵図面を持ち出す。その事実から目をそらさない。",
-   "eyes": "joy"
+   "actor": "rei_hakama",
+   "text": "刀だこ……。そんなところまで、見ていたのか。",
+   "eyes": "closed"
   },
   {
    "op": "say",
-   "actor": "rei_kimono",
-   "text": "恐れを消すのではなく、恐れたまま進もう。",
-   "eyes": "anger"
-  },
-  {
-   "op": "say",
-   "actor": "extra_craftsman",
-   "text": "私の名ではなく、行いで答えを残す。",
-   "eyes": "sorrow",
-   "mouth": "open"
-  },
-  {
-   "op": "nar",
-   "text": "答えを急がず、選んだ手段の代価を確かめる。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_kimono",
-   "text": "その答えを、次の場面まで持って行こう。",
-   "eyes": "fun"
-  },
-  {
-   "op": "say",
-   "actor": "extra_craftsman",
-   "text": "ここで決める。逃げず、相手の声を聞く。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "nar",
-   "text": "残された沈黙が、次の行動を促す。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_kimono",
-   "text": "ならば私も、その決断の重さを分け合う。",
-   "eyes": "crying"
+   "actor": "yui",
+   "text": "違うなら、違うって言って。言ってくれたら、これ、すぐに戻してくる。"
   },
   {
    "op": "choice",
    "options": [
     {
-     "text": "正面から問いかける",
-     "jump": "okano-map_direct"
+     "text": "金右衛門は、黙って図面を受け取る",
+     "jump": "m_take"
     },
     {
-     "text": "相手の話を最後まで聞く",
-     "jump": "okano-map_listen"
+     "text": "金右衛門は、本当のことを言いかける",
+     "jump": "m_tell"
     }
    ]
   },
   {
    "op": "label",
-   "id": "okano-map_direct"
+   "id": "m_take"
   },
   {
    "op": "say",
-   "actor": "extra_craftsman",
-   "text": "私は正面から問う。曖昧なまま次へは進まない。"
+   "actor": "rei_hakama",
+   "text": "……ありがとう。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "やっぱり。……やっぱり、そうなのね。",
+   "eyes": "crying"
   },
   {
    "op": "jump",
-   "to": "okano-map_merge"
+   "to": "m_after"
   },
   {
    "op": "label",
-   "id": "okano-map_listen"
+   "id": "m_tell"
   },
   {
    "op": "say",
-   "actor": "rei_kimono",
-   "text": "結論を急がず、相手が何を恐れているかまで聞こう。"
+   "actor": "rei_hakama",
+   "text": "お艶さん、わたしは……。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "言わないで。言ったら、九十郎さんが、困るでしょう。……わたしも、知らないことにしておく。"
   },
   {
    "op": "label",
-   "id": "okano-map_merge"
+   "id": "m_after"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "父には、明日の朝までに、戻しておいて。写すなら、今夜のうちに。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "お艶さん、なぜ、そこまで。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "父の手文庫は、毎晩、同じ順番で鍵をかけるの。小さいころから、見てたから。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "わたしは、父を裏切った。……でも、九十郎さんを、もっと裏切りたくなかったの。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "お艶さん、あなたに、これを渡させたのは、わたしです。あなたは、何も裏切っていない。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "優しいのね。……そういうとこが、いちばん、ずるい。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_hakama"
+  },
+  {
+   "op": "show",
+   "actor": "rei_hakama",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "right"
   },
   {
    "op": "nar",
-   "text": "選び方は違っても、二人は同じ核心へ戻ってくる。"
+   "text": "夜明け前。義士の隠れ家。金右衛門が写した絵図面を、大石が、ろうそくの下で広げている。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "寺坂、堀部、皆を呼べ。……いや、待て。まず、わしが見る。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "表門、裏門。上野介の寝所は、ここか。……炭小屋。物置。抜け道まで、書いてある。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "見事な図面だ。床下の束石の数まで。……大工の一生の仕事だな。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "その大工は、わたしを、義理の息子だと、言いました。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "棟梁が、そう言うたか。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "金右衛門。お前の働きで、四十七人の誰かが、生きて本懐を遂げる。だが、お前は、生涯、その図面の重さを背負う。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "背負います。……背負うのが、せめてもの、お艶さんへの、詫びです。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "金右衛門、この写しは、わしの懐に入れる。お前の手から、離しておく。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "原本は、夜のうちに、戻したのだな。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "はい。お艶さんが、そう言いましたので。……棟梁が、何も気づかぬように。"
   },
   {
    "op": "hide",
-   "actor": "extra_craftsman"
+   "actor": "rei_hakama"
   },
   {
    "op": "hide",
-   "actor": "rei_kimono"
+   "actor": "iwao"
   },
   {
    "op": "bg",
@@ -626,11 +854,11 @@
   },
   {
    "op": "nar",
-   "text": "第5景「討入前の告白」。岡野が利用した事実と本心を告げ別れを選ぶ。"
+   "text": "十二月十四日。夕刻。雪。一の橋のたもと。金右衛門は、お艶を呼び出していた。"
   },
   {
    "op": "show",
-   "actor": "rei_casual",
+   "actor": "rei_hakama",
    "pos": "left"
   },
   {
@@ -640,99 +868,215 @@
   },
   {
    "op": "say",
-   "actor": "rei_casual",
-   "text": "「討入前の告白」へ来た。岡野が利用した事実と本心を告げ別れを選ぶ。",
-   "eyes": "fun"
+   "actor": "yui",
+   "text": "九十郎さん、急に、どうしたの。雪の中で。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "お艶さん。今夜、わたしは、遠くへ行きます。……もう、会えません。"
   },
   {
    "op": "say",
    "actor": "yui",
-   "text": "ここで黙れば、誰かが代わりに意味を決める。",
+   "text": "また、そんな冗談。雪の日に、九十郎さんらしくない。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "遠くって……。",
    "eyes": "surprise"
   },
   {
    "op": "say",
-   "actor": "rei_casual",
-   "text": "私が守りたいのは「大義のためでも、他人の心を道具にする痛みは残る」だ。",
+   "actor": "rei_hakama",
+   "text": "わたしの名は、九十郎ではありません。岡野金右衛門。赤穂浅野家の、家来でございました。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……知ってたわ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "あなたに近づいたのは、絵図面のためでした。最初は。……それを、言わずに行くのは、卑怯だと思いました。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "最初は、って。……じゃあ、そのあとは。",
    "eyes": "crying"
   },
   {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "そのあとは。……そのあとは、橋の上で、あなたの話を聞くのが、楽しみでした。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "櫛を選んだ日も。一緒に、川を見た日も。……あれは、わたしの、本当でございます。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "ずるい人。今さら、そんなこと言われたら……恨めないじゃない。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "恨んでください。恨まれて、当然のことを、しました。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "刀を持って、行くのね。……死ぬかもしれないところへ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "はい。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "恨まない。……恨んだら、九十郎さんと過ごした日が、全部、嘘になっちゃうもの。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "九十郎さん、……金右衛門さん。これ、持っていって。"
+  },
+  {
    "op": "nar",
-   "text": "討入前の告白の空気が変わり、二人は言葉の裏を測る。"
+   "text": "お艶は、髪から、古い木の櫛を抜いて、金右衛門の手に握らせた。"
   },
   {
    "op": "say",
    "actor": "yui",
-   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
-   "eyes": "closed"
-  },
-  {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-   "eyes": "normal"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "過去は変えられない。だが次の手は選べる。",
-   "eyes": "joy"
-  },
-  {
-   "op": "nar",
-   "text": "遠くの音が途切れる。岡野が利用した事実と本心を告げ別れを選ぶ。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "岡野が利用した事実と本心を告げ別れを選ぶ。その事実から目をそらさない。",
-   "eyes": "anger"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "恐れを消すのではなく、恐れたまま進もう。",
+   "text": "母の形見の櫛。……あなたが、どこへ行っても、わたしのこと、思い出すように。",
    "eyes": "sorrow"
   },
   {
    "op": "say",
-   "actor": "rei_casual",
-   "text": "私の名ではなく、行いで答えを残す。",
-   "eyes": "fun"
-  },
-  {
-   "op": "nar",
-   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+   "actor": "rei_hakama",
+   "text": "こんな大切なものを。"
   },
   {
    "op": "say",
    "actor": "yui",
-   "text": "その答えを、次の場面まで持って行こう。",
-   "eyes": "surprise"
+   "text": "返さなくていいの。……返しに来られないって、分かってるから。"
   },
   {
    "op": "say",
-   "actor": "rei_casual",
-   "text": "ここで決める。逃げず、相手の声を聞く。",
+   "actor": "rei_hakama",
+   "text": "浜の塩の山を、お見せできなくて、すまない。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "いいの。九十郎さんの話で、もう、見た気がするから。",
    "eyes": "crying"
   },
   {
-   "op": "nar",
-   "text": "残された沈黙が、次の行動を促す。"
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "お艶さん。……達者で。",
+   "eyes": "sorrow"
   },
   {
-   "op": "say",
-   "actor": "yui",
-   "text": "ならば私も、その決断の重さを分け合う。",
-   "eyes": "closed"
+   "op": "nar",
+   "text": "金右衛門は、深く頭を下げ、雪の中へ、振り返らずに歩いていった。"
   },
   {
    "op": "hide",
-   "actor": "rei_casual"
+   "actor": "rei_hakama"
   },
   {
    "op": "hide",
    "actor": "yui"
+  },
+  {
+   "op": "show",
+   "actor": "extra_craftsman",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "翌朝。赤穂浪士討ち入りの知らせが、本所じゅうを駆けめぐった。平兵衛は、娘の顔を、じっと見た。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "お艶、おめえ、知っていたのか。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……知らなかったわ。何も。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "九十郎は、赤穂のお侍だったそうだ。……泉岳寺へ向かう列の中に、あの、ひょろっとした顔があった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "吉良さまのお屋敷が、あんなに速く攻め落とされたのは、誰かが、図面を見たからだと、町の噂だ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "手文庫の鍵の順番が、一つだけ、違っていた。……おめえだろう。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "父ちゃん、わたし……。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "いい。……わしの図面が、お侍の役に立ったんなら、それでいい。あの男は、わしの義理の息子だ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "一生の仕事が、こんなふうに使われるとは、思わなかったがな。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "ごめんなさい……ごめんなさい……。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "泣くな。おめえは、惚れた男を、助けたんだ。……大工の娘らしく、まっすぐにな。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_craftsman"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "bg",
+   "src": null
   },
   {
    "op": "show",
@@ -742,29 +1086,26 @@
   {
    "op": "say",
    "actor": "nono",
-   "text": "物語はここまで。残った問いは「大義のためでも、他人の心を道具にする痛みは残る」。",
-   "eyes": "sorrow"
+   "text": "岡野金右衛門、恋の絵図面取り。ここで、筆を置かせていただきます。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
-   "eyes": "normal"
+   "text": "大義のために、人の心を道具にした。若い義士は、それを、最後まで、ごまかしませんでした。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "ご来場、ありがとうございました。",
-   "eyes": "joy",
-   "mouth": "open"
+   "text": "討ち入りでの金右衛門の手柄よりも、雪の橋で娘に告げた本当のことのほうが、重かったのかもしれません。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "金右衛門は、翌年二月、二十四歳で切腹しました。懐に、古い木の櫛があったかどうかは、講釈師の口にお任せいたします。"
   },
   {
    "op": "hide",
    "actor": "nono"
-  },
-  {
-   "op": "bg",
-   "src": null
   },
   {
    "op": "end"

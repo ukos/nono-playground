@@ -9,7 +9,7 @@
   "format": "v3",
   "minutes": 40,
   "synopsis": "全五景で「名を明かせない友情でも、相手の覚悟を支えられる」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
-  "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
  },
  "cast": [
   {
@@ -29,7 +29,7 @@
   },
   {
    "role": "大石内蔵助",
-   "actor": "rei_casual",
+   "actor": "iwao",
    "costume": "default"
   }
  ],
@@ -53,33 +53,22 @@
   {
    "op": "say",
    "actor": "nono",
-   "text": "ようこそ、NONO座へ。本日の演目は『赤穂義士伝・杉野十平次と俵星玄蕃』。",
-   "eyes": "normal"
+   "text": "赤穂義士伝の外伝に、一本の槍のお話がございます。俵星玄蕃。本所の裏長屋で、槍の道場を開いていた浪人です。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "講談の一席を、全五景でお届けします。",
-   "mouth": "open",
-   "eyes": "normal"
+   "text": "講談では、宝蔵院流の槍の名人。吉良家からも、上杉家からも、召し抱えたいと声がかかったと申します。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "この舞台の核は「名を明かせない友情でも、相手の覚悟を支えられる」。",
-   "eyes": "sorrow"
+   "text": "その玄蕃が、毎晩、そばをすすりに来る屋台の若い男と、親しくなりました。男の名は、十助。本当の名は、杉野十平次。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "台詞はすべて今夜のための書き下ろしです。"
-  },
-  {
-   "op": "say",
-   "actor": "nono",
-   "text": "それでは、幕を開けましょう。",
-   "mouth": "open",
-   "eyes": "joy"
+   "text": "名前を明かせないまま育った友情は、討ち入りの夜、どこへ向かったか。……どうぞ、熱いうちにお聞きください。"
   },
   {
    "op": "hide",
@@ -96,7 +85,135 @@
   },
   {
    "op": "nar",
-   "text": "第1景「夜鳴きそばの屋台」。身分を隠す杉野が槍の達人玄蕃と親しくなる。"
+   "text": "元禄十五年、冬。本所。夜。風鈴をつけた夜鳴きそばの屋台が、裏長屋の路地に、ぽつんと灯りをともしている。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "えー、そばぁ、うどん。……熱いそばは、いかがでございますかぁ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "売り声だけは、ひと月で、上手くなった。そばを打つのは、まだ、下手だ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "当り屋十助。そば屋の屋号だけは、勇ましい。……吉良の屋敷の塀は、この路地の、すぐ向こうだ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "本当の名は、杉野十平次。赤穂浅野家の、二十七石の小侍。……槍の稽古は、国の道場で、毎朝やっていた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "屋台を引いて、毎晩、屋敷の周りを回る。門番の交代の刻限。夜回りの足音。……全部、覚えて、帰る。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "おう、そば屋。今夜も、一杯。七味は、たっぷりだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "これは、先生。毎度ありがとうございます。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "先生はやめろ。道場といっても、門弟は、近所の子どもが三人だ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "槍の先生でございましょう。路地の奥から、毎朝、気合いの声が聞こえます。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "あれは、子どもの声だ。わしの声は、もっと、しゃがれておる。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "先生は、お一人で。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "女房には、先立たれた。子もない。……槍と、そばだけが、友だちだ。"
+  },
+  {
+   "op": "nar",
+   "text": "玄蕃は、湯気の立つ丼を受け取り、うまそうに、すすった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "一日、子どもに槍を教えて、日が暮れたら、この一杯。……これが、わしの、贅沢だ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "うまい。……そば屋、お前のそばは、出汁が、上方の味だな。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……わかりますか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "わしも、西の生まれでな。……お前、そば屋にしては、手が、きれいすぎる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "先生、お代は、十六文で。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "話をそらすのも、下手だ。……まあ、いい。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "明日も、この路地を通ります。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "来い。来なくても、わしは、そばを食いに、路地へ出る。人には、それぞれ、言えぬことがある。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
   },
   {
    "op": "show",
@@ -109,92 +226,86 @@
    "pos": "right"
   },
   {
-   "op": "say",
-   "actor": "rei_kimono",
-   "text": "「夜鳴きそばの屋台」へ来た。身分を隠す杉野が槍の達人玄蕃と親しくなる。",
-   "eyes": "normal"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "ここで黙れば、誰かが代わりに意味を決める。",
-   "eyes": "joy"
-  },
-  {
-   "op": "say",
-   "actor": "rei_kimono",
-   "text": "私が守りたいのは「名を明かせない友情でも、相手の覚悟を支えられる」だ。",
-   "eyes": "anger"
+   "op": "nar",
+   "text": "幾晩かが過ぎた。そば屋の屋台は、毎晩、玄蕃の道場の前に止まるようになった。"
   },
   {
    "op": "nar",
-   "text": "夜鳴きそばの屋台の空気が変わり、二人は言葉の裏を測る。"
+   "text": "雪の夜には、玄蕃が、屋台のそばに、炭火を入れた手あぶりを持ってきてくれた。"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
-   "eyes": "sorrow"
+   "text": "十助、ちょっと、上がっていけ。冷える夜は、屋台の火より、炭火のほうがいい。"
   },
   {
    "op": "say",
    "actor": "rei_kimono",
-   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-   "eyes": "fun"
+   "text": "先生、商売が。"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "過去は変えられない。だが次の手は選べる。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "nar",
-   "text": "遠くの音が途切れる。身分を隠す杉野が槍の達人玄蕃と親しくなる。"
+   "text": "一杯分、わしが買い切る。十六文の代わりに、お前の話を、少し聞かせろ。"
   },
   {
    "op": "say",
    "actor": "rei_kimono",
-   "text": "身分を隠す杉野が槍の達人玄蕃と親しくなる。その事実から目をそらさない。",
-   "eyes": "crying"
+   "text": "話すようなことは、何も。"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "恐れを消すのではなく、恐れたまま進もう。",
+   "text": "そうか。……では、わしが話そう。わしは、昔、ある藩に、槍の指南で仕えておった。殿が改易になって、浪人だ。",
    "eyes": "closed"
   },
   {
    "op": "say",
-   "actor": "rei_kimono",
-   "text": "私の名ではなく、行いで答えを残す。",
-   "eyes": "normal"
-  },
-  {
-   "op": "nar",
-   "text": "答えを急がず、選んだ手段の代価を確かめる。"
-  },
-  {
-   "op": "say",
    "actor": "extra_porter",
-   "text": "その答えを、次の場面まで持って行こう。",
-   "eyes": "joy"
+   "text": "吉良家から、用心棒にならぬか、と誘われた。礼金は、百両。……断った。"
   },
   {
    "op": "say",
    "actor": "rei_kimono",
-   "text": "ここで決める。逃げず、相手の声を聞く。",
-   "eyes": "anger"
-  },
-  {
-   "op": "nar",
-   "text": "残された沈黙が、次の行動を促す。"
+   "text": "百両を、断られた。",
+   "eyes": "surprise"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "ならば私も、その決断の重さを分け合う。",
+   "text": "吉良さまの屋敷に、夜な夜な、赤穂の浪人が討ち入るかもしれぬ、という噂がある。その用心棒だ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "わしは、赤穂の浪人に、恨みはない。……殿の仇を討とうという者たちに、槍を向ける気には、なれなんだ。",
    "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……先生は、赤穂の浪人を、どう思われます。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "なぜ、そば屋が、そんなことを聞く。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "屋台の客が、よく噂をするもので。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "そば屋の耳にも、噂は入ります。京の大石という家老は、毎晩、祇園で遊んでいるとか。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "世間は、腰抜けだと言う。……わしは、そうは思わん。待っておるのだ。何かを、じっと。"
   },
   {
    "op": "hide",
@@ -215,11 +326,11 @@
   },
   {
    "op": "nar",
-   "text": "第2景「雪の稽古場」。玄蕃が杉野の腕とただならぬ覚悟を見抜く。"
+   "text": "玄蕃の道場。雪の朝。板の間に、槍が数本、立てかけてある。十助が、屋台の帰りに、立ち寄った。"
   },
   {
    "op": "show",
-   "actor": "rei_casual",
+   "actor": "extra_porter",
    "pos": "left"
   },
   {
@@ -228,96 +339,120 @@
    "pos": "right"
   },
   {
+   "op": "nar",
+   "text": "道場の隅で、近所の子どもたちが、竹の槍を振り回していた。十助を見つけると、そば屋の兄ちゃんだ、と駆け寄ってきた。"
+  },
+  {
    "op": "say",
-   "actor": "rei_casual",
-   "text": "「雪の稽古場」へ来た。玄蕃が杉野の腕とただならぬ覚悟を見抜く。",
-   "eyes": "joy"
+   "actor": "extra_porter",
+   "text": "お前たち、今日は、外で雪合戦だ。わしは、この兄ちゃんに、用がある。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "十助、一度、槍を持ってみろ。"
   },
   {
    "op": "say",
    "actor": "rei_kimono",
-   "text": "ここで黙れば、誰かが代わりに意味を決める。",
-   "eyes": "anger"
+   "text": "わたくしが。そば屋の手で。"
   },
   {
    "op": "say",
-   "actor": "rei_casual",
-   "text": "私が守りたいのは「名を明かせない友情でも、相手の覚悟を支えられる」だ。",
-   "eyes": "sorrow"
+   "actor": "extra_porter",
+   "text": "そば屋の手は、麺棒を握る。槍も、似たようなものだ。……ほれ。"
   },
   {
    "op": "nar",
-   "text": "雪の稽古場の空気が変わり、二人は言葉の裏を測る。"
+   "text": "十助が槍を受け取り、構えた。その構えを見て、玄蕃の目が、変わった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……そば屋。その構えは、どこで覚えた。"
   },
   {
    "op": "say",
    "actor": "rei_kimono",
-   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
-   "eyes": "fun"
+   "text": "見よう見まねで、ございます。"
   },
   {
    "op": "say",
-   "actor": "rei_casual",
-   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "say",
-   "actor": "rei_kimono",
-   "text": "過去は変えられない。だが次の手は選べる。",
-   "eyes": "crying"
-  },
-  {
-   "op": "nar",
-   "text": "遠くの音が途切れる。玄蕃が杉野の腕とただならぬ覚悟を見抜く。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "玄蕃が杉野の腕とただならぬ覚悟を見抜く。その事実から目をそらさない。",
+   "actor": "extra_porter",
+   "text": "見よう見まねで、腰が、そこまで落ちるか。槍の穂先が、わしの喉から、少しも外れぬ。",
    "eyes": "closed"
   },
   {
    "op": "say",
-   "actor": "rei_kimono",
-   "text": "恐れを消すのではなく、恐れたまま進もう。",
-   "eyes": "normal"
-  },
-  {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "私の名ではなく、行いで答えを残す。",
-   "eyes": "joy"
-  },
-  {
-   "op": "nar",
-   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+   "actor": "extra_porter",
+   "text": "突いてこい。本気で。"
   },
   {
    "op": "say",
    "actor": "rei_kimono",
-   "text": "その答えを、次の場面まで持って行こう。",
-   "eyes": "anger"
+   "text": "先生に、怪我をさせてしまいます。"
   },
   {
    "op": "say",
-   "actor": "rei_casual",
-   "text": "ここで決める。逃げず、相手の声を聞く。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "nar",
-   "text": "残された沈黙が、次の行動を促す。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_kimono",
-   "text": "ならば私も、その決断の重さを分け合う。",
+   "actor": "extra_porter",
+   "text": "させてみろ。させられたら、今夜のそば代は、わしが十倍払う。",
    "eyes": "fun"
   },
   {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "先生、それは。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "突け！",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "十助の槍が、一直線に走った。玄蕃は、それを、紙一重で払った。道場に、乾いた音が響いた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……見事だ。剣の筋もある。これは、侍の、それも、腹をくくった者の槍だ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "腹を、くくった者……。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "十助、お前は、何を待っておる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "先生、今日は、雪が深うございます。お暇いたします。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "また、話をそらしたな。……いい。言えぬなら、言うな。わしも、聞かぬ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "だが、一つだけ。……その槍を、いつか、本当に振るう日が来たら。悔いのないように、振れ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "悔いのないように。……胸に、刻みます。"
+  },
+  {
    "op": "hide",
-   "actor": "rei_casual"
+   "actor": "extra_porter"
   },
   {
    "op": "hide",
@@ -334,7 +469,115 @@
   },
   {
    "op": "nar",
-   "text": "第3景「討入の密命」。杉野が友情へ真相を告げられず姿を消す。"
+   "text": "夜。義士の隠れ家。大石内蔵助の前に、杉野十平次が、そば屋の姿のまま、座っている。"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "十平次、ご苦労。吉良どのの屋敷の夜回りは、子の刻と、寅の刻か。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "はい。寅の刻のあとは、半刻ほど、見回りがございませぬ。門番も、炭火の前で居眠りをいたします。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "寅の刻、か。……決まった。十二月十四日。寅の刻、上野介どのの茶会の翌朝だ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "十四日、寅の刻。屋台の暦に、印をつけておきます。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "十平次、お前、近ごろ、槍の道場に出入りしておると聞いた。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……俵星玄蕃という先生でございます。吉良家の誘いを、断ったお方です。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "気づかれておるのではないか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "おそらく。……ですが、先生は、ひと言も、聞かれませぬ。言えぬなら言うな、と。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "いい男だな。……だからこそ、巻き込んではならぬ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "先生は、きっと、加勢すると言われます。そういうお方です。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "そうなれば、玄蕃どのも、罪人だ。……友を思うなら、離れることだ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "討ち入りの前に、屋台は畳め。挨拶もならぬ。……お前が消えれば、玄蕃どのは、分かるだろう。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "黙って消える。……それが、先生への、礼儀でございますね。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "大石さま、勝手を申しても、よろしゅうございますか。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "申せ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "屋台を畳む前に、もう一杯だけ、先生に、そばを。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……いいだろう。十六文で、別れの挨拶だ。言葉は、出汁に溶かしておけ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
   },
   {
    "op": "show",
@@ -343,99 +586,88 @@
   },
   {
    "op": "show",
-   "actor": "rei_casual",
+   "actor": "rei_kimono",
    "pos": "right"
   },
   {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "「討入の密命」へ来た。杉野が友情へ真相を告げられず姿を消す。",
-   "eyes": "anger",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "ここで黙れば、誰かが代わりに意味を決める。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "私が守りたいのは「名を明かせない友情でも、相手の覚悟を支えられる」だ。",
-   "eyes": "fun"
-  },
-  {
    "op": "nar",
-   "text": "討入の密命の空気が変わり、二人は言葉の裏を測る。"
+   "text": "十二月十三日。夜。玄蕃の道場の前。いつもの屋台。いつものそば。"
   },
   {
    "op": "say",
-   "actor": "rei_casual",
-   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-   "eyes": "crying",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "過去は変えられない。だが次の手は選べる。",
-   "eyes": "closed"
-  },
-  {
-   "op": "nar",
-   "text": "遠くの音が途切れる。杉野が友情へ真相を告げられず姿を消す。"
+   "actor": "rei_kimono",
+   "text": "先生、今夜は、天ぷらを、のせておきました。"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "杉野が友情へ真相を告げられず姿を消す。その事実から目をそらさない。",
-   "eyes": "normal"
+   "text": "天ぷら。……いつもは、かけそばだ。"
   },
   {
    "op": "say",
-   "actor": "rei_casual",
-   "text": "恐れを消すのではなく、恐れたまま進もう。",
+   "actor": "extra_porter",
+   "text": "十助、今夜のそばは、いつもより、出汁が濃いな。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "寒うございますので。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "七味も、いつもより、多い。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "先生が、たっぷりと、おっしゃるので。",
    "eyes": "joy"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "私の名ではなく、行いで答えを残す。",
-   "eyes": "anger",
-   "mouth": "open"
+   "text": "……そうか。",
+   "eyes": "closed"
   },
   {
    "op": "nar",
-   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+   "text": "玄蕃は、黙って、そばをすすった。最後の一滴まで、汁を飲み干した。"
   },
   {
    "op": "say",
-   "actor": "rei_casual",
-   "text": "その答えを、次の場面まで持って行こう。",
+   "actor": "extra_porter",
+   "text": "うまかった。……十助、お代だ。"
+  },
+  {
+   "op": "nar",
+   "text": "玄蕃は、丼の下に、十六文ではなく、一分金を、そっと置いた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "先生、これは。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "釣りは要らん。……どこへ行くのか知らんが、道中の、わらじ代にでもしろ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……先生、わたくしは。",
    "eyes": "sorrow"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "ここで決める。逃げず、相手の声を聞く。",
-   "eyes": "fun"
+   "text": "何も言うな。言えば、わしは、聞かずにおれん。"
   },
   {
    "op": "nar",
-   "text": "残された沈黙が、次の行動を促す。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "ならば私も、その決断の重さを分け合う。",
-   "eyes": "surprise"
+   "text": "翌晩、路地に、屋台の灯りは、ともらなかった。"
   },
   {
    "op": "hide",
@@ -443,7 +675,7 @@
   },
   {
    "op": "hide",
-   "actor": "rei_casual"
+   "actor": "rei_kimono"
   },
   {
    "op": "bg",
@@ -456,148 +688,170 @@
   },
   {
    "op": "nar",
-   "text": "第4景「吉良邸の夜」。陣太鼓を聞いた玄蕃が友の正体を悟る。"
-  },
-  {
-   "op": "show",
-   "actor": "rei_kimono",
-   "pos": "left"
+   "text": "十二月十五日、寅の刻。本所の夜。雪。突然、陣太鼓の音が、闇を震わせた。山鹿流の、一打ち三流れ。"
   },
   {
    "op": "show",
    "actor": "extra_porter",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "陣太鼓……！　あの打ち方は、山鹿流。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "赤穂の浪士だ。……吉良の屋敷に、討ち入ったか。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "屋台が消えて、二晩。……天ぷらと、一分金。わしは、分かっておった。分からぬふりを、しておっただけだ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……十助。お前は、今、あの塀の内にいるのか。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "玄蕃は、壁の槍を取り、雪の中へ、飛び出した。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "加勢をするのではない。……ただ、見届けたい。あの男が、どんな顔で、槍を振っておるのか。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "left"
+  },
+  {
+   "op": "nar",
+   "text": "吉良邸の表門。火事装束の侍たちが、門を固めている。その中に、見覚えのある顔があった。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
    "pos": "right"
   },
   {
    "op": "say",
    "actor": "rei_kimono",
-   "text": "「吉良邸の夜」へ来た。陣太鼓を聞いた玄蕃が友の正体を悟る。",
-   "eyes": "sorrow"
+   "text": "……先生、やはり、来てしまわれましたか。"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "ここで黙れば、誰かが代わりに意味を決める。",
-   "eyes": "fun"
+   "text": "やはり、お前か。十助。……いや、名を、聞かせてくれ。今なら、聞いても、よかろう。"
   },
   {
    "op": "say",
    "actor": "rei_kimono",
-   "text": "私が守りたいのは「名を明かせない友情でも、相手の覚悟を支えられる」だ。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "nar",
-   "text": "吉良邸の夜の空気が変わり、二人は言葉の裏を測る。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
-   "eyes": "crying"
-  },
-  {
-   "op": "say",
-   "actor": "rei_kimono",
-   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
+   "text": "赤穂浅野家の家来、杉野十平次次房。……先生、長い間、嘘をついて、申し訳ございませぬ。",
    "eyes": "closed"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "過去は変えられない。だが次の手は選べる。",
-   "eyes": "normal"
+   "text": "嘘ではない。お前のそばは、本物だった。……それで、十分だ。"
   },
   {
    "op": "nar",
-   "text": "遠くの音が途切れる。陣太鼓を聞いた玄蕃が友の正体を悟る。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_kimono",
-   "text": "陣太鼓を聞いた玄蕃が友の正体を悟る。その事実から目をそらさない。",
-   "eyes": "joy"
+   "text": "塀の内からは、刀の打ち合う音と、呼子の笛が響いていた。雪が、提灯の灯りに、赤く染まって見えた。"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "恐れを消すのではなく、恐れたまま進もう。",
+   "text": "十平次、わしに、何か、できることはないか。この槍、使ってくれ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "なりませぬ。先生は、赤穂の者ではない。先生まで、罪に問われます。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "わしは、友の一大事に、黙って見ておれるほど、器用ではない。",
    "eyes": "anger"
-  },
-  {
-   "op": "say",
-   "actor": "rei_kimono",
-   "text": "私の名ではなく、行いで答えを残す。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "nar",
-   "text": "答えを急がず、選んだ手段の代価を確かめる。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "その答えを、次の場面まで持って行こう。",
-   "eyes": "fun"
-  },
-  {
-   "op": "say",
-   "actor": "rei_kimono",
-   "text": "ここで決める。逃げず、相手の声を聞く。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "nar",
-   "text": "残された沈黙が、次の行動を促す。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "ならば私も、その決断の重さを分け合う。",
-   "eyes": "crying"
   },
   {
    "op": "choice",
    "options": [
     {
-     "text": "正面から問いかける",
-     "jump": "sugino-tawaramori_direct"
+     "text": "十平次は、玄蕃に、両国橋の守りを頼む",
+     "jump": "m_bridge"
     },
     {
-     "text": "相手の話を最後まで聞く",
-     "jump": "sugino-tawaramori_listen"
+     "text": "十平次は、玄蕃に、ただ帰ってほしいと頭を下げる",
+     "jump": "m_home"
     }
    ]
   },
   {
    "op": "label",
-   "id": "sugino-tawaramori_direct"
+   "id": "m_bridge"
   },
   {
    "op": "say",
    "actor": "rei_kimono",
-   "text": "私は正面から問う。曖昧なまま次へは進まない。"
+   "text": "……では、ひとつだけ。上杉家から、加勢の兵が来るやもしれませぬ。両国橋を、見ていてくださいませ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "誰かが、橋を見ている。……それだけで、われらは、背中を気にせず、戦えます。"
   },
   {
    "op": "jump",
-   "to": "sugino-tawaramori_merge"
+   "to": "m_gate"
   },
   {
    "op": "label",
-   "id": "sugino-tawaramori_listen"
+   "id": "m_home"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "先生、お帰りください。……お願いでございます。"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "結論を急がず、相手が何を恐れているかまで聞こう。"
+   "text": "帰れぬ。……では、橋のたもとで、雪見をしておる。わしの勝手だ。お前の頼みではない。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "先生のわがままには、かないませぬ。",
+   "eyes": "sorrow"
   },
   {
    "op": "label",
-   "id": "sugino-tawaramori_merge"
+   "id": "m_gate"
   },
   {
-   "op": "nar",
-   "text": "選び方は違っても、二人は同じ核心へ戻ってくる。"
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "承知した。……十平次、存分にやれ。悔いのないように、な。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "はい、先生。",
+   "eyes": "joy"
   },
   {
    "op": "hide",
@@ -618,12 +872,80 @@
   },
   {
    "op": "nar",
-   "text": "第5景「雪橋の見送り」。加勢せず退路を守ることで友情を貫く。"
+   "text": "両国橋のたもと。雪。夜明け前の、青い闇。玄蕃は、槍を立てて、橋の真ん中に、ひとり、仁王立ちになった。"
   },
   {
    "op": "show",
-   "actor": "rei_casual",
+   "actor": "extra_porter",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "吉良どのの実の子が、上杉の殿さまだ。父親の危急に、兵を出さぬはずがない。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "上杉の加勢が、来るなら来い。……この橋は、わしの道場だ。"
+  },
+  {
+   "op": "nar",
+   "text": "遠くから、馬の蹄と、提灯の列が近づいてきた。上杉家の、様子見の兵であった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "待たれい！　ここは、天下の両国橋。夜明け前に、槍を担いで通るとは、何事でござる！",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "拙者、宝蔵院流、俵星玄蕃。……この槍の届くところに、足を踏み入れる者は、覚悟めされよ。"
+  },
+  {
+   "op": "nar",
+   "text": "提灯の列は、しばらく、橋の向こうで止まった。槍の名人の名は、上杉の侍たちにも、知れていた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "来るな。……来れば、わしは、突かねばならぬ。わしは、誰も、突きたくはない。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "やがて、提灯の列は、引き返していった。誰も、橋を渡らなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "上杉の家老にも、分かる者がおったか。……ここで斬り合えば、上杉の家も、ただではすまぬ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……行ったか。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "槍を、一度も、振らなかった。……これが、わしの、討ち入りだ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
    "pos": "left"
+  },
+  {
+   "op": "nar",
+   "text": "夜明け。白い装束の浪士たちが、槍の先に、包んだ首を掲げて、橋の向こうの道を、泉岳寺へ向かって進んでいく。"
   },
   {
    "op": "show",
@@ -632,99 +954,91 @@
   },
   {
    "op": "say",
-   "actor": "rei_casual",
-   "text": "「雪橋の見送り」へ来た。加勢せず退路を守ることで友情を貫く。",
-   "eyes": "fun"
+   "actor": "rei_kimono",
+   "text": "先生……！"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "十平次、本懐、おめでとう。"
   },
   {
    "op": "say",
    "actor": "rei_kimono",
-   "text": "ここで黙れば、誰かが代わりに意味を決める。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "私が守りたいのは「名を明かせない友情でも、相手の覚悟を支えられる」だ。",
-   "eyes": "crying"
-  },
-  {
-   "op": "nar",
-   "text": "雪橋の見送りの空気が変わり、二人は言葉の裏を測る。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_kimono",
-   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
-   "eyes": "closed"
-  },
-  {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-   "eyes": "normal"
-  },
-  {
-   "op": "say",
-   "actor": "rei_kimono",
-   "text": "過去は変えられない。だが次の手は選べる。",
+   "text": "先生のおかげで、背中が、温こうございました。",
    "eyes": "joy"
   },
   {
-   "op": "nar",
-   "text": "遠くの音が途切れる。加勢せず退路を守ることで友情を貫く。"
-  },
-  {
    "op": "say",
-   "actor": "rei_casual",
-   "text": "加勢せず退路を守ることで友情を貫く。その事実から目をそらさない。",
-   "eyes": "anger"
+   "actor": "extra_porter",
+   "text": "わしは、雪見をしていただけだ。……そばの屋台が、恋しくなった。"
   },
   {
    "op": "say",
    "actor": "rei_kimono",
-   "text": "恐れを消すのではなく、恐れたまま進もう。",
-   "eyes": "sorrow"
+   "text": "先生、子どもたちに、そば屋の兄ちゃんは、遠くへ行ったと伝えてください。"
   },
   {
    "op": "say",
-   "actor": "rei_casual",
-   "text": "私の名ではなく、行いで答えを残す。",
-   "eyes": "fun"
-  },
-  {
-   "op": "nar",
-   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+   "actor": "extra_porter",
+   "text": "自分で言え、と言いたいところだ。……伝えよう。"
   },
   {
    "op": "say",
    "actor": "rei_kimono",
-   "text": "その答えを、次の場面まで持って行こう。",
-   "eyes": "surprise"
+   "text": "もう、そばは、打てませぬ。"
   },
   {
    "op": "say",
-   "actor": "rei_casual",
-   "text": "ここで決める。逃げず、相手の声を聞く。",
+   "actor": "extra_porter",
+   "text": "分かっておる。……分かっておるよ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "雪がやんだな。……お前たちの足跡が、ちゃんと、残る道だ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "先生の足跡も、橋の上に、ちゃんと残っております。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "先生、あの一分金。……わらじ代には、使いませなんだ。"
+  },
+  {
+   "op": "nar",
+   "text": "十平次は、懐から、紙に包んだ一分金を取り出して、玄蕃の手に、返した。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "先生のそばの代金を、わたくしが、まだ、払っておりませんので。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……馬鹿者。",
    "eyes": "crying"
   },
   {
    "op": "nar",
-   "text": "残された沈黙が、次の行動を促す。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_kimono",
-   "text": "ならば私も、その決断の重さを分け合う。",
-   "eyes": "closed"
+   "text": "十平次は、深く一礼して、列に戻った。玄蕃は、その背中が、雪の道に見えなくなるまで、槍を立てたまま、見送った。"
   },
   {
    "op": "hide",
-   "actor": "rei_casual"
+   "actor": "extra_porter"
   },
   {
    "op": "hide",
    "actor": "rei_kimono"
+  },
+  {
+   "op": "bg",
+   "src": null
   },
   {
    "op": "show",
@@ -734,29 +1048,26 @@
   {
    "op": "say",
    "actor": "nono",
-   "text": "物語はここまで。残った問いは「名を明かせない友情でも、相手の覚悟を支えられる」。",
-   "eyes": "sorrow"
+   "text": "杉野十平次と俵星玄蕃、雪の槍。これにて、丼を下げさせていただきます。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
-   "eyes": "normal"
+   "text": "名を明かせないまま、二人は、そば一杯で、ずっと話をしていました。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "ご来場、ありがとうございました。",
-   "eyes": "joy",
-   "mouth": "open"
+   "text": "玄蕃は、加勢をせず、ただ橋を守りました。槍を一度も振らずに、友の背中を支えたのです。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "杉野十平次は、翌年二月、二十八歳で切腹しました。玄蕃のその後は、講談の中にも、語られておりません。"
   },
   {
    "op": "hide",
    "actor": "nono"
-  },
-  {
-   "op": "bg",
-   "src": null
   },
   {
    "op": "end"

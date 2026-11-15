@@ -1,0 +1,888 @@
+{
+  "meta": {
+    "id": "nono-01-dawn-awakening",
+    "title": "第一章　目覚める刃、雪山の主",
+    "original": "アクションRPG『NONO: Blade of the Dawn』統合仕様書・公式攻略本",
+    "adaptation": "moderate",
+    "format": "v3",
+    "minutes": 28,
+    "synopsis": "はじまりの野で目覚めたnonoは、ユイとレイに導かれ、無名の剣を手にする。卯のシローとの一騎打ちと神殿の試練を越え、村を脅かす山の主いわぬしを鎮める。",
+    "note": "Stage Actor向け連作舞台化。筋・固有名・攻略要素は資料に基づき、台詞とナレーションは全て本上演版の書き下ろし。第五章のユイ覚醒の内面劇は舞台独自の補助表現。 原典は発注者提供のオリジナルIPとして扱う。公開・配布時の権利確認は運用者が行う。"
+  },
+  "cast": [
+    {
+      "role": "nono（旅人／狂言回し）",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "ユイ（戦うヒロイン）",
+      "actor": "yui",
+      "costume": "default"
+    },
+    {
+      "role": "レイ（ユイの従者）",
+      "actor": "rei",
+      "costume": "default"
+    },
+    {
+      "role": "村の長老",
+      "actor": "extra_elder",
+      "costume": "default"
+    },
+    {
+      "role": "卯のシロー（流浪の剣士）",
+      "actor": "shiro",
+      "costume": "default"
+    },
+    {
+      "role": "山の主いわぬし【エネミー追加名】",
+      "actor": "enemy_iwanushi",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "dawn_plain": "bg/ch1_01_dawn_plain-2048x1152.png",
+    "beginning_village": "bg/ch1_02_beginning_village-2048x1152.png",
+    "hidden_cave": "bg/ch1_03_hidden_cave-2048x1152.png",
+    "shiro_clearing": "bg/ch1_04_shiro_clearing-2048x1152.png",
+    "time_temple": "bg/ch1_05_time_temple-2048x1152.png",
+    "east_temple": "bg/ch1_06_east_temple-2048x1152.png",
+    "north_snow_trail": "bg/ch1_07_north_snow_trail-2048x1152.png",
+    "iwanushi_peak": "bg/ch1_08_iwanushi_peak-2048x1152.png",
+    "village_return": "bg/ch1_09_village_return-2048x1152.png",
+    "twilight_horizon": "bg/ch1_10_twilight_horizon-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "bg",
+      "src": "dawn_plain",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "dawn_plain"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "nar",
+      "text": "――夜明けの草原――"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "幕が上がると、僕は自分の名だけを握っていた。"
+    },
+    {
+      "op": "nar",
+      "text": "朝露の野。北の空だけが、紫の霧に噛み取られている。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "木の棒一本、空の胸ひとつ。ずいぶん軽い旅支度だ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "nar",
+      "text": "閉じた宝箱の金具が、朝日を一度だけ跳ね返す。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "あの箱は『先へ進め』と光った。なら、開けてみよう。"
+    },
+    {
+      "op": "nar",
+      "text": "木の棒を持ち上げると、村の鐘が二度鳴った。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "二度目は呼び鈴だ。あの煙の立つ村へ行く。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "bg",
+      "src": "beginning_village",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "beginning_village"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "center"
+    },
+    {
+      "op": "nar",
+      "text": "――はじまりの村――"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "北の雪山が夜ごと低くなる。いわぬしが歩くせいじゃ。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "山が歩く？　今朝の僕より、ずっと事情が重そうだ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "笑えるうちに笑え。背の鉱石が光れば、雪崩が来る。"
+    },
+    {
+      "op": "nar",
+      "text": "長老は爆弾を三つ、卓上へ慎重に並べた。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "火で殻を焼き、爆風で鉱石をさらせ。急所はその下じゃ。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "倒すのではなく、鎮める道を探します。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "まず北丘の押しの祠へ。空を渡る布を受け取れ。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "道具と理由、両方そろえて戻ります。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "bg",
+      "src": "hidden_cave",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "hidden_cave"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "rei",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "――茂みの奥の洞窟――"
+    },
+    {
+      "op": "nar",
+      "text": "押しの祠の布と火の祠の氷を背負い、nonoは切った茂みの奥へ入る。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "その台座の剣、錆びていても眠ってはいません。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "君は、この剣の名前を知っている？"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "名はない。勝った相手の技を、刃が十五度覚える。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "名札より先に、覚える力を持っているのか。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "私はユイ。この影から出たのがレイです。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "影は近道。馴れ合うための隠れ家ではない。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "それでも二人の足跡は、同じ向きに続いている。"
+    },
+    {
+      "op": "nar",
+      "text": "nonoが柄を取ると、錆の下で一本の光が脈打つ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "北の都へ行くなら、四つの封印の宝が必要です。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "rei"
+    },
+    {
+      "op": "bg",
+      "src": "shiro_clearing",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "shiro_clearing"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "shiro",
+      "pos": "center"
+    },
+    {
+      "op": "nar",
+      "text": "――白樺の決闘場――"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "その無名の剣、朝の光ばかり見て夜を知らないね。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "夜の話なら聞かせてくれ。刃を合わせる前に。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "黄昏の霧は、勝てない者から名前を奪う。僕は残った。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "だから他人の名が消える前に、腕を試しているのか。"
+    },
+    {
+      "op": "choice",
+      "options": [
+        {
+          "text": "間合いの外で待つ",
+          "jump": "ch1_wait"
+        },
+        {
+          "text": "先に踏み込む",
+          "jump": "ch1_enter"
+        }
+      ]
+    },
+    {
+      "op": "label",
+      "id": "ch1_wait"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "長い刀ほど、空振りの音はよく響く。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "耳で斬るつもり？　面白い。",
+      "eyes": "fun"
+    },
+    {
+      "op": "jump",
+      "to": "ch1_duel_join"
+    },
+    {
+      "op": "label",
+      "id": "ch1_enter"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "一歩を貸す。二歩目は僕のものだ。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "速さを値切る剣士は初めてだ。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "label",
+      "id": "ch1_duel_join"
+    },
+    {
+      "op": "nar",
+      "text": "白い花びらが一度舞い、二つの刃が同時に止まる。"
+    },
+    {
+      "op": "say",
+      "actor": "shiro",
+      "text": "剣が一段、君の呼吸を覚えた。北でまた会おう。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "次は名前を失わないためでなく、名乗るために戦おう。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "shiro"
+    },
+    {
+      "op": "bg",
+      "src": "time_temple",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "time_temple"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "rei",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "――時の神殿――"
+    },
+    {
+      "op": "nar",
+      "text": "重い石は床を擦り、刻印の板へ一寸ずつ進む。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "肩だけで押すと滑ります。足裏で床を捉えて。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "石にも歩幅がある。急かすと、こちらが潰される。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "右の燭台は湿っている。火を二度入れろ。"
+    },
+    {
+      "op": "nar",
+      "text": "二つの炎が揃うと、北扉の歯車が低く回り始める。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "ゴロリ二体。鉱石を狙えば、守りが崩れます。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "いわぬしの背も同じ構えなら、ここが稽古場だ。"
+    },
+    {
+      "op": "nar",
+      "text": "守り手が砕け、宝箱から銀のフックが現れる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "杭まで十四歩。届く距離を目で覚えろ。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "縄の長さより、離す瞬間が肝心だな。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "rei"
+    },
+    {
+      "op": "bg",
+      "src": "east_temple",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "east_temple"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "rei",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "――東の神殿――"
+    },
+    {
+      "op": "nar",
+      "text": "三列の深い穴の向こうで、古い扉が緑に光る。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "橋はない。でも、杭は向こうから手を伸ばしている。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "落ちれば入口へ戻る。足場ではなく呼吸を数えろ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "三つ目の杭だけ、鎖が短い。手前で放してください。"
+    },
+    {
+      "op": "nar",
+      "text": "フックが鳴り、nonoの靴が石縁をかすめる。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "空中で反省する暇は、意外と長い。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "着地してから笑ってください。心臓が追いつきません。"
+    },
+    {
+      "op": "nar",
+      "text": "石像の間を抜けた宝箱に、赤いハートの器が眠る。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "力が増えたというより、帰る理由が重くなった。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "なら持ち運べ。北の風は言い訳を凍らせる。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "rei"
+    },
+    {
+      "op": "bg",
+      "src": "north_snow_trail",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "north_snow_trail"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "rei",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "――北の雪道――"
+    },
+    {
+      "op": "nar",
+      "text": "耐寒の煮込みから立つ湯気が、横殴りの風に千切れる。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "清めの光は六十秒。次の岩陰までなら保ちます。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "雪の下が空洞だ。左の松から三歩離れろ。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "見えない道を、二人は別の方法で照らすんだな。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "私は傷を見ます。レイは傷が生まれる前を見ます。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "褒めても足場は増えない。前の亀裂を跳べ。"
+    },
+    {
+      "op": "nar",
+      "text": "山頂で五本の鉱石が青白く瞬き、雪が円く吹き飛ぶ。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "山の主が起きた。鍋はここに埋めておこう。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "rei"
+    },
+    {
+      "op": "bg",
+      "src": "iwanushi_peak",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "iwanushi_peak"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "enemy_iwanushi",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "――いわぬしの山頂――"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_iwanushi",
+      "text": "グォォ……背の石を、返せ……。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "誰かが鉱石を奪ったから、山を降りたのか？"
+    },
+    {
+      "op": "nar",
+      "text": "巨岩の拳が落ち、八方へ雪と礫が走る。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "背中の殻が閉じます。火を、露出した筋へ！"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "炎を薄く滑らせ、固まった外殻だけ剥がす。"
+    },
+    {
+      "op": "nar",
+      "text": "炎で割れた殻へ爆風が入り、青い鉱石が姿を見せる。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_iwanushi",
+      "text": "オモイ……ユキ……シズメ……。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "剣よ、怒りではなく眠りへ届いてくれ！",
+      "eyes": "anger"
+    },
+    {
+      "op": "nar",
+      "text": "一閃。鉱石の光が鎮まり、雪山の揺れが止まる。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "倒れていません。大地に深く座り直しただけです。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "enemy_iwanushi"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "bg",
+      "src": "village_return",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "village_return"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "――雪解けの村――"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "山が元の高さへ戻った。屋根の雪も泣き止んだわい。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "いわぬしが山を下りた理由は、最後まで聞き取れませんでした。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "原因を決めつけるな。紫霧の夜から荒れた、その二つだけ記録しよう。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "黄昏の霧は、昔の傷を眠らせず広げています。"
+    },
+    {
+      "op": "nar",
+      "text": "長老は百ルピーの袋と、北都へ続く古地図を置く。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "報酬は軽い。地図は重い。好きな方から持て。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "両方です。軽い方で、重い旅の鍋を買います。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "次は海か火山。封印の宝が二つ待っています。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "bg",
+      "src": "twilight_horizon",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "twilight_horizon"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "rei",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "――紫霧の地平――"
+    },
+    {
+      "op": "nar",
+      "text": "遠い城を隠す霧の上で、四つの淡い光が瞬く。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "海神のヒレ、炎の紋章、忍びの足袋、天の羽衣。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "四つを門へ返せば、終末の大地への幕が消えます。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "無名の剣は一つ名を覚えた。残り十四の出会いも探す。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "寄り道が世界を救うこともある。遅れるな。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "夜明けは待つものではなく、連れて帰るものです。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "村の鐘が三度鳴る。次に幕を押すのは、群青の波だ。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "rei"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

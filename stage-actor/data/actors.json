@@ -671,84 +671,6 @@
      "full": false
     }
    },
-   "faces": [
-    "normal_open",
-    "joy_normal",
-    "joy_open",
-    "anger_normal",
-    "anger_open",
-    "sorrow_normal",
-    "sorrow_open",
-    "fun_normal",
-    "fun_open",
-    "surprise_normal",
-    "surprise_open",
-    "crying_normal",
-    "crying_open",
-    "closed_normal",
-    "closed_open"
-   ],
-   "sources": [
-    {
-     "files": "*",
-     "from": "コンテンツ制作側 stage-actor-assets-2026-11-14.zip（src/actors/）",
-     "method": "tools/actors_import.py（plain を base、base＋目元＋口元を faces に合成）",
-     "date": "2026-11-14"
-    }
-   ]
-  },
-  {
-   "id": "rei",
-   "name": "レイ",
-   "faceMode": "sheet",
-   "hasMouth": false,
-   "costumes": {
-    "default": {
-     "full": false
-    }
-   },
-   "faces": [],
-   "fixedFace": true,
-   "sources": [
-    {
-     "files": "*",
-     "from": "コンテンツ制作側 stage-actor-assets-2026-11-14.zip（src/actors/）",
-     "method": "tools/actors_import.py（plain を base、base＋目元＋口元を faces に合成）",
-     "date": "2026-11-14"
-    }
-   ]
-  },
-  {
-   "id": "rei_casual",
-   "name": "rei_casual",
-   "faceMode": "sheet",
-   "hasMouth": true,
-   "costumes": {
-    "default": {
-     "full": false
-    }
-   },
-   "faces": [],
-   "fixedFace": true,
-   "sources": [
-    {
-     "files": "*",
-     "from": "コンテンツ制作側 stage-actor-assets-2026-11-14.zip（src/actors/）",
-     "method": "tools/actors_import.py（plain を base、base＋目元＋口元を faces に合成）",
-     "date": "2026-11-14"
-    }
-   ]
-  },
-  {
-   "id": "rei_kimono",
-   "name": "rei_kimono",
-   "faceMode": "sheet",
-   "hasMouth": true,
-   "costumes": {
-    "default": {
-     "full": false
-    }
-   },
    "faces": [],
    "fixedFace": true,
    "sources": [
@@ -823,27 +745,6 @@
     "closed_normal",
     "closed_open"
    ],
-   "sources": [
-    {
-     "files": "*",
-     "from": "コンテンツ制作側 stage-actor-assets-2026-11-14.zip（src/actors/）",
-     "method": "tools/actors_import.py（plain を base、base＋目元＋口元を faces に合成）",
-     "date": "2026-11-14"
-    }
-   ]
-  },
-  {
-   "id": "rei_trackcape",
-   "name": "rei_trackcape",
-   "faceMode": "sheet",
-   "hasMouth": true,
-   "costumes": {
-    "default": {
-     "full": false
-    }
-   },
-   "faces": [],
-   "fixedFace": true,
    "sources": [
     {
      "files": "*",
@@ -998,10 +899,11 @@
    ]
   },
   {
-   "id": "rei_tracksuit",
+   "id": "rei",
    "name": "レイ",
    "faceMode": "sheet",
    "hasMouth": false,
+   "stored": "full",
    "costumes": {
     "default": {
      "full": false
@@ -1012,8 +914,96 @@
    "sources": [
     {
      "files": "*",
-     "from": "描き直し src/replacements/rei_tracksuit.png",
-     "method": "tools/rei_fit.py",
+     "from": "届いた絵 src/replacements/asis/rei.jpg",
+     "method": "tools/asis_import.py（背景を抜いて比率そのまま）",
+     "date": "2026-11-15"
+    }
+   ]
+  },
+  {
+   "id": "rei_casual",
+   "name": "レイ",
+   "faceMode": "sheet",
+   "hasMouth": false,
+   "stored": "full",
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [],
+   "fixedFace": true,
+   "sources": [
+    {
+     "files": "*",
+     "from": "届いた絵 src/replacements/asis/rei_casual.jpg",
+     "method": "tools/asis_import.py（背景を抜いて比率そのまま）",
+     "date": "2026-11-15"
+    }
+   ]
+  },
+  {
+   "id": "rei_trackcape",
+   "name": "レイ",
+   "faceMode": "sheet",
+   "hasMouth": false,
+   "stored": "full",
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [],
+   "fixedFace": true,
+   "sources": [
+    {
+     "files": "*",
+     "from": "届いた絵 src/replacements/asis/rei_trackcape.jpg",
+     "method": "tools/asis_import.py（背景を抜いて比率そのまま）",
+     "date": "2026-11-15"
+    }
+   ]
+  },
+  {
+   "id": "rei_kimono",
+   "name": "レイ",
+   "faceMode": "sheet",
+   "hasMouth": false,
+   "stored": "full",
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [],
+   "fixedFace": true,
+   "sources": [
+    {
+     "files": "*",
+     "from": "届いた絵 src/replacements/asis/rei_kimono.jpg",
+     "method": "tools/asis_import.py（背景を抜いて比率そのまま）",
+     "date": "2026-11-15"
+    }
+   ]
+  },
+  {
+   "id": "rei_tracksuit",
+   "name": "レイ",
+   "faceMode": "sheet",
+   "hasMouth": false,
+   "stored": "full",
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [],
+   "fixedFace": true,
+   "sources": [
+    {
+     "files": "*",
+     "from": "届いた絵 src/replacements/asis/rei_tracksuit.jpg",
+     "method": "tools/asis_import.py（背景を抜いて比率そのまま）",
      "date": "2026-11-15"
     }
    ]
@@ -1023,6 +1013,7 @@
    "name": "レイ",
    "faceMode": "sheet",
    "hasMouth": false,
+   "stored": "full",
    "costumes": {
     "default": {
      "full": false
@@ -1033,8 +1024,8 @@
    "sources": [
     {
      "files": "*",
-     "from": "描き直し src/replacements/rei_zip.png",
-     "method": "tools/rei_fit.py",
+     "from": "届いた絵 src/replacements/asis/rei_zip.jpg",
+     "method": "tools/asis_import.py（背景を抜いて比率そのまま）",
      "date": "2026-11-15"
     }
    ]
@@ -1044,6 +1035,7 @@
    "name": "レイ",
    "faceMode": "sheet",
    "hasMouth": false,
+   "stored": "full",
    "costumes": {
     "default": {
      "full": false
@@ -1054,8 +1046,8 @@
    "sources": [
     {
      "files": "*",
-     "from": "描き直し src/replacements/rei_hakama.png",
-     "method": "tools/rei_fit.py",
+     "from": "届いた絵 src/replacements/asis/rei_hakama.jpg",
+     "method": "tools/asis_import.py（背景を抜いて比率そのまま）",
      "date": "2026-11-15"
     }
    ]
@@ -1065,6 +1057,7 @@
    "name": "レイ",
    "faceMode": "sheet",
    "hasMouth": false,
+   "stored": "full",
    "costumes": {
     "default": {
      "full": false
@@ -1075,8 +1068,8 @@
    "sources": [
     {
      "files": "*",
-     "from": "描き直し src/replacements/rei_sweater.png",
-     "method": "tools/rei_fit.py",
+     "from": "届いた絵 src/replacements/asis/rei_sweater.jpg",
+     "method": "tools/asis_import.py（背景を抜いて比率そのまま）",
      "date": "2026-11-15"
     }
    ]
@@ -1086,6 +1079,7 @@
    "name": "レイ",
    "faceMode": "sheet",
    "hasMouth": false,
+   "stored": "full",
    "costumes": {
     "default": {
      "full": false
@@ -1096,8 +1090,8 @@
    "sources": [
     {
      "files": "*",
-     "from": "描き直し src/replacements/rei_racesuit.png",
-     "method": "tools/rei_fit.py",
+     "from": "届いた絵 src/replacements/asis/rei_racesuit.jpg",
+     "method": "tools/asis_import.py（背景を抜いて比率そのまま）",
      "date": "2026-11-15"
     }
    ]
@@ -1107,6 +1101,7 @@
    "name": "レイ",
    "faceMode": "sheet",
    "hasMouth": false,
+   "stored": "full",
    "costumes": {
     "default": {
      "full": false
@@ -1117,8 +1112,8 @@
    "sources": [
     {
      "files": "*",
-     "from": "描き直し src/replacements/rei_baseball.png",
-     "method": "tools/rei_fit.py",
+     "from": "届いた絵 src/replacements/asis/rei_baseball.jpg",
+     "method": "tools/asis_import.py（背景を抜いて比率そのまま）",
      "date": "2026-11-15"
     }
    ]
@@ -1128,6 +1123,7 @@
    "name": "レイ",
    "faceMode": "sheet",
    "hasMouth": false,
+   "stored": "full",
    "costumes": {
     "default": {
      "full": false
@@ -1138,8 +1134,8 @@
    "sources": [
     {
      "files": "*",
-     "from": "描き直し src/replacements/rei_hero.png",
-     "method": "tools/rei_fit.py",
+     "from": "届いた絵 src/replacements/asis/rei_hero.jpg",
+     "method": "tools/asis_import.py（背景を抜いて比率そのまま）",
      "date": "2026-11-15"
     }
    ]
@@ -1149,6 +1145,7 @@
    "name": "ユイ",
    "faceMode": "sheet",
    "hasMouth": false,
+   "stored": "full",
    "costumes": {
     "default": {
      "full": false
@@ -1159,8 +1156,8 @@
    "sources": [
     {
      "files": "*",
-     "from": "描き直し src/replacements/yui_red.png",
-     "method": "tools/rei_fit.py",
+     "from": "届いた絵 src/replacements/asis/yui_red.jpg",
+     "method": "tools/asis_import.py（背景を抜いて比率そのまま）",
      "date": "2026-11-15"
     }
    ]
@@ -1170,6 +1167,7 @@
    "name": "ユイ",
    "faceMode": "sheet",
    "hasMouth": false,
+   "stored": "full",
    "costumes": {
     "default": {
      "full": false
@@ -1180,8 +1178,8 @@
    "sources": [
     {
      "files": "*",
-     "from": "描き直し src/replacements/yui_wind.png",
-     "method": "tools/rei_fit.py",
+     "from": "届いた絵 src/replacements/asis/yui_wind.jpg",
+     "method": "tools/asis_import.py（背景を抜いて比率そのまま）",
      "date": "2026-11-15"
     }
    ]
@@ -1191,6 +1189,7 @@
    "name": "ユイ",
    "faceMode": "sheet",
    "hasMouth": false,
+   "stored": "full",
    "costumes": {
     "default": {
      "full": false
@@ -1201,8 +1200,384 @@
    "sources": [
     {
      "files": "*",
-     "from": "描き直し src/replacements/yui_baseball.png",
-     "method": "tools/rei_fit.py",
+     "from": "届いた絵 src/replacements/asis/yui_baseball.jpg",
+     "method": "tools/asis_import.py（背景を抜いて比率そのまま）",
+     "date": "2026-11-15"
+    }
+   ]
+  },
+  {
+   "id": "enemy_iwanushi",
+   "name": "山の主いわぬし",
+   "kind": "enemy",
+   "faceMode": "sheet",
+   "hasMouth": false,
+   "stored": "full",
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [],
+   "fixedFace": true,
+   "sources": [
+    {
+     "files": "*",
+     "from": "届いた絵 src/replacements/enemies/enemy_iwanushi.png",
+     "method": "tools/asis_import.py（背景を抜いて比率そのまま）",
+     "date": "2026-11-15"
+    }
+   ]
+  },
+  {
+   "id": "enemy_giant_crab",
+   "name": "オオガニ",
+   "kind": "enemy",
+   "faceMode": "sheet",
+   "hasMouth": false,
+   "stored": "full",
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [],
+   "fixedFace": true,
+   "sources": [
+    {
+     "files": "*",
+     "from": "届いた絵 src/replacements/enemies/enemy_giant_crab.png",
+     "method": "tools/asis_import.py（背景を抜いて比率そのまま）",
+     "date": "2026-11-15"
+    }
+   ]
+  },
+  {
+   "id": "enemy_golem",
+   "name": "炎の神殿ゴーレム",
+   "kind": "enemy",
+   "faceMode": "sheet",
+   "hasMouth": false,
+   "stored": "full",
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [
+    "anger"
+   ],
+   "fixedFace": false,
+   "sources": [
+    {
+     "files": "*",
+     "from": "届いた絵 src/replacements/enemies/enemy_golem.png",
+     "method": "tools/asis_import.py（背景を抜いて比率そのまま）",
+     "date": "2026-11-15"
+    }
+   ]
+  },
+  {
+   "id": "enemy_oboromaru",
+   "name": "朧丸",
+   "kind": "enemy",
+   "faceMode": "sheet",
+   "hasMouth": false,
+   "stored": "full",
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [],
+   "fixedFace": true,
+   "sources": [
+    {
+     "files": "*",
+     "from": "届いた絵 src/replacements/enemies/enemy_oboromaru.jpg",
+     "method": "tools/asis_import.py（背景を抜いて比率そのまま）",
+     "date": "2026-11-15"
+    }
+   ]
+  },
+  {
+   "id": "enemy_sky_eagle",
+   "name": "天の大鷲",
+   "kind": "enemy",
+   "faceMode": "sheet",
+   "hasMouth": false,
+   "stored": "full",
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [],
+   "fixedFace": true,
+   "sources": [
+    {
+     "files": "*",
+     "from": "届いた絵 src/replacements/enemies/enemy_sky_eagle.png",
+     "method": "tools/asis_import.py（背景を抜いて比率そのまま）",
+     "date": "2026-11-15"
+    }
+   ]
+  },
+  {
+   "id": "enemy_wind_dragon",
+   "name": "風の龍",
+   "kind": "enemy",
+   "faceMode": "sheet",
+   "hasMouth": false,
+   "stored": "full",
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [
+    "anger"
+   ],
+   "fixedFace": false,
+   "sources": [
+    {
+     "files": "*",
+     "from": "届いた絵 src/replacements/enemies/enemy_wind_dragon.jpg",
+     "method": "tools/asis_import.py（背景を抜いて比率そのまま）",
+     "date": "2026-11-15"
+    }
+   ]
+  },
+  {
+   "id": "enemy_forest_spider",
+   "name": "森の大蜘蛛",
+   "kind": "enemy",
+   "faceMode": "sheet",
+   "hasMouth": false,
+   "stored": "full",
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [],
+   "fixedFace": true,
+   "sources": [
+    {
+     "files": "*",
+     "from": "届いた絵 src/replacements/enemies/enemy_forest_spider.png",
+     "method": "tools/asis_import.py（背景を抜いて比率そのまま）",
+     "date": "2026-11-15"
+    }
+   ]
+  },
+  {
+   "id": "enemy_nue",
+   "name": "鵺",
+   "kind": "enemy",
+   "faceMode": "sheet",
+   "hasMouth": false,
+   "stored": "full",
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [
+    "anger"
+   ],
+   "fixedFace": false,
+   "sources": [
+    {
+     "files": "*",
+     "from": "届いた絵 src/replacements/enemies/enemy_nue.png",
+     "method": "tools/asis_import.py（背景を抜いて比率そのまま）",
+     "date": "2026-11-15"
+    }
+   ]
+  },
+  {
+   "id": "enemy_ice_giant",
+   "name": "氷の巨人",
+   "kind": "enemy",
+   "faceMode": "sheet",
+   "hasMouth": false,
+   "stored": "full",
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [],
+   "fixedFace": true,
+   "sources": [
+    {
+     "files": "*",
+     "from": "届いた絵 src/replacements/enemies/enemy_ice_giant.png",
+     "method": "tools/asis_import.py（背景を抜いて比率そのまま）",
+     "date": "2026-11-15"
+    }
+   ]
+  },
+  {
+   "id": "enemy_machine_god",
+   "name": "機神",
+   "kind": "enemy",
+   "faceMode": "sheet",
+   "hasMouth": false,
+   "stored": "full",
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [],
+   "fixedFace": true,
+   "sources": [
+    {
+     "files": "*",
+     "from": "届いた絵 src/replacements/enemies/enemy_machine_god.png",
+     "method": "tools/asis_import.py（背景を抜いて比率そのまま）",
+     "date": "2026-11-15"
+    }
+   ]
+  },
+  {
+   "id": "enemy_rock_dragon",
+   "name": "岩竜",
+   "kind": "enemy",
+   "faceMode": "sheet",
+   "hasMouth": false,
+   "stored": "full",
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [],
+   "fixedFace": true,
+   "sources": [
+    {
+     "files": "*",
+     "from": "届いた絵 src/replacements/enemies/enemy_rock_dragon.png",
+     "method": "tools/asis_import.py（背景を抜いて比率そのまま）",
+     "date": "2026-11-15"
+    }
+   ]
+  },
+  {
+   "id": "enemy_jungle_lord",
+   "name": "密林の主・大ワニ",
+   "kind": "enemy",
+   "faceMode": "sheet",
+   "hasMouth": false,
+   "stored": "full",
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [
+    "anger"
+   ],
+   "fixedFace": false,
+   "sources": [
+    {
+     "files": "*",
+     "from": "届いた絵 src/replacements/enemies/enemy_jungle_lord.png",
+     "method": "tools/asis_import.py（背景を抜いて比率そのまま）",
+     "date": "2026-11-15"
+    }
+   ]
+  },
+  {
+   "id": "enemy_shiyu",
+   "name": "大悪魔・蚩尤（第一形態）",
+   "kind": "enemy",
+   "faceMode": "sheet",
+   "hasMouth": false,
+   "stored": "full",
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [],
+   "fixedFace": true,
+   "sources": [
+    {
+     "files": "*",
+     "from": "届いた絵 src/replacements/enemies/enemy_shiyu.jpg",
+     "method": "tools/asis_import.py（背景を抜いて比率そのまま）",
+     "date": "2026-11-15"
+    }
+   ]
+  },
+  {
+   "id": "enemy_shiyu_shadow",
+   "name": "大悪魔・蚩尤（第二形態／影のnono）",
+   "kind": "enemy",
+   "faceMode": "sheet",
+   "hasMouth": false,
+   "stored": "full",
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [],
+   "fixedFace": true,
+   "sources": [
+    {
+     "files": "*",
+     "from": "届いた絵 src/replacements/enemies/enemy_shiyu_shadow.jpg",
+     "method": "tools/asis_import.py（背景を抜いて比率そのまま）",
+     "date": "2026-11-15"
+    }
+   ]
+  },
+  {
+   "id": "enemy_moss_golem",
+   "name": "苔むした岩のゴーレム",
+   "kind": "enemy",
+   "faceMode": "sheet",
+   "hasMouth": false,
+   "stored": "full",
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [],
+   "fixedFace": true,
+   "sources": [
+    {
+     "files": "*",
+     "from": "届いた絵 src/replacements/enemies/enemy_moss_golem.jpg",
+     "method": "tools/asis_import.py（背景を抜いて比率そのまま）",
+     "date": "2026-11-15"
+    }
+   ]
+  },
+  {
+   "id": "enemy_clockwork",
+   "name": "錆びたからくり兵",
+   "kind": "enemy",
+   "faceMode": "sheet",
+   "hasMouth": false,
+   "stored": "full",
+   "costumes": {
+    "default": {
+     "full": false
+    }
+   },
+   "faces": [],
+   "fixedFace": true,
+   "sources": [
+    {
+     "files": "*",
+     "from": "届いた絵 src/replacements/enemies/enemy_clockwork.png",
+     "method": "tools/asis_import.py（背景を抜いて比率そのまま）",
      "date": "2026-11-15"
     }
    ]

@@ -1,0 +1,925 @@
+{
+  "meta": {
+    "id": "nono-03-mist-and-sky",
+    "title": "第三章　霞の足袋、天翔ける羽衣",
+    "original": "アクションRPG『NONO: Blade of the Dawn』統合仕様書・公式攻略本",
+    "adaptation": "moderate",
+    "format": "v3",
+    "minutes": 32,
+    "synopsis": "霞の竹林でレイの師と再会し、妖しの光に囚われた朧丸を救う。天嶺の霊峰では天空の社を攻略し、天の大鷲と風の龍を鎮め、四つの封印の宝を揃える。",
+    "note": "Stage Actor向け連作舞台化。筋・固有名・攻略要素は資料に基づき、台詞とナレーションは全て本上演版の書き下ろし。第五章のユイ覚醒の内面劇は舞台独自の補助表現。 原典は発注者提供のオリジナルIPとして扱う。公開・配布時の権利確認は運用者が行う。"
+  },
+  "cast": [
+    {
+      "role": "nono（旅人／狂言回し）",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "ユイ",
+      "actor": "yui",
+      "costume": "default"
+    },
+    {
+      "role": "レイ（袴姿）",
+      "actor": "rei_hakama",
+      "costume": "default"
+    },
+    {
+      "role": "申のサスケ",
+      "actor": "sasuke",
+      "costume": "default"
+    },
+    {
+      "role": "未のメイ",
+      "actor": "mei",
+      "costume": "default"
+    },
+    {
+      "role": "里長カスミ／霊峰の仙人",
+      "actor": "extra_elder",
+      "costume": "default"
+    },
+    {
+      "role": "朧丸【エネミー追加名】",
+      "actor": "enemy_oboromaru",
+      "costume": "default"
+    },
+    {
+      "role": "天の大鷲【エネミー追加名】",
+      "actor": "enemy_sky_eagle",
+      "costume": "default"
+    },
+    {
+      "role": "風の龍【エネミー追加名】",
+      "actor": "enemy_wind_dragon",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "bamboo_gate": "bg/ch3_01_bamboo_gate-2048x1152.png",
+    "kasumi_village": "bg/ch3_02_kasumi_village-2048x1152.png",
+    "karakuri_mansion": "bg/ch3_03_karakuri_mansion-2048x1152.png",
+    "kasumiga_castle_gate": "bg/ch3_04_kasumiga_castle_gate-2048x1152.png",
+    "castle_tatami": "bg/ch3_05_castle_tatami-2048x1152.png",
+    "oboromaru_keep": "bg/ch3_06_oboromaru_keep-2048x1152.png",
+    "spirit_mountain": "bg/ch3_07_spirit_mountain-2048x1152.png",
+    "sky_shrine": "bg/ch3_08_sky_shrine-2048x1152.png",
+    "sky_eagle_nest": "bg/ch3_09_sky_eagle_nest-2048x1152.png",
+    "wind_dragon_peak": "bg/ch3_10_wind_dragon_peak-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "bg",
+      "src": "bamboo_gate",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "bamboo_gate"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "rei_hakama",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "――霞の竹林口――"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "竹の節が風を数えるたび、霞の城が一段近くなる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_hakama",
+      "text": "ここからは私の里だ。足音を半分、視線を倍にしろ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "袴姿のレイは、いつもより背筋が高く見えます。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_hakama",
+      "text": "里では影にも礼をさせる。からかうな。"
+    },
+    {
+      "op": "nar",
+      "text": "切られた若竹の輪から、紫の光が城へ吸われていく。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "霧は下へ流れるのに、あの光だけ坂を登っている。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_hakama",
+      "text": "城主・朧丸が妖しの光に囚われた印だ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "忍びの足袋を守る人が、逆に宝へ縛られたのですね。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_hakama"
+    },
+    {
+      "op": "bg",
+      "src": "kasumi_village",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "kasumi_village"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_hakama",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "――霞の里――"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "レイ、影から戻るたび、肩の力だけ増しておる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_hakama",
+      "text": "師カスミ。城主を斬らずに戻す方法を聞きたい。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "四つの行灯を正しい火で満たせ。妖光は居場所を失う。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "正しい火とは、色ですか？　燃やす物ですか？"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "誰かを照らす火じゃ。自分を大きく見せる火ではない。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_hakama",
+      "text": "天守までの落とし穴は、畳の縁を見ろ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "ゲンサイの屋敷に歯車が三つ欠けた。先に直せ。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "城へ急ぐために、遠回りの仕掛けを直す。忍びらしい。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_hakama"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "bg",
+      "src": "karakuri_mansion",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "karakuri_mansion"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei_hakama",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "sasuke",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "――からくり屋敷――"
+    },
+    {
+      "op": "nar",
+      "text": "三つの歯車が噛み合い、床板の下から梯子が上がる。"
+    },
+    {
+      "op": "say",
+      "actor": "sasuke",
+      "text": "歯車を戻した腕は見た。だが城へ入る腕かは、俺が確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_hakama",
+      "text": "サスケ、ゲンサイの屋敷を勝手な試合場にするな。"
+    },
+    {
+      "op": "say",
+      "actor": "sasuke",
+      "text": "師匠の影を出たお前が、里の規則を語るか。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "歯車は戻った。次は、二人の言い分を噛み合わせよう。"
+    },
+    {
+      "op": "choice",
+      "options": [
+        {
+          "text": "手裏剣を剣で打ち落とす",
+          "jump": "ch3_cut"
+        },
+        {
+          "text": "煙へ飛び込む",
+          "jump": "ch3_smoke"
+        }
+      ]
+    },
+    {
+      "op": "label",
+      "id": "ch3_cut"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "金属音は一度。二枚目は音の裏に来る。"
+    },
+    {
+      "op": "say",
+      "actor": "sasuke",
+      "text": "耳まで盾にするか。"
+    },
+    {
+      "op": "jump",
+      "to": "ch3_sasuke_join"
+    },
+    {
+      "op": "label",
+      "id": "ch3_smoke"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "見えないなら、煙をこちらの間合いにする。"
+    },
+    {
+      "op": "say",
+      "actor": "sasuke",
+      "text": "目を閉じて踏み込む馬鹿は、嫌いじゃない。"
+    },
+    {
+      "op": "label",
+      "id": "ch3_sasuke_join"
+    },
+    {
+      "op": "nar",
+      "text": "小太刀が止まり、隠し梯子の鍵が床へ落ちる。"
+    },
+    {
+      "op": "say",
+      "actor": "sasuke",
+      "text": "天守の背後へ出る。朧丸の紫火は三方向だ。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_hakama"
+    },
+    {
+      "op": "hide",
+      "actor": "sasuke"
+    },
+    {
+      "op": "bg",
+      "src": "kasumiga_castle_gate",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "kasumiga_castle_gate"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "rei_hakama",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "――霞ヶ城大手門――"
+    },
+    {
+      "op": "nar",
+      "text": "白壁を紫の雨が伝い、四つの行灯だけが黒く沈む。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "忍びが四人。傷つけず、武器だけ落とせますか？"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "刃の腹で手首を打つ。レイ、逃げ道を残して。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_hakama",
+      "text": "北東の塀を開ける。追い詰めると妖光が濃くなる。"
+    },
+    {
+      "op": "nar",
+      "text": "レイの風遁が矢を逸らし、nonoの剣が手裏剣を弾く。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "一人、紫の糸が肩から天守へ伸びています。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "敵の数ではなく、糸の本数を減らす戦いだ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_hakama",
+      "text": "大手門、開く。畳の縁から足を離すな。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_hakama"
+    },
+    {
+      "op": "bg",
+      "src": "castle_tatami",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "castle_tatami"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "rei_hakama",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "――二の丸の畳罠――"
+    },
+    {
+      "op": "nar",
+      "text": "畳の縁が一枚だけ逆さに沈み、底のない闇を見せる。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "模様は同じでも、埃が縁を避けている。ここが落ちる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_hakama",
+      "text": "左壁のひびを爆弾で開けろ。罠の軸へ回れる。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "爆風が来ます。袖で口を覆って、三つ数えて。"
+    },
+    {
+      "op": "nar",
+      "text": "隠し部屋で歯車の軸が止まり、畳が本当の床へ戻る。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "忍びの城が、床を信じるなと教えてくる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_hakama",
+      "text": "信じるなではない。支える仕組みを見ろ、だ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "四つの行灯が見えます。火を分けましょう。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_hakama"
+    },
+    {
+      "op": "bg",
+      "src": "oboromaru_keep",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "oboromaru_keep"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "enemy_oboromaru",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "rei_hakama",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "――天守閣――"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_oboromaru",
+      "text": "影は主に従う。ならば、世界は霧に従え。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_hakama",
+      "text": "朧丸様、その声はあなたの間に他人が挟まっている。"
+    },
+    {
+      "op": "nar",
+      "text": "紫の火が三方向へ裂け、朧丸の姿が背後へ消える。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "消えた場所ではなく、畳の沈む音を聞く！"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_oboromaru",
+      "text": "光なき者が、足音を語るか！"
+    },
+    {
+      "op": "say",
+      "actor": "rei_hakama",
+      "text": "四行灯、点火。妖しの光よ、隠れる角を失え。"
+    },
+    {
+      "op": "nar",
+      "text": "紫糸がほどけ、忍びの足袋が静かに床へ降りる。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_oboromaru",
+      "text": "レイ……里を離れて、よい影を選んだな。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "影があるのは、近くに灯りがあるからです。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "enemy_oboromaru"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_hakama"
+    },
+    {
+      "op": "bg",
+      "src": "spirit_mountain",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "spirit_mountain"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "mei",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "――天嶺の霊峰――"
+    },
+    {
+      "op": "nar",
+      "text": "雲海の上、未のメイの杖から光球がゆっくり近づく。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "天空の社へ向かうなら、急ぐ心をここへ置いて。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "置いたら凍りそうです。持ったまま軽くできますか？"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "私の光を三つ避け、癒しの前に杖へ届きなさい。"
+    },
+    {
+      "op": "nar",
+      "text": "光球が雪へ沈み、nonoは風下から一気に間を詰める。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "回復の詠唱が始まりました。今なら杖は動きません。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "勝負は傷を増やす前に、祈りを終わらせる。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "合格です。西風の部屋では、燭台の風上に立って。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "mei"
+    },
+    {
+      "op": "bg",
+      "src": "sky_shrine",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "sky_shrine"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "rei_hakama",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "――天空の社――"
+    },
+    {
+      "op": "nar",
+      "text": "西風が床の霜を削り、四つの燭台の火を横へ引く。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "火が届かないなら、風に運ばせればいい。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_hakama",
+      "text": "右端から点けろ。流れた火が次の芯へ移る。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "石を板へ。風よけになれば、左の二灯も保ちます。"
+    },
+    {
+      "op": "nar",
+      "text": "四灯が一列に燃え、雲の上から巨大な羽音が落ちる。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "天の大鷲。羽根は五方向、矢は二倍効く。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_hakama",
+      "text": "羽根の隙間は動く。止まる場所を狙うな。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "弦に守りの祈りを。次の一射を外さないで。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_hakama"
+    },
+    {
+      "op": "bg",
+      "src": "sky_eagle_nest",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "sky_eagle_nest"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "enemy_sky_eagle",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "――大鷲の巣――"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_sky_eagle",
+      "text": "キィィ――空ハ、羽アル者ノモノ！"
+    },
+    {
+      "op": "nar",
+      "text": "五枚の光る羽根が弧を描き、巣の銀枝を切り落とす。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "羽根と羽根の間が、一瞬だけ同じ幅になる。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "その中央へ。私のボーガンも右の翼を押さえます。"
+    },
+    {
+      "op": "nar",
+      "text": "二本の矢が違う角度から届き、大鷲は風へ身を預ける。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_sky_eagle",
+      "text": "羽衣……空ヲ、奪ウナ……。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "奪わない。閉ざされた門を一度だけ越える。"
+    },
+    {
+      "op": "nar",
+      "text": "天の羽衣が羽音を残し、nonoの肩へ軽く降りる。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "四つの封印が揃いました。けれど頂に、まだ風の主がいます。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "enemy_sky_eagle"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "bg",
+      "src": "wind_dragon_peak",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "wind_dragon_peak"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "enemy_wind_dragon",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "rei_hakama",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "――風の龍の頂――"
+    },
+    {
+      "op": "nar",
+      "text": "藍色の風が三筋、円い石舞台を削って雲へ消える。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_wind_dragon",
+      "text": "人の門のため、空の静けさを乱すか。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "乱したのは黄昏の霧です。僕は音を返しに来た。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_hakama",
+      "text": "三方向の風弾。中央の薄い筋へ入れ。"
+    },
+    {
+      "op": "nar",
+      "text": "無名の剣が風を切らず受け流し、龍の額へ光を置く。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_wind_dragon",
+      "text": "刃で風を殺さぬ者よ、この龍笛を持て。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "空を道に変える笛。六つの島も、いつか巡ろう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei_hakama",
+      "text": "今は終末の大地だ。四宝が門を待っている。"
+    },
+    {
+      "op": "nar",
+      "text": "龍笛が一音鳴り、遠い紫の結界に細い亀裂が走る。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "龍笛の余韻に、十五振りの武器が遠い土地から応えた。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "enemy_wind_dragon"
+    },
+    {
+      "op": "hide",
+      "actor": "rei_hakama"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

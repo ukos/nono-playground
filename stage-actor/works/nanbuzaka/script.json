@@ -1,728 +1,1132 @@
 {
-  "meta": {
-    "id": "nanbuzaka",
-    "number": 149,
-    "title": "赤穂義士伝・南部坂雪の別れ ―偽りの暇乞い―",
-    "original": "古典講談『赤穂義士伝・南部坂雪の別れ』（伝統演目）",
-    "category": "講談",
-    "adaptation": "faithful",
-    "format": "v3",
-    "minutes": 38,
-    "synopsis": "全五景で「秘密を守るための冷たい言葉が、最深の別れになる」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
-    "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+ "meta": {
+  "id": "nanbuzaka",
+  "number": 149,
+  "title": "赤穂義士伝・南部坂雪の別れ ―偽りの暇乞い―",
+  "original": "古典講談『赤穂義士伝・南部坂雪の別れ』（伝統演目）",
+  "category": "講談",
+  "adaptation": "faithful",
+  "format": "v3",
+  "minutes": 38,
+  "synopsis": "全五景で「秘密を守るための冷たい言葉が、最深の別れになる」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "狂言回し",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "大石内蔵助",
-      "actor": "rei_kimono",
-      "costume": "default"
-    },
-    {
-      "role": "瑤泉院",
-      "actor": "mei",
-      "costume": "default"
-    },
-    {
-      "role": "戸田局",
-      "actor": "yui",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "snow_slope": "bg/nanbuzaka-snow_slope-2048x1152.png",
-    "incense_room": "bg/nanbuzaka-incense_room-2048x1152.png",
-    "false_words": "bg/nanbuzaka-false_words-2048x1152.png",
-    "ledger_hint": "bg/nanbuzaka-ledger_hint-2048x1152.png",
-    "night_departure": "bg/nanbuzaka-night_departure-2048x1152.png"
+  {
+   "role": "大石内蔵助",
+   "actor": "rei_kimono",
+   "costume": "default"
   },
-  "steps": [
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『赤穂義士伝・南部坂雪の別れ』。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "講談の一席を、全五景でお届けします。",
-      "mouth": "open",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "この舞台の核は「秘密を守るための冷たい言葉が、最深の別れになる」。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "台詞はすべて今夜のための書き下ろしです。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "それでは、幕を開けましょう。",
-      "mouth": "open",
-      "eyes": "joy"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "snow_slope",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "snow_slope"
-    },
-    {
-      "op": "nar",
-      "text": "第1景「南部坂の雪」。討入前夜の内蔵助が浅野家の屋敷へ向かう。"
-    },
-    {
-      "op": "show",
-      "actor": "rei_kimono",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "mei",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "「南部坂の雪」へ来た。討入前夜の内蔵助が浅野家の屋敷へ向かう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "ここで黙れば、誰かが代わりに意味を決める。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "私が守りたいのは「秘密を守るための冷たい言葉が、最深の別れになる」だ。",
-      "eyes": "anger"
-    },
-    {
-      "op": "nar",
-      "text": "南部坂の雪の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "過去は変えられない。だが次の手は選べる。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。討入前夜の内蔵助が浅野家の屋敷へ向かう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "討入前夜の内蔵助が浅野家の屋敷へ向かう。その事実から目をそらさない。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "恐れを消すのではなく、恐れたまま進もう。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "私の名ではなく、行いで答えを残す。",
-      "eyes": "normal"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "その答えを、次の場面まで持って行こう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "ここで決める。逃げず、相手の声を聞く。",
-      "eyes": "anger"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "ならば私も、その決断の重さを分け合う。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_kimono"
-    },
-    {
-      "op": "hide",
-      "actor": "mei"
-    },
-    {
-      "op": "bg",
-      "src": "incense_room",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "incense_room"
-    },
-    {
-      "op": "nar",
-      "text": "第2景「瑤泉院の座敷」。真意を告げられぬまま暇乞いを申し出る。"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_kimono",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "「瑤泉院の座敷」へ来た。真意を告げられぬまま暇乞いを申し出る。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "ここで黙れば、誰かが代わりに意味を決める。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "私が守りたいのは「秘密を守るための冷たい言葉が、最深の別れになる」だ。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "瑤泉院の座敷の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-      "eyes": "surprise",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "過去は変えられない。だが次の手は選べる。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。真意を告げられぬまま暇乞いを申し出る。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "真意を告げられぬまま暇乞いを申し出る。その事実から目をそらさない。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "恐れを消すのではなく、恐れたまま進もう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "私の名ではなく、行いで答えを残す。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "その答えを、次の場面まで持って行こう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "ここで決める。逃げず、相手の声を聞く。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "ならば私も、その決断の重さを分け合う。",
-      "eyes": "fun"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_kimono"
-    },
-    {
-      "op": "bg",
-      "src": "false_words",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "false_words"
-    },
-    {
-      "op": "nar",
-      "text": "第3景「偽りの弁明」。遊興にふける腰抜けを装い主君への思いを隠す。"
-    },
-    {
-      "op": "show",
-      "actor": "mei",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "「偽りの弁明」へ来た。遊興にふける腰抜けを装い主君への思いを隠す。",
-      "eyes": "anger",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "ここで黙れば、誰かが代わりに意味を決める。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "私が守りたいのは「秘密を守るための冷たい言葉が、最深の別れになる」だ。",
-      "eyes": "fun"
-    },
-    {
-      "op": "nar",
-      "text": "偽りの弁明の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-      "eyes": "crying",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "過去は変えられない。だが次の手は選べる。",
-      "eyes": "closed"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。遊興にふける腰抜けを装い主君への思いを隠す。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "遊興にふける腰抜けを装い主君への思いを隠す。その事実から目をそらさない。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "恐れを消すのではなく、恐れたまま進もう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "私の名ではなく、行いで答えを残す。",
-      "eyes": "anger",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "その答えを、次の場面まで持って行こう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "ここで決める。逃げず、相手の声を聞く。",
-      "eyes": "fun"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "ならば私も、その決断の重さを分け合う。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "hide",
-      "actor": "mei"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "bg",
-      "src": "ledger_hint",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "ledger_hint"
-    },
-    {
-      "op": "nar",
-      "text": "第4景「連名帳の気配」。戸田局だけが包みに込めた覚悟を察する。"
-    },
-    {
-      "op": "show",
-      "actor": "rei_kimono",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "mei",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "「連名帳の気配」へ来た。戸田局だけが包みに込めた覚悟を察する。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "ここで黙れば、誰かが代わりに意味を決める。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "私が守りたいのは「秘密を守るための冷たい言葉が、最深の別れになる」だ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "連名帳の気配の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "過去は変えられない。だが次の手は選べる。",
-      "eyes": "normal"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。戸田局だけが包みに込めた覚悟を察する。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "戸田局だけが包みに込めた覚悟を察する。その事実から目をそらさない。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "恐れを消すのではなく、恐れたまま進もう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "私の名ではなく、行いで答えを残す。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "その答えを、次の場面まで持って行こう。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "ここで決める。逃げず、相手の声を聞く。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "ならば私も、その決断の重さを分け合う。",
-      "eyes": "crying"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_kimono"
-    },
-    {
-      "op": "hide",
-      "actor": "mei"
-    },
-    {
-      "op": "bg",
-      "src": "night_departure",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "night_departure"
-    },
-    {
-      "op": "nar",
-      "text": "第5景「雪の別れ」。互いに本心を言えぬまま最後の礼を交わす。"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_kimono",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "「雪の別れ」へ来た。互いに本心を言えぬまま最後の礼を交わす。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "ここで黙れば、誰かが代わりに意味を決める。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "私が守りたいのは「秘密を守るための冷たい言葉が、最深の別れになる」だ。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "雪の別れの空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "過去は変えられない。だが次の手は選べる。",
-      "eyes": "joy"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。互いに本心を言えぬまま最後の礼を交わす。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "互いに本心を言えぬまま最後の礼を交わす。その事実から目をそらさない。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "恐れを消すのではなく、恐れたまま進もう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "私の名ではなく、行いで答えを残す。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "その答えを、次の場面まで持って行こう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "ここで決める。逃げず、相手の声を聞く。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "ならば私も、その決断の重さを分け合う。",
-      "eyes": "closed"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_kimono"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "物語はここまで。残った問いは「秘密を守るための冷たい言葉が、最深の別れになる」。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ご来場、ありがとうございました。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "end"
+  {
+   "role": "瑤泉院",
+   "actor": "mei",
+   "costume": "default"
+  },
+  {
+   "role": "戸田局",
+   "actor": "yui",
+   "costume": "default"
+  },
+  {
+   "role": "腰元・紅梅",
+   "actor": "akane",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "snow_slope": "bg/nanbuzaka-snow_slope-2048x1152.png",
+  "incense_room": "bg/nanbuzaka-incense_room-2048x1152.png",
+  "false_words": "bg/nanbuzaka-false_words-2048x1152.png",
+  "ledger_hint": "bg/nanbuzaka-ledger_hint-2048x1152.png",
+  "night_departure": "bg/nanbuzaka-night_departure-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "赤穂義士伝の中で、とりわけ雪の似合う一席がございます。南部坂、雪の別れ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "亡き浅野内匠頭の奥方、阿久里さまは、落飾して瑤泉院と名を改めました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "そして、赤坂南部坂にある、ご実家の三次浅野家の屋敷に、身を寄せておられました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "討ち入りの前夜、大石内蔵助は、その瑤泉院さまのもとへ、最後のご挨拶にうかがいます。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "けれど、本当のことは、ひと言も言えません。屋敷の中に、誰の耳があるか分からないからです。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "本心を隠したまま、冷たい言葉で別れを告げる。……それが、どれほど深い別れになるか。お聞きください。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "snow_slope",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "snow_slope"
+  },
+  {
+   "op": "nar",
+   "text": "元禄十五年、十二月十四日。夕刻。赤坂、南部坂。降りしきる雪の坂道を、紋付に笠をかぶった侍が、ひとり登ってくる。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "坂の上に、屋敷の門が見える。……瑤泉院さまは、あの奥におられる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "一年九か月。京の山科で、祇園で、酒と遊びに明け暮れてみせた。世間は、わしを、腰抜けの家老と呼ぶ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "吉良どのの間者が、どこで見ているか分からぬ。……ここでも、それは同じだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "今夜、寅の刻。本所松坂町。……そのことは、雪の一片にも、言えぬ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "ご主君の墓前に報告する前に、奥方さまに、ひと目。……それだけが、わしの、わがままだ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "供の寺坂には、坂の下で待てと言うた。……若い者に、この顔を見せたくはない。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "顔に出せば、気取られる。笑え、内蔵助。……祇園で、毎晩、そうしてきたように。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "足元の雪が、きゅっ、きゅっと鳴った。内蔵助は、懐の包みを、そっと押さえた。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "bg",
+   "src": "incense_room",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "incense_room"
+  },
+  {
+   "op": "nar",
+   "text": "瑤泉院の座敷。仏壇に、亡き内匠頭の位牌。香の煙が、細く立ちのぼっている。"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "瑤泉院は、白い頭巾をかぶり、数珠を手にしている。まだ三十に届かぬ若さであった。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "内蔵助が来たと。……一年九か月、文の一つもよこさなかった、あの内蔵助が。"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "奥方さま、きっと、何か大事なお話がございましょう。この雪の中を。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "大事な話なら、とうに聞かせてくれたはず。……いいえ、もしかしたら、今夜こそ。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "奥方さまは、毎朝、殿のお好きだった白梅の香を焚いておられますもの。きっと、殿が、お呼びになったのです。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "戸田、香を新しく。殿のお位牌の前で、内蔵助の話を聞きたい。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "次の間の襖の陰に、新参の腰元、紅梅が控えていた。茶を運ぶふりをして、耳を澄ませていた。"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……大石内蔵助。ようやく、顔を見せたのね。",
+   "eyes": "fun"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "nar",
+   "text": "襖が開き、内蔵助が、深く頭を下げて、座敷に入った。"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "瑤泉院さまには、ご機嫌うるわしく。長らくご無沙汰をいたし、まことに申し訳ございませぬ。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "内蔵助、よう来てくれました。……雪で、肩が、白い。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "さあ、殿のお位牌にも、手を合わせておくれ。殿も、きっと、待っておいでだった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "謹んで。……殿の前に、手ぶらで座るのは、心苦しゅうございますが。"
+  },
+  {
+   "op": "nar",
+   "text": "内蔵助は、仏壇の前に進み、長いこと、手を合わせた。ほかの者には、ただ、頭を垂れているように見えた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "殿。……明日の朝には、ご報告に参ります。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "内蔵助、聞かせておくれ。いつなのです。殿の、ご無念を晴らすのは。"
+  },
+  {
+   "op": "nar",
+   "text": "次の間の襖の向こうで、衣擦れの音が、かすかに止まった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……瑤泉院さま、今日は、お暇乞いに参りました。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "暇乞い……？",
+   "eyes": "surprise"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "bg",
+   "src": "false_words",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "false_words"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "西国の、さるお大名から、仕官のお話をいただきました。近く、江戸を発ちます。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "どちらのお家です。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "先方の都合もございますゆえ、それは、まだ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "仕官……。内蔵助、何を言っているのです。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "お前ほどの者が、二君に仕えるのか。……殿の家老であった、お前が。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "浪人の身、いつまでも、こうしてはおられませぬ。わたくしにも、家族がございます。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "家族。……殿には、家族がなかったとでも言うのか。殿は、切腹の場で、お前の名を呼ばれたと聞いた。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "もったいないことでございます。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "京で、祇園の茶屋に入りびたっていると、噂に聞いた。わたくしは、信じなかった。それは、敵の目を欺くためだと。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "内蔵助、今、ここで、わたくしにだけは、本当のことを言っておくれ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……本当のことでございます。わたくしは、遊びが過ぎました。いまさら、刀を抜く気力もございませぬ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "次の間の襖の向こうで、紅梅が、小さく息をついた。それは、安堵のため息のようにも聞こえた。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "腰抜け……！",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "奥方さま、お声が……！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "殿の、あの日のお顔を、お前は忘れたのか。白装束で、庭の桜の下で……。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "忘れてはおりませぬ。忘れぬゆえに、もう、思い出したくないのでございます。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "奥方さまのお怒り、ごもっともでございます。いかようにも、お叱りくださいませ。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "叱っても、お前の心は、もう戻らぬのでしょう。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "帰りなさい。もう、顔も見たくない。……二度と、この屋敷の門をくぐるな。",
+   "eyes": "crying"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "瑤泉院は、奥の部屋へ去った。座敷に、内蔵助と、老女の戸田局だけが残った。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "大石さま。……奥方さまは、この一年九か月、毎朝、殿のお位牌の前で、あなたさまの名を呼んでおられました。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……存じております。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "春には、殿のお好きだった桜の枝を、仏壇に供えて。秋には、赤穂の塩を、お供えして。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "存じておられて、なぜ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "戸田どの。屋敷の中は、広うございますな。襖も、壁も、ずいぶん薄い。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "薄い……。"
+  },
+  {
+   "op": "nar",
+   "text": "戸田局は、ふと、次の間の襖に目をやった。わずかに、指一本分、開いていた。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……まさか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "わたくしの口は、もう、何も申しませぬ。ただ、これを。"
+  },
+  {
+   "op": "nar",
+   "text": "内蔵助は、懐から、袱紗に包んだ書付の束を取り出した。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "京の暮らしのつれづれに、書きためた歌と日記でございます。下手なものですが、奥方さまに、お慰みに、ご覧いただければ。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "歌と、日記……。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "雪の夜長に、お読みいただければ、少しは、お笑いいただけましょう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "歌の出来の悪さは、腰抜けの証。……奥方さまも、それで、きっぱりとお見限りいただけましょう。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "bg",
+   "src": "ledger_hint",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "ledger_hint"
+  },
+  {
+   "op": "nar",
+   "text": "戸田局は、包みを、両手で受け取った。思いのほか、ずしりと重かった。"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "大石さま、歌と日記にしては、重うございますね。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "下手な歌ほど、紙を多く使いますゆえ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……さようでございますか。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "包みの結び目が、固い。二重に結んである。……人に、ほどいてほしくない結び方。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "戸田どの、ひとつだけ、お願いがございます。その包みは、明日の朝まで、どなたの手にも、触れさせぬよう。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "明日の、朝まで。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "明日の朝になれば、もう、どなたがご覧になっても、かまいませぬ。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "大石さま……。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "大石さま、お顔の色が、すぐれませぬ。せめて、熱いお茶を一杯。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "いえ。温まれば、腰が重くなります。今宵は、まだ、行く所がございますゆえ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "奥方さまに、くれぐれも、お体を大切に、と。……それだけ、お伝えください。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "承りました。……命に代えても。"
+  },
+  {
+   "op": "nar",
+   "text": "戸田局の目に、涙が浮かんだ。内蔵助は、気づかぬふりをして、深く頭を下げた。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "内蔵助が帰ったあと。戸田局が、包みを奥方の手文庫にしまっていると、紅梅が、そばに寄ってきた。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "戸田さま、お疲れでございましょう。その包み、わたくしがお片付けいたしましょうか。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "ありがとう。でも、これは、奥方さまに直接お渡しするもの。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "大石さまのお歌でございますね。どんなお歌か、わたくし、拝見したく存じます。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "紅梅、あなたは、ここへ来て、まだ三月でしたね。どちらの紹介で、参ったのだったかしら。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "え……それは、上野の、さるお屋敷の……。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "上野。……そう。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "戸田さま、何か、お気に障りましたでしょうか。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "いいえ。ただ、今夜は早くお休みなさい。雪の夜は、廊下が冷えます。"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "今夜は、わたくしが、この手文庫の前で寝ずの番をいたします。……誰の手にも、触れさせぬ。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "bg",
+   "src": "night_departure",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "night_departure"
+  },
+  {
+   "op": "nar",
+   "text": "屋敷の門。雪は、ますます激しくなっている。内蔵助は、笠をかぶり直し、振り返った。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "奥方さま、お許しくださいませ。今宵のご無礼、明日の朝、すべて、お詫びいたします。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……生きて、お詫びに参れれば、の話ではございますが。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "門の内側から、障子越しに、かすかに、すすり泣く声が聞こえた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "泣かせてしまった。……殿の奥方を、わしが、泣かせた。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "お恨みください。お恨みになるほど、奥方さまは、明日、楽になれましょう。"
+  },
+  {
+   "op": "nar",
+   "text": "内蔵助は、雪の中に膝をつき、門に向かって、両手をついて、深々と礼をした。笠に、雪が積もった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "殿、奥方さまを、お守りくださいませ。……では、行って参ります。"
+  },
+  {
+   "op": "nar",
+   "text": "坂の下で、供の寺坂吉右衛門が、傘も差さずに待っていた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "寺坂、待たせたな。……さあ、皆の待つ所へ。"
+  },
+  {
+   "op": "nar",
+   "text": "立ち上がった内蔵助の足跡が、南部坂を、一つずつ、下っていった。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "bg",
+   "src": "incense_room",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "incense_room"
+  },
+  {
+   "op": "nar",
+   "text": "夜更け。奥の座敷。瑤泉院は、眠れずに、仏壇の前に座っている。"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "殿、内蔵助は、腰抜けになっておりました。……わたくしは、何を、待っていたのでしょう。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "殿の位牌に、言いつけてやりたい。あなたの家老は、遊び疲れて、西国へ行くそうです、と。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "一年九か月。この屋敷の窓から、雪の日も、雨の日も、あの人が門をくぐるのを、待っておりました。",
+   "eyes": "crying"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "奥方さま。……大石さまから、お預かりしたものがございます。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "内蔵助のものなど、見たくもない。下手な歌と日記など。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "奥方さま、どうか。……明日の朝までは、誰にも触れさせぬように、とのお言葉でございました。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "先ほど、新参の紅梅が、これを、持ち去ろうといたしました。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "紅梅が……？",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "問いただそうとしたところ、裏木戸から、姿を消しました。……上野の、吉良さまのお屋敷のほうへ。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "吉良の……間者。"
+  },
+  {
+   "op": "nar",
+   "text": "瑤泉院は、震える手で、包みの結び目をほどいた。中から出てきたのは、歌ではなかった。"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "紙が、指に冷たい。……歌の紙では、ない。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "名前が、並んでおります。……大石内蔵助、大石主税、原惣右衛門、堀部安兵衛……。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "一人ずつ、血判が押してある。……殿の、ご恩に報いん、と。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "歌も、ございます。……大石さまの、辞世のような歌が、最後に。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "歌と日記と言うたのは、嘘ではなかったのですね。……命を賭けた日記。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "四十七人。……今宵、寅の刻、と。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "内蔵助……！　なぜ、言ってくれなかった。……いいえ。言えなかったのですね。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "わたくしが、今夜、本当のことを聞いていたら。紅梅の耳が、それを、吉良の屋敷へ運んでいた。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "あの人は、わたくしに罵られることで、四十七人の命を、守ったのですね。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "雪の中で、門に向かって、長いこと、膝をついておられたそうでございます。門番が、そう申しておりました。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "わたくしは、あの人に、腰抜けと。……二度と来るなと。",
+   "eyes": "crying"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "瑤泉院は、障子を開けて、雪の夜空に手を合わせる",
+     "jump": "m_pray"
+    },
+    {
+     "text": "瑤泉院は、連判状を胸に抱き、朝を待つ",
+     "jump": "m_wait"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_pray"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "内蔵助、聞こえますか。……わたくしは、もう、恨んでおりません。どうか、本懐を。"
+  },
+  {
+   "op": "jump",
+   "to": "m_dawn"
+  },
+  {
+   "op": "label",
+   "id": "m_wait"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "朝まで、ここで待ちます。殿と一緒に。……四十七人の名前と、一緒に。"
+  },
+  {
+   "op": "label",
+   "id": "m_dawn"
+  },
+  {
+   "op": "nar",
+   "text": "遠くで、寅の刻を告げる鐘が鳴った。雪は、まだ、降り続いていた。"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "bg",
+   "src": "snow_slope",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "snow_slope"
+  },
+  {
+   "op": "nar",
+   "text": "十二月十五日、朝。雪は止み、空は青く晴れた。赤坂の屋敷に、早馬の知らせが届いた。"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "奥方さま！　赤穂の浪士たちが、吉良さまのお屋敷に討ち入り、本懐を遂げられたと！"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……内蔵助は。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "皆さま、泉岳寺へ、殿のお墓へ向かっておられます。大石さまも、ご無事と。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "槍の先に、吉良さまの首を包んで、雪の道を、静かに歩いておられたと。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "静かに。……あの人らしい。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "昨夜の雪は、あの人たちの足音を、消してくれたのでしょうね。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "よかった……。殿、お聞きになりましたか。内蔵助が、やりました。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "戸田、昨夜の内蔵助の言葉を、もう一度、聞かせておくれ。……くれぐれも、体を大切に、と。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "はい。くれぐれも、お体を大切に、と。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "冷たい言葉の中に、一つだけ、温かい言葉を置いていったのですね。……わたくしが、気づかなかっただけで。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "紅梅は、あれきり、戻ってまいりません。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "戻ってきても、もう、運ぶ話は何もないでしょう。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "あの人が、ご公儀のお裁きを受ける日まで、わたくしは、毎朝、四十七人の名前を読みましょう。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "南部坂、雪の別れ。ここで、雪を払って、幕といたしましょう。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "腰抜けと罵られて、内蔵助は、ひと言も、言い返しませんでした。その沈黙が、四十七人の命を守りました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "本当のことを言えない別れほど、深い別れはありません。けれど、本当のことは、包みの中に、ちゃんと残っていました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "翌年の二月四日、四十六人の義士は、切腹を命じられました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "瑤泉院は、その後も長く、彼らの菩提を弔い続けたと伝えられております。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

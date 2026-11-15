@@ -1,0 +1,992 @@
+{
+  "meta": {
+    "id": "nono-04-fifteen-blades",
+    "title": "第四章　十五の刃と暁の聖剣",
+    "original": "アクションRPG『NONO: Blade of the Dawn』統合仕様書・公式攻略本",
+    "adaptation": "moderate",
+    "format": "v3",
+    "minutes": 36,
+    "synopsis": "四宝を得たnonoは、終末へ進む前に各地の宝の道具とライバルの力を集める。森、妖怪の里、氷河、機械遺跡、溪谷、密林、黄昏の地を巡り、十五の好敵手との縁が無名の剣を暁の聖剣へ育てる。",
+    "note": "Stage Actor向け連作舞台化。筋・固有名・攻略要素は資料に基づき、台詞とナレーションは全て本上演版の書き下ろし。第五章のユイ覚醒の内面劇は舞台独自の補助表現。 原典は発注者提供のオリジナルIPとして扱う。公開・配布時の権利確認は運用者が行う。"
+  },
+  "cast": [
+    {
+      "role": "nono（旅人／狂言回し）",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "ユイ",
+      "actor": "yui",
+      "costume": "default"
+    },
+    {
+      "role": "レイ",
+      "actor": "rei",
+      "costume": "default"
+    },
+    {
+      "role": "寅の虎鉄",
+      "actor": "kotetsu",
+      "costume": "default"
+    },
+    {
+      "role": "巳のミズチ",
+      "actor": "mizuchi",
+      "costume": "default"
+    },
+    {
+      "role": "戌のクロガネ",
+      "actor": "kurogane",
+      "costume": "default"
+    },
+    {
+      "role": "狸のタヌリオ",
+      "actor": "tanurio",
+      "costume": "default"
+    },
+    {
+      "role": "狐のアカネ",
+      "actor": "akane",
+      "costume": "default"
+    },
+    {
+      "role": "丑のイワオ",
+      "actor": "iwao",
+      "costume": "default"
+    },
+    {
+      "role": "亥のゴウ",
+      "actor": "gou",
+      "costume": "default"
+    },
+    {
+      "role": "午のハヤテ",
+      "actor": "hayate",
+      "costume": "default"
+    },
+    {
+      "role": "酉のコガネ",
+      "actor": "kogane",
+      "costume": "default"
+    },
+    {
+      "role": "黒猫のヨル",
+      "actor": "yoru",
+      "costume": "default"
+    },
+    {
+      "role": "森の大蜘蛛【エネミー追加名】",
+      "actor": "enemy_forest_spider",
+      "costume": "default"
+    },
+    {
+      "role": "鵺【エネミー追加名】",
+      "actor": "enemy_nue",
+      "costume": "default"
+    },
+    {
+      "role": "氷の巨人【エネミー追加名】",
+      "actor": "enemy_ice_giant",
+      "costume": "default"
+    },
+    {
+      "role": "機神【エネミー追加名】",
+      "actor": "enemy_machine_god",
+      "costume": "default"
+    },
+    {
+      "role": "岩竜【エネミー追加名】",
+      "actor": "enemy_rock_dragon",
+      "costume": "default"
+    },
+    {
+      "role": "密林の主・大ワニ【エネミー追加名】",
+      "actor": "enemy_jungle_lord",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "snow_pass": "bg/ch4_01_snow_pass-2048x1152.png",
+    "great_forest": "bg/ch4_02_great_forest-2048x1152.png",
+    "yokai_village": "bg/ch4_03_yokai_village-2048x1152.png",
+    "glacier_aurora": "bg/ch4_04_glacier_aurora-2048x1152.png",
+    "machine_ruins": "bg/ch4_05_machine_ruins-2048x1152.png",
+    "grand_canyon": "bg/ch4_06_grand_canyon-2048x1152.png",
+    "jungle_ruins": "bg/ch4_07_jungle_ruins-2048x1152.png",
+    "twilight_waste": "bg/ch4_08_twilight_waste-2048x1152.png",
+    "rival_camp": "bg/ch4_09_rival_camp-2048x1152.png",
+    "sacred_sword_dawn": "bg/ch4_10_sacred_sword_dawn-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "bg",
+      "src": "snow_pass",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "snow_pass"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kotetsu",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "mizuchi",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "――白嶺の雪山――"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "四つの封印は揃った。それでもnonoは、結界へ背を向けた。"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "ならば虎鉄の薙刀を越え、雪に足跡を深く刻め。"
+    },
+    {
+      "op": "say",
+      "actor": "mizuchi",
+      "text": "砂の背後取りも忘れないで。雪面なら影が先に曲がる。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "虎の間合いと蛇の死角を、同じ稽古で学べるとは。"
+    },
+    {
+      "op": "nar",
+      "text": "薙刀が雪を掃き、曲刀の影がnonoの背へ回る。"
+    },
+    {
+      "op": "say",
+      "actor": "kotetsu",
+      "text": "空振りを誘うだけでは、二人分の刃は止まらんぞ。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "薙刀の柄で曲刀を塞ぐ。広い間合いを壁に借りる！"
+    },
+    {
+      "op": "say",
+      "actor": "mizuchi",
+      "text": "敵同士を地形にする。十五段目へ行けそうね。"
+    },
+    {
+      "op": "nar",
+      "text": "無名の剣が二度鳴り、刃の輪郭へ白い光が増す。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "kotetsu"
+    },
+    {
+      "op": "hide",
+      "actor": "mizuchi"
+    },
+    {
+      "op": "bg",
+      "src": "great_forest",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "great_forest"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "tanurio",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "enemy_forest_spider",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "――大森林の神殿――"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "本物一人、分身二人。蜘蛛の糸まで数えられるかな？"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "苔を踏んだ足だけが濡れている。君が本物だ。"
+    },
+    {
+      "op": "nar",
+      "text": "森の大蜘蛛が糸を吐き、三つの狸影をまとめて縛る。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "見破ったなら助けて！　五秒で蔓も戻る！"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_forest_spider",
+      "text": "ギチチ……森ノ守リ、渡サヌ。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "火は蜘蛛へ二倍。蔓を焼かず、糸だけ燃やす。"
+    },
+    {
+      "op": "nar",
+      "text": "炎が白糸を走り、大蜘蛛は巨木の影へ退く。"
+    },
+    {
+      "op": "say",
+      "actor": "tanurio",
+      "text": "森の守りは十二秒ごとに傷を癒す。貸し一つだよ。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "分身二人分まで数えるなら、貸しは三つじゃない？"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "tanurio"
+    },
+    {
+      "op": "hide",
+      "actor": "enemy_forest_spider"
+    },
+    {
+      "op": "bg",
+      "src": "yokai_village",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "yokai_village"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "akane",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "enemy_nue",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "――妖怪の里――"
+    },
+    {
+      "op": "nar",
+      "text": "提灯の列が左右に揺れ、本当の道だけ雨に濡れている。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "狐火を追えば入口へ戻る。追われる火を選びなさい。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "逃げる道ではなく、光が落ちる床を踏む。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_nue",
+      "text": "ヌエェ――三ツノ輪ニ、雷ヲ落トス！"
+    },
+    {
+      "op": "nar",
+      "text": "三つの光輪が床へ浮かび、一秒後に雷が貫く。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "輪から出て弓を引いて。鵺には矢が深く通る。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "破魔の札は、剣を一段だけ強くする。十分だ。"
+    },
+    {
+      "op": "nar",
+      "text": "矢が鵺の翼を射抜き、紫の札から白い煙が上がる。"
+    },
+    {
+      "op": "say",
+      "actor": "akane",
+      "text": "強さを足し算で言える人は、たいてい引き際も知っている。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "akane"
+    },
+    {
+      "op": "hide",
+      "actor": "enemy_nue"
+    },
+    {
+      "op": "bg",
+      "src": "glacier_aurora",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "glacier_aurora"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "iwao",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "enemy_ice_giant",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "――氷河の神殿――"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "氷床は止まれん。柱へ肩を当て、向きを変えろ。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "君の斧なら床ごと割れそうだけど。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "近道は神殿を沈める。重さにも礼儀がある。"
+    },
+    {
+      "op": "nar",
+      "text": "氷の巨人が五方向へつぶてを投げ、極光が砕けて映る。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_ice_giant",
+      "text": "サムサ……ココロ、トメル……。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "胸の氷輪へ火を一本。凍った拍動を呼び戻す。"
+    },
+    {
+      "op": "nar",
+      "text": "炎が胸の氷輪を割り、雪の結晶が青い息を放つ。"
+    },
+    {
+      "op": "say",
+      "actor": "iwao",
+      "text": "寒さを防ぐ宝だ。終末の灰にも肺を閉ざすな。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "大斧の言葉は短くても、足場より重いな。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "iwao"
+    },
+    {
+      "op": "hide",
+      "actor": "enemy_ice_giant"
+    },
+    {
+      "op": "bg",
+      "src": "machine_ruins",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "machine_ruins"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "gou",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "enemy_machine_god",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "――機械の塔――"
+    },
+    {
+      "op": "nar",
+      "text": "東向きのベルトが回り、古い歯車の火花が床を横切る。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "俺の三連突進を避けたら、左下の停止盤を殴れ。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "機械より先に猪を止める必要があるのか。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "三度目のあとだけ、俺も塔も素直になる！"
+    },
+    {
+      "op": "nar",
+      "text": "三つの足音が過ぎ、nonoの拳が停止盤へ届く。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_machine_god",
+      "text": "装甲、閉鎖。回転弾、開始。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "閉じた間は爆弾だけが二倍。硬さを逆手に取る。"
+    },
+    {
+      "op": "nar",
+      "text": "爆風で装甲が開き、機神の鎧が内側からせり上がる。"
+    },
+    {
+      "op": "say",
+      "actor": "gou",
+      "text": "守りを一減らす鎧か。攻める拳にも欲しいな！"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "gou"
+    },
+    {
+      "op": "hide",
+      "actor": "enemy_machine_god"
+    },
+    {
+      "op": "bg",
+      "src": "grand_canyon",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "grand_canyon"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "hayate",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "enemy_rock_dragon",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "――大溪谷の坑道――"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "槍の突進は長い。横へ避け、止まった蹄を狙え。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "自分の攻略法を先に言っていいの？"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "知られた上で届くのが、速さの名誉だ。"
+    },
+    {
+      "op": "nar",
+      "text": "坑道の床が盛り上がり、岩竜が八方向へ礫を飛ばす。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_rock_dragon",
+      "text": "地ノ下ハ、我ガ空ダ。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "潜る間は無敵。出る場所は砂埃が先に教える。"
+    },
+    {
+      "op": "nar",
+      "text": "岩竜が現れた瞬間、疾風突きが首元の鉱脈を断つ。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "黄金のつるはしだ。これで十四の町へ線路を引ける。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "世界を走るのは、剣だけでなく列車も必要だ。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "hayate"
+    },
+    {
+      "op": "hide",
+      "actor": "enemy_rock_dragon"
+    },
+    {
+      "op": "bg",
+      "src": "jungle_ruins",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "jungle_ruins"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "kogane",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "enemy_jungle_lord",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "――緑の遺跡――"
+    },
+    {
+      "op": "nar",
+      "text": "毒沼の飛び石に、一本ずつ矢が安全な順を示す。"
+    },
+    {
+      "op": "say",
+      "actor": "kogane",
+      "text": "……。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "言葉の代わりに矢印か。右、左、二つ飛ばして中央。"
+    },
+    {
+      "op": "nar",
+      "text": "大ワニが水へ沈み、nonoの古い足跡の下から跳ね上がる。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_jungle_lord",
+      "text": "グルァ！"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "飛び出した後、口が一秒半開く。そこが二倍だ！"
+    },
+    {
+      "op": "nar",
+      "text": "コガネの矢が顎を上げ、無名の剣が光る口内を打つ。"
+    },
+    {
+      "op": "say",
+      "actor": "kogane",
+      "text": "……朝。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "命の果実は二つの鼓動を増やす。朝まで持ち帰ろう。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "kogane"
+    },
+    {
+      "op": "hide",
+      "actor": "enemy_jungle_lord"
+    },
+    {
+      "op": "bg",
+      "src": "twilight_waste",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "twilight_waste"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yoru",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "kurogane",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "――黄昏の地――"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "この地では、背後も前も同じ色。六秒半で私は消える。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "正面は盾で守る。横から来い、nono。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "一人は背後へ消え、一人は背後を差し出すのか。"
+    },
+    {
+      "op": "choice",
+      "options": [
+        {
+          "text": "ヨルの気配へ振り向く",
+          "jump": "ch4_turn"
+        },
+        {
+          "text": "クロガネの盾を借りる",
+          "jump": "ch4_shield"
+        }
+      ]
+    },
+    {
+      "op": "label",
+      "id": "ch4_turn"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "一秒後、霧の薄い方へ振り向く！"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "盗む前に見つかる夜は、少しまぶしい。"
+    },
+    {
+      "op": "jump",
+      "to": "ch4_rival_join"
+    },
+    {
+      "op": "label",
+      "id": "ch4_shield"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "盾の反射へ、消えた爪の輪郭が映る。"
+    },
+    {
+      "op": "say",
+      "actor": "kurogane",
+      "text": "守りは隠す壁ではない。見つける鏡だ。"
+    },
+    {
+      "op": "label",
+      "id": "ch4_rival_join"
+    },
+    {
+      "op": "nar",
+      "text": "剣は十四度目の光を刻み、霧の中で輪郭を変える。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "十五人目は誰だと思う？　答えは夜明けの前に来る。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "yoru"
+    },
+    {
+      "op": "hide",
+      "actor": "kurogane"
+    },
+    {
+      "op": "bg",
+      "src": "rival_camp",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "rival_camp"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "rei",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "――十五の武器の野営――"
+    },
+    {
+      "op": "nar",
+      "text": "焚火を囲む十五の武器台に、旅した土地の露が光る。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "シロー、ニブルス、ホムラ、サスケ、メイ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "虎鉄、ミズチ、クロガネ、タヌリオ、アカネ。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "イワオ、ゴウ、ハヤテ、コガネ、ヨル。全員と刃を結んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "勝った数だけでなく、技の理由まで剣が覚えています。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "だが三人の匂いが火から離れている。狐、狸、黒猫。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "疑いを鞘に入れておく。抜く時は、本人の前だけだ。"
+    },
+    {
+      "op": "nar",
+      "text": "十五の台が順に白く灯り、無名の剣へ光を渡す。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "刃が、朝焼けの色に変わります。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "rei"
+    },
+    {
+      "op": "bg",
+      "src": "sacred_sword_dawn",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "sacred_sword_dawn"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "rei",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "――暁の剣台――"
+    },
+    {
+      "op": "nar",
+      "text": "錆がほどけ、白金の刀身へ大きな光の刃が走る。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "無名の剣。十五の名を受けて、暁の聖剣になった。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "ハートが満ちていれば、普通の一太刀にも光が飛びます。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "森の守りで傷を癒せ。満ちたまま城へ入れる。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "潮の玉、護符、森の守り、破魔の札。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "雪の結晶、機神の鎧、黄金のつるはし、命の果実。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "八つの道具は揃った。砦の守り人に、効き目を確かめろ。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "数字が減っても、恐ろしさは減らない。だから皆で行く。"
+    },
+    {
+      "op": "nar",
+      "text": "遠い結界が四色に割れ、黄昏の城へ一本の道が現れる。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "十五の武器台が消えても、刃に残った癖は消えない。城へ行く。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "rei"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}
