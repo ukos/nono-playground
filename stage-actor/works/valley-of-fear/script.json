@@ -7,7 +7,7 @@
   "category": "探偵",
   "adaptation": "faithful",
   "format": "v3",
-  "minutes": 33,
+  "minutes": 34,
   "synopsis": "全五景で「恐怖の連鎖を断つには、偽装の奥の事情を見る」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
   "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
  },
@@ -970,6 +970,72 @@
    "eyes": "closed"
   },
   {
+   "op": "say",
+   "actor": "hayate",
+   "text": "……では、私は、どうすればいい。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "道は、二つです。名を変えて、今すぐ、イギリスを離れるか。……それとも、ここに留まり、警察の守りの中で暮らすか。"
+  },
+  {
+   "op": "hide",
+   "actor": "hayate"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "ホームズは、ダグラスに、今すぐ国外へ逃げるよう勧める",
+     "jump": "m_flee"
+    },
+    {
+     "text": "ホームズは、ダグラスに、ロンドンで警察に守らせるよう勧める",
+     "jump": "m_stay"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_flee"
+  },
+  {
+   "op": "show",
+   "actor": "hayate",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "海へ出なさい。南アフリカへ。陸に足跡を残さなければ、追う者も、追いようがない。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "……妻と、船の切符を、取ろう。",
+   "eyes": "closed"
+  },
+  {
    "op": "hide",
    "actor": "hayate"
   },
@@ -1023,43 +1089,149 @@
   {
    "op": "say",
    "actor": "yoru",
-   "text": "事故では、ありません。",
+   "text": "事故では、ありません。セント・ヘレナ沖で。夜の甲板で。誰も、見ていなかった。",
    "eyes": "closed"
   },
   {
    "op": "say",
+   "actor": "yoru",
+   "text": "海の上なら、安全だと思った。……僕は、海の上にも、あの男の手が届くことを、見誤った。"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "jump",
+   "to": "m_letter"
+  },
+  {
+   "op": "label",
+   "id": "m_stay"
+  },
+  {
+   "op": "show",
+   "actor": "hayate",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "center"
+  },
+  {
+   "op": "show",
    "actor": "rei_casual",
-   "text": "なぜ、言い切れる。"
+   "pos": "right"
   },
   {
    "op": "say",
    "actor": "yoru",
-   "text": "セント・ヘレナ沖で。夜の甲板で。誰も、見ていなかった。"
+   "text": "ロンドンに留まりなさい。スコットランド・ヤードの目の届く家に。昼も夜も、見張りをつけます。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "……隠れて暮らすのは、慣れている。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "hayate"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "bg",
+   "src": "sea_warning",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "sea_warning"
+  },
+  {
+   "op": "nar",
+   "text": "数か月後。ベーカー街221B。マクドナルド警部が、帽子を握りしめて、立っていた。"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "ホームズさん。……ダグラス氏が、亡くなりました。見張りの目の前で。",
+   "eyes": "sorrow"
   },
   {
    "op": "say",
    "actor": "yoru",
-   "text": "ダグラス氏を、イギリスから、逃がすように、勧めたのは、僕です。……海の上なら、安全だと。"
+   "text": "……見張りの目の前で？　どうやって。",
+   "eyes": "surprise"
   },
   {
    "op": "say",
+   "actor": "kurogane",
+   "text": "家の前を歩いていたとき、屋根から煙突の石が、真っ逆さまに。……検視官は、事故だと。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "事故では、ありません。……見張りが多ければ、見張りの前で、事故を起こせばいい。そういう男です。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……私の部下が、二十人もついていたのに。"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "jump",
+   "to": "m_letter"
+  },
+  {
+   "op": "label",
+   "id": "m_letter"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "left"
+  },
+  {
+   "op": "show",
    "actor": "rei_casual",
-   "text": "……君の、せいでは。"
+   "pos": "right"
   },
   {
    "op": "say",
    "actor": "yoru",
-   "text": "僕の、計算違いです。……僕は、敵の大きさを、見誤った。"
-  },
-  {
-   "op": "say",
-   "actor": "yoru",
-   "text": "結社の生き残りなら、防げたでしょう。……ですが、モリアーティは、違う。"
-  },
-  {
-   "op": "say",
-   "actor": "yoru",
-   "text": "彼は、結社から、依頼を、受けたのです。……ダグラスを、消してくれ、と。一度目に、失敗した仕事を、二度目に、仕上げた。"
+   "text": "逃がしても、守っても、あの男は、仕事を仕上げた。……結社の生き残りから、依頼を受けて。"
   },
   {
    "op": "nar",
@@ -1087,23 +1259,6 @@
    "eyes": "anger"
   },
   {
-   "op": "choice",
-   "options": [
-    {
-     "text": "ホームズは、モリアーティとの対決を誓う",
-     "jump": "m_vow"
-    },
-    {
-     "text": "ホームズは、ダグラスの手記を読み返す",
-     "jump": "m_read"
-    }
-   ]
-  },
-  {
-   "op": "label",
-   "id": "m_vow"
-  },
-  {
    "op": "say",
    "actor": "yoru",
    "text": "ワトソン。……僕は、いつか、必ず、あの男を、追い詰めます。"
@@ -1118,37 +1273,6 @@
    "actor": "yoru",
    "text": "準備が、整ったとき。……恐怖の連鎖は、根元から、断たねば、終わらない。",
    "eyes": "closed"
-  },
-  {
-   "op": "jump",
-   "to": "m_end"
-  },
-  {
-   "op": "label",
-   "id": "m_read"
-  },
-  {
-   "op": "nar",
-   "text": "ホームズは、バーディ・エドワーズの、手記の束を、手に取った。"
-  },
-  {
-   "op": "say",
-   "actor": "yoru",
-   "text": "……この人は、恐怖の谷の中で、二十年前、一度、恐怖の連鎖を、断ち切った。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "そして、二十年後に、その鎖の、端に、つかまった。"
-  },
-  {
-   "op": "say",
-   "actor": "yoru",
-   "text": "……彼が書いたものを、残しましょう。ワトソン、あなたの手で。……それが、彼の、本当の名前を、残す、方法です。"
-  },
-  {
-   "op": "label",
-   "id": "m_end"
   },
   {
    "op": "hide",

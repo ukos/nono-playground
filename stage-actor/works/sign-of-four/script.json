@@ -7,7 +7,7 @@
   "category": "探偵",
   "adaptation": "faithful",
   "format": "v3",
-  "minutes": 34,
+  "minutes": 36,
   "synopsis": "全五景で「宝への執着より、真相と約束を選べるか」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
   "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
  },
@@ -585,7 +585,58 @@
   },
   {
    "op": "nar",
+   "text": "ワトソンは、拳銃を構えた。霧の中で、吹き矢の男が、二本目のとげを、筒に込めている。"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "ワトソンは、吹き矢の男を撃つ",
+     "jump": "m_shoot"
+    },
+    {
+     "text": "ワトソンは、撃たずに、操舵手に体当たりを命じる",
+     "jump": "m_ram"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_shoot"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
    "text": "銃声。甲板の影が、川へ、落ちた。オーロラ号は、岸辺の泥に、突っ込んで、止まった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……当たった。……人を、撃った。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "撃たなければ、あなたが、撃たれていた。",
+   "eyes": "closed"
   },
   {
    "op": "hide",
@@ -622,23 +673,8 @@
   },
   {
    "op": "say",
-   "actor": "yoru",
-   "text": "箱は、どこです。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "……その、甲板の上だ。持ってきな。"
-  },
-  {
-   "op": "say",
    "actor": "extra_porter",
    "text": "連れは、川に、落ちちまったな。……あいつは、島で、ずっと、俺を、助けてくれた。"
-  },
-  {
-   "op": "say",
-   "actor": "yoru",
-   "text": "……あの吹き矢の、男ですか。"
   },
   {
    "op": "say",
@@ -653,6 +689,103 @@
   {
    "op": "hide",
    "actor": "extra_porter"
+  },
+  {
+   "op": "jump",
+   "to": "m_box"
+  },
+  {
+   "op": "label",
+   "id": "m_ram"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "撃たない！　舵を切れ、あの船の横腹に、ぶつけろ！",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "快速艇が、オーロラ号の横腹に、激しくぶつかった。吹き矢の男は、甲板から、霧の川へ、飛び込んで消えた。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……逃げられた。……ワトソン、あれは、毒の吹き矢だったのですよ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "分かっている。……でも、霧の中で、顔も見えない相手を、撃ちたくなかった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "傾いた蒸気船の脇の泥の中で、木の義足が抜けなくなった男が、歯を食いしばっていた。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "義足のスモール。……追いかけっこは、ここまでです。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……あんたがホームズか。浮浪児どもが、川じゅうで噂してたぜ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "連れは、泳ぎがうまい。……島育ちだ。テムズの霧なんぞ、あいつには、庭みたいなもんさ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……撃たないでくれて、ありがとうよ。あいつは、俺の、たった一人の、仲間なんだ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "label",
+   "id": "m_box"
   },
   {
    "op": "bg",

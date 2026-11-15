@@ -7,7 +7,7 @@
   "category": "SF",
   "adaptation": "faithful",
   "format": "v3",
-  "minutes": 32,
+  "minutes": 34,
   "synopsis": "全五景で「未知の社会を見る時、人類の常識も観察されている」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
   "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
  },
@@ -583,6 +583,45 @@
    "text": "……ほら。月では僕らは怪力だ。"
   },
   {
+   "op": "nar",
+   "text": "槍を持った月人たちが、ぞろぞろと近づいてきた。ベッドフォードは、拳を握った。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_rider"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "ベッドフォードは、近づく月人を、拳で殴り倒して逃げる",
+     "jump": "m_fist"
+    },
+    {
+     "text": "ベッドフォードは、拳を下ろし、ケイヴァーと一緒に残る",
+     "jump": "m_stay"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_fist"
+  },
+  {
+   "op": "show",
+   "actor": "rei_rider",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "right"
+  },
+  {
    "op": "say",
    "actor": "extra_wizard",
    "text": "ベッドフォード！　乱暴は、よしたまえ！"
@@ -616,6 +655,90 @@
    "actor": "extra_wizard"
   },
   {
+   "op": "nar",
+   "text": "数日後。ベッドフォードは、球を見つけて、ひとりで、地球へ、逃げ帰った。……ケイヴァーは、月に、残された。"
+  },
+  {
+   "op": "jump",
+   "to": "m_grand"
+  },
+  {
+   "op": "label",
+   "id": "m_stay"
+  },
+  {
+   "op": "show",
+   "actor": "rei_rider",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "ベッドフォード、拳を、下ろしたまえ。……彼らは、まだ、我々に、何もしていない。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "……ケイヴァーさんを置いて逃げたら、僕は一生、この洞窟の夢を見る。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "ベッドフォードは、拳を開いた。月人たちは、槍を下ろし、二人を、さらに深い場所へ導いた。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……鎖を、引きちぎった者よ。汝の腕は、この世界には、強すぎる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "球の秘密を持たぬ者は、月にいても、用がない。帰るがよい。秘密を持つ者だけ、残れ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "ケイヴァーさんを置いて、僕だけ？",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "行きたまえ、ベッドフォード。……私は、彼らと、話を続けたい。それは、私にしか、できない。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_rider"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "nar",
+   "text": "翌日。ベッドフォードは、月人に球まで送られ、ひとりで、地球へ帰った。……ケイヴァーは、月に、残った。"
+  },
+  {
+   "op": "label",
+   "id": "m_grand"
+  },
+  {
    "op": "bg",
    "src": "grand_lunar",
    "mode": "full"
@@ -623,10 +746,6 @@
   {
    "op": "bg",
    "src": "grand_lunar"
-  },
-  {
-   "op": "nar",
-   "text": "数日後。ベッドフォードは、球を見つけて、ひとりで、地球へ、逃げ帰った。……ケイヴァーは、月に、残された。"
   },
   {
    "op": "nar",
@@ -776,7 +895,7 @@
   {
    "op": "say",
    "actor": "extra_elder",
-   "text": "汝の仲間、ベッドフォードは、我が民を、殴り殺した。……あれも、戦争か。"
+   "text": "汝の仲間、ベッドフォードは、鎖を、引きちぎり、拳を、握った。……あれも、戦争か。"
   },
   {
    "op": "say",
@@ -786,7 +905,7 @@
   {
    "op": "say",
    "actor": "extra_elder",
-   "text": "……汝らは、知らないものを、恐れて、殺し、……知っている者同士でも、殺し合う。",
+   "text": "……汝らは、知らないものを、恐れて、拳を握り、……知っている者同士でも、殺し合う。",
    "eyes": "closed"
   },
   {
@@ -985,7 +1104,7 @@
   {
    "op": "say",
    "actor": "rei_rider",
-   "text": "……僕が月人を殴ったから。……僕があの日恐怖で拳を振るったから。",
+   "text": "……僕があの日拳を握ったから。……そしてケイヴァーさんを月に置いて帰ってきたから。",
    "eyes": "sorrow"
   },
   {

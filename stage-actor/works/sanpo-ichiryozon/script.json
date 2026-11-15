@@ -7,7 +7,7 @@
   "category": "裁判・評定もの",
   "adaptation": "moderate",
   "format": "v3",
-  "minutes": 34,
+  "minutes": 36,
   "synopsis": "落とした三両を受け取らぬ左官、届けた金を戻せぬ大工。大岡越前は自ら一両を足し、三者が一両ずつ損をする裁きを示す。",
   "theme": "正しさ同士がぶつかるとき、裁きは面子を守る出口も作らねばならない",
   "chapters": [
@@ -489,8 +489,140 @@
    "eyes": "closed"
   },
   {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "金太郎は、三両を握って、堀へ投げ込もうと駆け出す",
+     "jump": "m_moat"
+    },
+    {
+     "text": "金太郎は、三両を、吉五郎の家の神棚へ、無理やり押し込む",
+     "jump": "m_shelf"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_moat"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "こんな金があるから揉めるんだ。堀へ放り込んでやる！",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……ば、馬鹿野郎！　三両だぞ！　捨てるくらいなら……",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "捨てるくらいなら何だ。受け取るか。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……受け取らねえ！　……けど、捨てるのも、許さねえ！",
+   "eyes": "anger"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "jump",
+   "to": "m_officer"
+  },
+  {
+   "op": "label",
+   "id": "m_shelf"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "受け取らねえなら神さまに預ける。ほら神棚に置いたぞ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……おれの家の、神棚に、勝手に、金を、上げるな！　……神さまが、拾ったことに、なるじゃねえか！",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "神さまなら落とし主にも拾い主にもならねえ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……下ろせ！　……おれの、神棚は、おれが、決める！"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "jump",
+   "to": "m_officer"
+  },
+  {
+   "op": "label",
+   "id": "m_officer"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "right"
+  },
+  {
    "op": "nar",
-   "text": "長屋の、大家が、飛んできた。"
+   "text": "騒ぎを聞きつけて、十手を持った男が、路地へ飛び込んできた。"
   },
   {
    "op": "show",
