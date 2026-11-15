@@ -1,1221 +1,602 @@
 {
-  "meta": {
-    "id": "sigurd-fafnir",
-    "title": "シグルドとファーヴニル ―竜の黄金―",
-    "original": "『古エッダ』『ヴォルスンガ・サガ』シグルド挿話（古典）",
-    "adaptation": "moderate",
-    "format": "v3",
-    "minutes": 42,
-    "synopsis": "鍛冶師レギンに育てられたシグルドは、折れた剣グラムを鍛え直し、竜ファーヴニルを討つ。穴から心臓を貫き、竜の血で鳥の声を聞く。レギンの企みを知り、呪われた黄金を手にする。",
-    "note": "本脚本は翻案であり、原作・現代訳の文章の転載ではない。セリフはすべて本上演版の書き下ろし。"
+ "meta": {
+  "id": "sigurd-fafnir",
+  "title": "シグルドとファーヴニル ―竜の黄金―",
+  "original": "『古エッダ』『ヴォルスンガ・サガ』シグルド挿話（古典）",
+  "adaptation": "moderate",
+  "format": "v3",
+  "minutes": 19,
+  "synopsis": "鍛冶師レギンに育てられたシグルドは、折れた剣グラムを鍛え直し、竜ファーヴニルを討つ。穴から心臓を貫き、竜の血で鳥の声を聞く。レギンの企みを知り、呪われた黄金を手にする。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "狂言回し",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "シグルド",
-      "actor": "rei_rider",
-      "costume": "default"
-    },
-    {
-      "role": "レギン",
-      "actor": "extra_craftsman",
-      "costume": "default"
-    },
-    {
-      "role": "ファーヴニル",
-      "actor": "homura",
-      "costume": "default"
-    },
-    {
-      "role": "小鳥",
-      "actor": "shiro",
-      "costume": "default"
-    },
-    {
-      "role": "オーディンの旅人",
-      "actor": "extra_elder",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "forge": "bg/regin-forge-2048x1152.png",
-    "track": "bg/dragon-track-2048x1152.png",
-    "pit": "bg/sigurd-pit-2048x1152.png",
-    "hoard": "bg/fafnir-hoard-2048x1152.png",
-    "birds": "bg/bird-warning-forest-2048x1152.png"
+  {
+   "role": "シグルド",
+   "actor": "rei_rider",
+   "costume": "default"
   },
-  "steps": [
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『シグルドとファーヴニル ―竜の黄金―』。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "竜を倒した英雄は、血を舐めて鳥の言葉を理解し、師の裏切りと黄金の呪いを知ります。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "今夜の核は「力で得た財宝が、所有者の心を試すこと」。急がず、長い物語としてお届けします。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "それでは開幕。役者たちの声と、場面の移ろいをお楽しみください。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "forge",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "forge"
-    },
-    {
-      "op": "nar",
-      "text": "火花の飛ぶレギンの鍛冶場"
-    },
-    {
-      "op": "show",
-      "actor": "extra_craftsman",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "レギンが兄ファーヴニルと奪われた黄金の因縁を語る。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "私はこの出来事を見届けた。レギンが兄ファーヴニルと奪われた黄金の因縁を語る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "神々の言葉にも影がある。力が強いほど、責任も重くなる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "運命を知ることと、運命に従うことは同じではない。",
-      "eyes": "joy"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「力で得た財宝が、所有者の心を試すこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "選べる一歩が残る限り、私はその一歩を自分で決める。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "ならば進め。代償まで見届けてこそ、選択は完成する。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "レギンが兄ファーヴニルと奪われた黄金の因縁を語る。――この出来事を忘れず、次の判断へつなげよう。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_craftsman"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_craftsman",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "シグルドが父の折れた剣からグラムを鍛え直す。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "私はこの出来事を見届けた。シグルドが父の折れた剣からグラムを鍛え直す。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "怪物の姿だけを見て、善悪を決めてはいけない。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "だが、恐れは理屈より速い。心を整える時間が必要だ。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「力で得た財宝が、所有者の心を試すこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "恐れを消せなくても、知恵と約束を手放さずに進める。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "知恵は弱さの言い訳ではない。命を守るための力だ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "シグルドが父の折れた剣からグラムを鍛え直す。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_craftsman"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elder",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "旅人オーディンが竜を下から狙う穴と血の流れを忠告する。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "私はこの出来事を見届けた。旅人オーディンが竜を下から狙う穴と血の流れを忠告する。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "神々の言葉にも影がある。力が強いほど、責任も重くなる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "運命を知ることと、運命に従うことは同じではない。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「力で得た財宝が、所有者の心を試すこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "選べる一歩が残る限り、私はその一歩を自分で決める。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "ならば進め。代償まで見届けてこそ、選択は完成する。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "旅人オーディンが竜を下から狙う穴と血の流れを忠告する。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elder"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "bg",
-      "src": "track",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "track"
-    },
-    {
-      "op": "nar",
-      "text": "竜が水場へ通う深い轍"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "homura",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "竜の通り道へ穴を掘り、恐れながら待つ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "私はこの出来事を見届けた。竜の通り道へ穴を掘り、恐れながら待つ。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "怪物の姿だけを見て、善悪を決めてはいけない。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "だが、恐れは理屈より速い。心を整える時間が必要だ。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「力で得た財宝が、所有者の心を試すこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "恐れを消せなくても、知恵と約束を手放さずに進める。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "知恵は弱さの言い訳ではない。命を守るための力だ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "竜の通り道へ穴を掘り、恐れながら待つ。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "hide",
-      "actor": "homura"
-    },
-    {
-      "op": "show",
-      "actor": "homura",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "ファーヴニルが地を震わせて水場へ進む。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "私はこの出来事を見届けた。ファーヴニルが地を震わせて水場へ進む。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "神々の言葉にも影がある。力が強いほど、責任も重くなる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "運命を知ることと、運命に従うことは同じではない。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「力で得た財宝が、所有者の心を試すこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "選べる一歩が残る限り、私はその一歩を自分で決める。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "ならば進め。代償まで見届けてこそ、選択は完成する。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "ファーヴニルが地を震わせて水場へ進む。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "homura"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "homura",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "シグルドが下から剣を突き、竜の心臓を貫く。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "私はこの出来事を見届けた。シグルドが下から剣を突き、竜の心臓を貫く。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "怪物の姿だけを見て、善悪を決めてはいけない。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "だが、恐れは理屈より速い。心を整える時間が必要だ。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「力で得た財宝が、所有者の心を試すこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "恐れを消せなくても、知恵と約束を手放さずに進める。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "知恵は弱さの言い訳ではない。命を守るための力だ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "シグルドが下から剣を突き、竜の心臓を貫く。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "hide",
-      "actor": "homura"
-    },
-    {
-      "op": "bg",
-      "src": "pit",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "pit"
-    },
-    {
-      "op": "nar",
-      "text": "竜道の下に掘った穴"
-    },
-    {
-      "op": "show",
-      "actor": "homura",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "死にゆく竜が黄金の呪いと、名を告げる危険を語る。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "私はこの出来事を見届けた。死にゆく竜が黄金の呪いと、名を告げる危険を語る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "神々の言葉にも影がある。力が強いほど、責任も重くなる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "運命を知ることと、運命に従うことは同じではない。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「力で得た財宝が、所有者の心を試すこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "選べる一歩が残る限り、私はその一歩を自分で決める。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "ならば進め。代償まで見届けてこそ、選択は完成する。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "死にゆく竜が黄金の呪いと、名を告げる危険を語る。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "homura"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "homura",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "英雄が名を隠そうとした後、自分の名で行為を引き受ける。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "私はこの出来事を見届けた。英雄が名を隠そうとした後、自分の名で行為を引き受ける。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "怪物の姿だけを見て、善悪を決めてはいけない。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "だが、恐れは理屈より速い。心を整える時間が必要だ。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「力で得た財宝が、所有者の心を試すこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "恐れを消せなくても、知恵と約束を手放さずに進める。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "知恵は弱さの言い訳ではない。命を守るための力だ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "英雄が名を隠そうとした後、自分の名で行為を引き受ける。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "hide",
-      "actor": "homura"
-    },
-    {
-      "op": "show",
-      "actor": "extra_craftsman",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "レギンが兄の心臓を焼くよう命じ、自分は血を飲む。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "私はこの出来事を見届けた。レギンが兄の心臓を焼くよう命じ、自分は血を飲む。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "神々の言葉にも影がある。力が強いほど、責任も重くなる。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "運命を知ることと、運命に従うことは同じではない。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「力で得た財宝が、所有者の心を試すこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "選べる一歩が残る限り、私はその一歩を自分で決める。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "ならば進め。代償まで見届けてこそ、選択は完成する。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "レギンが兄の心臓を焼くよう命じ、自分は血を飲む。――この出来事を忘れず、次の判断へつなげよう。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_craftsman"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "bg",
-      "src": "hoard",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "hoard"
-    },
-    {
-      "op": "nar",
-      "text": "指輪と黄金が積もる洞窟"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "熱さを確かめた指を舐め、鳥の言葉が聞こえ始める。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "私はこの出来事を見届けた。熱さを確かめた指を舐め、鳥の言葉が聞こえ始める。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "怪物の姿だけを見て、善悪を決めてはいけない。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "だが、恐れは理屈より速い。心を整える時間が必要だ。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「力で得た財宝が、所有者の心を試すこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "恐れを消せなくても、知恵と約束を手放さずに進める。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "知恵は弱さの言い訳ではない。命を守るための力だ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "熱さを確かめた指を舐め、鳥の言葉が聞こえ始める。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "鳥がレギンの裏切りと、眠れば殺される危険を警告する。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "私はこの出来事を見届けた。鳥がレギンの裏切りと、眠れば殺される危険を警告する。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "神々の言葉にも影がある。力が強いほど、責任も重くなる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "運命を知ることと、運命に従うことは同じではない。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「力で得た財宝が、所有者の心を試すこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "選べる一歩が残る限り、私はその一歩を自分で決める。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "ならば進め。代償まで見届けてこそ、選択は完成する。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "鳥がレギンの裏切りと、眠れば殺される危険を警告する。――この出来事を忘れず、次の判断へつなげよう。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_craftsman",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "シグルドが師へ真意を問い、黄金への執着を見抜く。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "私はこの出来事を見届けた。シグルドが師へ真意を問い、黄金への執着を見抜く。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "怪物の姿だけを見て、善悪を決めてはいけない。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "だが、恐れは理屈より速い。心を整える時間が必要だ。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「力で得た財宝が、所有者の心を試すこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "恐れを消せなくても、知恵と約束を手放さずに進める。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "知恵は弱さの言い訳ではない。命を守るための力だ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "シグルドが師へ真意を問い、黄金への執着を見抜く。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_craftsman"
-    },
-    {
-      "op": "bg",
-      "src": "birds",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "birds"
-    },
-    {
-      "op": "nar",
-      "text": "鳥の声が聞こえる朝の森"
-    },
-    {
-      "op": "show",
-      "actor": "extra_craftsman",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "レギンが復讐を果たした弟子も財宝のため排除しようとする。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "私はこの出来事を見届けた。レギンが復讐を果たした弟子も財宝のため排除しようとする。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "神々の言葉にも影がある。力が強いほど、責任も重くなる。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "運命を知ることと、運命に従うことは同じではない。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「力で得た財宝が、所有者の心を試すこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "選べる一歩が残る限り、私はその一歩を自分で決める。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "ならば進め。代償まで見届けてこそ、選択は完成する。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "レギンが復讐を果たした弟子も財宝のため排除しようとする。――この出来事を忘れず、次の判断へつなげよう。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_craftsman"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "シグルドが裏切りを退け、黄金と兜を洞窟から運び出す。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "私はこの出来事を見届けた。シグルドが裏切りを退け、黄金と兜を洞窟から運び出す。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "怪物の姿だけを見て、善悪を決めてはいけない。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "だが、恐れは理屈より速い。心を整える時間が必要だ。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「力で得た財宝が、所有者の心を試すこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "恐れを消せなくても、知恵と約束を手放さずに進める。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "知恵は弱さの言い訳ではない。命を守るための力だ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "シグルドが裏切りを退け、黄金と兜を洞窟から運び出す。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "鳥が眠る戦乙女への道を歌い、次の運命を告げる。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "私はこの出来事を見届けた。鳥が眠る戦乙女への道を歌い、次の運命を告げる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "神々の言葉にも影がある。力が強いほど、責任も重くなる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "運命を知ることと、運命に従うことは同じではない。",
-      "eyes": "normal"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「力で得た財宝が、所有者の心を試すこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "選べる一歩が残る限り、私はその一歩を自分で決める。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "ならば進め。代償まで見届けてこそ、選択は完成する。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "鳥が眠る戦乙女への道を歌い、次の運命を告げる。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "bg",
-      "src": "birds"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "竜は倒れたが、黄金の呪いは終わらない。シグルドは知識と財宝を得て、より危うい長い運命へ踏み出す。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "長い旅の果てに残ったのは、「力で得た財宝が、所有者の心を試すこと」という問いでした。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "答えは一つではありません。けれど、登場人物たちの選択は消えません。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "『シグルドとファーヴニル ―竜の黄金―』、これにて終幕。ありがとうございました。"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "end"
+  {
+   "role": "レギン",
+   "actor": "extra_craftsman",
+   "costume": "default"
+  },
+  {
+   "role": "ファーヴニル",
+   "actor": "homura",
+   "costume": "default"
+  },
+  {
+   "role": "小鳥",
+   "actor": "shiro",
+   "costume": "default"
+  },
+  {
+   "role": "オーディンの旅人",
+   "actor": "extra_elder",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "forge": "bg/regin-forge-2048x1152.png",
+  "track": "bg/dragon-track-2048x1152.png",
+  "pit": "bg/sigurd-pit-2048x1152.png",
+  "hoard": "bg/fafnir-hoard-2048x1152.png",
+  "birds": "bg/bird-warning-forest-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "北の国の英雄伝説から、竜退治の物語をひとつ。主人公はシグルド。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "竜を倒すと、たいていの物語はめでたし、めでたし。でも、北の伝説は少し違います。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "竜の血をなめた英雄は、鳥の言葉が分かるようになる。そして、知りたくなかったことを知ってしまう。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "黄金の山の前で、人の心がどう揺れるか。どうぞご覧ください。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "forge",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "forge"
+  },
+  {
+   "op": "nar",
+   "text": "火花の散る鍛冶場。小柄な鍛冶師レギンが、少年に話しかけている。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_craftsman",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_rider",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "シグルド、お前の父は勇敢な王だった。だが、お前は馬一頭持たぬ、鍛冶屋の居候だ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "馬なら、昨日、森で灰色の老人に選んでもらった。グラニという。川を怖がらない馬だ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "灰色の、片目の老人か？",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "そうだ。名前は聞きそびれた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "……神々の長が、お前に目をつけたか。ならば話そう。グニタヘイズの荒野に、竜がいる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "ファーヴニル。黄金の山の上に寝そべり、誰にも触れさせぬ。あれは、もとは私の兄だった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "兄？　竜が？",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "父を殺して黄金を奪い、ひとりで抱え込むうちに、姿まで竜になった。黄金には、呪いがかかっている。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "その竜を倒せば、黄金はあなたのものになる、というわけだ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "鋭いな。だが、竜を倒した英雄の名は、お前のものだ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "それなら、竜に負けない剣を打ってくれ。"
+  },
+  {
+   "op": "nar",
+   "text": "レギンが打った剣は、鉄床に振り下ろしたとたん、二度とも折れた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "次は、母の形見を使ってくれ。父が最後の戦いで使った、折れた剣、グラムのかけらを。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "鍛え直されたグラムは、鉄床を真っ二つに割った。川に浮かべた羊毛の房も、流れに当たっただけで二つに切れた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "これなら、竜の鱗も通る。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_craftsman"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_rider"
+  },
+  {
+   "op": "bg",
+   "src": "track",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "track"
+  },
+  {
+   "op": "nar",
+   "text": "荒野。竜が毎日水を飲みに通う道が、深い溝のように地面に刻まれている。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_rider",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_craftsman",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "竜の通り道に穴を掘れ。竜が上を這うとき、下から心臓を突き上げるのだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "竜の血が穴に流れ込んだら、僕はどうなる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "……さあな。私は、遠くで待っている。竜の毒の息は、年寄りには堪える。",
+   "eyes": "fun"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_craftsman"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "灰色の衣の老人が現れ、黙って地面を指さした。穴をひとつではなく、いくつも掘れ、と。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "血が流れ込む溝を、横に何本も……。そうすれば、血が逃げていく。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "ありがとう、旅のお方。……また、消えた。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_rider"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "bg",
+   "src": "pit",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "pit"
+  },
+  {
+   "op": "nar",
+   "text": "溝の底。シグルドが剣を握って身をひそめている。地響きとともに、頭上を巨大な影が這ってくる。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_rider",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "土が震える。毒の息で、穴の縁の草が黒く枯れていく。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "まだだ。腹の、いちばん柔らかい所が真上に来るまで。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "真上に来た。突け、グラム！",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "グラムが竜の心臓を貫いた。溝という溝に、熱い血が流れ込んだ。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_rider"
+  },
+  {
+   "op": "show",
+   "actor": "homura",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "誰だ……わしの心臓を、下から突いた者は。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "show",
+   "actor": "rei_rider",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "名は言えない。……名を知られると、死にゆく者の呪いが、名に絡みつくと聞いた。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "賢い子だ。だが、名は隠せても、黄金は隠せぬ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "あの山を持てば、お前もいつか、それに殺される。弟のレギンも、お前を殺すつもりでいる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "竜の言うことを信じるものか。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "信じなくてよい。……わしも昔は、誰の言葉も信じなかった。だから、この姿になった。"
+  },
+  {
+   "op": "nar",
+   "text": "竜は大きく息を吐き、それきり動かなくなった。"
+  },
+  {
+   "op": "hide",
+   "actor": "homura"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_rider"
+  },
+  {
+   "op": "bg",
+   "src": "hoard",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "hoard"
+  },
+  {
+   "op": "nar",
+   "text": "竜の洞窟。指輪、杯、兜、金貨が、山のように積もっている。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_craftsman",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_rider",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "やったな、シグルド！　さあ、竜の心臓を焼いてくれ。私はそれを食べて、兄の力を取り込みたい。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "心臓を焼く？　……分かった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "私は少し、眠る。焼けたら起こしてくれ。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_craftsman"
+  },
+  {
+   "op": "nar",
+   "text": "心臓を串に刺して焼いていると、脂が跳ねて、シグルドの指にかかった。熱さに、指を口に入れた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "……竜の血の味。耳の中で、何かがさえずっている。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_rider"
+  },
+  {
+   "op": "bg",
+   "src": "birds",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "birds"
+  },
+  {
+   "op": "nar",
+   "text": "朝の森。木の枝に、小鳥たちが並んでいる。その声が、言葉として聞こえる。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_rider",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "ねえ、見て。あそこで、心臓を焼いている若者。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "自分で食べればいいのに。そうすれば、世界一の賢者になれるのに。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "寝ている鍛冶屋は、目が覚めたら若者を殺すつもりよ。黄金を独り占めするために。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "鳥の声が、分かる。……レギンが、僕を。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "あの鍛冶屋の頭を切り落として、黄金を自分のものにすればいいのに。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "シグルドは、レギンを起こして問いただす",
+     "jump": "m_ask"
+    },
+    {
+     "text": "シグルドは、鳥の言葉を信じて剣を抜く",
+     "jump": "m_strike"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_ask"
+  },
+  {
+   "op": "show",
+   "actor": "extra_craftsman",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "レギン、本当のことを言ってくれ。竜を倒したあと、僕をどうするつもりだった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "……鳥の声でも聞いたか。そうだ。黄金は、ひとりで持つものだ。兄のように。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "レギンが短剣を抜いた瞬間、グラムが先に動いた。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_craftsman"
+  },
+  {
+   "op": "jump",
+   "to": "m_after"
+  },
+  {
+   "op": "label",
+   "id": "m_strike"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "鳥は嘘をつく理由がない。……でも、育ててくれた人だった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "眠るレギンの前で、シグルドは長いあいだ立ち尽くし、それから剣を下ろした。"
+  },
+  {
+   "op": "label",
+   "id": "m_after"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "竜を倒し、育ての親を失った。手に残ったのは、呪われた黄金の山だけだ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "指輪を持っていきなさい。でも、気をつけて。それは持ち主を、次々に替えていく指輪だから。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "黄金は、グラニの背に積めるだけ積む。この先の旅で、何を引き寄せるか分からないけれど。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "竜は言った。黄金を持てば、いつかそれに殺される、と。……そのときまで、目を開けて生きよう。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_rider"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "『シグルドとファーヴニル』、これにて幕です。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "竜を倒した英雄が手にしたのは、黄金と、鳥の言葉と、育ての親の裏切りでした。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "黄金はひとりで抱え込むほど、人を竜に変える。北の伝説は、勝利の瞬間にそう釘を刺します。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "何か大きなものを手に入れた日には、鳥のさえずりに、少し耳を澄ませてみてください。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

@@ -1,1232 +1,683 @@
 {
-  "meta": {
-    "id": "speckled-band",
-    "title": "まだらの紐 ―夜の口笛―",
-    "original": "Arthur Conan Doyle, The Adventure of the Speckled Band（原作著作権消滅）",
-    "adaptation": "moderate",
-    "format": "v3",
-    "minutes": 34,
-    "synopsis": "姉を奇怪な死で失ったヘレンは、同じ部屋で眠るよう命じられた恐怖をホームズへ訴える。屋敷を調べた探偵は、通気孔と飾り紐、金庫、受け皿を結びつけ、夜の罠を待つ。",
-    "note": "本脚本は翻案であり、原作・現代訳の文章の転載ではない。セリフはすべて本上演版の書き下ろし。"
+ "meta": {
+  "id": "speckled-band",
+  "title": "まだらの紐 ―夜の口笛―",
+  "original": "Arthur Conan Doyle, The Adventure of the Speckled Band（原作著作権消滅）",
+  "adaptation": "moderate",
+  "format": "v3",
+  "minutes": 19,
+  "synopsis": "姉を奇怪な死で失ったヘレンは、同じ部屋で眠るよう命じられた恐怖をホームズへ訴える。屋敷を調べた探偵は、通気孔と飾り紐、金庫、受け皿を結びつけ、夜の罠を待つ。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "狂言回し",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "ヘレン・ストーナー",
-      "actor": "rei_casual",
-      "costume": "default"
-    },
-    {
-      "role": "ホームズ",
-      "actor": "shiro",
-      "costume": "default"
-    },
-    {
-      "role": "ワトソン",
-      "actor": "nono_whitecat",
-      "costume": "default"
-    },
-    {
-      "role": "ロイロット博士",
-      "actor": "iwao",
-      "costume": "default"
-    },
-    {
-      "role": "ジュリアの記憶",
-      "actor": "mei",
-      "costume": "default"
-    },
-    {
-      "role": "沼蛇",
-      "actor": "mizuchi",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "baker": "bg/baker-street-room-2048x1152.png",
-    "manor": "bg/stoke-moran-manor-2048x1152.png",
-    "bedroom": "bg/sealed-bedroom-2048x1152.png",
-    "corridor": "bg/manor-corridor-night-2048x1152.png",
-    "vigil": "bg/bedroom-vigil-2048x1152.png"
+  {
+   "role": "ヘレン・ストーナー",
+   "actor": "rei_casual",
+   "costume": "default"
   },
-  "steps": [
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『まだらの紐 ―夜の口笛―』。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "密室、鳴らない呼び鈴、通気孔、夜の口笛。小さな違和感が命を狙う仕掛けを暴きます。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "今夜の核は「恐怖の中でも観察を手放さず、仕掛けを事実から解くこと」。急がず、長い物語としてお届けします。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "それでは開幕。役者たちの声と、場面の移ろいをお楽しみください。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "baker",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "baker"
-    },
-    {
-      "op": "nar",
-      "text": "早朝のベーカー街の相談室"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "ヘレンが姉の最期の言葉「まだらの紐」と夜の口笛を語る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "この手掛かりを軽く扱えない。ヘレンが姉の最期の言葉「まだらの紐」と夜の口笛を語る。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "印象を捨てよう。残った事実だけを、順番に並べる。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "事実は小さいほど見落とされる。位置と時刻を確かめよう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「恐怖の中でも観察を手放さず、仕掛けを事実から解くこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "説明できない一点こそ、事件の中心かもしれない。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "仮説は証拠に従わせる。証拠を仮説へ曲げてはならない。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "ヘレンが姉の最期の言葉「まだらの紐」と夜の口笛を語る。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "nono_whitecat",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "姉の部屋が内側から閉ざされ、窓にも鉄格子があった事実を整理する。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "この手掛かりを軽く扱えない。姉の部屋が内側から閉ざされ、窓にも鉄格子があった事実を整理する。"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "奇妙さには目的がある。誰が、何から目をそらしたかった？",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "利益だけでなく、時間を稼ぐ必要があった者も考えよう。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「恐怖の中でも観察を手放さず、仕掛けを事実から解くこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "沈黙したもの、動かなかったものも証言になる。"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "その消極的な証拠を、ほかの事実と結び直してみよう。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "姉の部屋が内側から閉ざされ、窓にも鉄格子があった事実を整理する。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "hide",
-      "actor": "nono_whitecat"
-    },
-    {
-      "op": "show",
-      "actor": "iwao",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "ロイロットが相談室へ押しかけ、火かき棒を曲げて脅す。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "この手掛かりを軽く扱えない。ロイロットが相談室へ押しかけ、火かき棒を曲げて脅す。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "印象を捨てよう。残った事実だけを、順番に並べる。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "事実は小さいほど見落とされる。位置と時刻を確かめよう。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「恐怖の中でも観察を手放さず、仕掛けを事実から解くこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "説明できない一点こそ、事件の中心かもしれない。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "仮説は証拠に従わせる。証拠を仮説へ曲げてはならない。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "ロイロットが相談室へ押しかけ、火かき棒を曲げて脅す。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "iwao"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "bg",
-      "src": "manor",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "manor"
-    },
-    {
-      "op": "nar",
-      "text": "荒れたストーク・モラン屋敷の外観"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "nono_whitecat",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "探偵が曲げられた火かき棒を戻し、暴力と推理を切り分ける。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "この手掛かりを軽く扱えない。探偵が曲げられた火かき棒を戻し、暴力と推理を切り分ける。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "奇妙さには目的がある。誰が、何から目をそらしたかった？"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "利益だけでなく、時間を稼ぐ必要があった者も考えよう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「恐怖の中でも観察を手放さず、仕掛けを事実から解くこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "沈黙したもの、動かなかったものも証言になる。"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "その消極的な証拠を、ほかの事実と結び直してみよう。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "探偵が曲げられた火かき棒を戻し、暴力と推理を切り分ける。――この出来事を忘れず、次の判断へつなげよう。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "hide",
-      "actor": "nono_whitecat"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "ヘレンが屋敷の修理を理由に姉の部屋へ移されたと話す。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "この手掛かりを軽く扱えない。ヘレンが屋敷の修理を理由に姉の部屋へ移されたと話す。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "印象を捨てよう。残った事実だけを、順番に並べる。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "事実は小さいほど見落とされる。位置と時刻を確かめよう。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「恐怖の中でも観察を手放さず、仕掛けを事実から解くこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "説明できない一点こそ、事件の中心かもしれない。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "仮説は証拠に従わせる。証拠を仮説へ曲げてはならない。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "ヘレンが屋敷の修理を理由に姉の部屋へ移されたと話す。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "寝台が床へ固定され、偽物の呼び鈴紐が垂れていると判明する。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "この手掛かりを軽く扱えない。寝台が床へ固定され、偽物の呼び鈴紐が垂れていると判明する。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "奇妙さには目的がある。誰が、何から目をそらしたかった？"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "利益だけでなく、時間を稼ぐ必要があった者も考えよう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「恐怖の中でも観察を手放さず、仕掛けを事実から解くこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "沈黙したもの、動かなかったものも証言になる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "その消極的な証拠を、ほかの事実と結び直してみよう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "寝台が床へ固定され、偽物の呼び鈴紐が垂れていると判明する。――この出来事を忘れず、次の判断へつなげよう。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "bg",
-      "src": "bedroom",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "bedroom"
-    },
-    {
-      "op": "nar",
-      "text": "固定された寝台と飾り紐の寝室"
-    },
-    {
-      "op": "show",
-      "actor": "nono_whitecat",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "呼び鈴紐の真上に、隣室へ通じる新しい通気孔を見つける。"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "この手掛かりを軽く扱えない。呼び鈴紐の真上に、隣室へ通じる新しい通気孔を見つける。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "印象を捨てよう。残った事実だけを、順番に並べる。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "事実は小さいほど見落とされる。位置と時刻を確かめよう。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「恐怖の中でも観察を手放さず、仕掛けを事実から解くこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "説明できない一点こそ、事件の中心かもしれない。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "仮説は証拠に従わせる。証拠を仮説へ曲げてはならない。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "呼び鈴紐の真上に、隣室へ通じる新しい通気孔を見つける。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "surprise",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "nono_whitecat"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "iwao",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "博士の部屋で金庫、牛乳の受け皿、輪にした鞭を確認する。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "この手掛かりを軽く扱えない。博士の部屋で金庫、牛乳の受け皿、輪にした鞭を確認する。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "奇妙さには目的がある。誰が、何から目をそらしたかった？"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "利益だけでなく、時間を稼ぐ必要があった者も考えよう。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「恐怖の中でも観察を手放さず、仕掛けを事実から解くこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "沈黙したもの、動かなかったものも証言になる。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "その消極的な証拠を、ほかの事実と結び直してみよう。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "博士の部屋で金庫、牛乳の受け皿、輪にした鞭を確認する。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "anger",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "hide",
-      "actor": "iwao"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "nono_whitecat",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "ヘレンへ合図を決め、今夜は別室へ逃れるよう指示する。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "この手掛かりを軽く扱えない。ヘレンへ合図を決め、今夜は別室へ逃れるよう指示する。"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "印象を捨てよう。残った事実だけを、順番に並べる。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "事実は小さいほど見落とされる。位置と時刻を確かめよう。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「恐怖の中でも観察を手放さず、仕掛けを事実から解くこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "説明できない一点こそ、事件の中心かもしれない。"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "仮説は証拠に従わせる。証拠を仮説へ曲げてはならない。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "ヘレンへ合図を決め、今夜は別室へ逃れるよう指示する。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "hide",
-      "actor": "nono_whitecat"
-    },
-    {
-      "op": "bg",
-      "src": "corridor",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "corridor"
-    },
-    {
-      "op": "nar",
-      "text": "口笛が響く暗い廊下"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "nono_whitecat",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "暗闇で金属音、口笛、飾り紐のわずかな動きを待つ。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "この手掛かりを軽く扱えない。暗闇で金属音、口笛、飾り紐のわずかな動きを待つ。"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "奇妙さには目的がある。誰が、何から目をそらしたかった？"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "利益だけでなく、時間を稼ぐ必要があった者も考えよう。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「恐怖の中でも観察を手放さず、仕掛けを事実から解くこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "沈黙したもの、動かなかったものも証言になる。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "その消極的な証拠を、ほかの事実と結び直してみよう。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "暗闇で金属音、口笛、飾り紐のわずかな動きを待つ。――この出来事を忘れず、次の判断へつなげよう。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "hide",
-      "actor": "nono_whitecat"
-    },
-    {
-      "op": "show",
-      "actor": "mizuchi",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "通気孔から蛇が降り、探偵が杖で打ち返す。"
-    },
-    {
-      "op": "say",
-      "actor": "mizuchi",
-      "text": "この手掛かりを軽く扱えない。通気孔から蛇が降り、探偵が杖で打ち返す。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "mizuchi",
-      "text": "印象を捨てよう。残った事実だけを、順番に並べる。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "事実は小さいほど見落とされる。位置と時刻を確かめよう。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「恐怖の中でも観察を手放さず、仕掛けを事実から解くこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "mizuchi",
-      "text": "説明できない一点こそ、事件の中心かもしれない。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "仮説は証拠に従わせる。証拠を仮説へ曲げてはならない。"
-    },
-    {
-      "op": "say",
-      "actor": "mizuchi",
-      "text": "通気孔から蛇が降り、探偵が杖で打ち返す。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "hide",
-      "actor": "mizuchi"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "show",
-      "actor": "iwao",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "mizuchi",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "戻った蛇が博士を噛み、叫びの後に部屋が静まる。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "この手掛かりを軽く扱えない。戻った蛇が博士を噛み、叫びの後に部屋が静まる。"
-    },
-    {
-      "op": "say",
-      "actor": "mizuchi",
-      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "奇妙さには目的がある。誰が、何から目をそらしたかった？"
-    },
-    {
-      "op": "say",
-      "actor": "mizuchi",
-      "text": "利益だけでなく、時間を稼ぐ必要があった者も考えよう。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「恐怖の中でも観察を手放さず、仕掛けを事実から解くこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "沈黙したもの、動かなかったものも証言になる。"
-    },
-    {
-      "op": "say",
-      "actor": "mizuchi",
-      "text": "その消極的な証拠を、ほかの事実と結び直してみよう。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "戻った蛇が博士を噛み、叫びの後に部屋が静まる。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "mizuchi",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "iwao"
-    },
-    {
-      "op": "hide",
-      "actor": "mizuchi"
-    },
-    {
-      "op": "bg",
-      "src": "vigil",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "vigil"
-    },
-    {
-      "op": "nar",
-      "text": "ランプを消した寝室の夜警"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "まだらの紐の正体が蛇で、遺産目的の殺人装置だったと説明する。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "この手掛かりを軽く扱えない。まだらの紐の正体が蛇で、遺産目的の殺人装置だったと説明する。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "印象を捨てよう。残った事実だけを、順番に並べる。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "事実は小さいほど見落とされる。位置と時刻を確かめよう。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「恐怖の中でも観察を手放さず、仕掛けを事実から解くこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "説明できない一点こそ、事件の中心かもしれない。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "仮説は証拠に従わせる。証拠を仮説へ曲げてはならない。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "まだらの紐の正体が蛇で、遺産目的の殺人装置だったと説明する。――この出来事を忘れず、次の判断へつなげよう。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "show",
-      "actor": "nono_whitecat",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "蛇を打ち返した行為が博士の死へつながった責任を問う。"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "この手掛かりを軽く扱えない。蛇を打ち返した行為が博士の死へつながった責任を問う。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "奇妙さには目的がある。誰が、何から目をそらしたかった？"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "利益だけでなく、時間を稼ぐ必要があった者も考えよう。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「恐怖の中でも観察を手放さず、仕掛けを事実から解くこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "沈黙したもの、動かなかったものも証言になる。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "その消極的な証拠を、ほかの事実と結び直してみよう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "蛇を打ち返した行為が博士の死へつながった責任を問う。――この出来事を忘れず、次の判断へつなげよう。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "nono_whitecat"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "ヘレンが姉の恐怖に名前がついたことを受け止め、屋敷を出る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "この手掛かりを軽く扱えない。ヘレンが姉の恐怖に名前がついたことを受け止め、屋敷を出る。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "結論を急がず、時刻、位置、目的の三つを照合しよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "印象を捨てよう。残った事実だけを、順番に並べる。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "事実は小さいほど見落とされる。位置と時刻を確かめよう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「恐怖の中でも観察を手放さず、仕掛けを事実から解くこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "説明できない一点こそ、事件の中心かもしれない。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "仮説は証拠に従わせる。証拠を仮説へ曲げてはならない。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "ヘレンが姉の恐怖に名前がついたことを受け止め、屋敷を出る。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "bg",
-      "src": "vigil"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "蛇は打ち返され、ロイロット自身を襲う。探偵は仕掛けを解いたが、暴力が戻った結末の重さも引き受けた。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "長い旅の果てに残ったのは、「恐怖の中でも観察を手放さず、仕掛けを事実から解くこと」という問いでした。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "答えは一つではありません。けれど、登場人物たちの選択は消えません。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "『まだらの紐 ―夜の口笛―』、これにて終幕。ありがとうございました。"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "end"
+  {
+   "role": "ホームズ",
+   "actor": "shiro",
+   "costume": "default"
+  },
+  {
+   "role": "ワトソン",
+   "actor": "nono_whitecat",
+   "costume": "default"
+  },
+  {
+   "role": "ロイロット博士",
+   "actor": "iwao",
+   "costume": "default"
+  },
+  {
+   "role": "ジュリアの記憶",
+   "actor": "mei",
+   "costume": "default"
+  },
+  {
+   "role": "沼蛇",
+   "actor": "mizuchi",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "baker": "bg/baker-street-room-2048x1152.png",
+  "manor": "bg/stoke-moran-manor-2048x1152.png",
+  "bedroom": "bg/sealed-bedroom-2048x1152.png",
+  "corridor": "bg/manor-corridor-night-2048x1152.png",
+  "vigil": "bg/bedroom-vigil-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "夜中に聞こえる、低い口笛。カラン、と金属の鳴る音。そして「まだらの紐」という言葉。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ホームズの事件の中でも、とりわけ恐ろしい一件をお届けします。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "舞台は、古い屋敷の、ベッドが床に打ちつけられた寝室。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "灯りを消したら、物音ひとつ立てずに、一緒に夜明けを待ちましょう。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "baker",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "baker"
+  },
+  {
+   "op": "nar",
+   "text": "早朝のベーカー街。ベールをかぶった若い女性が、震えながら暖炉の前に座っている。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "nono_whitecat",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "寒さで震えているのではありませんね。恐怖です。左の手袋の上、泥がはねている。馬車の左側に座って来た。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "ヘレン・ストーナーと申します。継父のロイロット博士と、ストーク・モランの屋敷に住んでおります。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "二年前、双子の姉のジュリアが、結婚を間近にして亡くなりました。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "夜中に悲鳴が聞こえて駆けつけると、姉は廊下に倒れて、こう言ったのです。「ヘレン、紐よ、まだらの紐！」"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "まだらの紐……。部屋に誰か入った形跡は。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "扉には内側から鍵が。窓には鉄の鎧戸。煙突も細くて、人は通れません。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "姉は、亡くなる前の晩、夜中に低い口笛が聞こえると言っていました。そして、カランという金属の音も。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "なぜ、今日ここへ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "私も、近く結婚します。すると継父が、屋敷の修理を理由に、私を姉の部屋へ移したのです。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "昨夜、あの口笛が聞こえました。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "hide",
+   "actor": "nono_whitecat"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "ここが、ホームズとかいう、おせっかい屋の部屋か。継娘をつけてきたぞ。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "余計なことに首を突っ込むな。……この火かき棒を見ろ。"
+  },
+  {
+   "op": "nar",
+   "text": "博士は鉄の火かき棒を、素手でぐにゃりと曲げて床に投げ捨て、出ていった。"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "nono_whitecat",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "力自慢の客だ。……ふんっ、元通り。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "ホームズ、まっすぐに戻した……。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "ワトソン、今日の午後、ストーク・モランへ行く。拳銃を持っていきたまえ。"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "hide",
+   "actor": "nono_whitecat"
+  },
+  {
+   "op": "bg",
+   "src": "manor",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "manor"
+  },
+  {
+   "op": "nar",
+   "text": "荒れ果てた古い屋敷。庭にはヒヒとチーターが放し飼いにされ、ジプシーが野営している。"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "nono_whitecat",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "継父はインドで医者をしていました。珍しい動物を送らせては、庭に放しているのです。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "修理中だというのに、壁に足場もない。修理は口実ですね。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "母の遺産があります。私たち姉妹が結婚すると、それぞれに分け前が渡ることになっていました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "結婚すれば、博士の取り分が減る。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……姉上が亡くなったのは、結婚の直前。そして今、あなたも結婚を控えている。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "nono_whitecat"
+  },
+  {
+   "op": "bg",
+   "src": "bedroom",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "bedroom"
+  },
+  {
+   "op": "nar",
+   "text": "姉の寝室。寝台は床に打ちつけられ、動かせない。枕元に、呼び鈴の紐が垂れ下がっている。"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "この呼び鈴の紐、引いても音がしない。紐の先は、天井の小さなフックに結ばれているだけだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "去年、取りつけたばかりです。姉は、一度も使ったことがありません。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "そして、紐の真上に、通気孔。外ではなく、隣の博士の部屋へ通じている。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "通気孔の向きがおかしい。換気なら、外へ向けるはずだ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "どれも、姉が亡くなる少し前に、作られたものです。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "寝台は動かせない。紐は通気孔から真下に垂れている。……紐は、何かが下りてくる道だ。"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "nono_whitecat",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "博士の部屋。鉄の金庫、小さな皿に入った牛乳、先が輪になった犬用の鞭。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "金庫に、牛乳の皿？　猫でも飼っているのかい。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "猫は、金庫に入らない。……鞭の先の輪を見たまえ。何かの首を押さえるための結び方だ。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "ワトソン、今夜は姉上の部屋で、夜明けまで待つ。博士に気づかれないように。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "hide",
+   "actor": "nono_whitecat"
+  },
+  {
+   "op": "bg",
+   "src": "corridor",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "corridor"
+  },
+  {
+   "op": "nar",
+   "text": "夜。屋敷の廊下。ヘレンは別の部屋へ移り、窓辺のランプで合図を送る。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "ランプを窓辺に置きました。これが合図。……ホームズさん、どうか。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "nono_whitecat",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "庭で、ヒヒが鳴いた。……心臓に悪い屋敷だ。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "足音を立てるな。部屋に入ったら、灯りは消す。声も出さない。"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "hide",
+   "actor": "nono_whitecat"
+  },
+  {
+   "op": "bg",
+   "src": "vigil",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "vigil"
+  },
+  {
+   "op": "nar",
+   "text": "真っ暗な寝室。ホームズとワトソンが、寝台の端に座って息をひそめている。"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "nono_whitecat",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "時計の音。遠くの教会の鐘。午前三時。"
+  },
+  {
+   "op": "nar",
+   "text": "隣の部屋で、かすかな灯りがともった。ランプの油の匂い。"
+  },
+  {
+   "op": "nar",
+   "text": "そして、低い、細い口笛。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "ワトソン、見たか！　紐を伝って！",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "ホームズはマッチを擦り、呼び鈴の紐に向かって、杖を激しく打ちつけた。"
+  },
+  {
+   "op": "show",
+   "actor": "mizuchi",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "しゅう……。"
+  },
+  {
+   "op": "nar",
+   "text": "紐を伝って下りてきた何かは、杖に打たれて、通気孔の中へ逃げ戻った。"
+  },
+  {
+   "op": "hide",
+   "actor": "mizuchi"
+  },
+  {
+   "op": "nar",
+   "text": "次の瞬間、隣の部屋から、恐ろしい叫び声が上がった。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "ホームズは、すぐに隣の部屋へ駆け込む",
+     "jump": "m_run"
+    },
+    {
+     "text": "ホームズは、灯りを持ってから慎重に向かう",
+     "jump": "m_slow"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_run"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "行くぞ！"
+  },
+  {
+   "op": "jump",
+   "to": "m_room"
+  },
+  {
+   "op": "label",
+   "id": "m_slow"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "ランプを。暗がりで、あれと鉢合わせはしたくない。"
+  },
+  {
+   "op": "label",
+   "id": "m_room"
+  },
+  {
+   "op": "nar",
+   "text": "隣の部屋。博士は椅子に座ったまま動かなかった。額に、黄色い斑点のある紐のようなものが巻きついている。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "まだらの紐……。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "インドの沼蛇だ。猛毒で、噛まれて十秒ともたない。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "牛乳で手なずけ、口笛で呼び戻していた。通気孔から紐を伝わせて、眠る娘のもとへ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "杖で打たれて怒った蛇が、穴の向こうの飼い主を噛んだのだ。"
+  },
+  {
+   "op": "nar",
+   "text": "ホームズは鞭の輪で蛇の首を押さえ、金庫の中へ放り込んで扉を閉めた。"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "hide",
+   "actor": "nono_whitecat"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "姉は、これに……。紐だと思ったのですね。暗い中で、まだらの、細いものが動いたから。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "姉上は最後まで、見たものを正確に伝えようとした。その言葉が、あなたを救ったのです。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "やっと、姉の怖さに、名前がついた。……もう、口笛の夢は見ないでしょう。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "博士の死について、私は間接的に責任がある。それを、良心にとどめておくつもりです。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "『まだらの紐』、これにて幕です。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "動かない寝台、鳴らない呼び鈴、隣へ通じる通気孔。ひとつひとつは小さな違和感でした。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "そして、亡くなった姉の最後の言葉が、妹の命を救いました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "怖い夜ほど、目に映ったものを、正確に覚えておいてください。それが、誰かの助けになるかもしれません。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

@@ -1,1234 +1,654 @@
 {
-  "meta": {
-    "id": "the-time-machine",
-    "title": "タイム・マシン ―八十万年後の火―",
-    "original": "H. G. Wells, The Time Machine（1895年、原典著作権消滅）",
-    "adaptation": "moderate",
-    "format": "v3",
-    "minutes": 44,
-    "synopsis": "時間旅行者は友人たちへ四次元と機械を説明し、八十万二千七百一年へ到達する。優美だが幼いエロイと、地下で機械を動かすモーロックを知り、失われた機械を取り戻すため暗闇へ降りる。さらに地球の終末近くまで進む。",
-    "note": "H. G. Wellsの1895年英語原典を基礎に新規脚本化。Project Gutenberg eBook #35はPublic domain in the USAと表示。現代日本語訳の文言は使用していない。"
+ "meta": {
+  "id": "the-time-machine",
+  "title": "タイム・マシン ―八十万年後の火―",
+  "original": "H. G. Wells, The Time Machine（1895年、原典著作権消滅）",
+  "adaptation": "moderate",
+  "format": "v3",
+  "minutes": 21,
+  "synopsis": "時間旅行者は友人たちへ四次元と機械を説明し、八十万二千七百一年へ到達する。優美だが幼いエロイと、地下で機械を動かすモーロックを知り、失われた機械を取り戻すため暗闇へ降りる。さらに地球の終末近くまで進む。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "狂言回し",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "時間旅行者",
-      "actor": "rei_trackcape",
-      "costume": "default"
-    },
-    {
-      "role": "ウィーナ",
-      "actor": "mei",
-      "costume": "default"
-    },
-    {
-      "role": "語り手",
-      "actor": "nono_whitecat",
-      "costume": "default"
-    },
-    {
-      "role": "エロイの友",
-      "actor": "shiro",
-      "costume": "default"
-    },
-    {
-      "role": "モーロック",
-      "actor": "extra_mummy",
-      "costume": "default"
-    },
-    {
-      "role": "懐疑的な友人",
-      "actor": "extra_craftsman",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "laboratory": "bg/time-machine-laboratory-2048x1152.png",
-    "future": "bg/year-802701-garden-2048x1152.png",
-    "well": "bg/morlock-well-2048x1152.png",
-    "forest": "bg/future-forest-fire-2048x1152.png",
-    "last": "bg/far-future-red-sun-2048x1152.png"
+  {
+   "role": "時間旅行者",
+   "actor": "rei_trackcape",
+   "costume": "default"
   },
-  "steps": [
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『タイム・マシン ―八十万年後の火―』。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "時を旅する発明家は、八十万年後の楽園で、人類が地上と地下の二種へ分かれた未来を見ます。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "今夜の核は「進歩の外見に安住せず、社会の分断が行き着く先を見つめること」。急がず、長い物語としてお届けします。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "それでは開幕。役者たちの声と、場面の移ろいをお楽しみください。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "laboratory",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "laboratory"
-    },
-    {
-      "op": "nar",
-      "text": "象牙と金属の小型機があるヴィクトリア朝の研究室"
-    },
-    {
-      "op": "show",
-      "actor": "rei_trackcape",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_craftsman",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "時間旅行者が時間を第四の次元として説明し、小型模型を消す。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "この出来事から目をそらさない。時間旅行者が時間を第四の次元として説明し、小型模型を消す。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "その選び方に、その人が何を大切にするかが現れる。",
-      "eyes": "joy"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「進歩の外見に安住せず、社会の分断が行き着く先を見つめること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "ならば、言葉と行いが離れないように見届けよう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "時間旅行者が時間を第四の次元として説明し、小型模型を消す。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_trackcape"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_craftsman"
-    },
-    {
-      "op": "show",
-      "actor": "nono_whitecat",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_trackcape",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "友人たちが手品を疑う中、完成した時間機械を研究室で示す。"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "この出来事から目をそらさない。友人たちが手品を疑う中、完成した時間機械を研究室で示す。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「進歩の外見に安住せず、社会の分断が行き着く先を見つめること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "その一歩が、失われたものを無駄にしない道になる。"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "友人たちが手品を疑う中、完成した時間機械を研究室で示す。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "nono_whitecat"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_trackcape"
-    },
-    {
-      "op": "show",
-      "actor": "rei_trackcape",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "nono_whitecat",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "旅行者がレバーを押し、昼夜と季節が高速で流れる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "この出来事から目をそらさない。旅行者がレバーを押し、昼夜と季節が高速で流れる。"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "その選び方に、その人が何を大切にするかが現れる。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「進歩の外見に安住せず、社会の分断が行き着く先を見つめること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "ならば、言葉と行いが離れないように見届けよう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "旅行者がレバーを押し、昼夜と季節が高速で流れる。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_trackcape"
-    },
-    {
-      "op": "hide",
-      "actor": "nono_whitecat"
-    },
-    {
-      "op": "bg",
-      "src": "future",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "future"
-    },
-    {
-      "op": "nar",
-      "text": "白いスフィンクスと巨大建築のある八十万年後の庭"
-    },
-    {
-      "op": "show",
-      "actor": "rei_trackcape",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "八十万二千七百一年でエロイと出会い、言葉を学ぶ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "この出来事から目をそらさない。八十万二千七百一年でエロイと出会い、言葉を学ぶ。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「進歩の外見に安住せず、社会の分断が行き着く先を見つめること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "その一歩が、失われたものを無駄にしない道になる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "八十万二千七百一年でエロイと出会い、言葉を学ぶ。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_trackcape"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "show",
-      "actor": "rei_trackcape",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "mei",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "川で溺れかけたウィーナを救い、彼女から白い花を受ける。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "この出来事から目をそらさない。川で溺れかけたウィーナを救い、彼女から白い花を受ける。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "その選び方に、その人が何を大切にするかが現れる。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「進歩の外見に安住せず、社会の分断が行き着く先を見つめること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "ならば、言葉と行いが離れないように見届けよう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "川で溺れかけたウィーナを救い、彼女から白い花を受ける。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_trackcape"
-    },
-    {
-      "op": "hide",
-      "actor": "mei"
-    },
-    {
-      "op": "show",
-      "actor": "rei_trackcape",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "nono_whitecat",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "白いスフィンクスの前から時間機械が消え、足跡だけが残る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "この出来事から目をそらさない。白いスフィンクスの前から時間機械が消え、足跡だけが残る。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「進歩の外見に安住せず、社会の分断が行き着く先を見つめること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "その一歩が、失われたものを無駄にしない道になる。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "白いスフィンクスの前から時間機械が消え、足跡だけが残る。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_trackcape"
-    },
-    {
-      "op": "hide",
-      "actor": "nono_whitecat"
-    },
-    {
-      "op": "bg",
-      "src": "well",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "well"
-    },
-    {
-      "op": "nar",
-      "text": "地下へ続く円形の井戸と機械音"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_trackcape",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "エロイが暗闇を極端に恐れ、地面の井戸を避けると知る。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "この出来事から目をそらさない。エロイが暗闇を極端に恐れ、地面の井戸を避けると知る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "その選び方に、その人が何を大切にするかが現れる。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「進歩の外見に安住せず、社会の分断が行き着く先を見つめること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "ならば、言葉と行いが離れないように見届けよう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "エロイが暗闇を極端に恐れ、地面の井戸を避けると知る。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "surprise",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_trackcape"
-    },
-    {
-      "op": "show",
-      "actor": "rei_trackcape",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_mummy",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "井戸を下って地下機械室へ入り、モーロックに囲まれる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "この出来事から目をそらさない。井戸を下って地下機械室へ入り、モーロックに囲まれる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_mummy",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_mummy",
-      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。",
-      "eyes": "normal"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「進歩の外見に安住せず、社会の分断が行き着く先を見つめること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_mummy",
-      "text": "その一歩が、失われたものを無駄にしない道になる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "井戸を下って地下機械室へ入り、モーロックに囲まれる。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "extra_mummy",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_trackcape"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_mummy"
-    },
-    {
-      "op": "show",
-      "actor": "rei_trackcape",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "mei",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "地上の安楽と地下の労働が、二つの人類へ分かれたと推測する。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "この出来事から目をそらさない。地上の安楽と地下の労働が、二つの人類へ分かれたと推測する。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "その選び方に、その人が何を大切にするかが現れる。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「進歩の外見に安住せず、社会の分断が行き着く先を見つめること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "ならば、言葉と行いが離れないように見届けよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "地上の安楽と地下の労働が、二つの人類へ分かれたと推測する。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_trackcape"
-    },
-    {
-      "op": "hide",
-      "actor": "mei"
-    },
-    {
-      "op": "bg",
-      "src": "forest",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "forest"
-    },
-    {
-      "op": "nar",
-      "text": "暗い未来の森と広がる火"
-    },
-    {
-      "op": "show",
-      "actor": "rei_trackcape",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "mei",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "緑の陶器宮殿でマッチと樟脳、鉄の棒を手に入れる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "この出来事から目をそらさない。緑の陶器宮殿でマッチと樟脳、鉄の棒を手に入れる。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「進歩の外見に安住せず、社会の分断が行き着く先を見つめること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "その一歩が、失われたものを無駄にしない道になる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "緑の陶器宮殿でマッチと樟脳、鉄の棒を手に入れる。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_trackcape"
-    },
-    {
-      "op": "hide",
-      "actor": "mei"
-    },
-    {
-      "op": "show",
-      "actor": "extra_mummy",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_trackcape",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "夜の森でモーロックが襲い、旅行者が火で道を守る。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_mummy",
-      "text": "この出来事から目をそらさない。夜の森でモーロックが襲い、旅行者が火で道を守る。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "extra_mummy",
-      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "その選び方に、その人が何を大切にするかが現れる。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「進歩の外見に安住せず、社会の分断が行き着く先を見つめること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_mummy",
-      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "ならば、言葉と行いが離れないように見届けよう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_mummy",
-      "text": "夜の森でモーロックが襲い、旅行者が火で道を守る。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_mummy"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_trackcape"
-    },
-    {
-      "op": "show",
-      "actor": "mei",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_trackcape",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "広がった火の混乱でウィーナを見失い、白い花だけが残る。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "この出来事から目をそらさない。広がった火の混乱でウィーナを見失い、白い花だけが残る。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「進歩の外見に安住せず、社会の分断が行き着く先を見つめること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "その一歩が、失われたものを無駄にしない道になる。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "広がった火の混乱でウィーナを見失い、白い花だけが残る。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "mei"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_trackcape"
-    },
-    {
-      "op": "bg",
-      "src": "last",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "last"
-    },
-    {
-      "op": "nar",
-      "text": "巨大な赤い太陽と静かな終末の海岸"
-    },
-    {
-      "op": "show",
-      "actor": "rei_trackcape",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_mummy",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "白いスフィンクスが開き、罠の中の時間機械へ飛び乗る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "この出来事から目をそらさない。白いスフィンクスが開き、罠の中の時間機械へ飛び乗る。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_mummy",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "extra_mummy",
-      "text": "その選び方に、その人が何を大切にするかが現れる。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「進歩の外見に安住せず、社会の分断が行き着く先を見つめること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "extra_mummy",
-      "text": "ならば、言葉と行いが離れないように見届けよう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "白いスフィンクスが開き、罠の中の時間機械へ飛び乗る。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_mummy",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_trackcape"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_mummy"
-    },
-    {
-      "op": "show",
-      "actor": "rei_trackcape",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "nono_whitecat",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "さらに未来へ進み、赤い太陽と弱った生物の終末を見る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "この出来事から目をそらさない。さらに未来へ進み、赤い太陽と弱った生物の終末を見る。"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「進歩の外見に安住せず、社会の分断が行き着く先を見つめること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "その一歩が、失われたものを無駄にしない道になる。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "さらに未来へ進み、赤い太陽と弱った生物の終末を見る。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_trackcape"
-    },
-    {
-      "op": "hide",
-      "actor": "nono_whitecat"
-    },
-    {
-      "op": "show",
-      "actor": "nono_whitecat",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_trackcape",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "現代へ戻って体験を語り、翌日再出発したまま帰らない。"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "この出来事から目をそらさない。現代へ戻って体験を語り、翌日再出発したまま帰らない。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "その選び方に、その人が何を大切にするかが現れる。",
-      "eyes": "normal"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「進歩の外見に安住せず、社会の分断が行き着く先を見つめること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "ならば、言葉と行いが離れないように見届けよう。"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "現代へ戻って体験を語り、翌日再出発したまま帰らない。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "hide",
-      "actor": "nono_whitecat"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_trackcape"
-    },
-    {
-      "op": "bg",
-      "src": "last"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "旅行者は二輪の白い花を証として帰還し、再び旅立つ。残された語り手は、未来が警告だけでなく小さな親切も生むことを信じ…",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "長い旅の果てに残ったのは、「進歩の外見に安住せず、社会の分断が行き着く先を見つめること」という問いでした。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "答えは一つではありません。けれど、登場人物たちの選択は消えません。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "『タイム・マシン ―八十万年後の火―』、これにて終幕。ありがとうございました。"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "end"
+  {
+   "role": "ウィーナ",
+   "actor": "mei",
+   "costume": "default"
+  },
+  {
+   "role": "語り手",
+   "actor": "nono_whitecat",
+   "costume": "default"
+  },
+  {
+   "role": "エロイの友",
+   "actor": "shiro",
+   "costume": "default"
+  },
+  {
+   "role": "モーロック",
+   "actor": "extra_mummy",
+   "costume": "default"
+  },
+  {
+   "role": "懐疑的な友人",
+   "actor": "extra_craftsman",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "laboratory": "bg/time-machine-laboratory-2048x1152.png",
+  "future": "bg/year-802701-garden-2048x1152.png",
+  "well": "bg/morlock-well-2048x1152.png",
+  "forest": "bg/future-forest-fire-2048x1152.png",
+  "last": "bg/far-future-red-sun-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "もし時間を、道のように前へも後ろへも歩けたら。どこへ行ってみたいですか。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "H・G・ウェルズの『タイム・マシン』。百三十年前に書かれた、時間旅行の物語です。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "主人公は名前を持たない「時間旅行者」。彼は八十万年後の未来で、人類の行く末を見ることになります。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "時計の針の音に耳を澄ませて、旅立ちましょう。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "laboratory",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "laboratory"
+  },
+  {
+   "op": "nar",
+   "text": "ロンドン郊外の研究室。暖炉の前で、紳士たちが食後の葉巻をくゆらせている。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_trackcape",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "nono_whitecat",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "extra_craftsman",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "諸君、この世の物には、長さと幅と高さがある。だが、もう一つ、忘れられている方向がある。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "時間かね。だが時間は、勝手に進むだけだ。左右のように行き来はできない。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "気球は上下を行き来する。昔は誰も、空を自由に動けるとは思っていなかった。"
+  },
+  {
+   "op": "nar",
+   "text": "時間旅行者は、象牙と真鍮でできた小さな模型を机に置き、レバーを押した。模型は、ふっと消えた。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "消えた……。どこへ行ったんだ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "未来へ。この部屋の、ずっと先の時間へ。そして、隣の部屋に、人が乗れる大きさのものを作ってある。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "手品だ。君は昔から、人をかつぐのが好きだった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "来週の夕食に来てくれ。それまでに、答えを持って帰る。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_trackcape"
+  },
+  {
+   "op": "hide",
+   "actor": "nono_whitecat"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_craftsman"
+  },
+  {
+   "op": "show",
+   "actor": "nono_whitecat",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_craftsman",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "翌週の夕食。主人は遅れて現れた。服は泥と煤にまみれ、足を引きずり、ひどく疲れていた。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_trackcape",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "……羊の肉を、少し。それから、話を聞いてくれ。信じなくてもいい。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "私は、八十万二千七百一年まで行ってきた。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono_whitecat"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_craftsman"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_trackcape"
+  },
+  {
+   "op": "bg",
+   "src": "future",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "future"
+  },
+  {
+   "op": "nar",
+   "text": "白いスフィンクスの像と、崩れかけた巨大な建物。花の咲く庭で、小柄な人々が笑いながら遊んでいる。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_trackcape",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "レバーを押すと、窓の外の昼と夜が、まばたきのように入れ替わった。太陽が、光る帯になった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "止めたときには、八十万年後。人間は、子どものように小さく、優しく、そして、とても無邪気になっていた。"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……？　きらきら、した、もの。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "彼らは「エロイ」と自分たちを呼んでいた。働かず、果物を食べ、遊び、夕方になるとおびえて建物の中へ集まる。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "お花、あげる。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "争いも病気もない。人間の夢見た楽園だ。……そう思った。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_trackcape"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "show",
+   "actor": "rei_trackcape",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "川で溺れかけた小さなエロイを、時間旅行者が助けた。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "ありがとう。私、ウィーナ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "ウィーナ。君たちは、夜になると何を怖がっているんだい。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……暗いの、いや。下から、来るの。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "翌朝、スフィンクスの像の前に置いたはずのタイム・マシンが、消えていた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "機械が……ない！　台座の扉が閉まっている。中へ引きずり込まれた跡がある。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "これがなければ、帰れない。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_trackcape"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "bg",
+   "src": "well",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "well"
+  },
+  {
+   "op": "nar",
+   "text": "庭のあちこちに、丸い井戸が口を開けている。底から、機械の唸る音と、生ぬるい風が上がってくる。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_trackcape",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "井戸の底に、灯りの届かない世界がある。……降りるしかない。"
+  },
+  {
+   "op": "nar",
+   "text": "地下の闇。マッチをすると、白く大きな目の生き物たちが、光を嫌ってさっと逃げた。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_mummy",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "「モーロック」。地上のエロイとは違う、もう一つの人類。光を嫌い、地下で機械を動かしている。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "分かった。昔、働く者たちは地下へ、豊かな者たちは地上へ。何十万年もかけて、二つの種族に分かれたのだ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "エロイは、モーロックに食べ物と服を与えられている。そして夜になると……モーロックの食べ物になる。"
+  },
+  {
+   "op": "nar",
+   "text": "マッチが燃え尽きた。暗闇で、冷たい手が何本も、時間旅行者の体をつかんだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "離せ！",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_trackcape"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_mummy"
+  },
+  {
+   "op": "bg",
+   "src": "forest",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "forest"
+  },
+  {
+   "op": "nar",
+   "text": "夜の森。ウィーナを連れた時間旅行者が、マッチで火を起こしている。木々の間に、白い目がいくつも光る。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_trackcape",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "こわい……。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "火があるうちは、近づいてこない。……枯れ枝を集めよう。ウィーナ、そばを離れるな。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "時間旅行者は、火を大きく燃やして逃げ道を作る",
+     "jump": "m_fire"
+    },
+    {
+     "text": "時間旅行者は、火を小さく保って朝を待つ",
+     "jump": "m_wait"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_fire"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "火を大きくする！　森ごと、明るくしてしまえ！"
+  },
+  {
+   "op": "nar",
+   "text": "炎は風にあおられ、森じゅうに燃え広がった。モーロックたちは逃げ惑った。"
+  },
+  {
+   "op": "jump",
+   "to": "m_lost"
+  },
+  {
+   "op": "label",
+   "id": "m_wait"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "小さな火を、朝まで守る。……だが、眠気が、まぶたを押し下げる。"
+  },
+  {
+   "op": "nar",
+   "text": "目を覚ましたとき、火は消えかけ、森のどこかで炎が燃え広がっていた。"
+  },
+  {
+   "op": "label",
+   "id": "m_lost"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "火と煙の中で、ウィーナの手を見失った。いくら呼んでも、返事はなかった。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "ウィーナ……。私は、彼女を守れなかった。",
+   "eyes": "crying"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_trackcape"
+  },
+  {
+   "op": "show",
+   "actor": "rei_trackcape",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "夜明け。スフィンクスの台座の扉が、開いていた。中に、タイム・マシンがあった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "罠だと分かっていた。それでも、飛び込むしかなかった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "扉が閉まり、モーロックたちが手を伸ばした瞬間、時間旅行者はレバーを押した。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_trackcape"
+  },
+  {
+   "op": "bg",
+   "src": "last",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "last"
+  },
+  {
+   "op": "nar",
+   "text": "さらに数千万年後。巨大な赤い太陽が、動かずに空に浮かぶ。静かな海辺に、蟹のような生き物がうごめいている。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_trackcape",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "私は、もっと先へ行ってみた。地球の回転は遅くなり、太陽は赤く膨らんでいた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "空気は冷たく、音がない。人間の影は、どこにもない。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "最後に見たのは、黒い海の上で、何かがぴょんと跳ねる姿だけだった。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "私は、帰ってきた。そして今、こうして、君たちと羊の肉を食べている。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_trackcape"
+  },
+  {
+   "op": "bg",
+   "src": "laboratory",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "laboratory"
+  },
+  {
+   "op": "show",
+   "actor": "nono_whitecat",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_trackcape",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "信じられない話だ。……君の上着のポケットに、何か入っている。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "花だ。ウィーナがくれた、白い花。この時代には、どこにも咲いていない花だ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "見たことのない形の花びらだ……。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "もう一度行ってくる。今度は、写真機を持って。"
+  },
+  {
+   "op": "nar",
+   "text": "時間旅行者は、そう言って研究室へ入っていった。そして三年たった今も、まだ帰ってこない。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono_whitecat"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_trackcape"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "『タイム・マシン』、これにて幕です。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "八十万年後に分かれていた二つの人類。それは、働く人と、働かせる人の、ずっと先の姿でした。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "未来は、今日のわたしたちの暮らしの、延長線の上にあります。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "帰り道、ポケットの中に、見たことのない花が入っていたら……どうぞ、大事にしてください。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

@@ -1,1223 +1,571 @@
 {
-  "meta": {
-    "id": "war-of-the-worlds",
-    "title": "宇宙戦争 ―赤い草の下で―",
-    "original": "H. G. Wells, The War of the Worlds（原典著作権消滅）",
-    "adaptation": "moderate",
-    "format": "v3",
-    "minutes": 48,
-    "synopsis": "語り手はウォキング近郊の円筒を見に行き、火星人の熱線から逃れる。ロンドンへ広がる混乱、砲兵と牧師の異なる反応、赤い草に覆われた世界を通過し、妻を探す。火星人は地球の微生物に倒れる。",
-    "note": "H. G. Wellsの1898年英語原典から新規脚本化。Project Gutenberg掲載原典を確認し、現代訳・映画版は使用していない。"
+ "meta": {
+  "id": "war-of-the-worlds",
+  "title": "宇宙戦争 ―赤い草の下で―",
+  "original": "H. G. Wells, The War of the Worlds（原典著作権消滅）",
+  "adaptation": "moderate",
+  "format": "v3",
+  "minutes": 21,
+  "synopsis": "語り手はウォキング近郊の円筒を見に行き、火星人の熱線から逃れる。ロンドンへ広がる混乱、砲兵と牧師の異なる反応、赤い草に覆われた世界を通過し、妻を探す。火星人は地球の微生物に倒れる。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "狂言回し",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "語り手",
-      "actor": "rei_trackcape",
-      "costume": "default"
-    },
-    {
-      "role": "語り手の妻",
-      "actor": "mei",
-      "costume": "default"
-    },
-    {
-      "role": "砲兵",
-      "actor": "kurogane",
-      "costume": "default"
-    },
-    {
-      "role": "牧師",
-      "actor": "extra_elder",
-      "costume": "default"
-    },
-    {
-      "role": "天文学者",
-      "actor": "shiro",
-      "costume": "default"
-    },
-    {
-      "role": "火星人の機械役",
-      "actor": "homura",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "common": "bg/horsell-common-2048x1152.png",
-    "heat": "bg/martian-heat-ray-2048x1152.png",
-    "flight": "bg/london-flight-2048x1152.png",
-    "ruin": "bg/red-weed-ruins-2048x1152.png",
-    "silence": "bg/dead-tripods-dawn-2048x1152.png"
+  {
+   "role": "語り手",
+   "actor": "rei_trackcape",
+   "costume": "default"
   },
-  "steps": [
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『宇宙戦争 ―赤い草の下で―』。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "火星から落ちた円筒が開き、熱線と三脚機械が文明の尺度を覆します。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "今夜の核は「人間中心の思い込みが崩れた時、知性と連帯を失わないこと」。急がず、長い物語としてお届けします。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "それでは開幕。役者たちの声と、場面の移ろいをお楽しみください。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "common",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "common"
-    },
-    {
-      "op": "nar",
-      "text": "落下した円筒と群衆の荒地"
-    },
-    {
-      "op": "show",
-      "actor": "rei_trackcape",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "夜空の火星から連続して光が発射されるのを観測する。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "この出来事から目をそらさない。夜空の火星から連続して光が発射されるのを観測する。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "その選び方に、その人が何を大切にするかが現れる。",
-      "eyes": "joy"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「人間中心の思い込みが崩れた時、知性と連帯を失わないこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "ならば、言葉と行いが離れないように見届けよう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "夜空の火星から連続して光が発射されるのを観測する。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_trackcape"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "show",
-      "actor": "rei_trackcape",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "homura",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "荒地へ落ちた円筒が開き、未知の存在が現れる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "この出来事から目をそらさない。荒地へ落ちた円筒が開き、未知の存在が現れる。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「人間中心の思い込みが崩れた時、知性と連帯を失わないこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "その一歩が、失われたものを無駄にしない道になる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "荒地へ落ちた円筒が開き、未知の存在が現れる。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_trackcape"
-    },
-    {
-      "op": "hide",
-      "actor": "homura"
-    },
-    {
-      "op": "show",
-      "actor": "homura",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "熱線が代表団と群衆を焼き、観察が恐怖へ変わる。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "この出来事から目をそらさない。熱線が代表団と群衆を焼き、観察が恐怖へ変わる。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "その選び方に、その人が何を大切にするかが現れる。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「人間中心の思い込みが崩れた時、知性と連帯を失わないこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "ならば、言葉と行いが離れないように見届けよう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "熱線が代表団と群衆を焼き、観察が恐怖へ変わる。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "homura"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "bg",
-      "src": "heat",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "heat"
-    },
-    {
-      "op": "nar",
-      "text": "熱線で燃える郊外"
-    },
-    {
-      "op": "show",
-      "actor": "rei_trackcape",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "mei",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "語り手が妻を安全な町へ送り、自分は状況確認へ戻る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "この出来事から目をそらさない。語り手が妻を安全な町へ送り、自分は状況確認へ戻る。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「人間中心の思い込みが崩れた時、知性と連帯を失わないこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "その一歩が、失われたものを無駄にしない道になる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "語り手が妻を安全な町へ送り、自分は状況確認へ戻る。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_trackcape"
-    },
-    {
-      "op": "hide",
-      "actor": "mei"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "homura",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "砲兵隊が三脚機械へ応戦するが圧倒される。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "この出来事から目をそらさない。砲兵隊が三脚機械へ応戦するが圧倒される。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "その選び方に、その人が何を大切にするかが現れる。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「人間中心の思い込みが崩れた時、知性と連帯を失わないこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "ならば、言葉と行いが離れないように見届けよう。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "砲兵隊が三脚機械へ応戦するが圧倒される。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "hide",
-      "actor": "homura"
-    },
-    {
-      "op": "show",
-      "actor": "rei_trackcape",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "崩れた家の下で砲兵と合流し、ロンドンへ向かう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "この出来事から目をそらさない。崩れた家の下で砲兵と合流し、ロンドンへ向かう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「人間中心の思い込みが崩れた時、知性と連帯を失わないこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "その一歩が、失われたものを無駄にしない道になる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "崩れた家の下で砲兵と合流し、ロンドンへ向かう。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_trackcape"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "bg",
-      "src": "flight",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "flight"
-    },
-    {
-      "op": "nar",
-      "text": "避難する荷車と赤い夕空の街道"
-    },
-    {
-      "op": "show",
-      "actor": "mei",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_trackcape",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "避難民の混乱の中で夫婦が離れたままになる。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "この出来事から目をそらさない。避難民の混乱の中で夫婦が離れたままになる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "その選び方に、その人が何を大切にするかが現れる。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「人間中心の思い込みが崩れた時、知性と連帯を失わないこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "ならば、言葉と行いが離れないように見届けよう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "避難民の混乱の中で夫婦が離れたままになる。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "surprise",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "mei"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_trackcape"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elder",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_trackcape",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "牧師が災厄を罰と叫び、語り手が静かに生き延びようとする。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "この出来事から目をそらさない。牧師が災厄を罰と叫び、語り手が静かに生き延びようとする。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。",
-      "eyes": "normal"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「人間中心の思い込みが崩れた時、知性と連帯を失わないこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "その一歩が、失われたものを無駄にしない道になる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "牧師が災厄を罰と叫び、語り手が静かに生き延びようとする。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elder"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_trackcape"
-    },
-    {
-      "op": "show",
-      "actor": "homura",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_trackcape",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "黒い煙と捕獲機械が人々を追い詰める。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "この出来事から目をそらさない。黒い煙と捕獲機械が人々を追い詰める。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "その選び方に、その人が何を大切にするかが現れる。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「人間中心の思い込みが崩れた時、知性と連帯を失わないこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "ならば、言葉と行いが離れないように見届けよう。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "黒い煙と捕獲機械が人々を追い詰める。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "hide",
-      "actor": "homura"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_trackcape"
-    },
-    {
-      "op": "bg",
-      "src": "ruin",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "ruin"
-    },
-    {
-      "op": "nar",
-      "text": "赤い草に覆われた廃墟"
-    },
-    {
-      "op": "show",
-      "actor": "rei_trackcape",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elder",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "廃屋から火星人の生活と弱点を観察する。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "この出来事から目をそらさない。廃屋から火星人の生活と弱点を観察する。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「人間中心の思い込みが崩れた時、知性と連帯を失わないこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "その一歩が、失われたものを無駄にしない道になる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "廃屋から火星人の生活と弱点を観察する。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_trackcape"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elder"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elder",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "homura",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "牧師の叫びが危険を招き、潜伏が破られかける。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "この出来事から目をそらさない。牧師の叫びが危険を招き、潜伏が破られかける。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "その選び方に、その人が何を大切にするかが現れる。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「人間中心の思い込みが崩れた時、知性と連帯を失わないこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "ならば、言葉と行いが離れないように見届けよう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "牧師の叫びが危険を招き、潜伏が破られかける。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elder"
-    },
-    {
-      "op": "hide",
-      "actor": "homura"
-    },
-    {
-      "op": "show",
-      "actor": "rei_trackcape",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "再会した砲兵が地下社会の壮大な計画を語るが働かない。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "この出来事から目をそらさない。再会した砲兵が地下社会の壮大な計画を語るが働かない。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「人間中心の思い込みが崩れた時、知性と連帯を失わないこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "その一歩が、失われたものを無駄にしない道になる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "再会した砲兵が地下社会の壮大な計画を語るが働かない。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_trackcape"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "bg",
-      "src": "silence",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "silence"
-    },
-    {
-      "op": "nar",
-      "text": "動かない三脚機械と朝のロンドン"
-    },
-    {
-      "op": "show",
-      "actor": "rei_trackcape",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "homura",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "赤い草の街を歩き、三脚が突然動かなくなったと知る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "この出来事から目をそらさない。赤い草の街を歩き、三脚が突然動かなくなったと知る。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "その選び方に、その人が何を大切にするかが現れる。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「人間中心の思い込みが崩れた時、知性と連帯を失わないこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "ならば、言葉と行いが離れないように見届けよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "赤い草の街を歩き、三脚が突然動かなくなったと知る。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_trackcape"
-    },
-    {
-      "op": "hide",
-      "actor": "homura"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_trackcape",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "火星人が地球の微生物に耐えられず死んだと説明する。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "この出来事から目をそらさない。火星人が地球の微生物に耐えられず死んだと説明する。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「人間中心の思い込みが崩れた時、知性と連帯を失わないこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "その一歩が、失われたものを無駄にしない道になる。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "火星人が地球の微生物に耐えられず死んだと説明する。――この出来事を忘れず、次の判断へつなげよう。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_trackcape"
-    },
-    {
-      "op": "show",
-      "actor": "mei",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_trackcape",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "語り手が帰宅し、死んだと思っていた妻と再会する。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "この出来事から目をそらさない。語り手が帰宅し、死んだと思っていた妻と再会する。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "その選び方に、その人が何を大切にするかが現れる。",
-      "eyes": "normal"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「人間中心の思い込みが崩れた時、知性と連帯を失わないこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "ならば、言葉と行いが離れないように見届けよう。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "語り手が帰宅し、死んだと思っていた妻と再会する。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "hide",
-      "actor": "mei"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_trackcape"
-    },
-    {
-      "op": "bg",
-      "src": "silence"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "勝利ではなく免疫の偶然で人類は残る。語り手は妻と再会し、日常の脆さを忘れない。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "長い旅の果てに残ったのは、「人間中心の思い込みが崩れた時、知性と連帯を失わないこと」という問いでした。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "答えは一つではありません。けれど、登場人物たちの選択は消えません。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "『宇宙戦争 ―赤い草の下で―』、これにて終幕。ありがとうございました。"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "end"
+  {
+   "role": "語り手の妻",
+   "actor": "mei",
+   "costume": "default"
+  },
+  {
+   "role": "砲兵",
+   "actor": "kurogane",
+   "costume": "default"
+  },
+  {
+   "role": "牧師",
+   "actor": "extra_elder",
+   "costume": "default"
+  },
+  {
+   "role": "天文学者",
+   "actor": "shiro",
+   "costume": "default"
+  },
+  {
+   "role": "火星人の機械役",
+   "actor": "homura",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "common": "bg/horsell-common-2048x1152.png",
+  "heat": "bg/martian-heat-ray-2048x1152.png",
+  "flight": "bg/london-flight-2048x1152.png",
+  "ruin": "bg/red-weed-ruins-2048x1152.png",
+  "silence": "bg/dead-tripods-dawn-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "夜空の赤い星から、何かがやってくる。百三十年前、そう考えて震えた人々がいました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "H・G・ウェルズの『宇宙戦争』。火星からの侵略者と、逃げ惑う人間の物語です。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "大砲も軍隊も歯が立たない相手。それを最後に倒したのは、目に見えないほど小さなものでした。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "足元に気をつけて。赤い草が、あちこちに生えています。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "common",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "common"
+  },
+  {
+   "op": "nar",
+   "text": "イギリス、ウォキング近くの荒れ地。夜空から落ちてきた巨大な円筒のまわりに、人だかりができている。"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_trackcape",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "火星の表面で、ガスの噴き出す光を、毎晩観測していた。これは、その光の正体かもしれない。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "隕石じゃないのか。円筒の端が、ゆっくり回っている……ねじのふたみたいに。"
+  },
+  {
+   "op": "nar",
+   "text": "ふたが外れた。中から、灰色の、濡れた革のような生き物が、ずるりと顔を出した。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "目が……大きな二つの目が、こっちを見ている。触手が、動いている。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "皆さん、下がって！　白い旗を振って、近づいてみよう。こちらに敵意がないことを示すんだ。"
+  },
+  {
+   "op": "nar",
+   "text": "白い旗を持った代表たちが近づいた瞬間、円筒から目に見えない光が放たれ、彼らは一瞬で炎に包まれた。"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_trackcape"
+  },
+  {
+   "op": "bg",
+   "src": "heat",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "heat"
+  },
+  {
+   "op": "nar",
+   "text": "燃える郊外。松林が燃え、家々の屋根から火の粉が舞う。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_trackcape",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "熱線だ。目に見えない熱の光が、触れたものを全部燃やしていく。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "お隣の家も、教会の塔も……。あなた、逃げましょう。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "君は、レザーヘッドの親戚の家へ。馬車を借りてきた。僕は、借りた馬車を返しに戻らないと。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "こんなときに、律儀すぎるわ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "約束は約束だ。すぐに追いかける。"
+  },
+  {
+   "op": "nar",
+   "text": "夜。三本足の巨大な機械が、林の上に立ち上がった。家ほどの高さの脚で、ゆっくりと歩いてくる。"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "show",
+   "actor": "homura",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "ウラー……。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "三脚の機械が、歩いている！　あれに、円筒の中の生き物が乗っているんだ。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_trackcape"
+  },
+  {
+   "op": "hide",
+   "actor": "homura"
+  },
+  {
+   "op": "bg",
+   "src": "flight",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "flight"
+  },
+  {
+   "op": "nar",
+   "text": "避難する人々の荷車で埋まった街道。赤い夕空の下、黒い煙が地面を這ってくる。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_trackcape",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "俺は砲兵だ。砲台は全部やられた。大砲を撃つ前に、熱線で焼かれちまった。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "黒い煙が来たら、高い所へ逃げろ。あれは毒だ。吸ったら、一分ももたない。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "ロンドンは、どうなってる。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "何百万人が、一斉に北へ逃げてる。人間が、人間を踏みつけて。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "川辺で、軍艦が一隻、三脚の機械に体当たりし、一台を倒した。だが軍艦も、熱線に焼かれて沈んだ。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_trackcape"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "show",
+   "actor": "rei_trackcape",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "廃屋に、恐怖に震える牧師と二人で隠れた。すぐ外に、新しい円筒が落ちてきた。"
+  },
+  {
+   "op": "nar",
+   "text": "牧師は神の怒りだと泣き叫び、声を抑えることができなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "静かに！　声を出したら、見つかる。"
+  },
+  {
+   "op": "nar",
+   "text": "壁の割れ目から、火星人たちが、捕らえた人間を……。語り手は、目を閉じた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "十五日間、壁の割れ目から、見たくないものを見続けた。牧師は、外の触手に連れていかれた。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_trackcape"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "bg",
+   "src": "ruin",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "ruin"
+  },
+  {
+   "op": "nar",
+   "text": "赤い草に覆われた廃墟。火星から運ばれてきた植物が、川も道も覆いつくしている。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_trackcape",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "外に出た。世界が、赤い。火星の草が、地球の草を押しのけて、伸びている。"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "おお、生きてたか。……俺は、地下に町を作る計画を立ててる。下水道で暮らして、火星人に隠れて生き延びる。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "いつか、火星人の機械を盗んで、反撃するんだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "何人で。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……今のところは、俺一人。穴は、まだ一メートルしか掘ってねえ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "夢は大きいけれど、手が動いていない。僕は、ロンドンへ行く。妻を探しに。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_trackcape"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "bg",
+   "src": "silence",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "silence"
+  },
+  {
+   "op": "nar",
+   "text": "朝のロンドン。動かない三脚の機械が、街のあちこちに立ち尽くしている。カラスが、その上を舞っている。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_trackcape",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "静かだ。熱線の音も、黒い煙もない。「ウラー」という鳴き声が、だんだん弱まって、途切れた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "機械の中で、火星人たちが……死んでいる。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "細菌だ。この地球の、目に見えない細菌。人間は何千年もかけて体を慣らしてきたが、彼らには抵抗する力がなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "大砲でも、軍艦でも倒せなかった相手を、いちばん小さなものが倒したのか。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "語り手は、まず妻を探しに走る",
+     "jump": "m_wife"
+    },
+    {
+     "text": "語り手は、天文学者と火星人の機械を調べる",
+     "jump": "m_study"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_wife"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "妻を……妻を、探さなければ。"
+  },
+  {
+   "op": "jump",
+   "to": "m_home"
+  },
+  {
+   "op": "label",
+   "id": "m_study"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "彼らは、火星から来た。地球が冷えたら、次は金星へ行くのかもしれない。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "研究は、あなたに任せます。僕には、確かめなければならない人がいる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "label",
+   "id": "m_home"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_trackcape"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "show",
+   "actor": "rei_trackcape",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "焼け残ったウォキングの家。窓辺に、ひとりの女性が立っていた。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "その足音……あなたなのね。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "生きていた。……生きていてくれた。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "レザーヘッドも危なかった。でも、親戚と一緒に、ずっと北へ逃げていたの。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "世界は、一度終わりかけた。でも、こうして、また同じ窓から朝日を見ている。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_trackcape"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "『宇宙戦争』、これにて幕です。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "火星人を倒したのは、軍隊ではなく、目に見えない細菌でした。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "人間は、強い者のつもりでいて、じつは小さな生き物たちと一緒に生き延びてきたのです。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "今夜、赤い星が見えたら、地面の下の、小さな仲間たちのことも思い出してください。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

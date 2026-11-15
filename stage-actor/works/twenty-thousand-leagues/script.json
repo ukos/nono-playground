@@ -1,1219 +1,606 @@
 {
-  "meta": {
-    "id": "twenty-thousand-leagues",
-    "title": "海底二万里 ―ノーチラスの窓―",
-    "original": "Jules Verne, Vingt mille lieues sous les mers（原典著作権消滅）",
-    "adaptation": "moderate",
-    "format": "v3",
-    "minutes": 46,
-    "synopsis": "アロナクス教授、コンセイユ、銛打ちネッドは怪物追跡中に海へ落ち、ノーチラス号へ収容される。紅海、海底の森、南極、沈没船を巡る一方、ネモの過去と戦争への憎しみが明らかになる。",
-    "note": "Jules Verneのフランス語原典を基礎に新規脚本化。Project Gutenberg掲載のパブリックドメイン原典を確認し、現代日本語訳は使用していない。"
+ "meta": {
+  "id": "twenty-thousand-leagues",
+  "title": "海底二万里 ―ノーチラスの窓―",
+  "original": "Jules Verne, Vingt mille lieues sous les mers（原典著作権消滅）",
+  "adaptation": "moderate",
+  "format": "v3",
+  "minutes": 21,
+  "synopsis": "アロナクス教授、コンセイユ、銛打ちネッドは怪物追跡中に海へ落ち、ノーチラス号へ収容される。紅海、海底の森、南極、沈没船を巡る一方、ネモの過去と戦争への憎しみが明らかになる。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "狂言回し",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "アロナクス教授",
-      "actor": "rei_trackcape",
-      "costume": "default"
-    },
-    {
-      "role": "ネモ船長",
-      "actor": "extra_wizard",
-      "costume": "default"
-    },
-    {
-      "role": "コンセイユ",
-      "actor": "shiro",
-      "costume": "default"
-    },
-    {
-      "role": "ネッド・ランド",
-      "actor": "gou",
-      "costume": "default"
-    },
-    {
-      "role": "ノーチラス副長",
-      "actor": "kurogane",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "frigate": "bg/abraham-lincoln-deck-2048x1152.png",
-    "salon": "bg/nautilus-salon-2048x1152.png",
-    "forest": "bg/undersea-forest-2048x1152.png",
-    "polar": "bg/nautilus-antarctic-2048x1152.png",
-    "maelstrom": "bg/nautilus-maelstrom-2048x1152.png"
+  {
+   "role": "アロナクス教授",
+   "actor": "rei_trackcape",
+   "costume": "default"
   },
-  "steps": [
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『海底二万里 ―ノーチラスの窓―』。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "海の怪物を追った博物学者たちは、潜水艦ノーチラス号とネモ船長の秘密へ捕らわれます。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "今夜の核は「科学への驚異と、自由を求める心が復讐へ変わる危うさ」。急がず、長い物語としてお届けします。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "それでは開幕。役者たちの声と、場面の移ろいをお楽しみください。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "frigate",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "frigate"
-    },
-    {
-      "op": "nar",
-      "text": "海の怪物を追う軍艦甲板"
-    },
-    {
-      "op": "show",
-      "actor": "rei_trackcape",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "gou",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "海の怪物調査へ参加し、巨大な発光体を軍艦から追う。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "この出来事から目をそらさない。海の怪物調査へ参加し、巨大な発光体を軍艦から追う。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "その選び方に、その人が何を大切にするかが現れる。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「科学への驚異と、自由を求める心が復讐へ変わる危うさ」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "ならば、言葉と行いが離れないように見届けよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "海の怪物調査へ参加し、巨大な発光体を軍艦から追う。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_trackcape"
-    },
-    {
-      "op": "hide",
-      "actor": "gou"
-    },
-    {
-      "op": "show",
-      "actor": "gou",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_trackcape",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "衝突で海へ落ち、金属製の怪物の甲板へたどり着く。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "この出来事から目をそらさない。衝突で海へ落ち、金属製の怪物の甲板へたどり着く。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「科学への驚異と、自由を求める心が復讐へ変わる危うさ」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "その一歩が、失われたものを無駄にしない道になる。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "衝突で海へ落ち、金属製の怪物の甲板へたどり着く。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "gou"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_trackcape"
-    },
-    {
-      "op": "show",
-      "actor": "extra_wizard",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_trackcape",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "ネモがノーチラス号と海中での独立を明かす。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "この出来事から目をそらさない。ネモがノーチラス号と海中での独立を明かす。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "その選び方に、その人が何を大切にするかが現れる。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「科学への驚異と、自由を求める心が復讐へ変わる危うさ」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "ならば、言葉と行いが離れないように見届けよう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "ネモがノーチラス号と海中での独立を明かす。――この出来事を忘れず、次の判断へつなげよう。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_wizard"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_trackcape"
-    },
-    {
-      "op": "bg",
-      "src": "salon",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "salon"
-    },
-    {
-      "op": "nar",
-      "text": "大窓と海図のあるノーチラス号大広間"
-    },
-    {
-      "op": "show",
-      "actor": "rei_trackcape",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_wizard",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "教授が科学的驚異に心を奪われつつ、囚人の立場を問う。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "この出来事から目をそらさない。教授が科学的驚異に心を奪われつつ、囚人の立場を問う。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「科学への驚異と、自由を求める心が復讐へ変わる危うさ」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "その一歩が、失われたものを無駄にしない道になる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "教授が科学的驚異に心を奪われつつ、囚人の立場を問う。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_trackcape"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_wizard"
-    },
-    {
-      "op": "show",
-      "actor": "gou",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "ネッドが陸へ戻る権利を主張し、脱出の機会を探す。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "この出来事から目をそらさない。ネッドが陸へ戻る権利を主張し、脱出の機会を探す。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "その選び方に、その人が何を大切にするかが現れる。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「科学への驚異と、自由を求める心が復讐へ変わる危うさ」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "ならば、言葉と行いが離れないように見届けよう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "ネッドが陸へ戻る権利を主張し、脱出の機会を探す。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "gou"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "show",
-      "actor": "rei_trackcape",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "大窓から海中の生物と光の世界を観察する。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "この出来事から目をそらさない。大窓から海中の生物と光の世界を観察する。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「科学への驚異と、自由を求める心が復讐へ変わる危うさ」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "その一歩が、失われたものを無駄にしない道になる。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "大窓から海中の生物と光の世界を観察する。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_trackcape"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "bg",
-      "src": "forest",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "forest"
-    },
-    {
-      "op": "nar",
-      "text": "潜水服で歩く海底の森"
-    },
-    {
-      "op": "show",
-      "actor": "extra_wizard",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "海底の森を歩き、海の資源だけで暮らす方法を示す。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "この出来事から目をそらさない。海底の森を歩き、海の資源だけで暮らす方法を示す。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "その選び方に、その人が何を大切にするかが現れる。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「科学への驚異と、自由を求める心が復讐へ変わる危うさ」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "ならば、言葉と行いが離れないように見届けよう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "海底の森を歩き、海の資源だけで暮らす方法を示す。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "surprise",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_wizard"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "show",
-      "actor": "gou",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_wizard",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "巨大なイカの襲撃で乗組員と共に戦う。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "この出来事から目をそらさない。巨大なイカの襲撃で乗組員と共に戦う。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。",
-      "eyes": "normal"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「科学への驚異と、自由を求める心が復讐へ変わる危うさ」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "その一歩が、失われたものを無駄にしない道になる。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "巨大なイカの襲撃で乗組員と共に戦う。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "gou"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_wizard"
-    },
-    {
-      "op": "show",
-      "actor": "extra_wizard",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_trackcape",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "海底墓地で死者を珊瑚の下へ葬る理由を語る。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "この出来事から目をそらさない。海底墓地で死者を珊瑚の下へ葬る理由を語る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "その選び方に、その人が何を大切にするかが現れる。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「科学への驚異と、自由を求める心が復讐へ変わる危うさ」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "ならば、言葉と行いが離れないように見届けよう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "海底墓地で死者を珊瑚の下へ葬る理由を語る。――この出来事を忘れず、次の判断へつなげよう。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_wizard"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_trackcape"
-    },
-    {
-      "op": "bg",
-      "src": "polar",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "polar"
-    },
-    {
-      "op": "nar",
-      "text": "氷に閉ざされた南極海中"
-    },
-    {
-      "op": "show",
-      "actor": "rei_trackcape",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_wizard",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "沈没船の財宝が抑圧された人々へ送られると知る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "この出来事から目をそらさない。沈没船の財宝が抑圧された人々へ送られると知る。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「科学への驚異と、自由を求める心が復讐へ変わる危うさ」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "その一歩が、失われたものを無駄にしない道になる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "沈没船の財宝が抑圧された人々へ送られると知る。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_trackcape"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_wizard"
-    },
-    {
-      "op": "show",
-      "actor": "extra_wizard",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "gou",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "南極点へ到達する誇りと氷に閉じ込められる危機が重なる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "この出来事から目をそらさない。南極点へ到達する誇りと氷に閉じ込められる危機が重なる。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "その選び方に、その人が何を大切にするかが現れる。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「科学への驚異と、自由を求める心が復讐へ変わる危うさ」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "ならば、言葉と行いが離れないように見届けよう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "南極点へ到達する誇りと氷に閉じ込められる危機が重なる。――この出来事を忘れず、次の判断へつなげよう。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_wizard"
-    },
-    {
-      "op": "hide",
-      "actor": "gou"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_trackcape",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "空気が尽きる前に氷を割り、全員で呼吸を分け合う。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "この出来事から目をそらさない。空気が尽きる前に氷を割り、全員で呼吸を分け合う。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「科学への驚異と、自由を求める心が復讐へ変わる危うさ」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "その一歩が、失われたものを無駄にしない道になる。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "空気が尽きる前に氷を割り、全員で呼吸を分け合う。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_trackcape"
-    },
-    {
-      "op": "bg",
-      "src": "maelstrom",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "maelstrom"
-    },
-    {
-      "op": "nar",
-      "text": "大渦へ傾くノーチラス号"
-    },
-    {
-      "op": "show",
-      "actor": "rei_trackcape",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_wizard",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "ネモが敵国の軍艦を沈めようとし、教授が復讐を諫める。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "この出来事から目をそらさない。ネモが敵国の軍艦を沈めようとし、教授が復讐を諫める。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "その選び方に、その人が何を大切にするかが現れる。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「科学への驚異と、自由を求める心が復讐へ変わる危うさ」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "ならば、言葉と行いが離れないように見届けよう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "ネモが敵国の軍艦を沈めようとし、教授が復讐を諫める。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_trackcape"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_wizard"
-    },
-    {
-      "op": "show",
-      "actor": "gou",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_trackcape",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "三人が小艇で脱出する計画を実行する。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "この出来事から目をそらさない。三人が小艇で脱出する計画を実行する。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「科学への驚異と、自由を求める心が復讐へ変わる危うさ」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "その一歩が、失われたものを無駄にしない道になる。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "三人が小艇で脱出する計画を実行する。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "gou"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_trackcape"
-    },
-    {
-      "op": "show",
-      "actor": "extra_wizard",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_trackcape",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "大渦がノーチラスを包み、ネモの運命を海へ残す。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "この出来事から目をそらさない。大渦がノーチラスを包み、ネモの運命を海へ残す。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "その選び方に、その人が何を大切にするかが現れる。",
-      "eyes": "normal"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「科学への驚異と、自由を求める心が復讐へ変わる危うさ」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "ならば、言葉と行いが離れないように見届けよう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "大渦がノーチラスを包み、ネモの運命を海へ残す。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_wizard"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_trackcape"
-    },
-    {
-      "op": "bg",
-      "src": "maelstrom"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "大渦へ入る直前、三人は脱出する。海の自由とネモの行方は、答えのない深みに残った。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "長い旅の果てに残ったのは、「科学への驚異と、自由を求める心が復讐へ変わる危うさ」という問いでした。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "答えは一つではありません。けれど、登場人物たちの選択は消えません。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "『海底二万里 ―ノーチラスの窓―』、これにて終幕。ありがとうございました。"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "end"
+  {
+   "role": "ネモ船長",
+   "actor": "extra_wizard",
+   "costume": "default"
+  },
+  {
+   "role": "コンセイユ",
+   "actor": "shiro",
+   "costume": "default"
+  },
+  {
+   "role": "ネッド・ランド",
+   "actor": "gou",
+   "costume": "default"
+  },
+  {
+   "role": "ノーチラス副長",
+   "actor": "kurogane",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "frigate": "bg/abraham-lincoln-deck-2048x1152.png",
+  "salon": "bg/nautilus-salon-2048x1152.png",
+  "forest": "bg/undersea-forest-2048x1152.png",
+  "polar": "bg/nautilus-antarctic-2048x1152.png",
+  "maelstrom": "bg/nautilus-maelstrom-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "海の底を、窓のついた船で旅できたら。魚の群れも、沈んだ町も、ガラス越しに見られます。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ジュール・ヴェルヌの『海底二万里』。二万里は、地球を二周するほどの距離です。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "案内役は、陸を捨てた謎の船長ネモ。乗り込んだのは、学者と助手と、短気な銛打ちの三人。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "窓の外の海と、船長の胸の奥の海。両方を、のぞいてみてください。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "frigate",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "frigate"
+  },
+  {
+   "op": "nar",
+   "text": "一八六七年。アメリカの軍艦の甲板。世界中の船を襲う、光る巨大な「海の怪物」を追っている。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_trackcape",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "私はパリ博物館のアロナクス。怪物の正体は、巨大な一角鯨だと考えている。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "鯨なら、このネッド・ランドの銛が逃がさねえ。カナダ一の銛打ちだ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "先生、波が光っています。……来ました！"
+  },
+  {
+   "op": "nar",
+   "text": "怪物が体当たりし、軍艦が大きく傾いた。教授と助手と銛打ちは、夜の海へ投げ出された。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "鯨の背中が……硬い！　鉄だ！　これは、生き物じゃない！",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_trackcape"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "bg",
+   "src": "salon",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "salon"
+  },
+  {
+   "op": "nar",
+   "text": "大きな窓と海図のある広間。壁にはオルガン、棚には一万二千冊の本。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_trackcape",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "ようこそ、ノーチラス号へ。私は船長のネモ。名前は、ラテン語で「誰でもない」という意味だ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "助けていただき感謝します。……ここは、潜水艦なのですか。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "電気で動き、海から何でも手に入れる船だ。食べ物も、服も、インクも。陸には、もう用がない。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "君たちは、二度とこの船を降りられない。秘密を、陸へ持ち帰らせるわけにはいかないからね。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "二度と……。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "だが、この船の窓から見える海は、どんな博物館にもない。それで我慢してくれたまえ。"
+  },
+  {
+   "op": "nar",
+   "text": "窓のシャッターが開いた。電気の光の中に、色とりどりの魚の群れが、渦のように泳いでいた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "……美しい。分類しきれない。一生かけても、足りない。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "先生、感心してる場合じゃねえ。俺たちは捕虜だぞ。いつか必ず、逃げ出す。",
+   "eyes": "anger"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "先生がご覧になりたいなら、私はどこまでもお供します。分類も手伝います。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_trackcape"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "bg",
+   "src": "forest",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "forest"
+  },
+  {
+   "op": "nar",
+   "text": "海底の森。潜水服を着た一行が、ゆらめく海藻の間を歩いている。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_trackcape",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "海の底に、森がある。木のように見えるのは、海藻と珊瑚だ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "陸の上の森は、人間が切り倒し、焼き払う。海の森は、誰のものでもない。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "先生、あちらに、真珠貝が。人の頭ほどもあります。"
+  },
+  {
+   "op": "nar",
+   "text": "一行は、珊瑚の墓地で、事故で亡くなった船員を葬った。ネモは長いあいだ、祈りを捧げていた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "船長は、陸を憎んでいるのに、仲間の死には、こんなにも深く頭を垂れる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_trackcape"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "bg",
+   "src": "polar",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "polar"
+  },
+  {
+   "op": "nar",
+   "text": "南極の海の下。氷の天井に囲まれ、ノーチラス号が閉じ込められている。空気が減っていく。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_trackcape",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "息が……苦しい。空気が、もう二日も替わってねえ。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "先生、私の分の空気を吸ってください。私は、まだ平気です。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "コンセイユ……。",
+   "eyes": "crying"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "熱湯を噴き出して、氷を溶かす。全員、つるはしを持て。私も行く。"
+  },
+  {
+   "op": "nar",
+   "text": "乗組員たちは交代で氷を掘り、ノーチラス号は、最後に船体ごと体当たりして、氷を割った。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "空だ。新しい空気だ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_trackcape"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
+   "op": "nar",
+   "text": "その後、ノーチラス号は、ある国の軍艦と出会った。ネモは、その軍艦に体当たりして沈めた。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_trackcape",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "船長、あの船には、何百人もの人が乗っていた。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "あの国は、私の祖国を奪い、私の妻と子を殺した。私は、決して忘れない。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "私は、誰でもない者になった。ただ、海の底から、正義を……いや、復讐を行う者に。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "ネモはオルガンの前に座り、悲しい曲を、夜通し弾き続けた。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_trackcape"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
+   "op": "bg",
+   "src": "maelstrom",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "maelstrom"
+  },
+  {
+   "op": "nar",
+   "text": "ノルウェーの沖。巨大な渦潮メールストロームが、ノーチラス号を引き込もうとしている。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_trackcape",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "今だ！　船の上の小舟で逃げる！　この渦のどさくさなら、追ってこられねえ。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "アロナクスは、ネモに別れを告げてから行く",
+     "jump": "m_bye"
+    },
+    {
+     "text": "アロナクスは、黙って小舟に乗り込む",
+     "jump": "m_go"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_bye"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "船長……。あなたの海は、本当に美しかった。それだけは、伝えたかった。"
+  },
+  {
+   "op": "nar",
+   "text": "船の奥から、オルガンの音だけが聞こえた。「全能の神よ、もう十分だ」と、ネモがつぶやく声がした。"
+  },
+  {
+   "op": "jump",
+   "to": "m_after"
+  },
+  {
+   "op": "label",
+   "id": "m_go"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "振り返らない。振り返ったら、たぶん、ここに残りたくなる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "label",
+   "id": "m_after"
+  },
+  {
+   "op": "nar",
+   "text": "小舟は渦に呑まれ、三人は気を失った。目を覚ますと、そこはノルウェーの漁師の小屋だった。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_trackcape"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "show",
+   "actor": "rei_trackcape",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "ノーチラス号は、渦に沈んだのか。それとも、まだ海の底を走っているのか。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "先生の記録は、ちゃんと残っています。十か月で、二万里。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "いつか、あの船長が、復讐をやめて、ただ海の美しさのために潜っていてくれたら、と願う。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_trackcape"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "『海底二万里』、これにて幕です。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "窓の外には、誰も見たことのない海の景色。船長の胸の中には、誰にも言えない怒りがありました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "美しいものを見る目と、憎しみを忘れられない心。それが、ひとりの人の中に同居していました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "水族館の大きな水槽の前に立ったら、ノーチラス号の窓を思い出してください。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

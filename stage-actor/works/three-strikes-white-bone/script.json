@@ -1,1231 +1,699 @@
 {
-  "meta": {
-    "id": "three-strikes-white-bone",
-    "title": "西遊記・三打白骨精 ―見える姿と信じる心―",
-    "original": "『西遊記』三打白骨精（古典・著作権消滅）",
-    "adaptation": "moderate",
-    "format": "v3",
-    "minutes": 38,
-    "synopsis": "白骨精は娘、老婆、老人へ化けて三蔵を狙う。悟空は三度とも正体を見抜くが、三蔵には人を殺したように見え、破門される。悟空不在を突かれた三蔵が捕らわれ、八戒が花果山へ助けを求める。",
-    "note": "本脚本は翻案であり、原作・現代訳の文章の転載ではない。セリフはすべて本上演版の書き下ろし。"
+ "meta": {
+  "id": "three-strikes-white-bone",
+  "title": "西遊記・三打白骨精 ―見える姿と信じる心―",
+  "original": "『西遊記』三打白骨精（古典・著作権消滅）",
+  "adaptation": "moderate",
+  "format": "v3",
+  "minutes": 19,
+  "synopsis": "白骨精は娘、老婆、老人へ化けて三蔵を狙う。悟空は三度とも正体を見抜くが、三蔵には人を殺したように見え、破門される。悟空不在を突かれた三蔵が捕らわれ、八戒が花果山へ助けを求める。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "狂言回し",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "孫悟空",
-      "actor": "sasuke",
-      "costume": "default"
-    },
-    {
-      "role": "三蔵法師",
-      "actor": "rei_kimono",
-      "costume": "default"
-    },
-    {
-      "role": "猪八戒",
-      "actor": "gou",
-      "costume": "default"
-    },
-    {
-      "role": "沙悟浄",
-      "actor": "kurogane",
-      "costume": "default"
-    },
-    {
-      "role": "白骨精",
-      "actor": "extra_skeleton",
-      "costume": "default"
-    },
-    {
-      "role": "村娘の姿",
-      "actor": "mei",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "mountain": "bg/white-bone-mountain-2048x1152.png",
-    "grove": "bg/meal-grove-2048x1152.png",
-    "illusion": "bg/three-disguises-path-2048x1152.png",
-    "cave": "bg/white-bone-cave-2048x1152.png",
-    "return": "bg/pilgrims-reunion-road-2048x1152.png"
+  {
+   "role": "孫悟空",
+   "actor": "sasuke",
+   "costume": "default"
   },
-  "steps": [
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『西遊記・三打白骨精 ―見える姿と信じる心―』。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "三度姿を変える妖怪を悟空だけが見抜く。正しさを証明できない孤独が一行を引き裂きます。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "今夜の核は「姿だけで善悪を判断する危うさと仲間の信頼」。急がず、長い物語としてお届けします。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "それでは開幕。役者たちの声と、場面の移ろいをお楽しみください。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "mountain",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "mountain"
-    },
-    {
-      "op": "nar",
-      "text": "白骨が隠れる険しい山道"
-    },
-    {
-      "op": "show",
-      "actor": "rei_kimono",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "sasuke",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "三蔵が空腹を訴え、悟空が食べ物を探しに飛ぶ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "ここで局面が変わる。三蔵が空腹を訴え、悟空が食べ物を探しに飛ぶ。"
-    },
-    {
-      "op": "say",
-      "actor": "sasuke",
-      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "勝敗は刃が触れる前に始まっている。人の心を読め。"
-    },
-    {
-      "op": "say",
-      "actor": "sasuke",
-      "text": "威勢だけでは国は動かない。時、地、人の三つを量るのだ。",
-      "eyes": "joy"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「姿だけで善悪を判断する危うさと仲間の信頼」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "ならば一歩退いて全体を見る。退くことも策のうちだ。"
-    },
-    {
-      "op": "say",
-      "actor": "sasuke",
-      "text": "策は民を生かしてこそ価値がある。その筋を外すな。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "三蔵が空腹を訴え、悟空が食べ物を探しに飛ぶ。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "sasuke",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_kimono"
-    },
-    {
-      "op": "hide",
-      "actor": "sasuke"
-    },
-    {
-      "op": "show",
-      "actor": "mei",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "gou",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "白骨精が弁当を持つ村娘へ化け、一行へ近づく。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "ここで局面が変わる。白骨精が弁当を持つ村娘へ化け、一行へ近づく。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "忠義とは命令に従うだけではない。誤りを諫める勇気でもある。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "しかし諫める者にも覚悟が要る。言葉の後を引き受けられるか。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「姿だけで善悪を判断する危うさと仲間の信頼」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "引き受ける。黙って失うより、語って道を残したい。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "その覚悟なら聞こう。次の手を、具体的に示せ。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "白骨精が弁当を持つ村娘へ化け、一行へ近づく。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "mei"
-    },
-    {
-      "op": "hide",
-      "actor": "gou"
-    },
-    {
-      "op": "show",
-      "actor": "sasuke",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_skeleton",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "戻った悟空が妖気を見抜き、変化の体を打つ。"
-    },
-    {
-      "op": "say",
-      "actor": "sasuke",
-      "text": "ここで局面が変わる。戻った悟空が妖気を見抜き、変化の体を打つ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "sasuke",
-      "text": "勝敗は刃が触れる前に始まっている。人の心を読め。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "威勢だけでは国は動かない。時、地、人の三つを量るのだ。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「姿だけで善悪を判断する危うさと仲間の信頼」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "sasuke",
-      "text": "ならば一歩退いて全体を見る。退くことも策のうちだ。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "策は民を生かしてこそ価値がある。その筋を外すな。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "sasuke",
-      "text": "戻った悟空が妖気を見抜き、変化の体を打つ。――この出来事を忘れず、次の判断へつなげよう。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "sasuke"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_skeleton"
-    },
-    {
-      "op": "bg",
-      "src": "grove",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "grove"
-    },
-    {
-      "op": "nar",
-      "text": "一行が休む林の空地"
-    },
-    {
-      "op": "show",
-      "actor": "rei_kimono",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "sasuke",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "三蔵には娘が倒れたように見え、悟空を厳しく責める。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "ここで局面が変わる。三蔵には娘が倒れたように見え、悟空を厳しく責める。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "sasuke",
-      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "忠義とは命令に従うだけではない。誤りを諫める勇気でもある。"
-    },
-    {
-      "op": "say",
-      "actor": "sasuke",
-      "text": "しかし諫める者にも覚悟が要る。言葉の後を引き受けられるか。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「姿だけで善悪を判断する危うさと仲間の信頼」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "引き受ける。黙って失うより、語って道を残したい。"
-    },
-    {
-      "op": "say",
-      "actor": "sasuke",
-      "text": "その覚悟なら聞こう。次の手を、具体的に示せ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "三蔵には娘が倒れたように見え、悟空を厳しく責める。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "sasuke",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_kimono"
-    },
-    {
-      "op": "hide",
-      "actor": "sasuke"
-    },
-    {
-      "op": "show",
-      "actor": "extra_skeleton",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_kimono",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "妖怪が魂だけで逃げ、次は娘の母という老婆へ化ける。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "ここで局面が変わる。妖怪が魂だけで逃げ、次は娘の母という老婆へ化ける。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "勝敗は刃が触れる前に始まっている。人の心を読め。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "威勢だけでは国は動かない。時、地、人の三つを量るのだ。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「姿だけで善悪を判断する危うさと仲間の信頼」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "ならば一歩退いて全体を見る。退くことも策のうちだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "策は民を生かしてこそ価値がある。その筋を外すな。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "妖怪が魂だけで逃げ、次は娘の母という老婆へ化ける。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_skeleton"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_kimono"
-    },
-    {
-      "op": "show",
-      "actor": "sasuke",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "gou",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "悟空が二度目の変化を見抜くが、八戒が嫉妬だと疑う。"
-    },
-    {
-      "op": "say",
-      "actor": "sasuke",
-      "text": "ここで局面が変わる。悟空が二度目の変化を見抜くが、八戒が嫉妬だと疑う。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。"
-    },
-    {
-      "op": "say",
-      "actor": "sasuke",
-      "text": "忠義とは命令に従うだけではない。誤りを諫める勇気でもある。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "しかし諫める者にも覚悟が要る。言葉の後を引き受けられるか。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「姿だけで善悪を判断する危うさと仲間の信頼」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "sasuke",
-      "text": "引き受ける。黙って失うより、語って道を残したい。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "その覚悟なら聞こう。次の手を、具体的に示せ。"
-    },
-    {
-      "op": "say",
-      "actor": "sasuke",
-      "text": "悟空が二度目の変化を見抜くが、八戒が嫉妬だと疑う。――この出来事を忘れず、次の判断へつなげよう。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "sasuke"
-    },
-    {
-      "op": "hide",
-      "actor": "gou"
-    },
-    {
-      "op": "bg",
-      "src": "illusion",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "illusion"
-    },
-    {
-      "op": "nar",
-      "text": "三つの変化が現れる山路"
-    },
-    {
-      "op": "show",
-      "actor": "rei_kimono",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "sasuke",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "三蔵が緊箍児を唱え、悟空の頭痛が激しくなる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "ここで局面が変わる。三蔵が緊箍児を唱え、悟空の頭痛が激しくなる。"
-    },
-    {
-      "op": "say",
-      "actor": "sasuke",
-      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "勝敗は刃が触れる前に始まっている。人の心を読め。"
-    },
-    {
-      "op": "say",
-      "actor": "sasuke",
-      "text": "威勢だけでは国は動かない。時、地、人の三つを量るのだ。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「姿だけで善悪を判断する危うさと仲間の信頼」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "ならば一歩退いて全体を見る。退くことも策のうちだ。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "sasuke",
-      "text": "策は民を生かしてこそ価値がある。その筋を外すな。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "三蔵が緊箍児を唱え、悟空の頭痛が激しくなる。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "sasuke",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_kimono"
-    },
-    {
-      "op": "hide",
-      "actor": "sasuke"
-    },
-    {
-      "op": "show",
-      "actor": "extra_skeleton",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "妖怪が老人へ化け、妻と娘を探す父を演じる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "ここで局面が変わる。妖怪が老人へ化け、妻と娘を探す父を演じる。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "忠義とは命令に従うだけではない。誤りを諫める勇気でもある。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "しかし諫める者にも覚悟が要る。言葉の後を引き受けられるか。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「姿だけで善悪を判断する危うさと仲間の信頼」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "引き受ける。黙って失うより、語って道を残したい。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "その覚悟なら聞こう。次の手を、具体的に示せ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "妖怪が老人へ化け、妻と娘を探す父を演じる。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_skeleton"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "show",
-      "actor": "sasuke",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_skeleton",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "悟空が土地神へ証人を求め、三度目に本体を倒す。"
-    },
-    {
-      "op": "say",
-      "actor": "sasuke",
-      "text": "ここで局面が変わる。悟空が土地神へ証人を求め、三度目に本体を倒す。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "sasuke",
-      "text": "勝敗は刃が触れる前に始まっている。人の心を読め。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "威勢だけでは国は動かない。時、地、人の三つを量るのだ。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「姿だけで善悪を判断する危うさと仲間の信頼」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "sasuke",
-      "text": "ならば一歩退いて全体を見る。退くことも策のうちだ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "策は民を生かしてこそ価値がある。その筋を外すな。"
-    },
-    {
-      "op": "say",
-      "actor": "sasuke",
-      "text": "悟空が土地神へ証人を求め、三度目に本体を倒す。――この出来事を忘れず、次の判断へつなげよう。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "hide",
-      "actor": "sasuke"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_skeleton"
-    },
-    {
-      "op": "bg",
-      "src": "cave",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "cave"
-    },
-    {
-      "op": "nar",
-      "text": "冷たい骨の洞窟"
-    },
-    {
-      "op": "show",
-      "actor": "rei_kimono",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "sasuke",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "三蔵がなお信じられず、悟空へ破門の書を渡す。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "ここで局面が変わる。三蔵がなお信じられず、悟空へ破門の書を渡す。"
-    },
-    {
-      "op": "say",
-      "actor": "sasuke",
-      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "忠義とは命令に従うだけではない。誤りを諫める勇気でもある。"
-    },
-    {
-      "op": "say",
-      "actor": "sasuke",
-      "text": "しかし諫める者にも覚悟が要る。言葉の後を引き受けられるか。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「姿だけで善悪を判断する危うさと仲間の信頼」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "引き受ける。黙って失うより、語って道を残したい。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "sasuke",
-      "text": "その覚悟なら聞こう。次の手を、具体的に示せ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "三蔵がなお信じられず、悟空へ破門の書を渡す。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "sasuke",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_kimono"
-    },
-    {
-      "op": "hide",
-      "actor": "sasuke"
-    },
-    {
-      "op": "show",
-      "actor": "sasuke",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_kimono",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "悟空が去り際に一度だけ師へ礼をし、花果山へ戻る。"
-    },
-    {
-      "op": "say",
-      "actor": "sasuke",
-      "text": "ここで局面が変わる。悟空が去り際に一度だけ師へ礼をし、花果山へ戻る。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "sasuke",
-      "text": "勝敗は刃が触れる前に始まっている。人の心を読め。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "威勢だけでは国は動かない。時、地、人の三つを量るのだ。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「姿だけで善悪を判断する危うさと仲間の信頼」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "sasuke",
-      "text": "ならば一歩退いて全体を見る。退くことも策のうちだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "策は民を生かしてこそ価値がある。その筋を外すな。"
-    },
-    {
-      "op": "say",
-      "actor": "sasuke",
-      "text": "悟空が去り際に一度だけ師へ礼をし、花果山へ戻る。――この出来事を忘れず、次の判断へつなげよう。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "hide",
-      "actor": "sasuke"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_kimono"
-    },
-    {
-      "op": "show",
-      "actor": "extra_skeleton",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_kimono",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "悟空不在を確かめた妖怪の残党が三蔵を洞窟へさらう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "ここで局面が変わる。悟空不在を確かめた妖怪の残党が三蔵を洞窟へさらう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "忠義とは命令に従うだけではない。誤りを諫める勇気でもある。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "しかし諫める者にも覚悟が要る。言葉の後を引き受けられるか。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「姿だけで善悪を判断する危うさと仲間の信頼」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "引き受ける。黙って失うより、語って道を残したい。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "その覚悟なら聞こう。次の手を、具体的に示せ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "悟空不在を確かめた妖怪の残党が三蔵を洞窟へさらう。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_skeleton"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_kimono"
-    },
-    {
-      "op": "bg",
-      "src": "return",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "return"
-    },
-    {
-      "op": "nar",
-      "text": "再び四人が歩く夕方の道"
-    },
-    {
-      "op": "show",
-      "actor": "gou",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "sasuke",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "八戒が花果山を訪れ、強がりながら助けを求める。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "ここで局面が変わる。八戒が花果山を訪れ、強がりながら助けを求める。"
-    },
-    {
-      "op": "say",
-      "actor": "sasuke",
-      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "勝敗は刃が触れる前に始まっている。人の心を読め。"
-    },
-    {
-      "op": "say",
-      "actor": "sasuke",
-      "text": "威勢だけでは国は動かない。時、地、人の三つを量るのだ。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「姿だけで善悪を判断する危うさと仲間の信頼」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "ならば一歩退いて全体を見る。退くことも策のうちだ。"
-    },
-    {
-      "op": "say",
-      "actor": "sasuke",
-      "text": "策は民を生かしてこそ価値がある。その筋を外すな。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "八戒が花果山を訪れ、強がりながら助けを求める。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "sasuke",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "gou"
-    },
-    {
-      "op": "hide",
-      "actor": "sasuke"
-    },
-    {
-      "op": "show",
-      "actor": "sasuke",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_skeleton",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "悟空が洞窟へ戻り、本体の骨を示して妖怪を倒す。"
-    },
-    {
-      "op": "say",
-      "actor": "sasuke",
-      "text": "ここで局面が変わる。悟空が洞窟へ戻り、本体の骨を示して妖怪を倒す。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "sasuke",
-      "text": "忠義とは命令に従うだけではない。誤りを諫める勇気でもある。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "しかし諫める者にも覚悟が要る。言葉の後を引き受けられるか。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「姿だけで善悪を判断する危うさと仲間の信頼」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "sasuke",
-      "text": "引き受ける。黙って失うより、語って道を残したい。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "その覚悟なら聞こう。次の手を、具体的に示せ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "sasuke",
-      "text": "悟空が洞窟へ戻り、本体の骨を示して妖怪を倒す。――この出来事を忘れず、次の判断へつなげよう。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "sasuke"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_skeleton"
-    },
-    {
-      "op": "show",
-      "actor": "rei_kimono",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "sasuke",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "三蔵が自分の見方の限界を認め、悟空と旅をやり直す。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "ここで局面が変わる。三蔵が自分の見方の限界を認め、悟空と旅をやり直す。"
-    },
-    {
-      "op": "say",
-      "actor": "sasuke",
-      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "勝敗は刃が触れる前に始まっている。人の心を読め。"
-    },
-    {
-      "op": "say",
-      "actor": "sasuke",
-      "text": "威勢だけでは国は動かない。時、地、人の三つを量るのだ。",
-      "eyes": "normal"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「姿だけで善悪を判断する危うさと仲間の信頼」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "ならば一歩退いて全体を見る。退くことも策のうちだ。"
-    },
-    {
-      "op": "say",
-      "actor": "sasuke",
-      "text": "策は民を生かしてこそ価値がある。その筋を外すな。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "三蔵が自分の見方の限界を認め、悟空と旅をやり直す。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "sasuke",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_kimono"
-    },
-    {
-      "op": "hide",
-      "actor": "sasuke"
-    },
-    {
-      "op": "bg",
-      "src": "return"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "悟空は戻って白骨精を倒し、師弟は見る力と信じる責任を学び直して旅を続けた。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "長い旅の果てに残ったのは、「姿だけで善悪を判断する危うさと仲間の信頼」という問いでした。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "答えは一つではありません。けれど、登場人物たちの選択は消えません。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "『西遊記・三打白骨精 ―見える姿と信じる心―』、これにて終幕。ありがとうございました。"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "end"
+  {
+   "role": "三蔵法師",
+   "actor": "rei_kimono",
+   "costume": "default"
+  },
+  {
+   "role": "猪八戒",
+   "actor": "gou",
+   "costume": "default"
+  },
+  {
+   "role": "沙悟浄",
+   "actor": "kurogane",
+   "costume": "default"
+  },
+  {
+   "role": "白骨精",
+   "actor": "extra_skeleton",
+   "costume": "default"
+  },
+  {
+   "role": "村娘の姿",
+   "actor": "mei",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "mountain": "bg/white-bone-mountain-2048x1152.png",
+  "grove": "bg/meal-grove-2048x1152.png",
+  "illusion": "bg/three-disguises-path-2048x1152.png",
+  "cave": "bg/white-bone-cave-2048x1152.png",
+  "return": "bg/pilgrims-reunion-road-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "目に見える姿と、本当の姿。どちらを信じますか。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "『西遊記』より「三打白骨精」。白い骨の妖怪が、三度姿を変えて、三蔵法師を狙います。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "悟空は三度とも見抜きます。でも、お師匠さまには、悟空が人を殺したようにしか見えません。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "信じてもらえない弟子と、信じられない師匠。山道の旅の、苦い一幕です。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "mountain",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "mountain"
+  },
+  {
+   "op": "nar",
+   "text": "険しい山道。岩陰に、白い骨が積み重なっている。その骨が、かたかたと鳴った。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_skeleton",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "白骨の妖怪は、三蔵法師の肉を食べれば不老長寿になれるという噂を聞いていた。"
+  },
+  {
+   "op": "nar",
+   "text": "ただし、あの猿がそばにいるうちは、手が出せない。妖怪は、骨を鳴らして笑った。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_skeleton"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "悟空、腹が減りました。この山には、人家もないのですか。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "南の山に、桃が実っているのが見えた。ひとっ飛び、取ってきます。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "お師匠さま、俺が戻るまで、この輪の中から出ないでください。輪の中なら、妖怪は入れない。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "兄貴は心配性だなあ。俺と沙悟浄がいれば十分だよ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "bg",
+   "src": "grove",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "grove"
+  },
+  {
+   "op": "nar",
+   "text": "林の空地。一行が休んでいると、籠を提げた若い娘が、にこにこと近づいてきた。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "お坊さま、お腹がすいていらっしゃるでしょう。夫のために作ったお粥と、蒸しまんじゅうです。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "なんとありがたい。ですが、ご主人の分を、いただくわけには。",
+   "eyes": "joy"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "お師匠さま、遠慮は体に毒ですよ。せっかくの好意だ、いただきましょう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "nar",
+   "text": "その時、雲の上から悟空が戻ってきた。娘の顔を見るなり、如意棒を振り上げた。"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "妖怪め、化けたって、俺の目はごまかせない！",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "悟空、やめなさい！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "如意棒が振り下ろされた。娘は倒れ、魂は煙のように抜けて逃げた。籠の中は、ウジ虫とカエルに変わった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "なんということを。何の罪もない娘を……。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "籠の中を見てください。粥じゃない、虫です。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "目の錯覚です。お前が殺したのです。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "bg",
+   "src": "illusion",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "illusion"
+  },
+  {
+   "op": "nar",
+   "text": "山路。今度は、杖をついた老婆が、泣きながら歩いてきた。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_skeleton",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "白骨の妖怪は、まだ消えていなかった。抜け殻を残して、別の姿に化けたのだ。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_skeleton"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "ほら、娘の母親が、娘を探しに来た。お前のせいで……。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "あれも同じ妖怪です。娘と同じ匂いがする。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "悟空、手を出してはなりません。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……出しますよ。お師匠さまが食われるよりはましだ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "二度目の如意棒が、老婆を打ち倒した。抜け殻だけが、道に転がった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "二人も殺した！　悟空、お前を破門する！",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "兄貴、さすがにやりすぎだぜ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "八戒、お前、妖怪の匂いが分からないのか。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "俺の鼻は、まんじゅうの匂いしか分からない。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "nar",
+   "text": "三度目。今度は、白い髭の老人が、娘と妻を探して現れた。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "お師匠さま、あれも妖怪です。今度こそ、ちゃんと見てください。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "見えています。年老いた父親が、泣いている姿が。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "悟空は、妖怪を打つ前に山の神を呼ぶ",
+     "jump": "m_witness"
+    },
+    {
+     "text": "悟空は、何も言わずに打つ",
+     "jump": "m_strike"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_witness"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "山の神、土地の神、出てこい！　俺が打つところを、ちゃんと見届けろ！"
+  },
+  {
+   "op": "nar",
+   "text": "悟空は神々を呼んで逃げ道をふさぎ、三度目の如意棒で、妖怪の正体を打ち砕いた。"
+  },
+  {
+   "op": "jump",
+   "to": "m_bones"
+  },
+  {
+   "op": "label",
+   "id": "m_strike"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "信じてもらえなくても、いい。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "悟空は、黙って三度目の如意棒を振り下ろした。"
+  },
+  {
+   "op": "label",
+   "id": "m_bones"
+  },
+  {
+   "op": "nar",
+   "text": "老人の姿が崩れ、そこに残ったのは、白い骨の山だった。背骨に、「白骨夫人」と刻まれていた。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "見てください。骨です。これが、あの娘とお婆さんとお爺さんの正体です。"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "骨に名前を書いて、化けたように見せかけたんだよ。兄貴の得意な手品さ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "悟空、もう沢山です。お前とは、ここでお別れです。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "お師匠さま……。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "悟空は、師匠に三度頭を下げると、雲に乗って、花果山へ帰っていった。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "bg",
+   "src": "cave",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "cave"
+  },
+  {
+   "op": "nar",
+   "text": "冷たい骨の洞窟。縛られた三蔵法師のまわりで、妖怪の手下たちが鍋を煮ている。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "悟空の言ったことは、本当だったのか……。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "見える姿ばかりを信じて、見えないものを見ている弟子を、追い払ってしまった。"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "八戒が、花果山へ悟空の兄貴を呼びに行きました。……来てくれるでしょうか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "来なくても、文句は言えません。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "兄貴、頼む！　お師匠さまが捕まった！"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "俺は破門された身だ。お前と沙悟浄で何とかしろ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "お師匠さまが、最後に、悟空の名前を呼んでたんだ。悪かったって。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……ちっ。桃をあと一つ食べてから行こうと思ってたのに。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "筋斗雲、全速力！",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "bg",
+   "src": "return",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "return"
+  },
+  {
+   "op": "nar",
+   "text": "夕方の道。四人がまた、一列になって歩いている。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "悟空。あなたの目に見えていたものを、私は見ようとしなかった。許してください。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "お師匠さまの目は、優しすぎるんですよ。俺の目は、意地悪にできてる。だから、二人でちょうどいい。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "俺は相変わらず、食い物の匂いにしか鼻が利かないけどな。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "それなら、まんじゅうが出てきたら、まず悟空に見てもらいましょう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "任せてください。本物だったら、半分ずつ。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "「三打白骨精」、これにて幕です。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "目に見える姿は、娘、老婆、老人。でも本当の姿は、白い骨の妖怪でした。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "信じてもらえなくても、悟空はお師匠さまを守り続けました。そしてお師匠さまは、最後に謝りました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "見えているものと、本当のこと。迷ったら、自分を一番よく見ている人の声も、聞いてみてください。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

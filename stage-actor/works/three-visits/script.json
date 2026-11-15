@@ -1,1226 +1,596 @@
 {
-  "meta": {
-    "id": "three-visits",
-    "title": "三国志演義・三顧の礼 ―雪中の草廬―",
-    "original": "『三国志演義』三顧の礼（古典・著作権消滅）",
-    "adaptation": "moderate",
-    "format": "v3",
-    "minutes": 36,
-    "synopsis": "徐庶の推薦を受けた劉備は、関羽・張飛と諸葛亮の草廬を三度訪ねる。留守と雪、同行者の苛立ちを越え、眠る孔明を待つ。孔明は天下三分の計を示し、民を救う志に応えて山を下りる。",
-    "note": "本脚本は翻案であり、原作・現代訳の文章の転載ではない。セリフはすべて本上演版の書き下ろし。"
+ "meta": {
+  "id": "three-visits",
+  "title": "三国志演義・三顧の礼 ―雪中の草廬―",
+  "original": "『三国志演義』三顧の礼（古典・著作権消滅）",
+  "adaptation": "moderate",
+  "format": "v3",
+  "minutes": 19,
+  "synopsis": "徐庶の推薦を受けた劉備は、関羽・張飛と諸葛亮の草廬を三度訪ねる。留守と雪、同行者の苛立ちを越え、眠る孔明を待つ。孔明は天下三分の計を示し、民を救う志に応えて山を下りる。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "狂言回し",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "諸葛亮",
-      "actor": "rei_kimono",
-      "costume": "default"
-    },
-    {
-      "role": "劉備",
-      "actor": "yui",
-      "costume": "default"
-    },
-    {
-      "role": "関羽",
-      "actor": "kurogane",
-      "costume": "default"
-    },
-    {
-      "role": "張飛",
-      "actor": "gou",
-      "costume": "default"
-    },
-    {
-      "role": "童子",
-      "actor": "shiro",
-      "costume": "default"
-    },
-    {
-      "role": "徐庶",
-      "actor": "extra_craftsman",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "camp": "bg/liu-bei-camp-2048x1152.png",
-    "path": "bg/longzhong-path-2048x1152.png",
-    "cottage": "bg/empty-cottage-2048x1152.png",
-    "snow": "bg/snowy-third-visit-2048x1152.png",
-    "map": "bg/longzhong-plan-room-2048x1152.png"
+  {
+   "role": "諸葛亮",
+   "actor": "rei_kimono",
+   "costume": "default"
   },
-  "steps": [
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『三国志演義・三顧の礼 ―雪中の草廬―』。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "英雄が名もない草廬へ三度通い、若い賢者へ天下の未来を託します。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "今夜の核は「人を得るには地位でなく誠意と忍耐が要ること」。急がず、長い物語としてお届けします。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "それでは開幕。役者たちの声と、場面の移ろいをお楽しみください。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "camp",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "camp"
-    },
-    {
-      "op": "nar",
-      "text": "流浪軍の質素な陣営"
-    },
-    {
-      "op": "show",
-      "actor": "extra_craftsman",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "徐庶が臥龍と呼ばれる諸葛亮を訪ねるよう勧める。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "ここで局面が変わる。徐庶が臥龍と呼ばれる諸葛亮を訪ねるよう勧める。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "勝敗は刃が触れる前に始まっている。人の心を読め。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "威勢だけでは国は動かない。時、地、人の三つを量るのだ。",
-      "eyes": "joy"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「人を得るには地位でなく誠意と忍耐が要ること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "ならば一歩退いて全体を見る。退くことも策のうちだ。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "策は民を生かしてこそ価値がある。その筋を外すな。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "徐庶が臥龍と呼ばれる諸葛亮を訪ねるよう勧める。――この出来事を忘れず、次の判断へつなげよう。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_craftsman"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "gou",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "劉備が身分に関係なく自ら草廬へ赴くと決める。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "ここで局面が変わる。劉備が身分に関係なく自ら草廬へ赴くと決める。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "忠義とは命令に従うだけではない。誤りを諫める勇気でもある。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "しかし諫める者にも覚悟が要る。言葉の後を引き受けられるか。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「人を得るには地位でなく誠意と忍耐が要ること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "引き受ける。黙って失うより、語って道を残したい。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "その覚悟なら聞こう。次の手を、具体的に示せ。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "劉備が身分に関係なく自ら草廬へ赴くと決める。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "hide",
-      "actor": "gou"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "最初の訪問で童子から孔明は留守だと告げられる。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "ここで局面が変わる。最初の訪問で童子から孔明は留守だと告げられる。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "勝敗は刃が触れる前に始まっている。人の心を読め。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "威勢だけでは国は動かない。時、地、人の三つを量るのだ。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「人を得るには地位でなく誠意と忍耐が要ること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "ならば一歩退いて全体を見る。退くことも策のうちだ。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "策は民を生かしてこそ価値がある。その筋を外すな。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "最初の訪問で童子から孔明は留守だと告げられる。――この出来事を忘れず、次の判断へつなげよう。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "bg",
-      "src": "path",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "path"
-    },
-    {
-      "op": "nar",
-      "text": "隆中へ続く冬の山道"
-    },
-    {
-      "op": "show",
-      "actor": "gou",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "張飛が使者を出せばよいと怒り、関羽が忍耐を説く。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "ここで局面が変わる。張飛が使者を出せばよいと怒り、関羽が忍耐を説く。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "忠義とは命令に従うだけではない。誤りを諫める勇気でもある。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "しかし諫める者にも覚悟が要る。言葉の後を引き受けられるか。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「人を得るには地位でなく誠意と忍耐が要ること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "引き受ける。黙って失うより、語って道を残したい。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "その覚悟なら聞こう。次の手を、具体的に示せ。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "張飛が使者を出せばよいと怒り、関羽が忍耐を説く。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "gou"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_kimono",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "劉備が手紙を残し、志を言葉だけで飾らず再訪を誓う。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "ここで局面が変わる。劉備が手紙を残し、志を言葉だけで飾らず再訪を誓う。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "勝敗は刃が触れる前に始まっている。人の心を読め。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "威勢だけでは国は動かない。時、地、人の三つを量るのだ。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「人を得るには地位でなく誠意と忍耐が要ること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "ならば一歩退いて全体を見る。退くことも策のうちだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "策は民を生かしてこそ価値がある。その筋を外すな。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "劉備が手紙を残し、志を言葉だけで飾らず再訪を誓う。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_kimono"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "二度目の訪問も行き違いとなり、親族の老人から日常を聞く。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "ここで局面が変わる。二度目の訪問も行き違いとなり、親族の老人から日常を聞く。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "忠義とは命令に従うだけではない。誤りを諫める勇気でもある。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "しかし諫める者にも覚悟が要る。言葉の後を引き受けられるか。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「人を得るには地位でなく誠意と忍耐が要ること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "引き受ける。黙って失うより、語って道を残したい。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "その覚悟なら聞こう。次の手を、具体的に示せ。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "二度目の訪問も行き違いとなり、親族の老人から日常を聞く。――この出来事を忘れず、次の判断へつなげよう。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "bg",
-      "src": "cottage",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "cottage"
-    },
-    {
-      "op": "nar",
-      "text": "留守の草廬と竹垣"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "gou",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "雪と寒さの中でも主君が歩く理由を二人が議論する。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "ここで局面が変わる。雪と寒さの中でも主君が歩く理由を二人が議論する。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "勝敗は刃が触れる前に始まっている。人の心を読め。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "威勢だけでは国は動かない。時、地、人の三つを量るのだ。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「人を得るには地位でなく誠意と忍耐が要ること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "ならば一歩退いて全体を見る。退くことも策のうちだ。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "策は民を生かしてこそ価値がある。その筋を外すな。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "雪と寒さの中でも主君が歩く理由を二人が議論する。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "hide",
-      "actor": "gou"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "gou",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "三度目、張飛が草廬を焼いて起こすと言い、劉備が制する。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "ここで局面が変わる。三度目、張飛が草廬を焼いて起こすと言い、劉備が制する。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "忠義とは命令に従うだけではない。誤りを諫める勇気でもある。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "しかし諫める者にも覚悟が要る。言葉の後を引き受けられるか。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「人を得るには地位でなく誠意と忍耐が要ること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "引き受ける。黙って失うより、語って道を残したい。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "その覚悟なら聞こう。次の手を、具体的に示せ。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "三度目、張飛が草廬を焼いて起こすと言い、劉備が制する。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "anger",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "hide",
-      "actor": "gou"
-    },
-    {
-      "op": "show",
-      "actor": "rei_kimono",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "昼寝から目覚めた孔明が三度待った客の志を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "ここで局面が変わる。昼寝から目覚めた孔明が三度待った客の志を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "勝敗は刃が触れる前に始まっている。人の心を読め。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "威勢だけでは国は動かない。時、地、人の三つを量るのだ。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「人を得るには地位でなく誠意と忍耐が要ること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "ならば一歩退いて全体を見る。退くことも策のうちだ。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "策は民を生かしてこそ価値がある。その筋を外すな。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "昼寝から目覚めた孔明が三度待った客の志を確かめる。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_kimono"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "bg",
-      "src": "snow",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "snow"
-    },
-    {
-      "op": "nar",
-      "text": "雪中の三度目の訪問"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_kimono",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "劉備が自分の名誉でなく、戦乱に苦しむ民の道を求める。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "ここで局面が変わる。劉備が自分の名誉でなく、戦乱に苦しむ民の道を求める。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "忠義とは命令に従うだけではない。誤りを諫める勇気でもある。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "しかし諫める者にも覚悟が要る。言葉の後を引き受けられるか。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「人を得るには地位でなく誠意と忍耐が要ること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "引き受ける。黙って失うより、語って道を残したい。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "その覚悟なら聞こう。次の手を、具体的に示せ。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "劉備が自分の名誉でなく、戦乱に苦しむ民の道を求める。――この出来事を忘れず、次の判断へつなげよう。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_kimono"
-    },
-    {
-      "op": "show",
-      "actor": "rei_kimono",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "孔明が曹操、孫権、荊州・益州を軸に天下三分を説く。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "ここで局面が変わる。孔明が曹操、孫権、荊州・益州を軸に天下三分を説く。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "勝敗は刃が触れる前に始まっている。人の心を読め。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "威勢だけでは国は動かない。時、地、人の三つを量るのだ。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「人を得るには地位でなく誠意と忍耐が要ること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "ならば一歩退いて全体を見る。退くことも策のうちだ。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "策は民を生かしてこそ価値がある。その筋を外すな。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "孔明が曹操、孫権、荊州・益州を軸に天下三分を説く。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_kimono"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_kimono",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "関羽が計略だけでなく実行の困難を問い、孔明が順序を示す。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "ここで局面が変わる。関羽が計略だけでなく実行の困難を問い、孔明が順序を示す。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "忠義とは命令に従うだけではない。誤りを諫める勇気でもある。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "しかし諫める者にも覚悟が要る。言葉の後を引き受けられるか。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「人を得るには地位でなく誠意と忍耐が要ること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "引き受ける。黙って失うより、語って道を残したい。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "その覚悟なら聞こう。次の手を、具体的に示せ。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "関羽が計略だけでなく実行の困難を問い、孔明が順序を示す。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_kimono"
-    },
-    {
-      "op": "bg",
-      "src": "map",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "map"
-    },
-    {
-      "op": "nar",
-      "text": "地図を広げる草廬の一室"
-    },
-    {
-      "op": "show",
-      "actor": "gou",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_kimono",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "張飛が若さを疑うが、具体的な兵站の読みで認識を改める。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "ここで局面が変わる。張飛が若さを疑うが、具体的な兵站の読みで認識を改める。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "勝敗は刃が触れる前に始まっている。人の心を読め。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "威勢だけでは国は動かない。時、地、人の三つを量るのだ。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「人を得るには地位でなく誠意と忍耐が要ること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "ならば一歩退いて全体を見る。退くことも策のうちだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "策は民を生かしてこそ価値がある。その筋を外すな。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "張飛が若さを疑うが、具体的な兵站の読みで認識を改める。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "gou"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_kimono"
-    },
-    {
-      "op": "show",
-      "actor": "rei_kimono",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "孔明が草廬を出ることは天下の争いへ身を置く決断だと語る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "ここで局面が変わる。孔明が草廬を出ることは天下の争いへ身を置く決断だと語る。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "忠義とは命令に従うだけではない。誤りを諫める勇気でもある。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "しかし諫める者にも覚悟が要る。言葉の後を引き受けられるか。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「人を得るには地位でなく誠意と忍耐が要ること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "引き受ける。黙って失うより、語って道を残したい。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "その覚悟なら聞こう。次の手を、具体的に示せ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "孔明が草廬を出ることは天下の争いへ身を置く決断だと語る。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_kimono"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_kimono",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "劉備が主従より水と魚の関係として共に進むと約束する。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "ここで局面が変わる。劉備が主従より水と魚の関係として共に進むと約束する。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "目先の勝ちだけでなく、その後に誰が生きるかを考えよう。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "勝敗は刃が触れる前に始まっている。人の心を読め。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "威勢だけでは国は動かない。時、地、人の三つを量るのだ。",
-      "eyes": "normal"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「人を得るには地位でなく誠意と忍耐が要ること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "ならば一歩退いて全体を見る。退くことも策のうちだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "策は民を生かしてこそ価値がある。その筋を外すな。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "劉備が主従より水と魚の関係として共に進むと約束する。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_kimono"
-    },
-    {
-      "op": "bg",
-      "src": "map"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "劉備は孔明を師として迎える。三度の訪問は、才能を所有するのでなく志を共有する出発となった。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "長い旅の果てに残ったのは、「人を得るには地位でなく誠意と忍耐が要ること」という問いでした。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "答えは一つではありません。けれど、登場人物たちの選択は消えません。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "『三国志演義・三顧の礼 ―雪中の草廬―』、これにて終幕。ありがとうございました。"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "end"
+  {
+   "role": "劉備",
+   "actor": "yui",
+   "costume": "default"
+  },
+  {
+   "role": "関羽",
+   "actor": "kurogane",
+   "costume": "default"
+  },
+  {
+   "role": "張飛",
+   "actor": "gou",
+   "costume": "default"
+  },
+  {
+   "role": "童子",
+   "actor": "shiro",
+   "costume": "default"
+  },
+  {
+   "role": "徐庶",
+   "actor": "extra_craftsman",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "camp": "bg/liu-bei-camp-2048x1152.png",
+  "path": "bg/longzhong-path-2048x1152.png",
+  "cottage": "bg/empty-cottage-2048x1152.png",
+  "snow": "bg/snowy-third-visit-2048x1152.png",
+  "map": "bg/longzhong-plan-room-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "会いたい人に、三度会いに行って、二度会えなかったら。三度目、あなたは行きますか。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "『三国志演義』より「三顧の礼」。のちに蜀の皇帝となる劉備が、ひとりの若者を三度訪ねる話です。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "若者の名は諸葛亮、字は孔明。草ぶきの小屋に住み、自分を「臥龍」、寝ている龍に例えていました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "待つことも礼のうち。雪の中の三度目まで、どうぞお付き合いください。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "camp",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "camp"
+  },
+  {
+   "op": "nar",
+   "text": "新野の陣営。質素な幕舎。劉備は、去りゆく軍師の徐庶を見送っている。"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_craftsman",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "母が曹操に捕らえられました。行かねばなりません。殿に仕えられず、申し訳ない。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "母上を大事にされよ。あなたの去ったあと、私の陣は、灯を失ったようになる。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "最後に一つ。隆中に、諸葛孔明という者がおります。臥龍と呼ばれる男です。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "私など、彼に比べれば、駄馬が麒麟の隣に立つようなもの。殿が自ら訪ねなければ、出てこないでしょう。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "自ら……。分かった。必ず、会いに行こう。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_craftsman"
+  },
+  {
+   "op": "bg",
+   "src": "path",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "path"
+  },
+  {
+   "op": "nar",
+   "text": "隆中へ続く冬の山道。劉備、関羽、張飛の三人が、馬を進めている。"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "兄者、たかが田舎の書生に、なぜ大将の兄者が会いに行くんです。呼びつければいい。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "呼んで来る人なら、臥龍とは呼ばれまい。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "古の聖王も、賢者を訪ねるには、自ら足を運んだと申します。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "二人とも本の読みすぎだ。俺は腹が減った。",
+   "eyes": "fun"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "bg",
+   "src": "cottage",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "cottage"
+  },
+  {
+   "op": "nar",
+   "text": "竹垣に囲まれた草廬。戸口から、小さな童子が顔を出した。"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "漢の左将軍、宜城亭侯、豫州の牧、劉備玄徳が、先生にお目にかかりに参った。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "そんなに長い名前、覚えられません。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……劉備が来た、とだけ伝えてくれればいい。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "先生は、今朝早く、どこかへお出かけになりました。いつ戻るかは、分かりません。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "そうか。……では、また来ると伝えておくれ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "nar",
+   "text": "数日後、二度目の訪問。今度は、孔明の弟が、兄は友人と遊山に出たと告げた。"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "二度も留守だと？　居留守に決まってる。兄者を馬鹿にしてるんだ！",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "手紙を置いていこう。私が、どれほど先生に会いたいかを書いて。"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "bg",
+   "src": "snow",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "snow"
+  },
+  {
+   "op": "nar",
+   "text": "雪の日。三度目の訪問。今度は、童子が「先生は、いらっしゃいます」と答えた。"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "でも、昼寝をしておられます。起こしましょうか。"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "いや、起こさなくていい。お目覚めになるまで、ここで待とう。"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "この雪の中で、昼寝が終わるまで待つ？　兄者、俺が裏へ回って、家に火をつけてやる！",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "翼徳、無礼を言うな。",
+   "eyes": "anger"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "劉備は、張飛を叱って外で待たせる",
+     "jump": "m_scold"
+    },
+    {
+     "text": "劉備は、張飛の雪を払ってなだめる",
+     "jump": "m_calm"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_scold"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "お前は門の外で待っていなさい。先生の眠りを、お前の声で破らせるわけにはいかない。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "……へい。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "jump",
+   "to": "m_wake"
+  },
+  {
+   "op": "label",
+   "id": "m_calm"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "寒かろう。肩の雪を払ってやる。……あと少しだけ、つき合ってくれ。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "兄者がそこまで言うなら。……くしゅん。",
+   "eyes": "closed"
+  },
+  {
+   "op": "label",
+   "id": "m_wake"
+  },
+  {
+   "op": "nar",
+   "text": "一刻ほどして、奥から、歌うような寝言が聞こえた。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "大いなる夢を、誰が先に覚えるか。生涯を、私は自ら知る。……おや、お客さまですか。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "劉備玄徳です。三度目に、ようやくお目にかかれました。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "雪の中を、お待たせしてしまった。どうぞ、中へ。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "bg",
+   "src": "map",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "map"
+  },
+  {
+   "op": "nar",
+   "text": "草廬の一室。孔明が、壁に大きな地図を広げている。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "漢の天下は乱れ、民は苦しんでいます。私は力が足りず、何度も負けて、こうして流浪している。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "それでも、民を救う道を、先生に教えていただきたい。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "北の曹操は、百万の兵と、天子を握っております。今は、正面から争ってはなりません。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "東の孫権は、三代にわたって江東を治め、民も懐いております。味方にすべきで、敵にしてはなりません。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "将軍が取るべきは、荊州と益州。西と南の土地を拠り所にして、力を蓄えるのです。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "天下を三つに分け、鼎の足のように立つ。それから、時を待って、北へ。これを天下三分の計と申します。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……霧が晴れて、青い空を見たような気がします。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "ですが、私は田畑を耕す身。世の中に出るつもりは、ございません。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "先生が出てくださらなければ、天下の民は、どうなるのですか。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "劉備の涙が袖を濡らした。孔明はしばらく黙って、それから、静かに頭を下げた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "将軍がそれほどまでに民を思われるなら、この身を、犬馬の労としてお使いください。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "兄者が泣いて、あの昼寝の先生が山を下りた。……兄者の涙は、俺の槍より強いな。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "水を得た魚、と殿は言っておられた。我らも、魚の泳ぎについていくとしよう。"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "「三顧の礼」、これにて幕です。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "留守、留守、そして昼寝。三度目に、ようやく出会えた二人でした。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "劉備は、急がず、怒らず、待ちました。その待つ姿が、天下の才を動かしたのです。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "大事な人に会えなかった日は、また行けばいい。三度目に、何かが変わるかもしれません。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

@@ -1,1216 +1,696 @@
 {
-  "meta": {
-    "id": "sansho-dayu",
-    "title": "山椒大夫 ―慈悲の道―",
-    "original": "森鷗外『山椒大夫』（著作権消滅）",
-    "adaptation": "moderate",
-    "format": "v3",
-    "minutes": 38,
-    "synopsis": "父と別れた安寿と厨子王は、母と共に人買いへ売られ、丹後の山椒大夫のもとで酷使される。安寿の犠牲で逃れた厨子王は国守となり、人を売買する制度を廃して母を捜す。",
-    "note": "本脚本は翻案であり、原作・現代訳の文章の転載ではない。セリフはすべて本上演版の書き下ろし。"
+ "meta": {
+  "id": "sansho-dayu",
+  "title": "山椒大夫 ―慈悲の道―",
+  "original": "森鷗外『山椒大夫』（著作権消滅）",
+  "adaptation": "moderate",
+  "format": "v3",
+  "minutes": 21,
+  "synopsis": "父と別れた安寿と厨子王は、母と共に人買いへ売られ、丹後の山椒大夫のもとで酷使される。安寿の犠牲で逃れた厨子王は国守となり、人を売買する制度を廃して母を捜す。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "狂言回し",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "安寿",
-      "actor": "rei_kimono",
-      "costume": "default"
-    },
-    {
-      "role": "厨子王",
-      "actor": "yui",
-      "costume": "default"
-    },
-    {
-      "role": "母・玉木",
-      "actor": "extra_elf",
-      "costume": "default"
-    },
-    {
-      "role": "山椒大夫",
-      "actor": "iwao",
-      "costume": "default"
-    },
-    {
-      "role": "山椒二郎",
-      "actor": "extra_craftsman",
-      "costume": "default"
-    },
-    {
-      "role": "寺の僧",
-      "actor": "extra_elder",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "road": "bg/mountain-road-2048x1152.png",
-    "shore": "bg/slave-ship-shore-2048x1152.png",
-    "manor": "bg/sansho-manor-2048x1152.png",
-    "temple": "bg/refuge-temple-2048x1152.png",
-    "sado": "bg/sado-reunion-2048x1152.png"
+  {
+   "role": "安寿",
+   "actor": "rei_kimono",
+   "costume": "default"
   },
-  "steps": [
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『山椒大夫 ―慈悲の道―』。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "引き裂かれた家族が、受け取った教えを長い歳月の後に社会の掟へ変える物語です。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "今夜の核は「慈悲を失わないこと」。急がず、長い物語としてお届けします。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "それでは開幕。役者たちの声と、場面の移ろいをお楽しみください。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "road",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "road"
-    },
-    {
-      "op": "nar",
-      "text": "筑紫から都へ向かう古代の山道、別れの雲"
-    },
-    {
-      "op": "show",
-      "actor": "rei_kimono",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "父が流罪となり、安寿と厨子王は母と都を目指す。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "父上の言葉を覚えていて。人は慈悲を失えば、人ではなくなる。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "覚えている。離れていても、あの言葉が私たちを結ぶ。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "その選び方に、その人が何を大切にするかが現れる。",
-      "eyes": "joy"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「慈悲を失わないこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "ならば、言葉と行いが離れないように見届けよう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "父が流罪となり、安寿と厨子王は母と都を目指す。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_kimono"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elf",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_kimono",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "旅の宿で女が親切を装い、一家へ近づく。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elf",
-      "text": "疲れたでしょう。舟なら道が早い、私が案内してあげます。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "ご親切はありがたい。でも、なぜ急いで舟へ乗せたがるのです。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elf",
-      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「慈悲を失わないこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elf",
-      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "その一歩が、失われたものを無駄にしない道になる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elf",
-      "text": "旅の宿で女が親切を装い、一家へ近づく。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elf"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_kimono"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elf",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "人買いは母と子を別々の舟へ押し込み、海上で引き離す。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elf",
-      "text": "安寿、厨子王！ 名を呼び続けなさい。私も呼び続けるから！"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "母上！ 波に消されても、私たちは必ず探しに行きます！",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elf",
-      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "その選び方に、その人が何を大切にするかが現れる。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「慈悲を失わないこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elf",
-      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "ならば、言葉と行いが離れないように見届けよう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elf",
-      "text": "人買いは母と子を別々の舟へ押し込み、海上で引き離す。――この出来事を忘れず、次の判断へつなげよう。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elf"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "bg",
-      "src": "shore",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "shore"
-    },
-    {
-      "op": "nar",
-      "text": "人買いの船が着く荒い日本海の浜"
-    },
-    {
-      "op": "show",
-      "actor": "iwao",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_kimono",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "姉弟は丹後の荘園へ売られ、山椒大夫の前へ出される。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "ここでは働く者が生き、逆らう者は罰を受ける。それだけだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "人を道具のように数える掟を、私は正しいとは思いません。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「慈悲を失わないこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "その一歩が、失われたものを無駄にしない道になる。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "姉弟は丹後の荘園へ売られ、山椒大夫の前へ出される。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "hide",
-      "actor": "iwao"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_kimono"
-    },
-    {
-      "op": "show",
-      "actor": "extra_craftsman",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "山椒二郎は密かに姉弟を気遣うが、公然とは父へ逆らえない。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "水を多めに置いた。今はこれしかできない。許してくれ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "小さな助けでも忘れません。いつか誰も隠れて助けずに済む世へ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "その選び方に、その人が何を大切にするかが現れる。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「慈悲を失わないこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "ならば、言葉と行いが離れないように見届けよう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "山椒二郎は密かに姉弟を気遣うが、公然とは父へ逆らえない。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_craftsman"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "show",
-      "actor": "rei_kimono",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "姉弟は母が佐渡にいるという旅人の歌を耳にする。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "あの歌は母上の声を写している。生きている、きっと佐渡に。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "ならば逃げよう。三人で名を呼び合える日まで諦めない。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「慈悲を失わないこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "その一歩が、失われたものを無駄にしない道になる。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "姉弟は母が佐渡にいるという旅人の歌を耳にする。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_kimono"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "bg",
-      "src": "manor",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "manor"
-    },
-    {
-      "op": "nar",
-      "text": "柵と作業小屋に囲まれた山椒大夫の荘園"
-    },
-    {
-      "op": "show",
-      "actor": "iwao",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "逃亡の疑いをかけられた厨子王は厳しく監視される。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "目が遠くを見ているな。逃げる者の目だ。鎖を増やせ。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "鎖で足は止められても、正しい世を望む心までは縛れません。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "その選び方に、その人が何を大切にするかが現れる。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「慈悲を失わないこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "ならば、言葉と行いが離れないように見届けよう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "逃亡の疑いをかけられた厨子王は厳しく監視される。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "iwao"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "show",
-      "actor": "rei_kimono",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "安寿は自分が囮になり、厨子王だけを先に逃がすと決める。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "あなたが生きて届けて。父上の教えを、掟に変えて。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "姉上を置いては行けない。二人で逃げる道を探そう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。",
-      "eyes": "normal"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「慈悲を失わないこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "その一歩が、失われたものを無駄にしない道になる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "安寿は自分が囮になり、厨子王だけを先に逃がすと決める。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_kimono"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "show",
-      "actor": "rei_kimono",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_craftsman",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "安寿は二郎に厨子王の逃走を黙認してほしいと頼む。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "弟が門を抜ける一刻だけ、見なかったことにしてください。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "その願いの重さを背負う。だが、あなたはどうする。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "その選び方に、その人が何を大切にするかが現れる。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「慈悲を失わないこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "ならば、言葉と行いが離れないように見届けよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "安寿は二郎に厨子王の逃走を黙認してほしいと頼む。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_kimono"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_craftsman"
-    },
-    {
-      "op": "bg",
-      "src": "temple",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "temple"
-    },
-    {
-      "op": "nar",
-      "text": "厨子王をかくまう静かな寺院"
-    },
-    {
-      "op": "show",
-      "actor": "rei_kimono",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "厨子王は姉の覚悟に押され、涙をこらえて荘園を脱出する。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "振り返らないで。あなたが進むことが、私の選んだ道です。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "必ず戻る。あなたの名を、自由になった人々の中へ残す。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「慈悲を失わないこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "その一歩が、失われたものを無駄にしない道になる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "厨子王は姉の覚悟に押され、涙をこらえて荘園を脱出する。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_kimono"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elder",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "寺へたどり着いた厨子王を僧がかくまい、都への道を教える。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "追手より先に、この門へ慈悲が着いた。中へ入りなさい。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "このご恩を私一人の救いで終わらせず、多くの人へ返します。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "その選び方に、その人が何を大切にするかが現れる。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「慈悲を失わないこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "ならば、言葉と行いが離れないように見届けよう。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "寺へたどり着いた厨子王を僧がかくまい、都への道を教える。――この出来事を忘れず、次の判断へつなげよう。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "都で身分を明かした厨子王は、父の遺品によって認められる。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "この守り本尊と記憶が、あなたの家の証になる。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "家を取り戻すだけでは足りません。奪われた人の自由を戻します。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「慈悲を失わないこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "その一歩が、失われたものを無駄にしない道になる。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "都で身分を明かした厨子王は、父の遺品によって認められる。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elder"
-    },
-    {
-      "op": "bg",
-      "src": "sado",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "sado"
-    },
-    {
-      "op": "nar",
-      "text": "風の強い佐渡の浜と粗末な小屋"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "iwao",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "丹後国守となった厨子王は、人の売買と私刑を禁じる。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "昔の小僧が、わしの荘園の掟を裁くというのか。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "私が裁くのは怨みではない。人を物にする仕組みそのものです。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "その選び方に、その人が何を大切にするかが現れる。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「慈悲を失わないこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "ならば、言葉と行いが離れないように見届けよう。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "丹後国守となった厨子王は、人の売買と私刑を禁じる。――この出来事を忘れず、次の判断へつなげよう。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "hide",
-      "actor": "iwao"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_craftsman",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "解放された人々の前で、厨子王は安寿の名を告げる。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "姉の一歩が、今日ここにいる全員の自由へつながりました。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "その名を忘れない。私も受け取った慈悲を次へ渡します。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「慈悲を失わないこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "その一歩が、失われたものを無駄にしない道になる。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "解放された人々の前で、厨子王は安寿の名を告げる。――この出来事を忘れず、次の判断へつなげよう。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_craftsman"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elf",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "佐渡の浜で厨子王は、盲いた母の歌を聞きつけ再会する。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "母上、厨子王です。遅くなりました。安寿の分まで帰りました。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elf",
-      "text": "その声を待っていた。名を呼び続ければ、海も道になるのですね。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elf",
-      "text": "その選び方に、その人が何を大切にするかが現れる。",
-      "eyes": "normal"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「慈悲を失わないこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elf",
-      "text": "ならば、言葉と行いが離れないように見届けよう。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "佐渡の浜で厨子王は、盲いた母の歌を聞きつけ再会する。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elf",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elf"
-    },
-    {
-      "op": "bg",
-      "src": "sado"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "厨子王は佐渡で盲いた母と再会し、父の言葉と安寿の願いを抱いて慈悲の政を続けた。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "長い旅の果てに残ったのは、「慈悲を失わないこと」という問いでした。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "答えは一つではありません。けれど、登場人物たちの選択は消えません。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "『山椒大夫 ―慈悲の道―』、これにて終幕。ありがとうございました。"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "end"
+  {
+   "role": "厨子王",
+   "actor": "yui",
+   "costume": "default"
+  },
+  {
+   "role": "母・玉木",
+   "actor": "extra_elf",
+   "costume": "default"
+  },
+  {
+   "role": "山椒大夫",
+   "actor": "iwao",
+   "costume": "default"
+  },
+  {
+   "role": "山椒二郎",
+   "actor": "extra_craftsman",
+   "costume": "default"
+  },
+  {
+   "role": "寺の僧",
+   "actor": "extra_elder",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "road": "bg/mountain-road-2048x1152.png",
+  "shore": "bg/slave-ship-shore-2048x1152.png",
+  "manor": "bg/sansho-manor-2048x1152.png",
+  "temple": "bg/refuge-temple-2048x1152.png",
+  "sado": "bg/sado-reunion-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "森鷗外の『山椒大夫』。安寿と厨子王という姉弟の名前は、聞いたことがあるかもしれません。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "平安の頃、遠い筑紫へ流された父を訪ねて、母と姉弟が旅に出ます。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ところが旅の途中で、家族は人買いの手に落ちてしまうのです。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "姉が弟に託したものは何だったのか。最後の再会まで、どうか見届けてください。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "road",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "road"
+  },
+  {
+   "op": "nar",
+   "text": "越後の山道。母と姉弟、それに年老いた女中が、宿もなく野宿を続けている。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elf",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "筑紫はまだ遠い。お父さまは、陸奥の国守だったのに、罪をきせられて流されたのです。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "父上の顔、よく覚えていないんだ。会ったら、分かるかな。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "私が覚えているわ。眉が太くて、笑うと目尻にしわができるの。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "これを持っていなさい、厨子王。地蔵菩薩の守り本尊。お父さまから預かったもの。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "安寿には、この守り刀を。困ったときは、二人で力を合わせるのですよ。"
+  },
+  {
+   "op": "nar",
+   "text": "親切な船乗りが声をかけてきた。陸を行くより、舟で行けば早い、と。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "舟に乗せてくださるの？　ありがたい。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elf"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "bg",
+   "src": "shore",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "shore"
+  },
+  {
+   "op": "nar",
+   "text": "荒い日本海の浜。沖で、二艘の舟が別々の方角へ漕ぎ出した。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elf",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "どうして舟を分けるの！　子どもたちを返して！",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "お母さま！",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "船乗りは人買いだった。母は佐渡へ、姉弟は丹後へ、それぞれ売られていった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "安寿恋しや、ほうやれほ。厨子王恋しや、ほうやれほ。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "お母さまの声が、波にちぎれて聞こえなくなる……。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elf"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "bg",
+   "src": "manor",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "manor"
+  },
+  {
+   "op": "nar",
+   "text": "丹後、由良の山椒大夫の屋敷。柵の中で、大勢の奴婢が働かされている。"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "わしが山椒大夫だ。銭で買った者は、銭の分だけ働いてもらう。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "姉は浜で潮を汲め。弟は山で柴を刈れ。一日の量に足りねば、食い物はない。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_craftsman",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "名前も変えてやろう。姉は忍ぶ草、弟は忘れ草。都の名など、もう要らんだろう。",
+   "eyes": "fun"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_craftsman"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "姉さん、手が血だらけだ。柴が、どうしても規定の量にならない。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "私の汲んだ潮も足りないの。浜の女の人が、そっと手伝ってくれたけれど。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "いつまで、ここにいなきゃいけないんだろう。母上は、どこにいるんだろう。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……逃げましょう。二人で。いいえ、厨子王、あなただけでも。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "何を言うの。逃げようと相談しただけで、額に焼き印を押されるって聞いた。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "その夜、二人の相談は二郎の耳に入り、二人の額に、焼けた火箸が当てられる夢を、姉弟は同時に見た。"
+  },
+  {
+   "op": "nar",
+   "text": "朝になると、地蔵菩薩の守り本尊の額に、十文字の傷がついていた。二人の額には、何の傷もなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "守り本尊が、私たちの代わりに痛みを受けてくださった。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "春。安寿は、髪を短く切り、男のなりをして山へ柴刈りに出たいと願い出た。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "今日は、私も山へ行きます。弟と一緒に。"
+  },
+  {
+   "op": "nar",
+   "text": "山の頂で、安寿は弟の手を取った。"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "厨子王、よく聞いて。この山を下りて、まっすぐ川沿いに都へ行きなさい。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "姉さんは？",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "私は後から行く。二人で逃げれば、すぐに見つかる。あなたが先。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "都で、偉いお方を頼りなさい。守り本尊を見せれば、きっと身元が分かる。そして、お母さまを探して。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "厨子王は、姉と一緒に行こうと食い下がる",
+     "jump": "m_beg"
+    },
+    {
+     "text": "厨子王は、黙ってうなずく",
+     "jump": "m_nod"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_beg"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "いやだ！　姉さんを置いていくなんて、できない！",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "私の言うことを聞いて。あなたが生きて、お母さまに会うことが、私の願いなの。",
+   "eyes": "closed"
+  },
+  {
+   "op": "jump",
+   "to": "m_part"
+  },
+  {
+   "op": "label",
+   "id": "m_nod"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……分かった。必ず、迎えに来る。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "そう。それでいいの。",
+   "eyes": "joy"
+  },
+  {
+   "op": "label",
+   "id": "m_part"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "振り返らないで。……ほら、谷の向こうへ見えなくなった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "さあ、私は沼のほうへ行こう。追っ手の目を、こちらへ引きつけるために。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "夕方、沼のほとりに、小さな藁沓が一足、きちんと揃えて置かれていた。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "bg",
+   "src": "temple",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "temple"
+  },
+  {
+   "op": "nar",
+   "text": "中山の国分寺。追っ手から逃れた厨子王を、僧がかくまっている。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "寺の僧は、厨子王を大きな皮籠に隠し、追ってきた二郎たちを門の外で追い返した。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "姉は……姉は、どうなったでしょう。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "僧は答えず、静かに手を合わせた。それが答えだった。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "姉さんは、自分の命で、僕の道を開いてくれたんだ。"
+  },
+  {
+   "op": "nar",
+   "text": "やがて厨子王は都へ上り、清水寺に籠もった。そこへ、関白師実が参詣し、少年の持つ守り本尊に目を留めた。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "これは、父が陸奥の国守だったときから、家に伝わる仏です。"
+  },
+  {
+   "op": "nar",
+   "text": "関白は、それが流された平正氏の家のものだと知り、厨子王を館に迎え、正道と名乗らせた。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "数年後。正道は、丹後の国守に任じられた。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "私は、この国で最初にひとつ、掟を作る。人を売り買いすることを、禁じる。"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "国守さま、それでは奴婢がいなくなり、わしの荘園は回りませぬ。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "働く者には、銭を払いなさい。売られた者には、自由を返しなさい。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……銭を払えば、働くのですか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "払えば、喜んで働く者もいる。払わずに鞭で働かせた日々を、私はこの額で覚えている。"
+  },
+  {
+   "op": "nar",
+   "text": "山椒大夫は奴婢を解き放ち、賃金を払って雇い直した。荘園は、かえって栄えたという。"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "姉さん。あなたの沓が揃えてあった沼に、今日、小さな尼寺を建てました。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "bg",
+   "src": "sado",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "sado"
+  },
+  {
+   "op": "nar",
+   "text": "佐渡の浜。風の強い粟畑で、目の見えない老女が、鳥を追う竿を振っている。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elf",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "安寿よ来い、ほうやれほ。厨子王よ来い、ほうやれほ。何年歌っても、波が返すだけ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "鳥も通え。舟も通え。……誰も、通ってこない。"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "その歌……。母上。母上ですか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "誰？　鳥を追うしか能のない婆に、何の用。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "厨子王です。姉さんが逃がしてくれた、厨子王です。"
+  },
+  {
+   "op": "nar",
+   "text": "正道は守り本尊を取り出し、母の額にそっと当てた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "……温かい。この形。厨子王。本当に、厨子王なのね。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "母の閉じた目に、かすかに光がさした。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "見える……ぼんやりと。立派になった、あなたの顔が。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "安寿姉さんは、来られませんでした。でも、姉さんのくれた道で、ここまで来ました。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "分かっているわ。あの子は、いつも、自分の分を誰かに分ける子だった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elf"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "『山椒大夫』、これにて幕です。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "姉は自分の命で弟の道を開き、弟はその道の先で、人を売り買いする掟を終わらせました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "受け取った慈悲を、次の誰かのための決まりに変える。それが、厨子王の答えでした。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "誰かにもらった優しさを、ひとつ、別の人に渡してみてください。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }
