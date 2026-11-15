@@ -5,9 +5,9 @@
   "original": "Jules Verne, De la Terre à la Lune / Autour de la Lune（原典著作権消滅）",
   "adaptation": "free",
   "format": "v3",
-  "minutes": 42,
+  "minutes": 19,
   "synopsis": "大砲クラブのバービケインは月へ弾丸を送る計画を発表する。ライバルのニコル、冒険家ミシェル・アルダンも搭乗し、巨大砲と客室を準備。発射後、無重力や軌道のずれに対処し、月を周回して地球へ帰る。",
-  "note": "Jules Verneのフランス語原典二作を基礎に新規脚本化。Project Gutenberg掲載原典を確認し、現代訳・映画版は使用していない。"
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
  },
  "cast": [
   {
@@ -61,25 +61,22 @@
   {
    "op": "say",
    "actor": "nono",
-   "text": "ようこそ、NONO座へ。本日の演目は『月世界旅行 ―砲弾の客室―』。",
-   "eyes": "normal"
+   "text": "宇宙ロケットがまだ影も形もなかった時代。月へ行こうと本気で考えた人たちがいました。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "戦争で余った技術を月へ向ける計画に、三人の旅人が砲弾型客室で乗り込みます。"
+   "text": "ジュール・ヴェルヌの『月世界旅行』。乗り物は、なんと大砲の弾です。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "今夜の核は「巨大計画を競争から協働へ変え、未知へ向かう責任を分かち合うこと」。急がず、長い物語としてお届けします。",
-   "mouth": "open"
+   "text": "戦争が終わって暇になった大砲づくりの名人たちが、空に向かって最後の一発を撃とうとします。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "それでは開幕。役者たちの声と、場面の移ろいをお楽しみください。",
-   "eyes": "surprise"
+   "text": "シートベルトをお締めください。発射まで、あと少しです。"
   },
   {
    "op": "hide",
@@ -96,7 +93,7 @@
   },
   {
    "op": "nar",
-   "text": "図面と大砲模型のあるクラブ会館"
+   "text": "ボルチモアの大砲クラブ。壁には大砲の図面、テーブルには葉巻の灰。会員の多くは義手や義足だ。"
   },
   {
    "op": "show",
@@ -104,60 +101,53 @@
    "pos": "left"
   },
   {
+   "op": "say",
+   "actor": "iwao",
+   "text": "南北戦争が終わって、我らの仕事はなくなった。大砲を作る理由がない。",
+   "eyes": "sorrow"
+  },
+  {
    "op": "show",
    "actor": "extra_craftsman",
    "pos": "right"
   },
   {
-   "op": "nar",
-   "text": "戦争後の大砲クラブが技術の新しい目的を探す。"
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "諸君、理由ならある。月だ。我々の大砲で、月へ砲弾を届けるのだ。"
   },
   {
    "op": "say",
    "actor": "iwao",
-   "text": "この出来事から目をそらさない。戦争後の大砲クラブが技術の新しい目的を探す。"
+   "text": "月へ？　バービケイン会長、本気か。",
+   "eyes": "surprise"
   },
   {
    "op": "say",
    "actor": "extra_craftsman",
-   "text": "苦しさの中でも、次に選べる行いを確かめよう。",
-   "eyes": "sorrow"
+   "text": "本気だ。重さと速さを正しく計算すれば、弾は地球の引力を振り切れる。"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "計算しました。秒速一万一千メートル。そのためには、長さ三百メートル近い砲身が必要です。"
   },
   {
    "op": "say",
    "actor": "iwao",
-   "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
+   "text": "三百メートル！　史上最大の大砲だ！　諸君、拍手を！",
+   "eyes": "joy",
+   "mouth": "open"
   },
   {
    "op": "say",
-   "actor": "extra_craftsman",
-   "text": "その選び方に、その人が何を大切にするかが現れる。",
-   "eyes": "joy"
-  },
-  {
-   "op": "nar",
-   "text": "言葉の余韻が残る。二人は「巨大計画を競争から協働へ変え、未知へ向かう責任を分かち合うこと」を胸に、次の局面へ進んだ。"
-  },
-  {
-   "op": "say",
-   "actor": "iwao",
-   "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_craftsman",
-   "text": "ならば、言葉と行いが離れないように見届けよう。",
-   "eyes": "anger"
-  },
-  {
-   "op": "say",
-   "actor": "iwao",
-   "text": "戦争後の大砲クラブが技術の新しい目的を探す。――この出来事を忘れず、次の判断へつなげよう。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_craftsman",
-   "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+   "actor": "shiro",
+   "text": "それから、発射は月が近い日の夜中。場所は月が真上に来る、南の土地がいいです。"
   },
   {
    "op": "hide",
@@ -168,141 +158,8 @@
    "actor": "extra_craftsman"
   },
   {
-   "op": "show",
-   "actor": "extra_craftsman",
-   "pos": "left"
-  },
-  {
-   "op": "show",
-   "actor": "shiro",
-   "pos": "right"
-  },
-  {
-   "op": "nar",
-   "text": "バービケインが月へ砲弾を送る計算を発表する。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_craftsman",
-   "text": "この出来事から目をそらさない。バービケインが月へ砲弾を送る計算を発表する。"
-  },
-  {
-   "op": "say",
-   "actor": "shiro",
-   "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_craftsman",
-   "text": "私はここで目をそらさない。痛みまで含めて覚えておく。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "say",
-   "actor": "shiro",
-   "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。"
-  },
-  {
-   "op": "nar",
-   "text": "言葉の余韻が残る。二人は「巨大計画を競争から協働へ変え、未知へ向かう責任を分かち合うこと」を胸に、次の局面へ進んだ。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_craftsman",
-   "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
-  },
-  {
-   "op": "say",
-   "actor": "shiro",
-   "text": "その一歩が、失われたものを無駄にしない道になる。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_craftsman",
-   "text": "バービケインが月へ砲弾を送る計算を発表する。――この出来事を忘れず、次の判断へつなげよう。",
-   "eyes": "sorrow",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "shiro",
-   "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-  },
-  {
-   "op": "hide",
-   "actor": "extra_craftsman"
-  },
-  {
    "op": "hide",
    "actor": "shiro"
-  },
-  {
-   "op": "show",
-   "actor": "kurogane",
-   "pos": "left"
-  },
-  {
-   "op": "show",
-   "actor": "extra_craftsman",
-   "pos": "right"
-  },
-  {
-   "op": "nar",
-   "text": "ニコルが砲身と装甲の計算へ反論し、決闘を挑む。"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "この出来事から目をそらさない。ニコルが砲身と装甲の計算へ反論し、決闘を挑む。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_craftsman",
-   "text": "苦しさの中でも、次に選べる行いを確かめよう。",
-   "eyes": "normal"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_craftsman",
-   "text": "その選び方に、その人が何を大切にするかが現れる。"
-  },
-  {
-   "op": "nar",
-   "text": "言葉の余韻が残る。二人は「巨大計画を競争から協働へ変え、未知へ向かう責任を分かち合うこと」を胸に、次の局面へ進んだ。"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_craftsman",
-   "text": "ならば、言葉と行いが離れないように見届けよう。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "ニコルが砲身と装甲の計算へ反論し、決闘を挑む。――この出来事を忘れず、次の判断へつなげよう。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_craftsman",
-   "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-  },
-  {
-   "op": "hide",
-   "actor": "kurogane"
-  },
-  {
-   "op": "hide",
-   "actor": "extra_craftsman"
   },
   {
    "op": "bg",
@@ -315,11 +172,11 @@
   },
   {
    "op": "nar",
-   "text": "巨大砲コロンビアードの建設現場"
+   "text": "フロリダの丘。地面に縦穴を掘り、そこへ鉄を流し込んで、巨大な砲身を作っている。"
   },
   {
    "op": "show",
-   "actor": "rei_rider",
+   "actor": "extra_craftsman",
    "pos": "left"
   },
   {
@@ -328,200 +185,103 @@
    "pos": "right"
   },
   {
-   "op": "nar",
-   "text": "アルダンが弾丸へ人間が乗ればよいと提案する。"
-  },
-  {
    "op": "say",
-   "actor": "rei_rider",
-   "text": "この出来事から目をそらさない。アルダンが弾丸へ人間が乗ればよいと提案する。",
+   "actor": "kurogane",
+   "text": "バービケイン、その計画は失敗する。賭けてもいい。",
    "eyes": "anger"
   },
   {
    "op": "say",
-   "actor": "kurogane",
-   "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_rider",
-   "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
+   "actor": "extra_craftsman",
+   "text": "ニコル大尉。君はいつも私の大砲を、厚い装甲で跳ね返してきた男だ。"
   },
   {
    "op": "say",
    "actor": "kurogane",
-   "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。"
+   "text": "鉄の装甲を作るのが私の仕事だ。君の砲弾は、地面から出る前に溶ける。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "いくら賭ける。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "千ドル。いや、五千ドルだ。"
   },
   {
    "op": "nar",
-   "text": "言葉の余韻が残る。二人は「巨大計画を競争から協働へ変え、未知へ向かう責任を分かち合うこと」を胸に、次の局面へ進んだ。"
+   "text": "そこへ、フランスから一通の電報が届いた。「砲弾を丸くせず、筒型にせよ。中に人を乗せよ」"
+  },
+  {
+   "op": "show",
+   "actor": "rei_rider",
+   "pos": "center"
   },
   {
    "op": "say",
    "actor": "rei_rider",
-   "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
+   "text": "電報の主は私だ！　ミシェル・アルダン、パリの冒険家！　月まで乗せてくれたまえ！",
+   "eyes": "joy",
+   "mouth": "open"
   },
   {
    "op": "say",
-   "actor": "kurogane",
-   "text": "その一歩が、失われたものを無駄にしない道になる。"
+   "actor": "extra_craftsman",
+   "text": "人が乗る？　弾の中に？",
+   "eyes": "surprise"
   },
   {
    "op": "say",
    "actor": "rei_rider",
-   "text": "アルダンが弾丸へ人間が乗ればよいと提案する。――この出来事を忘れず、次の判断へつなげよう。"
+   "text": "窓をつけて、寝床をつけて、食料を積む。一番乗りの客になりたいんだ。"
   },
   {
    "op": "say",
    "actor": "kurogane",
-   "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+   "text": "狂っている。そんなことをすれば、発射の衝撃で中の人間は潰れる。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "なら、潰れない工夫を考えよう。ニコル大尉、あなたの装甲の知恵を貸してくれないか。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……私に？",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "喧嘩している二人が、同じ弾に乗れば、きっと一番頑丈な乗り物になる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "……ニコル。賭けを変えよう。君も乗れ。失敗したら、二人そろって確かめられる。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……乗ってやる。自分の目で、君の失敗を見届けるためにな。",
+   "eyes": "closed"
   },
   {
    "op": "hide",
-   "actor": "rei_rider"
+   "actor": "extra_craftsman"
   },
   {
    "op": "hide",
    "actor": "kurogane"
   },
   {
-   "op": "show",
-   "actor": "rei_rider",
-   "pos": "left"
-  },
-  {
-   "op": "show",
-   "actor": "extra_craftsman",
-   "pos": "right"
-  },
-  {
-   "op": "nar",
-   "text": "競争者二人を同じ客室へ乗せ、協力させる。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_rider",
-   "text": "この出来事から目をそらさない。競争者二人を同じ客室へ乗せ、協力させる。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "say",
-   "actor": "extra_craftsman",
-   "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_rider",
-   "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_craftsman",
-   "text": "その選び方に、その人が何を大切にするかが現れる。"
-  },
-  {
-   "op": "nar",
-   "text": "言葉の余韻が残る。二人は「巨大計画を競争から協働へ変え、未知へ向かう責任を分かち合うこと」を胸に、次の局面へ進んだ。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_rider",
-   "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_craftsman",
-   "text": "ならば、言葉と行いが離れないように見届けよう。",
-   "eyes": "joy"
-  },
-  {
-   "op": "say",
-   "actor": "rei_rider",
-   "text": "競争者二人を同じ客室へ乗せ、協力させる。――この出来事を忘れず、次の判断へつなげよう。",
-   "eyes": "normal"
-  },
-  {
-   "op": "say",
-   "actor": "extra_craftsman",
-   "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-  },
-  {
    "op": "hide",
    "actor": "rei_rider"
-  },
-  {
-   "op": "hide",
-   "actor": "extra_craftsman"
-  },
-  {
-   "op": "show",
-   "actor": "shiro",
-   "pos": "left"
-  },
-  {
-   "op": "show",
-   "actor": "extra_craftsman",
-   "pos": "right"
-  },
-  {
-   "op": "nar",
-   "text": "発射地点、速度、月の位置を再計算する。"
-  },
-  {
-   "op": "say",
-   "actor": "shiro",
-   "text": "この出来事から目をそらさない。発射地点、速度、月の位置を再計算する。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "say",
-   "actor": "extra_craftsman",
-   "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-  },
-  {
-   "op": "say",
-   "actor": "shiro",
-   "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_craftsman",
-   "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "nar",
-   "text": "言葉の余韻が残る。二人は「巨大計画を競争から協働へ変え、未知へ向かう責任を分かち合うこと」を胸に、次の局面へ進んだ。"
-  },
-  {
-   "op": "say",
-   "actor": "shiro",
-   "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_craftsman",
-   "text": "その一歩が、失われたものを無駄にしない道になる。",
-   "eyes": "normal"
-  },
-  {
-   "op": "say",
-   "actor": "shiro",
-   "text": "発射地点、速度、月の位置を再計算する。――この出来事を忘れず、次の判断へつなげよう。",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "extra_craftsman",
-   "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-  },
-  {
-   "op": "hide",
-   "actor": "shiro"
-  },
-  {
-   "op": "hide",
-   "actor": "extra_craftsman"
   },
   {
    "op": "bg",
@@ -534,206 +294,99 @@
   },
   {
    "op": "nar",
-   "text": "窓と緩衝装置のある砲弾客室"
+   "text": "砲弾の客室。厚い壁、丸い窓、水を張った衝撃吸収の仕掛け。三人が身を寄せ合っている。"
   },
   {
    "op": "show",
-   "actor": "kurogane",
+   "actor": "rei_rider",
    "pos": "left"
   },
   {
    "op": "show",
-   "actor": "rei_rider",
+   "actor": "extra_craftsman",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
    "pos": "right"
   },
   {
-   "op": "nar",
-   "text": "巨大砲の衝撃を緩める水と隔壁を試験する。"
-  },
-  {
    "op": "say",
-   "actor": "kurogane",
-   "text": "この出来事から目をそらさない。巨大砲の衝撃を緩める水と隔壁を試験する。"
+   "actor": "extra_craftsman",
+   "text": "十二月一日、午後十時四十六分四十秒。発射まで、あと一分。"
   },
   {
    "op": "say",
    "actor": "rei_rider",
-   "text": "苦しさの中でも、次に選べる行いを確かめよう。"
+   "text": "遺書は書いたかい、大尉。",
+   "eyes": "fun"
   },
   {
    "op": "say",
    "actor": "kurogane",
-   "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_rider",
-   "text": "その選び方に、その人が何を大切にするかが現れる。"
+   "text": "君の分も書いてやった。"
   },
   {
    "op": "nar",
-   "text": "言葉の余韻が残る。二人は「巨大計画を競争から協働へ変え、未知へ向かう責任を分かち合うこと」を胸に、次の局面へ進んだ。"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
+   "text": "地の底から轟音。三人の体は床に押しつけられ、意識が遠のいた。"
   },
   {
    "op": "say",
    "actor": "rei_rider",
-   "text": "ならば、言葉と行いが離れないように見届けよう。",
+   "text": "……生きてる？　生きてる！　窓の外が、真っ黒だ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "地球が、下に見える。青と白の、大きな玉だ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "私の負けか。いや、まだだ。月に着くまでは、賭けは終わっていない。"
+  },
+  {
+   "op": "nar",
+   "text": "窓の外に、一緒に打ち上げた犬の遺骸が浮かんでいた。三人はしばし黙った。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "衛星ってやつだな。ずっと、我々のそばを回り続ける。",
    "eyes": "sorrow"
   },
   {
    "op": "say",
+   "actor": "extra_craftsman",
+   "text": "進路を確かめよう。……月の引力の中心から、少し外れている。"
+  },
+  {
+   "op": "say",
    "actor": "kurogane",
-   "text": "巨大砲の衝撃を緩める水と隔壁を試験する。――この出来事を忘れず、次の判断へつなげよう。"
+   "text": "小さな流れ星が、近くを通ったせいだ。軌道が曲げられた。",
+   "eyes": "surprise"
   },
   {
    "op": "say",
    "actor": "rei_rider",
-   "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+   "text": "つまり、月には降りられないってことかい。"
   },
   {
-   "op": "hide",
-   "actor": "kurogane"
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "降りられない。月のまわりを回って、どこかへ飛んでいくことになる。",
+   "eyes": "closed"
   },
   {
    "op": "hide",
    "actor": "rei_rider"
-  },
-  {
-   "op": "show",
-   "actor": "extra_craftsman",
-   "pos": "left"
-  },
-  {
-   "op": "show",
-   "actor": "rei_rider",
-   "pos": "right"
-  },
-  {
-   "op": "nar",
-   "text": "三人が客室へ入り、発射前の最後の確認をする。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_craftsman",
-   "text": "この出来事から目をそらさない。三人が客室へ入り、発射前の最後の確認をする。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_rider",
-   "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_craftsman",
-   "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_rider",
-   "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。",
-   "eyes": "normal"
-  },
-  {
-   "op": "nar",
-   "text": "言葉の余韻が残る。二人は「巨大計画を競争から協働へ変え、未知へ向かう責任を分かち合うこと」を胸に、次の局面へ進んだ。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_craftsman",
-   "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_rider",
-   "text": "その一歩が、失われたものを無駄にしない道になる。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_craftsman",
-   "text": "三人が客室へ入り、発射前の最後の確認をする。――この出来事を忘れず、次の判断へつなげよう。",
-   "eyes": "anger",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "rei_rider",
-   "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
   },
   {
    "op": "hide",
    "actor": "extra_craftsman"
-  },
-  {
-   "op": "hide",
-   "actor": "rei_rider"
-  },
-  {
-   "op": "show",
-   "actor": "rei_rider",
-   "pos": "left"
-  },
-  {
-   "op": "show",
-   "actor": "kurogane",
-   "pos": "right"
-  },
-  {
-   "op": "nar",
-   "text": "発射の衝撃を耐え、地球が遠ざかる窓を見る。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_rider",
-   "text": "この出来事から目をそらさない。発射の衝撃を耐え、地球が遠ざかる窓を見る。"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_rider",
-   "text": "起きた事実は変えられない。けれど、この先の態度は選べる。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "その選び方に、その人が何を大切にするかが現れる。"
-  },
-  {
-   "op": "nar",
-   "text": "言葉の余韻が残る。二人は「巨大計画を競争から協働へ変え、未知へ向かう責任を分かち合うこと」を胸に、次の局面へ進んだ。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_rider",
-   "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "ならば、言葉と行いが離れないように見届けよう。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_rider",
-   "text": "発射の衝撃を耐え、地球が遠ざかる窓を見る。――この出来事を忘れず、次の判断へつなげよう。"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-  },
-  {
-   "op": "hide",
-   "actor": "rei_rider"
   },
   {
    "op": "hide",
@@ -750,207 +403,127 @@
   },
   {
    "op": "nar",
-   "text": "月面を見下ろす宇宙空間"
+   "text": "窓の外に、月面が広がる。山の影、白い平原、深いクレーター。"
   },
   {
    "op": "show",
-   "actor": "shiro",
+   "actor": "rei_rider",
    "pos": "left"
   },
   {
    "op": "show",
    "actor": "extra_craftsman",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
    "pos": "right"
   },
   {
-   "op": "nar",
-   "text": "軌道を変える小天体の接近を観測する。"
-  },
-  {
    "op": "say",
-   "actor": "shiro",
-   "text": "この出来事から目をそらさない。軌道を変える小天体の接近を観測する。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_craftsman",
-   "text": "苦しさの中でも、次に選べる行いを確かめよう。",
-   "eyes": "normal"
-  },
-  {
-   "op": "say",
-   "actor": "shiro",
-   "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_craftsman",
-   "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。"
-  },
-  {
-   "op": "nar",
-   "text": "言葉の余韻が残る。二人は「巨大計画を競争から協働へ変え、未知へ向かう責任を分かち合うこと」を胸に、次の局面へ進んだ。"
-  },
-  {
-   "op": "say",
-   "actor": "shiro",
-   "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "say",
-   "actor": "extra_craftsman",
-   "text": "その一歩が、失われたものを無駄にしない道になる。"
-  },
-  {
-   "op": "say",
-   "actor": "shiro",
-   "text": "軌道を変える小天体の接近を観測する。――この出来事を忘れず、次の判断へつなげよう。",
+   "actor": "rei_rider",
+   "text": "見ろ！　月の山だ。影が刃物みたいに鋭い。空気がないからだ。",
+   "eyes": "surprise",
    "mouth": "open"
   },
   {
    "op": "say",
+   "actor": "kurogane",
+   "text": "あの大きな穴は、火山か。それとも、何かがぶつかった跡か。"
+  },
+  {
+   "op": "say",
    "actor": "extra_craftsman",
-   "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
+   "text": "どちらにしても、地上の誰もまだ見たことのない景色だ。"
+  },
+  {
+   "op": "nar",
+   "text": "砲弾は月の裏側へ回り込んだ。太陽の光が届かず、窓の外が闇に沈む。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "寒い。外は、いったい何度だろう。",
    "eyes": "sorrow"
   },
   {
-   "op": "hide",
-   "actor": "shiro"
-  },
-  {
-   "op": "hide",
-   "actor": "extra_craftsman"
-  },
-  {
-   "op": "show",
+   "op": "say",
    "actor": "kurogane",
-   "pos": "left"
+   "text": "温度計を窓の外へ出してみよう。……零下百四十度。"
   },
   {
-   "op": "show",
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "光の届かない場所は、こんなに冷たいのか。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "三人は、逆噴射のロケットで月へ降りようとする",
+     "jump": "m_try"
+    },
+    {
+     "text": "三人は、月を回って地球へ戻る道を選ぶ",
+     "jump": "m_back"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_try"
+  },
+  {
+   "op": "say",
    "actor": "rei_rider",
-   "pos": "right"
+   "text": "底についている小さなロケットに、火をつけてみよう。"
   },
   {
    "op": "nar",
-   "text": "無重力の中で物が漂い、互いの体を固定する。"
+   "text": "ロケットは火を噴いたが、砲弾の向きを変えただけで、月から遠ざかってしまった。"
   },
   {
    "op": "say",
    "actor": "kurogane",
-   "text": "この出来事から目をそらさない。無重力の中で物が漂い、互いの体を固定する。"
+   "text": "月は、我々を受け入れてくれないらしい。",
+   "eyes": "closed"
+  },
+  {
+   "op": "jump",
+   "to": "m_home"
+  },
+  {
+   "op": "label",
+   "id": "m_back"
   },
   {
    "op": "say",
-   "actor": "rei_rider",
-   "text": "苦しさの中でも、次に選べる行いを確かめよう。",
-   "eyes": "anger"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_rider",
-   "text": "その選び方に、その人が何を大切にするかが現れる。"
-  },
-  {
-   "op": "nar",
-   "text": "言葉の余韻が残る。二人は「巨大計画を競争から協働へ変え、未知へ向かう責任を分かち合うこと」を胸に、次の局面へ進んだ。"
+   "actor": "extra_craftsman",
+   "text": "無理に降りようとすれば、もっと遠くへ飛ばされる。月の引力に任せて、地球へ戻ろう。"
   },
   {
    "op": "say",
    "actor": "kurogane",
-   "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
+   "text": "引力で弾を返す。大砲屋らしい考え方だ。"
+  },
+  {
+   "op": "label",
+   "id": "m_home"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "月の重みが、我々を地球のほうへ投げ返してくれる。"
   },
   {
    "op": "say",
    "actor": "rei_rider",
-   "text": "ならば、言葉と行いが離れないように見届けよう。"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "無重力の中で物が漂い、互いの体を固定する。――この出来事を忘れず、次の判断へつなげよう。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_rider",
-   "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "hide",
-   "actor": "kurogane"
+   "text": "帰り道の切符は、月からのおまけってわけだ。"
   },
   {
    "op": "hide",
    "actor": "rei_rider"
-  },
-  {
-   "op": "show",
-   "actor": "extra_craftsman",
-   "pos": "left"
-  },
-  {
-   "op": "show",
-   "actor": "kurogane",
-   "pos": "right"
-  },
-  {
-   "op": "nar",
-   "text": "月へ落下せず周回軌道へ入ったと判明する。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_craftsman",
-   "text": "この出来事から目をそらさない。月へ落下せず周回軌道へ入ったと判明する。",
-   "eyes": "joy"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_craftsman",
-   "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。"
-  },
-  {
-   "op": "nar",
-   "text": "言葉の余韻が残る。二人は「巨大計画を競争から協働へ変え、未知へ向かう責任を分かち合うこと」を胸に、次の局面へ進んだ。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_craftsman",
-   "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "その一歩が、失われたものを無駄にしない道になる。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_craftsman",
-   "text": "月へ落下せず周回軌道へ入ったと判明する。――この出来事を忘れず、次の判断へつなげよう。",
-   "eyes": "normal",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
   },
   {
    "op": "hide",
@@ -971,136 +544,73 @@
   },
   {
    "op": "nar",
-   "text": "夜の太平洋へ浮かぶ砲弾"
+   "text": "夜の太平洋。海面に浮かぶ筒型の砲弾を、軍艦の明かりが照らしている。"
   },
   {
    "op": "show",
-   "actor": "rei_rider",
+   "actor": "shiro",
    "pos": "left"
   },
   {
-   "op": "show",
-   "actor": "extra_craftsman",
-   "pos": "right"
-  },
-  {
-   "op": "nar",
-   "text": "暗い月面と明るい地球を同じ窓から観察する。"
-  },
-  {
    "op": "say",
-   "actor": "rei_rider",
-   "text": "この出来事から目をそらさない。暗い月面と明るい地球を同じ窓から観察する。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_craftsman",
-   "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_rider",
-   "text": "起きた事実は変えられない。けれど、この先の態度は選べる。",
+   "actor": "shiro",
+   "text": "見つけた！　砲弾が浮いている！　中から、トランプをする音がする！",
    "eyes": "surprise"
   },
   {
-   "op": "say",
-   "actor": "extra_craftsman",
-   "text": "その選び方に、その人が何を大切にするかが現れる。"
+   "op": "show",
+   "actor": "rei_rider",
+   "pos": "center"
   },
   {
-   "op": "nar",
-   "text": "言葉の余韻が残る。二人は「巨大計画を競争から協働へ変え、未知へ向かう責任を分かち合うこと」を胸に、次の局面へ進んだ。"
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
   },
   {
    "op": "say",
    "actor": "rei_rider",
-   "text": "迷いを隠して進むより、迷いを引き受けて進みたい。",
-   "eyes": "anger"
+   "text": "やあ、いい晩だね。ちょっと月まで行ってきたところだ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "月には降りなかった。だから賭けの半分は私の勝ちだ。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_craftsman",
+   "pos": "left"
   },
   {
    "op": "say",
    "actor": "extra_craftsman",
-   "text": "ならば、言葉と行いが離れないように見届けよう。",
-   "eyes": "normal"
+   "text": "半分は私の勝ちだ。弾は、月まで届いた。"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
   },
   {
    "op": "say",
    "actor": "rei_rider",
-   "text": "暗い月面と明るい地球を同じ窓から観察する。――この出来事を忘れず、次の判断へつなげよう。"
+   "text": "賭けの勝ち負けなんて、どうでもいいさ。二人とも、同じ窓から地球を見たんだから。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……そうだな。あの青い玉の上で、我々はずっと大砲と装甲で喧嘩していたのか。",
+   "eyes": "closed"
   },
   {
    "op": "say",
    "actor": "extra_craftsman",
-   "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
+   "text": "次は、何のために作ろうか。撃ち合う大砲ではなく、遠くへ届ける大砲を。"
   },
   {
    "op": "hide",
    "actor": "rei_rider"
-  },
-  {
-   "op": "hide",
-   "actor": "extra_craftsman"
-  },
-  {
-   "op": "show",
-   "actor": "kurogane",
-   "pos": "left"
-  },
-  {
-   "op": "show",
-   "actor": "rei_rider",
-   "pos": "right"
-  },
-  {
-   "op": "nar",
-   "text": "推進用火薬を使い、地球へ戻る軌道を選ぶ。"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "この出来事から目をそらさない。推進用火薬を使い、地球へ戻る軌道を選ぶ。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_rider",
-   "text": "苦しさの中でも、次に選べる行いを確かめよう。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_rider",
-   "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。"
-  },
-  {
-   "op": "nar",
-   "text": "言葉の余韻が残る。二人は「巨大計画を競争から協働へ変え、未知へ向かう責任を分かち合うこと」を胸に、次の局面へ進んだ。"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_rider",
-   "text": "その一歩が、失われたものを無駄にしない道になる。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "推進用火薬を使い、地球へ戻る軌道を選ぶ。――この出来事を忘れず、次の判断へつなげよう。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_rider",
-   "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
   },
   {
    "op": "hide",
@@ -1108,78 +618,11 @@
   },
   {
    "op": "hide",
-   "actor": "rei_rider"
-  },
-  {
-   "op": "show",
-   "actor": "rei_rider",
-   "pos": "left"
-  },
-  {
-   "op": "show",
-   "actor": "iwao",
-   "pos": "right"
-  },
-  {
-   "op": "nar",
-   "text": "太平洋へ着水し、救助船へ月の観測記録を渡す。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_rider",
-   "text": "この出来事から目をそらさない。太平洋へ着水し、救助船へ月の観測記録を渡す。"
-  },
-  {
-   "op": "say",
-   "actor": "iwao",
-   "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_rider",
-   "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
-  },
-  {
-   "op": "say",
-   "actor": "iwao",
-   "text": "その選び方に、その人が何を大切にするかが現れる。"
-  },
-  {
-   "op": "nar",
-   "text": "言葉の余韻が残る。二人は「巨大計画を競争から協働へ変え、未知へ向かう責任を分かち合うこと」を胸に、次の局面へ進んだ。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_rider",
-   "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
-  },
-  {
-   "op": "say",
-   "actor": "iwao",
-   "text": "ならば、言葉と行いが離れないように見届けよう。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_rider",
-   "text": "太平洋へ着水し、救助船へ月の観測記録を渡す。――この出来事を忘れず、次の判断へつなげよう。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "say",
-   "actor": "iwao",
-   "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-  },
-  {
-   "op": "hide",
-   "actor": "rei_rider"
-  },
-  {
-   "op": "hide",
-   "actor": "iwao"
+   "actor": "extra_craftsman"
   },
   {
    "op": "bg",
-   "src": "splash"
+   "src": null
   },
   {
    "op": "show",
@@ -1189,24 +632,22 @@
   {
    "op": "say",
    "actor": "nono",
-   "text": "太平洋へ着水した三人は救助される。月面へ立てなくても、敵対者が同じ窓から地球を見たことが成果となる。",
-   "eyes": "surprise"
+   "text": "『月世界旅行』、これにて幕です。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "長い旅の果てに残ったのは、「巨大計画を競争から協働へ変え、未知へ向かう責任を分かち合うこと」という問いでした。"
+   "text": "戦争の道具を、空へ向けた人たちがいました。喧嘩していた二人が、同じ弾に乗りました。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "答えは一つではありません。けれど、登場人物たちの選択は消えません。",
-   "eyes": "joy"
+   "text": "月には降りられなかったけれど、地球を外から見るという、大きなおみやげを持って帰りました。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "『月世界旅行 ―砲弾の客室―』、これにて終幕。ありがとうございました。"
+   "text": "今夜、月が出ていたら、あそこまで大砲の弾で行こうとした人たちのことを思い出してください。"
   },
   {
    "op": "hide",

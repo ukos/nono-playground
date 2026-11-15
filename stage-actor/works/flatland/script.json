@@ -1,1218 +1,639 @@
 {
-  "meta": {
-    "id": "flatland",
-    "title": "フラットランド ―次元の窓―",
-    "original": "Edwin A. Abbott, Flatland: A Romance of Many Dimensions（原典著作権消滅）",
-    "adaptation": "moderate",
-    "format": "v3",
-    "minutes": 38,
-    "synopsis": "平面国の正方形は階級と規則に従って暮らす。線の国を夢で訪れ、三次元の球に出会う。球に持ち上げられて自宅を上から見た後、さらに四次元を問うが拒まれる。帰国後に真実を語り投獄される。",
-    "note": "Edwin A. Abbottの1884年英語原典から新規脚本化。Project Gutenberg掲載原典を確認し、現代訳・現代翻案は使用していない。"
+ "meta": {
+  "id": "flatland",
+  "title": "フラットランド ―次元の窓―",
+  "original": "Edwin A. Abbott, Flatland: A Romance of Many Dimensions（原典著作権消滅）",
+  "adaptation": "moderate",
+  "format": "v3",
+  "minutes": 18,
+  "synopsis": "平面国の正方形は階級と規則に従って暮らす。線の国を夢で訪れ、三次元の球に出会う。球に持ち上げられて自宅を上から見た後、さらに四次元を問うが拒まれる。帰国後に真実を語り投獄される。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "狂言回し",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "正方形",
-      "actor": "rei_trackcape",
-      "costume": "default"
-    },
-    {
-      "role": "球",
-      "actor": "homura",
-      "costume": "default"
-    },
-    {
-      "role": "正方形の妻",
-      "actor": "mei",
-      "costume": "default"
-    },
-    {
-      "role": "線の王",
-      "actor": "extra_elder",
-      "costume": "default"
-    },
-    {
-      "role": "平面国の役人",
-      "actor": "kurogane",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "house": "bg/flatland-house-2048x1152.png",
-    "lineland": "bg/lineland-axis-2048x1152.png",
-    "sphere": "bg/sphere-cross-section-2048x1152.png",
-    "above": "bg/flatland-from-above-2048x1152.png",
-    "prison": "bg/flatland-prison-2048x1152.png"
+  {
+   "role": "正方形",
+   "actor": "rei_trackcape",
+   "costume": "default"
   },
-  "steps": [
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『フラットランド ―次元の窓―』。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "二次元の正方形が球に持ち上げられ、点、線、面、立体の常識を疑います。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "今夜の核は「自分の世界の常識を絶対視せず、見えない次元を想像すること」。急がず、長い物語としてお届けします。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "それでは開幕。役者たちの声と、場面の移ろいをお楽しみください。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "house",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "house"
-    },
-    {
-      "op": "nar",
-      "text": "線分だけで構成された平面国の家"
-    },
-    {
-      "op": "show",
-      "actor": "rei_trackcape",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "mei",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "正方形が角と辺で身分を決める平面国の日常を語る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "この出来事から目をそらさない。正方形が角と辺で身分を決める平面国の日常を語る。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "その選び方に、その人が何を大切にするかが現れる。",
-      "eyes": "joy"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「自分の世界の常識を絶対視せず、見えない次元を想像すること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "ならば、言葉と行いが離れないように見届けよう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "正方形が角と辺で身分を決める平面国の日常を語る。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_trackcape"
-    },
-    {
-      "op": "hide",
-      "actor": "mei"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_trackcape",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "役人が危険な思想と不規則な形を厳しく取り締まる。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "この出来事から目をそらさない。役人が危険な思想と不規則な形を厳しく取り締まる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「自分の世界の常識を絶対視せず、見えない次元を想像すること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "その一歩が、失われたものを無駄にしない道になる。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "役人が危険な思想と不規則な形を厳しく取り締まる。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_trackcape"
-    },
-    {
-      "op": "show",
-      "actor": "rei_trackcape",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elder",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "夢の線の国で、左右しか知らない王へ平面を説明する。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "この出来事から目をそらさない。夢の線の国で、左右しか知らない王へ平面を説明する。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "その選び方に、その人が何を大切にするかが現れる。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「自分の世界の常識を絶対視せず、見えない次元を想像すること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "ならば、言葉と行いが離れないように見届けよう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "夢の線の国で、左右しか知らない王へ平面を説明する。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_trackcape"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elder"
-    },
-    {
-      "op": "bg",
-      "src": "lineland",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "lineland"
-    },
-    {
-      "op": "nar",
-      "text": "一点の列だけが続く線の国"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elder",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_trackcape",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "線の王が見えない方向を狂気として拒絶する。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "この出来事から目をそらさない。線の王が見えない方向を狂気として拒絶する。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「自分の世界の常識を絶対視せず、見えない次元を想像すること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "その一歩が、失われたものを無駄にしない道になる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "線の王が見えない方向を狂気として拒絶する。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elder"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_trackcape"
-    },
-    {
-      "op": "show",
-      "actor": "rei_trackcape",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "mei",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "目覚めた正方形が自分も同じ拒絶をしていないか考える。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "この出来事から目をそらさない。目覚めた正方形が自分も同じ拒絶をしていないか考える。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "その選び方に、その人が何を大切にするかが現れる。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「自分の世界の常識を絶対視せず、見えない次元を想像すること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "ならば、言葉と行いが離れないように見届けよう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "目覚めた正方形が自分も同じ拒絶をしていないか考える。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_trackcape"
-    },
-    {
-      "op": "hide",
-      "actor": "mei"
-    },
-    {
-      "op": "show",
-      "actor": "homura",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_trackcape",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "球が平面を通過し、点から円へ拡大して消える。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "この出来事から目をそらさない。球が平面を通過し、点から円へ拡大して消える。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「自分の世界の常識を絶対視せず、見えない次元を想像すること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "その一歩が、失われたものを無駄にしない道になる。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "球が平面を通過し、点から円へ拡大して消える。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "homura"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_trackcape"
-    },
-    {
-      "op": "bg",
-      "src": "sphere",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "sphere"
-    },
-    {
-      "op": "nar",
-      "text": "円が拡大縮小して現れる室内"
-    },
-    {
-      "op": "show",
-      "actor": "rei_trackcape",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "homura",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "正方形が手品を疑い、三次元の証明を求める。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "この出来事から目をそらさない。正方形が手品を疑い、三次元の証明を求める。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "その選び方に、その人が何を大切にするかが現れる。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「自分の世界の常識を絶対視せず、見えない次元を想像すること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "ならば、言葉と行いが離れないように見届けよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "正方形が手品を疑い、三次元の証明を求める。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_trackcape"
-    },
-    {
-      "op": "hide",
-      "actor": "homura"
-    },
-    {
-      "op": "show",
-      "actor": "homura",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_trackcape",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "球が正方形を上へ持ち上げ、閉じた家の内部を見せる。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "この出来事から目をそらさない。球が正方形を上へ持ち上げ、閉じた家の内部を見せる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。",
-      "eyes": "normal"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「自分の世界の常識を絶対視せず、見えない次元を想像すること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "その一歩が、失われたものを無駄にしない道になる。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "球が正方形を上へ持ち上げ、閉じた家の内部を見せる。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "homura"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_trackcape"
-    },
-    {
-      "op": "show",
-      "actor": "rei_trackcape",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "mei",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "正方形が上方から妻と家を見て、世界像を更新する。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "この出来事から目をそらさない。正方形が上方から妻と家を見て、世界像を更新する。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "その選び方に、その人が何を大切にするかが現れる。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「自分の世界の常識を絶対視せず、見えない次元を想像すること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "ならば、言葉と行いが離れないように見届けよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "正方形が上方から妻と家を見て、世界像を更新する。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_trackcape"
-    },
-    {
-      "op": "hide",
-      "actor": "mei"
-    },
-    {
-      "op": "bg",
-      "src": "above",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "above"
-    },
-    {
-      "op": "nar",
-      "text": "上方から見た平面国の都市図"
-    },
-    {
-      "op": "show",
-      "actor": "rei_trackcape",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "homura",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "三次元を理解した正方形が四次元の可能性を問う。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "この出来事から目をそらさない。三次元を理解した正方形が四次元の可能性を問う。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「自分の世界の常識を絶対視せず、見えない次元を想像すること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "その一歩が、失われたものを無駄にしない道になる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "三次元を理解した正方形が四次元の可能性を問う。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_trackcape"
-    },
-    {
-      "op": "hide",
-      "actor": "homura"
-    },
-    {
-      "op": "show",
-      "actor": "homura",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_trackcape",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "球が自分の常識を越える問いを不合理として退ける。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "この出来事から目をそらさない。球が自分の常識を越える問いを不合理として退ける。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "その選び方に、その人が何を大切にするかが現れる。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「自分の世界の常識を絶対視せず、見えない次元を想像すること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "ならば、言葉と行いが離れないように見届けよう。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "球が自分の常識を越える問いを不合理として退ける。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "hide",
-      "actor": "homura"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_trackcape"
-    },
-    {
-      "op": "show",
-      "actor": "rei_trackcape",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "平面国で三次元を説き、役人に逮捕される。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "この出来事から目をそらさない。平面国で三次元を説き、役人に逮捕される。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「自分の世界の常識を絶対視せず、見えない次元を想像すること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "その一歩が、失われたものを無駄にしない道になる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "平面国で三次元を説き、役人に逮捕される。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_trackcape"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "bg",
-      "src": "prison",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "prison"
-    },
-    {
-      "op": "nar",
-      "text": "多角形の壁に囲まれた牢"
-    },
-    {
-      "op": "show",
-      "actor": "mei",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_trackcape",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "妻が理解できなくても、夫の変化を見捨てず面会する。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "この出来事から目をそらさない。妻が理解できなくても、夫の変化を見捨てず面会する。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "その選び方に、その人が何を大切にするかが現れる。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「自分の世界の常識を絶対視せず、見えない次元を想像すること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "ならば、言葉と行いが離れないように見届けよう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "妻が理解できなくても、夫の変化を見捨てず面会する。――この出来事を忘れず、次の判断へつなげよう。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "mei"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_trackcape"
-    },
-    {
-      "op": "show",
-      "actor": "rei_trackcape",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elder",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "牢の中で線の王の拒絶と自分たちの拒絶を重ねる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "この出来事から目をそらさない。牢の中で線の王の拒絶と自分たちの拒絶を重ねる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「自分の世界の常識を絶対視せず、見えない次元を想像すること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "その一歩が、失われたものを無駄にしない道になる。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "牢の中で線の王の拒絶と自分たちの拒絶を重ねる。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_trackcape"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elder"
-    },
-    {
-      "op": "show",
-      "actor": "rei_trackcape",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "mei",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "次元の記憶を書き残し、未来の読者へ想像を託す。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "この出来事から目をそらさない。次元の記憶を書き残し、未来の読者へ想像を託す。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "その選び方に、その人が何を大切にするかが現れる。",
-      "eyes": "normal"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「自分の世界の常識を絶対視せず、見えない次元を想像すること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "ならば、言葉と行いが離れないように見届けよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "次元の記憶を書き残し、未来の読者へ想像を託す。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_trackcape"
-    },
-    {
-      "op": "hide",
-      "actor": "mei"
-    },
-    {
-      "op": "bg",
-      "src": "prison"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "正方形は牢で次元の記憶を書き残す。理解されなくても、想像する力は平面の壁を越える。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "長い旅の果てに残ったのは、「自分の世界の常識を絶対視せず、見えない次元を想像すること」という問いでした。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "答えは一つではありません。けれど、登場人物たちの選択は消えません。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "『フラットランド ―次元の窓―』、これにて終幕。ありがとうございました。"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "end"
+  {
+   "role": "球",
+   "actor": "homura",
+   "costume": "default"
+  },
+  {
+   "role": "正方形の妻",
+   "actor": "mei",
+   "costume": "default"
+  },
+  {
+   "role": "線の王",
+   "actor": "extra_elder",
+   "costume": "default"
+  },
+  {
+   "role": "平面国の役人",
+   "actor": "kurogane",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "house": "bg/flatland-house-2048x1152.png",
+  "lineland": "bg/lineland-axis-2048x1152.png",
+  "sphere": "bg/sphere-cross-section-2048x1152.png",
+  "above": "bg/flatland-from-above-2048x1152.png",
+  "prison": "bg/flatland-prison-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ちょっと想像してみてください。紙の上に描いた三角や四角が、生きて暮らしている世界を。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "上も下もない。あるのは前後と左右だけ。そこが今夜の舞台、平面国「フラットランド」です。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "主人公は、真面目な正方形の紳士。ある年の大晦日、彼のもとに、思いもよらない客が来ます。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "頭の中に、一枚の大きな紙を広げてお聞きください。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "house",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "house"
+  },
+  {
+   "op": "nar",
+   "text": "線だけで描かれた家。五角形の壁に、女性用と男性用の、別々の戸口がある。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_trackcape",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "私は正方形。平面国の、ごく普通の弁護士だ。辺が四つ、角が四つ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "この国では、辺が多いほど身分が高い。三角形は職人、五角形は医者、六角形は貴族。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "辺が増えすぎて丸に近づいた方々は、聖職者として国を治めておられる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "あなた、今夜は大晦日よ。円の方々の新しいお触れ、もう読んだ？"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "「三次元などという異端の話をする者は、厳しく罰する」。毎年同じ文句だね。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "三次元って、何なのかしら。数字が一つ増えるの？"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "誰にも分からないから、禁止されているのさ。分からない話は、怖いからね。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "女は線一本の姿だから、あなたたちから見ると、点にしか見えないこともあるのよね。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "……君を、正面から見ると、確かに一つの点だ。それでも、私の大事な妻だ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "優しいのね。じゃあ、早く寝て。明日は新年の挨拶回りよ。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_trackcape"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "bg",
+   "src": "lineland",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "lineland"
+  },
+  {
+   "op": "nar",
+   "text": "夢の中。どこまでも一本の線が伸び、点のような住人が並んでいる。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_trackcape",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "ここはどこだ？　すべてが一直線に並んでいる。前と後ろしかない国だ。"
+  },
+  {
+   "op": "nar",
+   "text": "線の王は、自分の国こそ世界のすべてだと言わんばかりに、胸を張って見えた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "王よ、私は横からやってきました。あなたの国の、外側から。"
+  },
+  {
+   "op": "nar",
+   "text": "線の王は首をかしげた。横という言葉が、この国には存在しないのだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "左右という方向があるのです。こう、あなたの体を横切るように。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "……私の声が、王の体の中から聞こえるらしい。怖がって、逃げてしまう。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "一本の線の上でしか生きていない者には、横の世界は想像できないのか。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "気の毒な人だ。……そう思った瞬間、目が覚めた。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_trackcape"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "bg",
+   "src": "sphere",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "sphere"
+  },
+  {
+   "op": "nar",
+   "text": "正方形の家。大晦日の夜更け、部屋の中に、突然、点が現れた。点は円になり、円は大きくなった。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_trackcape",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "誰だ！　戸を通らずに、どこから入った！",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "show",
+   "actor": "homura",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "驚かせてすまない。私は球。三次元の国から来た。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "円の方……いや、大きさが変わるなど、円にはありえない。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "私は君の世界を、上から通り抜けているんだ。君に見えるのは、私の切り口だけだよ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "上？　上とは、北のことですか。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "北ではない。北と南と、東と西。そのどれでもない、もう一つの向きだ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "そんな向きはありません。あれば、私たちはとっくに気づいている。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "線の国の王も、きっと同じことを言ったんだろうね。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "……どうして、夢のことを。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "言葉では伝わらないようだ。見せてあげよう。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_trackcape"
+  },
+  {
+   "op": "hide",
+   "actor": "homura"
+  },
+  {
+   "op": "bg",
+   "src": "above",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "above"
+  },
+  {
+   "op": "nar",
+   "text": "正方形の体が、平面から持ち上げられた。初めて、平面国を「上」から見下ろした。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_trackcape",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "homura",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "家の中が、見える！　壁の内側も、戸棚の中も、全部いっぺんに！",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "隣の家の金庫も、牢屋の中の囚人も、教会の奥の部屋まで。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "これが、三次元から見た君の世界だ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "私の妻が、寝床で眠っている。点ではなく、一本の美しい線として。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "上から見れば、線の妻にも長さがある。私はずっと、彼女の端しか見ていなかった。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "正方形の君も、私から見れば、厚みのない一枚の影にすぎない。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "そして、あなたも、どこかの誰かから見れば……。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "球よ、では四次元の国も、あるのでしょう？　あなたを外から見る国が。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "四次元？　そんなものはない。三次元が世界のすべてだ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "今あなたは、線の王や、さっきの私と同じことを言いました。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "無礼な！　ありえないものを想像するなど、狂気だ！",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "球は怒って、正方形を平面の上に落とした。正方形は、元の部屋に戻っていた。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_trackcape"
+  },
+  {
+   "op": "hide",
+   "actor": "homura"
+  },
+  {
+   "op": "bg",
+   "src": "house",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "house"
+  },
+  {
+   "op": "show",
+   "actor": "rei_trackcape",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "聞いてくれ。上という向きがあった。この家を上から見た。君は点じゃなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "あなた、熱でもあるの？　上って、北のこと？",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "違うんだ。北でも南でもない……どう言えばいいんだ。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "お願い、その話はやめて。三次元の話をしたら、捕まるのよ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "正方形は、妻にだけ黙っている",
+     "jump": "m_quiet"
+    },
+    {
+     "text": "正方形は、街の人々に語ろうと決める",
+     "jump": "m_tell"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_quiet"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "……分かった。君の前では話さない。でも、紙に書いて残しておく。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "紙の上なら、誰にも見つからないわね。"
+  },
+  {
+   "op": "jump",
+   "to": "m_after"
+  },
+  {
+   "op": "label",
+   "id": "m_tell"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "黙っていたら、誰も気づかないままだ。私は話す。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "あなた……。",
+   "eyes": "crying"
+  },
+  {
+   "op": "label",
+   "id": "m_after"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_trackcape"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "bg",
+   "src": "prison",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "prison"
+  },
+  {
+   "op": "nar",
+   "text": "多角形の壁に囲まれた牢。正方形は異端の罪で、ここに七年閉じ込められている。"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "show",
+   "actor": "rei_trackcape",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "正方形よ、まだ三次元の話をやめないのか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "やめられません。見てしまったのです。上から、この国を。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "誰も見ていないものを、信じろと言うのか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "見えないことと、ないことは、違います。線の国の王は、横を知らなかった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "球は、四次元を知らなかった。私たちも、何かを知らないまま暮らしているはずです。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……その話、私にも少し分かる気がしてきた。だから、これ以上は聞かない。"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "私は、毎日、壁に図を描く。立方体の影を。誰にも理解されない絵を。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "でも、いつか、この絵を見た誰かが、上を想像してくれたら。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "平面の壁の向こうに、もう一つの向きがあると、思い出してくれたら。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_trackcape"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "『フラットランド』、これにて幕です。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "線の王も、球も、正方形も、自分の世界がすべてだと信じていました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "見えないものを想像するのは、ちょっと怖くて、ちょっと楽しい。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "今夜、天井を見上げたら、その上にもう一つの向きがあるかもしれません。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }
