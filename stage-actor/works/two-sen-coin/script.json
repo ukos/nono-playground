@@ -1,728 +1,1037 @@
 {
-  "meta": {
-    "id": "two-sen-coin",
-    "number": 114,
-    "title": "二銭銅貨 ―暗号の空洞―",
-    "original": "江戸川乱歩『二銭銅貨』（原作著作権消滅）",
-    "category": "探偵",
-    "adaptation": "faithful",
-    "format": "v3",
-    "minutes": 30,
-    "synopsis": "全五景で「暗号を解く快感と、真実を確かめる責任は別物である」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
-    "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+ "meta": {
+  "id": "two-sen-coin",
+  "number": 114,
+  "title": "二銭銅貨 ―暗号の空洞―",
+  "original": "江戸川乱歩『二銭銅貨』（原作著作権消滅）",
+  "category": "探偵",
+  "adaptation": "faithful",
+  "format": "v3",
+  "minutes": 32,
+  "synopsis": "全五景で「暗号を解く快感と、真実を確かめる責任は別物である」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "狂言回し",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "松村",
-      "actor": "rei_casual",
-      "costume": "default"
-    },
-    {
-      "role": "私",
-      "actor": "nono_whitecat",
-      "costume": "default"
-    },
-    {
-      "role": "紳士泥棒",
-      "actor": "nibulus",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "poor_room": "bg/two-sen-coin-poor_room-2048x1152.png",
-    "coin_discovery": "bg/two-sen-coin-coin_discovery-2048x1152.png",
-    "braille_cipher": "bg/two-sen-coin-braille_cipher-2048x1152.png",
-    "false_triumph": "bg/two-sen-coin-false_triumph-2048x1152.png",
-    "prank_reveal": "bg/two-sen-coin-prank_reveal-2048x1152.png"
+  {
+   "role": "松村",
+   "actor": "rei_casual",
+   "costume": "default"
   },
-  "steps": [
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『二銭銅貨』。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "探偵の一席を、全五景でお届けします。",
-      "mouth": "open",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "この舞台の核は「暗号を解く快感と、真実を確かめる責任は別物である」。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "台詞はすべて今夜のための書き下ろしです。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "それでは、幕を開けましょう。",
-      "mouth": "open",
-      "eyes": "joy"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "poor_room",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "poor_room"
-    },
-    {
-      "op": "nar",
-      "text": "第1景「貧しい下宿」。二人の青年が新聞の盗難事件を読みあさる。"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "nono_whitecat",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "現場は「貧しい下宿」。まず事実だけを並べよう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "確認できるのは、二人の青年が新聞の盗難事件を読みあさるという一点だ。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "見えたものと、そう思った理由を分けて書く。",
-      "eyes": "anger"
-    },
-    {
-      "op": "nar",
-      "text": "貧しい下宿の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "証言が一致するほど、同じ思い込みを疑うべきか。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "一致は安心材料だが、真実の保証ではない。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "鍵は「暗号を解く快感と、真実を確かめる責任は別物である」にある。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。二人の青年が新聞の盗難事件を読みあさる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "犯人像を先に決めず、痕跡から可能性を削ろう。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "では時刻、入口、道具の順に確かめる。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "二人の青年が新聞の盗難事件を読みあさる。この行動には目的が二つ重なっている。",
-      "eyes": "normal"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "表の目的が囮なら、裏の目的は何だ。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "答えはまだ言わない。反証できる形にしよう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "推理を勝利ではなく、検証として終わらせる。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "hide",
-      "actor": "nono_whitecat"
-    },
-    {
-      "op": "bg",
-      "src": "coin_discovery",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "coin_discovery"
-    },
-    {
-      "op": "nar",
-      "text": "第2景「二銭銅貨の発見」。煙草屋で受け取った硬貨の縁に細工を見つける。"
-    },
-    {
-      "op": "show",
-      "actor": "nibulus",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "現場は「二銭銅貨の発見」。まず事実だけを並べよう。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "確認できるのは、煙草屋で受け取った硬貨の縁に細工を見つけるという一点だ。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "見えたものと、そう思った理由を分けて書く。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "二銭銅貨の発見の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "証言が一致するほど、同じ思い込みを疑うべきか。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "一致は安心材料だが、真実の保証ではない。",
-      "eyes": "surprise",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "鍵は「暗号を解く快感と、真実を確かめる責任は別物である」にある。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。煙草屋で受け取った硬貨の縁に細工を見つける。"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "犯人像を先に決めず、痕跡から可能性を削ろう。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "では時刻、入口、道具の順に確かめる。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "煙草屋で受け取った硬貨の縁に細工を見つける。この行動には目的が二つ重なっている。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "表の目的が囮なら、裏の目的は何だ。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "答えはまだ言わない。反証できる形にしよう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "推理を勝利ではなく、検証として終わらせる。",
-      "eyes": "fun"
-    },
-    {
-      "op": "hide",
-      "actor": "nibulus"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "bg",
-      "src": "braille_cipher",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "braille_cipher"
-    },
-    {
-      "op": "nar",
-      "text": "第3景「点字暗号」。紙片の点を読み替え隠し場所へ近づく。"
-    },
-    {
-      "op": "show",
-      "actor": "nono_whitecat",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "nibulus",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "現場は「点字暗号」。まず事実だけを並べよう。",
-      "eyes": "anger",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "確認できるのは、紙片の点を読み替え隠し場所へ近づくという一点だ。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "見えたものと、そう思った理由を分けて書く。",
-      "eyes": "fun"
-    },
-    {
-      "op": "nar",
-      "text": "点字暗号の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "証言が一致するほど、同じ思い込みを疑うべきか。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "一致は安心材料だが、真実の保証ではない。",
-      "eyes": "crying",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "鍵は「暗号を解く快感と、真実を確かめる責任は別物である」にある。",
-      "eyes": "closed"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。紙片の点を読み替え隠し場所へ近づく。"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "犯人像を先に決めず、痕跡から可能性を削ろう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "では時刻、入口、道具の順に確かめる。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "紙片の点を読み替え隠し場所へ近づく。この行動には目的が二つ重なっている。",
-      "eyes": "anger",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "表の目的が囮なら、裏の目的は何だ。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "答えはまだ言わない。反証できる形にしよう。",
-      "eyes": "fun"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "推理を勝利ではなく、検証として終わらせる。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "hide",
-      "actor": "nono_whitecat"
-    },
-    {
-      "op": "hide",
-      "actor": "nibulus"
-    },
-    {
-      "op": "bg",
-      "src": "false_triumph",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "false_triumph"
-    },
-    {
-      "op": "nar",
-      "text": "第4景「推理の勝鬨」。松村が大胆な解読を得意げに披露する。"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "nono_whitecat",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "現場は「推理の勝鬨」。まず事実だけを並べよう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "確認できるのは、松村が大胆な解読を得意げに披露するという一点だ。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "見えたものと、そう思った理由を分けて書く。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "推理の勝鬨の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "証言が一致するほど、同じ思い込みを疑うべきか。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "一致は安心材料だが、真実の保証ではない。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "鍵は「暗号を解く快感と、真実を確かめる責任は別物である」にある。",
-      "eyes": "normal"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。松村が大胆な解読を得意げに披露する。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "犯人像を先に決めず、痕跡から可能性を削ろう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "では時刻、入口、道具の順に確かめる。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "松村が大胆な解読を得意げに披露する。この行動には目的が二つ重なっている。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "表の目的が囮なら、裏の目的は何だ。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "答えはまだ言わない。反証できる形にしよう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "推理を勝利ではなく、検証として終わらせる。",
-      "eyes": "crying"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "hide",
-      "actor": "nono_whitecat"
-    },
-    {
-      "op": "bg",
-      "src": "prank_reveal",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "prank_reveal"
-    },
-    {
-      "op": "nar",
-      "text": "第5景「仕掛けの種明かし」。友人のいたずらが推理の熱と危うさを照らす。"
-    },
-    {
-      "op": "show",
-      "actor": "nibulus",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "現場は「仕掛けの種明かし」。まず事実だけを並べよう。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "確認できるのは、友人のいたずらが推理の熱と危うさを照らすという一点だ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "見えたものと、そう思った理由を分けて書く。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "仕掛けの種明かしの空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "証言が一致するほど、同じ思い込みを疑うべきか。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "一致は安心材料だが、真実の保証ではない。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "鍵は「暗号を解く快感と、真実を確かめる責任は別物である」にある。",
-      "eyes": "joy"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。友人のいたずらが推理の熱と危うさを照らす。"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "犯人像を先に決めず、痕跡から可能性を削ろう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "では時刻、入口、道具の順に確かめる。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "友人のいたずらが推理の熱と危うさを照らす。この行動には目的が二つ重なっている。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "表の目的が囮なら、裏の目的は何だ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "答えはまだ言わない。反証できる形にしよう。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "推理を勝利ではなく、検証として終わらせる。",
-      "eyes": "closed"
-    },
-    {
-      "op": "hide",
-      "actor": "nibulus"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "物語はここまで。残った問いは「暗号を解く快感と、真実を確かめる責任は別物である」。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ご来場、ありがとうございました。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "end"
+  {
+   "role": "私",
+   "actor": "nono_whitecat",
+   "costume": "default"
+  },
+  {
+   "role": "紳士泥棒",
+   "actor": "nibulus",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "poor_room": "bg/two-sen-coin-poor_room-2048x1152.png",
+  "coin_discovery": "bg/two-sen-coin-coin_discovery-2048x1152.png",
+  "braille_cipher": "bg/two-sen-coin-braille_cipher-2048x1152.png",
+  "false_triumph": "bg/two-sen-coin-false_triumph-2048x1152.png",
+  "prank_reveal": "bg/two-sen-coin-prank_reveal-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "大正の東京。貧乏長屋の、下駄屋の二階。六畳一間に、ふたりの青年が、くすぶっておりました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "仕事はない。金もない。あるのは、暇と、新聞と、それから、やたらに回る頭だけ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "江戸川乱歩『二銭銅貨』。乱歩が、世に出た、最初の小説でございます。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "暗号を解く快感と、その答えが本当かどうか確かめる責任は、まったく、別のもの。……どうぞ、最後まで、ご覧ください。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "poor_room",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "poor_room"
+  },
+  {
+   "op": "nar",
+   "text": "下駄屋の二階。煎餅布団が二枚。壁には、破れた新聞が、貼ってある。松村と「私」が、寝転がって、天井を見ている。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "nono_whitecat",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "……松村くん。腹が、減ったね。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "減った。……減ったと言うと、もっと、減る。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "今朝の食事は、何だったか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "水だ。……昨日の昼は、塩を、なめた。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "……贅沢な、話だ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "おい、新聞を、取ってくれ。……例の、紳士泥棒の続報が、出ているはずだ。"
+  },
+  {
+   "op": "nar",
+   "text": "「私」は、壁から、新聞を、一枚、はがした。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "「紳士泥棒、いまだ捕まらず。盗まれた五万円の行方、依然、不明」。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "五万円。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "電気工場の、職工の給料だ。……紳士風の男が、新聞記者のふりをして、工場の事務所に入り込み、まるごと、持ち去った。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "犯人は、捕まったんだ。……ひと月前に。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "そうだ。だが、金の在りかは、白状しない。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "どこかに、隠したまま、牢屋に入った。……五万円が、この東京のどこかで、眠っている。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "……五万円あったら、何を、食べる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……天丼。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "五万円で、天丼か。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "文句があるのか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "天丼を、五万杯だ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "一日三杯食べても、四十年以上、かかるよ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……四十年、天丼か。悪くない。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "悪いよ。体を、こわす。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "nono_whitecat"
+  },
+  {
+   "op": "show",
+   "actor": "nibulus",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "「私」の想像の中に、ひとりの男が、浮かんだ。シルクハットに、山高の燕尾服。新聞で見た、紳士泥棒。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "……五万円は、誰にも、渡さぬよ。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "隠し場所は、拙者の、頭の中にだけある。……牢から出る日まで、そっと、寝かせておく。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "頭のいい者だけが、探し当てられる、ささやかな、宝探しさ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "nibulus"
+  },
+  {
+   "op": "bg",
+   "src": "coin_discovery",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "coin_discovery"
+  },
+  {
+   "op": "nar",
+   "text": "午後。松村が、煙草を買いに、出かけて、帰ってきた。手のひらに、銅貨を一枚、のせている。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "nono_whitecat",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……おい。これを、見ろ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "二銭銅貨だね。……釣り銭かい。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "煙草屋の、婆さんがくれた、釣り銭だ。……だが、重さが、おかしい。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "重さ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "二銭にしては、軽すぎる。……それに、ほら、縁に、細い筋がある。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "貧乏をしていると、銅貨の重さに、敏感になるね。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "毎日、数えているからな。……一枚、一枚。"
+  },
+  {
+   "op": "nar",
+   "text": "松村は、銅貨の縁に、爪を立てて、ひねった。……銅貨が、二つに、割れた。中が、くりぬかれて、空洞になっていた。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "……割れた！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "落ち着け。……中身が、こぼれる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "手品の、仕掛け銅貨だ。……中に、紙が、入っている。"
+  },
+  {
+   "op": "nar",
+   "text": "空洞の中から、小さく折りたたまれた、薄い紙が、出てきた。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "……何が、書いてある。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……六字の名号が、ずらりと。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "お経かい。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "いや。……「南」「無」「阿」「弥」「陀」「仏」の六文字が、ばらばらの組み合わせで、何十個も、並んでいる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "……暗号か。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……暗号だ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "坊さんが、退屈しのぎに、書いたのかも。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "坊さんは、銅貨を、くりぬいたりしない。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "nono_whitecat"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "nono_whitecat",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "君、この煙草屋が、どこにあるか、知っているか。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "坂の下の。……あ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "そうだ。……紳士泥棒が、捕まる前に、立ち寄った店だと、新聞に、書いてあった。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "……泥棒の、銅貨だと。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "泥棒が、仲間に宛てて、金の在りかを、この銅貨に、隠したのかもしれない。……それが、手違いで、釣り銭に、まぎれ込んだ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "そんな、うまい話が。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "煙草屋の婆さんは、耳が遠い。……泥棒が、何を、どこに置いていったか、気にも、留めないだろう。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "うまい話は、ある。……今、僕の、手のひらの上に。"
+  },
+  {
+   "op": "nar",
+   "text": "松村の目が、ぎらぎらと、光っていた。「私」は、その目を、少しだけ、心配そうに、見ていた。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "nono_whitecat"
+  },
+  {
+   "op": "bg",
+   "src": "braille_cipher",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "braille_cipher"
+  },
+  {
+   "op": "nar",
+   "text": "夜。下駄屋の二階。ランプの下で、松村が、紙を、にらんでいる。もう、六時間も、そうしていた。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "nono_whitecat",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "松村くん、少し、休んだら。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "お茶を、いれたよ。……出がらしだけど。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "休めるものか。……五万円が、この紙の中で、眠っているんだ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "何か、わかったかい。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……「南無阿弥陀仏」は、六文字だ。六という数に、意味があるはずだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "六つの、点。……縦に二つ、横に三つ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "……縦二つ、横三つ、というと。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "点字だ！　盲人の使う、点字は、六つの点の、あるなしで、一文字を、表す。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "南、無、阿、弥、陀、仏。……それぞれが、点字の、六つの点の、一つずつに、当たる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "並んでいる文字は、点が、ある場所を、表している。……書かれていない文字は、点が、ない場所だ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "……君、点字を、知っているのか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "前に、盲学校の、按摩に、教わった。……覚えていて、よかった。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "……君は、何でも、知っているね。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "何でも、じゃない。……役に立たないことばかりだ。今まではな。"
+  },
+  {
+   "op": "nar",
+   "text": "松村は、紙に、点を、打ち始めた。一つ、また一つ。カナが、ゆっくりと、浮かび上がる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……ゴ。……ケン。……チヨー。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "……五軒町。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "ショージキドー。……正直堂。……カラ、オモチャノ、サツヲ、ウケトレ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "……おもちゃの、札を、受け取れ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "ウケトリニンノ、ナハ、ダイコクヤ、ショーテン。……受取人の名は、大黒屋商店。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "nono_whitecat"
+  },
+  {
+   "op": "bg",
+   "src": "false_triumph",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "false_triumph"
+  },
+  {
+   "op": "nar",
+   "text": "翌朝。下駄屋の二階。松村が、得意満面で、仁王立ちになっている。「私」は、布団の上に、座っている。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "nono_whitecat",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "解けた。……完全に、解けた。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "……おもちゃの札、とは。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "そこが、紳士泥棒の、賢いところだ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "五万円の札束を、そのまま、隠しておけば、誰かに、見つかる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "だから、おもちゃの札、と称して、正直堂という、印刷屋に、預けたんだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "大黒屋という名前で、受け取りに行けば、何も、疑われずに、渡してもらえる。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "……なるほど。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "でも、なぜ、泥棒は、わざわざ、暗号に、したんだろう。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "仲間に、確実に、伝えるためさ。……そして、頭の悪い者には、絶対に、わからないように。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "僕は、今朝、正直堂へ、行ってきた。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "もう、行ったのか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "「大黒屋の、使いの者です。預けてある、おもちゃの札を」と、言ったら、……主人は、何の疑いもなく、これを、出してきた。"
+  },
+  {
+   "op": "nar",
+   "text": "松村は、懐から、分厚い、風呂敷包みを、取り出した。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "五万円だ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "……ずいぶん、重そうだね。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "腕が、抜けるかと、思った。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "……開けて、みたかい。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "まだだ。……君と、二人で、開けようと、思ってね。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "……君は、やさしいね。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "当たり前だ。僕らは、ずっと、一緒に、腹を、空かせてきたんだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……警察に、届けよう。工場の、職工たちの、給料だ。……届ければ、懸賞金が、一割、出る。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "一割。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "五千円だ。……天丼が、五千杯。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "四十年が、四年に、なった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "四年なら、体も、もつ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "nono_whitecat"
+  },
+  {
+   "op": "bg",
+   "src": "prank_reveal",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "prank_reveal"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "nono_whitecat",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "松村が、震える指で、風呂敷を開いた。ぎっしり詰まった、札束。……ただし。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……何だ、これは。"
+  },
+  {
+   "op": "nar",
+   "text": "札の表には、大きく、「圓」の字。その横に、小さく、「おもちゃ」と、印刷してあった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……本当に、おもちゃの、札だ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "……ふ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "何が、おかしい。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "いや、……君の、その顔が。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "……ふふ。ふふふふ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "君。……まさか。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "ごめん、松村くん。……あれは、僕の、仕業だ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……君が、仕組んだと。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "二銭銅貨を、くりぬいたのも、点字の暗号を、作ったのも、正直堂に、おもちゃの札を、注文したのも。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "煙草屋の、婆さんに、少しばかり、頼んで、君に、その銅貨を、釣り銭として、渡してもらった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……なぜ、そんなことを！",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "君の頭が、どこまで、回るか、見てみたかったんだ。……まさか、本当に、点字まで、たどり着くとは。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……僕は、六時間、あの紙を、にらんでいた。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "知っている。……君の横顔が、一晩じゅう、ランプに、照らされていた。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "正直に言うと、途中で、少し、怖くなった。……君が、あんまり、本気だから。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……本気に、させたのは、誰だ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "……僕だね。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "nono_whitecat"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "nono_whitecat",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……では、五万円は。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "本物は、どこかで、まだ、眠っているよ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……僕は、もう少しで、おもちゃの札を、警察に、届けるところだった。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "そうだね。……届けていたら、大恥を、かくところだった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……君は、それを、止めるつもりだったのか。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "……開けてみたかい、と、聞いただろう。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……聞いた。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "解けた、と思った瞬間が、いちばん、危ない。……答えが、本当かどうか、確かめる前に、走り出してしまうから。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……いたずらの、くせに、説教か。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "いたずらだから、説教が、できるのさ。……本物の泥棒の暗号だったら、君は、今ごろ、泥棒の仲間に、狙われていたかもしれない。",
+   "eyes": "fun"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "松村は、怒って出ていく",
+     "jump": "m_angry"
+    },
+    {
+     "text": "松村は、笑いだす",
+     "jump": "m_laugh"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_angry"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……しばらく、口を、きかない。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "天丼は。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……自分の金で、食え。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……天丼は、別だ。……おもちゃの札で、買えるならな。"
+  },
+  {
+   "op": "jump",
+   "to": "m_end"
+  },
+  {
+   "op": "label",
+   "id": "m_laugh"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……ふ。……ふふふ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "怒らないのかい。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "怒るより、悔しい。……次は、僕が、君に、暗号を、作ってやる。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "楽しみに、しているよ。……解けたら、天丼を、おごってくれ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "label",
+   "id": "m_end"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "nono_whitecat"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "江戸川乱歩『二銭銅貨』、これにて、閉幕でございます。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "暗号を解いた松村の頭の冴えは、本物でした。……けれど、その答えが、本物の宝に、つながっているかどうかは、また、別の話。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ちなみに、乱歩は、この結末のあとに、もう一つ、小さな、どんでん返しを、用意しております。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "気になる方は、どうか、原作で。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

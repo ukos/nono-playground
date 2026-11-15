@@ -1,0 +1,673 @@
+{
+  "meta": {
+    "id": "rock-dragon-mine",
+    "title": "岩竜のいた鉱山",
+    "original": "『NONO: Blade of the Dawn』設定資料を基にしたNONO座新作",
+    "adaptation": "free",
+    "format": "v3",
+    "category": "blade",
+    "minutes": 22,
+    "synopsis": "大陸鉄道が走り始めた後、大溪谷の鉱山で再び地鳴りが起きる。nonoは敗れた岩竜の跡を追い、竜が黄金のつるはしではなく、山の熱を逃がす古い通気洞を守っていた可能性にたどり着く。",
+    "note": "ゲーム設定を基にした舞台独自の後日譚。追加設定はcast-and-notes.mdで明示し、セリフは本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "ユイ・オリジン／口上",
+      "actor": "yui_origin",
+      "costume": "default"
+    },
+    {
+      "role": "nono",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "鉱山親方ドルガ",
+      "actor": "extra_craftsman",
+      "costume": "default"
+    },
+    {
+      "role": "ハヤテ",
+      "actor": "hayate",
+      "costume": "default"
+    },
+    {
+      "role": "ユイ",
+      "actor": "yui",
+      "costume": "default"
+    },
+    {
+      "role": "岩竜",
+      "actor": "enemy_rock_dragon",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "tremor-station": "bg/rock-dragon-mine-01-tremor-station-2048x1152.png",
+    "claw-marks": "bg/rock-dragon-mine-02-claw-marks-2048x1152.png",
+    "blast-chamber": "bg/rock-dragon-mine-03-blast-chamber-2048x1152.png",
+    "dragon-vent": "bg/rock-dragon-mine-04-dragon-vent-2048x1152.png",
+    "mountain-breath": "bg/rock-dragon-mine-05-mountain-breath-2048x1152.png",
+    "mine-choice": "bg/rock-dragon-mine-06-mine-choice-2048x1152.png",
+    "shared-mountain": "bg/rock-dragon-mine-07-shared-mountain-2048x1152.png",
+    "canyon-dawn": "bg/rock-dragon-mine-08-canyon-dawn-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "bg",
+      "src": "tremor-station",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "tremor-station"
+    },
+    {
+      "op": "nar",
+      "text": "【大溪谷駅の地鳴り】"
+    },
+    {
+      "op": "show",
+      "actor": "yui_origin",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "extra_craftsman",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "yui_origin",
+      "text": "線路が伸びた後、鉱山の奥から二度目の返事が来ました。"
+    },
+    {
+      "op": "nar",
+      "text": "大溪谷駅の水桶が揺れ、坑道から温い風が吹く。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "岩竜は倒した。なのに地鳴りが戻った。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "倒したのは、あの場の戦いだ。山全部じゃない。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "鉄道用の鉄を急いで、下の層まで掘った。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "黄金のつるはしで開いた未来が、別の穴を開けたのか。"
+    },
+    {
+      "op": "nar",
+      "text": "坑道図の赤い新道が、古い空洞へ突き当たっている。"
+    },
+    {
+      "op": "hide",
+      "actor": "yui_origin"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_craftsman"
+    },
+    {
+      "op": "bg",
+      "src": "claw-marks",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "claw-marks"
+    },
+    {
+      "op": "nar",
+      "text": "【暗い旧坑道】"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_craftsman",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "hayate",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "燭台の外側に、岩を内から削った太い爪跡が続く。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "外へ出たい跡じゃない。奥へ押し戻そうとした跡だ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "竜が崩落を広げたと思っていた。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "逆かもしれない。崩れる岩を支えてた。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "槍の突進痕と同じだ。踏ん張る側は、石を後ろへ飛ばす。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "八方向の岩も、追い払うためだけではなかった？"
+    },
+    {
+      "op": "nar",
+      "text": "爪跡の先から、規則正しい熱い息が届く。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_craftsman"
+    },
+    {
+      "op": "hide",
+      "actor": "hayate"
+    },
+    {
+      "op": "bg",
+      "src": "blast-chamber",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "blast-chamber"
+    },
+    {
+      "op": "nar",
+      "text": "【発破前の広間】"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_craftsman",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "鉱夫たちは新鉱脈の壁へ、爆弾を六つ並べていた。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "明日の朝、ここを開ける予定だった。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "壁の向こうから温い風。塞げば熱が町側へ回る。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "爆弾を外そう。まず風の行き先を確かめる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "鉄が遅れれば、線路の修理も遅れる。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "一日の遅れと、鉱山全体の崩落。比べる順番は明らかよ。",
+      "eyes": "anger"
+    },
+    {
+      "op": "nar",
+      "text": "導火線が抜かれ、広間に山の呼吸だけが残る。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_craftsman"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "bg",
+      "src": "dragon-vent",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "dragon-vent"
+    },
+    {
+      "op": "nar",
+      "text": "【岩竜の熱抜き洞】"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "enemy_rock_dragon",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "hayate",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "最奥で岩竜が身を丸め、背後の縦穴へ熱を逃がしている。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "まだ生きていたか。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "剣を抜かない。潜る場所を奪ったのは、こっちだ。"
+    },
+    {
+      "op": "nar",
+      "text": "岩竜は地面へ爪を立て、八本の亀裂を周囲へ走らせる。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "攻撃じゃない。熱が亀裂へ分かれている。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "八方向の岩は、この洞を開き直す動きだった。"
+    },
+    {
+      "op": "nar",
+      "text": "縦穴の上で、塞がった石栓が赤く光る。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "enemy_rock_dragon"
+    },
+    {
+      "op": "hide",
+      "actor": "hayate"
+    },
+    {
+      "op": "bg",
+      "src": "mountain-breath",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "mountain-breath"
+    },
+    {
+      "op": "nar",
+      "text": "【山の呼吸を読む】"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_craftsman",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "enemy_rock_dragon",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "石栓を壊せば、熱は谷の無人側へ抜ける。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "岩竜なら下から押せる。僕らは上の瓦礫を外す。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_rock_dragon",
+      "text": "ゴ……ゴゴ……。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "あれが返事なら、初めて同じ作業をするな。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "合図は三回。二回では押さない。"
+    },
+    {
+      "op": "nar",
+      "text": "槌音が三度鳴り、岩竜の背で石栓が持ち上がる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "熱が抜けた。坑道の壁も静かだ。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_craftsman"
+    },
+    {
+      "op": "hide",
+      "actor": "enemy_rock_dragon"
+    },
+    {
+      "op": "bg",
+      "src": "mine-choice",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "mine-choice"
+    },
+    {
+      "op": "nar",
+      "text": "【鉱脈と棲み処】"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_craftsman",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "hayate",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "新鉱脈は竜の洞の向こうだ。道は二つある。"
+    },
+    {
+      "op": "choice",
+      "options": [
+        {
+          "text": "遠回りの新坑道を掘る",
+          "jump": "detour_tunnel"
+        },
+        {
+          "text": "採掘量を減らして旧坑道を使う",
+          "jump": "slow_mining"
+        }
+      ]
+    },
+    {
+      "op": "label",
+      "id": "detour_tunnel"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "遠回りしよう。鉄道は近道でも、鉱山まで近道にしない。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "測量は俺が走る。竜の亀裂から十歩離す。"
+    },
+    {
+      "op": "jump",
+      "to": "mine_merge"
+    },
+    {
+      "op": "label",
+      "id": "slow_mining"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "旧坑道を交替で使う。竜の熱が強い日は採掘を止める。"
+    },
+    {
+      "op": "say",
+      "actor": "hayate",
+      "text": "速さを誇る俺が、止まる日を知らせよう。"
+    },
+    {
+      "op": "label",
+      "id": "mine_merge"
+    },
+    {
+      "op": "nar",
+      "text": "坑道図に、人の線と竜の線が違う色で引かれる。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_craftsman"
+    },
+    {
+      "op": "hide",
+      "actor": "hayate"
+    },
+    {
+      "op": "bg",
+      "src": "shared-mountain",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "shared-mountain"
+    },
+    {
+      "op": "nar",
+      "text": "【二つの入口】"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "enemy_rock_dragon",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "鉱山口の横に、岩竜の熱抜き洞へ続く石門が残される。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "立入禁止ではなく「山の通気口」。理由まで書いたのね。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "怖いから塞ぐと、また同じことになる。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_rock_dragon",
+      "text": "ゴロ……。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "今度の音は地鳴りじゃない。石が冷える音。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "岩竜のいた鉱山じゃない。岩竜がいる鉱山だ。"
+    },
+    {
+      "op": "nar",
+      "text": "遠くで列車が通り、石門の風が汽笛を谷へ運ぶ。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "enemy_rock_dragon"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "bg",
+      "src": "canyon-dawn",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "canyon-dawn"
+    },
+    {
+      "op": "nar",
+      "text": "【鉄より先の朝】"
+    },
+    {
+      "op": "show",
+      "actor": "yui_origin",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "extra_craftsman",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "翌朝、鉄鉱石の貨車は一両減り、崩落警報はゼロになる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "収入は減った。だが鉱山は明日も残る。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "黄金のつるはしは、何でも掘る許可証じゃない。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "掘らない場所を決める道具でもあるんだな。"
+    },
+    {
+      "op": "say",
+      "actor": "yui_origin",
+      "text": "倒した敵の跡を調べると、勝利の形まで変わります。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "yui_origin",
+      "text": "谷の朝は、鉄より先に山の呼吸を数えました。"
+    },
+    {
+      "op": "hide",
+      "actor": "yui_origin"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_craftsman"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

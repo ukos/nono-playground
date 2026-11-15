@@ -7,9 +7,9 @@
   "category": "能・歌舞伎",
   "adaptation": "moderate",
   "format": "v3",
-  "minutes": 40,
+  "minutes": 42,
   "synopsis": "全五景で「裏切りで消したはずの声は、罪の内側から戻る」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
-  "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
  },
  "cast": [
   {
@@ -58,33 +58,22 @@
   {
    "op": "say",
    "actor": "nono",
-   "text": "ようこそ、NONO座へ。本日の演目は『東海道四谷怪談』。",
-   "eyes": "normal"
+   "text": "江戸、四谷。貧しい長屋に、浪人の民谷伊右衛門と、その妻、お岩が、暮らしておりました。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "能・歌舞伎の一席を、全五景でお届けします。",
-   "mouth": "open",
-   "eyes": "normal"
+   "text": "伊右衛門は、主家を失い、傘張りの内職で食いつなぐ日々。……隣には、裕福な伊藤家の屋敷がありました。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "この舞台の核は「裏切りで消したはずの声は、罪の内側から戻る」。",
-   "eyes": "sorrow"
+   "text": "歌舞伎『東海道四谷怪談』。日本でいちばん有名な、怪談でございます。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "台詞はすべて今夜のための書き下ろしです。"
-  },
-  {
-   "op": "say",
-   "actor": "nono",
-   "text": "それでは、幕を開けましょう。",
-   "mouth": "open",
-   "eyes": "joy"
+   "text": "裏切りで消したはずの声は、遠くへは、行きません。……罪を犯した者の、内側から、戻ってくるのです。"
   },
   {
    "op": "hide",
@@ -101,7 +90,7 @@
   },
   {
    "op": "nar",
-   "text": "第1景「四谷の長屋」。困窮の中で伊右衛門が出世と欲望に揺れる。"
+   "text": "四谷の裏長屋。薄暗い一間に、張りかけの傘が、いくつも、干してある。産後のお岩が、布団の上で、赤子をあやしている。"
   },
   {
    "op": "show",
@@ -116,93 +105,92 @@
   {
    "op": "say",
    "actor": "akane",
-   "text": "「四谷の長屋」へ来た。困窮の中で伊右衛門が出世と欲望に揺れる。",
-   "eyes": "normal",
-   "mouth": "open"
+   "text": "……あなた。今日も、傘の内職を。"
   },
   {
    "op": "say",
    "actor": "yoru",
-   "text": "ここで黙れば、誰かが代わりに意味を決める。",
-   "eyes": "joy"
+   "text": "……ああ。武士が、傘張りだ。"
   },
   {
    "op": "say",
    "actor": "akane",
-   "text": "私が守りたいのは「裏切りで消したはずの声は、罪の内側から戻る」だ。",
-   "eyes": "anger"
-  },
-  {
-   "op": "nar",
-   "text": "四谷の長屋の空気が変わり、二人は言葉の裏を測る。"
+   "text": "武士でも、傘でも、ご飯は、食べられます。"
   },
   {
    "op": "say",
    "actor": "yoru",
-   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "say",
-   "actor": "akane",
-   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-   "eyes": "fun",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "yoru",
-   "text": "過去は変えられない。だが次の手は選べる。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "nar",
-   "text": "遠くの音が途切れる。困窮の中で伊右衛門が出世と欲望に揺れる。"
-  },
-  {
-   "op": "say",
-   "actor": "akane",
-   "text": "困窮の中で伊右衛門が出世と欲望に揺れる。その事実から目をそらさない。",
-   "eyes": "crying"
-  },
-  {
-   "op": "say",
-   "actor": "yoru",
-   "text": "恐れを消すのではなく、恐れたまま進もう。",
+   "text": "……お前は、いつも、そう言う。",
    "eyes": "closed"
   },
   {
    "op": "say",
    "actor": "akane",
-   "text": "私の名ではなく、行いで答えを残す。",
-   "eyes": "normal",
-   "mouth": "open"
-  },
-  {
-   "op": "nar",
-   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+   "text": "あなたの、張った傘は、雨が、漏りません。……近所の人が、褒めていましたよ。"
   },
   {
    "op": "say",
    "actor": "yoru",
-   "text": "その答えを、次の場面まで持って行こう。",
+   "text": "……傘張りの腕を、褒められても、な。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "赤子の、乳が、出なくて。……薬を、買えれば、いいのですけれど。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "金が、ない。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……そうですね。"
+  },
+  {
+   "op": "nar",
+   "text": "伊右衛門は、障子の隙間から、隣の伊藤家の、立派な屋敷を、眺めた。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……隣の伊藤喜兵衛どのが、また、使いをよこした。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "伊藤さまが、うちに、何を。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "お前に、産後の、よく効く薬を、くださると。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "まあ。……ありがたい。",
    "eyes": "joy"
   },
   {
    "op": "say",
    "actor": "akane",
-   "text": "ここで決める。逃げず、相手の声を聞く。",
-   "eyes": "anger"
-  },
-  {
-   "op": "nar",
-   "text": "残された沈黙が、次の行動を促す。"
+   "text": "お礼に、何を、お持ちしましょう。……わたしの、嫁入りの、櫛くらいしか。"
   },
   {
    "op": "say",
    "actor": "yoru",
-   "text": "ならば私も、その決断の重さを分け合う。",
-   "eyes": "sorrow"
+   "text": "……礼など、要らぬ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……ありがたい、か。"
+  },
+  {
+   "op": "nar",
+   "text": "伊右衛門の顔に、一瞬、暗い影が、走った。お岩は、それに、気づかなかった。"
   },
   {
    "op": "hide",
@@ -211,6 +199,95 @@
   {
    "op": "hide",
    "actor": "yoru"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "nibulus",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "その晩。長屋の外。伊右衛門と、薬売りの直助が、ひそひそと、話している。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "旦那。伊藤家の話、聞きやしたか。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……喜兵衛どのの孫娘、お梅どのが、拙者に、惚れておると。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "惚れてるどころか、恋煩いで、寝込んでるそうで。……お梅さまを嫁にすりゃ、伊藤家の跡継ぎ。仕官の口も、思いのまま。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……拙者には、お岩がおる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "だから、喜兵衛さまは、薬を。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……あの薬は。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "旦那。知らねえふりを、なさいな。……知らなきゃ、旦那は、悪くねえ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……直助、口が過ぎるぞ。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "あっしは、あっしで、狙ってるもんが、ありやしてね。……お岩さまの妹の、お袖さま。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……お袖を。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "互いに、欲しいもんを、取りに行きやしょう。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……拙者は、何も、せぬぞ。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "ええ、ええ。旦那は、何も、しやしねえ。……それで、いいんで。"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "nibulus"
   },
   {
    "op": "bg",
@@ -223,116 +300,207 @@
   },
   {
    "op": "nar",
-   "text": "第2景「毒と鏡」。お岩の顔が毒で崩れ裏切りの全貌が見える。"
+   "text": "翌日。長屋。お岩が、伊藤家から届いた薬を、湯に溶かして、飲んだ。……しばらくして、顔に、焼けるような、痛みが、走った。"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……熱い。……顔が。"
+  },
+  {
+   "op": "nar",
+   "text": "お岩は、震える手で、鏡を、取った。……鏡の中の顔は、片目が、腫れ上がり、ひどく、ただれていた。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……これは、誰。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……わたし、なの。"
+  },
+  {
+   "op": "nar",
+   "text": "外から、按摩の宅悦が、ことの次第を、震え声で、告げにきた。薬は、伊藤家が、わざと、毒を盛ったものだったと。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……隣の、伊藤家が。……わたしの顔を。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "お梅さまを、あの人と、添わせるために。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……いいえ、まさか。あの人が、そんなことを、許すはずが。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……あの人は。……知っていたの。"
+  },
+  {
+   "op": "nar",
+   "text": "宅悦は、目を伏せた。……それが、答えだった。"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "お岩は、鏡台の前に、座った。そして、櫛を、手に取った。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……髪を、梳かなければ。……伊藤家へ、お礼を、言いに、行くのだから。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "女の、身だしなみ。……乱れた髪で、人前には、出られない。"
+  },
+  {
+   "op": "nar",
+   "text": "櫛を、髪に通すたびに、黒い髪が、ごっそりと、抜け落ちた。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……抜ける。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "抜けても、抜けても、梳かずには、いられない。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……あの人と、祝言を挙げた日も、こうして、髪を、梳いた。"
+  },
+  {
+   "op": "nar",
+   "text": "抜け落ちた髪を、握りしめると、そこから、赤いものが、ぽたぽたと、滴った。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……恨めしい。……この髪の、一筋、一筋が。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……伊右衛門どの。……恨めしい。"
+  },
+  {
+   "op": "nar",
+   "text": "部屋を飛び出そうとして、お岩は、柱の釘に、つまずいた。……倒れた先に、抜き身の刀が、あった。"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "left"
+  },
+  {
+   "op": "nar",
+   "text": "夕刻。伊右衛門が、長屋に戻ってきた。部屋の中は、静まり返っていた。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……帰ったぞ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……返事を、せぬか。"
+  },
+  {
+   "op": "nar",
+   "text": "布団の脇に、お岩が、倒れていた。もう、息は、なかった。……鏡が、そばに、転がっていた。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……手が、氷のようだ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……拙者が、殺したのでは、ない。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "拙者は、知らぬふりを、しただけだ。……毒を盛ったのは、伊藤家だ。刀に転んだのは、お岩だ。"
   },
   {
    "op": "show",
    "actor": "nibulus",
-   "pos": "left"
-  },
-  {
-   "op": "show",
-   "actor": "yui",
    "pos": "right"
   },
   {
    "op": "say",
    "actor": "nibulus",
-   "text": "「毒と鏡」へ来た。お岩の顔が毒で崩れ裏切りの全貌が見える。",
-   "eyes": "joy",
-   "mouth": "open"
+   "text": "旦那。……そうやって、言い訳を、積み上げていきゃあ、どこにも、旦那のせいは、なくなりやすね。"
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "ここで黙れば、誰かが代わりに意味を決める。",
+   "actor": "yoru",
+   "text": "……それ以上、言うな。",
    "eyes": "anger"
   },
   {
    "op": "say",
    "actor": "nibulus",
-   "text": "私が守りたいのは「裏切りで消したはずの声は、罪の内側から戻る」だ。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "nar",
-   "text": "毒と鏡の空気が変わり、二人は言葉の裏を測る。"
+   "text": "下男の小平が、見てやした。……あいつも、片づけねえと。"
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
-   "eyes": "fun"
-  },
-  {
-   "op": "say",
-   "actor": "nibulus",
-   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-   "eyes": "surprise",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "過去は変えられない。だが次の手は選べる。",
-   "eyes": "crying"
-  },
-  {
-   "op": "nar",
-   "text": "遠くの音が途切れる。お岩の顔が毒で崩れ裏切りの全貌が見える。"
-  },
-  {
-   "op": "say",
-   "actor": "nibulus",
-   "text": "お岩の顔が毒で崩れ裏切りの全貌が見える。その事実から目をそらさない。",
+   "actor": "yoru",
+   "text": "……戸板を、持ってこい。",
    "eyes": "closed"
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "恐れを消すのではなく、恐れたまま進もう。",
-   "eyes": "normal"
-  },
-  {
-   "op": "say",
    "actor": "nibulus",
-   "text": "私の名ではなく、行いで答えを残す。",
-   "eyes": "joy",
-   "mouth": "open"
-  },
-  {
-   "op": "nar",
-   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+   "text": "へい。……旦那も、とうとう、手を、汚しやすね。"
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "その答えを、次の場面まで持って行こう。",
-   "eyes": "anger"
+   "actor": "yoru",
+   "text": "……汚すのでは、ない。片づけるのだ。"
   },
   {
-   "op": "say",
-   "actor": "nibulus",
-   "text": "ここで決める。逃げず、相手の声を聞く。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "nar",
-   "text": "残された沈黙が、次の行動を促す。"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "ならば私も、その決断の重さを分け合う。",
-   "eyes": "fun"
+   "op": "hide",
+   "actor": "yoru"
   },
   {
    "op": "hide",
    "actor": "nibulus"
-  },
-  {
-   "op": "hide",
-   "actor": "yui"
   },
   {
    "op": "bg",
@@ -345,116 +513,173 @@
   },
   {
    "op": "nar",
-   "text": "第3景「戸板の川」。遺骸を戸板に打ちつけ流した罪が戻ってくる。"
+   "text": "深夜。砂村の、隠亡堀。川べりに、伊右衛門と直助が、一枚の戸板を、担いで立っている。"
+  },
+  {
+   "op": "nar",
+   "text": "戸板の表と裏に、何かが、打ちつけてあった。"
   },
   {
    "op": "show",
-   "actor": "akane",
+   "actor": "yoru",
    "pos": "left"
   },
   {
    "op": "show",
-   "actor": "yoru",
+   "actor": "nibulus",
    "pos": "right"
   },
   {
    "op": "say",
-   "actor": "akane",
-   "text": "「戸板の川」へ来た。遺骸を戸板に打ちつけ流した罪が戻ってくる。",
-   "eyes": "anger",
-   "mouth": "open"
+   "actor": "nibulus",
+   "text": "……表に、お岩さま。裏に、小平。……不義密通で、二人で、心中したことにしやしょう。"
   },
   {
    "op": "say",
    "actor": "yoru",
-   "text": "ここで黙れば、誰かが代わりに意味を決める。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "say",
-   "actor": "akane",
-   "text": "私が守りたいのは「裏切りで消したはずの声は、罪の内側から戻る」だ。",
-   "eyes": "fun"
+   "text": "……流せ。"
   },
   {
    "op": "nar",
-   "text": "戸板の川の空気が変わり、二人は言葉の裏を測る。"
+   "text": "戸板が、川面に、浮かんだ。ゆっくりと、流れていく。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "これで、旦那は、晴れて、お梅さまの、婿殿だ。"
   },
   {
    "op": "say",
    "actor": "yoru",
-   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "say",
-   "actor": "akane",
-   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-   "eyes": "crying",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "yoru",
-   "text": "過去は変えられない。だが次の手は選べる。",
+   "text": "……花嫁、か。",
    "eyes": "closed"
   },
   {
-   "op": "nar",
-   "text": "遠くの音が途切れる。遺骸を戸板に打ちつけ流した罪が戻ってくる。"
+   "op": "say",
+   "actor": "nibulus",
+   "text": "祝言は、今夜でしたな。……戻らなきゃ、花嫁が、待ってやすよ。"
   },
   {
-   "op": "say",
-   "actor": "akane",
-   "text": "遺骸を戸板に打ちつけ流した罪が戻ってくる。その事実から目をそらさない。",
-   "eyes": "normal"
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "nibulus"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "nibulus",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "数日後。同じ隠亡堀。伊右衛門が、釣り糸を、垂れている。祝言のあと、なぜか、毎晩、眠れなかった。"
   },
   {
    "op": "say",
    "actor": "yoru",
-   "text": "恐れを消すのではなく、恐れたまま進もう。",
-   "eyes": "joy"
+   "text": "……ここなら、静かだと、思うたが。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "旦那、目の下が、真っ黒だ。……新しいお嫁さんに、嫌われやすよ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "寝ると、夢を、見るのだ。……鏡を、見ている、女の夢を。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "旦那。……何か、流れてきやすぜ。"
+  },
+  {
+   "op": "nar",
+   "text": "上流から、一枚の戸板が、流れてきた。伊右衛門の、釣り糸に、引っかかった。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……戸板。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "……いや、まさか、そんなはずは。"
+  },
+  {
+   "op": "nar",
+   "text": "伊右衛門は、戸板を、引き寄せた。……表に、打ちつけられていたのは、お岩の、亡骸だった。"
+  },
+  {
+   "op": "nar",
+   "text": "亡骸の目が、かっと、開いた。"
+  },
+  {
+   "op": "hide",
+   "actor": "nibulus"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "center"
   },
   {
    "op": "say",
    "actor": "akane",
-   "text": "私の名ではなく、行いで答えを残す。",
-   "eyes": "anger",
+   "text": "……伊右衛門どの。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……目が、動いた！",
+   "eyes": "surprise",
    "mouth": "open"
   },
   {
    "op": "nar",
-   "text": "答えを急がず、選んだ手段の代価を確かめる。"
-  },
-  {
-   "op": "say",
-   "actor": "yoru",
-   "text": "その答えを、次の場面まで持って行こう。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "say",
-   "actor": "akane",
-   "text": "ここで決める。逃げず、相手の声を聞く。",
-   "eyes": "fun"
-  },
-  {
-   "op": "nar",
-   "text": "残された沈黙が、次の行動を促す。"
-  },
-  {
-   "op": "say",
-   "actor": "yoru",
-   "text": "ならば私も、その決断の重さを分け合う。",
-   "eyes": "surprise"
+   "text": "伊右衛門が、思わず、戸板を、ひっくり返した。……裏には、小平の、亡骸。その口が、動いた。"
   },
   {
    "op": "hide",
    "actor": "akane"
   },
   {
+   "op": "show",
+   "actor": "nibulus",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "……旦那、……い、今、しゃべりやした。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "見るな！　流せ！　流してしまえ！",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "戸板を、竿で突き放す。戸板は、渦に巻かれて、沈んでいった。……けれど、伊右衛門の耳には、まだ、あの声が、残っていた。"
+  },
+  {
    "op": "hide",
    "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "nibulus"
   },
   {
    "op": "bg",
@@ -467,159 +692,153 @@
   },
   {
    "op": "nar",
-   "text": "第4景「仇夢の屋敷」。提灯と襖の影にお岩の姿が何度も現れる。"
+   "text": "伊藤家の屋敷。婚礼の夜。座敷には、金屏風。花嫁のお梅が、伊右衛門の帰りを、待っている。"
   },
   {
    "op": "show",
-   "actor": "nibulus",
-   "pos": "left"
+   "actor": "yoru",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……花嫁御。今、戻った。"
+  },
+  {
+   "op": "nar",
+   "text": "伊右衛門は、綿帽子を、そっと、持ち上げた。……そこにあったのは、お梅の顔では、なかった。"
   },
   {
    "op": "show",
-   "actor": "yui",
+   "actor": "akane",
    "pos": "right"
   },
   {
    "op": "say",
-   "actor": "nibulus",
-   "text": "「仇夢の屋敷」へ来た。提灯と襖の影にお岩の姿が何度も現れる。",
-   "eyes": "sorrow",
+   "actor": "akane",
+   "text": "……お帰りなさいまし、あなた。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "その顔は！",
+   "eyes": "surprise",
    "mouth": "open"
   },
   {
-   "op": "say",
-   "actor": "yui",
-   "text": "ここで黙れば、誰かが代わりに意味を決める。",
-   "eyes": "fun"
+   "op": "nar",
+   "text": "伊右衛門は、刀を抜いて、斬りつけた。……花嫁は、倒れた。綿帽子が、ころがった。"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
   },
   {
    "op": "say",
-   "actor": "nibulus",
-   "text": "私が守りたいのは「裏切りで消したはずの声は、罪の内側から戻る」だ。",
-   "eyes": "surprise"
+   "actor": "yoru",
+   "text": "……やった。……やったぞ、お岩め。"
   },
   {
    "op": "nar",
-   "text": "仇夢の屋敷の空気が変わり、二人は言葉の裏を測る。"
+   "text": "倒れていたのは、お梅だった。お岩の顔は、どこにも、なかった。"
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+   "actor": "yoru",
+   "text": "……お梅、どの。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……違う。違う。拙者は、お岩を、斬ったのだ。",
    "eyes": "crying"
   },
   {
-   "op": "say",
-   "actor": "nibulus",
-   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-   "eyes": "closed",
-   "mouth": "open"
+   "op": "nar",
+   "text": "騒ぎを聞いて駆けつけた喜兵衛の顔が、……また、お岩の顔に、見えた。伊右衛門は、また、刀を、振るった。"
   },
   {
-   "op": "say",
-   "actor": "yui",
-   "text": "過去は変えられない。だが次の手は選べる。",
-   "eyes": "normal"
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "left"
   },
   {
    "op": "nar",
-   "text": "遠くの音が途切れる。提灯と襖の影にお岩の姿が何度も現れる。"
+   "text": "屋敷の廊下。提灯が、一つ、ぶら下がっている。伊右衛門は、刀を下げたまま、ふらふらと、歩いていた。"
   },
   {
    "op": "say",
-   "actor": "nibulus",
-   "text": "提灯と襖の影にお岩の姿が何度も現れる。その事実から目をそらさない。",
-   "eyes": "joy"
+   "actor": "yoru",
+   "text": "……誰も、いない。……屋敷じゅう、誰も。"
+  },
+  {
+   "op": "nar",
+   "text": "提灯が、ふいに、裂けた。中から、お岩の顔が、のぞいた。"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "right"
   },
   {
    "op": "say",
-   "actor": "yui",
-   "text": "恐れを消すのではなく、恐れたまま進もう。",
+   "actor": "akane",
+   "text": "……婚礼の、灯りが、まぶしいこと。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "消えろ！",
    "eyes": "anger"
   },
   {
-   "op": "say",
-   "actor": "nibulus",
-   "text": "私の名ではなく、行いで答えを残す。",
-   "eyes": "sorrow",
-   "mouth": "open"
-  },
-  {
    "op": "nar",
-   "text": "答えを急がず、選んだ手段の代価を確かめる。"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "その答えを、次の場面まで持って行こう。",
-   "eyes": "fun"
-  },
-  {
-   "op": "say",
-   "actor": "nibulus",
-   "text": "ここで決める。逃げず、相手の声を聞く。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "nar",
-   "text": "残された沈黙が、次の行動を促す。"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "ならば私も、その決断の重さを分け合う。",
-   "eyes": "crying"
-  },
-  {
-   "op": "choice",
-   "options": [
-    {
-     "text": "正面から問いかける",
-     "jump": "yotsuya-kaidan_direct"
-    },
-    {
-     "text": "相手の話を最後まで聞く",
-     "jump": "yotsuya-kaidan_listen"
-    }
-   ]
-  },
-  {
-   "op": "label",
-   "id": "yotsuya-kaidan_direct"
-  },
-  {
-   "op": "say",
-   "actor": "nibulus",
-   "text": "私は正面から問う。曖昧なまま次へは進まない。"
-  },
-  {
-   "op": "jump",
-   "to": "yotsuya-kaidan_merge"
-  },
-  {
-   "op": "label",
-   "id": "yotsuya-kaidan_listen"
-  },
-  {
-   "op": "say",
-   "actor": "yui",
-   "text": "結論を急がず、相手が何を恐れているかまで聞こう。"
-  },
-  {
-   "op": "label",
-   "id": "yotsuya-kaidan_merge"
-  },
-  {
-   "op": "nar",
-   "text": "選び方は違っても、二人は同じ核心へ戻ってくる。"
+   "text": "刀で、提灯を斬る。……提灯の火が消え、あたりは、闇になった。"
   },
   {
    "op": "hide",
-   "actor": "nibulus"
+   "actor": "akane"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……どこへ、逃げても。"
+  },
+  {
+   "op": "nar",
+   "text": "襖に、影が、映った。長い髪。片方だけの目。"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……伊右衛門どの。……どこへ、行くの。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……毒を盛ったのは、拙者では、ない。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "知らぬふりを、した。……それが、いちばん、ひどいこと。"
   },
   {
    "op": "hide",
-   "actor": "yui"
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
   },
   {
    "op": "bg",
@@ -632,116 +851,242 @@
   },
   {
    "op": "nar",
-   "text": "第5景「雪の因果」。逃げ場を失った伊右衛門が自らの罪と対面する。"
-  },
-  {
-   "op": "show",
-   "actor": "akane",
-   "pos": "left"
+   "text": "冬。蛇山の、庵室。雪が、しんしんと、降っている。伊右衛門は、ひとり、粗末な小屋に、身をひそめていた。"
   },
   {
    "op": "show",
    "actor": "yoru",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……逃げても、逃げても、あの顔が、ついてくる。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "蚊帳の中にも。……鼠の目にも。……雪の、白い中にも。"
+  },
+  {
+   "op": "nar",
+   "text": "戸口が、静かに、開いた。……雪明かりの中に、女が、ひとり、立っていた。"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
    "pos": "right"
   },
   {
    "op": "say",
-   "actor": "akane",
-   "text": "「雪の因果」へ来た。逃げ場を失った伊右衛門が自らの罪と対面する。",
-   "eyes": "fun",
-   "mouth": "open"
+   "actor": "yui",
+   "text": "……民谷伊右衛門どの。"
   },
   {
    "op": "say",
    "actor": "yoru",
-   "text": "ここで黙れば、誰かが代わりに意味を決める。",
+   "text": "……その立ち姿は。",
    "eyes": "surprise"
   },
   {
    "op": "say",
-   "actor": "akane",
-   "text": "私が守りたいのは「裏切りで消したはずの声は、罪の内側から戻る」だ。",
-   "eyes": "crying"
-  },
-  {
-   "op": "nar",
-   "text": "雪の因果の空気が変わり、二人は言葉の裏を測る。"
+   "actor": "yui",
+   "text": "……違います。……妹の、お袖です。"
   },
   {
    "op": "say",
    "actor": "yoru",
-   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
-   "eyes": "closed"
+   "text": "……お袖。"
   },
   {
    "op": "say",
-   "actor": "akane",
-   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-   "eyes": "normal",
-   "mouth": "open"
+   "actor": "yui",
+   "text": "姉の、仇を、討ちに、まいりました。"
   },
   {
    "op": "say",
-   "actor": "yoru",
-   "text": "過去は変えられない。だが次の手は選べる。",
-   "eyes": "joy"
-  },
-  {
-   "op": "nar",
-   "text": "遠くの音が途切れる。逃げ場を失った伊右衛門が自らの罪と対面する。"
-  },
-  {
-   "op": "say",
-   "actor": "akane",
-   "text": "逃げ場を失った伊右衛門が自らの罪と対面する。その事実から目をそらさない。",
+   "actor": "yui",
+   "text": "姉を、毒で殺し、戸板に打ちつけて、川に流した。……直助が、すべて、白状しました。",
    "eyes": "anger"
   },
   {
    "op": "say",
    "actor": "yoru",
-   "text": "恐れを消すのではなく、恐れたまま進もう。",
+   "text": "……直助が。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "直助は、わたしに言い寄りました。……そして、わたしが、実の妹と知って、自分で、命を、絶ちました。",
    "eyes": "sorrow"
   },
   {
    "op": "say",
-   "actor": "akane",
-   "text": "私の名ではなく、行いで答えを残す。",
-   "eyes": "fun",
-   "mouth": "open"
-  },
-  {
-   "op": "nar",
-   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+   "actor": "yoru",
+   "text": "……あいつも、か。"
   },
   {
    "op": "say",
    "actor": "yoru",
-   "text": "その答えを、次の場面まで持って行こう。",
+   "text": "拙者を、そそのかした男が、先に、くたばったか。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "罪は、誰の内側からも、戻ってくるのですね。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……お袖。拙者を、討つがよい。……もう、眠れぬのは、疲れた。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "討たれて、楽になろうと、なさるのですか。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "お袖の背後に、もう一つの影が、立っていた。……お岩だった。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……お袖。……もう、いいの。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……姉上。",
    "eyes": "surprise"
   },
   {
    "op": "say",
    "actor": "akane",
-   "text": "ここで決める。逃げず、相手の声を聞く。",
-   "eyes": "crying"
-  },
-  {
-   "op": "nar",
-   "text": "残された沈黙が、次の行動を促す。"
+   "text": "この人は、もう、十分に、罰を、受けた。……わたしの顔を、見るたびに。"
   },
   {
    "op": "say",
    "actor": "yoru",
-   "text": "ならば私も、その決断の重さを分け合う。",
-   "eyes": "closed"
+   "text": "……お岩。……拙者は、……拙者は。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "何か、言うことが、あるのですか。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……知らぬふりを、した。……毒と知って、黙っていた。……出世が、したかった。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……やっと、言いましたね。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "お袖は、仇を討つ",
+     "jump": "m_revenge"
+    },
+    {
+     "text": "お岩は、お袖を止める",
+     "jump": "m_stop"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_revenge"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "姉上。……わたしは、やはり、討ちます。……姉上の、ためではなく、わたしのために。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……そう。"
+  },
+  {
+   "op": "nar",
+   "text": "お袖の刀が、雪明かりに、光った。伊右衛門は、目を閉じた。……逃げようとは、しなかった。"
+  },
+  {
+   "op": "jump",
+   "to": "m_end"
+  },
+  {
+   "op": "label",
+   "id": "m_stop"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "お袖。……あなたまで、刀を、汚さないで。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……でも、姉上。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "この人は、明日も、明後日も、わたしの顔を、見るでしょう。……それで、いいの。"
+  },
+  {
+   "op": "nar",
+   "text": "お岩の姿が、雪の中に、溶けていった。伊右衛門は、雪の上に、崩れ落ちた。"
+  },
+  {
+   "op": "label",
+   "id": "m_end"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
   },
   {
    "op": "hide",
    "actor": "akane"
   },
   {
-   "op": "hide",
-   "actor": "yoru"
+   "op": "bg",
+   "src": null
   },
   {
    "op": "show",
@@ -751,29 +1096,26 @@
   {
    "op": "say",
    "actor": "nono",
-   "text": "物語はここまで。残った問いは「裏切りで消したはずの声は、罪の内側から戻る」。",
-   "eyes": "sorrow"
+   "text": "歌舞伎『東海道四谷怪談』、これにて、幕でございます。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
-   "eyes": "normal"
+   "text": "伊右衛門は、知らぬふりをすれば、自分は、悪くないと、思いました。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "ご来場、ありがとうございました。",
-   "eyes": "joy",
-   "mouth": "open"
+   "text": "けれど、黙って消したはずの声は、毎晩、内側から、戻ってきたのです。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "怪談の恐ろしさは、幽霊ではなく、……自分のしたことから、どこへも、逃げられない、ということなのかもしれません。"
   },
   {
    "op": "hide",
    "actor": "nono"
-  },
-  {
-   "op": "bg",
-   "src": null
   },
   {
    "op": "end"

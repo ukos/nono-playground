@@ -1,0 +1,660 @@
+{
+  "meta": {
+    "id": "moss-keeper-letter",
+    "title": "苔の番人が待っていたもの",
+    "original": "『NONO: Blade of the Dawn』設定資料を基にしたNONO座新作",
+    "adaptation": "free",
+    "format": "v3",
+    "category": "blade",
+    "minutes": 21,
+    "synopsis": "六つの空の島を巡った後、nonoは苔の番人モッサの星図石から古い手紙を見つける。手紙に託された「風待ちの種」をめぐり、守ることと送り出すことの違いをモッサと選び直す。",
+    "note": "ゲーム設定を基にした舞台独自の後日譚。追加設定はcast-and-notes.mdで明示し、セリフは本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "ユイ・オリジン／口上",
+      "actor": "yui_origin",
+      "costume": "default"
+    },
+    {
+      "role": "nono",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "モッサ（苔の番人）",
+      "actor": "enemy_moss_golem",
+      "costume": "default"
+    },
+    {
+      "role": "空路測りのリク（回想）",
+      "actor": "extra_archer",
+      "costume": "default"
+    },
+    {
+      "role": "風の龍",
+      "actor": "enemy_wind_dragon",
+      "costume": "default"
+    },
+    {
+      "role": "ユイ",
+      "actor": "yui",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "after-rain": "bg/moss-keeper-letter-01-after-rain-2048x1152.png",
+    "map-chamber": "bg/moss-keeper-letter-02-map-chamber-2048x1152.png",
+    "old-sky-route": "bg/moss-keeper-letter-03-old-sky-route-2048x1152.png",
+    "dragon-return": "bg/moss-keeper-letter-04-dragon-return-2048x1152.png",
+    "seed-vault": "bg/moss-keeper-letter-05-seed-vault-2048x1152.png",
+    "cliff-choice": "bg/moss-keeper-letter-06-cliff-choice-2048x1152.png",
+    "two-gardens": "bg/moss-keeper-letter-07-two-gardens-2048x1152.png",
+    "keeper-sunrise": "bg/moss-keeper-letter-08-keeper-sunrise-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "bg",
+      "src": "after-rain",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "after-rain"
+    },
+    {
+      "op": "nar",
+      "text": "【雨上がりの空島】"
+    },
+    {
+      "op": "show",
+      "actor": "yui_origin",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "enemy_moss_golem",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "yui_origin",
+      "text": "今夜の舞台は、雲より高い島の雨上がりです。",
+      "eyes": "joy"
+    },
+    {
+      "op": "nar",
+      "text": "星図石の溝にたまった雨が、六つの島の形に光る。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "モッサ、石の下で何か鳴った。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_moss_golem",
+      "text": "コツ、コツ。雨ノ後ダケ、返事ヲスル。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "宝箱じゃない。薄い石の引き出しだ。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_moss_golem",
+      "text": "開ケル役ハ、戻ッテ来タ者。私ハ待ツ役。"
+    },
+    {
+      "op": "nar",
+      "text": "nonoが石板を引くと、油紙の包みが現れる。"
+    },
+    {
+      "op": "hide",
+      "actor": "yui_origin"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "enemy_moss_golem"
+    },
+    {
+      "op": "bg",
+      "src": "map-chamber",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "map-chamber"
+    },
+    {
+      "op": "nar",
+      "text": "【星図石の小部屋】"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "enemy_moss_golem",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "石の内側には、手紙と灰色の種が七粒しまわれていた。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "宛名は「風の龍へ」。封は切れていない。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_moss_golem",
+      "text": "龍ガ戻ル日マデ、濡ラスナ。ソレダケ聞イタ。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "誰から聞いた？"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_moss_golem",
+      "text": "石ニ立ッテイタ、小サナ人。名ハ、リク。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "何年待った。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_moss_golem",
+      "text": "苔ガ肩カラ胸ヘ届クマデ。数ハ知ラナイ。"
+    },
+    {
+      "op": "nar",
+      "text": "包みの裏に、羽根を三本束ねた印がある。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "enemy_moss_golem"
+    },
+    {
+      "op": "bg",
+      "src": "old-sky-route",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "old-sky-route"
+    },
+    {
+      "op": "nar",
+      "text": "【消えた空路の記憶】"
+    },
+    {
+      "op": "show",
+      "actor": "extra_archer",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "enemy_moss_golem",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "星図石が淡く光り、島に残った昔の声を映す。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_archer",
+      "text": "モッサ、この種は地上の風では芽を出さない。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_moss_golem",
+      "text": "ナラ、島ニ置ク。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_archer",
+      "text": "いや。龍が戻ったら、手紙ごと渡してくれ。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_moss_golem",
+      "text": "オ前ハ戻ルカ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_archer",
+      "text": "空路を測り終えたら。七日で戻る。"
+    },
+    {
+      "op": "nar",
+      "text": "回想の空では、裂けた帆が北へ流されていく。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_moss_golem",
+      "text": "七日ハ、苔ヨリ短イハズダッタ。"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_archer"
+    },
+    {
+      "op": "hide",
+      "actor": "enemy_moss_golem"
+    },
+    {
+      "op": "bg",
+      "src": "dragon-return",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "dragon-return"
+    },
+    {
+      "op": "nar",
+      "text": "【龍が降りる石庭】"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "enemy_moss_golem",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "enemy_wind_dragon",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "龍笛の一音に、藍色の影が雲を割って降りる。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_wind_dragon",
+      "text": "その羽根印は、空路測りの印。まだ残っていたか。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "リクを知っているのか。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_wind_dragon",
+      "text": "最後の嵐で、地上へ降ろした。二度と空へ戻らなかった。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_moss_golem",
+      "text": "戻ラナイ。ナラ、私ノ待チ方ハ間違イカ。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_wind_dragon",
+      "text": "待ったから、言葉は消えなかった。誤りではない。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "手紙を開こう。待つ役は、もう一人じゃない。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "enemy_moss_golem"
+    },
+    {
+      "op": "hide",
+      "actor": "enemy_wind_dragon"
+    },
+    {
+      "op": "bg",
+      "src": "seed-vault",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "seed-vault"
+    },
+    {
+      "op": "nar",
+      "text": "【手紙が示す種蔵】"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "enemy_moss_golem",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "手紙には「種を半分は空へ、半分は地へ」とあった。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "風待ち草。高い風と低い風が交わる所で咲くのね。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "リクは帰れなくても、帰る道を種にした。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_moss_golem",
+      "text": "半分ヲ運ベバ、守ル数ガ減ル。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "守るものが減るんじゃない。届く場所が増えるの。",
+      "eyes": "joy",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_moss_golem",
+      "text": "石ノ言葉ヨリ、難シイ。"
+    },
+    {
+      "op": "nar",
+      "text": "島の端と地上の霊峰が、雲の切れ間に同時に見える。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "enemy_moss_golem"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "bg",
+      "src": "cliff-choice",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "cliff-choice"
+    },
+    {
+      "op": "nar",
+      "text": "【雲端の選択】"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "enemy_moss_golem",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_moss_golem",
+      "text": "nono。種ハ、ドコデ待ツ。"
+    },
+    {
+      "op": "choice",
+      "options": [
+        {
+          "text": "三粒を地上へ運ぶ",
+          "jump": "carry_ground"
+        },
+        {
+          "text": "まず島で芽を確かめる",
+          "jump": "test_island"
+        }
+      ]
+    },
+    {
+      "op": "label",
+      "id": "carry_ground"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "三粒は霊峰へ。残りはモッサと風を待つ。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_moss_golem",
+      "text": "離レテモ、同ジ風ヲ数エル。"
+    },
+    {
+      "op": "jump",
+      "to": "choice_merge"
+    },
+    {
+      "op": "label",
+      "id": "test_island"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "一粒をここで起こす。芽が出たら地上へ分けよう。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_moss_golem",
+      "text": "急ガズ、止メズ。ソレナラ出来ル。"
+    },
+    {
+      "op": "label",
+      "id": "choice_merge"
+    },
+    {
+      "op": "nar",
+      "text": "二人は種を握らず、風が通る浅い鉢へ置いた。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "enemy_moss_golem"
+    },
+    {
+      "op": "bg",
+      "src": "two-gardens",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "two-gardens"
+    },
+    {
+      "op": "nar",
+      "text": "【二つの風庭】"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "enemy_moss_golem",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "七日後。島と霊峰の鉢から、同じ銀色の芽が出る。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "葉が向き合ってる。遠くても風を渡してるみたい。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_moss_golem",
+      "text": "今日カラ私ハ、待ツダケデナイ。水ヲ運ブ。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "地上の鉢は僕らが見る。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_moss_golem",
+      "text": "一人デ守ルヨリ、数エルコトガ増エタ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "それを仲間って呼ぶのよ。",
+      "eyes": "joy"
+    },
+    {
+      "op": "nar",
+      "text": "銀の葉が一斉に鳴り、古い羽根印と同じ形を描く。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "enemy_moss_golem"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "bg",
+      "src": "keeper-sunrise",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "keeper-sunrise"
+    },
+    {
+      "op": "nar",
+      "text": "【番人の新しい朝】"
+    },
+    {
+      "op": "show",
+      "actor": "yui_origin",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "enemy_moss_golem",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "朝日が星図石を照らし、引き出しは空のまま閉じる。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_moss_golem",
+      "text": "手紙ハ届イタ。次ハ、花ノ便リヲ待ツ。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "その便りは、僕が持ってくる。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_moss_golem",
+      "text": "約束ハ七日ト言ウナ。苔デ数エル。"
+    },
+    {
+      "op": "say",
+      "actor": "yui_origin",
+      "text": "待つことは止まることではない。根を伸ばす時間です。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "yui_origin",
+      "text": "苔の番人の庭に、今夜も二つの風が通います。"
+    },
+    {
+      "op": "hide",
+      "actor": "yui_origin"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "enemy_moss_golem"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

@@ -1,0 +1,686 @@
+{
+  "meta": {
+    "id": "after-the-dawn",
+    "title": "夜明けのあと",
+    "original": "『NONO: Blade of the Dawn』設定資料を基にしたNONO座新作",
+    "adaptation": "free",
+    "format": "v3",
+    "category": "blade",
+    "minutes": 23,
+    "synopsis": "蚩尤を倒し、空島・大迷宮・鉄道の旅も終えたnonoは、暁の聖剣を一日だけ置いて「何のクエストもない日」を歩く。以前助けた人々が今度はnonoを助け、冒険の後にも続く暮らしを見せる本当のエピローグ。",
+    "note": "ゲーム設定を基にした舞台独自の後日譚。追加設定はcast-and-notes.mdで明示し、セリフは本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "ユイ・オリジン／口上",
+      "actor": "yui_origin",
+      "costume": "default"
+    },
+    {
+      "role": "nono",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "ユイ",
+      "actor": "yui",
+      "costume": "default"
+    },
+    {
+      "role": "はじまりの村の人",
+      "actor": "extra_villager",
+      "costume": "default"
+    },
+    {
+      "role": "レイ",
+      "actor": "rei",
+      "costume": "default"
+    },
+    {
+      "role": "ニブルス",
+      "actor": "nibulus",
+      "costume": "default"
+    },
+    {
+      "role": "メイ",
+      "actor": "mei",
+      "costume": "default"
+    },
+    {
+      "role": "風の龍",
+      "actor": "enemy_wind_dragon",
+      "costume": "default"
+    },
+    {
+      "role": "ヨル",
+      "actor": "yoru",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "sword-rest": "bg/after-the-dawn-01-sword-rest-2048x1152.png",
+    "breakfast-square": "bg/after-the-dawn-02-breakfast-square-2048x1152.png",
+    "ticket-without-destination": "bg/after-the-dawn-03-ticket-without-destination-2048x1152.png",
+    "mountain-picnic": "bg/after-the-dawn-04-mountain-picnic-2048x1152.png",
+    "clear-wasteland": "bg/after-the-dawn-05-clear-wasteland-2048x1152.png",
+    "helped-by-many": "bg/after-the-dawn-06-helped-by-many-2048x1152.png",
+    "sunset-bench": "bg/after-the-dawn-07-sunset-bench-2048x1152.png",
+    "next-morning": "bg/after-the-dawn-08-next-morning-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "bg",
+      "src": "sword-rest",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "sword-rest"
+    },
+    {
+      "op": "nar",
+      "text": "【剣を置く朝】"
+    },
+    {
+      "op": "show",
+      "actor": "yui_origin",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "yui_origin",
+      "text": "夜明けを取り戻した英雄に、次の朝は何を命じるでしょう。"
+    },
+    {
+      "op": "nar",
+      "text": "nonoは村の集会所で、暁の聖剣を木の掛け台へ置く。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "修理でも儀式でもないのね。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "一日だけ、剣を持たずに歩く。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "目的地は？",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "決めてない。クエスト欄も空だ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "それ、あなたには一番難しい試練かも。",
+      "eyes": "fun"
+    },
+    {
+      "op": "nar",
+      "text": "剣の光が消えず、静かに朝の壁を照らす。"
+    },
+    {
+      "op": "hide",
+      "actor": "yui_origin"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "bg",
+      "src": "breakfast-square",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "breakfast-square"
+    },
+    {
+      "op": "nar",
+      "text": "【頼まれない朝食】"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_villager",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "rei",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "広場へ出ると、村人がチーズと温かいパンを並べている。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "今日は魔物退治の依頼じゃない。座って食べて。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "代わりに何をすればいい？"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "皿を空にして。ずっと渡したかったお礼だから。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "依頼でない親切に、報酬条件を探さない。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "それが今日の課題？"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "課題にした時点で、少し違う。"
+    },
+    {
+      "op": "nar",
+      "text": "nonoは地図を開かず、パンを半分に割る。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_villager"
+    },
+    {
+      "op": "hide",
+      "actor": "rei"
+    },
+    {
+      "op": "bg",
+      "src": "ticket-without-destination",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "ticket-without-destination"
+    },
+    {
+      "op": "nar",
+      "text": "【行き先のない切符】"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "nibulus",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "駅でニブルスが、行き先欄の空いた切符を差し出す。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "十四駅のどこで降りてもいい。盗品じゃないぞ。",
+      "eyes": "fun"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "目的地なしで列車に乗るのか。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "窓から気になった所で降りればいいわ。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "宝探しでも、最初から宝を決めない日がある。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "じゃあ、いちばん先に朝日が差した駅で。"
+    },
+    {
+      "op": "nar",
+      "text": "列車の窓に、森、海、砂漠、雪山が順に流れる。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "nibulus"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "bg",
+      "src": "mountain-picnic",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "mountain-picnic"
+    },
+    {
+      "op": "nar",
+      "text": "【霊峰の昼休み】"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "mei",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "enemy_wind_dragon",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "朝日の差した霊峰駅で降りると、メイが茶を用意していた。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "風の龍も、今日は乗せる気がないそうです。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_wind_dragon",
+      "text": "背に乗れば旅になる。隣で雲を見るなら休みだ。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "龍にも休みがあるのか。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_wind_dragon",
+      "text": "呼ばれぬ時間が休みだった。今は、呼ばれても休める。"
+    },
+    {
+      "op": "say",
+      "actor": "mei",
+      "text": "薬草茶が冷めるまで、世界を救わないでください。",
+      "eyes": "fun"
+    },
+    {
+      "op": "nar",
+      "text": "三人の前を、六つの空島の影がゆっくり移る。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "mei"
+    },
+    {
+      "op": "hide",
+      "actor": "enemy_wind_dragon"
+    },
+    {
+      "op": "bg",
+      "src": "clear-wasteland",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "clear-wasteland"
+    },
+    {
+      "op": "nar",
+      "text": "【晴れた終末の地】"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "yoru",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "晴れた終末の大地では、灰の割れ目から小さな草が出ている。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "護衛はいらない。今日はあたしが道を覚えてる。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "前は空が赤黒くて、城しか見えなかった。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "目的が強いと、道の途中が消える。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "だから遠回りする。昔のあたしなら絶対選ばない道。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "剣がないと、足音がよく聞こえる。"
+    },
+    {
+      "op": "nar",
+      "text": "三つの足音が、崩れた城とは逆の方角へ進む。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "rei"
+    },
+    {
+      "op": "hide",
+      "actor": "yoru"
+    },
+    {
+      "op": "bg",
+      "src": "helped-by-many",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "helped-by-many"
+    },
+    {
+      "op": "nar",
+      "text": "【返される小さな助け】"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "extra_villager",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "帰り道、切れた靴紐、空の水筒、遅れた列車が重なる。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "こういう日は、剣がなくても困りごとは来るんだな。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "靴紐は竹細工の紐で直す。水は霊峰の茶を分けよう。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "列車には待ってもらったわ。駅長たち全員の判断で。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "僕が頼む前に？"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "今日は私たちがnonoを助ける日だから。"
+    },
+    {
+      "op": "nar",
+      "text": "十四駅の時計が、一分だけ同じところで待つ。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_villager"
+    },
+    {
+      "op": "bg",
+      "src": "sunset-bench",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "sunset-bench"
+    },
+    {
+      "op": "nar",
+      "text": "【夕暮れの空欄】"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "rei",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "村の外れの長椅子で、クエスト欄は一日中空のまま。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "何も達成してないのに、長い一日だった。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "朝食、列車、茶、遠回り。全部覚えてるでしょう。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "記録に残らない日は、消えた日ではない。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "明日は剣を取る。必要な人がいれば戦う。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "でも毎朝、必要を探しに行かなくていい。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "うん。夜明けは、合図じゃなく景色の日もある。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "rei"
+    },
+    {
+      "op": "bg",
+      "src": "next-morning",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "next-morning"
+    },
+    {
+      "op": "nar",
+      "text": "【夜明けの次の夜明け】"
+    },
+    {
+      "op": "show",
+      "actor": "yui_origin",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "翌朝。nonoは暁の聖剣の前で、すぐには手を伸ばさない。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "今日はどうする？"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "まず朝ごはん。そのあと、掲示板を見る。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "順番が変わった。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "世界が待てるなら、僕も少し待てる。"
+    },
+    {
+      "op": "say",
+      "actor": "yui_origin",
+      "text": "物語は剣を置いた所で終わらず、暮らしへ形を変えます。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "yui_origin",
+      "text": "これが、夜明けのあとに訪れた最初の一日です。"
+    },
+    {
+      "op": "hide",
+      "actor": "yui_origin"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

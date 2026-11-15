@@ -1,0 +1,669 @@
+{
+  "meta": {
+    "id": "fifteen-sacred-swords",
+    "title": "十五本の聖剣",
+    "original": "『NONO: Blade of the Dawn』設定資料を基にしたNONO座新作",
+    "adaptation": "free",
+    "format": "v3",
+    "category": "blade",
+    "minutes": 24,
+    "synopsis": "大迷宮から十五本すべての聖剣を持ち帰った夜、宝物庫の掛け台が一斉に鳴る。nonoと番人は剣に残る異なる伝承の断片をたどり、「なぜ同じ迷宮に集まったのか」という問いに、断定ではなく一つの答えを選ぶ。",
+    "note": "ゲーム設定を基にした舞台独自の後日譚。追加設定はcast-and-notes.mdで明示し、セリフは本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "ユイ・オリジン／口上",
+      "actor": "yui_origin",
+      "costume": "default"
+    },
+    {
+      "role": "nono",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "宝物庫の番人",
+      "actor": "extra_elder",
+      "costume": "default"
+    },
+    {
+      "role": "ユイ",
+      "actor": "yui",
+      "costume": "default"
+    },
+    {
+      "role": "レイ",
+      "actor": "rei",
+      "costume": "default"
+    },
+    {
+      "role": "迷宮の記録機",
+      "actor": "enemy_clockwork",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "sword-gallery": "bg/fifteen-sacred-swords-01-sword-gallery-2048x1152.png",
+    "eastern-storm": "bg/fifteen-sacred-swords-02-eastern-storm-2048x1152.png",
+    "makers-and-moons": "bg/fifteen-sacred-swords-03-makers-and-moons-2048x1152.png",
+    "kings-and-rock": "bg/fifteen-sacred-swords-04-kings-and-rock-2048x1152.png",
+    "light-and-dragon": "bg/fifteen-sacred-swords-05-light-and-dragon-2048x1152.png",
+    "flying-curse-fire": "bg/fifteen-sacred-swords-06-flying-curse-fire-2048x1152.png",
+    "fifteen-voices": "bg/fifteen-sacred-swords-07-fifteen-voices-2048x1152.png",
+    "hidden-epilogue": "bg/fifteen-sacred-swords-08-hidden-epilogue-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "bg",
+      "src": "sword-gallery",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "sword-gallery"
+    },
+    {
+      "op": "nar",
+      "text": "【十五の掛け台】"
+    },
+    {
+      "op": "show",
+      "actor": "yui_origin",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "yui_origin",
+      "text": "十五の刃がそろう夜、宝物庫は眠りません。"
+    },
+    {
+      "op": "nar",
+      "text": "掛け台の剣が、抜かれていないのに順番に鳴る。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "一振りごとなら静かだった。十五本目から合唱じゃ。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "同じ歌じゃない。風、雷、炎、鐘みたいな音。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "異なる土地の剣が、なぜ同じ迷宮に刺さっていた。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "今夜は強さじゃなく、来た道を調べよう。"
+    },
+    {
+      "op": "nar",
+      "text": "床に十五本の光が伸び、古い地図の形を作る。"
+    },
+    {
+      "op": "hide",
+      "actor": "yui_origin"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "bg",
+      "src": "eastern-storm",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "eastern-storm"
+    },
+    {
+      "op": "nar",
+      "text": "【大蛇と野火と雷】"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "天羽々斬の影は大蛇を断ち、草薙剣の風は野火を払う。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "布都御魂の雷だけ、戦いより先に道を照らした。",
+      "eyes": "surprise"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "三本とも、力の名前じゃなく危機の形を覚えてる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "大きな敵、燃える草、群がる敵。力も記憶に沿う。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "迷宮が能力を付けたんじゃなく、伝承を読んだ？"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "まだ仮説だ。剣自身に答えを言わせすぎないでおこう。"
+    },
+    {
+      "op": "nar",
+      "text": "三つの光景は混ざらず、別々の方角へ消える。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "bg",
+      "src": "makers-and-moons",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "makers-and-moons"
+    },
+    {
+      "op": "nar",
+      "text": "【鬼、枝刃、夫婦剣、月、妖刀】"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "rei",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "童子切安綱から酒盃、七支刀から七つの影が映る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "干将・莫耶は二度鳴る。二振りで一つの名だから。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "三日月宗近は夜だけ冴え、村正は傷に応じて強まる。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "同じ東の名でも、時代も生まれ方も違う。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "五本を「東の剣」で一束にしたら、記憶を削る。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "集めた数が増えるほど、まとめない注意が要る。"
+    },
+    {
+      "op": "nar",
+      "text": "月形の光の下で、五つの掛け台が別々に輝く。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "hide",
+      "actor": "rei"
+    },
+    {
+      "op": "bg",
+      "src": "kings-and-rock",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "kings-and-rock"
+    },
+    {
+      "op": "nar",
+      "text": "【王の剣と折れない剣】"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "エクスカリバーの鞘は傷を遠ざけ、デュランダルは岩を断つ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "守る力と、進む力。並ぶと逆向きに見える。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "でも、どちらも持ち主を帰すための力かもしれない。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "「かもしれない」で止めるのがよい。伝承は一枚ではない。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "強い剣ほど、説明を一つに決めない。覚えておく。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "鞘の柔らかな光と、割れた岩の光が同じ床で交わる。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "bg",
+      "src": "light-and-dragon",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "light-and-dragon"
+    },
+    {
+      "op": "nar",
+      "text": "【暗闇の光と竜の記憶】"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "enemy_clockwork",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "クラウ・ソラスが深層を照らし、グラムの影に竜が伏す。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_clockwork",
+      "text": "記録照合。光源機能。回転斬り増幅。由来は別系統。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "迷宮のからくりが話した。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "古い記録機じゃ。名を照合するだけで、真実は決めぬ。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "竜を斬った記憶と、闇を払う記憶。似せる必要はない。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_clockwork",
+      "text": "不一致を保存。不一致は故障ではない。"
+    },
+    {
+      "op": "nar",
+      "text": "二本の光は重ならず、暗闇を別の角度から照らす。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "hide",
+      "actor": "enemy_clockwork"
+    },
+    {
+      "op": "bg",
+      "src": "flying-curse-fire",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "flying-curse-fire"
+    },
+    {
+      "op": "nar",
+      "text": "【飛ぶ剣、呪い、炎】"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "rei",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "フラガラッハの影が往復し、ティルフィングの光が追尾する。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "便利な力ほど、戻り道や代価が書いてある。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ティルフィングは二度振るごとに傷を求める。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "レーヴァテインの炎は、草を燃やし道も作る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "剣は善悪で並んでいない。使い方の危うさまで残ってる。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "十五本を一つの正義に束ねたら、呪いより危険だ。"
+    },
+    {
+      "op": "nar",
+      "text": "赤い火の線が、追う光と戻る光の間に境を引く。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "hide",
+      "actor": "rei"
+    },
+    {
+      "op": "bg",
+      "src": "fifteen-voices",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "fifteen-voices"
+    },
+    {
+      "op": "nar",
+      "text": "【一振りを選ぶ問い】"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "迷宮は問うておる。十五本から、代表を一振り選ぶか。"
+    },
+    {
+      "op": "choice",
+      "options": [
+        {
+          "text": "一振りを入口へ飾る",
+          "jump": "one_symbol"
+        },
+        {
+          "text": "十五本を同じ距離で並べる",
+          "jump": "equal_circle"
+        }
+      ]
+    },
+    {
+      "op": "label",
+      "id": "one_symbol"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "代表は選ぶ。でも札に「入口の一振り」とだけ書く。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "王様にはしないのね。",
+      "eyes": "joy"
+    },
+    {
+      "op": "jump",
+      "to": "swords_merge"
+    },
+    {
+      "op": "label",
+      "id": "equal_circle"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "円に並べる。入口も奥もなく、見たい剣から見られる。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "順番を観客へ返すのね。",
+      "eyes": "joy"
+    },
+    {
+      "op": "label",
+      "id": "swords_merge"
+    },
+    {
+      "op": "nar",
+      "text": "掛け台が動き、十五の影が一つの輪になる。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "bg",
+      "src": "hidden-epilogue",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "hidden-epilogue"
+    },
+    {
+      "op": "nar",
+      "text": "【迷宮が集めたもの】"
+    },
+    {
+      "op": "show",
+      "actor": "yui_origin",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "記録機の最後の板には、剣ではなく旅人の足跡が刻まれる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "迷宮が集めたのは刃か、それを語った旅人か。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "答えは残そう。断定したら、次の物語が入れない。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "十五本そろえて、ようやく空席を作ったか。"
+    },
+    {
+      "op": "say",
+      "actor": "yui_origin",
+      "text": "聖剣の間に残った謎は、欠けではなく入口です。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "yui_origin",
+      "text": "伝承は並び、競わず、今夜の観客へ渡されました。"
+    },
+    {
+      "op": "hide",
+      "actor": "yui_origin"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

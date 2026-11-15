@@ -1,0 +1,656 @@
+{
+  "meta": {
+    "id": "wind-dragon-descends",
+    "title": "風の龍が空を降りた日",
+    "original": "『NONO: Blade of the Dawn』設定資料を基にしたNONO座新作",
+    "adaptation": "free",
+    "format": "v3",
+    "category": "blade",
+    "minutes": 22,
+    "synopsis": "龍笛を吹んでいない朝、風の龍がはじまりの村へ降りる。白い宝珠に入った亀裂と消えた谷風を直すため、nonoたちは龍が避けてきた地上の人々と古い風見の塔を訪れる。",
+    "note": "ゲーム設定を基にした舞台独自の後日譚。追加設定はcast-and-notes.mdで明示し、セリフは本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "ユイ・オリジン／口上",
+      "actor": "yui_origin",
+      "costume": "default"
+    },
+    {
+      "role": "nono",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "風の龍",
+      "actor": "enemy_wind_dragon",
+      "costume": "default"
+    },
+    {
+      "role": "ユイ",
+      "actor": "yui",
+      "costume": "default"
+    },
+    {
+      "role": "霊峰の仙人",
+      "actor": "extra_elder",
+      "costume": "default"
+    },
+    {
+      "role": "レイ",
+      "actor": "rei",
+      "costume": "default"
+    },
+    {
+      "role": "駅の技師",
+      "actor": "extra_craftsman",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "uncalled-arrival": "bg/wind-dragon-descends-01-uncalled-arrival-2048x1152.png",
+    "silent-market": "bg/wind-dragon-descends-02-silent-market-2048x1152.png",
+    "hermit-hut": "bg/wind-dragon-descends-03-hermit-hut-2048x1152.png",
+    "broken-weather-tower": "bg/wind-dragon-descends-04-broken-weather-tower-2048x1152.png",
+    "three-winds": "bg/wind-dragon-descends-05-three-winds-2048x1152.png",
+    "repair-yard": "bg/wind-dragon-descends-06-repair-yard-2048x1152.png",
+    "pearl-restored": "bg/wind-dragon-descends-07-pearl-restored-2048x1152.png",
+    "low-flight": "bg/wind-dragon-descends-08-low-flight-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "bg",
+      "src": "uncalled-arrival",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "uncalled-arrival"
+    },
+    {
+      "op": "nar",
+      "text": "【笛のない朝】"
+    },
+    {
+      "op": "show",
+      "actor": "yui_origin",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "enemy_wind_dragon",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "yui_origin",
+      "text": "龍笛が鳴らない朝ほど、空の声はよく響きます。"
+    },
+    {
+      "op": "nar",
+      "text": "はじまりの村の旗が止まり、藍色の龍が畑へ降りる。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "呼んでない。どうして地上へ？"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_wind_dragon",
+      "text": "谷の風が三つ、夜明けから戻らぬ。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "宝珠にひびが入ってる。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_wind_dragon",
+      "text": "空では直せぬ傷だ。人の塔へ案内してほしい。"
+    },
+    {
+      "op": "nar",
+      "text": "家々の戸が閉まり、畑の風車だけが重く一度回る。"
+    },
+    {
+      "op": "hide",
+      "actor": "yui_origin"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "enemy_wind_dragon"
+    },
+    {
+      "op": "bg",
+      "src": "silent-market",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "silent-market"
+    },
+    {
+      "op": "nar",
+      "text": "【息を止めた市場】"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "enemy_wind_dragon",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "市場の布屋根は垂れ、誰も龍の前へ出てこない。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "三方向の風弾を見た人なら、隠れるのも無理ないわ。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_wind_dragon",
+      "text": "あれは戦いの息。今は吐かぬ。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "言葉より先に、傷を見せよう。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "白い宝珠を地面へ置いて。敵なら弱点を差し出さない。",
+      "eyes": "normal"
+    },
+    {
+      "op": "nar",
+      "text": "宝珠の亀裂から、小さな風鈴の音が漏れる。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_wind_dragon",
+      "text": "この音を知る者を探している。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "enemy_wind_dragon"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "bg",
+      "src": "hermit-hut",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "hermit-hut"
+    },
+    {
+      "op": "nar",
+      "text": "【仙人の風見図】"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "enemy_wind_dragon",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "その音は、霊峰の旧風見塔の風鈴核じゃ。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "塔は地上の人が造ったの？"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "龍の風を盗むためではない。雪崩の前触れを聞くためじゃ。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_wind_dragon",
+      "text": "昔、塔へ近づけば矢が飛んだ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "恐れた者が撃った。だが塔を建てた者とは別人じゃ。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "一度の矢で、地上全部を決めたんだな。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_wind_dragon",
+      "text": "長く生きても、短い痛みを忘れぬ。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "enemy_wind_dragon"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "bg",
+      "src": "broken-weather-tower",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "broken-weather-tower"
+    },
+    {
+      "op": "nar",
+      "text": "【折れた風見塔】"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "enemy_wind_dragon",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "rei",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "谷の風見塔は倒れ、三枚の羽根が岩間に散っていた。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "風の通り道に、落石が三つ。塔ごと塞いでいる。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "だから三つの谷風が戻らない。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_wind_dragon",
+      "text": "私なら岩を砕ける。だが村まで風弾が届く。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "三方向を同時に吐くなら、二方向を布で受ける。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "残る一方向を落石へ向けよう。"
+    },
+    {
+      "op": "nar",
+      "text": "レイが古い帆布を二つの崖へ張る。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "enemy_wind_dragon"
+    },
+    {
+      "op": "hide",
+      "actor": "rei"
+    },
+    {
+      "op": "bg",
+      "src": "three-winds",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "three-winds"
+    },
+    {
+      "op": "nar",
+      "text": "【三つの風をほどく】"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "enemy_wind_dragon",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "rei",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "龍の息が三筋に分かれ、二筋は帆布で上空へ返る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "右の布、持つ。次は左を一尺下げて。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "今だ。中央の岩だけ狙って！"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_wind_dragon",
+      "text": "地の者よ。私の息を、道へ変えてくれ。"
+    },
+    {
+      "op": "nar",
+      "text": "中央の岩が割れ、止まっていた谷風が塔を貫く。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "風鈴核が鳴った。宝珠の音と同じ。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "塔が龍を縛ったんじゃない。龍の帰る音を覚えてた。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "enemy_wind_dragon"
+    },
+    {
+      "op": "hide",
+      "actor": "rei"
+    },
+    {
+      "op": "bg",
+      "src": "repair-yard",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "repair-yard"
+    },
+    {
+      "op": "nar",
+      "text": "【村の修理場】"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "enemy_wind_dragon",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "extra_craftsman",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "技師たちは閉じた戸から出て、折れた羽根を測り始める。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "この羽根は鉄だけじゃ重い。巨木の木材を芯にしよう。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_wind_dragon",
+      "text": "私の爪跡が残るが、よいか。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "残してくれ。次に直す者が向きを間違えない。",
+      "mouth": "open"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "怖くないの？"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "怖いさ。だから寸法を取る。分からない物を減らすんだ。"
+    },
+    {
+      "op": "nar",
+      "text": "龍は初めて、地上の槌音のそばで目を閉じる。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "enemy_wind_dragon"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_craftsman"
+    },
+    {
+      "op": "bg",
+      "src": "pearl-restored",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "pearl-restored"
+    },
+    {
+      "op": "nar",
+      "text": "【宝珠に戻る音】"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "enemy_wind_dragon",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "新しい風鈴核の音が、白い宝珠の亀裂を光で縫う。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "傷は消えない。でも、風は漏れていない。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_wind_dragon",
+      "text": "傷があるから、この音を地上で拾える。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "次は笛を待たずに来てもいい。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_wind_dragon",
+      "text": "畑へ降りれば、また皆が隠れる。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "そのときは市場に降りて。食べ物で怒る方が先になるわ。",
+      "eyes": "fun"
+    },
+    {
+      "op": "nar",
+      "text": "止まっていた市場の鈴が、端から順に鳴り始める。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "enemy_wind_dragon"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "bg",
+      "src": "low-flight",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "low-flight"
+    },
+    {
+      "op": "nar",
+      "text": "【地上すれすれの帰路】"
+    },
+    {
+      "op": "show",
+      "actor": "yui_origin",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "enemy_wind_dragon",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "龍は高空へ急がず、家々の屋根より少し上を飛ぶ。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_wind_dragon",
+      "text": "地上の音は多い。鍋、車輪、子どもの足。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "空からじゃ聞こえなかった？"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_wind_dragon",
+      "text": "聞こうとしなかった。"
+    },
+    {
+      "op": "say",
+      "actor": "yui_origin",
+      "text": "龍が降りた日、村人だけでなく龍も姿を現しました。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "yui_origin",
+      "text": "風は空と地上の、どちらか片方では生まれません。"
+    },
+    {
+      "op": "hide",
+      "actor": "yui_origin"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "enemy_wind_dragon"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

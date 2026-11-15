@@ -1,0 +1,930 @@
+{
+  "meta": {
+    "id": "nono-06-six-sky-islands",
+    "title": "第六章（番外編）　龍笛と六つの空の島",
+    "original": "『NONO: Blade of the Dawn』公式攻略本 第10章・統合仕様書 第36節",
+    "adaptation": "moderate",
+    "format": "v3",
+    "minutes": 31,
+    "synopsis": "天嶺の霊峰で風の龍の三方向弾を越え、戦いの後に龍笛を託されたnonoたちは、初飛行で雲上の六島へ向かう。敵と誤解されてきた苔のゴーレム・モッサの星図を頼りに、歌・謎・夜・供物・灯りの試練を越え、巡りの島の封印を解く。",
+    "note": "Stage Actor向け番外編。風の龍の外見・中ボス戦・flag:ryu139・龍笛の飛行仕様、空島の試練・星座の宝物は資料に基づく。苔むした岩のゴーレムを非戦闘の空島守人とする設定は発注者指定であり、本作ではモッサの名で舞台化した。台詞とナレーションは全て書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "nono（旅人／狂言回し）",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "ユイ",
+      "actor": "yui",
+      "costume": "default"
+    },
+    {
+      "role": "レイ",
+      "actor": "rei",
+      "costume": "default"
+    },
+    {
+      "role": "風の龍",
+      "actor": "enemy_wind_dragon",
+      "costume": "default"
+    },
+    {
+      "role": "空島の守人モッサ（苔むした岩のゴーレム／非戦闘役）",
+      "actor": "enemy_moss_golem",
+      "costume": "default"
+    },
+    {
+      "role": "謎かけの島の仙人",
+      "actor": "extra_elder",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "dragon_peak_dawn": "bg/ch6_01_dragon_peak_dawn-2048x1152.png",
+    "cloud_flight": "bg/ch6_02_cloud_flight-2048x1152.png",
+    "first_island": "bg/ch6_03_first_island-2048x1152.png",
+    "singing_stones": "bg/ch6_04_singing_stones-2048x1152.png",
+    "riddle_island": "bg/ch6_05_riddle_island-2048x1152.png",
+    "night_island": "bg/ch6_06_night_island-2048x1152.png",
+    "offering_island": "bg/ch6_07_offering_island-2048x1152.png",
+    "light_island": "bg/ch6_08_light_island-2048x1152.png",
+    "pilgrimage_island": "bg/ch6_09_pilgrimage_island-2048x1152.png",
+    "six_islands_finale": "bg/ch6_10_six_islands_finale-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "bg",
+      "src": "dragon_peak_dawn",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "dragon_peak_dawn"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "enemy_wind_dragon",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "――天嶺の霊峰、そのいちばん高い頂――"
+    },
+    {
+      "op": "nar",
+      "text": "翼のない藍の長い体が雲を泳ぎ、白いたてがみが朝日を裂く。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "薄い腹、金の鹿角と爪、短い四脚。前足の白い宝珠を見ろ。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "角は光っていない。穏やかな琥珀の目だけが、こちらを測る。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_wind_dragon",
+      "text": "頂へ来た者よ。空を望むなら、三つの風を越えてみせよ。"
+    },
+    {
+      "op": "nar",
+      "text": "龍が長いひげを翻すと、風弾が扇状の三方向へ走る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "弾の隙間へ入れ。龍が近づく一瞬だけ剣、遠ければ弓だ。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "倒すためではない。背中を預けられる相手か、互いに測る。"
+    },
+    {
+      "op": "nar",
+      "text": "最後の矢が宝珠の手前で止まり、龍は敗北を認めて構えを解く。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_wind_dragon",
+      "text": "刃を止めた心を認めよう。龍笛を持て、空路を託す。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "勝った印ではなく、呼べば応える約束として受け取る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "龍笛取得。記録はflag:ryu139。次から空が道になる。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "rei"
+    },
+    {
+      "op": "hide",
+      "actor": "enemy_wind_dragon"
+    },
+    {
+      "op": "bg",
+      "src": "cloud_flight",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "cloud_flight"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "enemy_wind_dragon",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "――龍笛に応えた、初めての雲上飛行――"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "馬の上では呼べない。下馬して、外の地面で笛を吹く。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_wind_dragon",
+      "text": "我が背は歩みの二・四倍。山、崖、川、海、森を越える。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "飛行中は敵襲も傷もなく、寒さも暑さも届きません。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "道具枠が「降りる」になった。水面と崖の上では使えない。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_wind_dragon",
+      "text": "建物、祠、洞へは背のまま入れぬ。地へ降り、足で訪ねよ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "途中で記録したら、最後に越えた地面から再開ですね。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_wind_dragon",
+      "text": "我が背で、山も海も一枚の地図となる。"
+    },
+    {
+      "op": "nar",
+      "text": "藍の蛇体、白い雲のたてがみ、金の四爪が空を掻く。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "北東の島だ。昔の看板は「今はまだ行く方法はない」だった。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_wind_dragon",
+      "text": "今はある。上から草地へ降り、最初の守人を訪ねよ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "水でも崖でもない、あの平らな緑へ。手を離しません。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "enemy_wind_dragon"
+    },
+    {
+      "op": "bg",
+      "src": "first_island",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "first_island"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "enemy_moss_golem",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "――最初の空島、苔の番人――"
+    },
+    {
+      "op": "nar",
+      "text": "小部屋の石壁と思った巨体が立ち、星図石と宝箱を庇う。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "剣は抜かない。君が守っている物を先に見せてほしい。"
+    },
+    {
+      "op": "choice",
+      "options": [
+        {
+          "text": "武器を地面に置いて待つ",
+          "jump": "golem_wait"
+        },
+        {
+          "text": "離れて島の苔を観察する",
+          "jump": "golem_moss"
+        }
+      ]
+    },
+    {
+      "op": "label",
+      "id": "golem_wait"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "無名の剣をここへ置く。近づく合図は君が決めて。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_moss_golem",
+      "text": "オク……チズ……キズツケナイ。"
+    },
+    {
+      "op": "jump",
+      "to": "golem_join"
+    },
+    {
+      "op": "label",
+      "id": "golem_moss"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "足元の苔だけ乾いていない。あなたが水を守ったのですね。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_moss_golem",
+      "text": "ミズ……ホシ……マツ。"
+    },
+    {
+      "op": "label",
+      "id": "golem_join"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "攻撃の構えではありません。石板へ雨を避ける姿です。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_moss_golem",
+      "text": "モッサ。ヒトリデ、ムッツノソラ、マモル。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "モッサ、星図を借りる。戻ったら六島の話を全部する。"
+    },
+    {
+      "op": "nar",
+      "text": "モッサが半歩退く。宝箱には三百ルピーとハートのかけら。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "守っていたのは財宝ではなく、雨で消える六島の星図です。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_moss_golem",
+      "text": "リュウ、クルヒマデ。チズ、ヌラサナイ。"
+    },
+    {
+      "op": "nar",
+      "text": "長い待機の理由を告げるように、六方向の溝が光る。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "enemy_moss_golem"
+    },
+    {
+      "op": "bg",
+      "src": "singing_stones",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "singing_stones"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "――歌う石の島――"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "石は四つ。東だけ朝露が乾いている。始まりは日の方角だ。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "東、南、西、北。足で方角を歌う楽器みたいだ。"
+    },
+    {
+      "op": "nar",
+      "text": "東の石が高く鳴り、南は低く、西と北が和音を返す。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "順番を間違えたら最初から。でも音は責めてきません。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "なら、失敗しても耳が一つ賢くなる。東から行こう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "最後の北。踏むぞ。風向きが四方から中央へ変わる。"
+    },
+    {
+      "op": "nar",
+      "text": "星の台座から、ほ座ととも座の像が静かに浮かぶ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "船の一部だった星座が、空の島で同じ音に戻りました。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "rei"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "bg",
+      "src": "riddle_island",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "riddle_island"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "――謎かけの島――"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "三問続けて答えよ。一つ違えば、最初の星へ戻る。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "星座の宝物は全部で、七十七、八十九、百八のどれ。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "八十九。宝物庫の空き台まで数えた人がいる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "一年、北のほぼ同じ所にいる星は。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "北極星です。迷っても、基準だけは動きません。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "夏の大三角にいない星座は、こと、わし、オリオン。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "オリオン座。冬の狩人に夏番は頼めません。"
+    },
+    {
+      "op": "nar",
+      "text": "仙人が笑うと、きょしちょう座とかじき座の封が解ける。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "bg",
+      "src": "night_island",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "night_island"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "――夜だけ目を開く島――"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "昼に来たときは、台座までただの灰色だった。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "月が石の縁へ入るまで三呼吸。動くな、影を重ねる。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "夜を待つだけの試練は、急ぐ癖を見透かしますね。"
+    },
+    {
+      "op": "nar",
+      "text": "雲が切れ、北極星の細い光が封印の溝へ落ちる。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "戦わなくても、時間を合わせれば開く扉がある。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "待つのも技だ。敵のいない場所ほど難しい。"
+    },
+    {
+      "op": "nar",
+      "text": "ふうちょう座とみずへび座の像が月明かりを返す。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "モッサは何年、この夜を一人で数えていたのでしょう。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "rei"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "bg",
+      "src": "offering_island",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "offering_island"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "rei",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "――供物の島――"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "三つの器。牧場のチーズ、巨木の木材、古い歯車です。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "食べ物、森の骨、昔の機械。町ごとの時間が揃った。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "同じ町の品を三つ置いても開かない。違う土地が条件だ。"
+    },
+    {
+      "op": "nar",
+      "text": "三つの器から別々の色が立ち、中央で白い風になる。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "贈り物は値段ではなく、どこから来たかを覚えている。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "鉄道ができれば、こんな供物も運びやすくなります。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "未来の線路を先に要求する島か。抜け目がない。"
+    },
+    {
+      "op": "nar",
+      "text": "りゅうこつ座とらしんばん座が、器の上で向き合う。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "rei"
+    },
+    {
+      "op": "bg",
+      "src": "light_island",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "light_island"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "――灯りの島――"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "初期は点、消、消、点。触れた灯と左右が反転する。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "全部を一回ずつ。順番は自由なら、四人分の指を借りよう。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "三人です。最後の一本はモッサの分としてnonoが。"
+    },
+    {
+      "op": "nar",
+      "text": "灯りは消えては移り、四度目に一列の金色となる。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "消えることも手順の中なら、途中の暗さは失敗じゃない。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "今のは覚えておけ。迷宮の灯りで使える。"
+    },
+    {
+      "op": "nar",
+      "text": "とびうお座とはちぶんぎ座が、熱のない炎を宿す。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "六島の像が十体。残る二体は巡りの島ですね。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "rei"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "bg",
+      "src": "pilgrimage_island",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "pilgrimage_island"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "enemy_wind_dragon",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "――五つの試練を束ねる巡りの島――"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_wind_dragon",
+      "text": "五島の星を得た者だけが、この雲壁を越えられる。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "音、答え、夜、供物、灯り。剣では持てない物ばかりだ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "だから一人では台座が満ちない。旅の仕方が鍵なのです。"
+    },
+    {
+      "op": "nar",
+      "text": "十の像が六つの窪みを照らし、雲壁の渦がほどける。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_wind_dragon",
+      "text": "最後の二星は、空を渡る者の向きを測る。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "みなみじゅうじ座と、みなみのさんかく座。帰路を示す星だ。"
+    },
+    {
+      "op": "nar",
+      "text": "双子の台座が開き、六島を結ぶ細い星路が走る。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "最初の島へ戻りましょう。守人へ、巡った証を返しに。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "enemy_wind_dragon"
+    },
+    {
+      "op": "bg",
+      "src": "six_islands_finale",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "six_islands_finale"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "enemy_moss_golem",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "enemy_wind_dragon",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "――六つの島が一つの星路になる――"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "モッサ、六つとも開いた。十二の像は空で迷わない。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_moss_golem",
+      "text": "ヒトリ……オワリ。ホシ、カエッタ。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_wind_dragon",
+      "text": "守人よ。長い雨を越えた苔を、我が背へ乗せよう。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_moss_golem",
+      "text": "ココ、マモル。デモ、ツギハ……マツダケジャナイ。"
+    },
+    {
+      "op": "nar",
+      "text": "モッサは星図石を立て直し、空いた掌を朝日へ向ける。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "敵の棚にいた役でも、守っていた時間までは敵にならない。"
+    },
+    {
+      "op": "say",
+      "actor": "enemy_wind_dragon",
+      "text": "笛を吹け。六島は今より、訪れる者の空となる。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "龍笛の音を一本、幕の外まで飛ばして終わろう。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "enemy_moss_golem"
+    },
+    {
+      "op": "hide",
+      "actor": "enemy_wind_dragon"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

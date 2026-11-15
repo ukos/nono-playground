@@ -1,733 +1,1122 @@
 {
-  "meta": {
-    "id": "sumidagawa",
-    "number": 104,
-    "title": "隅田川 ―名を呼ぶ渡し―",
-    "original": "能『隅田川』（伝統演目・著作権消滅）",
-    "category": "能・歌舞伎",
-    "adaptation": "faithful",
-    "format": "v3",
-    "minutes": 34,
-    "synopsis": "全五景で「失った者の名を呼び続けることも弔いになる」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
-    "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+ "meta": {
+  "id": "sumidagawa",
+  "number": 104,
+  "title": "隅田川 ―名を呼ぶ渡し―",
+  "original": "能『隅田川』（伝統演目・著作権消滅）",
+  "category": "能・歌舞伎",
+  "adaptation": "faithful",
+  "format": "v3",
+  "minutes": 36,
+  "synopsis": "全五景で「失った者の名を呼び続けることも弔いになる」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "狂言回し",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "狂女／母",
-      "actor": "mei",
-      "costume": "default"
-    },
-    {
-      "role": "渡守",
-      "actor": "tanurio",
-      "costume": "default"
-    },
-    {
-      "role": "旅人",
-      "actor": "rei_casual",
-      "costume": "default"
-    },
-    {
-      "role": "梅若丸の声",
-      "actor": "shiro",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "ferry_bank": "bg/sumidagawa-ferry_bank-2048x1152.png",
-    "boat_crossing": "bg/sumidagawa-boat_crossing-2048x1152.png",
-    "umezuka": "bg/sumidagawa-umezuka-2048x1152.png",
-    "nembutsu_night": "bg/sumidagawa-nembutsu_night-2048x1152.png",
-    "empty_mound": "bg/sumidagawa-empty_mound-2048x1152.png"
+  {
+   "role": "狂女／母",
+   "actor": "mei",
+   "costume": "default"
   },
-  "steps": [
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『隅田川』。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "能・歌舞伎の一席を、全五景でお届けします。",
-      "mouth": "open",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "この舞台の核は「失った者の名を呼び続けることも弔いになる」。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "台詞はすべて今夜のための書き下ろしです。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "それでは、幕を開けましょう。",
-      "mouth": "open",
-      "eyes": "joy"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "ferry_bank",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "ferry_bank"
-    },
-    {
-      "op": "nar",
-      "text": "第1景「隅田川の渡し場」。子を探す母が都から東国の渡しへたどり着く。"
-    },
-    {
-      "op": "show",
-      "actor": "mei",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "tanurio",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "「隅田川の渡し場」へ来た。子を探す母が都から東国の渡しへたどり着く。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "ここで黙れば、誰かが代わりに意味を決める。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "私が守りたいのは「失った者の名を呼び続けることも弔いになる」だ。",
-      "eyes": "anger"
-    },
-    {
-      "op": "nar",
-      "text": "隅田川の渡し場の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "過去は変えられない。だが次の手は選べる。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。子を探す母が都から東国の渡しへたどり着く。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "子を探す母が都から東国の渡しへたどり着く。その事実から目をそらさない。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "恐れを消すのではなく、恐れたまま進もう。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "私の名ではなく、行いで答えを残す。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "その答えを、次の場面まで持って行こう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "ここで決める。逃げず、相手の声を聞く。",
-      "eyes": "anger"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "ならば私も、その決断の重さを分け合う。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "hide",
-      "actor": "mei"
-    },
-    {
-      "op": "hide",
-      "actor": "tanurio"
-    },
-    {
-      "op": "bg",
-      "src": "boat_crossing",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "boat_crossing"
-    },
-    {
-      "op": "nar",
-      "text": "第2景「夕暮れの舟」。渡守が対岸の大念仏と子の墓を語る。"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "「夕暮れの舟」へ来た。渡守が対岸の大念仏と子の墓を語る。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "ここで黙れば、誰かが代わりに意味を決める。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "私が守りたいのは「失った者の名を呼び続けることも弔いになる」だ。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "夕暮れの舟の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "過去は変えられない。だが次の手は選べる。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。渡守が対岸の大念仏と子の墓を語る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "渡守が対岸の大念仏と子の墓を語る。その事実から目をそらさない。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "恐れを消すのではなく、恐れたまま進もう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "私の名ではなく、行いで答えを残す。",
-      "eyes": "joy"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "その答えを、次の場面まで持って行こう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "ここで決める。逃げず、相手の声を聞く。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "ならば私も、その決断の重さを分け合う。",
-      "eyes": "fun"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "bg",
-      "src": "umezuka",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "umezuka"
-    },
-    {
-      "op": "nar",
-      "text": "第3景「梅若塚」。その子こそ探していた梅若丸だと母が知る。"
-    },
-    {
-      "op": "show",
-      "actor": "mei",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "tanurio",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "「梅若塚」へ来た。その子こそ探していた梅若丸だと母が知る。",
-      "eyes": "anger",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "ここで黙れば、誰かが代わりに意味を決める。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "私が守りたいのは「失った者の名を呼び続けることも弔いになる」だ。",
-      "eyes": "fun"
-    },
-    {
-      "op": "nar",
-      "text": "梅若塚の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-      "eyes": "crying",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "過去は変えられない。だが次の手は選べる。",
-      "eyes": "closed"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。その子こそ探していた梅若丸だと母が知る。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "その子こそ探していた梅若丸だと母が知る。その事実から目をそらさない。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "恐れを消すのではなく、恐れたまま進もう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "私の名ではなく、行いで答えを残す。",
-      "eyes": "anger",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "その答えを、次の場面まで持って行こう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "ここで決める。逃げず、相手の声を聞く。",
-      "eyes": "fun"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "ならば私も、その決断の重さを分け合う。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "hide",
-      "actor": "mei"
-    },
-    {
-      "op": "hide",
-      "actor": "tanurio"
-    },
-    {
-      "op": "bg",
-      "src": "nembutsu_night",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "nembutsu_night"
-    },
-    {
-      "op": "nar",
-      "text": "第4景「大念仏の夜」。母の祈りに子の声と面影が一瞬だけ現れる。"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "「大念仏の夜」へ来た。母の祈りに子の声と面影が一瞬だけ現れる。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "ここで黙れば、誰かが代わりに意味を決める。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "私が守りたいのは「失った者の名を呼び続けることも弔いになる」だ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "大念仏の夜の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "過去は変えられない。だが次の手は選べる。",
-      "eyes": "normal"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。母の祈りに子の声と面影が一瞬だけ現れる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "母の祈りに子の声と面影が一瞬だけ現れる。その事実から目をそらさない。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "恐れを消すのではなく、恐れたまま進もう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "私の名ではなく、行いで答えを残す。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "その答えを、次の場面まで持って行こう。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "ここで決める。逃げず、相手の声を聞く。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "ならば私も、その決断の重さを分け合う。",
-      "eyes": "crying"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "bg",
-      "src": "empty_mound",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "empty_mound"
-    },
-    {
-      "op": "nar",
-      "text": "第5景「朝の塚」。抱こうとした姿は消え名だけが水面に残る。"
-    },
-    {
-      "op": "show",
-      "actor": "mei",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "tanurio",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "「朝の塚」へ来た。抱こうとした姿は消え名だけが水面に残る。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "ここで黙れば、誰かが代わりに意味を決める。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "私が守りたいのは「失った者の名を呼び続けることも弔いになる」だ。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "朝の塚の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "過去は変えられない。だが次の手は選べる。",
-      "eyes": "joy"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。抱こうとした姿は消え名だけが水面に残る。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "抱こうとした姿は消え名だけが水面に残る。その事実から目をそらさない。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "恐れを消すのではなく、恐れたまま進もう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "私の名ではなく、行いで答えを残す。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "その答えを、次の場面まで持って行こう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "ここで決める。逃げず、相手の声を聞く。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "ならば私も、その決断の重さを分け合う。",
-      "eyes": "closed"
-    },
-    {
-      "op": "hide",
-      "actor": "mei"
-    },
-    {
-      "op": "hide",
-      "actor": "tanurio"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "物語はここまで。残った問いは「失った者の名を呼び続けることも弔いになる」。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ご来場、ありがとうございました。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "end"
+  {
+   "role": "渡守",
+   "actor": "tanurio",
+   "costume": "default"
+  },
+  {
+   "role": "旅人",
+   "actor": "rei_casual",
+   "costume": "default"
+  },
+  {
+   "role": "梅若丸の声",
+   "actor": "shiro",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "ferry_bank": "bg/sumidagawa-ferry_bank-2048x1152.png",
+  "boat_crossing": "bg/sumidagawa-boat_crossing-2048x1152.png",
+  "umezuka": "bg/sumidagawa-umezuka-2048x1152.png",
+  "nembutsu_night": "bg/sumidagawa-nembutsu_night-2048x1152.png",
+  "empty_mound": "bg/sumidagawa-empty_mound-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "武蔵の国と、下総の国の、境を流れる隅田川。その岸に、一つの渡し場がございました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "春の夕暮れ。都から、はるばる、ひとりの女が、たどり着きます。人買いにさらわれた、わが子を、探して。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "能『隅田川』。母は、子の名を、呼び続けて、ここまで来ました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "失った者の名を、呼び続けること。……それもまた、弔いのひとつなのだと、この物語は、静かに、語ります。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "ferry_bank",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "ferry_bank"
+  },
+  {
+   "op": "nar",
+   "text": "隅田川の渡し場。春。土手の柳が、芽吹いている。渡守が、舟を、岸につないでいた。旅人が、ひとり、やってくる。"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "お客さん、向こう岸へ、お渡りで。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "ああ。急ぎの旅でね。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "今日は、急がれぬほうが、よろしい。……向こう岸で、大念仏が、ございます。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "大念仏？"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "一年前の、今日。ある子が、亡くなりましてな。……その、一周忌の、供養で。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……そうか。それなら、手を合わせて、いこう。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "旅のお方が、手を合わせてくだされば、その子も、喜びましょう。……都の子でしたから。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "都の子が、なぜ、こんな東の果てで。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "それは、舟の上で、お話しいたしましょう。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "土手の向こうから、ふらふらと、笹の枝を手にした女が、歩いてきた。髪は、乱れ、裾は、泥にまみれていた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……あれは。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "都の方から、流れてきた、物狂いの女でしょう。……このごろ、あちこちの宿場で、噂を、聞いております。"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……もし。舟に、乗せてくださいませ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "お前さん、都の人か。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……はい。都の、北白川から、参りました。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "物狂いの女と、聞いておるが。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……物狂いと、呼ばれております。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "都の物狂いなら、面白う、狂うてみせよ。……そうすれば、舟に乗せてやる。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "渡守どの、それは、ひどい。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "舟賃の、代わりでございますよ。……この渡しは、都の噂話を、聞かせてくれる客が、少ないので。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……かまいません。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "狂えと、おっしゃる。……狂うて、ここまで、来たのです。いまさら、狂わずに、いられましょうか。"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "女は、川面を、見つめた。そこに、白い鳥が、一羽、浮かんでいた。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……あの鳥は。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "都鳥、と、この辺りでは、申します。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "都鳥。……都の名を持つ、鳥。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "昔、この川を渡った、在原業平という方が、歌を、詠みました。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "名にし負はば、いざ言問はむ、都鳥。……我が思ふ人は、ありやなしやと。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……歌を、ご存じか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "都の名を、持つならば、都鳥よ、教えておくれ。……わたしが、思う人は、生きているのか、いないのか。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "業平さまは、都に残した、愛しい人を、思ったのでしょう。……わたしが、思うのは、わが子です。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……子を。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "十二になる、男の子を。……人買いに、さらわれて。行方を、探して、東へ、東へと。"
+  },
+  {
+   "op": "nar",
+   "text": "渡守の顔から、からかいの色が、消えた。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……舟に、お乗りなされ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "さっきの言葉は、取り消します。……狂うてみせよ、などと。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……いいえ。歌を、詠ませてくださって、ありがとう。"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "bg",
+   "src": "boat_crossing",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "boat_crossing"
+  },
+  {
+   "op": "nar",
+   "text": "夕暮れの川。舟が、静かに、岸を離れる。渡守が、竿を、さす。女と旅人が、舟の中に、座っている。"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "渡守どの。向こう岸の、大念仏のこと。……亡くなった子は、どこの子なんだい。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……話すと、長うなりますが。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "向こう岸までは、長い。……話してくれ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "一年前の、今ごろ。人買いが、ひとりの子を、連れて、この渡しを、通りました。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "都から、連れてきたと、申しておりました。……子は、長旅で、すっかり、弱っておりました。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "向こう岸で、子は、倒れ、もう、一歩も、歩けなくなった。人買いは、子を、道ばたに、捨てて、行ってしまいました。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……ひどい話だ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "土地の者が、介抱しましたが、……子は、日に日に、弱っていく。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "亡くなる前に、子は、こう申しました。……わたしは、都の、北白川の、吉田の某の、ひとり子。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "女の手が、舟べりを、ぎゅっと、つかんだ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "名は、梅若丸、と。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……北白川の、吉田。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "都の人が、通ったら、ここに埋めてくれと。……道ばたに、柳を、一本、植えてくれと。そう言い残して、息を、引き取りました。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "年は、十二で、ございました。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……今日が、その一周忌か。"
+  },
+  {
+   "op": "nar",
+   "text": "舟が、向こう岸に、着いた。誰も、しばらく、口を、きかなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……渡守どの。今、北白川、と。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……たしかに、北白川と。"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……渡守どの。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……お顔の色が、真っ青じゃ。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "その子の、名を。……もう一度。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……梅若丸。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……それは、……それは、わたしの、子です。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……お前さまが、母御か。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "北白川の、吉田の、……わたしの、梅若丸。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "一年前に、……もう、一年も、前に。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "わたしは、その一年、ずっと、梅若、梅若と、呼びながら、歩いてきたのに。……呼んでいる間に、あの子は、もう。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……お気の毒に。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "あの子は、最後まで、都のほうを、向いておりました。……母上、母上と、二度ほど、呼んで。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……二度。",
+   "eyes": "crying"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "bg",
+   "src": "umezuka",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "umezuka"
+  },
+  {
+   "op": "nar",
+   "text": "対岸の土手。柳の木が一本、まだ若い枝を、垂らしている。その根元に、小さな、土の塚。村人たちが、念仏の支度を、していた。"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……ここで、ございます。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……これが。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "梅若丸どのの、塚で。……柳は、村の者が、言われたとおりに、植えました。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……柳。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "都の、北白川の家にも、柳が、ありました。……あの子は、その下で、よく、遊んでおりました。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……この塚の、土を、掘り返したら、もう一度、あの子の、顔を、見られますか。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……見られは、いたしません。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "見られなくても、かまいません。……この手で、抱きたい。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "お母上。……土の下の子は、土の中で、眠らせて、あげなされ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……眠って、おりますか。あの子は。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "今宵、皆で、念仏を、唱えます。……お母上も、どうか、一緒に。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……わたしは、念仏の、唱え方を、忘れてしまいました。……名を、呼ぶことしか、覚えておりません。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……では、名を、呼んであげなされ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "念仏より、そのほうが、子には、よう、届くかもしれませぬ。"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "bg",
+   "src": "nembutsu_night",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "nembutsu_night"
+  },
+  {
+   "op": "nar",
+   "text": "夜。柳の下。村人たちが、塚を囲み、鉦を打ちながら、念仏を、唱えている。月が、川面に、揺れている。"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "鉦を、打て。……南無阿弥陀仏、南無阿弥陀仏。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "旅の者も、声を、合わせます。南無阿弥陀仏。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……南無、阿弥陀仏。……声が、震えて。"
+  },
+  {
+   "op": "nar",
+   "text": "母の声は、震えていた。それでも、鉦の音に合わせて、何度も、唱えた。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "南無、阿弥陀仏。……梅若。……南無、阿弥陀仏。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "お母上、もっと、声を。……そのほうが、子に、届きます。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……梅若！"
+  },
+  {
+   "op": "nar",
+   "text": "母の声が、夜の川面に、響いた。そのとき、塚の中から、かすかな、子どもの声が、聞こえた。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……なむ、あみだぶつ。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……子どもの、声。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "塚の中から、聞こえてまいる。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "なむ、あみだぶつ。……なむ、あみだぶつ。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……梅若。……梅若か。"
+  },
+  {
+   "op": "nar",
+   "text": "柳の陰に、ぼんやりと、子どもの姿が、浮かび上がった。白い着物。小さな肩。都の家で、見送ったときと、同じ、顔。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……母上。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "梅若！　梅若丸！",
+   "eyes": "crying"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "母上。……来てくださったのですね。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "来たよ。……来たよ、梅若。……都から、ずっと、歩いて。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "遠かったでしょう。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "遠くなど、なかった。……梅若の名を、呼んでいたら、足が、勝手に、動いた。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……聞こえていました。母上が、呼んでくださる声。毎晩、川の向こうから。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……聞こえていたの。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "はい。……だから、さびしくは、ありませんでした。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "村の人たちも、優しくしてくれました。……柳も、植えてくれました。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……ごめんね。……守って、あげられなくて。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "母上。……あやまらないで。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "抱かせて。……一度だけ。"
+  },
+  {
+   "op": "nar",
+   "text": "母は、子に、手を伸ばした。……その手は、子の肩を、すり抜けた。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……すり抜けて、しまう。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……母上。わたしは、もう。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……いや。いや、いや。"
+  },
+  {
+   "op": "nar",
+   "text": "母は、もう一度、手を伸ばした。また、指の間を、白い影が、こぼれていった。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "母上。……もう一度、名前を、呼んでください。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……梅若や。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……はい、母上。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "bg",
+   "src": "empty_mound",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "empty_mound"
+  },
+  {
+   "op": "nar",
+   "text": "夜明け。柳の下。鉦の音は、止んでいる。母が、ひとり、塚の前に、座り込んでいる。草の上に、朝露が、光っていた。"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……梅若。どこへ、行ったの。"
+  },
+  {
+   "op": "nar",
+   "text": "返事は、なかった。塚の上には、春の草が、青々と、生えているだけだった。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……あれは、夢でしたか。"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "お母上。……夜通し、ここに。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "渡守どの。……あの子が、来ました。わたしの、名前を、呼んでくれました。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……わしも、声を、聞きました。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "抱こうとしたら、すり抜けて。……でも、名前を呼んだら、はいと、返事を、してくれました。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……そうですか。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……渡守どの。わたしは、これから、どうすれば。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "母は、都へ帰る",
+     "jump": "m_return"
+    },
+    {
+     "text": "母は、この地に、とどまる",
+     "jump": "m_stay"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_return"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……都へ、帰ります。北白川の、柳の下で、あの子の名を、呼びます。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……川の向こうから、呼ばれても、届きますかな。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "届きます。……一年、届いていたと、あの子が、言いましたから。",
+   "eyes": "closed"
+  },
+  {
+   "op": "jump",
+   "to": "m_end"
+  },
+  {
+   "op": "label",
+   "id": "m_stay"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……ここに、残ります。この柳の、そばに、庵を、結んで。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……毎日、名を、呼ぶのですか。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "毎日。……あの子が、さびしくないように。わたしが、さびしくないように。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……では、わしも、渡しを漕ぐたびに、ここで、手を合わせましょう。"
+  },
+  {
+   "op": "label",
+   "id": "m_end"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "川面に、都鳥が、一羽、舞い降りた。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……都鳥。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "名にし負はば。……教えておくれ。わたしの思う人は、ありやなしや。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……答えは。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……ないけれど、いる。……そう、答えてくれた気が、します。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "能『隅田川』、これにて、終わりでございます。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "母が抱こうとした子の姿は、朝の光の中に、消えました。……けれど、呼び続けた名前は、川面に、残りました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "隅田川の梅若塚では、今も、春になると、子の名を呼ぶ、供養が、続いているそうでございます。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

@@ -1,733 +1,1026 @@
 {
-  "meta": {
-    "id": "psychological-test",
-    "number": 113,
-    "title": "心理試験 ―百円札の記憶―",
-    "original": "江戸川乱歩『心理試験』（原作著作権消滅）",
-    "category": "探偵",
-    "adaptation": "faithful",
-    "format": "v3",
-    "minutes": 34,
-    "synopsis": "全五景で「心を隠す技術そのものが、逆に痕跡になる」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
-    "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+ "meta": {
+  "id": "psychological-test",
+  "number": 113,
+  "title": "心理試験 ―百円札の記憶―",
+  "original": "江戸川乱歩『心理試験』（原作著作権消滅）",
+  "category": "探偵",
+  "adaptation": "faithful",
+  "format": "v3",
+  "minutes": 36,
+  "synopsis": "全五景で「心を隠す技術そのものが、逆に痕跡になる」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "狂言回し",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "明智小五郎",
-      "actor": "yoru",
-      "costume": "default"
-    },
-    {
-      "role": "蕗屋清一郎",
-      "actor": "rei_casual",
-      "costume": "default"
-    },
-    {
-      "role": "笠森判事",
-      "actor": "extra_elder",
-      "costume": "default"
-    },
-    {
-      "role": "斎藤勇",
-      "actor": "shiro",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "student_room": "bg/psychological-test-student_room-2048x1152.png",
-    "old_house": "bg/psychological-test-old_house-2048x1152.png",
-    "court_test": "bg/psychological-test-court_test-2048x1152.png",
-    "coin_trap": "bg/psychological-test-coin_trap-2048x1152.png",
-    "confession_shadow": "bg/psychological-test-confession_shadow-2048x1152.png"
+  {
+   "role": "明智小五郎",
+   "actor": "yoru",
+   "costume": "default"
   },
-  "steps": [
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『心理試験』。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "探偵の一席を、全五景でお届けします。",
-      "mouth": "open",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "この舞台の核は「心を隠す技術そのものが、逆に痕跡になる」。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "台詞はすべて今夜のための書き下ろしです。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "それでは、幕を開けましょう。",
-      "mouth": "open",
-      "eyes": "joy"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "student_room",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "student_room"
-    },
-    {
-      "op": "nar",
-      "text": "第1景「学生の下宿」。蕗屋が完全犯罪のため記憶と反応を訓練する。"
-    },
-    {
-      "op": "show",
-      "actor": "yoru",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "現場は「学生の下宿」。まず事実だけを並べよう。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "確認できるのは、蕗屋が完全犯罪のため記憶と反応を訓練するという一点だ。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "見えたものと、そう思った理由を分けて書く。",
-      "eyes": "anger"
-    },
-    {
-      "op": "nar",
-      "text": "学生の下宿の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "証言が一致するほど、同じ思い込みを疑うべきか。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "一致は安心材料だが、真実の保証ではない。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "鍵は「心を隠す技術そのものが、逆に痕跡になる」にある。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。蕗屋が完全犯罪のため記憶と反応を訓練する。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "犯人像を先に決めず、痕跡から可能性を削ろう。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "では時刻、入口、道具の順に確かめる。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "蕗屋が完全犯罪のため記憶と反応を訓練する。この行動には目的が二つ重なっている。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "表の目的が囮なら、裏の目的は何だ。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "答えはまだ言わない。反証できる形にしよう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "推理を勝利ではなく、検証として終わらせる。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "hide",
-      "actor": "yoru"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "bg",
-      "src": "old_house",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "old_house"
-    },
-    {
-      "op": "nar",
-      "text": "第2景「老婆の家」。盗金と殺人が周到な計画通りに進む。"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elder",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "現場は「老婆の家」。まず事実だけを並べよう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "確認できるのは、盗金と殺人が周到な計画通りに進むという一点だ。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "見えたものと、そう思った理由を分けて書く。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "老婆の家の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "証言が一致するほど、同じ思い込みを疑うべきか。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "一致は安心材料だが、真実の保証ではない。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "鍵は「心を隠す技術そのものが、逆に痕跡になる」にある。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。盗金と殺人が周到な計画通りに進む。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "犯人像を先に決めず、痕跡から可能性を削ろう。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "では時刻、入口、道具の順に確かめる。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "盗金と殺人が周到な計画通りに進む。この行動には目的が二つ重なっている。",
-      "eyes": "joy"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "表の目的が囮なら、裏の目的は何だ。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "答えはまだ言わない。反証できる形にしよう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "推理を勝利ではなく、検証として終わらせる。",
-      "eyes": "fun"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elder"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "bg",
-      "src": "court_test",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "court_test"
-    },
-    {
-      "op": "nar",
-      "text": "第3景「判事の心理試験」。連想試験で容疑者二人の反応が比べられる。"
-    },
-    {
-      "op": "show",
-      "actor": "yoru",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "現場は「判事の心理試験」。まず事実だけを並べよう。",
-      "eyes": "anger",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "確認できるのは、連想試験で容疑者二人の反応が比べられるという一点だ。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "見えたものと、そう思った理由を分けて書く。",
-      "eyes": "fun"
-    },
-    {
-      "op": "nar",
-      "text": "判事の心理試験の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "証言が一致するほど、同じ思い込みを疑うべきか。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "一致は安心材料だが、真実の保証ではない。",
-      "eyes": "crying",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "鍵は「心を隠す技術そのものが、逆に痕跡になる」にある。",
-      "eyes": "closed"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。連想試験で容疑者二人の反応が比べられる。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "犯人像を先に決めず、痕跡から可能性を削ろう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "では時刻、入口、道具の順に確かめる。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "連想試験で容疑者二人の反応が比べられる。この行動には目的が二つ重なっている。",
-      "eyes": "anger",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "表の目的が囮なら、裏の目的は何だ。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "答えはまだ言わない。反証できる形にしよう。",
-      "eyes": "fun"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "推理を勝利ではなく、検証として終わらせる。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "hide",
-      "actor": "yoru"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "bg",
-      "src": "coin_trap",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "coin_trap"
-    },
-    {
-      "op": "nar",
-      "text": "第4景「百円札の罠」。明智が知り得ない札の向きを話題にする。"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elder",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "現場は「百円札の罠」。まず事実だけを並べよう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "確認できるのは、明智が知り得ない札の向きを話題にするという一点だ。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "見えたものと、そう思った理由を分けて書く。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "百円札の罠の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "証言が一致するほど、同じ思い込みを疑うべきか。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "一致は安心材料だが、真実の保証ではない。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "鍵は「心を隠す技術そのものが、逆に痕跡になる」にある。",
-      "eyes": "normal"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。明智が知り得ない札の向きを話題にする。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "犯人像を先に決めず、痕跡から可能性を削ろう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "では時刻、入口、道具の順に確かめる。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "明智が知り得ない札の向きを話題にする。この行動には目的が二つ重なっている。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "表の目的が囮なら、裏の目的は何だ。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "答えはまだ言わない。反証できる形にしよう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "推理を勝利ではなく、検証として終わらせる。",
-      "eyes": "crying"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elder"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "bg",
-      "src": "confession_shadow",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "confession_shadow"
-    },
-    {
-      "op": "nar",
-      "text": "第5景「自白前の廊下」。完璧を装った心が小さな先走りで崩れる。"
-    },
-    {
-      "op": "show",
-      "actor": "yoru",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "現場は「自白前の廊下」。まず事実だけを並べよう。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "確認できるのは、完璧を装った心が小さな先走りで崩れるという一点だ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "見えたものと、そう思った理由を分けて書く。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "自白前の廊下の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "証言が一致するほど、同じ思い込みを疑うべきか。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "一致は安心材料だが、真実の保証ではない。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "鍵は「心を隠す技術そのものが、逆に痕跡になる」にある。",
-      "eyes": "joy"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。完璧を装った心が小さな先走りで崩れる。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "犯人像を先に決めず、痕跡から可能性を削ろう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "では時刻、入口、道具の順に確かめる。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "完璧を装った心が小さな先走りで崩れる。この行動には目的が二つ重なっている。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "表の目的が囮なら、裏の目的は何だ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "答えはまだ言わない。反証できる形にしよう。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "推理を勝利ではなく、検証として終わらせる。",
-      "eyes": "closed"
-    },
-    {
-      "op": "hide",
-      "actor": "yoru"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "物語はここまで。残った問いは「心を隠す技術そのものが、逆に痕跡になる」。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ご来場、ありがとうございました。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "end"
+  {
+   "role": "蕗屋清一郎",
+   "actor": "rei_casual",
+   "costume": "default"
+  },
+  {
+   "role": "笠森判事",
+   "actor": "extra_elder",
+   "costume": "default"
+  },
+  {
+   "role": "斎藤勇",
+   "actor": "shiro",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "student_room": "bg/psychological-test-student_room-2048x1152.png",
+  "old_house": "bg/psychological-test-old_house-2048x1152.png",
+  "court_test": "bg/psychological-test-court_test-2048x1152.png",
+  "coin_trap": "bg/psychological-test-coin_trap-2048x1152.png",
+  "confession_shadow": "bg/psychological-test-confession_shadow-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "大正の東京。蕗屋清一郎という、頭の切れる苦学生がおりました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "彼は、ある老婆が、植木鉢の底に、大金を隠していることを、知ってしまいます。……そして、恐ろしい計画を、思いつくのです。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "江戸川乱歩『心理試験』。人の心の動きを、言葉の反応で測る、新しい取り調べの方法と、それに挑む、若い犯人のお話。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "心を隠す技術。……それが、完璧であればあるほど、かえって、痕跡になることが、あるのでございます。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "student_room",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "student_room"
+  },
+  {
+   "op": "nar",
+   "text": "本郷の、安い下宿。四畳半。机の上に、ノートが、何冊も、積んである。蕗屋が、ひとりで、ノートに向かっている。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……計画は、できている。あとは、心の、準備だけだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "警察は、新しい取り調べの方法を、使い始めたという。……心理試験。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "言葉を、一つずつ、聞かせる。それに、すぐ思いついた言葉で、答えさせる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "その早さと、答えの中身で、心の動揺を、測るのだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "たとえば、「金」と言われて、「植木鉢」と答えたら、おしまいだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……ならば、練習すればいい。"
+  },
+  {
+   "op": "nar",
+   "text": "蕗屋は、ノートに、言葉の一覧を、書き出した。そして、それぞれに、無難な答えを、書き添えていった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "金、……銀。植木、……庭。鉢、……茶碗。老婆、……田舎。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "答えを、覚えるだけでは、だめだ。……覚えた答えは、かえって、早すぎる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "何十回も、繰り返して、言葉を、聞いても、何も、感じなくなるまで、慣らすのだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……「血」。……「赤い」。「刃物」。……「台所」。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……そうだ。何も、感じない。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "人間は、慣れる生き物だ。……慣れてしまえば、心は、平らな、板になる。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "数日前。同じ下宿。友人の斎藤勇が、遊びに来ている。斎藤は、老婆の家に、間借りしていた。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "蕗屋、聞いてくれよ。うちの大家の婆さん、ひどい、けちなんだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……どんなふうに。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "家賃を、一日でも遅れると、大騒ぎだ。……それでいて、金は、うなるほど、持ってる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……持ってる、とは。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "縁側の、松の植木鉢。あの底に、隠してるんだ。……夜中に、こっそり、掘り返して、数えてるのを、見ちまった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……植木鉢に。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "五千円は、あるぞ。……ばかばかしい話だろう。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……ああ。ばかばかしい。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "お前、金に困ってるって、言ってたろう。婆さんに、少し、貸してくれって、頼んでみたらどうだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……あの婆さんが、他人に、貸すものか。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "そりゃ、そうだ。"
+  },
+  {
+   "op": "nar",
+   "text": "蕗屋の目が、一瞬だけ、細くなった。斎藤は、それに、気づかなかった。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "bg",
+   "src": "old_house",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "old_house"
+  },
+  {
+   "op": "nar",
+   "text": "秋の昼下がり。老婆の家。斎藤は、学校へ行って、留守。蕗屋が、裏口から、そっと、入っていった。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "計画は、ぴたりと、運んだ。……蕗屋は、植木鉢の底から、紙幣の束を、取り出した。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……半分だけ、もらう。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "全部、なくなれば、盗みが、すぐ、ばれる。……半分なら、婆さんが、自分で、勘定を間違えたと、思われるかもしれない。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "いや。……婆さんは、もう、勘定を、しないか。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "蕗屋は、紙幣の半分を、懐に入れ、残りを、植木鉢に、戻した。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "それから、……これ。"
+  },
+  {
+   "op": "nar",
+   "text": "蕗屋は、自分の財布に入っていた、一枚の古い紙幣と、盗んだ紙幣の束を、別に分けた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "指紋は、手袋で、残していない。足跡は、雨上がりで、もう、乾いた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "盗んだ金は、しばらく、手をつけない。……その代わり、拾った財布として、交番に、届けてやる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "一年経っても、落とし主が、現れなければ、拾った者のものになる。……盗んだ金が、堂々と、自分のものになるのだ。"
+  },
+  {
+   "op": "nar",
+   "text": "部屋の隅には、二枚折りの、古い屏風が、立てかけてあった。蕗屋は、それに、ちらりと目をやり、裏口から、出ていった。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "bg",
+   "src": "court_test",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "court_test"
+  },
+  {
+   "op": "nar",
+   "text": "一週間後。裁判所の一室。笠森判事が、机の上に、懐中時計と、言葉の一覧表を、置いている。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "斎藤くん。君には、心理試験を、受けてもらう。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……僕は、やっていません。婆さんを、見つけたのは、僕です。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "わかっている。だから、試験だ。……私が言う言葉に、真っ先に思い浮かんだ言葉で、答えてくれたまえ。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……わかりました。やってみます。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "最初の言葉だ。「頭」。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……「帽子」。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "「緑」。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "「草」。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "「金」。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……「植木鉢」。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……ふむ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "ち、違うんです！　婆さんの金が、植木鉢にあるのは、知ってたから、つい！"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "「殺す」。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……「婆さん」。……ああっ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "落ち着きたまえ。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "落ち着けるもんか！　……婆さんを見つけたとき、植木鉢の金が、半分、なくなってたんだ。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "僕は、怖くなって、残りを、懐に入れた。……盗んだと、思われると思って。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……それが、君を、いちばん怪しくしている。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……正直に、言っているのに。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "正直さは、心理試験の、記録紙には、写らんのだ。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "同じ部屋。今度は、蕗屋が、椅子に座っている。判事が、懐中時計を、開いた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "蕗屋くん。君も、同じ試験を、受けてもらう。……斎藤くんの、友人だそうだね。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "はい。何でも、お聞きください。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……落ち着いているね。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "斎藤の無実を、晴らすためなら、と思いまして。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "始めよう。まずは、「頭」。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "「毛」。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "次。「金」。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "「銀」。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "「植木」。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "「庭」。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "では、……「殺す」。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "「ナイフ」。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……刃物を、即答か。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "物騒な言葉でしたので、物騒な言葉で、答えました。……いけませんでしたか。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "いや。……「血」。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "「赤い」。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "「屏風」。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "「絵」。"
+  },
+  {
+   "op": "nar",
+   "text": "判事は、時計を、閉じた。蕗屋の答えは、どれも、早からず、遅からず、ごく、ふつうだった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……非の打ちどころが、ない。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "bg",
+   "src": "coin_trap",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "coin_trap"
+  },
+  {
+   "op": "nar",
+   "text": "判事の執務室。夕刻。机の上に、二人の試験の記録が、広げてある。若い男が、ふらりと、入ってきた。黒い棒縞の浴衣。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "判事。おじゃまします。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "明智くんか。……ちょうど、いいところへ。君の意見を、聞きたい。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "心理試験の、結果ですね。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "斎藤くんは、ひどく、動揺した。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "それは、そうでしょう。最初に、見つけた人ですから。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "蕗屋くんは、少しも、動揺しなかった。……科学的には、斎藤が、犯人だ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "拝見します。"
+  },
+  {
+   "op": "nar",
+   "text": "明智は、記録を、一枚ずつ、めくった。そして、くすりと、笑った。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……判事。蕗屋くんの答えは、完璧すぎますね。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "完璧すぎる？"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "「殺す」に、「ナイフ」。……ふつうの人は、殺す、と聞いて、すぐに、刃物は、思い浮かべません。たいてい、少し、ひるむ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "彼は、ひるまなかった。……ひるまないように、練習してきた人の、答えです。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……練習。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "練習した答えは、自然すぎて、かえって、不自然なんです。……緊張しないことに、緊張している。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "だが、それは、証拠には、ならん。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "ええ。だから、もう一つ、試してみたいことが、あります。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "蕗屋くんが、交番に届けた、拾った財布。……中に、紙幣が、何枚、入っていましたか。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "百円札が、二十枚ほどだ。……届け出には、そう書いてある。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "その札の、向きは。……表裏、上下、すべて、揃っていましたか。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……揃っていた、と記録にある。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "拾った財布の札が、すべて、揃っている。……几帳面な落とし主ですね。……あるいは、几帳面な、拾い主か。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "翌日。明智の下宿。蕗屋が、明智に招かれて、茶を飲んでいる。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "蕗屋くん。わざわざ、すまないね。……判事から、君の話を、聞いて、ぜひ、会いたくなった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "光栄です。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "判事が、君の答えに、すっかり、感心していてね。……あれほど、落ち着いた若者は、いないと。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……緊張しない、たちなので。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "君は、あの事件の日、老婆の家には、行っていないそうだね。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "はい。……事件の二日前に、斎藤を訪ねて、行ったきりです。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "そのとき、奥の座敷に、屏風が、あったかい。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……ええ、ありました。六歌仙の絵の、二枚折りの。……小野小町の、顔のところに、少し、破れが、ありましたね。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "よく、覚えているね。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "記憶は、いいほうなので。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……小町の顔の、破れまで。"
+  },
+  {
+   "op": "nar",
+   "text": "明智は、湯呑みを、置いた。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "その屏風はね、事件の前の日に、古道具屋から、老婆の家に、運び込まれたものなんだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……運び込まれた、前の日に。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "二日前に、君が行ったとき、その屏風は、まだ、古道具屋の店先にあった。……君が、あの屏風を、見られたのは、事件の日だけだ。"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "bg",
+   "src": "confession_shadow",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "confession_shadow"
+  },
+  {
+   "op": "nar",
+   "text": "明智の下宿の、廊下。夕暮れの光が、障子を、赤く、染めている。蕗屋が、立ち上がりかけて、そのまま、動けなくなっていた。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……屏風の、話は。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "判事の心理試験に、「屏風」という言葉が、あっただろう。君は、「絵」と、答えた。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "実は、あれが、僕の、仕掛けた言葉だった。……君は、六歌仙の屏風を、知っていた。だから、迷わず、「絵」と、答えられた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……屏風と聞けば、たいてい、絵と、答えます。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "そうだね。……だから、それだけでは、証拠には、ならなかった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "でも、今、君は、自分の口で、小野小町の顔の、破れまで、話してくれた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……仕掛け、だったのか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……僕は、完璧に、準備した。何十回も、練習した。「金」と言われても、「植木鉢」とは、言わないように。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "知っている。……君の準備は、本当に、完璧だった。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "判事が、科学に頼りすぎていたら、斎藤くんが、罪を、負うところだった。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "君が、準備したのは、聞かれたら、どう答えるか、だった。……聞かれなくても、話したくなる心は、準備できなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……話したく、なる。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "「記憶は、いいほうなので」。……君は、少しだけ、自慢したかったんだ。自分の、完璧さを。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "蕗屋は、自白する",
+     "jump": "m_confess"
+    },
+    {
+     "text": "蕗屋は、最後まで否定する",
+     "jump": "m_deny"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_confess"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……斎藤は。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "今日、釈放される。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……あいつには、悪いことをした。あいつが、植木鉢の話を、しなければ、と、思ったことさえ、あります。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……行きましょう。判事のところへ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……玄関まで、送ろう。"
+  },
+  {
+   "op": "jump",
+   "to": "m_end"
+  },
+  {
+   "op": "label",
+   "id": "m_deny"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……屏風なんて、見たことも、ありません。僕は、ただ、話を、合わせただけです。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "そうかい。……では、そう、判事に、話してくれたまえ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "でも、君は、きっと、今夜、眠れない。……完璧な人ほど、自分のついた小さな嘘が、許せないものだから。",
+   "eyes": "closed"
+  },
+  {
+   "op": "label",
+   "id": "m_end"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "江戸川乱歩『心理試験』、これにて、閉幕でございます。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "蕗屋は、聞かれたら、どう答えるかを、完璧に、練習しました。けれど、聞かれていないことを、自分から、話してしまいました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "心を隠す技術は、心そのものを、消してはくれません。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "隠そうとした、その手つきこそが、いちばん、目立つ痕跡になるのでございます。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

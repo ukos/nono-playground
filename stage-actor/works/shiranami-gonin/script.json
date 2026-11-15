@@ -7,9 +7,9 @@
   "category": "能・歌舞伎",
   "adaptation": "moderate",
   "format": "v3",
-  "minutes": 38,
+  "minutes": 40,
   "synopsis": "全五景で「名乗りは虚勢であると同時に、生き方の告白である」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
-  "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
  },
  "cast": [
   {
@@ -41,6 +41,11 @@
    "role": "赤星十三郎",
    "actor": "hayate",
    "costume": "default"
+  },
+  {
+   "role": "浜松屋幸兵衛",
+   "actor": "extra_elder",
+   "costume": "default"
   }
  ],
  "backgrounds": {
@@ -63,33 +68,22 @@
   {
    "op": "say",
    "actor": "nono",
-   "text": "ようこそ、NONO座へ。本日の演目は『青砥稿花紅彩画（白浪五人男）―稲瀬川の名乗り―』。",
-   "eyes": "normal"
+   "text": "白浪、とは、盗人のこと。江戸の町に、五人組の大盗賊が、おりました。人呼んで、白浪五人男。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "能・歌舞伎の一席を、全五景でお届けします。",
-   "mouth": "open",
-   "eyes": "normal"
+   "text": "頭目の日本駄右衛門、弁天小僧菊之助、忠信利平、赤星十三郎、南郷力丸。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "この舞台の核は「名乗りは虚勢であると同時に、生き方の告白である」。",
-   "eyes": "sorrow"
+   "text": "歌舞伎『青砥稿花紅彩画』。五人が揃いの着物で、ひとりずつ名乗りを上げる場面は、今も、名場面として知られます。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "台詞はすべて今夜のための書き下ろしです。"
-  },
-  {
-   "op": "say",
-   "actor": "nono",
-   "text": "それでは、幕を開けましょう。",
-   "mouth": "open",
-   "eyes": "joy"
+   "text": "名乗りとは、見得であり、強がりであり、……そして、自分がどう生きてきたかの、告白でもあるのでございます。"
   },
   {
    "op": "hide",
@@ -106,99 +100,148 @@
   },
   {
    "op": "nar",
-   "text": "第1景「浜松屋の店先」。美しい娘に化けた弁天小僧がゆすりを仕掛ける。"
+   "text": "鎌倉、雪ノ下。呉服屋の浜松屋。店先に、ひとりの美しい武家の娘が、供の侍を連れて、反物を選んでいる。"
   },
   {
    "op": "show",
-   "actor": "rei_kimono",
+   "actor": "extra_elder",
    "pos": "left"
   },
   {
    "op": "show",
-   "actor": "kurogane",
+   "actor": "rei_kimono",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
    "pos": "right"
   },
   {
    "op": "say",
-   "actor": "rei_kimono",
-   "text": "「浜松屋の店先」へ来た。美しい娘に化けた弁天小僧がゆすりを仕掛ける。",
-   "eyes": "normal"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "ここで黙れば、誰かが代わりに意味を決める。"
+   "actor": "extra_elder",
+   "text": "お嬢さま、こちらの緋鹿の子は、いかがでございましょう。京から届いたばかりの、上物で。"
   },
   {
    "op": "say",
    "actor": "rei_kimono",
-   "text": "私が守りたいのは「名乗りは虚勢であると同時に、生き方の告白である」だ。",
+   "text": "……まあ、きれい。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "お嬢さまの、婚礼の支度でござる。値は、問わぬ。よきものを、揃えよ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "ありがたいことで。……婚礼とは、おめでとうございます。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……お相手は、まだ、お顔も、存じませんの。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "それは、それは。……お幸せに、なられますよう。"
+  },
+  {
+   "op": "nar",
+   "text": "娘は、反物を手に取りながら、ふと、その一枚を、そっと、懐へ、すべり込ませた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……あ。お嬢さま、今、その鹿の子を。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……何のことで、ございましょう。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "懐へ、お入れに、なりましたな。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "無礼者！　武家の姫を、盗人呼ばわりするか！",
    "eyes": "anger"
   },
   {
    "op": "nar",
-   "text": "浜松屋の店先の空気が変わり、二人は言葉の裏を測る。"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "守るという言葉が、誰かの犠牲を隠していないか。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_kimono",
-   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-   "eyes": "fun"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "過去は変えられない。だが次の手は選べる。"
+   "text": "主人が、娘の懐に、手を差し入れた。"
   },
   {
    "op": "nar",
-   "text": "遠くの音が途切れる。美しい娘に化けた弁天小僧がゆすりを仕掛ける。"
+   "text": "出てきたのは、……この店の反物では、なかった。山形屋という、別の店の、値札がついていた。"
   },
   {
    "op": "say",
-   "actor": "rei_kimono",
-   "text": "美しい娘に化けた弁天小僧がゆすりを仕掛ける。その事実から目をそらさない。",
+   "actor": "extra_elder",
+   "text": "……これは。うちの、品では。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "見よ！　よその店で、買うた品じゃ。それを、盗人と申したな。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "も、申し訳、ございません！"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "姫の額に、傷がついた。……主人が、そろばんで、叩いたのでござるぞ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……どうか、お許しを。……詫び料は、いかほどでも。",
    "eyes": "crying"
   },
   {
    "op": "say",
-   "actor": "kurogane",
-   "text": "恐れを消すのではなく、恐れたまま進もう。"
+   "actor": "gou",
+   "text": "……百両。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "ひ、百両。"
   },
   {
    "op": "say",
    "actor": "rei_kimono",
-   "text": "私の名ではなく、行いで答えを残す。",
-   "eyes": "normal"
+   "text": "……額が、痛みます。嫁入り前の、この顔に。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "お、お医者を、すぐに。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "医者は、要らぬ。……要るのは、詫びの、しるしじゃ。"
   },
   {
    "op": "nar",
-   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+   "text": "主人は、そろばんで叩いた覚えなど、なかった。けれど、侍の剣幕に、口をつぐんだ。"
   },
   {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "その答えを、次の場面まで持って行こう。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_kimono",
-   "text": "ここで決める。逃げず、相手の声を聞く。",
-   "eyes": "anger"
-  },
-  {
-   "op": "nar",
-   "text": "残された沈黙が、次の行動を促す。"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "ならば私も、その決断の重さを分け合う。"
+   "op": "hide",
+   "actor": "extra_elder"
   },
   {
    "op": "hide",
@@ -206,7 +249,7 @@
   },
   {
    "op": "hide",
-   "actor": "kurogane"
+   "actor": "gou"
   },
   {
    "op": "bg",
@@ -219,107 +262,211 @@
   },
   {
    "op": "nar",
-   "text": "第2景「正体露見」。肩の刺青を見抜かれ弁天小僧が啖呵を切る。"
+   "text": "浜松屋の奥座敷。主人が、震える手で、百両を、包もうとしていた。奥から、店に居合わせた、ひとりの侍が、ゆっくりと、現れた。"
   },
   {
    "op": "show",
-   "actor": "gou",
+   "actor": "extra_elder",
    "pos": "left"
   },
   {
    "op": "show",
-   "actor": "sasuke",
+   "actor": "kurogane",
    "pos": "right"
   },
   {
    "op": "say",
-   "actor": "gou",
-   "text": "「正体露見」へ来た。肩の刺青を見抜かれ弁天小僧が啖呵を切る。"
+   "actor": "kurogane",
+   "text": "……待たれよ、主人。"
   },
   {
    "op": "say",
-   "actor": "sasuke",
-   "text": "ここで黙れば、誰かが代わりに意味を決める。",
-   "eyes": "anger"
+   "actor": "extra_elder",
+   "text": "これは、玉島さま。"
   },
   {
    "op": "say",
-   "actor": "gou",
-   "text": "私が守りたいのは「名乗りは虚勢であると同時に、生き方の告白である」だ。"
+   "actor": "kurogane",
+   "text": "その娘御、武家の姫と、申したな。……ちと、見せてもらおう。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "姫。……その袖を、少し、まくっては、いただけぬか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……何を、なさいます。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "武家の姫の、二の腕に、桜の、刺青は、あるまい。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……ご冗談を。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "冗談か、どうか、確かめるだけでござる。"
   },
   {
    "op": "nar",
-   "text": "正体露見の空気が変わり、二人は言葉の裏を測る。"
+   "text": "侍が、袖を、ぐいと、引いた。白い腕に、……鮮やかな、桜の花びらの、彫り物が、のぞいた。"
   },
   {
    "op": "say",
-   "actor": "sasuke",
-   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
-   "eyes": "fun"
+   "actor": "extra_elder",
+   "text": "……刺青！",
+   "eyes": "surprise"
   },
   {
    "op": "say",
-   "actor": "gou",
-   "text": "ならば勝ち負けだけでなく、支払う代価も見る。"
-  },
-  {
-   "op": "say",
-   "actor": "sasuke",
-   "text": "過去は変えられない。だが次の手は選べる。",
-   "eyes": "crying"
-  },
-  {
-   "op": "nar",
-   "text": "遠くの音が途切れる。肩の刺青を見抜かれ弁天小僧が啖呵を切る。"
-  },
-  {
-   "op": "say",
-   "actor": "gou",
-   "text": "肩の刺青を見抜かれ弁天小僧が啖呵を切る。その事実から目をそらさない。"
-  },
-  {
-   "op": "say",
-   "actor": "sasuke",
-   "text": "恐れを消すのではなく、恐れたまま進もう。",
-   "eyes": "normal"
-  },
-  {
-   "op": "say",
-   "actor": "gou",
-   "text": "私の名ではなく、行いで答えを残す。"
-  },
-  {
-   "op": "nar",
-   "text": "答えを急がず、選んだ手段の代価を確かめる。"
-  },
-  {
-   "op": "say",
-   "actor": "sasuke",
-   "text": "その答えを、次の場面まで持って行こう。",
-   "eyes": "anger"
-  },
-  {
-   "op": "say",
-   "actor": "gou",
-   "text": "ここで決める。逃げず、相手の声を聞く。"
-  },
-  {
-   "op": "nar",
-   "text": "残された沈黙が、次の行動を促す。"
-  },
-  {
-   "op": "say",
-   "actor": "sasuke",
-   "text": "ならば私も、その決断の重さを分け合う。",
-   "eyes": "fun"
+   "actor": "rei_kimono",
+   "text": "……ちっ。"
   },
   {
    "op": "hide",
-   "actor": "gou"
+   "actor": "extra_elder"
   },
   {
    "op": "hide",
-   "actor": "sasuke"
+   "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "娘は、すっくと立ち上がった。そして、帯を、ほどき、片肌を、ばさりと脱いだ。……そこにいたのは、男だった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……ばれちゃあ、しかたがねえ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "お、男！"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "知らねえなら、聞かせてやろうか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "浜の真砂は、尽きたとしても、盗人の種は、尽きねえもんだ。……生まれは、江の島。寺の稚児あがり。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "賽銭箱から始まって、旅の客の財布に、手を伸ばし、……悪さが過ぎて、島を追い出された。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "それからは、娘に化けて、美人局。……名前だけは、天女の弁天さまから、拝借した。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "弁天小僧、菊之助たあ、……俺のことよ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……弁天、小僧。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……見事な、啖呵だ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "お侍さん。あんたの目は、ごまかせなかったようだな。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "供の侍も、仲間だ。……おい、南郷、出てこい。もう、芝居は、おしまいだ。"
+  },
+  {
+   "op": "nar",
+   "text": "供の侍が、頭をかきながら、柱の陰から、のそりと出てきた。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……ああ。"
+  },
+  {
+   "op": "nar",
+   "text": "侍は、それ以上、何も言わなかった。弁天小僧は、着物を肩にかけ、悠々と、店を出ていった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……玉島さま。捕まえなくて、よろしいので。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……拙者は、ただの、客でござる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……客にしては、あの娘御の、刺青の場所まで、よう、ご存じで。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……目が、よいだけでござる。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
   },
   {
    "op": "bg",
@@ -332,99 +479,231 @@
   },
   {
    "op": "nar",
-   "text": "第3景「五人の隠れ家」。五人が追手と仲間への思いを確かめる。"
+   "text": "その夜。町はずれの、廃寺。灯明が、一つ。五人の男が、車座になっている。"
   },
   {
    "op": "show",
-   "actor": "hayate",
+   "actor": "rei_kimono",
    "pos": "left"
   },
   {
    "op": "show",
-   "actor": "rei_kimono",
+   "actor": "kurogane",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
    "pos": "right"
   },
   {
    "op": "say",
-   "actor": "hayate",
-   "text": "「五人の隠れ家」へ来た。五人が追手と仲間への思いを確かめる。"
+   "actor": "gou",
+   "text": "弁天。……今日は、しくじったな。"
   },
   {
    "op": "say",
    "actor": "rei_kimono",
-   "text": "ここで黙れば、誰かが代わりに意味を決める。",
-   "eyes": "sorrow"
+   "text": "しくじっちゃいねえ。刺青を見抜いたのは、頭だ。"
   },
   {
    "op": "say",
-   "actor": "hayate",
-   "text": "私が守りたいのは「名乗りは虚勢であると同時に、生き方の告白である」だ。"
-  },
-  {
-   "op": "nar",
-   "text": "五人の隠れ家の空気が変わり、二人は言葉の裏を測る。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_kimono",
-   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+   "actor": "gou",
+   "text": "……頭？",
    "eyes": "surprise"
   },
   {
    "op": "say",
-   "actor": "hayate",
-   "text": "ならば勝ち負けだけでなく、支払う代価も見る。"
+   "actor": "kurogane",
+   "text": "……あの店の主人を、見たか。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "見た。……しなびた、じいさんだ。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "あの主人は、拙者の、昔の、恩人だ。……あの店から、百両を、取るわけには、いかなかった。"
   },
   {
    "op": "say",
    "actor": "rei_kimono",
-   "text": "過去は変えられない。だが次の手は選べる。",
+   "text": "……だから、わざと、刺青を。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "弁天。お前は、腕がいい。……だが、相手を、選べ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "盗人に、相手を選べ、たあ、贅沢な話だ。",
    "eyes": "closed"
   },
   {
-   "op": "nar",
-   "text": "遠くの音が途切れる。五人が追手と仲間への思いを確かめる。"
+   "op": "say",
+   "actor": "kurogane",
+   "text": "盗人だからこそ、だ。"
   },
   {
    "op": "say",
-   "actor": "hayate",
-   "text": "五人が追手と仲間への思いを確かめる。その事実から目をそらさない。"
+   "actor": "kurogane",
+   "text": "盗まれて、首をくくる者が出たら、それは、盗みではなく、人殺しだ。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "……頭の、その説教、もう、百ぺん聞いた。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "百一ぺん目だ。よく聞け。",
+   "eyes": "closed"
   },
   {
    "op": "say",
    "actor": "rei_kimono",
-   "text": "恐れを消すのではなく、恐れたまま進もう。",
+   "text": "……百両の代わりに、緋鹿の子を、一反、もらっといた。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "明日の朝一番に、店へ、返してこい。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……へいへい。明日な。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "hayate",
+   "pos": "right"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "頭。……町に、捕手の触れが、回りました。俺たち五人の、人相書きつきで。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "似てないんですよ、それが。……わたしなんて、鼻が、二倍になってる。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "赤星、お前は、それくらいで、ちょうどいい。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "忠信さんなんて、眉毛が、繋がってましたよ。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……あれは、絵師の、悪意だ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "忠信さん！",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "二人とも、静まれ。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……捕まるのは、時間の問題だ。……五人で、いつまでも、一緒には、いられぬ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……散る、ってことですか。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "散る前に、一つだけ、やっておきたいことがある。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "やっておきたいこと、とは。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……揃いの着物を、着て、稲瀬川の土手を、歩く。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……捕手が、うようよしている、昼日中に？",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "盗人にも、一度くらい、晴れ舞台が、あっても、よかろう。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……捕まえてくれ、と言うようなもんだ。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "捕まる前に、自分の名を、自分の口で、言っておきたい。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "人相書きの、二倍の鼻で、覚えられるのは、嫌ですものね。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……それは、たしかに、嫌だな。",
    "eyes": "joy"
   },
   {
-   "op": "say",
-   "actor": "hayate",
-   "text": "私の名ではなく、行いで答えを残す。"
-  },
-  {
-   "op": "nar",
-   "text": "答えを急がず、選んだ手段の代価を確かめる。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_kimono",
-   "text": "その答えを、次の場面まで持って行こう。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "say",
-   "actor": "hayate",
-   "text": "ここで決める。逃げず、相手の声を聞く。"
-  },
-  {
-   "op": "nar",
-   "text": "残された沈黙が、次の行動を促す。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_kimono",
-   "text": "ならば私も、その決断の重さを分け合う。",
-   "eyes": "surprise"
+   "op": "hide",
+   "actor": "sasuke"
   },
   {
    "op": "hide",
@@ -432,7 +711,7 @@
   },
   {
    "op": "hide",
-   "actor": "rei_kimono"
+   "actor": "kurogane"
   },
   {
    "op": "bg",
@@ -445,11 +724,78 @@
   },
   {
    "op": "nar",
-   "text": "第4景「稲瀬川の土手」。揃いの傘の下で五人が一人ずつ名乗る。"
+   "text": "稲瀬川の土手。春。桜が、満開。五人の男が、揃いの、白浪模様の着物を着て、それぞれ、番傘を差し、一列に、並んで歩いてくる。"
   },
   {
    "op": "show",
    "actor": "kurogane",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "土手の向こうから、捕手の掛け声が、聞こえる。五人は、立ち止まり、傘を、くるりと回した。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……さて。名乗りといこう。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "問われて名乗るも、おこがましいが。……生まれは、遠州、浜松在。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "十四の年に、親に死なれ、食うために、盗みを覚えた。……盗んだ数より、人を助けた数のほうが、多いと、信じたい。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "盗人の束ね、日本駄右衛門。……白浪の、頭よ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……頭、昔の話、初めて聞いた。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "名乗りでしか、言えぬこともある。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
    "pos": "left"
   },
   {
@@ -459,122 +805,81 @@
   },
   {
    "op": "say",
+   "actor": "rei_kimono",
+   "text": "お次は、俺だ。……と言っても、昨日、浜松屋で、ひと通り、言っちまった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "江の島の稚児あがり。女に化けては、人をだまし、……だましすぎて、自分が、男か女か、わからなくなった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "けど、今日、こうして、揃いの着物を着たら、……わかった。俺は、五人の、ひとりだ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "弁天小僧、菊之助。"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "show",
    "actor": "kurogane",
-   "text": "「稲瀬川の土手」へ来た。揃いの傘の下で五人が一人ずつ名乗る。"
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "right"
   },
   {
    "op": "say",
    "actor": "gou",
-   "text": "ここで黙れば、誰かが代わりに意味を決める。"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "私が守りたいのは「名乗りは虚勢であると同時に、生き方の告白である」だ。"
-  },
-  {
-   "op": "nar",
-   "text": "稲瀬川の土手の空気が変わり、二人は言葉の裏を測る。"
+   "text": "次は、俺だ。……生まれは、備前の、海の町。"
   },
   {
    "op": "say",
    "actor": "gou",
-   "text": "守るという言葉が、誰かの犠牲を隠していないか。"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "ならば勝ち負けだけでなく、支払う代価も見る。"
+   "text": "船乗りの子で、嵐で、親父の船が沈んだ。……それからは、陸に上がった、河童よ。"
   },
   {
    "op": "say",
    "actor": "gou",
-   "text": "過去は変えられない。だが次の手は選べる。"
-  },
-  {
-   "op": "nar",
-   "text": "遠くの音が途切れる。揃いの傘の下で五人が一人ずつ名乗る。"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "揃いの傘の下で五人が一人ずつ名乗る。その事実から目をそらさない。"
+   "text": "力だけが、取り柄でな。……頭に拾われるまで、喧嘩で、飯を食ってた。"
   },
   {
    "op": "say",
    "actor": "gou",
-   "text": "恐れを消すのではなく、恐れたまま進もう。"
+   "text": "南郷力丸。"
   },
   {
    "op": "say",
-   "actor": "kurogane",
-   "text": "私の名ではなく、行いで答えを残す。"
-  },
-  {
-   "op": "nar",
-   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+   "actor": "sasuke",
+   "text": "……河童にしちゃ、図体が、でかすぎる。"
   },
   {
    "op": "say",
    "actor": "gou",
-   "text": "その答えを、次の場面まで持って行こう。"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "ここで決める。逃げず、相手の声を聞く。"
-  },
-  {
-   "op": "nar",
-   "text": "残された沈黙が、次の行動を促す。"
-  },
-  {
-   "op": "say",
-   "actor": "gou",
-   "text": "ならば私も、その決断の重さを分け合う。"
-  },
-  {
-   "op": "choice",
-   "options": [
-    {
-     "text": "正面から問いかける",
-     "jump": "shiranami-gonin_direct"
-    },
-    {
-     "text": "相手の話を最後まで聞く",
-     "jump": "shiranami-gonin_listen"
-    }
-   ]
-  },
-  {
-   "op": "label",
-   "id": "shiranami-gonin_direct"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "私は正面から問う。曖昧なまま次へは進まない。"
-  },
-  {
-   "op": "jump",
-   "to": "shiranami-gonin_merge"
-  },
-  {
-   "op": "label",
-   "id": "shiranami-gonin_listen"
-  },
-  {
-   "op": "say",
-   "actor": "gou",
-   "text": "結論を急がず、相手が何を恐れているかまで聞こう。"
-  },
-  {
-   "op": "label",
-   "id": "shiranami-gonin_merge"
-  },
-  {
-   "op": "nar",
-   "text": "選び方は違っても、二人は同じ核心へ戻ってくる。"
+   "text": "うるせえ。"
   },
   {
    "op": "hide",
@@ -583,6 +888,132 @@
   {
    "op": "hide",
    "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "hayate",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……では、わたしの番か。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "生まれは、上州。……侍の家の、次男坊。家を継げずに、剣だけ、磨いた。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "磨いた剣で、何を斬るか。……それを決められずに、盗人になった。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "忠信利平。……斬らずに、済むなら、それがいい。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "忠信さん、かっこいい。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……茶化すな。"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "hide",
+   "actor": "hayate"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "hayate",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "最後は、わたしです。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "……わたしは、もとは、お寺の、小姓でした。主の恩を返すために、百両の金が、要った。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "その百両を、盗もうとして、……頭に、見つかった。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "頭は、わたしを、捕まえなかった。……代わりに、百両を、くれました。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "それから、ずっと、この一味に。……赤星十三郎。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……十三郎。お前は、盗みが、下手だ。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "下手だから、頭のそばに、おります。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "hayate"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
   },
   {
    "op": "bg",
@@ -595,7 +1026,75 @@
   },
   {
    "op": "nar",
-   "text": "第5景「橋上の追跡」。捕手に囲まれながら各自が選んだ道へ散る。"
+   "text": "捕手の群れが、土手を、駆け上ってきた。御用提灯が、桜並木の間で、揺れる。五人は、橋の上へと、追い詰められた。"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "頭！　囲まれた！"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……ここで、散ろう。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "揃いの着物の、晴れ舞台が、半日で、おしまいか。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "半日も、あれば、十分だ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "頭、あんたは。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "拙者は、ここに残る。……頭が残れば、捕手は、皆、こちらへ来る。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……頭ひとりを、置いていけってのか。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "弁天。お前の名乗りは、立派だった。……次は、盗人ではない名で、名乗れるといいな。"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
   },
   {
    "op": "show",
@@ -608,89 +1107,41 @@
    "pos": "right"
   },
   {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "center"
+  },
+  {
    "op": "say",
    "actor": "sasuke",
-   "text": "「橋上の追跡」へ来た。捕手に囲まれながら各自が選んだ道へ散る。",
-   "eyes": "fun",
-   "mouth": "open"
+   "text": "頭。……わたしは、残ります。剣を、抜くなら、今でしょう。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "抜くな、忠信。……斬らずに済むなら、それがいい、と言ったのは、お前だ。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……覚えて、おられましたか。",
+   "eyes": "sorrow"
   },
   {
    "op": "say",
    "actor": "hayate",
-   "text": "ここで黙れば、誰かが代わりに意味を決める。"
+   "text": "頭。わたしも、残ります。"
   },
   {
    "op": "say",
-   "actor": "sasuke",
-   "text": "私が守りたいのは「名乗りは虚勢であると同時に、生き方の告白である」だ。",
+   "actor": "kurogane",
+   "text": "十三郎。……お前には、まだ、恩を返す相手が、いるだろう。行け。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "……ご恩は、一生、忘れません。",
    "eyes": "crying"
-  },
-  {
-   "op": "nar",
-   "text": "橋上の追跡の空気が変わり、二人は言葉の裏を測る。"
-  },
-  {
-   "op": "say",
-   "actor": "hayate",
-   "text": "守るという言葉が、誰かの犠牲を隠していないか。"
-  },
-  {
-   "op": "say",
-   "actor": "sasuke",
-   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-   "eyes": "normal",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "hayate",
-   "text": "過去は変えられない。だが次の手は選べる。"
-  },
-  {
-   "op": "nar",
-   "text": "遠くの音が途切れる。捕手に囲まれながら各自が選んだ道へ散る。"
-  },
-  {
-   "op": "say",
-   "actor": "sasuke",
-   "text": "捕手に囲まれながら各自が選んだ道へ散る。その事実から目をそらさない。",
-   "eyes": "anger"
-  },
-  {
-   "op": "say",
-   "actor": "hayate",
-   "text": "恐れを消すのではなく、恐れたまま進もう。"
-  },
-  {
-   "op": "say",
-   "actor": "sasuke",
-   "text": "私の名ではなく、行いで答えを残す。",
-   "eyes": "fun",
-   "mouth": "open"
-  },
-  {
-   "op": "nar",
-   "text": "答えを急がず、選んだ手段の代価を確かめる。"
-  },
-  {
-   "op": "say",
-   "actor": "hayate",
-   "text": "その答えを、次の場面まで持って行こう。"
-  },
-  {
-   "op": "say",
-   "actor": "sasuke",
-   "text": "ここで決める。逃げず、相手の声を聞く。",
-   "eyes": "crying"
-  },
-  {
-   "op": "nar",
-   "text": "残された沈黙が、次の行動を促す。"
-  },
-  {
-   "op": "say",
-   "actor": "hayate",
-   "text": "ならば私も、その決断の重さを分け合う。"
   },
   {
    "op": "hide",
@@ -701,6 +1152,119 @@
    "actor": "hayate"
   },
   {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "right"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "五人は、ばらばらに散る",
+     "jump": "m_scatter"
+    },
+    {
+     "text": "五人は、最後まで一緒に立つ",
+     "jump": "m_stand"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_scatter"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "散れ！"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "頭。……盗人じゃない名前で、また、名乗ってみせる。"
+  },
+  {
+   "op": "nar",
+   "text": "弁天は、川へ飛び込んだ。南郷は、捕手をかき分け、走り抜けた。忠信と赤星は、桜並木の向こうへ、消えた。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "……頭！　またな！"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……ああ。また、どこかで。"
+  },
+  {
+   "op": "jump",
+   "to": "m_end"
+  },
+  {
+   "op": "label",
+   "id": "m_stand"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……頭。散るのは、なしだ。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "揃いの着物を着たんだ。……揃って、捕まろうぜ。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……馬鹿どもめ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "ならば、もう一度だけ、傘を、回せ。……今度は、捕手に、見せてやれ。"
+  },
+  {
+   "op": "nar",
+   "text": "五人は、橋の上に、横一列に並び、傘を、一斉に、回した。捕手たちが、思わず、足を止めて、見入った。"
+  },
+  {
+   "op": "label",
+   "id": "m_end"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
    "op": "show",
    "actor": "nono",
    "pos": "center"
@@ -708,29 +1272,21 @@
   {
    "op": "say",
    "actor": "nono",
-   "text": "物語はここまで。残った問いは「名乗りは虚勢であると同時に、生き方の告白である」。",
-   "eyes": "sorrow"
+   "text": "歌舞伎『青砥稿花紅彩画』、白浪五人男、これにて、幕でございます。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
-   "eyes": "normal"
+   "text": "五人の名乗りは、強がりで、見得で、……そして、それぞれが、どうしてここまで来たかの、告白でした。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "ご来場、ありがとうございました。",
-   "eyes": "joy",
-   "mouth": "open"
+   "text": "名乗りを上げるのは、名前を、誰かに、覚えていてほしいから。……盗人であっても、それは、変わらないのでございましょう。"
   },
   {
    "op": "hide",
    "actor": "nono"
-  },
-  {
-   "op": "bg",
-   "src": null
   },
   {
    "op": "end"

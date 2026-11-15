@@ -1,709 +1,1133 @@
 {
-  "meta": {
-    "id": "valley-of-fear",
-    "number": 111,
-    "title": "恐怖の谷 ―暗号と焼印―",
-    "original": "Arthur Conan Doyle, The Valley of Fear（原典著作権消滅）",
-    "category": "探偵",
-    "adaptation": "faithful",
-    "format": "v3",
-    "minutes": 44,
-    "synopsis": "全五景で「恐怖の連鎖を断つには、偽装の奥の事情を見る」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
-    "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+ "meta": {
+  "id": "valley-of-fear",
+  "number": 111,
+  "title": "恐怖の谷 ―暗号と焼印―",
+  "original": "Arthur Conan Doyle, The Valley of Fear（原典著作権消滅）",
+  "category": "探偵",
+  "adaptation": "faithful",
+  "format": "v3",
+  "minutes": 46,
+  "synopsis": "全五景で「恐怖の連鎖を断つには、偽装の奥の事情を見る」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "狂言回し",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "シャーロック・ホームズ",
-      "actor": "yoru",
-      "costume": "default"
-    },
-    {
-      "role": "ワトソン",
-      "actor": "rei_casual",
-      "costume": "default"
-    },
-    {
-      "role": "マクドナルド警部",
-      "actor": "kurogane",
-      "costume": "default"
-    },
-    {
-      "role": "バーディ・エドワーズ",
-      "actor": "hayate",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "cipher_room": "bg/valley-of-fear-cipher_room-2048x1152.png",
-    "manor_moat": "bg/valley-of-fear-manor_moat-2048x1152.png",
-    "hidden_man": "bg/valley-of-fear-hidden_man-2048x1152.png",
-    "vermissa_lodge": "bg/valley-of-fear-vermissa_lodge-2048x1152.png",
-    "sea_warning": "bg/valley-of-fear-sea_warning-2048x1152.png"
+  {
+   "role": "シャーロック・ホームズ",
+   "actor": "yoru",
+   "costume": "default"
   },
-  "steps": [
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『恐怖の谷』。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "探偵の一席を、全五景でお届けします。",
-      "mouth": "open",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "この舞台の核は「恐怖の連鎖を断つには、偽装の奥の事情を見る」。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "台詞はすべて今夜のための書き下ろしです。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "それでは、幕を開けましょう。",
-      "mouth": "open",
-      "eyes": "joy"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "cipher_room",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "cipher_room"
-    },
-    {
-      "op": "nar",
-      "text": "第1景「暗号の書斎」。暗号文がバールストン館の危険を告げる。"
-    },
-    {
-      "op": "show",
-      "actor": "yoru",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "現場は「暗号の書斎」。まず事実だけを並べよう。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "確認できるのは、暗号文がバールストン館の危険を告げるという一点だ。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "見えたものと、そう思った理由を分けて書く。",
-      "eyes": "anger"
-    },
-    {
-      "op": "nar",
-      "text": "暗号の書斎の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "証言が一致するほど、同じ思い込みを疑うべきか。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "一致は安心材料だが、真実の保証ではない。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "鍵は「恐怖の連鎖を断つには、偽装の奥の事情を見る」にある。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。暗号文がバールストン館の危険を告げる。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "犯人像を先に決めず、痕跡から可能性を削ろう。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "では時刻、入口、道具の順に確かめる。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "暗号文がバールストン館の危険を告げる。この行動には目的が二つ重なっている。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "表の目的が囮なら、裏の目的は何だ。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "答えはまだ言わない。反証できる形にしよう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "推理を勝利ではなく、検証として終わらせる。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "hide",
-      "actor": "yoru"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "bg",
-      "src": "manor_moat",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "manor_moat"
-    },
-    {
-      "op": "nar",
-      "text": "第2景「堀のある館」。顔を撃たれた遺体と消えた婚礼指輪を調べる。"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "hayate",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "現場は「堀のある館」。まず事実だけを並べよう。"
-    },
-    {
-      "op": "say",
-      "actor": "hayate",
-      "text": "確認できるのは、顔を撃たれた遺体と消えた婚礼指輪を調べるという一点だ。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "見えたものと、そう思った理由を分けて書く。"
-    },
-    {
-      "op": "nar",
-      "text": "堀のある館の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "hayate",
-      "text": "証言が一致するほど、同じ思い込みを疑うべきか。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "一致は安心材料だが、真実の保証ではない。"
-    },
-    {
-      "op": "say",
-      "actor": "hayate",
-      "text": "鍵は「恐怖の連鎖を断つには、偽装の奥の事情を見る」にある。"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。顔を撃たれた遺体と消えた婚礼指輪を調べる。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "犯人像を先に決めず、痕跡から可能性を削ろう。"
-    },
-    {
-      "op": "say",
-      "actor": "hayate",
-      "text": "では時刻、入口、道具の順に確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "顔を撃たれた遺体と消えた婚礼指輪を調べる。この行動には目的が二つ重なっている。"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "hayate",
-      "text": "表の目的が囮なら、裏の目的は何だ。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "答えはまだ言わない。反証できる形にしよう。"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "hayate",
-      "text": "推理を勝利ではなく、検証として終わらせる。"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "hide",
-      "actor": "hayate"
-    },
-    {
-      "op": "bg",
-      "src": "hidden_man",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "hidden_man"
-    },
-    {
-      "op": "nar",
-      "text": "第3景「隠れた生存者」。死者と主人が入れ替わった偽装を見抜く。"
-    },
-    {
-      "op": "show",
-      "actor": "yoru",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "現場は「隠れた生存者」。まず事実だけを並べよう。",
-      "eyes": "anger",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "確認できるのは、死者と主人が入れ替わった偽装を見抜くという一点だ。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "見えたものと、そう思った理由を分けて書く。",
-      "eyes": "fun"
-    },
-    {
-      "op": "nar",
-      "text": "隠れた生存者の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "証言が一致するほど、同じ思い込みを疑うべきか。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "一致は安心材料だが、真実の保証ではない。",
-      "eyes": "crying",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "鍵は「恐怖の連鎖を断つには、偽装の奥の事情を見る」にある。",
-      "eyes": "closed"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。死者と主人が入れ替わった偽装を見抜く。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "犯人像を先に決めず、痕跡から可能性を削ろう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "では時刻、入口、道具の順に確かめる。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "死者と主人が入れ替わった偽装を見抜く。この行動には目的が二つ重なっている。",
-      "eyes": "anger",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "表の目的が囮なら、裏の目的は何だ。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "答えはまだ言わない。反証できる形にしよう。",
-      "eyes": "fun"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "推理を勝利ではなく、検証として終わらせる。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "hide",
-      "actor": "yoru"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "bg",
-      "src": "vermissa_lodge",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "vermissa_lodge"
-    },
-    {
-      "op": "nar",
-      "text": "第4景「ヴァーミッサの支部」。過去の鉱山町で秘密結社へ潜入した日々が語られる。"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "hayate",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "現場は「ヴァーミッサの支部」。まず事実だけを並べよう。"
-    },
-    {
-      "op": "say",
-      "actor": "hayate",
-      "text": "確認できるのは、過去の鉱山町で秘密結社へ潜入した日々が語られるという一点だ。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "見えたものと、そう思った理由を分けて書く。"
-    },
-    {
-      "op": "nar",
-      "text": "ヴァーミッサの支部の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "hayate",
-      "text": "証言が一致するほど、同じ思い込みを疑うべきか。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "一致は安心材料だが、真実の保証ではない。"
-    },
-    {
-      "op": "say",
-      "actor": "hayate",
-      "text": "鍵は「恐怖の連鎖を断つには、偽装の奥の事情を見る」にある。"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。過去の鉱山町で秘密結社へ潜入した日々が語られる。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "犯人像を先に決めず、痕跡から可能性を削ろう。"
-    },
-    {
-      "op": "say",
-      "actor": "hayate",
-      "text": "では時刻、入口、道具の順に確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "過去の鉱山町で秘密結社へ潜入した日々が語られる。この行動には目的が二つ重なっている。"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "hayate",
-      "text": "表の目的が囮なら、裏の目的は何だ。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "答えはまだ言わない。反証できる形にしよう。"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "hayate",
-      "text": "推理を勝利ではなく、検証として終わらせる。"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "hide",
-      "actor": "hayate"
-    },
-    {
-      "op": "bg",
-      "src": "sea_warning",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "sea_warning"
-    },
-    {
-      "op": "nar",
-      "text": "第5景「海からの報せ」。勝ったはずの男へ古い敵の影が再び届く。"
-    },
-    {
-      "op": "show",
-      "actor": "yoru",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "現場は「海からの報せ」。まず事実だけを並べよう。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "確認できるのは、勝ったはずの男へ古い敵の影が再び届くという一点だ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "見えたものと、そう思った理由を分けて書く。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "海からの報せの空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "証言が一致するほど、同じ思い込みを疑うべきか。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "一致は安心材料だが、真実の保証ではない。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "鍵は「恐怖の連鎖を断つには、偽装の奥の事情を見る」にある。",
-      "eyes": "joy"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。勝ったはずの男へ古い敵の影が再び届く。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "犯人像を先に決めず、痕跡から可能性を削ろう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "では時刻、入口、道具の順に確かめる。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "勝ったはずの男へ古い敵の影が再び届く。この行動には目的が二つ重なっている。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "表の目的が囮なら、裏の目的は何だ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "答えはまだ言わない。反証できる形にしよう。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "推理を勝利ではなく、検証として終わらせる。",
-      "eyes": "closed"
-    },
-    {
-      "op": "hide",
-      "actor": "yoru"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "物語はここまで。残った問いは「恐怖の連鎖を断つには、偽装の奥の事情を見る」。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ご来場、ありがとうございました。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "end"
+  {
+   "role": "ワトソン",
+   "actor": "rei_casual",
+   "costume": "default"
+  },
+  {
+   "role": "マクドナルド警部",
+   "actor": "kurogane",
+   "costume": "default"
+  },
+  {
+   "role": "バーディ・エドワーズ",
+   "actor": "hayate",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "cipher_room": "bg/valley-of-fear-cipher_room-2048x1152.png",
+  "manor_moat": "bg/valley-of-fear-manor_moat-2048x1152.png",
+  "hidden_man": "bg/valley-of-fear-hidden_man-2048x1152.png",
+  "vermissa_lodge": "bg/valley-of-fear-vermissa_lodge-2048x1152.png",
+  "sea_warning": "bg/valley-of-fear-sea_warning-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ロンドン、ベーカー街。ホームズのもとに、一通の暗号文が、届きました。差出人は、ポーロック。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ポーロックとは、偽名。……犯罪界のナポレオンと呼ばれる、モリアーティ教授の手下のひとりでございます。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "アーサー・コナン・ドイル『恐怖の谷』。イギリスの古い館の殺人と、アメリカの炭鉱町の秘密結社が、一本の糸で、結ばれるお話。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "恐怖の連鎖を、断ち切るには。……偽装の奥にある、ひとりの人間の事情を、見なければならないのです。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "cipher_room",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "cipher_room"
+  },
+  {
+   "op": "nar",
+   "text": "ベーカー街221B。朝。ホームズが、一枚の紙を、睨んでいる。紙には、数字と、単語が、ばらばらに、並んでいた。"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "534、C2、13、127……。これは、何だい。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "暗号です。……数字は、ある本の、ページと、行と、単語の位置を、示している。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "どの本だ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "それが、問題です。……ポーロックは、本の名前を、別の手紙で、送ると、言っていた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "届いていないのか。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "届きました。……ただ一行、「もう、送れない。彼に、気づかれた」と。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "ポーロックは、本の名前を、書かなかった。……だが、手がかりは、ある。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "534ページもある、厚い本。C2は、二段組の、二段目。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "誰もが持っていて、わざわざ、名前を書かなくても、わかる本。……聖書では、ない。版によって、ページが、違う。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……では、何だ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "年鑑です。……毎年出る、ホイッテカー年鑑。同じ年の版なら、誰が持っていても、ページは、同じ。"
+  },
+  {
+   "op": "nar",
+   "text": "ホームズは、棚から、今年の年鑑を、取り出した。ページをめくり、単語を、拾っていく。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……「危険」。「迫る」。「ダグラス」。「金持ち」。「田舎」。「バールストン」。「館」。……「信頼」。「急ぐ」。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……ダグラスという人に、危険が、迫っている。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "バールストン館の、ダグラス氏。……モリアーティが、狙っている。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "モリアーティ。……例の、数学の教授か。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "表向きは、立派な学者。……裏では、ロンドンの犯罪の、半分に、糸を、引いている男です。"
+  },
+  {
+   "op": "nar",
+   "text": "呼び鈴が、鳴った。階段を、重い足音が、上ってくる。"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "失礼。アバディーン生まれの、マクドナルド警部です。……お噂は、かねがね。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "おはようございます、警部。……バールストン館の、ダグラス氏の、件ですね。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……なぜ、それを。昨夜、殺されたという、知らせが、今朝、入ったばかりなのに。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……遅かった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "bg",
+   "src": "manor_moat",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "manor_moat"
+  },
+  {
+   "op": "nar",
+   "text": "サセックス州、バールストン館。古い館のまわりを、深い堀が、ぐるりと囲んでいる。跳ね橋は、夜になると、上げられる。"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "ダグラス氏は、書斎で、撃たれていました。……銃身を切り詰めた、散弾銃で。至近距離から。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "顔は、……ひどい状態です。誰とも、見分けが、つかない。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "では、なぜ、ダグラス氏だと。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "体つき、服、それに、腕の、焼印。……夫人と、友人のバーカー氏が、ダグラス氏の腕にも、同じ焼印があったと。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "焼印。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "三角の中に、丸。……古い、焼印です。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……何の印だろう。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "古い傷にしか、見えない、と言うなら、それは、誰かが、昔、わざと、つけたものです。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "跳ね橋は、昨夜、上がっていました。……犯人は、堀を、泳いで、逃げたようです。窓枠に、血の跡が。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……血の跡、ですか。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "書斎。遺体は、すでに運び出されている。床に、白い線が、引かれていた。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "警部。……ダグラス氏は、指輪を、していましたか。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "結婚指輪が、消えていました。……ですが、その上にはめていた、もう一つの、金の指輪は、残っていました。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……上の指輪が、残っていた。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "犯人が、結婚指輪だけを、抜いていった、ということでしょう。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "上の指輪を、一度、抜いて、結婚指輪を、抜き、それから、上の指輪を、また、はめ直した。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……殺人犯が、そんな、几帳面なことを、しますか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……妙だな。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "それに、ダンベル。……この部屋には、ダンベルが、一つしか、ない。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "ダンベル？"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "ダンベルは、二つ一組で、使うものです。……もう一つは、どこへ行ったのか。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "警部、堀の水を、抜いてもらえますか。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……堀を。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "ホームズさん、それは、大仕事ですよ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "冗談です。……水を、抜かずとも、答えは、自分から、上がってくる。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……あなたの冗談は、わかりにくい。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "bg",
+   "src": "hidden_man",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "hidden_man"
+  },
+  {
+   "op": "nar",
+   "text": "夜。館の、書斎の窓の外。ホームズは、ひとりで、雨傘を持って、堀端に、身をひそめていた。ワトソンが、そっと、近づいた。"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……ホームズ。こんなところで、何を。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "待っているのです。……誰かが、堀から、何かを、引き上げに来るのを。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "なぜ、引き上げに来ると。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "夕食の席で、明日、堀の水を抜くと、わざと、大きな声で、言っておきました。"
+  },
+  {
+   "op": "nar",
+   "text": "書斎の窓が、静かに、開いた。人影が、堀の中へ、長い竿を、差し入れた。そして、水の底から、包みを、引き上げた。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……来ましたね。"
+  },
+  {
+   "op": "nar",
+   "text": "ホームズが、懐中電灯で、照らした。……友人の、バーカー氏だった。包みの中には、濡れた衣服と、ダンベルが一つ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……ダンベルを、重しにして、服を、沈めていたのか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "犯人の服です。……犯人は、逃げてなど、いない。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "バーカー氏が、共犯なのか。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "共犯というより、……友人を、かばっている。"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "翌朝。館の、書斎。ホームズ、マクドナルド、ワトソン。夫人と、バーカー氏は、別室で、待たされている。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "ホームズさん。……説明を、お願いします。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "撃たれたのは、ダグラス氏では、ありません。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……では、あの遺体は。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……何ですって。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "少し、お待ちを。……順に、お話しします。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "ダグラス氏を、殺しに来た男が、逆に、撃たれたのです。……ダグラス氏自身の、手で。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "ダグラス氏は、とっさに、身代わりを、思いついた。……体格の似た、その男の顔を、隠すため。自分の服を、着せた。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "腕の、焼印。……その男にも、同じ焼印が、あった。同じ組織に、属していた者の、印です。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "結婚指輪だけは、外せなかった。……夫人との、大切な指輪ですから。だから、抜いて、自分で、持っていった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……では、ダグラス氏は、今、どこに。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "この館の、どこかに。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "ホームズは、書斎の壁を、こんこんと、叩いた。……一か所だけ、音が、違った。壁の羽目板が、ずれて、隠し部屋が、現れた。"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "show",
+   "actor": "hayate",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "……見事だ、ホームズさん。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……生きていた！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "ジョン・ダグラス。……いや、本当の名は、バーディ・エドワーズという。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "二日間、この狭い部屋に、こもっていた。……もう、息が、詰まりそうだった。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "出てきてくださって、助かります。……壁を、壊さずに、済みました。"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "hayate"
+  },
+  {
+   "op": "bg",
+   "src": "vermissa_lodge",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "vermissa_lodge"
+  },
+  {
+   "op": "nar",
+   "text": "書斎。暖炉のそば。ダグラス、いや、バーディ・エドワーズが、ホームズと、ワトソンの前に、座っている。手には、厚い手記の束。"
+  },
+  {
+   "op": "show",
+   "actor": "hayate",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "ここに、すべて、書いておいた。……二十年前の、アメリカの話だ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "二日間、隠れながら、これを。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "書かずには、いられなかった。……自分が誰だったか、忘れないように。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "ペンシルヴェニアの、炭鉱の谷。ヴァーミッサ渓谷。……人々は、そこを、恐怖の谷と、呼んでいた。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "谷を、支配していたのは、ある秘密結社だった。……もとは、労働者の、互助会だった。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "それが、いつのまにか、殺人と、ゆすりの、組織に、なっていた。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "逆らう者は、殺される。……鉱山主も、新聞記者も、正直な、炭鉱夫も。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……警察は。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "警察も、判事も、恐怖で、口をつぐんでいた。……だから、私が、送り込まれた。ピンカートン探偵社の、探偵として。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "hayate"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "show",
+   "actor": "hayate",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "二十年前。ヴァーミッサの、酒場の奥の、結社の支部。バーディは、別の名前で、結社に、加わっていた。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "私は、マクマードと、名乗った。……シカゴで、人を殺して、逃げてきた男、という、作り話で。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "支部長は、私を、気に入った。……腕に、焼印を、押された。三角の中に、丸。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "結社に、溶け込むために、私は、彼らと、同じように、振る舞った。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "……彼らと、同じ酒を飲み、同じ歌を歌い、同じ脅しを、口にした。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……そうやって、何年も。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "恐ろしいのは、……ときどき、自分が、どちらの側なのか、わからなくなったことだ。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "その谷で、私は、エティという、娘と、出会った。……彼女だけが、私が、本当は、悪人ではないと、信じてくれた。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……信じる者が、一人いれば。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "ああ。……私は、戻ってこられた。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "結社の中で、誰も、疑わなかったのですか。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "一人だけ、いた。……支部の、帳簿係の、年寄りだ。私の目が、ときどき、悲しそうだと、言った。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "最後に、私は、支部の幹部たちを、一つの家に、集めた。……そして、待ち構えていた、警官隊に、引き渡した。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "支部長は、最後の瞬間まで、私を、仲間だと、思っていた。……裏切られた顔を、今でも、夢に、見る。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "十人が、絞首刑に、なった。……生き残った者たちは、私を、地の果てまで、追うと、誓った。"
+  },
+  {
+   "op": "hide",
+   "actor": "hayate"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "show",
+   "actor": "hayate",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "エティと、イギリスへ、逃げた。……エティは、亡くなった。私は、今の妻と、再婚して、この館で、静かに、暮らしていた。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "だが、昨夜。……結社の、生き残りが、ついに、ここを、見つけた。テッド・ボールドウィン。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "撃ち合いになった。……撃ったのは、私だ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……そして、身代わりを、思いついた。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "私が死んだことにすれば、結社は、もう、追ってこない。……妻も、バーカーも、それに、賛成してくれた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……恐怖から、逃れるために。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "卑怯だと、思うか。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "いいえ。……恐怖から、身を守る権利は、誰にでも、あります。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "ですが、ダグラスさん。……あなたを、ここまで、たどり着かせたのは、結社の生き残りだけでは、ありません。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "……教えた者が、いると。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "結社の者が、二十年も経って、イギリスの田舎の館を、どうやって、突き止めたのか。……誰かが、教えたのです。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "犯罪界の、ナポレオン。……モリアーティ教授。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "hayate"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "bg",
+   "src": "sea_warning",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "sea_warning"
+  },
+  {
+   "op": "nar",
+   "text": "数か月後。ベーカー街221B。ホームズのもとに、一通の電報が、届いた。"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……ホームズ。それは。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "バーカー氏からです。……ダグラス氏は、南アフリカへ向かう船の上で、海に、落ちたと。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……事故か。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "事故では、ありません。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "なぜ、言い切れる。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "セント・ヘレナ沖で。夜の甲板で。誰も、見ていなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "ダグラス氏を、イギリスから、逃がすように、勧めたのは、僕です。……海の上なら、安全だと。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……君の、せいでは。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "僕の、計算違いです。……僕は、敵の大きさを、見誤った。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "結社の生き残りなら、防げたでしょう。……ですが、モリアーティは、違う。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "彼は、結社から、依頼を、受けたのです。……ダグラスを、消してくれ、と。一度目に、失敗した仕事を、二度目に、仕上げた。"
+  },
+  {
+   "op": "nar",
+   "text": "呼び鈴が、鳴った。郵便配達が、一通の手紙を、置いていった。差出人は、書かれていない。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……ホームズ。この手紙は。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "開ける前から、わかります。……便箋の、上品な香り。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……「親愛なる、ホームズ君。お悔やみ申し上げる」。署名は、ない。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……あの男らしい、礼儀正しさだ。",
+   "eyes": "anger"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "ホームズは、モリアーティとの対決を誓う",
+     "jump": "m_vow"
+    },
+    {
+     "text": "ホームズは、ダグラスの手記を読み返す",
+     "jump": "m_read"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_vow"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "ワトソン。……僕は、いつか、必ず、あの男を、追い詰めます。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……いつ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "準備が、整ったとき。……恐怖の連鎖は、根元から、断たねば、終わらない。",
+   "eyes": "closed"
+  },
+  {
+   "op": "jump",
+   "to": "m_end"
+  },
+  {
+   "op": "label",
+   "id": "m_read"
+  },
+  {
+   "op": "nar",
+   "text": "ホームズは、バーディ・エドワーズの、手記の束を、手に取った。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……この人は、恐怖の谷の中で、二十年前、一度、恐怖の連鎖を、断ち切った。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "そして、二十年後に、その鎖の、端に、つかまった。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……彼が書いたものを、残しましょう。ワトソン、あなたの手で。……それが、彼の、本当の名前を、残す、方法です。"
+  },
+  {
+   "op": "label",
+   "id": "m_end"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "アーサー・コナン・ドイル『恐怖の谷』、これにて、閉幕でございます。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "顔を隠した遺体の奥には、ひとりの男の、二十年分の、事情が、隠れていました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "恐怖の谷の、鎖を断った男は、最後に、より大きな、鎖に、絡めとられました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……ホームズとモリアーティの、最後の対決は、また、別の物語で。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

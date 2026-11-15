@@ -1,726 +1,1162 @@
 {
-  "meta": {
-    "id": "terakoya",
-    "number": 107,
-    "title": "菅原伝授手習鑑・寺子屋 ―身替りの首実検―",
-    "original": "歌舞伎『菅原伝授手習鑑』寺子屋の段（伝統演目・著作権消滅）",
-    "category": "能・歌舞伎",
-    "adaptation": "faithful",
-    "format": "v3",
-    "minutes": 42,
-    "synopsis": "全五景で「忠義の名で払う犠牲を、美談だけにしてはならない」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
-    "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+ "meta": {
+  "id": "terakoya",
+  "number": 107,
+  "title": "菅原伝授手習鑑・寺子屋 ―身替りの首実検―",
+  "original": "歌舞伎『菅原伝授手習鑑』寺子屋の段（伝統演目・著作権消滅）",
+  "category": "能・歌舞伎",
+  "adaptation": "faithful",
+  "format": "v3",
+  "minutes": 44,
+  "synopsis": "全五景で「忠義の名で払う犠牲を、美談だけにしてはならない」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "狂言回し",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "武部源蔵",
-      "actor": "rei_kimono",
-      "costume": "default"
-    },
-    {
-      "role": "戸浪",
-      "actor": "mei",
-      "costume": "default"
-    },
-    {
-      "role": "松王丸",
-      "actor": "iwao",
-      "costume": "default"
-    },
-    {
-      "role": "千代",
-      "actor": "yui",
-      "costume": "default"
-    },
-    {
-      "role": "小太郎",
-      "actor": "shiro",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "schoolroom": "bg/terakoya-schoolroom-2048x1152.png",
-    "new_pupil": "bg/terakoya-new_pupil-2048x1152.png",
-    "inspection": "bg/terakoya-inspection-2048x1152.png",
-    "parents_grief": "bg/terakoya-parents_grief-2048x1152.png",
-    "departure_cart": "bg/terakoya-departure_cart-2048x1152.png"
+  {
+   "role": "武部源蔵",
+   "actor": "rei_kimono",
+   "costume": "default"
   },
-  "steps": [
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『菅原伝授手習鑑・寺子屋』。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "能・歌舞伎の一席を、全五景でお届けします。",
-      "mouth": "open",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "この舞台の核は「忠義の名で払う犠牲を、美談だけにしてはならない」。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "台詞はすべて今夜のための書き下ろしです。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "それでは、幕を開けましょう。",
-      "mouth": "open",
-      "eyes": "joy"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "schoolroom",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "schoolroom"
-    },
-    {
-      "op": "nar",
-      "text": "第1景「寺子屋」。源蔵が菅秀才を匿う寺子屋へ追手が迫る。"
-    },
-    {
-      "op": "show",
-      "actor": "rei_kimono",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "mei",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "「寺子屋」へ来た。源蔵が菅秀才を匿う寺子屋へ追手が迫る。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "ここで黙れば、誰かが代わりに意味を決める。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "私が守りたいのは「忠義の名で払う犠牲を、美談だけにしてはならない」だ。",
-      "eyes": "anger"
-    },
-    {
-      "op": "nar",
-      "text": "寺子屋の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "過去は変えられない。だが次の手は選べる。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。源蔵が菅秀才を匿う寺子屋へ追手が迫る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "源蔵が菅秀才を匿う寺子屋へ追手が迫る。その事実から目をそらさない。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "恐れを消すのではなく、恐れたまま進もう。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "私の名ではなく、行いで答えを残す。",
-      "eyes": "normal"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "その答えを、次の場面まで持って行こう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "ここで決める。逃げず、相手の声を聞く。",
-      "eyes": "anger"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "ならば私も、その決断の重さを分け合う。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_kimono"
-    },
-    {
-      "op": "hide",
-      "actor": "mei"
-    },
-    {
-      "op": "bg",
-      "src": "new_pupil",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "new_pupil"
-    },
-    {
-      "op": "nar",
-      "text": "第2景「新しい寺子」。松王丸の子小太郎が身替りを覚悟して入門する。"
-    },
-    {
-      "op": "show",
-      "actor": "iwao",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "「新しい寺子」へ来た。松王丸の子小太郎が身替りを覚悟して入門する。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "ここで黙れば、誰かが代わりに意味を決める。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "私が守りたいのは「忠義の名で払う犠牲を、美談だけにしてはならない」だ。"
-    },
-    {
-      "op": "nar",
-      "text": "新しい寺子の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "ならば勝ち負けだけでなく、支払う代価も見る。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "過去は変えられない。だが次の手は選べる。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。松王丸の子小太郎が身替りを覚悟して入門する。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "松王丸の子小太郎が身替りを覚悟して入門する。その事実から目をそらさない。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "恐れを消すのではなく、恐れたまま進もう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "私の名ではなく、行いで答えを残す。"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "その答えを、次の場面まで持って行こう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "ここで決める。逃げず、相手の声を聞く。"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "ならば私も、その決断の重さを分け合う。",
-      "eyes": "fun"
-    },
-    {
-      "op": "hide",
-      "actor": "iwao"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "bg",
-      "src": "inspection",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "inspection"
-    },
-    {
-      "op": "nar",
-      "text": "第3景「首実検の座」。差し出された首を松王丸が菅秀才と偽証する。"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_kimono",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "「首実検の座」へ来た。差し出された首を松王丸が菅秀才と偽証する。",
-      "eyes": "anger",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "ここで黙れば、誰かが代わりに意味を決める。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "私が守りたいのは「忠義の名で払う犠牲を、美談だけにしてはならない」だ。",
-      "eyes": "fun"
-    },
-    {
-      "op": "nar",
-      "text": "首実検の座の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-      "eyes": "crying",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "過去は変えられない。だが次の手は選べる。",
-      "eyes": "closed"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。差し出された首を松王丸が菅秀才と偽証する。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "差し出された首を松王丸が菅秀才と偽証する。その事実から目をそらさない。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "恐れを消すのではなく、恐れたまま進もう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "私の名ではなく、行いで答えを残す。",
-      "eyes": "anger",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "その答えを、次の場面まで持って行こう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "ここで決める。逃げず、相手の声を聞く。",
-      "eyes": "fun"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "ならば私も、その決断の重さを分け合う。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_kimono"
-    },
-    {
-      "op": "bg",
-      "src": "parents_grief",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "parents_grief"
-    },
-    {
-      "op": "nar",
-      "text": "第4景「親の嘆き」。松王丸と千代が息子の死を前に本心を明かす。"
-    },
-    {
-      "op": "show",
-      "actor": "mei",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "iwao",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "「親の嘆き」へ来た。松王丸と千代が息子の死を前に本心を明かす。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "ここで黙れば、誰かが代わりに意味を決める。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "私が守りたいのは「忠義の名で払う犠牲を、美談だけにしてはならない」だ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "親の嘆きの空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "守るという言葉が、誰かの犠牲を隠していないか。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-      "eyes": "closed",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "過去は変えられない。だが次の手は選べる。"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。松王丸と千代が息子の死を前に本心を明かす。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "松王丸と千代が息子の死を前に本心を明かす。その事実から目をそらさない。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "恐れを消すのではなく、恐れたまま進もう。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "私の名ではなく、行いで答えを残す。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "その答えを、次の場面まで持って行こう。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "ここで決める。逃げず、相手の声を聞く。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "ならば私も、その決断の重さを分け合う。"
-    },
-    {
-      "op": "hide",
-      "actor": "mei"
-    },
-    {
-      "op": "hide",
-      "actor": "iwao"
-    },
-    {
-      "op": "bg",
-      "src": "departure_cart",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "departure_cart"
-    },
-    {
-      "op": "nar",
-      "text": "第5景「夜明けの車」。救われた子と残された親が犠牲の重さを抱える。"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "「夜明けの車」へ来た。救われた子と残された親が犠牲の重さを抱える。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "ここで黙れば、誰かが代わりに意味を決める。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "私が守りたいのは「忠義の名で払う犠牲を、美談だけにしてはならない」だ。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "夜明けの車の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "過去は変えられない。だが次の手は選べる。",
-      "eyes": "joy"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。救われた子と残された親が犠牲の重さを抱える。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "救われた子と残された親が犠牲の重さを抱える。その事実から目をそらさない。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "恐れを消すのではなく、恐れたまま進もう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "私の名ではなく、行いで答えを残す。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "その答えを、次の場面まで持って行こう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "ここで決める。逃げず、相手の声を聞く。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "ならば私も、その決断の重さを分け合う。",
-      "eyes": "closed"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "物語はここまで。残った問いは「忠義の名で払う犠牲を、美談だけにしてはならない」。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ご来場、ありがとうございました。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "end"
+  {
+   "role": "戸浪",
+   "actor": "mei",
+   "costume": "default"
+  },
+  {
+   "role": "松王丸",
+   "actor": "iwao",
+   "costume": "default"
+  },
+  {
+   "role": "千代",
+   "actor": "yui",
+   "costume": "default"
+  },
+  {
+   "role": "小太郎",
+   "actor": "shiro",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "schoolroom": "bg/terakoya-schoolroom-2048x1152.png",
+  "new_pupil": "bg/terakoya-new_pupil-2048x1152.png",
+  "inspection": "bg/terakoya-inspection-2048x1152.png",
+  "parents_grief": "bg/terakoya-parents_grief-2048x1152.png",
+  "departure_cart": "bg/terakoya-departure_cart-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "右大臣、菅原道真は、政敵・藤原時平の讒言によって、遠い筑紫へ流されました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "時平は、道真の幼い跡取り、菅秀才の命まで、狙います。その子をかくまったのは、道真のかつての弟子、武部源蔵でした。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "歌舞伎『菅原伝授手習鑑』、寺子屋の段。……今宵の舞台は、ひとりの子の命を、別の子の命で、贖うお話でございます。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "忠義の名のもとに払われる犠牲を、ただの美談で、終わらせてはならない。……どうか、そのつもりで、ご覧ください。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "schoolroom",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "schoolroom"
+  },
+  {
+   "op": "nar",
+   "text": "芹生の里。山あいの、小さな寺子屋。机が並び、子どもたちの手習いの声が、響いている。"
+  },
+  {
+   "op": "nar",
+   "text": "源蔵が、外から、青ざめた顔で、帰ってきた。"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "お帰りなさいませ。……お顔の色が。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……戸浪。庄屋の家に、呼ばれた。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "何の、ご用で。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……時平の家来、春藤玄蕃が、来ておった。この寺子屋に、菅秀才さまが、かくまわれていると、知れたのだ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "若君の、居所が！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "今日のうちに、首を、差し出せ、と。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……若君の、首を。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "差し出さねば、寺子屋ごと、焼き払う。……検分役には、松王丸が、ついてくる。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "松王丸。……菅原さまの、ご恩を受けながら、時平に寝返った、あの。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "松王丸は、若君の顔を、知っておる。……ごまかしは、きかぬ。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……どうなさるのです。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……寺子の中から、身替りを、選ぶ。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……身替り。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "若君と、年格好の似た子を。……その首を、若君の首として、差し出す。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "あなた、……それは。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "わかっておる。……わかっておるが、ほかに、道がない。"
+  },
+  {
+   "op": "nar",
+   "text": "源蔵は、寺子たちの顔を、ひとりずつ、見回した。……誰も、田舎の子で、品のある若君とは、似ても似つかなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……おらぬ。……身替りになれる子が、ひとりも。"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "bg",
+   "src": "new_pupil",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "new_pupil"
+  },
+  {
+   "op": "nar",
+   "text": "昼すぎ。寺子屋の戸口に、品のよい女が、ひとりの男の子の手を引いて、立っていた。"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "ごめんくださいませ。……今朝、入門を、お願いしました、千代と申します。この子は、小太郎。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……ああ、今朝の。どうぞ、お上がりくださいませ。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "小太郎、ご挨拶を。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……小太郎で、ございます。よろしく、お願い、いたします。"
+  },
+  {
+   "op": "nar",
+   "text": "源蔵が、奥から、出てきた。子の顔を見て、息を、のんだ。……品のある、目元。整った、口元。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "right"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……この子は。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "何か。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……いや。よい、お子だ。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "ありがとう、ございます。……少し、用を足して、参ります。それまで、どうか、よろしく。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "母上、どこへ。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "すぐに、戻ります。……小太郎、先生の、おっしゃることを、よく、聞くのですよ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……先生の、おっしゃることを。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……よく、聞くのですよ。"
+  },
+  {
+   "op": "nar",
+   "text": "千代は、子の頭を、一度だけ、撫でた。そして、振り返らずに、出ていった。"
+  },
+  {
+   "op": "nar",
+   "text": "小太郎は、文机の上に、手習いの道具を、きちんと、並べた。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……小太郎。そなた、年は。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "八つで、ございます。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……若君と、同じだ。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "若君？"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……いや。何でもない。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "先生。……わたしは、今日から、ここで、手習いを、するのですね。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……今日から、ここの子だ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "母上に、言われました。どんなことが、あっても、先生の、言うとおりに、しなさいと。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……どんなことが、あっても。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "はい。……わたしは、覚悟を、してまいりました。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……覚悟。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "手習いの、覚悟です。……字が、下手なので。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……手習いの、覚悟か。"
+  },
+  {
+   "op": "nar",
+   "text": "源蔵は、子の顔から、目を、そらした。拳が、膝の上で、震えていた。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "あなた。……あの子を、身替りに。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……ほかに、道は、ない。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "あの子の母御は、今、戻ってまいります。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "戻ってくれば、……母御も、ともに。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "なんと、むごいことを！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "子を一人、手にかけようという者が、母御一人を、恐れて、何とする。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……あなたが、そんなことを、言うなんて。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……すまぬ。……忠義のためだ。ご恩のためだ。……そう言い聞かせねば、刀が、持てぬ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "bg",
+   "src": "inspection",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "inspection"
+  },
+  {
+   "op": "nar",
+   "text": "夕刻。寺子屋の前に、駕籠が、着いた。春藤玄蕃と、病みあがりの様子の松王丸が、家来を連れて、入ってきた。"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……武部源蔵。久しいな。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "松王丸。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "寺子どもを、ひとりずつ、出せ。……若君が、紛れておらぬか、改める。"
+  },
+  {
+   "op": "nar",
+   "text": "寺子たちが、ひとりずつ、表へ、出された。松王丸は、それぞれの顔を、じっと、見て、通した。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……違う。……これも、違う。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "菅秀才の顔は、よう、覚えておる。……田舎の子とは、品が、違う。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……若君は、奥に。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "首を、討て。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……しばらく、お待ちを。"
+  },
+  {
+   "op": "nar",
+   "text": "源蔵は、奥の間へ、入っていった。……長い、長い、静けさ。"
+  },
+  {
+   "op": "nar",
+   "text": "やがて、刀の音が、一つ。"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "left"
+  },
+  {
+   "op": "nar",
+   "text": "源蔵が、首桶を、抱えて、戻ってきた。顔は、土のような色だった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……菅秀才さまの、御首。……改められよ。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……首桶を、これへ。"
+  },
+  {
+   "op": "nar",
+   "text": "松王丸は、首桶の蓋を、開けた。……長いあいだ、黙って、中を、見つめていた。"
+  },
+  {
+   "op": "nar",
+   "text": "源蔵は、刀の柄に、手をかけた。偽りが露見すれば、松王丸を、斬るつもりだった。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……でかした、源蔵。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……でかした、だと。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "菅秀才の首に、相違ない。……よう、討った。"
+  },
+  {
+   "op": "nar",
+   "text": "松王丸は、蓋を閉じた。その手が、ほんのわずか、震えていたことに、気づいた者は、いなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "玄蕃どの。……拙者は、病身ゆえ、これにて、引き取らせていただく。"
+  },
+  {
+   "op": "nar",
+   "text": "松王丸は、首桶を、家来に持たせ、駕籠に乗って、去っていった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……通った。……なぜ、通った。"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "bg",
+   "src": "parents_grief",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "parents_grief"
+  },
+  {
+   "op": "nar",
+   "text": "夜。寺子屋。源蔵と戸浪が、力なく、座り込んでいる。戸口が、静かに、開いた。千代だった。"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……小太郎を、返していただきに。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……千代さま。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "小太郎を、迎えに、まいりました。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……あの子は、もう。"
+  },
+  {
+   "op": "nar",
+   "text": "源蔵は、刀に、手をかけた。千代は、それを見て、……静かに、頷いた。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……お役に、立ちましたか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……何と。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "お役に、立ちましたか。……あの子は。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……千代さま、あなたは。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……知って、おりました。……知って、ここへ、連れてまいりました。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "千代は、文机の上の、小太郎の手習いの道具を、手に取った。……そこに、白い、死装束の帷子が、包んであった。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "戸口に、もうひとり、男が、立っていた。駕籠で帰ったはずの、松王丸だった。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……泣くな、千代。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……来て、くださったのですね。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "駕籠で去ったはずの、お主が！"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "源蔵。……斬るな。拙者は、小太郎の、父だ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……父。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "拙者は、時平に仕えた。……兄弟たちからは、裏切り者と、罵られた。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "だが、菅原さまの、ご恩を、忘れたことは、一日も、ない。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "若君を、救う道は、身替りしかない。……そして、身替りになれるのは、若君と、年格好の似た、品のある子。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……拙者の、子しか、いなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……あなたが、あの子を、ここへ、送れと。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "送ったのは、拙者だ。……首を見て、偽りを言ったのも、拙者だ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……小太郎は、……最期に。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "言わずとも、よい。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……いや。言わせてくれ。……小太郎は、にっこりと、笑ったのだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "首を、討つ前に。……自分から、首を、差し伸べた。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……笑ったか。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……笑った。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……そうか。……あいつは、笑ったか。"
+  },
+  {
+   "op": "nar",
+   "text": "松王丸は、笑おうとした。……顔が、ゆがんだ。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……あなた。わたしは、褒めませんよ。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……褒めぬ、と。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "忠義の、ために、子を、差し出した。……世間は、きっと、美談だと、言うでしょう。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "でも、わたしは、褒めません。……あの子は、手習いの、覚悟を、してきたのです。字が、下手だから、と。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "八つの子が、死ぬ覚悟など、できるものですか。……あの子は、わたしたちを、喜ばせたかっただけです。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……わかっておる。わかっておるとも。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "わかっていて、送ったのですね。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……わかっていて、送った。……だから、拙者は、一生、この首を、背負う。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……わたしも。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……許してくれ。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "あやまらないで、ください。……あやまられたら、あの子が、悪いことを、したみたいに、なるから。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "bg",
+   "src": "departure_cart",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "departure_cart"
+  },
+  {
+   "op": "nar",
+   "text": "夜明け前。寺子屋の前。白い野辺送りの支度。小太郎の亡骸を乗せた車が、静かに、待っている。"
+  },
+  {
+   "op": "nar",
+   "text": "奥から、菅秀才を、守る者たちが、そっと、出立していった。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……若君は、無事に、お発ちに、なりました。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……無事に、発たれたか。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "あなた。……若君が、おっしゃいました。小太郎、という子の名を、一生、忘れぬと。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……忘れては、ならぬ。……あの子の、名は。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……わたしたちも。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "寺子屋は、続ける。……小太郎の机は、そのまま、置いておく。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "誰も、座らない、机を。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……座らせぬ。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "松王丸と千代が、車の両側に、立った。白い装束に、着替えている。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……いろは、にほへと。……ちりぬるを。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……その歌は。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "小太郎の、手習いの、続きだ。……あいつは、ここまでしか、習えなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……わかよ、たれそ。……つねならむ。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……うゐの、おくやま。……けふ、こえて。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "二人は、子の名を呼びながら、野辺へ向かう",
+     "jump": "m_name"
+    },
+    {
+     "text": "二人は、黙って、野辺へ向かう",
+     "jump": "m_silent"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_name"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "小太郎。……小太郎。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……小太郎。……すまぬ。……いや、ありがとう、と、言うべきか。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "どちらでも、ないわ。……ただ、名前を、呼んであげて。"
+  },
+  {
+   "op": "jump",
+   "to": "m_end"
+  },
+  {
+   "op": "label",
+   "id": "m_silent"
+  },
+  {
+   "op": "nar",
+   "text": "二人は、何も、言わなかった。車の轍の音だけが、夜明けの道に、響いた。"
+  },
+  {
+   "op": "nar",
+   "text": "その沈黙は、どんな言葉よりも、重かった。"
+  },
+  {
+   "op": "label",
+   "id": "m_end"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "寺子屋の段は、ここで、幕を引きます。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "忠義は、ひとりの若君の命を、救いました。……けれど、その代わりに、八つの子が、笑って、首を、差し伸べたのです。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "この物語を、美しいと思った方も、おられるでしょう。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "そのときは、どうか、小太郎という名前も、一緒に、覚えていてください。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

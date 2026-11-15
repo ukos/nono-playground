@@ -1,739 +1,1180 @@
 {
-  "meta": {
-    "id": "sign-of-four",
-    "number": 110,
-    "title": "四つの署名 ―アグラの財宝―",
-    "original": "Arthur Conan Doyle, The Sign of the Four（原典著作権消滅）",
-    "category": "探偵",
-    "adaptation": "faithful",
-    "format": "v3",
-    "minutes": 42,
-    "synopsis": "全五景で「宝への執着より、真相と約束を選べるか」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
-    "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+ "meta": {
+  "id": "sign-of-four",
+  "number": 110,
+  "title": "四つの署名 ―アグラの財宝―",
+  "original": "Arthur Conan Doyle, The Sign of the Four（原典著作権消滅）",
+  "category": "探偵",
+  "adaptation": "faithful",
+  "format": "v3",
+  "minutes": 44,
+  "synopsis": "全五景で「宝への執着より、真相と約束を選べるか」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "狂言回し",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "シャーロック・ホームズ",
-      "actor": "yoru",
-      "costume": "default"
-    },
-    {
-      "role": "ワトソン",
-      "actor": "rei_casual",
-      "costume": "default"
-    },
-    {
-      "role": "メアリー・モースタン",
-      "actor": "yui",
-      "costume": "default"
-    },
-    {
-      "role": "ジョナサン・スモール",
-      "actor": "extra_porter",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "baker_letter": "bg/sign-of-four-baker_letter-2048x1152.png",
-    "pondicherry_lodge": "bg/sign-of-four-pondicherry_lodge-2048x1152.png",
-    "thames_chase": "bg/sign-of-four-thames_chase-2048x1152.png",
-    "treasure_box": "bg/sign-of-four-treasure_box-2048x1152.png",
-    "small_story": "bg/sign-of-four-small_story-2048x1152.png"
+  {
+   "role": "シャーロック・ホームズ",
+   "actor": "yoru",
+   "costume": "default"
   },
-  "steps": [
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『四つの署名』。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "探偵の一席を、全五景でお届けします。",
-      "mouth": "open",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "この舞台の核は「宝への執着より、真相と約束を選べるか」。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "台詞はすべて今夜のための書き下ろしです。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "それでは、幕を開けましょう。",
-      "mouth": "open",
-      "eyes": "joy"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "baker_letter",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "baker_letter"
-    },
-    {
-      "op": "nar",
-      "text": "第1景「謎の手紙」。メアリーが毎年届く真珠と招待状を相談する。"
-    },
-    {
-      "op": "show",
-      "actor": "yoru",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "現場は「謎の手紙」。まず事実だけを並べよう。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "確認できるのは、メアリーが毎年届く真珠と招待状を相談するという一点だ。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "見えたものと、そう思った理由を分けて書く。",
-      "eyes": "anger"
-    },
-    {
-      "op": "nar",
-      "text": "謎の手紙の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "証言が一致するほど、同じ思い込みを疑うべきか。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "一致は安心材料だが、真実の保証ではない。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "鍵は「宝への執着より、真相と約束を選べるか」にある。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。メアリーが毎年届く真珠と招待状を相談する。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "犯人像を先に決めず、痕跡から可能性を削ろう。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "では時刻、入口、道具の順に確かめる。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "メアリーが毎年届く真珠と招待状を相談する。この行動には目的が二つ重なっている。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "表の目的が囮なら、裏の目的は何だ。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "答えはまだ言わない。反証できる形にしよう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "推理を勝利ではなく、検証として終わらせる。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "hide",
-      "actor": "yoru"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "bg",
-      "src": "pondicherry_lodge",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "pondicherry_lodge"
-    },
-    {
-      "op": "nar",
-      "text": "第2景「ポンディシェリ荘」。密室の死体と四つの署名が財宝へ導く。"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_porter",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "現場は「ポンディシェリ荘」。まず事実だけを並べよう。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_porter",
-      "text": "確認できるのは、密室の死体と四つの署名が財宝へ導くという一点だ。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "見えたものと、そう思った理由を分けて書く。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "ポンディシェリ荘の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_porter",
-      "text": "証言が一致するほど、同じ思い込みを疑うべきか。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "一致は安心材料だが、真実の保証ではない。",
-      "eyes": "surprise",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_porter",
-      "text": "鍵は「宝への執着より、真相と約束を選べるか」にある。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。密室の死体と四つの署名が財宝へ導く。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "犯人像を先に決めず、痕跡から可能性を削ろう。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "extra_porter",
-      "text": "では時刻、入口、道具の順に確かめる。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "密室の死体と四つの署名が財宝へ導く。この行動には目的が二つ重なっている。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_porter",
-      "text": "表の目的が囮なら、裏の目的は何だ。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "答えはまだ言わない。反証できる形にしよう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_porter",
-      "text": "推理を勝利ではなく、検証として終わらせる。",
-      "eyes": "fun"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_porter"
-    },
-    {
-      "op": "bg",
-      "src": "thames_chase",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "thames_chase"
-    },
-    {
-      "op": "nar",
-      "text": "第3景「テムズ川の追跡」。蒸気船オーロラ号を夜の川で追い詰める。"
-    },
-    {
-      "op": "show",
-      "actor": "yoru",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "現場は「テムズ川の追跡」。まず事実だけを並べよう。",
-      "eyes": "anger",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "確認できるのは、蒸気船オーロラ号を夜の川で追い詰めるという一点だ。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "見えたものと、そう思った理由を分けて書く。",
-      "eyes": "fun"
-    },
-    {
-      "op": "nar",
-      "text": "テムズ川の追跡の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "証言が一致するほど、同じ思い込みを疑うべきか。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "一致は安心材料だが、真実の保証ではない。",
-      "eyes": "crying",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "鍵は「宝への執着より、真相と約束を選べるか」にある。",
-      "eyes": "closed"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。蒸気船オーロラ号を夜の川で追い詰める。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "犯人像を先に決めず、痕跡から可能性を削ろう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "では時刻、入口、道具の順に確かめる。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "蒸気船オーロラ号を夜の川で追い詰める。この行動には目的が二つ重なっている。",
-      "eyes": "anger",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "表の目的が囮なら、裏の目的は何だ。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "答えはまだ言わない。反証できる形にしよう。",
-      "eyes": "fun"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "推理を勝利ではなく、検証として終わらせる。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "hide",
-      "actor": "yoru"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "bg",
-      "src": "treasure_box",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "treasure_box"
-    },
-    {
-      "op": "nar",
-      "text": "第4景「空の宝箱」。長い追跡の果てに財宝が川へ失われる。"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_porter",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "現場は「空の宝箱」。まず事実だけを並べよう。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_porter",
-      "text": "確認できるのは、長い追跡の果てに財宝が川へ失われるという一点だ。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "見えたものと、そう思った理由を分けて書く。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "空の宝箱の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_porter",
-      "text": "証言が一致するほど、同じ思い込みを疑うべきか。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "一致は安心材料だが、真実の保証ではない。",
-      "eyes": "closed",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_porter",
-      "text": "鍵は「宝への執着より、真相と約束を選べるか」にある。",
-      "eyes": "normal"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。長い追跡の果てに財宝が川へ失われる。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "犯人像を先に決めず、痕跡から可能性を削ろう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "extra_porter",
-      "text": "では時刻、入口、道具の順に確かめる。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "長い追跡の果てに財宝が川へ失われる。この行動には目的が二つ重なっている。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_porter",
-      "text": "表の目的が囮なら、裏の目的は何だ。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "答えはまだ言わない。反証できる形にしよう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_porter",
-      "text": "推理を勝利ではなく、検証として終わらせる。",
-      "eyes": "crying"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_porter"
-    },
-    {
-      "op": "bg",
-      "src": "small_story",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "small_story"
-    },
-    {
-      "op": "nar",
-      "text": "第5景「島の約束」。スモールが植民地で交わした約束と裏切りを語る。"
-    },
-    {
-      "op": "show",
-      "actor": "yoru",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "現場は「島の約束」。まず事実だけを並べよう。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "確認できるのは、スモールが植民地で交わした約束と裏切りを語るという一点だ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "見えたものと、そう思った理由を分けて書く。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "島の約束の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "証言が一致するほど、同じ思い込みを疑うべきか。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "一致は安心材料だが、真実の保証ではない。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "鍵は「宝への執着より、真相と約束を選べるか」にある。",
-      "eyes": "joy"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。スモールが植民地で交わした約束と裏切りを語る。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "犯人像を先に決めず、痕跡から可能性を削ろう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "では時刻、入口、道具の順に確かめる。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "スモールが植民地で交わした約束と裏切りを語る。この行動には目的が二つ重なっている。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "表の目的が囮なら、裏の目的は何だ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "答えはまだ言わない。反証できる形にしよう。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "推理を勝利ではなく、検証として終わらせる。",
-      "eyes": "closed"
-    },
-    {
-      "op": "hide",
-      "actor": "yoru"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "物語はここまで。残った問いは「宝への執着より、真相と約束を選べるか」。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ご来場、ありがとうございました。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "end"
+  {
+   "role": "ワトソン",
+   "actor": "rei_casual",
+   "costume": "default"
+  },
+  {
+   "role": "メアリー・モースタン",
+   "actor": "yui",
+   "costume": "default"
+  },
+  {
+   "role": "ジョナサン・スモール",
+   "actor": "extra_porter",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "baker_letter": "bg/sign-of-four-baker_letter-2048x1152.png",
+  "pondicherry_lodge": "bg/sign-of-four-pondicherry_lodge-2048x1152.png",
+  "thames_chase": "bg/sign-of-four-thames_chase-2048x1152.png",
+  "treasure_box": "bg/sign-of-four-treasure_box-2048x1152.png",
+  "small_story": "bg/sign-of-four-small_story-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ロンドン、ベーカー街。退屈は、名探偵シャーロック・ホームズにとって、何よりの毒でございました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "そこへ、ひとりの若い女性が、相談に訪れます。……毎年、同じ日に、差出人不明の、大粒の真珠が、届くのだと。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "アーサー・コナン・ドイル『四つの署名』。インドの財宝をめぐる、三十年越しの約束と、裏切りの物語。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "宝への執着より、真相と、約束を選べるか。……さて、霧のロンドンへ、まいりましょう。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "baker_letter",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "baker_letter"
+  },
+  {
+   "op": "nar",
+   "text": "ベーカー街221B。霧の深い午後。ホームズは、窓辺で、退屈そうに、バイオリンを、つま弾いている。"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "ホームズ。……また、何日も、仕事が、ないね。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "頭が、錆びつきそうです。……事件のない人生は、空っぽの、部屋です。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "空っぽの部屋に、僕は、住んでいるんだが。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "あなたは、家具の一部です。……悪い意味では、なく。"
+  },
+  {
+   "op": "nar",
+   "text": "呼び鈴が、鳴った。下宿のおかみに案内されて、地味な身なりの、若い女性が、上がってきた。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……ホームズさまで、いらっしゃいますか。メアリー・モースタンと、申します。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "どうぞ。……家庭教師を、なさっている。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……なぜ、それを。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "袖口の、チョークの粉。……それに、指先の、インクの染み。子どもの、書き取りを、直しておられる。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……おっしゃるとおりです。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "どうぞ、お掛けください。……お話を、最初から。"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "父は、インドの、連隊の、大尉でした。……十年前、休暇で、ロンドンに戻ってきて、そのまま、行方が、わからなくなりました。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "六年前から、毎年、同じ日に、小包が、届くようになりました。……中には、大粒の、真珠が、一つだけ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "差出人は。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "書いて、ありません。……そして、今朝、この手紙が。"
+  },
+  {
+   "op": "nar",
+   "text": "メアリーは、一通の手紙を、差し出した。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "「今夜七時、ライシアム劇場の、左から三番目の柱の前に。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "あなたは、不当な扱いを、受けている女性です。友人を、二人まで、連れてきてよい。警察は、だめ」。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……警察は、だめ、ですか。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "行くべきで、しょうか。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "行きましょう。……友人を、二人まで。僕と、ワトソンで、ちょうど、二人です。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……お供いたします。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "それから、……父の遺品の中に、こんな紙が、ありました。"
+  },
+  {
+   "op": "nar",
+   "text": "紙には、何かの見取り図と、四つの十字の印。そして、「四つの署名」と、書かれていた。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……ジョナサン・スモール、マホメット・シン、アブドゥラ・カーン、ドスト・アクバル。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "四人の、名前か。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "四つの、署名です。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "父は、この紙を、いつも、肌身離さず、持っておりました。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "大事な約束の、証文、ということでしょう。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "bg",
+   "src": "pondicherry_lodge",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "pondicherry_lodge"
+  },
+  {
+   "op": "nar",
+   "text": "夜。郊外の屋敷、ポンディシェリ荘。迎えの馬車で、三人は、ここへ連れてこられた。"
+  },
+  {
+   "op": "nar",
+   "text": "屋敷の主の兄、バーソロミュー・ショルトーが、塔の部屋に、こもったきり、返事がないという。"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "扉には、内側から、鍵が、かかっている。……鍵穴から、覗いてみなさい、ワトソン。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……！　ホームズ、人が、椅子に、座ったまま。……顔が、笑っている。ひどく、ひきつった、笑い顔で。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "扉を、破りましょう。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "二人は、扉に、体当たりした。部屋の中に、男が、椅子に座ったまま、こと切れていた。首筋に、細い、とげが、刺さっていた。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……毒のとげ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "窓は。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "開いている。……だが、下は、六十フィートの、壁です。誰も、登れない。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "天井に、穴がある。屋根裏へ、通じている。……屋根裏から、誰かが、入ってきた。"
+  },
+  {
+   "op": "nar",
+   "text": "机の上に、一枚の紙。そこには、あの言葉が、書いてあった。……「四つの署名」。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……メアリーさんの、父上の、遺品と、同じだ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "そして、この部屋から、何かが、なくなっている。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "何が。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "棚の、埃の跡。……大きな、箱が、置いてあった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "宝の、箱か。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "床に、小さな、裸足の足跡も、ある。……二人で、来たのです。"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "屋敷の、玄関の間。メアリーが、待っていた。ホームズは、兄のサディアス・ショルトーから聞いた話を、彼女に、伝えた。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "ショルトー兄弟の父、ショルトー少佐は、インドで、あなたのお父上と、同じ連隊に、おりました。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "二人は、ある財宝を、手に入れた。……アグラの、財宝です。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……財宝。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "お父上は、分け前を、求めて、ショルトー少佐を、訪ねた。……そして、言い争いの末に、心臓の発作で、倒れた。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "少佐は、それを、隠した。……あなたのお父上の、亡骸と、ともに。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……父は、もう。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "少佐は、死ぬ間際に、息子たちに、罪を、打ち明けた。……あなたに、財宝の分け前を、渡すように、と。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "真珠は、息子の、サディアスが、毎年、こっそり、送っていたものです。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……真珠は、詫び、だったのですね。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "弟のサディアス氏は、気の弱い、正直な方でした。……兄上に、内緒で、送り続けていたと。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "そして、今夜、兄のバーソロミューが、屋根裏から、財宝の箱を、見つけ出した。……その夜のうちに、殺され、箱を、奪われた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "犯人は。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "四つの署名の、一人。……義足の男です。屋根裏の埃に、片足だけ、丸い、木の跡が、ある。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "bg",
+   "src": "thames_chase",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "thames_chase"
+  },
+  {
+   "op": "nar",
+   "text": "数日後。夜のテムズ川。警察の、快速艇。ホームズとワトソンが、船首に、立っている。"
+  },
+  {
+   "op": "nar",
+   "text": "前方の霧の中を、一隻の蒸気船が、黒い煙を吐いて、走っていく。"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "あれが、オーロラ号です。……犯人は、あの船で、財宝ごと、国外へ、逃げるつもりです。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "どうやって、見つけた。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "ベーカー街の、浮浪児たちに、テムズの、船着場を、全部、見張らせました。……煙突を、白く、塗り替えた蒸気船が、ありました。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "塗り替えた。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "黒い煙突の船を、探していると、知っていたのでしょう。……用心深い。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "快速艇が、オーロラ号に、迫っていく。蒸気船の甲板に、義足の男の影が、見えた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……ホームズ、甲板の、もう一人が、何か、筒を。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "吹き矢です！　身を、伏せて！"
+  },
+  {
+   "op": "nar",
+   "text": "闇を裂いて、小さな、とげが、飛んできた。ワトソンの帽子に、突き刺さった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……帽子に、刺さった！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "ワトソン、撃て！"
+  },
+  {
+   "op": "nar",
+   "text": "銃声。甲板の影が、川へ、落ちた。オーロラ号は、岸辺の泥に、突っ込んで、止まった。"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "泥の岸辺。義足の男が、片足を、泥にとられて、もがいていた。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……ジョナサン・スモール。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……旦那が、ホームズか。……噂は、聞いてる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "箱は、どこです。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……その、甲板の上だ。持ってきな。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "連れは、川に、落ちちまったな。……あいつは、島で、ずっと、俺を、助けてくれた。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……あの吹き矢の、男ですか。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "島の言葉しか、話せねえ、気のいい、奴だった。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "bg",
+   "src": "treasure_box",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "treasure_box"
+  },
+  {
+   "op": "nar",
+   "text": "警察署の一室。夜明け前。鉄の箱が、テーブルの上に、置かれている。ホームズ、ワトソン、メアリーが、それを、囲んでいる。"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "ミス・モースタン。……アグラの財宝です。開けるのは、あなたが、ふさわしい。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……わたしが。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "開けたら、あなたは、大金持ちです。……イギリスでも、指折りの。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……そうなんですね。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "メアリーは、鍵の壊れた蓋を、ゆっくりと、持ち上げた。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……空っぽ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……空？",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "箱の中には、何も、なかった。財宝は、一つ残らず、消えていた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……ホームズ、どういうことだ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……スモールに、聞きましょう。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "メアリーさん、……大丈夫ですか。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……ええ。驚いたけれど、大丈夫。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……ふ、ふふ。驚いたかい、旦那。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "財宝を、どこへ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "川だ。……オーロラ号から、追われながら、少しずつ、テムズに、撒いてやった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "誰にも、渡さねえ。……あれは、俺たち四人の、ものだ。ショルトーにも、その娘にも、女王陛下にも、渡さねえ。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……三十年、執着してきた宝を、自分の手で、川に、捨てたのですか。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "執着したから、捨てたんだ。……他人の手に、渡るくらいなら。"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "署の廊下。ワトソンと、メアリーが、並んで、立っていた。夜明けの光が、窓から、射し込んでくる。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……ワトソン先生。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……残念でしたね。財宝は。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……残念、では、ありません。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "正直に、申しますと。……箱が、空っぽで、少し、ほっとしました。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……ほっと。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "財宝が、あったら、わたしは、大金持ちに、なっていました。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……そうしたら、もう、先生と、こうして、お話しすることも、なかったかもしれません。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……身分、ですか。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "大金持ちの娘と、退役した、軍医では。……身分が、違いすぎます。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……ミス・モースタン。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "財宝が、川に、沈んでくれて、僕は、……今、とても、うれしい。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……わたしもです。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "bg",
+   "src": "small_story",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "small_story"
+  },
+  {
+   "op": "nar",
+   "text": "警察署の一室。手錠をかけられたスモールが、椅子に座っている。ホームズとワトソンが、向かい合っている。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "聞かせてやろう。……三十年前の、インドの話だ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "俺は、若い兵隊だった。ワニに、片足を、食いちぎられた。……それで、農園の、見張りになった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "大反乱が、起きた。俺は、アグラの砦の、門番を、していた。……三人の、仲間と、一緒にな。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "三人が、俺に、持ちかけた。……砦の前を、こっそり通る、商人を、殺せば、財宝が、手に入る。分け前は、四等分だ、と。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……あなたは、乗った。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "乗った。……そして、四人で、誓った。財宝は、四人のものだ、と。四人の、署名をして。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "だが、殺しは、すぐに、ばれた。……四人とも、アンダマンの、流刑地へ、送られた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "そこで、看守の、ショルトー少佐と、モースタン大尉に、持ちかけた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……逃がしてくれたら、財宝の在りかを、教える。分け前を、やる、と。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……そして。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "ショルトーは、在りかを、聞き出すと、一人で、財宝を、掘り出して、イギリスへ、逃げた。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……俺たちとの、約束も、モースタンとの、約束も、破ってな。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……約束を、破られた者が、約束を、取り戻しに来た。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "二十年かけて、島を、抜け出した。……ショルトーの屋敷を、見張り続けた。……あいつは、俺の顔を、窓に見て、恐怖で、死んだ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "息子のバーソロミューを、殺すつもりは、なかった。……連れの、あいつが、勝手に、吹き矢を。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "スモール。……あなたは、宝を、取り戻しに来たのですか。それとも、約束を、取り戻しに来たのですか。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……旦那は、嫌なことを、聞くね。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……宝だと、思ってた。……でも、川に、撒いているとき、気づいたんだ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "俺が、欲しかったのは、宝じゃない。……四人で、交わした、署名だ。あの約束が、本物だった、という、証が。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……証は、ここに、あります。四つの署名。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "ホームズは、メアリーの父の遺品の、あの紙を、スモールの前に、置いた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……モースタン大尉が、持ってたのか。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "大尉は、あなたたちとの、約束を、最後まで、捨てなかった。……だから、この紙を、遺したのです。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "スモールは、紙を受け取る",
+     "jump": "m_take"
+    },
+    {
+     "text": "スモールは、紙をメアリーに託す",
+     "jump": "m_give"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_take"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……もらっていいか。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "どうぞ。……あなたの、名前も、書いてある。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……三十年ぶりに、宝を、手に入れた気分だ。"
+  },
+  {
+   "op": "jump",
+   "to": "m_end"
+  },
+  {
+   "op": "label",
+   "id": "m_give"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……いや。これは、大尉の、娘さんに、返してくれ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……メアリーさんに。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "約束を、守った男の、娘だ。……俺が持つより、ずっと、ふさわしい。"
+  },
+  {
+   "op": "label",
+   "id": "m_end"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "アーサー・コナン・ドイル『四つの署名』、これにて、閉幕でございます。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "アグラの財宝は、テムズ川の底に、沈みました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……けれど、宝よりも重たい、約束の証は、最後に、ちゃんと、人の手に、残ったのです。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "そして、ワトソンは、メアリーと、結婚することになります。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……ホームズは、こう言ったそうです。「僕には、コカインの瓶が、残るだけだ」と。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

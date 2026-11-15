@@ -1,706 +1,1138 @@
 {
-  "meta": {
-    "id": "poison-belt",
-    "number": 119,
-    "title": "毒ガス帯 ―密閉室の一日―",
-    "original": "Arthur Conan Doyle, The Poison Belt（原典著作権消滅）",
-    "category": "SF",
-    "adaptation": "faithful",
-    "format": "v3",
-    "minutes": 38,
-    "synopsis": "全五景で「終末を前にして初めて見える、日常の価値と人の癖」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
-    "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+ "meta": {
+  "id": "poison-belt",
+  "number": 119,
+  "title": "毒ガス帯 ―密閉室の一日―",
+  "original": "Arthur Conan Doyle, The Poison Belt（原典著作権消滅）",
+  "category": "SF",
+  "adaptation": "faithful",
+  "format": "v3",
+  "minutes": 40,
+  "synopsis": "全五景で「終末を前にして初めて見える、日常の価値と人の癖」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "狂言回し",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "チャレンジャー教授",
-      "actor": "iwao",
-      "costume": "default"
-    },
-    {
-      "role": "サマリー教授",
-      "actor": "extra_elder",
-      "costume": "default"
-    },
-    {
-      "role": "マローン",
-      "actor": "rei_casual",
-      "costume": "default"
-    },
-    {
-      "role": "チャレンジャー夫人",
-      "actor": "mei",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "telegram_room": "bg/poison-belt-telegram_room-2048x1152.png",
-    "sealed_house": "bg/poison-belt-sealed_house-2048x1152.png",
-    "silent_world": "bg/poison-belt-silent_world-2048x1152.png",
-    "last_cylinder": "bg/poison-belt-last_cylinder-2048x1152.png",
-    "world_restarts": "bg/poison-belt-world_restarts-2048x1152.png"
+  {
+   "role": "チャレンジャー教授",
+   "actor": "iwao",
+   "costume": "default"
   },
-  "steps": [
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『毒ガス帯』。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "SFの一席を、全五景でお届けします。",
-      "mouth": "open",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "この舞台の核は「終末を前にして初めて見える、日常の価値と人の癖」。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "台詞はすべて今夜のための書き下ろしです。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "それでは、幕を開けましょう。",
-      "mouth": "open",
-      "eyes": "joy"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "telegram_room",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "telegram_room"
-    },
-    {
-      "op": "nar",
-      "text": "第1景「奇妙な電報」。酸素ボンベを持って集まれという命令が届く。"
-    },
-    {
-      "op": "show",
-      "actor": "iwao",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elder",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "「奇妙な電報」で常識の境界が動き始めた。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "酸素ボンベを持って集まれという命令が届く。観測した事実はそれだけだ。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "可能だから使う、では理由にならない。"
-    },
-    {
-      "op": "nar",
-      "text": "奇妙な電報の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "使わなければ、別の誰かが先に使う。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "だからこそ「終末を前にして初めて見える、日常の価値と人の癖」を問い続ける。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "技術の速さに、判断の速さが追いついていない。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。酸素ボンベを持って集まれという命令が届く。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "未知を敵と決めず、条件を一つずつ調べよう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "だが観察している私たちも観察されている。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "酸素ボンベを持って集まれという命令が届く。ここで未来の分岐が生まれる。"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "選択の結果を、発明のせいだけにはできない。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "記録を残そう。次の者が同じ盲点へ落ちぬように。"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "そして戻れなくても、責任からは逃げない。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "hide",
-      "actor": "iwao"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elder"
-    },
-    {
-      "op": "bg",
-      "src": "sealed_house",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "sealed_house"
-    },
-    {
-      "op": "nar",
-      "text": "第2景「密閉された書斎」。地球を覆う毒のエーテル帯に備え窓を封じる。"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "mei",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "「密閉された書斎」で常識の境界が動き始めた。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "地球を覆う毒のエーテル帯に備え窓を封じる。観測した事実はそれだけだ。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "可能だから使う、では理由にならない。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "密閉された書斎の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "使わなければ、別の誰かが先に使う。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "だからこそ「終末を前にして初めて見える、日常の価値と人の癖」を問い続ける。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "技術の速さに、判断の速さが追いついていない。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。地球を覆う毒のエーテル帯に備え窓を封じる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "未知を敵と決めず、条件を一つずつ調べよう。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "だが観察している私たちも観察されている。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "地球を覆う毒のエーテル帯に備え窓を封じる。ここで未来の分岐が生まれる。",
-      "eyes": "joy"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "選択の結果を、発明のせいだけにはできない。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "記録を残そう。次の者が同じ盲点へ落ちぬように。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "そして戻れなくても、責任からは逃げない。",
-      "eyes": "fun"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "hide",
-      "actor": "mei"
-    },
-    {
-      "op": "bg",
-      "src": "silent_world",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "silent_world"
-    },
-    {
-      "op": "nar",
-      "text": "第3景「止まった世界」。窓外の人も動物も倒れ一行だけが酸素で耐える。"
-    },
-    {
-      "op": "show",
-      "actor": "iwao",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elder",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "「止まった世界」で常識の境界が動き始めた。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "窓外の人も動物も倒れ一行だけが酸素で耐える。観測した事実はそれだけだ。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "可能だから使う、では理由にならない。"
-    },
-    {
-      "op": "nar",
-      "text": "止まった世界の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "使わなければ、別の誰かが先に使う。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "だからこそ「終末を前にして初めて見える、日常の価値と人の癖」を問い続ける。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "技術の速さに、判断の速さが追いついていない。",
-      "eyes": "closed"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。窓外の人も動物も倒れ一行だけが酸素で耐える。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "未知を敵と決めず、条件を一つずつ調べよう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "だが観察している私たちも観察されている。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "窓外の人も動物も倒れ一行だけが酸素で耐える。ここで未来の分岐が生まれる。"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "選択の結果を、発明のせいだけにはできない。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "記録を残そう。次の者が同じ盲点へ落ちぬように。"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "そして戻れなくても、責任からは逃げない。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "hide",
-      "actor": "iwao"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elder"
-    },
-    {
-      "op": "bg",
-      "src": "last_cylinder",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "last_cylinder"
-    },
-    {
-      "op": "nar",
-      "text": "第4景「最後の酸素」。残量が尽きる前に各自が人生を振り返る。"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "mei",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "「最後の酸素」で常識の境界が動き始めた。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "残量が尽きる前に各自が人生を振り返る。観測した事実はそれだけだ。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "可能だから使う、では理由にならない。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "最後の酸素の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "使わなければ、別の誰かが先に使う。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "だからこそ「終末を前にして初めて見える、日常の価値と人の癖」を問い続ける。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "技術の速さに、判断の速さが追いついていない。",
-      "eyes": "normal"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。残量が尽きる前に各自が人生を振り返る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "未知を敵と決めず、条件を一つずつ調べよう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "だが観察している私たちも観察されている。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "残量が尽きる前に各自が人生を振り返る。ここで未来の分岐が生まれる。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "選択の結果を、発明のせいだけにはできない。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "記録を残そう。次の者が同じ盲点へ落ちぬように。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "そして戻れなくても、責任からは逃げない。",
-      "eyes": "crying"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "hide",
-      "actor": "mei"
-    },
-    {
-      "op": "bg",
-      "src": "world_restarts",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "world_restarts"
-    },
-    {
-      "op": "nar",
-      "text": "第5景「再び動く朝」。毒帯が去り眠りから世界が目覚める。"
-    },
-    {
-      "op": "show",
-      "actor": "iwao",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elder",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "「再び動く朝」で常識の境界が動き始めた。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "毒帯が去り眠りから世界が目覚める。観測した事実はそれだけだ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "可能だから使う、では理由にならない。"
-    },
-    {
-      "op": "nar",
-      "text": "再び動く朝の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "使わなければ、別の誰かが先に使う。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "だからこそ「終末を前にして初めて見える、日常の価値と人の癖」を問い続ける。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "技術の速さに、判断の速さが追いついていない。",
-      "eyes": "joy"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。毒帯が去り眠りから世界が目覚める。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "未知を敵と決めず、条件を一つずつ調べよう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "だが観察している私たちも観察されている。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "毒帯が去り眠りから世界が目覚める。ここで未来の分岐が生まれる。"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "選択の結果を、発明のせいだけにはできない。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "記録を残そう。次の者が同じ盲点へ落ちぬように。"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "そして戻れなくても、責任からは逃げない。",
-      "eyes": "closed"
-    },
-    {
-      "op": "hide",
-      "actor": "iwao"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elder"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "物語はここまで。残った問いは「終末を前にして初めて見える、日常の価値と人の癖」。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ご来場、ありがとうございました。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "end"
+  {
+   "role": "サマリー教授",
+   "actor": "extra_elder",
+   "costume": "default"
+  },
+  {
+   "role": "マローン",
+   "actor": "rei_casual",
+   "costume": "default"
+  },
+  {
+   "role": "チャレンジャー夫人",
+   "actor": "mei",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "telegram_room": "bg/poison-belt-telegram_room-2048x1152.png",
+  "sealed_house": "bg/poison-belt-sealed_house-2048x1152.png",
+  "silent_world": "bg/poison-belt-silent_world-2048x1152.png",
+  "last_cylinder": "bg/poison-belt-last_cylinder-2048x1152.png",
+  "world_restarts": "bg/poison-belt-world_restarts-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "『失われた世界』の冒険から、三年。新聞記者のマローンのもとに、あのチャレンジャー教授から、一通の電報が、届きました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "「酸素ボンベを、持ってこい。……ロートハースの、わが家へ」。理由は、一言も、書いてありません。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "アーサー・コナン・ドイル『毒ガス帯』。地球が、宇宙に漂う、毒のエーテルの帯に、入ってしまうお話でございます。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "世界の終わりを前にして、初めて見えてくるもの。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……日々の暮らしの、ありがたさと、そして、人それぞれの、どうしようもない、癖。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "telegram_room",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "telegram_room"
+  },
+  {
+   "op": "nar",
+   "text": "ロンドン、新聞社の編集室。マローンが、電報を、手に、首をひねっている。隣には、老学者の、サマリー教授。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "サマリー教授。……あなたにも、届きましたか。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "届いた。……「酸素ボンベを、持参せよ」。まったく、あの男らしい。命令しか、書いておらん。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "何のためでしょう。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "知らん。……おおかた、また、何か、とんでもない説を、思いついたのだろう。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "ロクストン卿にも、届いたそうです。……卿は、もう、ボンベを、馬車に積んで、出発したと。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "あの男は、理由を、聞く前に、動く。……狩人とは、そういうものだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "でも、行くんですね。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "酸素ボンベが、五本も要る旅だ。……君ひとりでは、運べまい。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……行く。あの男の、とんでもない説は、たいてい、当たるからな。腹立たしいことに。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "今朝の新聞、読みましたか。……スマトラで、住民が、原因不明の、眠り病に、かかったと。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "読んだ。……天文台が、星の光が、妙に、ぼやけていると、報告しておる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……関係が、あるんでしょうか。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "あの男なら、あると、言うだろうな。……行けば、わかる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "bg",
+   "src": "sealed_house",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "sealed_house"
+  },
+  {
+   "op": "nar",
+   "text": "サセックス州、ロートハース。チャレンジャー教授の屋敷。二階の、書斎。教授が、窓の、隙間を、目張りしている。"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "遅いぞ、マローン！　……ボンベは。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "五本、持ってきました。……教授、何が、起きるんです。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "落ち着いて、聞け。……いや、落ち着かずとも、よい。どうせ、落ち着いてはおれん話じゃ。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "地球が、毒の帯に、入る。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……毒の、帯。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "宇宙には、エーテルという、目に見えぬものが、満ちておる。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……そのエーテルに、毒の流れが、ある。地球は、今、その流れの中へ、突っ込もうとしている。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "スマトラの眠り病。星の光の、ぼやけ。……すべて、その前触れじゃ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……では、人類は。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……皆、眠る。そして、二度と、目覚めん。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "新聞社に、知らせないと。……世界に。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "知らせて、何になる。……酸素ボンベは、全人類の分は、ない。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……人類が、皆。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "酸素を、吸っておれば、しばらくは、耐えられる。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……この部屋を、密閉し、ボンベの酸素で、生き延びる。どこまで、もつかは、わからんがな。"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "書斎。目張りが、終わった。ボンベが、壁ぎわに、並んでいる。サマリー教授が、腕を組んで、渋い顔をしている。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "チャレンジャー。……君の説には、科学的な、根拠が、ない。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "根拠は、窓の外を、見れば、わかる！",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "見ておる。……何も、起きておらんではないか。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "これから、起きるのじゃ！"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "起きてから、言ってもらいたい。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "お二人とも、……喧嘩は、地球が終わってからに、しませんか。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……ふん。"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "left"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "皆さま、お茶が、入りました。……これが、最後のお茶かもしれませんから、とびきり、上等の葉を。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……奥さまは、落ち着いて、おられますな。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "夫と、二十年、暮らしておりますと、たいていのことには、驚かなくなります。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……地球の、終わりにも。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "夫が、言い出したことですもの。……半分は、外れると、思っておりますわ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……奥さまは、私の、味方ですな。",
+   "eyes": "fun"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "bg",
+   "src": "silent_world",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "silent_world"
+  },
+  {
+   "op": "nar",
+   "text": "午後。書斎の窓の外。屋敷の前の道。馬車の御者が、手綱を、握ったまま、ゆっくりと、座席に、崩れ落ちた。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……教授。御者が。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……始まったな。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "窓の外の、景色が、少し、紫がかって、見える。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "エーテルの、色じゃ。……息を、深く、吸うな。"
+  },
+  {
+   "op": "nar",
+   "text": "道を歩いていた、郵便配達が、倒れた。庭師が、倒れた。空を飛んでいた鳥が、ぽとりと、落ちた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……鳥まで。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "人間だけでは、ない。……地上の、すべての、息をするものが。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……ロンドンも。……新聞社の、皆も。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "母も。……ロンドンの、小さな下宿で、ひとりで。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……おそらく。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "マローンは、電話の、受話器を、取った。……誰も、出なかった。もう一度、かけた。……やはり、誰も。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……編集長。……応えてください。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "昨日、原稿が遅いと、怒鳴られたんです。……謝りそびれた。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……謝る相手が、眠っているだけなら、まだ、望みはある。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "夕方。窓の外は、静まり返っている。犬も、猫も、人も、通りに、横たわっている。ただ、風だけが、木の葉を、揺らしている。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……チャレンジャー。……君は、正しかった。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……正しかったことを、これほど、嬉しくないと、思ったのは、初めてじゃ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……私の、妻も。……今ごろは。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……サマリー。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "いや。……いい。……科学者は、事実を、受け入れねば。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……教授。……僕らだけ、なんでしょうか。地球で、生き残っているのは。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "ロンドンの病院には、酸素がある。……患者は、生きているかもしれん。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "鉱山の、救助隊も。……潜水夫も。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "どこかに、同じように、酸素で、耐えている者が、いるかもしれん。……だが、ボンベは、いずれ、尽きる。"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "bg",
+   "src": "last_cylinder",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "last_cylinder"
+  },
+  {
+   "op": "nar",
+   "text": "夜。書斎。ランプの明かり。ボンベは、残り、一本。四人が、床に、座っている。"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……あと、数時間で、最後の、ボンベも、空になる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "大事に、吸えば、もう少し、もちませんか。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "大事に吸うて、一時間、延ばしても、……結末は、変わらん。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……謝らないでくださいな。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "すまぬ。……お前を、巻き込んだ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "謝るくらいなら、手を、握っていてください。……それで、十分です。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……こういうとき、人は、何を、話すんでしょうね。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "遺言か。……記録か。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "僕は、記者です。……最後まで、書きます。この部屋で、起きたことを。誰も、読む人は、いないかもしれないけれど。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……書け、マローン。……読む者が、いようと、いまいと、書かれた事実は、事実じゃ。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "わたしの、ことも、書いてくださいね。……最後のお茶は、とびきり、おいしかった、と。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……一行目に、書きます。"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……私は、虫の、標本を、作るのが、好きでね。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……サマリー教授が？"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "誰にも、言ったことは、ない。……書斎の、引き出しに、甲虫が、二百匹。……妻だけが、知っていた。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……甲虫。……君が。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "笑うがいい。……二百匹目は、先週、見つけたばかりだった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "笑わんよ。……わしは、カナリアを、飼っておる。毎朝、話しかけておる。……誰にも、言うなよ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……言う相手が、もう、おらんよ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……僕が、聞いてしまいました。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "書くなよ、マローン！",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "二人の老学者は、顔を見合わせた。……そして、初めて、声を上げて、笑った。"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "深夜。ボンベの、針が、ゼロに近づいている。四人の息が、浅くなってきた。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……窓を、開けましょう。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……窓を、開ける？",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "どうせ、眠るのなら。……閉め切った部屋ではなく、最後に、外の、空気を、吸いたい。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……そうじゃな。……星を、見ながら、眠ろう。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……教授、僕は、怖い。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "怖くて、当然じゃ。……わしも、怖い。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……教授が？",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "科学者は、怖がらんと、思うておったか。……わかっておるから、怖いのじゃ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "チャレンジャー教授が、窓の、目張りを、はがした。夜の、冷たい空気が、流れ込んできた。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……いい、匂い。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……ああ。……草の、匂いじゃ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……教授。……教授と、冒険ができて、よかった。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……わしもじゃ。……あの世の記事も、君が、書いてくれ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "四人は、窓辺に、並んで、座った。……そして、一人、また一人と、目を閉じた。"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "bg",
+   "src": "world_restarts",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "world_restarts"
+  },
+  {
+   "op": "nar",
+   "text": "朝。窓から、日が、射している。……チャレンジャー教授が、ゆっくりと、目を、開けた。"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……ここは。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……生きて、おる。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "窓の外で、鳥が、鳴いた。……道の上で、御者が、ゆっくりと、起き上がり、首を、ひねっていた。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……教授。……みんな、起きています。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……毒の帯は、通り過ぎたのじゃ。……あれは、死ではなく、眠りだった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……眠り。……では、編集長も。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "母も。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "今ごろ、机で、目を覚まして、原稿は、まだかと、怒鳴っておるじゃろう。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "郵便配達が、手紙を、拾っています。……まるで、何事も、なかったように。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……僕らは、窓を、開けたのに、なぜ、目覚めたんでしょう。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "酸素を、吸い続けた体は、毒の帯の、尻尾しか、吸わなかった。……運が、よかったのじゃ。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "彼らは、何も、覚えておらんじゃろう。……一晩、眠っていただけと、思うておる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……チャレンジャー。……妻に、電報を、打たねば。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "打つがいい。……電報局の者も、今ごろ、目を、こすっておるじゃろう。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……妻は、私が、一晩、帰らなかったことを、叱るだろうな。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "叱られるのも、生きておる者の、特権じゃ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "あなた、カナリアに、餌を、あげないと。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……聞いて、おったのか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "二十年、一緒にいて、知らないと、思っていたのですか。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……私の甲虫のことも、皆、聞いておったのだろうな。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……二百匹目、拝見したいですわ。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "わしも、見たい。……君の、二百匹目とやらを。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……今度、持ってまいります。",
+   "eyes": "closed"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "教授は、世界中にこの出来事を発表する",
+     "jump": "m_announce"
+    },
+    {
+     "text": "教授は、今日一日を、ふつうに過ごす",
+     "jump": "m_ordinary"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_announce"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "世界に、知らせねばならん！　……人類は、一晩、眠っていた。その間、地球は、毒の帯を、通過した！"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……誰が、信じるかね。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "信じさせる！　……マローン、記事を、書け！",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "マローンさんなら、もう、書いていますわ。……一晩じゅう、ランプの下で。"
+  },
+  {
+   "op": "jump",
+   "to": "m_end"
+  },
+  {
+   "op": "label",
+   "id": "m_ordinary"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……今日は、何も、発表せん。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "……あなたが？",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "今日は、カナリアに、餌をやり、お前の、茶を飲み、サマリーと、喧嘩をする。……ふつうの、一日を、過ごす。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "昨日まで、それが、どれほど、ありがたいか、知らなんだ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……喧嘩も、ありがたいのかね。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……喧嘩が、いちばん、ありがたい。"
+  },
+  {
+   "op": "label",
+   "id": "m_end"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "アーサー・コナン・ドイル『毒ガス帯』、これにて、閉幕でございます。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "世界の終わりかと思われた一夜。……老学者たちは、甲虫と、カナリアの話をして、笑いました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "終末を前にして、見えてきたのは、偉大な発見ではなく、……誰にも言わなかった、小さな、日々の、楽しみだったのでございます。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

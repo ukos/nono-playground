@@ -1,0 +1,640 @@
+{
+  "meta": {
+    "id": "midnight-magic-train",
+    "title": "魔導列車・極　夜行便",
+    "original": "『NONO: Blade of the Dawn』設定資料を基にしたNONO座新作",
+    "adaptation": "free",
+    "format": "v3",
+    "category": "blade",
+    "minutes": 20,
+    "synopsis": "十四駅を結んだ後の深夜、時刻表にない青と金の魔導列車・極が無人で入線する。停車するたびに旅の「置き忘れたもの」が増え、nonoは品物ではなく持ち主が置いてきた時間を返す夜行便に乗る。",
+    "note": "ゲーム設定を基にした舞台独自の後日譚。追加設定はcast-and-notes.mdで明示し、セリフは本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "ユイ・オリジン／口上",
+      "actor": "yui_origin",
+      "costume": "default"
+    },
+    {
+      "role": "nono",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "駅の技師",
+      "actor": "extra_craftsman",
+      "costume": "default"
+    },
+    {
+      "role": "レイ",
+      "actor": "rei",
+      "costume": "default"
+    },
+    {
+      "role": "ニブルス",
+      "actor": "nibulus",
+      "costume": "default"
+    },
+    {
+      "role": "サスケ",
+      "actor": "sasuke",
+      "costume": "default"
+    },
+    {
+      "role": "ヨル",
+      "actor": "yoru",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "ghost-platform": "bg/midnight-magic-train-01-ghost-platform-2048x1152.png",
+    "empty-carriage": "bg/midnight-magic-train-02-empty-carriage-2048x1152.png",
+    "snow-stop": "bg/midnight-magic-train-03-snow-stop-2048x1152.png",
+    "sea-stop": "bg/midnight-magic-train-04-sea-stop-2048x1152.png",
+    "bamboo-stop": "bg/midnight-magic-train-05-bamboo-stop-2048x1152.png",
+    "twilight-stop": "bg/midnight-magic-train-06-twilight-stop-2048x1152.png",
+    "last-object": "bg/midnight-magic-train-07-last-object-2048x1152.png",
+    "morning-return": "bg/midnight-magic-train-08-morning-return-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "bg",
+      "src": "ghost-platform",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "ghost-platform"
+    },
+    {
+      "op": "nar",
+      "text": "【零時の臨時ホーム】"
+    },
+    {
+      "op": "show",
+      "actor": "yui_origin",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "extra_craftsman",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "yui_origin",
+      "text": "交易が眠る零時、一本だけ帳簿にない列車が来ます。"
+    },
+    {
+      "op": "nar",
+      "text": "青と金の魔導列車・極が、音を立てずに入線する。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "機関番号なし。客車は四。運転席も空だ。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "扉が僕の前だけ開いた。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "乗るなら、朝鐘までに戻れ。線路図が白紙になってる。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "行き先がない列車ほど、置いていけない。"
+    },
+    {
+      "op": "nar",
+      "text": "扉の上に「忘れもの一件」とだけ灯る。"
+    },
+    {
+      "op": "hide",
+      "actor": "yui_origin"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_craftsman"
+    },
+    {
+      "op": "bg",
+      "src": "empty-carriage",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "empty-carriage"
+    },
+    {
+      "op": "nar",
+      "text": "【誰もいない四号車】"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "四号車の座席に、雪狼の毛皮の留め具が一つある。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "切れたのではない。急いで外した結び目だ。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "雪山で誰かを包むために貸した跡か。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "物は持ち主を言わない。駅で残った記憶を拾おう。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "レイは、どうして乗ってる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "無人列車に一人で乗る者を、忍びは一人にしない。"
+    },
+    {
+      "op": "nar",
+      "text": "窓の外に雪が流れ、次駅の灯が近づく。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "rei"
+    },
+    {
+      "op": "bg",
+      "src": "snow-stop",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "snow-stop"
+    },
+    {
+      "op": "nar",
+      "text": "【白嶺の停車】"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "nibulus",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "雪の無人駅で、ニブルスが古い方位磁針を差し出す。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "海の宝探しで壊した。直すより先へ走ったんだ。",
+      "eyes": "sorrow"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "忘れたんじゃなく、見ないふりをした？"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "針が北を指さないと、俺まで止まりそうでさ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "列車は壊れ物ではなく、止まれなかった時間を集めてる。"
+    },
+    {
+      "op": "say",
+      "actor": "nibulus",
+      "text": "なら預ける。朝になったら、修理代は盗まない。",
+      "eyes": "fun"
+    },
+    {
+      "op": "nar",
+      "text": "方位磁針は毛皮の留め具の隣で北を指す。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "rei"
+    },
+    {
+      "op": "hide",
+      "actor": "nibulus"
+    },
+    {
+      "op": "bg",
+      "src": "sea-stop",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "sea-stop"
+    },
+    {
+      "op": "nar",
+      "text": "【灯台港の潮風】"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "灯台港では、塩で固くなった赤い手巾が桟橋に置かれる。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "救助の合図に使った布だ。角が波で裂けてる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "持ち主は名を残していない。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "返す相手が分からない物は、どうする。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "使われた場所へ返す。灯台なら、次の合図を待てる。"
+    },
+    {
+      "op": "nar",
+      "text": "車内の棚に手巾を掛けると、遠い波音が一度だけ鳴る。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "この列車、返却先まで覚えてるんだな。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "rei"
+    },
+    {
+      "op": "bg",
+      "src": "bamboo-stop",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "bamboo-stop"
+    },
+    {
+      "op": "nar",
+      "text": "【竹林の歯車駅】"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "sasuke",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "rei",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "竹林の里で、欠けた三枚歯の歯車が床下から転がり出る。"
+    },
+    {
+      "op": "say",
+      "actor": "sasuke",
+      "text": "ゲンサイ殿の歯車とは別物。俺の煙仕掛けの失敗作だ。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "どうして駅に？"
+    },
+    {
+      "op": "say",
+      "actor": "sasuke",
+      "text": "成功した仕掛けだけ持ち帰る癖があってな。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "失敗を捨てると、同じ穴へ二度落ちる。"
+    },
+    {
+      "op": "say",
+      "actor": "sasuke",
+      "text": "朝まで借りる。欠けた歯を図面に残して返す。"
+    },
+    {
+      "op": "nar",
+      "text": "歯車の欠け目が、列車の車輪音と同じ間を刻む。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "sasuke"
+    },
+    {
+      "op": "hide",
+      "actor": "rei"
+    },
+    {
+      "op": "bg",
+      "src": "twilight-stop",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "twilight-stop"
+    },
+    {
+      "op": "nar",
+      "text": "【黄昏駅の鈴】"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yoru",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "rei",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "黄昏の地のホームに、音の出ない黒い鈴が吊られている。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "あたしのよ。蚩尤側へ立つ前、自分で舌を抜いた。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "足音を消すため？"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "戻る場所の音まで消したかったの。格好悪いでしょ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "音を戻すかは、持ち主が決める。"
+    },
+    {
+      "op": "say",
+      "actor": "yoru",
+      "text": "今夜は車内に置く。朝の音を聞いてから決めるわ。"
+    },
+    {
+      "op": "nar",
+      "text": "列車が動くと、舌のない鈴が窓の光だけを揺らす。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "yoru"
+    },
+    {
+      "op": "hide",
+      "actor": "rei"
+    },
+    {
+      "op": "bg",
+      "src": "last-object",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "last-object"
+    },
+    {
+      "op": "nar",
+      "text": "【終点の剣帯】"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "extra_craftsman",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "終点は、はじまりの村。最後の座席に擦れた剣帯がある。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "それは暁の聖剣の帯だ。城から戻った日に外した。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "新しい帯に替えて、古い方を見なかった。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "列車が最後に集めたのは、あなたの止まれなかった時間。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "世界を救った後も、次の用事を探してた。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "直すか？"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "傷は残して、留め金だけ直してほしい。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "rei"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_craftsman"
+    },
+    {
+      "op": "bg",
+      "src": "morning-return",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "morning-return"
+    },
+    {
+      "op": "nar",
+      "text": "【朝鐘の返却表】"
+    },
+    {
+      "op": "show",
+      "actor": "yui_origin",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "rei",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "朝鐘と同時に、列車は通常の路線図を取り戻す。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "留め具は雪山、手巾は灯台、歯車は竹林へ。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "方位磁針と鈴は、持ち主が自分で受け取る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "剣帯は？"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "今日は腰に巻かない。修理台で朝を過ごしてもらう。"
+    },
+    {
+      "op": "say",
+      "actor": "yui_origin",
+      "text": "夜行便が運んだのは荷物ではなく、振り返る余白でした。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "yui_origin",
+      "text": "時刻表にない列車は、朝の仕事を終えて消えます。"
+    },
+    {
+      "op": "hide",
+      "actor": "yui_origin"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "rei"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

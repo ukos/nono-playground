@@ -1,722 +1,1082 @@
 {
-  "meta": {
-    "id": "first-men-moon",
-    "number": 116,
-    "title": "月世界最初の人間 ―カヴォライトの球―",
-    "original": "H. G. Wells, The First Men in the Moon（原典著作権消滅）",
-    "category": "SF",
-    "adaptation": "faithful",
-    "format": "v3",
-    "minutes": 44,
-    "synopsis": "全五景で「未知の社会を見る時、人類の常識も観察されている」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
-    "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+ "meta": {
+  "id": "first-men-moon",
+  "number": 116,
+  "title": "月世界最初の人間 ―カヴォライトの球―",
+  "original": "H. G. Wells, The First Men in the Moon（原典著作権消滅）",
+  "category": "SF",
+  "adaptation": "faithful",
+  "format": "v3",
+  "minutes": 46,
+  "synopsis": "全五景で「未知の社会を見る時、人類の常識も観察されている」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "狂言回し",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "ベッドフォード",
-      "actor": "rei_rider",
-      "costume": "default"
-    },
-    {
-      "role": "ケイヴァー",
-      "actor": "extra_wizard",
-      "costume": "default"
-    },
-    {
-      "role": "月人の大頭",
-      "actor": "extra_elder",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "cavorite_lab": "bg/first-men-moon-cavorite_lab-2048x1152.png",
-    "moon_plain": "bg/first-men-moon-moon_plain-2048x1152.png",
-    "selenite_caves": "bg/first-men-moon-selenite_caves-2048x1152.png",
-    "grand_lunar": "bg/first-men-moon-grand_lunar-2048x1152.png",
-    "radio_silence": "bg/first-men-moon-radio_silence-2048x1152.png"
+  {
+   "role": "ベッドフォード",
+   "actor": "rei_rider",
+   "costume": "default"
   },
-  "steps": [
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『月世界最初の人間』。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "SFの一席を、全五景でお届けします。",
-      "mouth": "open",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "この舞台の核は「未知の社会を見る時、人類の常識も観察されている」。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "台詞はすべて今夜のための書き下ろしです。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "それでは、幕を開けましょう。",
-      "mouth": "open",
-      "eyes": "joy"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "cavorite_lab",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "cavorite_lab"
-    },
-    {
-      "op": "nar",
-      "text": "第1景「カヴォライト実験室」。重力を遮る新物質と球形宇宙船が完成する。"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_wizard",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "「カヴォライト実験室」で常識の境界が動き始めた。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "重力を遮る新物質と球形宇宙船が完成する。観測した事実はそれだけだ。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "可能だから使う、では理由にならない。",
-      "eyes": "anger"
-    },
-    {
-      "op": "nar",
-      "text": "カヴォライト実験室の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "使わなければ、別の誰かが先に使う。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "だからこそ「未知の社会を見る時、人類の常識も観察されている」を問い続ける。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "技術の速さに、判断の速さが追いついていない。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。重力を遮る新物質と球形宇宙船が完成する。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "未知を敵と決めず、条件を一つずつ調べよう。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "だが観察している私たちも観察されている。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "重力を遮る新物質と球形宇宙船が完成する。ここで未来の分岐が生まれる。",
-      "eyes": "normal"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "選択の結果を、発明のせいだけにはできない。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "記録を残そう。次の者が同じ盲点へ落ちぬように。",
-      "eyes": "anger"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "そして戻れなくても、責任からは逃げない。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_wizard"
-    },
-    {
-      "op": "bg",
-      "src": "moon_plain",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "moon_plain"
-    },
-    {
-      "op": "nar",
-      "text": "第2景「月の夜明け」。凍った月面に太陽が昇り巨大植物が伸びる。"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elder",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "「月の夜明け」で常識の境界が動き始めた。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "凍った月面に太陽が昇り巨大植物が伸びる。観測した事実はそれだけだ。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "可能だから使う、では理由にならない。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "月の夜明けの空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "使わなければ、別の誰かが先に使う。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "だからこそ「未知の社会を見る時、人類の常識も観察されている」を問い続ける。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "技術の速さに、判断の速さが追いついていない。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。凍った月面に太陽が昇り巨大植物が伸びる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "未知を敵と決めず、条件を一つずつ調べよう。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "だが観察している私たちも観察されている。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "凍った月面に太陽が昇り巨大植物が伸びる。ここで未来の分岐が生まれる。",
-      "eyes": "joy"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "選択の結果を、発明のせいだけにはできない。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "記録を残そう。次の者が同じ盲点へ落ちぬように。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "そして戻れなくても、責任からは逃げない。",
-      "eyes": "fun"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elder"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "bg",
-      "src": "selenite_caves",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "selenite_caves"
-    },
-    {
-      "op": "nar",
-      "text": "第3景「月人の地下都市」。月人セレナイトの分業社会に捕らえられる。"
-    },
-    {
-      "op": "show",
-      "actor": "extra_wizard",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elder",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "「月人の地下都市」で常識の境界が動き始めた。",
-      "eyes": "anger",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "月人セレナイトの分業社会に捕らえられる。観測した事実はそれだけだ。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "可能だから使う、では理由にならない。",
-      "eyes": "fun"
-    },
-    {
-      "op": "nar",
-      "text": "月人の地下都市の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "使わなければ、別の誰かが先に使う。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "だからこそ「未知の社会を見る時、人類の常識も観察されている」を問い続ける。",
-      "eyes": "crying",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "技術の速さに、判断の速さが追いついていない。",
-      "eyes": "closed"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。月人セレナイトの分業社会に捕らえられる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "未知を敵と決めず、条件を一つずつ調べよう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "だが観察している私たちも観察されている。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "月人セレナイトの分業社会に捕らえられる。ここで未来の分岐が生まれる。",
-      "eyes": "anger",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "選択の結果を、発明のせいだけにはできない。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "記録を残そう。次の者が同じ盲点へ落ちぬように。",
-      "eyes": "fun"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "そして戻れなくても、責任からは逃げない。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_wizard"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elder"
-    },
-    {
-      "op": "bg",
-      "src": "grand_lunar",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "grand_lunar"
-    },
-    {
-      "op": "nar",
-      "text": "第4景「大頭との対話」。ケイヴァーが人類の戦争と競争を説明する。"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_wizard",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "「大頭との対話」で常識の境界が動き始めた。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "ケイヴァーが人類の戦争と競争を説明する。観測した事実はそれだけだ。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "可能だから使う、では理由にならない。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "大頭との対話の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "使わなければ、別の誰かが先に使う。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "だからこそ「未知の社会を見る時、人類の常識も観察されている」を問い続ける。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "技術の速さに、判断の速さが追いついていない。",
-      "eyes": "normal"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。ケイヴァーが人類の戦争と競争を説明する。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "未知を敵と決めず、条件を一つずつ調べよう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "だが観察している私たちも観察されている。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "ケイヴァーが人類の戦争と競争を説明する。ここで未来の分岐が生まれる。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "選択の結果を、発明のせいだけにはできない。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "記録を残そう。次の者が同じ盲点へ落ちぬように。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_wizard",
-      "text": "そして戻れなくても、責任からは逃げない。",
-      "eyes": "crying"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_wizard"
-    },
-    {
-      "op": "bg",
-      "src": "radio_silence",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "radio_silence"
-    },
-    {
-      "op": "nar",
-      "text": "第5景「地球の受信室」。月からの通信が途切れ未知への問いだけが残る。"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elder",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "「地球の受信室」で常識の境界が動き始めた。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "月からの通信が途切れ未知への問いだけが残る。観測した事実はそれだけだ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "可能だから使う、では理由にならない。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "地球の受信室の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "使わなければ、別の誰かが先に使う。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "だからこそ「未知の社会を見る時、人類の常識も観察されている」を問い続ける。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "技術の速さに、判断の速さが追いついていない。",
-      "eyes": "joy"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。月からの通信が途切れ未知への問いだけが残る。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "未知を敵と決めず、条件を一つずつ調べよう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "だが観察している私たちも観察されている。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "月からの通信が途切れ未知への問いだけが残る。ここで未来の分岐が生まれる。",
-      "eyes": "fun"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "選択の結果を、発明のせいだけにはできない。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "記録を残そう。次の者が同じ盲点へ落ちぬように。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "そして戻れなくても、責任からは逃げない。",
-      "eyes": "closed"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elder"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "物語はここまで。残った問いは「未知の社会を見る時、人類の常識も観察されている」。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ご来場、ありがとうございました。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "end"
+  {
+   "role": "ケイヴァー",
+   "actor": "extra_wizard",
+   "costume": "default"
+  },
+  {
+   "role": "月人の大頭",
+   "actor": "extra_elder",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "cavorite_lab": "bg/first-men-moon-cavorite_lab-2048x1152.png",
+  "moon_plain": "bg/first-men-moon-moon_plain-2048x1152.png",
+  "selenite_caves": "bg/first-men-moon-selenite_caves-2048x1152.png",
+  "grand_lunar": "bg/first-men-moon-grand_lunar-2048x1152.png",
+  "radio_silence": "bg/first-men-moon-radio_silence-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "二十世紀のはじめ、イギリスの片田舎、リンプネ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "借金取りから逃れて、戯曲を書こうとしていた男が、おりました。名を、ベッドフォード。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "隣の家には、毎日、決まった時刻に、ぶつぶつ言いながら散歩をする、奇妙な科学者が、住んでいました。名を、ケイヴァー。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "H・G・ウェルズ『月世界最初の人間』。二人は、重力を遮る、新しい物質を使って、月へ、旅立つことになります。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "未知の社会を、観察しに行くとき。……人類のほうもまた、観察されている。そのことを、お忘れなく。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "cavorite_lab",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "cavorite_lab"
+  },
+  {
+   "op": "nar",
+   "text": "リンプネの、ケイヴァーの家。裏庭の小屋が、実験室になっている。炉が燃え、奇妙な機械が、うなりを上げている。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_rider",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "ケイヴァーさん。……毎日、夕方、同じ時刻に、同じ道を、ぶつぶつ言いながら、歩いていますね。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "……迷惑でしたか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "戯曲の、集中が、切れるんです。……あなたが、通るたびに。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "それは、すまない。……考えごとを、するとき、歩かずには、いられなくてね。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "何を、考えているんです。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "重力を、遮る、物質のことを。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "……重力を。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "光を遮る物質がある。熱を遮る物質もある。……ならば、重力を遮る物質も、あっていいはずだ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "ヘリウムと、いくつかの金属を、ある温度で、溶かし合わせる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "……できあがるはずの物質に、私は、名前まで、つけてある。カヴォライト。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "……自分の名前を、つけたんですね。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "発見者の、特権だよ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "……もし、本当に、できたら、大金持ちですね。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "金？　……考えたことも、なかった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "……この人には、僕が、ついていないと、だめだ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_rider"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
+   "op": "show",
+   "actor": "rei_rider",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "数日後。実験室の炉の中で、カヴォライトが、ついに、できあがった。……その瞬間、炉の上の空気が、天へ向かって、吹き飛んだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "……屋根が！　煙突が！　空へ！"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "重力が、遮られたのだ！　カヴォライトの上の空気が、重さを、失って、上へ、逃げていった！"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "……村じゅうの、瓦が、飛んでいきましたよ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "……うむ。それは、謝らねば、なるまいな。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "ケイヴァーさん。……この物質で、何が、できます。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "カヴォライトで、球を作る。窓の代わりに、カヴォライトの、ブラインドを、つける。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "……ブラインドを開ければ、そちらの方向の、引力だけが、効く。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "……空を、飛べる。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "空どころか。……月にでも、行ける。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "……あの、月へ。"
+  },
+  {
+   "op": "nar",
+   "text": "ベッドフォードの目が、きらりと、光った。……借金と、戯曲のことは、すっかり、頭から、消えていた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "月には、金が、ありますか。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "……君は、まず、そこを、聞くのかね。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "借金が、ありますので。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "私は、月に、何があるかを、知りたい。……君は、何が、持ち帰れるかを、知りたい。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "二人いれば、両方、わかります。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_rider"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
+   "op": "bg",
+   "src": "moon_plain",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "moon_plain"
+  },
+  {
+   "op": "nar",
+   "text": "球形の宇宙船が、月面に、着地した。窓の外は、一面の、雪。凍った大気が、白い霜となって、大地を、覆っている。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_rider",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "……何も、ない。真っ白だ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "夜が、明けるのを、待とう。……月の一日は、地球の、二週間分ある。夜明けは、ゆっくりと、来る。"
+  },
+  {
+   "op": "nar",
+   "text": "地平線の向こうから、太陽が、顔を出した。光が、霜を、照らす。……霜は、みるみるうちに、溶け、湯気となって、立ちのぼった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "……見て、ください！　地面が！"
+  },
+  {
+   "op": "nar",
+   "text": "地面のあちこちから、小さな、緑の芽が、ぴょこぴょこと、顔を出した。"
+  },
+  {
+   "op": "nar",
+   "text": "芽は、見る見るうちに、伸び、葉を広げ、膝の高さ、胸の高さへと、育っていく。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "……植物だ！　月に、植物が！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "何て、速さだ。……一日で、森になる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "夜のあいだ、凍ったまま、眠っていたのだ。……そして、長い昼のあいだに、一生を、生き抜く。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "二週間で、一生か。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "我々の一生も、宇宙から見れば、似たようなものかもしれん。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_rider"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
+   "op": "show",
+   "actor": "rei_rider",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "二人は、球から出て、月面を、歩いた。……一歩踏み出すと、体が、ふわりと浮いて、数メートルも、跳んでしまう。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "……ははは！　体が、軽い！"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "月の重力は、地球の、六分の一だ。……気をつけたまえ。跳びすぎると、戻ってこられんぞ。"
+  },
+  {
+   "op": "nar",
+   "text": "地の底から、鈍い、鐘のような音が、響いてきた。……ぐわん、ぐわん、と。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "……今の、音は。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "地下に、何かが、いる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "気がつくと、二人は、植物の森の中で、球を、見失っていた。……そして、背後から、奇妙な影が、近づいてきた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "……何だ、あれは。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "……虫か。……いや、立っている。……二本の、足で。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_rider"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
+   "op": "bg",
+   "src": "selenite_caves",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "selenite_caves"
+  },
+  {
+   "op": "nar",
+   "text": "月の地下。巨大な洞窟。青白く光る、菌類の明かり。ベッドフォードとケイヴァーは、鎖につながれて、座らされている。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_rider",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "……捕まった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "捕まった、というより、……保護されたのかもしれん。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "鎖に、つながれて、保護も、何も、ありますか。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "彼らを、見たまえ。……月人。セレナイトと、呼ぼう。"
+  },
+  {
+   "op": "nar",
+   "text": "洞窟の中を、さまざまな姿の生き物が、行き交っていた。頭ばかりが大きい者。手ばかりが長い者。足が、異常に太い者。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "……ふむ。彼らは、それぞれ、違う仕事のために、体の形が、違うのだ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "違う、仕事。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "荷運びの者は、足が太い。細かい作業をする者は、指が長い。……考える仕事をする者は、頭が、大きい。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "生まれたときから、仕事が、決まっていて。……その仕事に合うように、子どものうちから、体を、整えられる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "……整えられる？",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "見たまえ、あの瓶を。……若い月人が、手だけを、外に出して、瓶に、閉じ込められている。手だけが、育つように。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "……あんまりだ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "ひどい、と思うのは、我々の、常識だ。……彼らは、それを、幸福と、思っているのかもしれん。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_rider"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
+   "op": "show",
+   "actor": "rei_rider",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "ケイヴァーさん。……僕は、逃げます。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "待ちたまえ。……彼らと、話をしてみたい。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "話す？　あの、虫のような、連中と。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "彼らには、言葉がある。……私は、少しずつ、わかってきた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "僕は、わかりたくない。……球を探して、地球に、帰る。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "ベッドフォードは、鎖を、引きちぎった。月の重力の中では、地球人の腕力は、六倍に、なる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "……ほら。月では、僕らは、怪力だ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "ベッドフォード！　乱暴は、よしたまえ！"
+  },
+  {
+   "op": "nar",
+   "text": "ベッドフォードは、近づいてきた月人を、拳で、殴った。月人の体は、卵の殻のように、もろく、崩れた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "……なんということを。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "……こ、殺す、つもりは。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "君は、我々が、何者かを、彼らに、見せてしまった。……力の強い、乱暴な、生き物だと。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_rider"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
+   "op": "bg",
+   "src": "grand_lunar",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "grand_lunar"
+  },
+  {
+   "op": "nar",
+   "text": "数日後。ベッドフォードは、球を見つけて、ひとりで、地球へ、逃げ帰った。……ケイヴァーは、月に、残された。"
+  },
+  {
+   "op": "nar",
+   "text": "月の地下の、最も深い場所。大きな広間。"
+  },
+  {
+   "op": "nar",
+   "text": "そこに、巨大な頭を持つ、月の支配者、大頭が、いた。ケイヴァーが、その前に、招かれている。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……地球から来た者よ。……汝の世界の、ことを、聞かせよ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "……光栄で、ございます。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "地球には、多くの人間が、いると、聞く。……それぞれ、何の仕事を、するために、生まれてくるのか。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "……いいえ。地球の人間は、生まれたときには、何の仕事を、するか、決まっておりません。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……決まっておらぬ？",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "自分で、選ぶのです。……あるいは、選べずに、迷うのです。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……迷う。……それは、無駄では、ないか。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "……無駄かも、しれません。……けれど、その迷いが、新しいものを、生むことも、ございます。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……迷いが、新しいものを、か。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "地球の人間は、互いに、どのように、暮らしておる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "……国と、いうものに、分かれております。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "国とは。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "同じ言葉を、話し、同じ王を、戴く、人々の、集まりです。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "国と、国は、どのように、つきあう。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "……ときどき、戦争を、いたします。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "戦争とは。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "……互いに、殺し合うことです。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……同じ、人間同士で。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "……恥ずかしながら。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "理由は。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "土地の、ために。……金の、ために。……あるいは、名誉の、ために。……自分が、正しいと、信じるために。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "汝の仲間、ベッドフォードは、我が民を、殴り殺した。……あれも、戦争か。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "……あれは、恐怖です。……知らないものを、恐れる、心です。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……汝らは、知らないものを、恐れて、殺し、……知っている者同士でも、殺し合う。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "……返す言葉が、ございません。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "ケイヴァー。……汝は、カヴォライトの、作り方を、知っておるな。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "……作り方は、この頭の中にだけ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "地球の人間は、それを、知っておるか。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "……いいえ。私だけです。ベッドフォードは、作り方を、知りません。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……汝ひとり、か。"
+  },
+  {
+   "op": "nar",
+   "text": "大頭は、長いあいだ、黙っていた。洞窟の奥で、鐘のような音が、ぐわん、ぐわんと、響いていた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "汝の話は、たいへん、興味深い。……我らは、汝らのことを、もっと、知りたい。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "……私も、あなたがたのことを。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……汝らが、カヴォライトの球で、大勢、月へ、来るようになったら。……我らは、どうなるか。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "……答えに、窮します。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "汝が、今、言葉に、詰まった。……それが、答えであろう。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "bg",
+   "src": "radio_silence",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "radio_silence"
+  },
+  {
+   "op": "nar",
+   "text": "地球。数年後。ベッドフォードは、月から持ち帰った金で、借金を返し、裕福に、暮らしていた。"
+  },
+  {
+   "op": "nar",
+   "text": "……ある日、オランダの天文学者から、知らせが、届いた。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_rider",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "……月から、無線の、通信が。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "ケイヴァーさんが、送ってきたのか。……生きていたのか。"
+  },
+  {
+   "op": "nar",
+   "text": "天文台の受信室。雑音まじりの、無線の音。途切れ途切れに、ケイヴァーの声が、届いてくる。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "……こちら、ケイヴァー。……月の、地下より。……大頭と、話を、した。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "……地球の、戦争のことを、話した。……人間が、互いに、殺し合うことを、話した。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "……大頭は、とても、驚いていた。……とても、静かに、驚いていた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "……ケイヴァーさん。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "……私は、気づいた。……私が、彼らを、観察していたように、……彼らも、私を、通して、地球を、観察していた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "……カヴォライトの、作り方を、……送ろうと、思う。……地球の、人々に。……カ、ヴォ、ラ、イ、ト、は……。"
+  },
+  {
+   "op": "nar",
+   "text": "雑音が、大きくなった。そして、……ぷつりと、途切れた。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "……ケイヴァーさん！　ケイヴァーさん！"
+  },
+  {
+   "op": "nar",
+   "text": "無線は、二度と、鳴らなかった。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_rider"
+  },
+  {
+   "op": "show",
+   "actor": "rei_rider",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "……誰かが、止めたのか。……大頭が。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "作り方を、送られたら、……地球の人間が、大勢、月へ、行く。……戦争を、持って。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "……僕が、月人を、殴ったから。……僕が、あの日、恐怖で、拳を、振るったから。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "ベッドフォードは、もう一度、月へ行こうとする",
+     "jump": "m_return"
+    },
+    {
+     "text": "ベッドフォードは、この話を書き残す",
+     "jump": "m_write"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_return"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "……カヴォライトを、もう一度、作る方法を、探そう。……ケイヴァーさんを、迎えに行く。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "……いや。僕に、行く、資格が、あるのか。……また、拳を、振るうだけでは、ないのか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "……行くなら、拳ではなく、ケイヴァーさんのように、言葉を、持って。",
+   "eyes": "closed"
+  },
+  {
+   "op": "jump",
+   "to": "m_end"
+  },
+  {
+   "op": "label",
+   "id": "m_write"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "……書き残そう。僕らが、月で、見たことを。……月で、されたことでは、なく、月で、したことを。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "僕は、戯曲家だった。……やっと、書くべき話が、見つかった。"
+  },
+  {
+   "op": "label",
+   "id": "m_end"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_rider"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "月への旅のお話は、ここで、幕を下ろします。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "月の社会を、観察しに行った二人は、気がつけば、自分たちの社会を、月から、見つめ直すことになりました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ケイヴァーの最後の通信は、今も、途切れたまま。……途切れたその先を、想像するのは、私たち観客の、宿題でございます。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

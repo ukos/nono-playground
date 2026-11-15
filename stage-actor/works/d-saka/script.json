@@ -1,739 +1,1095 @@
 {
-  "meta": {
-    "id": "d-saka",
-    "number": 112,
-    "title": "D坂の殺人事件 ―古本屋の盲点―",
-    "original": "江戸川乱歩『D坂の殺人事件』（原作著作権消滅）",
-    "category": "探偵",
-    "adaptation": "faithful",
-    "format": "v3",
-    "minutes": 32,
-    "synopsis": "全五景で「異常に見える事件ほど、視線と時間を正確に置き直す」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
-    "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+ "meta": {
+  "id": "d-saka",
+  "number": 112,
+  "title": "D坂の殺人事件 ―古本屋の盲点―",
+  "original": "江戸川乱歩『D坂の殺人事件』（原作著作権消滅）",
+  "category": "探偵",
+  "adaptation": "faithful",
+  "format": "v3",
+  "minutes": 34,
+  "synopsis": "全五景で「異常に見える事件ほど、視線と時間を正確に置き直す」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "狂言回し",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "明智小五郎",
-      "actor": "yoru",
-      "costume": "default"
-    },
-    {
-      "role": "語り手",
-      "actor": "rei_casual",
-      "costume": "default"
-    },
-    {
-      "role": "古本屋の主人",
-      "actor": "tanurio",
-      "costume": "default"
-    },
-    {
-      "role": "そば屋の店員",
-      "actor": "shiro",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "cafe_window": "bg/d-saka-cafe_window-2048x1152.png",
-    "bookshop_room": "bg/d-saka-bookshop_room-2048x1152.png",
-    "street_witness": "bg/d-saka-street_witness-2048x1152.png",
-    "aketchi_room": "bg/d-saka-aketchi_room-2048x1152.png",
-    "blind_spot": "bg/d-saka-blind_spot-2048x1152.png"
+  {
+   "role": "明智小五郎",
+   "actor": "yoru",
+   "costume": "default"
   },
-  "steps": [
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『D坂の殺人事件』。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "探偵の一席を、全五景でお届けします。",
-      "mouth": "open",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "この舞台の核は「異常に見える事件ほど、視線と時間を正確に置き直す」。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "台詞はすべて今夜のための書き下ろしです。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "それでは、幕を開けましょう。",
-      "mouth": "open",
-      "eyes": "joy"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "cafe_window",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "cafe_window"
-    },
-    {
-      "op": "nar",
-      "text": "第1景「D坂の喫茶店」。語り手が向かいの古本屋の異変に気づく。"
-    },
-    {
-      "op": "show",
-      "actor": "yoru",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "現場は「D坂の喫茶店」。まず事実だけを並べよう。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "確認できるのは、語り手が向かいの古本屋の異変に気づくという一点だ。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "見えたものと、そう思った理由を分けて書く。",
-      "eyes": "anger"
-    },
-    {
-      "op": "nar",
-      "text": "D坂の喫茶店の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "証言が一致するほど、同じ思い込みを疑うべきか。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "一致は安心材料だが、真実の保証ではない。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "鍵は「異常に見える事件ほど、視線と時間を正確に置き直す」にある。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。語り手が向かいの古本屋の異変に気づく。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "犯人像を先に決めず、痕跡から可能性を削ろう。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "では時刻、入口、道具の順に確かめる。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "語り手が向かいの古本屋の異変に気づく。この行動には目的が二つ重なっている。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "表の目的が囮なら、裏の目的は何だ。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "答えはまだ言わない。反証できる形にしよう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "推理を勝利ではなく、検証として終わらせる。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "hide",
-      "actor": "yoru"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "bg",
-      "src": "bookshop_room",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "bookshop_room"
-    },
-    {
-      "op": "nar",
-      "text": "第2景「古本屋の奥」。閉ざされた部屋で店主の妻が死んでいる。"
-    },
-    {
-      "op": "show",
-      "actor": "tanurio",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "現場は「古本屋の奥」。まず事実だけを並べよう。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "確認できるのは、閉ざされた部屋で店主の妻が死んでいるという一点だ。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "見えたものと、そう思った理由を分けて書く。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "古本屋の奥の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "証言が一致するほど、同じ思い込みを疑うべきか。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "一致は安心材料だが、真実の保証ではない。",
-      "eyes": "surprise",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "鍵は「異常に見える事件ほど、視線と時間を正確に置き直す」にある。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。閉ざされた部屋で店主の妻が死んでいる。"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "犯人像を先に決めず、痕跡から可能性を削ろう。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "では時刻、入口、道具の順に確かめる。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "閉ざされた部屋で店主の妻が死んでいる。この行動には目的が二つ重なっている。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "表の目的が囮なら、裏の目的は何だ。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "答えはまだ言わない。反証できる形にしよう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "推理を勝利ではなく、検証として終わらせる。",
-      "eyes": "fun"
-    },
-    {
-      "op": "hide",
-      "actor": "tanurio"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "bg",
-      "src": "street_witness",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "street_witness"
-    },
-    {
-      "op": "nar",
-      "text": "第3景「夕暮れの商店街」。目撃時刻と格子戸越しの見え方を組み直す。"
-    },
-    {
-      "op": "show",
-      "actor": "yoru",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "現場は「夕暮れの商店街」。まず事実だけを並べよう。",
-      "eyes": "anger",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "確認できるのは、目撃時刻と格子戸越しの見え方を組み直すという一点だ。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "見えたものと、そう思った理由を分けて書く。",
-      "eyes": "fun"
-    },
-    {
-      "op": "nar",
-      "text": "夕暮れの商店街の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "証言が一致するほど、同じ思い込みを疑うべきか。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "一致は安心材料だが、真実の保証ではない。",
-      "eyes": "crying",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "鍵は「異常に見える事件ほど、視線と時間を正確に置き直す」にある。",
-      "eyes": "closed"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。目撃時刻と格子戸越しの見え方を組み直す。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "犯人像を先に決めず、痕跡から可能性を削ろう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "では時刻、入口、道具の順に確かめる。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "目撃時刻と格子戸越しの見え方を組み直す。この行動には目的が二つ重なっている。",
-      "eyes": "anger",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "表の目的が囮なら、裏の目的は何だ。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "答えはまだ言わない。反証できる形にしよう。",
-      "eyes": "fun"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "推理を勝利ではなく、検証として終わらせる。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "hide",
-      "actor": "yoru"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "bg",
-      "src": "aketchi_room",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "aketchi_room"
-    },
-    {
-      "op": "nar",
-      "text": "第4景「明智の部屋」。明智が嗜好と証言のずれから犯人像を絞る。"
-    },
-    {
-      "op": "show",
-      "actor": "tanurio",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "現場は「明智の部屋」。まず事実だけを並べよう。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "確認できるのは、明智が嗜好と証言のずれから犯人像を絞るという一点だ。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "見えたものと、そう思った理由を分けて書く。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "明智の部屋の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "証言が一致するほど、同じ思い込みを疑うべきか。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "一致は安心材料だが、真実の保証ではない。",
-      "eyes": "closed",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "鍵は「異常に見える事件ほど、視線と時間を正確に置き直す」にある。",
-      "eyes": "normal"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。明智が嗜好と証言のずれから犯人像を絞る。"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "犯人像を先に決めず、痕跡から可能性を削ろう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "では時刻、入口、道具の順に確かめる。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "明智が嗜好と証言のずれから犯人像を絞る。この行動には目的が二つ重なっている。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "表の目的が囮なら、裏の目的は何だ。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "答えはまだ言わない。反証できる形にしよう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "推理を勝利ではなく、検証として終わらせる。",
-      "eyes": "crying"
-    },
-    {
-      "op": "hide",
-      "actor": "tanurio"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "bg",
-      "src": "blind_spot",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "blind_spot"
-    },
-    {
-      "op": "nar",
-      "text": "第5景「盲点の再現」。見えていたはずという思い込みが崩れる。"
-    },
-    {
-      "op": "show",
-      "actor": "yoru",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "現場は「盲点の再現」。まず事実だけを並べよう。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "確認できるのは、見えていたはずという思い込みが崩れるという一点だ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "見えたものと、そう思った理由を分けて書く。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "盲点の再現の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "証言が一致するほど、同じ思い込みを疑うべきか。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "一致は安心材料だが、真実の保証ではない。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "鍵は「異常に見える事件ほど、視線と時間を正確に置き直す」にある。",
-      "eyes": "joy"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。見えていたはずという思い込みが崩れる。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "犯人像を先に決めず、痕跡から可能性を削ろう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "では時刻、入口、道具の順に確かめる。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "見えていたはずという思い込みが崩れる。この行動には目的が二つ重なっている。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "表の目的が囮なら、裏の目的は何だ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "答えはまだ言わない。反証できる形にしよう。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "推理を勝利ではなく、検証として終わらせる。",
-      "eyes": "closed"
-    },
-    {
-      "op": "hide",
-      "actor": "yoru"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "物語はここまで。残った問いは「異常に見える事件ほど、視線と時間を正確に置き直す」。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ご来場、ありがとうございました。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "end"
+  {
+   "role": "語り手",
+   "actor": "rei_casual",
+   "costume": "default"
+  },
+  {
+   "role": "古本屋の主人",
+   "actor": "tanurio",
+   "costume": "default"
+  },
+  {
+   "role": "そば屋の店員",
+   "actor": "shiro",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "cafe_window": "bg/d-saka-cafe_window-2048x1152.png",
+  "bookshop_room": "bg/d-saka-bookshop_room-2048x1152.png",
+  "street_witness": "bg/d-saka-street_witness-2048x1152.png",
+  "aketchi_room": "bg/d-saka-aketchi_room-2048x1152.png",
+  "blind_spot": "bg/d-saka-blind_spot-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "大正の東京。団子坂、通称D坂。坂の中ほどに、白梅軒という、小さな喫茶店がございました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "その窓際で、冷やしコーヒーを前に、毎晩、ぼんやりと、向かいの古本屋を眺めている青年がおりました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "江戸川乱歩『D坂の殺人事件』。若き日の名探偵、明智小五郎が、初めて、世に姿を現すお話でございます。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "異常に見える事件ほど、人の視線と、時間の流れを、正確に、置き直さなければならない。……さて、ご覧あれ。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "cafe_window",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "cafe_window"
+  },
+  {
+   "op": "nar",
+   "text": "九月の初め。蒸し暑い夜。白梅軒の窓際の席。語り手の青年が、窓の外を、眺めている。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……今夜も、向かいの古本屋は、店番が、いない。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "あの古本屋の、細君。……色の白い、きれいな人だ。いつもなら、帳場に座って、本の埃を、はたいているのに。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "店の奥と、表の間には、格子の障子がある。……今夜は、その障子が、閉まっている。"
+  },
+  {
+   "op": "nar",
+   "text": "店の扉が開いた。黒っぽい、棒縞の浴衣を着た男が、入ってきた。"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……やあ。君も、ここの常連だったか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "明智くん。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "最近、この坂に越してきてね。……煙草屋の二階に、下宿している。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "明智くんは、近ごろ知り合った、奇妙な男だ。探偵小説が好きで、犯罪の話になると、目が、きらきら光る。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "君、さっきから、向かいの古本屋ばかり、見ているね。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……店番が、いないんだ。もう、三十分も。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……ほう。三十分。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "僕が、ここへ来る途中、あの店の前を、通った。……そのときも、店には、誰も、いなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……少し、おかしくないか。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "見に行こう。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "勝手に、入っていいのか。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "店は、開いている。客が、本を見に行くのに、遠慮は、いらない。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "bg",
+   "src": "bookshop_room",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "bookshop_room"
+  },
+  {
+   "op": "nar",
+   "text": "古本屋の店内。棚に、古い本が、ぎっしりと、詰まっている。奥の六畳との間の、格子の障子が、閉まっている。"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……ごめんください。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "返事が、ない。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "障子を、開けよう。"
+  },
+  {
+   "op": "nar",
+   "text": "明智が、格子の障子を、開けた。……電灯の消えた、六畳間。その隅に、白い浴衣の女が、倒れていた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……奥さん！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "触るな。……もう、息が、ない。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……首に、痣が。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "誰か、呼ばないと。……警察を。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "呼ぶ前に、よく、見ておこう。人が大勢来ると、部屋は、すぐに、別の部屋になる。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "絞められている。……それも、ついさっきだ。まだ、体が、温かい。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "明智は、部屋を、ぐるりと見回した。窓は、内側から、閂がかかっている。裏口は、長屋の路地に、続いていた。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "表の店には、ずっと、僕たちの目があった。……裏口から、出入りした者が、いるはずだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "裏の路地には、子どもが、遊んでいた。……ずっと。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "では、裏からも、誰も、出ていない。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……じゃあ、犯人は、どこへ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "消えたのでは、ないさ。……見えていなかった、だけだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "見えていなかった、とは。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "僕たちは、店の表を、見ていた。……表しか、見ていなかった。"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "一時間後。警察が来て、古本屋の主人が、呼び戻された。夜店に、古本を並べに、出かけていたのだった。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……あいつが。……あいつが、死んだ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "ご主人。お悔やみを、申し上げます。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……あんたは。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "向かいの喫茶店に、いた者です。……ご主人、奥さんは、最近、何か、変わった様子は。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……さあ。あいつは、何も、言わない女で。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……ただ、ときどき、腕や、首に、痣を、こしらえておった。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……痣。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "転んだとか、ぶつけたとか。……わしは、それ以上、聞かなんだ。聞いては、いけない気がして。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……聞いてはいけない、気がした。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "夫婦というのは、そういうもんで。……全部、知らんほうが、うまくいく。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……うまく、いっていましたか。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……いっておる、つもりでした。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "わしは、夜店に出て、本を、売っておった。……そのあいだに、あいつは。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "bg",
+   "src": "street_witness",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "street_witness"
+  },
+  {
+   "op": "nar",
+   "text": "翌日の夕暮れ。D坂の商店街。警察の調べで、二人の目撃者が、見つかった。明智と語り手が、その証言を、聞きに来ている。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "目撃者は、二人。……どちらも、事件の時刻に、古本屋の店先の前を、通った学生だ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "二人とも、格子の障子の隙間から、奥の部屋に、男がいるのを、見た。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "ところが、一人は、男の着物は、黒だったと、言う。……もう一人は、白だったと、言う。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……面白い。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "面白い、ものか。……黒か白か、正反対だ。どちらかが、嘘をついている。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "警察は、白と言った学生のほうが、近眼だから、間違いだろうと。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "どちらも、嘘は、ついていないよ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……何だって。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "格子の障子の、桟の幅を、測ってきた。……それから、男が立っていた位置と、学生たちの立っていた位置も。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "格子の隙間からは、男の着物の、ほんの一部しか、見えない。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "縞の、黒い部分だけが見えた者と、白い部分だけが見えた者が、いたのさ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……棒縞の、着物。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "黒と白の、太い縞の浴衣。……それなら、二人とも、本当のことを、言っている。"
+  },
+  {
+   "op": "nar",
+   "text": "語り手は、明智の浴衣を、見た。……黒と白の、太い、棒縞だった。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "坂の途中の、旭屋という、そば屋。店員の若い男が、のれんを、出していた。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……いらっしゃい。あ、明智さん。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "やあ。……ゆうべの騒ぎ、聞いたかい。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……明智くん、ここの、そば屋とも、知り合いか。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "越してきて、最初に入った店でね。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "聞きましたよ。……古本屋の奥さん。きれいな人だったのに。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "君、ゆうべは、店に。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……ずっと、店におりました。……ただ、八時ごろ、裏の厠へ、少し。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "厠は、長屋の、裏路地にある、共同のかい。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……ええ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "ありがとう。……今度、もりを、二枚、頼むよ。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……毎度。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "明智くん。……今の店員に、何か。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "厠の場所を、聞いただけさ。……それと、浴衣の柄を、見ただけ。"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "bg",
+   "src": "aketchi_room",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "aketchi_room"
+  },
+  {
+   "op": "nar",
+   "text": "煙草屋の二階。明智の下宿。四方の壁が、本で埋まっている。床にまで、本が、積み上げてある。語り手が、ひとりで、訪ねてきた。"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……明智くん。僕は、きのう一晩、考えた。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "一晩、何を、考えたんだい。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "犯人の、ことだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "棒縞の浴衣を着ていて、あの古本屋の、奥さんと、知り合いで、……事件の時刻に、行方が、わからない男。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "明智くん。君は、あの奥さんと、幼なじみだったそうだね。……古本屋の主人から、聞いた。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……主人が、そんなことを。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "君は、喫茶店に来る前、古本屋の前を、通ったと言った。……そのとき、本当は、店に入ったんじゃないのか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "君の浴衣は、黒と白の、棒縞だ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……ははは。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "笑い事じゃない。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "いや、見事だ。……君の推理は、筋が、通っている。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "だが、一つ、聞きたい。……君は、どうして、そんなに、物的な証拠ばかり、並べるんだい。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "証拠が、すべてだ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "証拠は、すべてじゃない。……人の心の、癖のほうが、よほど、確かなことが、ある。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "心の、癖。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "本の並べ方にも、癖が出る。……君は、本を、背の高さで並べる。僕は、読みたい順に並べる。"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "僕は、あの奥さんの、幼なじみだ。……それは、本当だ。だが、もう何年も、口をきいていない。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "縞の浴衣は、この坂の、半分の男が、着ている。……夏祭りの、揃いでね。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……祭りの、揃いか。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "奥さんの体の、古い痣。……それを、主人は、聞いてはいけない気がした、と言った。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "痣は、誰かが、つけたものだ。……それも、何度も。そして、奥さんは、それを、誰にも、言わなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……言えなかった、のかもしれない。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "あるいは、言わないと、決めていた。……二人だけの、秘密として。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "二人とは。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "旭屋の、そば屋の、裏。共同の厠は、古本屋の裏口と、壁ひとつで、繋がっている。……路地の子どもからは、見えない。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……あの、店員か。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "八時ごろ、厠へ、少し。……彼は、そう言った。"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "bg",
+   "src": "blind_spot",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "blind_spot"
+  },
+  {
+   "op": "nar",
+   "text": "夜。D坂。古本屋の前。明智と語り手が、事件の夜と同じ時刻に、立っている。"
+  },
+  {
+   "op": "nar",
+   "text": "格子の障子越しに、奥の部屋の灯りが、ぼんやり、見えた。"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "ここから、障子の奥を、見てごらん。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……桟の隙間から、少しだけ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "僕が、奥の部屋に入って、立ってみる。……見えたものを、言ってくれ。"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "nar",
+   "text": "明智が、店の奥へ、入っていった。……障子の隙間に、黒い縞が、ちらりと、見えた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……黒い、着物。"
+  },
+  {
+   "op": "nar",
+   "text": "明智が、半歩、横へ動いた。……今度は、白い縞が、見えた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……白い。"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "どうだい。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……同じ人間なのに、黒にも、白にも、見えた。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "人は、見えたものを、見えたままに、覚えているつもりでいる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "けれど、実際は、見えた隙間から、全体を、想像しているだけなんだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……僕も。君を、犯人だと、思い込んだ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "気にしないでくれ。僕も、ちょっと、楽しかった。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "縞の浴衣と、幼なじみ。……その二つの隙間から、僕という全体を、想像した。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "旭屋の裏。厠の前。店員が、青ざめた顔で、立っていた。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……明智さん。わかって、いたんですね。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "君が、話しに来るのを、待っていた。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……殺す、つもりは、ありませんでした。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "あの人とは、……誰にも、言えない、遊びを、していました。あの人が、望んだんです。いつも、もっと、と。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "あの夜も。……でも、気がついたら、あの人は、動かなくなっていて。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……それで、逃げたのか。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "厠から、店に戻って、そばを、茹でました。……手が、震えて、三杯、こぼしました。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "怖かった。……誰にも、言えない遊びで、人が死んだなんて、誰にも、言えなかった。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……君の浴衣も、棒縞だね。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……学生が見たのは、君だったのか。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……祭りの、揃いです。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "明智は、店員を警察へ連れていく",
+     "jump": "m_police"
+    },
+    {
+     "text": "明智は、店員に自分で名乗り出るよう言う",
+     "jump": "m_self"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_police"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "一緒に、行こう。……僕が、話を、補ってあげる。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……ついてきて、いただけるんですか。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "秘密は、二人のものだった。……けれど、死は、もう、二人だけのものでは、ない。",
+   "eyes": "closed"
+  },
+  {
+   "op": "jump",
+   "to": "m_end"
+  },
+  {
+   "op": "label",
+   "id": "m_self"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "自分の足で、行きなさい。……僕が、連れていけば、君は、捕まった男になる。自分で行けば、話した男になる。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……話した、男。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "あの人の秘密を、守るのか、話すのか。……それは、君が、決めることだ。"
+  },
+  {
+   "op": "label",
+   "id": "m_end"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "江戸川乱歩『D坂の殺人事件』、これにて、閉幕でございます。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "黒い着物と、白い着物。どちらの証言も、嘘ではありませんでした。……隙間から見えたものを、全体だと、思い込んだだけ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "語り手が、最初に疑ったのは、隣に座っていた、名探偵その人でした。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "盲点とは、いつも、いちばん近くに、あるものなのでございます。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

@@ -1,0 +1,883 @@
+{
+  "meta": {
+    "id": "nono-07-changing-labyrinth",
+    "title": "第七章（番外編）　大迷宮、灯を継ぐ剣",
+    "original": "『NONO: Blade of the Dawn』公式攻略本 第9章・統合仕様書 第35節",
+    "adaptation": "moderate",
+    "format": "v3",
+    "minutes": 30,
+    "synopsis": "入るたびに形を変える大迷宮へ、nonoたちは最小限の装備で挑む。罠、モンスターハウス、落とし穴、暗い深層を越え、帰還の巻物を使うか迷った末に、光の聖剣クラウ・ソラスへたどり着く。",
+    "note": "Stage Actor向け番外編。持ち込み制限、階層、罠、迷宮の袋、温泉、深層の暗さ、階段の番人、最奥の宝を資料に沿って圧縮した。最初の宝をクラウ・ソラスとするのは本上演版の選択で、ゲームでは未所持の聖剣・星座宝から抽選される。台詞は全て書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "nono（旅人／狂言回し）",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "ユイ",
+      "actor": "yui",
+      "costume": "default"
+    },
+    {
+      "role": "レイ",
+      "actor": "rei",
+      "costume": "default"
+    },
+    {
+      "role": "大迷宮入口の番人",
+      "actor": "extra_elder",
+      "costume": "default"
+    },
+    {
+      "role": "深層・階段の番人（鬼）",
+      "actor": "extra_oni",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "labyrinth_gate": "bg/ch7_01_labyrinth_gate-2048x1152.png",
+    "low_floor": "bg/ch7_02_low_floor-2048x1152.png",
+    "trap_room": "bg/ch7_03_trap_room-2048x1152.png",
+    "monster_house": "bg/ch7_04_monster_house-2048x1152.png",
+    "hot_spring": "bg/ch7_05_hot_spring-2048x1152.png",
+    "middle_blue": "bg/ch7_06_middle_blue-2048x1152.png",
+    "warp_fall": "bg/ch7_07_warp_fall-2048x1152.png",
+    "deep_dark": "bg/ch7_08_deep_dark-2048x1152.png",
+    "guardian_stairs": "bg/ch7_09_guardian_stairs-2048x1152.png",
+    "treasure_vault": "bg/ch7_10_treasure_vault-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "bg",
+      "src": "labyrinth_gate",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "labyrinth_gate"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "――はじまりの村の西、大迷宮の入口――"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "石の渦が昨日と逆向きだ。中の道も全部変わったらしい。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "持てる武器は一本、料理三つ、弓と矢十本。残りは預かる。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "爆弾も予備の剣も入口へ。失う怖さより、選ぶ重さですね。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "無名の剣、料理三つ、弓。フックは腰から外さない。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "今回の最奥は地下十七階。力尽きても外へ運び出す。"
+    },
+    {
+      "op": "nar",
+      "text": "番人が荷を封じると、石段の奥で部屋の壁が動く。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "形を変えるなら、こちらは約束を変えない。三人で戻る。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "帰り道の巻物を見つけても、使う時は声に出しましょう。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "bg",
+      "src": "low_floor",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "low_floor"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "――低層、最初の分岐――"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "三つの扉。風は右、足跡は中央、左だけ埃が落ちている。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "階段は一番遠い部屋。近道に見える左ほど回り道か。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "薬草を一つ。迷宮の袋は八枠です。空きを残します。"
+    },
+    {
+      "op": "nar",
+      "text": "柱の陰で石壁が滑り、来た部屋の形が変わる。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "振り返るたび入口が別の顔をする。背中で覚えられない。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "なら音を置く。扉の蝶番を一度ずつ鳴らして進む。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "地図がなくても、三人の記憶なら重ねられます。"
+    },
+    {
+      "op": "nar",
+      "text": "右の扉の先で、床の一枚だけ光を飲み込んでいる。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "rei"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "bg",
+      "src": "trap_room",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "trap_room"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "――踏むまで姿を見せない罠の部屋――"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "止まれ。壁の穴が左右でずれている。矢は遅れて飛ぶ。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "床には針、奥は落とし穴、青い円はワープ。豪華だ。"
+    },
+    {
+      "op": "choice",
+      "options": [
+        {
+          "text": "地図の巻物を使う",
+          "jump": "use_map"
+        },
+        {
+          "text": "見破りの巻物を使う",
+          "jump": "use_reveal"
+        }
+      ]
+    },
+    {
+      "op": "label",
+      "id": "use_map"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "地図に下り階段が出ました。罠は足元を読んで避けます。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "出口が分かれば、急がず一枚ずつ測れる。"
+    },
+    {
+      "op": "jump",
+      "to": "trap_join"
+    },
+    {
+      "op": "label",
+      "id": "use_reveal"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "罠の輪郭が全部浮いた。安全な石だけを踏んで行ける。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "階段の位置は不明です。安全と方角を交換しました。"
+    },
+    {
+      "op": "label",
+      "id": "trap_join"
+    },
+    {
+      "op": "nar",
+      "text": "矢が背後を横切り、三人の前で落とし穴の縁が崩れる。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "正解の道具ではなく、選んだ不足を三人で補えばいい。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "rei"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "bg",
+      "src": "monster_house",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "monster_house"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "rei",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "――二階、逃げ道の開いたモンスターハウス――"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "扉は閉じない。十を越える影より、退ける道を先に見る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "閃光弾を中央へ。五秒止まる。左の列だけ崩す。"
+    },
+    {
+      "op": "nar",
+      "text": "白光が走り、影の群れが石像のように固まる。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "全滅させれば拾い物が出ます。でも料理は一つ消費。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "逃げる自由があるなら、戦う理由も選べる。出口を守ろう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "三、二、一。投げナイフは五本。戻る影から使え。"
+    },
+    {
+      "op": "nar",
+      "text": "最後の影が消え、薬草と木の棒と帰り道の巻物が残る。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "帰れる紙を手に入れた瞬間、奥へ進む意味が重くなりました。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "rei"
+    },
+    {
+      "op": "bg",
+      "src": "hot_spring",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "hot_spring"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "rei",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "――地下五階、温泉と帰りの光――"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "地下で湯気を見るとは思わなかった。剣より先に肩がほどける。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "全回復です。帰りの光へ入れば、今回の迷宮はここで終わる。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "帰還の巻物も温存できる。だが十七階はまだ遠い。"
+    },
+    {
+      "op": "nar",
+      "text": "帰りの光が脈打つたび、入口の朝風が一瞬だけ届く。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "安全が目の前にあると、奥の宝が急に贅沢に見える。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "贅沢でもいいです。ただし、怖くないふりはやめましょう。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "怖さを数えた。料理二、巻物一、袋四枠。進める数字だ。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "湯気を一息だけ持って、中層へ下りよう。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "rei"
+    },
+    {
+      "op": "bg",
+      "src": "middle_blue",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "middle_blue"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "――青く沈む中層――"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "六階から部屋が広い。敵の体力も一階ごとに増えている。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "壁の青さが深くなるほど、剣の音だけ近く聞こえる。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "地図の巻物を拾いました。階段は最も遠い北西の部屋。"
+    },
+    {
+      "op": "nar",
+      "text": "地図の線が現れた直後、足元の青い紋が回り始める。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "ワープ床だ。踏み直しても戻る保証はない。離れろ。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "遅い。床が三人を別々の光へ引いている。手を伸ばせ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "nonoの手はつかめました。レイ、声を出して。"
+    },
+    {
+      "op": "nar",
+      "text": "青い部屋が消え、三人は赤紫の底へ投げ出される。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "rei"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "bg",
+      "src": "warp_fall",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "warp_fall"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "rei",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "――落とし穴の先、地下十三階――"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "六階ぶん近道した。膝は、近道だと言っていない。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "落ちた階数ぶん傷があります。料理を二つ使います。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "帰り道の巻物を開けば、今なら三人とも立って帰れる。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "開くかどうかではなく、開いた後に悔やむ顔を考えている。"
+    },
+    {
+      "op": "nar",
+      "text": "木の棒へ火を移すと、小さな松明が赤紫の壁を押し返す。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "松明は一分。答えを出すには短く、次の扉には十分です。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "巻物は最後の一手に残す。迷う時間は明かりを食う。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "では十七階へ。帰る紙を、帰れない時のために持って行く。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "rei"
+    },
+    {
+      "op": "bg",
+      "src": "deep_dark",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "deep_dark"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "rei",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "――半径三歩しか見えない深層――"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "松明の外で石が鳴った。敵か罠か、まだ決めるな。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "見えない物に名前をつけると、剣が先に走りたがる。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "灯りが消えます。大きな松明はまだ拾えていません。"
+    },
+    {
+      "op": "nar",
+      "text": "火が縮み、三人の顔だけが闇に浮かぶ。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "ユイは左手、レイは右壁。僕は床を剣先で探る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "前方に下り階段。ただし×の封印。番人がいる。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "暗いからこそ、誰の息が乱れたか分かります。"
+    },
+    {
+      "op": "nar",
+      "text": "階段の前で、重い足音が一つずつ近づく。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "rei"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "bg",
+      "src": "guardian_stairs",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "guardian_stairs"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_oni",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "rei",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "――地下十六階、階段の番人――"
+    },
+    {
+      "op": "say",
+      "actor": "extra_oni",
+      "text": "この階段は、倒れぬ者でなく、立ち直る者を通す。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "体力三倍の鬼が、ずいぶん親切な説明をする。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "角の右側に古傷。正面は受ける、横へ回れ。"
+    },
+    {
+      "op": "nar",
+      "text": "鬼の棍棒が床を割り、×の封印が赤く脈打つ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_oni",
+      "text": "暗がりで仲間を置けば、その剣は宝に届かぬ。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "置いていかない。三歩の灯りを、三人で九歩にする。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "今だ。膝、古傷、階段側。三点を一息で崩せ。"
+    },
+    {
+      "op": "nar",
+      "text": "鬼が膝をつくと、封印が消え、拾い物が一つ転がる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_oni",
+      "text": "見破りの巻物を持て。最奥は、明るさほど油断を隠す。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_oni"
+    },
+    {
+      "op": "hide",
+      "actor": "rei"
+    },
+    {
+      "op": "bg",
+      "src": "treasure_vault",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "treasure_vault"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "rei",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "――地下十七階、最奥の宝――"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "宝の部屋だけ明るい。岩の台座に一本、光の剣があります。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "クラウ・ソラス。深層を照らし、斬った敵をひるませる剣。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "暗闇を消す剣ではない。戻る道を見える長さにする剣だ。"
+    },
+    {
+      "op": "nar",
+      "text": "nonoが柄を握ると、光は三人の足元から入口の方へ伸びる。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "帰りの光が出ました。迷宮の袋は消えても、この剣は残る。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "最初の宝を得た。村外れに宝物庫が建つ条件も満たした。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "木の棒の松明から受け取った灯だ。台座だけの勝利じゃない。"
+    },
+    {
+      "op": "nar",
+      "text": "幕奥に紺屋根の宝物庫が浮かび、空の掛け台が十五本並ぶ。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "次の迷宮はまた別の形だ。だから今夜の道は、今夜だけ語ろう。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "hide",
+      "actor": "rei"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}

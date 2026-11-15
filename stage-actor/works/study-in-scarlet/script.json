@@ -1,721 +1,1133 @@
 {
-  "meta": {
-    "id": "study-in-scarlet",
-    "number": 109,
-    "title": "緋色の研究 ―壁の血文字―",
-    "original": "Arthur Conan Doyle, A Study in Scarlet（原典著作権消滅）",
-    "category": "探偵",
-    "adaptation": "faithful",
-    "format": "v3",
-    "minutes": 40,
-    "synopsis": "全五景で「観察は偏見を捨て、遠い原因と現在の証拠を結ぶ」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
-    "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+ "meta": {
+  "id": "study-in-scarlet",
+  "number": 109,
+  "title": "緋色の研究 ―壁の血文字―",
+  "original": "Arthur Conan Doyle, A Study in Scarlet（原典著作権消滅）",
+  "category": "探偵",
+  "adaptation": "faithful",
+  "format": "v3",
+  "minutes": 42,
+  "synopsis": "全五景で「観察は偏見を捨て、遠い原因と現在の証拠を結ぶ」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "狂言回し",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "シャーロック・ホームズ",
-      "actor": "yoru",
-      "costume": "default"
-    },
-    {
-      "role": "ワトソン",
-      "actor": "rei_casual",
-      "costume": "default"
-    },
-    {
-      "role": "レストレード",
-      "actor": "kurogane",
-      "costume": "default"
-    },
-    {
-      "role": "ホープ",
-      "actor": "extra_porter",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "baker_street": "bg/study-in-scarlet-baker_street-2048x1152.png",
-    "lauriston_house": "bg/study-in-scarlet-lauriston_house-2048x1152.png",
-    "cab_trail": "bg/study-in-scarlet-cab_trail-2048x1152.png",
-    "hope_capture": "bg/study-in-scarlet-hope_capture-2048x1152.png",
-    "utah_memory": "bg/study-in-scarlet-utah_memory-2048x1152.png"
+  {
+   "role": "シャーロック・ホームズ",
+   "actor": "yoru",
+   "costume": "default"
   },
-  "steps": [
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『緋色の研究』。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "探偵の一席を、全五景でお届けします。",
-      "mouth": "open",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "この舞台の核は「観察は偏見を捨て、遠い原因と現在の証拠を結ぶ」。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "台詞はすべて今夜のための書き下ろしです。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "それでは、幕を開けましょう。",
-      "mouth": "open",
-      "eyes": "joy"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "baker_street",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "baker_street"
-    },
-    {
-      "op": "nar",
-      "text": "第1景「ベーカー街221B」。ワトソンが奇妙な観察者ホームズと同居を始める。"
-    },
-    {
-      "op": "show",
-      "actor": "yoru",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "現場は「ベーカー街221B」。まず事実だけを並べよう。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "確認できるのは、ワトソンが奇妙な観察者ホームズと同居を始めるという一点だ。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "見えたものと、そう思った理由を分けて書く。",
-      "eyes": "anger"
-    },
-    {
-      "op": "nar",
-      "text": "ベーカー街221Bの空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "証言が一致するほど、同じ思い込みを疑うべきか。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "一致は安心材料だが、真実の保証ではない。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "鍵は「観察は偏見を捨て、遠い原因と現在の証拠を結ぶ」にある。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。ワトソンが奇妙な観察者ホームズと同居を始める。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "犯人像を先に決めず、痕跡から可能性を削ろう。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "では時刻、入口、道具の順に確かめる。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "ワトソンが奇妙な観察者ホームズと同居を始める。この行動には目的が二つ重なっている。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "表の目的が囮なら、裏の目的は何だ。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "答えはまだ言わない。反証できる形にしよう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "推理を勝利ではなく、検証として終わらせる。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "hide",
-      "actor": "yoru"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "bg",
-      "src": "lauriston_house",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "lauriston_house"
-    },
-    {
-      "op": "nar",
-      "text": "第2景「ローリストン・ガーデン」。空き家の遺体と血文字から証拠を拾う。"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_porter",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "現場は「ローリストン・ガーデン」。まず事実だけを並べよう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_porter",
-      "text": "確認できるのは、空き家の遺体と血文字から証拠を拾うという一点だ。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "見えたものと、そう思った理由を分けて書く。"
-    },
-    {
-      "op": "nar",
-      "text": "ローリストン・ガーデンの空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_porter",
-      "text": "証言が一致するほど、同じ思い込みを疑うべきか。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "一致は安心材料だが、真実の保証ではない。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_porter",
-      "text": "鍵は「観察は偏見を捨て、遠い原因と現在の証拠を結ぶ」にある。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。空き家の遺体と血文字から証拠を拾う。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "犯人像を先に決めず、痕跡から可能性を削ろう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_porter",
-      "text": "では時刻、入口、道具の順に確かめる。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "空き家の遺体と血文字から証拠を拾う。この行動には目的が二つ重なっている。"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_porter",
-      "text": "表の目的が囮なら、裏の目的は何だ。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "答えはまだ言わない。反証できる形にしよう。"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_porter",
-      "text": "推理を勝利ではなく、検証として終わらせる。",
-      "eyes": "fun"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_porter"
-    },
-    {
-      "op": "bg",
-      "src": "cab_trail",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "cab_trail"
-    },
-    {
-      "op": "nar",
-      "text": "第3景「ロンドンの辻馬車」。指輪と轍と薬丸が同じ犯人像へ収束する。"
-    },
-    {
-      "op": "show",
-      "actor": "yoru",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "現場は「ロンドンの辻馬車」。まず事実だけを並べよう。",
-      "eyes": "anger",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "確認できるのは、指輪と轍と薬丸が同じ犯人像へ収束するという一点だ。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "見えたものと、そう思った理由を分けて書く。",
-      "eyes": "fun"
-    },
-    {
-      "op": "nar",
-      "text": "ロンドンの辻馬車の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "証言が一致するほど、同じ思い込みを疑うべきか。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "一致は安心材料だが、真実の保証ではない。",
-      "eyes": "crying",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "鍵は「観察は偏見を捨て、遠い原因と現在の証拠を結ぶ」にある。",
-      "eyes": "closed"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。指輪と轍と薬丸が同じ犯人像へ収束する。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "犯人像を先に決めず、痕跡から可能性を削ろう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "では時刻、入口、道具の順に確かめる。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "指輪と轍と薬丸が同じ犯人像へ収束する。この行動には目的が二つ重なっている。",
-      "eyes": "anger",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "表の目的が囮なら、裏の目的は何だ。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "答えはまだ言わない。反証できる形にしよう。",
-      "eyes": "fun"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "推理を勝利ではなく、検証として終わらせる。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "hide",
-      "actor": "yoru"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "bg",
-      "src": "hope_capture",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "hope_capture"
-    },
-    {
-      "op": "nar",
-      "text": "第4景「御者の逮捕」。ホームズが御者ホープを部屋へ誘い捕らえる。"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_porter",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "現場は「御者の逮捕」。まず事実だけを並べよう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_porter",
-      "text": "確認できるのは、ホームズが御者ホープを部屋へ誘い捕らえるという一点だ。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "見えたものと、そう思った理由を分けて書く。"
-    },
-    {
-      "op": "nar",
-      "text": "御者の逮捕の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_porter",
-      "text": "証言が一致するほど、同じ思い込みを疑うべきか。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "一致は安心材料だが、真実の保証ではない。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_porter",
-      "text": "鍵は「観察は偏見を捨て、遠い原因と現在の証拠を結ぶ」にある。",
-      "eyes": "normal"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。ホームズが御者ホープを部屋へ誘い捕らえる。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "犯人像を先に決めず、痕跡から可能性を削ろう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_porter",
-      "text": "では時刻、入口、道具の順に確かめる。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "ホームズが御者ホープを部屋へ誘い捕らえる。この行動には目的が二つ重なっている。"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_porter",
-      "text": "表の目的が囮なら、裏の目的は何だ。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "答えはまだ言わない。反証できる形にしよう。"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_porter",
-      "text": "推理を勝利ではなく、検証として終わらせる。",
-      "eyes": "crying"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_porter"
-    },
-    {
-      "op": "bg",
-      "src": "utah_memory",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "utah_memory"
-    },
-    {
-      "op": "nar",
-      "text": "第5景「荒野の過去」。復讐の発端と二つの薬丸の意味が語られる。"
-    },
-    {
-      "op": "show",
-      "actor": "yoru",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "現場は「荒野の過去」。まず事実だけを並べよう。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "確認できるのは、復讐の発端と二つの薬丸の意味が語られるという一点だ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "見えたものと、そう思った理由を分けて書く。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "荒野の過去の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "証言が一致するほど、同じ思い込みを疑うべきか。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "一致は安心材料だが、真実の保証ではない。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "鍵は「観察は偏見を捨て、遠い原因と現在の証拠を結ぶ」にある。",
-      "eyes": "joy"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。復讐の発端と二つの薬丸の意味が語られる。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "犯人像を先に決めず、痕跡から可能性を削ろう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "では時刻、入口、道具の順に確かめる。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "復讐の発端と二つの薬丸の意味が語られる。この行動には目的が二つ重なっている。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "表の目的が囮なら、裏の目的は何だ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "答えはまだ言わない。反証できる形にしよう。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "推理を勝利ではなく、検証として終わらせる。",
-      "eyes": "closed"
-    },
-    {
-      "op": "hide",
-      "actor": "yoru"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "物語はここまで。残った問いは「観察は偏見を捨て、遠い原因と現在の証拠を結ぶ」。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ご来場、ありがとうございました。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "end"
+  {
+   "role": "ワトソン",
+   "actor": "rei_casual",
+   "costume": "default"
+  },
+  {
+   "role": "レストレード",
+   "actor": "kurogane",
+   "costume": "default"
+  },
+  {
+   "role": "ホープ",
+   "actor": "extra_porter",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "baker_street": "bg/study-in-scarlet-baker_street-2048x1152.png",
+  "lauriston_house": "bg/study-in-scarlet-lauriston_house-2048x1152.png",
+  "cab_trail": "bg/study-in-scarlet-cab_trail-2048x1152.png",
+  "hope_capture": "bg/study-in-scarlet-hope_capture-2048x1152.png",
+  "utah_memory": "bg/study-in-scarlet-utah_memory-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "一八八一年、ロンドン。アフガン戦争から、傷を負って戻った軍医、ジョン・H・ワトソンは、安い下宿を、探しておりました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "紹介されたのは、化学実験室で、死体を杖で叩いている、風変わりな男。名を、シャーロック・ホームズ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "アーサー・コナン・ドイル『緋色の研究』。世界でいちばん有名な探偵が、初めて、登場するお話でございます。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "観察とは、思い込みを、捨てること。……そして、遠い昔の原因と、目の前の証拠を、一本の糸で、結ぶことなのです。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "baker_street",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "baker_street"
+  },
+  {
+   "op": "nar",
+   "text": "ベーカー街221B。二階の居間。化学薬品の瓶が、所狭しと並んでいる。ワトソンが、荷物を、運び込んだところだった。"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "あなたは、アフガニスタンに、行っておられましたね。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……どうして、それを。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "簡単なことです。顔は日焼けしているが、手首は白い。……生まれつきの色では、ない。熱帯から、帰ったばかり。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "立ち姿は、軍人のもの。左腕を、かばっている。……負傷した、軍医。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "熱帯で、英国の軍医が、苦労をするのは、今なら、アフガニスタンでしょう。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……驚いた。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "驚くほどのことでは、ない。見ればわかることを、見ただけです。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "誰かに、聞いたのでは。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "いいえ。……ほとんどの人は、目で、見ている。でも、観察は、していない。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "違いは。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "たとえば、この下宿の、玄関から二階までの、階段。あなたは、何度も、上り下りした。……段の数は。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……数えたことは、ない。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "十七段です。……それが、見ることと、観察することの、違いです。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……君と暮らすのは、退屈しなさそうだ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "夜中に、バイオリンを弾きます。……それでも、よろしければ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "数週間後。居間。ワトソンが、新聞を、読んでいる。ホームズは、ソファに寝そべって、天井を、見つめていた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "ホームズ。……君の、職業は、いったい、何なんだい。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "諮問探偵です。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……聞いたことのない、職業だ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "世界に、一人しか、いませんから。……警察の刑事たちが、行き詰まったとき、ここへ、相談に来る。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "それで、君が、解決する。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "解決は、彼らの手柄に、なります。……僕は、謎そのものが、好きなだけです。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "階段を、駆け上がる足音。扉が、叩かれた。"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "ホームズさん！　……スコットランド・ヤードの、レストレードです。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……ほら、来た。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "ローリストン・ガーデンの、空き家で、男の死体が、見つかりました。……傷は、ない。だが、壁に、血で、文字が。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "文字。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "「RACHE」。……五文字です。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……ワトソン、帽子を。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "僕も、行っていいのか。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "軍医の目が、要ります。……死体の、見立てを。"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "bg",
+   "src": "lauriston_house",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "lauriston_house"
+  },
+  {
+   "op": "nar",
+   "text": "ローリストン・ガーデン三番地。空き家の、がらんとした部屋。床に、身なりのよい男が、仰向けに倒れている。壁に、赤い文字。"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "被害者は、イノック・ドレッバー。アメリカ人。……ポケットに、名刺が、ありました。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "壁の文字は、「RACHE」。……おそらく、女の名前、「レイチェル」を、書きかけたのでしょう。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "いいえ。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……違う、とおっしゃる？"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "「RACHE」は、ドイツ語で、「復讐」です。……書きかけでは、ない。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……ドイツ語。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "もっとも、それも、偽装でしょう。……本物のドイツ人なら、ドイツ式の、筆記体で、書きます。これは、英語の、活字体だ。"
+  },
+  {
+   "op": "nar",
+   "text": "ホームズは、床に、這いつくばった。虫眼鏡を取り出し、床の埃、壁の文字、死体の唇を、一つずつ、調べていった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……ホームズ、何を。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "唇の匂い。……酸っぱい。毒です。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "床の、足跡。二人分。一人は、エナメル靴。……これは、被害者。もう一人は、四角い、つま先の、大きな靴。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "歩幅から、背が高い。六フィート、以上。……壁の文字の高さとも、合う。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "爪が、長い。……文字の跡に、爪で、引っかいた筋が、ある。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "葉巻の灰。……トリチノポリ葉巻です。灰の色で、わかる。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……そんなことまで。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "ホームズさん、それは、推測では。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "推測は、しません。……推測は、考える力を、だめにします。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "顔は、赤ら顔。……興奮して、鼻血を出し、その血で、文字を書いた。床に、点々と、血の跡がある。被害者には、傷がないのに。"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "床に、小さな、金の指輪が、落ちていた。……女物の、結婚指輪だった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……指輪だ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "犯人が、落としたものです。……わざわざ、被害者に、見せるために、持ってきた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "なぜ、そうと。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "被害者は、毒を、飲まされる前に、この指輪を、見せられた。……そして、恐怖で、顔が、ゆがんだ。ご覧なさい、この表情を。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……復讐、と。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "犯人は、辻馬車の御者です。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……御者？",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "家の前の、轍。……馬車は、ここに長く、止まっていた。御者は、馬車を離れて、家に入った。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "ほかに、御者がいなかったということです。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "犯人は、ほかに、誰の手も、借りずに、被害者を、ここへ、連れてきた。……乗せた客を、自由に、行き先へ、運べる者。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……つまり、辻馬車の、御者か。"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "bg",
+   "src": "cab_trail",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "cab_trail"
+  },
+  {
+   "op": "nar",
+   "text": "ベーカー街221B。ホームズは、新聞の、落とし物の欄に、広告を、出した。「ブリクストン通りで、金の結婚指輪、拾得」。"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "ホームズ。……犯人を、誘い出すつもりか。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "指輪は、犯人にとって、大切なもの。……危険を、冒してでも、取り戻しに、来るでしょう。"
+  },
+  {
+   "op": "nar",
+   "text": "夕刻。一人の老婆が、指輪を、受け取りに来た。ホームズは、そのあとを、追ったが、まかれて、帰ってきた。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……見事に、まかれました。あの老婆は、若い男の、変装です。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "仲間が、いるのか。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "指輪を取り戻すために、他人に頼むほど、用心深い。……ただの、乱暴者では、ありません。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "いるようですね。……面白くなってきた。"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "数日後。レストレードが、青い顔で、飛び込んできた。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "ホームズさん。……もう一人、殺されました。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "ドレッバーの、秘書だった、スタンガスン。ホテルの、一室で。……刺し殺されて。壁には、また、「RACHE」。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "部屋に、何か、残っていませんでしたか。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "小箱が、一つ。……中に、丸薬が、二粒。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……二粒。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "ホームズは、その丸薬を、一粒、借り受けた。そして、下宿の、年老いた、病気の犬に、半分に割って、与えた。"
+  },
+  {
+   "op": "nar",
+   "text": "何も、起きなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……もう一粒を。"
+  },
+  {
+   "op": "nar",
+   "text": "二粒目を与えると、犬は、たちまち、動かなくなった。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……二粒のうち、一つは、毒。一つは、ただの丸薬。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……一粒は、無害だと。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "犯人は、相手に、選ばせたのです。……どちらかを、飲め、と。そして、自分は、残ったほうを、飲む。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……運に、任せた、決闘。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "そんな、妙な人殺しが、ありますか。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "復讐の、作法です。……天の裁きに、任せる、と。"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "bg",
+   "src": "hope_capture",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "hope_capture"
+  },
+  {
+   "op": "nar",
+   "text": "ベーカー街221B。ホームズは、通りの浮浪児たちを使って、ロンドンじゅうの、辻馬車の御者を、調べさせていた。"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "ワトソン、まもなく、御者が、来ます。……荷物を、運ばせるために、呼んだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "犯人か。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "そうです。……どうか、落ち着いて。"
+  },
+  {
+   "op": "nar",
+   "text": "階段を、上ってくる、重い足音。背の高い、赤ら顔の男が、扉の前に、立った。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "辻馬車を、お呼びで。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "ええ。……この、トランクの、紐を、結ぶのを、手伝ってくれませんか。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "お安い、ご用で。"
+  },
+  {
+   "op": "nar",
+   "text": "男が、しゃがみこんで、トランクの紐に、手をかけた。……その瞬間、ホームズが、男の両手首に、鉄の手錠を、かけた。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "皆さん。……イノック・ドレッバーと、ジョゼフ・スタンガスンを、殺した、ジェファースン・ホープ氏を、ご紹介します。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……謀ったな！",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "男は、ものすごい力で、暴れた。窓へ、突進しようとした。……三人がかりで、ようやく、取り押さえた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……はぁ、はぁ。……見事だ、旦那。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "もう、暴れねえ。……どうせ、長くは、ない体だ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……心臓の、病ですね。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……わかるのか。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "胸に、手を当てる、癖がある。……息が、続かない。"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……ホームズさんの、言ったとおりの、男だ。背が高く、赤ら顔で、爪が長い。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "刑事さん、葉巻は、トリチノポリだぜ。……それも、当てたんだろう。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "bg",
+   "src": "utah_memory",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "utah_memory"
+  },
+  {
+   "op": "nar",
+   "text": "ベーカー街221B。夜。手錠をかけられたホープが、椅子に座っている。ワトソンとレストレードが、黙って、聞いている。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "話して、やろう。……二十年前の、話だ。アメリカの、荒野の、話だ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "どうぞ。……時間は、いくらでも。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "俺には、いくらも、ない。……だから、手短に、いくぜ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "ユタの、塩の湖のそばに、閉ざされた、開拓地が、あった。……長老たちが、すべてを、決める、土地だった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "そこに、ルーシーという、娘がいた。……俺は、銀山を、渡り歩く、山師だった。ルーシーと、将来を、誓った。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……結婚の、約束を。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "銀山で、金を貯めて、迎えに来る、と。……だが、長老たちは、許さなかった。土地の者以外と、結婚するなど、と。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "長老たちは、ルーシーを、自分たちの息子の、どちらかに、嫁がせると、決めた。……ドレッバーと、スタンガスンの、どちらかに。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "俺が、戻ったときには、……ルーシーの父親は、殺されていた。ルーシーは、ドレッバーに、無理やり、嫁がされた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "ひと月も、しないうちに、ルーシーは、死んだ。……心が、壊れて。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……ひと月で。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "葬式の夜、俺は、こっそり、棺に、近づいた。……そして、ルーシーの指から、結婚指輪を、はずした。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……あの、指輪。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "そうだ。……ドレッバーが、あの子に、はめさせた、指輪だ。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "それから、二十年。……二人は、土地を、出て、ヨーロッパを、逃げ回った。俺は、それを、追い続けた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "心臓が、悪くなった。……医者に、長くないと、言われた。だから、ロンドンで、御者になった。客として、乗せる日を、待った。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……そして、ドレッバーを、乗せた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "空き家へ、連れていった。……指輪を、見せて、丸薬を、選ばせた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "天が、裁いた。……あいつは、毒を、選んだ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "鼻血が、出た。……その血で、壁に、書いた。……ドイツの、秘密結社の、仕業に、見せようと、思ってな。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……スタンガスンは。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "丸薬を、選ぶことを、拒んで、襲いかかってきた。……だから、刺した。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……あなたは、遠い昔の原因を、二十年かけて、運んできた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……そういうことに、なるな。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "僕は、目の前の証拠を、三日かけて、たどった。……その二つが、この部屋で、出会った。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……遠い原因と、近い証拠か。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "ホームズは、ホープの話を、静かに受け止める",
+     "jump": "m_listen"
+    },
+    {
+     "text": "ワトソンは、この事件を、書き残すと決める",
+     "jump": "m_write"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_listen"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……ホープ氏。あなたは、裁かれるでしょう。……ですが、その前に、ルーシーという名前を、聞かせてもらえて、よかった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……覚えていて、くれるか。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "観察したことは、忘れません。",
+   "eyes": "closed"
+  },
+  {
+   "op": "jump",
+   "to": "m_end"
+  },
+  {
+   "op": "label",
+   "id": "m_write"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……ホームズ。この事件を、書き残しても、いいか。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……新聞は、レストレードの手柄に、するでしょう。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "新聞が、何と書こうと。……僕は、君の観察と、この人の、二十年を、書く。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……ルーシーの名前も、入れてくれ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……必ず。"
+  },
+  {
+   "op": "label",
+   "id": "m_end"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "アーサー・コナン・ドイル『緋色の研究』、これにて、閉幕でございます。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ホープは、裁判を待たずに、その夜、静かに、息を、引き取ったそうです。……顔には、穏やかな、笑みが、浮かんでいたと。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ワトソンは、この事件を、書き残しました。題は、『緋色の研究』。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "人生という、無色の糸に混じった、殺人という、緋色の糸を、たどる研究。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

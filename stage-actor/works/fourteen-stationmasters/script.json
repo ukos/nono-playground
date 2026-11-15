@@ -1,0 +1,663 @@
+{
+  "meta": {
+    "id": "fourteen-stationmasters",
+    "title": "十四駅の駅長たち",
+    "original": "『NONO: Blade of the Dawn』設定資料を基にしたNONO座新作",
+    "adaptation": "free",
+    "format": "v3",
+    "category": "blade",
+    "minutes": 25,
+    "synopsis": "鉄道網が十四の町を結ぶ一方、届く物と欲しい物のずれが各駅で小さな摩擦を生む。nonoは七組の駅を巡り、駅長たちが自分の町の言葉で「つながること」の条件を持ち寄る会議を開く。",
+    "note": "ゲーム設定を基にした舞台独自の後日譚。追加設定はcast-and-notes.mdで明示し、セリフは本上演版の書き下ろし。"
+  },
+  "cast": [
+    {
+      "role": "ユイ・オリジン／口上",
+      "actor": "yui_origin",
+      "costume": "default"
+    },
+    {
+      "role": "nono",
+      "actor": "nono",
+      "costume": "default"
+    },
+    {
+      "role": "駅長役A",
+      "actor": "extra_villager",
+      "costume": "default"
+    },
+    {
+      "role": "駅長役D",
+      "actor": "extra_lumberjack",
+      "costume": "default"
+    },
+    {
+      "role": "駅長役B",
+      "actor": "extra_craftsman",
+      "costume": "default"
+    },
+    {
+      "role": "駅長役C",
+      "actor": "extra_elder",
+      "costume": "default"
+    },
+    {
+      "role": "ユイ",
+      "actor": "yui",
+      "costume": "default"
+    },
+    {
+      "role": "レイ",
+      "actor": "rei",
+      "costume": "default"
+    }
+  ],
+  "backgrounds": {
+    "cheese-and-fur": "bg/fourteen-stationmasters-01-cheese-and-fur-2048x1152.png",
+    "wood-and-gears": "bg/fourteen-stationmasters-02-wood-and-gears-2048x1152.png",
+    "spice-and-fish": "bg/fourteen-stationmasters-03-spice-and-fish-2048x1152.png",
+    "ore-and-buns": "bg/fourteen-stationmasters-04-ore-and-buns-2048x1152.png",
+    "bamboo-and-lanterns": "bg/fourteen-stationmasters-05-bamboo-and-lanterns-2048x1152.png",
+    "tea-and-obsidian": "bg/fourteen-stationmasters-06-tea-and-obsidian-2048x1152.png",
+    "ice-and-fruit": "bg/fourteen-stationmasters-07-ice-and-fruit-2048x1152.png",
+    "stationmasters-table": "bg/fourteen-stationmasters-08-stationmasters-table-2048x1152.png"
+  },
+  "steps": [
+    {
+      "op": "bg",
+      "src": null
+    },
+    {
+      "op": "bg",
+      "src": "cheese-and-fur",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "cheese-and-fur"
+    },
+    {
+      "op": "nar",
+      "text": "【はじまりの村／白嶺の里】"
+    },
+    {
+      "op": "show",
+      "actor": "yui_origin",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "extra_villager",
+      "pos": "right"
+    },
+    {
+      "op": "say",
+      "actor": "yui_origin",
+      "text": "十四駅がつながると、朝は汽笛より先に相談で始まります。"
+    },
+    {
+      "op": "nar",
+      "text": "牧場のチーズ箱と雪狼の毛皮袋が、同じ荷台で揺れる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "村は毛皮がほしい。でも雪山は木材が先だと言う。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "隣同士だから交換成立、とは限らないんだ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "チーズは溶ける。返事を待つ間にも品が変わる。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "急ぐ品と待てる品を、札の形で分けよう。"
+    },
+    {
+      "op": "nar",
+      "text": "丸札は当日、四角札は次の列車という約束になる。"
+    },
+    {
+      "op": "hide",
+      "actor": "yui_origin"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_villager"
+    },
+    {
+      "op": "bg",
+      "src": "wood-and-gears",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "wood-and-gears"
+    },
+    {
+      "op": "nar",
+      "text": "【巨木の里／遺跡の町】"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_lumberjack",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "extra_craftsman",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "巨木の木材が遺跡へ着くと、技師は一本ずつ音を聞く。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_lumberjack",
+      "text": "薪じゃない。千年樹の落ち枝だけを選んだ材だ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "歯車箱の油が染みれば、森へ返せない。車両を分けよう。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "木材は乾燥車、古い歯車は油受け付きの貨車。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_lumberjack",
+      "text": "速さより、木の扱いを守ってくれる方がいい。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "つながるとは、同じ荷台へ詰めることじゃないな。"
+    },
+    {
+      "op": "nar",
+      "text": "二種類の貨車に、木の葉と歯車の印が描かれる。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_lumberjack"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_craftsman"
+    },
+    {
+      "op": "bg",
+      "src": "spice-and-fish",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "spice-and-fish"
+    },
+    {
+      "op": "nar",
+      "text": "【砂漠の隊商宿／灯台の港】"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_villager",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "香辛料の袋が港へ着き、干物の香りと車内で競い合う。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "港は香辛料より鉄鉱石がほしいって？"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "じゃが魚に香辛料を使えば、新しい干物になる。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "「ほしい物」以外は無駄、ではない。試す箱を一つ設けよう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "売れ残り扱いにせず、料理人へ渡す箱ね。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "名を付けよう。「寄り道貨物」じゃ。"
+    },
+    {
+      "op": "nar",
+      "text": "港の台所から、香辛料をまとった魚の匂いが流れる。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_villager"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "bg",
+      "src": "ore-and-buns",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "ore-and-buns"
+    },
+    {
+      "op": "nar",
+      "text": "【谷の宿場／湯けむりの里】"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_craftsman",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "鉄鉱石の粉が、温泉まんじゅうの白い包みに付いてしまう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "線路の材料と食べ物を同じ棚へ積んだ俺のミスだ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "謝罪より先に、食べられない包みを数えましょう。",
+      "eyes": "normal"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "鉱石車は最後尾。食べ物は客車側の保冷箱へ。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "損した分は駅の修理費から出す。隠さない。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "事故の記録も、次の町へ送る特産品よ。",
+      "eyes": "joy"
+    },
+    {
+      "op": "nar",
+      "text": "汚れた包みは見本として、駅の掲示板に封じられる。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_craftsman"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "bg",
+      "src": "bamboo-and-lanterns",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "bamboo-and-lanterns"
+    },
+    {
+      "op": "nar",
+      "text": "【竹林の里／妖怪横丁】"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "rei",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "竹細工の籠に提灯を入れると、列車の揺れで骨が当たる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "竹はしなる。提灯は破れやすい。近いようで扱いは逆じゃ。"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "籠の中へ吊れば、紙は竹に触れない。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "忍びの結び方を貨物札に描ける？"
+    },
+    {
+      "op": "say",
+      "actor": "rei",
+      "text": "三手で結べる形にする。秘密にするほどの術ではない。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "技が町を出ても、町の値打ちは減らんのだな。"
+    },
+    {
+      "op": "nar",
+      "text": "提灯が籠の中央で揺れ、竹の影だけが紙に映る。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "hide",
+      "actor": "rei"
+    },
+    {
+      "op": "bg",
+      "src": "tea-and-obsidian",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "tea-and-obsidian"
+    },
+    {
+      "op": "nar",
+      "text": "【霊峰の山小屋／最後の野営地】"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_villager",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "extra_elder",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "薬草茶の湯気の横に、鋭い黒曜石が布で包まれている。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "終末の大地へ茶を送る。帰りは石。これで公平？"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "数だけなら不公平じゃ。茶は毎朝、石は月に一箱でよい。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "同じ量ではなく、必要な周期を合わせる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_villager",
+      "text": "交易回数を競うと、要らない荷まで増えてしまう。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_elder",
+      "text": "駅の収入より、倉庫の余白を見よ。"
+    },
+    {
+      "op": "nar",
+      "text": "時刻表に、毎朝の茶と月一回の石が別の色で記される。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_villager"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_elder"
+    },
+    {
+      "op": "bg",
+      "src": "ice-and-fruit",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "ice-and-fruit"
+    },
+    {
+      "op": "nar",
+      "text": "【氷河の番小屋／密林の村】"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "extra_lumberjack",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "yui",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "氷の結晶は密林で溶け、南国の果物は氷河で凍りかける。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_lumberjack",
+      "text": "速い列車でも、降ろした後に傷む。駅の先が問題だ。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "密林には日陰の氷室、氷河には火鉢の待合所を。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "線路だけで町はつながらない。最後の百歩まで設計する。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_lumberjack",
+      "text": "駅長の仕事が、列車を見送るだけじゃなくなった。"
+    },
+    {
+      "op": "say",
+      "actor": "yui",
+      "text": "受け取る準備も、立派な旅の一部よ。"
+    },
+    {
+      "op": "nar",
+      "text": "氷室と火鉢の印が、十四駅の共通地図に加わる。"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_lumberjack"
+    },
+    {
+      "op": "hide",
+      "actor": "yui"
+    },
+    {
+      "op": "bg",
+      "src": "stationmasters-table",
+      "mode": "full"
+    },
+    {
+      "op": "bg",
+      "src": "stationmasters-table"
+    },
+    {
+      "op": "nar",
+      "text": "【十四駅長会議】"
+    },
+    {
+      "op": "show",
+      "actor": "yui_origin",
+      "pos": "left"
+    },
+    {
+      "op": "show",
+      "actor": "nono",
+      "pos": "center"
+    },
+    {
+      "op": "show",
+      "actor": "extra_craftsman",
+      "pos": "right"
+    },
+    {
+      "op": "nar",
+      "text": "十四枚の貨物札が、円卓で一つの路線図になる。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "急ぐ品、分ける貨車、寄り道貨物、事故の記録。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "結び方、周期、駅から先の百歩。全部、町ごとに違う。"
+    },
+    {
+      "op": "say",
+      "actor": "extra_craftsman",
+      "text": "だから共通規則は一つ。「違いを先に書く」。"
+    },
+    {
+      "op": "say",
+      "actor": "nono",
+      "text": "線路は同じ幅でも、暮らしまで同じにしなくていい。"
+    },
+    {
+      "op": "say",
+      "actor": "yui_origin",
+      "text": "十四駅が結んだのは、町を変える命令ではありません。",
+      "eyes": "joy"
+    },
+    {
+      "op": "say",
+      "actor": "yui_origin",
+      "text": "違うまま届くための、長い相談の道でした。"
+    },
+    {
+      "op": "hide",
+      "actor": "yui_origin"
+    },
+    {
+      "op": "hide",
+      "actor": "nono"
+    },
+    {
+      "op": "hide",
+      "actor": "extra_craftsman"
+    },
+    {
+      "op": "end"
+    }
+  ]
+}
