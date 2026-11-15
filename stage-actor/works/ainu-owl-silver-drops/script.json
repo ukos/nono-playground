@@ -1,1234 +1,670 @@
 {
-  "meta": {
-    "id": "ainu-owl-silver-drops",
-    "title": "梟の神「銀の滴降る降るまわりに」",
-    "original": "知里幸惠編訳『アイヌ神謡集』所収（古典神謡）",
-    "adaptation": "faithful",
-    "format": "v3",
-    "minutes": 34,
-    "synopsis": "銀と金の滴を歌いながら飛ぶ梟の神を、浜で少年たちが射ようとする。貧しい少年の粗末な矢を神は受け、家へ運ばれる。敬意を尽くす家族へ夢で語り、家を富ませ、村の和解へ導く。",
-    "note": "知里幸惠編訳『アイヌ神謡集』（1923年、著作権消滅）所収神謡の出来事・順序・語り手・結末を改変していない。台詞は制作ガイドに従い本上演版の書き下ろし。"
+ "meta": {
+  "id": "ainu-owl-silver-drops",
+  "title": "梟の神「銀の滴降る降るまわりに」",
+  "original": "知里幸惠編訳『アイヌ神謡集』所収（古典神謡）",
+  "adaptation": "faithful",
+  "format": "v3",
+  "minutes": 17,
+  "synopsis": "銀と金の滴を歌いながら飛ぶ梟の神を、浜で少年たちが射ようとする。貧しい少年の粗末な矢を神は受け、家へ運ばれる。敬意を尽くす家族へ夢で語り、家を富ませ、村の和解へ導く。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "狂言回し",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "梟の神",
-      "actor": "yoru",
-      "costume": "default"
-    },
-    {
-      "role": "貧しい少年",
-      "actor": "rei_casual",
-      "costume": "default"
-    },
-    {
-      "role": "少年の父",
-      "actor": "extra_elder",
-      "costume": "default"
-    },
-    {
-      "role": "少年の母",
-      "actor": "extra_elf",
-      "costume": "default"
-    },
-    {
-      "role": "裕福な少年",
-      "actor": "nibulus",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "river": "bg/ainu-owl-river-2048x1152.png",
-    "shore": "bg/ainu-children-shore-2048x1152.png",
-    "poorhouse": "bg/ainu-poor-house-2048x1152.png",
-    "dream": "bg/ainu-owl-dream-2048x1152.png",
-    "feast": "bg/ainu-village-feast-2048x1152.png"
+  {
+   "role": "梟の神",
+   "actor": "yoru",
+   "costume": "default"
   },
-  "steps": [
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『梟の神「銀の滴降る降るまわりに」』。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "梟の神が自ら歌い、貧しい少年の慎みと家族の祈りへ恵みを返します。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "今夜の核は「カムイへの敬意、分かち合い、貧富を越えて村が一つになること」。急がず、長い物語としてお届けします。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "それでは開幕。役者たちの声と、場面の移ろいをお楽しみください。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "river",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "river"
-    },
-    {
-      "op": "nar",
-      "text": "川下へ飛ぶ梟の神の空と水辺"
-    },
-    {
-      "op": "show",
-      "actor": "yoru",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "梟の神が銀の滴、金の滴の反復句を歌いながら川下へ飛ぶ。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "私はこの出来事を見届けた。梟の神が銀の滴、金の滴の反復句を歌いながら川下へ飛ぶ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "見えたことを、そのまま順に語ろう。歌の道を変えないために。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "出来事の姿を飾らず、聞いた響きを次の言葉へ渡そう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「カムイへの敬意、分かち合い、貧富を越えて村が一つになること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "人とカムイと大地の間に起きたことを、丁寧にたどる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "急がずに進もう。同じ響きが戻るたび、意味も深くなる。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "梟の神が銀の滴、金の滴の反復句を歌いながら川下へ飛ぶ。――この出来事を忘れず、次の判断へつなげよう。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "yoru"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "show",
-      "actor": "yoru",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "nibulus",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "浜の裕福な少年たちが金の小弓と金の小矢で梟を狙う。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "私はこの出来事を見届けた。浜の裕福な少年たちが金の小弓と金の小矢で梟を狙う。"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "水の音、風の向き、火の明るさまで、この物語の一部だ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "誰が語っているのかを忘れず、その目から世界を見よう。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「カムイへの敬意、分かち合い、貧富を越えて村が一つになること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "喜びも怒りも、語り手が経験した順序のまま受け取る。"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "そして結末を変えずに届ける。それが今夜の務めだ。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "浜の裕福な少年たちが金の小弓と金の小矢で梟を狙う。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "yoru"
-    },
-    {
-      "op": "hide",
-      "actor": "nibulus"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "nibulus",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "貧しい少年が粗末な弓矢を持ち、仲間から軽んじられる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "私はこの出来事を見届けた。貧しい少年が粗末な弓矢を持ち、仲間から軽んじられる。"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "見えたことを、そのまま順に語ろう。歌の道を変えないために。"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "出来事の姿を飾らず、聞いた響きを次の言葉へ渡そう。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「カムイへの敬意、分かち合い、貧富を越えて村が一つになること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "人とカムイと大地の間に起きたことを、丁寧にたどる。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "急がずに進もう。同じ響きが戻るたび、意味も深くなる。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "貧しい少年が粗末な弓矢を持ち、仲間から軽んじられる。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "hide",
-      "actor": "nibulus"
-    },
-    {
-      "op": "bg",
-      "src": "shore",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "shore"
-    },
-    {
-      "op": "nar",
-      "text": "子どもたちが遊ぶ海辺"
-    },
-    {
-      "op": "show",
-      "actor": "yoru",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "梟の神が少年の心を見て、その矢を受けると決める。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "私はこの出来事を見届けた。梟の神が少年の心を見て、その矢を受けると決める。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "水の音、風の向き、火の明るさまで、この物語の一部だ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "誰が語っているのかを忘れず、その目から世界を見よう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「カムイへの敬意、分かち合い、貧富を越えて村が一つになること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "喜びも怒りも、語り手が経験した順序のまま受け取る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "そして結末を変えずに届ける。それが今夜の務めだ。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "梟の神が少年の心を見て、その矢を受けると決める。――この出来事を忘れず、次の判断へつなげよう。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "hide",
-      "actor": "yoru"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "yoru",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "少年が梟を家へ運び、両親が驚いて迎える。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "私はこの出来事を見届けた。少年が梟を家へ運び、両親が驚いて迎える。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "見えたことを、そのまま順に語ろう。歌の道を変えないために。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "出来事の姿を飾らず、聞いた響きを次の言葉へ渡そう。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「カムイへの敬意、分かち合い、貧富を越えて村が一つになること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "人とカムイと大地の間に起きたことを、丁寧にたどる。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "急がずに進もう。同じ響きが戻るたび、意味も深くなる。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "少年が梟を家へ運び、両親が驚いて迎える。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "hide",
-      "actor": "yoru"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elder",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elf",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "両親が神を東の窓辺へ置き、礼を尽くして祈る。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "私はこの出来事を見届けた。両親が神を東の窓辺へ置き、礼を尽くして祈る。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elf",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "水の音、風の向き、火の明るさまで、この物語の一部だ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elf",
-      "text": "誰が語っているのかを忘れず、その目から世界を見よう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「カムイへの敬意、分かち合い、貧富を越えて村が一つになること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "喜びも怒りも、語り手が経験した順序のまま受け取る。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elf",
-      "text": "そして結末を変えずに届ける。それが今夜の務めだ。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "両親が神を東の窓辺へ置き、礼を尽くして祈る。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elf",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elder"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elf"
-    },
-    {
-      "op": "bg",
-      "src": "poorhouse",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "poorhouse"
-    },
-    {
-      "op": "nar",
-      "text": "慎ましい家の炉と東の窓"
-    },
-    {
-      "op": "show",
-      "actor": "yoru",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "夜、梟の神が少年の夢へ現れ、自分の身分を明かす。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "私はこの出来事を見届けた。夜、梟の神が少年の夢へ現れ、自分の身分を明かす。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "見えたことを、そのまま順に語ろう。歌の道を変えないために。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "出来事の姿を飾らず、聞いた響きを次の言葉へ渡そう。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「カムイへの敬意、分かち合い、貧富を越えて村が一つになること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "人とカムイと大地の間に起きたことを、丁寧にたどる。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "急がずに進もう。同じ響きが戻るたび、意味も深くなる。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "夜、梟の神が少年の夢へ現れ、自分の身分を明かす。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "surprise",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "yoru"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "show",
-      "actor": "yoru",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elder",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "昔は豊かだった家が貧しくなっても心を失わなかったと語る。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "私はこの出来事を見届けた。昔は豊かだった家が貧しくなっても心を失わなかったと語る。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "水の音、風の向き、火の明るさまで、この物語の一部だ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "誰が語っているのかを忘れず、その目から世界を見よう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「カムイへの敬意、分かち合い、貧富を越えて村が一つになること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "喜びも怒りも、語り手が経験した順序のまま受け取る。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "そして結末を変えずに届ける。それが今夜の務めだ。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "昔は豊かだった家が貧しくなっても心を失わなかったと語る。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "anger",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "yoru"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elder"
-    },
-    {
-      "op": "show",
-      "actor": "yoru",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elf",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "家を守る恵みを置き、自分を神の国へ送り返すよう頼む。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "私はこの出来事を見届けた。家を守る恵みを置き、自分を神の国へ送り返すよう頼む。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elf",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "見えたことを、そのまま順に語ろう。歌の道を変えないために。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elf",
-      "text": "出来事の姿を飾らず、聞いた響きを次の言葉へ渡そう。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「カムイへの敬意、分かち合い、貧富を越えて村が一つになること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "人とカムイと大地の間に起きたことを、丁寧にたどる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elf",
-      "text": "急がずに進もう。同じ響きが戻るたび、意味も深くなる。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "家を守る恵みを置き、自分を神の国へ送り返すよう頼む。――この出来事を忘れず、次の判断へつなげよう。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elf",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "hide",
-      "actor": "yoru"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elf"
-    },
-    {
-      "op": "bg",
-      "src": "dream",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "dream"
-    },
-    {
-      "op": "nar",
-      "text": "家族の夢へ現れる梟の神の光"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elder",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "家族が目覚め、夢の言葉どおり神送りを整える。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "私はこの出来事を見届けた。家族が目覚め、夢の言葉どおり神送りを整える。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "水の音、風の向き、火の明るさまで、この物語の一部だ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "誰が語っているのかを忘れず、その目から世界を見よう。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「カムイへの敬意、分かち合い、貧富を越えて村が一つになること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "喜びも怒りも、語り手が経験した順序のまま受け取る。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "そして結末を変えずに届ける。それが今夜の務めだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "家族が目覚め、夢の言葉どおり神送りを整える。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elder"
-    },
-    {
-      "op": "show",
-      "actor": "yoru",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elf",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "梟の神がイナウと土産を伴い、神の国へ帰る。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "私はこの出来事を見届けた。梟の神がイナウと土産を伴い、神の国へ帰る。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elf",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "見えたことを、そのまま順に語ろう。歌の道を変えないために。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elf",
-      "text": "出来事の姿を飾らず、聞いた響きを次の言葉へ渡そう。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「カムイへの敬意、分かち合い、貧富を越えて村が一つになること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "人とカムイと大地の間に起きたことを、丁寧にたどる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elf",
-      "text": "急がずに進もう。同じ響きが戻るたび、意味も深くなる。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "梟の神がイナウと土産を伴い、神の国へ帰る。――この出来事を忘れず、次の判断へつなげよう。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elf",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "hide",
-      "actor": "yoru"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elf"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "nibulus",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "家は豊かになり、かつて笑った少年たちを宴へ招く。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "私はこの出来事を見届けた。家は豊かになり、かつて笑った少年たちを宴へ招く。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "水の音、風の向き、火の明るさまで、この物語の一部だ。"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "誰が語っているのかを忘れず、その目から世界を見よう。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「カムイへの敬意、分かち合い、貧富を越えて村が一つになること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "喜びも怒りも、語り手が経験した順序のまま受け取る。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "そして結末を変えずに届ける。それが今夜の務めだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "家は豊かになり、かつて笑った少年たちを宴へ招く。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "hide",
-      "actor": "nibulus"
-    },
-    {
-      "op": "bg",
-      "src": "feast",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "feast"
-    },
-    {
-      "op": "nar",
-      "text": "村人を迎える整えられた家と宴"
-    },
-    {
-      "op": "show",
-      "actor": "nibulus",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elf",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "裕福な家の者たちが驚きと恥ずかしさで家へ入りにくくなる。"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "私はこの出来事を見届けた。裕福な家の者たちが驚きと恥ずかしさで家へ入りにくくなる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elf",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "見えたことを、そのまま順に語ろう。歌の道を変えないために。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elf",
-      "text": "出来事の姿を飾らず、聞いた響きを次の言葉へ渡そう。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「カムイへの敬意、分かち合い、貧富を越えて村が一つになること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "人とカムイと大地の間に起きたことを、丁寧にたどる。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elf",
-      "text": "急がずに進もう。同じ響きが戻るたび、意味も深くなる。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "裕福な家の者たちが驚きと恥ずかしさで家へ入りにくくなる。――この出来事を忘れず、次の判断へつなげよう。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elf",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "nibulus"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elf"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elder",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "nibulus",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "父が恵みの経緯を語り、悪い心はなかったから一族だと迎える。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "私はこの出来事を見届けた。父が恵みの経緯を語り、悪い心はなかったから一族だと迎える。"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "水の音、風の向き、火の明るさまで、この物語の一部だ。"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "誰が語っているのかを忘れず、その目から世界を見よう。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「カムイへの敬意、分かち合い、貧富を越えて村が一つになること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "喜びも怒りも、語り手が経験した順序のまま受け取る。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "そして結末を変えずに届ける。それが今夜の務めだ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "父が恵みの経緯を語り、悪い心はなかったから一族だと迎える。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elder"
-    },
-    {
-      "op": "hide",
-      "actor": "nibulus"
-    },
-    {
-      "op": "show",
-      "actor": "yoru",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "梟の神が神の国から村の和解を見届ける。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "私はこの出来事を見届けた。梟の神が神の国から村の和解を見届ける。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "見えたことを、そのまま順に語ろう。歌の道を変えないために。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "出来事の姿を飾らず、聞いた響きを次の言葉へ渡そう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「カムイへの敬意、分かち合い、貧富を越えて村が一つになること」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "人とカムイと大地の間に起きたことを、丁寧にたどる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "急がずに進もう。同じ響きが戻るたび、意味も深くなる。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "梟の神が神の国から村の和解を見届ける。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "hide",
-      "actor": "yoru"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "bg",
-      "src": "feast"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "梟の神は人間の祈りとイナウを携えて神の国へ帰る。恵みを得た家は村人を招き、隔てのない一族として暮らした。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "長い旅の果てに残ったのは、「カムイへの敬意、分かち合い、貧富を越えて村が一つになること」という問いでした。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "答えは一つではありません。けれど、登場人物たちの選択は消えません。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "『梟の神「銀の滴降る降るまわりに」』、これにて終幕。ありがとうございました。"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "end"
+  {
+   "role": "貧しい少年",
+   "actor": "rei_casual",
+   "costume": "default"
+  },
+  {
+   "role": "少年の父",
+   "actor": "extra_elder",
+   "costume": "default"
+  },
+  {
+   "role": "少年の母",
+   "actor": "extra_elf",
+   "costume": "default"
+  },
+  {
+   "role": "裕福な少年",
+   "actor": "nibulus",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "river": "bg/ainu-owl-river-2048x1152.png",
+  "shore": "bg/ainu-children-shore-2048x1152.png",
+  "poorhouse": "bg/ainu-poor-house-2048x1152.png",
+  "dream": "bg/ainu-owl-dream-2048x1152.png",
+  "feast": "bg/ainu-village-feast-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "こんばんは、NONO座です。お届けするのは『アイヌ神謡集』の巻頭を飾る、梟の神の歌。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "梟は、アイヌの人々にとって村を守る神さま。高い空から、人の暮らしを見下ろしています。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "神が歌うのは、銀の滴と金の滴が降る中を飛んだ、ある一日のこと。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "立派な矢と、粗末な矢。神がどちらを選ぶか、見ていてください。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "river",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "river"
+  },
+  {
+   "op": "nar",
+   "text": "川の上の空。陽の光が水しぶきに当たって、細かく光りながら降っている。"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "銀の滴、降る降る、まわりに。金の滴、降る降る、まわりに。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "そう歌いながら、私は川の流れに沿って、人間の村の上を飛んでいった。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "川辺では女たちが洗い物をし、男たちは舟の手入れをしている。煙が細く上る家、太く上る家。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "煙の太い家は、炉の火が大きい。食べ物が多い家だ。細い家は、薪を惜しむ家だ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "昔は貧しかった者が金持ちになり、昔は金持ちだった者が貧しくなっている。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "人間の村は、上から見るとよく分かる。豊かさは、川の水のように行き来するものだ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "銀の滴、きらきら降る。浜のほうで、子どもたちの声がする。"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "bg",
+   "src": "shore",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "shore"
+  },
+  {
+   "op": "nar",
+   "text": "海辺の砂浜。おもちゃの弓矢を持った子どもたちが、空を見上げて騒いでいる。"
+  },
+  {
+   "op": "show",
+   "actor": "nibulus",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "梟の神さまだ！　いちばんに射落とした者が、本当の勇者だぞ！",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "見ろ、俺の矢は金でできている。父さんが町で買ってくれたんだ。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……僕も、射ていいかな。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "お前が？　その矢、木の枝を削っただけじゃないか。神さまに失礼だ。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "貧乏人の子は、浜の隅で貝でも拾っていろ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……うん。でも、見ているだけなら、いいよね。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "勝手にしろ。どうせお前の矢じゃ、カモメにも届かない。",
+   "eyes": "fun"
+  },
+  {
+   "op": "nar",
+   "text": "金持ちの子どもたちは、金の矢を次々と放った。梟の神は、ひらりひらりとかわしていく。"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "金の矢が、私の下を、上を、横を過ぎてゆく。私は一本も受けなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "金の矢を放つ子らの目は、私ではなく、自分の手柄を見ていたからだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "神さま、どうかこの矢を受けてください。僕の家には、神さまを迎える立派な物は何もないけれど。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "粗末な木の矢。けれど、それを放つ子の目は、まっすぐ私を見ていた。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "少年が矢を放つと、梟の神はその矢を自分から受け止め、浜へ舞い降りた。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "うそだろ……あの貧乏人の矢が当たった！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "横取りだ！　その神さまは俺たちのものだ！",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "金の矢を全部外したなんて、父さんに何て言えばいいんだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "神さまは、誰のものでもないよ。僕は家へお連れして、ちゃんとおもてなしをする。"
+  },
+  {
+   "op": "hide",
+   "actor": "nibulus"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "bg",
+   "src": "poorhouse",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "poorhouse"
+  },
+  {
+   "op": "nar",
+   "text": "小さな家。炉の火は小さいが、きれいに掃き清められている。東の窓から朝日が差し込む。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elf",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "まあ、梟の神さまを、お前が？",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "年老いた父は、声が出ない。震える手を合わせ、深く頭を下げた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "お父さんが、神さまに礼をしなさいと言っています。東の窓から、神さまのお席へ。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "僕の矢を受けてくださったんだ。金の矢じゃなく、僕の木の矢を。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "うちには、お供えできる酒も、神さまにふさわしい着物もありません。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "それでも、心を込めて祈れば、神さまは分かってくださるでしょう。"
+  },
+  {
+   "op": "nar",
+   "text": "父は炉のそばの小刀を指さし、何度もうなずいた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "お父さんは、明日の朝、イナウを削ると言っています。いちばんよい柳の木で。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "僕も手伝う。削りくずを丁寧に集めて、炉の火にくべるよ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "神さまのお席の下に、いちばんきれいな敷物を。破れているところは、内側に折って。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "浜で拾ったきれいな貝殻も、並べてもいい？"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "ええ。お前の宝物を差し上げるのね。神さまもきっと喜ぶわ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "nar",
+   "text": "その夜、家族は梟の神を東の窓辺に祀り、粗末ながら精一杯の祈りを捧げて眠った。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elf"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "bg",
+   "src": "dream",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "dream"
+  },
+  {
+   "op": "nar",
+   "text": "真夜中。家族の夢の中に、光に包まれた梟の神が現れた。"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "貧しい家の者たちよ、驚くことはない。私は、今日お前たちの家に迎えられた梟だ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "お前たちは、昔は村一番の豊かな家だった。分け与えすぎて、貧しくなったのだ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "それを笑った者たちの家は、今は栄えている。だが、心は貧しいままだ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "私はこれから、お前たちの家に宝を降らせよう。銀の滴、降る降る、まわりに。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "梟の神が羽ばたくと、家の中に美しい宝物と、たくさんの着物が満ちていった。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "金の滴、降る降る、まわりに。宝は、また分け合うためにあるのだ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "目覚めたら、お前たちを笑った者たちも招いて、宴を開きなさい。"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……夢？　でも、部屋の中がきらきらしている。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elf",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "本当に宝が。神さまが、私たちを見ていてくださったのね。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "父も起き上がり、宝物の前で長いあいだ手を合わせていた。その頬が濡れていた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "神さまは、みんなを呼んで宴を開けって。笑った子たちも、一緒に。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "神さまの言いつけです。昔のことを根に持つのはやめましょう。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elf"
+  },
+  {
+   "op": "bg",
+   "src": "feast",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "feast"
+  },
+  {
+   "op": "nar",
+   "text": "翌日。立派に整えられた家に、村じゅうの人々が招かれた。"
+  },
+  {
+   "op": "show",
+   "actor": "nibulus",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "……僕たち、お前の家をずっと笑っていた。招かれる資格なんてない。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "神さまが、みんなを呼びなさいって言ったんだ。だから、来てくれてうれしいよ。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "少年は、金持ちの子に神さまの話を聞かせる",
+     "jump": "m_tell"
+    },
+    {
+     "text": "少年は、金持ちの子に一緒にイナウを削ろうと誘う",
+     "jump": "m_make"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_tell"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "神さまは言ったよ。宝は、分け合うためにあるって。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "分け合う……。うちの父さんは、町で買った金の矢の値段ばかり自慢していた。",
+   "eyes": "closed"
+  },
+  {
+   "op": "jump",
+   "to": "m_join"
+  },
+  {
+   "op": "label",
+   "id": "m_make"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "手伝ってくれる？　神さまを送るイナウは、一人で削るより、二人のほうがきれいにできる。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "刃物の使い方、教えてくれよ。金の矢は買えても、削り方は知らないんだ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "label",
+   "id": "m_join"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elf",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "さあ、皆さん、座ってください。神さまの前では、昨日のことは水に流しましょう。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "これからは、浜で一緒に遊ぼう。木の矢の作り方も、教えてほしい。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "いいよ。いちばんまっすぐ飛ぶ枝の見つけ方から教える。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "大人たちも、昔のように隣同士で酒を酌み交わしています。こんな日は何年ぶりかしら。"
+  },
+  {
+   "op": "hide",
+   "actor": "nibulus"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elf"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "宴がにぎやかに終わり、人間たちは私に、たくさんのイナウと酒を供えてくれた。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "私は神の国へ帰る。人間の村はひとつになり、貧しい者も豊かな者も、隣り合って暮らすだろう。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "銀の滴が降る、降る、村のまわりに。金の滴が降る、降る、家々のまわりに。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……そんなふうに、村を守る梟が、ある日のことを語ったのです。"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "梟の神の謡、これにてお開きです。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "神さまが選んだのは、金の矢ではなく、まっすぐ自分を見ていた子の矢でした。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "宝が降ったのは、それをまた分け合う家だったから。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "今夜、川面がきらきら光って見えたら、銀の滴と金の滴を思い出してください。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

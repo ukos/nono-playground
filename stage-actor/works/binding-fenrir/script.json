@@ -1,1212 +1,723 @@
 {
-  "meta": {
-    "id": "binding-fenrir",
-    "title": "フェンリルの縛め ―テュールの右手―",
-    "original": "北欧神話「フェンリルの縛め」（古典）",
-    "adaptation": "moderate",
-    "format": "v3",
-    "minutes": 30,
-    "synopsis": "神々のもとで育つフェンリルは日に日に巨大化する。二本の鎖を破った後、矮人が六つの不可能からグレイプニルを作る。細い帯を疑う狼は、保証に誰かの手を口へ入れるよう求める。",
-    "note": "本脚本は翻案であり、原作・現代訳の文章の転載ではない。セリフはすべて本上演版の書き下ろし。"
+ "meta": {
+  "id": "binding-fenrir",
+  "title": "フェンリルの縛め ―テュールの右手―",
+  "original": "北欧神話「フェンリルの縛め」（古典）",
+  "adaptation": "moderate",
+  "format": "v3",
+  "minutes": 17,
+  "synopsis": "神々のもとで育つフェンリルは日に日に巨大化する。二本の鎖を破った後、矮人が六つの不可能からグレイプニルを作る。細い帯を疑う狼は、保証に誰かの手を口へ入れるよう求める。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "狂言回し",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "テュール",
-      "actor": "rei_rider",
-      "costume": "default"
-    },
-    {
-      "role": "フェンリル",
-      "actor": "kurogane",
-      "costume": "default"
-    },
-    {
-      "role": "オーディン",
-      "actor": "extra_elder",
-      "costume": "default"
-    },
-    {
-      "role": "ロキ",
-      "actor": "tanurio",
-      "costume": "default"
-    },
-    {
-      "role": "矮人鍛冶",
-      "actor": "extra_craftsman",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "cub": "bg/fenrir-cub-yard-2048x1152.png",
-    "chains": "bg/broken-chains-field-2048x1152.png",
-    "forge": "bg/dwarf-gleipnir-forge-2048x1152.png",
-    "island": "bg/lyngvi-island-2048x1152.png",
-    "bound": "bg/fenrir-bound-2048x1152.png"
+  {
+   "role": "テュール",
+   "actor": "rei_rider",
+   "costume": "default"
   },
-  "steps": [
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『フェンリルの縛め ―テュールの右手―』。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "神々が恐れる狼を縛るため、テュールは自分の右手を保証として口へ置きます。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "今夜の核は「共同体の安全のために差し出す保証と、騙しの代償」。急がず、長い物語としてお届けします。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "それでは開幕。役者たちの声と、場面の移ろいをお楽しみください。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "cub",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "cub"
-    },
-    {
-      "op": "nar",
-      "text": "幼い狼を育てる神々の庭"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "テュールだけが幼いフェンリルへ食物を運び、信頼を得る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "私はこの出来事を見届けた。テュールだけが幼いフェンリルへ食物を運び、信頼を得る。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "神々の言葉にも影がある。力が強いほど、責任も重くなる。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "運命を知ることと、運命に従うことは同じではない。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「共同体の安全のために差し出す保証と、騙しの代償」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "選べる一歩が残る限り、私はその一歩を自分で決める。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "ならば進め。代償まで見届けてこそ、選択は完成する。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "テュールだけが幼いフェンリルへ食物を運び、信頼を得る。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elder",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "tanurio",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "オーディンが予言を恐れ、狼を拘束する方法を求める。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "私はこの出来事を見届けた。オーディンが予言を恐れ、狼を拘束する方法を求める。"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "怪物の姿だけを見て、善悪を決めてはいけない。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "だが、恐れは理屈より速い。心を整える時間が必要だ。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「共同体の安全のために差し出す保証と、騙しの代償」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "恐れを消せなくても、知恵と約束を手放さずに進める。"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "知恵は弱さの言い訳ではない。命を守るための力だ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "オーディンが予言を恐れ、狼を拘束する方法を求める。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elder"
-    },
-    {
-      "op": "hide",
-      "actor": "tanurio"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "フェンリルが最初の鎖レージングを力試しとして受ける。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "私はこの出来事を見届けた。フェンリルが最初の鎖レージングを力試しとして受ける。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "神々の言葉にも影がある。力が強いほど、責任も重くなる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "運命を知ることと、運命に従うことは同じではない。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「共同体の安全のために差し出す保証と、騙しの代償」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "選べる一歩が残る限り、私はその一歩を自分で決める。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "ならば進め。代償まで見届けてこそ、選択は完成する。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "フェンリルが最初の鎖レージングを力試しとして受ける。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "bg",
-      "src": "chains",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "chains"
-    },
-    {
-      "op": "nar",
-      "text": "二本の鎖が砕けた野"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elder",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "狼が鎖を砕き、神々が笑いながら不安を深める。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "私はこの出来事を見届けた。狼が鎖を砕き、神々が笑いながら不安を深める。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "怪物の姿だけを見て、善悪を決めてはいけない。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "だが、恐れは理屈より速い。心を整える時間が必要だ。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「共同体の安全のために差し出す保証と、騙しの代償」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "恐れを消せなくても、知恵と約束を手放さずに進める。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "知恵は弱さの言い訳ではない。命を守るための力だ。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "狼が鎖を砕き、神々が笑いながら不安を深める。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elder"
-    },
-    {
-      "op": "show",
-      "actor": "extra_craftsman",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "矮人が猫の足音など六つの不可能から帯を作る。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "私はこの出来事を見届けた。矮人が猫の足音など六つの不可能から帯を作る。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "神々の言葉にも影がある。力が強いほど、責任も重くなる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "運命を知ることと、運命に従うことは同じではない。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「共同体の安全のために差し出す保証と、騙しの代償」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "選べる一歩が残る限り、私はその一歩を自分で決める。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "ならば進め。代償まで見届けてこそ、選択は完成する。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "矮人が猫の足音など六つの不可能から帯を作る。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_craftsman"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_craftsman",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "細く柔らかなグレイプニルが強い理由を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "私はこの出来事を見届けた。細く柔らかなグレイプニルが強い理由を確かめる。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "怪物の姿だけを見て、善悪を決めてはいけない。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "だが、恐れは理屈より速い。心を整える時間が必要だ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「共同体の安全のために差し出す保証と、騙しの代償」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "恐れを消せなくても、知恵と約束を手放さずに進める。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "知恵は弱さの言い訳ではない。命を守るための力だ。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "細く柔らかなグレイプニルが強い理由を確かめる。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_craftsman"
-    },
-    {
-      "op": "bg",
-      "src": "forge",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "forge"
-    },
-    {
-      "op": "nar",
-      "text": "不可能な材料を編む地下鍛冶場"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elder",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "神々が孤島で新しい力試しを持ちかける。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "私はこの出来事を見届けた。神々が孤島で新しい力試しを持ちかける。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "神々の言葉にも影がある。力が強いほど、責任も重くなる。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "運命を知ることと、運命に従うことは同じではない。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「共同体の安全のために差し出す保証と、騙しの代償」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "選べる一歩が残る限り、私はその一歩を自分で決める。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "ならば進め。代償まで見届けてこそ、選択は完成する。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "神々が孤島で新しい力試しを持ちかける。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elder"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "フェンリルが魔法を疑い、保証として手を口へ求める。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "私はこの出来事を見届けた。フェンリルが魔法を疑い、保証として手を口へ求める。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "怪物の姿だけを見て、善悪を決めてはいけない。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "だが、恐れは理屈より速い。心を整える時間が必要だ。",
-      "eyes": "normal"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「共同体の安全のために差し出す保証と、騙しの代償」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "恐れを消せなくても、知恵と約束を手放さずに進める。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "知恵は弱さの言い訳ではない。命を守るための力だ。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "フェンリルが魔法を疑い、保証として手を口へ求める。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elder",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "誰も進まない中、テュールが右手を差し出す。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "私はこの出来事を見届けた。誰も進まない中、テュールが右手を差し出す。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "神々の言葉にも影がある。力が強いほど、責任も重くなる。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "運命を知ることと、運命に従うことは同じではない。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「共同体の安全のために差し出す保証と、騙しの代償」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "選べる一歩が残る限り、私はその一歩を自分で決める。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "ならば進め。代償まで見届けてこそ、選択は完成する。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "誰も進まない中、テュールが右手を差し出す。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elder"
-    },
-    {
-      "op": "bg",
-      "src": "island",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "island"
-    },
-    {
-      "op": "nar",
-      "text": "湖中の孤島と岩"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "友として育てた記憶を胸に、テュールが狼の口へ手を置く。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "私はこの出来事を見届けた。友として育てた記憶を胸に、テュールが狼の口へ手を置く。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "怪物の姿だけを見て、善悪を決めてはいけない。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "だが、恐れは理屈より速い。心を整える時間が必要だ。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「共同体の安全のために差し出す保証と、騙しの代償」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "恐れを消せなくても、知恵と約束を手放さずに進める。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "知恵は弱さの言い訳ではない。命を守るための力だ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "友として育てた記憶を胸に、テュールが狼の口へ手を置く。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elder",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "狼が帯を引くほど締まり、騙されたと悟る。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "私はこの出来事を見届けた。狼が帯を引くほど締まり、騙されたと悟る。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "神々の言葉にも影がある。力が強いほど、責任も重くなる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "運命を知ることと、運命に従うことは同じではない。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「共同体の安全のために差し出す保証と、騙しの代償」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "選べる一歩が残る限り、私はその一歩を自分で決める。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "ならば進め。代償まで見届けてこそ、選択は完成する。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "狼が帯を引くほど締まり、騙されたと悟る。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elder"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "フェンリルがテュールの右手を噛み切る。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "私はこの出来事を見届けた。フェンリルがテュールの右手を噛み切る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "怪物の姿だけを見て、善悪を決めてはいけない。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "だが、恐れは理屈より速い。心を整える時間が必要だ。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「共同体の安全のために差し出す保証と、騙しの代償」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "恐れを消せなくても、知恵と約束を手放さずに進める。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "知恵は弱さの言い訳ではない。命を守るための力だ。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "フェンリルがテュールの右手を噛み切る。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "bg",
-      "src": "bound",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "bound"
-    },
-    {
-      "op": "nar",
-      "text": "細い帯と失われた右手の静かな場"
-    },
-    {
-      "op": "show",
-      "actor": "tanurio",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elder",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "神々が安全を喜ぶ一方、ロキが代償を指摘する。"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "私はこの出来事を見届けた。神々が安全を喜ぶ一方、ロキが代償を指摘する。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "神々の言葉にも影がある。力が強いほど、責任も重くなる。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "運命を知ることと、運命に従うことは同じではない。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「共同体の安全のために差し出す保証と、騙しの代償」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "選べる一歩が残る限り、私はその一歩を自分で決める。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "ならば進め。代償まで見届けてこそ、選択は完成する。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "神々が安全を喜ぶ一方、ロキが代償を指摘する。――この出来事を忘れず、次の判断へつなげよう。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "tanurio"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elder"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "テュールが手を失った痛みと、破った信頼の重さを認める。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "私はこの出来事を見届けた。テュールが手を失った痛みと、破った信頼の重さを認める。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "怪物の姿だけを見て、善悪を決めてはいけない。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "だが、恐れは理屈より速い。心を整える時間が必要だ。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「共同体の安全のために差し出す保証と、騙しの代償」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "恐れを消せなくても、知恵と約束を手放さずに進める。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "知恵は弱さの言い訳ではない。命を守るための力だ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "テュールが手を失った痛みと、破った信頼の重さを認める。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elder",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "縛めがラグナロクまで続くと知り、選択の結果を受け取る。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "私はこの出来事を見届けた。縛めがラグナロクまで続くと知り、選択の結果を受け取る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "神々の言葉にも影がある。力が強いほど、責任も重くなる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "運命を知ることと、運命に従うことは同じではない。",
-      "eyes": "normal"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「共同体の安全のために差し出す保証と、騙しの代償」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "選べる一歩が残る限り、私はその一歩を自分で決める。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "ならば進め。代償まで見届けてこそ、選択は完成する。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "縛めがラグナロクまで続くと知り、選択の結果を受け取る。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elder"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "bg",
-      "src": "bound"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "テュールは右手を失い、フェンリルは縛られる。安全は得られたが、信頼を破った代償は消えない。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "長い旅の果てに残ったのは、「共同体の安全のために差し出す保証と、騙しの代償」という問いでした。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "答えは一つではありません。けれど、登場人物たちの選択は消えません。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "『フェンリルの縛め ―テュールの右手―』、これにて終幕。ありがとうございました。"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "end"
+  {
+   "role": "フェンリル",
+   "actor": "kurogane",
+   "costume": "default"
+  },
+  {
+   "role": "オーディン",
+   "actor": "extra_elder",
+   "costume": "default"
+  },
+  {
+   "role": "ロキ",
+   "actor": "tanurio",
+   "costume": "default"
+  },
+  {
+   "role": "矮人鍛冶",
+   "actor": "extra_craftsman",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "cub": "bg/fenrir-cub-yard-2048x1152.png",
+  "chains": "bg/broken-chains-field-2048x1152.png",
+  "forge": "bg/dwarf-gleipnir-forge-2048x1152.png",
+  "island": "bg/lyngvi-island-2048x1152.png",
+  "bound": "bg/fenrir-bound-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "北の果ての神話へ、ようこそ。NONO座の狂言回し、nonoです。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "北欧の神々の中に、テュールという戦の神がいます。片手しかない神さまです。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "なぜ右手を失ったのか。それは、一匹の狼との約束のせいでした。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "今夜は、子狼が大狼になるまでの物語。信じることと騙すことの、苦い話です。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "cub",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "cub"
+  },
+  {
+   "op": "nar",
+   "text": "アースガルズの庭。神々の住まいの片隅に、灰色の子狼がつながれている。"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "見てくれ、俺の子だ。名はフェンリル。かわいいだろう？",
+   "eyes": "fun"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "主神オーディンは片目を細め、子狼をじっと見つめた。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "そんな顔をしないでくれ。予言なんて、当たるとは限らないさ。"
+  },
+  {
+   "op": "nar",
+   "text": "予言はこう告げていた。この狼は、いつか世界の終わりにオーディンを呑むと。"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "show",
+   "actor": "rei_rider",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "テュール！　今日の肉は？　骨つき？　骨つきだよね？",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "ほら、大きいのを持ってきた。お前、また背が伸びたな。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "みんな僕のこと、遠くからしか見ないんだ。近くに来てくれるのは、テュールだけ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "皆、お前の牙が怖いのさ。私は、お前が肉を待つときの尻尾のほうが気になるがな。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "尻尾は勝手に動くんだよ。止めようとしても、ぶんぶん回る。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "正直な尻尾だ。……よく食べて、よく眠れ。"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "日ごとに大きくなる。もう馬より大きい。神々の顔色が、日ごとに曇っていく。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_rider"
+  },
+  {
+   "op": "bg",
+   "src": "chains",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "chains"
+  },
+  {
+   "op": "nar",
+   "text": "岩だらけの野。神々が、鉄の鎖を手にフェンリルを取り囲んでいる。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "rei_rider",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "神々は力試しと称して、狼を鎖で縛ることにした。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "これをつけて、ちぎれたら、僕の力が強いってことだね？"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "……そうだ。力比べだ。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "ふんっ！",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "鉄の鎖レーディングは、狼がひと伸びしただけで、ばらばらに弾け飛んだ。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "簡単だった！　次は？　次はもっと重いのがいい！",
+   "eyes": "fun"
+  },
+  {
+   "op": "nar",
+   "text": "神々は倍の太さの鎖ドローミを持ち出した。重さだけで、地面が沈む。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "これは重そう。でも、ちぎれたら僕はもっと有名になるね。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "ぐ、う、うう……やっ！",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "ドローミもまた、狼が身をよじると、輪がはじけて四方へ飛び散った。"
+  },
+  {
+   "op": "nar",
+   "text": "オーディンは、ひと言も発しなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "二本とも駄目か。オーディンの沈黙が、ひどく重い。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "テュール、見てた？　僕、強いでしょう！",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "……ああ。見ていた。強いな、お前は。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_rider"
+  },
+  {
+   "op": "bg",
+   "src": "forge",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "forge"
+  },
+  {
+   "op": "nar",
+   "text": "地の底の鍛冶場。闇の妖精、矮人たちが炉を囲んでいる。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_craftsman",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "神々のお使いだ。どんな鎖でも切れない紐を作ってほしい。礼ははずむ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "鉄では駄目だったそうだな。ならば、鉄でないもので作るしかない。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "材料は六つ。猫の足音、女の髭、岩の根、熊の腱、魚の息、鳥の唾。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "待て待て、そんなもの、どこにもないじゃないか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "今はな。わしらが使ってしまったから、この世から消えたのだ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "猫が歩いても音がせんのは、そのせいよ。岩に根がないのも、魚が息を吐かぬのもな。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "なるほど、うまいことを言う。で、出来上がりは？"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "これだ。グレイプニル。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "絹のリボンじゃないか。指で引いたら切れそうだ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "切ってみろ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……ぐ、ぐぐ……びくともしない。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "ありえぬものから作った紐は、ありえぬほど強い。持っていけ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_craftsman"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "bg",
+   "src": "island",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "island"
+  },
+  {
+   "op": "nar",
+   "text": "黒い湖に浮かぶ小島。神々は、遊びに見せかけて狼をここへ連れ出した。"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "rei_rider",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "フェンリル、最後の力比べだ。この細い帯をちぎれたら、お前が世界一の力持ちだ。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……細すぎる。こんなのをちぎっても、誰も褒めてくれないよ。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "それに、細いのに何か変だ。匂いがしない。魔法の匂いがする。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "怖いのか？　鉄の鎖を二本もちぎった狼が、絹の帯ひとつに怯えるのか。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "怖いんじゃない。騙されるのが嫌なんだ。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "縛られて、ちぎれなかったら、みんな僕をそのままにして帰るでしょう？",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "そんなことはないさ。ちぎれなければ、ほどいてやる。約束する。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "ロキの約束は、風の音みたいに軽い。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "誰か一人、その手を僕の口に入れて。帯が解かれるまで、そのままにしておいて。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "それが保証なら、僕は帯を受ける。"
+  },
+  {
+   "op": "nar",
+   "text": "神々は顔を見合わせ、誰一人として前に出ない。湖の風だけが吹いている。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "テュールは、すぐに右手を差し出す",
+     "jump": "m_now"
+    },
+    {
+     "text": "テュールは、狼と目を合わせてから手を出す",
+     "jump": "m_look"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_now"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "私がやろう。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "テュール……。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "jump",
+   "to": "m_hand"
+  },
+  {
+   "op": "label",
+   "id": "m_look"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "……フェンリル。こっちを見ろ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "テュールの目は、いつもと同じだ。肉を持ってきてくれるときの目だ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "私の手を使え。"
+  },
+  {
+   "op": "label",
+   "id": "m_hand"
+  },
+  {
+   "op": "nar",
+   "text": "テュールは右手を、狼の大きな口の中へ差し入れた。牙が手首にそっと触れた。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "テュールの手なら、信じる。"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_rider"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "bg",
+   "src": "bound",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "bound"
+  },
+  {
+   "op": "nar",
+   "text": "帯がかけられ、狼はもがいた。もがくほど、グレイプニルはきつく締まっていった。"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "ちぎれない……どうして……引けば引くほど、食い込んでくる。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "ほどいて！　約束でしょう！　誰か、ほどいてよ！",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "神々は笑い声を上げ、岩に帯を結びつけた。誰も、ほどこうとはしなかった。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_rider",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "……すまない。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "テュールまで。テュールまで、知っていたんだね。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "狼の顎が閉じた。テュールの右手は、手首から先が消えていた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "痛みは、思っていたより静かだ。悲鳴は、出なかった。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "もう誰も信じない。この口が自由になる日、僕は空の果てまで呑み込んでやる。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "神々は狼の口に剣をつっかえ棒にした。狼の吠え声は、岩を震わせ続けた。"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "オーディン。これで神々は安全です。……少なくとも、しばらくは。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "私が失ったのは、右手だけではありません。あの子に信じてもらう資格を、失いました。"
+  },
+  {
+   "op": "nar",
+   "text": "オーディンは何も言わず、残ったテュールの左手を、強く握った。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_rider"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "いやあ、うまくいった。グレイプニル、大した紐だ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……でもな、あいつ、俺の息子なんだよな。笑って帰るのは、少し難しい。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "『フェンリルの縛め』、これにて幕です。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "神々は安全を手に入れ、テュールは右手を差し出しました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "いちばん苦しいのは、騙したのが、狼が唯一信じていた神だったこと。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "守るための嘘にも、払う代償がある。北の神話は、それを少しも隠しません。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

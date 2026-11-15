@@ -1,1237 +1,702 @@
 {
-  "meta": {
-    "id": "ainu-marsh-demon",
-    "title": "谷地の魔神「ハリツ クンナ」",
-    "original": "知里幸惠編訳『アイヌ神謡集』所収（古典神謡）",
-    "adaptation": "faithful",
-    "format": "v3",
-    "minutes": 34,
-    "synopsis": "谷地の魔神は二人の若者を見て、顔色の悪い男の悪口に怒り、飛び出して呑む。もう一人を村まで追い、火の老女の妨げも越えるが、蓬の矢で倒される。追った若者はオキキリムイ、呑んだ男は囮だった。",
-    "note": "知里幸惠編訳『アイヌ神謡集』（1923年、著作権消滅）所収神謡の出来事・順序・語り手・結末を改変していない。台詞は制作ガイドに従い本上演版の書き下ろし。"
+ "meta": {
+  "id": "ainu-marsh-demon",
+  "title": "谷地の魔神「ハリツ クンナ」",
+  "original": "知里幸惠編訳『アイヌ神謡集』所収（古典神謡）",
+  "adaptation": "faithful",
+  "format": "v3",
+  "minutes": 16,
+  "synopsis": "谷地の魔神は二人の若者を見て、顔色の悪い男の悪口に怒り、飛び出して呑む。もう一人を村まで追い、火の老女の妨げも越えるが、蓬の矢で倒される。追った若者はオキキリムイ、呑んだ男は囮だった。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "狂言回し",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "谷地の魔神",
-      "actor": "extra_oni",
-      "costume": "default"
-    },
-    {
-      "role": "オキキリムイ",
-      "actor": "rei_rider",
-      "costume": "default"
-    },
-    {
-      "role": "青い男の囮",
-      "actor": "nibulus",
-      "costume": "default"
-    },
-    {
-      "role": "火の老女",
-      "actor": "extra_elf",
-      "costume": "default"
-    },
-    {
-      "role": "村人",
-      "actor": "extra_villager",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "marsh": "bg/ainu-marsh-eyes-2048x1152.png",
-    "chase": "bg/marsh-chase-earth-2048x1152.png",
-    "village": "bg/ainu-village-panic-2048x1152.png",
-    "arrow": "bg/mugwort-arrow-house-2048x1152.png",
-    "reveal": "bg/marsh-demon-reveal-2048x1152.png"
+  {
+   "role": "谷地の魔神",
+   "actor": "extra_oni",
+   "costume": "default"
   },
-  "steps": [
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『谷地の魔神「ハリツ クンナ」』。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "谷地から目と口だけを出していた魔神は、侮辱に怒って若者を追い、村を守る計略へ誘い込まれます。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "今夜の核は「人間の村を守るオキキリムイの知略と、慢心した魔神の敗北」。急がず、長い物語としてお届けします。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "それでは開幕。役者たちの声と、場面の移ろいをお楽しみください。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "marsh",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "marsh"
-    },
-    {
-      "op": "nar",
-      "text": "眼と口だけが見える谷地"
-    },
-    {
-      "op": "show",
-      "actor": "extra_oni",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "nibulus",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "魔神が谷地から目と口だけを出し、二人の若者の声を聞く。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "私はこの出来事を見届けた。魔神が谷地から目と口だけを出し、二人の若者の声を聞く。"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "見えたことを、そのまま順に語ろう。歌の道を変えないために。"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "出来事の姿を飾らず、聞いた響きを次の言葉へ渡そう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「人間の村を守るオキキリムイの知略と、慢心した魔神の敗北」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "人とカムイと大地の間に起きたことを、丁寧にたどる。"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "急がずに進もう。同じ響きが戻るたび、意味も深くなる。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "魔神が谷地から目と口だけを出し、二人の若者の声を聞く。――この出来事を忘れず、次の判断へつなげよう。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_oni"
-    },
-    {
-      "op": "hide",
-      "actor": "nibulus"
-    },
-    {
-      "op": "show",
-      "actor": "nibulus",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_oni",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "顔色の悪い男が谷地を臭く汚いと悪く言う。"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "私はこの出来事を見届けた。顔色の悪い男が谷地を臭く汚いと悪く言う。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "水の音、風の向き、火の明るさまで、この物語の一部だ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "誰が語っているのかを忘れず、その目から世界を見よう。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「人間の村を守るオキキリムイの知略と、慢心した魔神の敗北」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "喜びも怒りも、語り手が経験した順序のまま受け取る。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "そして結末を変えずに届ける。それが今夜の務めだ。"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "顔色の悪い男が谷地を臭く汚いと悪く言う。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "nibulus"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_oni"
-    },
-    {
-      "op": "show",
-      "actor": "extra_oni",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "魔神が怒って泥から飛び出し、二人を追う。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "私はこの出来事を見届けた。魔神が怒って泥から飛び出し、二人を追う。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "見えたことを、そのまま順に語ろう。歌の道を変えないために。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "出来事の姿を飾らず、聞いた響きを次の言葉へ渡そう。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「人間の村を守るオキキリムイの知略と、慢心した魔神の敗北」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "人とカムイと大地の間に起きたことを、丁寧にたどる。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "急がずに進もう。同じ響きが戻るたび、意味も深くなる。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "魔神が怒って泥から飛び出し、二人を追う。――この出来事を忘れず、次の判断へつなげよう。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_oni"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "bg",
-      "src": "chase",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "chase"
-    },
-    {
-      "op": "nar",
-      "text": "地面を裂いて続く追跡路"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "nibulus",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "先の若者が引き返し、青い男の脇を抜けて逃げる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "私はこの出来事を見届けた。先の若者が引き返し、青い男の脇を抜けて逃げる。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "水の音、風の向き、火の明るさまで、この物語の一部だ。"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "誰が語っているのかを忘れず、その目から世界を見よう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「人間の村を守るオキキリムイの知略と、慢心した魔神の敗北」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "喜びも怒りも、語り手が経験した順序のまま受け取る。"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "そして結末を変えずに届ける。それが今夜の務めだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "先の若者が引き返し、青い男の脇を抜けて逃げる。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "hide",
-      "actor": "nibulus"
-    },
-    {
-      "op": "show",
-      "actor": "extra_oni",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "nibulus",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "魔神が青い男へ追いつき、頭から呑み込む。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "私はこの出来事を見届けた。魔神が青い男へ追いつき、頭から呑み込む。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "見えたことを、そのまま順に語ろう。歌の道を変えないために。"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "出来事の姿を飾らず、聞いた響きを次の言葉へ渡そう。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「人間の村を守るオキキリムイの知略と、慢心した魔神の敗北」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "人とカムイと大地の間に起きたことを、丁寧にたどる。"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "急がずに進もう。同じ響きが戻るたび、意味も深くなる。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "魔神が青い男へ追いつき、頭から呑み込む。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_oni"
-    },
-    {
-      "op": "hide",
-      "actor": "nibulus"
-    },
-    {
-      "op": "show",
-      "actor": "extra_oni",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "魔神が残る若者を追い、人間の大きな村へ入る。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "私はこの出来事を見届けた。魔神が残る若者を追い、人間の大きな村へ入る。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "水の音、風の向き、火の明るさまで、この物語の一部だ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "誰が語っているのかを忘れず、その目から世界を見よう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「人間の村を守るオキキリムイの知略と、慢心した魔神の敗北」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "喜びも怒りも、語り手が経験した順序のまま受け取る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "そして結末を変えずに届ける。それが今夜の務めだ。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "魔神が残る若者を追い、人間の大きな村へ入る。――この出来事を忘れず、次の判断へつなげよう。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_oni"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "bg",
-      "src": "village",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "village"
-    },
-    {
-      "op": "nar",
-      "text": "逃げる村人と火の老女の村"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elf",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_oni",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "火の老女が赤い杖で帰れと命じ、炎を降らせる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elf",
-      "text": "私はこの出来事を見届けた。火の老女が赤い杖で帰れと命じ、炎を降らせる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elf",
-      "text": "見えたことを、そのまま順に語ろう。歌の道を変えないために。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "出来事の姿を飾らず、聞いた響きを次の言葉へ渡そう。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「人間の村を守るオキキリムイの知略と、慢心した魔神の敗北」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elf",
-      "text": "人とカムイと大地の間に起きたことを、丁寧にたどる。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "急がずに進もう。同じ響きが戻るたび、意味も深くなる。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elf",
-      "text": "火の老女が赤い杖で帰れと命じ、炎を降らせる。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "surprise",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elf"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_oni"
-    },
-    {
-      "op": "show",
-      "actor": "extra_oni",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elf",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "魔神が炎を構わず、村を回る若者を追い続ける。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "私はこの出来事を見届けた。魔神が炎を構わず、村を回る若者を追い続ける。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elf",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "水の音、風の向き、火の明るさまで、この物語の一部だ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elf",
-      "text": "誰が語っているのかを忘れず、その目から世界を見よう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「人間の村を守るオキキリムイの知略と、慢心した魔神の敗北」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "喜びも怒りも、語り手が経験した順序のまま受け取る。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elf",
-      "text": "そして結末を変えずに届ける。それが今夜の務めだ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "魔神が炎を構わず、村を回る若者を追い続ける。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "anger",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elf",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_oni"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elf"
-    },
-    {
-      "op": "show",
-      "actor": "extra_villager",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_oni",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "村人たちが妻子の手を引き、泣きながら逃げる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "私はこの出来事を見届けた。村人たちが妻子の手を引き、泣きながら逃げる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "見えたことを、そのまま順に語ろう。歌の道を変えないために。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "出来事の姿を飾らず、聞いた響きを次の言葉へ渡そう。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「人間の村を守るオキキリムイの知略と、慢心した魔神の敗北」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "人とカムイと大地の間に起きたことを、丁寧にたどる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "急がずに進もう。同じ響きが戻るたび、意味も深くなる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "村人たちが妻子の手を引き、泣きながら逃げる。――この出来事を忘れず、次の判断へつなげよう。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_villager"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_oni"
-    },
-    {
-      "op": "bg",
-      "src": "arrow",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "arrow"
-    },
-    {
-      "op": "nar",
-      "text": "蓬の弓矢を構える家の前"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_oni",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "若者が家へ入り、蓬の小弓と小矢を持って出る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "私はこの出来事を見届けた。若者が家へ入り、蓬の小弓と小矢を持って出る。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "水の音、風の向き、火の明るさまで、この物語の一部だ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "誰が語っているのかを忘れず、その目から世界を見よう。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「人間の村を守るオキキリムイの知略と、慢心した魔神の敗北」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "喜びも怒りも、語り手が経験した順序のまま受け取る。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "そして結末を変えずに届ける。それが今夜の務めだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "若者が家へ入り、蓬の小弓と小矢を持って出る。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_oni"
-    },
-    {
-      "op": "show",
-      "actor": "extra_oni",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "魔神が小さな矢を侮り、頭から呑もうとする。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "私はこの出来事を見届けた。魔神が小さな矢を侮り、頭から呑もうとする。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "見えたことを、そのまま順に語ろう。歌の道を変えないために。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "出来事の姿を飾らず、聞いた響きを次の言葉へ渡そう。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「人間の村を守るオキキリムイの知略と、慢心した魔神の敗北」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "人とカムイと大地の間に起きたことを、丁寧にたどる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "急がずに進もう。同じ響きが戻るたび、意味も深くなる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "魔神が小さな矢を侮り、頭から呑もうとする。――この出来事を忘れず、次の判断へつなげよう。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_oni"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_oni",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "蓬の矢が魔神の首を射抜き、意識が途切れる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "私はこの出来事を見届けた。蓬の矢が魔神の首を射抜き、意識が途切れる。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "水の音、風の向き、火の明るさまで、この物語の一部だ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "誰が語っているのかを忘れず、その目から世界を見よう。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「人間の村を守るオキキリムイの知略と、慢心した魔神の敗北」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "喜びも怒りも、語り手が経験した順序のまま受け取る。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "そして結末を変えずに届ける。それが今夜の務めだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "蓬の矢が魔神の首を射抜き、意識が途切れる。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_oni"
-    },
-    {
-      "op": "bg",
-      "src": "reveal",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "reveal"
-    },
-    {
-      "op": "nar",
-      "text": "焼かれる魔神の屍と真相の場"
-    },
-    {
-      "op": "show",
-      "actor": "extra_oni",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_villager",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "魔神が大きな竜の耳の間で気づき、屍を刻み焼く村を見る。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "私はこの出来事を見届けた。魔神が大きな竜の耳の間で気づき、屍を刻み焼く村を見る。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "見えたことを、そのまま順に語ろう。歌の道を変えないために。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "出来事の姿を飾らず、聞いた響きを次の言葉へ渡そう。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「人間の村を守るオキキリムイの知略と、慢心した魔神の敗北」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "人とカムイと大地の間に起きたことを、丁寧にたどる。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "急がずに進もう。同じ響きが戻るたび、意味も深くなる。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "魔神が大きな竜の耳の間で気づき、屍を刻み焼く村を見る。――この出来事を忘れず、次の判断へつなげよう。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_oni"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_villager"
-    },
-    {
-      "op": "show",
-      "actor": "extra_oni",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "追った若者がオキキリムイ、呑んだ青い男が作られた囮と知る。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "私はこの出来事を見届けた。追った若者がオキキリムイ、呑んだ青い男が作られた囮と知る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "水の音、風の向き、火の明るさまで、この物語の一部だ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "誰が語っているのかを忘れず、その目から世界を見よう。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「人間の村を守るオキキリムイの知略と、慢心した魔神の敗北」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "喜びも怒りも、語り手が経験した順序のまま受け取る。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "そして結末を変えずに届ける。それが今夜の務めだ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "追った若者がオキキリムイ、呑んだ青い男が作られた囮と知る。――この出来事を忘れず、次の判断へつなげよう。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_oni"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "show",
-      "actor": "extra_oni",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_villager",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "魔神が地獄へ送られ、人間の国に危険がなくなると語る。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "私はこの出来事を見届けた。魔神が地獄へ送られ、人間の国に危険がなくなると語る。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "見えたことを、そのまま順に語ろう。歌の道を変えないために。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "出来事の姿を飾らず、聞いた響きを次の言葉へ渡そう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「人間の村を守るオキキリムイの知略と、慢心した魔神の敗北」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "人とカムイと大地の間に起きたことを、丁寧にたどる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "急がずに進もう。同じ響きが戻るたび、意味も深くなる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "魔神が地獄へ送られ、人間の国に危険がなくなると語る。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_oni"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_villager"
-    },
-    {
-      "op": "bg",
-      "src": "reveal"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "魔神は地獄へ送られ、人間の村への危険はなくなる。自らの敗北を語って神謡を閉じる。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "長い旅の果てに残ったのは、「人間の村を守るオキキリムイの知略と、慢心した魔神の敗北」という問いでした。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "答えは一つではありません。けれど、登場人物たちの選択は消えません。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "『谷地の魔神「ハリツ クンナ」』、これにて終幕。ありがとうございました。"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "end"
+  {
+   "role": "オキキリムイ",
+   "actor": "rei_rider",
+   "costume": "default"
+  },
+  {
+   "role": "青い男の囮",
+   "actor": "nibulus",
+   "costume": "default"
+  },
+  {
+   "role": "火の老女",
+   "actor": "extra_elf",
+   "costume": "default"
+  },
+  {
+   "role": "村人",
+   "actor": "extra_villager",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "marsh": "bg/ainu-marsh-eyes-2048x1152.png",
+  "chase": "bg/marsh-chase-earth-2048x1152.png",
+  "village": "bg/ainu-village-panic-2048x1152.png",
+  "arrow": "bg/mugwort-arrow-house-2048x1152.png",
+  "reveal": "bg/marsh-demon-reveal-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "夜更けのNONO座へようこそ。これからお聞かせする神謡は、ちょっと怖い語り手の歌。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "歌うのは、湿った谷地にひそむ魔神。サケヘは「ハリツ　クンナ」。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "神謡では、負けた者も自分の口で負けを語ります。威張った声が、だんだん小さくなるはずです。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "魔神がどこで足をすくわれたのか、どうぞ最後まで見届けてください。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "marsh",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "marsh"
+  },
+  {
+   "op": "nar",
+   "text": "葦の枯れた谷地。泥の表面に、二つの目と大きな口だけがのぞいている。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_oni",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "ハリツ　クンナ。わしは谷地の底に住む。泥の中から目と口だけを出して、道を見張っている。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "獣も鳥も、この谷地を避けて通る。人間など、近づけば一呑みだ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "泥は冷たく、重い。わしの体を隠し、わしの体を守る。泥の中なら、矢も火も届かぬ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "今日も退屈だ。何か、間抜けな者が通らぬものか。ハリツ　クンナ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "昔は鹿が迷い込んだ。その前は熊の子。人間を呑んだのは、もう何十年も前だ。"
+  },
+  {
+   "op": "nar",
+   "text": "谷地のふちの道を、二人の若者が並んで歩いてきた。"
+  },
+  {
+   "op": "show",
+   "actor": "nibulus",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_rider",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "見ろよ、あの泥。目玉みたいなのが二つ光ってる。気味が悪いな。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "足を止めるな。谷地には古い魔物がいると、村の年寄りが言っていた。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "魔物？　あんな泥まみれのが？　顔色の悪いカエルの親分くらいだろう。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "……顔色の悪いカエル、だと。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "やめておけ。聞こえていたらどうする。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "聞こえたって、出てこられやしないさ。口ばかり大きくて、体は泥の中に隠れたまま。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "臆病者の見本だな。やーい、泥の中の大口。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "ハリツ　クンナ！　言わせておけば！",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "泥が噴き上がり、巨大な口が開いた。青白い顔の若者は、声を上げる間もなく呑み込まれた。"
+  },
+  {
+   "op": "hide",
+   "actor": "nibulus"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "……呑まれた。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "次はお前だ。仲間と一緒に、わしの腹の中で謝るがいい。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "捕まえられるものなら、捕まえてみろ。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_rider"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "逃げるか！　ハリツ　クンナ、谷地の魔神から逃げられた者はおらぬ！",
+   "eyes": "anger"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_oni"
+  },
+  {
+   "op": "bg",
+   "src": "chase",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "chase"
+  },
+  {
+   "op": "nar",
+   "text": "地面が裂け、泥の波が若者の背を追う。草も木も、魔神の通り道で倒れていく。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_rider",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_oni",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "村まで走る。村までたどり着けば、何とかなる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "振り返るな。足元だけを見ろ。木の根、石、ぬかるみ。転んだら、終わりだ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "ハリツ　クンナ。泥を離れると、体が軽い。風が肌を撫でるのは、何十年ぶりか。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "走れ、走れ。お前の足音は、わしの腹に響いて心地よい。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "ハリツ　クンナ。木をなぎ倒し、川をまたぎ、わしはどこまでも追ってゆく。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "後ろの音が近い。だが、あと少しで村の柵だ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "村へ逃げ込むつもりか。愚か者め、村ごと呑んでやるわ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "……そうだ。こっちへ来い。もっと近くへ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "何を言った？　息が切れて、うわごとか。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_rider"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_oni"
+  },
+  {
+   "op": "bg",
+   "src": "village",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "village"
+  },
+  {
+   "op": "nar",
+   "text": "村の入口。人々が悲鳴を上げて家へ逃げ込み、戸が次々と閉じられる。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_villager",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "谷地の魔神だ！　子どもを家へ入れろ！　火を消すな！",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_villager"
+  },
+  {
+   "op": "show",
+   "actor": "extra_oni",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "ハリツ　クンナ。人間どもが、ねずみのように散っていく。愉快、愉快。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elf",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "お待ちなさい。この村の炉は、わたくしが守っております。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "誰だ、婆さん。どけ。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "火の老女と申します。この先へは、一歩も通しません。"
+  },
+  {
+   "op": "nar",
+   "text": "老女が杖を振ると、地面から炎が立ちのぼり、魔神の前に壁を作った。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "熱い！　泥の体が、乾いてひび割れる！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "あなたは谷地の主。谷地にいる限り、誰もあなたに手出しはしません。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "戻りなさい。谷地へ戻れば、今日のことは忘れて差し上げます。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "戻るものか！　谷地の魔神が、婆さんの火で引き下がるなど、末代までの恥だ！",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "魔神は炎を体で押しつぶし、老女を跳ね飛ばして、村の奥へ進んだ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "……行ってしまいましたか。でも、あの方が待っておられる。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "火で止められぬのなら、あとは蓬の香りに任せましょう。皆さん、戸を閉めて祈って。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_oni"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elf"
+  },
+  {
+   "op": "bg",
+   "src": "arrow",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "arrow"
+  },
+  {
+   "op": "nar",
+   "text": "村のいちばん奥の家。戸口に、あの若者が弓を構えて立っていた。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_rider",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_oni",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "ハリツ　クンナ。追いつめたぞ。もう逃げ場はない。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "逃げるつもりは、はじめからなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "何だと？",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "谷地の中では、お前は泥に守られている。だから村まで連れてくる必要があった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "乾いた土の上で、火に焼かれて、体のひびが開くのを待っていた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "小賢しい。その細い弓で、わしが倒れると思うか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "これはただの矢ではない。蓬の茎で作った矢だ。魔を払う草の矢だ。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "若者は、矢を一本だけ放つ",
+     "jump": "m_one"
+    },
+    {
+     "text": "若者は、魔神に名を問うてから放つ",
+     "jump": "m_name"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_one"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "蓬の矢よ、魔神の胸を貫け！",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "jump",
+   "to": "m_hit"
+  },
+  {
+   "op": "label",
+   "id": "m_name"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "最後に聞いておく。お前に、ほかの名はあるか。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "名など知るか。わしは谷地の魔神、それで十分だ。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "そうか。ならば、その名のまま、ここで終わってもらう。",
+   "eyes": "closed"
+  },
+  {
+   "op": "label",
+   "id": "m_hit"
+  },
+  {
+   "op": "nar",
+   "text": "蓬の矢は、ひび割れた胸の真ん中に突き立った。魔神の体から、泥が崩れ落ちた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "ハリツ　クンナ……胸が、熱い……蓬の匂いが、腹の底まで沁みてくる……。",
+   "eyes": "crying"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_rider"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_oni"
+  },
+  {
+   "op": "bg",
+   "src": "reveal",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "reveal"
+  },
+  {
+   "op": "nar",
+   "text": "村人たちが薪を積み、倒れた魔神の体を焼いている。煙が高く上った。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_rider",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "nibulus",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "ふう、腹の中は真っ暗で、生臭かった。もう少しで溶けるところだったよ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "囮の役、ご苦労だった。お前の悪口がなければ、魔神は泥から出てこなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "悪口なら得意だからな。顔色の悪いカエルの親分、我ながら名台詞だった。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "これで谷地の道を、村の子どもたちも通れるようになる。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "でもな、少し気の毒にもなったよ。あいつ、腹の中でずっとひとりごとを言ってた。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "泥は冷たい、泥は重い、ってさ。威張ってたけど、寂しかったのかもしれない。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "そうかもしれない。だが、村の子を呑ませるわけにはいかなかった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elf",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "魔神の灰は、谷地へ返してあげましょう。泥に戻れば、あの者もまた静かになれます。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elf"
+  },
+  {
+   "op": "hide",
+   "actor": "nibulus"
+  },
+  {
+   "op": "show",
+   "actor": "extra_oni",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "ハリツ　クンナ。わしを追わせた若者こそ、人間の村を守る英雄、オキキリムイであった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "呑んだ男は、わしを誘い出すための囮。わしは悪口ひとつで、泥の砦を捨ててしまった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "腹を立てたのが負けの始まり。慢心したのが、終わりの始まり。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "わしは煙とともに、暗い国へ落ちてゆく。もう二度と、人の道には出られまい。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "以上が、谷地の魔神の負け話。最後に一度だけ鳴いておこう。ハリツ　クンナ。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_rider"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_oni"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "谷地の魔神の謡、これにてお開きです。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "泥の中にいるかぎり、魔神は誰より強かった。悪口ひとつで、その守りを自分で捨てたのです。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "そして英雄は、力比べではなく、相手の短気を使って勝ちました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "腹が立ったときほど、自分の足元が泥か乾いた土か、確かめてくださいね。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

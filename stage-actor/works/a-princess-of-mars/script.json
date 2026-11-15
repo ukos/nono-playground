@@ -1,1198 +1,885 @@
 {
-  "meta": {
-    "id": "a-princess-of-mars",
-    "title": "火星のプリンセス ―バルスームの空―",
-    "original": "Edgar Rice Burroughs, A Princess of Mars（原典著作権消滅）",
-    "adaptation": "moderate",
-    "format": "v3",
-    "minutes": 46,
-    "synopsis": "洞窟で意識を失ったカーターは火星へ移り、緑色人サーク族に捕らえられる。デジャー・ソリスと出会い、言語と文化を学び、タルス・タルカスと信頼を築く。都市間戦争を越え、大気工場の危機へ走る。",
-    "note": "Edgar Rice Burroughsの1912年英語原典から新規脚本化。Project Gutenberg掲載原典を確認し、現代訳・映像版は使用していない。"
+ "meta": {
+  "id": "a-princess-of-mars",
+  "title": "火星のプリンセス ―バルスームの空―",
+  "original": "Edgar Rice Burroughs, A Princess of Mars（原典著作権消滅）",
+  "adaptation": "moderate",
+  "format": "v3",
+  "minutes": 22,
+  "synopsis": "洞窟で意識を失ったカーターは火星へ移り、緑色人サーク族に捕らえられる。デジャー・ソリスと出会い、言語と文化を学び、タルス・タルカスと信頼を築く。都市間戦争を越え、大気工場の危機へ走る。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "狂言回し",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "ジョン・カーター",
-      "actor": "rei_rider",
-      "costume": "default"
-    },
-    {
-      "role": "デジャー・ソリス",
-      "actor": "mei",
-      "costume": "default"
-    },
-    {
-      "role": "タルス・タルカス",
-      "actor": "gou",
-      "costume": "default"
-    },
-    {
-      "role": "ソラ",
-      "actor": "akane",
-      "costume": "default"
-    },
-    {
-      "role": "サブ・サン",
-      "actor": "iwao",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "cave": "bg/arizona-cave-2048x1152.png",
-    "desert": "bg/barsoom-desert-2048x1152.png",
-    "city": "bg/helium-city-2048x1152.png",
-    "arena": "bg/barsoom-arena-2048x1152.png",
-    "atmosphere": "bg/barsoom-atmosphere-plant-2048x1152.png"
+  {
+   "role": "ジョン・カーター",
+   "actor": "rei_rider",
+   "costume": "default"
   },
-  "steps": [
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『火星のプリンセス ―バルスームの空―』。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "地球の兵士ジョン・カーターは火星バルスームへ移り、低い重力と争う諸民族の世界へ入ります。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "今夜の核は「異なる文化の間で、所有ではなく相互理解を選ぶこと」。急がず、長い物語としてお届けします。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "それでは開幕。役者たちの声と、場面の移ろいをお楽しみください。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "cave",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "cave"
-    },
-    {
-      "op": "nar",
-      "text": "火星を望むアリゾナの洞窟"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "iwao",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "南北戦争後のカーターが洞窟で追手から逃れる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "この出来事から目をそらさない。南北戦争後のカーターが洞窟で追手から逃れる。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "その選び方に、その人が何を大切にするかが現れる。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「異なる文化の間で、所有ではなく相互理解を選ぶこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "ならば、言葉と行いが離れないように見届けよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "南北戦争後のカーターが洞窟で追手から逃れる。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "hide",
-      "actor": "iwao"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "gou",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "身体を離れる感覚の後、低重力の火星で目覚める。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "この出来事から目をそらさない。身体を離れる感覚の後、低重力の火星で目覚める。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「異なる文化の間で、所有ではなく相互理解を選ぶこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "その一歩が、失われたものを無駄にしない道になる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "身体を離れる感覚の後、低重力の火星で目覚める。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "hide",
-      "actor": "gou"
-    },
-    {
-      "op": "show",
-      "actor": "gou",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "akane",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "サーク族に捕らえられ、跳躍力を見せて生存を得る。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "この出来事から目をそらさない。サーク族に捕らえられ、跳躍力を見せて生存を得る。"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "その選び方に、その人が何を大切にするかが現れる。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「異なる文化の間で、所有ではなく相互理解を選ぶこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "ならば、言葉と行いが離れないように見届けよう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "サーク族に捕らえられ、跳躍力を見せて生存を得る。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "gou"
-    },
-    {
-      "op": "hide",
-      "actor": "akane"
-    },
-    {
-      "op": "bg",
-      "src": "desert",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "desert"
-    },
-    {
-      "op": "nar",
-      "text": "双月と廃墟のある赤い火星砂漠"
-    },
-    {
-      "op": "show",
-      "actor": "akane",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "ソラから火星語と厳しい部族の掟を学ぶ。"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "この出来事から目をそらさない。ソラから火星語と厳しい部族の掟を学ぶ。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「異なる文化の間で、所有ではなく相互理解を選ぶこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "その一歩が、失われたものを無駄にしない道になる。"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "ソラから火星語と厳しい部族の掟を学ぶ。――この出来事を忘れず、次の判断へつなげよう。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "hide",
-      "actor": "akane"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "show",
-      "actor": "mei",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "捕虜のデジャー・ソリスと出会い、所有物として扱わない。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "この出来事から目をそらさない。捕虜のデジャー・ソリスと出会い、所有物として扱わない。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "その選び方に、その人が何を大切にするかが現れる。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「異なる文化の間で、所有ではなく相互理解を選ぶこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "ならば、言葉と行いが離れないように見届けよう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "捕虜のデジャー・ソリスと出会い、所有物として扱わない。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "mei"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "gou",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "タルス・タルカスと戦いを越えて互いの勇気を認める。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "この出来事から目をそらさない。タルス・タルカスと戦いを越えて互いの勇気を認める。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「異なる文化の間で、所有ではなく相互理解を選ぶこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "その一歩が、失われたものを無駄にしない道になる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "タルス・タルカスと戦いを越えて互いの勇気を認める。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "hide",
-      "actor": "gou"
-    },
-    {
-      "op": "bg",
-      "src": "city",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "city"
-    },
-    {
-      "op": "nar",
-      "text": "飛行船が浮くヘリウム都市"
-    },
-    {
-      "op": "show",
-      "actor": "akane",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "gou",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "ソラが自分の出生と部族で隠された母の愛を語る。"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "この出来事から目をそらさない。ソラが自分の出生と部族で隠された母の愛を語る。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "その選び方に、その人が何を大切にするかが現れる。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「異なる文化の間で、所有ではなく相互理解を選ぶこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "ならば、言葉と行いが離れないように見届けよう。"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "ソラが自分の出生と部族で隠された母の愛を語る。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "surprise",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "akane"
-    },
-    {
-      "op": "hide",
-      "actor": "gou"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "mei",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "二人が砂漠を逃れ、飛行船の都市へ向かう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "この出来事から目をそらさない。二人が砂漠を逃れ、飛行船の都市へ向かう。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。",
-      "eyes": "normal"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「異なる文化の間で、所有ではなく相互理解を選ぶこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "その一歩が、失われたものを無駄にしない道になる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "二人が砂漠を逃れ、飛行船の都市へ向かう。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "hide",
-      "actor": "mei"
-    },
-    {
-      "op": "show",
-      "actor": "iwao",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "mei",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "政略結婚と都市戦争がデジャーへ迫る。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "この出来事から目をそらさない。政略結婚と都市戦争がデジャーへ迫る。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "その選び方に、その人が何を大切にするかが現れる。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「異なる文化の間で、所有ではなく相互理解を選ぶこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "ならば、言葉と行いが離れないように見届けよう。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "政略結婚と都市戦争がデジャーへ迫る。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "hide",
-      "actor": "iwao"
-    },
-    {
-      "op": "hide",
-      "actor": "mei"
-    },
-    {
-      "op": "bg",
-      "src": "arena",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "arena"
-    },
-    {
-      "op": "nar",
-      "text": "部族の裁きが行われる円形場"
-    },
-    {
-      "op": "show",
-      "actor": "gou",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "カーターがサーク族へ、略奪でなく同盟の利を説く。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "この出来事から目をそらさない。カーターがサーク族へ、略奪でなく同盟の利を説く。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「異なる文化の間で、所有ではなく相互理解を選ぶこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "その一歩が、失われたものを無駄にしない道になる。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "カーターがサーク族へ、略奪でなく同盟の利を説く。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "hide",
-      "actor": "gou"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "iwao",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "敵都市の軍と戦い、ヘリウムを救援する。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "この出来事から目をそらさない。敵都市の軍と戦い、ヘリウムを救援する。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "その選び方に、その人が何を大切にするかが現れる。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「異なる文化の間で、所有ではなく相互理解を選ぶこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "ならば、言葉と行いが離れないように見届けよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "敵都市の軍と戦い、ヘリウムを救援する。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "hide",
-      "actor": "iwao"
-    },
-    {
-      "op": "show",
-      "actor": "mei",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "デジャーが自分の選択としてカーターへの愛を告げる。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "この出来事から目をそらさない。デジャーが自分の選択としてカーターへの愛を告げる。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「異なる文化の間で、所有ではなく相互理解を選ぶこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "その一歩が、失われたものを無駄にしない道になる。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "デジャーが自分の選択としてカーターへの愛を告げる。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "mei"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "bg",
-      "src": "atmosphere",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "atmosphere"
-    },
-    {
-      "op": "nar",
-      "text": "巨大機械が止まりかけた大気工場"
-    },
-    {
-      "op": "show",
-      "actor": "gou",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "akane",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "タルス・タルカスが指導者となり、部族の掟を改める。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "この出来事から目をそらさない。タルス・タルカスが指導者となり、部族の掟を改める。"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "その選び方に、その人が何を大切にするかが現れる。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「異なる文化の間で、所有ではなく相互理解を選ぶこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "ならば、言葉と行いが離れないように見届けよう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "タルス・タルカスが指導者となり、部族の掟を改める。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "akane",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "gou"
-    },
-    {
-      "op": "hide",
-      "actor": "akane"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "mei",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "大気工場が停止し、惑星全体の空気が薄くなる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "この出来事から目をそらさない。大気工場が停止し、惑星全体の空気が薄くなる。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "私はここで目をそらさない。痛みまで含めて覚えておく。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "覚えるだけでは足りない。誰かの明日へ渡してこそ意味がある。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「異なる文化の間で、所有ではなく相互理解を選ぶこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "小さくても、今できる行いを選ぶ。それが私の返事だ。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "その一歩が、失われたものを無駄にしない道になる。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "大気工場が停止し、惑星全体の空気が薄くなる。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "nar",
-      "text": "工場へ突入した瞬間に地球へ戻り、火星の行方を知らず終える。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "この出来事から目をそらさない。工場へ突入した瞬間に地球へ戻り、火星の行方を知らず終える。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "苦しさの中でも、次に選べる行いを確かめよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "起きた事実は変えられない。けれど、この先の態度は選べる。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "その選び方に、その人が何を大切にするかが現れる。",
-      "eyes": "normal"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「異なる文化の間で、所有ではなく相互理解を選ぶこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "迷いを隠して進むより、迷いを引き受けて進みたい。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "ならば、言葉と行いが離れないように見届けよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "工場へ突入した瞬間に地球へ戻り、火星の行方を知らず終える。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "hide",
-      "actor": "mei"
-    },
-    {
-      "op": "bg",
-      "src": "atmosphere"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "大気を救おうとした瞬間、カーターは地球へ戻る。火星への愛と未完の約束を胸に、赤い星を見上げる。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "長い旅の果てに残ったのは、「異なる文化の間で、所有ではなく相互理解を選ぶこと」という問いでした。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "答えは一つではありません。けれど、登場人物たちの選択は消えません。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "『火星のプリンセス ―バルスームの空―』、これにて終幕。ありがとうございました。"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "end"
+  {
+   "role": "デジャー・ソリス",
+   "actor": "mei",
+   "costume": "default"
+  },
+  {
+   "role": "タルス・タルカス",
+   "actor": "gou",
+   "costume": "default"
+  },
+  {
+   "role": "ソラ",
+   "actor": "akane",
+   "costume": "default"
+  },
+  {
+   "role": "サブ・サン",
+   "actor": "iwao",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "cave": "bg/arizona-cave-2048x1152.png",
+  "desert": "bg/barsoom-desert-2048x1152.png",
+  "city": "bg/helium-city-2048x1152.png",
+  "arena": "bg/barsoom-arena-2048x1152.png",
+  "atmosphere": "bg/barsoom-atmosphere-plant-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ようこそ、NONO座へ。今夜の舞台は、地球から五千万マイル離れた赤い星です。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "演目は『火星のプリンセス』。南北戦争を生き延びた騎兵が、ある晩、空を越えてしまいます。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "火星の人々はこの星をバルスームと呼びます。重力は軽く、水は乏しく、掟は重い。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "剣と礼儀と、すこしの勇気。それだけを持って、彼がどこまで行けるか見届けてください。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "cave",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "cave"
+  },
+  {
+   "op": "nar",
+   "text": "一八六六年、アリゾナ。金鉱を探していた元騎兵大尉は、アパッチの追手に囲まれた。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_rider",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "相棒は撃たれた。馬も倒れた。残ったのはこの洞窟と、空っぽの拳銃だけか。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "奥から甘い匂いが流れてくる。花か、薬か……手足がしびれて動かない。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "体が、自分の体から抜けていく。床に倒れている男は、私なのか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "洞窟の口に、赤くまたたく星が見えた。軍神の名を持つ星、火星。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "あの星が呼んでいる。両腕を伸ばしたら、冷たい闇が一瞬で過ぎた。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_rider"
+  },
+  {
+   "op": "bg",
+   "src": "desert",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "desert"
+  },
+  {
+   "op": "nar",
+   "text": "目を開けると、苔の黄色い平原。空には月がふたつ、見たことのない速さで動いていた。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_rider",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "立ち上がろうとしただけで、宙に三メートル跳ねた。地面がまるで綿のようだ。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "重力が地球の三分の一ほどしかない。歩くより、跳ねるほうが早いくらいだ。"
+  },
+  {
+   "op": "nar",
+   "text": "地平線から、四本の腕を持つ緑色の巨人たちが、八本足の獣に乗って現れた。"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "白い小さな生き物だ。槍を構えろ。卵を荒らしに来た獣かもしれん。",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "待ってくれ！　私は敵じゃない。……言葉が通じないのは分かっている。"
+  },
+  {
+   "op": "nar",
+   "text": "槍が突き出された瞬間、カーターは巨人の頭上を軽々と飛び越え、背後に降りた。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "今の跳躍を見たか。この小さな男、サークの戦士より高く飛んだぞ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "殺すには惜しい。連れて帰れ。族長が面白がるだろう。"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "私はソラ。あなたの世話を言いつけられた。まずは、これを飲みなさい。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "白い液体……植物の乳か。ありがとう。……今のは「水」という意味かい？"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "そう、上手。次は「月」、それから「剣」。言葉を覚えれば、殺されにくくなる。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "君は、ほかの戦士と目が違う。笑い方を知っている。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "静かに。サークでは、優しさは弱さと同じ扱い。人前では見せないの。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "nar",
+   "text": "数週間がたち、カーターはサーク語を話し、部族の掟を学んだ。その日、空に船影が現れた。"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "赤色人の飛行船だ！　撃ち落とせ！"
+  },
+  {
+   "op": "nar",
+   "text": "炎を上げて墜ちた船から、ひとりの女性が捕虜として引き出された。"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "私はヘリウムの王女、デジャー・ソリス。大気の研究のための調査隊を、なぜ撃ったのです。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "お怪我は？　……私はジョン・カーター。ヴァージニアの出です。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "ヴァージニア？　聞いたことのない国。あなたは赤色人でも緑色人でもない。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "信じてもらえないでしょうが、あの青い星から来ました。地球と呼んでいます。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "本気で言っているのね。……あなたの目は嘘をつく人の目ではない。"
+  },
+  {
+   "op": "nar",
+   "text": "見張りの戦士が王女を打とうとした瞬間、カーターの拳がその顎をとらえた。"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "我が部族の戦士を一撃で倒したな。ならば、そいつの武器と地位はお前のものだ。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "地位はいらない。彼女に手を出すなと言っただけだ。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "欲がないのか、馬鹿なのか。サークにはどちらもいない。お前は面白い。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "我が名はタルス・タルカス。今日からお前を、戦士としてではなく、客として見張る。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_rider"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "bg",
+   "src": "city",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "city"
+  },
+  {
+   "op": "nar",
+   "text": "夜。双月の光が、廃墟の街の石柱を青く照らしている。"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_rider",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "話しておきたいことがある。私はタルス・タルカスの娘なの。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "娘？　でもサークでは、子は卵から生まれ、親を知らずに育つと聞いた。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "母は掟を破って、父と愛し合った。そして私を隠して育て、それが見つかって殺された。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "父は何も言わない。でも、時々、私を見る目が少しだけ揺れる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "掟のせいで、親子が他人のふりをしているのか。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "あなたが来てから、この部族の空気が少し変わった。だから、私もあなたに賭けたい。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "デジャー・ソリスを連れて逃げて。新しい族長が、彼女を拷問にかけると決めたの。"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "一緒に逃げてくれるの？　ここから私の国まで、砂漠を何百キロも越えるのよ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "馬の代わりに八本足の獣を借りよう。重力が軽い分、私の体は丈夫だ。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "地球の男は、皆そんなに無茶なの？",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "少なくとも、ヴァージニアの騎兵はそうです。"
+  },
+  {
+   "op": "nar",
+   "text": "二人はソラとともに砂漠へ逃れ、何日も追手をかわしながら北へ向かった。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_rider"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "ヘリウムの王女よ。ゾダンガの王子サブ・サンとの婚礼を受け入れよ。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "そうすれば、我が国の艦隊はヘリウムを攻めぬ。拒めば、都は火の海だ。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "私の結婚を、和平の値段にしようというのですね。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "王女とはそういうものだ。お前の気持ちなど、艦隊の数には入っていない。",
+   "eyes": "anger"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "show",
+   "actor": "rei_rider",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "私がサブ・サンに嫁げば、ヘリウムの人々は死なずに済む。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "それは犠牲だ。選択とは呼べない。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "では、あなたなら何を選ぶの。剣で何万の艦隊と戦うつもり？"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "ひとりでは無理だ。だが、サークの戦士たちが味方につけば話は違う。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "緑色人と赤色人が、手を組む？　千年、殺し合ってきたのに。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "千年続いたことは、千一年目に変えてもいい。そう言ってくれた人が地球にいました。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_rider"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "bg",
+   "src": "arena",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "arena"
+  },
+  {
+   "op": "nar",
+   "text": "サークの円形闘技場。裏切り者として捕らえられたタルス・タルカスが、処刑を待っている。"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "娘を隠したことが知れた。掟に従い、私は今日、獣の餌になる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "show",
+   "actor": "rei_rider",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "その裁き、待て！　タルス・タルカスと戦ったことのある者として言う。",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "彼は掟を破ったのではない。掟が、彼に父親でいることを許さなかったのだ。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "カーター、なぜ戻った。お前には逃げ切る脚があっただろう。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "友を見捨てるために、跳ぶ脚をもらったわけじゃない。"
+  },
+  {
+   "op": "nar",
+   "text": "カーターは獣を倒し、新しい族長に一騎打ちで勝った。闘技場が静まりかえった。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "族長を倒した者が、次の族長になる。それがサークの掟だ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "ならば、族長の座はあなたに譲る。そして最初の命令を出してほしい。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "ヘリウムの都を救いに行く。略奪のためでなく、同盟のために。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "盗まずに戦えと言うのか。戦士たちは不満そうだぞ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "……だが、わが娘の顔を思い出すと、不思議と悪くない命令に思える。"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "お父さん。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "人前でその呼び方をするな。……いや、もうよい。今日からは、してよい。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_rider"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "nar",
+   "text": "緑色人の騎兵十万がヘリウムへ走り、ゾダンガの艦隊は空と地上からはさまれた。"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "野蛮な緑色人がなぜヘリウムに味方する！　艦を上げろ、退け、退けえ！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "rei_rider",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "ヘリウムは救われました。あなたと、サークの戦士たちのおかげで。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "父も祖父も、あなたに褒美を取らせると言っています。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "褒美なら、ひとつだけ。王女に、自分の意思で答えを出す時間を。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "もう出しています。私はあなたを選ぶ。和平の値段としてではなく、私自身の心で。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_rider"
+  },
+  {
+   "op": "bg",
+   "src": "atmosphere",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "atmosphere"
+  },
+  {
+   "op": "nar",
+   "text": "九年後。カーターとデジャー・ソリスの間には、卵がひとつ孵るのを待っていた。"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_rider",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "カーター、空気が薄い。大気工場の機械が止まったと知らせが来た。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "あの工場は、この星の空気をすべて作っているんだったね。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "扉は分厚い壁の奥。開け方を知っている技師は、もう倒れてしまった。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "カーターは、ひとりで工場へ走る",
+     "jump": "m_alone"
+    },
+    {
+     "text": "カーターは、サークの戦士に案内を頼む",
+     "jump": "m_together"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_alone"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "私が行く。地球の体なら、薄い空気でも少しは長く動ける。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "戻ってきて。卵が孵るとき、あなたにいてほしい。",
+   "eyes": "crying"
+  },
+  {
+   "op": "jump",
+   "to": "m_gate"
+  },
+  {
+   "op": "label",
+   "id": "m_together"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "乗れ。我が獣なら、工場まで一晩で着く。お前ひとりでは行かせん。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "ありがとう、友よ。サークとヘリウムの約束を、空気ごと守りに行こう。"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "label",
+   "id": "m_gate"
+  },
+  {
+   "op": "nar",
+   "text": "工場の扉の前。かつて捕虜の老技師から聞いた、九つの音の合図が、扉を開く鍵だった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "九つの音……思い出せ。指で叩いて、扉に伝えるんだ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "開いた！　中へ……あと少しで機械に手が届く……。"
+  },
+  {
+   "op": "nar",
+   "text": "そこで、カーターの目の前が暗くなった。"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_rider"
+  },
+  {
+   "op": "bg",
+   "src": "cave",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "cave"
+  },
+  {
+   "op": "show",
+   "actor": "rei_rider",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "……アリゾナの洞窟だ。私は、地球に戻っている。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "扉は開いたのか。機械は動いたのか。彼女は、卵は、無事なのか。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "あれから十年。夜になると、私は外に出て、赤い星を見上げる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "いつかもう一度、あの星へ跳べる気がしてならない。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_rider"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "『火星のプリンセス』、これにて幕です。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "違う肌の色、違う掟。それでも彼は、奪う代わりに、友になる道を選び続けました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "今夜、空に赤い星が見えたら、どこかで誰かが、まだ答えを待っていると思ってください。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }
