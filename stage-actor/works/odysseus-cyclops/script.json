@@ -1,1207 +1,658 @@
 {
-  "meta": {
-    "id": "odysseus-cyclops",
-    "title": "オデュッセウスとキュクロプス ―誰でもない者―",
-    "original": "『オデュッセイア』キュクロプス挿話（古典）",
-    "adaptation": "moderate",
-    "format": "v3",
-    "minutes": 34,
-    "synopsis": "漂着したオデュッセウス一行はキュクロプスの洞窟へ入り、巨石で閉じ込められる。巨人ポリュペモスは仲間を食べる。英雄は葡萄酒で眠らせ目を潰し、「誰でもない」の名で援軍を退け、羊の腹に隠れて脱出する。",
-    "note": "本脚本は翻案であり、原作・現代訳の文章の転載ではない。セリフはすべて本上演版の書き下ろし。"
+ "meta": {
+  "id": "odysseus-cyclops",
+  "title": "オデュッセウスとキュクロプス ―誰でもない者―",
+  "original": "『オデュッセイア』キュクロプス挿話（古典）",
+  "adaptation": "moderate",
+  "format": "v3",
+  "minutes": 18,
+  "synopsis": "漂着したオデュッセウス一行はキュクロプスの洞窟へ入り、巨石で閉じ込められる。巨人ポリュペモスは仲間を食べる。英雄は葡萄酒で眠らせ目を潰し、「誰でもない」の名で援軍を退け、羊の腹に隠れて脱出する。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "狂言回し",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "オデュッセウス",
-      "actor": "rei_rider",
-      "costume": "default"
-    },
-    {
-      "role": "ポリュペモス",
-      "actor": "iwao",
-      "costume": "default"
-    },
-    {
-      "role": "副官",
-      "actor": "yui",
-      "costume": "default"
-    },
-    {
-      "role": "船員",
-      "actor": "kurogane",
-      "costume": "default"
-    },
-    {
-      "role": "羊の群れ役",
-      "actor": "shiro",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "island": "bg/cyclops-island-2048x1152.png",
-    "cave": "bg/cyclops-cave-2048x1152.png",
-    "stone": "bg/sealed-cave-night-2048x1152.png",
-    "sheep": "bg/sheep-escape-dawn-2048x1152.png",
-    "sea": "bg/cyclops-curse-sea-2048x1152.png"
+  {
+   "role": "オデュッセウス",
+   "actor": "rei_rider",
+   "costume": "default"
   },
-  "steps": [
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『オデュッセウスとキュクロプス ―誰でもない者―』。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "一つ目の巨人へ名を問われ、英雄は「誰でもない」と答えます。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "今夜の核は「力で勝てない相手から、言葉と知恵で仲間を生かすこと」。急がず、長い物語としてお届けします。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "それでは開幕。役者たちの声と、場面の移ろいをお楽しみください。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "island",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "island"
-    },
-    {
-      "op": "nar",
-      "text": "断崖と黒い浜の島"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "一行が留守の洞窟で乳と家畜を見つけ、副官が退去を勧める。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "私はこの出来事を見届けた。一行が留守の洞窟で乳と家畜を見つけ、副官が退去を勧める。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "神々の言葉にも影がある。力が強いほど、責任も重くなる。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "運命を知ることと、運命に従うことは同じではない。",
-      "eyes": "joy"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「力で勝てない相手から、言葉と知恵で仲間を生かすこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "選べる一歩が残る限り、私はその一歩を自分で決める。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "ならば進め。代償まで見届けてこそ、選択は完成する。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "一行が留守の洞窟で乳と家畜を見つけ、副官が退去を勧める。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "オデュッセウスが客人への贈り物を期待して巨人を待つ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "私はこの出来事を見届けた。オデュッセウスが客人への贈り物を期待して巨人を待つ。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "怪物の姿だけを見て、善悪を決めてはいけない。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "だが、恐れは理屈より速い。心を整える時間が必要だ。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「力で勝てない相手から、言葉と知恵で仲間を生かすこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "恐れを消せなくても、知恵と約束を手放さずに進める。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "知恵は弱さの言い訳ではない。命を守るための力だ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "オデュッセウスが客人への贈り物を期待して巨人を待つ。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "show",
-      "actor": "iwao",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "ポリュペモスが巨石で入口を塞ぎ、客人の掟を嘲る。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "私はこの出来事を見届けた。ポリュペモスが巨石で入口を塞ぎ、客人の掟を嘲る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "神々の言葉にも影がある。力が強いほど、責任も重くなる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "運命を知ることと、運命に従うことは同じではない。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「力で勝てない相手から、言葉と知恵で仲間を生かすこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "選べる一歩が残る限り、私はその一歩を自分で決める。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "ならば進め。代償まで見届けてこそ、選択は完成する。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "ポリュペモスが巨石で入口を塞ぎ、客人の掟を嘲る。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "iwao"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "bg",
-      "src": "cave",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "cave"
-    },
-    {
-      "op": "nar",
-      "text": "乳籠と薪のある巨人の洞窟"
-    },
-    {
-      "op": "show",
-      "actor": "iwao",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "巨人が船員を捕らえ、一行へ恐怖を植えつける。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "私はこの出来事を見届けた。巨人が船員を捕らえ、一行へ恐怖を植えつける。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "怪物の姿だけを見て、善悪を決めてはいけない。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "だが、恐れは理屈より速い。心を整える時間が必要だ。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「力で勝てない相手から、言葉と知恵で仲間を生かすこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "恐れを消せなくても、知恵と約束を手放さずに進める。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "知恵は弱さの言い訳ではない。命を守るための力だ。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "巨人が船員を捕らえ、一行へ恐怖を植えつける。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "iwao"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "英雄が眠る巨人をすぐ殺せば石を動かせないと制止する。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "私はこの出来事を見届けた。英雄が眠る巨人をすぐ殺せば石を動かせないと制止する。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "神々の言葉にも影がある。力が強いほど、責任も重くなる。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "運命を知ることと、運命に従うことは同じではない。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「力で勝てない相手から、言葉と知恵で仲間を生かすこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "選べる一歩が残る限り、私はその一歩を自分で決める。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "ならば進め。代償まで見届けてこそ、選択は完成する。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "英雄が眠る巨人をすぐ殺せば石を動かせないと制止する。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "iwao",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "強い葡萄酒を差し出し、巨人の警戒を解く。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "私はこの出来事を見届けた。強い葡萄酒を差し出し、巨人の警戒を解く。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "怪物の姿だけを見て、善悪を決めてはいけない。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "だが、恐れは理屈より速い。心を整える時間が必要だ。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「力で勝てない相手から、言葉と知恵で仲間を生かすこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "恐れを消せなくても、知恵と約束を手放さずに進める。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "知恵は弱さの言い訳ではない。命を守るための力だ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "強い葡萄酒を差し出し、巨人の警戒を解く。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "hide",
-      "actor": "iwao"
-    },
-    {
-      "op": "bg",
-      "src": "stone",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "stone"
-    },
-    {
-      "op": "nar",
-      "text": "巨石で閉ざされた夜の洞窟"
-    },
-    {
-      "op": "show",
-      "actor": "iwao",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "巨人が名を尋ね、英雄が「誰でもない」と答える。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "私はこの出来事を見届けた。巨人が名を尋ね、英雄が「誰でもない」と答える。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "神々の言葉にも影がある。力が強いほど、責任も重くなる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "運命を知ることと、運命に従うことは同じではない。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「力で勝てない相手から、言葉と知恵で仲間を生かすこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "選べる一歩が残る限り、私はその一歩を自分で決める。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "ならば進め。代償まで見届けてこそ、選択は完成する。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "巨人が名を尋ね、英雄が「誰でもない」と答える。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "iwao"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "船員たちがオリーブの杭を焼き、先端を固める。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "私はこの出来事を見届けた。船員たちがオリーブの杭を焼き、先端を固める。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "怪物の姿だけを見て、善悪を決めてはいけない。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "だが、恐れは理屈より速い。心を整える時間が必要だ。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「力で勝てない相手から、言葉と知恵で仲間を生かすこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "恐れを消せなくても、知恵と約束を手放さずに進める。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "知恵は弱さの言い訳ではない。命を守るための力だ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "船員たちがオリーブの杭を焼き、先端を固める。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "iwao",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "眠った巨人の一つ目へ杭を突き立てる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "私はこの出来事を見届けた。眠った巨人の一つ目へ杭を突き立てる。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "神々の言葉にも影がある。力が強いほど、責任も重くなる。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "運命を知ることと、運命に従うことは同じではない。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「力で勝てない相手から、言葉と知恵で仲間を生かすこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "選べる一歩が残る限り、私はその一歩を自分で決める。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "ならば進め。代償まで見届けてこそ、選択は完成する。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "眠った巨人の一つ目へ杭を突き立てる。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "hide",
-      "actor": "iwao"
-    },
-    {
-      "op": "bg",
-      "src": "sheep",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "sheep"
-    },
-    {
-      "op": "nar",
-      "text": "羊が出口へ向かう薄明"
-    },
-    {
-      "op": "show",
-      "actor": "iwao",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "巨人が仲間へ「誰でもない者にやられた」と叫び、助けを得られない。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "私はこの出来事を見届けた。巨人が仲間へ「誰でもない者にやられた」と叫び、助けを得られない。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "怪物の姿だけを見て、善悪を決めてはいけない。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "だが、恐れは理屈より速い。心を整える時間が必要だ。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「力で勝てない相手から、言葉と知恵で仲間を生かすこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "恐れを消せなくても、知恵と約束を手放さずに進める。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "知恵は弱さの言い訳ではない。命を守るための力だ。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "巨人が仲間へ「誰でもない者にやられた」と叫び、助けを得られない。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "hide",
-      "actor": "iwao"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "羊の腹へ三人ずつ身を結び、巨人の手を避ける。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "私はこの出来事を見届けた。羊の腹へ三人ずつ身を結び、巨人の手を避ける。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "神々の言葉にも影がある。力が強いほど、責任も重くなる。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "運命を知ることと、運命に従うことは同じではない。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「力で勝てない相手から、言葉と知恵で仲間を生かすこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "選べる一歩が残る限り、私はその一歩を自分で決める。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "ならば進め。代償まで見届けてこそ、選択は完成する。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "羊の腹へ三人ずつ身を結び、巨人の手を避ける。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "show",
-      "actor": "iwao",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "巨人が羊の背だけを触り、脱出者を見落とす。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "私はこの出来事を見届けた。巨人が羊の背だけを触り、脱出者を見落とす。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "怪物の姿だけを見て、善悪を決めてはいけない。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "だが、恐れは理屈より速い。心を整える時間が必要だ。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「力で勝てない相手から、言葉と知恵で仲間を生かすこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "恐れを消せなくても、知恵と約束を手放さずに進める。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "知恵は弱さの言い訳ではない。命を守るための力だ。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "巨人が羊の背だけを触り、脱出者を見落とす。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "iwao"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "bg",
-      "src": "sea",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "sea"
-    },
-    {
-      "op": "nar",
-      "text": "船と断崖を隔てる荒海"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "全員が船へ走り、積み荷を捨てて岸を離れる。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "私はこの出来事を見届けた。全員が船へ走り、積み荷を捨てて岸を離れる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "神々の言葉にも影がある。力が強いほど、責任も重くなる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "運命を知ることと、運命に従うことは同じではない。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「力で勝てない相手から、言葉と知恵で仲間を生かすこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "選べる一歩が残る限り、私はその一歩を自分で決める。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "ならば進め。代償まで見届けてこそ、選択は完成する。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "全員が船へ走り、積み荷を捨てて岸を離れる。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "安全圏で英雄が本名を叫ぼうとし、副官が止める。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "私はこの出来事を見届けた。安全圏で英雄が本名を叫ぼうとし、副官が止める。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "怪物の姿だけを見て、善悪を決めてはいけない。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "だが、恐れは理屈より速い。心を整える時間が必要だ。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「力で勝てない相手から、言葉と知恵で仲間を生かすこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "恐れを消せなくても、知恵と約束を手放さずに進める。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "知恵は弱さの言い訳ではない。命を守るための力だ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "安全圏で英雄が本名を叫ぼうとし、副官が止める。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "show",
-      "actor": "iwao",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_rider",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "本名を知った巨人が父ポセイドンへ長い帰路を祈願する。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "私はこの出来事を見届けた。本名を知った巨人が父ポセイドンへ長い帰路を祈願する。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "神々の言葉にも影がある。力が強いほど、責任も重くなる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "運命を知ることと、運命に従うことは同じではない。",
-      "eyes": "normal"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「力で勝てない相手から、言葉と知恵で仲間を生かすこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "選べる一歩が残る限り、私はその一歩を自分で決める。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "ならば進め。代償まで見届けてこそ、選択は完成する。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "本名を知った巨人が父ポセイドンへ長い帰路を祈願する。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_rider",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "hide",
-      "actor": "iwao"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_rider"
-    },
-    {
-      "op": "bg",
-      "src": "sea"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "脱出後の誇りから本名を叫んだため、海神の怒りを招く。知恵の勝利は、慢心という新たな航路を残した。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "長い旅の果てに残ったのは、「力で勝てない相手から、言葉と知恵で仲間を生かすこと」という問いでした。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "答えは一つではありません。けれど、登場人物たちの選択は消えません。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "『オデュッセウスとキュクロプス ―誰でもない者―』、これにて終幕。ありがとうございました。"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "end"
+  {
+   "role": "ポリュペモス",
+   "actor": "iwao",
+   "costume": "default"
+  },
+  {
+   "role": "副官",
+   "actor": "yui",
+   "costume": "default"
+  },
+  {
+   "role": "船員",
+   "actor": "kurogane",
+   "costume": "default"
+  },
+  {
+   "role": "羊の群れ役",
+   "actor": "shiro",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "island": "bg/cyclops-island-2048x1152.png",
+  "cave": "bg/cyclops-cave-2048x1152.png",
+  "stone": "bg/sealed-cave-night-2048x1152.png",
+  "sheep": "bg/sheep-escape-dawn-2048x1152.png",
+  "sea": "bg/cyclops-curse-sea-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "名前を聞かれて、「誰でもない」と答えた英雄がいます。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "古代ギリシャの叙事詩『オデュッセイア』。トロイア戦争の帰り道、十年さまよった男の物語です。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "今夜はその中でも有名な一夜。一つ目の巨人の洞窟から、どうやって逃げ出したか。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "力では絶対にかなわない相手。武器は、口先と葡萄酒と、羊の毛だけです。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "island",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "island"
+  },
+  {
+   "op": "nar",
+   "text": "断崖と黒い浜の島。戦から帰る船団のうち、一隻が水と食料を求めて岸へ着いた。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_rider",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "山羊の足跡が多い。洞窟の入口に、乳を搾る桶が並んでいる。住む者がいるな。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "隊長、チーズを少しいただいて、すぐ船へ戻りましょう。嫌な予感がします。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "いや、待とう。客を迎える者なら、贈り物をくれるだろう。ギリシャの掟では、客は神々に守られている。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "その掟が、この島にもあればいいのですが。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "船から一番強い葡萄酒を一袋持ってきた。礼儀には礼儀で返す。"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "洞窟の中に、人の背より大きなチーズが並んでいます！"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_rider"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "bg",
+   "src": "cave",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "cave"
+  },
+  {
+   "op": "nar",
+   "text": "巨人の洞窟。乳の籠、薪の山。夕方、地響きとともに、山のような影が羊を連れて帰ってきた。"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "羊ども、入れ。入口を閉めるぞ。"
+  },
+  {
+   "op": "nar",
+   "text": "巨人は、二十二台の荷車でも動かせない大岩で、入口をふさいだ。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……誰だ。わしの洞窟で、火を焚いておるのは。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "show",
+   "actor": "rei_rider",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "我らはギリシャの者、海で道に迷った旅人。どうか客として、もてなしていただきたい。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "客？　キュクロプスは、神も掟も気にせぬ。わしはポリュペモス。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "お前たちの船は、どこにつないである。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "……船は、海神の嵐で岩に砕けました。我らだけが生き残った。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "そうか。では夕飯にしよう。"
+  },
+  {
+   "op": "nar",
+   "text": "巨人は二人の船員をつかみ、それきり洞窟は静かになった。"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_rider"
+  },
+  {
+   "op": "bg",
+   "src": "stone",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "stone"
+  },
+  {
+   "op": "nar",
+   "text": "夜。巨人は眠っている。生き残った者たちが、焚き火の陰に身を寄せている。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_rider",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "隊長、今のうちに剣で刺しましょう。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "刺せば、巨人は死ぬ。そして、我々もここで死ぬ。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "なぜです。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "あの大岩を、誰が動かす。我々の力では、指一本分も動かない。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "生かしておかなければ、ここから出られない……。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "巨人の杖を見たか。オリーブの丸太だ。先を尖らせて、火で焼いて硬くしておこう。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "葡萄酒を飲ませる。眠りが深くなったところで、あの一つ目を……。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_rider"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "rei_rider",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "ポリュペモス殿、これを。ギリシャの葡萄酒です。お口に合えば。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "甘い！　蜜のようだ。もう一杯。もう一杯よこせ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "気に入った。お前、名を何という。礼に、ひとつ贈り物をやろう。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "私の名は「誰でもない」。父も母も、仲間も皆、そう呼びます。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "誰でもない、か。では「誰でもない」には、最後に食ってやるという贈り物をやろう。",
+   "eyes": "fun"
+  },
+  {
+   "op": "nar",
+   "text": "巨人は笑いながら仰向けに倒れ、いびきをかき始めた。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "オデュッセウスは、仲間全員で丸太を担ぐ",
+     "jump": "m_all"
+    },
+    {
+     "text": "オデュッセウスは、くじで選んだ四人と担ぐ",
+     "jump": "m_four"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_all"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "全員で担げ。今夜、誰か一人に重荷を背負わせはしない。"
+  },
+  {
+   "op": "jump",
+   "to": "m_strike"
+  },
+  {
+   "op": "label",
+   "id": "m_four"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "くじで四人。私が五人目だ。残りは、灯りを掲げていろ。"
+  },
+  {
+   "op": "label",
+   "id": "m_strike"
+  },
+  {
+   "op": "nar",
+   "text": "赤く焼けた丸太の先が、巨人のひとつ目に突き立った。洞窟が、悲鳴で揺れた。"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_rider"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "目が！　目がああ！　仲間たち、来てくれ！",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "近くの洞窟から、キュクロプスたちが集まってきた。大岩の外から声がする。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "誰でもないが、わしを殺そうとしている！　誰でもないが、だまし討ちを！"
+  },
+  {
+   "op": "nar",
+   "text": "外の巨人たちは笑い出した。誰でもないがやったのなら、それはゼウスの病だ、父なる海神に祈れ、と言って帰っていった。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "違う、そういう意味では……行くな、戻ってこい……。",
+   "eyes": "crying"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "bg",
+   "src": "sheep",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "sheep"
+  },
+  {
+   "op": "nar",
+   "text": "夜明け前。目の見えない巨人は大岩をずらし、入口に座って、出ていく羊の背を一頭ずつなでている。"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "羊の背に乗って逃げようとしても無駄だ。一頭ずつ、背中を確かめてやる。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_rider",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "背中はな。……だから我々は、腹の下にしがみつく。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "三頭ずつ柳の枝で結び、真ん中の羊の腹の下に、一人ずつ縛りつけた。"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "めえ。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "行け、行け。……おや、お前か。群れの先頭をいつも行くお前が、今朝は一番後ろだな。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "主人の目がつぶされたのを、悲しんでいるのか。お前に言葉があれば、あやつの居所を教えてくれるのに。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "その羊の腹の下で、オデュッセウスは、毛をつかむ手に力をこめていた。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "めええ……（腹の下が重たい、とでも言いたげに）"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_rider"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "bg",
+   "src": "sea",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "sea"
+  },
+  {
+   "op": "nar",
+   "text": "荒れた海。船は岸を離れ、断崖の上に、巨人の影が立っている。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_rider",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "出られた！　漕げ、漕げ！　船は無事だ！",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "……ポリュペモス！　聞こえるか！",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "隊長、やめてください！　声で居場所が分かってしまう！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "お前の目を奪ったのは「誰でもない」ではない！　イタケの王、オデュッセウスだ！",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "オデュッセウス……。昔の予言どおりだ。わしの目をつぶす男の名は、それだった。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "父なる海神ポセイドンよ！　あの男が、二度と故郷へ帰れぬように！",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "巨人の投げた大岩が、船のすぐ後ろに落ち、大波が船を押し戻した。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_rider"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "show",
+   "actor": "rei_rider",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "名を隠したことで、我々は生き延びた。名を叫んだことで、海を敵に回した。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "十年、故郷へ帰れなかった理由の始まりは、あの一言だったのかもしれない。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_rider"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "『オデュッセウスとキュクロプス』、これにて幕です。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "力ではかなわない相手に、言葉で勝った英雄。でも最後に、自慢したくなって名を叫びました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "知恵で拾った命を、誇りで危うくする。三千年前から、人はあまり変わらないようです。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "勝ったあとほど、口はしっかり閉じておきましょう。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

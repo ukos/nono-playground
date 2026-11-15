@@ -1,1215 +1,575 @@
 {
-  "meta": {
-    "id": "orpheus-eurydice",
-    "title": "オルフェウスとエウリュディケ ―振り返る歌―",
-    "original": "ギリシャ神話「オルフェウスとエウリュディケ」（古典）",
-    "adaptation": "moderate",
-    "format": "v3",
-    "minutes": 32,
-    "synopsis": "エウリュディケを蛇の事故で失ったオルフェウスは、竪琴の歌で冥界へ下る。ハデスとペルセポネは、地上へ出るまで後ろを見ない条件で帰還を許す。出口目前、足音を確かめられず振り返る。",
-    "note": "本脚本は翻案であり、原作・現代訳の文章の転載ではない。セリフはすべて本上演版の書き下ろし。"
+ "meta": {
+  "id": "orpheus-eurydice",
+  "title": "オルフェウスとエウリュディケ ―振り返る歌―",
+  "original": "ギリシャ神話「オルフェウスとエウリュディケ」（古典）",
+  "adaptation": "moderate",
+  "format": "v3",
+  "minutes": 17,
+  "synopsis": "エウリュディケを蛇の事故で失ったオルフェウスは、竪琴の歌で冥界へ下る。ハデスとペルセポネは、地上へ出るまで後ろを見ない条件で帰還を許す。出口目前、足音を確かめられず振り返る。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "狂言回し",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "エウリュディケ",
-      "actor": "rei_casual",
-      "costume": "default"
-    },
-    {
-      "role": "オルフェウス",
-      "actor": "yui",
-      "costume": "default"
-    },
-    {
-      "role": "ハデス",
-      "actor": "extra_skeleton",
-      "costume": "default"
-    },
-    {
-      "role": "ペルセポネ",
-      "actor": "mei",
-      "costume": "default"
-    },
-    {
-      "role": "渡し守カロン",
-      "actor": "extra_elder",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "wedding": "bg/orpheus-wedding-grove-2048x1152.png",
-    "descent": "bg/underworld-descent-2048x1152.png",
-    "throne": "bg/hades-throne-2048x1152.png",
-    "ascent": "bg/no-turning-path-2048x1152.png",
-    "dawn": "bg/orpheus-alone-dawn-2048x1152.png"
+  {
+   "role": "エウリュディケ",
+   "actor": "rei_casual",
+   "costume": "default"
   },
-  "steps": [
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『オルフェウスとエウリュディケ ―振り返る歌―』。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "冥界から愛する人を連れ戻す条件は、地上へ出るまで振り返らないこと。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "今夜の核は「愛は相手を所有するのでなく、信じて歩幅を待つこと」。急がず、長い物語としてお届けします。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "それでは開幕。役者たちの声と、場面の移ろいをお楽しみください。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "wedding",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "wedding"
-    },
-    {
-      "op": "nar",
-      "text": "花冠と竪琴のある婚礼の森"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "婚礼の日、二人が互いの歩幅を合わせて生きると誓う。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "私はこの出来事を見届けた。婚礼の日、二人が互いの歩幅を合わせて生きると誓う。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "神々の言葉にも影がある。力が強いほど、責任も重くなる。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "運命を知ることと、運命に従うことは同じではない。",
-      "eyes": "joy"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「愛は相手を所有するのでなく、信じて歩幅を待つこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "選べる一歩が残る限り、私はその一歩を自分で決める。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "ならば進め。代償まで見届けてこそ、選択は完成する。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "婚礼の日、二人が互いの歩幅を合わせて生きると誓う。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "nar",
-      "text": "森で蛇に噛まれたエウリュディケが急に倒れる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "私はこの出来事を見届けた。森で蛇に噛まれたエウリュディケが急に倒れる。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "怪物の姿だけを見て、善悪を決めてはいけない。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "だが、恐れは理屈より速い。心を整える時間が必要だ。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「愛は相手を所有するのでなく、信じて歩幅を待つこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "恐れを消せなくても、知恵と約束を手放さずに進める。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "知恵は弱さの言い訳ではない。命を守るための力だ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "森で蛇に噛まれたエウリュディケが急に倒れる。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elder",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "オルフェウスが冥界の渡し守へ歌で道を求める。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "私はこの出来事を見届けた。オルフェウスが冥界の渡し守へ歌で道を求める。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "神々の言葉にも影がある。力が強いほど、責任も重くなる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "運命を知ることと、運命に従うことは同じではない。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「愛は相手を所有するのでなく、信じて歩幅を待つこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "選べる一歩が残る限り、私はその一歩を自分で決める。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "ならば進め。代償まで見届けてこそ、選択は完成する。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "オルフェウスが冥界の渡し守へ歌で道を求める。――この出来事を忘れず、次の判断へつなげよう。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elder"
-    },
-    {
-      "op": "bg",
-      "src": "descent",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "descent"
-    },
-    {
-      "op": "nar",
-      "text": "地下へ続く岩の階段"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elder",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "カロンが生者を渡さない掟と、歌に揺れる心の間で迷う。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "私はこの出来事を見届けた。カロンが生者を渡さない掟と、歌に揺れる心の間で迷う。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "怪物の姿だけを見て、善悪を決めてはいけない。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "だが、恐れは理屈より速い。心を整える時間が必要だ。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「愛は相手を所有するのでなく、信じて歩幅を待つこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "恐れを消せなくても、知恵と約束を手放さずに進める。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "知恵は弱さの言い訳ではない。命を守るための力だ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "カロンが生者を渡さない掟と、歌に揺れる心の間で迷う。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elder"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_skeleton",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "冥王の前で、死を否定せず一人を返してほしいと歌う。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "私はこの出来事を見届けた。冥王の前で、死を否定せず一人を返してほしいと歌う。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "神々の言葉にも影がある。力が強いほど、責任も重くなる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "運命を知ることと、運命に従うことは同じではない。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「愛は相手を所有するのでなく、信じて歩幅を待つこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "選べる一歩が残る限り、私はその一歩を自分で決める。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "ならば進め。代償まで見届けてこそ、選択は完成する。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "冥王の前で、死を否定せず一人を返してほしいと歌う。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_skeleton"
-    },
-    {
-      "op": "show",
-      "actor": "mei",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "ペルセポネがエウリュディケへ地上へ戻る意志を尋ねる。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "私はこの出来事を見届けた。ペルセポネがエウリュディケへ地上へ戻る意志を尋ねる。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "怪物の姿だけを見て、善悪を決めてはいけない。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "だが、恐れは理屈より速い。心を整える時間が必要だ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「愛は相手を所有するのでなく、信じて歩幅を待つこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "恐れを消せなくても、知恵と約束を手放さずに進める。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "知恵は弱さの言い訳ではない。命を守るための力だ。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "mei",
-      "text": "ペルセポネがエウリュディケへ地上へ戻る意志を尋ねる。――この出来事を忘れず、次の判断へつなげよう。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "mei"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "bg",
-      "src": "throne",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "throne"
-    },
-    {
-      "op": "nar",
-      "text": "静かな冥王の広間"
-    },
-    {
-      "op": "show",
-      "actor": "extra_skeleton",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "ハデスが振り返らず地上へ出るという条件を示す。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "私はこの出来事を見届けた。ハデスが振り返らず地上へ出るという条件を示す。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "神々の言葉にも影がある。力が強いほど、責任も重くなる。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "運命を知ることと、運命に従うことは同じではない。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「愛は相手を所有するのでなく、信じて歩幅を待つこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "選べる一歩が残る限り、私はその一歩を自分で決める。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "ならば進め。代償まで見届けてこそ、選択は完成する。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "ハデスが振り返らず地上へ出るという条件を示す。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_skeleton"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "二人が声を交わさず、細い道を一列に歩き始める。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "私はこの出来事を見届けた。二人が声を交わさず、細い道を一列に歩き始める。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "怪物の姿だけを見て、善悪を決めてはいけない。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "だが、恐れは理屈より速い。心を整える時間が必要だ。",
-      "eyes": "normal"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「愛は相手を所有するのでなく、信じて歩幅を待つこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "恐れを消せなくても、知恵と約束を手放さずに進める。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "知恵は弱さの言い訳ではない。命を守るための力だ。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "二人が声を交わさず、細い道を一列に歩き始める。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "anger",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "エウリュディケの足音が遠のき、オルフェウスが不安になる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "私はこの出来事を見届けた。エウリュディケの足音が遠のき、オルフェウスが不安になる。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "神々の言葉にも影がある。力が強いほど、責任も重くなる。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "運命を知ることと、運命に従うことは同じではない。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「愛は相手を所有するのでなく、信じて歩幅を待つこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "選べる一歩が残る限り、私はその一歩を自分で決める。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "ならば進め。代償まで見届けてこそ、選択は完成する。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "エウリュディケの足音が遠のき、オルフェウスが不安になる。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "bg",
-      "src": "ascent",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "ascent"
-    },
-    {
-      "op": "nar",
-      "text": "一列で歩く暗い上り道"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_skeleton",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "見えない相手を信じることが試練の本体だと気づく。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "私はこの出来事を見届けた。見えない相手を信じることが試練の本体だと気づく。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "怪物の姿だけを見て、善悪を決めてはいけない。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "だが、恐れは理屈より速い。心を整える時間が必要だ。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「愛は相手を所有するのでなく、信じて歩幅を待つこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "恐れを消せなくても、知恵と約束を手放さずに進める。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "知恵は弱さの言い訳ではない。命を守るための力だ。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "見えない相手を信じることが試練の本体だと気づく。――この出来事を忘れず、次の判断へつなげよう。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_skeleton"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "出口の光が見え、エウリュディケがまだ影の中に残る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "私はこの出来事を見届けた。出口の光が見え、エウリュディケがまだ影の中に残る。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "神々の言葉にも影がある。力が強いほど、責任も重くなる。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "運命を知ることと、運命に従うことは同じではない。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「愛は相手を所有するのでなく、信じて歩幅を待つこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "選べる一歩が残る限り、私はその一歩を自分で決める。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "ならば進め。代償まで見届けてこそ、選択は完成する。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "出口の光が見え、エウリュディケがまだ影の中に残る。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "オルフェウスが地上へ出た瞬間に振り返ってしまう。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "私はこの出来事を見届けた。オルフェウスが地上へ出た瞬間に振り返ってしまう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "怪物の姿だけを見て、善悪を決めてはいけない。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "だが、恐れは理屈より速い。心を整える時間が必要だ。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「愛は相手を所有するのでなく、信じて歩幅を待つこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "恐れを消せなくても、知恵と約束を手放さずに進める。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "知恵は弱さの言い訳ではない。命を守るための力だ。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "オルフェウスが地上へ出た瞬間に振り返ってしまう。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "bg",
-      "src": "dawn",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "dawn"
-    },
-    {
-      "op": "nar",
-      "text": "出口の光と一人の竪琴"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "エウリュディケが責めず、二度目の別れを短く告げる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "私はこの出来事を見届けた。エウリュディケが責めず、二度目の別れを短く告げる。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "神々の言葉にも影がある。力が強いほど、責任も重くなる。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "運命を知ることと、運命に従うことは同じではない。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「愛は相手を所有するのでなく、信じて歩幅を待つこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "選べる一歩が残る限り、私はその一歩を自分で決める。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "ならば進め。代償まで見届けてこそ、選択は完成する。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "エウリュディケが責めず、二度目の別れを短く告げる。――この出来事を忘れず、次の判断へつなげよう。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elder",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "閉じた門の前で再び渡してほしいと願うが拒まれる。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "私はこの出来事を見届けた。閉じた門の前で再び渡してほしいと願うが拒まれる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "怪物の姿だけを見て、善悪を決めてはいけない。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "だが、恐れは理屈より速い。心を整える時間が必要だ。"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「愛は相手を所有するのでなく、信じて歩幅を待つこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "恐れを消せなくても、知恵と約束を手放さずに進める。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "知恵は弱さの言い訳ではない。命を守るための力だ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "閉じた門の前で再び渡してほしいと願うが拒まれる。――この出来事を忘れず、次の判断へつなげよう。",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elder"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "地上で竪琴を奏で、彼女の記憶を所有せず語り継ぐ。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "私はこの出来事を見届けた。地上で竪琴を奏で、彼女の記憶を所有せず語り継ぐ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "力だけでなく、約束と代償がどこへ続くかを見よう。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "神々の言葉にも影がある。力が強いほど、責任も重くなる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "運命を知ることと、運命に従うことは同じではない。",
-      "eyes": "normal"
-    },
-    {
-      "op": "nar",
-      "text": "言葉の余韻が残る。二人は「愛は相手を所有するのでなく、信じて歩幅を待つこと」を胸に、次の局面へ進んだ。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "選べる一歩が残る限り、私はその一歩を自分で決める。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "ならば進め。代償まで見届けてこそ、選択は完成する。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "地上で竪琴を奏で、彼女の記憶を所有せず語り継ぐ。――この出来事を忘れず、次の判断へつなげよう。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "うなずくだけでは足りない。行いで、その言葉の重さを示そう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "bg",
-      "src": "dawn"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "二度目の別れの後、オルフェウスは歌を記憶として地上へ持ち帰る。失敗は愛の不在でなく、信じ切れなかった一瞬として残る。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "長い旅の果てに残ったのは、「愛は相手を所有するのでなく、信じて歩幅を待つこと」という問いでした。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "答えは一つではありません。けれど、登場人物たちの選択は消えません。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "『オルフェウスとエウリュディケ ―振り返る歌―』、これにて終幕。ありがとうございました。"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "end"
+  {
+   "role": "オルフェウス",
+   "actor": "yui",
+   "costume": "default"
+  },
+  {
+   "role": "ハデス",
+   "actor": "extra_skeleton",
+   "costume": "default"
+  },
+  {
+   "role": "ペルセポネ",
+   "actor": "mei",
+   "costume": "default"
+  },
+  {
+   "role": "渡し守カロン",
+   "actor": "extra_elder",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "wedding": "bg/orpheus-wedding-grove-2048x1152.png",
+  "descent": "bg/underworld-descent-2048x1152.png",
+  "throne": "bg/hades-throne-2048x1152.png",
+  "ascent": "bg/no-turning-path-2048x1152.png",
+  "dawn": "bg/orpheus-alone-dawn-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ギリシャ神話でいちばん歌がうまかったのは、オルフェウスという若者です。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "彼が竪琴を弾くと、獣は牙を収め、木々は枝を寄せ、岩までが耳を傾けたといいます。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "その歌が、死の国の扉まで開いてしまった、という物語。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "最後の一歩まで、どうか後ろを振り返らずに、聴いてください。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "wedding",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "wedding"
+  },
+  {
+   "op": "nar",
+   "text": "花冠の揺れる森。婚礼の宴の音楽が、木々の間に流れている。"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "エウリュディケ。今日から君と、同じ朝を迎えられる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "あなたの竪琴で起こしてね。目覚まし代わりに、毎朝、一曲。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "一曲では足りない。目が覚めるまで、何曲でも弾くよ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "冷たい川の水で、足を洗ってくるわ。踊りすぎて、草の汁だらけ。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "nar",
+   "text": "しばらくして、川辺から短い悲鳴が聞こえた。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "エウリュディケ？",
+   "eyes": "surprise"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "草の中に、蛇が……足首が、熱い……。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "動かないで。今、誰か呼んでくる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……行かないで。歌って。あなたの声が、遠くなる……。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "婚礼の花冠が、草の上に落ちた。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "何日たっても、竪琴の弦が涙で湿って、まともな音が出ない。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "神々よ、なぜあの人だった。まだ一度も、目覚ましの歌を弾いていないのに。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……迎えに行く。生きたまま、死者の国へ。",
+   "eyes": "anger"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "bg",
+   "src": "descent",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "descent"
+  },
+  {
+   "op": "nar",
+   "text": "地下へ続く岩の階段。下りるほど空気は冷たく、音が吸い込まれていく。"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "光が届かない。それでも、竪琴を弾きながら下りていく。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "暗い川のほとりで、渡し守カロンが首を横に振った。生きた者は乗せぬ、と。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "舟賃の銀貨は持っていない。代わりに、この歌を。"
+  },
+  {
+   "op": "nar",
+   "text": "オルフェウスが歌うと、カロンの硬い手から、櫂がゆっくりと下ろされた。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……乗せてくれるのですね。ありがとう。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "冥界の番犬は三つの頭をそろえて眠り込み、罰を受けていた亡者たちまで、苦しみを一時忘れた。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "bg",
+   "src": "throne",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "throne"
+  },
+  {
+   "op": "nar",
+   "text": "冥王の広間。音のない玉座に、冥王ハデスと、妃ペルセポネが座っている。"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_skeleton",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "冥界の王よ。妃よ。私の妻、エウリュディケを、どうか返してください。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "一度花を咲かせた木は、いつかは枯れて、あなたの国へ来ます。私も、あの人も。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "ただ、それが早すぎました。せめて、あと何十年か、二人で生きる時間を。"
+  },
+  {
+   "op": "nar",
+   "text": "竪琴の音が広間に満ちると、冥王の骨のような頬に、冷たい涙がひとすじ伝った。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "あなた……。私も、春が来るたびに母のもとへ帰ります。待つ人のいる苦しさは知っている。"
+  },
+  {
+   "op": "nar",
+   "text": "ハデスはしばらく黙ったあと、ゆっくりと手を上げた。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "冥王はお許しになりました。ただし、ひとつだけ約束を。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "地上の光に、二人とも出るまで、決して後ろを振り返ってはいけません。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "振り返ったら。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "二度と、会えません。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……約束します。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_skeleton"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "bg",
+   "src": "ascent",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "ascent"
+  },
+  {
+   "op": "nar",
+   "text": "暗い上り坂。オルフェウスが先を歩き、後ろに、エウリュディケが続いているはずだった。"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "足音が、聞こえない。死者は、音を立てずに歩くのだろうか。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "衣擦れも、息づかいも聞こえない。本当に、ついてきてくれているのか。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "冥王に、だまされたのではないか。私をひとりで地上へ帰すための、作り話では。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "いや。信じると約束した。前だけを見て歩く。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "坂の上に、小さな光の点が見えてきた。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "光だ。あと少し。……あと少しなのに、心臓が、どうしても静まらない。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "オルフェウスは、名前を呼んでみる",
+     "jump": "m_call"
+    },
+    {
+     "text": "オルフェウスは、黙って歩き続ける",
+     "jump": "m_walk"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_call"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "エウリュディケ。いるなら、返事をして。"
+  },
+  {
+   "op": "nar",
+   "text": "返事はなかった。死者は、地上に出るまで声を出すことを許されていなかった。"
+  },
+  {
+   "op": "jump",
+   "to": "m_turn"
+  },
+  {
+   "op": "label",
+   "id": "m_walk"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "光が、もう足元を照らしている。私は……出た。地上の土を踏んだ。"
+  },
+  {
+   "op": "label",
+   "id": "m_turn"
+  },
+  {
+   "op": "nar",
+   "text": "その瞬間、オルフェウスは振り返った。エウリュディケの片足は、まだ暗がりの中にあった。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……あ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "待って、エウリュディケ！　まだ光の外に……！",
+   "eyes": "crying",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "振り返ってくれたのね。会いたかったのね。……さようなら。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "伸ばした指先の間で、彼女の姿は、霧のように後ろへ引かれて消えた。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "bg",
+   "src": "dawn",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "dawn"
+  },
+  {
+   "op": "nar",
+   "text": "地上の出口。朝の光の中に、ひとり、竪琴を抱いた若者が座っている。"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "もう一度、川を渡らせてほしいと頼んだ。渡し守は、二度と舟を出さなかった。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "疑ったのは、あの人ではない。信じきれなかった、私の心だ。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "足音が聞こえないだけで、待つことができなかった。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "それでも、歌うことだけは、やめない。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "エウリュディケ。目覚ましの歌を、ここで弾くよ。君の起きる朝が、もう来なくても。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "『オルフェウスとエウリュディケ』、これにて幕です。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "冥界の王さえ泣かせた歌でも、最後の一歩の不安には勝てませんでした。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "見えない相手を信じて待つことは、竪琴を弾くより、ずっと難しいのかもしれません。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "誰かがすぐ後ろを歩いてくれているなら、声が聞こえなくても、少しだけ信じてあげてください。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }
