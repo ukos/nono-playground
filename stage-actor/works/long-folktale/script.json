@@ -1,722 +1,1036 @@
 {
-  "meta": {
-    "id": "long-folktale",
-    "number": 143,
-    "title": "長すぎる昔話 ―前置きで竜退治―",
-    "original": "NONO座オリジナル新作漫才",
-    "category": "新作漫才",
-    "adaptation": "free",
-    "format": "v3",
-    "minutes": 22,
-    "synopsis": "全五景で「語りたい背景と、聞き手が今ほしい本題を見分ける」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
-    "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+ "meta": {
+  "id": "long-folktale",
+  "number": 143,
+  "title": "長すぎる昔話 ―前置きで竜退治―",
+  "original": "NONO座オリジナル新作漫才",
+  "category": "新作漫才",
+  "adaptation": "free",
+  "format": "v3",
+  "minutes": 24,
+  "synopsis": "全五景で「語りたい背景と、聞き手が今ほしい本題を見分ける」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "語り手／ボケ",
+   "actor": "mizuchi",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "語り手／ボケ",
-      "actor": "mizuchi",
-      "costume": "default"
-    },
-    {
-      "role": "聞き手／ツッコミ",
-      "actor": "nono",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "story_stage": "bg/long-folktale-story_stage-2048x1152.png",
-    "ancestor_chart": "bg/long-folktale-ancestor_chart-2048x1152.png",
-    "dragon_childhood": "bg/long-folktale-dragon_childhood-2048x1152.png",
-    "offstage_battle": "bg/long-folktale-offstage_battle-2048x1152.png",
-    "epilogue_start": "bg/long-folktale-epilogue_start-2048x1152.png"
+  {
+   "role": "聞き手／ツッコミ",
+   "actor": "nono",
+   "costume": "default"
   },
-  "steps": [
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『長すぎる昔話』。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "新作漫才の一席を、全五景でお届けします。",
-      "mouth": "open",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "この舞台の核は「語りたい背景と、聞き手が今ほしい本題を見分ける」。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "台詞はすべて今夜のための書き下ろしです。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "それでは、幕を開けましょう。",
-      "mouth": "open",
-      "eyes": "joy"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "story_stage",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "story_stage"
-    },
-    {
-      "op": "nar",
-      "text": "第1景「昔話の語り台」。竜退治の話を頼まれたミズチが村の地質から始める。"
-    },
-    {
-      "op": "show",
-      "actor": "mizuchi",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "mizuchi",
-      "text": "さて「昔話の語り台」だ。竜退治の話を頼まれたミズチが村の地質から始める。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "その説明だけで、もう話が脇道へ走っている。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "mizuchi",
-      "text": "脇道ではない。笑いへ通じる立派な近道だ。"
-    },
-    {
-      "op": "nar",
-      "text": "昔話の語り台の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "近道なら、さっきと同じ所へ戻るな。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "mizuchi",
-      "text": "肝心なのは、語りたい背景と、聞き手が今ほしい本題を見分けるということだ。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "急に教訓を置けば片づくと思っているだろう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。竜退治の話を頼まれたミズチが村の地質から始める。"
-    },
-    {
-      "op": "say",
-      "actor": "mizuchi",
-      "text": "片づかないから、もう一度やって確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "やり直すたび道具と登場人物が増えている。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "mizuchi",
-      "text": "竜退治の話を頼まれたミズチが村の地質から始める。ここまでは筋書き通りだ。"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "筋書きが困って、こちらを見ているぞ。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "mizuchi",
-      "text": "なら最後は、自分で落とし前をつけよう。"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "落とし前とオチを同じ棚に置くな。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "hide",
-      "actor": "mizuchi"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "ancestor_chart",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "ancestor_chart"
-    },
-    {
-      "op": "nar",
-      "text": "第2景「勇者の家系図」。七代前の親戚紹介で勇者がまだ生まれない。"
-    },
-    {
-      "op": "show",
-      "actor": "mizuchi",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "mizuchi",
-      "text": "さて「勇者の家系図」だ。七代前の親戚紹介で勇者がまだ生まれない。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "その説明だけで、もう話が脇道へ走っている。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "mizuchi",
-      "text": "脇道ではない。笑いへ通じる立派な近道だ。"
-    },
-    {
-      "op": "nar",
-      "text": "勇者の家系図の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "近道なら、さっきと同じ所へ戻るな。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "mizuchi",
-      "text": "肝心なのは、語りたい背景と、聞き手が今ほしい本題を見分けるということだ。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "急に教訓を置けば片づくと思っているだろう。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。七代前の親戚紹介で勇者がまだ生まれない。"
-    },
-    {
-      "op": "say",
-      "actor": "mizuchi",
-      "text": "片づかないから、もう一度やって確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "やり直すたび道具と登場人物が増えている。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "mizuchi",
-      "text": "七代前の親戚紹介で勇者がまだ生まれない。ここまでは筋書き通りだ。"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "筋書きが困って、こちらを見ているぞ。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "mizuchi",
-      "text": "なら最後は、自分で落とし前をつけよう。"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "落とし前とオチを同じ棚に置くな。",
-      "eyes": "fun"
-    },
-    {
-      "op": "hide",
-      "actor": "mizuchi"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "dragon_childhood",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "dragon_childhood"
-    },
-    {
-      "op": "nar",
-      "text": "第3景「竜の幼年期」。敵役の成育環境を丁寧に語り同情だけが増える。"
-    },
-    {
-      "op": "show",
-      "actor": "mizuchi",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "mizuchi",
-      "text": "さて「竜の幼年期」だ。敵役の成育環境を丁寧に語り同情だけが増える。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "その説明だけで、もう話が脇道へ走っている。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "mizuchi",
-      "text": "脇道ではない。笑いへ通じる立派な近道だ。"
-    },
-    {
-      "op": "nar",
-      "text": "竜の幼年期の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "近道なら、さっきと同じ所へ戻るな。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "mizuchi",
-      "text": "肝心なのは、語りたい背景と、聞き手が今ほしい本題を見分けるということだ。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "急に教訓を置けば片づくと思っているだろう。",
-      "eyes": "closed"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。敵役の成育環境を丁寧に語り同情だけが増える。"
-    },
-    {
-      "op": "say",
-      "actor": "mizuchi",
-      "text": "片づかないから、もう一度やって確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "やり直すたび道具と登場人物が増えている。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "mizuchi",
-      "text": "敵役の成育環境を丁寧に語り同情だけが増える。ここまでは筋書き通りだ。"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "筋書きが困って、こちらを見ているぞ。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "mizuchi",
-      "text": "なら最後は、自分で落とし前をつけよう。"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "落とし前とオチを同じ棚に置くな。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "hide",
-      "actor": "mizuchi"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "offstage_battle",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "offstage_battle"
-    },
-    {
-      "op": "nar",
-      "text": "第4景「舞台裏の決戦」。前置き中に舞台裏で竜退治が終わってしまう。"
-    },
-    {
-      "op": "show",
-      "actor": "mizuchi",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "mizuchi",
-      "text": "さて「舞台裏の決戦」だ。前置き中に舞台裏で竜退治が終わってしまう。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "その説明だけで、もう話が脇道へ走っている。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "mizuchi",
-      "text": "脇道ではない。笑いへ通じる立派な近道だ。"
-    },
-    {
-      "op": "nar",
-      "text": "舞台裏の決戦の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "近道なら、さっきと同じ所へ戻るな。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "mizuchi",
-      "text": "肝心なのは、語りたい背景と、聞き手が今ほしい本題を見分けるということだ。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "急に教訓を置けば片づくと思っているだろう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。前置き中に舞台裏で竜退治が終わってしまう。"
-    },
-    {
-      "op": "say",
-      "actor": "mizuchi",
-      "text": "片づかないから、もう一度やって確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "やり直すたび道具と登場人物が増えている。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "mizuchi",
-      "text": "前置き中に舞台裏で竜退治が終わってしまう。ここまでは筋書き通りだ。"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "筋書きが困って、こちらを見ているぞ。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "mizuchi",
-      "text": "なら最後は、自分で落とし前をつけよう。"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "落とし前とオチを同じ棚に置くな。",
-      "eyes": "crying"
-    },
-    {
-      "op": "choice",
-      "options": [
-        {
-          "text": "正面から問いかける",
-          "jump": "long-folktale_direct"
-        },
-        {
-          "text": "相手の話を最後まで聞く",
-          "jump": "long-folktale_listen"
-        }
-      ]
-    },
-    {
-      "op": "label",
-      "id": "long-folktale_direct"
-    },
-    {
-      "op": "say",
-      "actor": "mizuchi",
-      "text": "私は正面から問う。曖昧なまま次へは進まない。"
-    },
-    {
-      "op": "jump",
-      "to": "long-folktale_merge"
-    },
-    {
-      "op": "label",
-      "id": "long-folktale_listen"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "結論を急がず、相手が何を恐れているかまで聞こう。"
-    },
-    {
-      "op": "label",
-      "id": "long-folktale_merge"
-    },
-    {
-      "op": "nar",
-      "text": "選び方は違っても、二人は同じ核心へ戻ってくる。"
-    },
-    {
-      "op": "hide",
-      "actor": "mizuchi"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "epilogue_start",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "epilogue_start"
-    },
-    {
-      "op": "nar",
-      "text": "第5景「終わらない後日談」。本編ゼロ分なのに後日談がさらに長く始まる。"
-    },
-    {
-      "op": "show",
-      "actor": "mizuchi",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "mizuchi",
-      "text": "さて「終わらない後日談」だ。本編ゼロ分なのに後日談がさらに長く始まる。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "その説明だけで、もう話が脇道へ走っている。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "mizuchi",
-      "text": "脇道ではない。笑いへ通じる立派な近道だ。"
-    },
-    {
-      "op": "nar",
-      "text": "終わらない後日談の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "近道なら、さっきと同じ所へ戻るな。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "mizuchi",
-      "text": "肝心なのは、語りたい背景と、聞き手が今ほしい本題を見分けるということだ。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "急に教訓を置けば片づくと思っているだろう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。本編ゼロ分なのに後日談がさらに長く始まる。"
-    },
-    {
-      "op": "say",
-      "actor": "mizuchi",
-      "text": "片づかないから、もう一度やって確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "やり直すたび道具と登場人物が増えている。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "mizuchi",
-      "text": "本編ゼロ分なのに後日談がさらに長く始まる。ここまでは筋書き通りだ。"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "筋書きが困って、こちらを見ているぞ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "mizuchi",
-      "text": "なら最後は、自分で落とし前をつけよう。"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "落とし前とオチを同じ棚に置くな。",
-      "eyes": "closed"
-    },
-    {
-      "op": "hide",
-      "actor": "mizuchi"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "物語はここまで。残った問いは「語りたい背景と、聞き手が今ほしい本題を見分ける」。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ご来場、ありがとうございました。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "end"
+  {
+   "role": "狂言回し",
+   "actor": "yui_origin",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "story_stage": "bg/long-folktale-story_stage-2048x1152.png",
+  "ancestor_chart": "bg/long-folktale-ancestor_chart-2048x1152.png",
+  "dragon_childhood": "bg/long-folktale-dragon_childhood-2048x1152.png",
+  "offstage_battle": "bg/long-folktale-offstage_battle-2048x1152.png",
+  "epilogue_start": "bg/long-folktale-epilogue_start-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "yui_origin",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "お待たせいたしました。新作漫才の時間です。ご案内は、ユイ・オリジン。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "語り手は、蛇の語り部、ミズチ。聞き手は、旅人のnono。演目は『長すぎる昔話』。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "竜退治のお話を、ひとつ頼んだだけなのです。ところが、ミズチは、話の始まりを、少しばかり遠くに置きすぎまして。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "語りたいことと、聞きたいこと。その間の距離を、どうぞ、お楽しみください。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui_origin"
+  },
+  {
+   "op": "bg",
+   "src": "story_stage",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "story_stage"
+  },
+  {
+   "op": "nar",
+   "text": "村の広場の、昔話の語り台。座布団が二枚。ミズチが、湯呑みを手に、ゆったりと座っている。"
+  },
+  {
+   "op": "show",
+   "actor": "mizuchi",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "語り台の前には、村の子どもたちが三人、膝を抱えて座っている。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "どうも、nonoです。今日は、語り部のミズチさんに、竜退治の昔話を聞かせてもらいます。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "うむ。よかろう。……では、始めるぞえ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ちなみに、どのくらいの長さ？"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "短いぞ。湯呑み一杯分じゃ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "よかった。お茶が冷めないうちに、竜が出てくるんだね。",
+   "eyes": "joy"
+  },
+  {
+   "op": "nar",
+   "text": "ミズチは、湯呑みに、とぽとぽと、お茶を注ぎ足した。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "お願いします。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "昔々、この村の下には、厚さ三十丈の、粘土の層があった。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……粘土。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "その下に、砂の層。さらに下に、火山の灰の層。この灰が、およそ八千年前の噴火によるもので。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "待って。竜は、いつ出てくるの。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "地面が分からねば、竜の巣穴の話が分からぬ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "巣穴の話の前に、竜の話を聞きたいんだけど。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "焦るでない。昔話は、土台が大事じゃ。家も、昔話も、基礎工事から。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "基礎工事の昔話って、初めて聞いたよ。"
+  },
+  {
+   "op": "nar",
+   "text": "前に座っていた子どもの一人が、大きなあくびをした。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ほら、子どもが、あくびしてる。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ミズチさん、あの、お茶、もう二杯目だよね。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "語り部の湯呑みは、話が終わるまで、空にならぬ決まりじゃ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "それ、終わらない仕組みじゃない！"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "灰の層の上に、川が運んだ小石が積もり、その小石の間を、地下水が流れて……。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "地下水の話になった！",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "この地下水が、のちに大事になる。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "それ、ほんとに後で出てくる？"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "……たぶん。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "mizuchi"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "ancestor_chart",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "ancestor_chart"
+  },
+  {
+   "op": "nar",
+   "text": "語り台の後ろに、巻物の家系図が、ずるずると広げられている。端が、舞台の外まで続いている。"
+  },
+  {
+   "op": "show",
+   "actor": "mizuchi",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "さて、地面の話が済んだので、次は、竜を退治した勇者の話じゃ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "長かった……。地面だけで、日が傾いたよ。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "地面は、何千年もかけてできたのじゃ。ほんの半刻で済ませたのは、手短なほうじゃぞ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "やった、勇者が出てきた！",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "その勇者の、七代前の、ひいひいひいひいお祖父さんは、大根を作っておった。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "七代前から！"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "大根は、よく育った。地下水のおかげでな。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "地下水、本当に大事だった！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "言うたであろう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "そのお祖父さんには、三人の息子がおった。長男は、桶屋。次男は、大根を継いだ。三男は、旅に出て、帰ってこなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "勇者の家系は、どの息子。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "次男じゃ。……次男には、娘が二人おって、姉は、隣村の鍛冶屋に嫁いだ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "その鍛冶屋が、勇者の剣を打つの？"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "打たぬ。鍋を打った。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "鍋！"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "いや、関係ない。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "関係ない人を紹介しないで！",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "関係ない人にも、人生はある。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "あるけど！　今は、竜退治の話を聞いてるの！"
+  },
+  {
+   "op": "nar",
+   "text": "家系図の巻物が、さらに、ずるずると伸びていく。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ねえ、ちょっと、飛ばして。三代くらい。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "飛ばしたら、その三代の者たちが、かわいそうじゃ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "会ったこともない人に、気を遣わなくていいよ！"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "わしは、会ったことがある気がする。語っておると、皆、そこにおるような気がしてくるのじゃ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……ちょっと、いいこと言わないで。怒りにくい。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……ミズチさん、勇者は、何代目で生まれるの。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "あと、四代。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "まだ、生まれてもいない……。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "子どもたちが、一人、また一人と、家へ帰っていった。最後の一人は、帰る前に、ぺこりと頭を下げた。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "……客が、減ったな。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "減ったよ。ぼくしか残ってないよ。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "一人おれば、語れる。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "一人しかいないから、逃げられないんだよ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "mizuchi"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "dragon_childhood",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "dragon_childhood"
+  },
+  {
+   "op": "nar",
+   "text": "語り台。ミズチが、湯呑みのお茶をすすっている。nonoは、ぐったりと座布団に沈んでいる。"
+  },
+  {
+   "op": "show",
+   "actor": "mizuchi",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "勇者、まだ生まれないの。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "生まれる前に、勇者の母親が、桃を拾う話がある。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "それは、別の昔話だよ！"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "勇者が生まれる前に、竜の話もせねばならぬ。敵の事情を知らずに、退治の話はできぬ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "竜の話は、聞きたい。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "竜は、もともと、山奥の湖で生まれた。卵から孵ったとき、母親は、もうおらなんだ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……かわいそう。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "小さな竜は、ひとりで、魚を捕ることを覚えた。最初は、下手での。鼻先を、蟹に挟まれた。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "痛そう。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "蟹、大きかったの。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "竜の鼻の倍はあった。……竜が子どもだったからの。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "冬は、湖が凍った。竜は、洞穴で、ひとり、膝を抱えて、春を待った。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "竜にも、膝があるんだ。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "膝があるから、膝を抱えられる。膝を抱える者は、たいてい、さびしい者じゃ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ミズチさんも、膝を抱えたこと、ある？",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "蛇には、膝がない。……だから、とぐろを巻く。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "ある。……ある年、村の子どもが、洞穴に迷い込んできた。竜は、子どもを、そっと村の近くまで送り届けた。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "いい竜じゃないか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "子どもは、村の大人に話した。大人は、信じなかった。竜は、怖いものだと決まっておったからな。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……なんか、竜を退治するの、嫌になってきた。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "うむ。わしも、話しながら、嫌になってきた。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "語り手が嫌になっちゃだめだよ！"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "話というのは、語るほどに、悪者が悪者でなくなっていく。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "それは、いいことなんじゃないの。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "竜退治の話としては、困る。"
+  },
+  {
+   "op": "hide",
+   "actor": "mizuchi"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "offstage_battle",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "offstage_battle"
+  },
+  {
+   "op": "nar",
+   "text": "語り台。舞台の袖の向こうから、どーん、と大きな音。地響き。悲鳴と、歓声。"
+  },
+  {
+   "op": "show",
+   "actor": "mizuchi",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……ミズチさん、今、外で、すごい音がしたよ。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "雷じゃろう。"
+  },
+  {
+   "op": "nar",
+   "text": "袖の向こうで、誰かが叫んだ。竜を退治したぞ、勇者さまが、竜を倒したぞ、と。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "退治しちゃった！　舞台裏で！",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "なんと。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ミズチさんが、地下水と大根と、竜の子ども時代を話してる間に、本編、終わっちゃったよ！"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "……わしの昔話が、昔話に追い越された。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "語ってる最中に、話が勝手に先に行っちゃうなんて。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "昔話は、生きておるのじゃ。語り手が遅いと、自分で歩いて行ってしまう。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……ちょっと待って。ってことは、勇者、ちゃんと生まれてたんだ。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "話の中で生まれる前に、外で、勝手に育っておったのじゃな。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "今の竜退治、誰が見たの。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "舞台裏の、大道具係と、照明係と、弁当屋じゃな。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "いちばん大事な場面を、お弁当屋さんが見てたの！",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "弁当屋は、見どころの多い仕事じゃ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "そういうことじゃなくて！"
+  },
+  {
+   "op": "nar",
+   "text": "袖から、弁当屋が顔を出して、すごかったですよ、竜が、勇者さんにお辞儀して帰っていきました、と言った。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "お辞儀して帰った？",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "……やはり、いい竜だったのじゃ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "nonoは、ミズチに「本題だけ」を三行で頼む",
+     "jump": "m_short"
+    },
+    {
+     "text": "nonoは、袖まで見に行こうとする",
+     "jump": "m_peek"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_short"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ミズチさん、お願い。竜退治の本題だけ、三行で。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "……三行か。語り部には、拷問のような頼みじゃ。やってみよう。勇者が来た。竜と戦った。勝った。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "早い！　……でも、なんか、寂しい。",
+   "eyes": "joy"
+  },
+  {
+   "op": "jump",
+   "to": "m_epi"
+  },
+  {
+   "op": "label",
+   "id": "m_peek"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "見に行ってくる！　まだ、竜の尻尾くらい、残ってるかも。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "待て、nono。袖から舞台裏を覗くのは、昔話の禁じ手じゃ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……語り手が、それを言う？",
+   "eyes": "closed"
+  },
+  {
+   "op": "label",
+   "id": "m_epi"
+  },
+  {
+   "op": "hide",
+   "actor": "mizuchi"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "epilogue_start",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "epilogue_start"
+  },
+  {
+   "op": "nar",
+   "text": "語り台。舞台裏は、静かになった。ミズチは、新しいお茶を淹れ直している。"
+  },
+  {
+   "op": "show",
+   "actor": "mizuchi",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "結局、竜退治の話は、ほとんど聞けなかったね。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "すまぬ。わしは、語りたいことが、多すぎた。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "でも、竜の子ども時代の話は、すごく、よかったよ。蟹に鼻を挟まれるところとか。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "蟹のところが、気に入ったか。あれは、わしも好きな場面じゃ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "あれを聞いたあとだと、ただ「勇者が竜を倒した」って話は、ちょっと、違って聞こえる。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "うむ。……前置きは、長すぎてはいかん。だが、ゼロでも、いかんのじゃな。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "地面の話は、ゼロでもよかったけどね。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "地面は、わしの十八番なのじゃが。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "十八番は、アンコールで聞くよ。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "わしは、話しておる間、ずっと、自分の頭の中だけを見ておった。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "どこまで話すか、聞いてる人の顔を見て、決めればいいんだよ。ぼくが、ぐったりしてたら、そこが、切り上げどき。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "お前は、地下水のあたりで、もう、ぐったりしておったな。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "粘土の層で、ちょっと、ぐったりしてた。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "では、今度は、お前の顔を見ながら話そう。……さて、竜退治のあとの、後日談じゃが。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "後日談！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "後日談は、三行でお願い。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "三行で済むものか。……では、五行で。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "竜を倒した勇者は、村に帰り、大根を作った。その大根は、地下水のおかげで……。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "また地下水！",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "大根は、竜の鱗の肥料で、さらに大きく育ち、一本で家族七人が三日食べられるほどで、その七人の内訳は……。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "内訳はいらない！"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "七人の内訳を、指折り数え始めないで！"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "その中の末娘が、のちに、語り部になった。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……あれ。"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "わしの、ひいひいひいひいお祖母さんじゃ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ミズチさんの家系だったの！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "だから、話が長くなる。……わしの昔話は、わしの家の話でもあるのでな。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "それは、先に言ってよ！"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "先に言うと、短くなってしまうのでな。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "短くて、いいんだってば。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "では、明日は、竜の側から見た竜退治を語ろう。題して『鱗の後日談』。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "……それ、何杯分のお茶？"
+  },
+  {
+   "op": "say",
+   "actor": "mizuchi",
+   "text": "急須ごと、持ってくるがよい。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "mizuchi"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "yui_origin",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "新作漫才『長すぎる昔話』、これにて、本当におしまいです。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "前置きは、語る人にとっては、全部が本題です。でも、聞く人の顔が、どこで止まったかを見れば、切り上げどきは分かります。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "ちなみに、竜退治の本編は、舞台裏で、ちゃんと終わっております。……ご覧になれなかった方は、お弁当屋さんに、どうぞ。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui_origin"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

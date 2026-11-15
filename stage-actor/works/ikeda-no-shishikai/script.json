@@ -1,756 +1,1077 @@
 {
-  "meta": {
-    "id": "ikeda-no-shishikai",
-    "number": 131,
-    "title": "池田の猪買い ―道を尋ねて日が暮れる―",
-    "original": "古典上方落語『池田の猪買い』（伝統演目）",
-    "category": "古典落語・上方落語",
-    "adaptation": "free",
-    "format": "v3",
-    "minutes": 28,
-    "synopsis": "全五景で「目的地より、噛み合わない会話そのものが旅になる」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
-    "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+ "meta": {
+  "id": "ikeda-no-shishikai",
+  "number": 131,
+  "title": "池田の猪買い ―道を尋ねて日が暮れる―",
+  "original": "古典上方落語『池田の猪買い』（伝統演目）",
+  "category": "古典落語・上方落語",
+  "adaptation": "free",
+  "format": "v3",
+  "minutes": 30,
+  "synopsis": "全五景で「目的地より、噛み合わない会話そのものが旅になる」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "狂言回し",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "喜六",
-      "actor": "tanurio",
-      "costume": "default"
-    },
-    {
-      "role": "甚兵衛",
-      "actor": "gou",
-      "costume": "default"
-    },
-    {
-      "role": "町人",
-      "actor": "shiro",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "osaka_crossroad": "bg/ikeda-no-shishikai-osaka_crossroad-2048x1152.png",
-    "long_road": "bg/ikeda-no-shishikai-long_road-2048x1152.png",
-    "ikeda_house": "bg/ikeda-no-shishikai-ikeda_house-2048x1152.png",
-    "winter_field": "bg/ikeda-no-shishikai-winter_field-2048x1152.png",
-    "boar_question": "bg/ikeda-no-shishikai-boar_question-2048x1152.png"
+  {
+   "role": "喜六",
+   "actor": "tanurio",
+   "costume": "default"
   },
-  "steps": [
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『池田の猪買い』。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "古典落語・上方落語の一席を、全五景でお届けします。",
-      "mouth": "open",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "この舞台の核は「目的地より、噛み合わない会話そのものが旅になる」。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "台詞はすべて今夜のための書き下ろしです。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "それでは、幕を開けましょう。",
-      "mouth": "open",
-      "eyes": "joy"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "osaka_crossroad",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "osaka_crossroad"
-    },
-    {
-      "op": "nar",
-      "text": "第1景「大坂の辻」。喜六が池田への道を尋ねるが説明が脇道へそれる。"
-    },
-    {
-      "op": "show",
-      "actor": "tanurio",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "gou",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "さて「大坂の辻」だ。喜六が池田への道を尋ねるが説明が脇道へそれる。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "その説明だけで、もう話が脇道へ走っている。"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
-      "eyes": "anger"
-    },
-    {
-      "op": "nar",
-      "text": "大坂の辻の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "近道なら、さっきと同じ所へ戻るな。"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "肝心なのは、目的地より、噛み合わない会話そのものが旅になるということだ。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "急に教訓を置けば片づくと思っているだろう。"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。喜六が池田への道を尋ねるが説明が脇道へそれる。"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "片づかないから、もう一度やって確かめる。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "やり直すたび道具と登場人物が増えている。"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "喜六が池田への道を尋ねるが説明が脇道へそれる。ここまでは筋書き通りだ。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "筋書きが困って、こちらを見ているぞ。"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "なら最後は、自分で落とし前をつけよう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "落とし前とオチを同じ棚に置くな。"
-    },
-    {
-      "op": "hide",
-      "actor": "tanurio"
-    },
-    {
-      "op": "hide",
-      "actor": "gou"
-    },
-    {
-      "op": "bg",
-      "src": "long_road",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "long_road"
-    },
-    {
-      "op": "nar",
-      "text": "第2景「長い一本道」。目印が曖昧で同じ質問を何度も繰り返す。"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "tanurio",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "さて「長い一本道」だ。目印が曖昧で同じ質問を何度も繰り返す。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "その説明だけで、もう話が脇道へ走っている。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "長い一本道の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "近道なら、さっきと同じ所へ戻るな。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "肝心なのは、目的地より、噛み合わない会話そのものが旅になるということだ。",
-      "eyes": "surprise",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "急に教訓を置けば片づくと思っているだろう。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。目印が曖昧で同じ質問を何度も繰り返す。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "片づかないから、もう一度やって確かめる。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "やり直すたび道具と登場人物が増えている。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "目印が曖昧で同じ質問を何度も繰り返す。ここまでは筋書き通りだ。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "筋書きが困って、こちらを見ているぞ。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "なら最後は、自分で落とし前をつけよう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "落とし前とオチを同じ棚に置くな。",
-      "eyes": "fun"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "hide",
-      "actor": "tanurio"
-    },
-    {
-      "op": "bg",
-      "src": "ikeda_house",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "ikeda_house"
-    },
-    {
-      "op": "nar",
-      "text": "第3景「猟師の家」。ようやく甚兵衛へ猪肉を買いたいと頼む。"
-    },
-    {
-      "op": "show",
-      "actor": "gou",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "さて「猟師の家」だ。ようやく甚兵衛へ猪肉を買いたいと頼む。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "その説明だけで、もう話が脇道へ走っている。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "脇道ではない。笑いへ通じる立派な近道だ。"
-    },
-    {
-      "op": "nar",
-      "text": "猟師の家の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "近道なら、さっきと同じ所へ戻るな。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "肝心なのは、目的地より、噛み合わない会話そのものが旅になるということだ。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "急に教訓を置けば片づくと思っているだろう。",
-      "eyes": "closed"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。ようやく甚兵衛へ猪肉を買いたいと頼む。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "片づかないから、もう一度やって確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "やり直すたび道具と登場人物が増えている。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "ようやく甚兵衛へ猪肉を買いたいと頼む。ここまでは筋書き通りだ。"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "筋書きが困って、こちらを見ているぞ。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "なら最後は、自分で落とし前をつけよう。"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "落とし前とオチを同じ棚に置くな。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "hide",
-      "actor": "gou"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "bg",
-      "src": "winter_field",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "winter_field"
-    },
-    {
-      "op": "nar",
-      "text": "第4景「冬の猟場」。生きの良い肉を求め二人で猪を探す。"
-    },
-    {
-      "op": "show",
-      "actor": "tanurio",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "gou",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "さて「冬の猟場」だ。生きの良い肉を求め二人で猪を探す。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "その説明だけで、もう話が脇道へ走っている。"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "冬の猟場の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "近道なら、さっきと同じ所へ戻るな。"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "肝心なのは、目的地より、噛み合わない会話そのものが旅になるということだ。",
-      "eyes": "closed",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "急に教訓を置けば片づくと思っているだろう。"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。生きの良い肉を求め二人で猪を探す。"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "片づかないから、もう一度やって確かめる。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "やり直すたび道具と登場人物が増えている。"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "生きの良い肉を求め二人で猪を探す。ここまでは筋書き通りだ。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "筋書きが困って、こちらを見ているぞ。"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "なら最後は、自分で落とし前をつけよう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "落とし前とオチを同じ棚に置くな。"
-    },
-    {
-      "op": "choice",
-      "options": [
-        {
-          "text": "正面から問いかける",
-          "jump": "ikeda-no-shishikai_direct"
-        },
-        {
-          "text": "相手の話を最後まで聞く",
-          "jump": "ikeda-no-shishikai_listen"
-        }
-      ]
-    },
-    {
-      "op": "label",
-      "id": "ikeda-no-shishikai_direct"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "私は正面から問う。曖昧なまま次へは進まない。"
-    },
-    {
-      "op": "jump",
-      "to": "ikeda-no-shishikai_merge"
-    },
-    {
-      "op": "label",
-      "id": "ikeda-no-shishikai_listen"
-    },
-    {
-      "op": "say",
-      "actor": "gou",
-      "text": "結論を急がず、相手が何を恐れているかまで聞こう。"
-    },
-    {
-      "op": "label",
-      "id": "ikeda-no-shishikai_merge"
-    },
-    {
-      "op": "nar",
-      "text": "選び方は違っても、二人は同じ核心へ戻ってくる。"
-    },
-    {
-      "op": "hide",
-      "actor": "tanurio"
-    },
-    {
-      "op": "hide",
-      "actor": "gou"
-    },
-    {
-      "op": "bg",
-      "src": "boar_question",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "boar_question"
-    },
-    {
-      "op": "nar",
-      "text": "第5景「倒れた猪」。本当に新鮮か確かめる質問が騒動を締める。"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "tanurio",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "さて「倒れた猪」だ。本当に新鮮か確かめる質問が騒動を締める。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "その説明だけで、もう話が脇道へ走っている。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "倒れた猪の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "近道なら、さっきと同じ所へ戻るな。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "肝心なのは、目的地より、噛み合わない会話そのものが旅になるということだ。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "急に教訓を置けば片づくと思っているだろう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。本当に新鮮か確かめる質問が騒動を締める。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "片づかないから、もう一度やって確かめる。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "やり直すたび道具と登場人物が増えている。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "本当に新鮮か確かめる質問が騒動を締める。ここまでは筋書き通りだ。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "筋書きが困って、こちらを見ているぞ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "なら最後は、自分で落とし前をつけよう。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "落とし前とオチを同じ棚に置くな。",
-      "eyes": "closed"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "hide",
-      "actor": "tanurio"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "物語はここまで。残った問いは「目的地より、噛み合わない会話そのものが旅になる」。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ご来場、ありがとうございました。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "end"
+  {
+   "role": "甚兵衛",
+   "actor": "gou",
+   "costume": "default"
+  },
+  {
+   "role": "町人",
+   "actor": "shiro",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "osaka_crossroad": "bg/ikeda-no-shishikai-osaka_crossroad-2048x1152.png",
+  "long_road": "bg/ikeda-no-shishikai-long_road-2048x1152.png",
+  "ikeda_house": "bg/ikeda-no-shishikai-ikeda_house-2048x1152.png",
+  "winter_field": "bg/ikeda-no-shishikai-winter_field-2048x1152.png",
+  "boar_question": "bg/ikeda-no-shishikai-boar_question-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "上方落語に、雪の中をひたすら歩く、旅のネタがございます。『池田の猪買い』。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "大坂の、少々のんびりした男、喜六。体の冷えに悩んでおりましたところ、物知りから、こう教わります。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "冷えには、猪の肉がよう効く。それも、獲れたての、新しいやつや。北の池田へ行けば、猟師がおる、と。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "道を尋ねては迷い、尋ねては迷い。……目的地より、道中のやりとりのほうが、長い旅でございます。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "osaka_crossroad",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "osaka_crossroad"
+  },
+  {
+   "op": "nar",
+   "text": "大坂、天満の辻。冬の朝。綿入れを三枚重ね着した喜六が、物知りの町人を呼び止めている。"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "すんまへん、ちょっと、道を教えとくなはれ。池田へは、どない行ったらよろしいんで。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "池田か。何しに行くんや。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "猪を、買いに。……体が冷えて、冷えて。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "綿入れを、三枚も着とるやないか。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "四枚目は、質に入っとります。夜中に、足の先が氷になって、目が覚めますねん。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "それは難儀やな。……よし、教えたろ。まず、ここを北へ、まっすぐや。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "北へ、まっすぐ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "まっすぐ行くと、十三の渡しがある。そこで舟に乗って、川を渡る。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "渡しで、舟。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "渡ったら、また、まっすぐや。……まっすぐ行ったら、服部の天神さんがある。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "天神さんの前の茶店のおばあんが、また、ええ人でなあ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "へえ、さよか。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "そのおばあんの娘が、去年、嫁に行った先が、豊中の酒屋でな。その酒屋の主人が、また、変わった人で。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "ちょっと、待っとくなはれ。池田は。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "池田は、その先や。……どこまで話したかいな。そや、酒屋の主人が、猫を七匹飼うてて。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "猫は、ええんですわ！"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "七匹とも、名前が、魚の名前でな。鯛、鰤、鰆……。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "名前まで、言わんでよろしい！"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "猫を飛ばしたら、話がつながらん。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "道が、つながったら、それで、よろしいねん！"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "ほな、短こう言うたる。北へ行って、十三を渡って、服部、岡町、石橋。それで、池田や。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "それを、最初から言うとくなはれ。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "最初に言うたら、旅が、味気ないやろ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "旅やのうて、猪を買いに行くんです。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "最初から言うたら、お前、覚えられへんやろ。話に挟んだら、覚える。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……猫しか、覚えてまへん。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "池田に着いたら、山の手に、猟師の甚兵衛ちゅう男がおる。猪の肉なら、あの男に頼め。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "猟師の、甚兵衛さん。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "それと、肉を買うときは、必ず、新しいか、と聞くんやで。古い肉は、冷えに効かん。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "新しいか、と聞く。……よう覚えときます。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "念を押すんやで。猟師は、すぐ、ごまかすさかいな。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "念を、押す。……猫と、念押し。"
+  },
+  {
+   "op": "nar",
+   "text": "喜六は、綿入れの前をかき合わせて、北へ、ずんずん歩き出した。粉雪が、ちらつき始めた。"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "bg",
+   "src": "long_road",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "long_road"
+  },
+  {
+   "op": "nar",
+   "text": "雪の街道。白い一本道が、どこまでも続く。道ばたの道標は、雪に埋もれて読めない。"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "十三の渡しは、渡った。……舟の上で、また、道を聞いた。船頭さんに。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "「池田は遠いで、兄さん。わしの里の能勢は、もっと遠いけどな」て。……聞いてへんのに。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "船頭さんの話も、長かった。船頭さんの、おかみさんの、里の話から始まって。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "冷えは、歩いとるうちは、ましや。……止まると、足の先から、凍ってくる。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "服部の天神さんは、どこや。……あ、あの茶店。おばあんが、いてはる。"
+  },
+  {
+   "op": "nar",
+   "text": "茶店の前で、腰の曲がったおばあさんが、湯気の立つ甘酒を売っていた。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "おばあん、池田は、この道で、よろしいか。"
+  },
+  {
+   "op": "nar",
+   "text": "おばあさんは、にっこり笑って、池田かえ、そりゃあ遠いで、まずは甘酒を飲んでいき、と言った。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "甘酒！　……うまい。体が、ぬくうなる。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……これで、冷えが治ったら、猪、いらんのと違うか。"
+  },
+  {
+   "op": "nar",
+   "text": "甘酒の湯気が消えると、また、寒さが戻ってきた。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……あかん。治ってへん。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "おばあん、池田は、まだ遠いですか。"
+  },
+  {
+   "op": "nar",
+   "text": "おばあさんは、指を三本立てた。三里か、と聞くと、三杯、甘酒を飲めば着く、と笑った。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "甘酒で、距離を測るんかいな。",
+   "eyes": "fun"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "街道の途中。雪の中で、荷車を引いた男と、すれ違う。さっきの物知りに、そっくりの顔である。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "あれ、あんた、さっきの天満の。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "よう言われる。天満のは、わしの兄貴や。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "違う。わしは、岡町の者や。……よう似てる言われるけどな。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "ほな、聞きます。池田は、この道で。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "池田か。まっすぐや。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "まっすぐ。……それだけ？",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "それだけや。……と言いたいとこやが、途中に、分かれ道がある。左へ行くと箕面の山、右へ行くと池田。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "右ですな。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "右や。……ただし、右の道の途中に、えらいうまい、うどん屋がある。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "うどん屋は、ええんです！"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "寒いときの、うどんは、ええぞ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……ほな、寄ります。"
+  },
+  {
+   "op": "nar",
+   "text": "うどん屋の暖簾をくぐると、店の主人が、池田の猟師の甚兵衛のところへ行くんか、と先に聞いてきた。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "なんで、分かりますの。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "主人は、笑って言った。この道を、綿入れ三枚で歩いとるのは、冷えの客だけや、と。"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "bg",
+   "src": "ikeda_house",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "ikeda_house"
+  },
+  {
+   "op": "nar",
+   "text": "池田の山の手。雪をかぶった、猟師の小屋。軒先に、鉄砲と、獣の皮が下がっている。"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "ごめんやす。……猟師の、甚兵衛さんの、お宅は、こちらで。"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "わしが、甚兵衛じゃ。……なんの用じゃ。"
+  },
+  {
+   "op": "nar",
+   "text": "戸口に現れた猟師は、毛皮を着込み、鼻の先が、ぴくぴくと動いていた。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……うわ。猟師さんのほうが、猪みたいな顔……。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "今、猪がどうとか、聞こえたが。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "い、いえ、何も！　……猪の肉を、買いに来ました。大坂から。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "大坂から、この雪の中を。……ご苦労なこっちゃ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "体が、冷えて、冷えて。物知りに、猪の肉が効くと聞いて。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "猪は、効く。体の芯から、ぬくうなる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "そこに、塩漬けのが、吊るしてある。好きなだけ、持っていけ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "お代は、いかほど。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "大坂から雪の中を歩いてきた阿呆から、高い金は取れん。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "すんまへん。……その肉、新しいですか。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "……ひと月前に、獲ったもんじゃ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "ひと月。……ひと月は、新しいんですか、古いんですか。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "塩漬けにしたら、ひと月は、食べごろじゃ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "古いのは、あきまへん。新しいのでないと、冷えに効かん、て。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "なんじゃと。わしの塩漬けに、文句があるか。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "文句やのうて、物知りが、そう言うたもんで。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "……ええい、面倒な客じゃ。ほな、今から、山へ行って、獲ってきたる。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "獲れたてを！",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "お前も、ついてこい。……雪の山は、寒いぞ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……冷えを治しに来て、もっと冷える所へ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "綿入れを、もう一枚、貸したる。猪の皮のじゃ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "猪の皮！　……ぬくい！　……ちょっと、獣くさい。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "bg",
+   "src": "winter_field",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "winter_field"
+  },
+  {
+   "op": "nar",
+   "text": "雪の山の中。木々の間に、白い息が流れる。甚兵衛が、鉄砲を構えて、じっと耳を澄ませている。喜六は、木の陰で震えている。"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "……しっ。声を出すな。猪は、耳がええ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "歯が、かちかち鳴るのは、声のうちに入りますか。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "入る！　口を、手拭いで押さえとけ。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……さ、さむい。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "黙っとれ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "甚兵衛さん、猪は、どこに。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "雪の上の、足跡を見い。……新しい足跡じゃ。湯気が、立っとる。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "足跡から、湯気が。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "猪の体は、熱い。……それで、冷えに効くんじゃ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "甚兵衛さんは、寒うないんですか。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "猟師は、猪を追うて走るから、寒うない。……追われる猪のほうが、もっと走るがな。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "茂みが、がさがさと揺れた。大きな猪が、鼻を鳴らして、飛び出してきた。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "出た！",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "下がっとれ！"
+  },
+  {
+   "op": "nar",
+   "text": "鉄砲の音が、雪の山に、どーん、と響いた。猪は、雪の上に、どさりと倒れた。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "仕留めた。……どうじゃ、獲れたてじゃ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……ほ、本当に、獲れたて。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "これ以上、新しい肉は、どこにもないぞ。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "喜六は、それでも「新しいか」と聞く",
+     "jump": "m_ask"
+    },
+    {
+     "text": "喜六は、黙って礼を言う",
+     "jump": "m_thanks"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_ask"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "すんまへん。……これ、新しいですか。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "今、目の前で撃ったやろうが！",
+   "eyes": "anger"
+  },
+  {
+   "op": "jump",
+   "to": "m_fresh"
+  },
+  {
+   "op": "label",
+   "id": "m_thanks"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "ありがとうございます。……でも、物知りに、念を押せと言われてまして。……新しいですか。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "礼を言うた口で、それを聞くか！",
+   "eyes": "anger"
+  },
+  {
+   "op": "label",
+   "id": "m_fresh"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "bg",
+   "src": "boar_question",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "boar_question"
+  },
+  {
+   "op": "nar",
+   "text": "雪の上に倒れた猪。甚兵衛は、鉄砲を手に、こめかみに青筋を立てている。喜六は、猪を、恐る恐る、のぞき込んでいる。"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "いや、その……撃ってから、まだ、ちょっと、時間がたったような。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "茶を一杯飲むほども、たっとらん！"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "お茶、まだ、いただいてまへんし。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "そういう意味やない！"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "でも、もしかしたら、前の日から、ここで、倒れとった猪かも……。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "わしが撃ったのを、見とったやろ！",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "見てました。でも、物知りが、必ず、念を押せ、と。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "……ええい、分かった。そこまで言うなら、見せたる。"
+  },
+  {
+   "op": "nar",
+   "text": "甚兵衛は、鉄砲を逆さに持ち、その台尻で、倒れた猪の頭を、ごつん、と叩いた。"
+  },
+  {
+   "op": "nar",
+   "text": "弾は、猪の眉間をかすって、気を失わせただけだった。猪は、目を覚まし、ぶるぶるっと首を振って、跳ね起きた。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "起きた！",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "猪は、鼻息も荒く、雪を蹴散らして、山の奥へ、まっしぐらに逃げていった。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "……見てみい。あれだけ、新しい。",
+   "eyes": "fun"
+  },
+  {
+   "op": "nar",
+   "text": "猪の足跡が、雪の上に、湯気を立てながら、山の奥まで、点々と続いていた。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "新しすぎて、逃げてしもた！",
+   "eyes": "crying"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "夕暮れ。猟師の小屋の囲炉裏端。鍋の中で、ひと月前の塩漬けの猪の肉が、ぐつぐつ煮えている。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "ほれ、食え。……ひと月前のじゃが、文句は言わせんぞ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……ほな、ありがたく。"
+  },
+  {
+   "op": "nar",
+   "text": "喜六は、熱い汁をすすった。体の芯から、じんわりと、ぬくもりが広がった。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……ぬくい。足の先まで、ぬくい。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "綿入れを、一枚、脱いでもよろしいか。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "二枚脱いでも、ええぞ。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "ひと月前でも、効くじゃろ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "効きます。……物知りの言うことは、半分だけ、ほんまでした。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "物知りの話は、だいたい、半分が猫の話じゃ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "甚兵衛さんも、あの人を、ご存じで。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "大坂から来る客は、皆、猫の話を聞かされてくる。……わしの塩漬けを、新しいかと聞きながらな。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……帰りの道も、また、誰かに、聞かなあきまへんな。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "甚兵衛さん、次の冬も、来てもよろしいか。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "来い。ただし、新しいかとは、聞くな。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "聞かんでええ。来た道を、まっすぐ帰れ。……うどん屋には、寄ってもええ。"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "上方落語『池田の猪買い』、お後がよろしいようで。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "道を聞くたびに脇道へそれ、猪を買いに来て、山で猪に逃げられました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "でも、体は、ちゃんと、ぬくもりました。……旅の目的は、ときどき、道中の湯気の中に、こっそり紛れているものです。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

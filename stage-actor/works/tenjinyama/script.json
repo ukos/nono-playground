@@ -7,9 +7,9 @@
   "category": "古典落語・上方落語",
   "adaptation": "moderate",
   "format": "v3",
-  "minutes": 30,
+  "minutes": 32,
   "synopsis": "全五景で「親切と身勝手の境目を、狐の恩返しが映す」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
-  "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
  },
  "cast": [
   {
@@ -53,33 +53,22 @@
   {
    "op": "say",
    "actor": "nono",
-   "text": "ようこそ、NONO座へ。本日の演目は『天神山』。",
-   "eyes": "normal"
+   "text": "大坂の南、一心寺のそばに、天神山という小さな山がございます。春になると、皆が、花見に出かけます。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "古典落語・上方落語の一席を、全五景でお届けします。",
-   "mouth": "open",
-   "eyes": "normal"
+   "text": "ところが、へそ曲がりの男がひとり。花見は人がやるから嫌や、と言って、墓場へ「墓見」に行く。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "この舞台の核は「親切と身勝手の境目を、狐の恩返しが映す」。",
-   "eyes": "sorrow"
+   "text": "上方落語『天神山』。へそ曲がりの源助が、墓場で拾ったのは、ご縁と、それから一匹の狐でございました。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "台詞はすべて今夜のための書き下ろしです。"
-  },
-  {
-   "op": "say",
-   "actor": "nono",
-   "text": "それでは、幕を開けましょう。",
-   "mouth": "open",
-   "eyes": "joy"
+   "text": "親切と、身勝手。その境目は、どこにあるのか。……狐の恩返しが、それを、映してくれます。"
   },
   {
    "op": "hide",
@@ -96,7 +85,74 @@
   },
   {
    "op": "nar",
-   "text": "第1景「天神山の花見」。源助が墓地で捕らわれた狐を助ける。"
+   "text": "天神山のふもと、古い墓地。桜の花びらが、墓石の上に、はらはらと散っている。源助が、重箱と酒徳利を提げて、やってきた。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_lumberjack",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "ええ眺めや。……墓場の花見は、静かでええ。誰も、歌わん。誰も、踊らん。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "仏さん、隣、失礼しまっせ。一杯、どうです。……ああ、飲まれへんか。ほな、わしが、代わりに。"
+  },
+  {
+   "op": "nar",
+   "text": "源助が、墓石の前に重箱を広げていると、竹藪の奥から、甲高い鳴き声が聞こえた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "……何や。"
+  },
+  {
+   "op": "nar",
+   "text": "藪の中で、一匹の狐が、猟師の仕掛けた罠に、後ろ足を挟まれて、もがいていた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "狐や。……足を、挟まれとる。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "待っとれ。今、外したる。……暴れんな、噛むなよ。"
+  },
+  {
+   "op": "nar",
+   "text": "源助は、罠の歯を、両手でこじ開けた。狐は、足を引きずりながら、草むらへ飛び込み、一度だけ、振り向いた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "……礼は、いらんで。わしは、へそ曲がりや。猟師の思いどおりになるのが、嫌やっただけや。"
+  },
+  {
+   "op": "nar",
+   "text": "狐の目が、夕日を映して、金色に光った。そして、森の奥へ、消えていった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "……さて、仏さん。続きを飲みまひょか。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "狐に、重箱の卵焼きを、一切れ、やったらよかったな。……まあ、ええか。足が治ったら、自分で、獲るやろ。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_lumberjack"
   },
   {
    "op": "show",
@@ -105,99 +161,102 @@
   },
   {
    "op": "show",
-   "actor": "akane",
+   "actor": "tanurio",
    "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "夕暮れ。墓地の出口で、源助は、長屋の隣に住む、安兵衛と出くわした。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "源助やないか。墓場で、何しとった。"
   },
   {
    "op": "say",
    "actor": "extra_lumberjack",
-   "text": "さて「天神山の花見」だ。源助が墓地で捕らわれた狐を助ける。",
-   "eyes": "normal",
-   "mouth": "open"
+   "text": "お前こそ、何しとる。花見の帰りか。"
   },
   {
    "op": "say",
-   "actor": "akane",
-   "text": "その説明だけで、もう話が脇道へ走っている。",
+   "actor": "tanurio",
+   "text": "そうや。三味線に太鼓で、大騒ぎや。……お前も来たらよかったのに。",
    "eyes": "joy"
   },
   {
    "op": "say",
    "actor": "extra_lumberjack",
-   "text": "脇道ではない。笑いへ通じる立派な近道だ。",
-   "eyes": "anger"
-  },
-  {
-   "op": "nar",
-   "text": "天神山の花見の空気が変わり、二人は言葉の裏を測る。"
+   "text": "墓見や。"
   },
   {
    "op": "say",
-   "actor": "akane",
-   "text": "近道なら、さっきと同じ所へ戻るな。",
-   "eyes": "sorrow"
+   "actor": "tanurio",
+   "text": "墓に、花見の弁当を、見せびらかしに行ったんか。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……墓見。また、へそ曲がりが。"
   },
   {
    "op": "say",
    "actor": "extra_lumberjack",
-   "text": "肝心なのは、親切と身勝手の境目を、狐の恩返しが映すということだ。",
-   "eyes": "fun",
-   "mouth": "open"
+   "text": "ついでに、狐を一匹、助けた。"
   },
   {
    "op": "say",
-   "actor": "akane",
-   "text": "急に教訓を置けば片づくと思っているだろう。",
+   "actor": "tanurio",
+   "text": "狐を助けた？",
    "eyes": "surprise"
   },
   {
-   "op": "nar",
-   "text": "遠くの音が途切れる。源助が墓地で捕らわれた狐を助ける。"
-  },
-  {
    "op": "say",
    "actor": "extra_lumberjack",
-   "text": "片づかないから、もう一度やって確かめる。",
-   "eyes": "crying"
+   "text": "罠に、かかっとってな。……外してやった。"
   },
   {
    "op": "say",
-   "actor": "akane",
-   "text": "やり直すたび道具と登場人物が増えている。",
+   "actor": "tanurio",
+   "text": "物好きやなあ。狐なんか、助けて、何の得になる。",
    "eyes": "closed"
   },
   {
    "op": "say",
    "actor": "extra_lumberjack",
-   "text": "源助が墓地で捕らわれた狐を助ける。ここまでは筋書き通りだ。",
-   "eyes": "normal",
-   "mouth": "open"
-  },
-  {
-   "op": "nar",
-   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+   "text": "得になるから、助けるんやない。"
   },
   {
    "op": "say",
-   "actor": "akane",
-   "text": "筋書きが困って、こちらを見ているぞ。",
-   "eyes": "joy"
+   "actor": "tanurio",
+   "text": "ほな、何で。"
   },
   {
    "op": "say",
    "actor": "extra_lumberjack",
-   "text": "なら最後は、自分で落とし前をつけよう。",
-   "eyes": "anger"
-  },
-  {
-   "op": "nar",
-   "text": "残された沈黙が、次の行動を促す。"
+   "text": "……知らん。体が、勝手に動いた。"
   },
   {
    "op": "say",
-   "actor": "akane",
-   "text": "落とし前とオチを同じ棚に置くな。",
-   "eyes": "sorrow"
+   "actor": "tanurio",
+   "text": "狐を助けたら、恩返しに、別嬪さんが来る、いう話があるで。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "来るかいな。そんなもん、芝居の中だけや。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "来たら、わしにも、紹介してくれ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "来たらな。",
+   "eyes": "closed"
   },
   {
    "op": "hide",
@@ -205,7 +264,7 @@
   },
   {
    "op": "hide",
-   "actor": "akane"
+   "actor": "tanurio"
   },
   {
    "op": "bg",
@@ -218,116 +277,300 @@
   },
   {
    "op": "nar",
-   "text": "第2景「独り者の家」。美しい女が訪れ女房として暮らし始める。"
+   "text": "その夜。源助の、長屋の一間。独り者の住まいらしく、散らかっている。戸を叩く音がした。"
   },
   {
    "op": "show",
-   "actor": "tanurio",
+   "actor": "extra_lumberjack",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "こんな夜更けに、誰や。"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "戸を開けると、見知らぬ女が立っていた。色白で、目元が涼しい。旅装束で、手に、小さな包みを提げていた。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "夜分に、申し訳ございません。……道に迷いまして。一晩だけ、泊めていただけませんか。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "……わしの家にか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "灯りが、ここだけ、ついておりましたので。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "……汚いとこやで。布団も、一組しかない。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "土間の隅で、かまいません。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "……土間で寝かすわけには、いかんやろ。上がり。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "女は、礼を言って、上がり框に腰を下ろした。その足首に、細い布が巻かれているのが見えた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "足、怪我しとるんか。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……少し。山道で、くじいてしまいまして。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "見せてみ。……膏薬くらいは、ある。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……いえ、大丈夫でございます。布を、ほどくと、かえって、痛みますので。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "ほな、ええ。……腹は、減ってへんか。重箱の残りがある。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……卵焼きが、ございますね。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "よう、わかったな。蓋も、開けてへんのに。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……匂いで。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_lumberjack"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "show",
+   "actor": "extra_lumberjack",
    "pos": "left"
   },
   {
    "op": "show",
-   "actor": "extra_lumberjack",
+   "actor": "akane",
    "pos": "right"
   },
   {
-   "op": "say",
-   "actor": "tanurio",
-   "text": "さて「独り者の家」だ。美しい女が訪れ女房として暮らし始める。",
-   "eyes": "joy",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "extra_lumberjack",
-   "text": "その説明だけで、もう話が脇道へ走っている。",
-   "eyes": "anger"
-  },
-  {
-   "op": "say",
-   "actor": "tanurio",
-   "text": "脇道ではない。笑いへ通じる立派な近道だ。",
-   "eyes": "sorrow"
-  },
-  {
    "op": "nar",
-   "text": "独り者の家の空気が変わり、二人は言葉の裏を測る。"
+   "text": "翌朝。源助が目を覚ますと、部屋が、見違えるように片づいていた。竈には火が入り、味噌汁の匂いがする。"
   },
   {
    "op": "say",
    "actor": "extra_lumberjack",
-   "text": "近道なら、さっきと同じ所へ戻るな。",
-   "eyes": "fun"
+   "text": "……何や、これは。",
+   "eyes": "surprise"
   },
   {
    "op": "say",
-   "actor": "tanurio",
-   "text": "肝心なのは、親切と身勝手の境目を、狐の恩返しが映すということだ。",
-   "eyes": "surprise",
-   "mouth": "open"
+   "actor": "akane",
+   "text": "一晩の、お礼に。……勝手に、片づけてしまいました。"
   },
   {
    "op": "say",
    "actor": "extra_lumberjack",
-   "text": "急に教訓を置けば片づくと思っているだろう。",
-   "eyes": "crying"
-  },
-  {
-   "op": "nar",
-   "text": "遠くの音が途切れる。美しい女が訪れ女房として暮らし始める。"
+   "text": "礼は、いらん、言うたのに。"
   },
   {
    "op": "say",
-   "actor": "tanurio",
-   "text": "片づかないから、もう一度やって確かめる。",
+   "actor": "akane",
+   "text": "……昨日も、そう、おっしゃいました。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "昨日？"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……いえ。何でもございません。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "名前は。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……名前、ですか。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "呼ぶのに、困る。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……では、お好きなように、お呼びください。",
    "eyes": "closed"
   },
   {
    "op": "say",
    "actor": "extra_lumberjack",
-   "text": "やり直すたび道具と登場人物が増えている。",
-   "eyes": "normal"
+   "text": "ほな、おきつ。……何となくや。"
   },
   {
    "op": "say",
-   "actor": "tanurio",
-   "text": "美しい女が訪れ女房として暮らし始める。ここまでは筋書き通りだ。",
-   "eyes": "joy",
-   "mouth": "open"
+   "actor": "akane",
+   "text": "……何となく、ですか。"
   },
   {
    "op": "nar",
-   "text": "答えを急がず、選んだ手段の代価を確かめる。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_lumberjack",
-   "text": "筋書きが困って、こちらを見ているぞ。",
-   "eyes": "anger"
-  },
-  {
-   "op": "say",
-   "actor": "tanurio",
-   "text": "なら最後は、自分で落とし前をつけよう。",
-   "eyes": "sorrow"
+   "text": "女は、それから、出ていこうとしなかった。源助も、出ていけとは、言わなかった。"
   },
   {
    "op": "nar",
-   "text": "残された沈黙が、次の行動を促す。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_lumberjack",
-   "text": "落とし前とオチを同じ棚に置くな。",
-   "eyes": "fun"
-  },
-  {
-   "op": "hide",
-   "actor": "tanurio"
+   "text": "ひと月が過ぎ、ふた月が過ぎた。長屋の者は、いつのまにか、女を、源助の女房と呼ぶようになっていた。"
   },
   {
    "op": "hide",
    "actor": "extra_lumberjack"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "show",
+   "actor": "extra_lumberjack",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "right"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "源助。お前、いつのまに、あんな別嬪さんを、もろたんや。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "もろたんやない。……来たんや。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "どこの、どなたや。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "……知らん。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "知らん、て。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "聞いたら、出ていきそうな気がしてな。……聞かんことにしとる。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "お茶が、入りました。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "これはこれは。……ええ匂いや。何の、お茶で。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "天神山の、裏の、野草でございます。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……天神山の。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "源助。お前の女房、ちょっと、変わっとらんか。油揚げを、えらい、うまそうに食うとった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "油揚げが好きな人は、なんぼでもおる。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……まあ、そやけど。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_lumberjack"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
   },
   {
    "op": "bg",
@@ -340,116 +583,123 @@
   },
   {
    "op": "nar",
-   "text": "第3景「狐火の夜」。女房が正体と恩返しの理由を打ち明ける。"
+   "text": "秋の夜。月が、雲に隠れている。源助の家の障子に、青白い光が、ちらちらと揺れていた。"
   },
   {
    "op": "show",
-   "actor": "akane",
+   "actor": "extra_lumberjack",
    "pos": "left"
   },
   {
    "op": "show",
-   "actor": "tanurio",
+   "actor": "akane",
    "pos": "right"
   },
   {
    "op": "say",
-   "actor": "akane",
-   "text": "さて「狐火の夜」だ。女房が正体と恩返しの理由を打ち明ける。",
-   "eyes": "anger",
-   "mouth": "open"
+   "actor": "extra_lumberjack",
+   "text": "お前。……その、灯りは、何や。"
+  },
+  {
+   "op": "nar",
+   "text": "女の背後に、青い狐火が、三つ、四つと、浮かんでいた。"
   },
   {
    "op": "say",
-   "actor": "tanurio",
-   "text": "その説明だけで、もう話が脇道へ走っている。",
+   "actor": "akane",
+   "text": "……見られてしまいましたね。",
    "eyes": "sorrow"
   },
   {
    "op": "say",
-   "actor": "akane",
-   "text": "脇道ではない。笑いへ通じる立派な近道だ。",
-   "eyes": "fun"
-  },
-  {
-   "op": "nar",
-   "text": "狐火の夜の空気が変わり、二人は言葉の裏を測る。"
+   "actor": "extra_lumberjack",
+   "text": "……狐火か。"
   },
   {
    "op": "say",
-   "actor": "tanurio",
-   "text": "近道なら、さっきと同じ所へ戻るな。",
+   "actor": "akane",
+   "text": "はい。わたしは、春に、天神山の墓地で、助けていただいた、あの狐でございます。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "……あの。",
    "eyes": "surprise"
   },
   {
    "op": "say",
    "actor": "akane",
-   "text": "肝心なのは、親切と身勝手の境目を、狐の恩返しが映すということだ。",
-   "eyes": "crying",
-   "mouth": "open"
+   "text": "足の布は、罠の痕を、隠すためでした。"
   },
   {
    "op": "say",
-   "actor": "tanurio",
-   "text": "急に教訓を置けば片づくと思っているだろう。",
+   "actor": "extra_lumberjack",
+   "text": "……くじいた、言うてたのは、嘘か。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "嘘ではございません。……罠で、くじいたのです。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "人に姿を見られたら、もう、ここには、おれません。それが、狐の、決まりでございます。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "……油揚げが好きなんも、そのせいか。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "油揚げは、人の姿でも、好きでございます。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "決まりなんか、守らんでええ。わしは、へそ曲がりや。決まりは、嫌いや。",
    "eyes": "closed"
   },
   {
-   "op": "nar",
-   "text": "遠くの音が途切れる。女房が正体と恩返しの理由を打ち明ける。"
+   "op": "say",
+   "actor": "akane",
+   "text": "……あなたは、そう言うと、思っておりました。",
+   "eyes": "crying"
   },
   {
    "op": "say",
    "actor": "akane",
-   "text": "片づかないから、もう一度やって確かめる。",
-   "eyes": "normal"
+   "text": "でも、わたしは、狐です。狐の決まりは、狐が、守らないと。"
   },
   {
    "op": "say",
-   "actor": "tanurio",
-   "text": "やり直すたび道具と登場人物が増えている。",
-   "eyes": "joy"
+   "actor": "extra_lumberjack",
+   "text": "……なんで、来たんや。礼か。恩返しか。"
+  },
+  {
+   "op": "nar",
+   "text": "狐火が、ひとつ、ふっと、消えた。"
   },
   {
    "op": "say",
    "actor": "akane",
-   "text": "女房が正体と恩返しの理由を打ち明ける。ここまでは筋書き通りだ。",
-   "eyes": "anger",
-   "mouth": "open"
-  },
-  {
-   "op": "nar",
-   "text": "答えを急がず、選んだ手段の代価を確かめる。"
-  },
-  {
-   "op": "say",
-   "actor": "tanurio",
-   "text": "筋書きが困って、こちらを見ているぞ。",
-   "eyes": "sorrow"
+   "text": "最初は、そうでした。……一晩だけ、お礼をして、帰るつもりでした。"
   },
   {
    "op": "say",
    "actor": "akane",
-   "text": "なら最後は、自分で落とし前をつけよう。",
-   "eyes": "fun"
+   "text": "でも、あなたは、いつも、礼はいらん、と言う。……だから、帰る理由が、見つからなかった。"
   },
   {
-   "op": "nar",
-   "text": "残された沈黙が、次の行動を促す。"
-  },
-  {
-   "op": "say",
-   "actor": "tanurio",
-   "text": "落とし前とオチを同じ棚に置くな。",
-   "eyes": "surprise"
+   "op": "hide",
+   "actor": "extra_lumberjack"
   },
   {
    "op": "hide",
    "actor": "akane"
-  },
-  {
-   "op": "hide",
-   "actor": "tanurio"
   },
   {
    "op": "bg",
@@ -462,7 +712,7 @@
   },
   {
    "op": "nar",
-   "text": "第4景「野辺の別れ」。源助の無遠慮な望みが二人の暮らしを壊す。"
+   "text": "明け方。天神山へ続く野辺の道。霧が、たなびいている。源助は、女を、追いかけてきた。"
   },
   {
    "op": "show",
@@ -477,136 +727,89 @@
   {
    "op": "say",
    "actor": "extra_lumberjack",
-   "text": "さて「野辺の別れ」だ。源助の無遠慮な望みが二人の暮らしを壊す。",
-   "eyes": "sorrow",
-   "mouth": "open"
+   "text": "待て！"
   },
   {
    "op": "say",
    "actor": "akane",
-   "text": "その説明だけで、もう話が脇道へ走っている。",
-   "eyes": "fun"
+   "text": "……ついてきては、なりません。"
   },
   {
    "op": "say",
    "actor": "extra_lumberjack",
-   "text": "脇道ではない。笑いへ通じる立派な近道だ。",
+   "text": "一つだけ、頼みがある。……行くな、とは言わん。せめて、狐の姿を、一回、見せてくれ。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……狐の姿を。",
    "eyes": "surprise"
   },
   {
-   "op": "nar",
-   "text": "野辺の別れの空気が変わり、二人は言葉の裏を測る。"
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "わしは、お前の、本当の姿を、知らん。知らんまま、別れるのは、嫌や。"
   },
   {
    "op": "say",
    "actor": "akane",
-   "text": "近道なら、さっきと同じ所へ戻るな。",
-   "eyes": "crying"
+   "text": "……それは、あなたの望みです。わたしの望みでは、ありません。",
+   "eyes": "sorrow"
   },
   {
    "op": "say",
    "actor": "extra_lumberjack",
-   "text": "肝心なのは、親切と身勝手の境目を、狐の恩返しが映すということだ。",
-   "eyes": "closed",
-   "mouth": "open"
+   "text": "……見世物、か。"
   },
   {
    "op": "say",
    "actor": "akane",
-   "text": "急に教訓を置けば片づくと思っているだろう。",
-   "eyes": "normal"
-  },
-  {
-   "op": "nar",
-   "text": "遠くの音が途切れる。源助の無遠慮な望みが二人の暮らしを壊す。"
+   "text": "人の姿でおるのは、あなたのそばにいたかったから。……狐の姿を見せたら、それは、ただの、見世物になってしまう。"
   },
   {
    "op": "say",
    "actor": "extra_lumberjack",
-   "text": "片づかないから、もう一度やって確かめる。",
+   "text": "……わしは、また、身勝手なことを、言うたな。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "助けてくださったときは、何も、望まなかった。……あれが、いちばん、嬉しかった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "罠を外したのは、へそ曲がりやったからや。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "いいえ。……あれは、親切でした。ご自分で、気づいておられないだけ。",
    "eyes": "joy"
   },
   {
-   "op": "say",
-   "actor": "akane",
-   "text": "やり直すたび道具と登場人物が増えている。",
-   "eyes": "anger"
+   "op": "nar",
+   "text": "女は、ひとつ、歌を詠んだ。……恋しくば、訪ねて来てみよ、南の、天神山の、森の奥へ。"
+  },
+  {
+   "op": "nar",
+   "text": "霧が、ひときわ濃くなった。それが晴れたとき、道には、もう、誰もいなかった。"
   },
   {
    "op": "say",
    "actor": "extra_lumberjack",
-   "text": "源助の無遠慮な望みが二人の暮らしを壊す。ここまでは筋書き通りだ。",
-   "eyes": "sorrow",
-   "mouth": "open"
-  },
-  {
-   "op": "nar",
-   "text": "答えを急がず、選んだ手段の代価を確かめる。"
-  },
-  {
-   "op": "say",
-   "actor": "akane",
-   "text": "筋書きが困って、こちらを見ているぞ。",
-   "eyes": "fun"
-  },
-  {
-   "op": "say",
-   "actor": "extra_lumberjack",
-   "text": "なら最後は、自分で落とし前をつけよう。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "nar",
-   "text": "残された沈黙が、次の行動を促す。"
-  },
-  {
-   "op": "say",
-   "actor": "akane",
-   "text": "落とし前とオチを同じ棚に置くな。",
+   "text": "……ほな、訪ねていったら、会えるんか。",
    "eyes": "crying"
   },
   {
-   "op": "choice",
-   "options": [
-    {
-     "text": "正面から問いかける",
-     "jump": "tenjinyama_direct"
-    },
-    {
-     "text": "相手の話を最後まで聞く",
-     "jump": "tenjinyama_listen"
-    }
-   ]
-  },
-  {
-   "op": "label",
-   "id": "tenjinyama_direct"
+   "op": "nar",
+   "text": "返事は、なかった。ただ、霧の奥で、竹藪が、さやさやと、鳴っていた。"
   },
   {
    "op": "say",
    "actor": "extra_lumberjack",
-   "text": "私は正面から問う。曖昧なまま次へは進まない。"
-  },
-  {
-   "op": "jump",
-   "to": "tenjinyama_merge"
-  },
-  {
-   "op": "label",
-   "id": "tenjinyama_listen"
-  },
-  {
-   "op": "say",
-   "actor": "akane",
-   "text": "結論を急がず、相手が何を恐れているかまで聞こう。"
-  },
-  {
-   "op": "label",
-   "id": "tenjinyama_merge"
-  },
-  {
-   "op": "nar",
-   "text": "選び方は違っても、二人は同じ核心へ戻ってくる。"
+   "text": "……会えんでも、行く。わしは、へそ曲がりやさかいな。"
   },
   {
    "op": "hide",
@@ -627,7 +830,46 @@
   },
   {
    "op": "nar",
-   "text": "第5景「新しい塚」。別の狐をめぐる真似が思わぬ結末を呼ぶ。"
+   "text": "それから、半月。天神山の墓地。安兵衛が、鉄砲を担いだ猟師から、一匹の狐を、銭で買い取ろうとしていた。"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……源助のやつ、狐を助けたら、別嬪の女房が来た、いう話や。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "わしも、一匹、助けたろ。……猟師から買えば、手っ取り早い。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "一分で、狐一匹。……女房一人が、一分なら、安いもんや。",
+   "eyes": "joy"
+  },
+  {
+   "op": "nar",
+   "text": "安兵衛は、買った狐の縄を、ほどいた。狐は、一目散に、逃げていった。振り向きもしなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……おい。振り向かんかい。礼は、どうした。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "わしの家は、長屋の、東から三軒目や！　間違えんなよ！"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
   },
   {
    "op": "show",
@@ -640,95 +882,127 @@
    "pos": "right"
   },
   {
-   "op": "say",
-   "actor": "tanurio",
-   "text": "さて「新しい塚」だ。別の狐をめぐる真似が思わぬ結末を呼ぶ。",
-   "eyes": "fun",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "extra_lumberjack",
-   "text": "その説明だけで、もう話が脇道へ走っている。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "say",
-   "actor": "tanurio",
-   "text": "脇道ではない。笑いへ通じる立派な近道だ。",
-   "eyes": "crying"
-  },
-  {
    "op": "nar",
-   "text": "新しい塚の空気が変わり、二人は言葉の裏を測る。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_lumberjack",
-   "text": "近道なら、さっきと同じ所へ戻るな。",
-   "eyes": "closed"
+   "text": "その夜。安兵衛の家の戸を、叩く者があった。安兵衛は、飛び起きて、戸を開けた。"
   },
   {
    "op": "say",
    "actor": "tanurio",
-   "text": "肝心なのは、親切と身勝手の境目を、狐の恩返しが映すということだ。",
-   "eyes": "normal",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "extra_lumberjack",
-   "text": "急に教訓を置けば片づくと思っているだろう。",
+   "text": "来た！",
    "eyes": "joy"
   },
   {
    "op": "nar",
-   "text": "遠くの音が途切れる。別の狐をめぐる真似が思わぬ結末を呼ぶ。"
+   "text": "立っていたのは、隣の源助だった。"
   },
   {
    "op": "say",
    "actor": "tanurio",
-   "text": "片づかないから、もう一度やって確かめる。",
+   "text": "……お前か。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "安兵衛。猟師が、困っとる。……昼間、お前が、狐を一分で買うたやろ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "買うた。助けたった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "猟師が、おかみさんに、怒られたそうや。狐一匹、一分で売るやつがあるか、と。……毛皮なら、三分になる。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……わしの女房より先に、猟師の女房が、出てきたか。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "差額の二分、払うたれ、て。猟師が、表で、待っとる。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "狐を助けて、借金ができるんか！",
    "eyes": "anger"
   },
   {
    "op": "say",
    "actor": "extra_lumberjack",
-   "text": "やり直すたび道具と登場人物が増えている。",
+   "text": "お前の狐には、礼を言う理由が、ない。……一分で買うたもんは、一分で、終わる。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……源助。お前、なんで、そんなに、元気がないんや。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "……天神山の森に、毎日、通うとる。まだ、会えん。",
    "eyes": "sorrow"
   },
   {
-   "op": "say",
-   "actor": "tanurio",
-   "text": "別の狐をめぐる真似が思わぬ結末を呼ぶ。ここまでは筋書き通りだ。",
-   "eyes": "fun",
-   "mouth": "open"
+   "op": "choice",
+   "options": [
+    {
+     "text": "源助は、森へ通い続ける",
+     "jump": "m_wait"
+    },
+    {
+     "text": "源助は、森に新しい塚を立てる",
+     "jump": "m_mound"
+    }
+   ]
   },
   {
-   "op": "nar",
-   "text": "答えを急がず、選んだ手段の代価を確かめる。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_lumberjack",
-   "text": "筋書きが困って、こちらを見ているぞ。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "say",
-   "actor": "tanurio",
-   "text": "なら最後は、自分で落とし前をつけよう。",
-   "eyes": "crying"
-  },
-  {
-   "op": "nar",
-   "text": "残された沈黙が、次の行動を促す。"
+   "op": "label",
+   "id": "m_wait"
   },
   {
    "op": "say",
    "actor": "extra_lumberjack",
-   "text": "落とし前とオチを同じ棚に置くな。",
+   "text": "会えんでも、ええ。……通うのは、わしの勝手や。礼も、いらん。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……へそ曲がりも、ここまで来たら、立派なもんやな。"
+  },
+  {
+   "op": "jump",
+   "to": "m_end"
+  },
+  {
+   "op": "label",
+   "id": "m_mound"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "罠の近くに、小さな塚を立てた。……墓やない。罠に、かからんように、という、しるしや。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "狐のために、か。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "狐の決まりは、狐が守る。……人の決まりは、人が守る。罠を仕掛けたら、外すまでが、人の仕事や。",
    "eyes": "closed"
+  },
+  {
+   "op": "label",
+   "id": "m_end"
   },
   {
    "op": "hide",
@@ -739,6 +1013,61 @@
    "actor": "extra_lumberjack"
   },
   {
+   "op": "bg",
+   "src": "tenjinyama",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "tenjinyama"
+  },
+  {
+   "op": "show",
+   "actor": "extra_lumberjack",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "春。天神山の墓地。桜の下に、小さな塚があり、その上に、野草が、ひと束、供えてあった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "……天神山の、裏の野草か。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "毎朝、誰かが、供えていきよる。……わしより、早起きなやつや。"
+  },
+  {
+   "op": "nar",
+   "text": "森の奥から、甲高い鳴き声が、ひとつ、聞こえた。振り向くと、草むらの間を、金色の目が、横切った。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "……礼は、いらんで。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "けど、たまには、顔を見せに来い。……油揚げ、用意しとくさかい。"
+  },
+  {
+   "op": "nar",
+   "text": "草むらが、一度だけ、こくりと頷くように、揺れた。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_lumberjack"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
    "op": "show",
    "actor": "nono",
    "pos": "center"
@@ -746,29 +1075,21 @@
   {
    "op": "say",
    "actor": "nono",
-   "text": "物語はここまで。残った問いは「親切と身勝手の境目を、狐の恩返しが映す」。",
-   "eyes": "sorrow"
+   "text": "天神山の墓見のお話、ここで、幕でございます。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
-   "eyes": "normal"
+   "text": "一分で狐を買った男には、何も、起こりませんでした。何も望まずに罠を外した男には、ひとつの縁が、生まれました。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "ご来場、ありがとうございました。",
-   "eyes": "joy",
-   "mouth": "open"
+   "text": "親切と身勝手の境目は、助けたあとに、何を望むか。……その違いだけ、なのかもしれません。"
   },
   {
    "op": "hide",
    "actor": "nono"
-  },
-  {
-   "op": "bg",
-   "src": null
   },
   {
    "op": "end"

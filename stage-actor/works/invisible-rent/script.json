@@ -1,771 +1,1106 @@
 {
-  "meta": {
-    "id": "invisible-rent",
-    "number": 139,
-    "title": "透明人間の家賃 ―見えない借主―",
-    "original": "NONO座オリジナル新作落語",
-    "category": "新作落語",
-    "adaptation": "free",
-    "format": "v3",
-    "minutes": 30,
-    "synopsis": "全五景で「見えないことと、いないことは同じではない」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
-    "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+ "meta": {
+  "id": "invisible-rent",
+  "number": 139,
+  "title": "透明人間の家賃 ―見えない借主―",
+  "original": "NONO座オリジナル新作落語",
+  "category": "新作落語",
+  "adaptation": "free",
+  "format": "v3",
+  "minutes": 32,
+  "synopsis": "全五景で「見えないことと、いないことは同じではない」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "yui_origin",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "狂言回し",
-      "actor": "yui_origin",
-      "costume": "default"
-    },
-    {
-      "role": "大家",
-      "actor": "tanurio",
-      "costume": "default"
-    },
-    {
-      "role": "透明人間の店子",
-      "actor": "rei_trackcape",
-      "costume": "default"
-    },
-    {
-      "role": "隣人",
-      "actor": "shiro",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "rent_day": "bg/invisible-rent-rent_day-2048x1152.png",
-    "proof_of_life": "bg/invisible-rent-proof_of_life-2048x1152.png",
-    "invisible_work": "bg/invisible-rent-invisible_work-2048x1152.png",
-    "eviction_argument": "bg/invisible-rent-eviction_argument-2048x1152.png",
-    "rent_receipt": "bg/invisible-rent-rent_receipt-2048x1152.png"
+  {
+   "role": "大家",
+   "actor": "tanurio",
+   "costume": "default"
   },
-  "steps": [
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "yui_origin",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "yui_origin",
-      "text": "ようこそ、NONO座へ。本日の演目は『透明人間の家賃』。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "yui_origin",
-      "text": "新作落語の一席を、全五景でお届けします。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "yui_origin",
-      "text": "この舞台の核は「見えないことと、いないことは同じではない」。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "yui_origin",
-      "text": "台詞はすべて今夜のための書き下ろしです。"
-    },
-    {
-      "op": "say",
-      "actor": "yui_origin",
-      "text": "それでは、幕を開けましょう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "hide",
-      "actor": "yui_origin"
-    },
-    {
-      "op": "bg",
-      "src": "rent_day",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "rent_day"
-    },
-    {
-      "op": "nar",
-      "text": "第1景「長屋の家賃日」。大家が空室にしか見えない部屋へ家賃を取りに行く。"
-    },
-    {
-      "op": "show",
-      "actor": "tanurio",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_trackcape",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "さて「長屋の家賃日」だ。大家が空室にしか見えない部屋へ家賃を取りに行く。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "その説明だけで、もう話が脇道へ走っている。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
-      "eyes": "anger"
-    },
-    {
-      "op": "nar",
-      "text": "長屋の家賃日の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "近道なら、さっきと同じ所へ戻るな。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "肝心なのは、見えないことと、いないことは同じではないということだ。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "急に教訓を置けば片づくと思っているだろう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。大家が空室にしか見えない部屋へ家賃を取りに行く。"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "片づかないから、もう一度やって確かめる。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "やり直すたび道具と登場人物が増えている。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "大家が空室にしか見えない部屋へ家賃を取りに行く。ここまでは筋書き通りだ。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "筋書きが困って、こちらを見ているぞ。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "なら最後は、自分で落とし前をつけよう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "落とし前とオチを同じ棚に置くな。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "hide",
-      "actor": "tanurio"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_trackcape"
-    },
-    {
-      "op": "bg",
-      "src": "proof_of_life",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "proof_of_life"
-    },
-    {
-      "op": "nar",
-      "text": "第2景「暮らしの証拠」。減る米と濡れた手拭いで店子の存在を確かめる。"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "tanurio",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "さて「暮らしの証拠」だ。減る米と濡れた手拭いで店子の存在を確かめる。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "その説明だけで、もう話が脇道へ走っている。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "暮らしの証拠の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "近道なら、さっきと同じ所へ戻るな。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "肝心なのは、見えないことと、いないことは同じではないということだ。",
-      "eyes": "surprise",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "急に教訓を置けば片づくと思っているだろう。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。減る米と濡れた手拭いで店子の存在を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "片づかないから、もう一度やって確かめる。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "やり直すたび道具と登場人物が増えている。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "減る米と濡れた手拭いで店子の存在を確かめる。ここまでは筋書き通りだ。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "筋書きが困って、こちらを見ているぞ。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "なら最後は、自分で落とし前をつけよう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "落とし前とオチを同じ棚に置くな。",
-      "eyes": "fun"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "hide",
-      "actor": "tanurio"
-    },
-    {
-      "op": "bg",
-      "src": "invisible_work",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "invisible_work"
-    },
-    {
-      "op": "nar",
-      "text": "第3景「見えない内職」。働いた証明ができず家賃の支払いが遅れる。"
-    },
-    {
-      "op": "show",
-      "actor": "rei_trackcape",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "さて「見えない内職」だ。働いた証明ができず家賃の支払いが遅れる。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "その説明だけで、もう話が脇道へ走っている。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
-      "eyes": "fun"
-    },
-    {
-      "op": "nar",
-      "text": "見えない内職の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "近道なら、さっきと同じ所へ戻るな。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "肝心なのは、見えないことと、いないことは同じではないということだ。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "急に教訓を置けば片づくと思っているだろう。",
-      "eyes": "closed"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。働いた証明ができず家賃の支払いが遅れる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "片づかないから、もう一度やって確かめる。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "やり直すたび道具と登場人物が増えている。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "働いた証明ができず家賃の支払いが遅れる。ここまでは筋書き通りだ。",
-      "eyes": "anger"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "筋書きが困って、こちらを見ているぞ。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "なら最後は、自分で落とし前をつけよう。",
-      "eyes": "fun"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "落とし前とオチを同じ棚に置くな。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_trackcape"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "bg",
-      "src": "eviction_argument",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "eviction_argument"
-    },
-    {
-      "op": "nar",
-      "text": "第4景「立退き問答」。姿のない相手を追い出したと証明できず揉める。"
-    },
-    {
-      "op": "show",
-      "actor": "tanurio",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_trackcape",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "さて「立退き問答」だ。姿のない相手を追い出したと証明できず揉める。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "その説明だけで、もう話が脇道へ走っている。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "立退き問答の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "近道なら、さっきと同じ所へ戻るな。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "肝心なのは、見えないことと、いないことは同じではないということだ。",
-      "eyes": "closed",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "急に教訓を置けば片づくと思っているだろう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。姿のない相手を追い出したと証明できず揉める。"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "片づかないから、もう一度やって確かめる。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "やり直すたび道具と登場人物が増えている。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "姿のない相手を追い出したと証明できず揉める。ここまでは筋書き通りだ。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "筋書きが困って、こちらを見ているぞ。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "なら最後は、自分で落とし前をつけよう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "落とし前とオチを同じ棚に置くな。",
-      "eyes": "crying"
-    },
-    {
-      "op": "choice",
-      "options": [
-        {
-          "text": "正面から問いかける",
-          "jump": "invisible-rent_direct"
-        },
-        {
-          "text": "相手の話を最後まで聞く",
-          "jump": "invisible-rent_listen"
-        }
-      ]
-    },
-    {
-      "op": "label",
-      "id": "invisible-rent_direct"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "私は正面から問う。曖昧なまま次へは進まない。"
-    },
-    {
-      "op": "jump",
-      "to": "invisible-rent_merge"
-    },
-    {
-      "op": "label",
-      "id": "invisible-rent_listen"
-    },
-    {
-      "op": "say",
-      "actor": "rei_trackcape",
-      "text": "結論を急がず、相手が何を恐れているかまで聞こう。"
-    },
-    {
-      "op": "label",
-      "id": "invisible-rent_merge"
-    },
-    {
-      "op": "nar",
-      "text": "選び方は違っても、二人は同じ核心へ戻ってくる。"
-    },
-    {
-      "op": "hide",
-      "actor": "tanurio"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_trackcape"
-    },
-    {
-      "op": "bg",
-      "src": "rent_receipt",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "rent_receipt"
-    },
-    {
-      "op": "nar",
-      "text": "第5景「領収書の宛名」。最後は見えない印鑑を押した領収書だけが残る。"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "tanurio",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "さて「領収書の宛名」だ。最後は見えない印鑑を押した領収書だけが残る。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "その説明だけで、もう話が脇道へ走っている。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "領収書の宛名の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "近道なら、さっきと同じ所へ戻るな。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "肝心なのは、見えないことと、いないことは同じではないということだ。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "急に教訓を置けば片づくと思っているだろう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。最後は見えない印鑑を押した領収書だけが残る。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "片づかないから、もう一度やって確かめる。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "やり直すたび道具と登場人物が増えている。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "最後は見えない印鑑を押した領収書だけが残る。ここまでは筋書き通りだ。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "筋書きが困って、こちらを見ているぞ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "なら最後は、自分で落とし前をつけよう。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "落とし前とオチを同じ棚に置くな。",
-      "eyes": "closed"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "hide",
-      "actor": "tanurio"
-    },
-    {
-      "op": "show",
-      "actor": "yui_origin",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "yui_origin",
-      "text": "物語はここまで。残った問いは「見えないことと、いないことは同じではない」。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "yui_origin",
-      "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "yui_origin",
-      "text": "ご来場、ありがとうございました。",
-      "eyes": "joy"
-    },
-    {
-      "op": "hide",
-      "actor": "yui_origin"
-    },
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "end"
+  {
+   "role": "透明人間の店子",
+   "actor": "rei_trackcape",
+   "costume": "default"
+  },
+  {
+   "role": "隣人",
+   "actor": "shiro",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "rent_day": "bg/invisible-rent-rent_day-2048x1152.png",
+  "proof_of_life": "bg/invisible-rent-proof_of_life-2048x1152.png",
+  "invisible_work": "bg/invisible-rent-invisible_work-2048x1152.png",
+  "eviction_argument": "bg/invisible-rent-eviction_argument-2048x1152.png",
+  "rent_receipt": "bg/invisible-rent-rent_receipt-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "yui_origin",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "今宵もお運びいただき、ありがとうございます。ユイ・オリジンが、新作落語の幕を開けます。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "題して、『透明人間の家賃』。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "本所の裏長屋に、少し変わった店子が住んでおりました。姿が、まったく見えないのです。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "お客さまには、舞台の上に、赤いジャージの役者が見えておりますね。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "でも、長屋の人たちには、見えておりません。そういうお約束で、お聞きください。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "姿が見えなければ、そこには誰もいないのか。……さて、月末、家賃の取り立ての日でございます。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui_origin"
+  },
+  {
+   "op": "bg",
+   "src": "rent_day",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "rent_day"
+  },
+  {
+   "op": "nar",
+   "text": "月末。長屋の奥の、九尺二間の部屋。障子は閉まっている。大家の狸のタヌリオが、帳面を抱えて、戸口に立った。"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "さて、残るはここだけ。……この部屋が、いちばん、やっかいなんだ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "透明の旦那、家賃の日でございますよ。開けますよ。"
+  },
+  {
+   "op": "nar",
+   "text": "戸を開けると、部屋の中には、誰もいない。……ように見える。部屋の真ん中に、赤いジャージの店子が、正座している。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_trackcape",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "……いる。ここに、いる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "いないねえ。また、いないふりかい。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "いないふりではない。見えないだけだ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "おっと、声はする。……旦那、どこです。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "目の前だ。手を伸ばせば、届く。"
+  },
+  {
+   "op": "nar",
+   "text": "大家が、恐る恐る手を伸ばすと、店子の鼻をつまんだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "鼻だ。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "あっ、これは失礼。……いや、見えないから、仕方ない。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "で、家賃は。今月分と、先月分。二朱と二朱で、一分。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "……今月は、払えぬ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "また、そう来た。見えない人は、財布まで見えなくなるのかい。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "財布は見える。中身が、見えない。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "それは、空っぽって言うんだよ！",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "空っぽの財布は、見えない者と同じだ。あるのに、ないように扱われる。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "うまいことを言っても、家賃は負からないよ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "負けてくれとは言っておらぬ。待ってくれと言っておる。"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_trackcape"
+  },
+  {
+   "op": "bg",
+   "src": "proof_of_life",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "proof_of_life"
+  },
+  {
+   "op": "nar",
+   "text": "同じ長屋。隣の部屋の白兎のシローが、壁越しに、大家を呼び止めた。"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "大家どの、ちと、お話が。……隣の部屋の店子のことでござる。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "シローさん。あんた、隣に住んでて、あの旦那を見たことあるかい。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "見たことは、ない。だが、おることは、確かだ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "見たことないのに、確かなのかい。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "兎は、目より耳を信じる。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "どうして分かる。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "朝、井戸の釣瓶が、ひとりでに上がる。手拭いが、ひとりでに濡れて、干してある。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "夕方には、米びつの米が、一合ずつ減る。夜には、箸と茶碗が、かちゃかちゃ鳴る。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "幽霊じゃないのかい。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "幽霊は、米を食わぬ。……それに、わしの白兎の耳には、あの店子の寝息まで聞こえる。毎晩、決まって、亥の刻に寝る。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "規則正しいねえ。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "長屋で、いちばん規則正しい。夜中に騒ぐのは、むしろ、大家どのの酒盛りのほうだ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "余計なことは、言わんでいい。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "それから、先月、わしが熱を出して寝込んだとき、枕元に、粥が置いてあった。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "誰が。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "戸は閉まっておった。湯気の立つ粥が、ひとりでに、わしの枕元へ。……あれは、隣の店子だ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……でも、家賃を払わないのは、困るんだよ。見えない人の、見えない言い訳を、地主さんに、どう説明すりゃいいんだ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_trackcape",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "再び、透明の店子の部屋。大家が、部屋の中を、手探りで歩き回っている。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "シローさんに、粥を届けたんだってね。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "……湯気までは、隠せなかったか。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "ばれたよ。湯気は見えたって。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "旦那、仕事は、何をしてるんです。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "内職だ。傘張りと、筆の穂先づくり。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "傘はどこに。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "そこに、十本、立てかけてある。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……本当だ。張りたての傘が、十本。紙の継ぎ目も、ぴしっとしてる。いい腕だねえ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "自慢の腕だ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "じゃあ、これを問屋に持っていけば、家賃くらい、すぐに。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "持っていった。……問屋は、傘だけが宙に浮いて店に入ってきたのを見て、腰を抜かした。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "化け傘だと言って、塩をまかれた。代金は、一文ももらえなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……そりゃあ、災難だ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "筆の穂先も、同じだ。筆屋の前に、筆が十本並んで浮いておったら、誰でも逃げる。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "わしでも逃げるね。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "腕はあっても、手が見えぬ。手が見えぬ者の腕は、誰も信じてくれぬ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_trackcape"
+  },
+  {
+   "op": "bg",
+   "src": "invisible_work",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "invisible_work"
+  },
+  {
+   "op": "nar",
+   "text": "傘問屋の店先。大家が、透明の店子を連れて、交渉に来た。店子は、大家の後ろに立っている。"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_trackcape",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "ごめんよ。こないだ、宙に浮いた傘が来たろう。あれは、化け傘じゃない。うちの長屋の、腕のいい職人が張ったもんだ。"
+  },
+  {
+   "op": "nar",
+   "text": "問屋の主人は、首を振った。姿の見えない者の品は、出どころが分からぬ。盗品かもしれぬ、と。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "盗品じゃないよ。わしが、毎日、隣で見てる。"
+  },
+  {
+   "op": "nar",
+   "text": "番頭が、おそるおそる言った。大家さんは狸でしょう、狸が化かしてるんじゃ、と。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "狸だからって、なんでも化かしてると思うな！……いや、見えないけど、隣のシローさんが、毎日、音を聞いてる。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "音では、証明にならぬか。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "旦那、何か、ここで、張ってみせられるかい。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "よかろう。"
+  },
+  {
+   "op": "nar",
+   "text": "店先に、紙と竹の骨が並べられた。誰の手もないのに、刷毛がひとりでに動き、紙が骨に吸いつくように貼られていく。"
+  },
+  {
+   "op": "nar",
+   "text": "問屋の主人も、番頭も、通りがかりの客も、息をのんで見ていた。一本の傘が、あっという間に、張り上がった。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "どうだい。化け傘じゃない。立派な、職人の仕事だ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "nar",
+   "text": "主人は、恐る恐る傘を開いた。継ぎ目は真っ直ぐ、張りは太鼓のように張っていた。主人は、思わず、うなった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "……代金は、いくらになる。"
+  },
+  {
+   "op": "nar",
+   "text": "一本、八文。十本で、八十文。主人は、銭を、何もない空中に、恐る恐る差し出した。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "確かに、受け取った。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "八十文か。……家賃には、まだ、ちっとも足りないね。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "毎日、張っても、家賃には、ひと月かかる。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "問屋の主人が、咳払いをした。この腕なら、毎月、五十本は頼みたい、と。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "五十本！",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "毎月、か。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "旦那、聞いたかい。ひと月で、四百文。……家賃、払えるじゃないか。"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_trackcape"
+  },
+  {
+   "op": "bg",
+   "src": "eviction_argument",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "eviction_argument"
+  },
+  {
+   "op": "nar",
+   "text": "長屋の路地。地主の使いが来たという知らせ。大家が、青い顔で、透明の店子の部屋へ駆け込んできた。"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_trackcape",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "旦那、地主さんが、怒ってるんだよ。家賃を払わない店子は、すぐに追い出せって。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "追い出すのか。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……追い出したくはないよ。だけど、わしも、雇われ大家だ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "地主さんは、「見えない店子なんて、いないも同然だ。部屋を空けて、新しい人を入れろ」って。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "いないも同然、か。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "ならば、追い出すがいい。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "じゃあ、出ていってくれるかい。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "出ていった。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……今、出ていったのかい。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "出ていったと、言ったら、信じるか。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "見えないんだから、信じるしかないじゃないか！",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "出ていっておらぬ。まだ、ここに座っておる。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "どっちなんだい！"
+  },
+  {
+   "op": "nar",
+   "text": "隣の部屋から、シローが顔を出した。"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "大家どの、まだ、そこにおるぞ。寝息ではないが、心の臓の音がする。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "ほら、シローさんの耳は、ごまかせないよ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "……そうだな。出ていく先が、ないのだ。見えない者に、部屋を貸す大家は、ほかにおらぬ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "問屋の注文も、来月からだ。今、出ていけば、また、宙に浮いた傘に戻る。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "地主さんには、追い出したって、言っておこうか。見えないんだから、ばれやしない。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "大家は、地主に嘘をつく",
+     "jump": "m_lie"
+    },
+    {
+     "text": "大家は、地主に本当のことを話しに行く",
+     "jump": "m_truth"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_lie"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……いや、だめだ。見えない旦那が、見えない嘘のせいで、ずっと隠れて暮らすことになる。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "大家どの、たまには、いいことを言う。",
+   "eyes": "joy"
+  },
+  {
+   "op": "jump",
+   "to": "m_go"
+  },
+  {
+   "op": "label",
+   "id": "m_truth"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "本当のことを話そう。見えないけど、いる。働いてる。……それを、わしの口から言う。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "大家どのは、狸でござろう。化かすのは、得意ではないのか。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "化かすのは、得意だよ。でも、いる者を、いないことにするのは、化かしじゃない。"
+  },
+  {
+   "op": "label",
+   "id": "m_go"
+  },
+  {
+   "op": "nar",
+   "text": "大家は、帳面を抱えて、地主の屋敷へ向かった。透明の店子と、シローが、その後ろをついていった。"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_trackcape"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_trackcape",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "地主の屋敷の座敷。地主は、大家と、その横の、何もないように見える場所を、交互に見ている。"
+  },
+  {
+   "op": "nar",
+   "text": "地主は、扇子をぱちんと鳴らした。大家よ、誰と来たのだ。わしには、お前しか見えぬぞ、と。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "地主さん、この長屋の、九尺二間の店子は、見えません。でも、います。毎朝、井戸の水を汲み、毎晩、亥の刻に寝ます。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "傘を張り、筆を作り、八十文ずつ、稼いでます。……家賃は遅れてますが、怠けてるわけじゃない。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "地主どの。……ここに、おります。"
+  },
+  {
+   "op": "nar",
+   "text": "地主の手から、扇子が、ぽろりと落ちた。部屋の誰もいない場所から、声がしたのだ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "ね、いるでしょう。"
+  },
+  {
+   "op": "nar",
+   "text": "地主は、しばらく黙っていた。それから、問屋で張った傘を一本、手に取った。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "地主さん、これを、張ったのが、この旦那です。"
+  },
+  {
+   "op": "nar",
+   "text": "地主は、傘を開き、継ぎ目を指でなぞった。そして、静かに言った。姿が見えなくても、腕は見える、と。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "……腕は、見える。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "地主さん！",
+   "eyes": "joy"
+  },
+  {
+   "op": "nar",
+   "text": "地主は、家賃を三か月待つかわりに、屋敷の傘を全部、張り替えてくれ、と頼んだ。"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_trackcape"
+  },
+  {
+   "op": "bg",
+   "src": "rent_receipt",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "rent_receipt"
+  },
+  {
+   "op": "nar",
+   "text": "三か月後。長屋の大家の部屋。帳面の上に、銭が、きちんと積まれている。"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_trackcape",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "旦那、三か月分、確かに受け取りました。地主さんの屋敷の傘も、評判がよくて、ご近所から注文が来てるそうだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "長屋の皆が、手伝ってくれた。シローどのが、問屋に届けてくれて。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "大家どのが、地主の前で、わしのことを、いると言ってくれた。……あれが、いちばん、うれしかった。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "当たり前のことを言っただけさ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "さあ、領収書だ。宛名を書こう。……旦那、名前は、なんて言うんだい。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "……名前か。誰にも呼ばれたことがないので、忘れてしまった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "名前を、忘れた。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "見えないうちに、名前も、どこかへ透けていってしまった。"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "では、わしらが、呼べばよい。……毎朝、釣瓶の音で目が覚める。釣瓶の旦那、というのは、どうだ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "傘の旦那、のほうが、いいんじゃないかね。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "……どちらでもいい。呼んでもらえるなら。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "じゃあ、領収書の宛名は、「九尺二間の、傘張りの旦那」。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "それでいい。……そこに、印を押そう。"
+  },
+  {
+   "op": "nar",
+   "text": "店子は、懐から印鑑を取り出し、領収書に押した。紙の上に、朱色の、くっきりとした印が残った。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "印は、見えるんだね。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "わしが、ここにいた証だ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "この領収書、旦那の分も、写しを取っておこう。わしの帳面と、旦那の手元と、二枚。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "二枚あれば、わしが見えなくなっても、紙が、わしを覚えていてくれる。"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_trackcape"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "夜。長屋の路地。大家と、シローが、並んで歩いている。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "シローさん、あの旦那、なんで、透明になっちまったんだろうね。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "本人も、覚えておらぬそうだ。気がついたら、誰も、自分を見てくれなくなっていた、と。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……それって、本当に、体が透けたのかね。それとも、皆が、見なくなっただけなのかね。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "さあ。……だが、今は、皆が、あの部屋の前を通ると、声をかける。「傘の旦那、おはよう」と。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "返事が来るのが、また、いいんだよ。見えないけど。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "声をかける者が増えるたびに、あの部屋の戸口が、少しずつ明るく見える気がする。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "気のせいかね。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "気のせいでも、よい。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "明日は、家賃の日でござるな。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "ああ。……あの旦那の部屋は、最後に回そう。いちばん、楽しみだからね。"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "yui_origin",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "新作落語『透明人間の家賃』、これにてお開きでございます。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "姿は見えなくても、釣瓶の音、濡れた手拭い、張りたての傘。そこに暮らしている証は、ちゃんと、ありました。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "見えないことと、いないことは、同じではありません。……皆さまの近くにも、声をかけてほしい誰かが、いるかもしれませんね。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "yui_origin"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

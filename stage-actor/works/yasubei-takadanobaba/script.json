@@ -9,7 +9,7 @@
   "format": "v3",
   "minutes": 36,
   "synopsis": "全五景で「間に合う保証がなくても、友のため走る一歩を止めない」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
-  "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
  },
  "cast": [
   {
@@ -19,7 +19,7 @@
   },
   {
    "role": "中山安兵衛",
-   "actor": "rei_trackcape",
+   "actor": "rei_hakama",
    "costume": "default"
   },
   {
@@ -35,6 +35,11 @@
   {
    "role": "町人",
    "actor": "shiro",
+   "costume": "default"
+  },
+  {
+   "role": "堀部の娘・お幸",
+   "actor": "mei",
    "costume": "default"
   }
  ],
@@ -58,33 +63,22 @@
   {
    "op": "say",
    "actor": "nono",
-   "text": "ようこそ、NONO座へ。本日の演目は『赤穂義士伝・安兵衛高田馬場駆け付け』。",
-   "eyes": "normal"
+   "text": "元禄七年、二月。江戸の牛込、高田馬場。のちに赤穂義士となる男の名を、最初に江戸じゅうへ知らしめた一日がございます。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "講談の一席を、全五景でお届けします。",
-   "mouth": "open",
-   "eyes": "normal"
+   "text": "講談『赤穂義士伝』より、堀部安兵衛、高田馬場の駆け付け。当時はまだ、越後浪人、中山安兵衛と名乗っておりました。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "この舞台の核は「間に合う保証がなくても、友のため走る一歩を止めない」。",
-   "eyes": "sorrow"
+   "text": "喧嘩の仲裁と大酒で名高い、長屋住まいの若い浪人。その朝、一通の置き手紙が、彼を走らせます。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "台詞はすべて今夜のための書き下ろしです。"
-  },
-  {
-   "op": "say",
-   "actor": "nono",
-   "text": "それでは、幕を開けましょう。",
-   "mouth": "open",
-   "eyes": "joy"
+   "text": "間に合うかどうかは、分かりません。それでも走る。……十八町の道のりを、どうぞ、一緒に駆けてください。"
   },
   {
    "op": "hide",
@@ -101,113 +95,128 @@
   },
   {
    "op": "nar",
-   "text": "第1景「決闘の知らせ」。安兵衛が叔父同然の菅野の果し合いを知る。"
+   "text": "八丁堀の裏長屋。朝。徳利が三本、畳に転がっている。安兵衛は、大いびきをかいて眠っていた。"
   },
   {
    "op": "show",
-   "actor": "rei_trackcape",
-   "pos": "left"
-  },
-  {
-   "op": "show",
-   "actor": "extra_elder",
-   "pos": "right"
+   "actor": "rei_hakama",
+   "pos": "center"
   },
   {
    "op": "say",
-   "actor": "rei_trackcape",
-   "text": "「決闘の知らせ」へ来た。安兵衛が叔父同然の菅野の果し合いを知る。",
-   "eyes": "normal"
+   "actor": "rei_hakama",
+   "text": "……ん。もう、朝か。昨夜は、どこで飲んで、どうやって帰ったか、さっぱり覚えておらん。"
   },
   {
    "op": "say",
-   "actor": "extra_elder",
-   "text": "ここで黙れば、誰かが代わりに意味を決める。",
-   "eyes": "joy"
-  },
-  {
-   "op": "say",
-   "actor": "rei_trackcape",
-   "text": "私が守りたいのは「間に合う保証がなくても、友のため走る一歩を止めない」だ。",
-   "eyes": "anger"
-  },
-  {
-   "op": "nar",
-   "text": "決闘の知らせの空気が変わり、二人は言葉の裏を測る。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_elder",
-   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "say",
-   "actor": "rei_trackcape",
-   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-   "eyes": "fun"
-  },
-  {
-   "op": "say",
-   "actor": "extra_elder",
-   "text": "過去は変えられない。だが次の手は選べる。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "nar",
-   "text": "遠くの音が途切れる。安兵衛が叔父同然の菅野の果し合いを知る。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_trackcape",
-   "text": "安兵衛が叔父同然の菅野の果し合いを知る。その事実から目をそらさない。",
-   "eyes": "crying"
-  },
-  {
-   "op": "say",
-   "actor": "extra_elder",
-   "text": "恐れを消すのではなく、恐れたまま進もう。",
+   "actor": "rei_hakama",
+   "text": "越後の新発田から江戸へ出て、六年。仕官の口はなく、剣の腕だけが、喧嘩の仲裁で売れていく。",
    "eyes": "closed"
   },
   {
    "op": "say",
-   "actor": "rei_trackcape",
-   "text": "私の名ではなく、行いで答えを残す。",
-   "eyes": "normal"
-  },
-  {
-   "op": "nar",
-   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+   "actor": "rei_hakama",
+   "text": "喧嘩安、などと呼ばれておる。……ありがたくない名だ。"
   },
   {
    "op": "say",
-   "actor": "extra_elder",
-   "text": "その答えを、次の場面まで持って行こう。",
-   "eyes": "joy"
+   "actor": "rei_hakama",
+   "text": "道場の師範代で口を糊して、残りは酒に消える。父は、わしが十三のとき、藩を追われて死んだ。"
   },
   {
    "op": "say",
-   "actor": "rei_trackcape",
-   "text": "ここで決める。逃げず、相手の声を聞く。",
-   "eyes": "anger"
-  },
-  {
-   "op": "nar",
-   "text": "残された沈黙が、次の行動を促す。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_elder",
-   "text": "ならば私も、その決断の重さを分け合う。",
+   "actor": "rei_hakama",
+   "text": "中山の家を立て直す、と誓って江戸へ来たのに。……徳利ばかりが、増えていく。",
    "eyes": "sorrow"
   },
   {
-   "op": "hide",
-   "actor": "rei_trackcape"
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "長屋の腰高障子が、どんどんと叩かれた。隣に住む、町人の若い衆である。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "安兵衛さん、起きてくだせえ！　菅野の旦那が、今朝早く、戸口にこれを置いていきなすった！"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "菅野どのが。……手紙か。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "旦那が来たとき、戸口で、しばらく黙って立っていなすった。起こさないでくれって、おいらに言って。"
+  },
+  {
+   "op": "nar",
+   "text": "安兵衛は、寝ぼけ眼で封を切った。読み進むうちに、顔から、酒の赤みが引いていった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "「本日、高田馬場にて、村上兄弟と果し合い。もし拙者が戻らぬときは、骨を拾うてくれ」……！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "果し合い？　あの、白髪のご老人が。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "一昨日、碁を打ったときに、何か言いたそうにしておられた。……あれは、このことだったのか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "水くさい。いや、わしが酔っておったから、言えなかったのだ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "菅野六郎左衛門どのは、同じ越後の出で、叔父と甥の盃を交わした方だ。江戸で、わしにただひとり、飯を食わせてくれた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "相手の村上は、兄弟と、その門弟が何人もおる。……一人で行かせるわけにいかん！",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "高田馬場って、ここから十八町はありやすぜ。果し合いは、もう始まってるかもしれねえ。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "旦那、刀は。袴は。顔くらい洗って。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "刀だけでいい！　袴は走りながらはく！"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "走る！"
   },
   {
    "op": "hide",
-   "actor": "extra_elder"
+   "actor": "rei_hakama"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
   },
   {
    "op": "bg",
@@ -220,12 +229,32 @@
   },
   {
    "op": "nar",
-   "text": "第2景「江戸十八町」。酒をあおった安兵衛が人波を縫い高田馬場へ走る。"
+   "text": "江戸の町。人通りの多い朝。袴の裾をからげた浪人が、刀を差したまま、全力で駆けていく。"
   },
   {
    "op": "show",
-   "actor": "iwao",
+   "actor": "rei_hakama",
    "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "八丁堀から、京橋、日本橋。神田を抜けて、牛込へ。……遠い。こんなに遠かったか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "昨夜の酒が、足に残っている。息が、続かぬ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "日本橋の魚河岸で、天秤棒の魚屋とぶつかりかけた。安兵衛は、謝りながら、跳んで越えた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "すまん、急いでおる！　鯛は、無事か！"
   },
   {
    "op": "show",
@@ -234,89 +263,125 @@
   },
   {
    "op": "say",
-   "actor": "iwao",
-   "text": "「江戸十八町」へ来た。酒をあおった安兵衛が人波を縫い高田馬場へ走る。"
+   "actor": "shiro",
+   "text": "安兵衛さん、待ってくだせえ！　おいらも行きやす！"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "ついて来られるなら、来い！　ただし、わしの前に出るな。"
   },
   {
    "op": "say",
    "actor": "shiro",
-   "text": "ここで黙れば、誰かが代わりに意味を決める。",
-   "eyes": "anger"
+   "text": "どうしてです。"
   },
   {
    "op": "say",
-   "actor": "iwao",
-   "text": "私が守りたいのは「間に合う保証がなくても、友のため走る一歩を止めない」だ。"
+   "actor": "rei_hakama",
+   "text": "お前は、町人だ。刀の届くところに、出てはならん。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "旦那、こっちの道が近道だ！　湯屋の裏を抜けるんでさ！"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "任せる！　お前は、江戸の道に詳しい。"
   },
   {
    "op": "nar",
-   "text": "江戸十八町の空気が変わり、二人は言葉の裏を測る。"
+   "text": "人波を縫い、荷車を飛び越え、行商の籠をひっくり返しそうになりながら、二人は走った。"
+  },
+  {
+   "op": "nar",
+   "text": "神田の辻で、駕籠かきが声をかけた。旦那、乗っていきなせえ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "駕籠より、わしの足のほうが速い！　……と言いたいが、金がない。"
   },
   {
    "op": "say",
    "actor": "shiro",
-   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+   "text": "旦那、顔が真っ青だ。少し、休んだほうが。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "休めば、菅野どのが、斬られる。"
+  },
+  {
+   "op": "nar",
+   "text": "牛込の坂の途中。酒屋の暖簾が見えた。安兵衛は、足をもつれさせて、店先に倒れ込んだ。"
+  },
+  {
+   "op": "nar",
+   "text": "店の親父は、浪人の顔を見て、何も聞かずに枡を出した。安兵衛の喧嘩の仲裁を、何度も見ていたのだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "親父、酒を。枡で、一杯。……いや、二杯。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "こんなときに、酒ですか！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "喉が、焼けるように渇いておる。水では、足が止まる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "こんなときだから、酒だ。わしの足は、酒で動くようにできておる。",
    "eyes": "fun"
   },
   {
-   "op": "say",
-   "actor": "iwao",
-   "text": "ならば勝ち負けだけでなく、支払う代価も見る。"
-  },
-  {
-   "op": "say",
-   "actor": "shiro",
-   "text": "過去は変えられない。だが次の手は選べる。",
-   "eyes": "crying"
-  },
-  {
    "op": "nar",
-   "text": "遠くの音が途切れる。酒をあおった安兵衛が人波を縫い高田馬場へ走る。"
+   "text": "安兵衛は、枡酒を二杯、一息にあおった。店の親父は、代金も受け取らず、呆れて見ていた。"
   },
   {
    "op": "say",
-   "actor": "iwao",
-   "text": "酒をあおった安兵衛が人波を縫い高田馬場へ走る。その事実から目をそらさない。"
-  },
-  {
-   "op": "say",
-   "actor": "shiro",
-   "text": "恐れを消すのではなく、恐れたまま進もう。",
-   "eyes": "normal"
-  },
-  {
-   "op": "say",
-   "actor": "iwao",
-   "text": "私の名ではなく、行いで答えを残す。"
-  },
-  {
-   "op": "nar",
-   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+   "actor": "rei_hakama",
+   "text": "……よし。足に、火が入った。"
   },
   {
    "op": "say",
    "actor": "shiro",
-   "text": "その答えを、次の場面まで持って行こう。",
-   "eyes": "anger"
+   "text": "本当に、それで走れるんですかい。"
   },
   {
    "op": "say",
-   "actor": "iwao",
-   "text": "ここで決める。逃げず、相手の声を聞く。"
+   "actor": "rei_hakama",
+   "text": "走れるかどうかではない。走るしかない。……あと六町だ。"
   },
   {
-   "op": "nar",
-   "text": "残された沈黙が、次の行動を促す。"
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "親父、代はあとで払う。生きて帰ってきたらな。",
+   "eyes": "joy"
   },
   {
    "op": "say",
    "actor": "shiro",
-   "text": "ならば私も、その決断の重さを分け合う。",
-   "eyes": "fun"
+   "text": "生きて帰らなかったら？"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "そのときは、お前が払っておいてくれ。"
   },
   {
    "op": "hide",
-   "actor": "iwao"
+   "actor": "rei_hakama"
   },
   {
    "op": "hide",
@@ -333,113 +398,198 @@
   },
   {
    "op": "nar",
-   "text": "第3景「高田馬場」。多勢に囲まれた菅野のもとへぎりぎりで着く。"
+   "text": "高田馬場。広い馬場に、砂ぼこりが舞っている。白髪の老武士が、刀を杖にして、膝をついている。"
   },
   {
-   "op": "show",
-   "actor": "rei_trackcape",
-   "pos": "left"
+   "op": "nar",
+   "text": "周りを、刀を構えた侍たちが囲んでいる。"
   },
   {
    "op": "show",
    "actor": "extra_elder",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……来るなと、書いたつもりだったが。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_hakama",
    "pos": "right"
   },
   {
    "op": "say",
-   "actor": "rei_trackcape",
-   "text": "「高田馬場」へ来た。多勢に囲まれた菅野のもとへぎりぎりで着く。",
-   "eyes": "anger"
+   "actor": "rei_hakama",
+   "text": "骨を拾えと書かれた。……骨を拾うより、骨になる前に、間に合わせたかった。"
   },
   {
    "op": "say",
    "actor": "extra_elder",
-   "text": "ここで黙れば、誰かが代わりに意味を決める。",
+   "text": "果し合いは、村上の兄が、わしの屋敷の境の木を勝手に切ったのが始まりだった。……つまらぬ意地だ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "安兵衛、すまぬ。村上の門弟に、卑怯な真似をされた。三人がかりで、背中を斬られた。",
    "eyes": "sorrow"
   },
   {
    "op": "say",
-   "actor": "rei_trackcape",
-   "text": "私が守りたいのは「間に合う保証がなくても、友のため走る一歩を止めない」だ。",
-   "eyes": "fun"
-  },
-  {
-   "op": "nar",
-   "text": "高田馬場の空気が変わり、二人は言葉の裏を測る。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_elder",
-   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "say",
-   "actor": "rei_trackcape",
-   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-   "eyes": "crying"
-  },
-  {
-   "op": "say",
-   "actor": "extra_elder",
-   "text": "過去は変えられない。だが次の手は選べる。",
-   "eyes": "closed"
-  },
-  {
-   "op": "nar",
-   "text": "遠くの音が途切れる。多勢に囲まれた菅野のもとへぎりぎりで着く。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_trackcape",
-   "text": "多勢に囲まれた菅野のもとへぎりぎりで着く。その事実から目をそらさない。",
-   "eyes": "normal"
-  },
-  {
-   "op": "say",
-   "actor": "extra_elder",
-   "text": "恐れを消すのではなく、恐れたまま進もう。",
-   "eyes": "joy"
-  },
-  {
-   "op": "say",
-   "actor": "rei_trackcape",
-   "text": "私の名ではなく、行いで答えを残す。",
+   "actor": "rei_hakama",
+   "text": "三人がかりで、一人の老人を。……それが、果し合いか！",
    "eyes": "anger"
   },
   {
    "op": "nar",
-   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+   "text": "村上兄弟の弟、三郎右衛門が、刀を構えて笑った。助太刀が来たところで、酒臭い浪人ひとりではないか、と。"
   },
   {
    "op": "say",
-   "actor": "extra_elder",
-   "text": "その答えを、次の場面まで持って行こう。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "say",
-   "actor": "rei_trackcape",
-   "text": "ここで決める。逃げず、相手の声を聞く。",
-   "eyes": "fun"
+   "actor": "rei_hakama",
+   "text": "酒臭いのは、ここへ来る途中で、足に油を差してきたからだ。……来い。"
   },
   {
    "op": "nar",
-   "text": "残された沈黙が、次の行動を促す。"
+   "text": "村上の兄、庄左衛門は、すでに菅野の太刀を受けて、地面に倒れていた。残るは、弟と門弟たちであった。"
   },
   {
    "op": "say",
    "actor": "extra_elder",
-   "text": "ならば私も、その決断の重さを分け合う。",
-   "eyes": "surprise"
+   "text": "安兵衛、相手は、門弟を三人、隠しておる。左の松の陰と、右の茶屋の裏に。"
   },
   {
-   "op": "hide",
-   "actor": "rei_trackcape"
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "承知。……菅野どの、もう少しだけ、そこにおってくだされ。"
+  },
+  {
+   "op": "nar",
+   "text": "見物の町人たちが、馬場の柵に群がった。その中に、年老いた侍と、若い娘の姿があった。"
   },
   {
    "op": "hide",
    "actor": "extra_elder"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_hakama"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "父上、あのお侍さま、たすきを掛けておられません。袖が、刀の邪魔になります。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "見事な走りだったが、息が上がっておる。……あれでは、三人も相手にできまい。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "よく見ておるな、幸。……あの若者、腕は立つが、慌てて飛び出してきたのだろう。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "助太刀の礼儀は守っておる。卑怯は、向こうの側だ。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "わたくし、行ってまいります。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "幸、待て！　斬り合いの場だぞ！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "娘のお幸は、帯をほどいて、紐を手に、砂ぼこりの中へ駆け出した。"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "show",
+   "actor": "rei_hakama",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "刀が触れ合う音の間を、娘は、まっすぐ走ってきた。門弟たちも、思わず手を止めた。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "お侍さま、これを。たすきに。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "……娘さん、ここは危ない。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "袖が、腕に絡んでおります。それでは、存分に戦えませぬ。……どうぞ。"
+  },
+  {
+   "op": "nar",
+   "text": "お幸は、震える手で、安兵衛の袖をたすきに掛けて結んだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "……かたじけない。腕が、軽くなった。名を聞いてもよいか。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "名乗るほどの者では。……ご武運を。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "下がっていてくだされ。わしの後ろでも、前でもなく、柵の外に。"
+  },
+  {
+   "op": "nar",
+   "text": "お幸は、父のもとへ駆け戻った。安兵衛は、たすきの結び目を、ぎゅっと握った。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_hakama"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
   },
   {
    "op": "bg",
@@ -452,12 +602,76 @@
   },
   {
    "op": "nar",
-   "text": "第4景「助太刀の剣」。足の疲れを抱えながら相手の数と間合いを崩す。"
+   "text": "馬場の真ん中。村上三郎右衛門と、その門弟たちが、安兵衛を半円に取り囲む。砂ぼこりが、風で舞い上がる。"
   },
   {
    "op": "show",
-   "actor": "iwao",
-   "pos": "left"
+   "actor": "rei_hakama",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "一人ずつ来るか。それとも、さっきのように、三人がかりか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "……足が、重い。十八町と、枡酒二杯。間合いを、見誤るな。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "息を、一つ。……菅野どのに教わった、越後の雪の上の足さばき。滑る場所ほど、腰を落とせ。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "安兵衛は、先に踏み込み、門弟の輪を崩す",
+     "jump": "m_strike"
+    },
+    {
+     "text": "安兵衛は、菅野を背にして、待ち構える",
+     "jump": "m_guard"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_strike"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "待つ体力は、もう残っておらん！",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "安兵衛は、自分から輪の中へ飛び込んだ。真正面の門弟の刀を払い、返す刀で、横の二人の足を止めた。"
+  },
+  {
+   "op": "jump",
+   "to": "m_fight"
+  },
+  {
+   "op": "label",
+   "id": "m_guard"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "菅野どの、わしの背中だけを見ていてくだされ。……前は、わしが引き受ける。"
+  },
+  {
+   "op": "nar",
+   "text": "安兵衛は、老人を背にかばって動かなかった。焦れた門弟たちが、ばらばらに斬りかかり、一人ずつ倒れていった。"
+  },
+  {
+   "op": "label",
+   "id": "m_fight"
   },
   {
    "op": "show",
@@ -466,132 +680,150 @@
   },
   {
    "op": "say",
-   "actor": "iwao",
-   "text": "「助太刀の剣」へ来た。足の疲れを抱えながら相手の数と間合いを崩す。"
-  },
-  {
-   "op": "say",
    "actor": "shiro",
-   "text": "ここで黙れば、誰かが代わりに意味を決める。",
-   "eyes": "fun"
-  },
-  {
-   "op": "say",
-   "actor": "iwao",
-   "text": "私が守りたいのは「間に合う保証がなくても、友のため走る一歩を止めない」だ。"
+   "text": "旦那、左の松の陰から、もう一人！"
   },
   {
    "op": "nar",
-   "text": "助太刀の剣の空気が変わり、二人は言葉の裏を測る。"
-  },
-  {
-   "op": "say",
-   "actor": "shiro",
-   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
-   "eyes": "crying"
-  },
-  {
-   "op": "say",
-   "actor": "iwao",
-   "text": "ならば勝ち負けだけでなく、支払う代価も見る。"
-  },
-  {
-   "op": "say",
-   "actor": "shiro",
-   "text": "過去は変えられない。だが次の手は選べる。",
-   "eyes": "normal"
+   "text": "安兵衛は、振り向きもせず、左へ半歩ずれた。飛び出してきた門弟の刀が、空を切った。"
   },
   {
    "op": "nar",
-   "text": "遠くの音が途切れる。足の疲れを抱えながら相手の数と間合いを崩す。"
+   "text": "最後に、三郎右衛門が斬りかかった。安兵衛は、それを紙一重でかわし、相手の刀を叩き落とした。"
   },
   {
    "op": "say",
-   "actor": "iwao",
-   "text": "足の疲れを抱えながら相手の数と間合いを崩す。その事実から目をそらさない。"
-  },
-  {
-   "op": "say",
-   "actor": "shiro",
-   "text": "恐れを消すのではなく、恐れたまま進もう。",
-   "eyes": "anger"
-  },
-  {
-   "op": "say",
-   "actor": "iwao",
-   "text": "私の名ではなく、行いで答えを残す。"
+   "actor": "rei_hakama",
+   "text": "勝負あった。……刀を拾え。拾わぬなら、去れ。"
   },
   {
    "op": "nar",
-   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+   "text": "三郎右衛門は、肩で息をしながら、安兵衛を見上げた。斬らぬのか、と。"
   },
   {
    "op": "say",
-   "actor": "shiro",
-   "text": "その答えを、次の場面まで持って行こう。",
-   "eyes": "fun"
-  },
-  {
-   "op": "say",
-   "actor": "iwao",
-   "text": "ここで決める。逃げず、相手の声を聞く。"
+   "actor": "rei_hakama",
+   "text": "斬れば、菅野どのが喜ぶとは思えん。……あの方は、つまらぬ意地で人が死ぬのを、一番嫌っておった。"
   },
   {
    "op": "nar",
-   "text": "残された沈黙が、次の行動を促す。"
-  },
-  {
-   "op": "say",
-   "actor": "shiro",
-   "text": "ならば私も、その決断の重さを分け合う。",
-   "eyes": "crying"
-  },
-  {
-   "op": "choice",
-   "options": [
-    {
-     "text": "正面から問いかける",
-     "jump": "yasubei-takadanobaba_direct"
-    },
-    {
-     "text": "相手の話を最後まで聞く",
-     "jump": "yasubei-takadanobaba_listen"
-    }
-   ]
-  },
-  {
-   "op": "label",
-   "id": "yasubei-takadanobaba_direct"
-  },
-  {
-   "op": "say",
-   "actor": "iwao",
-   "text": "私は正面から問う。曖昧なまま次へは進まない。"
-  },
-  {
-   "op": "jump",
-   "to": "yasubei-takadanobaba_merge"
-  },
-  {
-   "op": "label",
-   "id": "yasubei-takadanobaba_listen"
-  },
-  {
-   "op": "say",
-   "actor": "shiro",
-   "text": "結論を急がず、相手が何を恐れているかまで聞こう。"
-  },
-  {
-   "op": "label",
-   "id": "yasubei-takadanobaba_merge"
-  },
-  {
-   "op": "nar",
-   "text": "選び方は違っても、二人は同じ核心へ戻ってくる。"
+   "text": "三郎右衛門は、刀を拾い、門弟を引きずって、馬場から逃げていった。見物人から、どよめきが上がった。"
   },
   {
    "op": "hide",
-   "actor": "iwao"
+   "actor": "rei_hakama"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "show",
+   "actor": "rei_hakama",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "安兵衛は、刀を放り出して、菅野のそばに駆け寄った。老人の着物は、背中から、真っ赤に染まっていた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "菅野どの、医者を呼ぶ。しっかりしてくだされ。"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "医者を呼んできやす！　牛込の、玄庵先生を！"
+  },
+  {
+   "op": "nar",
+   "text": "若い衆は、また走り出した。今度は、安兵衛のためではなく、老人のために。"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……よい。もう、よい。安兵衛、来てくれて、うれしかった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "一人で死ぬのは、さびしいと思っておった。……お前が、間に合った。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "間に合っておらぬ！　あと少し、早く起きていれば。あと少し、酒を飲まずにおれば。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "酒を飲んだから、走れたのだろう。……お前らしい。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "安兵衛、お前は、いつか、もっと大きなもののために走る男だ。わしは、その前座で十分だ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "越後の雪が、見たいな。……安兵衛、お前は、酒を、ほどほどにしろよ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "菅野六郎左衛門は、安兵衛の腕の中で、静かに息を引き取った。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "……菅野どの。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "医者が駆けつけたのは、それから四半刻のちであった。安兵衛は、そのあいだ、老人の手を離さなかった。"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "旦那……。おいら、もっと速く走れたら。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "お前は、十分に速かった。……遅かったのは、わしの朝寝坊だ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_hakama"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
   },
   {
    "op": "hide",
@@ -608,113 +840,243 @@
   },
   {
    "op": "nar",
-   "text": "第5景「堀部家の申し出」。働きを見た弥兵衛が娘婿への願いを伝える。"
+   "text": "数日後。八丁堀の長屋。高田馬場の噂は、瓦版になって、江戸じゅうを駆けめぐっていた。十八人斬り、と書いてあった。"
   },
   {
    "op": "show",
-   "actor": "rei_trackcape",
+   "actor": "rei_hakama",
    "pos": "left"
   },
   {
-   "op": "show",
-   "actor": "extra_elder",
-   "pos": "right"
-  },
-  {
    "op": "say",
-   "actor": "rei_trackcape",
-   "text": "「堀部家の申し出」へ来た。働きを見た弥兵衛が娘婿への願いを伝える。",
-   "eyes": "fun"
-  },
-  {
-   "op": "say",
-   "actor": "extra_elder",
-   "text": "ここで黙れば、誰かが代わりに意味を決める。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "say",
-   "actor": "rei_trackcape",
-   "text": "私が守りたいのは「間に合う保証がなくても、友のため走る一歩を止めない」だ。",
-   "eyes": "crying"
+   "actor": "rei_hakama",
+   "text": "十八人。……斬ったのは、三人だ。十八町を、十八人にされた。"
   },
   {
    "op": "nar",
-   "text": "堀部家の申し出の空気が変わり、二人は言葉の裏を測る。"
+   "text": "長屋の戸口には、弟子入り志願の若者や、仕官の誘いの使いが、朝から列をなしていた。"
   },
   {
    "op": "say",
-   "actor": "extra_elder",
-   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
-   "eyes": "closed"
+   "actor": "rei_hakama",
+   "text": "菅野どのの葬式には、三人しか来なかったのに。"
   },
   {
    "op": "say",
-   "actor": "rei_trackcape",
-   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-   "eyes": "normal"
-  },
-  {
-   "op": "say",
-   "actor": "extra_elder",
-   "text": "過去は変えられない。だが次の手は選べる。",
-   "eyes": "joy"
-  },
-  {
-   "op": "nar",
-   "text": "遠くの音が途切れる。働きを見た弥兵衛が娘婿への願いを伝える。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_trackcape",
-   "text": "働きを見た弥兵衛が娘婿への願いを伝える。その事実から目をそらさない。",
-   "eyes": "anger"
-  },
-  {
-   "op": "say",
-   "actor": "extra_elder",
-   "text": "恐れを消すのではなく、恐れたまま進もう。",
+   "actor": "rei_hakama",
+   "text": "菅野どのを、救えなかった。それなのに、皆が、わしを英雄のように言う。",
    "eyes": "sorrow"
   },
   {
    "op": "say",
-   "actor": "rei_trackcape",
-   "text": "私の名ではなく、行いで答えを残す。",
-   "eyes": "fun"
+   "actor": "rei_hakama",
+   "text": "あの酒屋には、枡酒二杯の代を払いに行った。親父は、受け取らなかった。……英雄から金は取れねえ、と。"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "right"
   },
   {
    "op": "nar",
-   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+   "text": "戸口に、白髪まじりの、品のいい老侍が立っていた。あの日、馬場の柵で見ていた男であった。"
   },
   {
    "op": "say",
-   "actor": "extra_elder",
-   "text": "その答えを、次の場面まで持って行こう。",
+   "actor": "iwao",
+   "text": "中山安兵衛どのでござるな。拙者は、播州赤穂、浅野内匠頭の家臣、堀部弥兵衛と申す。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "赤穂の。……あの日、娘さんと一緒におられた方か。",
    "eyes": "surprise"
   },
   {
    "op": "say",
-   "actor": "rei_trackcape",
-   "text": "ここで決める。逃げず、相手の声を聞く。",
-   "eyes": "crying"
-  },
-  {
-   "op": "nar",
-   "text": "残された沈黙が、次の行動を促す。"
+   "actor": "iwao",
+   "text": "幸の父でござる。……あの日の、そなたの戦いぶりと、そのあとの泣きぶりを、見ておった。"
   },
   {
    "op": "say",
-   "actor": "extra_elder",
-   "text": "ならば私も、その決断の重さを分け合う。",
+   "actor": "iwao",
+   "text": "敵を斬ったあとで、己の遅れを泣く侍は、めったにおらぬ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "赤穂の殿は、まだお若いが、まっすぐなお方だ。そなたのような侍を、きっと喜ばれる。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "単刀直入に申す。……幸の婿になって、堀部の家を継いでくれぬか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "婿に！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "いや、それはできませぬ。わしは、中山家の、ただ一人の跡取り。中山の名を捨てるわけにはいかぬ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "それに、わしは、酒飲みで、喧嘩安と呼ばれる男でござる。大事なお嬢さんを任せられる者では。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "酒は、わしも嫌いではない。喧嘩は、仲裁なら大いに結構。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "名を捨てよとは申さぬ。中山のまま、堀部を継いでくれればよい。……そういう例も、ないではない。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_hakama"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "show",
+   "actor": "rei_hakama",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "mei",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "父が、無理を申しました。お気になさらないでくださいませ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "お幸どの、あの日の、たすきの礼を、まだ言っておらなんだ。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "あの紐は、わたくしの帯紐でございます。……返していただかなくて、結構です。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "返さぬ。……あれは、わしの、命の恩人だ。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "菅野さまのこと、お悔やみ申し上げます。……走って来られたお姿を、柵の向こうから見ておりました。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "息を切らして、足をもつれさせて。それでも、一度も、止まらなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "止まったら、二度と走れぬ気がした。……それだけのことでござる。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "それだけのことが、なかなか、できないのです。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "お幸どの、父上のお話、すぐにはお答えできぬ。菅野どのの四十九日が済むまで、待ってくだされ。"
+  },
+  {
+   "op": "say",
+   "actor": "mei",
+   "text": "お待ちします。……走らずに、ゆっくり、お考えくださいませ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_hakama"
+  },
+  {
+   "op": "hide",
+   "actor": "mei"
+  },
+  {
+   "op": "show",
+   "actor": "rei_hakama",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "その年の暮れ。安兵衛は、堀部弥兵衛の娘婿となり、のちに、堀部安兵衛と名を改めた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "越後の中山の名は、わしの胸の中にしまった。……酒は、ほどほどにしておる。菅野どのとの約束だ。"
+  },
+  {
+   "op": "nar",
+   "text": "祝言の夜、安兵衛は、菅野の位牌に、杯を一つだけ供えた。……酒は、ほんの少しにしておいた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "七年後、主君の浅野内匠頭さまが、江戸城で刃傷に及ばれ、切腹された。わしは、また、走ることになる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "今度は、十八町ではない。……一年九か月の、長い道のりだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "江戸の急進派をまとめ、京の大石さまに、早く討ち入りをと、何度も文を送った。……相変わらず、わしは、待つのが苦手だ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "走り出したら、止まらぬ。それが、わしの取り柄だと、お幸が笑う。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "あの日の帯紐は、今も、刀の下げ緒に結んである。……十八町の、お守りだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_hakama",
+   "text": "菅野どの。今度は、間に合わせてみせます。",
    "eyes": "closed"
   },
   {
    "op": "hide",
-   "actor": "rei_trackcape"
+   "actor": "rei_hakama"
   },
   {
-   "op": "hide",
-   "actor": "extra_elder"
+   "op": "bg",
+   "src": null
   },
   {
    "op": "show",
@@ -724,29 +1086,26 @@
   {
    "op": "say",
    "actor": "nono",
-   "text": "物語はここまで。残った問いは「間に合う保証がなくても、友のため走る一歩を止めない」。",
-   "eyes": "sorrow"
+   "text": "十八町を駆け抜けた男の話は、ここで、いったん息を整えます。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
-   "eyes": "normal"
+   "text": "間に合うかどうか分からないまま、酒の残った足で、十八町を走りました。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "ご来場、ありがとうございました。",
-   "eyes": "joy",
-   "mouth": "open"
+   "text": "恩人の命は救えませんでした。けれど、その走りを見ていた人が、彼に、新しい家と名を託しました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "安兵衛は、のちに赤穂四十七士の一人として、吉良邸討ち入りの先陣に立ったと伝えられております。"
   },
   {
    "op": "hide",
    "actor": "nono"
-  },
-  {
-   "op": "bg",
-   "src": null
   },
   {
    "op": "end"

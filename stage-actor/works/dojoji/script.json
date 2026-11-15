@@ -7,9 +7,9 @@
   "category": "能・歌舞伎",
   "adaptation": "moderate",
   "format": "v3",
-  "minutes": 34,
+  "minutes": 36,
   "synopsis": "全五景で「執着を隠すほど、その影は大きくなる」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
-  "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
  },
  "cast": [
   {
@@ -53,33 +53,22 @@
   {
    "op": "say",
    "actor": "nono",
-   "text": "ようこそ、NONO座へ。本日の演目は『道成寺』。",
-   "eyes": "normal"
+   "text": "紀州、日高川のほとり。道成寺という古いお寺に、昔、大きな釣鐘がございました。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "能・歌舞伎の一席を、全五景でお届けします。",
-   "mouth": "open",
-   "eyes": "normal"
+   "text": "その鐘は、ある夜、恋に狂った娘が、大蛇となって巻きつき、中に隠れた僧ごと、焼き尽くしてしまったと伝えられます。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "この舞台の核は「執着を隠すほど、その影は大きくなる」。",
-   "eyes": "sorrow"
+   "text": "能・歌舞伎『道成寺』。それから長い年月が経ち、新しい鐘が、ようやく鋳上がりました。今日は、その鐘供養の日。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "台詞はすべて今夜のための書き下ろしです。"
-  },
-  {
-   "op": "say",
-   "actor": "nono",
-   "text": "それでは、幕を開けましょう。",
-   "mouth": "open",
-   "eyes": "joy"
+   "text": "執着は、隠せば隠すほど、影を大きくする。……その影が、どこまで伸びるのか、ご覧ください。"
   },
   {
    "op": "hide",
@@ -96,116 +85,175 @@
   },
   {
    "op": "nar",
-   "text": "第1景「道成寺の門前」。女人禁制の寺へ白拍子が舞を願い出る。"
+   "text": "道成寺の山門。春。桜が満開で、境内は、鐘供養の支度で、にぎわっている。山門の前に、住僧と、能力が立っていた。"
   },
   {
    "op": "show",
-   "actor": "akane",
+   "actor": "extra_elder",
    "pos": "left"
   },
   {
    "op": "show",
-   "actor": "extra_elder",
+   "actor": "extra_porter",
    "pos": "right"
   },
   {
    "op": "say",
-   "actor": "akane",
-   "text": "「道成寺の門前」へ来た。女人禁制の寺へ白拍子が舞を願い出る。",
-   "eyes": "normal",
-   "mouth": "open"
+   "actor": "extra_elder",
+   "text": "能力。今日は、鐘供養の日じゃ。くれぐれも、言いつけを、守るように。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "へい。……女人禁制、でございますね。"
   },
   {
    "op": "say",
    "actor": "extra_elder",
-   "text": "ここで黙れば、誰かが代わりに意味を決める。",
-   "eyes": "joy"
+   "text": "そうじゃ。どのような女人であっても、決して、境内へは、入れてはならぬ。"
   },
   {
    "op": "say",
+   "actor": "extra_porter",
+   "text": "どのような、と申しますと。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……この寺の鐘には、女人の、執心がまつわる。昔の鐘は、それで、焼けた。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "昔話は、存じております。……けれど、和尚さま、もう、何百年も前のことでしょう。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "何百年経とうと、執心は、消えぬものじゃ。……鐘が新しくなっても、心は、古いまま、ということもある。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……肝に、銘じます。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……女人禁制と言っても、今日は、桜が満開だ。花見に来る娘さんだって、いるだろうに。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "門の前で、断るのは、いつも、わたしの役目だ。……泣かれたら、どうしよう。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "left"
+  },
+  {
+   "op": "show",
    "actor": "akane",
-   "text": "私が守りたいのは「執着を隠すほど、その影は大きくなる」だ。",
-   "eyes": "anger"
+   "pos": "right"
   },
   {
    "op": "nar",
-   "text": "道成寺の門前の空気が変わり、二人は言葉の裏を測る。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_elder",
-   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
-   "eyes": "sorrow"
+   "text": "山門の前に、ひとりの白拍子が、立っていた。烏帽子をかぶり、水干をまとい、手には、扇を一本。"
   },
   {
    "op": "say",
    "actor": "akane",
-   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-   "eyes": "fun",
-   "mouth": "open"
+   "text": "……もし。"
   },
   {
    "op": "say",
-   "actor": "extra_elder",
-   "text": "過去は変えられない。だが次の手は選べる。",
-   "eyes": "surprise"
+   "actor": "extra_porter",
+   "text": "これは、白拍子どの。……申し訳ございませんが、今日は、女人禁制でございます。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "門の札は、読みました。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "ならば、なぜ。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "新しい鐘の、供養と聞きました。……鐘の前で、一さし、舞わせていただきたいのです。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "舞、ですか。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "遠い国から、この日のために、参りました。……供養の舞を、奉納させてくださいませ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……いや、しかし、和尚さまの、言いつけが。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "舞うだけです。舞い終われば、すぐに、立ち去ります。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……舞を、奉納。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "鐘は、音を出すためのもの。舞は、心を出すためのもの。……二つを、一緒に、供養したいのです。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……うまいことを、おっしゃる。"
   },
   {
    "op": "nar",
-   "text": "遠くの音が途切れる。女人禁制の寺へ白拍子が舞を願い出る。"
+   "text": "能力は、白拍子の顔を、見つめた。美しかった。……そして、どこか、冷たい光が、目の奥に、宿っていた。"
   },
   {
    "op": "say",
-   "actor": "akane",
-   "text": "女人禁制の寺へ白拍子が舞を願い出る。その事実から目をそらさない。",
-   "eyes": "crying"
-  },
-  {
-   "op": "say",
-   "actor": "extra_elder",
-   "text": "恐れを消すのではなく、恐れたまま進もう。",
+   "actor": "extra_porter",
+   "text": "……少しだけ、なら。和尚さまには、内緒で。",
    "eyes": "closed"
   },
   {
    "op": "say",
    "actor": "akane",
-   "text": "私の名ではなく、行いで答えを残す。",
-   "eyes": "normal",
-   "mouth": "open"
-  },
-  {
-   "op": "nar",
-   "text": "答えを急がず、選んだ手段の代価を確かめる。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_elder",
-   "text": "その答えを、次の場面まで持って行こう。",
+   "text": "このご恩は、舞で、お返しいたします。",
    "eyes": "joy"
   },
   {
-   "op": "say",
-   "actor": "akane",
-   "text": "ここで決める。逃げず、相手の声を聞く。",
-   "eyes": "anger"
-  },
-  {
-   "op": "nar",
-   "text": "残された沈黙が、次の行動を促す。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_elder",
-   "text": "ならば私も、その決断の重さを分け合う。",
-   "eyes": "sorrow"
+   "op": "hide",
+   "actor": "extra_porter"
   },
   {
    "op": "hide",
    "actor": "akane"
-  },
-  {
-   "op": "hide",
-   "actor": "extra_elder"
   },
   {
    "op": "bg",
@@ -218,7 +266,12 @@
   },
   {
    "op": "nar",
-   "text": "第2景「鐘供養の舞台」。乱拍子の静けさの奥で鐘への執着が燃える。"
+   "text": "境内。新しい大鐘が、鐘楼に吊られている。その下に、舞台がしつらえてあった。白拍子が、静かに、舞台に上がる。"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "center"
   },
   {
    "op": "show",
@@ -226,108 +279,199 @@
    "pos": "left"
   },
   {
-   "op": "show",
-   "actor": "akane",
-   "pos": "right"
-  },
-  {
    "op": "say",
    "actor": "extra_porter",
-   "text": "「鐘供養の舞台」へ来た。乱拍子の静けさの奥で鐘への執着が燃える。",
-   "eyes": "joy",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "akane",
-   "text": "ここで黙れば、誰かが代わりに意味を決める。",
-   "eyes": "anger"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "私が守りたいのは「執着を隠すほど、その影は大きくなる」だ。",
-   "eyes": "sorrow"
+   "text": "……では、どうぞ。"
   },
   {
    "op": "nar",
-   "text": "鐘供養の舞台の空気が変わり、二人は言葉の裏を測る。"
-  },
-  {
-   "op": "say",
-   "actor": "akane",
-   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
-   "eyes": "fun"
+   "text": "白拍子は、扇を、ゆっくりと開いた。足を、ひとつ、踏む。……そして、長い、長い、静けさ。"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-   "eyes": "surprise",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "akane",
-   "text": "過去は変えられない。だが次の手は選べる。",
-   "eyes": "crying"
+   "text": "……動かない。"
   },
   {
    "op": "nar",
-   "text": "遠くの音が途切れる。乱拍子の静けさの奥で鐘への執着が燃える。"
+   "text": "白拍子は、また、足を、ひとつ、踏んだ。そして、また、静けさ。"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "乱拍子の静けさの奥で鐘への執着が燃える。その事実から目をそらさない。",
+   "text": "……乱拍子、というやつか。一足踏むたび、息を、止める。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……花の、ほかには、松ばかり。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "暮れそめて、鐘や、響くらん。"
+  },
+  {
+   "op": "nar",
+   "text": "白拍子の声は、ひそやかだった。けれど、その目は、舞台の上の、大鐘から、一度も、離れなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……鐘ばかり、見ておられる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "鐘の何が、そんなに、気になられます。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……中が、空っぽなところ。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……鐘は、美しい。",
    "eyes": "closed"
   },
   {
    "op": "say",
    "actor": "akane",
-   "text": "恐れを消すのではなく、恐れたまま進もう。",
-   "eyes": "normal"
+   "text": "昔、この寺には、もう一つの鐘が、ありました。……ご存じですか。"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "私の名ではなく、行いで答えを残す。",
-   "eyes": "joy",
-   "mouth": "open"
-  },
-  {
-   "op": "nar",
-   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+   "text": "昔の鐘。……焼けた、鐘のことで。"
   },
   {
    "op": "say",
    "actor": "akane",
-   "text": "その答えを、次の場面まで持って行こう。",
-   "eyes": "anger"
+   "text": "焼けた。……そう、伝わっているのですね。"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "ここで決める。逃げず、相手の声を聞く。",
+   "text": "女人の執心が、蛇になって、巻きついて、と。……昔話でございます。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……昔話。",
    "eyes": "sorrow"
   },
   {
    "op": "nar",
-   "text": "残された沈黙が、次の行動を促す。"
+   "text": "白拍子の足が、ひとつ、強く、舞台を踏んだ。鐘楼が、かすかに、きしんだ。"
   },
   {
-   "op": "say",
-   "actor": "akane",
-   "text": "ならば私も、その決断の重さを分け合う。",
-   "eyes": "fun"
+   "op": "hide",
+   "actor": "akane"
   },
   {
    "op": "hide",
    "actor": "extra_porter"
   },
   {
+   "op": "show",
+   "actor": "akane",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "left"
+  },
+  {
+   "op": "nar",
+   "text": "舞は、次第に、速くなった。静けさが短くなり、足拍子が、重なっていく。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……その人は、山伏でした。熊野へ、参詣に行く、若い山伏。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……白拍子どの、それは、何のお話で。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "一夜の宿を貸した娘が、その人を、慕いました。……帰りに、必ず、迎えに来ると、約束して、その人は、去りました。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "帰りの日。その人は、来ませんでした。……娘を避けて、別の道を、通ったのです。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……清姫の、話ですか。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "安珍、という人でした。……名前を呼ぶのは、ずいぶん、久しぶりです。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……その名を、ご存じで。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "この寺の者なら、誰でも。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "娘は、追いかけました。……日高川の、渡し守は、舟を出しませんでした。だから、娘は、川を、泳いで、渡りました。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "泳ぐうちに、娘の体は、……人のものでは、なくなりました。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……川を、泳いで。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "その人は、この寺に逃げ込み、鐘の中に、隠れました。……娘は、鐘に、七重に、巻きつきました。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……どうか、そのあたりで。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "鐘の中で、その人が、何を思ったか。……娘には、ついに、わからなかった。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "舞が、止まった。白拍子は、鐘を見上げた。その顔に、もう、笑みは、なかった。"
+  },
+  {
    "op": "hide",
    "actor": "akane"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
   },
   {
    "op": "bg",
@@ -340,7 +484,83 @@
   },
   {
    "op": "nar",
-   "text": "第3景「落ちる鐘」。白拍子が鐘へ飛び込み大鐘が轟いて落ちる。"
+   "text": "一瞬。白拍子の姿が、宙に、舞い上がった。烏帽子を払い落とし、鐘の真下へ、飛び込んだ。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "危ない、お下がりなされ！",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "轟音。吊り綱が切れ、大鐘が、舞台の上へ、落ちた。白拍子の姿は、その中に、消えていた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……鐘が、落ちた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……鐘の中に、白拍子どのが。"
+  },
+  {
+   "op": "nar",
+   "text": "能力は、腰を抜かしたまま、鐘に、手を伸ばした。……熱い。鐘は、内側から、焼けるように、熱くなっていた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……和尚さま！　和尚さまぁっ！",
+   "eyes": "crying"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "何事じゃ。……鐘が。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "白拍子どのが、鐘の中に！"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "白拍子？　女人を、入れたのか！",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……舞を、奉納したいと。……少しだけ、と。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……少しだけ、と。……執心は、いつも、そう言って、入ってくる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
   },
   {
    "op": "show",
@@ -355,90 +575,58 @@
   {
    "op": "say",
    "actor": "extra_elder",
-   "text": "「落ちる鐘」へ来た。白拍子が鐘へ飛び込み大鐘が轟いて落ちる。",
-   "eyes": "anger"
+   "text": "能力。……鐘の中にいるのは、白拍子では、ない。"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "ここで黙れば、誰かが代わりに意味を決める。",
+   "text": "……では、何者で。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "昔、この寺の鐘を、焼いた者。……清姫の、執心じゃ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……何百年も、前の。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "何百年経とうと、消えぬ、と申したであろう。……新しい鐘が、吊られると聞いて、また、来たのじゃ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……何のために。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……鐘の中に、隠れた人を、探しに。",
    "eyes": "sorrow"
   },
   {
    "op": "say",
-   "actor": "extra_elder",
-   "text": "私が守りたいのは「執着を隠すほど、その影は大きくなる」だ。",
-   "eyes": "fun"
-  },
-  {
-   "op": "nar",
-   "text": "落ちる鐘の空気が変わり、二人は言葉の裏を測る。"
-  },
-  {
-   "op": "say",
    "actor": "extra_porter",
-   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
-   "eyes": "surprise"
+   "text": "その人は、もう、とうに、死んでおります。"
   },
   {
    "op": "say",
    "actor": "extra_elder",
-   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-   "eyes": "crying"
+   "text": "執心には、それが、わからぬ。……いや、わかっていても、手放せぬ。"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "過去は変えられない。だが次の手は選べる。",
-   "eyes": "closed"
-  },
-  {
-   "op": "nar",
-   "text": "遠くの音が途切れる。白拍子が鐘へ飛び込み大鐘が轟いて落ちる。"
+   "text": "和尚さま。……わたしは、どうすれば。"
   },
   {
    "op": "say",
    "actor": "extra_elder",
-   "text": "白拍子が鐘へ飛び込み大鐘が轟いて落ちる。その事実から目をそらさない。",
-   "eyes": "normal"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "恐れを消すのではなく、恐れたまま進もう。",
-   "eyes": "joy"
-  },
-  {
-   "op": "say",
-   "actor": "extra_elder",
-   "text": "私の名ではなく、行いで答えを残す。",
-   "eyes": "anger"
-  },
-  {
-   "op": "nar",
-   "text": "答えを急がず、選んだ手段の代価を確かめる。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "その答えを、次の場面まで持って行こう。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "say",
-   "actor": "extra_elder",
-   "text": "ここで決める。逃げず、相手の声を聞く。",
-   "eyes": "fun"
-  },
-  {
-   "op": "nar",
-   "text": "残された沈黙が、次の行動を促す。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "ならば私も、その決断の重さを分け合う。",
-   "eyes": "surprise"
+   "text": "皆を、呼べ。鐘のまわりに、僧を、集めよ。……祈るほかに、手はない。"
   },
   {
    "op": "hide",
@@ -459,151 +647,274 @@
   },
   {
    "op": "nar",
-   "text": "第4景「蛇体の炎」。僧たちの祈りに蛇の執心が姿を現す。"
+   "text": "夕暮れ。鐘のまわりに、僧たちが、集まってきた。数珠を、揉み、祈りの声を、重ねる。鐘が、ぐらりと、揺れた。"
   },
   {
    "op": "show",
-   "actor": "akane",
+   "actor": "extra_elder",
    "pos": "left"
   },
   {
    "op": "show",
-   "actor": "extra_elder",
+   "actor": "extra_porter",
    "pos": "right"
   },
   {
    "op": "say",
-   "actor": "akane",
-   "text": "「蛇体の炎」へ来た。僧たちの祈りに蛇の執心が姿を現す。",
-   "eyes": "sorrow",
-   "mouth": "open"
+   "actor": "extra_elder",
+   "text": "東方に、降三世明王。南方に、軍荼利夜叉明王。"
   },
   {
    "op": "say",
    "actor": "extra_elder",
-   "text": "ここで黙れば、誰かが代わりに意味を決める。",
-   "eyes": "fun"
+   "text": "西方に、大威徳明王。北方に、金剛夜叉明王。……中央に、大日大聖不動明王。"
   },
   {
    "op": "say",
-   "actor": "akane",
-   "text": "私が守りたいのは「執着を隠すほど、その影は大きくなる」だ。",
-   "eyes": "surprise"
+   "actor": "extra_porter",
+   "text": "……鐘が、動いて、おります。"
   },
   {
    "op": "nar",
-   "text": "蛇体の炎の空気が変わり、二人は言葉の裏を測る。"
+   "text": "祈りの声が、高まるにつれ、鐘は、ゆっくりと、持ち上がり始めた。その隙間から、青白い炎が、ちろちろと、漏れた。"
   },
   {
    "op": "say",
    "actor": "extra_elder",
-   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
-   "eyes": "crying"
+   "text": "……出てまいれ。執心よ。"
   },
   {
-   "op": "say",
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "show",
    "actor": "akane",
-   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-   "eyes": "closed",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "extra_elder",
-   "text": "過去は変えられない。だが次の手は選べる。",
-   "eyes": "normal"
+   "pos": "right"
   },
   {
    "op": "nar",
-   "text": "遠くの音が途切れる。僧たちの祈りに蛇の執心が姿を現す。"
+   "text": "鐘の中から、姿を現したのは、さっきの白拍子では、なかった。頭に、角を生やし、鱗の衣をまとった、蛇の姿。"
   },
   {
    "op": "say",
    "actor": "akane",
-   "text": "僧たちの祈りに蛇の執心が姿を現す。その事実から目をそらさない。",
-   "eyes": "joy"
-  },
-  {
-   "op": "say",
-   "actor": "extra_elder",
-   "text": "恐れを消すのではなく、恐れたまま進もう。",
+   "text": "……どこに、隠した。",
    "eyes": "anger"
   },
   {
    "op": "say",
-   "actor": "akane",
-   "text": "私の名ではなく、行いで答えを残す。",
-   "eyes": "sorrow",
-   "mouth": "open"
-  },
-  {
-   "op": "nar",
-   "text": "答えを急がず、選んだ手段の代価を確かめる。"
-  },
-  {
-   "op": "say",
    "actor": "extra_elder",
-   "text": "その答えを、次の場面まで持って行こう。",
-   "eyes": "fun"
+   "text": "何を。"
   },
   {
    "op": "say",
    "actor": "akane",
-   "text": "ここで決める。逃げず、相手の声を聞く。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "nar",
-   "text": "残された沈黙が、次の行動を促す。"
+   "text": "あの人を。……この鐘の中に、いたはずの、あの人を。"
   },
   {
    "op": "say",
    "actor": "extra_elder",
-   "text": "ならば私も、その決断の重さを分け合う。",
+   "text": "おらぬ。その人は、とうに、この世には、おらぬ。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……嘘だ。鐘の中に、いた。わたしは、確かに、巻きついた。熱かった。……あの人の声が、聞こえた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……何と、聞こえた。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……何も。……何も、言わなかった。ただ、黙っていた。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "なぜ、来なかったのか。なぜ、逃げたのか。……それを、聞きたかった。だから、巻きついた。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……巻きついたら、もう、聞けなくなった。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "akane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "清姫。……そなたが、鐘を焼いたのは、あの人を、焼くためだったのか。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……焼くつもりなど、なかった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "では、何のために。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……離れたく、なかった。",
    "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "離れたくなくて、巻きついた。……そうしたら、あの人は、灰になった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……執心とは、そういうものじゃ。抱きしめるほど、相手を、焼く。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "わかっている！　……わかっているから、何百年も、ここへ、来てしまうのだ！",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "蛇の炎が、鐘楼の柱を、なめた。僧たちが、悲鳴を上げて、後ずさる。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "和尚さま！　柱が、燃えて！"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "水を、桶で、運んでまいります！"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "祈りを、止めるな！"
   },
   {
    "op": "choice",
    "options": [
     {
-     "text": "正面から問いかける",
-     "jump": "dojoji_direct"
+     "text": "住僧は、さらに強く祈り、執心を追い払う",
+     "jump": "m_drive"
     },
     {
-     "text": "相手の話を最後まで聞く",
-     "jump": "dojoji_listen"
+     "text": "住僧は、祈りを止め、執心に問いかける",
+     "jump": "m_ask"
     }
    ]
   },
   {
    "op": "label",
-   "id": "dojoji_direct"
-  },
-  {
-   "op": "say",
-   "actor": "akane",
-   "text": "私は正面から問う。曖昧なまま次へは進まない。"
-  },
-  {
-   "op": "jump",
-   "to": "dojoji_merge"
-  },
-  {
-   "op": "label",
-   "id": "dojoji_listen"
+   "id": "m_drive"
   },
   {
    "op": "say",
    "actor": "extra_elder",
-   "text": "結論を急がず、相手が何を恐れているかまで聞こう。"
-  },
-  {
-   "op": "label",
-   "id": "dojoji_merge"
+   "text": "南無、大日大聖不動明王！"
   },
   {
    "op": "nar",
-   "text": "選び方は違っても、二人は同じ核心へ戻ってくる。"
+   "text": "祈りの声が、轟いた。蛇の姿が、苦しげに、身をよじった。そして、日高川の方へ、一筋の炎となって、飛び去った。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……行って、しまった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……追い払った、だけじゃ。……また、来るであろう。",
+   "eyes": "closed"
+  },
+  {
+   "op": "jump",
+   "to": "m_dawn"
+  },
+  {
+   "op": "label",
+   "id": "m_ask"
+  },
+  {
+   "op": "nar",
+   "text": "住僧は、数珠を、下ろした。僧たちの祈りが、止んだ。蛇の炎が、ふっと、揺らいだ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "清姫。……そなたは、鐘の中のあの人が、何を言うと、思うておった。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……ごめん、と。……あるいは、好きだった、と。……あるいは、二度と来るな、と。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "どれであれば、そなたは、手放せた。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……どれでも。……どれでも、よかった。言葉が、ひとつ、欲しかった。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……ならば、拙僧が、言おう。あの人の、代わりではないが。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……もう、待たずとも、よい。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "炎が、静かに、しぼんでいった。蛇の姿が、薄れ、白い霧になった。"
+  },
+  {
+   "op": "label",
+   "id": "m_dawn"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
   },
   {
    "op": "hide",
@@ -611,7 +922,7 @@
   },
   {
    "op": "hide",
-   "actor": "extra_elder"
+   "actor": "extra_porter"
   },
   {
    "op": "bg",
@@ -624,7 +935,7 @@
   },
   {
    "op": "nar",
-   "text": "第5景「夜明けの境内」。焼けた鐘のそばで執着を手放す道を問う。"
+   "text": "夜明け。境内。焼け焦げた鐘楼の下に、黒くすすけた大鐘が、横たわっている。能力が、灰を、掃いていた。"
   },
   {
    "op": "show",
@@ -633,99 +944,71 @@
   },
   {
    "op": "show",
-   "actor": "akane",
+   "actor": "extra_elder",
    "pos": "right"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "「夜明けの境内」へ来た。焼けた鐘のそばで執着を手放す道を問う。",
-   "eyes": "fun",
-   "mouth": "open"
+   "text": "……和尚さま。わたしの、せいです。少しだけ、と、門を、開けてしまった。"
   },
   {
    "op": "say",
-   "actor": "akane",
-   "text": "ここで黙れば、誰かが代わりに意味を決める。",
-   "eyes": "surprise"
+   "actor": "extra_elder",
+   "text": "そなたが開けずとも、別の誰かが、開けたであろう。……執心は、扉の、隙間を、待つ。"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "私が守りたいのは「執着を隠すほど、その影は大きくなる」だ。",
-   "eyes": "crying"
-  },
-  {
-   "op": "nar",
-   "text": "夜明けの境内の空気が変わり、二人は言葉の裏を測る。"
+   "text": "……これから、どうなりますか。この鐘は。"
   },
   {
    "op": "say",
-   "actor": "akane",
-   "text": "守るという言葉が、誰かの犠牲を隠していないか。",
+   "actor": "extra_elder",
+   "text": "鋳直す。……そして、また、供養を、する。",
    "eyes": "closed"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-   "eyes": "normal",
-   "mouth": "open"
+   "text": "また、あの方が、来ますか。"
   },
   {
    "op": "say",
-   "actor": "akane",
-   "text": "過去は変えられない。だが次の手は選べる。",
-   "eyes": "joy"
-  },
-  {
-   "op": "nar",
-   "text": "遠くの音が途切れる。焼けた鐘のそばで執着を手放す道を問う。"
+   "actor": "extra_elder",
+   "text": "来るかもしれぬ。……来たら、また、門の前で、断らねばならぬ。"
   },
   {
    "op": "say",
    "actor": "extra_porter",
-   "text": "焼けた鐘のそばで執着を手放す道を問う。その事実から目をそらさない。",
-   "eyes": "anger"
+   "text": "……断るのは、つらいです。きれいな方でした。舞も、見事でした。"
   },
   {
    "op": "say",
-   "actor": "akane",
-   "text": "恐れを消すのではなく、恐れたまま進もう。",
+   "actor": "extra_elder",
+   "text": "そうじゃな。……拙僧も、見ておった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……ご覧に、なっていたのですか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "門の陰から。……あの舞は、たしかに、供養の舞であった。半分は、な。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "もう半分は。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……執心の、舞じゃ。……人の心は、いつも、半分ずつ、混じっておる。",
    "eyes": "sorrow"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "私の名ではなく、行いで答えを残す。",
-   "eyes": "fun",
-   "mouth": "open"
-  },
-  {
-   "op": "nar",
-   "text": "答えを急がず、選んだ手段の代価を確かめる。"
-  },
-  {
-   "op": "say",
-   "actor": "akane",
-   "text": "その答えを、次の場面まで持って行こう。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "say",
-   "actor": "extra_porter",
-   "text": "ここで決める。逃げず、相手の声を聞く。",
-   "eyes": "crying"
-  },
-  {
-   "op": "nar",
-   "text": "残された沈黙が、次の行動を促す。"
-  },
-  {
-   "op": "say",
-   "actor": "akane",
-   "text": "ならば私も、その決断の重さを分け合う。",
-   "eyes": "closed"
   },
   {
    "op": "hide",
@@ -733,7 +1016,74 @@
   },
   {
    "op": "hide",
-   "actor": "akane"
+   "actor": "extra_elder"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "灰の中から、能力が、何かを、拾い上げた。……白拍子の、扇だった。焼けずに、残っていた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "和尚さま。……これ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……扇か。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "焼けて、おりません。……どうして、でしょう。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……供養の舞の、半分が、残したのであろう。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "どういたしましょう。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "鐘を鋳直すとき、その扇を、鐘の中に、納めよう。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "……鐘の中に。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "鐘の中には、もう、誰も隠れておらぬ。……扇が一本、入っておれば、あの方も、探さずに、すむであろう。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "bg",
+   "src": null
   },
   {
    "op": "show",
@@ -743,29 +1093,26 @@
   {
    "op": "say",
    "actor": "nono",
-   "text": "物語はここまで。残った問いは「執着を隠すほど、その影は大きくなる」。",
-   "eyes": "sorrow"
+   "text": "能・歌舞伎『道成寺』、これにて、終わりでございます。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
-   "eyes": "normal"
+   "text": "清姫の執心は、何百年も、隠れた人を探して、鐘のもとへ、通い続けました。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "ご来場、ありがとうございました。",
-   "eyes": "joy",
-   "mouth": "open"
+   "text": "隠せば隠すほど、影は、鐘よりも、大きくなったのです。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "鐘の中に納められた扇は、今も、鐘が鳴るたび、かすかに、揺れているそうでございます。"
   },
   {
    "op": "hide",
    "actor": "nono"
-  },
-  {
-   "op": "bg",
-   "src": null
   },
   {
    "op": "end"

@@ -1,771 +1,1102 @@
 {
-  "meta": {
-    "id": "cha-no-yu",
-    "number": 135,
-    "title": "茶の湯 ―青い泡の村―",
-    "original": "古典落語『茶の湯』（伝統演目）",
-    "category": "古典落語・上方落語",
-    "adaptation": "free",
-    "format": "v3",
-    "minutes": 30,
-    "synopsis": "全五景で「知ったかぶりは、誰も止めないと共同幻想になる」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
-    "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+ "meta": {
+  "id": "cha-no-yu",
+  "number": 135,
+  "title": "茶の湯 ―青い泡の村―",
+  "original": "古典落語『茶の湯』（伝統演目）",
+  "category": "古典落語・上方落語",
+  "adaptation": "free",
+  "format": "v3",
+  "minutes": 32,
+  "synopsis": "全五景で「知ったかぶりは、誰も止めないと共同幻想になる」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "狂言回し",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "隠居",
-      "actor": "extra_elder",
-      "costume": "default"
-    },
-    {
-      "role": "定吉",
-      "actor": "shiro",
-      "costume": "default"
-    },
-    {
-      "role": "村人",
-      "actor": "extra_villager",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "empty_house": "bg/cha-no-yu-empty_house-2048x1152.png",
-    "fake_tea": "bg/cha-no-yu-fake_tea-2048x1152.png",
-    "neighbors": "bg/cha-no-yu-neighbors-2048x1152.png",
-    "village_boom": "bg/cha-no-yu-village_boom-2048x1152.png",
-    "sweet_disaster": "bg/cha-no-yu-sweet_disaster-2048x1152.png"
+  {
+   "role": "隠居",
+   "actor": "extra_elder",
+   "costume": "default"
   },
-  "steps": [
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『茶の湯』。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "古典落語・上方落語の一席を、全五景でお届けします。",
-      "mouth": "open",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "この舞台の核は「知ったかぶりは、誰も止めないと共同幻想になる」。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "台詞はすべて今夜のための書き下ろしです。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "それでは、幕を開けましょう。",
-      "mouth": "open",
-      "eyes": "joy"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "empty_house",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "empty_house"
-    },
-    {
-      "op": "nar",
-      "text": "第1景「田舎の隠居所」。暇な隠居が知らない茶の湯を始めようと言い出す。"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elder",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "さて「田舎の隠居所」だ。暇な隠居が知らない茶の湯を始めようと言い出す。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "その説明だけで、もう話が脇道へ走っている。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
-      "eyes": "anger"
-    },
-    {
-      "op": "nar",
-      "text": "田舎の隠居所の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "近道なら、さっきと同じ所へ戻るな。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "肝心なのは、知ったかぶりは、誰も止めないと共同幻想になるということだ。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "急に教訓を置けば片づくと思っているだろう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。暇な隠居が知らない茶の湯を始めようと言い出す。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "片づかないから、もう一度やって確かめる。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "やり直すたび道具と登場人物が増えている。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "暇な隠居が知らない茶の湯を始めようと言い出す。ここまでは筋書き通りだ。",
-      "eyes": "normal"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "筋書きが困って、こちらを見ているぞ。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "なら最後は、自分で落とし前をつけよう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "落とし前とオチを同じ棚に置くな。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elder"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "bg",
-      "src": "fake_tea",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "fake_tea"
-    },
-    {
-      "op": "nar",
-      "text": "第2景「怪しい茶室」。青粉と椋の皮で泡立てた茶を定吉に飲ませる。"
-    },
-    {
-      "op": "show",
-      "actor": "extra_villager",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elder",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "さて「怪しい茶室」だ。青粉と椋の皮で泡立てた茶を定吉に飲ませる。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "その説明だけで、もう話が脇道へ走っている。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "怪しい茶室の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "近道なら、さっきと同じ所へ戻るな。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "肝心なのは、知ったかぶりは、誰も止めないと共同幻想になるということだ。",
-      "eyes": "surprise",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "急に教訓を置けば片づくと思っているだろう。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。青粉と椋の皮で泡立てた茶を定吉に飲ませる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "片づかないから、もう一度やって確かめる。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "やり直すたび道具と登場人物が増えている。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "青粉と椋の皮で泡立てた茶を定吉に飲ませる。ここまでは筋書き通りだ。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "筋書きが困って、こちらを見ているぞ。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "なら最後は、自分で落とし前をつけよう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "落とし前とオチを同じ棚に置くな。",
-      "eyes": "fun"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_villager"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elder"
-    },
-    {
-      "op": "bg",
-      "src": "neighbors",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "neighbors"
-    },
-    {
-      "op": "nar",
-      "text": "第3景「近所の招待」。客たちがまずいと言えず自宅でも真似をする。"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_villager",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "さて「近所の招待」だ。客たちがまずいと言えず自宅でも真似をする。",
-      "eyes": "anger",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "その説明だけで、もう話が脇道へ走っている。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
-      "eyes": "fun"
-    },
-    {
-      "op": "nar",
-      "text": "近所の招待の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "近道なら、さっきと同じ所へ戻るな。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "肝心なのは、知ったかぶりは、誰も止めないと共同幻想になるということだ。",
-      "eyes": "crying",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "急に教訓を置けば片づくと思っているだろう。",
-      "eyes": "closed"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。客たちがまずいと言えず自宅でも真似をする。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "片づかないから、もう一度やって確かめる。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "やり直すたび道具と登場人物が増えている。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "客たちがまずいと言えず自宅でも真似をする。ここまでは筋書き通りだ。",
-      "eyes": "anger",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "筋書きが困って、こちらを見ているぞ。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "なら最後は、自分で落とし前をつけよう。",
-      "eyes": "fun"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "落とし前とオチを同じ棚に置くな。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_villager"
-    },
-    {
-      "op": "bg",
-      "src": "village_boom",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "village_boom"
-    },
-    {
-      "op": "nar",
-      "text": "第4景「村中の茶会」。知ったかぶりが広がり畑仕事まで止まる。"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elder",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "さて「村中の茶会」だ。知ったかぶりが広がり畑仕事まで止まる。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "その説明だけで、もう話が脇道へ走っている。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "村中の茶会の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "近道なら、さっきと同じ所へ戻るな。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "肝心なのは、知ったかぶりは、誰も止めないと共同幻想になるということだ。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "急に教訓を置けば片づくと思っているだろう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。知ったかぶりが広がり畑仕事まで止まる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "片づかないから、もう一度やって確かめる。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "やり直すたび道具と登場人物が増えている。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "知ったかぶりが広がり畑仕事まで止まる。ここまでは筋書き通りだ。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "筋書きが困って、こちらを見ているぞ。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "なら最後は、自分で落とし前をつけよう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "落とし前とオチを同じ棚に置くな。",
-      "eyes": "crying"
-    },
-    {
-      "op": "choice",
-      "options": [
-        {
-          "text": "正面から問いかける",
-          "jump": "cha-no-yu_direct"
-        },
-        {
-          "text": "相手の話を最後まで聞く",
-          "jump": "cha-no-yu_listen"
-        }
-      ]
-    },
-    {
-      "op": "label",
-      "id": "cha-no-yu_direct"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "私は正面から問う。曖昧なまま次へは進まない。"
-    },
-    {
-      "op": "jump",
-      "to": "cha-no-yu_merge"
-    },
-    {
-      "op": "label",
-      "id": "cha-no-yu_listen"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "結論を急がず、相手が何を恐れているかまで聞こう。"
-    },
-    {
-      "op": "label",
-      "id": "cha-no-yu_merge"
-    },
-    {
-      "op": "nar",
-      "text": "選び方は違っても、二人は同じ核心へ戻ってくる。"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elder"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "bg",
-      "src": "sweet_disaster",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "sweet_disaster"
-    },
-    {
-      "op": "nar",
-      "text": "第5景「羊羹の代用品」。最後の菓子まで偽物で客たちが逃げ出す。"
-    },
-    {
-      "op": "show",
-      "actor": "extra_villager",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elder",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "さて「羊羹の代用品」だ。最後の菓子まで偽物で客たちが逃げ出す。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "その説明だけで、もう話が脇道へ走っている。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "羊羹の代用品の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "近道なら、さっきと同じ所へ戻るな。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "肝心なのは、知ったかぶりは、誰も止めないと共同幻想になるということだ。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "急に教訓を置けば片づくと思っているだろう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。最後の菓子まで偽物で客たちが逃げ出す。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "片づかないから、もう一度やって確かめる。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "やり直すたび道具と登場人物が増えている。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "最後の菓子まで偽物で客たちが逃げ出す。ここまでは筋書き通りだ。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "筋書きが困って、こちらを見ているぞ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "なら最後は、自分で落とし前をつけよう。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "落とし前とオチを同じ棚に置くな。",
-      "eyes": "closed"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_villager"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elder"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "物語はここまで。残った問いは「知ったかぶりは、誰も止めないと共同幻想になる」。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ご来場、ありがとうございました。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "end"
+  {
+   "role": "定吉",
+   "actor": "shiro",
+   "costume": "default"
+  },
+  {
+   "role": "村人",
+   "actor": "extra_villager",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "empty_house": "bg/cha-no-yu-empty_house-2048x1152.png",
+  "fake_tea": "bg/cha-no-yu-fake_tea-2048x1152.png",
+  "neighbors": "bg/cha-no-yu-neighbors-2048x1152.png",
+  "village_boom": "bg/cha-no-yu-village_boom-2048x1152.png",
+  "sweet_disaster": "bg/cha-no-yu-sweet_disaster-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "蔵前の大店を息子に譲って、根岸の里に隠居所を構えたご隠居がおりました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "古典落語『茶の湯』。暇を持てあました隠居が、茶道の心得もないのに、茶の湯を始めようと思い立つお話です。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "誰か一人が「それは違いますよ」と言えば、すぐに済んだはずの話。ところが、誰も、言わなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "青い泡が、根岸の里じゅうに広がっていく様子を、どうぞ、お楽しみください。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "empty_house",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "empty_house"
+  },
+  {
+   "op": "nar",
+   "text": "根岸の隠居所。庭に梅の木、縁側に日だまり。座敷には、立派な茶室がついている。ただし、一度も使われていない。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "定吉や。……暇だな。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "はい、ご隠居さま。暇でございます。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "店にいた頃は、朝から晩まで、算盤と、客と、帳面。隠居すれば、のんびりできると思っておった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "のんびりするのが、こんなに忙しくないとは、思わなんだ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "忙しくないのは、よいことでは。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "朝起きて、庭の梅を眺めて、昼に、また梅を眺める。……梅も、わしに眺められるのに、飽きておる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "退屈は、忙しいより、疲れる。……定吉、この家には、茶室がついておるな。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "はい。前の持ち主が、茶人だったそうで。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "よし。風流に、茶の湯をやろう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "ご隠居さま、茶の湯の心得が、おありで。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "定吉は、まだ十四の小僧である。茶の湯どころか、茶葉と、ほうじ茶の区別もついていない。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……ある。昔、若い頃に、少し。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "どのくらい。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……一度、人の茶会に呼ばれて、飲んだことがある。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "それは、心得とは言わないのでは。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "言う。飲んだ者は、心得ておる。……飲み方を。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "bg",
+   "src": "fake_tea",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "fake_tea"
+  },
+  {
+   "op": "nar",
+   "text": "茶室。釜が、しゅんしゅんと鳴っている。ご隠居が、茶碗と茶筅を前に、腕組みをしている。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "さて、定吉。茶の湯の茶は、緑色で、泡が立っておった。……茶葉は、何を使うのだったか。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "わたくしに聞かれましても。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "確か、抹茶というものを使うと、聞いたような。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "抹茶。……知っておる。……青い粉のことだ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "色が緑なら、緑の粉だろう。……定吉、乾物屋で、青い粉を買ってこい。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "青い粉。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "青きな粉でも、青海苔の粉でも、なんでもよい。青ければ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "nar",
+   "text": "定吉は、乾物屋で「青黄粉」を買ってきた。ご隠居は、それを茶碗に入れ、湯を注ぎ、茶筅でかき回した。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……泡が、立たぬ。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "立ちませんね。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "泡の立つものを、入れねば。……定吉、何か、泡の立つものを。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "泡の立つもの。……洗い物に使う、椋の皮なら、ございますが。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "それだ！",
+   "eyes": "joy"
+  },
+  {
+   "op": "nar",
+   "text": "ご隠居は、椋の皮を削って、茶碗に入れた。茶筅で回すと、ぶくぶくと、見事な泡が立った。青い泡であった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "どうだ、定吉。見事な茶だ。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "色が、少し、青すぎるような。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "風流とは、少し、はみ出すことだ。……さあ、飲め。作法どおり、茶碗を三度回して。"
+  },
+  {
+   "op": "nar",
+   "text": "定吉は、恐る恐る、茶碗を口に運んだ。そして、目を白黒させた。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……っ！　……け、けっこうな、お点前で。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "そうだろう。わしも、一服。",
+   "eyes": "joy"
+  },
+  {
+   "op": "nar",
+   "text": "ご隠居も、一口飲んで、しばらく黙った。それから、ゆっくりと、うなずいた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……風流な、味だ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "舌が、しびれております。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "風流というのは、しびれるものだ。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "風流な、味でございます。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "二人とも、そう言うのだから、風流なのだ。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……二人とも、そう言うしかなかったのでは。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "何か言うたか。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "いえ、何も。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "翌朝。厠の前に、ご隠居と定吉が、並んで青い顔をして立っている。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "ご隠居さま、昨夜、何度、通われました。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……七度。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "わたくしは、九度でございます。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "茶の湯とは、厳しいものだな。……腹から、修行させられる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "ご隠居さま、あの茶は、たぶん、茶ではないのでは。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……定吉。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "何でございましょう。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "それを、言ってはならぬ。茶室で「けっこう」と言ったのは、お前だ。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……口が、勝手に、けっこうと。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "bg",
+   "src": "neighbors",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "neighbors"
+  },
+  {
+   "op": "nar",
+   "text": "隠居所の茶室。近所の豆腐屋が、手習いの師匠が、鳶の頭が、招かれて、ずらりと座っている。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_villager",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "本日は、ようこそ。粗茶ではございますが。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "これはこれは、ご隠居さま。茶の湯にお招きとは、光栄でございます。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "……茶の湯の作法など、存じませんが、よろしいので。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "わしも、細かいことは、こだわらぬ。……ただ、飲んで、けっこう、と言えばよい。"
+  },
+  {
+   "op": "nar",
+   "text": "青い泡の茶が、一人ずつに出された。豆腐屋は、一口飲んで、顔を真っ赤にし、鳶の頭は、顔を真っ青にした。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "……ぶっ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "鳶の頭は、茶碗を三度回すところを、五度回して、こぼした。誰も、作法を知らなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "いかがかな。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "……け、けっこうな、お点前で。",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "手習いの師匠も、鳶の頭も、口々に「けっこう」と言った。誰も、まずいとは言わなかった。"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "皆さま、羊羹も、どうぞ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "これはありがたい。……ようやく、口直しが。"
+  },
+  {
+   "op": "nar",
+   "text": "豆腐屋は、羊羹を頬張りながら、ご隠居の顔をそっとうかがった。ご隠居は、満足げに、青い茶を飲み干していた。"
+  },
+  {
+   "op": "nar",
+   "text": "羊羹は、本物だった。客たちは、羊羹を三切れずつ食べ、さらに懐紙に包んで、持って帰った。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_villager"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "show",
+   "actor": "extra_villager",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "帰り道。豆腐屋の家の前。豆腐屋は、近所の若い衆を集めて、ひそひそ話している。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "ご隠居の茶は、そりゃもう、すごい味だった。あれが、本物の茶の湯というものらしい。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……そうだったのですか。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "定吉どん、お前さんは毎日飲んでるんだろう。まずい、と思ったことはないのかい。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……お茶室では、けっこう、と言うものだと、ご隠居さまが。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "そうか。……わしらが、まずいと思ったのは、茶の湯を知らぬからだ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "茶碗は、どんぶりでいいかな。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……お茶碗だと、思います。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "よし。わしも、今夜から、うちで茶の湯をやってみる。風流な男だと、女房に見直してもらえる。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……豆腐屋さんも。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "その晩、豆腐屋の家からも、ぶくぶくと、泡の立つ音が聞こえた。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_villager"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "bg",
+   "src": "village_boom",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "village_boom"
+  },
+  {
+   "op": "nar",
+   "text": "根岸の里。家々の縁側で、釜が鳴っている。どこの家からも、青い泡の匂い。畑には、誰もいない。"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "噂は、またたく間に、根岸の里じゅうに広がりました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "豆腐屋は、豆腐を作る代わりに、青い茶を点てた。鳶の頭は、屋根に上がる代わりに、茶碗を回した。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "手習いの師匠は、子どもたちに、字の代わりに、けっこうなお点前で、と言わせる稽古をつけた。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "誰も、まずいとは言いませんでした。言えば、茶の湯を知らぬ田舎者だと思われるから。……そして、厠が、どこの家も、大繁盛。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "show",
+   "actor": "extra_villager",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "定吉どん、聞いてくれ。うちの女房が、毎朝、青い茶を点てるようになった。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……それは、お気の毒に。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "豆腐の仕込みを、三日、休んだ。客が来ねえ。……腹の具合も、よくねえ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "寄り合いでも、誰かが青い茶を出すと、皆、けっこうけっこうと言って、顔をしかめて飲む。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "隣の家の婆さんも、八百屋の倅も、皆、青い茶だ。畑の大根が、とうが立っちまった。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "やめれば、よいのでは。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "やめたら、茶の湯が分からねえやつだと思われる。ご隠居さまにも、悪い。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……ご隠居さまも、毎日、腹をこわしておいでです。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "ご隠居さままで！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "皆さまが、けっこう、と言うので、ご隠居さまも、やめられないのでございます。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "……じゃあ、誰も、本当は、うまいと思ってないのか。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "定吉は、ご隠居に本当のことを言うと決める",
+     "jump": "m_tell"
+    },
+    {
+     "text": "定吉は、まず羊羹を買い足しに行く",
+     "jump": "m_sweet"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_tell"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "言ってまいります。……あの茶は、茶ではございませぬ、と。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "定吉どん、勇気があるな。……わしが言えねえことを。"
+  },
+  {
+   "op": "jump",
+   "to": "m_house"
+  },
+  {
+   "op": "label",
+   "id": "m_sweet"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "まずは、羊羹を。……茶がまずくても、羊羹があれば、皆さま、来てくださいますので。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "定吉どん、それは、問題を先送りにしてるだけじゃねえか。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……分かっております。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "label",
+   "id": "m_house"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_villager"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "bg",
+   "src": "sweet_disaster",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "sweet_disaster"
+  },
+  {
+   "op": "nar",
+   "text": "隠居所の茶室。ご隠居は、腹をさすりながら、羊羹の箱を前に、困った顔をしている。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "定吉、羊羹が、高い。毎日、客に出しておったら、隠居の金が、底をつく。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "皆さま、羊羹だけを目当てに、来られておりますので。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……羊羹も、作ってしまおう。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "ご隠居さま、それだけは。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "羊羹は、羊羹屋で買うものでございます。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "茶も、自分で工夫したのだ。羊羹も、工夫できる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "さつまいもを蒸して、すりつぶして、黒砂糖と、灯し油を少し。……型に入れて、固めれば、羊羹に見える。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "灯し油は、食べるものではございません！"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "艶を出すためだ。風流とは、見た目だ。"
+  },
+  {
+   "op": "nar",
+   "text": "自家製の羊羹が、客に出された。客たちは、一口食べて、全員、口を押さえて、縁側から庭へ飛び出した。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……どうした、皆。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "庭の池の鯉が、投げ捨てられた羊羹をつつき、すぐに吐き出して、池の底へ逃げていった。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "鯉まで、逃げました……。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "ご隠居さま。……もう、皆さまは、来られないと思います。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "夕暮れ。誰もいない茶室。ご隠居と定吉が、ぽつんと座っている。"
+  },
+  {
+   "op": "nar",
+   "text": "定吉が、黙って、本物の茶葉の包みを、ご隠居の前に置いた。お詫びの品として、乾物屋の主人が持たせてくれたものだった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "定吉、わしの茶は、まずかったのか。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……正直に申しますと、ひどい味でございました。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "初めて、言うてくれたな。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "言えずに、すみませんでした。ご隠居さまが、楽しそうだったので。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "わしも、まずいと分かっておった。……分かっておったが、皆が、けっこうと言うので、そうなのかと思い込んだ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "一人がうなずくと、二人目もうなずく。十人うなずけば、まずい茶も、名物になる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "誰か一人が、最初に、まずい、と言えばよかったのでございますね。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "そうだ。……その一人に、わしが、なるべきだった。点てた本人だからな。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "明日、皆さまに、お詫びに参りましょう。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "乾物屋さんも、ずっと、青黄粉が売れ続けるので、おかしいと思っておられたそうです。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "乾物屋も、言えなかったのだな。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "うむ。それから、本物の茶道の先生に、習いに行こう。……一度、本物の茶を、飲んでみたい。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "ひと月後。茶室。本物の抹茶が、静かに点てられている。泡は、やわらかい緑色。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "どうだ、定吉。今度は、本物だ。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……苦い。でも、すっきりします。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "うむ。苦いが、腹は痛くならぬ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "けっこうな、お点前でございます。……今度は、本当に。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "青い茶より、ずっと、短い修行で済みそうです。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "わしの茶室では、これから、まずいときは、まずい、と言ってよい。そう、張り紙をしよう。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "先生に、最初に言われた。茶は、上手に点てるより、正直に飲むものだ、と。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "皆さま、来てくださるでしょうか。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "羊羹は、本物を出す。……それで、来てもらえねば、それまでだ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "nar",
+   "text": "その日の午後、豆腐屋が、恐る恐る、隠居所の門をくぐった。手には、自分の家で点てた、青い茶の入った茶碗を持っていた。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "古典落語『茶の湯』、お後がよろしいようで。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "誰も止めなかった知ったかぶりは、いつのまにか、根岸の里じゅうの名物になりました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "本当のことを言う人が、一人いれば、止まりました。……その一人は、たいてい、いちばん言いにくい立場の人です。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "皆さまのまわりの「けっこうなお点前」も、ときどき、味見し直してみてください。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

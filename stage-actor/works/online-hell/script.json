@@ -1,744 +1,1068 @@
 {
-  "meta": {
-    "id": "online-hell",
-    "number": 138,
-    "title": "オンライン地獄 ―接続できない亡者―",
-    "original": "NONO座オリジナル新作落語",
-    "category": "新作落語",
-    "adaptation": "free",
-    "format": "v3",
-    "minutes": 30,
-    "synopsis": "全五景で「制度を便利にしても、困る人への手当ては自動化できない」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
-    "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+ "meta": {
+  "id": "online-hell",
+  "number": 138,
+  "title": "オンライン地獄 ―接続できない亡者―",
+  "original": "NONO座オリジナル新作落語",
+  "category": "新作落語",
+  "adaptation": "free",
+  "format": "v3",
+  "minutes": 32,
+  "synopsis": "全五景で「制度を便利にしても、困る人への手当ては自動化できない」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "yui_origin",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "狂言回し",
-      "actor": "yui_origin",
-      "costume": "default"
-    },
-    {
-      "role": "亡者",
-      "actor": "extra_skeleton",
-      "costume": "default"
-    },
-    {
-      "role": "閻魔大王",
-      "actor": "extra_oni",
-      "costume": "default"
-    },
-    {
-      "role": "鬼のサポート係",
-      "actor": "kurogane",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "login_void": "bg/online-hell-login_void-2048x1152.png",
-    "waiting_room": "bg/online-hell-waiting_room-2048x1152.png",
-    "remote_court": "bg/online-hell-remote_court-2048x1152.png",
-    "support_desk": "bg/online-hell-support_desk-2048x1152.png",
-    "offline_judgment": "bg/online-hell-offline_judgment-2048x1152.png"
+  {
+   "role": "亡者",
+   "actor": "extra_skeleton",
+   "costume": "default"
   },
-  "steps": [
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "yui_origin",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "yui_origin",
-      "text": "ようこそ、NONO座へ。本日の演目は『オンライン地獄』。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "yui_origin",
-      "text": "新作落語の一席を、全五景でお届けします。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "yui_origin",
-      "text": "この舞台の核は「制度を便利にしても、困る人への手当ては自動化できない」。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "yui_origin",
-      "text": "台詞はすべて今夜のための書き下ろしです。"
-    },
-    {
-      "op": "say",
-      "actor": "yui_origin",
-      "text": "それでは、幕を開けましょう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "hide",
-      "actor": "yui_origin"
-    },
-    {
-      "op": "bg",
-      "src": "login_void",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "login_void"
-    },
-    {
-      "op": "nar",
-      "text": "第1景「冥界ログイン画面」。亡者が裁判URLも暗証も分からず入口で止まる。"
-    },
-    {
-      "op": "show",
-      "actor": "extra_skeleton",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_oni",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "さて「冥界ログイン画面」だ。亡者が裁判URLも暗証も分からず入口で止まる。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "その説明だけで、もう話が脇道へ走っている。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
-      "eyes": "anger"
-    },
-    {
-      "op": "nar",
-      "text": "冥界ログイン画面の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "近道なら、さっきと同じ所へ戻るな。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "肝心なのは、制度を便利にしても、困る人への手当ては自動化できないということだ。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "急に教訓を置けば片づくと思っているだろう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。亡者が裁判URLも暗証も分からず入口で止まる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "片づかないから、もう一度やって確かめる。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "やり直すたび道具と登場人物が増えている。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "亡者が裁判URLも暗証も分からず入口で止まる。ここまでは筋書き通りだ。",
-      "eyes": "normal"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "筋書きが困って、こちらを見ているぞ。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "なら最後は、自分で落とし前をつけよう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "落とし前とオチを同じ棚に置くな。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_skeleton"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_oni"
-    },
-    {
-      "op": "bg",
-      "src": "waiting_room",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "waiting_room"
-    },
-    {
-      "op": "nar",
-      "text": "第2景「無限の待機室」。順番表示が更新されるたび最後尾へ戻される。"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_skeleton",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "さて「無限の待機室」だ。順番表示が更新されるたび最後尾へ戻される。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "その説明だけで、もう話が脇道へ走っている。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "脇道ではない。笑いへ通じる立派な近道だ。"
-    },
-    {
-      "op": "nar",
-      "text": "無限の待機室の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "近道なら、さっきと同じ所へ戻るな。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "肝心なのは、制度を便利にしても、困る人への手当ては自動化できないということだ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "急に教訓を置けば片づくと思っているだろう。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。順番表示が更新されるたび最後尾へ戻される。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "片づかないから、もう一度やって確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "やり直すたび道具と登場人物が増えている。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "順番表示が更新されるたび最後尾へ戻される。ここまでは筋書き通りだ。"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "筋書きが困って、こちらを見ているぞ。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "なら最後は、自分で落とし前をつけよう。"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "落とし前とオチを同じ棚に置くな。",
-      "eyes": "fun"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_skeleton"
-    },
-    {
-      "op": "bg",
-      "src": "remote_court",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "remote_court"
-    },
-    {
-      "op": "nar",
-      "text": "第3景「閻魔のリモート法廷」。音声と映像がずれて罪状が別人へ届く。"
-    },
-    {
-      "op": "show",
-      "actor": "extra_oni",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "さて「閻魔のリモート法廷」だ。音声と映像がずれて罪状が別人へ届く。",
-      "eyes": "anger",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "その説明だけで、もう話が脇道へ走っている。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
-      "eyes": "fun"
-    },
-    {
-      "op": "nar",
-      "text": "閻魔のリモート法廷の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "近道なら、さっきと同じ所へ戻るな。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "肝心なのは、制度を便利にしても、困る人への手当ては自動化できないということだ。",
-      "eyes": "crying",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "急に教訓を置けば片づくと思っているだろう。"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。音声と映像がずれて罪状が別人へ届く。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "片づかないから、もう一度やって確かめる。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "やり直すたび道具と登場人物が増えている。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "音声と映像がずれて罪状が別人へ届く。ここまでは筋書き通りだ。",
-      "eyes": "anger",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "筋書きが困って、こちらを見ているぞ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "なら最後は、自分で落とし前をつけよう。",
-      "eyes": "fun"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "落とし前とオチを同じ棚に置くな。"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_oni"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "bg",
-      "src": "support_desk",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "support_desk"
-    },
-    {
-      "op": "nar",
-      "text": "第4景「鬼の窓口」。再起動を勧めるたび亡者の前世まで初期化される。"
-    },
-    {
-      "op": "show",
-      "actor": "extra_skeleton",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_oni",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "さて「鬼の窓口」だ。再起動を勧めるたび亡者の前世まで初期化される。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "その説明だけで、もう話が脇道へ走っている。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "鬼の窓口の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "近道なら、さっきと同じ所へ戻るな。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "肝心なのは、制度を便利にしても、困る人への手当ては自動化できないということだ。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "急に教訓を置けば片づくと思っているだろう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。再起動を勧めるたび亡者の前世まで初期化される。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "片づかないから、もう一度やって確かめる。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "やり直すたび道具と登場人物が増えている。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "再起動を勧めるたび亡者の前世まで初期化される。ここまでは筋書き通りだ。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "筋書きが困って、こちらを見ているぞ。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "なら最後は、自分で落とし前をつけよう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "落とし前とオチを同じ棚に置くな。",
-      "eyes": "crying"
-    },
-    {
-      "op": "choice",
-      "options": [
-        {
-          "text": "正面から問いかける",
-          "jump": "online-hell_direct"
-        },
-        {
-          "text": "相手の話を最後まで聞く",
-          "jump": "online-hell_listen"
-        }
-      ]
-    },
-    {
-      "op": "label",
-      "id": "online-hell_direct"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "私は正面から問う。曖昧なまま次へは進まない。"
-    },
-    {
-      "op": "jump",
-      "to": "online-hell_merge"
-    },
-    {
-      "op": "label",
-      "id": "online-hell_listen"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "結論を急がず、相手が何を恐れているかまで聞こう。"
-    },
-    {
-      "op": "label",
-      "id": "online-hell_merge"
-    },
-    {
-      "op": "nar",
-      "text": "選び方は違っても、二人は同じ核心へ戻ってくる。"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_skeleton"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_oni"
-    },
-    {
-      "op": "bg",
-      "src": "offline_judgment",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "offline_judgment"
-    },
-    {
-      "op": "nar",
-      "text": "第5景「対面の裁き」。結局机を並べ人の話を直接聞くことになる。"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_skeleton",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "さて「対面の裁き」だ。結局机を並べ人の話を直接聞くことになる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "その説明だけで、もう話が脇道へ走っている。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "脇道ではない。笑いへ通じる立派な近道だ。"
-    },
-    {
-      "op": "nar",
-      "text": "対面の裁きの空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "近道なら、さっきと同じ所へ戻るな。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "肝心なのは、制度を便利にしても、困る人への手当ては自動化できないということだ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "急に教訓を置けば片づくと思っているだろう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。結局机を並べ人の話を直接聞くことになる。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "片づかないから、もう一度やって確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "やり直すたび道具と登場人物が増えている。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "結局机を並べ人の話を直接聞くことになる。ここまでは筋書き通りだ。"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "筋書きが困って、こちらを見ているぞ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "なら最後は、自分で落とし前をつけよう。"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "落とし前とオチを同じ棚に置くな。",
-      "eyes": "closed"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_skeleton"
-    },
-    {
-      "op": "show",
-      "actor": "yui_origin",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "yui_origin",
-      "text": "物語はここまで。残った問いは「制度を便利にしても、困る人への手当ては自動化できない」。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "yui_origin",
-      "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "yui_origin",
-      "text": "ご来場、ありがとうございました。",
-      "eyes": "joy"
-    },
-    {
-      "op": "hide",
-      "actor": "yui_origin"
-    },
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "end"
+  {
+   "role": "閻魔大王",
+   "actor": "extra_oni",
+   "costume": "default"
+  },
+  {
+   "role": "鬼のサポート係",
+   "actor": "kurogane",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "login_void": "bg/online-hell-login_void-2048x1152.png",
+  "waiting_room": "bg/online-hell-waiting_room-2048x1152.png",
+  "remote_court": "bg/online-hell-remote_court-2048x1152.png",
+  "support_desk": "bg/online-hell-support_desk-2048x1152.png",
+  "offline_judgment": "bg/online-hell-offline_judgment-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "yui_origin",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "ようこそ、NONO座の新作落語の時間へ。口上は、ユイ・オリジンが務めます。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "今夜の舞台は、あの世。三途の川を渡った先の、閻魔さまのお裁きの庁でございます。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "このたび、あの世も、手続きが、すっかり新しくなりました。お裁きは、全部、画面の向こうで、というのです。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "便利になったはずの冥土の旅。……ところが、一人の亡者が、入口で、つまずきまして。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui_origin"
+  },
+  {
+   "op": "bg",
+   "src": "login_void",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "login_void"
+  },
+  {
+   "op": "nar",
+   "text": "三途の川のほとり。霧の中に、四角い光る板が一枚、ぽつんと立っている。画面には「冥界裁判所　受付」の文字。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_skeleton",
+   "pos": "left"
+  },
+  {
+   "op": "nar",
+   "text": "渡し舟の船頭は、六文銭を受け取ると、向こう岸の板を指さして、あとは機械が案内する、とだけ言って、舟を返した。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "……ここが、あの世の入口か。川を渡ったら、すぐ閻魔さまに会えると聞いておったが。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "板が一枚、光っておるだけじゃ。……「ご本人さまの番号を入力してください」。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "番号？　生まれたときに、そんなものをもらったかのう。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "桶屋の帳面には、客の名前しか書いておらなんだ。番号で呼ばれたことは、一度もない。"
+  },
+  {
+   "op": "nar",
+   "text": "画面の隅に、小さな字が流れる。番号をお忘れの方は、生前に登録した合言葉を、入力してください。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "合言葉！　生きておるうちに、そんなものを決めた覚えはない。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "……孫が、何か、わしの代わりに、ぽちぽちと押しておったような気がする。"
+  },
+  {
+   "op": "nar",
+   "text": "画面が、ぴろりん、と鳴った。合言葉が三回まちがっています。しばらくお待ちください。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "一回も、押しておらんのに！",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "しばらく、とは、どのくらいじゃ。……あの世の、しばらく、は、この世の何年じゃ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "板を叩けば、直るかのう。昔の桶は、たがを叩けば締まったもんじゃ。"
+  },
+  {
+   "op": "nar",
+   "text": "骨の指で、こつこつ叩くと、画面に「タッチは、やさしく」と出た。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "もしもし、板どの。わしは、死んだばかりの、亡者でございます。どうか、閻魔さまに、取り次いでくだされ。"
+  },
+  {
+   "op": "nar",
+   "text": "画面には「ただいま、大変込み合っております」と表示されたまま、何も起きなかった。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_skeleton"
+  },
+  {
+   "op": "bg",
+   "src": "waiting_room",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "waiting_room"
+  },
+  {
+   "op": "nar",
+   "text": "果てしなく広い待合室。白い長椅子が、地平線まで並んでいる。天井に、順番を示す大きな数字。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_skeleton",
+   "pos": "left"
+  },
+  {
+   "op": "nar",
+   "text": "入口の横に、紙の張り紙があった。「番号のわからない方は、待合室の受付へ」。紙には、誰かの涙の跡がついていた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "やっと、中に入れた。……番号札は、八百万九千六百十二番。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "今、呼ばれておるのが、八百万九千六百十番。……あと、二人じゃ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "天井の数字が、ぱらりと変わった。八百万九千六百十一番。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "次じゃ！　次の次が、わしじゃ！",
+   "eyes": "joy"
+  },
+  {
+   "op": "nar",
+   "text": "天井の数字が、ぱらぱらぱら、と回り、九百万一番になった。待合室の一番後ろの数字だった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "戻った！　最後尾に、戻った！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "隣の長椅子の、白い着物の老婆が、ため息をついた。わたしは、これで七度目よ、と。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "七度！　お婆さん、いつから、ここに。"
+  },
+  {
+   "op": "nar",
+   "text": "四十九日から、と老婆は答えた。あの世の四十九日は、待合室で過ぎてしまったのだ、と。"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "すみません、ただいま、番号札の仕組みを、新しくいたしました。皆さま、改めて、番号札をお取りください。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "わしは、さっき、あと二人だったんじゃ！"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "申し訳ございません。新しい仕組みの決まりでして。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "お前さんは、どなたじゃ。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "冥界裁判所、利用者支援係の、クロガネと申します。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "支援と申しましても、決まった言葉を、決まった順に言う係ですが。……柴犬の鬼、と呼ばれております。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "犬なのか、鬼なのか、どっちじゃ。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "半分ずつです。地獄の門番の家系なので。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "クロガネどの、わしは、骨じゃ。待つのは、慣れておる。……だが、待つ間に、骨まで細くなりそうじゃ。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "待合室のお茶は、ご自由に、どうぞ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "骨には、お茶が、しみる前に抜けていく。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……では、せめて、座布団を。長椅子は、骨に、こたえるでしょう。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "お前さんは、気が利くのう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "規則では、座布団は出せないのですが。……落とし物ということで。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_skeleton"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "bg",
+   "src": "remote_court",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "remote_court"
+  },
+  {
+   "op": "nar",
+   "text": "待合室の小部屋。机の上に、画面が一枚。画面の向こうに、閻魔大王の大きな顔が映っている。ときどき、絵が止まる。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_skeleton",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_oni",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "……ザザッ……亡者、聞こえるか。……わしは……閻魔……である。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "聞こえます！　閻魔さま、やっと、お会いできました。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "……顔が……見えぬ。……画面に……近づけ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "近づきました。……鼻の穴しか、映っておりませんか。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "……骨には……鼻の穴しか……ない……。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "閻魔さま、声が、途切れ途切れで。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "……こちらは……よく……聞こえておる……。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "こちらは、聞こえておりません！"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "……汝の罪状を……読み上げる。……汝は、生前……人の家の……柿を……。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "画面が、止まった。閻魔大王の口が、大きく開いたまま、固まっている。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "柿を？　……閻魔さま？　柿を、どうしたと？"
+  },
+  {
+   "op": "nar",
+   "text": "画面が、急に動き出した。音声だけが、少し遅れて流れてくる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "……三十年……盗み続け……その上……大根を……。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "三十年も盗んでおりません！　柿は、子どもの頃に、一度だけ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "……隣の……後家の……うちの……。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "隣の後家さんには、毎年、柿を届けておりました！"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "……どうも、別の亡者の書類と……混ざっておるようだ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "画面の隅に、別の亡者の顔が、小さく映った。向こうも、目を丸くしていた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "閻魔さま、今、画面の端に映っておる方が、柿泥棒では。"
+  },
+  {
+   "op": "nar",
+   "text": "画面の端の亡者が、慌てて手を振った。違う、わしは大根だけだ、と口が動いた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "……うむ。……汝ら、二人まとめて……地獄行き……。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "まとめないでくだされ！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "nar",
+   "text": "画面が、ぶつん、と真っ暗になった。「接続が切れました」の文字。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_skeleton"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_oni"
+  },
+  {
+   "op": "bg",
+   "src": "support_desk",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "support_desk"
+  },
+  {
+   "op": "nar",
+   "text": "利用者支援の窓口。机を挟んで、骸骨の亡者と、柴犬の鬼のクロガネが向かい合っている。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_skeleton",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "地獄行きと聞こえましたか。……ご安心ください。接続が切れた裁きは、無効です。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "無効か。……喜んでいいのか、悲しんでいいのか。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "接続が切れたのですね。……では、まず、画面を、一度消して、もう一度つけてみてください。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "やってみる。……消した。……つけた。"
+  },
+  {
+   "op": "nar",
+   "text": "画面が明るくなった。「はじめまして。お名前を教えてください」。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "初めまして、だと！　さっきまでの話が、全部、消えてしまった！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "申し訳ございません。再起動すると、それまでの記録が、初期化される仕組みでして。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "わしの、さっきまでの罪状の話も。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "消えました。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "それは、ありがたい。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……柿の、一回だけのほうも。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "……それは、まあ、よい。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "画面が、また、ぴろりん、と鳴った。前世の記録を、初期化しますか。はい・いいえ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "前世まで！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "押してはなりません！　それを押すと、亡者さまが、何者でもなくなります！",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "わしは、何も押しておらん！　骨の指が、勝手に、画面に触れたのじゃ！"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "骨の指は、画面が反応しにくいはずですが……。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "今の「はい」は、押されておりません。ぎりぎりで、止めました。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "どうやって。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "画面の電源の紐を、口でくわえて、引っこ抜きました。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "生きておる頃も、孫に、じいちゃんの指は反応せん、と言われた。……死んでからは、反応しすぎじゃ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_skeleton"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "show",
+   "actor": "extra_skeleton",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "亡者さま、少し、お話を聞かせてください。……生前は、何をなさっておいででしたか。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "村の、桶屋じゃ。五十年、桶を作った。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "五十年。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "村の風呂桶は、ほとんど、わしが作った。わしの桶で、村じゅうが、湯に浸かった。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "画面の使い方は、どなたかに。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "孫が、全部、やってくれた。わしは、桶のことしか分からん。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "桶のたがは、目をつぶっても締められる。だが、光る板は、目を開けても、分からん。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "あの世へ来たら、孫は、おらん。……わしは、ひとりで、この光る板と、向き合わねばならん。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……そうでしたか。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "実は、亡者さまのような方が、毎日、何百人も、この窓口に来られます。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "新しい仕組みになって、裁きは早くなりました。でも、早くなった分、置いていかれる方も、増えました。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "お前さんは、ずっと、ここで、それを見ておるのか。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "はい。……再起動してください、と言うたびに、申し訳なくなります。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "決まった言葉を言うのが、係の仕事です。でも、決まった言葉で、助かる方は、半分もおりません。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "残りの半分は、どうなる。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "待合室で、七度目の番号札を、取っておられます。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "お前さん、いい鬼じゃな。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "半分、犬ですので。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "クロガネは、閻魔に直談判しに行くと言う",
+     "jump": "m_go"
+    },
+    {
+     "text": "亡者は、もう一度だけ、ひとりで画面に挑む",
+     "jump": "m_try"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_go"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "亡者さま、少しお待ちください。……閻魔さまのところへ、直接、行ってまいります。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "窓口の係が、閻魔さまに会えるのか。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "走れば、会えます。……廊下は、長いですが。",
+   "eyes": "joy"
+  },
+  {
+   "op": "jump",
+   "to": "m_court"
+  },
+  {
+   "op": "label",
+   "id": "m_try"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "もう一度だけ、やってみる。……番号は、わからん。合言葉も、わからん。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "……やはり、だめじゃ。光る板は、わしの顔を、見てはくれん。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "亡者さま。……やはり、わたしが、閻魔さまのところへ、走ります。"
+  },
+  {
+   "op": "label",
+   "id": "m_court"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_skeleton"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "bg",
+   "src": "offline_judgment",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "offline_judgment"
+  },
+  {
+   "op": "nar",
+   "text": "閻魔の庁の、昔ながらの大広間。高い机に、閻魔大王が座っている。画面は、片付けられて、隅に積まれている。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_oni",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "廊下には、クロガネの足跡が、点々と続いていた。途中で、二度、転んだ跡もあった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "……クロガネが、廊下を走ってきて、わしの部屋の戸を、前足で叩いた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "画面の向こうの亡者が、困っておる、と。……画面では、困っておる顔は、映らぬ、と。",
+   "eyes": "closed"
+  },
+  {
+   "op": "show",
+   "actor": "extra_skeleton",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "閻魔さま……。お顔が、大きい。画面より、ずっと、大きい。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "画面では、わしの顔も、小さな板の中だ。……亡者よ、汝の話を、直接、聞こう。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "わしは、村の桶屋でございます。柿は、子どもの頃に、一度だけ盗みました。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "そのあと、隣の後家さんの家に、五十年、柿を届けました。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "……書類は、混ざっておった。柿を三十年盗んだのは、隣の村の、別の亡者だ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "分かってくださいましたか。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "分かった。……画面で見ておったら、汝と、もう一人の顔の区別もつかなんだ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "便利にしたつもりで、わしは、亡者の顔を、見なくなっておった。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "一日に、千人裁けるようになった。……千人分の顔を、一人も、覚えておらぬ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "閻魔さま、わしの顔は、覚えておいてくだされ。骨ですが。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "骨の顔は、なかなか、忘れられぬ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "閻魔さま、仕組みを、元に戻されますか。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "戻しはせぬ。早く済む者は、画面で済ませばよい。……だが、困った者のための机を、一つ、置こう。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "机の前には、話を聞く係を座らせる。……クロガネ、汝が座れ。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "わたくしが。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "閻魔さま、待合室の、七度目のお婆さんも、こちらへ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "……呼べ。すぐにだ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "走って、戸を叩いた者がよい。画面の前で、黙って再起動を勧め続ける者ではなく。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_oni"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_skeleton"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "show",
+   "actor": "extra_skeleton",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "大広間の隅に、古い木の机が一つ、置かれた。机の上に「困った方は、こちらへ」と、手書きの札。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "亡者さま、お裁きは、極楽行きと決まりました。……桶を、五十年、作られたので。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "桶で、極楽か。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "五十年、村じゅうを温めた方を、地獄の釜には、入れられません。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "極楽の蓮の池には、水を汲む桶が、足りないそうです。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "それなら、わしの出番じゃ。……向こうでも、桶を作ろう。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "クロガネどの、世話になった。孫の代わりに、ぽちぽちと、いろいろ押してくれて。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "押したのは、閻魔さまの部屋の戸だけです。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "いや。……わしの、心の戸も、押してくれた。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "そんなことを言われると、鼻が、湿ってきます。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "犬の鼻は、湿っておるものじゃろう。"
+  },
+  {
+   "op": "nar",
+   "text": "亡者は、カタカタと骨を鳴らして、極楽への門へ歩いていった。机の前には、もう、次の亡者が、困った顔で座っていた。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "いらっしゃいませ。……番号は、分からなくても、大丈夫ですよ。"
+  },
+  {
+   "op": "nar",
+   "text": "机の前に座ったのは、あの、白い着物の老婆だった。クロガネは、座布団を、そっと差し出した。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "お待たせしました。……四十九日ぶりの、お話を、聞かせてください。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_skeleton"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "yui_origin",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "新作落語『オンライン地獄』、お開きでございます。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "早く済む人のための仕組みも、大事です。でも、その仕組みからこぼれた人の手を取るのは、やっぱり、誰かの手でした。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "光る板の向こうにも、机の前にも、話を聞く人がいる。……この世でも、あの世でも、そうでありますように。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui_origin"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

@@ -7,9 +7,9 @@
   "category": "古典落語・上方落語",
   "adaptation": "moderate",
   "format": "v3",
-  "minutes": 30,
+  "minutes": 32,
   "synopsis": "全五景で「一夜の大金は、貧乏より先に心臓を試す」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
-  "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
  },
  "cast": [
   {
@@ -19,7 +19,7 @@
   },
   {
    "role": "宿の客",
-   "actor": "rei_casual",
+   "actor": "nibulus",
    "costume": "default"
   },
   {
@@ -53,33 +53,22 @@
   {
    "op": "say",
    "actor": "nono",
-   "text": "ようこそ、NONO座へ。本日の演目は『高津の富』。",
-   "eyes": "normal"
+   "text": "大坂、高津の宮。年に何度か、富くじの大抽選が行われ、一番富は、なんと千両。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "古典落語・上方落語の一席を、全五景でお届けします。",
-   "mouth": "open",
-   "eyes": "normal"
+   "text": "上方落語『高津の富』。財布の中身は空っぽなのに、口だけは大金持ちの男が、宿屋に転がり込みます。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "この舞台の核は「一夜の大金は、貧乏より先に心臓を試す」。",
-   "eyes": "sorrow"
+   "text": "なけなしの一分で、富札を一枚。……当たるはずがない、と思っていたのは、本人だけではありませんでした。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "台詞はすべて今夜のための書き下ろしです。"
-  },
-  {
-   "op": "say",
-   "actor": "nono",
-   "text": "それでは、幕を開けましょう。",
-   "mouth": "open",
-   "eyes": "joy"
+   "text": "大金というものは、懐より先に、心の臓を試しにやってくる。……そのあたりを、お楽しみください。"
   },
   {
    "op": "hide",
@@ -96,113 +85,285 @@
   },
   {
    "op": "nar",
-   "text": "第1景「大坂の宿」。無一文の客が大金持ちのふりで宿主を煙に巻く。"
+   "text": "大坂、高津の近くの、小さな宿屋。夕暮れ。暖簾をくぐって、小柄な男が、偉そうに入ってきた。"
   },
   {
    "op": "show",
-   "actor": "rei_casual",
+   "actor": "tanurio",
    "pos": "left"
   },
   {
    "op": "show",
-   "actor": "tanurio",
+   "actor": "nibulus",
    "pos": "right"
   },
   {
    "op": "say",
-   "actor": "rei_casual",
-   "text": "さて「大坂の宿」だ。無一文の客が大金持ちのふりで宿主を煙に巻く。",
-   "eyes": "normal"
+   "actor": "nibulus",
+   "text": "主人、泊めてもらうで。……一番、ええ部屋を。"
   },
   {
    "op": "say",
    "actor": "tanurio",
-   "text": "その説明だけで、もう話が脇道へ走っている。",
-   "eyes": "joy"
+   "text": "へえ、いらっしゃいまし。……お客さま、お国は。"
   },
   {
    "op": "say",
-   "actor": "rei_casual",
-   "text": "脇道ではない。笑いへ通じる立派な近道だ。",
-   "eyes": "anger"
-  },
-  {
-   "op": "nar",
-   "text": "大坂の宿の空気が変わり、二人は言葉の裏を測る。"
-  },
-  {
-   "op": "say",
-   "actor": "tanurio",
-   "text": "近道なら、さっきと同じ所へ戻るな。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "肝心なのは、一夜の大金は、貧乏より先に心臓を試すということだ。",
-   "eyes": "fun"
-  },
-  {
-   "op": "say",
-   "actor": "tanurio",
-   "text": "急に教訓を置けば片づくと思っているだろう。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "nar",
-   "text": "遠くの音が途切れる。無一文の客が大金持ちのふりで宿主を煙に巻く。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "片づかないから、もう一度やって確かめる。",
-   "eyes": "crying"
-  },
-  {
-   "op": "say",
-   "actor": "tanurio",
-   "text": "やり直すたび道具と登場人物が増えている。",
+   "actor": "nibulus",
+   "text": "因州の、鳥取や。わしは、因州一の、大金持ちでな。",
    "eyes": "closed"
   },
   {
    "op": "say",
-   "actor": "rei_casual",
-   "text": "無一文の客が大金持ちのふりで宿主を煙に巻く。ここまでは筋書き通りだ。",
-   "eyes": "normal"
+   "actor": "tanurio",
+   "text": "大金持ち。",
+   "eyes": "surprise"
   },
   {
-   "op": "nar",
-   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+   "op": "say",
+   "actor": "nibulus",
+   "text": "家の蔵には、千両箱が、千箱。"
   },
   {
    "op": "say",
    "actor": "tanurio",
-   "text": "筋書きが困って、こちらを見ているぞ。",
+   "text": "千箱。……並べたら、この宿の座敷が、埋まりますな。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "埋まる埋まる。廊下まで、はみ出すわ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "蔵の鍵だけで、背負い籠いっぱいある。……いや、二千箱やったか。数えるのが、面倒でな。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "それはそれは。……お供の方は。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "供は、連れてこなんだ。供がおると、気ぃ遣うてかなわん。……金持ちは、身軽が一番や。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "ごもっともで。……ところで、宿賃は、前払いで、お願いしておりますが。",
    "eyes": "joy"
   },
   {
    "op": "say",
-   "actor": "rei_casual",
-   "text": "なら最後は、自分で落とし前をつけよう。",
-   "eyes": "anger"
-  },
-  {
-   "op": "nar",
-   "text": "残された沈黙が、次の行動を促す。"
+   "actor": "nibulus",
+   "text": "前払い？　わしのような大金持ちから、前払いを取るのか。"
   },
   {
    "op": "say",
    "actor": "tanurio",
-   "text": "落とし前とオチを同じ棚に置くな。",
-   "eyes": "sorrow"
+   "text": "決まりでございますので。"
   },
   {
-   "op": "hide",
-   "actor": "rei_casual"
+   "op": "say",
+   "actor": "nibulus",
+   "text": "……今、財布が、ちょっと、重たすぎてな。両替屋に、預けてきたところや。明日、まとめて払う。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……さようで。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "疑うとるな。わしの顔を、よう見てみい。金持ちの顔やろ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……ええ、福々しい、お顔で。……頬が、少々、こけてはりますが。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "金持ちは、ご馳走に飽きて、痩せるんや。"
+  },
+  {
+   "op": "nar",
+   "text": "主人は、男の着物を、ちらりと見た。袖口が、ほつれていた。"
   },
   {
    "op": "hide",
    "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "nibulus"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "nibulus",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "夜。宿の座敷。男は、主人の出した酒を、うまそうに飲みながら、話し続けている。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "因州では、わしの屋敷の庭に、池が三つある。一つ目の池には鯉、二つ目には亀、三つ目には、小判が沈めてある。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "小判を、池に。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "増えるかと思うてな。……増えへんかった。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……はあ。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "池の鯉が、小判を食うてしもうてな。金色の鯉になった。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "それは、縁起がよろしい。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "わしの家の奉公人は、三百人。毎朝、点呼を取るだけで、昼になる。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "お客さま、それほどの大金持ちが、なぜ、こんな小さな宿に。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "大きな宿は、退屈や。小さな宿で、主人と話すのが、旅の楽しみや。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……ありがたいお言葉で。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "先月は、江戸の大名の若殿さまが、お忍びで泊まったと言うて、宿賃を払わずに、逃げはりました。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "……そ、そら、ひどい客やな。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "ええ。……お客さまは、そんなことは、なさいませんな。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "す、するかいな。わしは、因州一や。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "実は、お客さま。うちの宿屋は、富札の売り子も、しとりまして。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "富札？"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "明日、高津の宮で、富くじの抽選がございます。一番富は、千両。……お客さまのような方には、はした金でしょうが。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "……千両か。……そらまあ、はした金や。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "お慰みに、一枚、いかがで。一分でございます。"
+  },
+  {
+   "op": "nar",
+   "text": "男は、しばらく黙った。それから、懐の奥から、汗で湿った一分銀を、一枚だけ取り出した。……それが、男の全財産だった。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "……一枚、もろとこか。旅の土産や。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "毎度。……当たったら、お祝いに、一杯、おごってくだされ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "当たったら、この宿ごと、買うたるわ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "ほな、楽しみにしときます。"
+  },
+  {
+   "op": "nar",
+   "text": "主人が出ていくと、男は、空になった懐を、そっと押さえた。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "……一分あったら、三日、飯が食えたのに。……わしは、阿呆や。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "nibulus"
   },
   {
    "op": "bg",
@@ -215,108 +376,113 @@
   },
   {
    "op": "nar",
-   "text": "第2景「高津宮の富場」。なけなしの銭で富札を一枚買わされる。"
+   "text": "翌朝。高津の宮の境内。人で、ごった返している。富札を握りしめた人々が、本殿の前の台を見上げている。"
   },
   {
    "op": "show",
    "actor": "shiro",
-   "pos": "left"
-  },
-  {
-   "op": "show",
-   "actor": "rei_casual",
    "pos": "right"
   },
   {
    "op": "say",
    "actor": "shiro",
-   "text": "さて「高津宮の富場」だ。なけなしの銭で富札を一枚買わされる。",
-   "eyes": "joy",
-   "mouth": "open"
+   "text": "さあさあ、本日の大抽選！　一番富、千両！　二番富、五百両！　まだ札は、残っとりますでぇ！"
+  },
+  {
+   "op": "show",
+   "actor": "nibulus",
+   "pos": "left"
   },
   {
    "op": "say",
-   "actor": "rei_casual",
-   "text": "その説明だけで、もう話が脇道へ走っている。",
-   "eyes": "anger"
-  },
-  {
-   "op": "say",
-   "actor": "shiro",
-   "text": "脇道ではない。笑いへ通じる立派な近道だ。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "nar",
-   "text": "高津宮の富場の空気が変わり、二人は言葉の裏を測る。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "近道なら、さっきと同じ所へ戻るな。",
-   "eyes": "fun"
-  },
-  {
-   "op": "say",
-   "actor": "shiro",
-   "text": "肝心なのは、一夜の大金は、貧乏より先に心臓を試すということだ。",
-   "eyes": "surprise",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "急に教訓を置けば片づくと思っているだろう。",
-   "eyes": "crying"
-  },
-  {
-   "op": "nar",
-   "text": "遠くの音が途切れる。なけなしの銭で富札を一枚買わされる。"
-  },
-  {
-   "op": "say",
-   "actor": "shiro",
-   "text": "片づかないから、もう一度やって確かめる。",
+   "actor": "nibulus",
+   "text": "……一分、使うてしもた。今日の昼飯代も、ない。",
    "eyes": "closed"
   },
   {
    "op": "say",
-   "actor": "rei_casual",
-   "text": "やり直すたび道具と登場人物が増えている。",
-   "eyes": "normal"
+   "actor": "nibulus",
+   "text": "宿賃も払えん。……今夜のうちに、裏の窓から、逃げなあかん。"
   },
   {
    "op": "say",
    "actor": "shiro",
-   "text": "なけなしの銭で富札を一枚買わされる。ここまでは筋書き通りだ。",
-   "eyes": "joy",
-   "mouth": "open"
-  },
-  {
-   "op": "nar",
-   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+   "text": "お客さん、札は、お持ちで。"
   },
   {
    "op": "say",
-   "actor": "rei_casual",
-   "text": "筋書きが困って、こちらを見ているぞ。",
-   "eyes": "anger"
+   "actor": "nibulus",
+   "text": "持っとる。……子の千三百六十五番。"
   },
   {
    "op": "say",
    "actor": "shiro",
-   "text": "なら最後は、自分で落とし前をつけよう。",
+   "text": "一番富を当てたら、どうしはります。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "当たらんもんの話は、せん主義や。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "そう言う人ほど、当たったら、腰を抜かしますのや。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "ええ番号ですな。覚えやすい。一年の日数と、同じや。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "一年、ずっと、ついてへんかった男には、ちょうどええ番号や。",
    "eyes": "sorrow"
   },
   {
    "op": "nar",
-   "text": "残された沈黙が、次の行動を促す。"
+   "text": "境内の茶店では、男が二人、もしも千両当たったら、という話で盛り上がっていた。"
   },
   {
    "op": "say",
-   "actor": "rei_casual",
-   "text": "落とし前とオチを同じ棚に置くな。",
-   "eyes": "fun"
+   "actor": "shiro",
+   "text": "ほら、あの人ら、まだ当たってもないのに、千両の使い道で、喧嘩しとる。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "……当たらへん者ほど、使い道は、くわしいもんや。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "お客さん、抽選、見ていかはりませんので。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "見ん。……外れるのを、わざわざ見に来るほど、暇やない。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "ほな、なんで、ここへ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "……宿におったら、主人と、顔を合わせるさかいな。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "男は、背中を丸めて、人混みの外へ、出ていった。"
   },
   {
    "op": "hide",
@@ -324,7 +490,7 @@
   },
   {
    "op": "hide",
-   "actor": "rei_casual"
+   "actor": "nibulus"
   },
   {
    "op": "bg",
@@ -337,116 +503,58 @@
   },
   {
    "op": "nar",
-   "text": "第3景「千両の夢」。当選後のぜいたくを想像して眠りながら騒ぐ。"
+   "text": "宿の座敷。昼。男は、抽選を見る気にもなれず、布団にもぐり込んでいる。寝言が、聞こえてくる。"
   },
   {
    "op": "show",
-   "actor": "tanurio",
-   "pos": "left"
-  },
-  {
-   "op": "show",
-   "actor": "shiro",
-   "pos": "right"
+   "actor": "nibulus",
+   "pos": "center"
   },
   {
    "op": "say",
-   "actor": "tanurio",
-   "text": "さて「千両の夢」だ。当選後のぜいたくを想像して眠りながら騒ぐ。",
-   "eyes": "anger",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "shiro",
-   "text": "その説明だけで、もう話が脇道へ走っている。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "say",
-   "actor": "tanurio",
-   "text": "脇道ではない。笑いへ通じる立派な近道だ。",
-   "eyes": "fun"
-  },
-  {
-   "op": "nar",
-   "text": "千両の夢の空気が変わり、二人は言葉の裏を測る。"
-  },
-  {
-   "op": "say",
-   "actor": "shiro",
-   "text": "近道なら、さっきと同じ所へ戻るな。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "say",
-   "actor": "tanurio",
-   "text": "肝心なのは、一夜の大金は、貧乏より先に心臓を試すということだ。",
-   "eyes": "crying",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "shiro",
-   "text": "急に教訓を置けば片づくと思っているだろう。",
+   "actor": "nibulus",
+   "text": "……むにゃ……千両当たったら……まず、宿賃を、ぽんと払うてやる……。",
    "eyes": "closed"
   },
   {
-   "op": "nar",
-   "text": "遠くの音が途切れる。当選後のぜいたくを想像して眠りながら騒ぐ。"
+   "op": "say",
+   "actor": "nibulus",
+   "text": "……それから……着物を、三十着……毎日、着替える……むにゃ……。"
   },
   {
    "op": "say",
-   "actor": "tanurio",
-   "text": "片づかないから、もう一度やって確かめる。",
-   "eyes": "normal"
-  },
-  {
-   "op": "say",
-   "actor": "shiro",
-   "text": "やり直すたび道具と登場人物が増えている。",
+   "actor": "nibulus",
+   "text": "……家を、建てる……池は、一つでええ……小判は、沈めへん……。",
    "eyes": "joy"
   },
   {
    "op": "say",
-   "actor": "tanurio",
-   "text": "当選後のぜいたくを想像して眠りながら騒ぐ。ここまでは筋書き通りだ。",
-   "eyes": "anger",
-   "mouth": "open"
-  },
-  {
-   "op": "nar",
-   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+   "actor": "nibulus",
+   "text": "……おかんに、ええ着物を……送ってやる……おかん、喜ぶやろな……。"
   },
   {
    "op": "say",
-   "actor": "shiro",
-   "text": "筋書きが困って、こちらを見ているぞ。",
+   "actor": "nibulus",
+   "text": "……おかん、去年、死んだんやった……むにゃ……。",
    "eyes": "sorrow"
   },
   {
-   "op": "say",
-   "actor": "tanurio",
-   "text": "なら最後は、自分で落とし前をつけよう。",
-   "eyes": "fun"
-  },
-  {
    "op": "nar",
-   "text": "残された沈黙が、次の行動を促す。"
+   "text": "男の寝顔に、ひとすじ、涙が流れた。夢の中の千両は、それでも、使い道を探し続けていた。"
   },
   {
    "op": "say",
-   "actor": "shiro",
-   "text": "落とし前とオチを同じ棚に置くな。",
-   "eyes": "surprise"
+   "actor": "nibulus",
+   "text": "……二千両あったら……いや、千両で、十分や……欲張ったら、罰が当たる……。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "……ほな、おかんの墓を、立派にしたろ……墓石に、千両って、彫ったろ……むにゃ……。"
   },
   {
    "op": "hide",
-   "actor": "tanurio"
-  },
-  {
-   "op": "hide",
-   "actor": "shiro"
+   "actor": "nibulus"
   },
   {
    "op": "bg",
@@ -459,156 +567,94 @@
   },
   {
    "op": "nar",
-   "text": "第4景「富くじの抽選」。宿主が番号を聞いて客の当たりに気づく。"
+   "text": "高津の宮の境内。抽選台の上で、神主が、長い錐で、箱の中の札を、ひとつ突き上げた。"
   },
   {
    "op": "show",
-   "actor": "rei_casual",
+   "actor": "tanurio",
    "pos": "left"
   },
   {
    "op": "show",
-   "actor": "tanurio",
+   "actor": "shiro",
    "pos": "right"
   },
   {
    "op": "say",
-   "actor": "rei_casual",
-   "text": "さて「富くじの抽選」だ。宿主が番号を聞いて客の当たりに気づく。",
-   "eyes": "sorrow"
+   "actor": "shiro",
+   "text": "一番富ぃ！　子の、千、三百、六十、五番ぁん！"
   },
   {
    "op": "say",
    "actor": "tanurio",
-   "text": "その説明だけで、もう話が脇道へ走っている。",
-   "eyes": "fun"
-  },
-  {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "脇道ではない。笑いへ通じる立派な近道だ。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "nar",
-   "text": "富くじの抽選の空気が変わり、二人は言葉の裏を測る。"
+   "text": "……子の、千三百六十五番。"
   },
   {
    "op": "say",
    "actor": "tanurio",
-   "text": "近道なら、さっきと同じ所へ戻るな。",
-   "eyes": "crying"
-  },
-  {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "肝心なのは、一夜の大金は、貧乏より先に心臓を試すということだ。",
+   "text": "……どこかで、聞いた番号やな。",
    "eyes": "closed"
   },
   {
+   "op": "nar",
+   "text": "主人は、懐から、帳面を取り出した。昨夜、客に売った富札の番号を、控えておいたのだった。"
+  },
+  {
    "op": "say",
    "actor": "tanurio",
-   "text": "急に教訓を置けば片づくと思っているだろう。",
-   "eyes": "normal"
-  },
-  {
-   "op": "nar",
-   "text": "遠くの音が途切れる。宿主が番号を聞いて客の当たりに気づく。"
+   "text": "……子の、千三百六十五番。……うちの、あの、因州の大金持ちの客や！",
+   "eyes": "surprise"
   },
   {
    "op": "say",
-   "actor": "rei_casual",
-   "text": "片づかないから、もう一度やって確かめる。",
+   "actor": "shiro",
+   "text": "当たりですか！",
    "eyes": "joy"
   },
   {
    "op": "say",
    "actor": "tanurio",
-   "text": "やり直すたび道具と登場人物が増えている。",
-   "eyes": "anger"
+   "text": "当たった！　千両や！　……うちの客が！",
+   "eyes": "surprise",
+   "mouth": "open"
   },
   {
    "op": "say",
-   "actor": "rei_casual",
-   "text": "宿主が番号を聞いて客の当たりに気づく。ここまでは筋書き通りだ。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "nar",
-   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+   "actor": "shiro",
+   "text": "旦那、落ち着いて。人違いやないですか。"
   },
   {
    "op": "say",
    "actor": "tanurio",
-   "text": "筋書きが困って、こちらを見ているぞ。",
-   "eyes": "fun"
+   "text": "間違いない！　わしの字で、ちゃんと書いてある！"
   },
   {
    "op": "say",
-   "actor": "rei_casual",
-   "text": "なら最後は、自分で落とし前をつけよう。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "nar",
-   "text": "残された沈黙が、次の行動を促す。"
+   "actor": "shiro",
+   "text": "ほな、宿に、お祝いの鯛を、届けまひょか。",
+   "eyes": "joy"
   },
   {
    "op": "say",
    "actor": "tanurio",
-   "text": "落とし前とオチを同じ棚に置くな。",
-   "eyes": "crying"
-  },
-  {
-   "op": "choice",
-   "options": [
-    {
-     "text": "正面から問いかける",
-     "jump": "kozu-no-tomi_direct"
-    },
-    {
-     "text": "相手の話を最後まで聞く",
-     "jump": "kozu-no-tomi_listen"
-    }
-   ]
-  },
-  {
-   "op": "label",
-   "id": "kozu-no-tomi_direct"
-  },
-  {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "私は正面から問う。曖昧なまま次へは進まない。"
-  },
-  {
-   "op": "jump",
-   "to": "kozu-no-tomi_merge"
-  },
-  {
-   "op": "label",
-   "id": "kozu-no-tomi_listen"
+   "text": "届けてくれ！　二匹や！　いや、三匹！"
   },
   {
    "op": "say",
    "actor": "tanurio",
-   "text": "結論を急がず、相手が何を恐れているかまで聞こう。"
-  },
-  {
-   "op": "label",
-   "id": "kozu-no-tomi_merge"
+   "text": "こうしてはおれん！　宿へ、帰らな！"
   },
   {
    "op": "nar",
-   "text": "選び方は違っても、二人は同じ核心へ戻ってくる。"
-  },
-  {
-   "op": "hide",
-   "actor": "rei_casual"
+   "text": "主人は、草履を片方、境内に置き忘れたまま、宿へ向かって、駆け出した。"
   },
   {
    "op": "hide",
    "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
   },
   {
    "op": "bg",
@@ -621,116 +667,412 @@
   },
   {
    "op": "nar",
-   "text": "第5景「当たり札の部屋」。当人も宿主も喜びすぎて交互に気を失う。"
+   "text": "宿の座敷。男は、布団にもぐったまま、震えている。主人が、転がるように駆け込んできた。"
   },
   {
    "op": "show",
-   "actor": "shiro",
+   "actor": "tanurio",
    "pos": "left"
   },
   {
    "op": "show",
-   "actor": "rei_casual",
+   "actor": "nibulus",
    "pos": "right"
   },
   {
    "op": "say",
-   "actor": "shiro",
-   "text": "さて「当たり札の部屋」だ。当人も宿主も喜びすぎて交互に気を失う。",
-   "eyes": "fun",
-   "mouth": "open"
+   "actor": "tanurio",
+   "text": "お客さま！　お客さま！　当たりました！　千両！　子の、千三百六十五番！"
   },
   {
    "op": "say",
-   "actor": "rei_casual",
-   "text": "その説明だけで、もう話が脇道へ走っている。",
+   "actor": "nibulus",
+   "text": "……今、何と。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "お客さまの札です！　千両です！　一番富です！"
+  },
+  {
+   "op": "nar",
+   "text": "男は、布団から這い出し、懐の札を見た。子の千三百六十五番。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "……ほんまや。",
    "eyes": "surprise"
   },
   {
-   "op": "say",
-   "actor": "shiro",
-   "text": "脇道ではない。笑いへ通じる立派な近道だ。",
-   "eyes": "crying"
-  },
-  {
    "op": "nar",
-   "text": "当たり札の部屋の空気が変わり、二人は言葉の裏を測る。"
+   "text": "男の目が、くるりと上を向いた。そして、ばったりと、後ろへ倒れた。"
   },
   {
    "op": "say",
-   "actor": "rei_casual",
-   "text": "近道なら、さっきと同じ所へ戻るな。",
-   "eyes": "closed"
-  },
-  {
-   "op": "say",
-   "actor": "shiro",
-   "text": "肝心なのは、一夜の大金は、貧乏より先に心臓を試すということだ。",
-   "eyes": "normal",
+   "actor": "tanurio",
+   "text": "お客さま！　しっかり！　お客さまぁ！",
+   "eyes": "surprise",
    "mouth": "open"
   },
   {
    "op": "say",
-   "actor": "rei_casual",
-   "text": "急に教訓を置けば片づくと思っているだろう。",
-   "eyes": "joy"
+   "actor": "tanurio",
+   "text": "誰か、水！　水を持ってこい！　……誰もおらん、わしが行く！"
   },
   {
    "op": "nar",
-   "text": "遠くの音が途切れる。当人も宿主も喜びすぎて交互に気を失う。"
+   "text": "主人は、男の顔に、水をかけた。男は、ゆっくりと、目を開けた。"
   },
   {
    "op": "say",
-   "actor": "shiro",
-   "text": "片づかないから、もう一度やって確かめる。",
+   "actor": "nibulus",
+   "text": "……夢や。千両の夢を、見とった。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "夢やない！　ほんまに、当たったんです！"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "夢の中でも、そう言うとった。……主人が、駆け込んできて、千両や、言うて。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "それが、今です！　今のこれです！",
    "eyes": "anger"
   },
   {
    "op": "say",
-   "actor": "rei_casual",
-   "text": "やり直すたび道具と登場人物が増えている。",
-   "eyes": "sorrow"
+   "actor": "nibulus",
+   "text": "……ほんまに。",
+   "eyes": "closed"
   },
   {
    "op": "say",
-   "actor": "shiro",
-   "text": "当人も宿主も喜びすぎて交互に気を失う。ここまでは筋書き通りだ。",
-   "eyes": "fun",
-   "mouth": "open"
+   "actor": "nibulus",
+   "text": "……ほな、主人。わしは、少し、寝る。……当たったんやったら、急ぐこともない。"
   },
   {
    "op": "nar",
-   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+   "text": "男は、布団を、頭からかぶった。主人は、呆れて、その布団を、めくろうとした。"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "nibulus"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "nibulus",
+   "pos": "right"
   },
   {
    "op": "say",
-   "actor": "rei_casual",
-   "text": "筋書きが困って、こちらを見ているぞ。",
+   "actor": "tanurio",
+   "text": "お客さま、千両ですよ。何で、寝るんです。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "千両くらい、因州の大金持ちには、はした金や。……昨日、そう言うたやろ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "言うてはりましたけど。"
+  },
+  {
+   "op": "nar",
+   "text": "主人が布団をめくると、男は、草履を履いたまま、寝ていた。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……お客さま、草履を、履いたまま。",
    "eyes": "surprise"
   },
   {
    "op": "say",
-   "actor": "shiro",
-   "text": "なら最後は、自分で落とし前をつけよう。",
-   "eyes": "crying"
-  },
-  {
-   "op": "nar",
-   "text": "残された沈黙が、次の行動を促す。"
+   "actor": "nibulus",
+   "text": "……主人こそ、草履、片方しか、履いてへんやないか。"
   },
   {
    "op": "say",
-   "actor": "rei_casual",
-   "text": "落とし前とオチを同じ棚に置くな。",
+   "actor": "tanurio",
+   "text": "……あ、片方、境内に忘れてきた。"
+  },
+  {
+   "op": "nar",
+   "text": "二人は、顔を見合わせた。そして、同時に、腰が抜けて、へなへなと、座り込んだ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……千両や。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "……せ、千両……。",
+   "eyes": "crying"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "男は、主人に本当のことを打ち明ける",
+     "jump": "m_confess"
+    },
+    {
+     "text": "男は、大金持ちのふりを最後まで続ける",
+     "jump": "m_pretend"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_confess"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "主人。……わしは、大金持ちやない。因州の、ただの、借金持ちや。あの一分が、全財産やった。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……全財産で、富札を。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "宿賃も払えへんさかい、今夜、裏の窓から、逃げるつもりやった。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "逃げんでよかった。……逃げとったら、千両が、宿に置き去りや。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "……怒らへんのか。嘘ばっかり、ついとったのに。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "池の小判の話は、おもろかったですさかい。宿賃代わりに、聞いときました。",
    "eyes": "closed"
+  },
+  {
+   "op": "jump",
+   "to": "m_settle"
+  },
+  {
+   "op": "label",
+   "id": "m_pretend"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "主人。……千両の中から、宿賃を、払う。三日分。いや、一年分、前払いや。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……お客さま、大金持ちが、宿賃を前払いするのは、初めて見ました。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "……すまん。ほんまは、大金持ちやない。……昨日まで、一文なしやった。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "存じておりました。……袖口が、ほつれてはりましたので。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "……知ってて、泊めてくれたんか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "一晩くらい、大ぼらの客がおっても、宿は潰れまへん。"
+  },
+  {
+   "op": "label",
+   "id": "m_settle"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "nibulus"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "nibulus",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "夕方。宿の帳場。千両の引き換えの書付を前に、男と主人が、茶をすすっている。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "主人。この千両、半分、もろてくれへんか。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "半分！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "富札を、わしに売ったのは、主人や。わしは、自分では、買う気がなかった。……主人がおらなんだら、この千両は、なかった。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……いや。それは、いただけまへん。わしは、一分の札を売っただけです。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "ほな、宿賃を、十年分、前払いさしてくれ。それなら、ええやろ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……十年分。……十年、お泊まりになるんで。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "いや。……おかんの墓を、因州に建てたら、また、ここに来る。そのたびに、泊まる。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "わしの大ぼらを、黙って聞いてくれた宿は、ここだけやった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "千両、どうやって因州まで運ばはります。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "……考えてへんかった。重たいやろな。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "千両は、四貫目ほどございます。……蔵に千箱ある方なら、慣れてはりますやろ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "……主人、いけずやな。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……大ぼらは、もう、吹かんのですか。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "吹く。……今度は、千両分、吹いたる。ほんまの千両がある男のほらは、ええぞ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "旦那、お祝いの鯛、三匹、届けにまいりました！"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "ほんまに三匹、持ってきたんか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "ほな、三人で、一匹ずつや。……今夜の宿賃は、わしが持つ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "大金持ちの、おごりですな。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "今度のは、ほらやないで。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "nibulus"
   },
   {
    "op": "hide",
    "actor": "shiro"
   },
   {
-   "op": "hide",
-   "actor": "rei_casual"
+   "op": "bg",
+   "src": null
   },
   {
    "op": "show",
@@ -740,29 +1082,21 @@
   {
    "op": "say",
    "actor": "nono",
-   "text": "物語はここまで。残った問いは「一夜の大金は、貧乏より先に心臓を試す」。",
-   "eyes": "sorrow"
+   "text": "上方落語『高津の富』、これにて、お開きでございます。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
-   "eyes": "normal"
+   "text": "千両は、当たった男の心の臓も、知らせた主人の心の臓も、しばらく止めてしまいました。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "ご来場、ありがとうございました。",
-   "eyes": "joy",
-   "mouth": "open"
+   "text": "大ぼらの男は、最後に、本当のことを言いました。……本当のことは、千両より、ずっと軽く、口から出たそうでございます。"
   },
   {
    "op": "hide",
    "actor": "nono"
-  },
-  {
-   "op": "bg",
-   "src": null
   },
   {
    "op": "end"

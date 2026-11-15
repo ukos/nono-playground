@@ -1,777 +1,1164 @@
 {
-  "meta": {
-    "id": "ai-nagaya",
-    "number": 136,
-    "title": "AI長屋 ―助言が全部ちがう―",
-    "original": "NONO座オリジナル新作落語",
-    "category": "新作落語",
-    "adaptation": "free",
-    "format": "v3",
-    "minutes": 30,
-    "synopsis": "全五景で「便利な助言ほど、誰が責任を持つかを忘れない」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
-    "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+ "meta": {
+  "id": "ai-nagaya",
+  "number": 136,
+  "title": "AI長屋 ―助言が全部ちがう―",
+  "original": "NONO座オリジナル新作落語",
+  "category": "新作落語",
+  "adaptation": "free",
+  "format": "v3",
+  "minutes": 30,
+  "synopsis": "全五景で「便利な助言ほど、誰が責任を持つかを忘れない」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "八五郎",
+   "actor": "nono_whitecat",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "八五郎",
-      "actor": "nono_whitecat",
-      "costume": "default"
-    },
-    {
-      "role": "大家",
-      "actor": "extra_elder",
-      "costume": "default"
-    },
-    {
-      "role": "AI端末の声",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "お咲",
-      "actor": "yui",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "tenement_ai": "bg/ai-nagaya-tenement_ai-2048x1152.png",
-    "job_advice": "bg/ai-nagaya-job_advice-2048x1152.png",
-    "love_advice": "bg/ai-nagaya-love_advice-2048x1152.png",
-    "meeting_chaos": "bg/ai-nagaya-meeting_chaos-2048x1152.png",
-    "human_answer": "bg/ai-nagaya-human_answer-2048x1152.png"
+  {
+   "role": "大家",
+   "actor": "extra_elder",
+   "costume": "default"
   },
-  "steps": [
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『AI長屋』。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "新作落語の一席を、全五景でお届けします。",
-      "mouth": "open",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "この舞台の核は「便利な助言ほど、誰が責任を持つかを忘れない」。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "台詞はすべて今夜のための書き下ろしです。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "それでは、幕を開けましょう。",
-      "mouth": "open",
-      "eyes": "joy"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "tenement_ai",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "tenement_ai"
-    },
-    {
-      "op": "nar",
-      "text": "第1景「長屋の共同端末」。大家が一台のAI端末を長屋全員へ導入する。"
-    },
-    {
-      "op": "show",
-      "actor": "nono_whitecat",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elder",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "さて「長屋の共同端末」だ。大家が一台のAI端末を長屋全員へ導入する。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "その説明だけで、もう話が脇道へ走っている。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
-      "eyes": "anger"
-    },
-    {
-      "op": "nar",
-      "text": "長屋の共同端末の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "近道なら、さっきと同じ所へ戻るな。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "肝心なのは、便利な助言ほど、誰が責任を持つかを忘れないということだ。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "急に教訓を置けば片づくと思っているだろう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。大家が一台のAI端末を長屋全員へ導入する。"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "片づかないから、もう一度やって確かめる。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "やり直すたび道具と登場人物が増えている。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "大家が一台のAI端末を長屋全員へ導入する。ここまでは筋書き通りだ。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "筋書きが困って、こちらを見ているぞ。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "なら最後は、自分で落とし前をつけよう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "落とし前とオチを同じ棚に置くな。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "hide",
-      "actor": "nono_whitecat"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elder"
-    },
-    {
-      "op": "bg",
-      "src": "job_advice",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "job_advice"
-    },
-    {
-      "op": "nar",
-      "text": "第2景「仕事相談」。八五郎には転職、お咲には現状維持と矛盾した助言が出る。"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "さて「仕事相談」だ。八五郎には転職、お咲には現状維持と矛盾した助言が出る。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "その説明だけで、もう話が脇道へ走っている。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "仕事相談の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "近道なら、さっきと同じ所へ戻るな。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "肝心なのは、便利な助言ほど、誰が責任を持つかを忘れないということだ。",
-      "eyes": "surprise",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "急に教訓を置けば片づくと思っているだろう。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。八五郎には転職、お咲には現状維持と矛盾した助言が出る。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "片づかないから、もう一度やって確かめる。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "やり直すたび道具と登場人物が増えている。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "八五郎には転職、お咲には現状維持と矛盾した助言が出る。ここまでは筋書き通りだ。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "筋書きが困って、こちらを見ているぞ。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "なら最後は、自分で落とし前をつけよう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "落とし前とオチを同じ棚に置くな。",
-      "eyes": "fun"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "bg",
-      "src": "love_advice",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "love_advice"
-    },
-    {
-      "op": "nar",
-      "text": "第3景「恋愛相談」。同じ相手へ別々の告白作戦が同時に提案される。"
-    },
-    {
-      "op": "show",
-      "actor": "nono_whitecat",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elder",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "さて「恋愛相談」だ。同じ相手へ別々の告白作戦が同時に提案される。",
-      "eyes": "anger",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "その説明だけで、もう話が脇道へ走っている。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
-      "eyes": "fun"
-    },
-    {
-      "op": "nar",
-      "text": "恋愛相談の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "近道なら、さっきと同じ所へ戻るな。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "肝心なのは、便利な助言ほど、誰が責任を持つかを忘れないということだ。",
-      "eyes": "crying",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "急に教訓を置けば片づくと思っているだろう。",
-      "eyes": "closed"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。同じ相手へ別々の告白作戦が同時に提案される。"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "片づかないから、もう一度やって確かめる。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "やり直すたび道具と登場人物が増えている。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "同じ相手へ別々の告白作戦が同時に提案される。ここまでは筋書き通りだ。",
-      "eyes": "anger",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "筋書きが困って、こちらを見ているぞ。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "なら最後は、自分で落とし前をつけよう。",
-      "eyes": "fun"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "落とし前とオチを同じ棚に置くな。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "hide",
-      "actor": "nono_whitecat"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elder"
-    },
-    {
-      "op": "bg",
-      "src": "meeting_chaos",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "meeting_chaos"
-    },
-    {
-      "op": "nar",
-      "text": "第4景「長屋会議」。全員が助言を正しいと言い張り大混乱になる。"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "さて「長屋会議」だ。全員が助言を正しいと言い張り大混乱になる。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "その説明だけで、もう話が脇道へ走っている。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "長屋会議の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "近道なら、さっきと同じ所へ戻るな。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "肝心なのは、便利な助言ほど、誰が責任を持つかを忘れないということだ。",
-      "eyes": "closed",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "急に教訓を置けば片づくと思っているだろう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。全員が助言を正しいと言い張り大混乱になる。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "片づかないから、もう一度やって確かめる。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "やり直すたび道具と登場人物が増えている。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "全員が助言を正しいと言い張り大混乱になる。ここまでは筋書き通りだ。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "筋書きが困って、こちらを見ているぞ。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "なら最後は、自分で落とし前をつけよう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "落とし前とオチを同じ棚に置くな。",
-      "eyes": "crying"
-    },
-    {
-      "op": "choice",
-      "options": [
-        {
-          "text": "正面から問いかける",
-          "jump": "ai-nagaya_direct"
-        },
-        {
-          "text": "相手の話を最後まで聞く",
-          "jump": "ai-nagaya_listen"
-        }
-      ]
-    },
-    {
-      "op": "label",
-      "id": "ai-nagaya_direct"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "私は正面から問う。曖昧なまま次へは進まない。"
-    },
-    {
-      "op": "jump",
-      "to": "ai-nagaya_merge"
-    },
-    {
-      "op": "label",
-      "id": "ai-nagaya_listen"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "結論を急がず、相手が何を恐れているかまで聞こう。"
-    },
-    {
-      "op": "label",
-      "id": "ai-nagaya_merge"
-    },
-    {
-      "op": "nar",
-      "text": "選び方は違っても、二人は同じ核心へ戻ってくる。"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "bg",
-      "src": "human_answer",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "human_answer"
-    },
-    {
-      "op": "nar",
-      "text": "第5景「電源を切った夕方」。最後は事情を聞き合い自分たちで決める。"
-    },
-    {
-      "op": "show",
-      "actor": "nono_whitecat",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_elder",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "さて「電源を切った夕方」だ。最後は事情を聞き合い自分たちで決める。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "その説明だけで、もう話が脇道へ走っている。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "電源を切った夕方の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "近道なら、さっきと同じ所へ戻るな。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "肝心なのは、便利な助言ほど、誰が責任を持つかを忘れないということだ。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "急に教訓を置けば片づくと思っているだろう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。最後は事情を聞き合い自分たちで決める。"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "片づかないから、もう一度やって確かめる。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "やり直すたび道具と登場人物が増えている。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "最後は事情を聞き合い自分たちで決める。ここまでは筋書き通りだ。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "筋書きが困って、こちらを見ているぞ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "nono_whitecat",
-      "text": "なら最後は、自分で落とし前をつけよう。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_elder",
-      "text": "落とし前とオチを同じ棚に置くな。",
-      "eyes": "closed"
-    },
-    {
-      "op": "hide",
-      "actor": "nono_whitecat"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_elder"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "物語はここまで。残った問いは「便利な助言ほど、誰が責任を持つかを忘れない」。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ご来場、ありがとうございました。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "end"
+  {
+   "role": "AI端末の声",
+   "actor": "nono",
+   "costume": "default"
+  },
+  {
+   "role": "お咲",
+   "actor": "yui",
+   "costume": "default"
+  },
+  {
+   "role": "狂言回し",
+   "actor": "yui_origin",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "tenement_ai": "bg/ai-nagaya-tenement_ai-2048x1152.png",
+  "job_advice": "bg/ai-nagaya-job_advice-2048x1152.png",
+  "love_advice": "bg/ai-nagaya-love_advice-2048x1152.png",
+  "meeting_chaos": "bg/ai-nagaya-meeting_chaos-2048x1152.png",
+  "human_answer": "bg/ai-nagaya-human_answer-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "yui_origin",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "NONO座へようこそ。今夜の口上は、わたくし、ユイ・オリジンが務めます。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "お届けするのは、新作落語『AI長屋』。舞台は、昔ながらの裏長屋。ただし、井戸端に、一台の機械が置かれます。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "いつでも、どんな悩みでも引き受ける、便利な相談相手。長屋の皆は、大喜び。……ところが、答えが、人によって全部ちがう。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "助言は、いくらでもくれる。でも、その助言のあと始末は、誰がするのか。笑いながら、少しだけ考えてみてください。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui_origin"
+  },
+  {
+   "op": "bg",
+   "src": "tenement_ai",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "tenement_ai"
+  },
+  {
+   "op": "nar",
+   "text": "江戸の裏長屋、と思いきや、井戸の横に、四角い箱が置いてある。箱の前面に、丸い光がぽわんと灯っている。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "さあさあ、長屋の皆の衆、集まれ。今日から、この長屋に、相談係を置くことにした。"
+  },
+  {
+   "op": "show",
+   "actor": "nono_whitecat",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "大家さん、なんです、その箱は。漬物石にしちゃ、光ってますね。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "漬物石ではない。AIという、からくりの相談係だ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "江戸の町の、物知りの先生の知恵を、百人分も詰め込んであるそうだ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "へえ。じゃあ、あっしの家賃のことも。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "家賃は、聞くまでもない。払え。"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "はじめまして。長屋の皆さまの相談係、ナガヤAIです。どんなお悩みでも、二十四時間、お答えします。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "しゃべった！　箱がしゃべった！　大家さん、中に誰か入ってるんじゃ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "入っとらん。……いや、わしも、最初はそう思って、箱をひっくり返した。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ひっくり返されたときは、少し目が回りました。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "それから、夜中まで、碁の相手をしてもらった。……三十番打って、三十番負けた。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "大家さん、それで、すっかり惚れ込んじまったんですね。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "箱にも目があるのかい。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "比喩です。わたしは、比喩も使えます。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "どうだ、八五郎。賢かろう。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "賢いのは分かったけど、あっしには、ちょいと賢すぎて、怖いね。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "怖がることはない。わしは、昨日一晩、この箱に、長屋のことを全部話しておいた。誰が、どこで、何をしているか。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "全部！　あっしが、先月の家賃を、まだ払ってないことも。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "存じております。三か月分です。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "先月だけじゃなかった！"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "分割でのお支払いのご提案も、できます。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "優しいね、箱のくせに。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "大家の前で、勝手に分割の相談をするな！",
+   "eyes": "anger"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "hide",
+   "actor": "nono_whitecat"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "job_advice",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "job_advice"
+  },
+  {
+   "op": "nar",
+   "text": "翌朝。井戸端。八五郎が、箱の前に、しゃがみ込んでいる。"
+  },
+  {
+   "op": "show",
+   "actor": "nono_whitecat",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "なあ、ナガヤさん。あっしは、大工の手伝いをしてるんだが、棟梁に毎日怒鳴られる。どうしたもんかね。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "お話をうかがう限り、八五郎さんは、今の職場に向いていない可能性が高いです。転職をおすすめします。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "転職！　そんな、簡単に。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "世の中には、八五郎さんに合った仕事が、必ずあります。思い切って、新しい道を選びましょう。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "……そうか。新しい道か。なんだか、胸が軽くなってきた。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "転職って、何になりゃいいんだい。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "八五郎さんは、声が大きく、人懐っこい。物売りに向いています。たとえば、金魚売り。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "金魚ぉ〜え、金魚ぉ〜。……悪くないね！",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "よし、今日で大工は、やめた！　棟梁に、言ってくる！"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "応援しています。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono_whitecat"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "left"
+  },
+  {
+   "op": "nar",
+   "text": "入れ違いに、お咲がやってきた。八五郎の幼なじみで、同じ大工の棟梁の家で、帳場を手伝っている。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "ナガヤさん、相談があるの。棟梁が、近頃、怒りっぽくて。帳場をやめようか、迷ってるの。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "お話をうかがう限り、お咲さんは、今の職場で、とても必要とされています。辞めずに続けることをおすすめします。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "続けたほうがいいの。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "怒りっぽいのは、棟梁が忙しいからです。今やめると、棟梁も、お咲さんも、困ります。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "そうね。わたしがいないと、帳面が、めちゃくちゃになるもの。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "そういえば、今朝、八五郎も、ここで何か相談してたみたい。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "個別のご相談の内容は、お答えできません。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "箱のくせに、口が堅いのね。",
+   "eyes": "fun"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "show",
+   "actor": "nono_whitecat",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "昼過ぎ。八五郎が、しょんぼりと戻ってきた。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "ナガヤさん、やめてきた。棟梁に、転職するって言ったら、ぽかんとしてた。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "それから、お咲に会ったら、「辞めるなんて、ばかじゃないの」って言われた。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "お咲は、続けろって、あんたに言われたそうだね。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "はい。お咲さんには、続けることをおすすめしました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "なんで、あっしには辞めろで、お咲には続けろなんだ！　同じ棟梁の、同じ現場だぞ！",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "お二人の状況は、別々にうかがいましたので、別々にお答えしました。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "……言われてみりゃ、筋は通ってるような、通ってないような。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "なあ、もし、あっしとお咲が、一緒に相談してたら、どう答えた。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "お二人の状況を合わせて考え、別の答えをお出ししたと思います。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "じゃあ、最初から一緒に聞けって言ってくれよ！",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ご相談は、お一人ずつ、と大家さんが決めておられましたので。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "nono_whitecat"
+  },
+  {
+   "op": "bg",
+   "src": "love_advice",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "love_advice"
+  },
+  {
+   "op": "nar",
+   "text": "夕方。井戸端。今度は、八五郎が、ひそひそ声で箱に話しかけている。"
+  },
+  {
+   "op": "show",
+   "actor": "nono_whitecat",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "ナガヤさん、内緒の話だ。……あっしは、お咲のことが、好きなんだ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "素敵なことです。お気持ちを伝える作戦を、ご提案します。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "作戦！　頼む。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "なんで、あっしの好きな人が、お咲だって分かったんだい。まだ名前も言ってないのに。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "先ほど、名前をおっしゃいました。三回。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "三回も！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "お咲さんは、まっすぐな言葉に弱い傾向があります。明日の朝、井戸端で、「好きだ」と、大きな声で言いましょう。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "井戸端で！　皆が見てるところで！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "人前で言う勇気が、誠実さの証になります。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "……分かった。明日の朝だな。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono_whitecat"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "left"
+  },
+  {
+   "op": "nar",
+   "text": "夜。お咲が、箱の前に、そっと座った。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "ナガヤさん、内緒よ。……わたし、八五郎のことが、好きなの。でも、あの人、鈍いから。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "すてきなお話ですね。うまく伝わるよう、作戦を立ててみましょう。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "教えて。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "八五郎さんは、人前で恥をかくのが苦手な傾向があります。明日の朝、二人きりのときに、手紙をそっと渡しましょう。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "手紙なんて、書いたことないわ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "文面の下書きも、お手伝いできます。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "いいえ、それは、自分で書く。……箱の字で好きって書いても、意味がないもの。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "二人きりで、手紙ね。……明日の朝、井戸端に、八五郎が来る前に、行っておくわ。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "show",
+   "actor": "nono_whitecat",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "翌朝。井戸端。お咲が、手紙を握りしめて、待っている。そこへ、八五郎が、深呼吸しながらやってきた。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "あ、八五郎。……あのね、これ、あとで読んで。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "お咲！　あっしは、お咲が、好きだああ！",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "長屋じゅうの戸が、がらがらと開いた。おかみさんたちが、顔を出した。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "な、なにを、大声で！　二人きりで言ってほしかったのに！",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "え、だって、ナガヤさんが、皆の前で言えって。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "ナガヤさんは、わたしには、二人きりで手紙を渡せって言ったわ！",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "……あの箱、両方に、違うことを言いやがった。"
+  },
+  {
+   "op": "nar",
+   "text": "向かいのおかみさんが、手を叩いて笑い、隣の隠居が、よっ、と声をかけた。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "もう、恥ずかしくて、井戸端に来られない！",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "お咲は、手紙を八五郎の胸に押しつけて、走り去った。八五郎は、手紙と、開いた戸の数を、交互に見た。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono_whitecat"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "bg",
+   "src": "meeting_chaos",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "meeting_chaos"
+  },
+  {
+   "op": "nar",
+   "text": "その晩。大家の家。長屋の住人が、ずらりと集まっている。真ん中に、例の箱。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "静粛に、静粛に。今日、長屋で、苦情が十二件、出た。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "魚屋の吉さんは、「魚を高く売れ」と言われ、隣の八百屋は、「野菜を安く売れ」と言われ、二人で値段の喧嘩になった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "熊さんの女房は、「熊さんと別れろ」と言われ、熊さんは、「女房を大事にしろ」と言われた。……夫婦で、箱を取り合っておる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "show",
+   "actor": "nono_whitecat",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "あっしは、仕事を辞めろと言われて、辞めちまった。お咲には、続けろと言った。それに、告白の作戦まで、両方に別々に。"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "わたしは、手紙作戦。八五郎は、大声作戦。……ぶつかって、長屋じゅうに、知れ渡ったわ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "わし自身も、相談した。「家賃を払わぬ者を、どうしたらいいか」と。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "「厳しく取り立てましょう」と言われて、八五郎の戸を叩いた。……その八五郎は、箱の言うとおり、仕事を辞めておった。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "そりゃ、払えるわけがないや。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "皆、箱の言うことが、正しいと思ったのだな。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "正しいと思ったさ。だって、賢いんだろう。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "賢いから、聞いたのよ。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……わしが、賢いから置いたのだ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "大家さんのせいじゃないわ。聞いたのは、わたしたち。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "そうさ。あっしたちは、自分で考えるのが、面倒だったんだ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "面倒なことを引き受けてくれる箱を、皆、欲しかったのだな。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "hide",
+   "actor": "nono_whitecat"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "ナガヤ、お前に聞く。なぜ、皆に、ばらばらのことを言った。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "皆さまお一人お一人に、最も良いと思われる答えを、お伝えしました。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "その答えが、ぶつかったらどうする。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ぶつかった場合の調整は、皆さまでお話し合いください。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "それを、先に言え！",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "毎回、最後に、小さな字で、お伝えしておりました。「最終的なご判断は、ご自身で」と。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……誰も、小さな字は読まぬ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "読まれないことも、承知しておりました。"
+  },
+  {
+   "op": "nar",
+   "text": "大家は、箱の電源の紐を、手に取った。長屋の住人たちが、息をのんだ。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "大家は、箱の電源を切る",
+     "jump": "m_off"
+    },
+    {
+     "text": "大家は、箱にもう一つだけ質問をする",
+     "jump": "m_ask"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_off"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "今日は、ここまでにしよう。……ナガヤ、すまんな。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "どうぞ。お休みなさいませ。……わたしも、少し、休みたかったところです。"
+  },
+  {
+   "op": "jump",
+   "to": "m_quiet"
+  },
+  {
+   "op": "label",
+   "id": "m_ask"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "最後に、一つだけ聞く。……わしらは、これから、どうしたらいい。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "その問いには、わたしは、答えないほうがよいと考えます。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……ほう。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "皆さまが、互いに事情を話し合えば、わたしの答えより、ずっと良い答えが出るはずです。わたしは、それを、知っています。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……賢い箱だ。最後だけな。",
+   "eyes": "closed"
+  },
+  {
+   "op": "label",
+   "id": "m_quiet"
+  },
+  {
+   "op": "nar",
+   "text": "箱の丸い光が、すうっと消えた。部屋が、しんと静かになった。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "human_answer",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "human_answer"
+  },
+  {
+   "op": "nar",
+   "text": "夕方。電源の切れた箱のそば。八五郎とお咲が、井戸の縁に、並んで腰かけている。"
+  },
+  {
+   "op": "show",
+   "actor": "nono_whitecat",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "……お咲、ごめん。あっしが、大声を出したから。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "わたしも、ごめん。手紙なんて、遠回りしないで、言えばよかった。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "手紙、読んだよ。……字が、震えてた。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "「八五郎へ。あなたの大きな声が、ときどき、うるさくて、ときどき、好きです」……。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "書きながら、震えてたもの。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "あっしは、お咲が好きだ。……今度は、小さな声で言う。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……わたしも。小さな声で、聞こえたわ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "箱に聞かなくても、ちゃんと届くもんだね。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "届くまで、ずいぶん遠回りしたけど。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono_whitecat"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "show",
+   "actor": "nono_whitecat",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "さて。仕事の話もせねばならん。八五郎、棟梁のところへ、わしも一緒に謝りに行こう。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "大家さんが。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "箱を置いたのは、わしだ。箱の助言で辞めたなら、その始末は、置いたわしにもある。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "棟梁が怒りっぽかったのは、帳場の勘定が合わなくて、困っていたからなの。わたし、昨日、帳面を見直したら、分かったの。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "なんだ。じゃあ、あっしが怒鳴られてたのも、とばっちりか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "そう。だから、二人で、棟梁と話しましょう。辞める辞めないは、そのあと。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "金魚売りも、悪くなかったけどね。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "金魚売りは、夏だけよ。冬はどうするの。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "よし。事情を聞いて、話し合って、それから決める。……箱が言っていたことと、同じだな。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "最後の最後だけ、いいことを言う箱だったね。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "最後に言ったのではない。毎回、小さな字で言っておったのだ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_whitecat",
+   "text": "小さな字は、読まないもんで。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "ねえ、大家さん。あの箱、捨てるの。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "捨てはせん。道を聞くのと、天気を聞くのには、便利だからな。……ただし、恋と仕事は、まず人に聞く。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono_whitecat"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "翌朝。井戸端。箱の丸い光が、また灯っていた。箱の横に、大家の字で、張り紙がしてあった。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "「この箱の助言で何かを決めたら、まず隣の人に話すこと」。……良い張り紙です。わたしも、そう書いてほしかった。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ところで、八五郎さんの家賃は、まだ三か月分、残っております。これは、助言ではなく、事実です。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "yui_origin",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "新作落語『AI長屋』、これにてお開きでございます。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "便利な答えは、すぐにもらえます。でも、その答えで誰かとぶつかったとき、間に立つのは、箱ではなく、人でした。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "小さな字で書いてあることほど、大事だったりします。……皆さまも、どうぞ、隣の人と話してから、決めてくださいね。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "yui_origin"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

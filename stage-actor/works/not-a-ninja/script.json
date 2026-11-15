@@ -1,724 +1,1082 @@
 {
-  "meta": {
-    "id": "not-a-ninja",
-    "number": 141,
-    "title": "忍者ではありません ―私服レイの一日―",
-    "original": "NONO座オリジナル新作漫才",
-    "category": "新作漫才",
-    "adaptation": "free",
-    "format": "v3",
-    "minutes": 22,
-    "synopsis": "全五景で「先入観は、普通の行動まで別の物語に変える」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
-    "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+ "meta": {
+  "id": "not-a-ninja",
+  "number": 141,
+  "title": "忍者ではありません ―私服レイの一日―",
+  "original": "NONO座オリジナル新作漫才",
+  "category": "新作漫才",
+  "adaptation": "free",
+  "format": "v3",
+  "minutes": 24,
+  "synopsis": "全五景で「先入観は、普通の行動まで別の物語に変える」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "yui_origin",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "狂言回し",
-      "actor": "yui_origin",
-      "costume": "default"
-    },
-    {
-      "role": "レイ／ツッコミ",
-      "actor": "rei_casual",
-      "costume": "default"
-    },
-    {
-      "role": "クロガネ／ボケ",
-      "actor": "kurogane",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "city_street": "bg/not-a-ninja-city_street-2048x1152.png",
-    "cafe_order": "bg/not-a-ninja-cafe_order-2048x1152.png",
-    "lost_keys": "bg/not-a-ninja-lost_keys-2048x1152.png",
-    "rain_shelter": "bg/not-a-ninja-rain_shelter-2048x1152.png",
-    "home_goodbye": "bg/not-a-ninja-home_goodbye-2048x1152.png"
+  {
+   "role": "レイ／ツッコミ",
+   "actor": "rei_casual",
+   "costume": "default"
   },
-  "steps": [
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "yui_origin",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "yui_origin",
-      "text": "ようこそ、NONO座へ。本日の演目は『忍者ではありません』。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "yui_origin",
-      "text": "新作漫才の一席を、全五景でお届けします。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "yui_origin",
-      "text": "この舞台の核は「先入観は、普通の行動まで別の物語に変える」。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "yui_origin",
-      "text": "台詞はすべて今夜のための書き下ろしです。"
-    },
-    {
-      "op": "say",
-      "actor": "yui_origin",
-      "text": "それでは、幕を開けましょう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "hide",
-      "actor": "yui_origin"
-    },
-    {
-      "op": "bg",
-      "src": "city_street",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "city_street"
-    },
-    {
-      "op": "nar",
-      "text": "第1景「街角の待ち合わせ」。私服のレイが来ただけで潜入成功と呼ばれる。"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "さて「街角の待ち合わせ」だ。私服のレイが来ただけで潜入成功と呼ばれる。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "その説明だけで、もう話が脇道へ走っている。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
-      "eyes": "anger"
-    },
-    {
-      "op": "nar",
-      "text": "街角の待ち合わせの空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "近道なら、さっきと同じ所へ戻るな。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "肝心なのは、先入観は、普通の行動まで別の物語に変えるということだ。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "急に教訓を置けば片づくと思っているだろう。"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。私服のレイが来ただけで潜入成功と呼ばれる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "片づかないから、もう一度やって確かめる。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "やり直すたび道具と登場人物が増えている。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "私服のレイが来ただけで潜入成功と呼ばれる。ここまでは筋書き通りだ。",
-      "eyes": "normal"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "筋書きが困って、こちらを見ているぞ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "なら最後は、自分で落とし前をつけよう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "落とし前とオチを同じ棚に置くな。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "bg",
-      "src": "cafe_order",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "cafe_order"
-    },
-    {
-      "op": "nar",
-      "text": "第2景「喫茶店の注文」。水を飲めば水遁、砂糖を取れば兵糧丸扱いされる。"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "さて「喫茶店の注文」だ。水を飲めば水遁、砂糖を取れば兵糧丸扱いされる。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "その説明だけで、もう話が脇道へ走っている。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "喫茶店の注文の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "近道なら、さっきと同じ所へ戻るな。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "肝心なのは、先入観は、普通の行動まで別の物語に変えるということだ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "急に教訓を置けば片づくと思っているだろう。"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。水を飲めば水遁、砂糖を取れば兵糧丸扱いされる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "片づかないから、もう一度やって確かめる。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "やり直すたび道具と登場人物が増えている。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "水を飲めば水遁、砂糖を取れば兵糧丸扱いされる。ここまでは筋書き通りだ。",
-      "eyes": "joy"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "筋書きが困って、こちらを見ているぞ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "なら最後は、自分で落とし前をつけよう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "落とし前とオチを同じ棚に置くな。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "bg",
-      "src": "lost_keys",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "lost_keys"
-    },
-    {
-      "op": "nar",
-      "text": "第3景「鍵探し」。屈んだだけで床下探索の忍術と誤解される。"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "さて「鍵探し」だ。屈んだだけで床下探索の忍術と誤解される。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "その説明だけで、もう話が脇道へ走っている。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
-      "eyes": "fun"
-    },
-    {
-      "op": "nar",
-      "text": "鍵探しの空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "近道なら、さっきと同じ所へ戻るな。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "肝心なのは、先入観は、普通の行動まで別の物語に変えるということだ。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "急に教訓を置けば片づくと思っているだろう。"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。屈んだだけで床下探索の忍術と誤解される。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "片づかないから、もう一度やって確かめる。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "やり直すたび道具と登場人物が増えている。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "屈んだだけで床下探索の忍術と誤解される。ここまでは筋書き通りだ。",
-      "eyes": "anger"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "筋書きが困って、こちらを見ているぞ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "なら最後は、自分で落とし前をつけよう。",
-      "eyes": "fun"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "落とし前とオチを同じ棚に置くな。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "bg",
-      "src": "rain_shelter",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "rain_shelter"
-    },
-    {
-      "op": "nar",
-      "text": "第4景「雨宿り」。傘を開けば煙幕からの変わり身だと言われる。"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "さて「雨宿り」だ。傘を開けば煙幕からの変わり身だと言われる。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "その説明だけで、もう話が脇道へ走っている。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "雨宿りの空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "近道なら、さっきと同じ所へ戻るな。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "肝心なのは、先入観は、普通の行動まで別の物語に変えるということだ。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "急に教訓を置けば片づくと思っているだろう。"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。傘を開けば煙幕からの変わり身だと言われる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "片づかないから、もう一度やって確かめる。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "やり直すたび道具と登場人物が増えている。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "傘を開けば煙幕からの変わり身だと言われる。ここまでは筋書き通りだ。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "筋書きが困って、こちらを見ているぞ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "なら最後は、自分で落とし前をつけよう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "落とし前とオチを同じ棚に置くな。"
-    },
-    {
-      "op": "choice",
-      "options": [
-        {
-          "text": "正面から問いかける",
-          "jump": "not-a-ninja_direct"
-        },
-        {
-          "text": "相手の話を最後まで聞く",
-          "jump": "not-a-ninja_listen"
-        }
-      ]
-    },
-    {
-      "op": "label",
-      "id": "not-a-ninja_direct"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "私は正面から問う。曖昧なまま次へは進まない。"
-    },
-    {
-      "op": "jump",
-      "to": "not-a-ninja_merge"
-    },
-    {
-      "op": "label",
-      "id": "not-a-ninja_listen"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "結論を急がず、相手が何を恐れているかまで聞こう。"
-    },
-    {
-      "op": "label",
-      "id": "not-a-ninja_merge"
-    },
-    {
-      "op": "nar",
-      "text": "選び方は違っても、二人は同じ核心へ戻ってくる。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "bg",
-      "src": "home_goodbye",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "home_goodbye"
-    },
-    {
-      "op": "nar",
-      "text": "第5景「普通の帰宅」。ただ帰るだけの背中へ任務完了と敬礼される。"
-    },
-    {
-      "op": "show",
-      "actor": "rei_casual",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "さて「普通の帰宅」だ。ただ帰るだけの背中へ任務完了と敬礼される。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "その説明だけで、もう話が脇道へ走っている。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "普通の帰宅の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "近道なら、さっきと同じ所へ戻るな。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "肝心なのは、先入観は、普通の行動まで別の物語に変えるということだ。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "急に教訓を置けば片づくと思っているだろう。"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。ただ帰るだけの背中へ任務完了と敬礼される。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "片づかないから、もう一度やって確かめる。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "やり直すたび道具と登場人物が増えている。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "ただ帰るだけの背中へ任務完了と敬礼される。ここまでは筋書き通りだ。",
-      "eyes": "fun"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "筋書きが困って、こちらを見ているぞ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_casual",
-      "text": "なら最後は、自分で落とし前をつけよう。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "落とし前とオチを同じ棚に置くな。"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_casual"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "show",
-      "actor": "yui_origin",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "yui_origin",
-      "text": "物語はここまで。残った問いは「先入観は、普通の行動まで別の物語に変える」。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "yui_origin",
-      "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "yui_origin",
-      "text": "ご来場、ありがとうございました。",
-      "eyes": "joy"
-    },
-    {
-      "op": "hide",
-      "actor": "yui_origin"
-    },
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "end"
+  {
+   "role": "クロガネ／ボケ",
+   "actor": "kurogane",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "city_street": "bg/not-a-ninja-city_street-2048x1152.png",
+  "cafe_order": "bg/not-a-ninja-cafe_order-2048x1152.png",
+  "lost_keys": "bg/not-a-ninja-lost_keys-2048x1152.png",
+  "rain_shelter": "bg/not-a-ninja-rain_shelter-2048x1152.png",
+  "home_goodbye": "bg/not-a-ninja-home_goodbye-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "yui_origin",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "皆さま、こんばんは。今夜の漫才の幕引き役も幕開け役も、わたくし、ユイ・オリジンです。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "出演は、いつもは忍者の役が多いレイ。今日は、黒いジャケットの私服姿です。相方は、柴犬の騎士、クロガネ。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "レイは、ただ街で休日を過ごしたいだけ。ところが、クロガネの目には、何をしても、忍術に見えるようで。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "思い込みのめがねをかけると、普通の一日が、まるで違う物語になります。……どうぞ、ごゆっくり。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui_origin"
+  },
+  {
+   "op": "bg",
+   "src": "city_street",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "city_street"
+  },
+  {
+   "op": "nar",
+   "text": "街角の時計台の下。休日の昼。人通りが多い。黒いジャケットのレイが、そっと立っている。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……待ち合わせ、十二時。時計台の下。今、十一時五十八分。"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "来たな、レイ！　……いや、いつの間に来ていた！",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "クロガネは、十分前から、時計台の周りを、三周してた。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "見ておったのか！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "見えてた。剣を背負った柴犬は、目立つ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "二分前から、ここにいた。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "気配がなかった！　人混みに溶け込んで、誰にも気づかれずに、時計台の真下に。……潜入、成功だな。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "待ち合わせ場所に、普通に来ただけ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "その「普通」が、恐ろしいのだ。忍者は、普通に見えることを、最も重んじる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "わたしは、今日は、休み。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "休みと見せかけて、休みに潜入しているのか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "休みに、潜入って、何。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "分からぬ。だが、忍者なら、やりかねん。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……クロガネ、今日は、わたしが私服で来たの、見えてる？"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "見えておる。黒いジャケットに、黄色い服。……闇と、月の色だな。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "ただの、好きな色。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "クロガネだって、今日は、鎧じゃない。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "休日の騎士は、外套だけだ。……だが、剣は、背中に差してきた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "休みの日に、剣。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "騎士の休みとは、剣を抜かない日のことだ。持ってこない日のことではない。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "好きな色と見せかけて……。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "見せかけてない！"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "bg",
+   "src": "cafe_order",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "cafe_order"
+  },
+  {
+   "op": "nar",
+   "text": "喫茶店。窓際の席。店員が、水の入ったコップを二つ置いて去った。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "店員が、ご注文は、と聞いた。レイは、小さな声で、メニューを指さした。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "声を出さずに、指で伝える。……手話の、合図だな。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "人見知りなだけ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "何にする。わたしは、ホットケーキ。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "レイ、ホットケーキは、丸い。……手裏剣の形だな。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "丸いのは、ホットケーキの形。"
+  },
+  {
+   "op": "nar",
+   "text": "レイが、コップの水を、ひとくち飲んだ。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "水遁の術！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "水を飲んだだけ。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "体の中に、水をためておるのだな。いざという時に、口から霧のように吹くために。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "喉が、渇いてただけ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "レイが、砂糖の小瓶から、角砂糖を二つ取った。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "兵糧丸か！　小さな粒で、三日は戦える、忍びの保存食。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "角砂糖。紅茶に入れる。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "紅茶に溶かして、気配ごと消すのか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "溶かして、甘くするの！",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "ホットケーキが運ばれてきた。レイは、ナイフで、八等分に切った。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "八方手裏剣の、構えだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "食べやすく、切っただけ。……クロガネも、食べる。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "いただこう。……うまい。忍びの兵糧は、こんなに柔らかいのか。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "兵糧じゃない。蜂蜜、かける。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "蜂蜜で、敵の足を止める罠を……。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "蜂蜜は、パンケーキに、かける。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "bg",
+   "src": "city_street",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "city_street"
+  },
+  {
+   "op": "nar",
+   "text": "商店街。喫茶店を出た二人が、店先をのぞきながら歩いている。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "本屋に、寄ってもいい。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "もちろんだ。……忍術の巻物を探すのだな。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "料理の本。卵焼きの、新しい巻き方が載ってるやつ。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "巻き方。……巻物の、巻き方か。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "卵の、巻き方。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "本屋の店先で、レイは、一冊の本を手に取って、ぱらぱらとめくった。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "速い。一瞬で、全部の頁を見た。……速読の術。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "目次を、見ただけ。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "目次を見るだけで、中身が分かるのか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "分からないから、買って、家で読む。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "店の前を、自転車が通りかかった。レイが、すっと半歩、横へよけた。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "今の身のこなし！　音もなく、半歩。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "よけないと、ぶつかる。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "普通の者は、ぶつかりそうになってから、慌てる。お前は、慌てる前に、よけた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……それは、ちょっと、忍者の癖かもしれない。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "やはり！",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "舞台の稽古で、毎日、やってるから。……癖は、休みでも、抜けない。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "癖と、本業と、休み。……人とは、ややこしいものだな。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "bg",
+   "src": "lost_keys",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "lost_keys"
+  },
+  {
+   "op": "nar",
+   "text": "喫茶店の床。レイが、テーブルの下に、しゃがみ込んでいる。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……鍵、落とした。家の鍵。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "なんと。床下へ、潜る気か。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "床下じゃない。テーブルの下。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "低い姿勢で、気配を消して、床を這う。……床下探索の術だ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "鍵を、探してるだけ。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "わしも、手伝おう。……騎士の誇りにかけて、床を這おう。"
+  },
+  {
+   "op": "nar",
+   "text": "クロガネが、四つん這いになって、くんくんと、床の匂いを嗅ぎ始めた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……クロガネ、それ、柴犬の探し方。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "騎士の探し方だ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "鼻で探す騎士、初めて見た。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "あった！　椅子の脚の陰に、鍵が。……猫の鈴が、ついておる。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "返して。それ、大事な鈴。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "鈴で、合図を送るのだな。仲間の忍びに。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……妹が、くれた。誕生日に。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……そうか。それは、すまぬ。合図などではないのだな。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "合図だったら、もっと、目立たない音にする。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "例えば。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "雀の鳴き声とか。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "鳥の声で、合図を！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "やはり、詳しい！"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "詳しくない！",
+   "eyes": "anger"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "bg",
+   "src": "rain_shelter",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "rain_shelter"
+  },
+  {
+   "op": "nar",
+   "text": "商店街の軒下。急な夕立。二人とも、肩を濡らして駆け込んできた。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "ひどい雨だ。……レイ、傘は持っておるか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "持ってる。折りたたみ。"
+  },
+  {
+   "op": "nar",
+   "text": "レイが、鞄から小さな傘を出し、ぱっと開いた。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "煙幕！",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "傘。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "今、ばっと開いた瞬間、お前の姿が、傘の陰に隠れた。……変わり身の術ではないのか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "雨を、よけてるだけ。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "傘の下で、もう一人のお前と、入れ替わっておるかもしれぬ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "入れ替わる相手が、いない。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "では、わしが、確かめよう。……レイ、お前の好きな食べ物は。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……卵焼き。甘いやつ。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "本物だ！　忍者の好物は、普通、干し飯と梅干しだからな。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "忍者の好物、詳しいね。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "わしは、忍者に、憧れておるのだ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "子どもの頃、騎士の修行がつらくて、泣いておったら、屋根の上から、手拭いが落ちてきた。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "見上げても、誰もおらなんだ。……あれは、きっと、忍びの者だった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……そうなの。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "騎士は、正面から名乗って戦う。……だが、名乗らずに、誰かを守る忍びの姿も、かっこいいと思う。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "だから、わたしの何でも、忍術に見えるの。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……そうかもしれぬ。すまぬ、レイ。今日は、休みなのにな。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "雨が上がり、商店街に、夕陽が差し込む。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "クロガネ。わたしは、舞台では、よく忍者の役をする。……でも、休みの日は、ただの、レイ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "水を飲んで、砂糖を入れて、鍵を落として、傘を差す。……ただの、レイ。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "ただのレイ、か。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "ただのレイの一日を、見てほしかった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……見ておった。だが、わしの目に、勝手に、忍者のめがねがかかっておった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "屋根の上の人は、忍者だったかもしれない。……でも、ただの、優しい誰かだったかもしれない。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……どちらでも、あの手拭いは、温かかった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "外してみよう。……ふむ。黒いジャケットの、少し人見知りで、甘い卵焼きが好きな、ただのレイだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "そう。それ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "レイは、今日の礼に、クロガネに何か言う",
+     "jump": "m_thanks"
+    },
+    {
+     "text": "レイは、少しだけ忍者のふりをしてみせる",
+     "jump": "m_play"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_thanks"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "鍵、見つけてくれて、ありがとう。……鼻で。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "騎士の鼻だ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "jump",
+   "to": "m_home"
+  },
+  {
+   "op": "label",
+   "id": "m_play"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……シュッ。"
+  },
+  {
+   "op": "nar",
+   "text": "レイは、指を組んで、小さく印を結ぶまねをしてみせた。クロガネの尻尾が、ぶんぶんと揺れた。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "やはり、本物の忍者だ！",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "今のは、サービス。",
+   "eyes": "fun"
+  },
+  {
+   "op": "label",
+   "id": "m_home"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "bg",
+   "src": "home_goodbye",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "home_goodbye"
+  },
+  {
+   "op": "nar",
+   "text": "夕暮れの住宅街。レイの家の前の路地。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "じゃあ、ここで。……今日は、楽しかった。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "うむ。……レイ、家に帰るのだな。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "帰る。夕飯の支度。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "普通に、帰るのだな。屋根の上を走ったりせずに。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "玄関から、入る。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "クロガネも、帰り道、気をつけて。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "騎士は、道に迷わぬ。……匂いで、帰れる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "やっぱり、柴犬の帰り方。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "玄関から……。"
+  },
+  {
+   "op": "nar",
+   "text": "レイが、くるりと背を向け、玄関の戸を開けて、家の中へ入っていった。戸が、ぱたん、と閉まった。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……任務、完了。"
+  },
+  {
+   "op": "nar",
+   "text": "クロガネは、閉まった戸に向かって、びしっと敬礼した。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "二階の窓が開いて、レイが、顔を出した。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "クロガネ、敬礼しない。……ご近所に、変に思われる。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "体が、勝手に。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "また来週、ただの休みに、付き合って。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "承知した。……ただの休みに。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "ただの、休みに。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……ただの休み。なんと、難しい任務だ。"
+  },
+  {
+   "op": "nar",
+   "text": "帰り道、クロガネは、角を曲がるたびに、背後を振り返った。……誰もいなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "尾行もない。……ただの、いい休みだった。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "yui_origin",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "新作漫才『忍者ではありません』、これにて、ほんとうに、おしまいです。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "思い込みのめがねは、便利な時もあります。でも、かけたままだと、相手の、ただの一日が見えなくなります。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "時々、外して、見てみてください。……水を飲む人は、たいてい、喉が渇いているだけです。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui_origin"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

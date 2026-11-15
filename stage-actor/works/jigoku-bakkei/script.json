@@ -1,764 +1,1129 @@
 {
-  "meta": {
-    "id": "jigoku-bakkei",
-    "number": 124,
-    "title": "地獄八景亡者戯 ―冥土の見物―",
-    "original": "古典上方落語『地獄八景亡者戯』（伝統演目）",
-    "category": "古典落語・上方落語",
-    "adaptation": "free",
-    "format": "v3",
-    "minutes": 42,
-    "synopsis": "全五景で「死後の世界まで商売と見栄が追いかけてくる」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
-    "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+ "meta": {
+  "id": "jigoku-bakkei",
+  "number": 124,
+  "title": "地獄八景亡者戯 ―冥土の見物―",
+  "original": "古典上方落語『地獄八景亡者戯』（伝統演目）",
+  "category": "古典落語・上方落語",
+  "adaptation": "free",
+  "format": "v3",
+  "minutes": 42,
+  "synopsis": "全五景で「死後の世界まで商売と見栄が追いかけてくる」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "狂言回し",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "喜六",
-      "actor": "tanurio",
-      "costume": "default"
-    },
-    {
-      "role": "閻魔大王",
-      "actor": "extra_oni",
-      "costume": "default"
-    },
-    {
-      "role": "鬼の案内人",
-      "actor": "kurogane",
-      "costume": "default"
-    },
-    {
-      "role": "亡者",
-      "actor": "extra_skeleton",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "funeral_gate": "bg/jigoku-bakkei-funeral_gate-2048x1152.png",
-    "sanzu_market": "bg/jigoku-bakkei-sanzu_market-2048x1152.png",
-    "hell_tour": "bg/jigoku-bakkei-hell_tour-2048x1152.png",
-    "emma_court": "bg/jigoku-bakkei-emma_court-2048x1152.png",
-    "oni_belly": "bg/jigoku-bakkei-oni_belly-2048x1152.png"
+  {
+   "role": "喜六",
+   "actor": "tanurio",
+   "costume": "default"
   },
-  "steps": [
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『地獄八景亡者戯』。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "古典落語・上方落語の一席を、全五景でお届けします。",
-      "mouth": "open",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "この舞台の核は「死後の世界まで商売と見栄が追いかけてくる」。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "台詞はすべて今夜のための書き下ろしです。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "それでは、幕を開けましょう。",
-      "mouth": "open",
-      "eyes": "joy"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "funeral_gate",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "funeral_gate"
-    },
-    {
-      "op": "nar",
-      "text": "第1景「冥土の入口」。死んだ喜六が葬式の騒ぎを横目に旅立つ。"
-    },
-    {
-      "op": "show",
-      "actor": "tanurio",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_oni",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "さて「冥土の入口」だ。死んだ喜六が葬式の騒ぎを横目に旅立つ。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "その説明だけで、もう話が脇道へ走っている。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
-      "eyes": "anger"
-    },
-    {
-      "op": "nar",
-      "text": "冥土の入口の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "近道なら、さっきと同じ所へ戻るな。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "肝心なのは、死後の世界まで商売と見栄が追いかけてくるということだ。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "急に教訓を置けば片づくと思っているだろう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。死んだ喜六が葬式の騒ぎを横目に旅立つ。"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "片づかないから、もう一度やって確かめる。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "やり直すたび道具と登場人物が増えている。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "死んだ喜六が葬式の騒ぎを横目に旅立つ。ここまでは筋書き通りだ。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "筋書きが困って、こちらを見ているぞ。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "なら最後は、自分で落とし前をつけよう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "落とし前とオチを同じ棚に置くな。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "hide",
-      "actor": "tanurio"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_oni"
-    },
-    {
-      "op": "bg",
-      "src": "sanzu_market",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "sanzu_market"
-    },
-    {
-      "op": "nar",
-      "text": "第2景「三途川の市場」。渡し賃や土産物を売る冥土の商売に驚く。"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_skeleton",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "さて「三途川の市場」だ。渡し賃や土産物を売る冥土の商売に驚く。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "その説明だけで、もう話が脇道へ走っている。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "脇道ではない。笑いへ通じる立派な近道だ。"
-    },
-    {
-      "op": "nar",
-      "text": "三途川の市場の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "近道なら、さっきと同じ所へ戻るな。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "肝心なのは、死後の世界まで商売と見栄が追いかけてくるということだ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "急に教訓を置けば片づくと思っているだろう。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。渡し賃や土産物を売る冥土の商売に驚く。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "片づかないから、もう一度やって確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "やり直すたび道具と登場人物が増えている。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "渡し賃や土産物を売る冥土の商売に驚く。ここまでは筋書き通りだ。"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "筋書きが困って、こちらを見ているぞ。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "なら最後は、自分で落とし前をつけよう。"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "落とし前とオチを同じ棚に置くな。",
-      "eyes": "fun"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_skeleton"
-    },
-    {
-      "op": "bg",
-      "src": "hell_tour",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "hell_tour"
-    },
-    {
-      "op": "nar",
-      "text": "第3景「地獄名所巡り」。針山や血の池を物見遊山の調子で巡る。"
-    },
-    {
-      "op": "show",
-      "actor": "tanurio",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_oni",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "さて「地獄名所巡り」だ。針山や血の池を物見遊山の調子で巡る。",
-      "eyes": "anger",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "その説明だけで、もう話が脇道へ走っている。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
-      "eyes": "fun"
-    },
-    {
-      "op": "nar",
-      "text": "地獄名所巡りの空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "近道なら、さっきと同じ所へ戻るな。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "肝心なのは、死後の世界まで商売と見栄が追いかけてくるということだ。",
-      "eyes": "crying",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "急に教訓を置けば片づくと思っているだろう。",
-      "eyes": "closed"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。針山や血の池を物見遊山の調子で巡る。"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "片づかないから、もう一度やって確かめる。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "やり直すたび道具と登場人物が増えている。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "針山や血の池を物見遊山の調子で巡る。ここまでは筋書き通りだ。",
-      "eyes": "anger",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "筋書きが困って、こちらを見ているぞ。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "なら最後は、自分で落とし前をつけよう。",
-      "eyes": "fun"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "落とし前とオチを同じ棚に置くな。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "hide",
-      "actor": "tanurio"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_oni"
-    },
-    {
-      "op": "bg",
-      "src": "emma_court",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "emma_court"
-    },
-    {
-      "op": "nar",
-      "text": "第4景「閻魔の裁判」。生前の小さな嘘まで鏡に映され言い訳する。"
-    },
-    {
-      "op": "show",
-      "actor": "kurogane",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_skeleton",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "さて「閻魔の裁判」だ。生前の小さな嘘まで鏡に映され言い訳する。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "その説明だけで、もう話が脇道へ走っている。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "脇道ではない。笑いへ通じる立派な近道だ。"
-    },
-    {
-      "op": "nar",
-      "text": "閻魔の裁判の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "近道なら、さっきと同じ所へ戻るな。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "肝心なのは、死後の世界まで商売と見栄が追いかけてくるということだ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "急に教訓を置けば片づくと思っているだろう。",
-      "eyes": "normal"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。生前の小さな嘘まで鏡に映され言い訳する。"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "片づかないから、もう一度やって確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "やり直すたび道具と登場人物が増えている。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "生前の小さな嘘まで鏡に映され言い訳する。ここまでは筋書き通りだ。"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "筋書きが困って、こちらを見ているぞ。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "なら最後は、自分で落とし前をつけよう。"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "落とし前とオチを同じ棚に置くな。",
-      "eyes": "crying"
-    },
-    {
-      "op": "choice",
-      "options": [
-        {
-          "text": "正面から問いかける",
-          "jump": "jigoku-bakkei_direct"
-        },
-        {
-          "text": "相手の話を最後まで聞く",
-          "jump": "jigoku-bakkei_listen"
-        }
-      ]
-    },
-    {
-      "op": "label",
-      "id": "jigoku-bakkei_direct"
-    },
-    {
-      "op": "say",
-      "actor": "kurogane",
-      "text": "私は正面から問う。曖昧なまま次へは進まない。"
-    },
-    {
-      "op": "jump",
-      "to": "jigoku-bakkei_merge"
-    },
-    {
-      "op": "label",
-      "id": "jigoku-bakkei_listen"
-    },
-    {
-      "op": "say",
-      "actor": "extra_skeleton",
-      "text": "結論を急がず、相手が何を恐れているかまで聞こう。"
-    },
-    {
-      "op": "label",
-      "id": "jigoku-bakkei_merge"
-    },
-    {
-      "op": "nar",
-      "text": "選び方は違っても、二人は同じ核心へ戻ってくる。"
-    },
-    {
-      "op": "hide",
-      "actor": "kurogane"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_skeleton"
-    },
-    {
-      "op": "bg",
-      "src": "oni_belly",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "oni_belly"
-    },
-    {
-      "op": "nar",
-      "text": "第5景「鬼の腹の脱出」。飲み込まれた亡者たちが意外な出口を探す。"
-    },
-    {
-      "op": "show",
-      "actor": "tanurio",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_oni",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "さて「鬼の腹の脱出」だ。飲み込まれた亡者たちが意外な出口を探す。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "その説明だけで、もう話が脇道へ走っている。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "鬼の腹の脱出の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "近道なら、さっきと同じ所へ戻るな。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "肝心なのは、死後の世界まで商売と見栄が追いかけてくるということだ。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "急に教訓を置けば片づくと思っているだろう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。飲み込まれた亡者たちが意外な出口を探す。"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "片づかないから、もう一度やって確かめる。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "やり直すたび道具と登場人物が増えている。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "飲み込まれた亡者たちが意外な出口を探す。ここまでは筋書き通りだ。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "筋書きが困って、こちらを見ているぞ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "なら最後は、自分で落とし前をつけよう。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_oni",
-      "text": "落とし前とオチを同じ棚に置くな。",
-      "eyes": "closed"
-    },
-    {
-      "op": "hide",
-      "actor": "tanurio"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_oni"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "物語はここまで。残った問いは「死後の世界まで商売と見栄が追いかけてくる」。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ご来場、ありがとうございました。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "end"
+  {
+   "role": "閻魔大王",
+   "actor": "extra_oni",
+   "costume": "default"
+  },
+  {
+   "role": "鬼の案内人",
+   "actor": "kurogane",
+   "costume": "default"
+  },
+  {
+   "role": "亡者",
+   "actor": "extra_skeleton",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "funeral_gate": "bg/jigoku-bakkei-funeral_gate-2048x1152.png",
+  "sanzu_market": "bg/jigoku-bakkei-sanzu_market-2048x1152.png",
+  "hell_tour": "bg/jigoku-bakkei-hell_tour-2048x1152.png",
+  "emma_court": "bg/jigoku-bakkei-emma_court-2048x1152.png",
+  "oni_belly": "bg/jigoku-bakkei-oni_belly-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "上方落語の中で、いちばん長くて、いちばん賑やかな、あの世の旅の噺がございます。『地獄八景亡者戯』。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "地獄の八つの景色を、亡者たちが、まるで物見遊山のように巡っていくお話です。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "死んでもなお、商売は商売、見栄は見栄。あの世も、この世と、あんまり変わりません。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "今夜は、喜六という男が、鯖にあたって、ひょいと冥土へ旅立つところから。どうぞ、気楽に。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "funeral_gate",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "funeral_gate"
+  },
+  {
+   "op": "nar",
+   "text": "冥土の入口。白い霧の中に、ぼんやりと道が続いている。死に装束の喜六が、額に三角の布をつけて、きょろきょろしている。"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……ここは、どこや。さっきまで、家で、鯖の刺身を食うとったのに。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "えらい腹が痛うなって、目の前が暗うなって。……気ぃついたら、この白い着物や。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "ひょっとして、わし、死んだんか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "額に、三角の布が、ついとる。……これは、死んだ人の、印や。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "死ぬんやったら、鯖やのうて、鯛にあたりたかった。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "show",
+   "actor": "extra_skeleton",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "死んだ、死んだ。わしもや。……お、喜六やないか。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "その声は、伊勢屋のご隠居！　骨になってはるさかい、分かりまへんでした。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "骨になると、肩が凝らんで、楽やで。……お前も、何で死んだ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "鯖です。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "どこの鯖や。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "魚屋の熊はんとこの。安かったんです。三割引きで。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "安物買いの、命失いやな。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "鯖か。わしは、ふぐや。……鯖とふぐなら、ふぐのほうが、ちょっと格が上やな。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "死に方に、格なんか、あるかいな！",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "霧の向こうから、遠く、お経の声と、泣き声が聞こえてきた。喜六の家の、葬式の声だった。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……女房が、泣いとる。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "泣いてくれる人がおるうちは、ええもんや。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "いや、あれは、葬式の費用が足らんて、泣いとる声です。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "それも、ええもんや。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "ご隠居の葬式は、どうでした。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "盛大やったで。坊さんが三人、寿司が五桶。……わしの金でな。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_skeleton"
+  },
+  {
+   "op": "bg",
+   "src": "sanzu_market",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "sanzu_market"
+  },
+  {
+   "op": "nar",
+   "text": "三途の川のほとり。川岸に、ずらりと屋台が並んでいる。のぼりには「三途名物」「冥土の土産」「渡し賃両替」の文字。"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_skeleton",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……何や、ここは。縁日みたいやないか。"
+  },
+  {
+   "op": "nar",
+   "text": "屋台の間を、白い着物の亡者たちが、ぞろぞろと歩いている。皆、手に、何かしら買った包みを提げていた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "三途の川の、川岸市場や。あの世へ渡る前に、皆、ここで、最後の買い物をする。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "冥土の土産、て書いてある。……土産を、誰に持って行くんですか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "閻魔さんへの、袖の下や。手ぶらで行くより、ましやろ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "屋台の売り子が、声を張り上げている。三途饅頭、六文銭最中、極楽行きのお守り、いまなら二割引き。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "極楽行きのお守り！　……効くんですか。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "効いた者は、まだ、おらんらしい。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "ほな、売るなや！",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "売れるもんは、何でも売る。それが、あの世の、いや、この世の商売や。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "あの世まで来て、この世と同じことを。"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "渡し舟の切符は、こちらでございます！　六文銭、六文銭。両替も、承っております！"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "犬の鬼が、切符売りしとる。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "冥土の舟渡し、案内係のクロガネでございます。……お客さま、六文銭は、お持ちで。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……棺桶に入れてもろたはずやけど、懐に、二文しか、あらへん。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "四文、足りませんね。ご家族が、ちょっと、けちられたようで。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "女房め……。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "足らん分は、泳いで渡るか、舟賃を、あとで働いて返すかや。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "冥土払い、という制度もございます。利子は、百年で、一割。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "百年！　……死んでからも、借金か。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "冥土の時間は、ゆっくりですので、百年は、すぐでございます。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "すぐ、とは。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "娑婆の、お茶一服ほどで。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……それなら、借りとこか。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_skeleton"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "bg",
+   "src": "hell_tour",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "hell_tour"
+  },
+  {
+   "op": "nar",
+   "text": "三途の川の向こう岸。地獄の名所を巡る、物見遊山の一行。クロガネが、旗を持って先頭を歩いている。"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "extra_skeleton",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "ようこそ、冥土の名所巡りへ。案内は、わたくし、クロガネ。旗の後ろから、はぐれずに、ついておいでください。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "皆さま、右手に見えますのが、地獄名所その一、針の山でございます。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "ほんまに、針がびっしりや。……でも、なんや、てっぺんで、誰か、寝とるで。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "あれは、鍼灸師の亡者さまです。毎日、針の山で寝て、肩こりが治ったと、評判で。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "わしも、あとで行こか。骨に効くかもしれん。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "ご隠居は、骨しかないから、針、刺さるとこ、ないでしょう。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "続きまして、反対側。二番目の名所、血の池……でございましたが、近ごろ、赤い色の温泉に、改装いたしました。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "温泉になっとる！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "予算の都合で、湯の色だけ、赤くしてございます。「血の池風呂」として、なかなかの人気で。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "地獄も、商売上手やな。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "血の池風呂、一回、十文やて。……三途の川の渡し賃より、高いやないか。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "こちらが、地獄名所その三、冥土の芝居小屋。……あの世で、名人と呼ばれた役者が、毎日、出ております。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "ここは、ええで。生きとるうちには見られへんかった、昔の名人が、勢ぞろいや。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "看板に、えらい名前が、ずらっと並んどる。……百年前の名人から、去年亡うなった人まで。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "皆さま、まもなく、近日来演、の看板も出ます。……まだ、ご存命の方のお名前が。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "生きとる人の名前を、もう、出しとるんか！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "気の早い興行主でございまして。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "その看板に、わしの名前は。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……ございません。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "鯖で死んだ男は、芝居にも、ならんか。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_skeleton"
+  },
+  {
+   "op": "bg",
+   "src": "emma_court",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "emma_court"
+  },
+  {
+   "op": "nar",
+   "text": "閻魔の庁。高い机に、閻魔大王。横に、大きな鏡が立っている。喜六と、ご隠居の骨と、ほかに三人の亡者が、並ばされている。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_oni",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "閻魔の庁の前には、長い行列ができていた。亡者たちが、手に、冥土の土産の包みを、大事そうに抱えている。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "静まれい！　わしが、閻魔大王である。……汝ら、亡者ども、生前の行いを、この浄玻璃の鏡に映す。"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……あの鏡、何でも、映るんですか。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "何でも、映る。嘘も、隠し事も、こっそり食うた、つまみ食いもな。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "閻魔さま、これ、三途の川の市場で買うた、三途饅頭です。どうぞ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "袖の下は、受け取らぬ！　……と言いたいが、それは、わしの好物じゃ。そこへ置いておけ。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "鏡に、喜六の生前の姿が映った。台所で、女房の目を盗んで、鯖の刺身を、皿ごと抱えて食べている。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "わ、わ、それは！",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "汝は、女房の分の刺身まで、食うたな。……それで、鯖にあたった。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "鏡、もうちょっと、ぼかして映してもらえまへんか。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "浄玻璃の鏡に、ぼかしは、ない！"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……二人分、食べたから、二人分、あたったんですな。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "自業自得じゃ！",
+   "eyes": "anger"
+  },
+  {
+   "op": "show",
+   "actor": "extra_skeleton",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "閻魔さま、わしは、ふぐで死にましたが、ふぐは、ちゃんと、自分の分だけ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "汝の鏡は。……ふむ。汝は、生前、ふぐの肝を、毒味と称して、ちょいちょい食うておったな。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "……毒味の、つもりで。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "毒味を、二十年続けて、最後に当たった。……それも、自業自得じゃ。"
+  },
+  {
+   "op": "nar",
+   "text": "閻魔は、四人の亡者の札を並べた。医者、山伏、軽業師、歯抜き師。そして、喜六と、ご隠居。"
+  },
+  {
+   "op": "nar",
+   "text": "医者は、薬代をごまかした。山伏は、効かぬ祈祷で、銭を取った。"
+  },
+  {
+   "op": "nar",
+   "text": "軽業師は、綱の上から、客をひやかした。歯抜き師は、虫歯でない歯まで抜いた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "汝ら、ことごとく、人呑鬼に、呑ませてしまえ！",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "呑まれる！",
+   "eyes": "crying"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_oni"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_skeleton"
+  },
+  {
+   "op": "bg",
+   "src": "oni_belly",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "oni_belly"
+  },
+  {
+   "op": "nar",
+   "text": "真っ暗な、生暖かい場所。ぐるる、と腹の鳴る音。ここは、人を呑む鬼の、胃袋の中である。"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_skeleton",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……真っ暗や。ぬるぬるする。ここは、鬼の腹の中か。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "呑まれる前に、鬼の口の中を見たか。歯が、ぼろぼろやったで。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "歯抜き師さんの、出番ですな。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "そうらしい。……骨には、胃の酸が、ちょっと、しみるなあ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "鯖で死んで、鬼に呑まれて。……わしの人生、いや、死後、ろくなことがない。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "nar",
+   "text": "暗闇の中から、ほかの亡者たちの声がした。医者、山伏、軽業師、歯抜き師。皆、一緒に呑まれていた。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "皆さん、ここから、出る方法は、ないもんですか。"
+  },
+  {
+   "op": "nar",
+   "text": "歯抜き師が、大きなやっとこを、懐から取り出した。これで、上の奥歯を、引っこ抜けば、口が開くかもしれん、と。"
+  },
+  {
+   "op": "nar",
+   "text": "山伏が、法螺貝を吹こうとして、息が続かずに、咳き込んだ。医者は、鬼の脈を取ろうとして、手首が見つからなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "喜六、何か、知恵はないか。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……鬼も、腹の中で、暴れられたら、たまらんやろ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "腹の中で、皆が、自分の商売をしたら、どうなる。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……鬼の腹で、商売か。ご隠居、それ、ええ考えや。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "喜六は、皆で鬼の腹をくすぐろうと言う",
+     "jump": "m_tickle"
+    },
+    {
+     "text": "喜六は、軽業師に暴れてもらおうと言う",
+     "jump": "m_acrobat"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_tickle"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "皆で、鬼の腹の中を、くすぐりましょう！　笑わしたら、口が開く！"
+  },
+  {
+   "op": "nar",
+   "text": "亡者たちは、鬼の胃袋の壁を、こちょこちょと、くすぐり始めた。鬼の腹が、ひくひくと、震えだした。"
+  },
+  {
+   "op": "jump",
+   "to": "m_out"
+  },
+  {
+   "op": "label",
+   "id": "m_acrobat"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "軽業師さん、腹の中で、宙返りを、十ぺん！"
+  },
+  {
+   "op": "nar",
+   "text": "軽業師が、胃袋の中で、くるくると宙返りをした。鬼の腹が、ぐるぐると、波打った。"
+  },
+  {
+   "op": "label",
+   "id": "m_out"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_skeleton"
+  },
+  {
+   "op": "show",
+   "actor": "extra_oni",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "閻魔の庁。人呑鬼が、腹を押さえて、のたうち回っている。閻魔大王が、あきれて見ている。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "……人呑鬼、どうした。"
+  },
+  {
+   "op": "nar",
+   "text": "人呑鬼は、腹の中で、医者が下剤を調合し、山伏が祈祷し、歯抜き師が、鬼の奥歯を引っこ抜いている、と泣きながら訴えた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "なんと、呑まれた亡者が、腹の中で、商売を始めおったのか！",
+   "eyes": "anger"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "閻魔さま、人呑鬼が、もう、限界のようです。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "腹の中から、軽業師の掛け声も、聞こえております。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "……わしの庁で、見世物小屋を開くな。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "……吐き出せ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "人呑鬼は、大きなくしゃみを一つした。その拍子に、亡者たちが、ぽん、ぽん、ぽん、と、鼻の穴から、飛び出してきた。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_oni"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_skeleton",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "extra_oni",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……出た！　出られた！"
+  },
+  {
+   "op": "nar",
+   "text": "鬼の鼻水まみれの亡者たちが、閻魔の庁の床に、ずらりと転がった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "鼻の穴から出るとは、思わなんだなあ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "……汝ら、地獄にも置いておけぬ、極楽にも行かせられぬ。……厄介な亡者どもだ。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "ほな、閻魔さま、わしらは、どないなるんで。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "……娑婆へ、帰れ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "生き返らしてもらえるんですか！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "鯖も、ふぐも、二度と、欲張って食うな。……それが、条件じゃ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "生き返れる。……骨から、肉が、つくのかいな。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_skeleton",
+   "text": "閻魔さま、饅頭は、お気に召しましたか。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "……あれは、うまかった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_oni",
+   "text": "腹の中で、商売を始めるような亡者は、地獄でも、手に負えぬ。娑婆で、商売しておれ。"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_skeleton"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_oni"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "冥土の出口。霧の向こうに、喜六の家の、葬式の提灯が、ぼんやり見えている。クロガネが、見送りに来ている。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "お客さま、またのお越しを。……できれば、ゆっくり、百年ほどしてから。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "クロガネさん、案内、ありがとうございました。名所巡り、楽しかった。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "帰りの舟は、無料でございます。……行きと違って、帰りの客は、めったにおりませんので。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "クロガネさん、六文銭の、足らん四文は。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "冥土払いは、帳消しにいたします。……閻魔さまの、お達しで。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "地獄にも、情けはあるんやなあ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "情けがあるかどうかは、存じませんが、帳面は、ございます。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "帳面？"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "誰が、誰のために、いくら払ったか。……冥土の帳面には、全部、書いてございます。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "情けではございません。お客さまの女房さまが、四文を、棺桶の中に、こっそり足してくださいましたので。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……女房が。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "費用が足らん、と泣いておられたのは、その四文を、工面するためだったそうで。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……あいつ。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "帰ったら、刺身を、半分こや。……いや、全部、あいつにやる。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "鯖は、よく焼いて、どうぞ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "nar",
+   "text": "霧の中を、喜六は、葬式の提灯のほうへ、駆けていった。"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "上方落語『地獄八景亡者戯』、これにて、お後がよろしいようで。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "三途の川の市場、針の山の昼寝、温泉になった血の池。あの世も、この世と同じく、商売と見栄で、大にぎわいでした。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "喜六は、生き返って、女房と、二人分の鯖を、仲良く半分ずつ食べたそうでございます。……今度は、よく焼いて。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

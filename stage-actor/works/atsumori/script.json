@@ -1,701 +1,1070 @@
 {
-  "meta": {
-    "id": "atsumori",
-    "number": 103,
-    "title": "敦盛 ―笛を残した若武者―",
-    "original": "能『敦盛』（伝統演目・著作権消滅）",
-    "category": "能・歌舞伎",
-    "adaptation": "faithful",
-    "format": "v3",
-    "minutes": 30,
-    "synopsis": "全五景で「敵を一人の人間として見た時、弔いが始まる」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
-    "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+ "meta": {
+  "id": "atsumori",
+  "number": 103,
+  "title": "敦盛 ―笛を残した若武者―",
+  "original": "能『敦盛』（伝統演目・著作権消滅）",
+  "category": "能・歌舞伎",
+  "adaptation": "faithful",
+  "format": "v3",
+  "minutes": 32,
+  "synopsis": "全五景で「敵を一人の人間として見た時、弔いが始まる」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "nono",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "狂言回し",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "蓮生／熊谷直実",
-      "actor": "iwao",
-      "costume": "default"
-    },
-    {
-      "role": "敦盛の霊",
-      "actor": "rei_kimono",
-      "costume": "default"
-    },
-    {
-      "role": "里人",
-      "actor": "extra_villager",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "suma_shore": "bg/atsumori-suma_shore-2048x1152.png",
-    "grass_flute": "bg/atsumori-grass_flute-2048x1152.png",
-    "battle_memory": "bg/atsumori-battle_memory-2048x1152.png",
-    "ghost_dance": "bg/atsumori-ghost_dance-2048x1152.png",
-    "prayer_dawn": "bg/atsumori-prayer_dawn-2048x1152.png"
+  {
+   "role": "蓮生／熊谷直実",
+   "actor": "iwao",
+   "costume": "default"
   },
-  "steps": [
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ようこそ、NONO座へ。本日の演目は『敦盛』。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "能・歌舞伎の一席を、全五景でお届けします。",
-      "mouth": "open",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "この舞台の核は「敵を一人の人間として見た時、弔いが始まる」。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "台詞はすべて今夜のための書き下ろしです。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "それでは、幕を開けましょう。",
-      "mouth": "open",
-      "eyes": "joy"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": "suma_shore",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "suma_shore"
-    },
-    {
-      "op": "nar",
-      "text": "第1景「須磨の浦」。出家した蓮生がかつて討った敦盛を思う。"
-    },
-    {
-      "op": "show",
-      "actor": "iwao",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_kimono",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "「須磨の浦」へ来た。出家した蓮生がかつて討った敦盛を思う。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "ここで黙れば、誰かが代わりに意味を決める。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "私が守りたいのは「敵を一人の人間として見た時、弔いが始まる」だ。"
-    },
-    {
-      "op": "nar",
-      "text": "須磨の浦の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "ならば勝ち負けだけでなく、支払う代価も見る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "過去は変えられない。だが次の手は選べる。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。出家した蓮生がかつて討った敦盛を思う。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "出家した蓮生がかつて討った敦盛を思う。その事実から目をそらさない。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "恐れを消すのではなく、恐れたまま進もう。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "私の名ではなく、行いで答えを残す。"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "その答えを、次の場面まで持って行こう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "ここで決める。逃げず、相手の声を聞く。"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "ならば私も、その決断の重さを分け合う。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "hide",
-      "actor": "iwao"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_kimono"
-    },
-    {
-      "op": "bg",
-      "src": "grass_flute",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "grass_flute"
-    },
-    {
-      "op": "nar",
-      "text": "第2景「草陰の笛」。若い草刈り男が敦盛の笛をほのめかす。"
-    },
-    {
-      "op": "show",
-      "actor": "extra_villager",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "iwao",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "「草陰の笛」へ来た。若い草刈り男が敦盛の笛をほのめかす。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "ここで黙れば、誰かが代わりに意味を決める。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "私が守りたいのは「敵を一人の人間として見た時、弔いが始まる」だ。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "草陰の笛の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "守るという言葉が、誰かの犠牲を隠していないか。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-      "eyes": "surprise",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "過去は変えられない。だが次の手は選べる。"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。若い草刈り男が敦盛の笛をほのめかす。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "若い草刈り男が敦盛の笛をほのめかす。その事実から目をそらさない。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "恐れを消すのではなく、恐れたまま進もう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "私の名ではなく、行いで答えを残す。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "その答えを、次の場面まで持って行こう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "ここで決める。逃げず、相手の声を聞く。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "ならば私も、その決断の重さを分け合う。"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_villager"
-    },
-    {
-      "op": "hide",
-      "actor": "iwao"
-    },
-    {
-      "op": "bg",
-      "src": "battle_memory",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "battle_memory"
-    },
-    {
-      "op": "nar",
-      "text": "第3景「一ノ谷の記憶」。波打際の一騎討ちが回想としてよみがえる。"
-    },
-    {
-      "op": "show",
-      "actor": "rei_kimono",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "extra_villager",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "「一ノ谷の記憶」へ来た。波打際の一騎討ちが回想としてよみがえる。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "ここで黙れば、誰かが代わりに意味を決める。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "私が守りたいのは「敵を一人の人間として見た時、弔いが始まる」だ。",
-      "eyes": "fun"
-    },
-    {
-      "op": "nar",
-      "text": "一ノ谷の記憶の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "過去は変えられない。だが次の手は選べる。",
-      "eyes": "closed"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。波打際の一騎討ちが回想としてよみがえる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "波打際の一騎討ちが回想としてよみがえる。その事実から目をそらさない。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "恐れを消すのではなく、恐れたまま進もう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "私の名ではなく、行いで答えを残す。",
-      "eyes": "anger"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "その答えを、次の場面まで持って行こう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "ここで決める。逃げず、相手の声を聞く。",
-      "eyes": "fun"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "ならば私も、その決断の重さを分け合う。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_kimono"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_villager"
-    },
-    {
-      "op": "bg",
-      "src": "ghost_dance",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "ghost_dance"
-    },
-    {
-      "op": "nar",
-      "text": "第4景「敦盛の舞」。敦盛の霊が修羅の苦しみと若き日の舞を示す。"
-    },
-    {
-      "op": "show",
-      "actor": "iwao",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei_kimono",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "「敦盛の舞」へ来た。敦盛の霊が修羅の苦しみと若き日の舞を示す。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "ここで黙れば、誰かが代わりに意味を決める。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "私が守りたいのは「敵を一人の人間として見た時、弔いが始まる」だ。"
-    },
-    {
-      "op": "nar",
-      "text": "敦盛の舞の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "守るという言葉が、誰かの犠牲を隠していないか。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "ならば勝ち負けだけでなく、支払う代価も見る。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "過去は変えられない。だが次の手は選べる。",
-      "eyes": "normal"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。敦盛の霊が修羅の苦しみと若き日の舞を示す。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "敦盛の霊が修羅の苦しみと若き日の舞を示す。その事実から目をそらさない。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "恐れを消すのではなく、恐れたまま進もう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "私の名ではなく、行いで答えを残す。"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "その答えを、次の場面まで持って行こう。",
-      "eyes": "fun"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "ここで決める。逃げず、相手の声を聞く。"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "rei_kimono",
-      "text": "ならば私も、その決断の重さを分け合う。",
-      "eyes": "crying"
-    },
-    {
-      "op": "hide",
-      "actor": "iwao"
-    },
-    {
-      "op": "hide",
-      "actor": "rei_kimono"
-    },
-    {
-      "op": "bg",
-      "src": "prayer_dawn",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "prayer_dawn"
-    },
-    {
-      "op": "nar",
-      "text": "第5景「暁の弔い」。敵味方を越えた祈りのうちに夜が明ける。"
-    },
-    {
-      "op": "show",
-      "actor": "extra_villager",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "iwao",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "「暁の弔い」へ来た。敵味方を越えた祈りのうちに夜が明ける。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "ここで黙れば、誰かが代わりに意味を決める。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "私が守りたいのは「敵を一人の人間として見た時、弔いが始まる」だ。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "暁の弔いの空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "守るという言葉が、誰かの犠牲を隠していないか。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "ならば勝ち負けだけでなく、支払う代価も見る。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "過去は変えられない。だが次の手は選べる。"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。敵味方を越えた祈りのうちに夜が明ける。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "敵味方を越えた祈りのうちに夜が明ける。その事実から目をそらさない。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "恐れを消すのではなく、恐れたまま進もう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "私の名ではなく、行いで答えを残す。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "その答えを、次の場面まで持って行こう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "ここで決める。逃げず、相手の声を聞く。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "iwao",
-      "text": "ならば私も、その決断の重さを分け合う。"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_villager"
-    },
-    {
-      "op": "hide",
-      "actor": "iwao"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "物語はここまで。残った問いは「敵を一人の人間として見た時、弔いが始まる」。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ご来場、ありがとうございました。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "end"
+  {
+   "role": "敦盛の霊",
+   "actor": "rei_kimono",
+   "costume": "default"
+  },
+  {
+   "role": "里人",
+   "actor": "extra_villager",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "suma_shore": "bg/atsumori-suma_shore-2048x1152.png",
+  "grass_flute": "bg/atsumori-grass_flute-2048x1152.png",
+  "battle_memory": "bg/atsumori-battle_memory-2048x1152.png",
+  "ghost_dance": "bg/atsumori-ghost_dance-2048x1152.png",
+  "prayer_dawn": "bg/atsumori-prayer_dawn-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "源平の戦の、一ノ谷。波打際で、源氏の熊谷直実は、平家の若武者を組み伏せ、その首を取りました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "若武者の名は、平敦盛。年は、わずか十七。腰には、一管の笛が、差してありました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "能『敦盛』。直実は、その後、髪をおろし、蓮生という名の僧となります。そして、ある春、須磨の浦へ、旅立ちました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "敵を、ひとりの人間として、見つめたとき。……そこから、弔いは、始まるのでございます。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "bg",
+   "src": "suma_shore",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "suma_shore"
+  },
+  {
+   "op": "nar",
+   "text": "須磨の浦。春の夕暮れ。波の音が、静かに寄せては返す。墨染めの衣の僧が、ひとり、浜辺に立っている。"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……ここが、須磨の浦か。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "潮の香りは、昔のままだ。……変わったのは、拙僧の頭の、毛のほうか。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "あの日から、幾年が過ぎたか。……数えるのを、やめてしまった。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "拙僧は、蓮生。かつては、熊谷次郎直実と名乗り、源氏の軍勢に、加わっておった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "この浜で、ひとりの若武者を、討った。……わが子、小次郎と、同じ年ごろの若者であった。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "首を取ろうと、兜を押しのけたとき、その顔の、あまりの若さに、手が止まった。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "逃がそうと思った。……だが、背後から、味方の軍勢が、迫っていた。拙僧が逃がしても、他の者が、必ず討つ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "ならば、せめて、この手で。……そう思って、刀を、振り下ろした。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "その若者の腰に、錦の袋の、笛があった。……前の晩、平家の陣から、聞こえてきた笛の音は、この若者のものであったか、と。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "戦場に、笛を持ってくる者が、おるのか。……あの日、拙僧は、初めて、武士であることが、厭わしくなった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "弔うために、ここへ来た。……いや。弔わせてもらうために、来たのかもしれぬ。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "浜の砂は、冷たい。あの日も、冷たかったか、熱かったか。……もう、思い出せぬ。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "思い出せぬことが、いちばん、つらい。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "bg",
+   "src": "grass_flute",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "grass_flute"
+  },
+  {
+   "op": "nar",
+   "text": "夕闇が、浜辺の草原に、降りてきた。遠くから、笛の音が、流れてくる。草刈りの男たちが、肩に鎌をかけて、帰ってくる。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_villager",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "……旅のお坊さまですか。日が暮れますよ。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "うむ。……今の笛は、そなたらのものか。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "ええ。草刈りの帰りに、笛を吹くのが、この浦の慣わしでして。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "草刈りの者が、笛を。……雅なことだ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "雅なんて、とんでもない。……木こりの歌、草刈りの笛、と申しまして、身分の低い者の、たわむれでございますよ。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……身分の高い低いに、笛の音の、善し悪しは、なかろう。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "お坊さまは、面白いことを、おっしゃる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "ところで、今夜の宿は、お決まりで。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "浜の松の下で、一夜を明かす。……旅の僧には、それで、足りる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "夜の須磨は、冷えますよ。せめて、これを。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "草刈りの男は、腰の竹筒を、蓮生に、差し出した。中は、温い白湯だった。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_villager"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "show",
+   "actor": "extra_villager",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "right"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "草刈りの男たちの中に、ひときわ若い者が、ひとり、残っていた。手には、笛を、一管。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……そなたは、まだ、帰らぬのか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "お坊さまに、お願いがございまして。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "何なりと。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……十念を、授けていただけませんか。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "十念。……念仏を、十遍。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "はい。……ある人のために。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "ある人とは。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……この浦で、亡くなった方のために。"
+  },
+  {
+   "op": "nar",
+   "text": "蓮生は、若者の顔を、じっと見つめた。夕暮れの光の中で、その顔は、どこか、見覚えがあるように思えた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "……おや、あの若い衆、どこの家の者だったかな。……毎日、見かけるけれど、名前を、知らない。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……そなた、名は。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……名を申すまでも、ございません。お坊さまが、毎日、念仏の中で、呼んでくださっている名でございます。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "そう言うと、若者の姿は、夕闇の中に、ふっと、消えた。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……今の若者は、どこへ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "……煙のように、いなくなった。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_villager"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "show",
+   "actor": "extra_villager",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "お坊さま。……この浦には、昔から、言い伝えがございます。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "聞かせてくれ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "一ノ谷の合戦のとき、平家の公達で、敦盛さまという方が、この浜で、討たれたそうで。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "年は、十七。笛の名手で、討たれたときも、腰に、笛を差しておられた、と。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……知っておる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "ご存じで。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……その方を討ったのは、拙僧だ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "……では、あなたさまが。",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "熊谷次郎直実。……それが、拙僧の、昔の名だ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "……それで、お坊さまに。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "今宵は、ここに留まり、夜通し、念仏を唱えよう。……あの方が、もう一度、来られるかもしれぬ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "……では、わたしは、これで。……どうか、お気をつけて。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "かたじけない。……白湯の礼は、念仏でお返しする。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "念仏は、腹の足しに、なりませんが。……心の足しには、なりましょう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_villager"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "bg",
+   "src": "battle_memory",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "battle_memory"
+  },
+  {
+   "op": "nar",
+   "text": "夜。浜辺。月が、雲の切れ間から、のぞいている。蓮生の念仏の声が、波の音に、溶けていく。"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "南無阿弥陀仏。南無阿弥陀仏。"
+  },
+  {
+   "op": "nar",
+   "text": "波打際に、鎧姿の若武者が、静かに、立っていた。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……蓮生どの。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……おお、あの夕暮れの若者は、やはり。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "夕暮れには、草刈りの姿で、参りました。……今は、あの日の姿で、参りました。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……拙僧を、恨んでおられるか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……それを、確かめに、参りました。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "敦盛は、ゆっくりと、語り始めた。平家が、都で栄えた日々のこと。そして、栄華から転げ落ちていった日々のこと。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "都を追われ、福原へ、須磨へ。……春の花も、秋の月も、海の上から、眺めるばかりになりました。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "一ノ谷に陣を構えた、前の晩。……一族の者たちが集まり、最後の宴を、催しました。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "わたしは、笛を吹きました。……父も、兄も、黙って、聞いておりました。誰も、明日のことを、口にしませんでした。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "兄の経正は、琵琶を。叔父は、謡を。……母は、涙で、何も、できませんでした。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……その笛の音を、拙僧は、源氏の陣で、聞いた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……聞いておられましたか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "陣の者たちは、皆、黙った。敵の笛に、聞き入っていた。……あの夜だけは、戦が、遠かった。"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "翌朝。源氏の軍が、背後の崖を、駆け下りてきました。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "一族は、船へ、逃れました。わたしも、船へ向かいました。……けれど、笛を、陣に、置き忘れてしまった。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……笛を、取りに戻られたのか。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "はい。……取りに戻ったせいで、船に、乗り遅れました。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "馬を、海に乗り入れました。沖の船を、目指して。……そのとき、浜から、声が、聞こえました。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……「敵に、背を見せるか。返せ、返せ」。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……あなたの、声でした。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……拙僧の、声であった。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "武士として、背を向けたまま、逃げることは、できませんでした。……わたしは、馬を、返しました。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "組み合い、拙僧が、上になった。兜を押しのけ、顔を見た。……薄く化粧をし、歯を、黒く染めておられた。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "名を、問うた。……名乗られなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "名乗っても、名乗らなくても、討たれることに、変わりはございませんでしたから。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……ただ、ひとこと、申しました。「早く、首を取れ」と。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "拙僧の手は、震えていた。……三度、刀を、取り落とした。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "存じております。……三度目に、あなたが、泣いておられるのが、見えました。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……あの言葉が、ずっと、耳から、離れぬ。",
+   "eyes": "crying"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "bg",
+   "src": "ghost_dance",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "ghost_dance"
+  },
+  {
+   "op": "nar",
+   "text": "月が、雲を払った。波打際が、銀色に光る。敦盛の霊が、ゆっくりと、舞い始めた。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……あの夜の宴で、わたしは、笛を吹き、そして、舞いました。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "春の花は、散るもの。秋の月は、欠けるもの。……人の世の栄えも、同じこと。"
+  },
+  {
+   "op": "nar",
+   "text": "舞は、次第に、激しくなった。宴の舞から、修羅の舞へ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……修羅の道とは、こういうものです。討ち、討たれ、また討つ。……死んでからも、戦が、終わらない。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "笛は、あなたの手で、父のもとへ、届きました。……ですが、わたしの心は、あの浜から、動けませんでした。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "毎晩、あの日の波打際に、立っております。……そして、毎晩、あなたの声を、聞くのです。返せ、返せ、と。"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……お立ちなされ、若き人。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……あなたは、わたしの、敵。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "敦盛は、腰の太刀に、手をかけた。そして、蓮生に、向き直った。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "今こそ、この太刀で、……あの日の、続きを。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……斬られよう。拙僧は、そのために、ここへ来たのかもしれぬ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "覚悟の顔を、なさいますな。……それでは、あの日と、同じです。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "ただ、一つだけ。……この念仏の続きは、誰かに、託させてほしい。"
+  },
+  {
+   "op": "nar",
+   "text": "敦盛は、太刀を振りかぶった。……そのまま、動かなかった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……斬れません。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "なぜ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "あなたは、もう、熊谷次郎直実では、ございません。……毎日、わたしの名を、念仏の中で、呼んでくださる、蓮生どのです。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "敵では、なくなった人を、斬ることは、できません。"
+  },
+  {
+   "op": "nar",
+   "text": "敦盛の手から、太刀が、すうっと、消えた。波が、ひときわ、静かに寄せた。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "bg",
+   "src": "prayer_dawn",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "prayer_dawn"
+  },
+  {
+   "op": "nar",
+   "text": "東の空が、白み始めた。波の音が、穏やかになっている。敦盛の霊と、蓮生が、浜辺に、並んで座っている。"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……敦盛どの。あの日、拙僧が、首を取ったあと、何をしたか、ご存じか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……存じません。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "首と、笛を、そなたの父上、経盛どのの陣へ、送り届けた。……手紙を、添えて。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……父のもとへ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "笛は、そなたのものゆえ、そなたの家に、返すべきと、思うた。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "経盛どのからは、返書が届いた。……「敵ながら、そのお心遣い、ありがたく」と。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……父が。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "拙僧は、その返書を読んで、刀を、置いた。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……人を討つことと、人を弔うことの、どちらも、同じ手で、するのは、もう、できぬと。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……あなたが、髪をおろされたのは。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "そなたの、笛のせいだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……笛のせいに、されては、笛が、気の毒でございます。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "そうか。……ならば、笛の、おかげだ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "敦盛は、蓮生に、笛を吹いてほしいと頼む",
+     "jump": "m_flute"
+    },
+    {
+     "text": "敦盛は、蓮生に、念仏を続けてほしいと頼む",
+     "jump": "m_prayer"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_flute"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "あの笛は、もう、わたしの手には、ございません。けれど、音は、覚えております。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "蓮生どの。……念仏の代わりに、一節、唱歌を、口ずさんでくださいませんか。あの夜の、宴の曲を。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……拙僧は、笛を、知らぬ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "源氏の陣で、聞いておられたのでしょう。……覚えておられるはずです。",
+   "eyes": "joy"
+  },
+  {
+   "op": "nar",
+   "text": "蓮生は、ためらいがちに、低い声で、節を、口ずさんだ。それは、確かに、あの夜の、笛の調べだった。"
+  },
+  {
+   "op": "jump",
+   "to": "m_end"
+  },
+  {
+   "op": "label",
+   "id": "m_prayer"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "念仏を、続けてくださいませ。……わたしだけでなく、この浜で討たれた、すべての者のために。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "源氏の者も、平家の者も。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "はい。……ここでは、もう、どちらでも、ございません。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "南無阿弥陀仏。……敵も味方も、同じ波の上や。"
+  },
+  {
+   "op": "label",
+   "id": "m_end"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "朝日が、海の向こうから、昇ってきた。光の中で、敦盛の姿が、少しずつ、薄くなっていく。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "蓮生どの。……あなたを、恨んではおりません。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……まことか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "恨みを、確かめに来て、恨みが、ないことを、確かめました。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "……夜が明けたら、もう、この浜には、立ちません。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "どうか、わたしを、弔ってくださいませ。……そして、あなたご自身のことも。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……拙僧のことも、か。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "討った者もまた、討たれた者と同じく、あの日の波打際に、立ち続けているのですから。"
+  },
+  {
+   "op": "nar",
+   "text": "光が満ちた。敦盛の姿は、もう、どこにも、なかった。波打際に、一本の笛のような、細い流木が、打ち上げられていた。"
+  },
+  {
+   "op": "say",
+   "actor": "iwao",
+   "text": "……南無阿弥陀仏。"
+  },
+  {
+   "op": "nar",
+   "text": "蓮生は、流木を、そっと拾い上げ、胸に抱いた。それから、波に向かって、深く、頭を下げた。"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "能『敦盛』、これにて、終わりでございます。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "敵として討った若者を、ひとりの人間として思い続けたとき、蓮生の弔いが始まりました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "そして、恨みに来た者が、恨みのないことを知ったとき、須磨の浦に、ようやく、夜明けが、訪れたのでございます。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

@@ -1,739 +1,1043 @@
 {
-  "meta": {
-    "id": "cat-or-tiger",
-    "number": 142,
-    "title": "猫ではない／虎である ―分類の漫才―",
-    "original": "NONO座オリジナル新作漫才",
-    "category": "新作漫才",
-    "adaptation": "free",
-    "format": "v3",
-    "minutes": 22,
-    "synopsis": "全五景で「分類は便利だが、本人の誇りまで縮めてはいけない」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
-    "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+ "meta": {
+  "id": "cat-or-tiger",
+  "number": 142,
+  "title": "猫ではない／虎である ―分類の漫才―",
+  "original": "NONO座オリジナル新作漫才",
+  "category": "新作漫才",
+  "adaptation": "free",
+  "format": "v3",
+  "minutes": 24,
+  "synopsis": "全五景で「分類は便利だが、本人の誇りまで縮めてはいけない」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "yui_origin",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "狂言回し",
-      "actor": "yui_origin",
-      "costume": "default"
-    },
-    {
-      "role": "ヨル／ボケ",
-      "actor": "yoru",
-      "costume": "default"
-    },
-    {
-      "role": "コテツ／ツッコミ",
-      "actor": "kotetsu",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "zoo_board": "bg/cat-or-tiger-zoo_board-2048x1152.png",
-    "family_tree": "bg/cat-or-tiger-family_tree-2048x1152.png",
-    "pet_shop": "bg/cat-or-tiger-pet_shop-2048x1152.png",
-    "roar_test": "bg/cat-or-tiger-roar_test-2048x1152.png",
-    "sunny_spot": "bg/cat-or-tiger-sunny_spot-2048x1152.png"
+  {
+   "role": "ヨル／ボケ",
+   "actor": "yoru",
+   "costume": "default"
   },
-  "steps": [
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "show",
-      "actor": "yui_origin",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "yui_origin",
-      "text": "ようこそ、NONO座へ。本日の演目は『猫ではない／虎である』。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "yui_origin",
-      "text": "新作漫才の一席を、全五景でお届けします。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "yui_origin",
-      "text": "この舞台の核は「分類は便利だが、本人の誇りまで縮めてはいけない」。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "yui_origin",
-      "text": "台詞はすべて今夜のための書き下ろしです。"
-    },
-    {
-      "op": "say",
-      "actor": "yui_origin",
-      "text": "それでは、幕を開けましょう。",
-      "eyes": "joy"
-    },
-    {
-      "op": "hide",
-      "actor": "yui_origin"
-    },
-    {
-      "op": "bg",
-      "src": "zoo_board",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "zoo_board"
-    },
-    {
-      "op": "nar",
-      "text": "第1景「分類表の前」。ヨルが虎も大きな猫だと言い切る。"
-    },
-    {
-      "op": "show",
-      "actor": "yoru",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "kotetsu",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "さて「分類表の前」だ。ヨルが虎も大きな猫だと言い切る。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "その説明だけで、もう話が脇道へ走っている。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
-      "eyes": "anger"
-    },
-    {
-      "op": "nar",
-      "text": "分類表の前の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "近道なら、さっきと同じ所へ戻るな。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "肝心なのは、分類は便利だが、本人の誇りまで縮めてはいけないということだ。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "急に教訓を置けば片づくと思っているだろう。"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。ヨルが虎も大きな猫だと言い切る。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "片づかないから、もう一度やって確かめる。",
-      "eyes": "crying"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "やり直すたび道具と登場人物が増えている。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "ヨルが虎も大きな猫だと言い切る。ここまでは筋書き通りだ。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "筋書きが困って、こちらを見ているぞ。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "なら最後は、自分で落とし前をつけよう。",
-      "eyes": "anger"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "落とし前とオチを同じ棚に置くな。"
-    },
-    {
-      "op": "hide",
-      "actor": "yoru"
-    },
-    {
-      "op": "hide",
-      "actor": "kotetsu"
-    },
-    {
-      "op": "bg",
-      "src": "family_tree",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "family_tree"
-    },
-    {
-      "op": "nar",
-      "text": "第2景「ネコ科の家系図」。共通点を挙げるほどコテツの威厳が小さくなる。"
-    },
-    {
-      "op": "show",
-      "actor": "yoru",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "kotetsu",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "さて「ネコ科の家系図」だ。共通点を挙げるほどコテツの威厳が小さくなる。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "その説明だけで、もう話が脇道へ走っている。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "ネコ科の家系図の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "近道なら、さっきと同じ所へ戻るな。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "肝心なのは、分類は便利だが、本人の誇りまで縮めてはいけないということだ。",
-      "eyes": "surprise",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "急に教訓を置けば片づくと思っているだろう。"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。共通点を挙げるほどコテツの威厳が小さくなる。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "片づかないから、もう一度やって確かめる。",
-      "eyes": "closed"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "やり直すたび道具と登場人物が増えている。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "共通点を挙げるほどコテツの威厳が小さくなる。ここまでは筋書き通りだ。",
-      "eyes": "joy",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "筋書きが困って、こちらを見ているぞ。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "なら最後は、自分で落とし前をつけよう。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "落とし前とオチを同じ棚に置くな。"
-    },
-    {
-      "op": "hide",
-      "actor": "yoru"
-    },
-    {
-      "op": "hide",
-      "actor": "kotetsu"
-    },
-    {
-      "op": "bg",
-      "src": "pet_shop",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "pet_shop"
-    },
-    {
-      "op": "nar",
-      "text": "第3景「ペット用品売場」。巨大な爪と餌代で家庭猫説が破綻する。"
-    },
-    {
-      "op": "show",
-      "actor": "yoru",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "kotetsu",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "さて「ペット用品売場」だ。巨大な爪と餌代で家庭猫説が破綻する。",
-      "eyes": "anger",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "その説明だけで、もう話が脇道へ走っている。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
-      "eyes": "fun"
-    },
-    {
-      "op": "nar",
-      "text": "ペット用品売場の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "近道なら、さっきと同じ所へ戻るな。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "肝心なのは、分類は便利だが、本人の誇りまで縮めてはいけないということだ。",
-      "eyes": "crying",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "急に教訓を置けば片づくと思っているだろう。"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。巨大な爪と餌代で家庭猫説が破綻する。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "片づかないから、もう一度やって確かめる。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "やり直すたび道具と登場人物が増えている。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "巨大な爪と餌代で家庭猫説が破綻する。ここまでは筋書き通りだ。",
-      "eyes": "anger",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "筋書きが困って、こちらを見ているぞ。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "なら最後は、自分で落とし前をつけよう。",
-      "eyes": "fun"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "落とし前とオチを同じ棚に置くな。"
-    },
-    {
-      "op": "hide",
-      "actor": "yoru"
-    },
-    {
-      "op": "hide",
-      "actor": "kotetsu"
-    },
-    {
-      "op": "bg",
-      "src": "roar_test",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "roar_test"
-    },
-    {
-      "op": "nar",
-      "text": "第4景「鳴き声試験」。ニャーとガオーの中間を科学的に探そうとする。"
-    },
-    {
-      "op": "show",
-      "actor": "yoru",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "kotetsu",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "さて「鳴き声試験」だ。ニャーとガオーの中間を科学的に探そうとする。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "その説明だけで、もう話が脇道へ走っている。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "鳴き声試験の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "近道なら、さっきと同じ所へ戻るな。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "肝心なのは、分類は便利だが、本人の誇りまで縮めてはいけないということだ。",
-      "eyes": "closed",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "急に教訓を置けば片づくと思っているだろう。"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。ニャーとガオーの中間を科学的に探そうとする。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "片づかないから、もう一度やって確かめる。",
-      "eyes": "joy"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "やり直すたび道具と登場人物が増えている。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "ニャーとガオーの中間を科学的に探そうとする。ここまでは筋書き通りだ。",
-      "eyes": "sorrow",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "筋書きが困って、こちらを見ているぞ。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "なら最後は、自分で落とし前をつけよう。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "落とし前とオチを同じ棚に置くな。"
-    },
-    {
-      "op": "choice",
-      "options": [
-        {
-          "text": "正面から問いかける",
-          "jump": "cat-or-tiger_direct"
-        },
-        {
-          "text": "相手の話を最後まで聞く",
-          "jump": "cat-or-tiger_listen"
-        }
-      ]
-    },
-    {
-      "op": "label",
-      "id": "cat-or-tiger_direct"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "私は正面から問う。曖昧なまま次へは進まない。"
-    },
-    {
-      "op": "jump",
-      "to": "cat-or-tiger_merge"
-    },
-    {
-      "op": "label",
-      "id": "cat-or-tiger_listen"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "結論を急がず、相手が何を恐れているかまで聞こう。"
-    },
-    {
-      "op": "label",
-      "id": "cat-or-tiger_merge"
-    },
-    {
-      "op": "nar",
-      "text": "選び方は違っても、二人は同じ核心へ戻ってくる。"
-    },
-    {
-      "op": "hide",
-      "actor": "yoru"
-    },
-    {
-      "op": "hide",
-      "actor": "kotetsu"
-    },
-    {
-      "op": "bg",
-      "src": "sunny_spot",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "sunny_spot"
-    },
-    {
-      "op": "nar",
-      "text": "第5景「日なたの結論」。最後は二人とも日なたで丸まり議論を忘れる。"
-    },
-    {
-      "op": "show",
-      "actor": "yoru",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "kotetsu",
-      "pos": "right"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "さて「日なたの結論」だ。最後は二人とも日なたで丸まり議論を忘れる。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "その説明だけで、もう話が脇道へ走っている。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "脇道ではない。笑いへ通じる立派な近道だ。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "日なたの結論の空気が変わり、二人は言葉の裏を測る。"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "近道なら、さっきと同じ所へ戻るな。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "肝心なのは、分類は便利だが、本人の誇りまで縮めてはいけないということだ。",
-      "eyes": "normal",
-      "mouth": "open"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "急に教訓を置けば片づくと思っているだろう。"
-    },
-    {
-      "op": "nar",
-      "text": "遠くの音が途切れる。最後は二人とも日なたで丸まり議論を忘れる。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "片づかないから、もう一度やって確かめる。",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "やり直すたび道具と登場人物が増えている。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "最後は二人とも日なたで丸まり議論を忘れる。ここまでは筋書き通りだ。",
-      "eyes": "fun",
-      "mouth": "open"
-    },
-    {
-      "op": "nar",
-      "text": "答えを急がず、選んだ手段の代価を確かめる。"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "筋書きが困って、こちらを見ているぞ。"
-    },
-    {
-      "op": "say",
-      "actor": "yoru",
-      "text": "なら最後は、自分で落とし前をつけよう。",
-      "eyes": "crying"
-    },
-    {
-      "op": "nar",
-      "text": "残された沈黙が、次の行動を促す。"
-    },
-    {
-      "op": "say",
-      "actor": "kotetsu",
-      "text": "落とし前とオチを同じ棚に置くな。"
-    },
-    {
-      "op": "hide",
-      "actor": "yoru"
-    },
-    {
-      "op": "hide",
-      "actor": "kotetsu"
-    },
-    {
-      "op": "show",
-      "actor": "yui_origin",
-      "pos": "center"
-    },
-    {
-      "op": "say",
-      "actor": "yui_origin",
-      "text": "物語はここまで。残った問いは「分類は便利だが、本人の誇りまで縮めてはいけない」。",
-      "eyes": "sorrow"
-    },
-    {
-      "op": "say",
-      "actor": "yui_origin",
-      "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
-      "eyes": "normal"
-    },
-    {
-      "op": "say",
-      "actor": "yui_origin",
-      "text": "ご来場、ありがとうございました。",
-      "eyes": "joy"
-    },
-    {
-      "op": "hide",
-      "actor": "yui_origin"
-    },
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "end"
-    }
-  ]
+  {
+   "role": "コテツ／ツッコミ",
+   "actor": "kotetsu",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "zoo_board": "bg/cat-or-tiger-zoo_board-2048x1152.png",
+  "family_tree": "bg/cat-or-tiger-family_tree-2048x1152.png",
+  "pet_shop": "bg/cat-or-tiger-pet_shop-2048x1152.png",
+  "roar_test": "bg/cat-or-tiger-roar_test-2048x1152.png",
+  "sunny_spot": "bg/cat-or-tiger-sunny_spot-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "yui_origin",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "NONO座へようこそ。口上は、ユイ・オリジンです。今夜は、新作漫才をひとつ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "出てくるのは、黒猫の忍び、ヨルと、虎の剣士、コテツ。……猫と虎。似ているようで、似ていない二人です。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "ヨルは言います。虎も、大きな猫じゃないか。コテツは言います。猫ではない、虎である。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "どちらの言い分にも、少しずつ理があります。どうぞ、肩の力を抜いて、聞いてやってください。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui_origin"
+  },
+  {
+   "op": "bg",
+   "src": "zoo_board",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "zoo_board"
+  },
+  {
+   "op": "nar",
+   "text": "動物園の入口。大きな案内板に「ネコ科」の図。ライオン、ヒョウ、虎、そして、家の猫の絵が、同じ枠に並んでいる。"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kotetsu",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "はいどうも、ヨルです。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "コテツだ。……どうも、とは言わん。剣士は、軽々しく頭を下げぬ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "硬いなあ。漫才だよ、今日は。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "漫才とは、何だ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "二人で、ああでもない、こうでもないって言い合って、お客さんに笑ってもらうの。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "言い合い。……決闘のようなものか。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "刀は抜かないでね。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "漫才でも、剣士は剣士だ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "まあいいや。コテツ、この案内板、見てよ。ネコ科。虎も、ほら、猫と同じ枠に入ってる。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "入っておるな。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "つまり、虎は、大きな猫だ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "断じて、違う！",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "違わないよ。ネコ科って、書いてあるもん。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "ネコ科は、家族の名前だ。家族の中にも、兄と弟がおる。猫が弟なら、虎は、兄の兄の、そのまた兄だ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "じゃあ、親戚だね。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "……まあ、親戚ではある。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "親戚の、大きな猫だね。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "だから、猫ではない！　虎である！",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "どこが違うの。言ってみてよ。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "大きさだ。わしは、立てば二間ある。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "大きな猫だね。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "縞だ。わしには、黄色と黒の、見事な縞がある。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "ぼくの里の茶トラも、縞だよ。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "茶トラ……。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "トラって、名前に入ってるし。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "それは、ずるい！",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "牙だ。わしの牙は、鉄の鎧も噛み砕く。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "歯の丈夫な、大きな猫だね。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "何を言っても、大きな猫に戻ってくるではないか！",
+   "eyes": "anger",
+   "mouth": "open"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "kotetsu"
+  },
+  {
+   "op": "bg",
+   "src": "family_tree",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "family_tree"
+  },
+  {
+   "op": "nar",
+   "text": "動物学の教室。黒板に、大きな家系図が書いてある。ヨルが、チョークを持っている。"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kotetsu",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "じゃあ、家系図で、はっきりさせよう。コテツ、猫と虎の、同じところを挙げていくよ。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "よかろう。挙げれば挙げるほど、違いが際立つはずだ。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "ただし、わしが勝ったら、今日の昼飯は、お前のおごりだ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "牛半頭はおごれないよ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "まず、ひげがある。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "……ある。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "肉球がある。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "ある。……柔らかいぞ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "爪を、しまえる。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "しまえる。研ぐのも好きだ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "目の真ん中が、明るいところで細くなる。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "……それは、わしは丸いままだ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "え、そうなの。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "一つ、違いが出たな！",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "夜目がきく。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "きく。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "高いところから、しなやかに着地できる。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "できる。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "ざらざらの舌で、毛づくろいする。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "……する。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "箱を見ると、入りたくなる。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "なぜ、それを知っておる！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "見た。この前、道場の米びつの空き箱に、すっぽり入ってた。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "……あれは、修行だ。狭いところで、気配を消す修行だ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "寝言で、ゴロゴロ言ってたよ。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "それは、言うな！",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "家系図の上で、ヨルの書いた「同じ」の丸が、どんどん増えていく。コテツの背中が、少しずつ丸くなっていく。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "挙げれば挙げるほど、わしが、小さくなっていく気がする。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "小さくなってないよ。家系図が、大きくなっただけ。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "家系図が大きくなると、わしは、その中の一行になる。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "ぼくも一行だよ。同じ大きさの字で。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "……同じ大きさの字か。それは、それで、悪くない。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "kotetsu"
+  },
+  {
+   "op": "bg",
+   "src": "pet_shop",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "pet_shop"
+  },
+  {
+   "op": "nar",
+   "text": "ペット用品の店。猫用のおもちゃ、首輪、爪とぎが、ずらりと並んでいる。"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kotetsu",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "よし、コテツ。家の猫として暮らせるか、試してみよう。まず、首輪。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "首輪など、つけぬ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "ほら、鈴付き。……あ、首が太すぎて、留め金が届かない。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "当然だ。猫の首輪が、虎の首に回るか。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "じゃあ、腕輪にしよう。……ぴったり。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "……鈴が、ちりんと鳴った。悪くはないな。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "次は、猫じゃらし。ほら、ほら。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "……わしは、そんなものには、つられぬ。"
+  },
+  {
+   "op": "nar",
+   "text": "コテツの目が、左右に揺れる羽根を、ぴったり追いかけていた。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "目が、ついてきてるよ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "見張っておるだけだ！",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "次、爪とぎ。この段ボールの板で、ガリガリやってみて。"
+  },
+  {
+   "op": "nar",
+   "text": "コテツが、軽く前足を振り下ろすと、段ボールの爪とぎは、売り場の棚ごと、真っ二つに割れた。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "棚まで！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "軽く、やったつもりだが。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "店員さん、ごめんなさい。弁償します。……コテツが。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "わしがか！",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "次は、ごはん。猫の缶詰、一つ、三十文。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "わしは、一日に、牛を半頭食う。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "缶詰で言うと……ええと、二百四十缶。毎日。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "……多いか。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "多いよ！　ひと月の餌代で、長屋が一軒建つ！"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "ほら見ろ。家の猫では、暮らせぬ。わしは、虎だ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "餌代が高いのは、大きな猫の証拠だと思うけど。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "どこまでも、ねじ曲げるな！",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "猫だからね。体が柔らかいの。",
+   "eyes": "fun"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "kotetsu"
+  },
+  {
+   "op": "bg",
+   "src": "roar_test",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "roar_test"
+  },
+  {
+   "op": "nar",
+   "text": "音の研究所。大きなラッパのような装置。目盛りの針が、真ん中で止まっている。"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kotetsu",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "待て。棚の弁償は、本当にわしか。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "割ったのは、コテツだもん。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "……剣の修行より、高くついた。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "最後は、鳴き声で決めよう。この機械は、ニャーとガオーを、科学的に聞き分ける。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "そんな機械があるのか。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "今朝、作った。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "……信用できぬ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "まず、ぼくから。……ニャー。"
+  },
+  {
+   "op": "nar",
+   "text": "針が、左の端の「ニャー」の目盛りに、ぴたりと振れた。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "ほら、ちゃんと動く。次、コテツ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "よかろう。……ガオオオオッ！"
+  },
+  {
+   "op": "nar",
+   "text": "針が、右の端の「ガオー」を振り切り、機械から煙が出て、ラッパがぽろりと落ちた。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "壊れた！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "どうだ。ニャーの機械では、測れぬ声だ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "じゃあ、中間を探そう。ニャーとガオーの、ちょうど真ん中の声。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "真ん中の声など、ない。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "あるよ。ほら、ニャオ。……ニャガオ。……ガニャ。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "なんだ、その声は。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "コテツもやってみて。ガニャ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "……ガ、ニャ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "言った！　今、ちょっと、猫寄りだった！",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "言わせたのは、お前だ！",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "でも、ちょっと、楽しそうだったよ。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "……少しだけな。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "kotetsu"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kotetsu",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "ヨル、一つ、聞いてもよいか。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "なに。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "なぜ、そこまで、わしを猫にしたがる。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……したがってるわけじゃないよ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "ぼくは、黒猫だから。忍びの里では、猫なんて、小さくて弱いって言われてきた。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "虎も猫の仲間なら、猫も、虎みたいに強くなれるかもしれない。……そう思いたかったんだ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "お前、そんなことを、気にしておったのか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "ヨル、お前は、強い。屋根を音もなく走り、闇で、わしの気配まで消して見せる。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "わしには、真似できぬ。それは、虎にない、猫の強さだ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……本当に。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "剣士は、嘘をつかぬ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "漫才でも。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "漫才でもだ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "じゃあ、ぼくも言うよ。コテツは、猫じゃない。……虎だよ。誇り高い、大きな、虎。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "……分かればよい。",
+   "eyes": "joy"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "kotetsu"
+  },
+  {
+   "op": "bg",
+   "src": "sunny_spot",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "sunny_spot"
+  },
+  {
+   "op": "nar",
+   "text": "道場の縁側。冬の昼下がり。日だまりが、板の間に四角く落ちている。"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "kotetsu",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "分類なんて、便利なだけで、全部じゃないね。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "便利なのは、確かだ。だが、名札の中に、誇りまで押し込められては、かなわぬ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "猫の枠に入ってても、虎は虎。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "虎の親戚でも、猫は猫。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "いいこと言うじゃん。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "剣士は、いいことしか言わぬ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "二人の間に、日だまりが、少しずつ広がっていく。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "あったかいね。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "……うむ。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "縁側で日に当たるのは、虎の里でも、猫の里でも、同じなのだな。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "誰だって、あったかいのは好きだよ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "なんか、眠くなってきた。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "わしもだ。……日だまりは、いかん。剣士の心を、ゆるめる。"
+  },
+  {
+   "op": "nar",
+   "text": "ヨルが、くるりと丸くなった。コテツも、ためらいながら、大きな体を丸めた。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "……ゴロゴロ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "……グルル……ゴロ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "あ、言った。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
+   "text": "言っておらぬ。寝言だ。"
+  },
+  {
+   "op": "nar",
+   "text": "二人は、何の議論をしていたのかを忘れて、日だまりの中で、並んで眠ってしまった。"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "hide",
+   "actor": "kotetsu"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "yui_origin",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "新作漫才『猫ではない／虎である』、これにておしまいです。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "名札は、分けるためにあります。でも、名札を貼られた本人の誇りまで、小さく畳んでしまっては、いけませんね。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "日だまりで丸くなるのは、猫も、虎も、同じでした。……どうぞ、皆さまも、温かいところで、ひと休みを。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui_origin"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

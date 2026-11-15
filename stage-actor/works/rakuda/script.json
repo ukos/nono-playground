@@ -7,9 +7,9 @@
   "category": "古典落語・上方落語",
   "adaptation": "moderate",
   "format": "v3",
-  "minutes": 38,
+  "minutes": 40,
   "synopsis": "全五景で「脅され続けた人が酒で立場を逆転する可笑しさ」を核に、原作または企画の主要な運動をNONO座向けに再構成する。背景転換と少人数の対話で、出来事だけでなく選択の代価まで描く。",
-  "note": "既存の翻訳・上演台本・特定演者の口演は使用せず、台詞はすべて本上演版の書き下ろし。"
+  "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
  },
  "cast": [
   {
@@ -58,33 +58,22 @@
   {
    "op": "say",
    "actor": "nono",
-   "text": "ようこそ、NONO座へ。本日の演目は『らくだ』。",
-   "eyes": "normal"
+   "text": "江戸の裏長屋に、「らくだ」と呼ばれる男がおりました。図体が大きく、のそのそ歩き、何の役にも立たない。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "古典落語・上方落語の一席を、全五景でお届けします。",
-   "mouth": "open",
-   "eyes": "normal"
+   "text": "乱暴で、酒癖が悪く、家賃は一度も払ったことがない。長屋じゅうが、この男を、恐れておりました。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "この舞台の核は「脅され続けた人が酒で立場を逆転する可笑しさ」。",
-   "eyes": "sorrow"
+   "text": "古典落語『らくだ』。そのらくだが、ある朝、ふぐにあたって、ころりと死んでしまうところから、お話は始まります。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "台詞はすべて今夜のための書き下ろしです。"
-  },
-  {
-   "op": "say",
-   "actor": "nono",
-   "text": "それでは、幕を開けましょう。",
-   "mouth": "open",
-   "eyes": "joy"
+   "text": "脅される者と、脅す者。……その立場は、酒の一升で、ひっくり返ることがございます。"
   },
   {
    "op": "hide",
@@ -101,107 +90,245 @@
   },
   {
    "op": "nar",
-   "text": "第1景「らくだの長屋」。乱暴者らくだの死を兄貴分半次が見つける。"
+   "text": "長屋の一番奥の部屋。破れ障子。煎餅布団の上に、大男が、ぴくりとも動かずに、横たわっている。"
   },
   {
    "op": "show",
-   "actor": "rei_casual",
-   "pos": "left"
+   "actor": "extra_mummy",
+   "pos": "center"
   },
   {
    "op": "show",
    "actor": "gou",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "おい、らくだ。……らくだ。昼間っから、何を寝とるんだ。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "昨日の晩、ふぐを持って帰ったろう。一人で、全部、食いやがったな。"
+  },
+  {
+   "op": "nar",
+   "text": "半次は、布団の男の肩を、ゆすった。冷たかった。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "……おい。……冗談だろう。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "死んでやがる。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "……ふぐの毒か。だから言ったんだ、素人が、捌くなって。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "兄弟分の葬式くらい、出してやらなきゃならねえ。……だが、こっちも、一文なしだ。"
+  },
+  {
+   "op": "nar",
+   "text": "そのとき、表の路地から、のんびりした呼び声が聞こえてきた。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
    "pos": "right"
   },
   {
    "op": "say",
    "actor": "rei_casual",
-   "text": "さて「らくだの長屋」だ。乱暴者らくだの死を兄貴分半次が見つける。",
-   "eyes": "normal"
+   "text": "くずぅい、おはらい。紙くず、古着、鍋釜の欠けたの、何でも買います。"
   },
   {
    "op": "say",
    "actor": "gou",
-   "text": "その説明だけで、もう話が脇道へ走っている。"
+   "text": "……ちょうどいいのが、来やがった。"
   },
   {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "脇道ではない。笑いへ通じる立派な近道だ。",
-   "eyes": "anger"
+   "op": "hide",
+   "actor": "extra_mummy"
   },
   {
-   "op": "nar",
-   "text": "らくだの長屋の空気が変わり、二人は言葉の裏を測る。"
-  },
-  {
-   "op": "say",
-   "actor": "gou",
-   "text": "近道なら、さっきと同じ所へ戻るな。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "肝心なのは、脅され続けた人が酒で立場を逆転する可笑しさということだ。",
-   "eyes": "fun"
-  },
-  {
-   "op": "say",
-   "actor": "gou",
-   "text": "急に教訓を置けば片づくと思っているだろう。"
-  },
-  {
-   "op": "nar",
-   "text": "遠くの音が途切れる。乱暴者らくだの死を兄貴分半次が見つける。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "片づかないから、もう一度やって確かめる。",
-   "eyes": "crying"
-  },
-  {
-   "op": "say",
-   "actor": "gou",
-   "text": "やり直すたび道具と登場人物が増えている。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "乱暴者らくだの死を兄貴分半次が見つける。ここまでは筋書き通りだ。",
-   "eyes": "normal"
-  },
-  {
-   "op": "nar",
-   "text": "答えを急がず、選んだ手段の代価を確かめる。"
-  },
-  {
-   "op": "say",
-   "actor": "gou",
-   "text": "筋書きが困って、こちらを見ているぞ。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "なら最後は、自分で落とし前をつけよう。",
-   "eyes": "anger"
-  },
-  {
-   "op": "nar",
-   "text": "残された沈黙が、次の行動を促す。"
-  },
-  {
-   "op": "say",
-   "actor": "gou",
-   "text": "落とし前とオチを同じ棚に置くな。"
+   "op": "hide",
+   "actor": "gou"
   },
   {
    "op": "hide",
    "actor": "rei_casual"
   },
   {
+   "op": "show",
+   "actor": "gou",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "おい、屑屋。ちょっと、寄っていけ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "へえ、毎度。……あ、ここは、らくださんの家で。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "らくだは、死んだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……え、死んだ。あの、らくださんが。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "俺は、らくだの兄弟分の、半次ってもんだ。弔いを出してやりてえ。この部屋のもん、全部、買ってくれ。"
+  },
+  {
+   "op": "nar",
+   "text": "屑屋は、部屋の中を見回した。欠けた茶碗。底の抜けた鍋。"
+  },
+  {
+   "op": "nar",
+   "text": "壁には、大家から叩きつけられた、家賃の催促状が、何枚も貼ってあった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……親方、ここのもんは、どれも、一文にもなりません。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "一文にもならねえ、だと。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "いえ、その……鍋は、穴が三つ。茶碗は、ひびが四つ。布団は、仏さまが、お使い中で。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "……ちっ。ほな、使いを頼む。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "使い、ですか。わたしは、商売の途中で。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "商売の籠は、ここに置いていけ。逃げられちゃ、困るからな。",
+   "eyes": "anger"
+  },
+  {
+   "op": "nar",
+   "text": "半次は、屑屋の籠を、ひったくるように、取り上げた。"
+  },
+  {
    "op": "hide",
    "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "まず、月番のところへ行って、長屋じゅうから、香典を集めてこい。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "香典。……らくださんに、香典を出す人が、おりますかね。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "出さなきゃ、らくだの兄貴分が、毎晩、挨拶に行くと言え。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……脅しの香典ですか。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "それから、大家のところだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "大家さん。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "通夜の酒を、三升。それに、煮しめを、大皿で。……持ってこいと、言ってこい。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "大家さんが、らくださんの通夜に、酒を。……無理でございます。らくださん、家賃を、一度も。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "断られたら、こう言え。……死人の、かんかん踊りを、お目にかけます、とな。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "かん、かん、踊り。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "行けば、わかる。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
   },
   {
    "op": "bg",
@@ -214,7 +341,7 @@
   },
   {
    "op": "nar",
-   "text": "第2景「大家の店先」。屑屋が死骸のかんかん踊りで酒肴を要求する。"
+   "text": "大家の家の店先。帳場の奥で、大家が、算盤を弾いている。屑屋は、おそるおそる、声をかけた。"
   },
   {
    "op": "show",
@@ -223,99 +350,60 @@
   },
   {
    "op": "show",
-   "actor": "extra_mummy",
+   "actor": "rei_casual",
    "pos": "right"
   },
   {
    "op": "say",
-   "actor": "tanurio",
-   "text": "さて「大家の店先」だ。屑屋が死骸のかんかん踊りで酒肴を要求する。",
-   "eyes": "joy",
-   "mouth": "open"
+   "actor": "rei_casual",
+   "text": "大家さん。あの……らくださんが、亡くなりまして。"
   },
   {
    "op": "say",
-   "actor": "extra_mummy",
-   "text": "その説明だけで、もう話が脇道へ走っている。",
+   "actor": "tanurio",
+   "text": "死んだか！　それは、めでたい。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "めでたい、とは。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "いや、つい、本音が。……で、何の用だ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "らくださんの兄弟分の、半次という人から、通夜の酒を三升、煮しめを大皿で、と。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "冗談じゃない！　あいつに、家賃を、一文でも、もらったことがあるか！　酒どころか、水一杯、出すもんか！",
    "eyes": "anger"
   },
   {
    "op": "say",
-   "actor": "tanurio",
-   "text": "脇道ではない。笑いへ通じる立派な近道だ。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "nar",
-   "text": "大家の店先の空気が変わり、二人は言葉の裏を測る。"
+   "actor": "rei_casual",
+   "text": "……そうおっしゃると、思いました。"
   },
   {
    "op": "say",
-   "actor": "extra_mummy",
-   "text": "近道なら、さっきと同じ所へ戻るな。",
-   "eyes": "fun"
+   "actor": "rei_casual",
+   "text": "断られたときの伝言も、預かっとります。……仏さまが、こちらで、踊ってみせる、と。"
   },
   {
    "op": "say",
    "actor": "tanurio",
-   "text": "肝心なのは、脅され続けた人が酒で立場を逆転する可笑しさということだ。",
-   "eyes": "surprise",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "extra_mummy",
-   "text": "急に教訓を置けば片づくと思っているだろう。",
-   "eyes": "crying"
-  },
-  {
-   "op": "nar",
-   "text": "遠くの音が途切れる。屑屋が死骸のかんかん踊りで酒肴を要求する。"
-  },
-  {
-   "op": "say",
-   "actor": "tanurio",
-   "text": "片づかないから、もう一度やって確かめる。",
+   "text": "……かんかん踊り？　やれるもんなら、やってみろ。",
    "eyes": "closed"
   },
   {
-   "op": "say",
-   "actor": "extra_mummy",
-   "text": "やり直すたび道具と登場人物が増えている。",
-   "eyes": "normal"
-  },
-  {
-   "op": "say",
-   "actor": "tanurio",
-   "text": "屑屋が死骸のかんかん踊りで酒肴を要求する。ここまでは筋書き通りだ。",
-   "eyes": "joy",
-   "mouth": "open"
-  },
-  {
    "op": "nar",
-   "text": "答えを急がず、選んだ手段の代価を確かめる。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_mummy",
-   "text": "筋書きが困って、こちらを見ているぞ。",
-   "eyes": "anger"
-  },
-  {
-   "op": "say",
-   "actor": "tanurio",
-   "text": "なら最後は、自分で落とし前をつけよう。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "nar",
-   "text": "残された沈黙が、次の行動を促す。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_mummy",
-   "text": "落とし前とオチを同じ棚に置くな。",
-   "eyes": "fun"
+   "text": "屑屋は、肩を落として、長屋へ戻った。"
   },
   {
    "op": "hide",
@@ -323,7 +411,186 @@
   },
   {
    "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "bg",
+   "src": "tenement_room",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "tenement_room"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "親方、だめでした。やれるもんなら、やってみろ、と。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "それから、らくださんが死んで、めでたい、とも。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "……めでたい、だと。",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "……そうか。やってみろ、と言ったか。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "半次は、布団の上の、らくだの死骸を、ぐいと抱き起こした。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_mummy",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "屑屋。こいつの足を持て。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "え、足を。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "大家のとこまで、担いでいく。……やってみろと、言われたんだからな。"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
    "actor": "extra_mummy"
+  },
+  {
+   "op": "bg",
+   "src": "landlord_door",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "landlord_door"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "right"
+  },
+  {
+   "op": "show",
+   "actor": "extra_mummy",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "大家の店先。半次が、らくだの死骸の両脇を抱えて、ぐらぐらと揺すった。死骸の手足が、ぶらんぶらんと、踊るように揺れた。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "かんかんのう、きゅうのですっ！"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "ひぃぃっ！　や、やめろ！　やめてくれ！",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "酒、三升。煮しめ、大皿。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "出す！　出す！　何でも出す！　だから、その、踊りを、止めてくれぇ！",
+   "eyes": "crying"
+  },
+  {
+   "op": "nar",
+   "text": "隣の八百屋も、向かいの漬物屋も、震えながら、樽やら菜っ葉やらを、差し出した。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_mummy"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……親方、本当に、やるとは。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "やってみろと言われて、やらねえのは、男じゃねえ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "仏さまが、気の毒で。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "気の毒なのは、こいつに家賃を踏み倒された、大家のほうかもしれねえがな。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "こいつは、生きてるとき、さんざん人を脅してきた。死んでから、一回くらい、脅しの手伝いをしたって、罰は当たらねえ。"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
   },
   {
    "op": "bg",
@@ -336,107 +603,268 @@
   },
   {
    "op": "nar",
-   "text": "第3景「通夜の酒盛り」。気弱な屑屋が酒を重ねるほど威勢を増す。"
+   "text": "らくだの部屋。夜。枕元に線香が一本。そのそばに、大家から届いた酒の樽と、煮しめの大皿が並んでいる。"
   },
   {
    "op": "show",
-   "actor": "rei_casual",
+   "actor": "gou",
    "pos": "left"
   },
   {
    "op": "show",
-   "actor": "gou",
+   "actor": "rei_casual",
    "pos": "right"
   },
   {
    "op": "say",
+   "actor": "gou",
+   "text": "よし、屑屋。お前も、一杯やれ。"
+  },
+  {
+   "op": "say",
    "actor": "rei_casual",
-   "text": "さて「通夜の酒盛り」だ。気弱な屑屋が酒を重ねるほど威勢を増す。",
+   "text": "いえ、わたしは、商売がありますので。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "俺の酒が、飲めねえってのか。",
    "eyes": "anger"
   },
   {
    "op": "say",
-   "actor": "gou",
-   "text": "その説明だけで、もう話が脇道へ走っている。"
-  },
-  {
-   "op": "say",
    "actor": "rei_casual",
-   "text": "脇道ではない。笑いへ通じる立派な近道だ。",
-   "eyes": "fun"
+   "text": "……では、一杯だけ。"
   },
   {
    "op": "nar",
-   "text": "通夜の酒盛りの空気が変わり、二人は言葉の裏を測る。"
-  },
-  {
-   "op": "say",
-   "actor": "gou",
-   "text": "近道なら、さっきと同じ所へ戻るな。"
+   "text": "屑屋は、湯呑みを、両手で受け取って、ぐっと飲み干した。"
   },
   {
    "op": "say",
    "actor": "rei_casual",
-   "text": "肝心なのは、脅され続けた人が酒で立場を逆転する可笑しさということだ。",
-   "eyes": "crying"
+   "text": "……ああ、うまい。久しぶりです、こんないい酒は。"
   },
   {
    "op": "say",
    "actor": "gou",
-   "text": "急に教訓を置けば片づくと思っているだろう。"
+   "text": "大家の蔵の、とっておきだそうだ。震えながら、出してきやがった。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "もう一杯。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "いえ、もう、本当に。……籠を返していただけたら。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "飲んだら、返してやる。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……では、もう一杯だけ。"
   },
   {
    "op": "nar",
-   "text": "遠くの音が途切れる。気弱な屑屋が酒を重ねるほど威勢を増す。"
+   "text": "二杯。三杯。屑屋の頬に、赤みがさしてきた。"
   },
   {
    "op": "say",
    "actor": "rei_casual",
-   "text": "片づかないから、もう一度やって確かめる。",
-   "eyes": "normal"
+   "text": "……親方。わたしにはね、女房と、子どもが三人、おりまして。"
   },
   {
    "op": "say",
    "actor": "gou",
-   "text": "やり直すたび道具と登場人物が増えている。"
+   "text": "それがどうした。"
   },
   {
    "op": "say",
    "actor": "rei_casual",
-   "text": "気弱な屑屋が酒を重ねるほど威勢を増す。ここまでは筋書き通りだ。",
-   "eyes": "anger"
+   "text": "毎日、紙くず拾って、やっと食わしてる。……それをね、らくださんは、何度も、何度も、籠から銭を、持っていきやがった。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "……おい、屑屋。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "「持っていきやがった」ですよ。親方、聞いてますか。"
   },
   {
    "op": "nar",
-   "text": "答えを急がず、選んだ手段の代価を確かめる。"
+   "text": "四杯。五杯。屑屋の声が、だんだん大きくなる。"
   },
   {
-   "op": "say",
-   "actor": "gou",
-   "text": "筋書きが困って、こちらを見ているぞ。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "なら最後は、自分で落とし前をつけよう。",
-   "eyes": "fun"
-  },
-  {
-   "op": "nar",
-   "text": "残された沈黙が、次の行動を促す。"
-  },
-  {
-   "op": "say",
-   "actor": "gou",
-   "text": "落とし前とオチを同じ棚に置くな。"
+   "op": "hide",
+   "actor": "gou"
   },
   {
    "op": "hide",
    "actor": "rei_casual"
   },
   {
+   "op": "show",
+   "actor": "gou",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "おう、半次。酒が、もう、ねえじゃねえか。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "……は、半次？　呼び捨てか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "大家んとこへ行って、もう一升、もらってこい。……断られたら、かんかん踊りだ。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "お、俺が行くのか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "当たり前だ。さっきは、俺が行った。順番だ。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "……なんだ、こいつ。急に、肝が据わりやがった。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "半次、お前、この煮しめの里芋、いくつ食った。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "……里芋は、三つばかり。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "煮しめも、半分、食っちまいやがって。人の分まで食うのは、らくだと一緒だ。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "……すまねえ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "すまねえで済むか！　……まあいい、座れ。注いでやる。"
+  },
+  {
+   "op": "nar",
+   "text": "半次は、言われるままに、正座した。屑屋は、なみなみと、湯呑みに酒を注いだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "飲め。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "……頂戴します、兄い。"
+  },
+  {
    "op": "hide",
    "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "で、半次。この仏さま、どうする。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "どうするって……弔いを。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "弔いってのは、焼き場へ運んで、焼いてもらうんだ。金がねえなら、知り合いの焼き場がある。落合の、隠坊の安公だ。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "お前、そんな知り合いが。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "屑屋は、町じゅうに、知り合いがいるんだよ。……棺桶は、八百屋の漬物樽でいい。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "漬物樽。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "らくだにゃ、樽で、上等だ。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "……樽に入るかな。あいつ、でかいぞ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "膝を抱えさせりゃ、入る。生きてるうちは、膝を抱えたことなんか、なかったろうがな。"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
   },
   {
    "op": "bg",
@@ -449,159 +877,86 @@
   },
   {
    "op": "nar",
-   "text": "第4景「焼き場への道」。立場が逆転し屑屋が半次を叱り飛ばす。"
+   "text": "夜更け。月明かり。半次と屑屋が、天秤棒に吊るした漬物樽を担いで、千鳥足で、坂道を下っていく。"
   },
   {
    "op": "show",
-   "actor": "tanurio",
+   "actor": "gou",
    "pos": "left"
   },
   {
    "op": "show",
-   "actor": "extra_mummy",
+   "actor": "rei_casual",
    "pos": "right"
   },
   {
    "op": "say",
-   "actor": "tanurio",
-   "text": "さて「焼き場への道」だ。立場が逆転し屑屋が半次を叱り飛ばす。",
-   "eyes": "sorrow",
-   "mouth": "open"
+   "actor": "rei_casual",
+   "text": "しっかり担げ、半次！　右に傾いてるぞ！"
   },
   {
    "op": "say",
-   "actor": "extra_mummy",
-   "text": "その説明だけで、もう話が脇道へ走っている。",
-   "eyes": "fun"
+   "actor": "gou",
+   "text": "お前が、左に寄りかかってるからだ！"
   },
   {
    "op": "say",
-   "actor": "tanurio",
-   "text": "脇道ではない。笑いへ通じる立派な近道だ。",
-   "eyes": "surprise"
+   "actor": "rei_casual",
+   "text": "口答えするな！　俺は、前棒だ。前棒の言うことを聞け。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "……さっきまで、俺の籠持ちだったくせに。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "何か言ったか。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "……空耳でございましょう。"
   },
   {
    "op": "nar",
-   "text": "焼き場への道の空気が変わり、二人は言葉の裏を測る。"
+   "text": "樽の中で、何かが、ごとんと鳴った。二人は、気にも留めずに、歩き続けた。"
   },
   {
    "op": "say",
-   "actor": "extra_mummy",
-   "text": "近道なら、さっきと同じ所へ戻るな。",
-   "eyes": "crying"
+   "actor": "rei_casual",
+   "text": "半次。お前、なんで、らくだの兄弟分なんかに、なったんだ。"
   },
   {
    "op": "say",
-   "actor": "tanurio",
-   "text": "肝心なのは、脅され続けた人が酒で立場を逆転する可笑しさということだ。",
-   "eyes": "closed",
-   "mouth": "open"
+   "actor": "gou",
+   "text": "……昔、川で溺れかけたとき、あいつが、飛び込んで、引き上げてくれたんだ。",
+   "eyes": "sorrow"
   },
   {
    "op": "say",
-   "actor": "extra_mummy",
-   "text": "急に教訓を置けば片づくと思っているだろう。",
-   "eyes": "normal"
-  },
-  {
-   "op": "nar",
-   "text": "遠くの音が途切れる。立場が逆転し屑屋が半次を叱り飛ばす。"
+   "actor": "rei_casual",
+   "text": "……らくだが、人助けを。"
   },
   {
    "op": "say",
-   "actor": "tanurio",
-   "text": "片づかないから、もう一度やって確かめる。",
-   "eyes": "joy"
+   "actor": "gou",
+   "text": "一回だけな。……後にも先にも、あの一回きりだ。"
   },
   {
    "op": "say",
-   "actor": "extra_mummy",
-   "text": "やり直すたび道具と登場人物が増えている。",
-   "eyes": "anger"
-  },
-  {
-   "op": "say",
-   "actor": "tanurio",
-   "text": "立場が逆転し屑屋が半次を叱り飛ばす。ここまでは筋書き通りだ。",
-   "eyes": "sorrow",
-   "mouth": "open"
-  },
-  {
-   "op": "nar",
-   "text": "答えを急がず、選んだ手段の代価を確かめる。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_mummy",
-   "text": "筋書きが困って、こちらを見ているぞ。",
-   "eyes": "fun"
-  },
-  {
-   "op": "say",
-   "actor": "tanurio",
-   "text": "なら最後は、自分で落とし前をつけよう。",
-   "eyes": "surprise"
-  },
-  {
-   "op": "nar",
-   "text": "残された沈黙が、次の行動を促す。"
-  },
-  {
-   "op": "say",
-   "actor": "extra_mummy",
-   "text": "落とし前とオチを同じ棚に置くな。",
-   "eyes": "crying"
-  },
-  {
-   "op": "choice",
-   "options": [
-    {
-     "text": "正面から問いかける",
-     "jump": "rakuda_direct"
-    },
-    {
-     "text": "相手の話を最後まで聞く",
-     "jump": "rakuda_listen"
-    }
-   ]
-  },
-  {
-   "op": "label",
-   "id": "rakuda_direct"
-  },
-  {
-   "op": "say",
-   "actor": "tanurio",
-   "text": "私は正面から問う。曖昧なまま次へは進まない。"
-  },
-  {
-   "op": "jump",
-   "to": "rakuda_merge"
-  },
-  {
-   "op": "label",
-   "id": "rakuda_listen"
-  },
-  {
-   "op": "say",
-   "actor": "extra_mummy",
-   "text": "結論を急がず、相手が何を恐れているかまで聞こう。"
-  },
-  {
-   "op": "label",
-   "id": "rakuda_merge"
-  },
-  {
-   "op": "nar",
-   "text": "選び方は違っても、二人は同じ核心へ戻ってくる。"
+   "actor": "rei_casual",
+   "text": "……一回でも、ありゃ、大したもんだ。"
   },
   {
    "op": "hide",
-   "actor": "tanurio"
+   "actor": "gou"
   },
   {
    "op": "hide",
-   "actor": "extra_mummy"
+   "actor": "rei_casual"
   },
   {
    "op": "bg",
@@ -614,107 +969,246 @@
   },
   {
    "op": "nar",
-   "text": "第5景「焼き場の騒動」。棺の中身をめぐる最後の取り違えが起きる。"
-  },
-  {
-   "op": "show",
-   "actor": "rei_casual",
-   "pos": "left"
+   "text": "落合の焼き場。安公が、提灯を下げて出てきた。屑屋が、樽を、どすんと下ろした。"
   },
   {
    "op": "show",
    "actor": "gou",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
    "pos": "right"
   },
   {
    "op": "say",
    "actor": "rei_casual",
-   "text": "さて「焼き場の騒動」だ。棺の中身をめぐる最後の取り違えが起きる。",
-   "eyes": "fun"
+   "text": "安公、頼む。仏さまだ。酒は、さっき、たっぷり供えた。"
   },
   {
    "op": "say",
    "actor": "gou",
-   "text": "その説明だけで、もう話が脇道へ走っている。"
+   "text": "……おい、屑屋。樽が、軽い。"
   },
   {
    "op": "say",
    "actor": "rei_casual",
-   "text": "脇道ではない。笑いへ通じる立派な近道だ。",
-   "eyes": "crying"
+   "text": "軽い？"
   },
   {
    "op": "nar",
-   "text": "焼き場の騒動の空気が変わり、二人は言葉の裏を測る。"
+   "text": "屑屋が蓋を開けた。樽の中は、空っぽだった。底が、抜けていた。"
   },
   {
    "op": "say",
    "actor": "gou",
-   "text": "近道なら、さっきと同じ所へ戻るな。"
+   "text": "らくだが、いねえ！",
+   "eyes": "surprise",
+   "mouth": "open"
   },
   {
    "op": "say",
    "actor": "rei_casual",
-   "text": "肝心なのは、脅され続けた人が酒で立場を逆転する可笑しさということだ。",
-   "eyes": "normal"
+   "text": "……坂道で、ごとんと鳴ったのは、あれか。"
   },
   {
-   "op": "say",
-   "actor": "gou",
-   "text": "急に教訓を置けば片づくと思っているだろう。"
-  },
-  {
-   "op": "nar",
-   "text": "遠くの音が途切れる。棺の中身をめぐる最後の取り違えが起きる。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "片づかないから、もう一度やって確かめる。",
-   "eyes": "anger"
-  },
-  {
-   "op": "say",
-   "actor": "gou",
-   "text": "やり直すたび道具と登場人物が増えている。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "棺の中身をめぐる最後の取り違えが起きる。ここまでは筋書き通りだ。",
-   "eyes": "fun"
-  },
-  {
-   "op": "nar",
-   "text": "答えを急がず、選んだ手段の代価を確かめる。"
-  },
-  {
-   "op": "say",
-   "actor": "gou",
-   "text": "筋書きが困って、こちらを見ているぞ。"
-  },
-  {
-   "op": "say",
-   "actor": "rei_casual",
-   "text": "なら最後は、自分で落とし前をつけよう。",
-   "eyes": "crying"
-  },
-  {
-   "op": "nar",
-   "text": "残された沈黙が、次の行動を促す。"
-  },
-  {
-   "op": "say",
-   "actor": "gou",
-   "text": "落とし前とオチを同じ棚に置くな。"
+   "op": "hide",
+   "actor": "gou"
   },
   {
    "op": "hide",
    "actor": "rei_casual"
   },
   {
+   "op": "bg",
+   "src": "cremation_road",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "cremation_road"
+  },
+  {
+   "op": "nar",
+   "text": "二人は、提灯を借りて、坂道を引き返した。道ばたの草むらに、男が一人、大の字になって、転がっている。"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "いた、いた！　らくだだ！"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "……らくだにしちゃ、小さくねえか。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "死ぬと、縮むんだ。……さあ、樽に入れろ。"
+  },
+  {
+   "op": "nar",
+   "text": "二人は、男を抱え上げて、新しく借りた樽に、押し込んだ。"
+  },
+  {
    "op": "hide",
    "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "bg",
+   "src": "wrong_body",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "wrong_body"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "焼き場。安公が、火の支度を始めた。そのとき、樽の中から、声がした。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……今、仏さまが、何か、言わなかったか。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "……熱い、って。"
+  },
+  {
+   "op": "nar",
+   "text": "樽の蓋が、ぱかんと開いた。頭を丸めた、酔っぱらいの坊主が、顔を出した。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……らくだじゃ、ねえ。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "坊主だ！　どこの坊主だ！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "坊さん、あんた、ここが、どこだか、わかってるのか。"
+  },
+  {
+   "op": "nar",
+   "text": "坊主は、ぼんやりと、あたりを見回した。それから、にっこり笑って、こう言った。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……「ここはどこだ」じゃなくて、「冷やでもいいから、もう一杯」、だとさ。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "……こいつも、俺たちと、同じ穴の、酔っぱらいだ。",
+   "eyes": "fun"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "らくだを探しに、もう一度、坂を戻る",
+     "jump": "m_search"
+    },
+    {
+     "text": "坊主も一緒に、酒盛りの続きをする",
+     "jump": "m_drink"
+    }
+   ]
+  },
+  {
+   "op": "label",
+   "id": "m_search"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "半次、もう一回、戻るぞ。らくだを、置き去りにはできねえ。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "……お前、ほんとに、さっきの屑屋か。",
+   "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "酒が抜けたら、また、さっきの屑屋に戻る。……抜ける前に、片づけちまおう。"
+  },
+  {
+   "op": "jump",
+   "to": "m_end"
+  },
+  {
+   "op": "label",
+   "id": "m_drink"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "坊さん、ちょうどいい。らくだのお経を、あげてくれ。酒は、まだ、樽の底に、少し残ってる。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "樽の底は、抜けてるだろうが。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……そうだった。"
+  },
+  {
+   "op": "label",
+   "id": "m_end"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "bg",
+   "src": null
   },
   {
    "op": "show",
@@ -724,29 +1218,26 @@
   {
    "op": "say",
    "actor": "nono",
-   "text": "物語はここまで。残った問いは「脅され続けた人が酒で立場を逆転する可笑しさ」。",
-   "eyes": "sorrow"
+   "text": "古典落語『らくだ』、これにて、お開きでございます。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "登場人物の選択を、どうぞ皆さんの明日へお持ち帰りください。",
-   "eyes": "normal"
+   "text": "脅されていた屑屋は、酒の力で、脅す側に回りました。"
   },
   {
    "op": "say",
    "actor": "nono",
-   "text": "ご来場、ありがとうございました。",
-   "eyes": "joy",
-   "mouth": "open"
+   "text": "けれど、その口から出たのは、日ごろ飲み込んでいた、本当の言葉でした。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "酒が抜けたあと、屑屋は、半次に、籠を返してもらったそうです。半次は、その籠を、ていねいに、両手で渡したそうでございます。"
   },
   {
    "op": "hide",
    "actor": "nono"
-  },
-  {
-   "op": "bg",
-   "src": null
   },
   {
    "op": "end"
