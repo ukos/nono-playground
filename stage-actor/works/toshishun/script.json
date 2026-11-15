@@ -470,6 +470,18 @@
    "text": "その声は、杜子春が覚えている、母の声そのものだった。"
   },
   {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elf"
+  },
+  {
    "op": "choice",
    "options": [
     {
@@ -485,6 +497,21 @@
   {
    "op": "label",
    "id": "cry"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elf",
+   "pos": "right"
   },
   {
    "op": "say",
@@ -557,6 +584,14 @@
    "eyes": "sorrow"
   },
   {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
    "op": "jump",
    "to": "life"
   },
@@ -565,8 +600,27 @@
    "id": "silent"
   },
   {
+   "op": "show",
+   "actor": "gou",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elf",
+   "pos": "right"
+  },
+  {
    "op": "nar",
    "text": "杜子春は、母の言葉を胸に抱いたまま、唇をかみ、とうとう一言も声を出さなかった。"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
   },
   {
    "op": "hide",
@@ -574,7 +628,7 @@
   },
   {
    "op": "hide",
-   "actor": "extra_wizard"
+   "actor": "extra_elf"
   },
   {
    "op": "bg",
@@ -634,12 +688,30 @@
    "eyes": "closed"
   },
   {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
    "op": "jump",
    "to": "life"
   },
   {
    "op": "label",
    "id": "life"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "right"
   },
   {
    "op": "say",

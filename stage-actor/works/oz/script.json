@@ -648,9 +648,13 @@
    "text": "かかしくん、君が、わらを詰め直す順番を教えてくれた。"
   },
   {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
    "op": "show",
    "actor": "kotetsu",
-   "pos": "center"
+   "pos": "right"
   },
   {
    "op": "say",
@@ -669,6 +673,15 @@
    "text": "そうかな。でも、オズに言われないと、信じられない気がする。"
   },
   {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "left"
+  },
+  {
    "op": "say",
    "actor": "extra_porter",
    "text": "私もだ。誰かに、これが心だと言ってもらいたい。"
@@ -680,19 +693,15 @@
   },
   {
    "op": "hide",
-   "actor": "yui"
-  },
-  {
-   "op": "hide",
    "actor": "extra_craftsman"
   },
   {
    "op": "hide",
-   "actor": "extra_porter"
+   "actor": "kotetsu"
   },
   {
    "op": "hide",
-   "actor": "kotetsu"
+   "actor": "extra_porter"
   },
   {
    "op": "bg",
@@ -886,6 +895,10 @@
    "text": "私は、心を。"
   },
   {
+   "op": "hide",
+   "actor": "extra_craftsman"
+  },
+  {
    "op": "show",
    "actor": "kotetsu",
    "pos": "center"
@@ -914,10 +927,6 @@
   {
    "op": "hide",
    "actor": "yui"
-  },
-  {
-   "op": "hide",
-   "actor": "extra_craftsman"
   },
   {
    "op": "hide",

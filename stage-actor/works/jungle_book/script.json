@@ -153,9 +153,13 @@
    "text": "群れの掟では、子を受け入れるには、親以外の二頭が、その子のために口を利かねばならない。"
   },
   {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
    "op": "show",
    "actor": "yoru",
-   "pos": "center"
+   "pos": "left"
   },
   {
    "op": "nar",
@@ -204,6 +208,15 @@
    "text": "虎の唸り声が、遠ざかっていった。赤ん坊は、アケーラの前足にじゃれついて、笑っていた。"
   },
   {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "left"
+  },
+  {
    "op": "say",
    "actor": "shiro",
    "text": "兄弟だ。今日から、ぼくの弟だ。……すぐ、ぼくより大きくなりそうだけど。"
@@ -219,10 +232,6 @@
   {
    "op": "hide",
    "actor": "shiro"
-  },
-  {
-   "op": "hide",
-   "actor": "yoru"
   },
   {
    "op": "bg",
@@ -726,9 +735,13 @@
    "id": "m_after"
   },
   {
+   "op": "hide",
+   "actor": "kotetsu"
+  },
+  {
    "op": "show",
    "actor": "shiro",
-   "pos": "left"
+   "pos": "center"
   },
   {
    "op": "say",
@@ -756,10 +769,6 @@
    "op": "say",
    "actor": "kurogane",
    "text": "守りたいものを持つ人間だけが、流すものだ。……モーグリ、お前は、人間の村へ行く時が来た。"
-  },
-  {
-   "op": "hide",
-   "actor": "kotetsu"
   },
   {
    "op": "hide",

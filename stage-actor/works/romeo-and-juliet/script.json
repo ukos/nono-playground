@@ -370,13 +370,13 @@
    "text": "あの猪の面……間違いない、ロミオだ。当主、この場で——"
   },
   {
+   "op": "hide",
+   "actor": "akane"
+  },
+  {
    "op": "show",
    "actor": "iwao",
    "pos": "right"
-  },
-  {
-   "op": "hide",
-   "actor": "akane"
   },
   {
    "op": "say",
@@ -781,6 +781,14 @@
    "flag": "f_saved"
   },
   {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
    "op": "jump",
    "to": "vault"
   },
@@ -803,6 +811,14 @@
   {
    "op": "nar",
    "text": "使者は広場の騒動に足を止め、検分に巻き込まれた。便りは、鞄の中で眠ったまま——。"
+  },
+  {
+   "op": "hide",
+   "actor": "hayate"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
   },
   {
    "op": "jump",
@@ -989,13 +1005,13 @@
    "text": "……なるほど。両家の意地が、二人をここまで追い詰めたか。"
   },
   {
-   "op": "show",
-   "actor": "extra_elder",
-   "pos": "center"
-  },
-  {
    "op": "hide",
    "actor": "kurogane"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "right"
   },
   {
    "op": "say",

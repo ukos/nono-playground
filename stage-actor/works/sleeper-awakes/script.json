@@ -1051,6 +1051,10 @@
    "text": "……その言葉を、待っていました。"
   },
   {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
    "op": "choice",
    "options": [
     {
@@ -1081,21 +1085,14 @@
    "text": "遠い空で、閃光が、走った。……船団の先頭が、大きく、傾いた。後続の船が、ばらばらに、旋回を、始めた。"
   },
   {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "……引き返して、いく。",
-   "eyes": "closed"
+   "op": "nar",
+   "text": "管制塔の無線が、船団が引き返していくと告げた。"
   },
   {
    "op": "say",
    "actor": "yui",
-   "text": "……あの人は。",
+   "text": "……あの人は。……落ちたのか、まだ、飛んでいるのか。",
    "eyes": "crying"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "……わからぬ。……落ちたのか、まだ、飛んでいるのか。"
   },
   {
    "op": "jump",
@@ -1104,10 +1101,6 @@
   {
    "op": "label",
    "id": "m_stand"
-  },
-  {
-   "op": "hide",
-   "actor": "kurogane"
   },
   {
    "op": "nar",
