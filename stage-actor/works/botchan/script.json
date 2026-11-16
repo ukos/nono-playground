@@ -772,7 +772,7 @@
   },
   {
    "op": "nar",
-   "text": "坊っちゃんは赤シャツを、山嵐は野だいこを、拳と、生卵で、さんざんにこらしめた。"
+   "text": "坊っちゃんは赤シャツを、山嵐は野だいこを、拳で、さんざんにこらしめた。"
   },
   {
    "op": "say",
@@ -945,6 +945,23 @@
    "text": "戻ったら、今度は考えてから飛び出してください。"
   },
   {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elf"
+  },
+  {
+   "op": "nar",
+   "text": "それから、一年。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "center"
+  },
+  {
    "op": "say",
    "actor": "rei_casual",
    "text": "……清は、その翌年、肺炎で死んだ。坊っちゃんのお寺へ埋めてくれと、最後に言ったそうだ。",
@@ -964,10 +981,6 @@
   {
    "op": "hide",
    "actor": "rei_casual"
-  },
-  {
-   "op": "hide",
-   "actor": "extra_elf"
   },
   {
    "op": "bg",
