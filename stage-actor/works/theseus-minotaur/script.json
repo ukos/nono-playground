@@ -5,7 +5,7 @@
   "original": "ギリシャ神話「テセウスとミノタウロス」（古典）",
   "adaptation": "moderate",
   "format": "v3",
-  "minutes": 13,
+  "minutes": 15,
   "synopsis": "アテナイの若者テセウスは、供犠の一行に加わりクレタへ渡る。アリアドネから糸玉を受け、迷宮でミノタウロスを倒し、仲間を連れて脱出する。しかし帰路で白い帆へ替える約束を忘れる。",
   "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
  },
@@ -481,14 +481,103 @@
    "src": "labyrinth"
   },
   {
+   "op": "nar",
+   "text": "糸を巻き取りながら、テセウスは、暗い通路を戻っていく。"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "糸が、引かれている。……皆が、まだ、握っていてくれる。"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "テセウス様！　帰ってきた！"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "皆、無事か。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "糸を、離しませんでした。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "怪物は、もういない。……入口へ、行こう。"
+  },
+  {
+   "op": "nar",
+   "text": "通路の先に、かすかな光が、見えてきた。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "……光だ。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "入口だ。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "bg",
+   "src": "labyrinth",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "labyrinth"
+  },
+  {
+   "op": "nar",
+   "text": "迷宮の入口。外の光が、通路に差し込んでいる。糸の端は、柱に、結ばれたままだった。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……糸が、動いた。"
+  },
+  {
    "op": "show",
    "actor": "yui",
    "pos": "left"
   },
   {
    "op": "show",
-   "actor": "rei_casual",
-   "pos": "right"
+   "actor": "shiro",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "アリアドネ！"
   },
   {
    "op": "say",
@@ -502,24 +591,130 @@
    "text": "あなたの糸のおかげだ。さあ、船へ。夜のうちに、この国を出よう。"
   },
   {
-   "op": "hide",
-   "actor": "yui"
+   "op": "nar",
+   "text": "糸の端は、柱に結ばれたまま、風に、小さく揺れていた。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "ねえ、途中のナクソス島で、少しだけ休ませて。……疲れが、たまらないの。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "ああ。波の音を聞きながら、休もう。"
   },
   {
    "op": "hide",
    "actor": "rei_casual"
   },
   {
-   "op": "nar",
-   "text": "船はナクソス島に立ち寄った。その夜、テセウスの夢に、酒の神ディオニュソスが現れた。"
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "bg",
+   "src": null
   },
   {
    "op": "nar",
-   "text": "「その娘は、わが花嫁となる。置いて行け」。テセウスは逆らえず、眠るアリアドネを残して島を出た。"
+   "text": "ナクソス島の夜。船は沖に泊まり、浜には、波の音だけがあった。"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "明日の朝には、出航ね。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "ああ。アテナイは、もう近い。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "糸の端は、もう、結ばなくていいのね。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "ああ。もう、二度と迷わない。"
+  },
+  {
+   "op": "nar",
+   "text": "アリアドネは、波の音の中で、安心したように、眠りについた。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
+  },
+  {
+   "op": "show",
+   "actor": "nono_jester",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono_jester",
+   "text": "その夜、テセウスの夢に、酒の神ディオニュソスが現れました。「その娘は、わが花嫁となる。置いて行け」。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono_jester"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "行けと。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……許せ、アリアドネ。"
+  },
+  {
+   "op": "nar",
+   "text": "夜明け前。テセウスは、眠るアリアドネを一度だけ振り返り、浜を離れた。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "show",
+   "actor": "rei_casual",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……テセウス？"
+  },
+  {
+   "op": "nar",
+   "text": "浜に、答える声は、なかった。"
   },
   {
    "op": "nar",
    "text": "島にひとり残された王女は、やがて、酒の神の花嫁になったと伝えられる。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_casual"
   },
   {
    "op": "bg",

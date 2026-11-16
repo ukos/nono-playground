@@ -5,7 +5,7 @@
   "original": "H. G. Wells, The Island of Doctor Moreau（原典著作権消滅）",
   "adaptation": "moderate",
   "format": "v3",
-  "minutes": 19,
+  "minutes": 21,
   "synopsis": "プレンディックは漂流後、モンゴメリーと動物を積む船で島へ渡る。モローは手術で獣を人に近づけ、法の唱和で本能を抑えていた。脱走した豹人間、モローの死、法の崩壊を経て、プレンディックは筏で逃れる。",
   "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
  },
@@ -146,6 +146,11 @@
    "actor": "yui",
    "text": "それは……着いてから、博士に聞いてくれ。",
    "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "島へ着いたら、これを持っていてくれ。護身の銃だ。……獣が出る。"
   },
   {
    "op": "hide",
@@ -458,7 +463,17 @@
   },
   {
    "op": "nar",
-   "text": "数日後。手術台から逃げたピューマを追って森へ入ったモローは、戻らなかった。"
+   "text": "数日後。手術台のピューマが、鎖を引きちぎって、森へ逃げた。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "逃がしたか。……あれは、わしの最高の作品なのだ。連れ戻す。"
   },
   {
    "op": "show",
@@ -469,6 +484,48 @@
    "op": "show",
    "actor": "rei_casual",
    "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "博士、森は危険です。掟を破る者が、増えています。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "わしの作った島で、わしが怖れるものなど、ない。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "博士！"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……一人で、行ってしまった。"
+  },
+  {
+   "op": "nar",
+   "text": "森の奥で、ピューマの断末魔の声と、人の叫びが、重なって聞こえた。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……声が、止んだ。"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "left"
   },
   {
    "op": "say",
@@ -517,16 +574,60 @@
    "text": "月日が流れ、獣人たちの言葉は崩れ、多くが四つ足に戻っていった。施設には火が回った。"
   },
   {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "プレンディック、今夜は浜で飲む。獣人たちも、誘ってある。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "やめておけ。掟の崩れた獣人に、酒を渡すな。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "一杯だけだ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "駄目だ。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……あいつらも、寂しいんだよ。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
    "op": "nar",
-   "text": "モンゴメリーは、獣人たちと酒盛りをした夜、浜で争いになり、帰らなかった。"
+   "text": "浜のほうで、笑い声が上がり、やがて、怒声と物音に変わった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……静かになった。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "モンゴメリーは、帰らなかった。"
   },
   {
    "op": "hide",
    "actor": "rei_casual"
-  },
-  {
-   "op": "hide",
-   "actor": "gou"
   },
   {
    "op": "show",

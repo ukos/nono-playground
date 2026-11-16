@@ -5,7 +5,7 @@
   "original": "Rudyard Kipling, The Jungle Book（原著・著作権消滅）",
   "adaptation": "moderate",
   "format": "v3",
-  "minutes": 24,
+  "minutes": 26,
   "synopsis": "狼に育てられた人間の子モーグリは、熊のバルーと黒豹バギーラに森の掟を習う。だが虎のシア・カーンが群れを揺さぶり、「人間の子は群れにいらない」という声が上がる。観客は、会議の岩でモーグリがどう立つかを選ぶ。",
   "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
  },
@@ -299,6 +299,11 @@
   },
   {
    "op": "say",
+   "actor": "yoru",
+   "text": "それと、大蛇カーの踊りを見てはいけない。見た者は、カーの口へ歩いていく。"
+  },
+  {
+   "op": "say",
    "actor": "sasuke",
    "text": "うん、知ってる。……それと、バギーラ、どうしてぼくの目を、皆、まっすぐ見られないの。"
   },
@@ -375,7 +380,121 @@
   },
   {
    "op": "nar",
-   "text": "モーグリは猿たちにさらわれ、廃墟の都に閉じ込められた。助け出したのは、バギーラと、バルーと、大蛇カーだった。"
+   "text": "木の枝が大きく揺れて、何本もの腕がモーグリに伸びた。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "わっ、離して！　兄さん！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "モーグリ！　……廃墟の都へ連れていった。バギーラを、呼んでくる。"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "nar",
+   "text": "廃墟の都。壊れた宮殿の天井の下、猿たちがモーグリを取り囲んでいた。"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "聞いて。ぼくは、王様なんかじゃ……"
+  },
+  {
+   "op": "show",
+   "actor": "yoru",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "モーグリ。よく、無事でいたね。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "バギーラ！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "振り返るな、モーグリ。カーが、来たよ。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "怖いよ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "伏せて。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……うん、伏せる。"
+  },
+  {
+   "op": "nar",
+   "text": "猿たちの声が、ひとつ、またひとつと、消えていった。"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "……静かだ。"
+  },
+  {
+   "op": "say",
+   "actor": "yoru",
+   "text": "ああ。猿は、みんなカーについて行った。帰ろう、モーグリ。"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "hide",
+   "actor": "yoru"
+  },
+  {
+   "op": "bg",
+   "src": "lessons",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "lessons"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
   },
   {
    "op": "say",

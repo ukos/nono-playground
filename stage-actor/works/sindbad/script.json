@@ -5,7 +5,7 @@
   "original": "『千夜一夜物語』所収「船乗りシンドバッド」（伝承・著作権消滅）",
   "adaptation": "free",
   "format": "v3",
-  "minutes": 27,
+  "minutes": 29,
   "synopsis": "暑い午後、屋敷の門前で休んだ荷担ぎの男に、主人シンドバッドが七度の航海の話を聞かせる。巨鳥の島、谷底の宝石、海の老人。観客は、海の老人から逃れる知恵を選ぶ。",
   "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
  },
@@ -745,7 +745,53 @@
   },
   {
    "op": "nar",
-   "text": "バグダードの屋敷。七日目の夜。荷担ぎのシンドバッドは、毎晩、百枚の金貨をもらって、話を聞き終えた。"
+   "text": "バグダードの屋敷。五日目の夜。約束どおり毎晩一つずつ、残る航海は、あと三つになった。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_rider",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "第四の航海。見知らぬ国で、私は、死者と一緒に葬られるという掟に追われた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "死者と、一緒に？"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "暗い地下の洞窟に降ろされた。壁を伝って歩き続け、光を見て、逃げのびた。"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_rider"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "bg",
+   "src": "homeport",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "homeport"
   },
   {
    "op": "show",
@@ -759,15 +805,59 @@
   },
   {
    "op": "nar",
-   "text": "第四の航海では、見知らぬ国の奇妙な掟に追われ、暗い地下の洞窟を抜けて逃げのびた。"
+   "text": "六日目の夜。荷担ぎは、金貨の袋を抱えて座った。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "第六の航海では、宝石の川を、筏で下った。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "宝石の、川を？"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "川だ。底まで光る川を下りきると、セレンディブの王が迎えてくれた。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_porter"
   },
   {
    "op": "nar",
-   "text": "第六の航海では、宝石の川を、筏で下って、セレンディブの王に迎えられた。"
+   "text": "七日目の夜。最後の航海を聞くために、荷担ぎは、少し早く門をくぐった。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_porter",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "最後の、話ですね。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "最後だ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "第七の航海。象の墓場で、私は、象牙の山を見た。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_porter",
+   "text": "象牙の、山……。"
   },
   {
    "op": "nar",
-   "text": "第七の航海では、象の墓場で、象牙の山を見つけた。"
+   "text": "広間に、しばらく、波の音のような静けさがあった。"
   },
   {
    "op": "say",

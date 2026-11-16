@@ -7,7 +7,7 @@
   "category": "SF",
   "adaptation": "moderate",
   "format": "v3",
-  "minutes": 46,
+  "minutes": 48,
   "synopsis": "地中を掘る機械で地殻を突き抜けたデヴィッドとペリーは、沈まない太陽が照らす地球の内側にたどり着く。そこは、人が爬虫類の支配者に飼われる世界だった。観客は、解放のあとデヴィッドがどこに生きるかを選ぶ。",
   "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
  },
@@ -642,12 +642,97 @@
    "text": "デヴィッドは、長いあいだ、黙っていた。……そして、うなずいた。"
   },
   {
-   "op": "nar",
-   "text": "その夜、ペリーが番兵の気を引くあいだに、デヴィッドは牢の鍵を盗み、ペリーの牢も開けた。"
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "今夜、わしが、番兵の気を、引く。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "その隙に、鍵を、取ります。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "腰に、下げておる。……わしの牢も、頼むぞ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "開けます。……必ず。"
   },
   {
    "op": "nar",
-   "text": "二人は、図書館から一冊の書物を抱えて、地下の都を抜け出した。"
+   "text": "その夜。ペリーが、牢の中で、大声を上げた。……番兵の足音が、遠ざかっていく。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "……よし、今のうちだ。"
+  },
+  {
+   "op": "nar",
+   "text": "デヴィッドは、格子の隙間から、手を伸ばした。……鍵束が、指に、触れた。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "……デヴィッド。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "……静かに。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "……鍵は。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "……この手に。"
+  },
+  {
+   "op": "nar",
+   "text": "鍵が、回った。……まず、自分の牢。……そして、隣の牢。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "……出られた。……わしも、出られたぞ。"
+  },
+  {
+   "op": "nar",
+   "text": "廊下は、静かだった。……誰も、いなかった。"
+  },
+  {
+   "op": "nar",
+   "text": "図書館。ペリーが、高い棚から、一冊の書物を、抜き取った。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "……これじゃ。……たった、一冊の、秘術の書物。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "……行こう、ペリーさん。"
+  },
+  {
+   "op": "nar",
+   "text": "二人は、闇の中へ、走り出した。"
   },
   {
    "op": "hide",
@@ -1113,12 +1198,50 @@
    "id": "m_end"
   },
   {
+   "op": "nar",
+   "text": "その足で、ペリーが、秘術の書物を、マハールの都の入口へ、届けた。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "……置いてきた。……入口の、石段の上に。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "……マハールが、見つける場所に。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "うむ。……必ず、見つける。"
+  },
+  {
+   "op": "say",
+   "actor": "akane",
+   "text": "……よかった。……これで、誰も、滅びずに、すむ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "……ありがとう、ペリーさん。"
+  },
+  {
    "op": "hide",
    "actor": "rei_rider"
   },
   {
    "op": "hide",
    "actor": "akane"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
   },
   {
    "op": "bg",

@@ -5,7 +5,7 @@
   "original": "中島敦『山月記』（著作権消滅作品）",
   "adaptation": "faithful",
   "format": "v3",
-  "minutes": 13,
+  "minutes": 14,
   "synopsis": "詩人として名を成せず、虎に変わった李徴。旧友の袁傪と月夜の山道で再会し、草むらの中から、自作の詩と、虎になった訳、妻子への頼みを語る。",
   "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
  },
@@ -358,6 +358,11 @@
   },
   {
    "op": "say",
+   "actor": "extra_craftsman",
+   "text": "……李徴。息が、荒くなっておる。"
+  },
+  {
+   "op": "say",
    "actor": "kotetsu",
    "text": "別れる前に、もう一つ。……故郷の妻と子のことだ。"
   },
@@ -376,8 +381,22 @@
   {
    "op": "say",
    "actor": "kotetsu",
+   "text": "……頼んだぞ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "……ああ、引き受けた。"
+  },
+  {
+   "op": "say",
+   "actor": "kotetsu",
    "text": "……本当は、詩より先に、妻子のことを頼むべきだった。そういう男だから、獣に身を落としたのだ。",
    "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "しばらく、どちらも、口をきかなかった。"
   },
   {
    "op": "say",
@@ -404,12 +423,51 @@
    "actor": "extra_craftsman"
   },
   {
-   "op": "nar",
-   "text": "一行が丘の上まで来て振り返ると、白んだ道の上に、一匹の虎が躍り出た。"
+   "op": "bg",
+   "src": null
   },
   {
    "op": "nar",
-   "text": "虎は、残月を仰いで、二声、三声、咆哮すると、また草むらへ躍り込み、二度と姿を見せなかった。"
+   "text": "袁傪は、丘の上まで来て、足を止めた。"
+  },
+  {
+   "op": "bg",
+   "src": "road",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "road"
+  },
+  {
+   "op": "show",
+   "actor": "extra_craftsman",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "振り返ると、白んだ道の上に、一匹の虎が、躍り出た。"
+  },
+  {
+   "op": "show",
+   "actor": "kotetsu",
+   "pos": "left"
+  },
+  {
+   "op": "nar",
+   "text": "虎は、残月を仰いで、二声、三声、咆哮した。"
+  },
+  {
+   "op": "hide",
+   "actor": "kotetsu"
+  },
+  {
+   "op": "nar",
+   "text": "……草むらが、静かに閉じた。虎は、二度と、姿を見せなかった。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_craftsman"
   },
   {
    "op": "bg",
