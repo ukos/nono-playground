@@ -1,6 +1,6 @@
 // 画面表示と操作。状態は engine.js の Session が持ち、ここは毎回それを描き直すだけ。
-import { Session } from './engine.js?v=e2491eb';
-import { indexActors, resolveLayers, layersUsedBy } from './faces.js?v=e2491eb';
+import { Session } from './engine.js?v=35b7943';
+import { indexActors, resolveLayers, layersUsedBy } from './faces.js?v=35b7943';
 
 // 公開のたびに tools/deploy_playground.py が版（コミット）を入れる。URLに付けて、古いファイルの使い回しを防ぐ
 const V = document.querySelector('meta[name="stage-version"]')?.content || 'dev';
@@ -245,7 +245,8 @@ function render() {
     r.layers.forEach((src, i) => { const img = node.children[i]; if (img.getAttribute('src') !== asset(src)) img.setAttribute('src', asset(src)); });
     const cx = L.vw * POS_X[a.pos];
     // 腰から上：背景の下端に合わせる。全身：領域の高さに収める（背景が上下に切れている画面では少し小さくなる）
-    let sc = L.s * (r.view === 'full' ? 1 : ACTOR_SCALE);
+    // displayScale：役者ごとの表示倍率（data/actors.json。狂言回しの nono_jester は 1.5）
+    let sc = L.s * (r.view === 'full' ? 1 : ACTOR_SCALE) * (actorsDb.byId[id]?.displayScale || 1);
     let bottom = stageBottom(L); // 見えている舞台の下端に腰（全身なら足元）を合わせる
     if (r.view === 'full' && h * sc > L.rh) { sc = L.rh / h; bottom = L.rh; }
     node.style.width = `${w}px`;
@@ -289,7 +290,7 @@ function renderText(stop, L) {
   }
   // 話者の頭の上に吹き出しを出す（ほかの役者の顔に掛からないように）
   const cx = L.vw * POS_X[a.pos];
-  const actorTop = stageBottom(L) - 1024 * L.s * ACTOR_SCALE;
+  const actorTop = stageBottom(L) - 1024 * L.s * ACTOR_SCALE * (actorsDb.byId[line.actor]?.displayScale || 1);
   el.bubble.classList.add('tail-center');
   el.bubble.style.right = '';
   el.bubble.style.top = '';
