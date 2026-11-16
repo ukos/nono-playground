@@ -5,7 +5,7 @@
   "original": "小泉八雲『雪女』を核とする伝説（著作権消滅）",
   "adaptation": "faithful",
   "format": "v3",
-  "minutes": 12,
+  "minutes": 14,
   "synopsis": "吹雪の夜、渡し守の小屋で、木こりの巳之吉は、白い女が茂作を凍らせるのを見る。誰にも話すなと言われて命を助けられ、やがて色白のお雪を嫁にもらう。ある冬の夜、巳之吉は昔の話を始める。",
   "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
  },
@@ -229,8 +229,70 @@
    "text": "お雪は、その夜だけ泊まるはずが、巳之吉の母に気に入られ、そのまま巳之吉の嫁になった。"
   },
   {
+   "op": "hide",
+   "actor": "extra_lumberjack"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
    "op": "nar",
-   "text": "それから年月がたち、お雪は十人の子を産んだ。村の女たちが不思議がるほど、お雪は、いつまでも若く、色が白かった。"
+   "text": "はじめての子が生まれた冬。囲炉裏の火は、夜通し、消えることがなくなった。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_lumberjack",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "見てください。この子の手、雪みたいに白いでしょう。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "お前に似たんだな。……丈夫に育てよ、雪の子を。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_lumberjack"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "nar",
+   "text": "十年あまりがたち、子どもは十人になった。お雪だけが、嫁に来た日と、変わらぬ若さだった。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_lumberjack",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "村の女たちが、不思議がるんだ。お雪は、年を取らないってな。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……雪は、とけても、また降ります。わたしは、それだけですよ。",
+   "eyes": "closed"
   },
   {
    "op": "hide",
@@ -345,7 +407,26 @@
   },
   {
    "op": "nar",
-   "text": "お雪は、縫い物を投げ捨てて立ち上がり、巳之吉の上にかがみこんだ。"
+   "text": "お雪の、縫い物をする手が、止まった。行灯の炎が、すっと細くなった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "……お雪、どうした？"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "……聞きましたよ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "nar",
+   "text": "お雪は立ち上がり、巳之吉の上にかがみこんだ。行灯の明かりが、消えた。"
+  },
+  {
+   "op": "bg",
+   "src": null
   },
   {
    "op": "say",
@@ -353,6 +434,21 @@
    "text": "それは、わたし。わたしでした。お雪でした。",
    "eyes": "anger",
    "mouth": "open"
+  },
+  {
+   "op": "bg",
+   "src": "home",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "home"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "……わしを、殺すのか。",
+   "eyes": "sorrow"
   },
   {
    "op": "say",
@@ -367,7 +463,15 @@
   },
   {
    "op": "nar",
-   "text": "お雪の声は、細くなり、風の音になった。お雪の体は、白い霧になって、煙出しの穴から、ふるえながら消えていった。"
+   "text": "お雪の声は、細くなり、風の音になった。体は白い霧になって、煙出しの穴から消えていった。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "nar",
+   "text": "囲炉裏の火だけが、ぱちりと音を立てた。"
   },
   {
    "op": "say",
@@ -378,10 +482,6 @@
   {
    "op": "hide",
    "actor": "extra_lumberjack"
-  },
-  {
-   "op": "hide",
-   "actor": "yui"
   },
   {
    "op": "jump",
