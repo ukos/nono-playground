@@ -244,13 +244,27 @@
   },
   {
    "op": "say",
+   "actor": "rei_rider",
+   "text": "輪の一つが、岩に当たって砕けた。"
+  },
+  {
+   "op": "say",
    "actor": "kurogane",
    "text": "簡単だった！　次は？　次はもっと重いのがいい！",
    "eyes": "fun"
   },
   {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
    "op": "nar",
-   "text": "神々は倍の太さの鎖ドローミを持ち出した。重さだけで、地面が沈む。"
+   "text": "オーディンは無言で下がり、倍の太さの鎖ドローミを引きずって戻ってきた。重さで、地面が沈む。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "left"
   },
   {
    "op": "say",
@@ -260,13 +274,36 @@
   {
    "op": "say",
    "actor": "kurogane",
+   "text": "いくよ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "来い。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
    "text": "ぐ、う、うう……やっ！",
    "eyes": "anger",
    "mouth": "open"
   },
   {
+   "op": "bg",
+   "src": null
+  },
+  {
    "op": "nar",
    "text": "ドローミもまた、狼が身をよじると、輪がはじけて四方へ飛び散った。"
+  },
+  {
+   "op": "bg",
+   "src": "chains",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "chains"
   },
   {
    "op": "nar",
@@ -291,15 +328,15 @@
   },
   {
    "op": "hide",
-   "actor": "extra_elder"
-  },
-  {
-   "op": "hide",
    "actor": "kurogane"
   },
   {
    "op": "hide",
    "actor": "rei_rider"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
   },
   {
    "op": "bg",

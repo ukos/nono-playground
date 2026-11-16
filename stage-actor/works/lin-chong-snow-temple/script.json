@@ -442,9 +442,15 @@
    "text": "夜更け、草料場のほうが真っ赤に燃え上がった。扉の外から、男たちの声がした。"
   },
   {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "……火だ。扉の外に、人の気配がする。",
+   "eyes": "surprise"
+  },
+  {
    "op": "show",
    "actor": "nibulus",
-   "pos": "right"
+   "pos": "center"
   },
   {
    "op": "say",
@@ -453,9 +459,15 @@
    "eyes": "fun"
   },
   {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "……陸謙。",
+   "eyes": "closed"
+  },
+  {
    "op": "show",
    "actor": "iwao",
-   "pos": "center"
+   "pos": "right"
   },
   {
    "op": "say",
@@ -526,6 +538,37 @@
    "id": "m_fight"
   },
   {
+   "op": "hide",
+   "actor": "rei_rider"
+  },
+  {
+   "op": "hide",
+   "actor": "nibulus"
+  },
+  {
+   "op": "hide",
+   "actor": "iwao"
+  },
+  {
+   "op": "nar",
+   "text": "扉が開き、雪明りの中に、三人が向かい合った。"
+  },
+  {
+   "op": "show",
+   "actor": "rei_rider",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "nibulus",
+   "pos": "right"
+  },
+  {
+   "op": "show",
+   "actor": "iwao",
+   "pos": "left"
+  },
+  {
    "op": "say",
    "actor": "rei_rider",
    "text": "俺は、何度も耐えた。濡れ衣にも、入れ墨にも、森の縄にも。"
@@ -547,6 +590,16 @@
    "actor": "rei_rider",
    "text": "意思でなかったなら、なおさら、許す理由がない。",
    "eyes": "closed"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "……林冲の、兄貴……。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_rider",
+   "text": "さらばだ。"
   },
   {
    "op": "nar",
