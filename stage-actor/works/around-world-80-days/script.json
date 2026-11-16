@@ -73,7 +73,8 @@
   "broken_rail": "bg/around-world-80-days-broken_rail-2048x1152.png",
   "rescue_train": "bg/around-world-80-days-rescue_train-2048x1152.png",
   "london_late": "bg/around-world-80-days-london_late-2048x1152.png",
-  "date_line": "bg/around-world-80-days-date_line-2048x1152.png"
+  "date_line": "bg/around-world-80-days-date_line-2048x1152.png",
+  "bombay_temple": "bg/around-world-80-days-bombay_temple-2048x1152.png"
  },
  "steps": [
   {
@@ -514,6 +515,15 @@
    "actor": "tanurio"
   },
   {
+   "op": "bg",
+   "src": "bombay_temple",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "bombay_temple"
+  },
+  {
    "op": "show",
    "actor": "tanurio",
    "pos": "left"
@@ -828,7 +838,7 @@
   {
    "op": "say",
    "actor": "yui",
-   "text": "……行くところが、ありません。",
+   "text": "……香港に、遠い親戚がいるきりで、ほかに、行くところが、ありません。",
    "eyes": "sorrow"
   },
   {
@@ -2042,7 +2052,7 @@
   },
   {
    "op": "nar",
-   "text": "サヴィル・ロウ七番地。夜。フォッグは、暖炉の前に、座っている。……財産の、残りは、ほとんど、旅で、使い果たしていた。"
+   "text": "翌日の夕方。フォッグは、暖炉の前に、座っている。……財産の、残りは、ほとんど、旅で、使い果たしていた。"
   },
   {
    "op": "say",
