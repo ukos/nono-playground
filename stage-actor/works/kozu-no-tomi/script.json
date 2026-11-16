@@ -864,7 +864,8 @@
     },
     {
      "text": "男は、大金持ちのふりを最後まで続ける",
-     "jump": "m_pretend"
+     "jump": "m_pretend",
+     "set": "pretended"
     }
    ]
   },
@@ -1116,9 +1117,31 @@
    "text": "千両は、当たった男の心の臓も、知らせた主人の心の臓も、しばらく止めてしまいました。"
   },
   {
+   "op": "if",
+   "flag": "pretended",
+   "to": "end_pretend"
+  },
+  {
    "op": "say",
    "actor": "nono_jester",
    "text": "大ぼらの男は、最後に、本当のことを言いました。……本当のことは、千両より、ずっと軽く、口から出たそうでございます。"
+  },
+  {
+   "op": "jump",
+   "to": "end_go"
+  },
+  {
+   "op": "label",
+   "id": "end_pretend"
+  },
+  {
+   "op": "say",
+   "actor": "nono_jester",
+   "text": "大ぼらの男は、最後まで、ほらを通しました。……それを黙って泊めた主人の度量が、千両より、ずっと重かったそうでございます。"
+  },
+  {
+   "op": "label",
+   "id": "end_go"
   },
   {
    "op": "hide",

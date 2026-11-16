@@ -1094,7 +1094,8 @@
     },
     {
      "text": "レイは、跳ばずに、脚立から一段ずつ、普通に登っていく",
-     "jump": "c_climb"
+     "jump": "c_climb",
+     "set": "climbed"
     }
    ]
   },
@@ -1204,10 +1205,33 @@
    "pos": "left"
   },
   {
+   "op": "if",
+   "flag": "climbed",
+   "to": "k_climb"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……たいしたもんだ。……折れる枝から、猫を抱えて、音もなく降りた。あんた、只者じゃない。",
+   "eyes": "joy"
+  },
+  {
+   "op": "jump",
+   "to": "k_go"
+  },
+  {
+   "op": "label",
+   "id": "k_climb"
+  },
+  {
    "op": "say",
    "actor": "kurogane",
    "text": "……たいしたもんだ。……猫が、自分から、飛び移った。あんた、只者じゃない。",
    "eyes": "joy"
+  },
+  {
+   "op": "label",
+   "id": "k_go"
   },
   {
    "op": "say",
