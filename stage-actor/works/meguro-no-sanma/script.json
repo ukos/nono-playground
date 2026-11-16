@@ -6,7 +6,7 @@
   "adaptation": "faithful",
   "format": "v3",
   "minutes": 15,
-  "synopsis": "遠乗りで目黒に来た殿様が、茶屋の爺さんの焼く秋刀魚を初めて食べて感激する。城で取り寄せた秋刀魚は、脂も骨も抜かれて味がない。観客は台所の料り方を選ぶ。",
+  "synopsis": "遠乗りで目黒に来た殿様が、茶屋の爺さんの昼飯だった焼きたての秋刀魚を初めて食べて感激する。城で取り寄せた秋刀魚は、脂も骨も抜かれて、音も匂いもしない。",
   "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
  },
  "cast": [
@@ -53,24 +53,32 @@
   {
    "op": "say",
    "actor": "nono_jester",
-   "text": "秋晴れの日に、NONO座へようこそ。空の高さと、焼き魚の煙のお話をひとつ。",
-   "eyes": "joy"
+   "text": "秋晴れの日に、NONO座へようこそ。"
   },
   {
    "op": "say",
    "actor": "nono_jester",
-   "text": "秋刀魚という魚は、昔は下々の魚とされ、お殿様の膳にはまず上りませんでした。"
+   "text": "本日のお題は、さんま。秋刀魚と書く、あの細長い魚でございます。"
   },
   {
    "op": "say",
    "actor": "nono_jester",
-   "text": "脂が強くて、焼けば煙がもうもう。お城の台所が一番嫌がる魚でございます。",
-   "eyes": "fun"
+   "text": "昔は下魚。脂が強く、焼けば煙がもうもうと立つ。"
   },
   {
    "op": "say",
    "actor": "nono_jester",
-   "text": "さて、生まれて初めて、焼きたてのさんまに出会ったお殿様の、目黒の一日を。"
+   "text": "ですから、お殿様の膳には、決して上りませんでした。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_jester",
+   "text": "――その殿様が、生まれて初めて、焼きたてのさんまに出会います。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_jester",
+   "text": "場所は目黒。海など、どこにもない目黒で。"
   },
   {
    "op": "hide",
@@ -102,41 +110,44 @@
   {
    "op": "say",
    "actor": "kurogane",
-   "text": "三太夫、目黒は良いな。空が広い。城の空は、いつも屋根の形に切り取られておる。",
-   "eyes": "joy",
-   "mouth": "open"
-  },
-  {
-   "op": "say",
-   "actor": "extra_villager",
-   "text": "殿、あまり先へお進みになりますと、お供の者が追いつけませぬ。"
+   "text": "三太夫、目黒は良いな。空が広い。"
   },
   {
    "op": "say",
    "actor": "kurogane",
-   "text": "追いつけぬなら、追いつけぬでよい。……ところで、腹が減った。"
+   "text": "城の空は、いつも屋根の形に切り取られておる。"
   },
   {
    "op": "say",
    "actor": "extra_villager",
-   "text": "弁当を積んだ馬は、だいぶ後ろでございます。",
+   "text": "殿、お静かに。あまり先へお進みですと、お供が追いつけませぬ。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……ぐう。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "殿。今の音は。",
    "eyes": "surprise"
   },
   {
    "op": "say",
    "actor": "kurogane",
-   "text": "なんと。腹が鳴っておる。殿の腹が鳴るなど、あってよいのか。",
-   "eyes": "sorrow"
+   "text": "鳴らすなと言われて止まる腹なら、苦労はせぬ。"
   },
   {
    "op": "say",
    "actor": "extra_villager",
-   "text": "あってはなりませぬ。お鳴らしになりませぬよう。"
+   "text": "申し訳ございませぬ。弁当の馬は、だいぶ後ろで。",
+   "eyes": "sorrow"
   },
   {
    "op": "say",
    "actor": "kurogane",
-   "text": "鳴らすなと言われて止まる腹なら、苦労はせぬ。"
+   "text": "腹の減った殿など、家来に見せられるものではないな。"
   },
   {
    "op": "nar",
@@ -145,14 +156,17 @@
   {
    "op": "say",
    "actor": "kurogane",
-   "text": "……この匂いは何だ。三太夫、この、腹の底をつかむ匂いは。",
-   "eyes": "surprise",
-   "mouth": "open"
+   "text": "……三太夫。この匂いは何だ。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "腹の底を、直接つかむような匂いだ。"
   },
   {
    "op": "say",
    "actor": "extra_villager",
-   "text": "申し上げにくいのですが……近くの茶屋で、秋刀魚を焼いておるようで。",
+   "text": "申し上げにくいのですが。近くの茶屋で、秋刀魚を焼いておるようで。",
    "eyes": "sorrow"
   },
   {
@@ -163,32 +177,27 @@
   {
    "op": "say",
    "actor": "extra_villager",
-   "text": "いえ、下魚でございます。殿のお口に入れるような物では。"
+   "text": "いえ。下魚でございます。殿のお口に入れるような物では。"
   },
   {
    "op": "say",
    "actor": "kurogane",
-   "text": "下か上かは、余の舌が決める。持ってまいれ。",
-   "eyes": "anger"
-  },
-  {
-   "op": "hide",
-   "actor": "extra_villager"
+   "text": "下か上かは、余の舌が決める。持ってまいれ。"
   },
   {
    "op": "show",
    "actor": "extra_lumberjack",
-   "pos": "right"
+   "pos": "left"
   },
   {
    "op": "say",
    "actor": "extra_lumberjack",
-   "text": "へえ、旦那さま方、煙が行っちまいましたか。すいません、うちの昼飯で。"
+   "text": "へえ、旦那さま方。煙が行っちまいましたか。すいません、うちの昼飯で。"
   },
   {
    "op": "say",
    "actor": "kurogane",
-   "text": "爺、その魚を余に売れ。"
+   "text": "爺。その魚を、余に売れ。"
   },
   {
    "op": "say",
@@ -199,7 +208,7 @@
   {
    "op": "say",
    "actor": "kurogane",
-   "text": "その、もっと焦げているほうがよい。"
+   "text": "その、もっと焦げているほうを。"
   },
   {
    "op": "nar",
@@ -208,29 +217,48 @@
   {
    "op": "say",
    "actor": "extra_lumberjack",
-   "text": "大根おろしはねえけど、塩はたっぷり振っておきやした。手でむしって、どうぞ。"
-  },
-  {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "手で。……箸もなく、骨も取らずに。",
-   "eyes": "surprise"
+   "text": "大根おろしはねえけど、塩はたっぷり振っておきやした。"
   },
   {
    "op": "say",
    "actor": "extra_lumberjack",
-   "text": "骨ごとかじっても、腹の苦いところが一番うまいんで。"
+   "text": "手でむしって、どうぞ。骨ごとかじっても、腹の苦いところが一番うまいんで。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "手で。箸もなく、骨も取らずに。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "殿、骨が。骨が喉に刺さります。",
+   "eyes": "sorrow"
   },
   {
    "op": "nar",
    "text": "殿様は、おそるおそる皮をつまみ、身をほぐして、口に入れた。"
   },
   {
+   "op": "nar",
+   "text": "殿様の手が、ぴたりと止まった。"
+  },
+  {
    "op": "say",
    "actor": "kurogane",
-   "text": "……うまい。なんだこれは。熱い脂が舌の上で走り回る。",
-   "eyes": "joy",
+   "text": "……う、うまい。",
    "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "なんだこれは。熱い脂が、舌の上で走り回る。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "殿が、手づかみで。下魚を、手づかみで。",
+   "eyes": "surprise"
   },
   {
    "op": "say",
@@ -245,8 +273,7 @@
   {
    "op": "say",
    "actor": "kurogane",
-   "text": "余は今日、生まれて初めて、腹の減った魚を食うた。",
-   "eyes": "joy"
+   "text": "余は今日、生まれて初めて、腹の減った魚を食うた。"
   },
   {
    "op": "say",
@@ -257,12 +284,22 @@
   {
    "op": "say",
    "actor": "kurogane",
-   "text": "うむ。……爺、礼を言う。この魚の名を、もう一度申せ。"
+   "text": "うむ。爺、礼を言う。……その魚、本当は誰の昼飯だ。"
   },
   {
    "op": "say",
    "actor": "extra_lumberjack",
-   "text": "さんま、でございます。"
+   "text": "へへ。わしの、でございました。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……爺の、昼飯だと。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_lumberjack",
+   "text": "旦那さまの腹の音が、ここまで聞こえましたんで。"
   },
   {
    "op": "say",
@@ -275,8 +312,45 @@
    "actor": "extra_lumberjack"
   },
   {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "殿。お口に合いましたか、下魚が。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "三太夫。城へ帰るぞ。……いや、帰らねばなるまいな。"
+  },
+  {
    "op": "hide",
    "actor": "kurogane"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_villager"
+  },
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "nono_jester",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nono_jester",
+   "text": "城へ帰った殿様は、それから幾日も、ご機嫌がよろしい。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_jester",
+   "text": "ただし、膳が出るたびに、決まってこう仰せになるそうで。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono_jester"
   },
   {
    "op": "bg",
@@ -289,7 +363,7 @@
   },
   {
    "op": "nar",
-   "text": "城の御殿。それから幾日、殿様の頭から、あの煙が離れない。"
+   "text": "城の御殿。蓋つきの膳が並び、湯気ひとつ立たない。"
   },
   {
    "op": "show",
@@ -314,36 +388,54 @@
   {
    "op": "say",
    "actor": "kurogane",
-   "text": "焼き魚に音がない。湯気も、匂いも、皿に着く前に死んでおる。",
-   "eyes": "sorrow"
-  },
-  {
-   "op": "say",
-   "actor": "extra_villager",
-   "text": "毒見を通し、冷めぬよう蓋をし、廊下を三つ渡って参りますので。"
+   "text": "焼き魚に音がない。匂いもない。湯気すら立たぬ。"
   },
   {
    "op": "say",
    "actor": "kurogane",
-   "text": "……三太夫。余は、さんまが食いたい。"
+   "text": "……ぐう、とも鳴らぬ。腹が、退屈しておる。"
   },
   {
    "op": "say",
    "actor": "extra_villager",
-   "text": "殿、それを口になさいますな。下魚の名を城で申されては、ご家来衆が笑います。",
+   "text": "毒見を通し、蓋をし、廊下を三つ渡って参りますので。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "三太夫。余は、さんまが食いたい。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "殿。その名を、城で大声では。",
    "eyes": "surprise",
    "mouth": "open"
   },
   {
-   "op": "say",
-   "actor": "kurogane",
-   "text": "笑わせておけ。食いたいものを食いたいと言えぬ殿など、殿ではない。",
-   "eyes": "anger"
+   "op": "nar",
+   "text": "三太夫は慌てて立ち上がり、両の戸を閉めた。"
   },
   {
    "op": "say",
    "actor": "extra_villager",
-   "text": "……かしこまりました。ただちに、日本橋の魚河岸から取り寄せまする。"
+   "text": "下魚の名が家来衆の耳に入れば、殿のご威光にかかわります。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "威光とやらで、腹は膨れぬ。食いたいものを食いたいと言えぬ殿は、殿ではない。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "……かしこまりました。日本橋の魚河岸から、極上を取り寄せまする。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "楽しみにしておるぞ。あの煙と、あの苦さを。"
   },
   {
    "op": "hide",
@@ -351,7 +443,7 @@
   },
   {
    "op": "nar",
-   "text": "御殿の台所。料理番が、届いた秋刀魚を前に青い顔をしている。"
+   "text": "御殿の台所。届いた秋刀魚を前に、料理番が青い顔をしている。"
   },
   {
    "op": "show",
@@ -361,19 +453,24 @@
   {
    "op": "say",
    "actor": "extra_craftsman",
-   "text": "三太夫さま、さんまでございますか。あれは脂がきつく、殿のお体にさわりまする。",
+   "text": "三太夫さま。よりによって、さんまでございますか。",
    "eyes": "sorrow",
    "mouth": "open"
   },
   {
    "op": "say",
+   "actor": "extra_craftsman",
+   "text": "あれは脂がきつく、煙がひどい。殿のお体にさわりまする。"
+  },
+  {
+   "op": "say",
    "actor": "extra_villager",
-   "text": "殿のご所望じゃ。だが、粗相があってはならぬ。どう料ればよい。"
+   "text": "殿のご所望じゃ。粗相があってはならぬ。どう料ればよい。"
   },
   {
    "op": "say",
    "actor": "extra_craftsman",
-   "text": "選ぶのは三太夫さまで。わたくしは、言われたとおりに料りまする。"
+   "text": "わたくしに決めさせないでくださいまし。言われたとおりに料りまする。"
   },
   {
    "op": "choice",
@@ -396,24 +493,24 @@
   {
    "op": "say",
    "actor": "extra_villager",
-   "text": "脂は抜け、骨は残らず取れ。殿の喉に一本でも刺されば、腹を切るのはわしじゃ。"
+   "text": "脂は抜け、骨は残らず取れ。一本でも喉に刺されば、腹を切るのはわしじゃ。"
   },
   {
    "op": "say",
    "actor": "extra_craftsman",
-   "text": "蒸して、脂を落として、骨を毛抜きで抜いて……。身がほぐれてしまいます。",
+   "text": "蒸して、脂を落として、骨を毛抜きで抜いて……。",
    "eyes": "closed"
   },
   {
    "op": "say",
-   "actor": "extra_villager",
-   "text": "ほぐれたなら、丸めて形を整えよ。見た目だけは、魚に見えるように。"
+   "actor": "extra_craftsman",
+   "text": "三太夫さま。これはもう、魚の形をした、つみれでございます。",
+   "eyes": "sorrow"
   },
   {
    "op": "say",
-   "actor": "extra_craftsman",
-   "text": "……これはもう、魚の形をした、つみれでございます。",
-   "eyes": "sorrow"
+   "actor": "extra_villager",
+   "text": "ほぐれたなら丸めよ。見た目だけは、魚に見えるように。"
   },
   {
    "op": "jump",
@@ -474,9 +571,7 @@
   {
    "op": "say",
    "actor": "kurogane",
-   "text": "おお、来たか。さんま。……蓋を取れ。",
-   "eyes": "joy",
-   "mouth": "open"
+   "text": "おお、来たか。さんま。蓋を取れ。"
   },
   {
    "op": "if",
@@ -486,8 +581,7 @@
   {
    "op": "say",
    "actor": "kurogane",
-   "text": "……三太夫。これは何だ。灰色で、丸くて、静かだ。",
-   "eyes": "surprise"
+   "text": "……三太夫。これは何だ。灰色で、丸くて、静かだ。"
   },
   {
    "op": "say",
@@ -505,8 +599,7 @@
   {
    "op": "say",
    "actor": "kurogane",
-   "text": "……三太夫。これは何だ。黒くて、小さくて、かけらばかりだ。",
-   "eyes": "surprise"
+   "text": "……三太夫。これは何だ。黒くて、小さくて、かけらばかりだ。"
   },
   {
    "op": "say",
@@ -520,18 +613,43 @@
   {
    "op": "say",
    "actor": "kurogane",
-   "text": "匂いがせぬ。音もせぬ。……どれ。"
+   "text": "匂いがせぬ。音もせぬ。湯気も立たぬ。"
   },
   {
    "op": "say",
    "actor": "kurogane",
-   "text": "……ぬるい。味が、どこかへ行ってしまった。これが、さんまか。",
+   "text": "……どれ、ひと口。"
+  },
+  {
+   "op": "nar",
+   "text": "殿様は一口食べ、箸を置いた。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "ぬるい。……苦いところが、ない。",
    "eyes": "sorrow"
   },
   {
    "op": "say",
    "actor": "extra_villager",
-   "text": "間違いなく、さんまでございます。"
+   "text": "苦いところ、と申されますと。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "目黒の爺は言った。腹の苦みが、秋の味だと。"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "その腹ごと、取り除いたのか。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "……はい。すべて、きれいに。",
+   "eyes": "sorrow"
   },
   {
    "op": "say",
@@ -548,7 +666,6 @@
    "op": "say",
    "actor": "kurogane",
    "text": "それはいかん。さんまは目黒に限る。",
-   "eyes": "anger",
    "mouth": "open"
   },
   {
@@ -560,6 +677,10 @@
    "actor": "extra_villager"
   },
   {
+   "op": "bg",
+   "src": null
+  },
+  {
    "op": "show",
    "actor": "nono_jester",
    "pos": "center"
@@ -567,19 +688,32 @@
   {
    "op": "say",
    "actor": "nono_jester",
-   "text": "魚の産地ではなく、焼いた煙と空腹の味。お殿様は、それを産地の名で覚えてしまいました。"
+   "text": "魚の産地では、ございませんでした。"
   },
   {
    "op": "say",
    "actor": "nono_jester",
-   "text": "目黒の海には、秋刀魚は一尾も泳いでおりません。それでも殿様は、生涯そう信じたそうで。",
-   "eyes": "fun"
+   "text": "うまさを決めたのは、空腹と、焼きたての煙と、爺さんの昼飯の心づくし。"
   },
   {
    "op": "say",
    "actor": "nono_jester",
-   "text": "目黒のさんま、お後がよろしいようで。皆さまも今夜は、骨ごと召し上がってください。",
-   "eyes": "joy"
+   "text": "殿様は、それを産地の名で覚えてしまいました。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_jester",
+   "text": "目黒の海には、秋刀魚は一尾も泳いでおりません。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_jester",
+   "text": "皆さまも今夜は、焼きたてを骨ごとどうぞ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono_jester",
+   "text": "煙と空腹さえあれば、そこが目黒でございます。"
   },
   {
    "op": "end"
