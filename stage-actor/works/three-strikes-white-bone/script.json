@@ -333,7 +333,7 @@
   {
    "op": "say",
    "actor": "rei_kimono",
-   "text": "二人も殺した！　悟空、お前を破門する！",
+   "text": "二人も殺した！　悟空、次に殺したら、破門です！",
    "eyes": "anger"
   },
   {
@@ -544,6 +544,19 @@
    "actor": "kurogane"
   },
   {
+   "op": "bg",
+   "src": "mountain",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "mountain"
+  },
+  {
+   "op": "nar",
+   "text": "遠い花果山。桃の木の下で、悟空が寝そべっている。"
+  },
+  {
    "op": "show",
    "actor": "sasuke",
    "pos": "left"
@@ -590,6 +603,49 @@
   {
    "op": "hide",
    "actor": "gou"
+  },
+  {
+   "op": "bg",
+   "src": "cave",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "cave"
+  },
+  {
+   "op": "nar",
+   "text": "骨の洞窟に、金色の雲が飛び込んだ。如意棒のひと振りで、白骨夫人は、ばらばらの白骨に戻った。"
+  },
+  {
+   "op": "show",
+   "actor": "sasuke",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei_kimono",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "悟空……。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "sasuke",
+   "text": "遅くなりました、お師匠さま。……三度とも、中身は、あいつでしたよ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "sasuke"
+  },
+  {
+   "op": "hide",
+   "actor": "rei_kimono"
   },
   {
    "op": "bg",

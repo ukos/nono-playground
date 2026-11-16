@@ -750,7 +750,8 @@
     },
     {
      "text": "レイは、掛け声をあきらめて、手を叩く",
-     "jump": "m_clap"
+     "jump": "m_clap",
+     "set": "clapped"
     }
    ]
   },
@@ -847,10 +848,56 @@
    "eyes": "surprise"
   },
   {
+   "op": "if",
+   "flag": "clapped",
+   "to": "hand_clap"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "座り込んだまま、立たせてもらおうと、手を上げていただけです。",
+   "eyes": "closed"
+  },
+  {
+   "op": "jump",
+   "to": "hand_go"
+  },
+  {
+   "op": "label",
+   "id": "hand_clap"
+  },
+  {
    "op": "say",
    "actor": "rei_casual",
    "text": "手を叩きすぎて、上がったまま、下ろすのを忘れただけです。",
    "eyes": "closed"
+  },
+  {
+   "op": "label",
+   "id": "hand_go"
+  },
+  {
+   "op": "if",
+   "flag": "clapped",
+   "to": "clap_praise"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "番頭さんの掛け声、途中まで、ちゃんと聞こえてたよ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "……途中まで、では、掛け声とは言えません。"
+  },
+  {
+   "op": "jump",
+   "to": "praise_go"
+  },
+  {
+   "op": "label",
+   "id": "clap_praise"
   },
   {
    "op": "say",
@@ -861,6 +908,10 @@
    "op": "say",
    "actor": "rei_casual",
    "text": "帳場で、そろばんを弾く指ですから。"
+  },
+  {
+   "op": "label",
+   "id": "praise_go"
   },
   {
    "op": "say",
@@ -933,14 +984,41 @@
    "eyes": "joy"
   },
   {
+   "op": "if",
+   "flag": "clapped",
+   "to": "said_clap"
+  },
+  {
    "op": "say",
    "actor": "rei_casual",
-   "text": "それに、わたしは、三つまでしか覚えられない頭で、八つまで、言えました。"
+   "text": "それに、わたしは、三つまでしか覚えられない頭で、七つまで、言えました。"
   },
   {
    "op": "say",
    "actor": "shiro",
    "text": "言えてた。……最後の、エターナル以外は。"
+  },
+  {
+   "op": "jump",
+   "to": "said_go"
+  },
+  {
+   "op": "label",
+   "id": "said_clap"
+  },
+  {
+   "op": "say",
+   "actor": "rei_casual",
+   "text": "それに、名前は言えなくても、手だけは、誰よりも大きく、叩けました。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "叩けてた。……エターナルの分まで。"
+  },
+  {
+   "op": "label",
+   "id": "said_go"
   },
   {
    "op": "say",
@@ -955,6 +1033,15 @@
   {
    "op": "hide",
    "actor": "shiro"
+  },
+  {
+   "op": "bg",
+   "src": "shop_fandom",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "shop_fandom"
   },
   {
    "op": "show",

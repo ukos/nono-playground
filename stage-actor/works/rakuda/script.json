@@ -1143,7 +1143,8 @@
    "options": [
     {
      "text": "らくだを探しに、もう一度、坂を戻る",
-     "jump": "m_search"
+     "jump": "m_search",
+     "set": "searched"
     },
     {
      "text": "坊主も一緒に、酒盛りの続きをする",
@@ -1219,6 +1220,33 @@
    "op": "say",
    "actor": "nono_jester",
    "text": "古典落語『らくだ』、これにて、お開きでございます。"
+  },
+  {
+   "op": "if",
+   "flag": "searched",
+   "to": "end_search"
+  },
+  {
+   "op": "say",
+   "actor": "nono_jester",
+   "text": "らくだは、明け方、坂の途中で見つかり、あの酔っぱらい坊主のお経で、ちゃんと弔われたそうで。"
+  },
+  {
+   "op": "jump",
+   "to": "end_go"
+  },
+  {
+   "op": "label",
+   "id": "end_search"
+  },
+  {
+   "op": "say",
+   "actor": "nono_jester",
+   "text": "二人は、坂の途中で、らくだを見つけ、夜の明けないうちに、焼き場へ届け直したそうで。"
+  },
+  {
+   "op": "label",
+   "id": "end_go"
   },
   {
    "op": "say",

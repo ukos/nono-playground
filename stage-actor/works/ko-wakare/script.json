@@ -441,7 +441,8 @@
    "options": [
     {
      "text": "亀は、約束を守って、口をつぐむ",
-     "jump": "silent"
+     "jump": "silent",
+     "set": "kept"
     },
     {
      "text": "亀は、母の顔を見て、すぐに打ち明ける",
@@ -480,7 +481,7 @@
   {
    "op": "say",
    "actor": "shiro",
-   "text": "おっかあ、ぶたないで。おとっつぁんに、もらった。内緒って言われたけど。",
+   "text": "おっかあ、ごめん。おとっつぁんに、もらった。内緒って言われたけど。",
    "eyes": "crying"
   },
   {
@@ -496,6 +497,34 @@
    "actor": "extra_elf",
    "text": "……おとっつぁん。熊さんに、会ったの。",
    "eyes": "surprise"
+  },
+  {
+   "op": "if",
+   "flag": "kept",
+   "to": "rv_kept"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "……ごめんよ、驚かせて。正直に言ってくれて、ありがとう。"
+  },
+  {
+   "op": "jump",
+   "to": "rv_go"
+  },
+  {
+   "op": "label",
+   "id": "rv_kept"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elf",
+   "text": "……玄能を振り上げられても、あの人との約束を守ろうとしたんだね。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "label",
+   "id": "rv_go"
   },
   {
    "op": "say",

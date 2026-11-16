@@ -1,931 +1,931 @@
 {
-  "meta": {
-    "id": "nono-02-sea-and-flame",
-    "title": "第二章　蒼海のヒレ、紅蓮の紋章",
-    "original": "アクションRPG『NONO: Blade of the Dawn』統合仕様書・公式攻略本",
-    "adaptation": "moderate",
-    "format": "v3",
-    "minutes": 31,
-    "synopsis": "nonoたちは群青の海で潮の玉を得て海底神殿へ潜り、オオガニから海神のヒレを取り戻す。続く紅蓮の火山ではホムラと刃を交え、炎の神殿のゴーレムを氷で破り、二つ目の封印を得る。",
-    "note": "Stage Actor向け連作舞台化。筋・固有名・攻略要素は資料に基づき、台詞とナレーションは全て本上演版の書き下ろし。第五章のユイ覚醒の内面劇は舞台独自の補助表現。 初稿で海神のヒレ入手前に海守りナギを登場させていた矛盾を改め、資料どおり灯台守カイへ変更。 原典は発注者提供のオリジナルIPとして扱う。公開・配布時の権利確認は運用者が行う。"
+ "meta": {
+  "id": "nono-02-sea-and-flame",
+  "title": "第二章　蒼海のヒレ、紅蓮の紋章",
+  "original": "アクションRPG『NONO: Blade of the Dawn』統合仕様書・公式攻略本",
+  "adaptation": "moderate",
+  "format": "v3",
+  "minutes": 31,
+  "synopsis": "nonoたちは群青の海で潮の玉を得て海底神殿へ潜り、オオガニから海神のヒレを取り戻す。続く紅蓮の火山ではホムラと刃を交え、炎の神殿のゴーレムを氷で破り、二つ目の封印を得る。",
+  "note": "Stage Actor向け連作舞台化。筋・固有名・攻略要素は資料に基づき、台詞とナレーションは全て本上演版の書き下ろし。第五章のユイ覚醒の内面劇は舞台独自の補助表現。 初稿で海神のヒレ入手前に海守りナギを登場させていた矛盾を改め、資料どおり灯台守カイへ変更。 原典は発注者提供のオリジナルIPとして扱う。公開・配布時の権利確認は運用者が行う。"
+ },
+ "cast": [
+  {
+   "role": "nono（旅人／狂言回し）",
+   "actor": "nono",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "nono（旅人／狂言回し）",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "ユイ",
-      "actor": "yui",
-      "costume": "default"
-    },
-    {
-      "role": "レイ",
-      "actor": "rei",
-      "costume": "default"
-    },
-    {
-      "role": "子のニブルス",
-      "actor": "nibulus",
-      "costume": "default"
-    },
-    {
-      "role": "辰のホムラ",
-      "actor": "homura",
-      "costume": "default"
-    },
-    {
-      "role": "灯台守カイ",
-      "actor": "extra_villager",
-      "costume": "default"
-    },
-    {
-      "role": "オオガニ【エネミー追加名】",
-      "actor": "enemy_giant_crab",
-      "costume": "default"
-    },
-    {
-      "role": "炎の神殿ゴーレム【エネミー追加名】",
-      "actor": "enemy_golem",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "sapphire_coast": "bg/ch2_01_sapphire_coast-2048x1152.png",
-    "turtle_beach": "bg/ch2_02_turtle_beach-2048x1152.png",
-    "lighthouse_island": "bg/ch2_03_lighthouse_island-2048x1152.png",
-    "whirlpool_descent": "bg/ch2_04_whirlpool_descent-2048x1152.png",
-    "seabed_world": "bg/ch2_05_seabed_world-2048x1152.png",
-    "seabed_temple": "bg/ch2_06_seabed_temple-2048x1152.png",
-    "giant_crab_chamber": "bg/ch2_07_giant_crab_chamber-2048x1152.png",
-    "steam_village": "bg/ch2_08_steam_village-2048x1152.png",
-    "lava_temple": "bg/ch2_09_lava_temple-2048x1152.png",
-    "golem_sanctum": "bg/ch2_10_golem_sanctum-2048x1152.png"
+  {
+   "role": "ユイ",
+   "actor": "yui",
+   "costume": "default"
   },
-  "steps": [
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "bg",
-      "src": "sapphire_coast",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "sapphire_coast"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "center"
-    },
-    {
-      "op": "show",
-      "actor": "rei",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "――群青の海辺――"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "八つの島を縫う浅瀬へ、潮の色をした幕が開く。"
-    },
-    {
-      "op": "nar",
-      "text": "遠い六つの渦が、空の雲までゆっくり回して見せる。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "あの渦の下が海の底。息をする道具が要ります。"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "砂漠側の浜に亀がいる。海賊が先に嗅ぎつけた。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "亀を助ければ潮の玉。話が貝殻みたいに繋がった。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "ニブルスも海に来ています。財布の紐まで結んで。"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "奴は勝負と同時に五ルピーずつ盗む。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "剣より先に算数を構える相手か。急ごう。"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "hide",
-      "actor": "rei"
-    },
-    {
-      "op": "bg",
-      "src": "turtle_beach",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "turtle_beach"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "nibulus",
-      "pos": "center"
-    },
-    {
-      "op": "nar",
-      "text": "――亀の浜――"
-    },
-    {
-      "op": "nar",
-      "text": "三人の海賊が逃げ、砂には曲刀と空の袋が残る。"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "遅かったね。亀の礼品は、先着一名様だ。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "足跡は二往復。君も海賊に袋を盗まれたらしい。"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "観察は得意でも、二段斬りは数えられるかな？"
-    },
-    {
-      "op": "choice",
-      "options": [
-        {
-          "text": "二段目まで待つ",
-          "jump": "ch2_wait"
-        },
-        {
-          "text": "一段目を受け流す",
-          "jump": "ch2_parry"
-        }
-      ]
-    },
-    {
-      "op": "label",
-      "id": "ch2_wait"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "一、まだ。二、いま。砂ごと足を払う。"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "待つ剣は退屈だと思ったのに、これは痛い。"
-    },
-    {
-      "op": "jump",
-      "to": "ch2_duel_join"
-    },
-    {
-      "op": "label",
-      "id": "ch2_parry"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "一枚目の刃に、二枚目の道を塞がせる。"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "自分の短剣に通せんぼされるとはね。",
-      "eyes": "surprise"
-    },
-    {
-      "op": "label",
-      "id": "ch2_duel_join"
-    },
-    {
-      "op": "nar",
-      "text": "助けられた大亀が砂を掻き、青い潮の玉をnonoの足元へ置く。"
-    },
-    {
-      "op": "say",
-      "actor": "nibulus",
-      "text": "亀は君を選んだ。代わりに渦の底の宝を見せて。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "盗らない距離でなら、一緒に眺めよう。"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "hide",
-      "actor": "nibulus"
-    },
-    {
-      "op": "bg",
-      "src": "lighthouse_island",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "lighthouse_island"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "center"
-    },
-    {
-      "op": "show",
-      "actor": "extra_villager",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "――灯台の島――"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "灯台守のカイだ。潮の玉を得たなら、渦の真下を見ろ。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "海底神殿へ潜ります。北都の門を開く宝が、そこにある。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "海底神殿の主はオオガニだ。四太刀ごとに殻へ籠もる。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "渦は六つ。どの光輪へ着くか、灯台から流れを読めますか？"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "北東の渦が神殿に近い。潮の玉を胸元から離すな。"
-    },
-    {
-      "op": "nar",
-      "text": "灯台の火が一度消え、渦の縁だけが青白く浮かぶ。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "殻が開く二秒を待つ。泡の三筋には必ず隙間がある。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_villager",
-      "text": "海底では火が消える。水位を下げ、空気の間で燭台を点けろ。"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_villager"
-    },
-    {
-      "op": "bg",
-      "src": "whirlpool_descent",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "whirlpool_descent"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "center"
-    },
-    {
-      "op": "show",
-      "actor": "rei",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "――渦の降り道――"
-    },
-    {
-      "op": "nar",
-      "text": "潮の玉が三人を包み、渦の壁が螺旋の階段になる。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "声が水に溶けません。玉の内側だけ、空気があります。"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "沈没船の帆柱を左へ。右の光はアンコウの口だ。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "海の底では、道標までこちらを食べたがる。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "レイ、泡が減っています。深く潜りすぎです。"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "次の石輪で流れが反転する。息ではなく肩を抜け。"
-    },
-    {
-      "op": "nar",
-      "text": "三人は青い石輪をくぐり、静かな海底へ落ちる。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "空から落ちた霧へ、海から登る答えを持ち帰ろう。"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "hide",
-      "actor": "rei"
-    },
-    {
-      "op": "bg",
-      "src": "seabed_world",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "seabed_world"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "center"
-    },
-    {
-      "op": "show",
-      "actor": "rei",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "――光の海底――"
-    },
-    {
-      "op": "nar",
-      "text": "沈没船の窓を、珊瑚の影と泡がゆっくり通り過ぎる。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "火の魔法が沈黙しています。燭台は水路の向こうです。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "火を使えない場所で火を灯す。神殿は意地が悪い。"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "赤い水位スイッチを下げれば、空気の間が現れる。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "先に仕組みを動かし、あとから炎を連れてくる。"
-    },
-    {
-      "op": "nar",
-      "text": "遠くで三方向の泡が岩壁を叩き、貝の屋根が震える。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "あれがオオガニ。四回斬ると殻へこもります。"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "殻を叩くな。出てくる一拍を盗め。"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "hide",
-      "actor": "rei"
-    },
-    {
-      "op": "bg",
-      "src": "seabed_temple",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "seabed_temple"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "center"
-    },
-    {
-      "op": "show",
-      "actor": "rei",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "――海底神殿の水路――"
-    },
-    {
-      "op": "nar",
-      "text": "赤いスイッチが沈み、水位が石段一つ分ずつ下がる。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "水が引いた。燭台までの道が、濡れた鏡になった。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "足を急がせないで。床の苔は剣より滑ります。"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "左から二番目の水路にウツボ。影が逆向きだ。"
-    },
-    {
-      "op": "nar",
-      "text": "空気の間で火が四つ灯り、貝殻の大扉が開く。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "海の底の炎は小さい。でも扉には十分だ。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "強さより、置く場所を選んだ火ですね。"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "感想は後だ。泡が三筋、こちらへ曲がった。"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "hide",
-      "actor": "rei"
-    },
-    {
-      "op": "bg",
-      "src": "giant_crab_chamber",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "giant_crab_chamber"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "enemy_giant_crab",
-      "pos": "center"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "――オオガニの間――"
-    },
-    {
-      "op": "say",
-      "actor": "enemy_giant_crab",
-      "text": "ガガガ……ヒレ、ワタサヌ……。"
-    },
-    {
-      "op": "nar",
-      "text": "三本の泡が扇状に走り、石床へ白い跡を刻む。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "四太刀だけ。五つ目は殻に吸われる！"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "殻へ入りました。泡の線と線の間へ！"
-    },
-    {
-      "op": "nar",
-      "text": "硬い殻が二秒閉じ、紫の砂だけが継ぎ目から漏れる。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "いま開いた。霧の砂を、水ごと払い落とす！",
-      "eyes": "anger"
-    },
-    {
-      "op": "say",
-      "actor": "enemy_giant_crab",
-      "text": "シオ……ノ、ヒカリ……。"
-    },
-    {
-      "op": "nar",
-      "text": "大鋏が静まり、海神のヒレが青い台座へ戻る。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "速さをくれる宝なのに、勝ち方は待つことでした。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "海は急がない。僕らも一度、息を整えよう。"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "hide",
-      "actor": "enemy_giant_crab"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "bg",
-      "src": "steam_village",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "steam_village"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "homura",
-      "pos": "center"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "――湯けむりの里――"
-    },
-    {
-      "op": "nar",
-      "text": "火山の麓。湯気の向こうで、大剣の炎が扇に広がる。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "海の匂いを連れて火山へ来るとは、刃が曇るぞ。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "水気がある方が、焼き加減を見失わない。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "三つの炎波、その隙間を縫えたら紋章へ通す。"
-    },
-    {
-      "op": "nar",
-      "text": "赤い波が三列に走り、中央だけ一瞬暗くなる。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "炎の壁じゃない。三枚の戸が順に閉じるだけだ。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "戸口へ飛び込む度胸は認める。次は炉心の石人形だ。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "耐火の護符を預かりました。熱は防げても衝撃は残ります。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "凍らせて、硬さの意味を変えよう。"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "hide",
-      "actor": "homura"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "bg",
-      "src": "lava_temple",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "lava_temple"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "center"
-    },
-    {
-      "op": "show",
-      "actor": "rei",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "――炎の神殿――"
-    },
-    {
-      "op": "nar",
-      "text": "氷の魔法が溶岩を三歩分だけ黒い橋へ変える。"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "次の噴出口、光ってから二呼吸で火柱。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "二呼吸なら、迷うのは一呼吸までだ。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "右端の床は冷えています。そこへ渡ってください。"
-    },
-    {
-      "op": "nar",
-      "text": "火柱が背後で上がり、長い影が神殿の奥へ倒れる。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "ゴーレムの衝撃は八方向。柱を盾にできる？"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "柱は一撃だけ耐える。二度目には粉だ。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "剣は一しか通りません。氷で止めれば三倍です。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "なら、一太刀を三太刀にして返す。"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "hide",
-      "actor": "rei"
-    },
-    {
-      "op": "bg",
-      "src": "golem_sanctum",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "golem_sanctum"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "enemy_golem",
-      "pos": "center"
-    },
-    {
-      "op": "show",
-      "actor": "homura",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "――ゴーレムの炉心――"
-    },
-    {
-      "op": "say",
-      "actor": "enemy_golem",
-      "text": "炉心温度、上昇。侵入者を排除する。"
-    },
-    {
-      "op": "nar",
-      "text": "石腕が床を打ち、八本の橙の亀裂が外へ走る。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "斜めの溝へ入れ！　正面四方は二度割れる！"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "氷よ、炉心だけを眠らせろ。神殿まで凍らすな！"
-    },
-    {
-      "op": "nar",
-      "text": "白霜が胸へ集まり、ゴーレムの腕が半ばで止まる。"
-    },
-    {
-      "op": "say",
-      "actor": "enemy_golem",
-      "text": "炎の紋章、保護命令を継続する。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "守る相手を思い出せ。霧ではなく、この山だ。"
-    },
-    {
-      "op": "nar",
-      "text": "無名の剣が凍った胸を打ち、炎の紋章が空中へ浮かぶ。"
-    },
-    {
-      "op": "say",
-      "actor": "homura",
-      "text": "二つ目の封印だ。次に会う時、剣は何段だ？"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "数より音で答える。暁の刃になった時の音で。"
-    },
-    {
-      "op": "nar",
-      "text": "海神の青と炎の赤が、同じ袋の中で静かに明滅する。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "青いヒレと赤い紋章が、同じ袋で初めて静かになる。"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "hide",
-      "actor": "enemy_golem"
-    },
-    {
-      "op": "hide",
-      "actor": "homura"
-    },
-    {
-      "op": "end"
+  {
+   "role": "レイ",
+   "actor": "rei",
+   "costume": "default"
+  },
+  {
+   "role": "子のニブルス",
+   "actor": "nibulus",
+   "costume": "default"
+  },
+  {
+   "role": "辰のホムラ",
+   "actor": "homura",
+   "costume": "default"
+  },
+  {
+   "role": "灯台守カイ",
+   "actor": "extra_villager",
+   "costume": "default"
+  },
+  {
+   "role": "オオガニ【エネミー追加名】",
+   "actor": "enemy_giant_crab",
+   "costume": "default"
+  },
+  {
+   "role": "炎の神殿ゴーレム【エネミー追加名】",
+   "actor": "enemy_golem",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "sapphire_coast": "bg/ch2_01_sapphire_coast-2048x1152.png",
+  "turtle_beach": "bg/ch2_02_turtle_beach-2048x1152.png",
+  "lighthouse_island": "bg/ch2_03_lighthouse_island-2048x1152.png",
+  "whirlpool_descent": "bg/ch2_04_whirlpool_descent-2048x1152.png",
+  "seabed_world": "bg/ch2_05_seabed_world-2048x1152.png",
+  "seabed_temple": "bg/ch2_06_seabed_temple-2048x1152.png",
+  "giant_crab_chamber": "bg/ch2_07_giant_crab_chamber-2048x1152.png",
+  "steam_village": "bg/ch2_08_steam_village-2048x1152.png",
+  "lava_temple": "bg/ch2_09_lava_temple-2048x1152.png",
+  "golem_sanctum": "bg/ch2_10_golem_sanctum-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "bg",
+   "src": "sapphire_coast",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "sapphire_coast"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "rei",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "――群青の海辺――"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "八つの島を縫う浅瀬へ、潮の色をした幕が開く。"
+  },
+  {
+   "op": "nar",
+   "text": "遠い六つの渦が、空の雲までゆっくり回して見せる。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "あの渦の下が海の底。息をする道具が要ります。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "砂漠側の浜に亀がいる。海賊が先に嗅ぎつけた。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "亀を助ければ潮の玉。話が貝殻みたいに繋がった。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "ニブルスも海に来ています。財布の紐まで結んで。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "奴は勝負と同時に五ルピーずつ盗む。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "剣より先に算数を構える相手か。急ごう。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "rei"
+  },
+  {
+   "op": "bg",
+   "src": "turtle_beach",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "turtle_beach"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "nibulus",
+   "pos": "center"
+  },
+  {
+   "op": "nar",
+   "text": "――亀の浜――"
+  },
+  {
+   "op": "nar",
+   "text": "三人の海賊が逃げ、砂には曲刀と空の袋が残る。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "遅かったね。亀の礼品は、先着一名様だ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "足跡は二往復。君も海賊に袋を盗まれたらしい。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "観察は得意でも、二段斬りは数えられるかな？"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "二段目まで待つ",
+     "jump": "ch2_wait"
+    },
+    {
+     "text": "一段目を受け流す",
+     "jump": "ch2_parry"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "ch2_wait"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "一、まだ。二、いま。砂ごと足を払う。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "待つ剣は退屈だと思ったのに、これは痛い。"
+  },
+  {
+   "op": "jump",
+   "to": "ch2_duel_join"
+  },
+  {
+   "op": "label",
+   "id": "ch2_parry"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "一枚目の刃に、二枚目の道を塞がせる。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "自分の短剣に通せんぼされるとはね。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "label",
+   "id": "ch2_duel_join"
+  },
+  {
+   "op": "nar",
+   "text": "助けられた大亀が砂を掻き、青い潮の玉をnonoの足元へ置く。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "亀は君を選んだ。代わりに渦の底の宝を見せて。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "盗らない距離でなら、一緒に眺めよう。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "nibulus"
+  },
+  {
+   "op": "bg",
+   "src": "lighthouse_island",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "lighthouse_island"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "extra_villager",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "――灯台の島――"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "灯台守のカイだ。潮の玉を得たなら、渦の真下を見ろ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "海底神殿へ潜ります。北都の門を開く宝が、そこにある。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "海底神殿の主はオオガニだ。四太刀ごとに殻へ籠もる。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "渦は六つ。どの光輪へ着くか、灯台から流れを読めますか？"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "北東の渦が神殿に近い。潮の玉を胸元から離すな。"
+  },
+  {
+   "op": "nar",
+   "text": "灯台の火が一度消え、渦の縁だけが青白く浮かぶ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "殻が開く二秒を待つ。泡の三筋には必ず隙間がある。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "海底では火が消える。水位を下げ、空気の間で燭台を点けろ。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_villager"
+  },
+  {
+   "op": "bg",
+   "src": "whirlpool_descent",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "whirlpool_descent"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "rei",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "――渦の降り道――"
+  },
+  {
+   "op": "nar",
+   "text": "潮の玉が三人を包み、渦の壁が螺旋の階段になる。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "声が水に溶けません。玉の内側だけ、空気があります。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "沈没船の帆柱を左へ。右の光はアンコウの口だ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "海の底では、道標までこちらを食べたがる。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "レイ、泡が減っています。深く潜りすぎです。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "次の石輪で流れが反転する。息ではなく肩を抜け。"
+  },
+  {
+   "op": "nar",
+   "text": "三人は青い石輪をくぐり、静かな海底へ落ちる。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "空から落ちた霧へ、海から登る答えを持ち帰ろう。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "rei"
+  },
+  {
+   "op": "bg",
+   "src": "seabed_world",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "seabed_world"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "rei",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "――光の海底――"
+  },
+  {
+   "op": "nar",
+   "text": "沈没船の窓を、珊瑚の影と泡がゆっくり通り過ぎる。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "火の魔法が沈黙しています。燭台は水路の向こうです。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "火を使えない場所で火を灯す。神殿は意地が悪い。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "赤い水位スイッチを下げれば、空気の間が現れる。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "先に仕組みを動かし、あとから炎を連れてくる。"
+  },
+  {
+   "op": "nar",
+   "text": "遠くで三方向の泡が岩壁を叩き、貝の屋根が震える。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "あれがオオガニ。四回斬ると殻へこもります。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "殻を叩くな。出てくる一拍を盗め。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "rei"
+  },
+  {
+   "op": "bg",
+   "src": "seabed_temple",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "seabed_temple"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "rei",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "――海底神殿の水路――"
+  },
+  {
+   "op": "nar",
+   "text": "赤いスイッチが沈み、水位が石段一つ分ずつ下がる。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "水が引いた。燭台までの道が、濡れた鏡になった。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "足を急がせないで。床の苔は剣より滑ります。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "左から二番目の水路にウツボ。影が逆向きだ。"
+  },
+  {
+   "op": "nar",
+   "text": "空気の間で火が四つ灯り、貝殻の大扉が開く。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "海の底の炎は小さい。でも扉には十分だ。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "強さより、置く場所を選んだ火ですね。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "感想は後だ。泡が三筋、こちらへ曲がった。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "rei"
+  },
+  {
+   "op": "bg",
+   "src": "giant_crab_chamber",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "giant_crab_chamber"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "enemy_giant_crab",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "――オオガニの間――"
+  },
+  {
+   "op": "say",
+   "actor": "enemy_giant_crab",
+   "text": "ガガガ……ヒレ、ワタサヌ……。"
+  },
+  {
+   "op": "nar",
+   "text": "三本の泡が扇状に走り、石床へ白い跡を刻む。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "四太刀だけ。五つ目は殻に吸われる！"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "殻へ入りました。泡の線と線の間へ！"
+  },
+  {
+   "op": "nar",
+   "text": "硬い殻が二秒閉じ、紫の砂だけが継ぎ目から漏れる。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "いま開いた。霧の砂を、水ごと払い落とす！",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "enemy_giant_crab",
+   "text": "シオ……ノ、ヒカリ……。"
+  },
+  {
+   "op": "nar",
+   "text": "大鋏が静まり、海神のヒレが青い台座へ戻る。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "速さをくれる宝なのに、勝ち方は待つことでした。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "海は急がない。僕らも一度、息を整えよう。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "enemy_giant_crab"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "bg",
+   "src": "steam_village",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "steam_village"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "homura",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "――湯けむりの里――"
+  },
+  {
+   "op": "nar",
+   "text": "火山の麓。湯気の向こうで、大剣の炎が扇に広がる。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "海の匂いを連れて火山へ来るとは、刃が曇るぞ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "水気がある方が、焼き加減を見失わない。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "三つの炎波、その隙間を縫えたら紋章へ通す。"
+  },
+  {
+   "op": "nar",
+   "text": "赤い波が三列に走り、中央だけ一瞬暗くなる。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "炎の壁じゃない。三枚の戸が順に閉じるだけだ。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "戸口へ飛び込む度胸は認める。次は炉心の石人形だ。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "耐火の護符を預かりました。熱は防げても衝撃は残ります。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "凍らせて、硬さの意味を変えよう。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "homura"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "bg",
+   "src": "lava_temple",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "lava_temple"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "rei",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "――炎の神殿――"
+  },
+  {
+   "op": "nar",
+   "text": "氷の魔法が溶岩を三歩分だけ黒い橋へ変える。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "次の噴出口、光ってから二呼吸で火柱。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "二呼吸なら、迷うのは一呼吸までだ。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "右端の床は冷えています。そこへ渡ってください。"
+  },
+  {
+   "op": "nar",
+   "text": "火柱が背後で上がり、長い影が神殿の奥へ倒れる。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "ゴーレムの衝撃は八方向。柱を盾にできる？"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "柱は一撃だけ耐える。二度目には粉だ。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "剣は一しか通りません。氷で止めれば三倍です。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "なら、一太刀を三太刀にして返す。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "rei"
+  },
+  {
+   "op": "bg",
+   "src": "golem_sanctum",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "golem_sanctum"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "enemy_golem",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "homura",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "――ゴーレムの炉心――"
+  },
+  {
+   "op": "say",
+   "actor": "enemy_golem",
+   "text": "炉心温度、上昇。侵入者を排除する。"
+  },
+  {
+   "op": "nar",
+   "text": "石腕が床を打ち、八本の橙の亀裂が外へ走る。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "斜めの溝へ入れ！　正面四方は二度割れる！"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "氷よ、炉心だけを眠らせろ。神殿まで凍らすな！"
+  },
+  {
+   "op": "nar",
+   "text": "白霜が胸へ集まり、ゴーレムの腕が半ばで止まる。"
+  },
+  {
+   "op": "say",
+   "actor": "enemy_golem",
+   "text": "炎の紋章、保護命令を継続する。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "守る相手を思い出せ。霧ではなく、この山だ。"
+  },
+  {
+   "op": "nar",
+   "text": "無名の剣が凍った胸を打ち、炎の紋章が空中へ浮かぶ。"
+  },
+  {
+   "op": "say",
+   "actor": "homura",
+   "text": "二つ目の封印だ。次に会う時、剣は何段だ？"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "数より音で答える。暁の刃になった時の音で。"
+  },
+  {
+   "op": "nar",
+   "text": "海神の青と炎の赤が、同じ袋の中で静かに明滅する。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "海と火山、二つ目の封印。……残る道は、まだ長い。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "enemy_golem"
+  },
+  {
+   "op": "hide",
+   "actor": "homura"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

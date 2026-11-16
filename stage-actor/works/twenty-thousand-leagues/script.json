@@ -6,7 +6,7 @@
   "adaptation": "moderate",
   "format": "v3",
   "minutes": 21,
-  "synopsis": "アロナクス教授、コンセイユ、銛打ちネッドは怪物追跡中に海へ落ち、ノーチラス号へ収容される。紅海、海底の森、南極、沈没船を巡る一方、ネモの過去と戦争への憎しみが明らかになる。",
+  "synopsis": "アロナクス教授、コンセイユ、銛打ちネッドは怪物追跡中に海へ落ち、ノーチラス号へ収容される。海底の森、南極の氷の下、軍艦との遭遇を経て、ネモの過去と戦争への憎しみが明らかになる。",
   "note": "本脚本は翻案であり、原作の文章の転載ではない。セリフは全て本上演版の書き下ろし。"
  },
  "cast": [
@@ -394,6 +394,35 @@
   {
    "op": "hide",
    "actor": "extra_wizard"
+  },
+  {
+   "op": "show",
+   "actor": "extra_wizard",
+   "pos": "right"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "船長。前方に軍艦。……旗を確かめました。あの国の旗です。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_wizard",
+   "text": "……衝角を用意せよ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_wizard"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
   },
   {
    "op": "nar",

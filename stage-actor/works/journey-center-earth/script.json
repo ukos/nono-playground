@@ -554,7 +554,35 @@
   },
   {
    "op": "nar",
-   "text": "古い錬金術師の幻が、坑道の奥を指さして消えた。道は岩で塞がれていた。"
+   "text": "岩のかげに、古い錬金術師の幻が、ぼうっと立った。"
+  },
+  {
+   "op": "hide",
+   "actor": "kurogane"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……この奥だ。わしが行けなかった、その先へ、ゆけ。",
+   "eyes": "closed"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "show",
+   "actor": "kurogane",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "幻は、坑道の奥を指さして消えた。道は岩で塞がれていた。"
   },
   {
    "op": "say",

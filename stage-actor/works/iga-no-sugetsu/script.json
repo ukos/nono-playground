@@ -837,7 +837,8 @@
     },
     {
      "text": "数馬は、又五郎に、最後の言葉を求める",
-     "jump": "m_word"
+     "jump": "m_word",
+     "set": "asked"
     }
    ]
   },
@@ -1088,9 +1089,31 @@
    "text": "三十六人斬りの豪傑は、本当は、四年間、若い義弟の隣を歩き続けた人でした。"
   },
   {
+   "op": "if",
+   "flag": "asked",
+   "to": "end_word"
+  },
+  {
+   "op": "say",
+   "actor": "nono_jester",
+   "text": "憎しみで始まった旅は、最後に、波の立たない心で構え直した一太刀で終わりました。"
+  },
+  {
+   "op": "jump",
+   "to": "end_go"
+  },
+  {
+   "op": "label",
+   "id": "end_word"
+  },
+  {
    "op": "say",
    "actor": "nono_jester",
    "text": "憎しみで始まった旅は、最後に、仇の詫びの言葉を受け取って終わりました。"
+  },
+  {
+   "op": "label",
+   "id": "end_go"
   },
   {
    "op": "say",

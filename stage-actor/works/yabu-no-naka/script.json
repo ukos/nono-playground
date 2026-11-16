@@ -134,8 +134,8 @@
    "op": "say",
    "actor": "kurogane",
    "text": "まず、死骸の第一発見者を呼べ。木樵り、前に。",
-   "eyes": "normal",
-   "mouth": "open"
+   "mouth": "open",
+   "eyes": "normal"
   },
   {
    "op": "show",
@@ -231,8 +231,8 @@
    "op": "say",
    "actor": "iwao",
    "text": "おう、俺が縛ったのは多襄丸だ。夜更け、粟田口で馬から落ちて呻いてやがった。",
-   "eyes": "fun",
-   "mouth": "open"
+   "mouth": "open",
+   "eyes": "fun"
   },
   {
    "op": "say",
@@ -256,8 +256,8 @@
    "op": "say",
    "actor": "iwao",
    "text": "捕らえた時には、もう売っ払った後だったみてえだ。へっ、命より金の早え男よ。",
-   "eyes": "fun",
-   "mouth": "open"
+   "mouth": "open",
+   "eyes": "fun"
   },
   {
    "op": "say",
@@ -312,8 +312,8 @@
    "op": "say",
    "actor": "kurogane",
    "text": "さて、観客の皆に問う。告白を聞く順番は、そなたらに委ねよう。",
-   "eyes": "fun",
-   "mouth": "open"
+   "mouth": "open",
+   "eyes": "fun"
   },
   {
    "op": "choice",
@@ -388,8 +388,8 @@
    "op": "say",
    "actor": "yoru",
    "text": "へへ、隠しはしねえ。殺したのは俺だ。だがな、卑怯な殺しじゃねえぞ。",
-   "eyes": "fun",
-   "mouth": "open"
+   "mouth": "open",
+   "eyes": "fun"
   },
   {
    "op": "say",
@@ -423,8 +423,8 @@
    "op": "say",
    "actor": "yoru",
    "text": "ところが女は小刀を抜いて、まるで鬼のように斬りかかってきやがった。",
-   "eyes": "surprise",
-   "mouth": "open"
+   "mouth": "open",
+   "eyes": "surprise"
   },
   {
    "op": "say",
@@ -442,15 +442,15 @@
    "op": "say",
    "actor": "yoru",
    "text": "俺は男の縄を解いた。正々堂々、太刀で勝負だ。二十三太刀目で、男は倒れた。",
-   "eyes": "fun",
-   "mouth": "open"
+   "mouth": "open",
+   "eyes": "fun"
   },
   {
    "op": "say",
    "actor": "yoru",
    "text": "二十太刀以上打ち合った相手は、後にも先にもあの男だけだ。腕は立ったよ。",
-   "eyes": "joy",
-   "mouth": "open"
+   "mouth": "open",
+   "eyes": "joy"
   },
   {
    "op": "say",
@@ -519,8 +519,8 @@
    "op": "say",
    "actor": "akane",
    "text": "ああ、この人と夫婦ではいられない。私は死のう。けれど、あなたも道連れに。",
-   "eyes": "crying",
-   "mouth": "open"
+   "mouth": "open",
+   "eyes": "crying"
   },
   {
    "op": "say",
@@ -538,8 +538,8 @@
    "op": "say",
    "actor": "akane",
    "text": "生き残ってしまった私を、観音様、どうかお罰しください。",
-   "eyes": "crying",
-   "mouth": "open"
+   "mouth": "open",
+   "eyes": "crying"
   },
   {
    "op": "say",
@@ -766,6 +766,24 @@
    "eyes": "normal"
   },
   {
+   "op": "if",
+   "flag": "called_back",
+   "to": "yabu_kikori"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "裁きは保留とする。……小刀を持ち去った者の詮議だけは、改めて行う。"
+  },
+  {
+   "op": "jump",
+   "to": "closing"
+  },
+  {
+   "op": "label",
+   "id": "yabu_kikori"
+  },
+  {
    "op": "say",
    "actor": "kurogane",
    "text": "裁きは保留とする。……木樵り、そなたの小刀の件だけは、別に糺す。",
@@ -784,6 +802,24 @@
    "actor": "kurogane",
    "text": "真実は藪の中でも、人は裁かねばならぬ。分かることから、一つずつだ。",
    "eyes": "normal"
+  },
+  {
+   "op": "if",
+   "flag": "called_back",
+   "to": "sabaki_kikori"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "まず、死骸の胸から小刀を持ち去った者を探す。真実は、そこから掘る。"
+  },
+  {
+   "op": "jump",
+   "to": "closing"
+  },
+  {
+   "op": "label",
+   "id": "sabaki_kikori"
   },
   {
    "op": "say",

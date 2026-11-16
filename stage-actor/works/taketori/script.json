@@ -745,7 +745,7 @@
   {
    "op": "say",
    "actor": "yui_origin",
-   "text": "言葉にすると、別れが本当になってしまう。形見の着物だけを、そっと置いていきます。"
+   "text": "言葉にすると、別れが本当になってしまう。形見の着物と、帝への不死の薬だけを、置いていきます。"
   },
   {
    "op": "label",
@@ -864,9 +864,31 @@
    "text": "悲しみだけ消せば、愛した記憶も、形を失います。"
   },
   {
+   "op": "if",
+   "flag": "f_letter",
+   "to": "proof_letter"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "置いていく着物も、この家で流した涙も、私が私だった証です。"
+  },
+  {
+   "op": "jump",
+   "to": "proof_go"
+  },
+  {
+   "op": "label",
+   "id": "proof_letter"
+  },
+  {
    "op": "say",
    "actor": "yui_origin",
    "text": "帝への手紙も、父母への言葉も、私が私だった証です。"
+  },
+  {
+   "op": "label",
+   "id": "proof_go"
   },
   {
    "op": "say",
@@ -897,9 +919,31 @@
    "text": "あなたのいない世で、不死の薬など何になろう。"
   },
   {
+   "op": "if",
+   "flag": "f_letter",
+   "to": "burn_letter"
+  },
+  {
+   "op": "say",
+   "actor": "rei_kimono",
+   "text": "姫の残した薬は、天にいちばん近い山で焼かせた。煙は、今も雲の中へ昇っている。"
+  },
+  {
+   "op": "jump",
+   "to": "burn_go"
+  },
+  {
+   "op": "label",
+   "id": "burn_letter"
+  },
+  {
    "op": "say",
    "actor": "rei_kimono",
    "text": "天にいちばん近い山の頂で、手紙と薬を焼かせた。その煙は、今も雲の中へ立ちのぼっている。"
+  },
+  {
+   "op": "label",
+   "id": "burn_go"
   },
   {
    "op": "say",

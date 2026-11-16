@@ -295,6 +295,17 @@
   },
   {
    "op": "say",
+   "actor": "mei",
+   "text": "お礼に、これ。白いお花。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "……ありがとう。ポケットに、しまっておこう。"
+  },
+  {
+   "op": "say",
    "actor": "rei_trackcape",
    "text": "ウィーナ。君たちは、夜になると何を怖がっているんだい。"
   },
@@ -433,7 +444,8 @@
    "options": [
     {
      "text": "時間旅行者は、火を大きく燃やして逃げ道を作る",
-     "jump": "m_fire"
+     "jump": "m_fire",
+     "set": "bigfire"
     },
     {
      "text": "時間旅行者は、火を小さく保って朝を待つ",
@@ -469,7 +481,7 @@
   },
   {
    "op": "nar",
-   "text": "目を覚ましたとき、火は消えかけ、森のどこかで炎が燃え広がっていた。"
+   "text": "目を覚ましたとき、火は消えかけていた。風に飛んだ火の粉から、森のどこかで炎が燃え広がっていた。"
   },
   {
    "op": "label",
@@ -486,10 +498,33 @@
    "actor": "mei"
   },
   {
+   "op": "if",
+   "flag": "bigfire",
+   "to": "lost_fire"
+  },
+  {
    "op": "say",
    "actor": "rei_trackcape",
-   "text": "ウィーナ……。私は、彼女を守れなかった。",
+   "text": "ウィーナ……。眠ってしまった私が、あの子の手を離したんだ。",
    "eyes": "crying"
+  },
+  {
+   "op": "jump",
+   "to": "lost_go"
+  },
+  {
+   "op": "label",
+   "id": "lost_fire"
+  },
+  {
+   "op": "say",
+   "actor": "rei_trackcape",
+   "text": "ウィーナ……。私が燃やした火が、あの子を呑んだ。",
+   "eyes": "crying"
+  },
+  {
+   "op": "label",
+   "id": "lost_go"
   },
   {
    "op": "hide",

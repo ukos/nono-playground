@@ -1,950 +1,950 @@
 {
-  "meta": {
-    "id": "nono-08-continental-railway",
-    "title": "第八章（番外編）　大陸鉄道、十四駅の朝",
-    "original": "『NONO: Blade of the Dawn』公式攻略本 第11章・統合仕様書 第37節",
-    "adaptation": "moderate",
-    "format": "v3",
-    "minutes": 29,
-    "synopsis": "岩竜から得た黄金のつるはしを合図に、十四の町を結ぶ大陸鉄道の工事が始まる。nonoたちは特産品の輪を持ち寄り、A*の路線が水・溶岩・瘴気を越えるのを助け、黒と赤の魔導列車で初旅へ出る。剣で救った世界を線路と交易でつなぎ直した翌朝、交易三回の節目に迷宮では出ない最初の星座の宝物が届く。",
-    "note": "Stage Actor向け番外編。統合仕様書第37節をCanonical要件として、14駅、解禁条件relic:tsuruhashi、近い順5町、費用式、A*敷設、rail:町~町保存、列車三段階、自動交易・収入・10節目の星座宝物を物語化した。舞台では最初の路線網と交易3回到達を一夜へ圧縮。台詞・ナレーションは全て書き下ろし。"
+ "meta": {
+  "id": "nono-08-continental-railway",
+  "title": "第八章（番外編）　大陸鉄道、十四駅の朝",
+  "original": "『NONO: Blade of the Dawn』公式攻略本 第11章・統合仕様書 第37節",
+  "adaptation": "moderate",
+  "format": "v3",
+  "minutes": 29,
+  "synopsis": "岩竜から得た黄金のつるはしを合図に、十四の町を結ぶ大陸鉄道の工事が始まる。nonoたちは特産品の輪を持ち寄り、A*の路線が水・溶岩・瘴気を越えるのを助け、黒と赤の魔導列車で初旅へ出る。剣で救った世界を線路と交易でつなぎ直した翌朝、交易三回の節目に迷宮では出ない最初の星座の宝物が届く。",
+  "note": "Stage Actor向け番外編。統合仕様書第37節をCanonical要件として、14駅、解禁条件relic:tsuruhashi、近い順5町、費用式、A*敷設、rail:町~町保存、列車三段階、自動交易・収入・10節目の星座宝物を物語化した。舞台では最初の路線網と交易3回到達を一夜へ圧縮。台詞・ナレーションは全て書き下ろし。"
+ },
+ "cast": [
+  {
+   "role": "nono（旅人／狂言回し）",
+   "actor": "nono",
+   "costume": "default"
   },
-  "cast": [
-    {
-      "role": "nono（旅人／狂言回し）",
-      "actor": "nono",
-      "costume": "default"
-    },
-    {
-      "role": "ユイ",
-      "actor": "yui",
-      "costume": "default"
-    },
-    {
-      "role": "レイ",
-      "actor": "rei",
-      "costume": "default"
-    },
-    {
-      "role": "駅の技師",
-      "actor": "extra_craftsman",
-      "costume": "default"
-    },
-    {
-      "role": "午のハヤテ",
-      "actor": "hayate",
-      "costume": "default"
-    },
-    {
-      "role": "卯のシロー",
-      "actor": "shiro",
-      "costume": "default"
-    },
-    {
-      "role": "狸のタヌリオ",
-      "actor": "tanurio",
-      "costume": "default"
-    }
-  ],
-  "backgrounds": {
-    "village_station": "bg/ch8_01_village_station-2048x1152.png",
-    "valley_iron": "bg/ch8_02_valley_iron-2048x1152.png",
-    "route_stakes": "bg/ch8_03_route_stakes-2048x1152.png",
-    "forest_track": "bg/ch8_04_forest_track-2048x1152.png",
-    "river_bridge": "bg/ch8_05_river_bridge-2048x1152.png",
-    "lava_bridge": "bg/ch8_06_lava_bridge-2048x1152.png",
-    "first_train": "bg/ch8_07_first_train-2048x1152.png",
-    "continental_run": "bg/ch8_08_continental_run-2048x1152.png",
-    "station_market": "bg/ch8_09_station_market-2048x1152.png",
-    "star_delivery": "bg/ch8_10_star_delivery-2048x1152.png"
+  {
+   "role": "ユイ",
+   "actor": "yui",
+   "costume": "default"
   },
-  "steps": [
-    {
-      "op": "bg",
-      "src": null
-    },
-    {
-      "op": "bg",
-      "src": "village_station",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "village_station"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "center"
-    },
-    {
-      "op": "show",
-      "actor": "extra_craftsman",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "――はじまりの村、まだ線路のない駅――"
-    },
-    {
-      "op": "nar",
-      "text": "はじまりの村と店のある十三町に、技師と駅看板だけが立つ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "岩竜を倒すまでは、どの駅でも答えは一つだ。鉄が足りない。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "岩竜の坑道から持ち帰った。金色でも、掘る音は地味です。"
-    },
-    {
-      "op": "nar",
-      "text": "黄金のつるはしを掲げると、駅看板に初めて灯が入る。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "relic:tsuruhashi確認。十四駅の機能を、今ここで解禁する。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "十四の町すべてに技師がいるなら、今日が同時の始発ですね。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "「線路を引く」を選べ。近い順の五町だけが候補に出る。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "最初の切符より先に、最初の道を買うわけか。"
-    },
-    {
-      "op": "nar",
-      "text": "技師が地図を広げ、近い五つの町へ糸を伸ばす。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "代金は六十ルピーに距離の八割。十ルピー単位で丸めます。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "さらに両町の特産品を二つずつ。それが町の出資だ。"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_craftsman"
-    },
-    {
-      "op": "bg",
-      "src": "valley_iron",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "valley_iron"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei",
-      "pos": "center"
-    },
-    {
-      "op": "show",
-      "actor": "hayate",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "――大溪谷、鉄材の積み出し場――"
-    },
-    {
-      "op": "say",
-      "actor": "hayate",
-      "text": "岩竜より遅い工事は御免だ。最短で一直線に敷こう。"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "直線は川と建物を踏む。道筋は障害を避けて自動で引く。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "速さの人と、避ける人。線路には両方の目が要る。"
-    },
-    {
-      "op": "nar",
-      "text": "鉱車から黒いレールが降り、谷底で朝日を細く返す。"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "水、溶岩、瘴気の上は木橋。熱と湿気で補強を変える。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "最短より、明日も走れる曲がり方を選ぼう。"
-    },
-    {
-      "op": "say",
-      "actor": "hayate",
-      "text": "いいだろう。曲がっても、到着で負けなければ道だ。"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "hide",
-      "actor": "rei"
-    },
-    {
-      "op": "hide",
-      "actor": "hayate"
-    },
-    {
-      "op": "bg",
-      "src": "route_stakes",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "route_stakes"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "center"
-    },
-    {
-      "op": "show",
-      "actor": "extra_craftsman",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "――はじまりの村から巨木の里への測量――"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "支払いは二案。特産品を出すか、ルピーを倍にするか。"
-    },
-    {
-      "op": "choice",
-      "options": [
-        {
-          "text": "チーズと木材を二つずつ出す",
-          "jump": "pay_goods"
-        },
-        {
-          "text": "倍額のルピーで急ぐ",
-          "jump": "pay_rupees"
-        }
-      ]
-    },
-    {
-      "op": "label",
-      "id": "pay_goods"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "牧場のチーズと巨木の木材。町が線路へ名を刻めます。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "荷が先に握手した。これなら交易も始まりやすい。"
-    },
-    {
-      "op": "jump",
-      "to": "rail_join"
-    },
-    {
-      "op": "label",
-      "id": "pay_rupees"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "倍額を払う。でも開通後、最初の荷は両町から出そう。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "金で早めても、線路の主は町だ。その約束なら打てる。"
-    },
-    {
-      "op": "label",
-      "id": "rail_join"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "測量盤のA*が地面優先で探す。木、岩、やぶはどける。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "水、溶岩、瘴気は木橋。建物と人のいる場所は避けます。"
-    },
-    {
-      "op": "nar",
-      "text": "杭が草原を曲がり、家と人を避ける一本の線になる。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "線路は地図の定規ではなく、土地への遠慮で曲がる。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "保存名はrail:はじまりの村~巨木の里。明日も道は残る。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "最初の枕木へ、チーズの包み紙を小さく結びます。"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_craftsman"
-    },
-    {
-      "op": "bg",
-      "src": "forest_track",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "forest_track"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "tanurio",
-      "pos": "center"
-    },
-    {
-      "op": "show",
-      "actor": "rei",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "――巨木の森、根を避ける線路――"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "木材は出すけど、千年根っこを切ったら狸一同で抗議だよ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "根の外周へ曲げる。古い歯車で分岐器を組めば幅は足りる。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "真っすぐな鉄が、森では一番上手に曲がる。"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "線路の横に木の実を落とす道を残して。荷車と腹は別口。"
-    },
-    {
-      "op": "nar",
-      "text": "枕木が大根を縫うように並び、分岐器の歯車が噛み合う。"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "試験で三回切り替える。音が濁ったら歯を一枚戻す。"
-    },
-    {
-      "op": "say",
-      "actor": "tanurio",
-      "text": "朝の一番便は木材。夜の秘密便は教えない。"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "hide",
-      "actor": "tanurio"
-    },
-    {
-      "op": "hide",
-      "actor": "rei"
-    },
-    {
-      "op": "bg",
-      "src": "river_bridge",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "river_bridge"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "center"
-    },
-    {
-      "op": "show",
-      "actor": "extra_craftsman",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "――群青の川、木橋の最後の一間――"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "水の上は木橋になる。最後の梁だけ、流れが持ち上げる。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "潮の玉で一瞬だけ流れを分けます。固定はその間に。"
-    },
-    {
-      "op": "nar",
-      "text": "水面が左右へ割れ、梁が橋脚の溝へ沈む。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "縄を引け。三、二、一。金具が鳴ったら手を離せ。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "固定完了。水を戻します。橋脚の揺れは許容内です。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "川は止めずに渡る。橋は、水へ頼む形の道なんだ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "次は火山側。水で覚えた慎重さを、熱へ持って行く。"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_craftsman"
-    },
-    {
-      "op": "bg",
-      "src": "lava_bridge",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "lava_bridge"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "rei",
-      "pos": "center"
-    },
-    {
-      "op": "show",
-      "actor": "hayate",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "――紅蓮の火山、溶岩を越える鉄路――"
-    },
-    {
-      "op": "say",
-      "actor": "hayate",
-      "text": "木橋で溶岩？　走る前から焦げる匂いがするぞ。"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "耐火の護符を支柱へ。溶岩に触れない高さを保つ。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "炎の紋章は攻めるためだけじゃない。熱の場所を読める。"
-    },
-    {
-      "op": "nar",
-      "text": "赤い流れの上へ、黒く焼いた梁が一枚ずつ伸びる。"
-    },
-    {
-      "op": "say",
-      "actor": "hayate",
-      "text": "試走は俺が先頭だ。速ければ熱を受ける時間も短い。"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "速さで誤差は消えない。車輪の間隔を先に測れ。"
-    },
-    {
-      "op": "nar",
-      "text": "最後の釘が入り、火花が線路の先へ走る。"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "hide",
-      "actor": "rei"
-    },
-    {
-      "op": "hide",
-      "actor": "hayate"
-    },
-    {
-      "op": "bg",
-      "src": "first_train",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "first_train"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "center"
-    },
-    {
-      "op": "show",
-      "actor": "shiro",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "――黒と赤の魔導列車、初入線――"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "通常型は黒赤、機関車と客車二両。一秒十四タイルだ。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "乗車中は操作できず、敵襲もありません。到着は駅前です。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "自分で走れない旅は初めてだ。窓の速さを信用しよう。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "交易二十回で緑金の改型。客車三両、毎秒十八タイル。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "百回なら青金の極型、客車四両、毎秒二十三タイル。"
-    },
-    {
-      "op": "nar",
-      "text": "駅の鐘が一度鳴り、車輪の下に淡い光が集まる。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "切符はないのに、町の品物が乗車賃を先に払っている。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "接続網の中なら乗換は自動。扉が閉まります。"
-    },
-    {
-      "op": "say",
-      "actor": "shiro",
-      "text": "発車。線路を引いた人の迷いまで、車輪が覚えている。"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "hide",
-      "actor": "shiro"
-    },
-    {
-      "op": "bg",
-      "src": "continental_run",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "continental_run"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "hayate",
-      "pos": "center"
-    },
-    {
-      "op": "show",
-      "actor": "rei",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "――雪、森、遺跡、海、谷を縫う車窓――"
-    },
-    {
-      "op": "say",
-      "actor": "hayate",
-      "text": "十四タイル毎秒。馬より速いが、景色を置いていかない。"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "乗り換えは自動。線路網でつながった町なら迷わない。"
-    },
-    {
-      "op": "nar",
-      "text": "列車は橋で少し低く鳴り、森の分岐で柔らかく傾く。"
-    },
-    {
-      "op": "say",
-      "actor": "hayate",
-      "text": "俺は速さを競っていた。これは速さを配っている。"
-    },
-    {
-      "op": "say",
-      "actor": "rei",
-      "text": "駅へ置いていく時間があるから、帰りも速い。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "旅が短くなった分、会える人が増えるなら損じゃない。"
-    },
-    {
-      "op": "nar",
-      "text": "夜の火山を越え、列車の光が村の方角へ折り返す。"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "hide",
-      "actor": "hayate"
-    },
-    {
-      "op": "hide",
-      "actor": "rei"
-    },
-    {
-      "op": "bg",
-      "src": "station_market",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "station_market"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "center"
-    },
-    {
-      "op": "show",
-      "actor": "extra_craftsman",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "――開通翌朝、駅前に集まる特産品――"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "毎朝、接続した町の「ほしい物」が合えば交易は自動だ。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "村のチーズは毛皮と木材を求め、雪山の毛皮は木材と歯車へ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "森の木材は歯車と香辛料、遺跡の歯車は香辛料と干物を望む。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "砂漠の香辛料は干物と鉄鉱石、港の干物は鉄鉱石と温泉饅頭。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "谷の鉄鉱石は饅頭と竹細工、火山の饅頭は竹細工と提灯へ。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "竹林の竹細工は提灯と薬草茶、妖怪横丁の提灯は茶と黒曜石。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "霊峰の茶は黒曜石と氷、野営地の黒曜石は氷と南国の果物。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "氷河の結晶は果物とチーズ、密林の果物はチーズと毛皮へ。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "最後の果物が最初の毛皮へ戻る。十四町が輪になった。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "収入は接続町数×十に、今日の交易回数×五ルピーを加算。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "昨日まで土産だった物が、今日は誰かの必要品になった。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "交易は三回。最初の報酬が駅へ届く条件です。"
-    },
-    {
-      "op": "nar",
-      "text": "空の貨車から、小さな銀色の箱が一つ降ろされる。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "線路の先から届く物は、荷物だけではなさそうだ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "宝物庫へ運ぼう。これは迷宮の最奥にも出ない星だ。"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_craftsman"
-    },
-    {
-      "op": "bg",
-      "src": "star_delivery",
-      "mode": "full"
-    },
-    {
-      "op": "bg",
-      "src": "star_delivery"
-    },
-    {
-      "op": "show",
-      "actor": "nono",
-      "pos": "left"
-    },
-    {
-      "op": "show",
-      "actor": "yui",
-      "pos": "center"
-    },
-    {
-      "op": "show",
-      "actor": "extra_craftsman",
-      "pos": "right"
-    },
-    {
-      "op": "nar",
-      "text": "――交易三回目の朝、駅に届いた星――"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "銀のオリオン座。交易三回目に届く、十の星座の第一便だ。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "大迷宮では地下へ潜った。鉄道は地上を走って星を運ぶ。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "節目は三、八、十五、二十五、四十、六十、九十。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "その先は百三十、百八十、二百五十。十回、星が届きます。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "銀はオリオン、カシオペヤ、おおいぬ、くじゃく、かんむり。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "銅は、こぐま、いるか、うさぎ、はと、つる。列車の十星だ。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "十体が揃えば宝物庫は四十九体。残る四十体は未発見です。"
-    },
-    {
-      "op": "say",
-      "actor": "extra_craftsman",
-      "text": "線路は一度で完成しない。十四駅の朝を毎日つなぐ仕事だ。"
-    },
-    {
-      "op": "nar",
-      "text": "鐘が鳴り、遠い駅から順に同じ響きが大陸を渡る。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "龍笛は空、聖剣は地下、列車は地上。道が三本揃った。"
-    },
-    {
-      "op": "say",
-      "actor": "yui",
-      "text": "次に乗る人は、私たちの冒険を知らなくても旅ができます。"
-    },
-    {
-      "op": "say",
-      "actor": "nono",
-      "text": "それが一番いい終点だ。誰かの出発になる駅で幕を閉じよう。"
-    },
-    {
-      "op": "hide",
-      "actor": "nono"
-    },
-    {
-      "op": "hide",
-      "actor": "yui"
-    },
-    {
-      "op": "hide",
-      "actor": "extra_craftsman"
-    },
-    {
-      "op": "end"
+  {
+   "role": "レイ",
+   "actor": "rei",
+   "costume": "default"
+  },
+  {
+   "role": "駅の技師",
+   "actor": "extra_craftsman",
+   "costume": "default"
+  },
+  {
+   "role": "午のハヤテ",
+   "actor": "hayate",
+   "costume": "default"
+  },
+  {
+   "role": "卯のシロー",
+   "actor": "shiro",
+   "costume": "default"
+  },
+  {
+   "role": "狸のタヌリオ",
+   "actor": "tanurio",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "village_station": "bg/ch8_01_village_station-2048x1152.png",
+  "valley_iron": "bg/ch8_02_valley_iron-2048x1152.png",
+  "route_stakes": "bg/ch8_03_route_stakes-2048x1152.png",
+  "forest_track": "bg/ch8_04_forest_track-2048x1152.png",
+  "river_bridge": "bg/ch8_05_river_bridge-2048x1152.png",
+  "lava_bridge": "bg/ch8_06_lava_bridge-2048x1152.png",
+  "first_train": "bg/ch8_07_first_train-2048x1152.png",
+  "continental_run": "bg/ch8_08_continental_run-2048x1152.png",
+  "station_market": "bg/ch8_09_station_market-2048x1152.png",
+  "star_delivery": "bg/ch8_10_star_delivery-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "bg",
+   "src": "village_station",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "village_station"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "extra_craftsman",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "――はじまりの村、まだ線路のない駅――"
+  },
+  {
+   "op": "nar",
+   "text": "はじまりの村と店のある十三町に、技師と駅看板だけが立つ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "岩竜を倒すまでは、どの駅でも答えは一つだ。鉄が足りない。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "岩竜の坑道から持ち帰った。金色でも、掘る音は地味です。"
+  },
+  {
+   "op": "nar",
+   "text": "黄金のつるはしを掲げると、駅看板に初めて灯が入る。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "relic:tsuruhashi確認。十四駅の機能を、今ここで解禁する。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "十四の町すべてに技師がいるなら、今日が同時の始発ですね。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "「線路を引く」を選べ。近い順の五町だけが候補に出る。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "最初の切符より先に、最初の道を買うわけか。"
+  },
+  {
+   "op": "nar",
+   "text": "技師が地図を広げ、近い五つの町へ糸を伸ばす。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "代金は六十ルピーに距離の八割。十ルピー単位で丸めます。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "さらに両町の特産品を二つずつ。それが町の出資だ。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_craftsman"
+  },
+  {
+   "op": "bg",
+   "src": "valley_iron",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "valley_iron"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "hayate",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "――大溪谷、鉄材の積み出し場――"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "岩竜より遅い工事は御免だ。最短で一直線に敷こう。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "直線は川と建物を踏む。道筋は障害を避けて自動で引く。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "速さの人と、避ける人。線路には両方の目が要る。"
+  },
+  {
+   "op": "nar",
+   "text": "鉱車から黒いレールが降り、谷底で朝日を細く返す。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "水、溶岩、瘴気の上は木橋。熱と湿気で補強を変える。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "最短より、明日も走れる曲がり方を選ぼう。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "いいだろう。曲がっても、到着で負けなければ道だ。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "rei"
+  },
+  {
+   "op": "hide",
+   "actor": "hayate"
+  },
+  {
+   "op": "bg",
+   "src": "route_stakes",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "route_stakes"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "extra_craftsman",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "――はじまりの村から巨木の里への測量――"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "支払いは二案。特産品を出すか、ルピーを倍にするか。"
+  },
+  {
+   "op": "choice",
+   "options": [
+    {
+     "text": "チーズと木材を二つずつ出す",
+     "jump": "pay_goods"
+    },
+    {
+     "text": "倍額のルピーで急ぐ",
+     "jump": "pay_rupees"
     }
-  ]
+   ]
+  },
+  {
+   "op": "label",
+   "id": "pay_goods"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "牧場のチーズと巨木の木材。町が線路へ名を刻めます。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "荷が先に握手した。これなら交易も始まりやすい。"
+  },
+  {
+   "op": "jump",
+   "to": "rail_join"
+  },
+  {
+   "op": "label",
+   "id": "pay_rupees"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "倍額を払う。でも開通後、最初の荷は両町から出そう。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "金で早めても、線路の主は町だ。その約束なら打てる。"
+  },
+  {
+   "op": "label",
+   "id": "rail_join"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "測量盤のA*が地面優先で探す。木、岩、やぶはどける。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "水、溶岩、瘴気は木橋。建物と人のいる場所は避けます。"
+  },
+  {
+   "op": "nar",
+   "text": "杭が草原を曲がり、家と人を避ける一本の線になる。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "線路は地図の定規ではなく、土地への遠慮で曲がる。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "保存名はrail:はじまりの村~巨木の里。明日も道は残る。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "最初の枕木へ、はじまりの村の名を、小さく刻みます。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_craftsman"
+  },
+  {
+   "op": "bg",
+   "src": "forest_track",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "forest_track"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "rei",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "――巨木の森、根を避ける線路――"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "木材は出すけど、千年根っこを切ったら狸一同で抗議だよ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "根の外周へ曲げる。古い歯車で分岐器を組めば幅は足りる。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "真っすぐな鉄が、森では一番上手に曲がる。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "線路の横に木の実を落とす道を残して。荷車と腹は別口。"
+  },
+  {
+   "op": "nar",
+   "text": "枕木が大根を縫うように並び、分岐器の歯車が噛み合う。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "試験で三回切り替える。音が濁ったら歯を一枚戻す。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "朝の一番便は木材。夜の秘密便は教えない。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "rei"
+  },
+  {
+   "op": "bg",
+   "src": "river_bridge",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "river_bridge"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "extra_craftsman",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "――群青の川、木橋の最後の一間――"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "水の上は木橋になる。最後の梁だけ、流れが持ち上げる。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "潮の玉で一瞬だけ流れを分けます。固定はその間に。"
+  },
+  {
+   "op": "nar",
+   "text": "水面が左右へ割れ、梁が橋脚の溝へ沈む。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "縄を引け。三、二、一。金具が鳴ったら手を離せ。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "固定完了。水を戻します。橋脚の揺れは許容内です。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "川は止めずに渡る。橋は、水へ頼む形の道なんだ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "次は火山側。水で覚えた慎重さを、熱へ持って行く。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_craftsman"
+  },
+  {
+   "op": "bg",
+   "src": "lava_bridge",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "lava_bridge"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "rei",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "hayate",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "――紅蓮の火山、溶岩を越える鉄路――"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "木橋で溶岩？　走る前から焦げる匂いがするぞ。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "耐火の護符を支柱へ。溶岩に触れない高さを保つ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "炎の紋章は攻めるためだけじゃない。熱の場所を読める。"
+  },
+  {
+   "op": "nar",
+   "text": "赤い流れの上へ、黒く焼いた梁が一枚ずつ伸びる。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "試走は俺が先頭だ。速ければ熱を受ける時間も短い。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "速さで誤差は消えない。車輪の間隔を先に測れ。"
+  },
+  {
+   "op": "nar",
+   "text": "最後の釘が入り、火花が線路の先へ走る。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "rei"
+  },
+  {
+   "op": "hide",
+   "actor": "hayate"
+  },
+  {
+   "op": "bg",
+   "src": "first_train",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "first_train"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "shiro",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "――黒と赤の魔導列車、初入線――"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "通常型は黒赤、機関車と客車二両。一秒十四タイルだ。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "乗車中は操作できず、敵襲もありません。到着は駅前です。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "自分で走れない旅は初めてだ。窓の速さを信用しよう。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "交易二十回で緑金の改型。客車三両、毎秒十八タイル。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "百回なら青金の極型、客車四両、毎秒二十三タイル。"
+  },
+  {
+   "op": "nar",
+   "text": "駅の鐘が一度鳴り、車輪の下に淡い光が集まる。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "切符はないのに、町の品物が乗車賃を先に払っている。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "接続網の中なら乗換は自動。扉が閉まります。"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "発車。線路を引いた人の迷いまで、車輪が覚えている。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "shiro"
+  },
+  {
+   "op": "bg",
+   "src": "continental_run",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "continental_run"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "hayate",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "rei",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "――雪、森、遺跡、海、谷を縫う車窓――"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "十四タイル毎秒。馬より速いが、景色を置いていかない。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "乗り換えは自動。線路網でつながった町なら迷わない。"
+  },
+  {
+   "op": "nar",
+   "text": "列車は橋で少し低く鳴り、森の分岐で柔らかく傾く。"
+  },
+  {
+   "op": "say",
+   "actor": "hayate",
+   "text": "俺は速さを競っていた。これは速さを配っている。"
+  },
+  {
+   "op": "say",
+   "actor": "rei",
+   "text": "駅へ置いていく時間があるから、帰りも速い。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "旅が短くなった分、会える人が増えるなら損じゃない。"
+  },
+  {
+   "op": "nar",
+   "text": "夜の火山を越え、列車の光が村の方角へ折り返す。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "hayate"
+  },
+  {
+   "op": "hide",
+   "actor": "rei"
+  },
+  {
+   "op": "bg",
+   "src": "station_market",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "station_market"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "extra_craftsman",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "――開通翌朝、駅前に集まる特産品――"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "毎朝、接続した町の「ほしい物」が合えば交易は自動だ。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "村のチーズは毛皮と木材を求め、雪山の毛皮は木材と歯車へ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "森の木材は歯車と香辛料、遺跡の歯車は香辛料と干物を望む。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "砂漠の香辛料は干物と鉄鉱石、港の干物は鉄鉱石と温泉饅頭。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "谷の鉄鉱石は饅頭と竹細工、火山の饅頭は竹細工と提灯へ。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "竹林の竹細工は提灯と薬草茶、妖怪横丁の提灯は茶と黒曜石。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "霊峰の茶は黒曜石と氷、野営地の黒曜石は氷と南国の果物。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "氷河の結晶は果物とチーズ、密林の果物はチーズと毛皮へ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "最後の果物が最初の毛皮へ戻る。十四町が輪になった。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "収入は接続町数×十に、今日の交易回数×五ルピーを加算。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "昨日まで土産だった物が、今日は誰かの必要品になった。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "交易は三回。最初の報酬が駅へ届く条件です。"
+  },
+  {
+   "op": "nar",
+   "text": "空の貨車から、小さな銀色の箱が一つ降ろされる。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "線路の先から届く物は、荷物だけではなさそうだ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "宝物庫へ運ぼう。これは迷宮の最奥にも出ない星だ。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_craftsman"
+  },
+  {
+   "op": "bg",
+   "src": "star_delivery",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "star_delivery"
+  },
+  {
+   "op": "show",
+   "actor": "nono",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "yui",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "extra_craftsman",
+   "pos": "right"
+  },
+  {
+   "op": "nar",
+   "text": "――交易三回目の朝、駅に届いた星――"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "銀のオリオン座。交易三回目に届く、十の星座の第一便だ。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "大迷宮では地下へ潜った。鉄道は地上を走って星を運ぶ。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "節目は三、八、十五、二十五、四十、六十、九十。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "その先は百三十、百八十、二百五十。十回、星が届きます。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "銀はオリオン、カシオペヤ、おおいぬ、くじゃく、かんむり。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "銅は、こぐま、いるか、うさぎ、はと、つる。列車の十星だ。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "十体が揃えば宝物庫は四十九体。残る四十体は未発見です。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_craftsman",
+   "text": "線路は一度で完成しない。十四駅の朝を毎日つなぐ仕事だ。"
+  },
+  {
+   "op": "nar",
+   "text": "鐘が鳴り、遠い駅から順に同じ響きが大陸を渡る。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "龍笛は空、聖剣は地下、列車は地上。道が三本揃った。"
+  },
+  {
+   "op": "say",
+   "actor": "yui",
+   "text": "次に乗る人は、私たちの冒険を知らなくても旅ができます。"
+  },
+  {
+   "op": "say",
+   "actor": "nono",
+   "text": "それが一番いい終点だ。誰かの出発になる駅で幕を閉じよう。"
+  },
+  {
+   "op": "hide",
+   "actor": "nono"
+  },
+  {
+   "op": "hide",
+   "actor": "yui"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_craftsman"
+  },
+  {
+   "op": "end"
+  }
+ ]
 }

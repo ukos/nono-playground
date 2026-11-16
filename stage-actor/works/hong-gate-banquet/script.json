@@ -443,8 +443,9 @@
    "op": "choice",
    "options": [
     {
-     "text": "劉邦は、すぐに馬に乗って抜け道を行く",
-     "jump": "m_go"
+     "text": "劉邦は、別れの挨拶も贈り物の指図もせず、すぐに抜け道を行く",
+     "jump": "m_go",
+     "set": "rushed"
     },
     {
      "text": "劉邦は、張良に贈り物を託してから行く",
@@ -511,9 +512,35 @@
    "pos": "center"
   },
   {
+   "op": "if",
+   "flag": "rushed",
+   "to": "gift_self"
+  },
+  {
    "op": "say",
    "actor": "shiro",
    "text": "我が主は酔いが回り、ご挨拶もできずに帰りました。将軍に白璧を、亜父どのに玉杯を、と。"
+  },
+  {
+   "op": "jump",
+   "to": "gift_go"
+  },
+  {
+   "op": "label",
+   "id": "gift_self"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "主君は、ひどく酔いまして、先に失礼いたしました。これは、わたしからのお詫びの品にございます。"
+  },
+  {
+   "op": "nar",
+   "text": "張良が、自分の荷から出した宝だった。"
+  },
+  {
+   "op": "label",
+   "id": "gift_go"
   },
   {
    "op": "say",

@@ -319,7 +319,8 @@
     },
     {
      "text": "ホズは、自分で兄の声のする方へ投げる",
-     "jump": "m_self"
+     "jump": "m_self",
+     "set": "selfthrow"
     }
    ]
   },
@@ -609,10 +610,33 @@
    "eyes": "closed"
   },
   {
+   "op": "if",
+   "flag": "selfthrow",
+   "to": "voice_self"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "兄さんの笑い声が、まだ耳に残っている。投げる直前まで、皆と笑っていた声が。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "jump",
+   "to": "voice_go"
+  },
+  {
+   "op": "label",
+   "id": "voice_self"
+  },
+  {
    "op": "say",
    "actor": "shiro",
    "text": "兄さんの声が、まだ耳に残っている。ここだよ、ホズ、って。",
    "eyes": "sorrow"
+  },
+  {
+   "op": "label",
+   "id": "voice_go"
   },
   {
    "op": "say",

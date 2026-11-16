@@ -448,6 +448,10 @@
    "text": "私が罪を犯し、王冠だけが友の子へ渡るなど耐えられない。バンクォーには、刺客を送った。"
   },
   {
+   "op": "nar",
+   "text": "宴の最中、マクベスの目にだけ、血まみれのバンクォーが空席に座っているのが見えた。"
+  },
+  {
    "op": "show",
    "actor": "kurogane",
    "pos": "right"
@@ -471,10 +475,6 @@
   {
    "op": "hide",
    "actor": "kurogane"
-  },
-  {
-   "op": "nar",
-   "text": "宴の最中、マクベスの目にだけ、血まみれのバンクォーが空席に座っているのが見えた。"
   },
   {
    "op": "say",
@@ -574,6 +574,15 @@
   {
    "op": "hide",
    "actor": "extra_wizard"
+  },
+  {
+   "op": "bg",
+   "src": "castle",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "castle"
   },
   {
    "op": "show",
@@ -721,7 +730,8 @@
    "options": [
     {
      "text": "マクダフは、マクベスに降伏を迫る",
-     "jump": "m_yield"
+     "jump": "m_yield",
+     "set": "yielded"
     },
     {
      "text": "マクダフは、すぐに剣を振るう",
@@ -784,6 +794,29 @@
    "op": "say",
    "actor": "shiro",
    "text": "悪夢の夜は明けた。皆の働きに、ふさわしい名で報いよう。"
+  },
+  {
+   "op": "if",
+   "flag": "yielded",
+   "to": "end_yield"
+  },
+  {
+   "op": "jump",
+   "to": "end_go"
+  },
+  {
+   "op": "label",
+   "id": "end_yield"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "降れと言われても、あの男は剣を選んだか。……最後の一つだけは、予言ではなく、自分で選んだのだな。",
+   "eyes": "closed"
+  },
+  {
+   "op": "label",
+   "id": "end_go"
   },
   {
    "op": "say",
