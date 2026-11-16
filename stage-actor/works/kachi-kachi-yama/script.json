@@ -443,7 +443,8 @@
     },
     {
      "text": "兎は、櫂を差し出し、狸を引き上げる",
-     "jump": "pull"
+     "jump": "pull",
+     "set": "pulled"
     }
    ]
   },
@@ -464,7 +465,7 @@
   {
    "op": "say",
    "actor": "shiro",
-   "text": "助けを求めたお婆さんを、きみは杵で打った。",
+   "text": "縄をゆるめてくれたお婆さんを、きみは杵で打った。",
    "eyes": "anger",
    "mouth": "open"
   },
@@ -658,10 +659,33 @@
    "eyes": "closed"
   },
   {
+   "op": "if",
+   "flag": "pulled",
+   "to": "tanuki_alive"
+  },
+  {
    "op": "say",
    "actor": "shiro",
    "text": "冬の川のことは、もう、お話ししましたね。あれで、終わりです。",
    "eyes": "closed"
+  },
+  {
+   "op": "jump",
+   "to": "tanuki_done"
+  },
+  {
+   "op": "label",
+   "id": "tanuki_alive"
+  },
+  {
+   "op": "say",
+   "actor": "shiro",
+   "text": "毎朝、門口に、水桶と薪が置いてあるでしょう。……あれが、狸です。",
+   "eyes": "closed"
+  },
+  {
+   "op": "label",
+   "id": "tanuki_done"
   },
   {
    "op": "say",

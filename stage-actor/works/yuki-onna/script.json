@@ -31,7 +31,7 @@
    "costume": "default"
   },
   {
-   "role": "二人の子",
+   "role": "子ども",
    "actor": "shiro",
    "costume": "default"
   }
@@ -120,10 +120,6 @@
    "text": "夜半。顔に、ばさばさと雪がかかって、巳之吉は目を覚ました。小屋の戸が、いつの間にか開いている。"
   },
   {
-   "op": "hide",
-   "actor": "extra_elder"
-  },
-  {
    "op": "show",
    "actor": "yui",
    "pos": "center"
@@ -185,6 +181,10 @@
    "actor": "extra_lumberjack",
    "text": "茂作さん……茂作さん！",
    "eyes": "crying"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
   },
   {
    "op": "hide",
@@ -416,7 +416,7 @@
   {
    "op": "say",
    "actor": "extra_lumberjack",
-   "text": "ある人と、約束をした。その約束を、わしは、まだ守っている。"
+   "text": "誰にも言わないと、決めたことがある。わしは、それを、まだ守っている。"
   },
   {
    "op": "nar",
@@ -425,7 +425,7 @@
   {
    "op": "say",
    "actor": "yui",
-   "text": "……その約束を、ずっと、守っておいでなのね。",
+   "text": "……決めたことを、ずっと、守っておいでなのね。",
    "eyes": "sorrow"
   },
   {

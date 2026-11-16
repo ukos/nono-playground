@@ -71,7 +71,7 @@
   {
    "op": "say",
    "actor": "nono",
-   "text": "さて、魚河岸の魚より野原の魚を信じてしまったお殿様の、目黒の一日を。"
+   "text": "さて、生まれて初めて、焼きたてのさんまに出会ったお殿様の、目黒の一日を。"
   },
   {
    "op": "hide",
@@ -385,7 +385,8 @@
     },
     {
      "text": "殿の言うとおり、目黒のように炭火でじかに焼く",
-     "jump": "grill"
+     "jump": "grill",
+     "set": "grilled"
     }
    ]
   },
@@ -479,6 +480,11 @@
    "mouth": "open"
   },
   {
+   "op": "if",
+   "flag": "grilled",
+   "to": "dish_grill"
+  },
+  {
    "op": "say",
    "actor": "kurogane",
    "text": "……三太夫。これは何だ。灰色で、丸くて、静かだ。",
@@ -490,6 +496,29 @@
    "text": "さんまでございます。脂と骨は、すべて取り除きました。"
   },
   {
+   "op": "jump",
+   "to": "dish_go"
+  },
+  {
+   "op": "label",
+   "id": "dish_grill"
+  },
+  {
+   "op": "say",
+   "actor": "kurogane",
+   "text": "……三太夫。これは何だ。黒くて、小さくて、かけらばかりだ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "さんまでございます。焦げと骨を、すべて削りました。"
+  },
+  {
+   "op": "label",
+   "id": "dish_go"
+  },
+  {
    "op": "say",
    "actor": "kurogane",
    "text": "匂いがせぬ。音もせぬ。……どれ。"
@@ -497,7 +526,7 @@
   {
    "op": "say",
    "actor": "kurogane",
-   "text": "……ぬるい。柔らかい。苦くない。これが、さんまか。",
+   "text": "……ぬるい。味が、どこかへ行ってしまった。これが、さんまか。",
    "eyes": "sorrow"
   },
   {
