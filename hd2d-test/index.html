@@ -9,7 +9,7 @@
   #app { position:fixed; inset:0; }
   canvas { display:block; }
   #vignette { position:fixed; inset:0; pointer-events:none;
-    background: radial-gradient(ellipse at 50% 42%, rgba(0,0,0,0) 55%, rgba(10,6,24,0.42) 100%); }
+    box-shadow: inset 0 0 160px rgba(10,6,24,0.38); }
   #hud { position:fixed; top:10px; left:12px; color:#ffe9c9; pointer-events:none;
     font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
     text-shadow: 0 1px 3px rgba(0,0,0,.8); }
@@ -499,7 +499,6 @@ window.addEventListener('resize', () => {
 });
 
 // ---------- メインループ ----------
-let __firstFrame = true;
 const clock = new THREE.Clock();
 const camTarget = new THREE.Vector3(0, 0, 0.6);
 const camPos = new THREE.Vector3(0, 4.6, 9.0);
@@ -589,14 +588,6 @@ function animate() {
   }
 
   composer.render();
-  if (__firstFrame) {
-    __firstFrame = false;
-    const dbg = document.createElement('div');
-    dbg.id = 'frameok';
-    dbg.style.cssText = 'position:fixed;top:8px;right:10px;z-index:15;color:#b6ffb6;font:11px monospace;text-shadow:0 1px 2px #000;';
-    dbg.textContent = 'FRAME OK ' + renderer.domElement.width + 'x' + renderer.domElement.height;
-    document.body.appendChild(dbg);
-  }
 }
 applyResponsiveCamera();
 try {
