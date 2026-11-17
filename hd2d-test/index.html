@@ -474,6 +474,17 @@ window.addEventListener('resize', () => {
 
 // ---------- メインループ ----------
 let __firstFrame = true;
+window.__stage = function (txt) {
+  let el = document.getElementById('stagebox');
+  if (!el) {
+    el = document.createElement('div');
+    el.id = 'stagebox';
+    el.style.cssText = 'position:fixed;top:34px;right:10px;z-index:15;color:#ffe9a8;font:11px monospace;text-align:right;text-shadow:0 1px 2px #000;white-space:pre-line;';
+    document.body.appendChild(el);
+  }
+  el.textContent += txt + '\n';
+};
+window.__stage('S1: セットアップ完了');
 const clock = new THREE.Clock();
 const camTarget = new THREE.Vector3(0, 0, 0.6);
 const camPos = new THREE.Vector3(0, 5.4, 8.6);
@@ -561,7 +572,11 @@ function animate() {
     m.rotation.x = -0.28;
   }
 
+  if (__firstFrame) window.__stage('S2: 初回フレーム開始');
+  renderer.render(scene, camera);
+  if (__firstFrame) window.__stage('S3: 通常描画OK');
   composer.render();
+  if (__firstFrame) window.__stage('S4: ブルーム描画OK');
   if (__firstFrame) {
     __firstFrame = false;
     const dbg = document.createElement('div');
