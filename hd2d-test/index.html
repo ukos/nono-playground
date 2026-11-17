@@ -40,6 +40,24 @@
 </div>
 <div id="stick"><div id="knob"></div></div>
 <div id="loading">読み込み中…</div>
+<div id="errbox" style="display:none; position:fixed; left:8px; right:8px; bottom:8px; z-index:20;
+  color:#ffd7d7; background:rgba(80,10,10,.88); font:12px/1.5 monospace; padding:8px 10px;
+  border-radius:6px; white-space:pre-wrap; word-break:break-all;"></div>
+<script>
+  window.__showErr = function (msg) {
+    var el = document.getElementById('errbox');
+    el.style.display = 'block';
+    el.textContent += msg + '\n';
+    var ld = document.getElementById('loading');
+    if (ld) { ld.style.opacity = '1'; ld.textContent = 'エラーが発生しました（画面下部に表示）'; }
+  };
+  window.addEventListener('error', function (e) {
+    window.__showErr('ERROR: ' + (e.message || e.type) + (e.filename ? ' @ ' + e.filename + ':' + e.lineno : ''));
+  });
+  window.addEventListener('unhandledrejection', function (e) {
+    window.__showErr('REJECTION: ' + (e.reason && (e.reason.stack || e.reason.message) || e.reason));
+  });
+</script>
 
 <script type="module">
 import * as THREE from 'three';
@@ -455,6 +473,7 @@ window.addEventListener('resize', () => {
 });
 
 // ---------- メインループ ----------
+let __firstFrame = true;
 const clock = new THREE.Clock();
 const camTarget = new THREE.Vector3(0, 0, 0.6);
 const camPos = new THREE.Vector3(0, 5.4, 8.6);
@@ -543,8 +562,20 @@ function animate() {
   }
 
   composer.render();
+  if (__firstFrame) {
+    __firstFrame = false;
+    const dbg = document.createElement('div');
+    dbg.id = 'frameok';
+    dbg.style.cssText = 'position:fixed;top:8px;right:10px;z-index:15;color:#b6ffb6;font:11px monospace;text-shadow:0 1px 2px #000;';
+    dbg.textContent = 'FRAME OK ' + renderer.domElement.width + 'x' + renderer.domElement.height;
+    document.body.appendChild(dbg);
+  }
 }
-animate();
+try {
+  animate();
+} catch (err) {
+  window.__showErr('ANIMATE: ' + (err.stack || err.message || err));
+}
 </script>
 </body>
 </html>
