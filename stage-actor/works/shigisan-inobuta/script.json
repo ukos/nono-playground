@@ -1,0 +1,1048 @@
+{
+ "meta": {
+  "id": "shigisan-inobuta",
+  "title": "信貴山のイノブタ三兄弟",
+  "original": "オリジナル新作（NONO座 新作）",
+  "adaptation": "free",
+  "format": "v3",
+  "minutes": 15,
+  "synopsis": "八尾の山手、信貴山に暮らすイノブタの三兄弟。去年の冬に姿を消した母を待ちながら、三匹は山の恵みで暮らしていた。いちばん寒い夜、末っ子ワンが人間の罠にかかる。助けを求めて初めて人間の前に立った兄弟たちが知ったのは、思いがけない母の行方だった。",
+  "note": "本脚本はオリジナルの書き下ろしである。"
+ },
+ "cast": [
+  {
+   "role": "狂言回し",
+   "actor": "yui_origin",
+   "costume": "default"
+  },
+  {
+   "role": "リュウ（イノブタの長兄）",
+   "actor": "gou",
+   "costume": "default"
+  },
+  {
+   "role": "モッチ（イノブタの次兄）",
+   "actor": "tanurio",
+   "costume": "default"
+  },
+  {
+   "role": "ワン（イノブタの末っ子）",
+   "actor": "nibulus",
+   "costume": "default"
+  },
+  {
+   "role": "長老（朝護孫子寺の和尚）",
+   "actor": "extra_elder",
+   "costume": "default"
+  },
+  {
+   "role": "喜助（麓の農家）",
+   "actor": "extra_villager",
+   "costume": "default"
+  }
+ ],
+ "backgrounds": {
+  "burrow": "bg/burrow-2048x1152.png",
+  "forest": "bg/forest-2048x1152.png",
+  "temple": "bg/temple-2048x1152.png",
+  "snow_night": "bg/snow-night-2048x1152.png",
+  "fields": "bg/fields-2048x1152.png",
+  "spring": "bg/spring-2048x1152.png"
+ },
+ "steps": [
+  {
+   "op": "bg",
+   "src": null
+  },
+  {
+   "op": "show",
+   "actor": "yui_origin",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "皆さま、今夜のNONO座新作は、八尾の山のお話です。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "信貴山。お寺の鐘の音が、麓の八尾の町まで届く山です。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "その山懐に、イノブタの三兄弟が暮らしています。猪と豚のあいのこ、三匹の兄弟です。"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "お母さんは、去年の冬から帰ってきません。……それでも三匹は、待っています。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "hide",
+   "actor": "yui_origin"
+  },
+  {
+   "op": "bg",
+   "src": "burrow",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "burrow"
+  },
+  {
+   "op": "nar",
+   "text": "信貴山の南の斜面、大木の根元の巣穴。落ち葉の寝床で、三兄弟が目を覚ました。"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "nibulus",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "兄ちゃんたち、起きて。お腹の音で目が覚めた。……ぼくのじゃないよ、モッチ兄ちゃんのだ。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "へへ、正解。ぼくのお腹は正直やからな。朝ごはん、探しに行こうや。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "……もうちょっと寝かせてくれ。ドングリは逃げへん。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "リュウ兄ちゃんはいつもそれ。でも昨日も一昨日も、ドングリは待ってくれなかったよ。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "ワンは頭の回転が早いのう。……ほな、行こか。"
+  },
+  {
+   "op": "nar",
+   "text": "長兄リュウ。優しくて家族思い。普段はずぼらだが、弟たちのことになると目の色が変わる。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "今日こそ、でっかいドングリの山、見つけたる。ぼくの鼻は、山で一番や。",
+   "eyes": "joy",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "モッチ兄ちゃんの鼻は、食べ物の匂いのときだけ一番だよね。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "それが一番大事なんや。体力も愛嬌もぼくが一番。腹が減っては、なんもできひん。",
+   "eyes": "fun"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "ほな決まりや。モッチは鼻、ワンは目、わしは――"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "リュウ兄ちゃんは、いざというとき。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "……ずぼらな長男で、悪かったのう。"
+  },
+  {
+   "op": "nar",
+   "text": "三匹は巣穴を出た。母の言いつけは、今も三匹の約束だった。日が暮れる前に帰ること。南の斜面の、深いところへは行かないこと。"
+  },
+  {
+   "op": "bg",
+   "src": "forest",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "forest"
+  },
+  {
+   "op": "nar",
+   "text": "雑木林の斜面。ドングリは、今年は不作だった。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "あかん……いつもの場所、もう空っぽや。ぼくの鼻が、泣いてる。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "計算だと、貯えはあと十日分しかない。冬は、まだ始まったばかりなのに。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "十日あるやないか。十日のうちに、なんとかなる。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "リュウ兄ちゃんはいつも、なんとかなる、ばっかり！",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "怒るな、ワン。……ほら、あの木の根元。モッチ、鼻はどうや。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "……ある！　落ち葉の下、ぎっしりや！　リュウ兄ちゃん、なんで分かったん？",
+   "eyes": "surprise",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "母さんが、昔、教えてくれた場所や。不作の年は、ここに残るって。"
+  },
+  {
+   "op": "nar",
+   "text": "三匹は腹いっぱいに食べ、残りを巣穴へ何度も運んだ。母の教えが、今年も三匹を救った。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "……ねえ、母さんは、いつ帰ってくるのかな。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "春や。母さんは言うてたやろ、食べ物の多い場所を探してくるって。見つけたら、迎えに来てくれる。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "せやな。……ほな、それまで三匹で、ちゃんと暮らそ。"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "nibulus"
+  },
+  {
+   "op": "bg",
+   "src": "temple",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "temple"
+  },
+  {
+   "op": "nar",
+   "text": "昼下がり。ドングリ拾いの帰り、三匹は朝護孫子寺の境内に迷い込んだ。"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "nibulus",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "見て、銀杏がいっぱい落ちてる。……それに、あの大きい虎。張り子やけど、迫力あるなあ。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "お寺は静かでいいけど、人の匂いが強い。早く帰ろう。"
+  },
+  {
+   "op": "hide",
+   "actor": "nibulus"
+  },
+  {
+   "op": "nar",
+   "text": "ワンは石段の陰に身を隠した。そのとき、境内に長老が現れた。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "おや。今日のお客は、毛の生えた方々か。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "うわ、見つかった。……あの、銀杏、少しだけ、もらってもええですか。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "拾う分には、山の恵みじゃ。腹を空かせた者に、石段は文句を言わん。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "すんませんな、和尚さん。弟が、食い意地ばっかりで。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……お前さんたち、去年まで、もう一匹おったな。大きな、優しい目の。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "母さんを知ってるんですか。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "時々、この境内に来ておった。子を思う目じゃった。……達者でおるといいが。"
+  },
+  {
+   "op": "nar",
+   "text": "長老は、それ以上は言わなかった。三匹は銀杏を分けてもらい、山へ帰った。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "show",
+   "actor": "nibulus",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "……母さん、元気かな。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "元気や。母さんは、強いからな。"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "nibulus"
+  },
+  {
+   "op": "bg",
+   "src": "burrow",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "burrow"
+  },
+  {
+   "op": "nar",
+   "text": "十二月。信貴山に初雪が降った。ドングリの貯えは、底が見え始めていた。"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "nibulus",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "あと四日分。……ねえ、南の斜面の深いところなら、まだドングリが残ってるはずだよ。計算では――"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "あかん。母さんの言いつけや。南の深いところは、罠がある。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "でも、このままじゃ、みんなお腹を空かせて――",
+   "eyes": "anger"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "ワン、心配すな。ぼくの体力は山で一番や。明日、北の斜面を端から端まで探したる。",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "……うん。ありがとう、モッチ兄ちゃん。"
+  },
+  {
+   "op": "nar",
+   "text": "その夜、三匹は母の約束どおり、くっついて寝た。……真夜中、ワンだけが、そっと目を開けた。"
+  },
+  {
+   "op": "hide",
+   "actor": "nibulus"
+  },
+  {
+   "op": "nar",
+   "text": "ワンは一人、巣穴を抜け出した。兄たちに心配をかけたくなかった。南の斜面なら、朝までに戻れる。そう計算していた。"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "bg",
+   "src": "snow_night",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "snow_night"
+  },
+  {
+   "op": "nar",
+   "text": "南の斜面。雪が、音もなく積もっていた。"
+  },
+  {
+   "op": "show",
+   "actor": "nibulus",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "……あった。ドングリ、まだ残ってる。ほら、計算どおり。急いで集めて、朝までに――"
+  },
+  {
+   "op": "nar",
+   "text": "雪の下で、金属の輪が、音を立てて締まった。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "痛っ……！　あし、ぼくのあし……！",
+   "eyes": "crying",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "落ち着いて。ワイヤーは、噛めば……。噛めば、切れるはず……。"
+  },
+  {
+   "op": "nar",
+   "text": "ワンは何度も噛み、何度も引いた。ワイヤーは、雪の中で光るだけだった。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "……外れない。計算に、なかった……。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "兄ちゃんたちに、心配かけたくなかったのに。……ぼく、頑張ってるのに……。"
+  },
+  {
+   "op": "hide",
+   "actor": "nibulus"
+  },
+  {
+   "op": "bg",
+   "src": "burrow",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "burrow"
+  },
+  {
+   "op": "nar",
+   "text": "巣穴。リュウが、目を開けた。"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "……モッチ。起きろ。寝床が、冷たい。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "ワン……ワンが、おらん！",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "母さんの約束や。三匹で寝る。……一匹足らん夜は、何かあった夜や。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "南やな。ワン、南の斜面の話ばっかりしてた。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "行くぞ、モッチ。雪の中は、お前の体力が頼りや。"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "bg",
+   "src": "snow_night",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "snow_night"
+  },
+  {
+   "op": "nar",
+   "text": "モッチは雪を胸までかき分けて進み、リュウは雪の上の小さな足跡を、一つも見落とさなかった。"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "ワン！　ワン、返事せえ！",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "声は、しまっとけ。……ほら、足跡がこっちで途切れてる。近いぞ。"
+  },
+  {
+   "op": "show",
+   "actor": "nibulus",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "リュウ兄ちゃん……モッチ兄ちゃん……。ごめん、ぼく、勝手に……。",
+   "eyes": "crying"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "罠や！　ぼくが噛んだる、歯が立たん……なんでや、なんで外れへんのや！"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "二人とも、もういいよ。雪が強くなる。……先に帰って。ぼくは、朝まで頑張るから。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "ワン。……わしはな、ずぼらやけど、家族を置いていくほどやない。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "モッチ、寺へ走れ。和尚さんを呼んでくるんや。人間の罠は、人間に外してもらう。"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "人間に……？　リュウ兄ちゃん、ぼくたち、追い払われるかもしれんのに。",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "それでもや。弟の足と、わしらの怖さ、どっちが大事や。"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "nar",
+   "text": "モッチは雪の中を走った。体力いちばんの足が、寺の石段を駆け上がった。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "……兄ちゃん、手、冷たいよ。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "ワンの背中のほうが、冷たいわ。……ほら、もっとこっちへ寄れ。母さんの約束や。三匹で温もるんや。"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "nibulus"
+  },
+  {
+   "op": "bg",
+   "src": "temple",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "temple"
+  },
+  {
+   "op": "nar",
+   "text": "朝護孫子寺。真夜中の鐘楼の下に、モッチは倒れ込むように駆け込んだ。"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_elder",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "和尚さん！　弟が、罠に……南の斜面で、足が……！　お願いです、助けてください！",
+   "eyes": "crying",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "extra_elder",
+   "text": "……分かった。騒ぐな、山が起きる。喜助を呼ぶ。あの男は、罠の外し方を知っておる。"
+  },
+  {
+   "op": "nar",
+   "text": "長老は提灯に火を入れ、麓への道を下り始めた。"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_elder"
+  },
+  {
+   "op": "bg",
+   "src": "snow_night",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "snow_night"
+  },
+  {
+   "op": "nar",
+   "text": "提灯の明かりが、雪の斜面を近づいてきた。"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "extra_villager",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "nibulus",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "おお、こりゃあ、きつく締まっとる。……よしよし、もう大丈夫や。じっとしとれ。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "人間……怖く、ない……？",
+   "eyes": "surprise"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "怖いやろ。わしも、お前らが怖い。……でもな、足を取られた者の前では、同じや。"
+  },
+  {
+   "op": "nar",
+   "text": "喜助の手が、ワイヤーを緩めた。ワンは自由になったが、足は雪の上に力なく投げ出されたままだった。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "足は折れとらん。捻っただけや。……せやけど、今夜は歩けん。わしの畑の小屋で休め。あそこなら、雪も人も来ん。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "……なんで、そこまでしてくれるんです。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "わけは、小屋で話す。お前らに、会わせたいのがおるんや。"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_villager"
+  },
+  {
+   "op": "hide",
+   "actor": "nibulus"
+  },
+  {
+   "op": "nar",
+   "text": "モッチが戻り、ワンを背負った。ジャンボな背中は、弟一人、軽々と運んだ。"
+  },
+  {
+   "op": "bg",
+   "src": "fields",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "fields"
+  },
+  {
+   "op": "nar",
+   "text": "麓の畑。東の空が白み始めていた。小屋の前で、喜助が柵を開けた。"
+  },
+  {
+   "op": "show",
+   "actor": "extra_villager",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "nibulus",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "ワン、重くないか。……ぼくの背中、あったかいやろ。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "うん。……モッチ兄ちゃん、ありがとう。ぼくの計算より、ずっとあったかい。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "さあ、話のわけや。去年な、大雪の夜に、寺の門まで這ってきたイノブタがおった。足を罠にやられて、もう山には帰れん足や。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "わしが引き取って、小屋で看とる。……モッチ、お前が先に、顔を見せてやれ。"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "nar",
+   "text": "モッチは小屋へ駆け込んだ。遅れて、雪の畑をリュウが歩いてきた。"
+  },
+  {
+   "op": "nar",
+   "text": "小屋の奥から、ゆっくりと、大きな影が出てきた。左の前足を、少し引きずっていた。"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "left"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "……その匂い。……その目。"
+  },
+  {
+   "op": "nar",
+   "text": "『リュウ。モッチ。ワン』――一年ぶりに聞く、母の声だった。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "母さん……！　母さん、生きてた……！",
+   "eyes": "crying",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "……母さん。わしら、三匹で、ちゃんと暮らしてきたで。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "母さんは、畑の隅がすっかり気に入っとる。時々、山の方を見て鳴くんや。"
+  },
+  {
+   "op": "say",
+   "actor": "extra_villager",
+   "text": "……会いに来るなら、畑の端まで。朝の早いうちや。人も山も、起きんうちや。"
+  },
+  {
+   "op": "hide",
+   "actor": "extra_villager"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "母さん……！　ぼく、ずっと待ってた……！　ご飯も、ちゃんと食べてたか……！",
+   "eyes": "crying",
+   "mouth": "open"
+  },
+  {
+   "op": "nar",
+   "text": "母は三匹の頭を、順番に鼻で押した。リュウ、モッチ、ワン。名前を確かめるように、何度も。"
+  },
+  {
+   "op": "nar",
+   "text": "雪は止んでいた。ワンは母の腹に顔をうずめ、モッチは小屋の前で、リュウは少し離れて。三匹は久しぶりに、母の匂いの中で眠った。"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "nibulus"
+  },
+  {
+   "op": "bg",
+   "src": "spring",
+   "mode": "full"
+  },
+  {
+   "op": "bg",
+   "src": "spring"
+  },
+  {
+   "op": "nar",
+   "text": "春。信貴山の斜面に若葉が戻った。南の斜面の罠は、喜助が片付けてくれた。"
+  },
+  {
+   "op": "show",
+   "actor": "gou",
+   "pos": "left"
+  },
+  {
+   "op": "show",
+   "actor": "tanurio",
+   "pos": "center"
+  },
+  {
+   "op": "show",
+   "actor": "nibulus",
+   "pos": "right"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "見て、母さんの好きだった場所。桜、満開だよ。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "tanurio",
+   "text": "お弁当は、ぼくが運んできた。畑の芋、母さんの分も、ちゃんとあるで。",
+   "eyes": "fun",
+   "mouth": "open"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "今日は、ええ天気や。……母さんに会う前に、ここで昼寝や。"
+  },
+  {
+   "op": "say",
+   "actor": "nibulus",
+   "text": "リュウ兄ちゃん、またずぼらしてる。"
+  },
+  {
+   "op": "say",
+   "actor": "gou",
+   "text": "ええやないか。……三匹そろって、母さんも無事で。昼寝ぐらい、許されるやろ。"
+  },
+  {
+   "op": "nar",
+   "text": "三兄弟は今も信貴山に暮らしている。月に何度か、朝の早いうちに、麓の畑の端まで下りていく。母に会いに。"
+  },
+  {
+   "op": "hide",
+   "actor": "gou"
+  },
+  {
+   "op": "hide",
+   "actor": "tanurio"
+  },
+  {
+   "op": "hide",
+   "actor": "nibulus"
+  },
+  {
+   "op": "show",
+   "actor": "yui_origin",
+   "pos": "center"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "お母さんとは、もう一緒に暮らせません。",
+   "eyes": "sorrow"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "でも、会いに行ける距離にいます。それは、三匹が自分の力で勝ち取った距離です。",
+   "eyes": "joy"
+  },
+  {
+   "op": "say",
+   "actor": "yui_origin",
+   "text": "NONO座新作『信貴山のイノブタ三兄弟』、これにてお開き。また山のどこかで、お会いしましょう。"
+  },
+  {
+   "op": "hide",
+   "actor": "yui_origin"
+  },
+  {
+   "op": "end"
+  }
+ ]
+}
