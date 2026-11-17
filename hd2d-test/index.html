@@ -200,9 +200,9 @@ const water = new THREE.Mesh(
         // 夕日の反射柱
         float wob = sin(wp.z * 1.4 + uTime * 1.2) * 0.7 + sin(wp.z * 4.2 - uTime * 2.0) * 0.3;
         float d = abs(wp.x - uSunX + wob);
-        float band = pow(max(0.0, 1.0 - d / 6.5), 2.2);
-        float glit = 0.55 + 0.45 * sin(wp.z * 13.0 - uTime * 3.2) * sin(wp.x * 8.0 + uTime * 1.7);
-        col += vec3(1.0, 0.40, 0.12) * band * glit * 1.35;
+        float band = pow(max(0.0, 1.0 - d / 7.5), 2.2);
+        float glit = 0.72 + 0.28 * sin(wp.z * 13.0 - uTime * 3.2) * sin(wp.x * 8.0 + uTime * 1.7);
+        col += vec3(1.0, 0.40, 0.12) * band * glit * 2.1;
         float alpha = mix(0.62, 0.96, smoothstep(0.0, 1.6, uShoreZ - wp.z));
         gl_FragColor = vec4(col, alpha);
       }`,
@@ -384,7 +384,7 @@ const sunGroup = new THREE.Group();
   );
   core.position.z = 0.01;
   sunGroup.add(glow); sunGroup.add(core);
-  sunGroup.position.set(-11, 3.9, -33);
+  sunGroup.position.set(-11, 3.45, -33);
   scene.add(sunGroup);
 }
 
