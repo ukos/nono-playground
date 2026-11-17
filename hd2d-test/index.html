@@ -503,8 +503,10 @@ const clock = new THREE.Clock();
 const camTarget = new THREE.Vector3(0, 0, 0.6);
 const camPos = new THREE.Vector3(0, 4.6, 9.0);
 let facing = { row: 0, flip: 1 };
-let walkTime = 0, rippleTimer = 0, rivalTime = 0;
+let walkPhase = 0, rippleTimer = 0, rivalTime = 0;
+const vel = new THREE.Vector2(0, 0); // 現在の移動速度（慣性つき）
 const WALK_SEQ = [0, 1, 2, 1];
+const STEP_LEN = 0.42; // 1歩（1コマ）で進む距離[m]。足の接地と地面の流れを合わせる
 
 function animate() {
   requestAnimationFrame(animate);
@@ -512,27 +514,42 @@ function animate() {
   const t = clock.elapsedTime;
   waterUniforms.uTime.value = t;
 
-  // 移動
+  // 移動（目標速度へなめらかに追随させ、歩幅は実際に進んだ距離で進める）
   const iv = inputVector();
-  const speed = 3.1;
-  if (iv.mag > 0.08) {
-    player.position.x = THREE.MathUtils.clamp(player.position.x + iv.x * speed * dt, -15.5, 15.5);
-    player.position.z = THREE.MathUtils.clamp(player.position.z + iv.z * speed * dt, -3.05, 6.2);
-    if (Math.abs(iv.x) > Math.abs(iv.z)) {
-      facing = { row: 1, flip: iv.x > 0 ? -1 : 1 }; // 横向きシートは左向き→右移動で反転
-    } else {
-      facing = { row: iv.z < 0 ? 2 : 0, flip: 1 };
+  const MAX_SPEED = 3.1;
+  const accel = 1 - Math.pow(0.0025, dt); // 立ち上がり・停止をなめらかに
+  vel.x += (iv.x * MAX_SPEED - vel.x) * accel;
+  vel.y += (iv.z * MAX_SPEED - vel.y) * accel;
+  const spd = Math.hypot(vel.x, vel.y);
+  if (spd > 0.02) {
+    const px = player.position.x, pz = player.position.z;
+    player.position.x = THREE.MathUtils.clamp(px + vel.x * dt, -15.5, 15.5);
+    player.position.z = THREE.MathUtils.clamp(pz + vel.y * dt, -3.05, 6.2);
+    const moved = Math.hypot(player.position.x - px, player.position.z - pz);
+    if (spd > 0.35) {
+      if (Math.abs(vel.x) > Math.abs(vel.y)) {
+        facing = { row: 1, flip: vel.x > 0 ? -1 : 1 }; // 横向きシートは左向き→右移動で反転
+      } else {
+        facing = { row: vel.y < 0 ? 2 : 0, flip: 1 };
+      }
     }
-    walkTime += dt * 7.5;
-    const col = WALK_SEQ[Math.floor(walkTime) % 4];
-    setFrame(player.userData.tex, facing.row, col);
+    walkPhase += moved / STEP_LEN;
+    if (spd > 0.25) {
+      const col = WALK_SEQ[Math.floor(walkPhase) % 4];
+      setFrame(player.userData.tex, facing.row, col);
+      player.position.y = Math.abs(Math.sin(walkPhase * Math.PI)) * 0.035; // 歩行の上下動
+    } else {
+      setFrame(player.userData.tex, facing.row, 1);
+      player.position.y = 0;
+    }
     // 浅瀬の波紋
-    if (player.position.z < -2.05) {
+    if (player.position.z < -2.05 && spd > 0.4) {
       rippleTimer += dt;
       if (rippleTimer > 0.26) { rippleTimer = 0; spawnRipple(player.position.x, player.position.z + 0.05); }
     }
   } else {
     setFrame(player.userData.tex, facing.row, 1);
+    player.position.y = 0;
   }
   player.scale.x = facing.flip;
 
