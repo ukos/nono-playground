@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>NONO: Blade of the Dawn ― HD-2D lite 試作（湖畔・夕景）</title>
+<style>
+  html, body { margin:0; padding:0; height:100%; overflow:hidden; background:#241b38; }
+  #app { position:fixed; inset:0; }
+  canvas { display:block; }
+  #vignette { position:fixed; inset:0; pointer-events:none;
+    background: radial-gradient(ellipse at 50% 42%, rgba(0,0,0,0) 55%, rgba(10,6,24,0.42) 100%); }
+  #hud { position:fixed; top:10px; left:12px; color:#ffe9c9; pointer-events:none;
+    font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+    text-shadow: 0 1px 3px rgba(0,0,0,.8); }
+  #hud .title { font-size:15px; font-weight:700; letter-spacing:.04em; }
+  #hud .sub { font-size:11px; opacity:.85; margin-top:2px; }
+  #loading { position:fixed; inset:0; display:flex; align-items:center; justify-content:center;
+    color:#ffe9c9; background:#241b38; font-family:sans-serif; font-size:14px; z-index:10;
+    transition: opacity .6s; }
+  #stick { position:fixed; left:22px; bottom:26px; width:112px; height:112px; border-radius:50%;
+    border:2px solid rgba(255,233,201,.35); background:rgba(20,14,40,.25); display:none; z-index:5; }
+  #knob { position:absolute; left:50%; top:50%; width:48px; height:48px; border-radius:50%;
+    background:rgba(255,233,201,.45); transform:translate(-50%,-50%); }
+  @media (pointer: coarse) { #stick { display:block; } }
+</style>
+<script type="importmap">
+{ "imports": {
+  "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+  "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+} }
+</script>
+</head>
+<body>
+<div id="app"></div>
+<div id="vignette"></div>
+<div id="hud">
+  <div class="title">NONO: Blade of the Dawn ― HD-2D lite 試作</div>
+  <div class="sub">湖畔・夕景 ／ 移動： WASD・矢印キー ／ タッチ： 左下スティック</div>
+</div>
+<div id="stick"><div id="knob"></div></div>
+<div id="loading">読み込み中…</div>
+<div id="errbox" style="display:none; position:fixed; left:8px; right:8px; bottom:8px; z-index:20;
+  color:#ffd7d7; background:rgba(80,10,10,.88); font:12px/1.5 monospace; padding:8px 10px;
+  border-radius:6px; white-space:pre-wrap; word-break:break-all;"></div>
+<script>
+  window.__showErr = function (msg) {
+    var el = document.getElementById('errbox');
+    el.style.display = 'block';
+    el.textContent += msg + '\n';
+    var ld = document.getElementById('loading');
+    if (ld) { ld.style.opacity = '1'; ld.textContent = 'エラーが発生しました（画面下部に表示）'; }
+  };
+  window.addEventListener('error', function (e) {
+    window.__showErr('ERROR: ' + (e.message || e.type) + (e.filename ? ' @ ' + e.filename + ':' + e.lineno : ''));
+  });
+  window.addEventListener('unhandledrejection', function (e) {
+    window.__showErr('REJECTION: ' + (e.reason && (e.reason.stack || e.reason.message) || e.reason));
+  });
+</script>
+
+<script type="module">
+import * as THREE from 'three';
+import { EffectComposer } from 'three/addons/postprocessing/EffectComposer.js';
+import { RenderPass } from 'three/addons/postprocessing/RenderPass.js';
+import { UnrealBloomPass } from 'three/addons/postprocessing/UnrealBloomPass.js';
+import { OutputPass } from 'three/addons/postprocessing/OutputPass.js';
+
+const Q = new URLSearchParams(location.search);
+const loadingEl = document.getElementById('loading');
+const manager = new THREE.LoadingManager();
+manager.onLoad = () => { loadingEl.style.opacity = '0'; setTimeout(() => loadingEl.remove(), 700); };
+manager.onError = (u) => { loadingEl.textContent = '読み込みに失敗しました: ' + u; };
+if (Q.has('novig')) document.getElementById('vignette').style.display = 'none';
+const texLoader = new THREE.TextureLoader(manager);
+function loadTex(path, srgb = true) {
+  const t = texLoader.load(path);
+  if (srgb) t.colorSpace = THREE.SRGBColorSpace;
+  t.magFilter = THREE.NearestFilter;
+  t.minFilter = THREE.LinearMipmapLinearFilter;
+  t.generateMipmaps = true;
+  return t;
+}
+
+// ---------- レンダラ / シーン / カメラ ----------
+const renderer = new THREE.WebGLRenderer({ antialias: true, powerPreference: 'high-performance' });
+renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+renderer.setSize(window.innerWidth, window.innerHeight);
+renderer.shadowMap.enabled = true;
+renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+renderer.toneMapping = THREE.ACESFilmicToneMapping;
+renderer.toneMappingExposure = 1.06;
+document.getElementById('app').appendChild(renderer.domElement);
+
+const scene = new THREE.Scene();
+scene.background = new THREE.Color(0x3b2b52);
+scene.fog = new THREE.Fog(0x463257, 20, 52);
+
+const camera = new THREE.PerspectiveCamera(36, window.innerWidth / window.innerHeight, 0.1, 200);
+
+// ---------- ライト ----------
+const sun = new THREE.DirectionalLight(0xffb36b, 2.6);
+sun.position.set(-14, 11, -5);
+sun.castShadow = true;
+sun.shadow.mapSize.set(1024, 1024);
+sun.shadow.camera.left = -18; sun.shadow.camera.right = 18;
+sun.shadow.camera.top = 14; sun.shadow.camera.bottom = -10;
+sun.shadow.camera.far = 60;
+sun.shadow.bias = -0.0006;
+scene.add(sun);
+scene.add(new THREE.HemisphereLight(0x8a6bb8, 0x2e4038, 1.0));
+const fill = new THREE.DirectionalLight(0x7a86ff, 0.35);
+fill.position.set(8, 6, 10);
+scene.add(fill);
+
+// ---------- 地面テクスチャ（Canvas生成のドット絵） ----------
+function groundTexture(base, dots, patch) {
+  const c = document.createElement('canvas'); c.width = c.height = 256;
+  const x = c.getContext('2d');
+  x.fillStyle = base; x.fillRect(0, 0, 256, 256);
+  for (let i = 0; i < 26; i++) { // まだら
+    x.fillStyle = patch; x.globalAlpha = 0.16 + Math.random() * 0.14;
+    const r = 14 + Math.random() * 34;
+    x.beginPath(); x.ellipse(Math.random() * 256, Math.random() * 256, r, r * 0.6, Math.random() * 3, 0, 7); x.fill();
+  }
+  x.globalAlpha = 1;
+  for (let i = 0; i < 5200; i++) {
+    x.fillStyle = dots[(Math.random() * dots.length) | 0];
+    x.fillRect((Math.random() * 256) | 0, (Math.random() * 256) | 0, 2, 2);
+  }
+  const t = new THREE.CanvasTexture(c);
+  t.wrapS = t.wrapT = THREE.RepeatWrapping;
+  t.colorSpace = THREE.SRGBColorSpace;
+  t.magFilter = THREE.NearestFilter;
+  return t;
+}
+const grassTex = groundTexture('#4d7353', ['#40644a', '#5a7f5e', '#65855c', '#486a4d', '#758a63'], '#38543f');
+grassTex.repeat.set(14, 4);
+const grass = new THREE.Mesh(
+  new THREE.PlaneGeometry(90, 18),
+  new THREE.MeshStandardMaterial({ map: grassTex, roughness: 1 })
+);
+grass.rotation.x = -Math.PI / 2;
+grass.position.set(0, 0, 5.4);
+grass.receiveShadow = true;
+scene.add(grass);
+
+const sandTex = groundTexture('#b08d5f', ['#9c7a4e', '#c2a06e', '#a8845a', '#c9ab77'], '#8a6a42');
+sandTex.repeat.set(16, 1);
+const sand = new THREE.Mesh(
+  new THREE.PlaneGeometry(90, 1.7),
+  new THREE.MeshStandardMaterial({ map: sandTex, roughness: 1 })
+);
+sand.rotation.x = -Math.PI / 2;
+sand.position.set(0, -0.03, -2.55);
+sand.receiveShadow = true;
+scene.add(sand);
+
+// 対岸の土台
+const farBank = new THREE.Mesh(
+  new THREE.PlaneGeometry(110, 4),
+  new THREE.MeshStandardMaterial({ color: 0x1d2b33, roughness: 1 })
+);
+farBank.rotation.x = -Math.PI / 2;
+farBank.position.set(0, -0.06, -26);
+scene.add(farBank);
+
+// ---------- 水面（カスタムシェーダー） ----------
+const waterUniforms = {
+  uTime: { value: 0 },
+  uSunX: { value: -16 },
+  uShoreZ: { value: -3.4 },
+};
+const water = new THREE.Mesh(
+  new THREE.PlaneGeometry(110, 36, 1, 1),
+  new THREE.ShaderMaterial({
+    uniforms: waterUniforms,
+    transparent: true,
+    depthWrite: false,
+    vertexShader: /* glsl */`
+      varying vec3 vWorld;
+      void main() {
+        vec4 wp = modelMatrix * vec4(position, 1.0);
+        vWorld = wp.xyz;
+        gl_Position = projectionMatrix * viewMatrix * wp;
+      }`,
+    fragmentShader: /* glsl */`
+      uniform float uTime; uniform float uSunX; uniform float uShoreZ;
+      varying vec3 vWorld;
+      void main() {
+        vec3 wp = vWorld;
+        float dist = clamp((uShoreZ - wp.z) / 34.0, 0.0, 1.0);
+        vec3 deep = vec3(0.030, 0.155, 0.205);
+        vec3 skyc = vec3(0.125, 0.185, 0.325);
+        vec3 col = mix(deep, skyc, dist * 0.75);
+        // ゆらぎ（格子状にならないよう不規則なマスクを掛ける）
+        float n = sin(wp.x * 7.0 + uTime * 1.9) * sin(wp.z * 5.5 - uTime * 1.5)
+                + 0.6 * sin(wp.x * 15.0 - uTime * 2.6) * sin(wp.z * 11.0 + uTime * 2.1);
+        float mask = 0.5 + 0.5 * sin(wp.x * 1.7 - uTime * 0.6) * sin(wp.z * 1.3 + uTime * 0.45);
+        float sparkle = smoothstep(1.02, 1.4, n) * mask * 0.32;
+        col += vec3(0.65, 0.75, 0.8) * sparkle * (0.35 + dist * 0.65);
+        // 夕日の反射柱
+        float wob = sin(wp.z * 1.4 + uTime * 1.2) * 0.7 + sin(wp.z * 4.2 - uTime * 2.0) * 0.3;
+        float d = abs(wp.x - uSunX + wob);
+        float band = pow(max(0.0, 1.0 - d / 6.5), 2.2);
+        float glit = 0.55 + 0.45 * sin(wp.z * 13.0 - uTime * 3.2) * sin(wp.x * 8.0 + uTime * 1.7);
+        col += vec3(1.0, 0.40, 0.12) * band * glit * 1.35;
+        float alpha = mix(0.62, 0.96, smoothstep(0.0, 1.6, uShoreZ - wp.z));
+        gl_FragColor = vec4(col, alpha);
+      }`,
+  })
+);
+water.rotation.x = -Math.PI / 2;
+water.position.set(0, -0.15, -21.2);
+water.renderOrder = 2;
+scene.add(water);
+
+// 波打ち際の泡ライン
+(function foam() {
+  const c = document.createElement('canvas'); c.width = 256; c.height = 16;
+  const x = c.getContext('2d');
+  x.clearRect(0, 0, 256, 16);
+  x.fillStyle = 'rgba(255,246,230,0.9)';
+  for (let i = 0; i < 9; i++) x.fillRect(i * 30 + 4, 6 + (i % 3) * 2, 16, 2);
+  const t = new THREE.CanvasTexture(c);
+  t.wrapS = THREE.RepeatWrapping; t.repeat.set(26, 1);
+  const m = new THREE.Mesh(
+    new THREE.PlaneGeometry(90, 0.3),
+    new THREE.MeshBasicMaterial({ map: t, transparent: true, opacity: 0.5, depthWrite: false })
+  );
+  m.rotation.x = -Math.PI / 2;
+  m.position.set(0, -0.1, -3.32);
+  m.renderOrder = 3;
+  m.onBeforeRender = () => { t.offset.x = (performance.now() * 0.000012) % 1; };
+  scene.add(m);
+})();
+
+// ---------- 背景ボード ----------
+const mountainsTex = loadTex('assets/far_mountains.png');
+mountainsTex.magFilter = THREE.LinearFilter;
+const mountains = new THREE.Mesh(
+  new THREE.PlaneGeometry(97, 48),
+  new THREE.MeshBasicMaterial({ map: mountainsTex, fog: false })
+);
+mountains.position.set(23, 6.2, -34);
+scene.add(mountains);
+
+const farTreesTex = loadTex('assets/far_trees.png');
+farTreesTex.wrapS = THREE.RepeatWrapping;
+farTreesTex.repeat.set(3, 1);
+const farTrees = new THREE.Mesh(
+  new THREE.PlaneGeometry(96, 4.6),
+  new THREE.MeshStandardMaterial({ map: farTreesTex, transparent: true, alphaTest: 0.45, roughness: 1 })
+);
+farTrees.position.set(0, 2.0, -25.2);
+scene.add(farTrees);
+
+// ---------- ビルボード小物 ----------
+const blobTexC = document.createElement('canvas'); blobTexC.width = blobTexC.height = 128;
+{
+  const x = blobTexC.getContext('2d');
+  const g = x.createRadialGradient(64, 64, 6, 64, 64, 62);
+  g.addColorStop(0, 'rgba(0,0,0,0.85)'); g.addColorStop(1, 'rgba(0,0,0,0)');
+  x.fillStyle = g; x.fillRect(0, 0, 128, 128);
+}
+const blobTex = new THREE.CanvasTexture(blobTexC);
+function blobShadow(w, x, z, opacity = 0.36) {
+  const m = new THREE.Mesh(
+    new THREE.PlaneGeometry(w, w * 0.45),
+    new THREE.MeshBasicMaterial({ map: blobTex, transparent: true, opacity, depthWrite: false, color: 0x000000 })
+  );
+  m.rotation.x = -Math.PI / 2;
+  m.position.set(x, 0.015, z);
+  m.renderOrder = 1;
+  scene.add(m);
+  return m;
+}
+function billboard(tex, w, h, x, z, opts = {}) {
+  const geo = new THREE.PlaneGeometry(w, h);
+  geo.translate(0, h / 2, 0);
+  const mat = new THREE.MeshStandardMaterial({
+    map: tex, transparent: true, alphaTest: 0.45, roughness: 1, side: THREE.DoubleSide,
+  });
+  const m = new THREE.Mesh(geo, mat);
+  m.position.set(x, opts.y || 0, z);
+  if (opts.shadow) {
+    m.castShadow = true;
+    m.customDepthMaterial = new THREE.MeshDepthMaterial({
+      depthPacking: THREE.RGBADepthPacking, map: tex, alphaTest: 0.45,
+    });
+  }
+  m.userData.billboard = true;
+  scene.add(m);
+  return m;
+}
+const treeTex = loadTex('assets/tree_a.png');
+billboard(treeTex, 3.4, 3.65, -6.2, -1.0, { shadow: true });
+billboard(treeTex, 2.9, 3.1, -11.5, 1.0, { shadow: true });
+billboard(treeTex, 3.9, 4.2, 8.6, 1.6, { shadow: true });
+billboard(treeTex, 3.1, 3.3, 13.2, -0.6, { shadow: true });
+billboard(treeTex, 2.6, 2.8, -3.4, 3.2, { shadow: true });
+billboard(treeTex, 2.8, 3.0, 11.8, 3.6, { shadow: true });
+
+const grassTuftTex = loadTex('assets/shore_grass.png');
+const tuftSpots = [[-8.5, -1.9], [-5.1, -2.1], [-1.8, -1.8], [1.4, -2.15], [4.9, -1.85], [8.1, -2.1],
+  [11.6, -1.9], [-13.8, -2.0], [14.6, -2.2], [-9.7, 2.6], [6.3, 3.1], [-0.6, 4.2]];
+for (const [x, z] of tuftSpots) {
+  const w = 1.1 + Math.random() * 0.5;
+  billboard(grassTuftTex, w, w * 0.42, x, z);
+  blobShadow(w * 0.9, x, z, 0.22);
+}
+const stonesTex = loadTex('assets/prop_stones.png');
+const driftTex = loadTex('assets/prop_driftwood.png');
+const stumpTex = loadTex('assets/prop_stump.png');
+billboard(stonesTex, 1.15, 0.75, -4.3, -1.95); blobShadow(1.2, -4.3, -1.95, 0.3);
+const drift = billboard(driftTex, 1.5, 0.83, 2.4, -2.5); blobShadow(1.5, 2.4, -2.5, 0.3);
+billboard(stumpTex, 0.95, 0.76, 7.9, 0.9, { shadow: true }); blobShadow(1.0, 7.9, 0.9, 0.3);
+
+// ---------- キャラクター ----------
+function charSheet(path) {
+  const tex = loadTex(path);
+  tex.repeat.set(1 / 3, 1 / 3);
+  return tex;
+}
+function setFrame(tex, rowFromTop, col) {
+  tex.offset.set(col / 3, (2 - rowFromTop) / 3);
+}
+function makeChar(path, h) {
+  const tex = charSheet(path);
+  const w = h * (176 / 224);
+  const geo = new THREE.PlaneGeometry(w, h);
+  geo.translate(0, h / 2, 0);
+  const mat = new THREE.MeshStandardMaterial({
+    map: tex, transparent: true, alphaTest: 0.45, roughness: 1, side: THREE.DoubleSide,
+  });
+  const m = new THREE.Mesh(geo, mat);
+  m.castShadow = true;
+  m.customDepthMaterial = new THREE.MeshDepthMaterial({
+    depthPacking: THREE.RGBADepthPacking, map: tex, alphaTest: 0.45,
+  });
+  m.userData.billboard = true;
+  m.userData.tex = tex;
+  scene.add(m);
+  return m;
+}
+const player = makeChar('assets/nono_sheet.png', 1.18);
+player.position.set(0, 0, 0.6);
+setFrame(player.userData.tex, 0, 1);
+const rival = makeChar('assets/kurogane_sheet.png', 1.12);
+rival.position.set(5.4, 0, -0.7);
+setFrame(rival.userData.tex, 0, 1);
+
+// ---------- ホタル ----------
+const glowTex = loadTex('assets/glow_dot.png');
+glowTex.magFilter = THREE.LinearFilter;
+const fireflies = [];
+{
+  const geo = new THREE.PlaneGeometry(0.34, 0.34);
+  for (let i = 0; i < 24; i++) {
+    const mat = new THREE.MeshBasicMaterial({
+      map: glowTex, transparent: true, blending: THREE.AdditiveBlending,
+      depthWrite: false, opacity: 0.0, fog: false,
+    });
+    const s = new THREE.Mesh(geo, mat);
+    s.userData.seed = Math.random() * 100;
+    s.userData.home = new THREE.Vector3(-14 + Math.random() * 28, 0.5 + Math.random() * 1.3, -2 + Math.random() * 5);
+    s.userData.billboard = true;
+    scene.add(s);
+    fireflies.push(s);
+  }
+}
+
+// ---------- 夕日（スプライトで確実に見せる） ----------
+const sunGroup = new THREE.Group();
+{
+  const glow = new THREE.Mesh(
+    new THREE.PlaneGeometry(7.4, 7.4),
+    new THREE.MeshBasicMaterial({
+      map: glowTex, color: 0xff8f3a, transparent: true, opacity: 0.55,
+      blending: THREE.AdditiveBlending, depthWrite: false, fog: false,
+    })
+  );
+  const core = new THREE.Mesh(
+    new THREE.CircleGeometry(1.12, 40),
+    new THREE.MeshBasicMaterial({ color: 0xffd9a0, fog: false })
+  );
+  core.position.z = 0.01;
+  sunGroup.add(glow); sunGroup.add(core);
+  sunGroup.position.set(-11, 3.9, -33);
+  scene.add(sunGroup);
+}
+
+// ---------- 前景のぼかし草（被写界深度の代用） ----------
+// 画像の読み込み完了を待ってから作る（Texture.image はロード完了まで入らないため）
+const fgGrass = [];
+{
+  const img = new Image();
+  img.onload = () => {
+    const c = document.createElement('canvas'); c.width = 320; c.height = 136;
+    const x = c.getContext('2d');
+    x.filter = 'blur(5px)';
+    x.drawImage(img, 4, 4, 312, 128);
+    const t = new THREE.CanvasTexture(c);
+    t.colorSpace = THREE.SRGBColorSpace;
+    for (const dx of [-5.4, 5.4]) {
+      const geo = new THREE.PlaneGeometry(7.5, 3.2);
+      geo.translate(0, 1.6, 0);
+      const m = new THREE.Mesh(geo, new THREE.MeshBasicMaterial({
+        map: t, transparent: true, opacity: 0.88, depthWrite: false, fog: false,
+      }));
+      m.renderOrder = 5;
+      m.userData.dx = dx;
+      scene.add(m);
+      fgGrass.push(m);
+    }
+  };
+  if (!Q.has('nofg')) img.src = 'assets/shore_grass.png';
+}
+
+// ---------- 足元の波紋 ----------
+const ripples = [];
+{
+  const geo = new THREE.RingGeometry(0.42, 0.5, 40);
+  for (let i = 0; i < 12; i++) {
+    const mat = new THREE.MeshBasicMaterial({
+      color: 0xdff3ee, transparent: true, opacity: 0, depthWrite: false, side: THREE.DoubleSide,
+    });
+    const m = new THREE.Mesh(geo, mat);
+    m.rotation.x = -Math.PI / 2;
+    m.position.y = -0.09;
+    m.visible = false;
+    m.renderOrder = 4;
+    m.userData.age = 99;
+    scene.add(m);
+    ripples.push(m);
+  }
+}
+let rippleIdx = 0;
+function spawnRipple(x, z) {
+  const m = ripples[rippleIdx++ % ripples.length];
+  m.position.x = x; m.position.z = z;
+  m.userData.age = 0;
+  m.visible = true;
+}
+
+// ---------- 入力 ----------
+const keys = {};
+window.addEventListener('keydown', (e) => { keys[e.code] = true; });
+window.addEventListener('keyup', (e) => { keys[e.code] = false; });
+const stickVec = { x: 0, y: 0 };
+{
+  const stick = document.getElementById('stick');
+  const knob = document.getElementById('knob');
+  let pid = null;
+  const setKnob = (dx, dy) => { knob.style.transform = `translate(calc(-50% + ${dx}px), calc(-50% + ${dy}px))`; };
+  stick.addEventListener('pointerdown', (e) => { pid = e.pointerId; stick.setPointerCapture(pid); });
+  stick.addEventListener('pointermove', (e) => {
+    if (e.pointerId !== pid) return;
+    const r = stick.getBoundingClientRect();
+    let dx = e.clientX - (r.left + r.width / 2);
+    let dy = e.clientY - (r.top + r.height / 2);
+    const len = Math.hypot(dx, dy), max = 36;
+    if (len > max) { dx *= max / len; dy *= max / len; }
+    setKnob(dx, dy);
+    stickVec.x = dx / max; stickVec.y = dy / max;
+  });
+  const end = (e) => { if (e.pointerId === pid) { pid = null; stickVec.x = stickVec.y = 0; setKnob(0, 0); } };
+  stick.addEventListener('pointerup', end);
+  stick.addEventListener('pointercancel', end);
+}
+function inputVector() {
+  let x = 0, z = 0;
+  if (keys.KeyA || keys.ArrowLeft) x -= 1;
+  if (keys.KeyD || keys.ArrowRight) x += 1;
+  if (keys.KeyW || keys.ArrowUp) z -= 1;
+  if (keys.KeyS || keys.ArrowDown) z += 1;
+  x += stickVec.x; z += stickVec.y;
+  const len = Math.hypot(x, z);
+  if (len > 1) { x /= len; z /= len; }
+  return { x, z, mag: Math.min(1, len) };
+}
+
+// ---------- ポストプロセス（ブルーム） ----------
+const composer = new EffectComposer(renderer);
+composer.addPass(new RenderPass(scene, camera));
+const bloom = new UnrealBloomPass(new THREE.Vector2(window.innerWidth, window.innerHeight), 0.5, 0.55, 0.82);
+composer.addPass(bloom);
+composer.addPass(new OutputPass());
+
+function applyResponsiveCamera() {
+  const a = window.innerWidth / window.innerHeight;
+  camera.aspect = a;
+  // 縦長画面では縦の視野角を広げて、横が切れすぎないようにする
+  camera.fov = Q.has('fov') ? parseFloat(Q.get('fov')) : (a < 0.75 ? 54 : (a < 1.1 ? 44 : 36));
+  camera.updateProjectionMatrix();
+}
+window.addEventListener('resize', () => {
+  applyResponsiveCamera();
+  renderer.setSize(window.innerWidth, window.innerHeight);
+  composer.setSize(window.innerWidth, window.innerHeight);
+});
+
+// ---------- メインループ ----------
+let __firstFrame = true;
+const clock = new THREE.Clock();
+const camTarget = new THREE.Vector3(0, 0, 0.6);
+const camPos = new THREE.Vector3(0, 4.6, 9.0);
+let facing = { row: 0, flip: 1 };
+let walkTime = 0, rippleTimer = 0, rivalTime = 0;
+const WALK_SEQ = [0, 1, 2, 1];
+
+function animate() {
+  requestAnimationFrame(animate);
+  const dt = Math.min(clock.getDelta(), 0.05);
+  const t = clock.elapsedTime;
+  waterUniforms.uTime.value = t;
+
+  // 移動
+  const iv = inputVector();
+  const speed = 3.1;
+  if (iv.mag > 0.08) {
+    player.position.x = THREE.MathUtils.clamp(player.position.x + iv.x * speed * dt, -15.5, 15.5);
+    player.position.z = THREE.MathUtils.clamp(player.position.z + iv.z * speed * dt, -3.05, 6.2);
+    if (Math.abs(iv.x) > Math.abs(iv.z)) {
+      facing = { row: 1, flip: iv.x > 0 ? -1 : 1 }; // 横向きシートは左向き→右移動で反転
+    } else {
+      facing = { row: iv.z < 0 ? 2 : 0, flip: 1 };
+    }
+    walkTime += dt * 7.5;
+    const col = WALK_SEQ[Math.floor(walkTime) % 4];
+    setFrame(player.userData.tex, facing.row, col);
+    // 浅瀬の波紋
+    if (player.position.z < -2.05) {
+      rippleTimer += dt;
+      if (rippleTimer > 0.26) { rippleTimer = 0; spawnRipple(player.position.x, player.position.z + 0.05); }
+    }
+  } else {
+    setFrame(player.userData.tex, facing.row, 1);
+  }
+  player.scale.x = facing.flip;
+
+  // ライバル（クロガネ）はゆっくりと正面の待機アニメ
+  rivalTime += dt;
+  const rcol = WALK_SEQ[Math.floor(rivalTime * 1.6) % 4];
+  setFrame(rival.userData.tex, 0, rcol);
+
+  // 波紋の更新
+  for (const m of ripples) {
+    if (!m.visible) continue;
+    m.userData.age += dt;
+    const a = m.userData.age / 1.15;
+    if (a >= 1) { m.visible = false; continue; }
+    const s = 0.4 + a * 1.7;
+    m.scale.set(s, s, s);
+    m.material.opacity = 0.55 * (1 - a);
+  }
+
+  // カメラ追従
+  camTarget.lerp(new THREE.Vector3(player.position.x * 0.82, 0, player.position.z * 0.55), 1 - Math.pow(0.002, dt));
+  const wantPos = new THREE.Vector3(camTarget.x, 4.6 + camTarget.z * 0.18, camTarget.z + 8.4);
+  camPos.lerp(wantPos, 1 - Math.pow(0.002, dt));
+  camera.position.copy(camPos);
+  camera.lookAt(camTarget.x, 1.3, camTarget.z - 1.6);
+
+  // 背景ボードと夕日の位置（カメラに追随）
+  mountains.position.x = camTarget.x + 23;
+  sunGroup.position.x = camTarget.x - 11;
+  if (Q.has('nowater')) water.visible = false;
+  if (Q.has('nosun')) sunGroup.visible = false;
+  if (Q.has('nofire')) for (const s of fireflies) s.visible = false;
+  waterUniforms.uSunX.value = sunGroup.position.x;
+
+  // ビルボードをカメラへ向ける（円筒）
+  const camAng = Math.atan2(camera.position.x, camera.position.z);
+  scene.traverse((o) => { if (o.userData.billboard) o.rotation.y = Math.atan2(camera.position.x - o.position.x, camera.position.z - o.position.z); });
+  void camAng;
+
+  // ホタル
+  for (const s of fireflies) {
+    const sd = s.userData.seed, h = s.userData.home;
+    s.position.set(
+      h.x + Math.sin(t * 0.31 + sd) * 1.3 + Math.sin(t * 0.83 + sd * 2.0) * 0.35,
+      h.y + Math.sin(t * 0.57 + sd * 1.7) * 0.3,
+      h.z + Math.cos(t * 0.26 + sd) * 0.9
+    );
+    s.material.opacity = 0.24 + 0.2 * (0.5 + 0.5 * Math.sin(t * 1.4 + sd * 3.1));
+  }
+
+  // 前景のぼかし草（カメラ手前・下の隅）
+  for (const m of fgGrass) {
+    m.position.set(camTarget.x + m.userData.dx, -0.55 + Math.sin(t * 0.9 + m.userData.dx) * 0.03, camTarget.z + 5.4);
+    m.rotation.y = Math.atan2(camera.position.x - m.position.x, camera.position.z - m.position.z);
+    m.rotation.x = -0.28;
+  }
+
+  if (Q.has('nobloom')) renderer.render(scene, camera); else composer.render();
+  if (__firstFrame) {
+    __firstFrame = false;
+    const dbg = document.createElement('div');
+    dbg.id = 'frameok';
+    dbg.style.cssText = 'position:fixed;top:8px;right:10px;z-index:15;color:#b6ffb6;font:11px monospace;text-shadow:0 1px 2px #000;';
+    dbg.textContent = 'FRAME OK ' + renderer.domElement.width + 'x' + renderer.domElement.height + ' [' + [...Q.keys()].join(',') + ']';
+    document.body.appendChild(dbg);
+  }
+}
+applyResponsiveCamera();
+try {
+  animate();
+} catch (err) {
+  window.__showErr('ANIMATE: ' + (err.stack || err.message || err));
+}
+</script>
+</body>
+</html>
