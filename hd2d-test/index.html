@@ -371,28 +371,30 @@ const fireflies = [];
 }
 
 // ---------- 前景のぼかし草（被写界深度の代用） ----------
-function blurredGrassTex() {
-  const img = grassTuftTex.image;
-  const c = document.createElement('canvas'); c.width = 320; c.height = 136;
-  const x = c.getContext('2d');
-  x.filter = 'blur(5px)';
-  x.drawImage(img, 4, 4, 312, 128);
-  const t = new THREE.CanvasTexture(c);
-  t.colorSpace = THREE.SRGBColorSpace;
-  return t;
-}
-const fgGrassTex = blurredGrassTex();
+// 画像の読み込み完了を待ってから作る（Texture.image はロード完了まで入らないため）
 const fgGrass = [];
-for (const dx of [-5.4, 5.4]) {
-  const geo = new THREE.PlaneGeometry(7.5, 3.2);
-  geo.translate(0, 1.6, 0);
-  const m = new THREE.Mesh(geo, new THREE.MeshBasicMaterial({
-    map: fgGrassTex, transparent: true, opacity: 0.88, depthWrite: false, fog: false,
-  }));
-  m.renderOrder = 5;
-  m.userData.dx = dx;
-  scene.add(m);
-  fgGrass.push(m);
+{
+  const img = new Image();
+  img.onload = () => {
+    const c = document.createElement('canvas'); c.width = 320; c.height = 136;
+    const x = c.getContext('2d');
+    x.filter = 'blur(5px)';
+    x.drawImage(img, 4, 4, 312, 128);
+    const t = new THREE.CanvasTexture(c);
+    t.colorSpace = THREE.SRGBColorSpace;
+    for (const dx of [-5.4, 5.4]) {
+      const geo = new THREE.PlaneGeometry(7.5, 3.2);
+      geo.translate(0, 1.6, 0);
+      const m = new THREE.Mesh(geo, new THREE.MeshBasicMaterial({
+        map: t, transparent: true, opacity: 0.88, depthWrite: false, fog: false,
+      }));
+      m.renderOrder = 5;
+      m.userData.dx = dx;
+      scene.add(m);
+      fgGrass.push(m);
+    }
+  };
+  img.src = 'assets/shore_grass.png';
 }
 
 // ---------- 足元の波紋 ----------
@@ -474,17 +476,6 @@ window.addEventListener('resize', () => {
 
 // ---------- メインループ ----------
 let __firstFrame = true;
-window.__stage = function (txt) {
-  let el = document.getElementById('stagebox');
-  if (!el) {
-    el = document.createElement('div');
-    el.id = 'stagebox';
-    el.style.cssText = 'position:fixed;top:34px;right:10px;z-index:15;color:#ffe9a8;font:11px monospace;text-align:right;text-shadow:0 1px 2px #000;white-space:pre-line;';
-    document.body.appendChild(el);
-  }
-  el.textContent += txt + '\n';
-};
-window.__stage('S1: セットアップ完了');
 const clock = new THREE.Clock();
 const camTarget = new THREE.Vector3(0, 0, 0.6);
 const camPos = new THREE.Vector3(0, 5.4, 8.6);
@@ -572,11 +563,7 @@ function animate() {
     m.rotation.x = -0.28;
   }
 
-  if (__firstFrame) window.__stage('S2: 初回フレーム開始');
-  renderer.render(scene, camera);
-  if (__firstFrame) window.__stage('S3: 通常描画OK');
   composer.render();
-  if (__firstFrame) window.__stage('S4: ブルーム描画OK');
   if (__firstFrame) {
     __firstFrame = false;
     const dbg = document.createElement('div');
