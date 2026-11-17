@@ -106,7 +106,7 @@ sun.shadow.camera.top = 14; sun.shadow.camera.bottom = -10;
 sun.shadow.camera.far = 60;
 sun.shadow.bias = -0.0006;
 scene.add(sun);
-scene.add(new THREE.HemisphereLight(0x8a6bb8, 0x2e4038, 0.85));
+scene.add(new THREE.HemisphereLight(0x8a6bb8, 0x2e4038, 1.0));
 const fill = new THREE.DirectionalLight(0x7a86ff, 0.35);
 fill.position.set(8, 6, 10);
 scene.add(fill);
@@ -124,8 +124,7 @@ function groundTexture(base, dots, patch) {
   x.globalAlpha = 1;
   for (let i = 0; i < 5200; i++) {
     x.fillStyle = dots[(Math.random() * dots.length) | 0];
-    x.fillRect((Math.random() * 128) | 0, (Math.random() * 128) | 0, 2, 2);
-    x.fillRect(128 + ((Math.random() * 128) | 0), 128 + ((Math.random() * 128) | 0), 2, 2);
+    x.fillRect((Math.random() * 256) | 0, (Math.random() * 256) | 0, 2, 2);
   }
   const t = new THREE.CanvasTexture(c);
   t.wrapS = t.wrapT = THREE.RepeatWrapping;
@@ -133,7 +132,7 @@ function groundTexture(base, dots, patch) {
   t.magFilter = THREE.NearestFilter;
   return t;
 }
-const grassTex = groundTexture('#476b4d', ['#3a5a41', '#54755a', '#5f7d55', '#425f47', '#6d815c'], '#2f4a38');
+const grassTex = groundTexture('#4d7353', ['#40644a', '#5a7f5e', '#65855c', '#486a4d', '#758a63'], '#38543f');
 grassTex.repeat.set(14, 4);
 const grass = new THREE.Mesh(
   new THREE.PlaneGeometry(90, 18),
@@ -189,13 +188,14 @@ const water = new THREE.Mesh(
       void main() {
         vec3 wp = vWorld;
         float dist = clamp((uShoreZ - wp.z) / 34.0, 0.0, 1.0);
-        vec3 deep = vec3(0.043, 0.20, 0.25);
-        vec3 skyc = vec3(0.16, 0.23, 0.38);
+        vec3 deep = vec3(0.030, 0.155, 0.205);
+        vec3 skyc = vec3(0.125, 0.185, 0.325);
         vec3 col = mix(deep, skyc, dist * 0.75);
-        // ゆらぎ
+        // ゆらぎ（格子状にならないよう不規則なマスクを掛ける）
         float n = sin(wp.x * 7.0 + uTime * 1.9) * sin(wp.z * 5.5 - uTime * 1.5)
                 + 0.6 * sin(wp.x * 15.0 - uTime * 2.6) * sin(wp.z * 11.0 + uTime * 2.1);
-        float sparkle = smoothstep(0.92, 1.35, n) * 0.5;
+        float mask = 0.5 + 0.5 * sin(wp.x * 1.7 - uTime * 0.6) * sin(wp.z * 1.3 + uTime * 0.45);
+        float sparkle = smoothstep(1.02, 1.4, n) * mask * 0.32;
         col += vec3(0.65, 0.75, 0.8) * sparkle * (0.35 + dist * 0.65);
         // 夕日の反射柱
         float wob = sin(wp.z * 1.4 + uTime * 1.2) * 0.7 + sin(wp.z * 4.2 - uTime * 2.0) * 0.3;
@@ -237,20 +237,20 @@ scene.add(water);
 const mountainsTex = loadTex('assets/far_mountains.png');
 mountainsTex.magFilter = THREE.LinearFilter;
 const mountains = new THREE.Mesh(
-  new THREE.PlaneGeometry(130, 64.4),
+  new THREE.PlaneGeometry(97, 48),
   new THREE.MeshBasicMaterial({ map: mountainsTex, fog: false })
 );
-mountains.position.set(33, 15.5, -42);
+mountains.position.set(20, 5, -34);
 scene.add(mountains);
 
 const farTreesTex = loadTex('assets/far_trees.png');
 farTreesTex.wrapS = THREE.RepeatWrapping;
 farTreesTex.repeat.set(3, 1);
 const farTrees = new THREE.Mesh(
-  new THREE.PlaneGeometry(96, 7.4),
+  new THREE.PlaneGeometry(96, 4.6),
   new THREE.MeshStandardMaterial({ map: farTreesTex, transparent: true, alphaTest: 0.45, roughness: 1 })
 );
-farTrees.position.set(0, 3.4, -25.2);
+farTrees.position.set(0, 2.0, -25.2);
 scene.add(farTrees);
 
 // ---------- ビルボード小物 ----------
@@ -478,7 +478,7 @@ window.addEventListener('resize', () => {
 let __firstFrame = true;
 const clock = new THREE.Clock();
 const camTarget = new THREE.Vector3(0, 0, 0.6);
-const camPos = new THREE.Vector3(0, 5.4, 8.6);
+const camPos = new THREE.Vector3(0, 4.6, 9.0);
 let facing = { row: 0, flip: 1 };
 let walkTime = 0, rippleTimer = 0, rivalTime = 0;
 const WALK_SEQ = [0, 1, 2, 1];
@@ -531,14 +531,14 @@ function animate() {
 
   // カメラ追従
   camTarget.lerp(new THREE.Vector3(player.position.x * 0.82, 0, player.position.z * 0.55), 1 - Math.pow(0.002, dt));
-  const wantPos = new THREE.Vector3(camTarget.x, 5.4 + camTarget.z * 0.18, camTarget.z + 8.4);
+  const wantPos = new THREE.Vector3(camTarget.x, 4.6 + camTarget.z * 0.18, camTarget.z + 8.4);
   camPos.lerp(wantPos, 1 - Math.pow(0.002, dt));
   camera.position.copy(camPos);
-  camera.lookAt(camTarget.x, 0.9, camTarget.z - 1.6);
+  camera.lookAt(camTarget.x, 1.05, camTarget.z - 1.6);
 
   // 背景ボードと夕日の位置（カメラに追随）
-  mountains.position.x = camTarget.x + 33;
-  waterUniforms.uSunX.value = mountains.position.x - 49.7;
+  mountains.position.x = camTarget.x + 20;
+  waterUniforms.uSunX.value = mountains.position.x - 37.1;
 
   // ビルボードをカメラへ向ける（円筒）
   const camAng = Math.atan2(camera.position.x, camera.position.z);
