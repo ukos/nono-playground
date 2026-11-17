@@ -557,7 +557,7 @@ function animate() {
   const wantPos = new THREE.Vector3(camTarget.x, 4.6 + camTarget.z * 0.18, camTarget.z + 8.4);
   camPos.lerp(wantPos, 1 - Math.pow(0.002, dt));
   camera.position.copy(camPos);
-  camera.lookAt(camTarget.x, 1.3, camTarget.z - 1.6);
+  camera.lookAt(camTarget.x, 2.0, camTarget.z - 1.6);
 
   // 背景ボードと夕日の位置（カメラに追随）
   mountains.position.x = camTarget.x + 23;
