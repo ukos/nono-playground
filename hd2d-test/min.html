@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HD-2D lite 診断ページ</title>
+<style>
+  body { margin:0; background:#1c1430; color:#ffe9c9; font:14px/1.7 monospace; padding:12px; }
+  #log div { white-space:pre-wrap; word-break:break-all; }
+  .ok { color:#9fe89f; } .ng { color:#ff9a9a; }
+  canvas { display:block; margin-top:10px; border:1px solid #665; }
+</style>
+<script type="importmap">
+{ "imports": {
+  "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+  "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+} }
+</script>
+</head>
+<body>
+<div id="log"><div>M0: HTMLを読み込みました</div></div>
+<script>
+  function log(msg, cls) {
+    var d = document.createElement('div');
+    if (cls) d.className = cls;
+    d.textContent = msg;
+    document.getElementById('log').appendChild(d);
+  }
+  window.__log = log;
+  log('UA: ' + navigator.userAgent);
+  try {
+    var c = document.createElement('canvas');
+    log('WebGL2: ' + (c.getContext('webgl2') ? '利用可' : '不可'), c.getContext('webgl2') ? 'ok' : 'ng');
+    var c2 = document.createElement('canvas');
+    log('WebGL1: ' + (c2.getContext('webgl') ? '利用可' : '不可'));
+  } catch (e) { log('WebGL確認で例外: ' + e.message, 'ng'); }
+</script>
+<script type="module">
+  const log = window.__log;
+  log('M1: モジュールスクリプト開始');
+  let THREE;
+  try {
+    THREE = await import('three');
+    log('M2: three の import 成功', 'ok');
+  } catch (e) {
+    log('M2: three の import 失敗: ' + (e.message || e), 'ng');
+    throw e;
+  }
+  let renderer;
+  try {
+    renderer = new THREE.WebGLRenderer({ antialias: true });
+    renderer.setSize(320, 200);
+    document.body.appendChild(renderer.domElement);
+    log('M3: WebGLRenderer 作成成功', 'ok');
+  } catch (e) {
+    log('M3: WebGLRenderer 作成失敗: ' + (e.message || e), 'ng');
+    throw e;
+  }
+  const scene = new THREE.Scene();
+  scene.background = new THREE.Color(0x8050a0);
+  const camera = new THREE.PerspectiveCamera(40, 320 / 200, 0.1, 100);
+  camera.position.set(0, 1.6, 4.2);
+  camera.lookAt(0, 0.6, 0);
+  const tex = new THREE.TextureLoader().load('assets/far_mountains.png',
+    () => log('M4: 画像 far_mountains.png 読み込み成功', 'ok'),
+    undefined,
+    (err) => log('M4: 画像読み込み失敗: ' + (err && err.message || 'error'), 'ng'));
+  const plane = new THREE.Mesh(
+    new THREE.PlaneGeometry(6, 3),
+    new THREE.MeshBasicMaterial({ map: tex })
+  );
+  plane.position.set(0, 0.8, -2);
+  scene.add(plane);
+  const box = new THREE.Mesh(
+    new THREE.BoxGeometry(0.8, 0.8, 0.8),
+    new THREE.MeshBasicMaterial({ color: 0xffcc66 })
+  );
+  box.position.set(1.2, 0.4, 0);
+  scene.add(box);
+  try {
+    renderer.render(scene, camera);
+    log('M5: 1フレーム描画 成功', 'ok');
+  } catch (e) {
+    log('M5: 描画失敗: ' + (e.message || e), 'ng');
+    throw e;
+  }
+  // ポストプロセス（ブルーム）の確認
+  try {
+    const { EffectComposer } = await import('three/addons/postprocessing/EffectComposer.js');
+    const { RenderPass } = await import('three/addons/postprocessing/RenderPass.js');
+    const { UnrealBloomPass } = await import('three/addons/postprocessing/UnrealBloomPass.js');
+    const { OutputPass } = await import('three/addons/postprocessing/OutputPass.js');
+    const composer = new EffectComposer(renderer);
+    composer.addPass(new RenderPass(scene, camera));
+    composer.addPass(new UnrealBloomPass(new THREE.Vector2(320, 200), 0.5, 0.55, 0.82));
+    composer.addPass(new OutputPass());
+    composer.render();
+    log('M6: ブルーム付き描画 成功', 'ok');
+  } catch (e) {
+    log('M6: ブルーム描画失敗: ' + (e.stack || e.message || e), 'ng');
+  }
+  log('M7: 診断おわり', 'ok');
+</script>
+</body>
+</html>
