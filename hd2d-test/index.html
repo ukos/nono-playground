@@ -202,7 +202,7 @@ const water = new THREE.Mesh(
         float d = abs(wp.x - uSunX + wob);
         float band = pow(max(0.0, 1.0 - d / 6.5), 2.2);
         float glit = 0.55 + 0.45 * sin(wp.z * 13.0 - uTime * 3.2) * sin(wp.x * 8.0 + uTime * 1.7);
-        col += vec3(1.0, 0.52, 0.22) * band * glit * 1.7;
+        col += vec3(1.0, 0.40, 0.12) * band * glit * 1.35;
         float alpha = mix(0.62, 0.96, smoothstep(0.0, 1.6, uShoreZ - wp.z));
         gl_FragColor = vec4(col, alpha);
       }`,
@@ -366,6 +366,26 @@ const fireflies = [];
     scene.add(s);
     fireflies.push(s);
   }
+}
+
+// ---------- 夕日（スプライトで確実に見せる） ----------
+const sunGroup = new THREE.Group();
+{
+  const glow = new THREE.Mesh(
+    new THREE.PlaneGeometry(7.4, 7.4),
+    new THREE.MeshBasicMaterial({
+      map: glowTex, color: 0xff8f3a, transparent: true, opacity: 0.55,
+      blending: THREE.AdditiveBlending, depthWrite: false, fog: false,
+    })
+  );
+  const core = new THREE.Mesh(
+    new THREE.CircleGeometry(1.12, 40),
+    new THREE.MeshBasicMaterial({ color: 0xffd9a0, fog: false })
+  );
+  core.position.z = 0.01;
+  sunGroup.add(glow); sunGroup.add(core);
+  sunGroup.position.set(-11, 3.9, -33);
+  scene.add(sunGroup);
 }
 
 // ---------- 前景のぼかし草（被写界深度の代用） ----------
@@ -538,11 +558,12 @@ function animate() {
   const wantPos = new THREE.Vector3(camTarget.x, 4.6 + camTarget.z * 0.18, camTarget.z + 8.4);
   camPos.lerp(wantPos, 1 - Math.pow(0.002, dt));
   camera.position.copy(camPos);
-  camera.lookAt(camTarget.x, 1.05, camTarget.z - 1.6);
+  camera.lookAt(camTarget.x, 1.3, camTarget.z - 1.6);
 
   // 背景ボードと夕日の位置（カメラに追随）
   mountains.position.x = camTarget.x + 23;
-  waterUniforms.uSunX.value = mountains.position.x - 37.1;
+  sunGroup.position.x = camTarget.x - 11;
+  waterUniforms.uSunX.value = sunGroup.position.x;
 
   // ビルボードをカメラへ向ける（円筒）
   const camAng = Math.atan2(camera.position.x, camera.position.z);
