@@ -316,9 +316,7 @@ billboard(stumpTex, 0.95, 0.76, 7.9, 0.9, { shadow: true }); blobShadow(1.0, 7.9
 
 // ---------- キャラクター ----------
 function charSheet(path) {
-  const base = loadTex(path);
-  const tex = base.clone();
-  tex.needsUpdate = true;
+  const tex = loadTex(path);
   tex.repeat.set(1 / 3, 1 / 3);
   return tex;
 }
@@ -467,9 +465,15 @@ const bloom = new UnrealBloomPass(new THREE.Vector2(window.innerWidth, window.in
 composer.addPass(bloom);
 composer.addPass(new OutputPass());
 
-window.addEventListener('resize', () => {
-  camera.aspect = window.innerWidth / window.innerHeight;
+function applyResponsiveCamera() {
+  const a = window.innerWidth / window.innerHeight;
+  camera.aspect = a;
+  // 縦長画面では縦の視野角を広げて、横が切れすぎないようにする
+  camera.fov = a < 0.75 ? 54 : (a < 1.1 ? 44 : 36);
   camera.updateProjectionMatrix();
+}
+window.addEventListener('resize', () => {
+  applyResponsiveCamera();
   renderer.setSize(window.innerWidth, window.innerHeight);
   composer.setSize(window.innerWidth, window.innerHeight);
 });
@@ -573,6 +577,7 @@ function animate() {
     document.body.appendChild(dbg);
   }
 }
+applyResponsiveCamera();
 try {
   animate();
 } catch (err) {
