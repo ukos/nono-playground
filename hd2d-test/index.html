@@ -200,9 +200,9 @@ const water = new THREE.Mesh(
         // 夕日の反射柱
         float wob = sin(wp.z * 1.4 + uTime * 1.2) * 0.7 + sin(wp.z * 4.2 - uTime * 2.0) * 0.3;
         float d = abs(wp.x - uSunX + wob);
-        float band = pow(max(0.0, 1.0 - d / 5.0), 2.6);
+        float band = pow(max(0.0, 1.0 - d / 6.5), 2.2);
         float glit = 0.55 + 0.45 * sin(wp.z * 13.0 - uTime * 3.2) * sin(wp.x * 8.0 + uTime * 1.7);
-        col += vec3(1.0, 0.52, 0.22) * band * glit * 1.5;
+        col += vec3(1.0, 0.52, 0.22) * band * glit * 1.7;
         float alpha = mix(0.62, 0.96, smoothstep(0.0, 1.6, uShoreZ - wp.z));
         gl_FragColor = vec4(col, alpha);
       }`,
@@ -240,7 +240,7 @@ const mountains = new THREE.Mesh(
   new THREE.PlaneGeometry(97, 48),
   new THREE.MeshBasicMaterial({ map: mountainsTex, fog: false })
 );
-mountains.position.set(20, 5, -34);
+mountains.position.set(23, 6.2, -34);
 scene.add(mountains);
 
 const farTreesTex = loadTex('assets/far_trees.png');
@@ -537,7 +537,7 @@ function animate() {
   camera.lookAt(camTarget.x, 1.05, camTarget.z - 1.6);
 
   // 背景ボードと夕日の位置（カメラに追随）
-  mountains.position.x = camTarget.x + 20;
+  mountains.position.x = camTarget.x + 23;
   waterUniforms.uSunX.value = mountains.position.x - 37.1;
 
   // ビルボードをカメラへ向ける（円筒）
