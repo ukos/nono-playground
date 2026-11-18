@@ -350,6 +350,67 @@ const rival = makeChar('assets/kurogane_sheet.png', 1.12);
 rival.position.set(5.4, 0, -0.7);
 setFrameC(rival, 0, 1);
 
+// ---------- 仲間（ユイ・レイ）：プレイヤーの軌跡をたどって追従 ----------
+const yui = makeChar('assets/yui_sheet8.png', 1.16, 8);
+yui.position.set(-1.4, 0, 1.6);
+setFrameC(yui, 0, 1);
+const rei = makeChar('assets/rei_sheet8.png', 1.15, 8);
+rei.position.set(1.4, 0, 1.8);
+setFrameC(rei, 0, 1);
+for (const ch of [yui, rei]) {
+  ch.userData.vel = new THREE.Vector2();
+  ch.userData.walkPhase = 0;
+  ch.userData.dirRow = 0;
+  ch.userData.rippleTimer = 0;
+}
+const trail = [{ x: 0, z: 0.6 }];
+let trailAcc = 0;
+function trailPoint(dist) {
+  let acc = 0;
+  for (let i = 0; i < trail.length - 1; i++) {
+    const a = trail[i], b = trail[i + 1];
+    const seg = Math.hypot(a.x - b.x, a.z - b.z);
+    if (acc + seg >= dist) {
+      const tt = seg > 0 ? (dist - acc) / seg : 0;
+      return { x: a.x + (b.x - a.x) * tt, z: a.z + (b.z - a.z) * tt };
+    }
+    acc += seg;
+  }
+  return trail[trail.length - 1];
+}
+function updateCompanion(ch, target, dt) {
+  const ud = ch.userData;
+  const dx = target.x - ch.position.x, dz = target.z - ch.position.z;
+  const dist = Math.hypot(dx, dz);
+  const sp = dist > 0.6 ? 3.0 : dist * 3.2; // 目標が近いほど減速して止まる
+  const desX = dist > 0.001 ? dx / dist * sp : 0;
+  const desZ = dist > 0.001 ? dz / dist * sp : 0;
+  const acc = 1 - Math.pow(0.0025, dt);
+  ud.vel.x += (desX - ud.vel.x) * acc;
+  ud.vel.y += (desZ - ud.vel.y) * acc;
+  const spd = Math.hypot(ud.vel.x, ud.vel.y);
+  const px = ch.position.x, pz = ch.position.z;
+  ch.position.x = THREE.MathUtils.clamp(px + ud.vel.x * dt, -15.5, 15.5);
+  ch.position.z = THREE.MathUtils.clamp(pz + ud.vel.y * dt, -3.05, 6.2);
+  const moved = Math.hypot(ch.position.x - px, ch.position.z - pz);
+  if (spd > 0.35) {
+    const ang = Math.atan2(ud.vel.x, ud.vel.y);
+    ud.dirRow = ((Math.round(ang / (Math.PI / 4)) % 8) + 8) % 8;
+  }
+  ud.walkPhase += moved / STEP_LENS[ud.dirRow];
+  if (spd > 0.25) {
+    setFrameC(ch, ud.dirRow, WALK_SEQ[Math.floor(ud.walkPhase) % 4]);
+    ch.position.y = Math.abs(Math.sin(ud.walkPhase * Math.PI)) * BOB_AMPS[ud.dirRow];
+  } else {
+    setFrameC(ch, ud.dirRow, 1);
+    ch.position.y = 0;
+  }
+  if (ch.position.z < -2.05 && spd > 0.4) {
+    ud.rippleTimer += dt;
+    if (ud.rippleTimer > 0.26) { ud.rippleTimer = 0; spawnRipple(ch.position.x, ch.position.z + 0.05); }
+  }
+}
+
 // ---------- ホタル ----------
 const glowTex = loadTex('assets/glow_dot.png');
 glowTex.magFilter = THREE.LinearFilter;
@@ -521,6 +582,7 @@ function animate() {
   waterUniforms.uTime.value = t;
 
   // 移動（目標速度へなめらかに追随させ、歩幅は実際に進んだ距離で進める）
+  const pPrevX = player.position.x, pPrevZ = player.position.z;
   const iv = inputVector();
   const MAX_SPEED = 2.5; // 移動速度[m/s]（2026-11-18 実機感想で 3.1 → 2.5 に）
   const accel = 1 - Math.pow(0.0025, dt); // 立ち上がり・停止をなめらかに
@@ -554,6 +616,18 @@ function animate() {
     setFrameC(player, dirRow, 1);
     player.position.y = 0;
   }
+
+  // 仲間の追従：プレイヤーの軌跡を記録し、ユイは1.1m後・レイは2.2m後をたどる
+  trailAcc += Math.hypot(player.position.x - pPrevX, player.position.z - pPrevZ);
+  if (trailAcc > 0.06) {
+    trailAcc = 0;
+    trail.unshift({ x: player.position.x, z: player.position.z });
+    let total = 0;
+    for (let i = 0; i < trail.length - 1; i++) total += Math.hypot(trail[i].x - trail[i + 1].x, trail[i].z - trail[i + 1].z);
+    while (total > 3.4 && trail.length > 2) trail.pop();
+  }
+  updateCompanion(yui, trailPoint(1.1), dt);
+  updateCompanion(rei, trailPoint(2.2), dt);
 
   // ライバル（クロガネ）はゆっくりと正面の待機アニメ
   rivalTime += dt;
