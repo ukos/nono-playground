@@ -343,7 +343,7 @@ function makeChar(path, h, rows = 3) {
   scene.add(m);
   return m;
 }
-const player = makeChar('assets/nono_sheet8.png', 1.18, 8);
+const player = makeChar('assets/nono_sheet8b.png', 1.18, 8);
 player.position.set(0, 0, 0.6);
 setFrameC(player, 0, 1);
 const rival = makeChar('assets/kurogane_sheet.png', 1.12);
@@ -508,7 +508,9 @@ let dirRow = 0; // 0=S,1=SE,2=E,3=NE,4=N,5=NW,6=W,7=SW（アトラスの行と�
 let walkPhase = 0, rippleTimer = 0, rivalTime = 0;
 const vel = new THREE.Vector2(0, 0); // 現在の移動速度（慣性つき）
 const WALK_SEQ = [0, 1, 2, 1];
-const STEP_LEN = 0.42; // 1歩（1コマ）で進む距離[m]。足の接地と地面の流れを合わせる
+const STEP_LEN = 0.42; // 1歩（1コマ）で進む距離[m]の基準。足の接地と地面の流れを合わせる
+// 方向ごとの歩幅（描画の足の開きに合わせる。背面は歩幅が小さい絵なので短く）
+const STEP_LENS = [0.42, 0.40, 0.42, 0.38, 0.29, 0.38, 0.42, 0.40];
 
 function animate() {
   requestAnimationFrame(animate);
@@ -528,11 +530,11 @@ function animate() {
     player.position.x = THREE.MathUtils.clamp(px + vel.x * dt, -15.5, 15.5);
     player.position.z = THREE.MathUtils.clamp(pz + vel.y * dt, -3.05, 6.2);
     const moved = Math.hypot(player.position.x - px, player.position.z - pz);
-    walkPhase += moved / STEP_LEN;
     if (spd > 0.35) {
       const ang = Math.atan2(vel.x, vel.y);
       dirRow = ((Math.round(ang / (Math.PI / 4)) % 8) + 8) % 8;
     }
+    walkPhase += moved / STEP_LENS[dirRow];
     if (spd > 0.25) {
       const col = WALK_SEQ[Math.floor(walkPhase) % 4];
       setFrameC(player, dirRow, col);
