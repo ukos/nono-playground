@@ -352,10 +352,10 @@ setFrameC(rival, 0, 1);
 
 // ---------- 仲間（ユイ・レイ）：プレイヤーの軌跡をたどって追従 ----------
 const yui = makeChar('assets/yui_sheet8.png', 1.16, 8);
-yui.position.set(-1.07, 0, 0.86);
+yui.position.set(-0.53, 0, 0.73);
 setFrameC(yui, 0, 1);
 const rei = makeChar('assets/rei_sheet8.png', 1.15, 8);
-rei.position.set(-2.13, 0, 1.13);
+rei.position.set(-1.07, 0, 0.86);
 setFrameC(rei, 0, 1);
 for (const ch of [yui, rei]) {
   ch.userData.vel = new THREE.Vector2();
@@ -619,7 +619,7 @@ function animate() {
     player.position.y = 0;
   }
 
-  // 仲間の追従：プレイヤーの軌跡を記録し、ユイは1.1m後・レイは2.2m後をたどる
+  // 仲間の追従：プレイヤーの軌跡を記録し、ユイは0.55m後・レイは1.1m後をたどる（2026-11-18 間隔を半分に）
   trailAcc += Math.hypot(player.position.x - pPrevX, player.position.z - pPrevZ);
   if (trailAcc > 0.06) {
     trailAcc = 0;
@@ -628,8 +628,8 @@ function animate() {
     for (let i = 0; i < trail.length - 1; i++) total += Math.hypot(trail[i].x - trail[i + 1].x, trail[i].z - trail[i + 1].z);
     while (total > 3.4 && trail.length > 2) trail.pop();
   }
-  updateCompanion(yui, trailPoint(1.1), dt);
-  updateCompanion(rei, trailPoint(2.2), dt);
+  updateCompanion(yui, trailPoint(0.55), dt);
+  updateCompanion(rei, trailPoint(1.1), dt);
 
   // ライバル（クロガネ）はゆっくりと正面の待機アニメ
   rivalTime += dt;
