@@ -352,10 +352,10 @@ setFrameC(rival, 0, 1);
 
 // ---------- 仲間（ユイ・レイ）：プレイヤーの軌跡をたどって追従 ----------
 const yui = makeChar('assets/yui_sheet8.png', 1.16, 8);
-yui.position.set(0, 0, 1.7);
+yui.position.set(-0.91, 0, 1.21);
 setFrameC(yui, 0, 1);
 const rei = makeChar('assets/rei_sheet8.png', 1.15, 8);
-rei.position.set(0, 0, 2.8);
+rei.position.set(-1.83, 0, 1.81);
 setFrameC(rei, 0, 1);
 for (const ch of [yui, rei]) {
   ch.userData.vel = new THREE.Vector2();
@@ -363,9 +363,9 @@ for (const ch of [yui, rei]) {
   ch.userData.dirRow = 0;
   ch.userData.rippleTimer = 0;
 }
-// 軌跡はプレイヤーの後方（南）へ伸ばした状態で初期化する（初期状態で仲間がプレイヤーに重ならないため）
+// 軌跡はプレイヤーの後方（南西の斜め）へ伸ばした状態で初期化する（初期状態で仲間が重ならず画面内に収まるため）
 const trail = [];
-for (let i = 0; i <= 16; i++) trail.push({ x: 0, z: 0.6 + i * 0.2 });
+for (let i = 0; i <= 16; i++) trail.push({ x: -0.83 * i * 0.2, z: 0.6 + 0.55 * i * 0.2 });
 let trailAcc = 0;
 function trailPoint(dist) {
   let acc = 0;
