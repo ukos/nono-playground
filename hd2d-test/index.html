@@ -23,6 +23,20 @@
   #knob { position:absolute; left:50%; top:50%; width:48px; height:48px; border-radius:50%;
     background:rgba(255,233,201,.45); transform:translate(-50%,-50%); }
   @media (pointer: coarse) { #stick { display:block; } }
+  #fade { position:fixed; inset:0; background:#000; opacity:0; pointer-events:none;
+    transition:opacity .38s; z-index:8; }
+  #dialog { position:fixed; left:50%; transform:translateX(-50%); bottom:18px;
+    width:min(560px, calc(100% - 32px)); box-sizing:border-box;
+    background:rgba(16,12,32,.88); border:1px solid rgba(255,233,201,.4); border-radius:10px;
+    color:#ffe9c9; padding:12px 16px 10px; display:none; z-index:6; cursor:pointer;
+    font-family:"Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif; }
+  #dialog .name { font-size:12px; font-weight:700; color:#ffd98a; margin-bottom:4px; }
+  #dialog .text { font-size:14px; line-height:1.6; min-height:1.6em; }
+  #dialog .next { text-align:right; font-size:11px; opacity:.75; }
+  #talkBtn { position:fixed; right:22px; bottom:26px; z-index:6; display:none;
+    background:rgba(255,217,138,.92); color:#3a2a12; border:none; border-radius:999px;
+    font-size:15px; font-weight:700; padding:12px 22px; box-shadow:0 2px 10px rgba(0,0,0,.45);
+    cursor:pointer; font-family:"Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif; }
 </style>
 <script type="importmap">
 { "imports": {
@@ -36,9 +50,12 @@
 <div id="vignette"></div>
 <div id="hud">
   <div class="title">NONO: Blade of the Dawn ― HD-2D lite 試作</div>
-  <div class="sub">湖畔・夕景 ／ 移動： WASD・矢印キー ／ タッチ： 左下スティック</div>
+  <div class="sub" id="hudSub">湖畔・夕景 ／ 移動： WASD・矢印キー ／ 話す： Eキー ／ 東の端から森の小道へ</div>
 </div>
 <div id="stick"><div id="knob"></div></div>
+<div id="fade"></div>
+<button id="talkBtn">話す</button>
+<div id="dialog"><div class="name">クロガネ</div><div class="text" id="dialogText"></div><div class="next">▼ タップ／Eキーで進む</div></div>
 <div id="loading">読み込み中…</div>
 <div id="errbox" style="display:none; position:fixed; left:8px; right:8px; bottom:8px; z-index:20;
   color:#ffd7d7; background:rgba(80,10,10,.88); font:12px/1.5 monospace; padding:8px 10px;
@@ -106,6 +123,7 @@ sun.shadow.camera.top = 14; sun.shadow.camera.bottom = -10;
 sun.shadow.camera.far = 60;
 sun.shadow.bias = -0.0006;
 scene.add(sun);
+scene.add(sun.target);
 scene.add(new THREE.HemisphereLight(0x8a6bb8, 0x2e4038, 1.0));
 const fill = new THREE.DirectionalLight(0x7a86ff, 0.35);
 fill.position.set(8, 6, 10);
@@ -291,13 +309,140 @@ function billboard(tex, w, h, x, z, opts = {}) {
   scene.add(m);
   return m;
 }
-const treeTex = loadTex('assets/tree_a.png');
-billboard(treeTex, 3.4, 3.65, -6.2, -1.0, { shadow: true });
-billboard(treeTex, 2.9, 3.1, -11.5, 1.0, { shadow: true });
-billboard(treeTex, 3.9, 4.2, 8.6, 1.6, { shadow: true });
-billboard(treeTex, 3.1, 3.3, 13.2, -0.6, { shadow: true });
-billboard(treeTex, 2.6, 2.8, -3.4, 3.2, { shadow: true });
-billboard(treeTex, 2.8, 3.0, 11.8, 3.6, { shadow: true });
+// ---------- 立体小物（低ポリ＋フラットシェーディングでドット絵の世界に寄せる） ----------
+const colliders = []; // {x, z, r} 当たり判定（円）
+function addCollider(x, z, r) { colliders.push({ x, z, r }); }
+function resolveCollisions(pos, radius) {
+  for (const c of colliders) {
+    const dx = pos.x - c.x, dz = pos.z - c.z;
+    const rr = radius + c.r, d2 = dx * dx + dz * dz;
+    if (d2 < rr * rr && d2 > 1e-8) {
+      const d = Math.sqrt(d2);
+      pos.x = c.x + dx / d * rr;
+      pos.z = c.z + dz / d * rr;
+    }
+  }
+  // クロガネ（NPC）にもぶつかる
+  const dx = pos.x - rival.position.x, dz = pos.z - rival.position.z;
+  const rr = radius + 0.42, d2 = dx * dx + dz * dz;
+  if (d2 < rr * rr && d2 > 1e-8) {
+    const d = Math.sqrt(d2);
+    pos.x = rival.position.x + dx / d * rr;
+    pos.z = rival.position.z + dz / d * rr;
+  }
+}
+const trunkMat = new THREE.MeshStandardMaterial({ color: 0x6b4a33, roughness: 1, flatShading: true });
+const pineMats = [0x2e5940, 0x35684a, 0x3d7350].map((c) => new THREE.MeshStandardMaterial({ color: c, roughness: 1, flatShading: true }));
+function makePine(scale = 1) {
+  const g = new THREE.Group();
+  const trunk = new THREE.Mesh(new THREE.CylinderGeometry(0.09, 0.14, 0.8, 6), trunkMat);
+  trunk.position.y = 0.4;
+  trunk.castShadow = true;
+  g.add(trunk);
+  const tiers = [[1.08, 1.25, 0.95], [0.82, 1.1, 1.65], [0.54, 0.95, 2.3]];
+  tiers.forEach(([r, h, y], i) => {
+    const cone = new THREE.Mesh(new THREE.ConeGeometry(r, h, 8), pineMats[i % pineMats.length]);
+    cone.position.y = y;
+    cone.castShadow = true;
+    g.add(cone);
+  });
+  g.scale.setScalar(scale);
+  g.rotation.y = Math.random() * Math.PI * 2;
+  return g;
+}
+function placePine(x, z, scale = 1, parent = scene) {
+  const p = makePine(scale);
+  p.position.set(x, 0, z);
+  parent.add(p);
+  addCollider(x, z, 0.34 * scale + 0.08);
+  return p;
+}
+const rockMats = [0x8d8d96, 0x7c7c86, 0x9a9aa2].map((c) => new THREE.MeshStandardMaterial({ color: c, roughness: 1, flatShading: true }));
+function makeRock(scale = 1) {
+  const geo = new THREE.IcosahedronGeometry(0.55, 0);
+  const posA = geo.attributes.position;
+  for (let i = 0; i < posA.count; i++) {
+    // 同一座標の頂点は同じ量だけずらす（面が裂けないように位置ハッシュで決める）
+    const vx = posA.getX(i), vy = posA.getY(i), vz = posA.getZ(i);
+    const h1 = Math.abs(Math.sin(vx * 12.9898 + vy * 78.233 + vz * 37.719) * 43758.5453) % 1;
+    const h2 = Math.abs(Math.sin(vx * 26.651 + vy * 11.135 + vz * 83.117) * 28001.8384) % 1;
+    posA.setXYZ(i, vx * (0.85 + h1 * 0.3), vy * (0.55 + h2 * 0.2), vz * (0.85 + (1 - h1) * 0.3));
+  }
+  geo.computeVertexNormals();
+  const m = new THREE.Mesh(geo, rockMats[(Math.random() * rockMats.length) | 0]);
+  m.castShadow = true;
+  m.receiveShadow = true;
+  m.scale.setScalar(scale);
+  m.rotation.y = Math.random() * Math.PI * 2;
+  return m;
+}
+function placeRock(x, z, scale = 1, parent = scene) {
+  const m = makeRock(scale);
+  m.position.set(x, 0.1 * scale, z);
+  parent.add(m);
+  addCollider(x, z, 0.5 * scale + 0.12);
+  return m;
+}
+const driftMat = new THREE.MeshStandardMaterial({ color: 0xa08b6d, roughness: 1, flatShading: true });
+function makeDriftwood() {
+  const g = new THREE.Group();
+  const main = new THREE.Mesh(new THREE.CylinderGeometry(0.075, 0.1, 1.35, 7), driftMat);
+  main.rotation.z = Math.PI / 2 - 0.06;
+  main.position.y = 0.09;
+  main.castShadow = true;
+  g.add(main);
+  const branch = new THREE.Mesh(new THREE.CylinderGeometry(0.045, 0.06, 0.6, 6), driftMat);
+  branch.rotation.z = Math.PI / 2 + 0.5;
+  branch.rotation.y = 0.5;
+  branch.position.set(0.25, 0.16, 0.08);
+  branch.castShadow = true;
+  g.add(branch);
+  return g;
+}
+function placeDriftwood(x, z, rotY = 0, parent = scene) {
+  const g = makeDriftwood();
+  g.position.set(x, 0, z);
+  g.rotation.y = rotY;
+  parent.add(g);
+  const c = Math.cos(rotY), s = Math.sin(rotY);
+  addCollider(x + 0.38 * c, z - 0.38 * s, 0.3);
+  addCollider(x - 0.38 * c, z + 0.38 * s, 0.3);
+  return g;
+}
+function makeStump() {
+  const g = new THREE.Group();
+  const side = new THREE.Mesh(new THREE.CylinderGeometry(0.27, 0.34, 0.44, 9), trunkMat);
+  side.position.y = 0.22;
+  side.castShadow = true;
+  const top = new THREE.Mesh(
+    new THREE.CylinderGeometry(0.27, 0.27, 0.03, 9),
+    new THREE.MeshStandardMaterial({ color: 0xbb9a68, roughness: 1, flatShading: true })
+  );
+  top.position.y = 0.45;
+  g.add(side); g.add(top);
+  return g;
+}
+function makeSignpost() {
+  const g = new THREE.Group();
+  const post = new THREE.Mesh(new THREE.CylinderGeometry(0.05, 0.06, 1.15, 6), trunkMat);
+  post.position.y = 0.57;
+  post.castShadow = true;
+  const board = new THREE.Mesh(
+    new THREE.BoxGeometry(0.78, 0.34, 0.05),
+    new THREE.MeshStandardMaterial({ color: 0x8a6a44, roughness: 1, flatShading: true })
+  );
+  board.position.set(0.18, 0.92, 0);
+  board.castShadow = true;
+  g.add(post); g.add(board);
+  return g;
+}
+// 湖畔の木（旧ビルボードと同じ配置）
+placePine(-6.2, -1.0, 1.3);
+placePine(-11.5, 1.0, 1.1);
+placePine(8.6, 1.6, 1.5);
+placePine(13.2, -0.6, 1.18);
+placePine(-3.4, 3.2, 1.0);
+placePine(11.8, 3.6, 1.07);
 
 const grassTuftTex = loadTex('assets/shore_grass.png');
 const tuftSpots = [[-8.5, -1.9], [-5.1, -2.1], [-1.8, -1.8], [1.4, -2.15], [4.9, -1.85], [8.1, -2.1],
@@ -307,12 +452,15 @@ for (const [x, z] of tuftSpots) {
   billboard(grassTuftTex, w, w * 0.42, x, z);
   blobShadow(w * 0.9, x, z, 0.22);
 }
-const stonesTex = loadTex('assets/prop_stones.png');
-const driftTex = loadTex('assets/prop_driftwood.png');
-const stumpTex = loadTex('assets/prop_stump.png');
-billboard(stonesTex, 1.15, 0.75, -4.3, -1.95); blobShadow(1.2, -4.3, -1.95, 0.3);
-const drift = billboard(driftTex, 1.5, 0.83, 2.4, -2.5); blobShadow(1.5, 2.4, -2.5, 0.3);
-billboard(stumpTex, 0.95, 0.76, 7.9, 0.9, { shadow: true }); blobShadow(1.0, 7.9, 0.9, 0.3);
+// 湖畔の岩・流木・切り株（立体化）
+placeRock(-4.3, -1.95, 1.05);
+placeDriftwood(2.4, -2.5, 0.4);
+{
+  const stump = makeStump();
+  stump.position.set(7.9, 0, 0.9);
+  scene.add(stump);
+  addCollider(7.9, 0.9, 0.38);
+}
 
 // ---------- キャラクター ----------
 function charSheet(path, rows) {
@@ -392,8 +540,8 @@ function updateCompanion(ch, target, dt) {
   ud.vel.y += (desZ - ud.vel.y) * acc;
   const spd = Math.hypot(ud.vel.x, ud.vel.y);
   const px = ch.position.x, pz = ch.position.z;
-  ch.position.x = THREE.MathUtils.clamp(px + ud.vel.x * dt, -15.5, 15.5);
-  ch.position.z = THREE.MathUtils.clamp(pz + ud.vel.y * dt, -3.05, 6.2);
+  ch.position.x = THREE.MathUtils.clamp(px + ud.vel.x * dt, walkBounds.minX, walkBounds.maxX);
+  ch.position.z = THREE.MathUtils.clamp(pz + ud.vel.y * dt, walkBounds.minZ, walkBounds.maxZ);
   const moved = Math.hypot(ch.position.x - px, ch.position.z - pz);
   if (spd > 0.35) {
     const ang = Math.atan2(ud.vel.x, ud.vel.y);
@@ -506,6 +654,187 @@ function spawnRipple(x, z) {
   m.visible = true;
 }
 
+// ---------- エリア（湖畔／森の小道）と画面遷移 ----------
+const AREAS = {
+  lake: {
+    bounds: { minX: -15.5, maxX: 15.5, minZ: -3.05, maxZ: 6.2 },
+    fog: [20, 52], bg: 0x3b2b52, sunI: 2.6, sunPos: [-14, 11, -5], sunTgt: [0, 0, 0],
+    sub: '湖畔・夕景 ／ 移動： WASD・矢印キー ／ 話す： Eキー ／ 東の端から森の小道へ',
+  },
+  forest: {
+    bounds: { minX: 68.6, maxX: 102.5, minZ: -1.9, maxZ: 2.7 },
+    fog: [9, 30], bg: 0x1e2b26, sunI: 1.9, sunPos: [71, 11, -4.5], sunTgt: [85, 0, 0.4],
+    sub: '森の小道 ／ 移動： WASD・矢印キー ／ 西の端から湖畔へ戻る',
+  },
+};
+let area = 'lake';
+let walkBounds = AREAS.lake.bounds;
+function setArea(name) {
+  area = name;
+  const A = AREAS[name];
+  walkBounds = A.bounds;
+  scene.fog.near = A.fog[0];
+  scene.fog.far = A.fog[1];
+  scene.background.set(A.bg);
+  sun.intensity = A.sunI;
+  sun.position.set(A.sunPos[0], A.sunPos[1], A.sunPos[2]);
+  sun.target.position.set(A.sunTgt[0], A.sunTgt[1], A.sunTgt[2]);
+  const lakeVis = name === 'lake';
+  mountains.visible = lakeVis;
+  sunGroup.visible = lakeVis;
+  farTrees.visible = lakeVis;
+  water.visible = lakeVis;
+  document.getElementById('hudSub').textContent = A.sub;
+}
+let transitioning = false;
+function teleportTo(x, z, faceRow, trailSign) {
+  player.position.set(x, 0, z);
+  vel.set(0, 0);
+  dirRow = faceRow;
+  walkPhase = 0;
+  setFrameC(player, dirRow, 1);
+  trail.length = 0;
+  for (let i = 0; i <= 16; i++) trail.push({ x: x + trailSign * 0.97 * i * 0.2, z: z + 0.24 * i * 0.2 });
+  const yp = trailPoint(0.55), rp = trailPoint(1.1);
+  yui.position.set(yp.x, 0, yp.z);
+  rei.position.set(rp.x, 0, rp.z);
+  for (const ch of [yui, rei]) {
+    ch.userData.vel.set(0, 0);
+    ch.userData.walkPhase = 0;
+    ch.userData.dirRow = faceRow;
+    setFrameC(ch, faceRow, 1);
+  }
+  camTarget.set(player.position.x * 0.82, 0, player.position.z * 0.55);
+  camPos.set(camTarget.x, 4.6 + camTarget.z * 0.18, camTarget.z + 8.4);
+}
+function startTransition(to) {
+  if (transitioning) return;
+  transitioning = true;
+  const fade = document.getElementById('fade');
+  fade.style.opacity = '1';
+  setTimeout(() => {
+    if (to === 'forest') { teleportTo(70.2, 0.4, 2, -1); setArea('forest'); }
+    else { teleportTo(14.7, 0.6, 6, 1); setArea('lake'); }
+    fade.style.opacity = '0';
+    setTimeout(() => { transitioning = false; }, 600);
+  }, 420);
+}
+
+// ---------- 森の小道（第2エリア） ----------
+const FOREST_CX = 85;
+{
+  const fGrassTex = groundTexture('#33503a', ['#2a4530', '#3c5c42', '#2f4d36', '#425f45'], '#26402c');
+  fGrassTex.repeat.set(12, 5);
+  const fGround = new THREE.Mesh(
+    new THREE.PlaneGeometry(38, 16),
+    new THREE.MeshStandardMaterial({ map: fGrassTex, roughness: 1 })
+  );
+  fGround.rotation.x = -Math.PI / 2;
+  fGround.position.set(FOREST_CX, 0, 0.4);
+  fGround.receiveShadow = true;
+  scene.add(fGround);
+  const pathTex = groundTexture('#7d6242', ['#6f5638', '#8a6d4a', '#755c3c'], '#63492c');
+  pathTex.repeat.set(12, 1);
+  const path = new THREE.Mesh(
+    new THREE.PlaneGeometry(38, 3.1),
+    new THREE.MeshStandardMaterial({ map: pathTex, roughness: 1 })
+  );
+  path.rotation.x = -Math.PI / 2;
+  path.position.set(FOREST_CX, 0.012, 0.4);
+  path.receiveShadow = true;
+  scene.add(path);
+  // 小道の両側の木立
+  for (let i = 0; i < 30; i++) {
+    const x = 67.5 + Math.random() * 36;
+    const side = i % 2 === 0 ? -1 : 1;
+    const z = 0.4 + side * (2.9 + Math.random() * 3.4);
+    placePine(x, z, 1.05 + Math.random() * 0.65);
+  }
+  // 奥の大木と小物
+  placePine(101.5, -2.4, 2.1);
+  placeRock(76, 1.9, 0.8);
+  placeRock(93, -1.7, 0.65);
+  placeRock(83.5, 2.0, 0.5);
+  placeDriftwood(88.5, -1.3, -0.5);
+  placeDriftwood(72.5, 1.9, 0.9);
+  // 東の奥の樹林ボード
+  const backBoard = new THREE.Mesh(
+    new THREE.PlaneGeometry(30, 5.5),
+    new THREE.MeshStandardMaterial({ map: farTreesTex, transparent: true, alphaTest: 0.45, roughness: 1, color: 0x8a97a3 })
+  );
+  backBoard.rotation.y = -Math.PI / 2;
+  backBoard.position.set(104.5, 2.4, 0.4);
+  scene.add(backBoard);
+  // 森のホタル
+  const ffGeo = new THREE.PlaneGeometry(0.34, 0.34);
+  for (let i = 0; i < 16; i++) {
+    const mat = new THREE.MeshBasicMaterial({
+      map: glowTex, transparent: true, blending: THREE.AdditiveBlending,
+      depthWrite: false, opacity: 0.0, fog: false,
+    });
+    const s = new THREE.Mesh(ffGeo, mat);
+    s.userData.seed = Math.random() * 100;
+    s.userData.home = new THREE.Vector3(69.5 + Math.random() * 31, 0.4 + Math.random() * 1.2, -1.2 + Math.random() * 3.4);
+    s.userData.billboard = true;
+    scene.add(s);
+    fireflies.push(s);
+  }
+}
+// 出入口の道標
+{
+  const s1 = makeSignpost();
+  s1.position.set(15.0, 0, 2.1);
+  scene.add(s1);
+  addCollider(15.0, 2.1, 0.25);
+  const s2 = makeSignpost();
+  s2.position.set(69.7, 0, 2.3);
+  s2.rotation.y = Math.PI;
+  scene.add(s2);
+  addCollider(69.7, 2.3, 0.25);
+}
+
+// ---------- 会話（クロガネ） ----------
+const DIALOG_LINES = [
+  'やあ、のの。夕方の湖は、いいものだろう。',
+  'ユイとレイも一緒か。にぎやかになったな。',
+  '東の森の小道は、もう少し暗い。ホタルが見ごろだよ。',
+];
+const dialogEl = document.getElementById('dialog');
+const dialogText = document.getElementById('dialogText');
+const talkBtn = document.getElementById('talkBtn');
+const dialog = { open: false, idx: 0 };
+function nearRival() {
+  return area === 'lake' &&
+    Math.hypot(player.position.x - rival.position.x, player.position.z - rival.position.z) < 1.5;
+}
+function openDialog() {
+  dialog.open = true;
+  dialog.idx = 0;
+  dialogText.textContent = DIALOG_LINES[0];
+  dialogEl.style.display = 'block';
+  talkBtn.style.display = 'none';
+}
+function advanceDialog() {
+  dialog.idx++;
+  if (dialog.idx >= DIALOG_LINES.length) {
+    dialog.open = false;
+    dialogEl.style.display = 'none';
+  } else {
+    dialogText.textContent = DIALOG_LINES[dialog.idx];
+  }
+}
+function talkAction() {
+  if (dialog.open) advanceDialog();
+  else if (nearRival()) openDialog();
+}
+window.addEventListener('keydown', (e) => {
+  if (e.code === 'KeyE' || e.code === 'Enter' || e.code === 'Space') {
+    if (dialog.open || nearRival()) { e.preventDefault(); talkAction(); }
+  }
+});
+talkBtn.addEventListener('click', talkAction);
+dialogEl.addEventListener('click', () => { if (dialog.open) advanceDialog(); });
+
 // ---------- 入力 ----------
 const keys = {};
 window.addEventListener('keydown', (e) => { keys[e.code] = true; });
@@ -585,7 +914,7 @@ function animate() {
 
   // 移動（目標速度へなめらかに追随させ、歩幅は実際に進んだ距離で進める）
   const pPrevX = player.position.x, pPrevZ = player.position.z;
-  const iv = inputVector();
+  const iv = dialog.open ? { x: 0, z: 0, mag: 0 } : inputVector();
   const MAX_SPEED = 2.5; // 移動速度[m/s]（2026-11-18 実機感想で 3.1 → 2.5 に）
   const accel = 1 - Math.pow(0.0025, dt); // 立ち上がり・停止をなめらかに
   vel.x += (iv.x * MAX_SPEED - vel.x) * accel;
@@ -593,8 +922,9 @@ function animate() {
   const spd = Math.hypot(vel.x, vel.y);
   if (spd > 0.02) {
     const px = player.position.x, pz = player.position.z;
-    player.position.x = THREE.MathUtils.clamp(px + vel.x * dt, -15.5, 15.5);
-    player.position.z = THREE.MathUtils.clamp(pz + vel.y * dt, -3.05, 6.2);
+    player.position.x = THREE.MathUtils.clamp(px + vel.x * dt, walkBounds.minX, walkBounds.maxX);
+    player.position.z = THREE.MathUtils.clamp(pz + vel.y * dt, walkBounds.minZ, walkBounds.maxZ);
+    resolveCollisions(player.position, 0.3);
     const moved = Math.hypot(player.position.x - px, player.position.z - pz);
     if (spd > 0.35) {
       const ang = Math.atan2(vel.x, vel.y);
@@ -629,12 +959,31 @@ function animate() {
     while (total > 3.4 && trail.length > 2) trail.pop();
   }
   updateCompanion(yui, trailPoint(0.55), dt);
+  resolveCollisions(yui.position, 0.3);
   updateCompanion(rei, trailPoint(1.1), dt);
+  resolveCollisions(rei.position, 0.3);
 
-  // ライバル（クロガネ）はゆっくりと正面の待機アニメ
-  rivalTime += dt;
-  const rcol = WALK_SEQ[Math.floor(rivalTime * 1.6) % 4];
-  setFrameC(rival, 0, rcol);
+  // エリア遷移（湖畔の東端⇔森の小道の西端）
+  if (!transitioning) {
+    if (area === 'lake' && player.position.x > 15.25) startTransition('forest');
+    else if (area === 'forest' && player.position.x < 69.4) startTransition('lake');
+  }
+
+  // クロガネ：近づく／会話中はプレイヤーの方を向く。それ以外は正面で待機アニメ
+  const nearK = nearRival();
+  talkBtn.style.display = (!dialog.open && nearK) ? 'block' : 'none';
+  if (dialog.open || nearK) {
+    const kdz = player.position.z - rival.position.z;
+    const kdx = player.position.x - rival.position.x;
+    let krow = 0;
+    if (kdz < -0.45) krow = 2;
+    else if (Math.abs(kdx) > 0.45) krow = 1;
+    setFrameC(rival, krow, 1);
+  } else {
+    rivalTime += dt;
+    const rcol = WALK_SEQ[Math.floor(rivalTime * 1.6) % 4];
+    setFrameC(rival, 0, rcol);
+  }
 
   // 波紋の更新
   for (const m of ripples) {
@@ -654,10 +1003,12 @@ function animate() {
   camera.position.copy(camPos);
   camera.lookAt(camTarget.x, 2.0, camTarget.z - 1.6);
 
-  // 背景ボードと夕日の位置（カメラに追随）
-  mountains.position.x = camTarget.x + 23;
-  sunGroup.position.x = camTarget.x - 11;
-  waterUniforms.uSunX.value = sunGroup.position.x;
+  // 背景ボードと夕日の位置（カメラに追随。湖畔エリアのみ）
+  if (area === 'lake') {
+    mountains.position.x = camTarget.x + 23;
+    sunGroup.position.x = camTarget.x - 11;
+    waterUniforms.uSunX.value = sunGroup.position.x;
+  }
 
   // ビルボードをカメラへ向ける（円筒）
   const camAng = Math.atan2(camera.position.x, camera.position.z);
