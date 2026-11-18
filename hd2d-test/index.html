@@ -510,7 +510,7 @@ const vel = new THREE.Vector2(0, 0); // 現在の移動速度（慣性つき）
 const WALK_SEQ = [0, 1, 2, 1];
 const STEP_LEN = 0.42; // 1歩（1コマ）で進む距離[m]の基準。足の接地と地面の流れを合わせる
 // 方向ごとの歩幅[m/コマ]（背面は足の振りが見えない絵なので、速く回さず他方向と揃える）
-const STEP_LENS = [0.42, 0.40, 0.42, 0.45, 0.50, 0.45, 0.42, 0.40];
+const STEP_LENS = [0.42, 0.40, 0.42, 0.38, 0.42, 0.38, 0.42, 0.40];
 // 方向ごとの上下動[m]。背面は足が見えにくいので体の上下動を大きくして歩行感を出す
 const BOB_AMPS = [0.035, 0.035, 0.035, 0.04, 0.06, 0.04, 0.035, 0.035];
 
@@ -522,7 +522,7 @@ function animate() {
 
   // 移動（目標速度へなめらかに追随させ、歩幅は実際に進んだ距離で進める）
   const iv = inputVector();
-  const MAX_SPEED = 3.1;
+  const MAX_SPEED = 2.5; // 移動速度[m/s]（2026-11-18 実機感想で 3.1 → 2.5 に）
   const accel = 1 - Math.pow(0.0025, dt); // 立ち上がり・停止をなめらかに
   vel.x += (iv.x * MAX_SPEED - vel.x) * accel;
   vel.y += (iv.z * MAX_SPEED - vel.y) * accel;
