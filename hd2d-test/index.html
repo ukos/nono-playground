@@ -315,16 +315,17 @@ const drift = billboard(driftTex, 1.5, 0.83, 2.4, -2.5); blobShadow(1.5, 2.4, -2
 billboard(stumpTex, 0.95, 0.76, 7.9, 0.9, { shadow: true }); blobShadow(1.0, 7.9, 0.9, 0.3);
 
 // ---------- キャラクター ----------
-function charSheet(path) {
+function charSheet(path, rows) {
   const tex = loadTex(path);
-  tex.repeat.set(1 / 3, 1 / 3);
+  tex.repeat.set(1 / 3, 1 / rows);
   return tex;
 }
-function setFrame(tex, rowFromTop, col) {
-  tex.offset.set(col / 3, (2 - rowFromTop) / 3);
+function setFrameC(ch, rowFromTop, col) {
+  const tex = ch.userData.tex, rows = ch.userData.rows;
+  tex.offset.set(col / 3, (rows - 1 - rowFromTop) / rows);
 }
-function makeChar(path, h) {
-  const tex = charSheet(path);
+function makeChar(path, h, rows = 3) {
+  const tex = charSheet(path, rows);
   const w = h * (176 / 224);
   const geo = new THREE.PlaneGeometry(w, h);
   geo.translate(0, h / 2, 0);
@@ -338,15 +339,16 @@ function makeChar(path, h) {
   });
   m.userData.billboard = true;
   m.userData.tex = tex;
+  m.userData.rows = rows;
   scene.add(m);
   return m;
 }
-const player = makeChar('assets/nono_sheet.png', 1.18);
+const player = makeChar('assets/nono_sheet8.png', 1.18, 8);
 player.position.set(0, 0, 0.6);
-setFrame(player.userData.tex, 0, 1);
+setFrameC(player, 0, 1);
 const rival = makeChar('assets/kurogane_sheet.png', 1.12);
 rival.position.set(5.4, 0, -0.7);
-setFrame(rival.userData.tex, 0, 1);
+setFrameC(rival, 0, 1);
 
 // ---------- ホタル ----------
 const glowTex = loadTex('assets/glow_dot.png');
@@ -502,7 +504,7 @@ window.addEventListener('resize', () => {
 const clock = new THREE.Clock();
 const camTarget = new THREE.Vector3(0, 0, 0.6);
 const camPos = new THREE.Vector3(0, 4.6, 9.0);
-let facing = { row: 0, flip: 1 };
+let dirRow = 0; // 0=S,1=SE,2=E,3=NE,4=N,5=NW,6=W,7=SW（アトラスの行と一致）
 let walkPhase = 0, rippleTimer = 0, rivalTime = 0;
 const vel = new THREE.Vector2(0, 0); // 現在の移動速度（慣性つき）
 const WALK_SEQ = [0, 1, 2, 1];
@@ -526,20 +528,17 @@ function animate() {
     player.position.x = THREE.MathUtils.clamp(px + vel.x * dt, -15.5, 15.5);
     player.position.z = THREE.MathUtils.clamp(pz + vel.y * dt, -3.05, 6.2);
     const moved = Math.hypot(player.position.x - px, player.position.z - pz);
-    if (spd > 0.35) {
-      if (Math.abs(vel.x) > Math.abs(vel.y)) {
-        facing = { row: 1, flip: vel.x > 0 ? -1 : 1 }; // 横向きシートは左向き→右移動で反転
-      } else {
-        facing = { row: vel.y < 0 ? 2 : 0, flip: 1 };
-      }
-    }
     walkPhase += moved / STEP_LEN;
+    if (spd > 0.35) {
+      const ang = Math.atan2(vel.x, vel.y);
+      dirRow = ((Math.round(ang / (Math.PI / 4)) % 8) + 8) % 8;
+    }
     if (spd > 0.25) {
       const col = WALK_SEQ[Math.floor(walkPhase) % 4];
-      setFrame(player.userData.tex, facing.row, col);
+      setFrameC(player, dirRow, col);
       player.position.y = Math.abs(Math.sin(walkPhase * Math.PI)) * 0.035; // 歩行の上下動
     } else {
-      setFrame(player.userData.tex, facing.row, 1);
+      setFrameC(player, dirRow, 1);
       player.position.y = 0;
     }
     // 浅瀬の波紋
@@ -548,15 +547,14 @@ function animate() {
       if (rippleTimer > 0.26) { rippleTimer = 0; spawnRipple(player.position.x, player.position.z + 0.05); }
     }
   } else {
-    setFrame(player.userData.tex, facing.row, 1);
+    setFrameC(player, dirRow, 1);
     player.position.y = 0;
   }
-  player.scale.x = facing.flip;
 
   // ライバル（クロガネ）はゆっくりと正面の待機アニメ
   rivalTime += dt;
   const rcol = WALK_SEQ[Math.floor(rivalTime * 1.6) % 4];
-  setFrame(rival.userData.tex, 0, rcol);
+  setFrameC(rival, 0, rcol);
 
   // 波紋の更新
   for (const m of ripples) {
